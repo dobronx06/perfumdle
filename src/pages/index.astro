@@ -511,6 +511,9 @@ const showTabs = modes.length > 1;
       const header = $('guess-header');
       if (!header) return;
       header.innerHTML = '';
+      // Empty header cell for image column
+      const imgHeader = h('div', 'guess-header-cell guess-header-img');
+      header.appendChild(imgHeader);
       const nameCell = h('div', 'guess-header-cell', 'Nom');
       header.appendChild(nameCell);
       ATTRS.forEach((a) => {
@@ -532,6 +535,18 @@ const showTabs = modes.length > 1;
 
     function renderClassiqueGuess(entity: Entity, comparison: Comparison[]): HTMLElement {
       const row = h('div', 'guess-row');
+
+      // Image thumbnail
+      if (entity.image) {
+        const imgCell = h('div', 'guess-cell-img');
+        const img = document.createElement('img');
+        img.src = entity.image;
+        img.alt = entity.nom;
+        img.loading = 'lazy';
+        imgCell.appendChild(img);
+        row.appendChild(imgCell);
+      }
+
       const nameCell = h('div', 'guess-cell-name', entity.nom);
       nameCell.title = entity.nom;
       row.appendChild(nameCell);
@@ -643,6 +658,16 @@ const showTabs = modes.length > 1;
 
       const title = h('h2', 'game-over-title font-display', isWin ? (THEME.victoire ?? 'Victoire !') : (THEME.defaite ?? 'Perdu !'));
       box.appendChild(title);
+
+      // Big reveal image
+      if (st.target.image) {
+        const imgWrap = h('div', 'game-over-img');
+        const img = document.createElement('img');
+        img.src = st.target.image;
+        img.alt = st.target.nom;
+        imgWrap.appendChild(img);
+        box.appendChild(imgWrap);
+      }
 
       const answer = h('p', 'game-over-answer');
       answer.innerHTML = `C'etait <strong>${st.target.nom}</strong>`;

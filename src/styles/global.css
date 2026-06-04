@@ -288,6 +288,12 @@ a {
   padding: 0 0.125rem;
 }
 
+.guess-header-img {
+  min-width: 3rem;
+  width: 3rem;
+  flex: none;
+}
+
 .guess-header-cell:first-child {
   min-width: 6rem;
   flex: none;
@@ -299,6 +305,23 @@ a {
   align-items: stretch;
   gap: 0.25rem;
   padding: 0.125rem 0;
+}
+
+.guess-cell-img {
+  min-width: 3rem;
+  width: 3rem;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+}
+
+.guess-cell-img img {
+  width: 2.5rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 0.25rem;
 }
 
 .guess-cell-name {
@@ -510,6 +533,22 @@ a {
   color: var(--color-danger, #ef4444);
 }
 
+.game-over-img {
+  margin: 1rem auto;
+  width: 8rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-over-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
 .game-over-answer {
   font-size: 0.875rem;
   color: var(--color-text-muted);
@@ -679,9 +718,29 @@ a {
     font-size: 0.6875rem;
   }
 
+  .guess-header-img {
+    min-width: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .guess-cell-img {
+    min-width: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .guess-cell-img img {
+    width: 3rem;
+    height: 3.5rem;
+  }
+
   .guess-header-cell:first-child {
     min-width: 7rem;
     width: 7rem;
+  }
+
+  .game-over-img {
+    width: 10rem;
+    height: 12rem;
   }
 
   .clue-image {
