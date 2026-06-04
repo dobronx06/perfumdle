@@ -1,0 +1,14 @@
+---
+import data from '../data/data.json';
+
+const year = new Date().getFullYear();
+const today = new Date().toISOString().split('T')[0];
+---
+
+<footer class="site-footer">
+  <p>
+    {data.titre} n'est pas affilie a {data.licence}. Tous les noms et
+    marques appartiennent a leurs proprietaires respectifs.
+  </p>
+  <p class="updated">Derniere mise a jour : {today} &middot; &copy; {year} {data.titre}</p>
+</footer>

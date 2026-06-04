@@ -1,0 +1,906 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import AdSlot from '../components/AdSlot.astro';
+import data from '../data/data.json';
+import theme from '../data/theme.json';
+
+const modes = data.modes ?? [];
+const showTabs = modes.length > 1;
+---
+
+<Layout>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header />
+
+    <main class="container" style="flex:1;">
+      <!-- Hero -->
+      <section class="hero">
+        <h1 class="font-display">{data.titre}</h1>
+        <p class="tagline">{theme.accroche_hero}</p>
+        <div class="divider" aria-hidden="true"></div>
+      </section>
+
+      <!-- Mode tabs (hidden if single mode) -->
+      {showTabs && (
+        <nav class="mode-tabs" id="mode-tabs" role="tablist" aria-label="Modes de jeu">
+          {modes.map((mode, i) => (
+            <button
+              role="tab"
+              class="mode-tab"
+              data-mode={mode.id}
+              aria-selected={i === 0 ? 'true' : 'false'}
+              aria-controls={`panel-${mode.id}`}
+              id={`tab-${mode.id}`}
+            >
+              <span aria-hidden="true">{mode.icon}</span>
+              {mode.label}
+            </button>
+          ))}
+        </nav>
+      )}
+
+      <!-- Game panels -->
+      {modes.map((mode, i) => (
+        <section
+          id={`panel-${mode.id}`}
+          role="tabpanel"
+          aria-labelledby={`tab-${mode.id}`}
+          class="game-section"
+          data-mode-panel={mode.id}
+          hidden={i !== 0}
+        >
+          <!-- Clue area for non-classique modes -->
+          {mode.id !== 'classique' && (
+            <div class="clue-panel" id={`clue-${mode.id}`}>
+              {mode.id === 'emoji' && (
+                <p class="clue-emoji" id="emoji-display" aria-label="Indices emoji">...</p>
+              )}
+              {mode.id === 'capacite' && (
+                <p class="clue-text" id="capacite-display">...</p>
+              )}
+              {mode.id === 'image' && (
+                <div class="clue-image" id="image-display">
+                  <span>Pas d'image</span>
+                </div>
+              )}
+            </div>
+          )}
+
+          <!-- Classique: attribute grid -->
+          {mode.id === 'classique' && (
+            <div class="guess-grid">
+              <div class="guess-grid-inner">
+                <div class="guess-header" id="guess-header"></div>
+                <div id="guess-body-classique"></div>
+              </div>
+            </div>
+          )}
+
+          <!-- Non-classique: simple guess list -->
+          {mode.id !== 'classique' && (
+            <div id={`guess-body-${mode.id}`}></div>
+          )}
+        </section>
+      ))}
+
+      <!-- Search input -->
+      <div class="search-wrapper game-section" id="search-wrapper">
+        <label for="search-input" class="sr-only">Rechercher une entite</label>
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Rechercher..."
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+        />
+        <ul class="search-dropdown" id="search-dropdown" role="listbox" hidden></ul>
+      </div>
+
+      <!-- Guess counter -->
+      <p class="guess-counter" id="guess-counter" aria-live="polite"></p>
+
+      <!-- Game over -->
+      <div id="game-over" hidden></div>
+
+      <AdSlot id="ad-mid" />
+    </main>
+
+    <Footer />
+  </div>
+
+  <!-- Embed data at build time -->
+  <script type="application/json" id="game-data" set:html={JSON.stringify(data)} />
+  <script type="application/json" id="game-theme" set:html={JSON.stringify(theme)} />
+
+  <script>
+    // ================================================================
+    // TEMPLATE-DLE — Game Engine
+    // Pure client-side, reads from build-time embedded JSON.
+    // ================================================================
+
+    const DATA = JSON.parse(document.getElementById('game-data')!.textContent!);
+    const THEME = JSON.parse(document.getElementById('game-theme')!.textContent!);
+    const ENTITIES: Entity[] = DATA.entites;
+    const ATTRS: AttrDef[] = DATA.attributs_indices;
+    const MODES: Mode[] = DATA.modes ?? [];
+
+    // ===== Types =====
+    interface Entity {
+      id: number;
+      nom: string;
+      attributs: Record<string, unknown>;
+      image?: string;
+      emoji?: string;
+      capacite?: string;
+    }
+
+    interface AttrDef {
+      key: string;
+      label: string;
+      type: string; // 'exact' | 'ordered' | 'range'
+      yellowRange?: number;
+      enumValues?: string[];
+    }
+
+    interface Mode {
+      id: string;
+      label: string;
+      icon: string;
+      description: string;
+      maxGuesses: number;
+    }
+
+    interface Comparison {
+      key: string;
+      label: string;
+      guessValue: unknown;
+      targetValue: unknown;
+      status: 'correct' | 'close' | 'wrong';
+      arrow?: 'up' | 'down';
+    }
+
+    interface ModeState {
+      target: Entity;
+      guessIds: number[];
+      won: boolean;
+      lost: boolean;
+    }
+
+    // ===== Storage with fallback =====
+    const memoryStore = new Map<string, string>();
+
+    function storageAvailable(): boolean {
+      try {
+        const k = '__test__';
+        localStorage.setItem(k, '1');
+        localStorage.removeItem(k);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+
+    const useLS = storageAvailable();
+
+    function storeGet(key: string): string | null {
+      if (useLS) {
+        try { return localStorage.getItem(key); } catch { /* */ }
+      }
+      return memoryStore.get(key) ?? null;
+    }
+
+    function storeSet(key: string, val: string): void {
+      if (useLS) {
+        try { localStorage.setItem(key, val); return; } catch { /* */ }
+      }
+      memoryStore.set(key, val);
+    }
+
+    // ===== Date & Daily Pick =====
+    function getTodayStr(): string {
+      const d = new Date();
+      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
+    }
+
+    function hashCode(str: string): number {
+      let h = 0;
+      for (let i = 0; i < str.length; i++) {
+        h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+      }
+      return h;
+    }
+
+    function getDailyEntity(mode: string): Entity {
+      const today = getTodayStr();
+      const seed = `${today}|${mode}|dle-template`;
+      const h = Math.abs(hashCode(seed));
+      return ENTITIES[h % ENTITIES.length];
+    }
+
+    // ===== Comparison Engine =====
+    function compareAttributes(guess: Entity, target: Entity): Comparison[] {
+      return ATTRS.map((def) => {
+        const gv = guess.attributs[def.key];
+        const tv = target.attributs[def.key];
+
+        if (def.type === 'exact') {
+          return {
+            key: def.key,
+            label: def.label,
+            guessValue: gv,
+            targetValue: tv,
+            status: gv === tv ? 'correct' : 'wrong',
+          };
+        }
+
+        if (def.type === 'ordered' && def.enumValues) {
+          const gi = def.enumValues.indexOf(gv as string);
+          const ti = def.enumValues.indexOf(tv as string);
+          if (gi === ti) {
+            return { key: def.key, label: def.label, guessValue: gv, targetValue: tv, status: 'correct' as const };
+          }
+          const diff = Math.abs(gi - ti);
+          const arrow: 'up' | 'down' = ti > gi ? 'up' : 'down';
+          return {
+            key: def.key,
+            label: def.label,
+            guessValue: gv,
+            targetValue: tv,
+            status: diff === 1 ? 'close' as const : 'wrong' as const,
+            arrow,
+          };
+        }
+
+        if (def.type === 'range') {
+          const gn = Number(gv);
+          const tn = Number(tv);
+          if (gn === tn) {
+            return { key: def.key, label: def.label, guessValue: gv, targetValue: tv, status: 'correct' as const };
+          }
+          const diff = Math.abs(gn - tn);
+          const arrow: 'up' | 'down' = tn > gn ? 'up' : 'down';
+          const yr = def.yellowRange ?? 1;
+          return {
+            key: def.key,
+            label: def.label,
+            guessValue: gv,
+            targetValue: tv,
+            status: diff <= yr ? 'close' as const : 'wrong' as const,
+            arrow,
+          };
+        }
+
+        return {
+          key: def.key,
+          label: def.label,
+          guessValue: gv,
+          targetValue: tv,
+          status: gv === tv ? 'correct' as const : 'wrong' as const,
+        };
+      });
+    }
+
+    // ===== Streak =====
+    function getYesterday(): string {
+      const d = new Date();
+      d.setUTCDate(d.getUTCDate() - 1);
+      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
+    }
+
+    interface StreakData { current: number; max: number; lastDate: string }
+
+    function getStreak(): StreakData {
+      const raw = storeGet(`${DATA.titre}_streak`);
+      if (raw) {
+        try { return JSON.parse(raw); } catch { /* */ }
+      }
+      return { current: 0, max: 0, lastDate: '' };
+    }
+
+    function updateStreak(won: boolean): void {
+      const today = getTodayStr();
+      const s = getStreak();
+      if (s.lastDate === today) return; // already recorded today
+      if (won) {
+        const yesterday = getYesterday();
+        s.current = s.lastDate === yesterday ? s.current + 1 : 1;
+        s.max = Math.max(s.max, s.current);
+      } else {
+        s.current = 0;
+      }
+      s.lastDate = today;
+      storeSet(`${DATA.titre}_streak`, JSON.stringify(s));
+      renderStreak();
+    }
+
+    function renderStreak(): void {
+      const el = document.getElementById('streak-count');
+      if (el) el.textContent = String(getStreak().current);
+    }
+
+    // ===== Game State Management =====
+    const states = new Map<string, ModeState>();
+    let currentMode: string = MODES[0]?.id ?? 'classique';
+
+    function getMaxGuesses(): number {
+      const m = MODES.find((m) => m.id === currentMode);
+      return m?.maxGuesses ?? 8;
+    }
+
+    function stateKey(mode: string): string {
+      return `${DATA.titre}_${mode}_${getTodayStr()}`;
+    }
+
+    function loadModeState(mode: string): ModeState {
+      const cached = states.get(mode);
+      if (cached) return cached;
+
+      const target = getDailyEntity(mode);
+      const raw = storeGet(stateKey(mode));
+      let guessIds: number[] = [];
+      if (raw) {
+        try { guessIds = JSON.parse(raw).guessIds ?? []; } catch { /* */ }
+      }
+
+      const maxG = (MODES.find((m) => m.id === mode)?.maxGuesses) ?? 8;
+      const won = guessIds.length > 0 && guessIds[guessIds.length - 1] === target.id;
+      const lost = !won && guessIds.length >= maxG;
+
+      const st: ModeState = { target, guessIds, won, lost };
+      states.set(mode, st);
+      return st;
+    }
+
+    function saveModeState(mode: string): void {
+      const st = states.get(mode);
+      if (!st) return;
+      storeSet(stateKey(mode), JSON.stringify({ guessIds: st.guessIds }));
+    }
+
+    // ===== DOM Helpers =====
+    function $(id: string): HTMLElement | null {
+      return document.getElementById(id);
+    }
+
+    function h(tag: string, cls: string, text?: string): HTMLElement {
+      const el = document.createElement(tag);
+      if (cls) el.className = cls;
+      if (text !== undefined) el.textContent = text;
+      return el;
+    }
+
+    // ===== Normalize for search =====
+    function normalize(str: string): string {
+      return str
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
+    }
+
+    // ===== Autocomplete =====
+    const searchInput = $('search-input') as HTMLInputElement;
+    const dropdown = $('search-dropdown')!;
+    let activeIndex = -1;
+    let filteredItems: Entity[] = [];
+
+    function filterEntities(query: string): Entity[] {
+      const st = loadModeState(currentMode);
+      const guessedSet = new Set(st.guessIds);
+      const q = normalize(query);
+      if (q.length < 1) return [];
+
+      return ENTITIES.filter((e) => {
+        if (guessedSet.has(e.id)) return false;
+        return normalize(e.nom).includes(q);
+      }).slice(0, 8);
+    }
+
+    function renderDropdown(items: Entity[]): void {
+      filteredItems = items;
+      activeIndex = -1;
+      if (items.length === 0) {
+        dropdown.hidden = true;
+        return;
+      }
+      dropdown.innerHTML = '';
+      items.forEach((entity, i) => {
+        const li = document.createElement('li');
+        li.role = 'option';
+        li.id = `option-${i}`;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'search-option';
+        btn.dataset.index = String(i);
+
+        // Avatar or placeholder
+        if (entity.image) {
+          const img = document.createElement('img');
+          img.src = entity.image;
+          img.alt = '';
+          img.loading = 'lazy';
+          btn.appendChild(img);
+        } else {
+          const ph = h('span', 'placeholder-avatar', entity.nom.charAt(0).toUpperCase());
+          btn.appendChild(ph);
+        }
+
+        const nameSpan = h('span', '', entity.nom);
+        btn.appendChild(nameSpan);
+
+        btn.addEventListener('mousedown', (e) => {
+          e.preventDefault();
+          selectEntity(entity);
+        });
+        li.appendChild(btn);
+        dropdown.appendChild(li);
+      });
+      dropdown.hidden = false;
+    }
+
+    function updateActiveOption(): void {
+      dropdown.querySelectorAll('.search-option').forEach((el, i) => {
+        (el as HTMLElement).dataset.active = i === activeIndex ? 'true' : 'false';
+      });
+    }
+
+    searchInput.addEventListener('input', () => {
+      renderDropdown(filterEntities(searchInput.value));
+    });
+
+    searchInput.addEventListener('focus', () => {
+      if (searchInput.value.length > 0) {
+        renderDropdown(filterEntities(searchInput.value));
+      }
+    });
+
+    searchInput.addEventListener('blur', () => {
+      setTimeout(() => { dropdown.hidden = true; }, 150);
+    });
+
+    searchInput.addEventListener('keydown', (e: KeyboardEvent) => {
+      if (dropdown.hidden) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIndex = Math.min(activeIndex + 1, filteredItems.length - 1);
+        updateActiveOption();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIndex = Math.max(activeIndex - 1, 0);
+        updateActiveOption();
+      } else if (e.key === 'Enter' && activeIndex >= 0) {
+        e.preventDefault();
+        selectEntity(filteredItems[activeIndex]);
+      } else if (e.key === 'Escape') {
+        dropdown.hidden = true;
+      }
+    });
+
+    // ===== Submit a Guess =====
+    function selectEntity(entity: Entity): void {
+      const st = loadModeState(currentMode);
+      if (st.won || st.lost) return;
+      if (st.guessIds.includes(entity.id)) return;
+
+      st.guessIds.push(entity.id);
+      st.won = entity.id === st.target.id;
+      st.lost = !st.won && st.guessIds.length >= getMaxGuesses();
+      saveModeState(currentMode);
+
+      // Clear search
+      searchInput.value = '';
+      dropdown.hidden = true;
+      filteredItems = [];
+
+      renderCurrentMode();
+
+      if (st.won || st.lost) {
+        updateStreak(st.won);
+        searchInput.disabled = true;
+      } else {
+        searchInput.focus();
+      }
+    }
+
+    // ===== Render: Classique Mode =====
+    function renderClassiqueHeader(): void {
+      const header = $('guess-header');
+      if (!header) return;
+      header.innerHTML = '';
+      const nameCell = h('div', 'guess-header-cell', 'Nom');
+      header.appendChild(nameCell);
+      ATTRS.forEach((a) => {
+        header.appendChild(h('div', 'guess-header-cell', a.label));
+      });
+    }
+
+    function arrowIcon(arrow?: string): string {
+      if (arrow === 'up') return '\u25B2';
+      if (arrow === 'down') return '\u25BC';
+      return '';
+    }
+
+    function statusClass(status: string): string {
+      if (status === 'correct') return 'cell-correct';
+      if (status === 'close') return 'cell-close';
+      return 'cell-wrong';
+    }
+
+    function renderClassiqueGuess(entity: Entity, comparison: Comparison[]): HTMLElement {
+      const row = h('div', 'guess-row');
+      const nameCell = h('div', 'guess-cell-name', entity.nom);
+      nameCell.title = entity.nom;
+      row.appendChild(nameCell);
+
+      comparison.forEach((c) => {
+        const cell = h('div', `guess-cell ${statusClass(c.status)}`);
+        cell.title = c.label;
+        const val = c.guessValue == null ? '\u2014' : String(c.guessValue);
+        const valSpan = h('span', '', val);
+        cell.appendChild(valSpan);
+        if (c.arrow) {
+          const arrowSpan = h('span', 'arrow', arrowIcon(c.arrow));
+          cell.appendChild(arrowSpan);
+        }
+        row.appendChild(cell);
+      });
+      return row;
+    }
+
+    function renderClassiqueBody(): void {
+      const body = $('guess-body-classique');
+      if (!body) return;
+      const st = loadModeState(currentMode);
+      body.innerHTML = '';
+
+      // Show header only if there are guesses
+      const header = $('guess-header');
+      if (header) header.style.display = st.guessIds.length > 0 ? 'flex' : 'none';
+
+      st.guessIds.forEach((id) => {
+        const entity = ENTITIES.find((e) => e.id === id);
+        if (!entity) return;
+        const comparison = compareAttributes(entity, st.target);
+        body.appendChild(renderClassiqueGuess(entity, comparison));
+      });
+    }
+
+    // ===== Render: Emoji Mode =====
+    function renderEmojiClue(): void {
+      const el = $('emoji-display');
+      if (!el) return;
+      const st = loadModeState('emoji');
+      el.textContent = st.target.emoji ?? '\u2753\u2753\u2753';
+    }
+
+    // ===== Render: Capacite Mode =====
+    function renderCapaciteClue(): void {
+      const el = $('capacite-display');
+      if (!el) return;
+      const st = loadModeState('capacite');
+      el.textContent = st.target.capacite ?? 'Aucune description disponible.';
+    }
+
+    // ===== Render: Image Mode =====
+    const BLUR_LEVELS = [20, 16, 12, 8, 4, 0];
+
+    function renderImageClue(): void {
+      const container = $('image-display');
+      if (!container) return;
+      const st = loadModeState('image');
+
+      if (!st.target.image) {
+        container.innerHTML = '<span>Pas d\'image disponible</span>';
+        return;
+      }
+
+      const blurLevel = BLUR_LEVELS[Math.min(st.guessIds.length, BLUR_LEVELS.length - 1)] ?? 0;
+      container.innerHTML = '';
+      const img = document.createElement('img');
+      img.src = st.target.image;
+      img.alt = 'Portrait mystere';
+      img.style.filter = `blur(${blurLevel}px)`;
+      container.appendChild(img);
+    }
+
+    // ===== Render: Simple Guess List (non-classique) =====
+    function renderSimpleGuesses(mode: string): void {
+      const body = $(`guess-body-${mode}`);
+      if (!body) return;
+      const st = loadModeState(mode);
+      body.innerHTML = '';
+
+      st.guessIds.forEach((id) => {
+        const entity = ENTITIES.find((e) => e.id === id);
+        if (!entity) return;
+        const isCorrect = id === st.target.id;
+        const row = h('div', `simple-guess ${isCorrect ? 'is-correct' : 'is-wrong'}`);
+        row.appendChild(h('span', '', entity.nom));
+        row.appendChild(h('span', 'status-icon', isCorrect ? '\u2713' : '\u2717'));
+        body.appendChild(row);
+      });
+    }
+
+    // ===== Render: Game Over =====
+    function renderGameOver(): void {
+      const container = $('game-over')!;
+      const st = loadModeState(currentMode);
+
+      if (!st.won && !st.lost) {
+        container.hidden = true;
+        return;
+      }
+
+      container.hidden = false;
+      const isWin = st.won;
+      container.innerHTML = '';
+
+      const box = h('div', `game-over-box ${isWin ? 'is-win' : 'is-lose'}`);
+
+      const title = h('h2', 'game-over-title font-display', isWin ? (THEME.victoire ?? 'Victoire !') : (THEME.defaite ?? 'Perdu !'));
+      box.appendChild(title);
+
+      const answer = h('p', 'game-over-answer');
+      answer.innerHTML = `C'etait <strong>${st.target.nom}</strong>`;
+      box.appendChild(answer);
+
+      const actions = h('div', 'game-over-actions');
+
+      // Share button
+      const shareBtn = document.createElement('button');
+      shareBtn.className = 'btn-share';
+      shareBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> Partager mon resultat`;
+      shareBtn.addEventListener('click', () => shareResult(shareBtn));
+      actions.appendChild(shareBtn);
+
+      // Countdown
+      const countdownBox = h('div', 'countdown-box');
+      countdownBox.appendChild(h('span', 'countdown-label', 'Prochain puzzle'));
+      const timer = h('span', 'countdown-timer');
+      timer.id = 'countdown-timer';
+      countdownBox.appendChild(timer);
+      actions.appendChild(countdownBox);
+
+      box.appendChild(actions);
+      container.appendChild(box);
+
+      startCountdown();
+    }
+
+    // ===== Render: Guess Counter =====
+    function renderGuessCounter(): void {
+      const el = $('guess-counter');
+      if (!el) return;
+      const st = loadModeState(currentMode);
+      if (st.won || st.lost) {
+        el.textContent = '';
+      } else {
+        el.textContent = `${st.guessIds.length} / ${getMaxGuesses()} essais`;
+      }
+    }
+
+    // ===== Share =====
+    function generateShareText(): string {
+      const st = loadModeState(currentMode);
+      const modeLabel = MODES.find((m) => m.id === currentMode)?.label ?? currentMode;
+      const dayNum = Math.floor(
+        (new Date(getTodayStr()).getTime() - new Date('2025-01-01').getTime()) / 86400000
+      );
+      const score = st.won ? `${st.guessIds.length}/${getMaxGuesses()}` : `X/${getMaxGuesses()}`;
+
+      let grid = '';
+      if (currentMode === 'classique') {
+        grid = st.guessIds
+          .map((id) => {
+            const entity = ENTITIES.find((e) => e.id === id);
+            if (!entity) return '';
+            const comp = compareAttributes(entity, st.target);
+            return comp.map((c) => {
+              if (c.status === 'correct') return '\uD83D\uDFE9';
+              if (c.status === 'close') return '\uD83D\uDFE8';
+              return '\uD83D\uDFE5';
+            }).join('');
+          })
+          .join('\n');
+      } else {
+        grid = st.guessIds
+          .map((id) => (id === st.target.id ? '\uD83D\uDFE9' : '\uD83D\uDFE5'))
+          .join('');
+      }
+
+      const url = DATA.url ?? '';
+      return `${DATA.titre} #${dayNum} ${modeLabel} ${score}\n\n${grid}${url ? '\n\n' + url : ''}`;
+    }
+
+    async function shareResult(btn: HTMLButtonElement): Promise<void> {
+      const text = generateShareText();
+      const url = DATA.url ?? '';
+
+      // Try native share (mobile / supported browsers) first
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            text,
+            ...(url ? { url } : {}),
+          });
+          flashShareButton(btn, true);
+          return;
+        } catch (err: unknown) {
+          // User cancelled or share failed — fall through to clipboard
+          if (err instanceof Error && err.name === 'AbortError') return;
+        }
+      }
+
+      // Fallback: clipboard copy
+      let copied = false;
+      try {
+        await navigator.clipboard.writeText(text);
+        copied = true;
+      } catch {
+        // Last-resort: hidden textarea + execCommand
+        try {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          ta.setAttribute('readonly', '');
+          ta.style.position = 'fixed';
+          ta.style.left = '-9999px';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          copied = document.execCommand('copy');
+          document.body.removeChild(ta);
+        } catch { /* */ }
+      }
+
+      flashShareButton(btn, copied);
+    }
+
+    function flashShareButton(btn: HTMLButtonElement, success: boolean): void {
+      const original = btn.innerHTML;
+      btn.innerHTML = success ? '\u2713 Copie !' : '\u2717 Echec';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.innerHTML = original;
+        btn.disabled = false;
+      }, 2000);
+    }
+
+    // ===== Countdown =====
+    let countdownInterval: ReturnType<typeof setInterval> | null = null;
+
+    function startCountdown(): void {
+      if (countdownInterval) clearInterval(countdownInterval);
+      const update = () => {
+        const el = $('countdown-timer');
+        if (!el) return;
+        const now = new Date();
+        const tomorrow = new Date(Date.UTC(
+          now.getUTCFullYear(),
+          now.getUTCMonth(),
+          now.getUTCDate() + 1
+        ));
+        const diff = tomorrow.getTime() - now.getTime();
+        const hrs = String(Math.floor(diff / 3600000)).padStart(2, '0');
+        const min = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+        const sec = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
+        el.textContent = `${hrs}:${min}:${sec}`;
+      };
+      update();
+      countdownInterval = setInterval(update, 1000);
+    }
+
+    // ===== Mode Switching =====
+    function switchMode(mode: string): void {
+      currentMode = mode;
+
+      // Update tabs
+      document.querySelectorAll('.mode-tab').forEach((tab) => {
+        const tabMode = (tab as HTMLElement).dataset.mode;
+        tab.setAttribute('aria-selected', tabMode === mode ? 'true' : 'false');
+      });
+
+      // Update panels
+      document.querySelectorAll('[data-mode-panel]').forEach((panel) => {
+        const pMode = (panel as HTMLElement).dataset.modePanel;
+        (panel as HTMLElement).hidden = pMode !== mode;
+      });
+
+      // Update search state
+      const st = loadModeState(mode);
+      searchInput.disabled = st.won || st.lost;
+      searchInput.value = '';
+      dropdown.hidden = true;
+
+      renderCurrentMode();
+    }
+
+    function renderCurrentMode(): void {
+      const st = loadModeState(currentMode);
+
+      if (currentMode === 'classique') {
+        renderClassiqueHeader();
+        renderClassiqueBody();
+      } else if (currentMode === 'emoji') {
+        renderEmojiClue();
+        renderSimpleGuesses('emoji');
+      } else if (currentMode === 'capacite') {
+        renderCapaciteClue();
+        renderSimpleGuesses('capacite');
+      } else if (currentMode === 'image') {
+        renderImageClue();
+        renderSimpleGuesses('image');
+      } else {
+        // Unknown mode: treat like classique
+        renderClassiqueHeader();
+        renderClassiqueBody();
+      }
+
+      renderGuessCounter();
+      renderGameOver();
+      renderStreak();
+
+      // Search visibility
+      const wrapper = $('search-wrapper');
+      if (wrapper) {
+        wrapper.style.display = (st.won || st.lost) ? 'none' : '';
+      }
+    }
+
+    // ===== Mode Tab Listeners =====
+    document.querySelectorAll('.mode-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const mode = (tab as HTMLElement).dataset.mode;
+        if (mode) switchMode(mode);
+      });
+    });
+
+    // ===== Init =====
+    function init(): void {
+      // If no modes defined, treat as single classique mode
+      if (MODES.length === 0) {
+        MODES.push({
+          id: 'classique',
+          label: 'Classique',
+          icon: '\uD83C\uDFAF',
+          description: '',
+          maxGuesses: 8,
+        });
+      }
+
+      // Filter out modes that have no compatible entities
+      const validModes = MODES.filter((mode) => {
+        if (mode.id === 'emoji') return ENTITIES.some((e) => e.emoji);
+        if (mode.id === 'capacite') return ENTITIES.some((e) => e.capacite);
+        if (mode.id === 'image') return ENTITIES.some((e) => e.image);
+        return true; // classique always valid
+      });
+
+      // Hide tabs for modes that are not valid
+      if (validModes.length !== MODES.length) {
+        MODES.forEach((mode) => {
+          if (!validModes.find((v) => v.id === mode.id)) {
+            const tab = $(`tab-${mode.id}`);
+            if (tab) tab.style.display = 'none';
+            const panel = document.querySelector(`[data-mode-panel="${mode.id}"]`) as HTMLElement;
+            if (panel) panel.hidden = true;
+          }
+        });
+      }
+
+      // If only one valid mode, hide tabs entirely
+      const tabsNav = $('mode-tabs');
+      if (tabsNav && validModes.length <= 1) {
+        tabsNav.style.display = 'none';
+      }
+
+      currentMode = validModes[0]?.id ?? 'classique';
+      renderCurrentMode();
+    }
+
+    init();
+  </script>
+</Layout>

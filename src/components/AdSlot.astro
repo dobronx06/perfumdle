@@ -1,0 +1,10 @@
+---
+interface Props {
+  id?: string;
+}
+const { id = 'ad' } = Astro.props;
+---
+
+<div class="ad-slot" id={id} role="complementary" aria-label="Emplacement publicitaire">
+  <span>Publicite</span>
+</div>

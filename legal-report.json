@@ -1,0 +1,18 @@
+{
+  "slug": "perfumdle",
+  "sujet": "Jeu quotidien de devinette de parfums iconiques - deviner le parfum du jour a partir d indices (maison, famille olfactive, annee, genre, notes de tete/coeur/fond)",
+  "famille": "dle",
+  "verdict": "VERT",
+  "nature_donnees": "factuelle",
+  "sources_propres_dispo": [
+    "Wikipedia (articles parfums, maisons, notes olfactives)",
+    "Sites officiels des marques (fiches produit publiques)",
+    "Articles de presse parfumerie (Vogue, Elle, GQ, etc.)",
+    "Classification Michael Edwards / Fragrances of the World (familles olfactives)",
+    "Encyclopedies et ouvrages de reference parfumerie"
+  ],
+  "images": "sans image",
+  "contraintes": "1) Ne jamais utiliser de logos, visuels de flacons, polices proprietaires ou assets graphiques des marques. 2) Mention claire 'non affilie' / disclaimer en footer. 3) Usage strictement nominatif des noms de marques et de parfums (texte brut). 4) Ne pas scraper Fragrantica/Basenotes/Parfumo - reconstituer les donnees depuis sources multiples. 5) Ne pas reproduire de textes marketing ou descriptions editoriales. 6) Eviter d inclure le nom d une marque dans le nom de domaine. 7) Si monetisation pub : ne pas placer de pub pour des contrefacons.",
+  "recommandation": "GO",
+  "raison": "Les donnees utilisees sont 100% factuelles et du domaine public : nom du parfum, maison, annee de sortie, famille olfactive, notes. Ces informations ne sont protegees ni par le droit d auteur ni par le droit des bases de donnees (reconstitution depuis sources multiples). L usage des noms de marques releve du fair use nominatif. Des precedents existent (Sporcle, JetPunk, apps Google Play). Aucune image, aucun logo, aucun texte marketing reproduit = risque quasi nul."
+}

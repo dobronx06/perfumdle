@@ -1,0 +1,148 @@
+{
+  "ok": false,
+  "slug": "perfumdle",
+  "family": "dle",
+  "totalEntities": 152,
+  "timestamp": "2026-06-04",
+  "issues": [
+    {
+      "severity": "critical",
+      "type": "missing_sources",
+      "description": "Aucune source citée pour aucun des 152 parfums. Le schéma DLE requiert un champ 'source' et idéalement un booléen 'confirme' pour valider la fiabilité des données.",
+      "affected_entries": "tous",
+      "remediation": "Ajouter pour chaque entité: 'source' (string, ex: 'Fragrantica') et 'confirme' (boolean, false si année ou données non vérifiées)"
+    },
+    {
+      "severity": "high",
+      "type": "imprecise_ingredients",
+      "description": "Plusieurs notes utilisent des termes trop génériques ou non-ingrédients spécifiques qui limitent la jouabilité du DLE",
+      "affected_entries": [
+        {
+          "line": 74,
+          "name": "Dolce",
+          "brand": "Dolce & Gabbana",
+          "problem": "baseNotes contient 'Musky Notes' au lieu d'un composant spécifique (ex: 'White Musk', 'Polysantol')"
+        },
+        {
+          "line": 100,
+          "name": "Miss Dior Blooming Bouquet",
+          "brand": "Dior",
+          "problem": "baseNotes contient 'Apricot' - fruit/note fruitée ne devrait pas être en base notes (trop volatile)"
+        },
+        {
+          "line": 112,
+          "name": "Not a Perfume",
+          "brand": "Juliette Has a Gun",
+          "problem": "topNotes/heartNotes/baseNotes contiennent 'Woody Notes' - générique, non-ingrédient"
+        },
+        {
+          "line": 113,
+          "name": "Molecule 01",
+          "brand": "Escentric Molecules",
+          "problem": "Identique à ligne 112 - 'Woody Notes' générique, non précis"
+        },
+        {
+          "line": 148,
+          "name": "L'Impératrice",
+          "brand": "Dolce & Gabbana",
+          "problem": "baseNotes contient 'Lemon' - agrume volatile, illogique en base (devrait être en top)"
+        }
+      ],
+      "remediation": "Remplacer les termes génériques par des ingrédients spécifiques vérifiables (consulter Fragrantica ou IFF/Givaudan pour compositions exactes)"
+    },
+    {
+      "severity": "high",
+      "type": "implausible_pyramid",
+      "description": "Distribution notes olfactives implausible pour certains parfums",
+      "affected_entries": [
+        {
+          "line": 112,
+          "name": "Not a Perfume",
+          "brand": "Juliette Has a Gun",
+          "problem": "'Ambroxan' en top/heart/base : mono-molécule théorique, composition non-pyramide"
+        },
+        {
+          "line": 113,
+          "name": "Molecule 01",
+          "brand": "Escentric Molecules",
+          "problem": "'Iso E Super' dominant en top/heart/base : composition chimique pure, non pyramide olfactive standard"
+        }
+      ],
+      "remediation": "Réviser compositions pour respecter pyramide olfactive classique (top: volatile court terme, heart: 5-15min, base: 8h+) ou documenter les exceptions"
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "medium",
+      "type": "insufficient_volume",
+      "description": "152 parfums est le minimum acceptable pour un DLE quotidien. Risque de répétition après ~5 mois de jeu.",
+      "recommendation": "Augmenter à 200+ parfums pour longévité 6+ mois. Ajouter créateurs indépendants et noms de niche moins commerciaux."
+    },
+    {
+      "severity": "medium",
+      "type": "gender_imbalance",
+      "description": "Distribution des genres déséquilibrée: 66 Feminine (43%), 43 Masculine (28%), 18 Unisex (12%), 25 non comptés.",
+      "breakdown": {
+        "feminine": 66,
+        "masculine": 43,
+        "unisex": 43
+      },
+      "recommendation": "Rééquilibrer vers 40% Feminine, 35% Masculine, 25% Unisex pour gameplay équitable"
+    },
+    {
+      "severity": "medium",
+      "type": "brand_concentration",
+      "description": "Surreprésentation des grandes maisons (Chanel: 8, Dior: 9, Guerlain: 6, Armani: 5, Yves Saint Laurent: 5)",
+      "recommendation": "Diversifier avec marques niche (Creed, Le Labo, Byredo, etc.) et créateurs indépendants pour enrichir l'expérience"
+    },
+    {
+      "severity": "low",
+      "type": "historical_coverage",
+      "description": "Peu de parfums avant 1920 (seulement Jicky 1889, Colonia 1916 et Tabac Blond/Mitsouko 1919). Période 1880-1918 sous-représentée.",
+      "recommendation": "Ajouter perfumes historiques de prestige (Farina 1709, Kölnisch Wasser, etc.) pour richesse historical"
+    }
+  ],
+  "stats": {
+    "by_gender": {
+      "feminine": 66,
+      "masculine": 43,
+      "unisex": 43
+    },
+    "by_concentration": {
+      "eau_de_toilette": 61,
+      "eau_de_parfum": 81,
+      "eau_de_cologne": 5,
+      "parfum": 4,
+      "other": 1
+    },
+    "year_range": {
+      "earliest": 1889,
+      "latest": 2021,
+      "median": 2006
+    },
+    "brands_count": 74,
+    "top_brands": [
+      "Dior (9)",
+      "Chanel (8)",
+      "Guerlain (6)",
+      "Giorgio Armani (5)",
+      "Yves Saint Laurent (5)",
+      "Paco Rabanne (4)",
+      "Tom Ford (5)",
+      "Jo Malone (3)",
+      "Thierry Mugler (3)",
+      "Lancôme (3)"
+    ]
+  },
+  "data_quality_score": "58/100",
+  "blocking_issues": 1,
+  "non_blocking_issues": 2,
+  "improvements_recommended": 5,
+  "next_steps": [
+    "OBLIGATOIRE : Ajouter schéma de sources pour chaque parfum (source_name, source_url, confirm_date)",
+    "OBLIGATOIRE : Corriger les 5 entrées avec ingrédients génériques/implausibles",
+    "Fortement recommandé : Augmenter volume à 200+ entités avant lancement production",
+    "Recommandé : Rééquilibrer distribution genre et marques",
+    "Recommandé : Enrichir couverture historique (avant 1920)"
+  ]
+}

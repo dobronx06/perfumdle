@@ -1,0 +1,27 @@
+{
+  "couleurs": {
+    "primary": "#D4AF37",
+    "accent": "#D4AF37",
+    "bg": "#0A0A0B",
+    "bgCard": "#1A1A1D",
+    "text": "#E8E6E3",
+    "textMuted": "#9B9B9B",
+    "correct": "#2D5016",
+    "close": "#8B6914",
+    "wrong": "#2A2A2D",
+    "danger": "#ef4444"
+  },
+  "typo": {
+    "titre": "Playfair Display",
+    "corps": "Inter"
+  },
+  "style": {
+    "borderRadius": "0.5rem",
+    "borderColor": "rgba(212,175,55,0.12)"
+  },
+  "ton_editorial": "elegant et mysterieux",
+  "accroche_hero": "Devine le parfum iconique du jour",
+  "victoire": "Bravo, Nez d'Or !",
+  "defaite": "Raté !",
+  "share_label": "Partager mon resultat"
+}

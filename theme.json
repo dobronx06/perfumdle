@@ -1,0 +1,30 @@
+{
+  "siteName": "Perfumdle",
+  "tagline": "Devine le parfum iconique du jour",
+  "description": "Jeu quotidien de devinette de parfums de luxe. Identifie le parfum mystère à partir d'indices progressifs : maison, famille olfactive, année, notes.",
+  "colors": {
+    "primary": "#D4AF37",
+    "secondary": "#B8860B",
+    "accent": "#FFD700",
+    "background": "#0A0A0B",
+    "surface": "#1A1A1D",
+    "text": "#E8E6E3",
+    "textSecondary": "#9B9B9B",
+    "correct": "#2D5016",
+    "misplaced": "#8B6914",
+    "wrong": "#2A2A2D"
+  },
+  "fonts": {
+    "heading": "'Playfair Display', 'Georgia', serif",
+    "body": "'Inter', 'Helvetica Neue', sans-serif"
+  },
+  "mood": "Atelier de nuit : élégance sombre et mystérieuse d'un laboratoire de parfumeur haute couture, où les essences dorées brillent dans la pénombre. Intime, raffiné, sensuel.",
+  "visualDirection": "Fond noir profond (quasi-anthracite) évoquant le luxe absolu et la nuit. Accents or ambré pour les actions clés, rappelant la lumière sur le verre et les essences précieuses. Typographie display sérif élégante pour les titres (Playfair Display = codes éditoriaux haute couture, Vogue, Tom Ford). Coins légèrement arrondis (6px) pour contraster la géométrie stricte avec une touche organique sensuelle. Ombres subtiles créant de la profondeur, comme des flacons sur une étagère rétro-éclairée. Densité aérée pour respirer (espaces généreux = luxe). Pas de logo de marque, mais des éléments textuels mis en majesté comme des étiquettes calligraphiées.",
+  "decorativeImages": [
+    "Photo macro d'une goutte d'essence dorée tombant dans l'obscurité (Unsplash: perfume drop, amber liquid)",
+    "Ingrédients bruts de parfumerie sur fond noir : fleurs blanches, bois de santal, épices, dans une lumière chiaroscuro",
+    "Fumée élégante dorée se dispersant sur fond noir (encens, mystère olfactif)",
+    "Main gantée tenant un flacon en verre ancien à contre-jour doré (sans marque visible)",
+    "Composition abstraite de notes olfactives : pétales de rose, zestes d'agrumes, bâtons de vanille, cuir, sur velours noir"
+  ]
+}
