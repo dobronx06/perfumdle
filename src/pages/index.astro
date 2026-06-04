@@ -536,16 +536,16 @@ const showTabs = modes.length > 1;
     function renderClassiqueGuess(entity: Entity, comparison: Comparison[]): HTMLElement {
       const row = h('div', 'guess-row');
 
-      // Image thumbnail
+      // Image thumbnail (always render cell for alignment)
+      const imgCell = h('div', 'guess-cell-img');
       if (entity.image) {
-        const imgCell = h('div', 'guess-cell-img');
         const img = document.createElement('img');
         img.src = entity.image;
         img.alt = entity.nom;
         img.loading = 'lazy';
         imgCell.appendChild(img);
-        row.appendChild(imgCell);
       }
+      row.appendChild(imgCell);
 
       const nameCell = h('div', 'guess-cell-name', entity.nom);
       nameCell.title = entity.nom;
