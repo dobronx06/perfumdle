@@ -259,7 +259,8 @@ a {
 /* --- Guess Grid (Classique mode) --- */
 .guess-grid {
   width: 100%;
-  overflow-x: auto;
+  max-height: 18rem;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 0.25rem;
 }
@@ -269,6 +270,10 @@ a {
 }
 
 .guess-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--color-bg);
   display: flex;
   align-items: center;
   gap: 0.25rem;
