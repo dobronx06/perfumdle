@@ -1,0 +1,286 @@
+{
+  "hub": {
+    "slug": "jeu",
+    "title_fr": "Perfumdle -- Devinez le parfum du jour",
+    "title_en": "Perfumdle -- Guess the daily perfume",
+    "target_query_fr": "jeu deviner parfum du jour",
+    "target_query_en": "guess the perfume game daily",
+    "description": "Le hub est la page de jeu quotidien (index /fr/ et /en/). C'est le coeur du site : un jeu Wordle-like ou l'on devine un parfum iconique chaque jour en comparant maison, annee, genre, famille olfactive et concentration. 150 parfums dans la base. C'est vers cette page que convergent tous les liens internes du site."
+  },
+  "spokes": [
+    {
+      "slug": "guide-familles-olfactives",
+      "axe": "education-olfactive",
+      "title_fr": "Les 7 familles olfactives en parfumerie : guide complet",
+      "title_en": "The 7 olfactory families in perfumery: complete guide",
+      "target_query_fr": "familles olfactives parfum guide",
+      "target_query_en": "olfactory families perfume guide",
+      "description": "Page pilier educative. Presente les 7 grandes familles olfactives (florale, orientale, boisee, chypree, fougere, hesperidee, aromatique) avec leurs sous-familles. Pour chaque famille : definition, ingredients cles, exemples concrets tires de la base Perfumdle (ex: Shalimar pour l'oriental, Mitsouko pour le chypre). Tableau recapitulatif famille > parfums du jeu. Aide directement les joueurs a mieux deviner en comprenant l'attribut 'famille' du jeu.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "parfums-orientaux-iconiques",
+        "parfums-chypres-histoire",
+        "parfums-gourmands-guide",
+        "difference-edp-edt-parfum",
+        "guide-strategie-perfumdle"
+      ]
+    },
+    {
+      "slug": "difference-edp-edt-parfum",
+      "axe": "education-olfactive",
+      "title_fr": "Eau de Parfum, Eau de Toilette, Parfum : quelles differences ?",
+      "title_en": "Eau de Parfum vs Eau de Toilette vs Parfum: what are the differences?",
+      "target_query_fr": "difference eau de parfum eau de toilette",
+      "target_query_en": "eau de parfum vs eau de toilette difference",
+      "description": "Page educative a fort volume de recherche. Explique les 5 niveaux de concentration (Parfum > EDP > EDT > EDC > Eau fraiche) avec pourcentages, duree de tenue, contextes d'usage. Tableau montrant la repartition des 150 parfums de Perfumdle par concentration. Exemples concrets : N5 en Parfum vs Shalimar en EDP vs Eau Sauvage en EDT vs Colonia en EDC. Aide les joueurs a comprendre l'attribut 'concentration' du jeu.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "parfums-orientaux-iconiques",
+        "parfums-maisons-niche-vs-designer",
+        "guide-strategie-perfumdle"
+      ]
+    },
+    {
+      "slug": "guide-strategie-perfumdle",
+      "axe": "gameplay",
+      "title_fr": "Comment jouer a Perfumdle : strategie et astuces pour gagner",
+      "title_en": "How to play Perfumdle: strategy and tips to win",
+      "target_query_fr": "perfumdle comment jouer strategie",
+      "target_query_en": "perfumdle how to play strategy tips",
+      "description": "Page strategie dediee au jeu. Explique les regles (8 essais, 5 attributs compares, codes couleur vert/jaune/rouge). Strategie optimale : commencer par un parfum milieu de gamme temporelle (annees 2000) d'une grande maison, puis affiner par famille olfactive et genre. Arbre de decision simplifie. Statistiques sur la base : repartition par decennie, par genre, par maison. Le lecteur repart avec un avantage concret pour jouer chaque jour.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "difference-edp-edt-parfum",
+        "liste-150-parfums-perfumdle",
+        "parfums-orientaux-iconiques"
+      ]
+    },
+    {
+      "slug": "liste-150-parfums-perfumdle",
+      "axe": "gameplay",
+      "title_fr": "Liste des 150 parfums de Perfumdle : tous les parfums a deviner",
+      "title_en": "All 150 Perfumdle perfumes: complete list of perfumes to guess",
+      "target_query_fr": "perfumdle liste parfums reponse",
+      "target_query_en": "perfumdle perfume list all answers",
+      "description": "Reference incontournable pour les joueurs. Tableau complet et triable des 150 parfums avec leurs 5 attributs (maison, annee, genre, famille, concentration). Filtrables par maison, par decennie, par famille olfactive. Pas de reponse du jour revelee, mais toute la base pour etudier et se preparer. Cree une valeur utilitaire forte et une raison de revenir.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "guide-strategie-perfumdle",
+        "guide-familles-olfactives",
+        "parfums-iconiques-dior",
+        "parfums-iconiques-chanel",
+        "parfums-maisons-niche-vs-designer"
+      ]
+    },
+    {
+      "slug": "parfums-orientaux-iconiques",
+      "axe": "famille-olfactive",
+      "title_fr": "Les parfums orientaux iconiques : de Shalimar a Baccarat Rouge 540",
+      "title_en": "Iconic oriental perfumes: from Shalimar to Baccarat Rouge 540",
+      "target_query_fr": "parfums orientaux iconiques liste",
+      "target_query_en": "iconic oriental perfumes list",
+      "description": "Page famille olfactive approfondie. L'oriental est la famille la plus riche et recherchee. Couvre l'histoire (Shalimar 1925 comme acte fondateur), les ingredients cles (ambre, vanille, encens, epices), les sous-familles (oriental boise, oriental epice, oriental floral, oriental gourmand). Pour chaque parfum oriental de la base Perfumdle : annee, maison, fiche courte. Inclut Shalimar, Opium, Tresor, Angel, Black Opium, Tobacco Vanille, Baccarat Rouge 540, etc.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "parfums-chypres-histoire",
+        "parfums-gourmands-guide",
+        "parfums-iconiques-dior",
+        "difference-edp-edt-parfum"
+      ]
+    },
+    {
+      "slug": "parfums-gourmands-guide",
+      "axe": "famille-olfactive",
+      "title_fr": "Parfums gourmands : pourquoi ils ont revolutionne la parfumerie",
+      "title_en": "Gourmand perfumes: why they revolutionized perfumery",
+      "target_query_fr": "parfums gourmands guide liste",
+      "target_query_en": "gourmand perfume guide list",
+      "description": "Page sur la famille gourmande, en forte tendance. Histoire : Angel de Mugler (1992) comme premier gourmand. Definition des notes gourmandes (vanille, praline, caramel, chocolat, cafe). Les gourmands de Perfumdle : Angel, A*Men, La Vie Est Belle, Black Opium, La Petite Robe Noire, Prada Candy, Cloud, Lost Cherry. Evolution vers le 'gourmand sophistique'. Tendance actuelle et popularite chez les millenials.",
+      "priority": "medium",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "parfums-orientaux-iconiques",
+        "parfums-unisexes-tendance",
+        "difference-edp-edt-parfum"
+      ]
+    },
+    {
+      "slug": "parfums-chypres-histoire",
+      "axe": "famille-olfactive",
+      "title_fr": "Parfums chypres : histoire d'une famille menacee",
+      "title_en": "Chypre perfumes: history of an endangered family",
+      "target_query_fr": "parfums chypres histoire liste",
+      "target_query_en": "chypre perfume history guide",
+      "description": "Page sur la famille chypree, angle original et fort. Histoire de Francois Coty et le parfum Chypre (1917). L'accord chypre (bergamote, mousse de chene, labdanum). Impact de la reglementation IFRA sur la mousse de chene. Les chypres de Perfumdle : Mitsouko, Miss Dior (1947), Femme de Rochas, N19, Pour Monsieur, Aromatics Elixir, Si, Aventus. Pourquoi les chypres sont rares et precieux aujourd'hui.",
+      "priority": "medium",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "parfums-orientaux-iconiques",
+        "parfums-iconiques-dior",
+        "histoire-parfums-par-decennie"
+      ]
+    },
+    {
+      "slug": "parfums-unisexes-tendance",
+      "axe": "genre",
+      "title_fr": "Parfums unisexes : la tendance qui redefinit la parfumerie",
+      "title_en": "Unisex perfumes: the trend redefining perfumery",
+      "target_query_fr": "parfums unisexes tendance liste",
+      "target_query_en": "unisex perfume trend list best",
+      "description": "Page sur la tendance unisexe, sujet d'actualite fort. CK One (1994) comme pionnier. L'essor de la parfumerie niche (Tom Ford, Le Labo, Byredo, MFK). Les 25 parfums unisexes de Perfumdle : CK One, Santal 33, Gypsy Water, Baccarat Rouge 540, Black Orchid, Tobacco Vanille, Oud Wood, Molecule 01, Not a Perfume, etc. Statistiques du marche (40% des ventes luxe). Pourquoi la Gen Z abandonne les codes genres.",
+      "priority": "medium",
+      "internal_links_to": [
+        "jeu",
+        "guide-familles-olfactives",
+        "parfums-maisons-niche-vs-designer",
+        "parfums-gourmands-guide",
+        "liste-150-parfums-perfumdle"
+      ]
+    },
+    {
+      "slug": "parfums-maisons-niche-vs-designer",
+      "axe": "culture-parfum",
+      "title_fr": "Parfums niche vs designer : comprendre les differences",
+      "title_en": "Niche vs designer perfumes: understanding the differences",
+      "target_query_fr": "parfum niche vs designer difference",
+      "target_query_en": "niche vs designer perfume difference",
+      "description": "Page educative a fort potentiel de recherche. Definit ce qu'est une maison niche (MFK, Le Labo, Byredo, Frederic Malle, Escentric Molecules, Juliette Has a Gun) vs designer (Dior, Chanel, YSL, Armani). Differences : philosophie creative, ingredients, distribution, prix, volumes de production. Mapping des 150 parfums Perfumdle entre niche et designer. Pour les joueurs : comprendre pourquoi certaines maisons sont plus dures a deviner.",
+      "priority": "medium",
+      "internal_links_to": [
+        "jeu",
+        "parfums-unisexes-tendance",
+        "parfums-iconiques-dior",
+        "parfums-iconiques-chanel",
+        "guide-strategie-perfumdle",
+        "liste-150-parfums-perfumdle"
+      ]
+    },
+    {
+      "slug": "parfums-iconiques-dior",
+      "axe": "maison",
+      "title_fr": "Les parfums Dior : guide complet des 12 fragrances iconiques",
+      "title_en": "Dior perfumes: complete guide to 12 iconic fragrances",
+      "target_query_fr": "liste parfums Dior iconiques histoire",
+      "target_query_en": "Dior perfumes list iconic history",
+      "description": "Page maison pour Dior, la marque la plus representee dans Perfumdle (12 parfums). Chronologie de Miss Dior (1947) a Sauvage (2015). Pour chaque parfum : annee, parfumeur, famille olfactive, fait notable. Couvre Miss Dior, Eau Sauvage, Poison, Fahrenheit, Dolce Vita, Dior Homme, J'adore, Hypnotic Poison, Dior Addict, Miss Dior Blooming Bouquet, Sauvage, Fahrenheit Le Parfum. Parfaite introduction pour maitriser les parfums Dior dans le jeu.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "parfums-iconiques-chanel",
+        "guide-familles-olfactives",
+        "difference-edp-edt-parfum",
+        "guide-strategie-perfumdle",
+        "liste-150-parfums-perfumdle"
+      ]
+    },
+    {
+      "slug": "parfums-iconiques-chanel",
+      "axe": "maison",
+      "title_fr": "Les parfums Chanel : du N5 a Bleu de Chanel, 100 ans d'icones",
+      "title_en": "Chanel perfumes: from N5 to Bleu de Chanel, 100 years of icons",
+      "target_query_fr": "liste parfums Chanel histoire iconiques",
+      "target_query_en": "Chanel perfumes list history iconic",
+      "description": "Page maison pour Chanel, 8 parfums dans Perfumdle. Arc narratif depuis N5 (1921, premier parfum a utiliser des aldehydes synthetiques) jusqu'a Bleu de Chanel (2010). Pour chaque parfum : contexte de creation, parfumeur, famille olfactive, anecdote verifiable. Couvre N5, Arpege n'est pas Chanel attention -- N5, Pour Monsieur, N19, Coco, Allure, Coco Mademoiselle, Chance, Allure Homme Sport, Bleu de Chanel. Le lecteur connait tous les Chanel possibles avant de jouer.",
+      "priority": "high",
+      "internal_links_to": [
+        "jeu",
+        "parfums-iconiques-dior",
+        "guide-familles-olfactives",
+        "parfums-chypres-histoire",
+        "guide-strategie-perfumdle",
+        "liste-150-parfums-perfumdle"
+      ]
+    },
+    {
+      "slug": "histoire-parfums-par-decennie",
+      "axe": "histoire",
+      "title_fr": "Histoire des parfums par decennie : de 1889 a aujourd'hui",
+      "title_en": "History of perfumes by decade: from 1889 to today",
+      "target_query_fr": "histoire parfumerie evolution par decennie",
+      "target_query_en": "perfume history by decade evolution",
+      "description": "Page historique panoramique. Couvre chaque decennie avec les parfums correspondants dans Perfumdle. 1889-1920 : naissance de la parfumerie moderne (Jicky, Colonia, Tabac Blond, Mitsouko, N5). 1920-1950 : age d'or (Shalimar, Arpege, Joy, Vol de Nuit, Miss Dior). 1950-1980 : democratisation (Youth Dew, Pour Monsieur, Eau Sauvage, Opium). 1980-2000 : explosion (Poison, CK One, Angel, Le Male). 2000-2020 : ere niche (Santal 33, Baccarat Rouge 540). Frise chronologique visuelle.",
+      "priority": "medium",
+      "internal_links_to": [
+        "jeu",
+        "parfums-iconiques-dior",
+        "parfums-iconiques-chanel",
+        "parfums-chypres-histoire",
+        "parfums-orientaux-iconiques",
+        "guide-strategie-perfumdle"
+      ]
+    }
+  ],
+  "maillage": "Architecture hub-and-spoke centree sur le jeu quotidien (hub). Trois axes principaux : (1) Education olfactive (familles, concentrations) -- pages piliers qui nourrissent la comprehension du jeu ; (2) Gameplay (strategie, liste complete) -- pages utilitaires a forte retention ; (3) Contenu culturel (maisons, histoire, tendances) -- pages a fort potentiel SEO longue traine. Chaque spoke lie vers le hub (jeu) + 4-6 pages soeurs. Les pages education (familles, concentrations) sont les noeuds les plus lies car elles servent de reference transversale. Les pages maison (Dior, Chanel) se lient entre elles et vers les pages famille olfactive. La page strategie et la liste des 150 parfums forment un binome utilitaire tres lie au hub. Aucune page orpheline : toutes accessibles depuis au moins 3 liens internes.",
+  "total_pages": 12,
+  "batch": 1,
+  "batch_notes": "Premier lot de 12 pages (batch 1) pour un site neuf. Priorise 6 pages 'high' a publier en premier (guide familles, difference EDP/EDT, strategie, liste 150, orientaux, Dior et Chanel). Les 6 pages 'medium' suivent dans les 2-3 semaines suivantes. Lot 2 futur envisage : pages maison (Tom Ford, Guerlain, YSL), pages famille (fougere/aromatique, floral, boise), parfums par decennie detaillee, comparatifs parfums deux a deux, glossaire parfumerie.",
+  "requetes_couvertes": [
+    "familles olfactives parfum guide",
+    "difference eau de parfum eau de toilette",
+    "parfumdle comment jouer",
+    "perfumdle strategy tips",
+    "liste parfums perfumdle",
+    "parfums orientaux iconiques",
+    "parfums gourmands guide",
+    "parfums chypres histoire",
+    "parfums unisexes tendance",
+    "parfum niche vs designer",
+    "liste parfums Dior iconiques",
+    "liste parfums Chanel histoire",
+    "histoire parfumerie par decennie",
+    "jeu deviner parfum du jour",
+    "guess the perfume game daily",
+    "olfactory families perfume guide",
+    "eau de parfum vs eau de toilette",
+    "iconic oriental perfumes",
+    "gourmand perfume guide",
+    "chypre perfume history",
+    "unisex perfume trend",
+    "niche vs designer perfume",
+    "Dior perfumes list iconic",
+    "Chanel perfumes list history",
+    "perfume history by decade"
+  ],
+  "axes_futurs_batch_2": [
+    {
+      "axe": "maison",
+      "pages_envisagees": [
+        "Les parfums Tom Ford : guide des Private Blend et Signature",
+        "Les parfums Guerlain : de Jicky a Mon Guerlain, 130 ans de creation",
+        "Les parfums Yves Saint Laurent : d'Opium a Libre"
+      ]
+    },
+    {
+      "axe": "famille-olfactive",
+      "pages_envisagees": [
+        "Parfums fougere et aromatiques : le pilier de la parfumerie masculine",
+        "Parfums floraux : les classiques et les modernes",
+        "Parfums boises : du vetiver au oud"
+      ]
+    },
+    {
+      "axe": "comparatifs",
+      "pages_envisagees": [
+        "Sauvage vs Bleu de Chanel : quel parfum masculin choisir ?",
+        "Angel vs Black Opium : le duel des orientaux gourmands",
+        "Aventus vs Sauvage : niche vs designer, le match"
+      ]
+    },
+    {
+      "axe": "glossaire",
+      "pages_envisagees": [
+        "Glossaire de la parfumerie : 50 termes a connaitre"
+      ]
+    }
+  ]
+}

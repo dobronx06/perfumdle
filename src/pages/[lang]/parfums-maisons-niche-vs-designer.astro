@@ -1,0 +1,176 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-maisons-niche-vs-designer/`;
+
+const nicheHouses = ['Tom Ford', 'Le Labo', 'Byredo', 'Maison Francis Kurkdjian', 'Editions de Parfums Frédéric Malle', 'Escentric Molecules', 'Juliette Has a Gun', 'Creed', 'Maison Margiela', 'Acqua di Parma'];
+
+const nichePerfumes = data.entites.filter(p => nicheHouses.includes(p.attributs.maison)).sort((a, b) => a.attributs.maison.localeCompare(b.attributs.maison));
+const designerPerfumes = data.entites.filter(p => !nicheHouses.includes(p.attributs.maison)).sort((a, b) => a.attributs.maison.localeCompare(b.attributs.maison));
+
+const nicheHousesList = [...new Set(nichePerfumes.map(p => p.attributs.maison))].sort();
+const designerHousesList = [...new Set(designerPerfumes.map(p => p.attributs.maison))].sort();
+---
+
+<Layout
+  title={fr ? "Parfums niche vs designer : comprendre les différences" : "Niche vs designer perfumes: understanding the differences"}
+  description={fr ? "Quelle est la différence entre parfums de niche et designer ? Découvrez 150 fragrances iconiques classées par type de maison." : "What's the difference between niche and designer perfumes? Discover 150 iconic fragrances sorted by house type."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Parfums niche vs designer : comprendre les différences" : "Niche vs designer perfumes: understanding the differences"}</h1>
+
+      <p class="content-subtitle">{fr ? "Maisons de niche, maisons de luxe, marques designer : apprenez à distinguer les différents types de parfumerie." : "Niche houses, luxury houses, designer brands: learn to distinguish between different types of perfumery."}</p>
+
+      <h2>{fr ? "Qu'est-ce qu'une maison designer ?" : "What is a designer house?"}</h2>
+      <p>{fr ? "Les maisons designer sont des marques de mode et de luxe établies qui proposent des parfums comme extension de leur univers. Ces maisons bénéficient d'une large distribution en parfumerie, grands magasins et boutiques. Leurs créations visent souvent un public large avec des compositions accessibles et commercialement viables." : "Designer houses are established fashion and luxury brands that offer perfumes as an extension of their universe. These houses benefit from wide distribution in perfumeries, department stores and boutiques. Their creations often target a broad audience with accessible and commercially viable compositions."}</p>
+
+      <p>{fr ? "Dans notre collection de 150 parfums iconiques, les maisons designer incluent des noms prestigieux comme Chanel, Dior, Yves Saint Laurent, Giorgio Armani, Paco Rabanne, Versace, Dolce & Gabbana, Calvin Klein, Hugo Boss, Ralph Lauren, Guerlain, Lancôme, Givenchy, Prada, Hermès, et bien d'autres." : "In our collection of 150 iconic perfumes, designer houses include prestigious names like Chanel, Dior, Yves Saint Laurent, Giorgio Armani, Paco Rabanne, Versace, Dolce & Gabbana, Calvin Klein, Hugo Boss, Ralph Lauren, Guerlain, Lancôme, Givenchy, Prada, Hermès, and many others."}</p>
+
+      <h2>{fr ? "Qu'est-ce qu'une maison de niche ?" : "What is a niche house?"}</h2>
+      <p>{fr ? "Les maisons de niche sont des marques spécialisées exclusivement dans la parfumerie. Elles privilégient la créativité artistique, l'originalité des compositions et la qualité des matières premières plutôt que les ventes de masse. La distribution est souvent plus sélective et les prix généralement plus élevés." : "Niche houses are brands specialized exclusively in perfumery. They favor artistic creativity, original compositions and quality raw materials over mass sales. Distribution is often more selective and prices generally higher."}</p>
+
+      <p>{fr ? "Parmi les maisons de niche présentes dans Perfumdle : Tom Ford (Private Blend), Le Labo, Byredo, Maison Francis Kurkdjian, Editions de Parfums Frédéric Malle, Escentric Molecules, Juliette Has a Gun, Creed, Maison Margiela (Replica), et Acqua di Parma." : "Niche houses featured in Perfumdle include: Tom Ford (Private Blend), Le Labo, Byredo, Maison Francis Kurkdjian, Editions de Parfums Frédéric Malle, Escentric Molecules, Juliette Has a Gun, Creed, Maison Margiela (Replica), and Acqua di Parma."}</p>
+
+      <h2>{fr ? "Tableau comparatif" : "Comparison table"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Critère" : "Criteria"}</th>
+              <th>{fr ? "Designer" : "Designer"}</th>
+              <th>{fr ? "Niche" : "Niche"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{fr ? "Liberté créative" : "Creative freedom"}</td>
+              <td>{fr ? "Contraintes commerciales" : "Commercial constraints"}</td>
+              <td>{fr ? "Liberté artistique totale" : "Total artistic freedom"}</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Prix moyen" : "Average price"}</td>
+              <td>{fr ? "50-150€" : "$60-180"}</td>
+              <td>{fr ? "150-400€" : "$180-500"}</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Distribution" : "Distribution"}</td>
+              <td>{fr ? "Large (Sephora, grands magasins)" : "Wide (Sephora, department stores)"}</td>
+              <td>{fr ? "Sélective (boutiques spécialisées)" : "Selective (specialty boutiques)"}</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Ingrédients" : "Ingredients"}</td>
+              <td>{fr ? "Bonne qualité, certains synthétiques" : "Good quality, some synthetics"}</td>
+              <td>{fr ? "Haute qualité, naturels privilégiés" : "High quality, natural preferred"}</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Marketing" : "Marketing"}</td>
+              <td>{fr ? "Campagnes publicitaires massives" : "Massive advertising campaigns"}</td>
+              <td>{fr ? "Bouche-à-oreille, prescription" : "Word of mouth, prescription"}</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Volume de production" : "Production volume"}</td>
+              <td>{fr ? "Production de masse" : "Mass production"}</td>
+              <td>{fr ? "Petites séries" : "Small batches"}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Les maisons de niche dans Perfumdle" : "Niche houses in Perfumdle"}</h2>
+      <p>{fr ? "Voici les " + nichePerfumes.length + " parfums de niche présents dans notre collection :" : "Here are the " + nichePerfumes.length + " niche perfumes in our collection:"}</p>
+
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {nichePerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Les maisons designer dans Perfumdle" : "Designer houses in Perfumdle"}</h2>
+      <p>{fr ? "Et voici les " + designerPerfumes.length + " parfums designer :" : "And here are the " + designerPerfumes.length + " designer perfumes:"}</p>
+
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {designerPerfumes.slice(0, 50).map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.85rem;color:var(--color-text-muted);margin-top:0.5rem;">{fr ? "Table limitée aux 50 premiers parfums designer. Voir tous les parfums dans le jeu." : "Table limited to first 50 designer perfumes. See all perfumes in the game."}</p>
+
+      <h2>{fr ? "Articles connexes" : "Related articles"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/parfums-iconiques-dior/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Dior" : "Dior perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "Guide des 12 fragrances iconiques" : "Guide to 12 iconic fragrances"}</div>
+        </a>
+        <a href={localePath(locale, '/parfums-iconiques-chanel/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Chanel" : "Chanel perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "Du N°5 à Bleu de Chanel" : "From N°5 to Bleu de Chanel"}</div>
+        </a>
+        <a href={localePath(locale, '/histoire-parfums-par-decennie/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Histoire par décennie" : "History by decade"}</div>
+          <div class="content-link-card__desc">{fr ? "De 1889 à aujourd'hui" : "From 1889 to today"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances !" : "Test your knowledge!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

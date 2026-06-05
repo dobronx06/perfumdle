@@ -1,0 +1,225 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/histoire-parfums-par-decennie/`;
+
+// Group perfumes by decade
+const decades = new Map<string, typeof data.entites>();
+
+data.entites.forEach(p => {
+  const year = p.attributs.annee;
+  const decade = Math.floor(year / 10) * 10;
+  const key = `${decade}s`;
+  if (!decades.has(key)) {
+    decades.set(key, []);
+  }
+  decades.get(key)!.push(p);
+});
+
+// Sort decades and perfumes within each decade
+const sortedDecades = Array.from(decades.entries()).sort((a, b) => {
+  const yearA = parseInt(a[0]);
+  const yearB = parseInt(b[0]);
+  return yearA - yearB;
+});
+
+sortedDecades.forEach(([_, perfumes]) => {
+  perfumes.sort((a, b) => a.attributs.annee - b.attributs.annee);
+});
+
+// Count per decade for summary table
+const decadeCounts = sortedDecades.map(([decade, perfumes]) => ({
+  decade,
+  count: perfumes.length
+}));
+---
+
+<Layout
+  title={fr ? "Histoire des parfums par décennie : de 1889 à aujourd'hui" : "History of perfumes by decade: from 1889 to today"}
+  description={fr ? "Découvrez l'évolution de la parfumerie à travers 150 fragrances iconiques, de Jicky (1889) à Phantom (2021)." : "Discover the evolution of perfumery through 150 iconic fragrances, from Jicky (1889) to Phantom (2021)."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Histoire des parfums par décennie : de 1889 à aujourd'hui" : "History of perfumes by decade: from 1889 to today"}</h1>
+
+      <p class="content-subtitle">{fr ? "Voyagez à travers 130 ans d'histoire de la parfumerie avec 150 créations iconiques." : "Travel through 130 years of perfumery history with 150 iconic creations."}</p>
+
+      <h2>{fr ? "Répartition par décennie" : "Distribution by decade"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Décennie" : "Decade"}</th>
+              <th>{fr ? "Nombre de parfums" : "Number of perfumes"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {decadeCounts.map(({ decade, count }) => (
+              <tr>
+                <td><strong>{decade}</strong></td>
+                <td>{count}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {sortedDecades.map(([decade, perfumes]) => {
+        const decadeNum = parseInt(decade);
+        return (
+          <>
+            <h2>{decade}</h2>
+
+            {decadeNum === 1880 && (
+              <p>{fr
+                ? "La parfumerie moderne naît avec Jicky de Guerlain (1889), premier parfum à utiliser des matières synthétiques (coumarine et vanilline). Cette décennie marque le début de la parfumerie de synthèse."
+                : "Modern perfumery was born with Guerlain's Jicky (1889), the first perfume to use synthetic materials (coumarin and vanillin). This decade marks the beginning of synthetic perfumery."}</p>
+            )}
+
+            {decadeNum === 1910 && (
+              <p>{fr
+                ? "Les années 1910 voient l'émergence des grands classiques orientaux et chypres. Mitsouko de Guerlain (1919) et Tabac Blond de Caron (1919) posent les bases de familles olfactives qui perdureront tout le XXe siècle."
+                : "The 1910s saw the emergence of great oriental and chypre classics. Guerlain's Mitsouko (1919) and Caron's Tabac Blond (1919) laid the foundations for olfactory families that would last throughout the 20th century."}</p>
+            )}
+
+            {decadeNum === 1920 && (
+              <p>{fr
+                ? "La décennie révolutionnaire de la parfumerie. Chanel N°5 (1921) invente le floral aldéhydé et devient le parfum le plus célèbre au monde. Shalimar de Guerlain (1925) et Arpège de Lanvin (1927) définissent l'âge d'or de la parfumerie française."
+                : "The revolutionary decade of perfumery. Chanel N°5 (1921) invented the aldehydic floral and became the world's most famous perfume. Guerlain's Shalimar (1925) and Lanvin's Arpège (1927) defined the golden age of French perfumery."}</p>
+            )}
+
+            {decadeNum === 1930 && (
+              <p>{fr
+                ? "Les années 30 voient l'apogée de la haute parfumerie classique. Joy de Jean Patou (1930) est considéré comme le parfum le plus cher jamais créé à l'époque, utilisant des quantités astronomiques de rose et jasmin."
+                : "The 1930s saw the peak of classic haute perfumery. Jean Patou's Joy (1930) was considered the most expensive perfume ever created at the time, using astronomical quantities of rose and jasmine."}</p>
+            )}
+
+            {decadeNum === 1940 && (
+              <p>{fr
+                ? "Malgré la guerre, la parfumerie française continue d'innover. Miss Dior (1947) accompagne le New Look de Christian Dior et marque la renaissance de l'élégance après-guerre. L'Air du Temps de Nina Ricci (1948) avec son iconique flacon aux colombes devient un symbole de paix."
+                : "Despite the war, French perfumery continued to innovate. Miss Dior (1947) accompanied Christian Dior's New Look and marked the rebirth of post-war elegance. Nina Ricci's L'Air du Temps (1948) with its iconic dove bottle became a symbol of peace."}</p>
+            )}
+
+            {decadeNum === 1950 && (
+              <p>{fr
+                ? "Les années 50 marquent l'expansion de la parfumerie de luxe. Youth Dew d'Estée Lauder (1953) révolutionne le marché américain. Pour Monsieur de Chanel (1955) impose l'élégance masculine raffinée."
+                : "The 1950s marked the expansion of luxury perfumery. Estée Lauder's Youth Dew (1953) revolutionized the American market. Chanel's Pour Monsieur (1955) established refined masculine elegance."}</p>
+            )}
+
+            {decadeNum === 1960 && (
+              <p>{fr
+                ? "La décennie de la modernité fraîche. Eau Sauvage de Dior (1966), créé par Edmond Roudnitska, invente la fraîcheur hespéridée moderne et influence toute la parfumerie masculine à venir. Habit Rouge de Guerlain (1965) mélange orient et fougère."
+                : "The decade of fresh modernity. Dior's Eau Sauvage (1966), created by Edmond Roudnitska, invented modern hesperidic freshness and influenced all masculine perfumery to come. Guerlain's Habit Rouge (1965) mixed orient and fougère."}</p>
+            )}
+
+            {decadeNum === 1970 && (
+              <p>{fr
+                ? "Les années 70 voient l'émergence de parfums puissants et affirmés. Chanel N°19 (1971) impose le vert chypré, Opium d'Yves Saint Laurent (1977) fait scandale avec son nom et sa sensualité orientale. Aromatics Elixir de Clinique (1971) et Polo de Ralph Lauren (1978) définissent de nouveaux standards."
+                : "The 1970s saw the emergence of powerful and assertive perfumes. Chanel N°19 (1971) established green chypre, Yves Saint Laurent's Opium (1977) caused scandal with its name and oriental sensuality. Clinique's Aromatics Elixir (1971) and Ralph Lauren's Polo (1978) defined new standards."}</p>
+            )}
+
+            {decadeNum === 1980 && (
+              <p>{fr
+                ? "La décennie du \"power dressing\" et des parfums puissants. Poison de Dior (1985), Obsession de Calvin Klein (1985), et Coco de Chanel (1984) incarnent l'audace des années 80. Fahrenheit de Dior (1988) et Cool Water de Davidoff (1988) révolutionnent la parfumerie masculine."
+                : "The decade of 'power dressing' and powerful perfumes. Dior's Poison (1985), Calvin Klein's Obsession (1985), and Chanel's Coco (1984) embodied the boldness of the 80s. Dior's Fahrenheit (1988) and Davidoff's Cool Water (1988) revolutionized masculine perfumery."}</p>
+            )}
+
+            {decadeNum === 1990 && (
+              <p>{fr
+                ? "Les années 90 marquent l'arrivée des parfums aquatiques et gourmands. Angel de Thierry Mugler (1992) crée la famille gourmande. L'Eau d'Issey d'Issey Miyake (1992) et CK One de Calvin Klein (1994) imposent la fraîcheur unisexe. Acqua di Gio d'Armani (1996) devient un blockbuster mondial."
+                : "The 1990s marked the arrival of aquatic and gourmand perfumes. Thierry Mugler's Angel (1992) created the gourmand family. Issey Miyake's L'Eau d'Issey (1992) and Calvin Klein's CK One (1994) established unisex freshness. Armani's Acqua di Gio (1996) became a worldwide blockbuster."}</p>
+            )}
+
+            {decadeNum === 2000 && (
+              <p>{fr
+                ? "La décennie des best-sellers mondiaux et de l'essor de la niche. Coco Mademoiselle de Chanel (2001), J'adore de Dior (1999), 1 Million de Paco Rabanne (2008) dominent le marché. Parallèlement, Tom Ford (Black Orchid 2006), Le Labo et Byredo émergent comme nouvelles références de niche."
+                : "The decade of global best-sellers and the rise of niche. Chanel's Coco Mademoiselle (2001), Dior's J'adore (1999), Paco Rabanne's 1 Million (2008) dominated the market. Meanwhile, Tom Ford (Black Orchid 2006), Le Labo and Byredo emerged as new niche references."}</p>
+            )}
+
+            {decadeNum === 2010 && (
+              <p>{fr
+                ? "Les années 2010 consacrent Sauvage de Dior (2015), qui devient le parfum masculin le plus vendu au monde. La Vie Est Belle de Lancôme (2012) et Baccarat Rouge 540 de Maison Francis Kurkdjian (2015) deviennent des phénomènes viraux. La parfumerie de niche explose avec Le Labo, Byredo, MFK."
+                : "The 2010s consecrated Dior's Sauvage (2015), which became the world's best-selling men's fragrance. Lancôme's La Vie Est Belle (2012) and Maison Francis Kurkdjian's Baccarat Rouge 540 (2015) became viral phenomena. Niche perfumery exploded with Le Labo, Byredo, MFK."}</p>
+            )}
+
+            {decadeNum === 2020 && (
+              <p>{fr
+                ? "Les années 2020 marquent la maturité de la parfumerie de niche et l'influence des réseaux sociaux. My Way d'Armani (2020) et Phantom de Paco Rabanne (2021) intègrent les codes de la génération Z (inclusivité, durabilité, digitalisation)."
+                : "The 2020s mark the maturity of niche perfumery and the influence of social media. Armani's My Way (2020) and Paco Rabanne's Phantom (2021) integrate Gen Z codes (inclusivity, sustainability, digitalization)."}</p>
+            )}
+
+            <div class="content-table-wrap">
+              <table class="content-table">
+                <thead>
+                  <tr>
+                    <th>{fr ? "Parfum" : "Perfume"}</th>
+                    <th>{fr ? "Maison" : "House"}</th>
+                    <th>{fr ? "Année" : "Year"}</th>
+                    <th>{fr ? "Famille" : "Family"}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {perfumes.map(p => (
+                    <tr>
+                      <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                      <td>{p.attributs.maison}</td>
+                      <td>{p.attributs.annee}</td>
+                      <td>{p.attributs.famille}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        );
+      })}
+
+      <h2>{fr ? "L'évolution de la parfumerie" : "The evolution of perfumery"}</h2>
+      <p>{fr
+        ? "De Jicky (1889) à Phantom (2021), la parfumerie a traversé plusieurs révolutions : l'invention de la synthèse chimique, l'émergence des grandes maisons de luxe, la démocratisation après-guerre, l'explosion des blockbusters dans les années 90-2000, et enfin la renaissance de la parfumerie de niche. Chaque décennie a apporté ses innovations techniques, ses tendances esthétiques et ses icônes olfactives."
+        : "From Jicky (1889) to Phantom (2021), perfumery has undergone several revolutions: the invention of chemical synthesis, the emergence of great luxury houses, post-war democratization, the explosion of blockbusters in the 90s-2000s, and finally the renaissance of niche perfumery. Each decade brought its technical innovations, aesthetic trends and olfactory icons."}</p>
+
+      <h2>{fr ? "Articles connexes" : "Related articles"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/parfums-iconiques-dior/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Dior" : "Dior perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "12 fragrances iconiques" : "12 iconic fragrances"}</div>
+        </a>
+        <a href={localePath(locale, '/parfums-iconiques-chanel/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Chanel" : "Chanel perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "100 ans d'icônes" : "100 years of icons"}</div>
+        </a>
+        <a href={localePath(locale, '/parfums-maisons-niche-vs-designer/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Niche vs Designer" : "Niche vs Designer"}</div>
+          <div class="content-link-card__desc">{fr ? "Comprendre les différences" : "Understanding the differences"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances !" : "Test your knowledge!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

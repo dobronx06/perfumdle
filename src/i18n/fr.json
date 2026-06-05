@@ -22,5 +22,37 @@
   "footer.not_affiliated": "{title} n'est pas affilie a {licence}. Tous les noms et marques appartiennent a leurs proprietaires respectifs.",
   "footer.last_updated": "Derniere mise a jour : {date}",
   "lang.switch": "EN",
-  "lang.switch_label": "English version"
+  "lang.switch_label": "English version",
+
+  "nav.play": "Jouer",
+  "nav.all_perfumes": "Les 150 parfums",
+  "nav.guides": "Guides",
+
+  "perfume.back": "Retour",
+  "perfume.prev": "Precedent",
+  "perfume.next": "Suivant",
+  "perfume.nav_label": "Navigation parfums",
+  "perfume.prev_next_label": "Parfum precedent et suivant",
+  "perfume.house": "Maison",
+  "perfume.year": "Annee",
+  "perfume.gender": "Genre",
+  "perfume.family": "Famille olfactive",
+  "perfume.concentration": "Concentration",
+  "perfume.about": "A propos",
+  "perfume.description": "{name} par {house} ({year}) - {family}, {concentration}. Un des 150 parfums iconiques a deviner dans Perfumdle.",
+  "perfume.play_cta": "Sauras-tu le deviner ?",
+  "perfume.play_button": "Jouer a Perfumdle",
+  "perfume.related": "Parfums de la meme maison",
+  "perfume.same_family": "Meme famille olfactive",
+  "perfume.all_perfumes": "Voir les 150 parfums",
+
+  "gender.Feminine": "Feminin",
+  "gender.Masculine": "Masculin",
+  "gender.Unisex": "Unisexe",
+
+  "content.back_home": "Retour au jeu",
+  "content.play_cta": "Jouer a Perfumdle",
+  "content.read_also": "A lire aussi",
+  "content.all_perfumes": "Voir les 150 parfums",
+  "content.toc": "Sommaire"
 }

@@ -1,0 +1,213 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-unisexes-tendance/`;
+
+// Filter unisex perfumes
+const unisexPerfumes = data.entites.filter(p =>
+  p.attributs.genre === 'Unisex'
+).sort((a, b) => a.attributs.annee - b.attributs.annee);
+
+// Group by era
+const pioneers = unisexPerfumes.filter(p => p.attributs.annee < 2000);
+const niche = unisexPerfumes.filter(p => p.attributs.annee >= 2000 && (
+  p.attributs.maison.includes('Le Labo') ||
+  p.attributs.maison.includes('Byredo') ||
+  p.attributs.maison.includes('Tom Ford') ||
+  p.attributs.maison.includes('Maison Francis Kurkdjian') ||
+  p.attributs.maison.includes('Jo Malone') ||
+  p.attributs.maison.includes('Escentric Molecules') ||
+  p.attributs.maison.includes('Juliette Has a Gun')
+));
+---
+
+<Layout
+  title={fr ? "Parfums unisexes : la tendance qui redéfinit la parfumerie" : "Unisex perfumes: the trend redefining perfumery"}
+  description={fr ? "L'histoire des parfums unisexes, de CK One (1994) à Santal 33. Découvrez pourquoi la génération Z rejette les frontières de genre et comment les maisons de niche dominent cette catégorie." : "The history of unisex perfumes, from CK One (1994) to Santal 33. Discover why Gen Z rejects gender boundaries and how niche houses dominate this category."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Parfums unisexes : au-delà du genre" : "Unisex perfumes: beyond gender"}</h1>
+      <p class="lead">
+        {fr
+          ? "De CK One à Santal 33, les parfums unisexes ont révolutionné l'industrie. Aujourd'hui, la génération Z rejette les catégories genrées et les maisons de niche dominent ce marché."
+          : "From CK One to Santal 33, unisex perfumes have revolutionized the industry. Today, Gen Z rejects gendered categories and niche houses dominate this market."
+        }
+      </p>
+
+      <h2>{fr ? "Les parfums unisexes dans Perfumdle" : "Unisex perfumes in Perfumdle"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {unisexPerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "CK One (1994) : le précurseur" : "CK One (1994): the pioneer"}</h2>
+      <p>
+        {fr
+          ? "En 1994, Calvin Klein lance CK One, premier parfum unisexe à connaître un succès mondial. Frais, minimaliste, citronnée, CK One incarne l'esprit des années 90 : androgynie, diversité, liberté."
+          : "In 1994, Calvin Klein launched CK One, the first unisex perfume to achieve worldwide success. Fresh, minimalist, citrusy, CK One embodies the spirit of the 90s: androgyny, diversity, freedom."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Le marketing de CK One cible indifféremment hommes et femmes avec le message « One for all ». Le parfum devient culte et ouvre la voie aux unisexes mainstream."
+          : "CK One's marketing targets both men and women with the message 'One for all'. The perfume becomes cult and paves the way for mainstream unisex fragrances."
+        }
+      </p>
+
+      <h2>{fr ? "La révolution niche : Le Labo, Byredo, Tom Ford Private Blend" : "The niche revolution: Le Labo, Byredo, Tom Ford Private Blend"}</h2>
+      <p>
+        {fr
+          ? "À partir des années 2000, les maisons de niche adoptent massivement le format unisexe. Pour elles, le genre n'a aucune importance : seule compte la qualité olfactive."
+          : "From the 2000s, niche houses massively adopted the unisex format. For them, gender doesn't matter: only olfactory quality counts."
+        }
+      </p>
+
+      <h3>Le Labo (2006)</h3>
+      <p>
+        {fr
+          ? "Le Labo lance en 2006 Santal 33, qui devient LE parfum culte des millennials. Porté par hommes et femmes (Alexa Chung, Justin Bieber), Santal 33 symbolise la parfumerie sans genre."
+          : "Le Labo launched Santal 33 in 2006, which became THE cult perfume of millennials. Worn by men and women (Alexa Chung, Justin Bieber), Santal 33 symbolizes genderless perfumery."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Rose 31, Another 13 : toute la gamme Le Labo est unisexe. L'approche artisanale et minimaliste séduit une clientèle urbaine et cosmopolite."
+          : "Rose 31, Another 13: the entire Le Labo range is unisex. The artisanal and minimalist approach seduces an urban and cosmopolitan clientele."
+        }
+      </p>
+
+      <h3>Byredo (2006)</h3>
+      <p>
+        {fr
+          ? "Fondée par Ben Gorham, Byredo propose des parfums unisexes conceptuels et épurés. Gypsy Water (2008), Bal d'Afrique (2009), Mojave Ghost (2014) : chaque fragrance raconte une histoire universelle."
+          : "Founded by Ben Gorham, Byredo offers conceptual and refined unisex perfumes. Gypsy Water (2008), Bal d'Afrique (2009), Mojave Ghost (2014): each fragrance tells a universal story."
+        }
+      </p>
+
+      <h3>Tom Ford Private Blend (2007)</h3>
+      <p>
+        {fr
+          ? "Tom Ford crée en 2007 sa ligne Private Blend, exclusivement unisexe. Tobacco Vanille, Oud Wood, Black Orchid (relancé en unisexe) : des parfums luxueux et assumés, portés aussi bien par les femmes que les hommes."
+          : "Tom Ford created his Private Blend line in 2007, exclusively unisex. Tobacco Vanille, Oud Wood, Black Orchid (relaunched as unisex): luxurious and assertive perfumes, worn by both women and men."
+        }
+      </p>
+
+      <h3>Maison Francis Kurkdjian (2009)</h3>
+      <p>
+        {fr
+          ? "Le parfumeur Francis Kurkdjian signe des créations unisexes sophistiquées. Baccarat Rouge 540 (2015) est devenu l'un des parfums les plus portés au monde, sans distinction de genre."
+          : "Perfumer Francis Kurkdjian creates sophisticated unisex creations. Baccarat Rouge 540 (2015) has become one of the most worn perfumes in the world, regardless of gender."
+        }
+      </p>
+
+      <h3>Escentric Molecules (2006)</h3>
+      <p>
+        {fr
+          ? "Geza Schoen pousse le minimalisme à l'extrême avec Molecule 01 : une seule molécule, Iso E Super, qui se fond avec la peau. Radicalement unisexe, Molecule 01 devient culte chez les initiés."
+          : "Geza Schoen pushes minimalism to the extreme with Molecule 01: a single molecule, Iso E Super, that blends with the skin. Radically unisex, Molecule 01 becomes cult among insiders."
+        }
+      </p>
+
+      <h2>{fr ? "Pourquoi les frontières de genre s'effacent" : "Why gender boundaries blur"}</h2>
+
+      <h3>{fr ? "Les attitudes de la génération Z" : "Gen Z attitudes"}</h3>
+      <p>
+        {fr
+          ? "La génération Z (nés après 1997) grandit dans un monde où les normes de genre sont questionnées. Ils rejettent le marketing binaire « pour homme / pour femme » et cherchent des parfums qui expriment leur personnalité, pas leur genre."
+          : "Gen Z (born after 1997) grows up in a world where gender norms are questioned. They reject binary 'for him / for her' marketing and seek perfumes that express their personality, not their gender."
+        }
+      </p>
+
+      <h3>{fr ? "Le phénomène Santal 33" : "The Santal 33 phenomenon"}</h3>
+      <p>
+        {fr
+          ? "Santal 33 illustre cette évolution : porté par tous (célébrités, influenceurs, anonymes), il devient le parfum signature d'une génération cosmopolite. Son succès prouve que le genre ne définit plus un parfum."
+          : "Santal 33 illustrates this evolution: worn by everyone (celebrities, influencers, ordinary people), it becomes the signature perfume of a cosmopolitan generation. Its success proves that gender no longer defines a perfume."
+        }
+      </p>
+
+      <h3>{fr ? "Les notes classiquement « masculines » portées par les femmes" : "Classically 'masculine' notes worn by women"}</h3>
+      <p>
+        {fr
+          ? "Les femmes s'approprient massivement des notes boisées, cuirées, fumées (oud, vétiver, cèdre). Des parfums comme Tobacco Vanille (Tom Ford), Oud Wood, ou Tuxedo (YSL) sont portés autant par les femmes que les hommes."
+          : "Women massively embrace woody, leathery, smoky notes (oud, vetiver, cedar). Perfumes like Tobacco Vanille (Tom Ford), Oud Wood, or Tuxedo (YSL) are worn as much by women as by men."
+        }
+      </p>
+
+      <h2>{fr ? "Les pionniers historiques" : "Historical pioneers"}</h2>
+      <ul>
+        {pioneers.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <h2>{fr ? "Les unisexes de niche modernes" : "Modern niche unisex fragrances"}</h2>
+      <ul>
+        {niche.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <div class="content-links">
+        <h2>{fr ? "À lire aussi" : "Read also"}</h2>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-maisons-niche-vs-designer/')}>{fr ? "Parfums de niche vs designer : quelle différence ?" : "Niche vs designer perfumes: what's the difference?"}</a></h3>
+          <p>{fr ? "Comprenez les différences entre parfumerie de niche et designer." : "Understand the differences between niche and designer perfumery."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-gourmands-guide/')}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
+          <p>{fr ? "L'histoire des parfums gourmands depuis 1992." : "The history of gourmand perfumes since 1992."}</p>
+        </div>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances sur les parfums unisexes !" : "Test your knowledge of unisex perfumes!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

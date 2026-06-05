@@ -1,0 +1,125 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-iconiques-chanel/`;
+
+const chanelPerfumes = data.entites.filter(p => p.attributs.maison === 'Chanel').sort((a, b) => a.attributs.annee - b.attributs.annee);
+---
+
+<Layout
+  title={fr ? "Les parfums Chanel : du N°5 à Bleu de Chanel, 100 ans d'icônes" : "Chanel perfumes: from N°5 to Bleu de Chanel, 100 years of icons"}
+  description={fr ? "De N°5 (1921) à Bleu de Chanel (2010), découvrez l'histoire des parfums Chanel les plus emblématiques." : "From N°5 (1921) to Bleu de Chanel (2010), discover the history of the most emblematic Chanel perfumes."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Les parfums Chanel : du N°5 à Bleu de Chanel, 100 ans d'icônes" : "Chanel perfumes: from N°5 to Bleu de Chanel, 100 years of icons"}</h1>
+
+      <p class="content-subtitle">{fr ? "L'histoire de la parfumerie moderne commence avec Chanel N°5. Explorez un siècle de créations légendaires." : "The history of modern perfumery begins with Chanel N°5. Explore a century of legendary creations."}</p>
+
+      <h2>{fr ? "La philosophie parfumée de Coco Chanel" : "Coco Chanel's perfume philosophy"}</h2>
+      <p>{fr ? "En 1921, Coco Chanel révolutionne la parfumerie avec N°5, le premier parfum à utiliser massivement des aldéhydes synthétiques. Elle déclare alors : \"Je veux un parfum de femme qui sente la femme\". Cette philosophie de simplicité sophistiquée et de modernité traverse toute l'histoire de la maison." : "In 1921, Coco Chanel revolutionized perfumery with N°5, the first perfume to massively use synthetic aldehydes. She declared: \"I want a women's perfume that smells like a woman\". This philosophy of sophisticated simplicity and modernity runs through the entire history of the house."}</p>
+
+      <p>{fr ? "La collaboration avec Ernest Beaux, parfumeur d'origine russe, donne naissance à N°5, nommé ainsi car c'était le cinquième échantillon présenté. Le flacon minimaliste aux lignes Art déco devient aussi iconique que le parfum lui-même." : "The collaboration with Ernest Beaux, a perfumer of Russian origin, gave birth to N°5, named because it was the fifth sample presented. The minimalist Art Deco bottle became as iconic as the perfume itself."}</p>
+
+      <h2>{fr ? "Les 8 parfums Chanel de Perfumdle" : "The 8 Chanel perfumes in Perfumdle"}</h2>
+
+      <h3>N°5 (1921)</h3>
+      <p>{fr ? "Le parfum le plus célèbre au monde. Ce floral aldéhydé créé par Ernest Beaux révolutionne la parfumerie en utilisant pour la première fois des aldéhydes à forte concentration, créant une abstraction florale inédite. Notes de néroli, ylang-ylang, rose de mai, jasmin, aldéhydes. Marilyn Monroe prétendait ne porter que quelques gouttes de N°5 pour dormir." : "The world's most famous perfume. This floral aldehydic created by Ernest Beaux revolutionized perfumery by using aldehydes at high concentration for the first time, creating an unprecedented floral abstraction. Notes of neroli, ylang-ylang, May rose, jasmine, aldehydes. Marilyn Monroe claimed to wear only a few drops of N°5 to sleep."}</p>
+
+      <h3>Pour Monsieur (1955)</h3>
+      <p>{fr ? "Le premier parfum masculin de Chanel, un chypre raffiné créé par Henri Robert. Pour Monsieur incarne l'élégance masculine à la française avec ses notes hespéridées et boisées. Notes de citron, orange amère, cèdre, vétiver." : "Chanel's first men's fragrance, a refined chypre created by Henri Robert. Pour Monsieur embodies French masculine elegance with its hesperidic and woody notes. Notes of lemon, bitter orange, cedar, vetiver."}</p>
+
+      <h3>N°19 (1971)</h3>
+      <p>{fr ? "Un chypre vert créé par Henri Robert en hommage à la date de naissance de Coco Chanel (19 août). N°19 est un parfum plus audacieux et moderne que N°5, avec une facette verte prononcée grâce au galbanum. Notes de galbanum, iris, vétiver, cuir." : "A green chypre created by Henri Robert as a tribute to Coco Chanel's birth date (August 19). N°19 is a bolder and more modern perfume than N°5, with a pronounced green facet thanks to galbanum. Notes of galbanum, iris, vetiver, leather."}</p>
+
+      <h3>Coco (1984)</h3>
+      <p>{fr ? "Un oriental épicé créé par Jacques Polge. Coco rend hommage à la fondatrice de la maison avec un parfum baroque et opulent, parfait pour les années 80. Notes de mandarine, coriandre, rose, jasmin, opoponax, ambre." : "A spicy oriental created by Jacques Polge. Coco pays tribute to the house's founder with a baroque and opulent perfume, perfect for the 80s. Notes of mandarin, coriander, rose, jasmine, opoponax, amber."}</p>
+
+      <h3>Allure (1996)</h3>
+      <p>{fr ? "Un floral oriental créé par Jacques Polge. Allure capture l'esprit des années 90 avec sa composition fraîche et sensuelle. Le concept d'allure, cher à Coco Chanel, inspire ce parfum intemporel. Notes de bergamote, mandarine, pêche, rose, vanille." : "A floral oriental created by Jacques Polge. Allure captures the spirit of the 90s with its fresh and sensual composition. The concept of allure, dear to Coco Chanel, inspires this timeless perfume. Notes of bergamot, mandarin, peach, rose, vanilla."}</p>
+
+      <h3>Coco Mademoiselle (2001)</h3>
+      <p>{fr ? "Un floral oriental frais créé par Jacques Polge. Coco Mademoiselle devient rapidement un des parfums féminins les plus vendus au monde. Sa fraîcheur pétillante (orange, bergamote) et sa sensualité patchouli-vanille séduisent une nouvelle génération. Un parfum emblématique des années 2000." : "A fresh floral oriental created by Jacques Polge. Coco Mademoiselle quickly became one of the best-selling women's perfumes in the world. Its sparkling freshness (orange, bergamot) and patchouli-vanilla sensuality seduced a new generation. An emblematic perfume of the 2000s."}</p>
+
+      <h3>Chance (2002)</h3>
+      <p>{fr ? "Un floral rond et pétillant créé par Jacques Polge. Chance joue la carte de la légèreté optimiste avec ses notes de pamplemousse rose, jacinthe, jasmin et ambre blanc. Le flacon rond brise les codes de Chanel." : "A round and sparkling floral created by Jacques Polge. Chance plays the card of optimistic lightness with notes of pink grapefruit, hyacinth, jasmine and white amber. The round bottle breaks Chanel's conventions."}</p>
+
+      <h3>Allure Homme Sport (2004)</h3>
+      <p>{fr ? "Un woody fresh spicy masculin créé par Jacques Polge. Allure Homme Sport apporte une fraîcheur dynamique et sportive à la ligne Allure. Notes de mandarine, néroli, cèdre, tonka. Un parfum moderne et polyvalent." : "A masculine woody fresh spicy created by Jacques Polge. Allure Homme Sport brings dynamic and sporty freshness to the Allure line. Notes of mandarin, neroli, cedar, tonka. A modern and versatile perfume."}</p>
+
+      <h3>Bleu de Chanel (2010)</h3>
+      <p>{fr ? "Un woody aromatic masculin créé par Jacques Polge. Bleu de Chanel devient un immense succès commercial mondial. Sa composition aromatic-boisée (agrumes, gingembre, cèdre, encens, santal) incarne la masculinité contemporaine. Le parfum masculin Chanel par excellence du XXIe siècle." : "A masculine woody aromatic created by Jacques Polge. Bleu de Chanel became a huge commercial success worldwide. Its aromatic-woody composition (citrus, ginger, cedar, incense, sandalwood) embodies contemporary masculinity. Chanel's quintessential masculine fragrance of the 21st century."}</p>
+
+      <h2>{fr ? "Tableau récapitulatif" : "Summary table"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Genre" : "Gender"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+              <th>{fr ? "Concentration" : "Concentration"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {chanelPerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.annee}</td>
+                <td>{t(locale, `gender.${p.attributs.genre}`)}</td>
+                <td>{p.attributs.famille}</td>
+                <td>{p.attributs.concentration}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "L'héritage Chanel" : "The Chanel legacy"}</h2>
+      <p>{fr ? "Chanel a façonné la parfumerie moderne en imposant trois principes : l'audace créative (usage des aldéhydes), la simplicité sophistiquée (flacons épurés) et l'intemporalité (compositions qui traversent les décennies). Aujourd'hui, Olivier Polge perpétue cet héritage en tant que parfumeur-créateur de la maison." : "Chanel shaped modern perfumery by imposing three principles: creative boldness (use of aldehydes), sophisticated simplicity (streamlined bottles) and timelessness (compositions that cross decades). Today, Olivier Polge perpetuates this legacy as the house's perfumer-creator."}</p>
+
+      <h2>{fr ? "Articles connexes" : "Related articles"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/parfums-iconiques-dior/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Dior" : "Dior perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "12 fragrances iconiques" : "12 iconic fragrances"}</div>
+        </a>
+        <a href={localePath(locale, '/histoire-parfums-par-decennie/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Histoire par décennie" : "History by decade"}</div>
+          <div class="content-link-card__desc">{fr ? "L'évolution de la parfumerie" : "The evolution of perfumery"}</div>
+        </a>
+        <a href={localePath(locale, '/parfums-maisons-niche-vs-designer/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Niche vs Designer" : "Niche vs Designer"}</div>
+          <div class="content-link-card__desc">{fr ? "Comprendre les différences" : "Understanding the differences"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances !" : "Test your knowledge!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

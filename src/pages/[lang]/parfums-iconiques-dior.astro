@@ -1,0 +1,131 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-iconiques-dior/`;
+
+const diorPerfumes = data.entites.filter(p => p.attributs.maison === 'Dior').sort((a, b) => a.attributs.annee - b.attributs.annee);
+---
+
+<Layout
+  title={fr ? "Les parfums Dior : guide des 12 fragrances iconiques" : "Dior perfumes: guide to 12 iconic fragrances"}
+  description={fr ? "De Miss Dior (1947) à Sauvage (2015), découvrez l'histoire des parfums Dior les plus emblématiques." : "From Miss Dior (1947) to Sauvage (2015), discover the history of the most emblematic Dior perfumes."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Les parfums Dior : guide des 12 fragrances iconiques" : "Dior perfumes: guide to 12 iconic fragrances"}</h1>
+
+      <p class="content-subtitle">{fr ? "Du mythique Miss Dior au blockbuster Sauvage, explorez l'héritage olfactif de la maison Dior." : "From the legendary Miss Dior to the blockbuster Sauvage, explore the olfactory heritage of the house of Dior."}</p>
+
+      <h2>{fr ? "La maison Dior et son héritage parfumé" : "The house of Dior and its perfumed legacy"}</h2>
+      <p>{fr ? "En 1947, Christian Dior lance sa première fragrance, Miss Dior, en même temps que sa révolutionnaire collection New Look. Depuis, la maison Dior n'a cessé de marquer l'histoire de la parfumerie avec des créations audacieuses et intemporelles." : "In 1947, Christian Dior launched his first fragrance, Miss Dior, alongside his revolutionary New Look collection. Since then, the house of Dior has continuously marked the history of perfumery with bold and timeless creations."}</p>
+
+      <p>{fr ? "Miss Dior, créé pour la sœur du couturier, Catherine Dior (résistante pendant la Seconde Guerre mondiale), inaugure une tradition d'élégance et de raffinement qui perdure encore aujourd'hui. Les parfums Dior incarnent le luxe français et la haute couture olfactive." : "Miss Dior, created for the couturier's sister, Catherine Dior (a resistance fighter during World War II), inaugurates a tradition of elegance and refinement that continues today. Dior perfumes embody French luxury and olfactory haute couture."}</p>
+
+      <h2>{fr ? "Les 12 parfums Dior de Perfumdle" : "The 12 Dior perfumes in Perfumdle"}</h2>
+
+      <h3>Miss Dior (1947)</h3>
+      <p>{fr ? "Le premier parfum de la maison, un chypre floral élégant et intemporel. Créé par Jean Carles et Paul Vacher, Miss Dior est un hommage à Catherine Dior. Notes de galbanum, jasmin, rose et patchouli." : "The house's first perfume, an elegant and timeless floral chypre. Created by Jean Carles and Paul Vacher, Miss Dior is a tribute to Catherine Dior. Notes of galbanum, jasmine, rose and patchouli."}</p>
+
+      <h3>Eau Sauvage (1966)</h3>
+      <p>{fr ? "Un citrus aromatique révolutionnaire créé par Edmond Roudnitska. Premier parfum masculin moderne de Dior, il utilise pour la première fois l'hédione à forte concentration, créant un sillage aérien unique. Notes de citron, basilic, patchouli." : "A revolutionary aromatic citrus created by Edmond Roudnitska. Dior's first modern masculine fragrance, it uses hedione at high concentration for the first time, creating a unique airy trail. Notes of lemon, basil, patchouli."}</p>
+
+      <h3>Poison (1985)</h3>
+      <p>{fr ? "Un oriental ambré puissant et provocateur. Dans les années 80, Poison fait scandale par sa sillage imposant et son nom sulfureux. Créé par Edouard Fléchier, il reste un symbole de féminité audacieuse. Notes de coriandre, prune, ambre." : "A powerful and provocative amber oriental. In the 80s, Poison caused scandal with its imposing trail and sulfurous name. Created by Edouard Fléchier, it remains a symbol of bold femininity. Notes of coriander, plum, amber."}</p>
+
+      <h3>Fahrenheit (1988)</h3>
+      <p>{fr ? "Un woody floral masculin unique créé par Jean-Louis Sieuzac. Fahrenheit bouscule les codes avec sa facette violette et cuirée. Un parfum avant-gardiste qui a marqué toute une génération. Notes de mandarine, violette, cuir." : "A unique masculine woody floral created by Jean-Louis Sieuzac. Fahrenheit challenges conventions with its violet and leather facets. An avant-garde perfume that marked an entire generation. Notes of mandarin, violet, leather."}</p>
+
+      <h3>Dolce Vita (1994)</h3>
+      <p>{fr ? "Un floral fruité féminin évoquant la douceur de vivre italienne. Créé par Pierre Bourdon et Maurice Roger, Dolce Vita capture l'esprit hédoniste des années 90. Notes de pêche, magnolia, santal." : "A feminine floral fruity evoking the Italian sweet life. Created by Pierre Bourdon and Maurice Roger, Dolce Vita captures the hedonistic spirit of the 90s. Notes of peach, magnolia, sandalwood."}</p>
+
+      <h3>Hypnotic Poison (1998)</h3>
+      <p>{fr ? "Un oriental vanillé envoûtant créé par Annick Menardo. Plus gourmand que son prédécesseur, Hypnotic Poison séduit par sa douceur sucrée et son sillage magnétique. Notes d'amande, vanille, bois de santal." : "An enchanting vanilla oriental created by Annick Menardo. More gourmand than its predecessor, Hypnotic Poison seduces with its sweet softness and magnetic trail. Notes of almond, vanilla, sandalwood."}</p>
+
+      <h3>J'adore (1999)</h3>
+      <p>{fr ? "Un floral féminin lumineux signé Calice Becker. J'adore devient rapidement un des best-sellers mondiaux de la parfumerie. Son bouquet généreux de fleurs blanches (ylang-ylang, rose damascena, jasmin sambac) incarne la féminité rayonnante." : "A luminous feminine floral by Calice Becker. J'adore quickly became one of the world's best-selling perfumes. Its generous bouquet of white flowers (ylang-ylang, damascena rose, sambac jasmine) embodies radiant femininity."}</p>
+
+      <h3>Dior Addict (2002)</h3>
+      <p>{fr ? "Un oriental floral créé par Thierry Wasser. Dior Addict joue la carte de la sensualité moderne avec ses notes de feuille de mandarine, fleur d'oranger et vanille bourbon. Un parfum addictif et glamour." : "An oriental floral created by Thierry Wasser. Dior Addict plays the card of modern sensuality with notes of mandarin leaf, orange blossom and bourbon vanilla. An addictive and glamorous perfume."}</p>
+
+      <h3>Dior Homme (2005)</h3>
+      <p>{fr ? "Un floral woody masculin révolutionnaire créé par Olivier Polge. Dior Homme impose l'iris comme note masculine dominante, créant une élégance poudré-boisée unique. Notes d'iris, cacao, bois de santal." : "A revolutionary masculine floral woody created by Olivier Polge. Dior Homme establishes iris as the dominant masculine note, creating a unique powdery-woody elegance. Notes of iris, cocoa, sandalwood."}</p>
+
+      <h3>Miss Dior Blooming Bouquet (2014)</h3>
+      <p>{fr ? "Une réinterprétation florale fraîche de Miss Dior par François Demachy. Plus légère et jeune que l'original, cette version célèbre la pivoine et la rose damascène. Un bouquet printanier délicat." : "A fresh floral reinterpretation of Miss Dior by François Demachy. Lighter and younger than the original, this version celebrates peony and damascena rose. A delicate spring bouquet."}</p>
+
+      <h3>Fahrenheit Le Parfum (2014)</h3>
+      <p>{fr ? "Une version intensifiée de Fahrenheit créée par François Demachy. Fahrenheit Le Parfum renforce les facettes cuirées et orientales de l'original, créant une concentration plus puissante et chaleureuse." : "An intensified version of Fahrenheit created by François Demachy. Fahrenheit Le Parfum strengthens the leathery and oriental facets of the original, creating a more powerful and warm concentration."}</p>
+
+      <h3>Sauvage (2015)</h3>
+      <p>{fr ? "Un aromatic fougère masculin créé par François Demachy. Sauvage devient le parfum masculin le plus vendu au monde. Sa fraîcheur épicée (bergamote de Calabre, poivre de Sichuan, ambroxan) séduit une nouvelle génération." : "A masculine aromatic fougère created by François Demachy. Sauvage became the world's best-selling men's fragrance. Its spicy freshness (Calabrian bergamot, Sichuan pepper, ambroxan) seduces a new generation."}</p>
+
+      <h2>{fr ? "Tableau récapitulatif" : "Summary table"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Genre" : "Gender"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+              <th>{fr ? "Concentration" : "Concentration"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {diorPerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.annee}</td>
+                <td>{t(locale, `gender.${p.attributs.genre}`)}</td>
+                <td>{p.attributs.famille}</td>
+                <td>{p.attributs.concentration}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Articles connexes" : "Related articles"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/parfums-iconiques-chanel/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les parfums Chanel" : "Chanel perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "100 ans d'icônes olfactives" : "100 years of olfactory icons"}</div>
+        </a>
+        <a href={localePath(locale, '/histoire-parfums-par-decennie/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Histoire par décennie" : "History by decade"}</div>
+          <div class="content-link-card__desc">{fr ? "L'évolution de la parfumerie" : "The evolution of perfumery"}</div>
+        </a>
+        <a href={localePath(locale, '/parfums-maisons-niche-vs-designer/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Niche vs Designer" : "Niche vs Designer"}</div>
+          <div class="content-link-card__desc">{fr ? "Comprendre les différences" : "Understanding the differences"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances !" : "Test your knowledge!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

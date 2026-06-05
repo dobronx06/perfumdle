@@ -1,0 +1,293 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import data from '../../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../../i18n';
+
+export function getStaticPaths() {
+  const entities = data.entites;
+  return locales.flatMap((lang) =>
+    entities.map((entry, i) => ({
+      params: { lang, slug: entry.slug },
+      props: { entry, index: i, total: entities.length },
+    }))
+  );
+}
+
+const { lang } = Astro.params;
+const locale = lang as Locale;
+const { entry, index, total } = Astro.props;
+
+const prevPerfume = index > 0 ? data.entites[index - 1] : null;
+const nextPerfume = index < total - 1 ? data.entites[index + 1] : null;
+
+const sameHouse = data.entites.filter(
+  (e) => e.attributs.maison === entry.attributs.maison && e.id !== entry.id
+);
+const sameFamily = data.entites
+  .filter(
+    (e) =>
+      e.attributs.famille === entry.attributs.famille && e.id !== entry.id
+  )
+  .slice(0, 6);
+
+const pageTitle = `${entry.nom} - ${entry.attributs.maison} | Perfumdle`;
+const description = t(locale, 'perfume.description', {
+  name: entry.nom,
+  house: entry.attributs.maison,
+  year: String(entry.attributs.annee),
+  family: entry.attributs.famille,
+  concentration: entry.attributs.concentration,
+});
+const canonical = `https://perfumdle.com/${locale}/parfum/${entry.slug}/`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: entry.nom,
+  brand: { '@type': 'Brand', name: entry.attributs.maison },
+  description,
+  category: 'Perfume',
+};
+
+function initials(name: string): string {
+  return name
+    .split(/[\s-]+/)
+    .map((w) => w[0])
+    .join('')
+    .toUpperCase()
+    .slice(0, 2);
+}
+
+const attrs = [
+  { key: 'house', value: entry.attributs.maison },
+  { key: 'year', value: String(entry.attributs.annee) },
+  { key: 'gender', value: entry.attributs.genre },
+  { key: 'family', value: entry.attributs.famille },
+  { key: 'concentration', value: entry.attributs.concentration },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={description}
+  locale={locale}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+
+    <main class="container" style="flex:1;padding-top:1rem;padding-bottom:2rem;">
+      <nav class="perfume-nav" aria-label={t(locale, 'perfume.nav_label')}>
+        <a href={localePath(locale)} class="perfume-nav__back">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"><polyline points="15 18 9 12 15 6" /></svg
+          >
+          {t(locale, 'perfume.back')}
+        </a>
+        <div class="perfume-nav__pager">
+          {prevPerfume && (
+            <a
+              href={localePath(locale, `/parfum/${prevPerfume.slug}/`)}
+              class="perfume-nav__link"
+              title={prevPerfume.nom}
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"><polyline points="15 18 9 12 15 6" /></svg
+              >
+            </a>
+          )}
+          {nextPerfume && (
+            <a
+              href={localePath(locale, `/parfum/${nextPerfume.slug}/`)}
+              class="perfume-nav__link"
+              title={nextPerfume.nom}
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"><polyline points="9 18 15 12 9 6" /></svg
+              >
+            </a>
+          )}
+        </div>
+      </nav>
+
+      <article class="perfume-profile">
+        <header class="perfume-header">
+          <div class="perfume-header__image-wrap">
+            {entry.image ? (
+              <img
+                src={entry.image}
+                alt={entry.nom}
+                class="perfume-header__image"
+                loading="eager"
+              />
+            ) : (
+              <div class="perfume-header__placeholder">
+                {initials(entry.nom)}
+              </div>
+            )}
+          </div>
+          <div class="perfume-header__info">
+            <p class="perfume-header__house">{entry.attributs.maison}</p>
+            <h1 class="perfume-header__name">{entry.nom}</h1>
+            <p class="perfume-header__year">{entry.attributs.annee}</p>
+          </div>
+        </header>
+
+        <section class="perfume-stats">
+          {attrs.map(({ key, value }) => (
+            <div class="perfume-stat">
+              <span class="perfume-stat__label">
+                {t(locale, `perfume.${key}`)}
+              </span>
+              <span class="perfume-stat__value">
+                {key === 'gender' ? t(locale, `gender.${value}`) : value}
+              </span>
+            </div>
+          ))}
+        </section>
+
+        <div class="perfume-cta">
+          <p>{t(locale, 'perfume.play_cta')}</p>
+          <a href={localePath(locale)} class="btn-play">
+            {t(locale, 'perfume.play_button')}
+          </a>
+        </div>
+      </article>
+
+      {sameHouse.length > 0 && (
+        <section class="perfume-related">
+          <h2>{t(locale, 'perfume.related')}</h2>
+          <div class="perfume-grid">
+            {sameHouse.map((p) => (
+              <a
+                href={localePath(locale, `/parfum/${p.slug}/`)}
+                class="perfume-card"
+              >
+                {p.image ? (
+                  <img src={p.image} alt={p.nom} loading="lazy" />
+                ) : (
+                  <div class="perfume-card__placeholder">
+                    {initials(p.nom)}
+                  </div>
+                )}
+                <span class="perfume-card__name">{p.nom}</span>
+                <span class="perfume-card__year">{p.attributs.annee}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {sameFamily.length > 0 && (
+        <section class="perfume-related">
+          <h2>{t(locale, 'perfume.same_family')}</h2>
+          <div class="perfume-grid">
+            {sameFamily.map((p) => (
+              <a
+                href={localePath(locale, `/parfum/${p.slug}/`)}
+                class="perfume-card"
+              >
+                {p.image ? (
+                  <img src={p.image} alt={p.nom} loading="lazy" />
+                ) : (
+                  <div class="perfume-card__placeholder">
+                    {initials(p.nom)}
+                  </div>
+                )}
+                <span class="perfume-card__name">{p.nom}</span>
+                <span class="perfume-card__sub">
+                  {p.attributs.maison} &middot; {p.attributs.annee}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <nav
+        class="perfume-prev-next"
+        aria-label={t(locale, 'perfume.prev_next_label')}
+      >
+        {prevPerfume ? (
+          <a
+            href={localePath(locale, `/parfum/${prevPerfume.slug}/`)}
+            class="perfume-prev-next__link perfume-prev-next__link--prev"
+          >
+            <span class="perfume-prev-next__dir">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                ><polyline points="15 18 9 12 15 6" /></svg
+              >
+              {t(locale, 'perfume.prev')}
+            </span>
+            <span class="perfume-prev-next__name">{prevPerfume.nom}</span>
+          </a>
+        ) : (
+          <span />
+        )}
+        {nextPerfume ? (
+          <a
+            href={localePath(locale, `/parfum/${nextPerfume.slug}/`)}
+            class="perfume-prev-next__link perfume-prev-next__link--next"
+          >
+            <span class="perfume-prev-next__dir">
+              {t(locale, 'perfume.next')}
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                ><polyline points="9 18 15 12 9 6" /></svg
+              >
+            </span>
+            <span class="perfume-prev-next__name">{nextPerfume.nom}</span>
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    </main>
+
+    <Footer locale={locale} />
+  </div>
+</Layout>

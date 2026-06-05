@@ -1,0 +1,230 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/liste-150-parfums-perfumdle/`;
+
+// Sort perfumes alphabetically by name
+const sortedPerfumes = [...data.entites].sort((a, b) => a.nom.localeCompare(b.nom));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: fr ? 'Liste des 150 parfums de Perfumdle' : 'List of all 150 Perfumdle perfumes',
+  description: fr
+    ? 'Liste complète des 150 parfums iconiques à deviner dans Perfumdle, avec détails sur la maison, année, genre, famille olfactive et concentration.'
+    : 'Complete list of the 150 iconic perfumes to guess in Perfumdle, with details on house, year, gender, olfactory family and concentration.',
+  numberOfItems: data.entites.length,
+  itemListElement: sortedPerfumes.slice(0, 10).map((p, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: `${p.nom} - ${p.attributs.maison}`,
+  })),
+};
+---
+
+<Layout
+  title={fr ? "Liste des 150 parfums de Perfumdle : tous les parfums à deviner" : "All 150 Perfumdle perfumes: complete list of perfumes to guess"}
+  description={fr
+    ? "Liste complète des 150 parfums iconiques à deviner dans Perfumdle, avec détails sur la maison, année, genre, famille olfactive et concentration."
+    : "Complete list of the 150 iconic perfumes to guess in Perfumdle, with details on house, year, gender, olfactory family and concentration."
+  }
+  locale={locale}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Les 150 parfums de Perfumdle" : "All 150 Perfumdle perfumes"}</h1>
+      <p class="content-subtitle">
+        {fr
+          ? "Liste complète des parfums iconiques à deviner dans le jeu"
+          : "Complete list of iconic perfumes to guess in the game"
+        }
+      </p>
+
+      <p>
+        {fr
+          ? "Perfumdle propose 150 parfums iconiques soigneusement sélectionnés, couvrant plus d'un siècle de création olfactive (1889-2021). Cette liste comprend les grands classiques de la parfumerie, les best-sellers incontournables et les créations niche les plus influentes."
+          : "Perfumdle features 150 carefully selected iconic perfumes, covering over a century of olfactory creation (1889-2021). This list includes the great classics of perfumery, essential bestsellers and the most influential niche creations."
+        }
+      </p>
+
+      <h2>{fr ? "Pourquoi ces 150 parfums ?" : "Why these 150 perfumes?"}</h2>
+      <p>
+        {fr
+          ? "Chaque parfum a été sélectionné pour son importance historique, culturelle ou commerciale :"
+          : "Each perfume was selected for its historical, cultural or commercial significance:"
+        }
+      </p>
+      <ul>
+        <li><strong>{fr ? "Parfums historiques" : "Historical perfumes"}</strong> : {fr ? "Les créations qui ont révolutionné la parfumerie (N°5, Shalimar, Jicky...)" : "Creations that revolutionized perfumery (N°5, Shalimar, Jicky...)"}</li>
+        <li><strong>{fr ? "Best-sellers mondiaux" : "Worldwide bestsellers"}</strong> : {fr ? "Les plus vendus de tous les temps (Sauvage, La Vie Est Belle, CK One...)" : "All-time bestsellers (Sauvage, La Vie Est Belle, CK One...)"}</li>
+        <li><strong>{fr ? "Parfums cultes" : "Cult perfumes"}</strong> : {fr ? "Les fragrances adorées des connaisseurs (Santal 33, Baccarat Rouge 540...)" : "Fragrances beloved by connoisseurs (Santal 33, Baccarat Rouge 540...)"}</li>
+        <li><strong>{fr ? "Diversité" : "Diversity"}</strong> : {fr ? "Représentation équilibrée des familles olfactives, genres et époques" : "Balanced representation of olfactory families, genders and eras"}</li>
+      </ul>
+
+      <h2>{fr ? "Liste complète par ordre alphabétique" : "Complete list in alphabetical order"}</h2>
+      <p>
+        {fr
+          ? "Cliquez sur un parfum pour accéder à sa fiche détaillée."
+          : "Click on a perfume to access its detailed page."
+        }
+      </p>
+
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Nom" : "Name"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Genre" : "Gender"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+              <th>{fr ? "Concentration" : "Concentration"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedPerfumes.map((perfume) => (
+              <tr>
+                <td>
+                  <a href={localePath(locale, `/parfum/${perfume.slug}/`)}>
+                    {perfume.nom}
+                  </a>
+                </td>
+                <td>{perfume.attributs.maison}</td>
+                <td>{perfume.attributs.annee}</td>
+                <td>{t(locale, `gender.${perfume.attributs.genre}`)}</td>
+                <td>{perfume.attributs.famille}</td>
+                <td>{perfume.attributs.concentration}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Statistiques de la collection" : "Collection statistics"}</h2>
+      <p>
+        {fr
+          ? "Quelques chiffres sur les 150 parfums de Perfumdle :"
+          : "Some numbers about the 150 Perfumdle perfumes:"
+        }
+      </p>
+      <ul>
+        <li><strong>{fr ? "Plus ancien" : "Oldest"}</strong> : {fr ? "Jicky de Guerlain (1889)" : "Jicky by Guerlain (1889)"}</li>
+        <li><strong>{fr ? "Plus récent" : "Most recent"}</strong> : {fr ? "Phantom de Paco Rabanne (2021)" : "Phantom by Paco Rabanne (2021)"}</li>
+        <li><strong>{fr ? "Maison la plus représentée" : "Most represented house"}</strong> : {fr ? "Dior avec 12 parfums" : "Dior with 12 perfumes"}</li>
+        <li><strong>{fr ? "Famille la plus courante" : "Most common family"}</strong> : {fr ? "Florale (plus de 50 parfums)" : "Floral (over 50 perfumes)"}</li>
+        <li><strong>{fr ? "Concentration préférée" : "Preferred concentration"}</strong> : {fr ? "Eau de Parfum (majoritaire)" : "Eau de Parfum (majority)"}</li>
+      </ul>
+
+      <h2>{fr ? "Parcourir par catégorie" : "Browse by category"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/guide-familles-olfactives/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Par famille olfactive" : "By olfactory family"}</div>
+          <div class="content-link-card__desc">{fr ? "Florale, Orientale, Boisée..." : "Floral, Oriental, Woody..."}</div>
+        </a>
+        <a href={localePath(locale, '/difference-edp-edt-parfum/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Par concentration" : "By concentration"}</div>
+          <div class="content-link-card__desc">{fr ? "Parfum, EDP, EDT, EDC" : "Perfume, EDP, EDT, EDC"}</div>
+        </a>
+        <a href={localePath(locale, '/guide-strategie-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Guide stratégie" : "Strategy guide"}</div>
+          <div class="content-link-card__desc">{fr ? "Astuces pour les deviner" : "Tips to guess them"}</div>
+        </a>
+      </div>
+
+      <h2>{fr ? "Comment les parfums sont-ils choisis ?" : "How are perfumes chosen?"}</h2>
+      <p>
+        {fr
+          ? "La sélection des 150 parfums repose sur plusieurs critères objectifs :"
+          : "The selection of 150 perfumes is based on several objective criteria:"
+        }
+      </p>
+
+      <h3>{fr ? "1. Impact historique" : "1. Historical impact"}</h3>
+      <p>
+        {fr
+          ? "Certains parfums ont marqué l'histoire de la parfumerie par leur innovation technique ou leur audace créative. Par exemple :"
+          : "Some perfumes have marked the history of perfumery through their technical innovation or creative boldness. For example:"
+        }
+      </p>
+      <ul>
+        <li><strong>Jicky</strong> (1889) : {fr ? "Premier parfum moderne avec des molécules de synthèse" : "First modern perfume with synthetic molecules"}</li>
+        <li><strong>N°5</strong> (1921) : {fr ? "Révolution des aldéhydes" : "Aldehyde revolution"}</li>
+        <li><strong>Angel</strong> (1992) : {fr ? "Naissance de la famille gourmande" : "Birth of the gourmand family"}</li>
+      </ul>
+
+      <h3>{fr ? "2. Succès commercial" : "2. Commercial success"}</h3>
+      <p>
+        {fr
+          ? "Les best-sellers internationaux qui ont conquis le grand public :"
+          : "International bestsellers that conquered the general public:"
+        }
+      </p>
+      <ul>
+        <li><strong>Sauvage</strong> : {fr ? "Le parfum masculin le plus vendu au monde" : "The world's best-selling men's fragrance"}</li>
+        <li><strong>La Vie Est Belle</strong> : {fr ? "Best-seller féminin incontesté des années 2010" : "Undisputed feminine bestseller of the 2010s"}</li>
+        <li><strong>1 Million</strong> : {fr ? "Phénomène commercial des années 2000" : "Commercial phenomenon of the 2000s"}</li>
+      </ul>
+
+      <h3>{fr ? "3. Influence culturelle" : "3. Cultural influence"}</h3>
+      <p>
+        {fr
+          ? "Parfums devenus des icônes culturelles, associés à des personnalités ou des mouvements :"
+          : "Perfumes that became cultural icons, associated with personalities or movements:"
+        }
+      </p>
+      <ul>
+        <li><strong>CK One</strong> : {fr ? "Symbole de la génération X et de l'unisexe" : "Symbol of Generation X and unisex"}</li>
+        <li><strong>Opium</strong> : {fr ? "Scandale et glamour des années 70" : "Scandal and glamour of the 70s"}</li>
+        <li><strong>Le Mâle</strong> : {fr ? "Révolution de la masculinité en parfumerie" : "Revolution of masculinity in perfumery"}</li>
+      </ul>
+
+      <h3>{fr ? "4. Représentativité" : "4. Representativeness"}</h3>
+      <p>
+        {fr
+          ? "Une volonté de couvrir toutes les facettes de la parfumerie :"
+          : "A desire to cover all facets of perfumery:"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Toutes les familles olfactives représentées" : "All olfactory families represented"}</li>
+        <li>{fr ? "Équilibre entre parfums féminins, masculins et unisexes" : "Balance between feminine, masculine and unisex perfumes"}</li>
+        <li>{fr ? "Mix de maisons de luxe classiques et de créateurs niche" : "Mix of classic luxury houses and niche creators"}</li>
+        <li>{fr ? "Couverture temporelle de 1889 à 2021" : "Temporal coverage from 1889 to 2021"}</li>
+      </ul>
+
+      <h2>{fr ? "Mises à jour de la liste" : "List updates"}</h2>
+      <p>
+        {fr
+          ? "La liste des 150 parfums est régulièrement mise à jour pour refléter l'évolution de la parfumerie contemporaine. Les nouveaux best-sellers et créations influentes peuvent remplacer des parfums moins représentatifs."
+          : "The list of 150 perfumes is regularly updated to reflect the evolution of contemporary perfumery. New bestsellers and influential creations may replace less representative perfumes."
+        }
+      </p>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Maintenant que vous connaissez la liste, saurez-vous deviner le parfum du jour ?" : "Now that you know the list, can you guess the perfume of the day?"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

@@ -8,9 +8,11 @@ interface Props {
   title?: string;
   description?: string;
   locale: Locale;
+  canonical?: string;
+  jsonLd?: Record<string, unknown>;
 }
 
-const { locale, title = data.titre, description = t(locale, 'site.description') } = Astro.props;
+const { locale, title = data.titre, description = t(locale, 'site.description'), canonical, jsonLd } = Astro.props;
 const other = altLocale(locale);
 
 const fontFamilies = [
@@ -18,6 +20,10 @@ const fontFamilies = [
   `${theme.typo.corps.replace(/ /g, '+')}:wght@400;500;600;700`,
 ];
 const fontUrl = `https://fonts.googleapis.com/css2?${fontFamilies.map((f) => `family=${f}`).join('&')}&display=swap`;
+
+const pathname = Astro.url.pathname;
+const frPath = pathname.replace(`/${locale}/`, '/fr/');
+const enPath = pathname.replace(`/${locale}/`, '/en/');
 
 const cssVars = [
   `--font-titre: '${theme.typo.titre}', cursive`,
@@ -43,16 +49,24 @@ const cssVars = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={data.titre} />
     <meta property="og:locale" content={ogLocale(locale)} />
     <meta property="og:locale:alternate" content={ogLocale(other)} />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" hreflang={locale} href={`https://perfumdle.com${localePath(locale)}`} />
-    <link rel="alternate" hreflang={other} href={`https://perfumdle.com${localePath(other)}`} />
-    <link rel="alternate" hreflang="x-default" href="https://perfumdle.com/fr/" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="alternate" hreflang="fr" href={`https://perfumdle.com${frPath}`} />
+    <link rel="alternate" hreflang="en" href={`https://perfumdle.com${enPath}`} />
+    <link rel="alternate" hreflang="x-default" href={`https://perfumdle.com${frPath}`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href={fontUrl} rel="stylesheet" />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
     <script defer data-domain="perfumdle.com" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>

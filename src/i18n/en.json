@@ -22,5 +22,37 @@
   "footer.not_affiliated": "{title} is not affiliated with {licence}. All names and trademarks belong to their respective owners.",
   "footer.last_updated": "Last updated: {date}",
   "lang.switch": "FR",
-  "lang.switch_label": "Version francaise"
+  "lang.switch_label": "Version francaise",
+
+  "nav.play": "Play",
+  "nav.all_perfumes": "All 150 perfumes",
+  "nav.guides": "Guides",
+
+  "perfume.back": "Back",
+  "perfume.prev": "Previous",
+  "perfume.next": "Next",
+  "perfume.nav_label": "Perfume navigation",
+  "perfume.prev_next_label": "Previous and next perfume",
+  "perfume.house": "House",
+  "perfume.year": "Year",
+  "perfume.gender": "Gender",
+  "perfume.family": "Olfactory family",
+  "perfume.concentration": "Concentration",
+  "perfume.about": "About",
+  "perfume.description": "{name} by {house} ({year}) - {family}, {concentration}. One of the 150 iconic perfumes to guess in Perfumdle.",
+  "perfume.play_cta": "Can you guess it?",
+  "perfume.play_button": "Play Perfumdle",
+  "perfume.related": "Perfumes from the same house",
+  "perfume.same_family": "Same olfactory family",
+  "perfume.all_perfumes": "See all 150 perfumes",
+
+  "gender.Feminine": "Feminine",
+  "gender.Masculine": "Masculine",
+  "gender.Unisex": "Unisex",
+
+  "content.back_home": "Back to game",
+  "content.play_cta": "Play Perfumdle",
+  "content.read_also": "Read also",
+  "content.all_perfumes": "See all 150 perfumes",
+  "content.toc": "Contents"
 }

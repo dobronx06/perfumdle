@@ -1,0 +1,175 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-orientaux-iconiques/`;
+
+// Filter all oriental perfumes
+const orientalPerfumes = data.entites.filter(p =>
+  p.attributs.famille.toLowerCase().includes('oriental')
+).sort((a, b) => a.attributs.annee - b.attributs.annee);
+
+// Sub-categories
+const orientalSpicy = orientalPerfumes.filter(p => p.attributs.famille.includes('Oriental Spicy'));
+const orientalGourmand = orientalPerfumes.filter(p => p.attributs.famille.includes('Oriental') && (p.attributs.famille.includes('Gourmand') || p.attributs.famille.includes('Oriental Vanilla')));
+const orientalFloral = orientalPerfumes.filter(p => p.attributs.famille.includes('Oriental Floral') || p.attributs.famille.includes('Floral Oriental'));
+const orientalWoody = orientalPerfumes.filter(p => p.attributs.famille.includes('Oriental Woody') || p.attributs.famille.includes('Woody Oriental'));
+---
+
+<Layout
+  title={fr ? "Les parfums orientaux iconiques : de Shalimar à Baccarat Rouge 540" : "Iconic oriental perfumes: from Shalimar to Baccarat Rouge 540"}
+  description={fr ? "Découvrez l'histoire des parfums orientaux, de Shalimar (1925) à Baccarat Rouge 540. Guide complet des fragrances ambrées, vanillées et épicées qui ont révolutionné la parfumerie." : "Discover the history of oriental perfumes, from Shalimar (1925) to Baccarat Rouge 540. Complete guide to amber, vanilla and spicy fragrances that revolutionized perfumery."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Les parfums orientaux iconiques" : "Iconic oriental perfumes"}</h1>
+      <p class="lead">
+        {fr
+          ? "De Shalimar à Baccarat Rouge 540, les parfums orientaux incarnent l'opulence et la sensualité. Découvrez l'histoire de cette famille olfactive mythique."
+          : "From Shalimar to Baccarat Rouge 540, oriental perfumes embody opulence and sensuality. Discover the history of this legendary olfactory family."
+        }
+      </p>
+
+      <h2>{fr ? "Qu'est-ce qu'un parfum oriental ?" : "What defines an oriental perfume?"}</h2>
+      <p>
+        {fr
+          ? "Les parfums orientaux se caractérisent par des notes chaudes, opulentes et enveloppantes : ambre, vanille, résines, épices exotiques. Ils évoquent le luxe et la sensualité, souvent portés le soir."
+          : "Oriental perfumes are characterized by warm, opulent and enveloping notes: amber, vanilla, resins, exotic spices. They evoke luxury and sensuality, often worn in the evening."
+        }
+      </p>
+
+      <h2>{fr ? "L'histoire : Shalimar, le premier oriental" : "The history: Shalimar, the founding oriental"}</h2>
+      <p>
+        {fr
+          ? "En 1925, Jacques Guerlain crée Shalimar, considéré comme le premier grand parfum oriental moderne. Inspiré d'une légende d'amour de l'empereur Shâh Jahân, Shalimar marie bergamote, iris, vanille et baume de Tolu dans un accord ambré révolutionnaire."
+          : "In 1925, Jacques Guerlain created Shalimar, considered the first great modern oriental perfume. Inspired by a love legend of Emperor Shah Jahan, Shalimar combines bergamot, iris, vanilla and Tolu balsam in a revolutionary amber accord."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Cette création marque le début de la famille orientale et influence toute la parfumerie du XXe siècle."
+          : "This creation marks the beginning of the oriental family and influences all twentieth-century perfumery."
+        }
+      </p>
+
+      <h2>{fr ? "Les parfums orientaux dans Perfumdle" : "Oriental perfumes in Perfumdle"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {orientalPerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Les sous-familles orientales" : "Oriental sub-families"}</h2>
+
+      <h3>{fr ? "Orientaux épicés" : "Oriental spicy"}</h3>
+      <p>
+        {fr
+          ? "Les orientaux épicés ajoutent des notes de clou de girofle, cannelle, cardamome. Opium (Yves Saint Laurent, 1977) et Coco (Chanel, 1984) en sont les archétypes : puissants, sensuels, marqués."
+          : "Oriental spicy fragrances add notes of clove, cinnamon, cardamom. Opium (Yves Saint Laurent, 1977) and Coco (Chanel, 1984) are the archetypes: powerful, sensual, distinctive."
+        }
+      </p>
+      <ul>
+        {orientalSpicy.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <h3>{fr ? "Orientaux gourmands" : "Oriental gourmand"}</h3>
+      <p>
+        {fr
+          ? "Depuis Angel (Thierry Mugler, 1992), les orientaux gourmands mêlent ambre et notes comestibles (caramel, praline, chocolat). Black Opium, La Petite Robe Noire et Candy incarnent cette tendance addictive."
+          : "Since Angel (Thierry Mugler, 1992), oriental gourmands blend amber and edible notes (caramel, praline, chocolate). Black Opium, La Petite Robe Noire and Candy embody this addictive trend."
+        }
+      </p>
+      <ul>
+        {orientalGourmand.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <h3>{fr ? "Orientaux floraux" : "Oriental floral"}</h3>
+      <p>
+        {fr
+          ? "Les orientaux floraux allient l'opulence orientale à un cœur floral. Flowerbomb (Viktor & Rolf, 2005) et Portrait of a Lady (Frédéric Malle, 2010) sont des références modernes, riches en rose et patchouli."
+          : "Oriental florals combine oriental opulence with a floral heart. Flowerbomb (Viktor & Rolf, 2005) and Portrait of a Lady (Frédéric Malle, 2010) are modern references, rich in rose and patchouli."
+        }
+      </p>
+      <ul>
+        {orientalFloral.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <h3>{fr ? "Orientaux boisés" : "Oriental woody"}</h3>
+      <p>
+        {fr
+          ? "Les orientaux boisés renforcent la structure ambrée avec des notes de bois précieux, oud ou cèdre. Alien (Thierry Mugler, 2005) et Tobacco Vanille (Tom Ford, 2007) illustrent cette catégorie luxueuse."
+          : "Oriental woody fragrances reinforce the amber structure with precious woods, oud or cedar. Alien (Thierry Mugler, 2005) and Tobacco Vanille (Tom Ford, 2007) illustrate this luxurious category."
+        }
+      </p>
+      <ul>
+        {orientalWoody.map(p => (
+          <li><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a> ({p.attributs.maison}, {p.attributs.annee})</li>
+        ))}
+      </ul>
+
+      <div class="content-links">
+        <h2>{fr ? "À lire aussi" : "Read also"}</h2>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-gourmands-guide/')}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
+          <p>{fr ? "L'histoire des parfums gourmands depuis 1992." : "The history of gourmand perfumes since 1992."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-chypres-histoire/')}>{fr ? "Parfums chypres : histoire d'une famille menacée" : "Chypre perfumes: history of an endangered family"}</a></h3>
+          <p>{fr ? "L'impact des régulations IFRA sur les parfums chypres." : "The impact of IFRA regulations on chypre perfumes."}</p>
+        </div>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances sur les parfums orientaux !" : "Test your knowledge of oriental perfumes!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

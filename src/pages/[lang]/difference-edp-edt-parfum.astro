@@ -1,0 +1,287 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/difference-edp-edt-parfum/`;
+
+// Count by concentration
+const concentrationCounts = {
+  parfum: data.entites.filter(p => p.attributs.concentration === 'Parfum').length,
+  edp: data.entites.filter(p => p.attributs.concentration === 'Eau de Parfum').length,
+  edt: data.entites.filter(p => p.attributs.concentration === 'Eau de Toilette').length,
+  edc: data.entites.filter(p => p.attributs.concentration === 'Eau de Cologne').length,
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: fr ? 'Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?' : 'Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?',
+  description: fr
+    ? 'Découvrez les différences entre Parfum, Eau de Parfum, Eau de Toilette et Eau de Cologne : concentration, tenue, prix. Guide complet pour choisir la bonne concentration.'
+    : 'Discover the differences between Perfume, Eau de Parfum, Eau de Toilette and Eau de Cologne: concentration, longevity, price. Complete guide to choosing the right concentration.',
+  author: { '@type': 'Organization', name: 'Perfumdle' },
+  datePublished: '2026-06-05',
+  dateModified: '2026-06-05',
+};
+---
+
+<Layout
+  title={fr ? "Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?" : "Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?"}
+  description={fr
+    ? "Découvrez les différences entre Parfum, Eau de Parfum, Eau de Toilette et Eau de Cologne : concentration, tenue, prix. Guide complet pour choisir la bonne concentration."
+    : "Discover the differences between Perfume, Eau de Parfum, Eau de Toilette and Eau de Cologne: concentration, longevity, price. Complete guide to choosing the right concentration."
+  }
+  locale={locale}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?" : "EDP, EDT, Perfume: what are the differences?"}</h1>
+      <p class="content-subtitle">
+        {fr
+          ? "Tout comprendre sur les concentrations de parfum pour faire le bon choix"
+          : "Understanding perfume concentrations to make the right choice"
+        }
+      </p>
+
+      <p>
+        {fr
+          ? "Lorsque vous achetez un parfum, vous avez souvent le choix entre plusieurs concentrations : Parfum, Eau de Parfum (EDP), Eau de Toilette (EDT) ou Eau de Cologne (EDC). Ces appellations désignent le pourcentage de concentré aromatique dans la composition. Voici tout ce qu'il faut savoir pour choisir."
+          : "When buying a perfume, you often have a choice between several concentrations: Perfume, Eau de Parfum (EDP), Eau de Toilette (EDT) or Eau de Cologne (EDC). These names indicate the percentage of aromatic concentrate in the composition. Here's everything you need to know to choose."
+        }
+      </p>
+
+      <h2>{fr ? "1. Parfum (ou Extrait de Parfum) : la concentration maximale" : "1. Perfume (or Extrait): maximum concentration"}</h2>
+      <p>
+        {fr
+          ? "Le Parfum (aussi appelé Extrait de Parfum) est la forme la plus concentrée en huiles essentielles, avec généralement <strong>20 à 30% de concentré aromatique</strong>. C'est le format le plus luxueux et le plus cher."
+          : "Perfume (also called Extrait de Parfum) is the most concentrated form of essential oils, typically with <strong>20-30% aromatic concentrate</strong>. It's the most luxurious and expensive format."
+        }
+      </p>
+      <p>
+        {fr
+          ? "<strong>Caractéristiques :</strong>"
+          : "<strong>Characteristics:</strong>"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Concentration : 20-30%" : "Concentration: 20-30%"}</li>
+        <li>{fr ? "Tenue : 6 à 12 heures, parfois plus" : "Longevity: 6-12 hours, sometimes more"}</li>
+        <li>{fr ? "Sillage : Puissant mais raffiné" : "Sillage: Powerful but refined"}</li>
+        <li>{fr ? "Prix : Le plus élevé" : "Price: Highest"}</li>
+        <li>{fr ? "Application : Quelques gouttes suffisent" : "Application: A few drops are enough"}</li>
+      </ul>
+      <p>
+        {fr
+          ? `Dans Perfumdle, <strong>${concentrationCounts.parfum} parfums</strong> portent cette concentration, notamment :`
+          : `In Perfumdle, <strong>${concentrationCounts.parfum} perfumes</strong> have this concentration, including:`
+        }
+      </p>
+      <ul>
+        <li><strong>N°5</strong> {fr ? "de Chanel - L'icône absolue en version Parfum" : "by Chanel - The absolute icon in Perfume version"}</li>
+        <li><strong>Joy</strong> {fr ? "de Jean Patou - Le parfum le plus cher du monde à son lancement" : "by Jean Patou - The world's most expensive perfume at launch"}</li>
+        <li><strong>Aromatics Elixir</strong> {fr ? "de Clinique - Chypré aromatique intense" : "by Clinique - Intense aromatic chypre"}</li>
+      </ul>
+
+      <h2>{fr ? "2. Eau de Parfum (EDP) : le meilleur compromis" : "2. Eau de Parfum (EDP): the best compromise"}</h2>
+      <p>
+        {fr
+          ? "L'Eau de Parfum contient généralement <strong>15 à 20% de concentré aromatique</strong>. C'est aujourd'hui la concentration la plus populaire, offrant un excellent équilibre entre tenue, intensité et prix."
+          : "Eau de Parfum typically contains <strong>15-20% aromatic concentrate</strong>. It's now the most popular concentration, offering an excellent balance between longevity, intensity and price."
+        }
+      </p>
+      <p>
+        {fr
+          ? "<strong>Caractéristiques :</strong>"
+          : "<strong>Characteristics:</strong>"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Concentration : 15-20%" : "Concentration: 15-20%"}</li>
+        <li>{fr ? "Tenue : 4 à 8 heures" : "Longevity: 4-8 hours"}</li>
+        <li>{fr ? "Sillage : Modéré à fort" : "Sillage: Moderate to strong"}</li>
+        <li>{fr ? "Prix : Élevé mais raisonnable" : "Price: High but reasonable"}</li>
+        <li>{fr ? "Application : 2-3 vaporisations suffisent" : "Application: 2-3 sprays are enough"}</li>
+      </ul>
+      <p>
+        {fr
+          ? `<strong>${concentrationCounts.edp} parfums</strong> en Eau de Parfum dans notre collection :`
+          : `<strong>${concentrationCounts.edp} perfumes</strong> in Eau de Parfum in our collection:`
+        }
+      </p>
+      <ul>
+        <li><strong>Shalimar</strong> {fr ? "de Guerlain - Oriental iconique" : "by Guerlain - Iconic oriental"}</li>
+        <li><strong>Angel</strong> {fr ? "de Thierry Mugler - Gourmand révolutionnaire" : "by Thierry Mugler - Revolutionary gourmand"}</li>
+        <li><strong>J'adore</strong> {fr ? "de Dior - Floral moderne best-seller" : "by Dior - Modern floral bestseller"}</li>
+        <li><strong>La Vie Est Belle</strong> {fr ? "de Lancôme - Gourmand féminin star" : "by Lancôme - Star feminine gourmand"}</li>
+        <li><strong>Baccarat Rouge 540</strong> {fr ? "de Maison Francis Kurkdjian - Culte contemporain" : "by Maison Francis Kurkdjian - Contemporary cult"}</li>
+      </ul>
+
+      <h2>{fr ? "3. Eau de Toilette (EDT) : fraîcheur et légèreté" : "3. Eau de Toilette (EDT): freshness and lightness"}</h2>
+      <p>
+        {fr
+          ? "L'Eau de Toilette contient <strong>5 à 15% de concentré aromatique</strong>. Plus légère que l'EDP, elle convient parfaitement pour un usage quotidien, notamment en journée ou pendant les saisons chaudes."
+          : "Eau de Toilette contains <strong>5-15% aromatic concentrate</strong>. Lighter than EDP, it's perfect for daily use, especially during the day or in hot seasons."
+        }
+      </p>
+      <p>
+        {fr
+          ? "<strong>Caractéristiques :</strong>"
+          : "<strong>Characteristics:</strong>"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Concentration : 5-15%" : "Concentration: 5-15%"}</li>
+        <li>{fr ? "Tenue : 3 à 5 heures" : "Longevity: 3-5 hours"}</li>
+        <li>{fr ? "Sillage : Léger à modéré" : "Sillage: Light to moderate"}</li>
+        <li>{fr ? "Prix : Accessible" : "Price: Affordable"}</li>
+        <li>{fr ? "Application : 3-4 vaporisations, réapplication possible" : "Application: 3-4 sprays, reapplication possible"}</li>
+      </ul>
+      <p>
+        {fr
+          ? `<strong>${concentrationCounts.edt} parfums</strong> en Eau de Toilette dans Perfumdle :`
+          : `<strong>${concentrationCounts.edt} perfumes</strong> in Eau de Toilette in Perfumdle:`
+        }
+      </p>
+      <ul>
+        <li><strong>Miss Dior</strong> {fr ? "- Chypré classique (1947)" : "- Classic chypre (1947)"}</li>
+        <li><strong>Eau Sauvage</strong> {fr ? "de Dior - Citrus aromatique révolutionnaire (1966)" : "by Dior - Revolutionary aromatic citrus (1966)"}</li>
+        <li><strong>CK One</strong> {fr ? "de Calvin Klein - Unisexe iconique des années 90" : "by Calvin Klein - Iconic unisex of the 90s"}</li>
+        <li><strong>Sauvage</strong> {fr ? "de Dior - Best-seller mondial actuel" : "by Dior - Current worldwide bestseller"}</li>
+        <li><strong>Terre d'Hermès</strong> {fr ? "- Boisé épicé élégant" : "- Elegant spicy woody"}</li>
+      </ul>
+
+      <h2>{fr ? "4. Eau de Cologne (EDC) : la fraîcheur pure" : "4. Eau de Cologne (EDC): pure freshness"}</h2>
+      <p>
+        {fr
+          ? "L'Eau de Cologne est la forme la plus légère, avec seulement <strong>3 à 5% de concentré aromatique</strong>. Historiquement à base de notes citriques, elle offre une sensation de fraîcheur immédiate mais éphémère."
+          : "Eau de Cologne is the lightest form, with only <strong>3-5% aromatic concentrate</strong>. Historically based on citrus notes, it offers an immediate but short-lived feeling of freshness."
+        }
+      </p>
+      <p>
+        {fr
+          ? "<strong>Caractéristiques :</strong>"
+          : "<strong>Characteristics:</strong>"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Concentration : 3-5%" : "Concentration: 3-5%"}</li>
+        <li>{fr ? "Tenue : 1 à 2 heures" : "Longevity: 1-2 hours"}</li>
+        <li>{fr ? "Sillage : Très léger" : "Sillage: Very light"}</li>
+        <li>{fr ? "Prix : Le plus abordable" : "Price: Most affordable"}</li>
+        <li>{fr ? "Application : Généreuse, réapplication fréquente" : "Application: Generous, frequent reapplication"}</li>
+      </ul>
+      <p>
+        {fr
+          ? `<strong>${concentrationCounts.edc} eaux de Cologne</strong> dans notre sélection :`
+          : `<strong>${concentrationCounts.edc} eau de cologne</strong> in our selection:`
+        }
+      </p>
+      <ul>
+        <li><strong>Lime Basil & Mandarin</strong> {fr ? "de Jo Malone - Citrus aromatique (1999)" : "by Jo Malone - Aromatic citrus (1999)"}</li>
+        <li><strong>Wood Sage & Sea Salt</strong> {fr ? "de Jo Malone - Boisé aromatique (2014)" : "by Jo Malone - Aromatic woody (2014)"}</li>
+        <li><strong>Colonia</strong> {fr ? "d'Acqua di Parma - Citrus italien classique (1916)" : "by Acqua di Parma - Classic Italian citrus (1916)"}</li>
+      </ul>
+
+      <h2>{fr ? "Tableau comparatif des concentrations" : "Concentration comparison table"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Type" : "Type"}</th>
+              <th>{fr ? "Concentration" : "Concentration"}</th>
+              <th>{fr ? "Tenue moyenne" : "Avg. longevity"}</th>
+              <th>{fr ? "Dans Perfumdle" : "In Perfumdle"}</th>
+              <th>{fr ? "Prix relatif" : "Relative price"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>{fr ? "Parfum / Extrait" : "Perfume / Extrait"}</strong></td>
+              <td>20-30%</td>
+              <td>{fr ? "6-12h" : "6-12h"}</td>
+              <td>{concentrationCounts.parfum}</td>
+              <td>€€€€</td>
+            </tr>
+            <tr>
+              <td><strong>Eau de Parfum</strong></td>
+              <td>15-20%</td>
+              <td>{fr ? "4-8h" : "4-8h"}</td>
+              <td>{concentrationCounts.edp}</td>
+              <td>€€€</td>
+            </tr>
+            <tr>
+              <td><strong>Eau de Toilette</strong></td>
+              <td>5-15%</td>
+              <td>{fr ? "3-5h" : "3-5h"}</td>
+              <td>{concentrationCounts.edt}</td>
+              <td>€€</td>
+            </tr>
+            <tr>
+              <td><strong>Eau de Cologne</strong></td>
+              <td>3-5%</td>
+              <td>{fr ? "1-2h" : "1-2h"}</td>
+              <td>{concentrationCounts.edc}</td>
+              <td>€</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Comment choisir la bonne concentration ?" : "How to choose the right concentration?"}</h2>
+      <p>
+        {fr
+          ? "Le choix de la concentration dépend de plusieurs facteurs :"
+          : "The choice of concentration depends on several factors:"
+        }
+      </p>
+      <ul>
+        <li><strong>{fr ? "Usage" : "Use"}</strong> : {fr ? "Journée ou soirée ? L'EDT est parfait pour le jour, l'EDP ou le Parfum pour les occasions spéciales." : "Day or evening? EDT is perfect for daytime, EDP or Perfume for special occasions."}</li>
+        <li><strong>{fr ? "Saison" : "Season"}</strong> : {fr ? "En été, privilégiez les concentrations légères (EDT, EDC). En hiver, les EDP et Parfums révèlent mieux leur complexité." : "In summer, opt for lighter concentrations (EDT, EDC). In winter, EDP and Perfumes reveal their complexity better."}</li>
+        <li><strong>{fr ? "Type de peau" : "Skin type"}</strong> : {fr ? "Les peaux sèches retiennent moins longtemps les fragrances : préférez l'EDP ou le Parfum." : "Dry skin retains fragrances less: prefer EDP or Perfume."}</li>
+        <li><strong>{fr ? "Budget" : "Budget"}</strong> : {fr ? "L'EDT offre le meilleur rapport qualité-prix pour un usage quotidien." : "EDT offers the best value for daily use."}</li>
+        <li><strong>{fr ? "Intensité souhaitée" : "Desired intensity"}</strong> : {fr ? "Sillage discret ou affirmé ? Adaptez la concentration en conséquence." : "Discreet or bold sillage? Adjust the concentration accordingly."}</li>
+      </ul>
+
+      <h2>{fr ? "Pour aller plus loin" : "Learn more"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/guide-familles-olfactives/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les 7 familles olfactives" : "The 7 olfactory families"}</div>
+          <div class="content-link-card__desc">{fr ? "Florale, orientale, boisée..." : "Floral, oriental, woody..."}</div>
+        </a>
+        <a href={localePath(locale, '/guide-strategie-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Guide stratégie Perfumdle" : "Perfumdle strategy guide"}</div>
+          <div class="content-link-card__desc">{fr ? "Comment gagner au jeu" : "How to win the game"}</div>
+        </a>
+        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les 150 parfums" : "All 150 perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "Liste complète avec détails" : "Complete list with details"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Maintenant que vous connaissez les concentrations, testez-vous sur les 150 parfums iconiques !" : "Now that you know the concentrations, test yourself on the 150 iconic perfumes!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

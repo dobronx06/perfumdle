@@ -1,0 +1,196 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-chypres-histoire/`;
+
+// Filter chypre perfumes (case insensitive)
+const chyprePerfumes = data.entites.filter(p =>
+  p.attributs.famille.toLowerCase().includes('chypre')
+).sort((a, b) => a.attributs.annee - b.attributs.annee);
+---
+
+<Layout
+  title={fr ? "Parfums chypres : histoire d'une famille menacée" : "Chypre perfumes: history of an endangered family"}
+  description={fr ? "L'histoire des parfums chypres, de Coty (1917) aux régulations IFRA. Découvrez pourquoi les chypres modernes diffèrent des vintages et quels sont les grands chypres iconiques." : "The history of chypre perfumes, from Coty (1917) to IFRA regulations. Discover why modern chypres differ from vintages and what are the great iconic chypres."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Parfums chypres : une famille menacée" : "Chypre perfumes: an endangered family"}</h1>
+      <p class="lead">
+        {fr
+          ? "Créé en 1917 par François Coty, l'accord chypre est l'un des piliers de la parfumerie. Mais les régulations IFRA ont bouleversé cette famille mythique."
+          : "Created in 1917 by François Coty, the chypre accord is one of the pillars of perfumery. But IFRA regulations have disrupted this legendary family."
+        }
+      </p>
+
+      <h2>{fr ? "L'accord chypre : bergamote, labdanum, mousse de chêne" : "The chypre accord: bergamot, labdanum, oakmoss"}</h2>
+      <p>
+        {fr
+          ? "Un parfum chypre repose sur un accord olfactif précis inventé par François Coty en 1917 pour son parfum « Chypre » :"
+          : "A chypre perfume is based on a precise olfactory accord invented by François Coty in 1917 for his perfume 'Chypre':"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Tête : bergamote fraîche et hespéridée" : "Top: fresh and citrusy bergamot"}</li>
+        <li>{fr ? "Cœur : fleurs (rose, jasmin) ou fruits (pêche)" : "Heart: flowers (rose, jasmine) or fruits (peach)"}</li>
+        <li>{fr ? "Fond : mousse de chêne (oakmoss), labdanum, patchouli" : "Base: oakmoss, labdanum, patchouli"}</li>
+      </ul>
+      <p>
+        {fr
+          ? "La mousse de chêne est l'ingrédient-clé : elle apporte cette signature terreuse, verte et aristocratique qui définit le chypre."
+          : "Oakmoss is the key ingredient: it brings that earthy, green and aristocratic signature that defines chypre."
+        }
+      </p>
+
+      <h2>{fr ? "Coty « Chypre » (1917) : l'origine du nom" : "Coty 'Chypre' (1917): the origin of the name"}</h2>
+      <p>
+        {fr
+          ? "En 1917, François Coty lance « Chypre », inspiré par l'île de Chypre (Cyprus en anglais). Le parfum connaît un tel succès qu'il donne son nom à toute une famille olfactive."
+          : "In 1917, François Coty launched 'Chypre', inspired by the island of Cyprus. The perfume was so successful that it gave its name to an entire olfactory family."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Pendant des décennies, les chypres dominent la parfumerie féminine de prestige : Mitsouko (Guerlain, 1919), Miss Dior (1947), Aromatics Elixir (Clinique, 1971)."
+          : "For decades, chypres dominated prestige women's perfumery: Mitsouko (Guerlain, 1919), Miss Dior (1947), Aromatics Elixir (Clinique, 1971)."
+        }
+      </p>
+
+      <h2>{fr ? "Les parfums chypres dans Perfumdle" : "Chypre perfumes in Perfumdle"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {chyprePerfumes.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "L'impact des régulations IFRA sur la mousse de chêne" : "The impact of IFRA regulations on oakmoss"}</h2>
+      <p>
+        {fr
+          ? "À partir de 2008, l'IFRA (International Fragrance Association) limite puis restreint drastiquement l'usage de la mousse de chêne dans les parfums en raison de risques allergènes."
+          : "From 2008, IFRA (International Fragrance Association) limited and then drastically restricted the use of oakmoss in perfumes due to allergenic risks."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Les amendements de 2012 réduisent encore les doses autorisées. Résultat : les chypres modernes ne peuvent plus utiliser la mousse de chêne naturelle en quantité suffisante."
+          : "The 2012 amendments further reduced authorized doses. Result: modern chypres can no longer use natural oakmoss in sufficient quantities."
+        }
+      </p>
+
+      <h2>{fr ? "Pourquoi les chypres modernes diffèrent des vintages" : "Why modern chypres taste different from vintage ones"}</h2>
+      <p>
+        {fr
+          ? "Les chypres reformulés utilisent des substituts synthétiques de la mousse de chêne (Evernyl, Veramoss). Ces molécules imitent l'odeur mais n'ont pas la profondeur ni la complexité de la vraie mousse de chêne."
+          : "Reformulated chypres use synthetic oakmoss substitutes (Evernyl, Veramoss). These molecules mimic the smell but lack the depth and complexity of real oakmoss."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Les aficionados de parfums vintage notent que les chypres d'avant 2008 sentent plus verts, plus terreux, plus riches. Les versions modernes sont souvent plus légères et florales."
+          : "Vintage perfume aficionados note that pre-2008 chypres smell greener, earthier, richer. Modern versions are often lighter and more floral."
+        }
+      </p>
+
+      <h2>{fr ? "Les grands chypres iconiques" : "The great iconic chypres"}</h2>
+
+      <h3>Mitsouko (Guerlain, 1919)</h3>
+      <p>
+        {fr
+          ? "Composé par Jacques Guerlain, Mitsouko est le chypre le plus célèbre. Son accord pêche-mousse de chêne-bergamote est légendaire. Le vintage (pré-reformulation) est un graal pour les collectionneurs."
+          : "Composed by Jacques Guerlain, Mitsouko is the most famous chypre. Its peach-oakmoss-bergamot accord is legendary. The vintage (pre-reformulation) is a grail for collectors."
+        }
+      </p>
+
+      <h3>Miss Dior (Dior, 1947)</h3>
+      <p>
+        {fr
+          ? "Créé par Paul Vacher pour Christian Dior, le Miss Dior original (1947) est un chypre vert éclatant. Attention : la version moderne (2012+) est un floral patchouli, totalement différent."
+          : "Created by Paul Vacher for Christian Dior, the original Miss Dior (1947) is a bright green chypre. Warning: the modern version (2012+) is a floral patchouli, totally different."
+        }
+      </p>
+
+      <h3>Aromatics Elixir (Clinique, 1971)</h3>
+      <p>
+        {fr
+          ? "Un chypre aromatique puissant et vintage, avec mousse de chêne, patchouli, rose, vétiver. Aromatics Elixir reste l'un des rares chypres encore fidèles à l'esprit originel."
+          : "A powerful and vintage aromatic chypre, with oakmoss, patchouli, rose, vetiver. Aromatics Elixir remains one of the rare chypres still faithful to the original spirit."
+        }
+      </p>
+
+      <h3>Sì (Giorgio Armani, 2013)</h3>
+      <p>
+        {fr
+          ? "Un chypre floral moderne, sans mousse de chêne naturelle. Sì montre que la famille peut évoluer : cassis, rose, patchouli, vanille. Élégant et commercial."
+          : "A modern floral chypre, without natural oakmoss. Sì shows that the family can evolve: blackcurrant, rose, patchouli, vanilla. Elegant and commercial."
+        }
+      </p>
+
+      <h3>Aventus (Creed, 2010)</h3>
+      <p>
+        {fr
+          ? "Classé « Fruity Chypre », Aventus est un chypre masculin moderne avec ananas, cassis, bouleau et mousse de chêne (synthétique). Énorme succès dans la parfumerie de niche."
+          : "Classified as 'Fruity Chypre', Aventus is a modern masculine chypre with pineapple, blackcurrant, birch and oakmoss (synthetic). Huge success in niche perfumery."
+        }
+      </p>
+
+      <div class="content-links">
+        <h2>{fr ? "À lire aussi" : "Read also"}</h2>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-orientaux-iconiques/')}>{fr ? "Les parfums orientaux iconiques" : "Iconic oriental perfumes"}</a></h3>
+          <p>{fr ? "De Shalimar à Baccarat Rouge 540, l'histoire des orientaux." : "From Shalimar to Baccarat Rouge 540, the history of orientals."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/histoire-parfums-par-decennie/')}>{fr ? "Histoire des parfums par décennie" : "History of perfumes by decade"}</a></h3>
+          <p>{fr ? "L'évolution de la parfumerie du XXe siècle à nos jours." : "The evolution of perfumery from the twentieth century to today."}</p>
+        </div>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances sur les parfums chypres !" : "Test your knowledge of chypre perfumes!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

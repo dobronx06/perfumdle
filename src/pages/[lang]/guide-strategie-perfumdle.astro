@@ -1,0 +1,353 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/guide-strategie-perfumdle/`;
+
+// Statistics
+const totalPerfumes = data.entites.length;
+
+// Count by gender
+const genderCounts = {
+  feminine: data.entites.filter(p => p.attributs.genre === 'Feminine').length,
+  masculine: data.entites.filter(p => p.attributs.genre === 'Masculine').length,
+  unisex: data.entites.filter(p => p.attributs.genre === 'Unisex').length,
+};
+
+// Count by decade
+const decades = data.entites.reduce((acc, p) => {
+  const decade = Math.floor(p.attributs.annee / 10) * 10;
+  acc[decade] = (acc[decade] || 0) + 1;
+  return acc;
+}, {} as Record<number, number>);
+
+// Top houses
+const houseCounts = data.entites.reduce((acc, p) => {
+  const house = p.attributs.maison;
+  acc[house] = (acc[house] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const topHouses = Object.entries(houseCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 5);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: fr ? 'Comment jouer à Perfumdle : stratégie et astuces pour gagner' : 'How to play Perfumdle: strategy and tips to win',
+  description: fr
+    ? 'Guide complet pour maîtriser Perfumdle : règles du jeu, stratégies gagnantes, astuces pour deviner le parfum du jour en 8 essais maximum.'
+    : 'Complete guide to master Perfumdle: game rules, winning strategies, tips to guess the perfume of the day in maximum 8 tries.',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: fr ? 'Comprendre les règles' : 'Understand the rules',
+      text: fr ? '8 essais pour deviner le parfum, 5 attributs comparés avec codes couleur' : '8 tries to guess the perfume, 5 attributes compared with color codes',
+    },
+    {
+      '@type': 'HowToStep',
+      name: fr ? 'Choisir une bonne première tentative' : 'Choose a good first try',
+      text: fr ? 'Commencer par une maison populaire comme Dior, année 2000s' : 'Start with a popular house like Dior, 2000s year',
+    },
+    {
+      '@type': 'HowToStep',
+      name: fr ? 'Analyser les indices' : 'Analyze clues',
+      text: fr ? 'Vert = correct, jaune = proche, gris = incorrect' : 'Green = correct, yellow = close, gray = wrong',
+    },
+  ],
+};
+---
+
+<Layout
+  title={fr ? "Comment jouer à Perfumdle : stratégie et astuces pour gagner" : "How to play Perfumdle: strategy and tips to win"}
+  description={fr
+    ? "Guide complet pour maîtriser Perfumdle : règles du jeu, stratégies gagnantes, astuces pour deviner le parfum du jour en 8 essais maximum."
+    : "Complete guide to master Perfumdle: game rules, winning strategies, tips to guess the perfume of the day in maximum 8 tries."
+  }
+  locale={locale}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Comment jouer à Perfumdle : guide stratégie" : "How to play Perfumdle: strategy guide"}</h1>
+      <p class="content-subtitle">
+        {fr
+          ? "Tous les conseils pour deviner le parfum du jour en un minimum d'essais"
+          : "All tips to guess the perfume of the day in minimum tries"
+        }
+      </p>
+
+      <h2>{fr ? "Les règles du jeu" : "Game rules"}</h2>
+      <p>
+        {fr
+          ? "Perfumdle est un jeu quotidien inspiré de Wordle, adapté à l'univers de la parfumerie. Votre objectif : <strong>deviner le parfum mystère du jour en 8 essais maximum</strong>."
+          : "Perfumdle is a daily game inspired by Wordle, adapted to the world of perfumery. Your goal: <strong>guess the mystery perfume of the day in maximum 8 tries</strong>."
+        }
+      </p>
+
+      <h3>{fr ? "Comment ça marche ?" : "How does it work?"}</h3>
+      <ol>
+        <li>{fr ? "Cherchez un parfum dans la liste des 150 parfums disponibles" : "Search for a perfume in the list of 150 available perfumes"}</li>
+        <li>{fr ? "Après chaque tentative, 5 attributs sont comparés :" : "After each attempt, 5 attributes are compared:"}</li>
+        <ul>
+          <li><strong>{fr ? "Maison" : "House"}</strong> : {fr ? "La marque (Dior, Chanel, Guerlain...)" : "The brand (Dior, Chanel, Guerlain...)"}</li>
+          <li><strong>{fr ? "Année" : "Year"}</strong> : {fr ? "La date de création du parfum" : "The creation date of the perfume"}</li>
+          <li><strong>{fr ? "Genre" : "Gender"}</strong> : {fr ? "Féminin, Masculin ou Unisexe" : "Feminine, Masculine or Unisex"}</li>
+          <li><strong>{fr ? "Famille olfactive" : "Olfactory family"}</strong> : {fr ? "Florale, Orientale, Boisée, etc." : "Floral, Oriental, Woody, etc."}</li>
+          <li><strong>{fr ? "Concentration" : "Concentration"}</strong> : {fr ? "Parfum, EDP, EDT ou EDC" : "Perfume, EDP, EDT or EDC"}</li>
+        </ul>
+        <li>{fr ? "Les cases se colorent selon la précision de votre réponse :" : "Boxes are colored according to the accuracy of your answer:"}</li>
+        <ul>
+          <li><strong style="color:var(--color-correct);">{fr ? "Vert" : "Green"}</strong> : {fr ? "Attribut correct !" : "Correct attribute!"}</li>
+          <li><strong style="color:var(--color-close);">{fr ? "Jaune" : "Yellow"}</strong> : {fr ? "Proche (pour l'année : ±10 ans)" : "Close (for year: ±10 years)"}</li>
+          <li><strong style="color:var(--color-text-muted);">{fr ? "Gris" : "Gray"}</strong> : {fr ? "Incorrect" : "Wrong"}</li>
+        </ul>
+        <li>{fr ? "Utilisez les indices pour affiner vos tentatives suivantes" : "Use clues to refine your next attempts"}</li>
+      </ol>
+
+      <h2>{fr ? "Stratégies gagnantes" : "Winning strategies"}</h2>
+
+      <h3>{fr ? "1. Le premier essai : maximiser l'information" : "1. First try: maximize information"}</h3>
+      <p>
+        {fr
+          ? "Le premier essai est crucial. L'objectif n'est pas de deviner tout de suite, mais d'<strong>obtenir le maximum d'informations</strong>. Voici les critères pour un bon premier choix :"
+          : "The first try is crucial. The goal is not to guess right away, but to <strong>get maximum information</strong>. Here are the criteria for a good first choice:"
+        }
+      </p>
+      <ul>
+        <li><strong>{fr ? "Maison populaire" : "Popular house"}</strong> : {fr ? `Dior arrive en tête avec ${topHouses[0][1]} parfums dans le jeu, suivi de ${topHouses[1][0]} (${topHouses[1][1]}) et ${topHouses[2][0]} (${topHouses[2][1]})` : `Dior leads with ${topHouses[0][1]} perfumes in the game, followed by ${topHouses[1][0]} (${topHouses[1][1]}) and ${topHouses[2][0]} (${topHouses[2][1]})`}</li>
+        <li><strong>{fr ? "Année médiane" : "Median year"}</strong> : {fr ? "Choisir un parfum des années 2000-2010 permet d'avoir des indices de direction (plus ancien ↓ ou plus récent ↑)" : "Choose a perfume from 2000-2010 to get direction clues (older ↓ or newer ↑)"}</li>
+        <li><strong>{fr ? "Genre mixte" : "Gender"}</strong> : {fr ? `Les parfums féminins sont majoritaires (${genderCounts.feminine}), mais commencer par un masculin (${genderCounts.masculine}) ou unisexe (${genderCounts.unisex}) peut être stratégique` : `Feminine perfumes are the majority (${genderCounts.feminine}), but starting with a masculine (${genderCounts.masculine}) or unisex (${genderCounts.unisex}) can be strategic`}</li>
+      </ul>
+      <p>
+        {fr
+          ? "<strong>Premières tentatives recommandées :</strong>"
+          : "<strong>Recommended first tries:</strong>"
+        }
+      </p>
+      <ul>
+        <li><strong>Bleu de Chanel</strong> (2010, Masculine, Woody Aromatic, EDP) - {fr ? "Excellente couverture" : "Excellent coverage"}</li>
+        <li><strong>J'adore</strong> (1999, Feminine, Floral, EDP) - {fr ? "Maison Dior, année pivot" : "Dior house, pivot year"}</li>
+        <li><strong>Sauvage</strong> (2015, Masculine, Aromatic Fougère, EDT) - {fr ? "Best-seller récent" : "Recent bestseller"}</li>
+      </ul>
+
+      <h3>{fr ? "2. Exploiter les indices d'année" : "2. Use year clues"}</h3>
+      <p>
+        {fr
+          ? "L'année est l'attribut qui donne le plus d'informations grâce au code <strong>jaune</strong> (±10 ans). Si vous obtenez du jaune sur l'année, vous savez que le parfum mystère est dans une fourchette de 20 ans !"
+          : "Year is the attribute that gives the most information thanks to the <strong>yellow</strong> code (±10 years). If you get yellow on the year, you know the mystery perfume is within a 20-year range!"
+        }
+      </p>
+      <p>
+        {fr
+          ? "<strong>Répartition par décennie dans Perfumdle :</strong>"
+          : "<strong>Distribution by decade in Perfumdle:</strong>"
+        }
+      </p>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Période" : "Period"}</th>
+              <th>{fr ? "Nombre de parfums" : "Number of perfumes"}</th>
+              <th>{fr ? "Exemples" : "Examples"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1880-1950</td>
+              <td>{Object.entries(decades).filter(([d]) => +d < 1950).reduce((sum, [, count]) => sum + count, 0)}</td>
+              <td>Jicky, N°5, Mitsouko</td>
+            </tr>
+            <tr>
+              <td>1950-1980</td>
+              <td>{Object.entries(decades).filter(([d]) => +d >= 1950 && +d < 1980).reduce((sum, [, count]) => sum + count, 0)}</td>
+              <td>Eau Sauvage, Opium, Polo</td>
+            </tr>
+            <tr>
+              <td>1980-2000</td>
+              <td>{Object.entries(decades).filter(([d]) => +d >= 1980 && +d < 2000).reduce((sum, [, count]) => sum + count, 0)}</td>
+              <td>Poison, Angel, CK One</td>
+            </tr>
+            <tr>
+              <td>2000-2010</td>
+              <td>{Object.entries(decades).filter(([d]) => +d >= 2000 && +d < 2010).reduce((sum, [, count]) => sum + count, 0)}</td>
+              <td>Coco Mademoiselle, Flowerbomb, 1 Million</td>
+            </tr>
+            <tr>
+              <td>2010-2026</td>
+              <td>{Object.entries(decades).filter(([d]) => +d >= 2010).reduce((sum, [, count]) => sum + count, 0)}</td>
+              <td>Sauvage, Baccarat Rouge 540, La Vie Est Belle</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>{fr ? "3. Croiser les familles et les genres" : "3. Cross families and genders"}</h3>
+      <p>
+        {fr
+          ? "Certaines combinaisons famille/genre sont très courantes, d'autres rares. Utilisez cette connaissance :"
+          : "Some family/gender combinations are very common, others rare. Use this knowledge:"
+        }
+      </p>
+      <ul>
+        <li><strong>{fr ? "Floraux" : "Florals"}</strong> : {fr ? "Majoritairement féminins (N°5, J'adore, Flowerbomb)" : "Mostly feminine (N°5, J'adore, Flowerbomb)"}</li>
+        <li><strong>{fr ? "Fougère" : "Fougère"}</strong> : {fr ? "Presque exclusivement masculins (Azzaro Pour Homme, Le Mâle)" : "Almost exclusively masculine (Azzaro Pour Homme, Le Mâle)"}</li>
+        <li><strong>{fr ? "Boisés" : "Woody"}</strong> : {fr ? "Équilibrés, souvent unisexes modernes (Santal 33, Oud Wood)" : "Balanced, often modern unisex (Santal 33, Oud Wood)"}</li>
+        <li><strong>{fr ? "Orientaux" : "Orientals"}</strong> : {fr ? "Mixte, féminins classiques (Shalimar) ou unisexes (Black Orchid)" : "Mixed, classic feminine (Shalimar) or unisex (Black Orchid)"}</li>
+      </ul>
+
+      <h3>{fr ? "4. Maisons et spécialités" : "4. Houses and specialties"}</h3>
+      <p>
+        {fr
+          ? "Chaque maison a ses forces. Connaître ces tendances peut vous aider :"
+          : "Each house has its strengths. Knowing these trends can help you:"
+        }
+      </p>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Parfums dans le jeu" : "Perfumes in game"}</th>
+              <th>{fr ? "Spécialités" : "Specialties"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {topHouses.map(([house, count]) => (
+              <tr>
+                <td><strong>{house}</strong></td>
+                <td>{count}</td>
+                <td>
+                  {house === 'Dior' && (fr ? 'Equilibré : classiques et modernes, féminins et masculins' : 'Balanced: classics and modern, feminine and masculine')}
+                  {house === 'Chanel' && (fr ? 'Iconiques féminins (N°5, Coco Mademoiselle) et masculins (Bleu)' : 'Iconic feminine (N°5, Coco Mademoiselle) and masculine (Bleu)')}
+                  {house === 'Yves Saint Laurent' && (fr ? 'Orientaux marquants (Opium) et best-sellers (Black Opium)' : 'Striking orientals (Opium) and bestsellers (Black Opium)')}
+                  {house === 'Guerlain' && (fr ? 'Patrimoine classique (Shalimar, Mitsouko, Jicky)' : 'Classic heritage (Shalimar, Mitsouko, Jicky)')}
+                  {house === 'Tom Ford' && (fr ? 'Luxe unisexe (Oud Wood, Tobacco Vanille, Black Orchid)' : 'Unisex luxury (Oud Wood, Tobacco Vanille, Black Orchid)')}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Astuces avancées" : "Advanced tips"}</h2>
+
+      <h3>{fr ? "Utiliser le processus d'élimination" : "Use the process of elimination"}</h3>
+      <p>
+        {fr
+          ? "Après 3-4 essais, vous devriez avoir éliminé plusieurs possibilités. Notez mentalement :"
+          : "After 3-4 tries, you should have eliminated several possibilities. Note mentally:"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Les maisons déjà testées (grises)" : "Houses already tested (gray)"}</li>
+        <li>{fr ? "La fourchette d'années possible" : "The possible year range"}</li>
+        <li>{fr ? "Le genre confirmé ou éliminé" : "The gender confirmed or eliminated"}</li>
+        <li>{fr ? "Les familles écartées" : "The families ruled out"}</li>
+      </ul>
+
+      <h3>{fr ? "Connaître les parfums iconiques" : "Know the iconic perfumes"}</h3>
+      <p>
+        {fr
+          ? "Certains parfums sont si célèbres qu'ils reviennent souvent. Familiarisez-vous avec :"
+          : "Some perfumes are so famous they come up often. Familiarize yourself with:"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Les classiques pré-2000 : N°5, Shalimar, Opium, Poison" : "Classics pre-2000: N°5, Shalimar, Opium, Poison"}</li>
+        <li>{fr ? "Les best-sellers 2000s : Coco Mademoiselle, Flowerbomb, 1 Million" : "2000s bestsellers: Coco Mademoiselle, Flowerbomb, 1 Million"}</li>
+        <li>{fr ? "Les modernes 2010+ : Sauvage, Baccarat Rouge 540, La Vie Est Belle" : "Modern 2010+: Sauvage, Baccarat Rouge 540, La Vie Est Belle"}</li>
+      </ul>
+
+      <h3>{fr ? "Gérer votre temps" : "Manage your time"}</h3>
+      <p>
+        {fr
+          ? "Vous avez 8 essais, utilisez-les intelligemment :"
+          : "You have 8 tries, use them wisely:"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Essais 1-3 : Exploration large (différentes maisons, années, genres)" : "Tries 1-3: Broad exploration (different houses, years, genders)"}</li>
+        <li>{fr ? "Essais 4-6 : Affiner avec les indices obtenus" : "Tries 4-6: Refine with obtained clues"}</li>
+        <li>{fr ? "Essais 7-8 : Tentatives ciblées sur les dernières possibilités" : "Tries 7-8: Targeted attempts on final possibilities"}</li>
+      </ul>
+
+      <h2>{fr ? "Statistiques utiles" : "Useful statistics"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Catégorie" : "Category"}</th>
+              <th>{fr ? "Nombre" : "Count"}</th>
+              <th>{fr ? "Pourcentage" : "Percentage"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>{fr ? "Total parfums" : "Total perfumes"}</strong></td>
+              <td>{totalPerfumes}</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Féminins" : "Feminine"}</td>
+              <td>{genderCounts.feminine}</td>
+              <td>{Math.round(genderCounts.feminine / totalPerfumes * 100)}%</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Masculins" : "Masculine"}</td>
+              <td>{genderCounts.masculine}</td>
+              <td>{Math.round(genderCounts.masculine / totalPerfumes * 100)}%</td>
+            </tr>
+            <tr>
+              <td>{fr ? "Unisexes" : "Unisex"}</td>
+              <td>{genderCounts.unisex}</td>
+              <td>{Math.round(genderCounts.unisex / totalPerfumes * 100)}%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Pour aller plus loin" : "Learn more"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Liste des 150 parfums" : "List of 150 perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "Étudiez la liste complète" : "Study the complete list"}</div>
+        </a>
+        <a href={localePath(locale, '/guide-familles-olfactives/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les familles olfactives" : "Olfactory families"}</div>
+          <div class="content-link-card__desc">{fr ? "Comprendre les classifications" : "Understand classifications"}</div>
+        </a>
+        <a href={localePath(locale, '/difference-edp-edt-parfum/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "EDP vs EDT vs Parfum" : "EDP vs EDT vs Perfume"}</div>
+          <div class="content-link-card__desc">{fr ? "Les concentrations expliquées" : "Concentrations explained"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Prêt à mettre en pratique ces stratégies ?" : "Ready to put these strategies into practice?"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

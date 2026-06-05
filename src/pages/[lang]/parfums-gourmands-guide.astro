@@ -1,0 +1,184 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/parfums-gourmands-guide/`;
+
+// Filter gourmand perfumes
+const gourmandPerfumes = data.entites.filter(p =>
+  p.attributs.famille.toLowerCase().includes('gourmand')
+).sort((a, b) => a.attributs.annee - b.attributs.annee);
+
+// Include related oriental gourmands like Candy, La Vie Est Belle, Her
+const relatedGourmands = data.entites.filter(p =>
+  (p.nom === 'Candy' || p.nom === 'La Vie Est Belle' || p.nom === 'Her' || p.nom === 'Hypnotic Poison')
+).sort((a, b) => a.attributs.annee - b.attributs.annee);
+
+const allGourmands = [...gourmandPerfumes, ...relatedGourmands.filter(p => !gourmandPerfumes.find(g => g.id === p.id))].sort((a, b) => a.attributs.annee - b.attributs.annee);
+---
+
+<Layout
+  title={fr ? "Parfums gourmands : pourquoi ils ont révolutionné la parfumerie" : "Gourmand perfumes: why they revolutionized perfumery"}
+  description={fr ? "L'histoire des parfums gourmands depuis Angel (1992). Découvrez pourquoi ces fragrances aux notes comestibles (vanille, caramel, chocolat) ont conquis toute une génération." : "The history of gourmand perfumes since Angel (1992). Discover why these fragrances with edible notes (vanilla, caramel, chocolate) conquered a whole generation."}
+  locale={locale}
+  canonical={canonical}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</h1>
+      <p class="lead">
+        {fr
+          ? "En 1992, Thierry Mugler lançait Angel, premier parfum gourmand. Trente ans plus tard, cette famille olfactive domine le marché et séduit les millennials."
+          : "In 1992, Thierry Mugler launched Angel, the first gourmand perfume. Thirty years later, this olfactory family dominates the market and seduces millennials."
+        }
+      </p>
+
+      <h2>{fr ? "Qu'est-ce qu'un parfum gourmand ?" : "What is a gourmand fragrance?"}</h2>
+      <p>
+        {fr
+          ? "Un parfum gourmand contient des notes comestibles rappelant la pâtisserie ou la confiserie : vanille, caramel, praline, chocolat, café, amande. Ces accords sucrés donnent envie de croquer le parfum."
+          : "A gourmand fragrance contains edible notes reminiscent of pastry or confectionery: vanilla, caramel, praline, chocolate, coffee, almond. These sweet accords make you want to bite into the perfume."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Contrairement aux orientaux classiques, les gourmands mettent en avant ces facettes sucrées plutôt que l'ambre ou les épices."
+          : "Unlike classic orientals, gourmands highlight these sweet facets rather than amber or spices."
+        }
+      </p>
+
+      <h2>{fr ? "Angel (1992) : le parfum qui a tout changé" : "Angel (1992): the perfume that changed everything"}</h2>
+      <p>
+        {fr
+          ? "En 1992, le parfumeur Olivier Cresp compose pour Thierry Mugler un parfum radicalement nouveau : Angel. Pour la première fois, un accord patchouli-vanille-caramel-chocolat domine une fragrance féminine."
+          : "In 1992, perfumer Olivier Cresp composed a radically new perfume for Thierry Mugler: Angel. For the first time, a patchouli-vanilla-caramel-chocolate accord dominated a feminine fragrance."
+        }
+      </p>
+      <p>
+        {fr
+          ? "Le succès est immédiat. Angel devient l'un des parfums les plus vendus au monde et crée une nouvelle famille olfactive : les gourmands."
+          : "The success is immediate. Angel becomes one of the best-selling perfumes in the world and creates a new olfactory family: gourmands."
+        }
+      </p>
+
+      <h2>{fr ? "Les parfums gourmands dans Perfumdle" : "Gourmand perfumes in Perfumdle"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Parfum" : "Perfume"}</th>
+              <th>{fr ? "Maison" : "House"}</th>
+              <th>{fr ? "Année" : "Year"}</th>
+              <th>{fr ? "Famille" : "Family"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allGourmands.map(p => (
+              <tr>
+                <td><a href={localePath(locale, `/parfum/${p.slug}/`)}>{p.nom}</a></td>
+                <td>{p.attributs.maison}</td>
+                <td>{p.attributs.annee}</td>
+                <td>{p.attributs.famille}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Pourquoi les millennials adorent les gourmands" : "Why millennials love gourmands"}</h2>
+      <p>
+        {fr
+          ? "Les parfums gourmands connaissent un succès phénoménal auprès des millennials et de la génération Z pour plusieurs raisons :"
+          : "Gourmand perfumes are phenomenally successful with millennials and Gen Z for several reasons:"
+        }
+      </p>
+      <ul>
+        <li>{fr ? "Réconfortants : les notes sucrées évoquent l'enfance et la douceur." : "Comforting: sweet notes evoke childhood and sweetness."}</li>
+        <li>{fr ? "Addictifs : la vanille et le caramel créent une signature olfactive reconnaissable." : "Addictive: vanilla and caramel create a recognizable olfactory signature."}</li>
+        <li>{fr ? "Accessibles : contrairement aux chypres ou cuirs, les gourmands plaisent immédiatement." : "Accessible: unlike chypres or leathers, gourmands please immediately."}</li>
+        <li>{fr ? "Polyvalents : portés de jour comme de soir, été comme hiver." : "Versatile: worn day or night, summer or winter."}</li>
+      </ul>
+
+      <h2>{fr ? "Les best-sellers gourmands modernes" : "Modern gourmand best-sellers"}</h2>
+
+      <h3>Black Opium (Yves Saint Laurent, 2014)</h3>
+      <p>
+        {fr
+          ? "Café, vanille, fleur d'oranger et jasmin : Black Opium modernise le gourmand avec un twist caféiné. C'est l'un des parfums féminins les plus vendus au monde depuis 2014."
+          : "Coffee, vanilla, orange blossom and jasmine: Black Opium modernizes the gourmand with a caffeinated twist. It's one of the best-selling women's perfumes in the world since 2014."
+        }
+      </p>
+
+      <h3>La Petite Robe Noire (Guerlain, 2009)</h3>
+      <p>
+        {fr
+          ? "Guerlain réinvente son héritage avec un oriental gourmand fruité : cerise noire, amande, vanille et iris. Séduisant et accessible."
+          : "Guerlain reinvents its heritage with a fruity gourmand oriental: black cherry, almond, vanilla and iris. Seductive and accessible."
+        }
+      </p>
+
+      <h3>Candy (Prada, 2011)</h3>
+      <p>
+        {fr
+          ? "Prada signe un gourmand oriental enrobé de caramel et benzoin. Moderne et luxueux, Candy incarne le gourmand de créateur."
+          : "Prada creates a gourmand oriental wrapped in caramel and benzoin. Modern and luxurious, Candy embodies the designer gourmand."
+        }
+      </p>
+
+      <h3>La Vie Est Belle (Lancôme, 2012)</h3>
+      <p>
+        {fr
+          ? "Iris, patchouli, praline, vanille : La Vie Est Belle est le parfum français le plus vendu au monde. Son accord gourmand floral conquiert toutes les générations."
+          : "Iris, patchouli, praline, vanilla: La Vie Est Belle is the best-selling French perfume in the world. Its floral gourmand accord conquers all generations."
+        }
+      </p>
+
+      <h3>Her (Burberry, 2018)</h3>
+      <p>
+        {fr
+          ? "Burberry propose un fruity gourmand moderne avec fraise, mûre et vanille. Fresh et addictif, Her séduit la génération Z."
+          : "Burberry offers a modern fruity gourmand with strawberry, blackberry and vanilla. Fresh and addictive, Her seduces Gen Z."
+        }
+      </p>
+
+      <div class="content-links">
+        <h2>{fr ? "À lire aussi" : "Read also"}</h2>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-orientaux-iconiques/')}>{fr ? "Les parfums orientaux iconiques" : "Iconic oriental perfumes"}</a></h3>
+          <p>{fr ? "De Shalimar à Baccarat Rouge 540, l'histoire des orientaux." : "From Shalimar to Baccarat Rouge 540, the history of orientals."}</p>
+        </div>
+        <div class="content-link-card">
+          <h3><a href={localePath(locale, '/parfums-unisexes-tendance/')}>{fr ? "Parfums unisexes : la tendance qui redéfinit la parfumerie" : "Unisex perfumes: the trend redefining perfumery"}</a></h3>
+          <p>{fr ? "L'essor des parfums sans genre depuis CK One." : "The rise of gender-neutral perfumes since CK One."}</p>
+        </div>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances sur les parfums gourmands !" : "Test your knowledge of gourmand perfumes!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

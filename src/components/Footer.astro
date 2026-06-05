@@ -1,17 +1,35 @@
 ---
 import data from '../data/data.json';
-import { t, type Locale } from '../i18n';
+import { t, localePath, type Locale } from '../i18n';
 
 interface Props {
   locale: Locale;
 }
 
 const { locale } = Astro.props;
+const fr = locale === 'fr';
 const year = new Date().getFullYear();
 const today = new Date().toISOString().split('T')[0];
+
+const links = [
+  { href: '/liste-150-parfums-perfumdle/', label: fr ? 'Les 150 parfums' : 'All 150 perfumes' },
+  { href: '/guide-familles-olfactives/', label: fr ? 'Familles olfactives' : 'Olfactory families' },
+  { href: '/difference-edp-edt-parfum/', label: fr ? 'EDP vs EDT' : 'EDP vs EDT' },
+  { href: '/guide-strategie-perfumdle/', label: fr ? 'Strategie' : 'Strategy' },
+  { href: '/parfums-iconiques-dior/', label: fr ? 'Parfums Dior' : 'Dior perfumes' },
+  { href: '/parfums-iconiques-chanel/', label: fr ? 'Parfums Chanel' : 'Chanel perfumes' },
+  { href: '/parfums-orientaux-iconiques/', label: fr ? 'Parfums orientaux' : 'Oriental perfumes' },
+  { href: '/parfums-unisexes-tendance/', label: fr ? 'Parfums unisexes' : 'Unisex perfumes' },
+  { href: '/histoire-parfums-par-decennie/', label: fr ? 'Histoire par decennie' : 'History by decade' },
+];
 ---
 
 <footer class="site-footer">
+  <nav class="footer-links" aria-label={fr ? 'Pages du site' : 'Site pages'}>
+    {links.map((link) => (
+      <a href={localePath(locale, link.href)}>{link.label}</a>
+    ))}
+  </nav>
   <p>
     {t(locale, 'footer.not_affiliated', { title: data.titre, licence: data.licence })}
   </p>

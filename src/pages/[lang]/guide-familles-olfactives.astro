@@ -1,0 +1,278 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import { t, locales, localePath, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const fr = locale === 'fr';
+const canonical = `https://perfumdle.com/${locale}/guide-familles-olfactives/`;
+
+// Count perfumes by family type
+const familyCounts = {
+  floral: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('floral')).length,
+  oriental: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('oriental')).length,
+  woody: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('wood')).length,
+  chypre: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('chypre')).length,
+  fougere: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('fougère') || p.attributs.famille.toLowerCase().includes('fougere')).length,
+  citrus: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('citrus')).length,
+  aromatic: data.entites.filter(p => p.attributs.famille.toLowerCase().includes('aromatic')).length,
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: fr ? 'Les 7 familles olfactives en parfumerie : guide complet' : 'The 7 olfactory families in perfumery: complete guide',
+  description: fr
+    ? 'Découvrez les 7 grandes familles olfactives de la parfumerie : florale, orientale, boisée, chyprée, fougère, hespéridée et aromatique. Guide complet avec exemples de parfums iconiques.'
+    : 'Discover the 7 main olfactory families in perfumery: floral, oriental, woody, chypre, fougère, citrus and aromatic. Complete guide with examples of iconic perfumes.',
+  author: { '@type': 'Organization', name: 'Perfumdle' },
+  datePublished: '2026-06-05',
+  dateModified: '2026-06-05',
+};
+---
+
+<Layout
+  title={fr ? "Les 7 familles olfactives en parfumerie : guide complet" : "The 7 olfactory families in perfumery: complete guide"}
+  description={fr
+    ? "Découvrez les 7 grandes familles olfactives de la parfumerie : florale, orientale, boisée, chyprée, fougère, hespéridée et aromatique. Guide complet avec exemples de parfums iconiques."
+    : "Discover the 7 main olfactory families in perfumery: floral, oriental, woody, chypre, fougère, citrus and aromatic. Complete guide with examples of iconic perfumes."
+  }
+  locale={locale}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <div style="display:flex;flex-direction:column;min-height:100dvh;">
+    <Header locale={locale} />
+    <main class="container content-page" style="flex:1;">
+      <nav class="content-nav">
+        <a href={localePath(locale)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          {t(locale, 'content.back_home')}
+        </a>
+      </nav>
+
+      <h1>{fr ? "Les 7 familles olfactives en parfumerie" : "The 7 olfactory families in perfumery"}</h1>
+      <p class="content-subtitle">
+        {fr
+          ? "Un guide complet pour comprendre les grandes classifications de la parfumerie moderne"
+          : "A complete guide to understanding the major classifications of modern perfumery"
+        }
+      </p>
+
+      <p>
+        {fr
+          ? "La classification des parfums en familles olfactives permet de mieux comprendre et décrire les fragrances. Découvrez les 7 grandes familles qui structurent l'univers de la parfumerie, avec des exemples tirés des 150 parfums iconiques de Perfumdle."
+          : "Classifying perfumes into olfactory families helps to better understand and describe fragrances. Discover the 7 main families that structure the world of perfumery, with examples from the 150 iconic perfumes in Perfumdle."
+        }
+      </p>
+
+      <h2>{fr ? "1. Florale : la famille la plus populaire" : "1. Floral: the most popular family"}</h2>
+      <p>
+        {fr
+          ? "La famille florale est la plus répandue, particulièrement dans les parfums féminins. Elle évoque la fraîcheur et l'élégance des fleurs : rose, jasmin, iris, muguet, pivoine... Les compositions florales peuvent être légères et aériennes ou riches et opulentes."
+          : "The floral family is the most widespread, particularly in women's perfumes. It evokes the freshness and elegance of flowers: rose, jasmine, iris, lily of the valley, peony... Floral compositions can be light and airy or rich and opulent."
+        }
+      </p>
+      <p>
+        {fr
+          ? `Perfumdle compte <strong>${familyCounts.floral} parfums floraux</strong>, dont les incontournables :`
+          : `Perfumdle features <strong>${familyCounts.floral} floral perfumes</strong>, including must-haves:`
+        }
+      </p>
+      <ul>
+        <li><strong>N°5</strong> {fr ? "de Chanel - Florale aldéhydée iconique (1921)" : "by Chanel - Iconic floral aldehyde (1921)"}</li>
+        <li><strong>J'adore</strong> {fr ? "de Dior - Bouquet floral moderne (1999)" : "by Dior - Modern floral bouquet (1999)"}</li>
+        <li><strong>Flowerbomb</strong> {fr ? "de Viktor & Rolf - Florale orientale explosive (2005)" : "by Viktor & Rolf - Explosive oriental floral (2005)"}</li>
+      </ul>
+
+      <h2>{fr ? "2. Orientale : chaleur et sensualité" : "2. Oriental: warmth and sensuality"}</h2>
+      <p>
+        {fr
+          ? "Les parfums orientaux se caractérisent par leur richesse et leur chaleur. Vanille, ambre, épices, résines... Ces fragrances enveloppantes et sensuelles évoquent l'exotisme et le mystère de l'Orient. Parfaits pour les soirées et les saisons froides."
+          : "Oriental perfumes are characterized by their richness and warmth. Vanilla, amber, spices, resins... These enveloping and sensual fragrances evoke the exoticism and mystery of the Orient. Perfect for evenings and cold seasons."
+        }
+      </p>
+      <p>
+        {fr
+          ? `<strong>${familyCounts.oriental} parfums orientaux</strong> dans Perfumdle, parmi lesquels :`
+          : `<strong>${familyCounts.oriental} oriental perfumes</strong> in Perfumdle, including:`
+        }
+      </p>
+      <ul>
+        <li><strong>Shalimar</strong> {fr ? "de Guerlain - Le pionnier des orientaux (1925)" : "by Guerlain - The pioneer of orientals (1925)"}</li>
+        <li><strong>Opium</strong> {fr ? "d'Yves Saint Laurent - Oriental épicé révolutionnaire (1977)" : "by Yves Saint Laurent - Revolutionary spicy oriental (1977)"}</li>
+        <li><strong>Angel</strong> {fr ? "de Thierry Mugler - Oriental gourmand novateur (1992)" : "by Thierry Mugler - Innovative gourmand oriental (1992)"}</li>
+      </ul>
+
+      <h2>{fr ? "3. Boisée : profondeur et élégance" : "3. Woody: depth and elegance"}</h2>
+      <p>
+        {fr
+          ? "Les notes boisées apportent profondeur et sophistication aux parfums. Cèdre, santal, vétiver, patchouli... Cette famille est très prisée dans les parfums masculins, mais aussi de plus en plus dans les créations unisexes et féminines modernes."
+          : "Woody notes bring depth and sophistication to perfumes. Cedar, sandalwood, vetiver, patchouli... This family is highly prized in men's perfumes, but also increasingly in modern unisex and women's creations."
+        }
+      </p>
+      <p>
+        {fr
+          ? `On trouve <strong>${familyCounts.woody} parfums boisés</strong> parmi nos 150 sélections :`
+          : `There are <strong>${familyCounts.woody} woody perfumes</strong> among our 150 selections:`
+        }
+      </p>
+      <ul>
+        <li><strong>Terre d'Hermès</strong> {fr ? "- Boisé épicé minéral (2006)" : "- Mineral spicy woody (2006)"}</li>
+        <li><strong>Santal 33</strong> {fr ? "de Le Labo - Boisé aromatique culte (2011)" : "by Le Labo - Cult aromatic woody (2011)"}</li>
+        <li><strong>Bleu de Chanel</strong> {fr ? "- Boisé aromatique contemporain (2010)" : "- Contemporary aromatic woody (2010)"}</li>
+      </ul>
+
+      <h2>{fr ? "4. Chyprée : la sophistication à la française" : "4. Chypre: French sophistication"}</h2>
+      <p>
+        {fr
+          ? "Famille noble créée en 1917, les chyprés se reconnaissent à leur accord bergamote-mousse de chêne-patchouli. Des fragrances sophistiquées, souvent considérées comme les plus élégantes de la parfumerie classique."
+          : "Noble family created in 1917, chypres are recognized by their bergamot-oakmoss-patchouli accord. Sophisticated fragrances, often considered the most elegant in classic perfumery."
+        }
+      </p>
+      <p>
+        {fr
+          ? `<strong>${familyCounts.chypre} parfums chyprés</strong> dans notre collection :`
+          : `<strong>${familyCounts.chypre} chypre perfumes</strong> in our collection:`
+        }
+      </p>
+      <ul>
+        <li><strong>Mitsouko</strong> {fr ? "de Guerlain - Chypré fruité légendaire (1919)" : "by Guerlain - Legendary fruity chypre (1919)"}</li>
+        <li><strong>Miss Dior</strong> {fr ? "(original) - Chypré floral emblématique (1947)" : "(original) - Emblematic floral chypre (1947)"}</li>
+      </ul>
+
+      <h2>{fr ? "5. Fougère : fraîcheur aromatique" : "5. Fougère: aromatic freshness"}</h2>
+      <p>
+        {fr
+          ? "Créée en 1882, la famille fougère se caractérise par des notes de lavande, coumarine et mousse. Principalement associée aux parfums masculins, elle évoque la fraîcheur et la virilité classique."
+          : "Created in 1882, the fougère family is characterized by notes of lavender, coumarin and moss. Mainly associated with men's perfumes, it evokes freshness and classic masculinity."
+        }
+      </p>
+      <p>
+        {fr
+          ? `<strong>${familyCounts.fougere} parfums fougère</strong> dans Perfumdle :`
+          : `<strong>${familyCounts.fougere} fougère perfumes</strong> in Perfumdle:`
+        }
+      </p>
+      <ul>
+        <li><strong>Azzaro Pour Homme</strong> {fr ? "- Fougère aromatique intemporelle (1978)" : "- Timeless aromatic fougère (1978)"}</li>
+        <li><strong>Le Mâle</strong> {fr ? "de Jean Paul Gaultier - Fougère orientale (1995)" : "by Jean Paul Gaultier - Oriental fougère (1995)"}</li>
+        <li><strong>Sauvage</strong> {fr ? "de Dior - Fougère aromatique contemporaine (2015)" : "by Dior - Contemporary aromatic fougère (2015)"}</li>
+      </ul>
+
+      <h2>{fr ? "6. Hespéridée / Citrus : vivacité et fraîcheur" : "6. Citrus: vivacity and freshness"}</h2>
+      <p>
+        {fr
+          ? "Les hespéridés tirent leur nom des agrumes : citron, bergamote, orange, pamplemousse... Ces notes vivifiantes et fraîches sont souvent utilisées en ouverture, mais constituent aussi la base des eaux de Cologne."
+          : "Citrus fragrances derive their name from citrus fruits: lemon, bergamot, orange, grapefruit... These invigorating and fresh notes are often used as top notes, but also form the base of eau de cologne."
+        }
+      </p>
+      <p>
+        {fr
+          ? `<strong>${familyCounts.citrus} parfums hespéridés/citriques</strong> :`
+          : `<strong>${familyCounts.citrus} citrus perfumes</strong>:`
+        }
+      </p>
+      <ul>
+        <li><strong>Eau Sauvage</strong> {fr ? "de Dior - Citrus aromatique révolutionnaire (1966)" : "by Dior - Revolutionary aromatic citrus (1966)"}</li>
+        <li><strong>CK One</strong> {fr ? "de Calvin Klein - Citrus aromatique unisexe (1994)" : "by Calvin Klein - Unisex aromatic citrus (1994)"}</li>
+      </ul>
+
+      <h2>{fr ? "7. Aromatique : herbes et épices" : "7. Aromatic: herbs and spices"}</h2>
+      <p>
+        {fr
+          ? "La famille aromatique se distingue par ses notes d'herbes aromatiques : romarin, thym, sauge, basilic... Souvent combinées avec des notes fraîches ou boisées, ces fragrances évoquent la Méditerranée et la nature."
+          : "The aromatic family is distinguished by its aromatic herb notes: rosemary, thyme, sage, basil... Often combined with fresh or woody notes, these fragrances evoke the Mediterranean and nature."
+        }
+      </p>
+      <p>
+        {fr
+          ? `<strong>${familyCounts.aromatic} parfums aromatiques</strong> dans notre sélection :`
+          : `<strong>${familyCounts.aromatic} aromatic perfumes</strong> in our selection:`
+        }
+      </p>
+      <ul>
+        <li><strong>Acqua di Gio</strong> {fr ? "de Giorgio Armani - Aquatique aromatique (1996)" : "by Giorgio Armani - Aquatic aromatic (1996)"}</li>
+        <li><strong>Chrome</strong> {fr ? "d'Azzaro - Citrus aromatique (1996)" : "by Azzaro - Aromatic citrus (1996)"}</li>
+      </ul>
+
+      <h2>{fr ? "Tableau récapitulatif des familles olfactives" : "Summary table of olfactory families"}</h2>
+      <div class="content-table-wrap">
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>{fr ? "Famille" : "Family"}</th>
+              <th>{fr ? "Caractéristiques" : "Characteristics"}</th>
+              <th>{fr ? "Nombre dans Perfumdle" : "Count in Perfumdle"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>{fr ? "Florale" : "Floral"}</strong></td>
+              <td>{fr ? "Rose, jasmin, iris, muguet" : "Rose, jasmine, iris, lily of the valley"}</td>
+              <td>{familyCounts.floral}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Orientale" : "Oriental"}</strong></td>
+              <td>{fr ? "Vanille, ambre, épices, résines" : "Vanilla, amber, spices, resins"}</td>
+              <td>{familyCounts.oriental}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Boisée" : "Woody"}</strong></td>
+              <td>{fr ? "Cèdre, santal, vétiver, patchouli" : "Cedar, sandalwood, vetiver, patchouli"}</td>
+              <td>{familyCounts.woody}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Chyprée" : "Chypre"}</strong></td>
+              <td>{fr ? "Bergamote, mousse de chêne, patchouli" : "Bergamot, oakmoss, patchouli"}</td>
+              <td>{familyCounts.chypre}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Fougère" : "Fougère"}</strong></td>
+              <td>{fr ? "Lavande, coumarine, mousse" : "Lavender, coumarin, moss"}</td>
+              <td>{familyCounts.fougere}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Hespéridée/Citrus" : "Citrus"}</strong></td>
+              <td>{fr ? "Citron, bergamote, orange, pamplemousse" : "Lemon, bergamot, orange, grapefruit"}</td>
+              <td>{familyCounts.citrus}</td>
+            </tr>
+            <tr>
+              <td><strong>{fr ? "Aromatique" : "Aromatic"}</strong></td>
+              <td>{fr ? "Romarin, thym, sauge, basilic" : "Rosemary, thyme, sage, basil"}</td>
+              <td>{familyCounts.aromatic}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>{fr ? "Pour aller plus loin" : "Learn more"}</h2>
+      <div class="content-links">
+        <a href={localePath(locale, '/difference-edp-edt-parfum/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "EDP vs EDT vs Parfum" : "EDP vs EDT vs Perfume"}</div>
+          <div class="content-link-card__desc">{fr ? "Comprendre les concentrations" : "Understanding concentrations"}</div>
+        </a>
+        <a href={localePath(locale, '/guide-strategie-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Guide stratégie" : "Strategy guide"}</div>
+          <div class="content-link-card__desc">{fr ? "Astuces pour gagner" : "Tips to win"}</div>
+        </a>
+        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Les 150 parfums" : "All 150 perfumes"}</div>
+          <div class="content-link-card__desc">{fr ? "Liste complète" : "Complete list"}</div>
+        </a>
+      </div>
+
+      <div class="content-cta-box">
+        <p>{fr ? "Testez vos connaissances sur ces familles olfactives !" : "Test your knowledge of these olfactory families!"}</p>
+        <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>
