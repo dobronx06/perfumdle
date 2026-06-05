@@ -2,13 +2,16 @@
 import '../styles/global.css';
 import data from '../data/data.json';
 import theme from '../data/theme.json';
+import { t, altLocale, localePath, ogLocale, type Locale } from '../i18n';
 
 interface Props {
   title?: string;
   description?: string;
+  locale: Locale;
 }
 
-const { title = data.titre, description = data.description } = Astro.props;
+const { locale, title = data.titre, description = t(locale, 'site.description') } = Astro.props;
+const other = altLocale(locale);
 
 const fontFamilies = [
   `${theme.typo.titre.replace(/ /g, '+')}:wght@400;700`,
@@ -35,13 +38,18 @@ const cssVars = [
 ---
 
 <!doctype html>
-<html lang="fr" style={cssVars}>
+<html lang={locale} style={cssVars}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta property="og:locale" content={ogLocale(locale)} />
+    <meta property="og:locale:alternate" content={ogLocale(other)} />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" hreflang={locale} href={`https://perfumdle.com${localePath(locale)}`} />
+    <link rel="alternate" hreflang={other} href={`https://perfumdle.com${localePath(other)}`} />
+    <link rel="alternate" hreflang="x-default" href="https://perfumdle.com/fr/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href={fontUrl} rel="stylesheet" />

@@ -1,30 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-// import AdSlot from '../components/AdSlot.astro';
-import data from '../data/data.json';
-import theme from '../data/theme.json';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/data.json';
+import theme from '../../data/theme.json';
+import { t, getTranslations, locales, type Locale } from '../../i18n';
 
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const locale = lang as Locale;
 const modes = data.modes ?? [];
 const showTabs = modes.length > 1;
+const i18nStrings = getTranslations(locale);
 ---
 
-<Layout>
+<Layout locale={locale}>
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header />
+    <Header locale={locale} />
 
     <main class="container" style="flex:1;">
       <!-- Hero -->
       <section class="hero">
         <h1 class="font-display">{data.titre}</h1>
-        <p class="tagline">{theme.accroche_hero}</p>
+        <p class="tagline">{t(locale, 'hero.tagline')}</p>
         <div class="divider" aria-hidden="true"></div>
       </section>
 
       <!-- Mode tabs (hidden if single mode) -->
       {showTabs && (
-        <nav class="mode-tabs" id="mode-tabs" role="tablist" aria-label="Modes de jeu">
+        <nav class="mode-tabs" id="mode-tabs" role="tablist" aria-label={t(locale, 'game.modes')}>
           {modes.map((mode, i) => (
             <button
               role="tab"
@@ -55,14 +62,14 @@ const showTabs = modes.length > 1;
           {mode.id !== 'classique' && (
             <div class="clue-panel" id={`clue-${mode.id}`}>
               {mode.id === 'emoji' && (
-                <p class="clue-emoji" id="emoji-display" aria-label="Indices emoji">...</p>
+                <p class="clue-emoji" id="emoji-display" aria-label={t(locale, 'game.emoji_clues')}>...</p>
               )}
               {mode.id === 'capacite' && (
                 <p class="clue-text" id="capacite-display">...</p>
               )}
               {mode.id === 'image' && (
                 <div class="clue-image" id="image-display">
-                  <span>Pas d'image</span>
+                  <span>{t(locale, 'game.no_image')}</span>
                 </div>
               )}
             </div>
@@ -87,12 +94,12 @@ const showTabs = modes.length > 1;
 
       <!-- Search input -->
       <div class="search-wrapper game-section" id="search-wrapper">
-        <label for="search-input" class="sr-only">Rechercher une entite</label>
+        <label for="search-input" class="sr-only">{t(locale, 'game.search_label')}</label>
         <input
           type="text"
           id="search-input"
           class="search-input"
-          placeholder="Rechercher..."
+          placeholder={t(locale, 'game.search_placeholder')}
           autocomplete="off"
           autocapitalize="off"
           spellcheck="false"
@@ -105,16 +112,15 @@ const showTabs = modes.length > 1;
 
       <!-- Game over -->
       <div id="game-over" hidden></div>
-
-      {/* <AdSlot id="ad-mid" /> */}
     </main>
 
-    <Footer />
+    <Footer locale={locale} />
   </div>
 
   <!-- Embed data at build time -->
   <script type="application/json" id="game-data" set:html={JSON.stringify(data)} />
   <script type="application/json" id="game-theme" set:html={JSON.stringify(theme)} />
+  <script type="application/json" id="i18n-data" set:html={JSON.stringify(i18nStrings)} />
 
   <script>
     // ================================================================
@@ -124,9 +130,20 @@ const showTabs = modes.length > 1;
 
     const DATA = JSON.parse(document.getElementById('game-data')!.textContent!);
     const THEME = JSON.parse(document.getElementById('game-theme')!.textContent!);
+    const I18N: Record<string, string> = JSON.parse(document.getElementById('i18n-data')!.textContent!);
     const ENTITIES: Entity[] = DATA.entites;
     const ATTRS: AttrDef[] = DATA.attributs_indices;
     const MODES: Mode[] = DATA.modes ?? [];
+
+    function i18n(key: string, params?: Record<string, string>): string {
+      let str = I18N[key] ?? key;
+      if (params) {
+        for (const [k, v] of Object.entries(params)) {
+          str = str.replaceAll(`{${k}}`, v);
+        }
+      }
+      return str;
+    }
 
     // ===== Types =====
     interface Entity {
@@ -514,7 +531,7 @@ const showTabs = modes.length > 1;
       // Empty header cell for image column
       const imgHeader = h('div', 'guess-header-cell guess-header-img');
       header.appendChild(imgHeader);
-      const nameCell = h('div', 'guess-header-cell', 'Nom');
+      const nameCell = h('div', 'guess-header-cell', i18n('game.name_header'));
       header.appendChild(nameCell);
       ATTRS.forEach((a) => {
         header.appendChild(h('div', 'guess-header-cell', a.label));
@@ -597,7 +614,7 @@ const showTabs = modes.length > 1;
       const el = $('capacite-display');
       if (!el) return;
       const st = loadModeState('capacite');
-      el.textContent = st.target.capacite ?? 'Aucune description disponible.';
+      el.textContent = st.target.capacite ?? i18n('game.no_description');
     }
 
     // ===== Render: Image Mode =====
@@ -609,7 +626,7 @@ const showTabs = modes.length > 1;
       const st = loadModeState('image');
 
       if (!st.target.image) {
-        container.innerHTML = '<span>Pas d\'image disponible</span>';
+        container.innerHTML = `<span>${i18n('game.no_image_available')}</span>`;
         return;
       }
 
@@ -617,7 +634,7 @@ const showTabs = modes.length > 1;
       container.innerHTML = '';
       const img = document.createElement('img');
       img.src = st.target.image;
-      img.alt = 'Portrait mystere';
+      img.alt = i18n('game.mystery_portrait');
       img.style.filter = `blur(${blurLevel}px)`;
       container.appendChild(img);
     }
@@ -656,7 +673,7 @@ const showTabs = modes.length > 1;
 
       const box = h('div', `game-over-box ${isWin ? 'is-win' : 'is-lose'}`);
 
-      const title = h('h2', 'game-over-title font-display', isWin ? (THEME.victoire ?? 'Victoire !') : (THEME.defaite ?? 'Perdu !'));
+      const title = h('h2', 'game-over-title font-display', isWin ? i18n('game.victory') : i18n('game.defeat'));
       box.appendChild(title);
 
       // Big reveal image
@@ -670,7 +687,7 @@ const showTabs = modes.length > 1;
       }
 
       const answer = h('p', 'game-over-answer');
-      answer.innerHTML = `C'etait <strong>${st.target.nom}</strong>`;
+      answer.innerHTML = i18n('game.was_answer', { name: st.target.nom });
       box.appendChild(answer);
 
       const actions = h('div', 'game-over-actions');
@@ -678,13 +695,13 @@ const showTabs = modes.length > 1;
       // Share button
       const shareBtn = document.createElement('button');
       shareBtn.className = 'btn-share';
-      shareBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> Partager mon resultat`;
+      shareBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> ${i18n('game.share')}`;
       shareBtn.addEventListener('click', () => shareResult(shareBtn));
       actions.appendChild(shareBtn);
 
       // Countdown
       const countdownBox = h('div', 'countdown-box');
-      countdownBox.appendChild(h('span', 'countdown-label', 'Prochain puzzle'));
+      countdownBox.appendChild(h('span', 'countdown-label', i18n('game.next_puzzle')));
       const timer = h('span', 'countdown-timer');
       timer.id = 'countdown-timer';
       countdownBox.appendChild(timer);
@@ -704,7 +721,10 @@ const showTabs = modes.length > 1;
       if (st.won || st.lost) {
         el.textContent = '';
       } else {
-        el.textContent = `${st.guessIds.length} / ${getMaxGuesses()} essais`;
+        el.textContent = i18n('game.guesses', {
+          current: String(st.guessIds.length),
+          max: String(getMaxGuesses()),
+        });
       }
     }
 
@@ -786,7 +806,7 @@ const showTabs = modes.length > 1;
 
     function flashShareButton(btn: HTMLButtonElement, success: boolean): void {
       const original = btn.innerHTML;
-      btn.innerHTML = success ? '\u2713 Copie !' : '\u2717 Echec';
+      btn.innerHTML = success ? i18n('game.copied') : i18n('game.copy_failed');
       btn.disabled = true;
       setTimeout(() => {
         btn.innerHTML = original;

@@ -1,14 +1,19 @@
 ---
 import data from '../data/data.json';
+import { t, type Locale } from '../i18n';
 
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
 const year = new Date().getFullYear();
 const today = new Date().toISOString().split('T')[0];
 ---
 
 <footer class="site-footer">
   <p>
-    {data.titre} n'est pas affilie a {data.licence}. Tous les noms et
-    marques appartiennent a leurs proprietaires respectifs.
+    {t(locale, 'footer.not_affiliated', { title: data.titre, licence: data.licence })}
   </p>
-  <p class="updated">Derniere mise a jour : {today} &middot; &copy; {year} {data.titre}</p>
+  <p class="updated">{t(locale, 'footer.last_updated', { date: today })} &middot; &copy; {year} {data.titre}</p>
 </footer>
