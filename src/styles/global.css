@@ -22,6 +22,11 @@ html {
 body {
   font-family: var(--font-corps);
   background-color: var(--color-bg);
+  background-image: url('/bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--color-text);
   line-height: 1.6;
   min-height: 100dvh;
