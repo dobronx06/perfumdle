@@ -136,7 +136,8 @@ def main():
 
             if try_download(url, filepath):
                 size_kb = os.path.getsize(filepath) / 1024
-                print(f"[{num}/150] {name} ({brand}) -> {slug}.webp OK ({size_kb:.0f}KB)")
+                total = len(raw["entities"])
+                print(f"[{num}/{total}] {name} ({brand}) -> {slug}.webp OK ({size_kb:.0f}KB)")
                 found += 1
                 if name in entity_map:
                     idx = entity_map[name]
@@ -152,7 +153,7 @@ def main():
 
                 if try_download(url, filepath):
                     size_kb = os.path.getsize(filepath) / 1024
-                    print(f"[{num}/150] {name} ({brand}) -> {slug}.jpg OK ({size_kb:.0f}KB)")
+                    print(f"[{num}/{len(raw['entities'])}] {name} ({brand}) -> {slug}.jpg OK ({size_kb:.0f}KB)")
                     found += 1
                     if name in entity_map:
                         idx = entity_map[name]
@@ -162,7 +163,7 @@ def main():
 
         if not downloaded:
             tried = ", ".join(candidates)
-            print(f"[{num}/150] {name} ({brand}) -> MISS (tried: {tried})")
+            print(f"[{num}/{len(raw['entities'])}] {name} ({brand}) -> MISS (tried: {tried})")
             not_found += 1
 
     # Save updated template data
@@ -170,8 +171,8 @@ def main():
         json.dump(template, f, ensure_ascii=False, indent=2)
 
     print(f"\nDone! Found: {found}, Already cached: {already}, Not found: {not_found}")
-    total = found + already
-    print(f"Total images: {total}/150")
+    img_total = found + already
+    print(f"Total images: {img_total}/{len(raw['entities'])}")
 
 if __name__ == "__main__":
     main()

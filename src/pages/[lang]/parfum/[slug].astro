@@ -4,6 +4,14 @@ import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import data from '../../../data/data.json';
 import { t, locales, localePath, type Locale } from '../../../i18n';
+import {
+  getFamilyDescription,
+  getConcentrationDescription,
+  getDecade,
+  getDecadeDescription,
+  isNicheHouse,
+  getRelevantGuides,
+} from '../../../data/perfume-content';
 
 export function getStaticPaths() {
   const entities = data.entites;
@@ -32,6 +40,51 @@ const sameFamily = data.entites
   )
   .slice(0, 6);
 
+/* ---- Content helpers ---- */
+const familyDesc = getFamilyDescription(locale, entry.attributs.famille);
+const concDesc = getConcentrationDescription(locale, entry.attributs.concentration);
+const decade = getDecade(entry.attributs.annee);
+const decadeDesc = getDecadeDescription(locale, entry.attributs.annee);
+const niche = isNicheHouse(entry.attributs.maison);
+const guides = getRelevantGuides(locale, entry.attributs.famille, entry.attributs.maison, entry.attributs.genre);
+const houseCount = sameHouse.length + 1;
+const genderText = t(locale, `gender.${entry.attributs.genre}`).toLowerCase();
+
+const introText = t(locale, 'perfume.intro_text', {
+  name: entry.nom,
+  gender: genderText,
+  house: entry.attributs.maison,
+  year: String(entry.attributs.annee),
+  family: entry.attributs.famille,
+  concentration: entry.attributs.concentration,
+  total: String(total),
+});
+
+/* ---- FAQ ---- */
+const faqs = [
+  {
+    q: t(locale, 'perfume.faq_family_q', { name: entry.nom }),
+    a: t(locale, 'perfume.faq_family_a', { name: entry.nom, house: entry.attributs.maison, family: entry.attributs.famille }),
+  },
+  {
+    q: t(locale, 'perfume.faq_year_q', { name: entry.nom }),
+    a: t(locale, 'perfume.faq_year_a', { name: entry.nom, year: String(entry.attributs.annee), house: entry.attributs.maison }),
+  },
+  {
+    q: t(locale, 'perfume.faq_gender_q', { name: entry.nom }),
+    a: t(locale, 'perfume.faq_gender_a', { name: entry.nom, gender: genderText, concentration: entry.attributs.concentration }),
+  },
+  {
+    q: t(locale, 'perfume.faq_concentration_q', { name: entry.nom }),
+    a: t(locale, 'perfume.faq_concentration_a', { name: entry.nom, concentration: entry.attributs.concentration }),
+  },
+  {
+    q: t(locale, 'perfume.faq_game_q', { name: entry.nom }),
+    a: t(locale, 'perfume.faq_game_a', { name: entry.nom, total: String(total) }),
+  },
+];
+
+/* ---- SEO ---- */
 const pageTitle = `${entry.nom} - ${entry.attributs.maison} | Perfumdle`;
 const description = t(locale, 'perfume.description', {
   name: entry.nom,
@@ -44,11 +97,45 @@ const canonical = `https://perfumdle.com/${locale}/parfum/${entry.slug}/`;
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: entry.nom,
-  brand: { '@type': 'Brand', name: entry.attributs.maison },
-  description,
-  category: 'Perfume',
+  '@graph': [
+    {
+      '@type': 'Product',
+      name: `${entry.nom} - ${entry.attributs.maison}`,
+      brand: { '@type': 'Brand', name: entry.attributs.maison },
+      description,
+      category: 'Perfume',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Perfumdle',
+          item: `https://perfumdle.com/${locale}/`,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: t(locale, 'perfume.breadcrumb_all'),
+          item: `https://perfumdle.com/${locale}/liste-150-parfums-perfumdle/`,
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: `${entry.nom} - ${entry.attributs.maison}`,
+        },
+      ],
+    },
+  ],
 };
 
 function initials(name: string): string {
@@ -80,8 +167,21 @@ const attrs = [
     <Header locale={locale} />
 
     <main class="container" style="flex:1;padding-top:1rem;padding-bottom:2rem;">
+
+      <!-- Breadcrumbs -->
+      <nav class="perfume-breadcrumbs" aria-label="Breadcrumb">
+        <a href={localePath(locale)}>Perfumdle</a>
+        <span class="sep" aria-hidden="true">/</span>
+        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')}>
+          {t(locale, 'perfume.breadcrumb_all')}
+        </a>
+        <span class="sep" aria-hidden="true">/</span>
+        <span aria-current="page">{entry.nom}</span>
+      </nav>
+
+      <!-- Navigation -->
       <nav class="perfume-nav" aria-label={t(locale, 'perfume.nav_label')}>
-        <a href={localePath(locale)} class="perfume-nav__back">
+        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="perfume-nav__back">
           <svg
             width="16"
             height="16"
@@ -137,13 +237,14 @@ const attrs = [
         </div>
       </nav>
 
+      <!-- Profile card -->
       <article class="perfume-profile">
         <header class="perfume-header">
           <div class="perfume-header__image-wrap">
             {entry.image ? (
               <img
                 src={entry.image}
-                alt={entry.nom}
+                alt={`${entry.nom} - ${entry.attributs.maison}`}
                 class="perfume-header__image"
                 loading="eager"
               />
@@ -173,42 +274,18 @@ const attrs = [
           ))}
         </section>
 
-        <div class="perfume-cta">
-          <p>{t(locale, 'perfume.play_cta')}</p>
-          <a href={localePath(locale)} class="btn-play">
-            {t(locale, 'perfume.play_button')}
-          </a>
+        <div class="perfume-intro">
+          <p>{introText}</p>
         </div>
       </article>
 
-      {sameHouse.length > 0 && (
-        <section class="perfume-related">
-          <h2>{t(locale, 'perfume.related')}</h2>
-          <div class="perfume-grid">
-            {sameHouse.map((p) => (
-              <a
-                href={localePath(locale, `/parfum/${p.slug}/`)}
-                class="perfume-card"
-              >
-                {p.image ? (
-                  <img src={p.image} alt={p.nom} loading="lazy" />
-                ) : (
-                  <div class="perfume-card__placeholder">
-                    {initials(p.nom)}
-                  </div>
-                )}
-                <span class="perfume-card__name">{p.nom}</span>
-                <span class="perfume-card__year">{p.attributs.annee}</span>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
+      <!-- Olfactory family section -->
+      <section class="perfume-section">
+        <h2>{t(locale, 'perfume.family_title', { family: entry.attributs.famille })}</h2>
+        <p>{familyDesc}</p>
 
-      {sameFamily.length > 0 && (
-        <section class="perfume-related">
-          <h2>{t(locale, 'perfume.same_family')}</h2>
-          <div class="perfume-grid">
+        {sameFamily.length > 0 && (
+          <div class="perfume-grid" style="margin-top:1rem;">
             {sameFamily.map((p) => (
               <a
                 href={localePath(locale, `/parfum/${p.slug}/`)}
@@ -228,9 +305,108 @@ const attrs = [
               </a>
             ))}
           </div>
-        </section>
-      )}
+        )}
 
+        <a class="perfume-section__link" href={localePath(locale, '/guide-familles-olfactives/')}>
+          {t(locale, 'perfume.guides_title')} &rarr;
+        </a>
+      </section>
+
+      <!-- House section -->
+      <section class="perfume-section">
+        <h2>{t(locale, 'perfume.house_title', { house: entry.attributs.maison })}</h2>
+        <p>
+          {t(locale, 'perfume.house_count', { count: String(houseCount), house: entry.attributs.maison })}
+          {' '}
+          {niche ? t(locale, 'perfume.house_niche') : t(locale, 'perfume.house_designer')}
+        </p>
+
+        {sameHouse.length > 0 && (
+          <div class="perfume-grid" style="margin-top:1rem;">
+            {sameHouse.map((p) => (
+              <a
+                href={localePath(locale, `/parfum/${p.slug}/`)}
+                class="perfume-card"
+              >
+                {p.image ? (
+                  <img src={p.image} alt={p.nom} loading="lazy" />
+                ) : (
+                  <div class="perfume-card__placeholder">
+                    {initials(p.nom)}
+                  </div>
+                )}
+                <span class="perfume-card__name">{p.nom}</span>
+                <span class="perfume-card__year">{p.attributs.annee}</span>
+              </a>
+            ))}
+          </div>
+        )}
+
+        {entry.attributs.maison === 'Chanel' && (
+          <a class="perfume-section__link" href={localePath(locale, '/parfums-iconiques-chanel/')}>
+            {locale === 'fr' ? 'Tous les parfums Chanel' : 'All Chanel perfumes'} &rarr;
+          </a>
+        )}
+        {entry.attributs.maison === 'Dior' && (
+          <a class="perfume-section__link" href={localePath(locale, '/parfums-iconiques-dior/')}>
+            {locale === 'fr' ? 'Tous les parfums Dior' : 'All Dior perfumes'} &rarr;
+          </a>
+        )}
+      </section>
+
+      <!-- Concentration section -->
+      <section class="perfume-section">
+        <h2>{t(locale, 'perfume.concentration_title', { concentration: entry.attributs.concentration })}</h2>
+        <p>{concDesc}</p>
+        <a class="perfume-section__link" href={localePath(locale, '/difference-edp-edt-parfum/')}>
+          {locale === 'fr' ? 'Comprendre les concentrations' : 'Understanding concentrations'} &rarr;
+        </a>
+      </section>
+
+      <!-- Historical era section -->
+      <section class="perfume-section">
+        <h2>{t(locale, 'perfume.era_title', { decade })}</h2>
+        <p>{decadeDesc}</p>
+        <a class="perfume-section__link" href={localePath(locale, '/histoire-parfums-par-decennie/')}>
+          {locale === 'fr' ? 'L\'histoire par decennie' : 'History by decade'} &rarr;
+        </a>
+      </section>
+
+      <!-- FAQ section -->
+      <section class="perfume-section perfume-faq">
+        <h2>{t(locale, 'perfume.faq_title', { name: entry.nom })}</h2>
+        <dl>
+          {faqs.map((faq) => (
+            <>
+              <dt>{faq.q}</dt>
+              <dd>{faq.a}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+
+      <!-- Related guides -->
+      <section class="perfume-section">
+        <h2>{t(locale, 'perfume.guides_title')}</h2>
+        <div class="content-links">
+          {guides.map((guide) => (
+            <a class="content-link-card" href={guide.href}>
+              <h3>{guide.label}</h3>
+              <p>{guide.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="perfume-cta-standalone">
+        <p>{t(locale, 'perfume.play_cta')}</p>
+        <a href={localePath(locale)} class="btn-play">
+          {t(locale, 'perfume.play_button')}
+        </a>
+      </div>
+
+      <!-- Prev / Next -->
       <nav
         class="perfume-prev-next"
         aria-label={t(locale, 'perfume.prev_next_label')}

@@ -54,5 +54,27 @@
   "content.play_cta": "Jouer a Perfumdle",
   "content.read_also": "A lire aussi",
   "content.all_perfumes": "Voir les 150 parfums",
-  "content.toc": "Sommaire"
+  "content.toc": "Sommaire",
+
+  "perfume.intro_text": "{name} est un parfum {gender} signe {house}, lance en {year}. Classe dans la famille olfactive {family} et presente en {concentration}, il fait partie des {total} parfums iconiques de Perfumdle.",
+  "perfume.family_title": "Famille olfactive : {family}",
+  "perfume.house_title": "La maison {house}",
+  "perfume.house_niche": "Maison de parfumerie de niche, reconnue pour son approche artisanale et ses compositions recherchees.",
+  "perfume.house_designer": "Grande maison ayant marque l'histoire de la parfumerie avec des creations devenues des classiques.",
+  "perfume.house_count": "{count} parfums de {house} figurent dans la selection Perfumdle.",
+  "perfume.concentration_title": "Concentration : {concentration}",
+  "perfume.era_title": "Un parfum des annees {decade}",
+  "perfume.faq_title": "Questions frequentes sur {name}",
+  "perfume.guides_title": "Guides et articles",
+  "perfume.breadcrumb_all": "Tous les parfums",
+  "perfume.faq_family_q": "Quelle est la famille olfactive de {name} ?",
+  "perfume.faq_family_a": "{name} de {house} appartient a la famille olfactive {family}.",
+  "perfume.faq_year_q": "Quand {name} a-t-il ete lance ?",
+  "perfume.faq_year_a": "{name} a ete lance en {year} par la maison {house}.",
+  "perfume.faq_gender_q": "{name} est-il pour homme ou pour femme ?",
+  "perfume.faq_gender_a": "{name} est un parfum {gender}, disponible en {concentration}.",
+  "perfume.faq_concentration_q": "Quelle est la concentration de {name} ?",
+  "perfume.faq_concentration_a": "{name} est propose en {concentration}.",
+  "perfume.faq_game_q": "Comment deviner {name} dans Perfumdle ?",
+  "perfume.faq_game_a": "Dans Perfumdle, utilisez les indices (maison, annee, genre, famille olfactive, concentration) pour identifier {name} parmi les {total} parfums de la selection."
 }

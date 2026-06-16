@@ -109,7 +109,8 @@ def main():
             continue
 
         num = found + not_found + already + 1
-        print(f"[{num}/150] {name} ({brand})...", end=" ", flush=True)
+        total = len(raw["entities"])
+        print(f"[{num}/{total}] {name} ({brand})...", end=" ", flush=True)
 
         result = api_search(name, brand)
         if not result:

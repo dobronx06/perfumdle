@@ -54,5 +54,27 @@
   "content.play_cta": "Play Perfumdle",
   "content.read_also": "Read also",
   "content.all_perfumes": "See all 150 perfumes",
-  "content.toc": "Contents"
+  "content.toc": "Contents",
+
+  "perfume.intro_text": "{name} is a {gender} fragrance by {house}, launched in {year}. Part of the {family} olfactory family and available as {concentration}, it is among the {total} iconic perfumes featured in Perfumdle.",
+  "perfume.family_title": "Olfactory family: {family}",
+  "perfume.house_title": "The house of {house}",
+  "perfume.house_niche": "A niche perfume house known for its artisanal approach and refined compositions.",
+  "perfume.house_designer": "An iconic house that shaped perfumery history with creations that became timeless classics.",
+  "perfume.house_count": "{count} fragrances by {house} in the Perfumdle selection.",
+  "perfume.concentration_title": "Concentration: {concentration}",
+  "perfume.era_title": "A fragrance from the {decade}s",
+  "perfume.faq_title": "Frequently asked questions about {name}",
+  "perfume.guides_title": "Related guides and articles",
+  "perfume.breadcrumb_all": "All perfumes",
+  "perfume.faq_family_q": "What is the olfactory family of {name}?",
+  "perfume.faq_family_a": "{name} by {house} belongs to the {family} olfactory family.",
+  "perfume.faq_year_q": "When was {name} launched?",
+  "perfume.faq_year_a": "{name} was launched in {year} by {house}.",
+  "perfume.faq_gender_q": "Is {name} for men or women?",
+  "perfume.faq_gender_a": "{name} is a {gender} fragrance, available as {concentration}.",
+  "perfume.faq_concentration_q": "What is the concentration of {name}?",
+  "perfume.faq_concentration_a": "{name} is available as {concentration}.",
+  "perfume.faq_game_q": "How to guess {name} in Perfumdle?",
+  "perfume.faq_game_a": "In Perfumdle, use the clues (house, year, gender, olfactory family, concentration) to identify {name} among the {total} featured perfumes."
 }
