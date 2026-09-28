@@ -40,7 +40,7 @@ const alternates: Record<Locale, string> = {
   fr: Astro.props.alternates?.fr ?? pathname.replace(`/${locale}/`, '/fr/'),
   en: Astro.props.alternates?.en ?? pathname.replace(`/${locale}/`, '/en/'),
 };
-const ogImage = abs(image ?? '/og-default.jpg');
+const ogImage = abs(image || '/og-default.jpg');
 
 const light = {
   primary: '#7A1F2B', accent: '#7A1F2B', bg: '#F7F3EE', bgCard: '#FFFFFF', text: '#1A1411', textMuted: '#6B605A',

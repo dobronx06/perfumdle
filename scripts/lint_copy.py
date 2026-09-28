@@ -6,6 +6,8 @@ Exit 1 on any error. Warnings are printed but do not fail.
 import json, re, sys, pathlib, collections
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DEFS = {d['id']: d for d in json.load(open(ROOT / 'src/data/ranked-pages.json'))}
+PERFUMES = {p['slug'] for p in json.load(open(ROOT / 'src/data/perfumes.json'))}
+DEEP_FIELDS = {'history': (130, 260), 'review': (130, 260), 'rivals': (100, 220), 'performance': (70, 160)}
 
 BANNED_FR = [
     'véritable', 'incontournable', 'envoûtant', 'sublim', 'subtil équilibre', 'alliance parfaite', 'mariage parfait',
@@ -73,6 +75,12 @@ for fn in sys.argv[1:]:
                     elif c == 3:
                         warns.append(f'{path}: 3 virgules dans « {sent[:60]}… »')
             # structure
+            if pid in PERFUMES:  # deep perfume copy (src/data/editorial/deep-*.json)
+                for f, (lo, hi) in DEEP_FIELDS.items():
+                    n = words(t.get(f, ''))
+                    if not lo <= n <= hi:
+                        errors.append(f'{pid}.{lang}.{f} {n} mots ({lo}–{hi})')
+                continue
             if pid.startswith('hub:'):
                 continue
             d = DEFS.get(pid)
@@ -105,7 +113,7 @@ for fn in sys.argv[1:]:
             for w, c in firsts.items():
                 if c > 1:
                     warns.append(f'{pid}.{lang}.why: {c} ouvertures par « {w} »')
-        if pid.startswith('hub:'):
+        if pid.startswith('hub:') or pid in PERFUMES:
             continue
         d = DEFS.get(pid)
         if d:

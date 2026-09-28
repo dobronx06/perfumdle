@@ -175,6 +175,15 @@ contrôlées par `scripts/lint_copy.py` : zéro tiret cadratin, pas de virgules 
 - Maillage automatique : note/famille/saison/genre/maison → leurs sélections ; fiche parfum → « Dans nos sélections » + lien vers la page du parfumeur.
 - Prévisualiser le site à une date donnée : `PUBLISH_DATE=2026-12-01 ./node_modules/.bin/astro build` (1 899 pages, audit propre).
 
+### 8.6 Fiches parfum enrichies et images (28/09/2026)
+
+- Benchmark Olfastory (fiche Sauvage ~1 200 mots + 4 sous-pages, mais contradictions, coquilles, pub recyclée) :
+  nos 100 fiches les plus recherchées passent de ~690 à ~1 290 mots avec 4 sections nouvelles (histoire du lancement,
+  avis détaillé, face à ses rivaux calculés, tenue/sillage/usage). Textes : `src/data/editorial/deep-*.json`,
+  briefs : `python3 scripts/deep_briefs.py`.
+- Images : 44 des 66 visuels manquants récupérés (URL du CDN reconstruites, `scripts/guess_cdn_images.py`), chacun vérifié à l'œil,
+  enregistrés dans `scripts/image-fixes.json` (appliqué par `prepare_data.py`). Restent 22 parfums sans visuel (surtout Parfums de Marly rares).
+
 ## 9. Ce qui a volontairement été écarté
 
 Le deuxième thread partagé décrit un SEO « black hat » (churn & burn, PBN, domaines expirés, parasite SEO).

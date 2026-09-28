@@ -49,6 +49,15 @@ BAD_IMAGES = set()
 for f in ROOT.glob('scripts/image-audit-*.json'):
     BAD_IMAGES |= {slug for slug, v in json.load(open(f)).items() if v['verdict'] in ('wrong', 'poor', 'unsure')}
 
+# Replacement bottles checked by eye after the audit (scripts/fetch_missing_images.py): slug -> /img/... path.
+FIXES_PATH = ROOT / 'scripts/image-fixes.json'
+IMAGE_FIXES = json.load(open(FIXES_PATH)) if FIXES_PATH.exists() else {}
+
+def image_of(s):
+    if s['slug'] in IMAGE_FIXES:
+        return IMAGE_FIXES[s['slug']]
+    return None if s['slug'] in BAD_IMAGES else (s.get('image') or None)
+
 out = []
 for r, s in zip(raw, site):
     assert r['name'] == s['nom']
@@ -66,7 +75,7 @@ for r, s in zip(raw, site):
         'brand': BRAND_ALIASES.get(r['brand'], r['brand']),
         'year': r['year'], 'gender': r['gender'], 'family': fam,
         'families': facets, 'concentration': r['concentration'],
-        'notes': notes, 'image': None if s['slug'] in BAD_IMAGES else s.get('image'),
+        'notes': notes, 'image': image_of(s),
     })
 
 brands = collections.Counter(p['brand'] for p in out)
@@ -75,7 +84,9 @@ json.dump(out, open(ROOT / 'src/data/perfumes.json', 'w'), ensure_ascii=False, i
 # keep the game's dataset in sync so it never reveals a wrong bottle either
 game = json.load(open(ROOT / 'src/data/data.json'))
 for e in game['entites']:
-    if e['slug'] in BAD_IMAGES:
+    if e['slug'] in IMAGE_FIXES:
+        e['image'] = IMAGE_FIXES[e['slug']]
+    elif e['slug'] in BAD_IMAGES:
         e.pop('image', None)
 json.dump(game, open(ROOT / 'src/data/data.json', 'w'), ensure_ascii=False, indent=2)
 print(len(BAD_IMAGES), 'images dropped by audit')

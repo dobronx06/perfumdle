@@ -65,6 +65,9 @@ function mergeFiles(prefix: string): Record<string, any> {
 }
 
 const perfumeEd: Record<string, PerfumeEditorial> = mergeFiles('perfumes-');
+/** Deeper copy for the most-searched perfumes: launch history, detailed review, rivals, performance. */
+export interface PerfumeDeep { history: string; review: string; rivals: string; performance: string }
+const perfumeDeepEd: Record<string, Localized<PerfumeDeep>> = mergeFiles('deep-');
 const noteEd: Record<string, NoteEditorial> = mergeFiles('notes-');
 const brandEd: Record<string, BrandEditorial> = mergeFiles('brands-');
 const hubs: any = mergeFiles('hubs');
@@ -82,6 +85,10 @@ export const perfumeBySlug = new Map(perfumes.map((p) => [p.slug, p]));
 
 export function perfumeEditorial(slug: string): PerfumeEditorial | undefined {
   return perfumeEd[slug];
+}
+
+export function perfumeDeep(slug: string, l: Locale): PerfumeDeep | undefined {
+  return perfumeDeepEd[slug]?.[l];
 }
 
 export function allNotes(p: Perfume): string[] {

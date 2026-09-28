@@ -7,7 +7,7 @@ import Faq from '../components/Faq.astro';
 import PerfumeCard from '../components/PerfumeCard.astro';
 import type { Locale } from '../i18n';
 import {
-  url, perfumeEditorial, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName,
+  url, perfumeEditorial, perfumeDeep, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName,
   similarPerfumes, tintFor, hasFamilyPage, GENDER_LABEL, SEASON_LABEL, OCCASION_LABEL, type Perfume, type Faq as FaqT,
 } from '../lib/catalog';
 import { breadcrumbLd, faqLd, compact } from '../lib/seo';
@@ -19,6 +19,7 @@ const { p, locale: l } = Astro.props;
 const fr = l === 'fr';
 const ed = perfumeEditorial(p.slug);
 const txt = ed?.[l];
+const deep = perfumeDeep(p.slug, l);
 const brand = brandByName.get(p.brand)!;
 const sameHouse = brand.perfumes.filter((o) => o.slug !== p.slug).slice(0, 8);
 const similar = similarPerfumes(p, 8);
@@ -184,6 +185,18 @@ const jsonLd = compact([
                 <p class="dropcap">{txt.story}</p>
                 <h3>{fr ? 'Quand le porter' : 'When to wear it'}</h3>
                 <p>{txt.wear}</p>
+                {deep && (
+                  <>
+                    <h2>{fr ? `L'histoire de ${p.name}` : `The story of ${p.name}`}</h2>
+                    <p>{deep.history}</p>
+                    <h2>{fr ? 'Notre avis détaillé' : 'Our detailed review'}</h2>
+                    <p>{deep.review}</p>
+                    <h2>{fr ? `${p.name} face à ses rivaux` : `${p.name} vs its rivals`}</h2>
+                    <p>{deep.rivals}</p>
+                    <h2>{fr ? 'Tenue, sillage et usage' : 'Longevity, projection and use'}</h2>
+                    <p>{deep.performance}</p>
+                  </>
+                )}
                 <div class="verdict"><span>{fr ? 'Verdict' : 'Verdict'}</span>{txt.verdict}</div>
               </>
             ) : (
