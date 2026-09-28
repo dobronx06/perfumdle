@@ -1,1050 +1,499 @@
 ---
+/**
+ * Perfumdle, the daily game (v2).
+ * One mystery perfume a day, drawn from the 100 best-known perfumes (src/data/game-pool.json).
+ * 6 guesses. Each miss unlocks a clue (family + base note at start, then heart note, decade, gender,
+ * top note, house initial + blurred bottle). Each guess is compared on 4 clear cells + notes in common.
+ * Light editorial theme, same fonts and tokens as the rest of the site. Streak key unchanged (Perfumdle_streak).
+ */
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import data from '../data/data.json';
-import theme from '../data/theme.json';
-import { t, getTranslations, type Locale } from '../i18n';
-import { url } from '../lib/catalog';
+import pool from '../data/game-pool.json';
+import type { Locale } from '../i18n';
+import { url, perfumes, noteName, familyName, allNotes } from '../lib/catalog';
+import { isPublished } from '../lib/schedule';
 
 interface Props { locale: Locale }
-const { locale } = Astro.props;
-const fr = locale === 'fr';
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+
+/* Main family = the facet named by the first word of the dataset label ("Oriental Woody" -> oriental). */
+const FIRST_WORD: Record<string, string> = {
+  floral: 'floral', oriental: 'oriental', amber: 'oriental', ambery: 'oriental', woody: 'woody', chypre: 'chypre',
+  fougère: 'fougere', fougere: 'fougere', citrus: 'citrus', gourmand: 'gourmand', leather: 'leather', aquatic: 'aquatic',
+  marine: 'aquatic', aromatic: 'aromatic', fruity: 'fruity', spicy: 'spicy', musk: 'musky', musky: 'musky',
+  green: 'green', powdery: 'powdery', aldehyde: 'powdery',
+};
+const mainFamily = (p: (typeof perfumes)[number]) => FIRST_WORD[p.family.split(' ')[0].toLowerCase()] ?? p.families[0] ?? 'floral';
+
+const usedNotes = new Set<string>();
+const usedFams = new Set<string>();
+const entities = perfumes.map((p) => {
+  for (const n of allNotes(p)) usedNotes.add(n);
+  const fam = mainFamily(p);
+  usedFams.add(fam);
+  for (const f of p.families) usedFams.add(f);
+  return {
+    s: p.slug, n: p.name, b: p.brand, y: p.year, g: p.gender, m: fam, f: p.families,
+    t: p.notes.top, h: p.notes.heart, d: p.notes.base, i: p.image ?? '',
+    sim: isPublished('similar', p.slug) ? 1 : 0,
+  };
+});
+const noteNames = Object.fromEntries([...usedNotes].map((n) => [n, noteName(n, l)]));
+const famNames = Object.fromEntries([...usedFams].map((f) => [f, familyName(f, l)]));
+const gameData = {
+  locale: l, pool, entities, noteNames, famNames,
+  perfumeBase: `/${l}/parfum/`, similarBase: `/${l}/${fr ? 'parfums-similaires' : 'similar-perfumes'}/`,
+  gameUrl: `https://perfumdle.com${url.game(l)}`,
+};
+
 const gameTitle = fr ? 'Perfumdle, le jeu : devinez le parfum du jour' : 'Perfumdle game: guess the perfume of the day';
 const gameDesc = fr
-  ? `Un parfum mystère par jour parmi ${data.entites.length} icônes. Maison, année, genre, famille, concentration : chaque essai vous rapproche. Gratuit, sans inscription.`
-  : `One mystery perfume a day among ${data.entites.length} icons. House, year, gender, family, concentration: every guess gets you closer. Free, no sign-up.`;
+  ? 'Un parfum mystère par jour parmi les 100 plus connus. 6 essais, un indice de plus à chaque erreur. Gratuit, sans inscription.'
+  : 'One mystery perfume a day among the 100 best known. 6 guesses, one more clue after each miss. Free, no sign-up.';
 const gameFaq = fr
   ? [
-      { q: 'Perfumdle est-il gratuit ?', a: "Oui, entièrement gratuit et sans inscription. Votre progression et votre série sont enregistrées dans votre navigateur." },
-      { q: 'À quelle heure change le parfum du jour ?', a: 'Un nouveau parfum mystère est proposé chaque jour à minuit (heure locale de votre appareil). Tout le monde joue sur le même parfum le même jour.' },
-      { q: 'Comment progresser à Perfumdle ?', a: "Commencez par un parfum très connu pour situer la maison et l'époque, puis resserrez sur la famille olfactive. Nos fiches parfums et notre guide des familles olfactives sont le meilleur entraînement." },
+      { q: 'Perfumdle est-il gratuit ?', a: 'Oui, entièrement gratuit et sans inscription. Votre partie et votre série sont enregistrées dans votre navigateur.' },
+      { q: 'À quelle heure change le parfum du jour ?', a: 'À minuit, heure de votre appareil. Tout le monde joue le même parfum le même jour.' },
+      { q: 'Faut-il être expert pour gagner ?', a: 'Non. Le parfum du jour fait partie des 100 parfums les plus recherchés, et chaque erreur débloque un indice : note, époque, genre, puis l’initiale de la maison et le flacon flouté.' },
+      { q: 'Que veut dire « notes en commun » ?', a: 'C’est le nombre de notes que votre essai partage avec le parfum mystère. Plus il est élevé, plus vous êtes proche. Les notes partagées s’affichent sous votre essai.' },
     ]
   : [
-      { q: 'Is Perfumdle free?', a: 'Yes, completely free with no sign-up. Your progress and streak are saved in your browser.' },
-      { q: 'When does the daily perfume change?', a: 'A new mystery perfume is set every day at midnight (your device’s local time). Everyone plays the same perfume on the same day.' },
-      { q: 'How can I get better at Perfumdle?', a: 'Open with a very well-known perfume to place the house and the era, then narrow down the olfactory family. Our perfume profiles and olfactory family guide are the best training.' },
+      { q: 'Is Perfumdle free?', a: 'Yes, completely free with no sign-up. Your game and streak are saved in your browser.' },
+      { q: 'When does the daily perfume change?', a: 'At midnight, your device’s time. Everyone plays the same perfume on the same day.' },
+      { q: 'Do I need to be an expert?', a: 'No. The daily perfume is one of the 100 most searched perfumes, and every miss unlocks a clue: a note, the era, the gender, then the house initial and a blurred bottle.' },
+      { q: 'What does “notes in common” mean?', a: 'It is how many notes your guess shares with the mystery perfume. The higher, the closer. Shared notes are listed under your guess.' },
     ];
-const gameLd = {
-  '@context': 'https://schema.org',
-  '@type': 'VideoGame',
-  name: 'Perfumdle',
-  url: `https://perfumdle.com${url.game(locale)}`,
-  description: gameDesc,
-  genre: ['Puzzle', 'Trivia'],
-  gamePlatform: 'Web browser',
-  applicationCategory: 'Game',
-  inLanguage: locale,
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
-};
-const modes = data.modes ?? [];
-const showTabs = modes.length > 1;
-const i18nStrings = getTranslations(locale);
+const gameLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'VideoGame', name: 'Perfumdle', url: gameData.gameUrl, description: gameDesc,
+    genre: ['Puzzle', 'Trivia'], gamePlatform: 'Web browser', applicationCategory: 'Game', inLanguage: l,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+  },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: gameFaq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
 ---
 
-<Layout locale={locale} title={gameTitle} description={gameDesc} alternates={{ fr: url.game('fr'), en: url.game('en') }} jsonLd={[gameLd, { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: gameFaq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }]} dark>
-  <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} altHref={url.game(fr ? 'en' : 'fr')} showStreak />
+<Layout locale={l} title={gameTitle} description={gameDesc} alternates={{ fr: url.game('fr'), en: url.game('en') }} jsonLd={gameLd}>
+  <div class="page">
+    <Header locale={l} altHref={url.game(fr ? 'en' : 'fr')} showStreak />
+    <main>
+      <div class="wrap game">
+        <header class="game__head">
+          <p class="eyebrow">{fr ? 'Le jeu quotidien' : 'The daily game'}</p>
+          <h1 class="h1 game__title">{fr ? 'Le parfum du jour' : "Today's perfume"}</h1>
+          <p class="game__sub">{fr ? 'Trouvez le parfum mystère en 6 essais. Chaque erreur débloque un indice.' : 'Find the mystery perfume in 6 guesses. Every miss unlocks a clue.'}</p>
+        </header>
 
-    <main class="container" style="flex:1;">
-      <!-- Hero -->
-      <section class="hero">
-        <p class="tagline" style="letter-spacing:.18em;text-transform:uppercase;font-size:.72rem">{fr ? 'Le jeu quotidien' : 'The daily game'}</p>
-        <h1 class="font-display">{fr ? 'Le parfum du jour' : "Today's perfume"}</h1>
-        <p class="tagline">{t(locale, 'hero.tagline')}</p>
-        <div class="divider" aria-hidden="true"></div>
-      </section>
+        <div class="game__tabs" role="tablist" aria-label={fr ? 'Mode de jeu' : 'Game mode'}>
+          <button type="button" role="tab" data-mode="daily" aria-selected="true">{fr ? 'Parfum du jour' : 'Daily perfume'}</button>
+          <button type="button" role="tab" data-mode="train" aria-selected="false">{fr ? 'Entraînement' : 'Practice'}</button>
+          <button type="button" class="game__help-btn" id="help-btn" aria-expanded="false" aria-controls="howto" title={fr ? 'Comment jouer' : 'How to play'}>?</button>
+        </div>
 
-      <!-- Mode tabs (hidden if single mode) -->
-      {showTabs && (
-        <nav class="mode-tabs" id="mode-tabs" role="tablist" aria-label={t(locale, 'game.modes')}>
-          {modes.map((mode, i) => (
-            <button
-              role="tab"
-              class="mode-tab"
-              data-mode={mode.id}
-              aria-selected={i === 0 ? 'true' : 'false'}
-              aria-controls={`panel-${mode.id}`}
-              id={`tab-${mode.id}`}
-            >
-              <span aria-hidden="true">{mode.icon}</span>
-              {mode.label}
-            </button>
-          ))}
-        </nav>
-      )}
-
-      <!-- Game panels -->
-      {modes.map((mode, i) => (
-        <section
-          id={`panel-${mode.id}`}
-          role="tabpanel"
-          aria-labelledby={`tab-${mode.id}`}
-          class="game-section"
-          data-mode-panel={mode.id}
-          hidden={i !== 0}
-        >
-          <!-- Clue area for non-classique modes -->
-          {mode.id !== 'classique' && (
-            <div class="clue-panel" id={`clue-${mode.id}`}>
-              {mode.id === 'emoji' && (
-                <p class="clue-emoji" id="emoji-display" aria-label={t(locale, 'game.emoji_clues')}>...</p>
-              )}
-              {mode.id === 'capacite' && (
-                <p class="clue-text" id="capacite-display">...</p>
-              )}
-              {mode.id === 'image' && (
-                <div class="clue-image" id="image-display">
-                  <span>{t(locale, 'game.no_image')}</span>
-                </div>
-              )}
-            </div>
-          )}
-
-          <!-- Classique: attribute grid -->
-          {mode.id === 'classique' && (
-            <div class="guess-grid">
-              <div class="guess-grid-inner">
-                <div class="guess-header" id="guess-header"></div>
-                <div id="guess-body-classique"></div>
-              </div>
-            </div>
-          )}
-
-          <!-- Non-classique: simple guess list -->
-          {mode.id !== 'classique' && (
-            <div id={`guess-body-${mode.id}`}></div>
-          )}
+        <section class="howto-card" id="howto" hidden>
+          <ol>
+            <li><strong>{fr ? 'Proposez un parfum.' : 'Guess a perfume.'}</strong> {fr ? 'Tapez un nom ou une maison, puis choisissez dans la liste.' : 'Type a name or a house, then pick from the list.'}</li>
+            <li><strong>{fr ? 'Lisez les 4 cases.' : 'Read the 4 cells.'}</strong> <span class="mini ok">✓</span> {fr ? 'exact' : 'exact'}, <span class="mini near">≈</span> {fr ? 'proche' : 'close'}, <span class="mini no">✗</span> {fr ? 'différent. La flèche indique si le parfum mystère est plus récent (↑) ou plus ancien (↓).' : 'different. The arrow tells you if the mystery perfume is newer (↑) or older (↓).'}</li>
+            <li><strong>{fr ? 'Suivez les notes en commun.' : 'Follow the shared notes.'}</strong> {fr ? 'Et utilisez les indices qui se débloquent à chaque erreur.' : 'And use the clues that unlock after every miss.'}</li>
+          </ol>
+          <button type="button" class="btn btn--sm" id="howto-close">{fr ? 'Compris' : 'Got it'}</button>
         </section>
-      ))}
 
-      <!-- Search input -->
-      <div class="search-wrapper game-section" id="search-wrapper">
-        <label for="search-input" class="sr-only">{t(locale, 'game.search_label')}</label>
-        <input
-          type="text"
-          id="search-input"
-          class="search-input"
-          placeholder={t(locale, 'game.search_placeholder')}
-          autocomplete="off"
-          autocapitalize="off"
-          spellcheck="false"
-        />
-        <ul class="search-dropdown" id="search-dropdown" role="listbox" hidden></ul>
+        <section class="clues" aria-labelledby="clues-title">
+          <h2 class="clues__title" id="clues-title">{fr ? 'Indices' : 'Clues'}</h2>
+          <ol class="clues__list" id="clues"></ol>
+        </section>
+
+        <div class="guess-box" id="guess-box">
+          <label for="guess-input" class="sr-only">{fr ? 'Proposer un parfum' : 'Guess a perfume'}</label>
+          <input id="guess-input" type="text" role="combobox" aria-expanded="false" aria-controls="guess-list" aria-autocomplete="list"
+            autocomplete="off" autocapitalize="off" spellcheck="false" placeholder={fr ? 'Parfum ou maison…' : 'Perfume or house…'} />
+          <ul id="guess-list" role="listbox" hidden></ul>
+          <p class="guess-count" id="guess-count" aria-live="polite"></p>
+        </div>
+
+        <div class="result" id="result" hidden aria-live="polite"></div>
+
+        <ol class="guesses" id="guesses" aria-live="polite" aria-label={fr ? 'Vos essais' : 'Your guesses'}></ol>
       </div>
 
-      <!-- Guess counter -->
-      <p class="guess-counter" id="guess-counter" aria-live="polite"></p>
-
-      <!-- Game over -->
-      <div id="game-over" hidden></div>
-
-      <!-- How to play (indexable content) -->
-      <section class="game-howto">
-        <h2>{fr ? 'Comment jouer à Perfumdle' : 'How to play Perfumdle'}</h2>
-        <ol>
-          <li>{fr ? `Chaque jour à minuit, un parfum mystère est tiré parmi ${data.entites.length} parfums iconiques, des classiques de Guerlain aux phénomènes de niche.` : `Every day at midnight, a mystery perfume is drawn from ${data.entites.length} iconic perfumes, from Guerlain classics to niche phenomena.`}</li>
-          <li>{fr ? 'Proposez un parfum dans la barre de recherche. Chaque essai compare cinq indices : maison, année, genre, famille olfactive et concentration.' : 'Guess a perfume in the search bar. Each guess compares five clues: house, year, gender, olfactory family and concentration.'}</li>
-          <li>{fr ? "Vert : l'indice est exact. Orange : vous brûlez (année proche, famille voisine). Les flèches indiquent si le parfum mystère est plus ancien ou plus récent." : 'Green: the clue matches. Orange: you are close (nearby year, related family). Arrows tell you whether the mystery perfume is older or newer.'}</li>
-          <li>{fr ? 'Trouvez-le avant la fin des essais, partagez votre score et entretenez votre série de jours gagnés.' : 'Find it before you run out of guesses, share your score and keep your winning streak alive.'}</li>
-        </ol>
-        <h2>{fr ? 'Questions fréquentes' : 'FAQ'}</h2>
-        {gameFaq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
-        <p class="game-howto__links">
-          <a href={url.perfumes(locale)}>{fr ? 'Réviser les parfums' : 'Study the perfumes'}</a> ·
-          <a href={url.families(locale)}>{fr ? 'Les familles olfactives' : 'Olfactory families'}</a> ·
-          <a href={`/${locale}/guide-strategie-perfumdle/`}>{fr ? 'Stratégie et astuces' : 'Strategy & tips'}</a>
+      <section class="wrap wrap--text game-seo">
+        <h2 class="h2">{fr ? 'Comment jouer à Perfumdle' : 'How to play Perfumdle'}</h2>
+        <p>{fr
+          ? 'Chaque jour à minuit, un parfum mystère est tiré parmi les 100 parfums les plus recherchés en France, de N°5 à Sauvage en passant par Baccarat Rouge 540. Vous avez 6 essais. Au départ, vous connaissez sa famille olfactive et une note de fond. Chaque erreur ajoute un indice : une note de cœur, la décennie, le genre, une note de tête, puis l’initiale de la maison et le flacon flouté.'
+          : 'Every day at midnight, a mystery perfume is drawn from the 100 most searched perfumes, from N°5 to Sauvage and Baccarat Rouge 540. You get 6 guesses. You start with its olfactory family and one base note. Every miss adds a clue: a heart note, the decade, the gender, a top note, then the house initial and a blurred bottle.'}</p>
+        <p>{fr
+          ? 'Chaque essai est comparé au parfum mystère sur quatre points : la maison, l’époque (avec une flèche vers le plus récent ou le plus ancien), le genre et la famille olfactive. Le compteur de notes en commun vous dit si vous chauffez. Envie de continuer après la partie du jour ? Le mode entraînement tire un nouveau parfum à chaque partie.'
+          : 'Each guess is compared on four points: the house, the era (with an arrow towards newer or older), the gender and the olfactory family. The shared-notes counter tells you if you are getting warmer. Want more after today’s game? Practice mode draws a new perfume every time.'}</p>
+        <h2 class="h2">{fr ? 'Questions fréquentes' : 'FAQ'}</h2>
+        {gameFaq.map((f) => <details class="faq-item"><summary>{f.q}</summary><p>{f.a}</p></details>)}
+        <p class="game-seo__links">
+          <a href={url.perfumes(l)}>{fr ? 'Réviser les parfums' : 'Study the perfumes'}</a> ·
+          <a href={url.notes(l)}>{fr ? 'Les notes olfactives' : 'Fragrance notes'}</a> ·
+          <a href={url.families(l)}>{fr ? 'Les familles olfactives' : 'Olfactory families'}</a>
         </p>
       </section>
     </main>
-
-    <Footer locale={locale} />
+    <Footer locale={l} />
   </div>
 
-  <!-- Embed data at build time -->
-  <script type="application/json" id="game-data" set:html={JSON.stringify(data)} />
-  <script type="application/json" id="game-theme" set:html={JSON.stringify(theme)} />
-  <script type="application/json" id="i18n-data" set:html={JSON.stringify(i18nStrings)} />
+  <script type="application/json" id="game-data" set:html={JSON.stringify(gameData)} />
 
   <script>
-    // ================================================================
-    // TEMPLATE-DLE — Game Engine
-    // Pure client-side, reads from build-time embedded JSON.
-    // ================================================================
+    type G = 'Feminine' | 'Masculine' | 'Unisex';
+    interface E { s: string; n: string; b: string; y: number; g: G; m: string; f: string[]; t: string[]; h: string[]; d: string[]; i: string; sim: number }
+    interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string }
+    type Status = 'ok' | 'near' | 'no';
 
-    const DATA = JSON.parse(document.getElementById('game-data')!.textContent!);
-    const THEME = JSON.parse(document.getElementById('game-theme')!.textContent!);
-    const I18N: Record<string, string> = JSON.parse(document.getElementById('i18n-data')!.textContent!);
-    const ENTITIES: Entity[] = DATA.entites;
-    const ATTRS: AttrDef[] = DATA.attributs_indices;
-    const MODES: Mode[] = DATA.modes ?? [];
-    const LANG = document.documentElement.lang || 'fr';
+    const D: Data = JSON.parse(document.getElementById('game-data')!.textContent!);
+    const FR = D.locale === 'fr';
+    const MAX = 6;
+    const BY = new Map(D.entities.map((e) => [e.s, e]));
+    const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+    const T = (fr: string, en: string) => (FR ? fr : en);
+    const GENDER: Record<G, string> = FR ? { Feminine: 'Féminin', Masculine: 'Masculin', Unisex: 'Mixte' } : { Feminine: 'Feminine', Masculine: 'Masculine', Unisex: 'Unisex' };
+    const note = (k: string) => D.noteNames[k] ?? k;
+    const fam = (k: string) => D.famNames[k] ?? k;
+    const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const allNotes = (e: E) => [...new Set([...e.t, ...e.h, ...e.d])];
 
-    function i18n(key: string, params?: Record<string, string>): string {
-      let str = I18N[key] ?? key;
-      if (params) {
-        for (const [k, v] of Object.entries(params)) {
-          str = str.replaceAll(`{${k}}`, v);
-        }
-      }
-      return str;
+    /* ---------- storage (never throws) ---------- */
+    const store = {
+      get<T>(k: string, fb: T): T { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch { return fb; } },
+      set(k: string, v: unknown) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode */ } },
+    };
+
+    /* ---------- dates: local calendar day ---------- */
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const dayStr = (d = new Date()) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    const today = dayStr();
+    const yesterday = (() => { const d = new Date(); d.setDate(d.getDate() - 1); return dayStr(d); })();
+
+    function mulberry32(a: number) {
+      return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+    }
+    /** Same perfume for everyone on a given day; no repeat until the whole pool has been played. */
+    function dailySlug(): string {
+      const [y, m, d] = today.split('-').map(Number);
+      const idx = Math.floor((Date.UTC(y, m - 1, d) - Date.UTC(2026, 8, 1)) / 86400000);
+      const n = D.pool.length;
+      const cycle = Math.floor(idx / n);
+      const order = D.pool.slice();
+      const rnd = mulberry32(cycle * 7919 + 17);
+      for (let i = n - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+      return order[((idx % n) + n) % n];
     }
 
-    // ===== Types =====
-    interface Entity {
-      id: number;
-      nom: string;
-      attributs: Record<string, unknown>;
-      image?: string;
-      emoji?: string;
-      capacite?: string;
-      slug?: string;
+    /* ---------- state ---------- */
+    interface State { target: string; guesses: string[]; done: boolean; won: boolean }
+    let mode: 'daily' | 'train' = 'daily';
+    const DAILY_KEY = `Perfumdle_v2_daily_${today}`;
+    const TRAIN_KEY = 'Perfumdle_v2_train';
+    const fresh = (target: string): State => ({ target, guesses: [], done: false, won: false });
+    let daily: State = store.get(DAILY_KEY, fresh(dailySlug()));
+    if (!BY.has(daily.target)) daily = fresh(dailySlug());
+    let train: State = store.get(TRAIN_KEY, fresh(randomTarget()));
+    if (!BY.has(train.target)) train = fresh(randomTarget());
+    const st = () => (mode === 'daily' ? daily : train);
+    const save = () => (mode === 'daily' ? store.set(DAILY_KEY, daily) : store.set(TRAIN_KEY, train));
+
+    function randomTarget(): string {
+      const choices = D.pool.filter((s) => s !== dailySlug());
+      return choices[Math.floor(Math.random() * choices.length)];
     }
 
-    interface AttrDef {
-      key: string;
-      label: string;
-      type: string; // 'exact' | 'ordered' | 'range'
-      yellowRange?: number;
-      enumValues?: string[];
-    }
-
-    interface Mode {
-      id: string;
-      label: string;
-      icon: string;
-      description: string;
-      maxGuesses: number;
-    }
-
-    interface Comparison {
-      key: string;
-      label: string;
-      guessValue: unknown;
-      targetValue: unknown;
-      status: 'correct' | 'close' | 'wrong';
-      arrow?: 'up' | 'down';
-    }
-
-    interface ModeState {
-      target: Entity;
-      guessIds: number[];
-      won: boolean;
-      lost: boolean;
-    }
-
-    // ===== Storage with fallback =====
-    const memoryStore = new Map<string, string>();
-
-    function storageAvailable(): boolean {
-      try {
-        const k = '__test__';
-        localStorage.setItem(k, '1');
-        localStorage.removeItem(k);
-        return true;
-      } catch {
-        return false;
-      }
-    }
-
-    const useLS = storageAvailable();
-
-    function storeGet(key: string): string | null {
-      if (useLS) {
-        try { return localStorage.getItem(key); } catch { /* */ }
-      }
-      return memoryStore.get(key) ?? null;
-    }
-
-    function storeSet(key: string, val: string): void {
-      if (useLS) {
-        try { localStorage.setItem(key, val); return; } catch { /* */ }
-      }
-      memoryStore.set(key, val);
-    }
-
-    // ===== Date & Daily Pick =====
-    function getTodayStr(): string {
-      const d = new Date();
-      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
-    }
-
-    function getDailyEntity(mode: string): Entity {
-      const today = getTodayStr();
-      const epoch = new Date('2025-05-01T00:00:00Z');
-      const now = new Date(today + 'T00:00:00Z');
-      const dayIndex = Math.floor((now.getTime() - epoch.getTime()) / 86400000);
-      const n = ENTITIES.length;
-      const cycle = Math.floor(dayIndex / n);
-      const posInCycle = dayIndex % n;
-
-      // Seeded PRNG (mulberry32)
-      function mulberry32(seed: number) {
-        return function() {
-          seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
-          let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
-          t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-          return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-        };
-      }
-
-      // Build a deterministic shuffle for this cycle + mode
-      let seedVal = cycle * 31;
-      for (let i = 0; i < mode.length; i++) {
-        seedVal = ((seedVal << 5) - seedVal + mode.charCodeAt(i)) | 0;
-      }
-      const rng = mulberry32(seedVal);
-
-      // Fisher-Yates shuffle on index array
-      const indices = Array.from({ length: n }, (_, i) => i);
-      for (let i = n - 1; i > 0; i--) {
-        const j = Math.floor(rng() * (i + 1));
-        [indices[i], indices[j]] = [indices[j], indices[i]];
-      }
-
-      return ENTITIES[indices[posInCycle]];
-    }
-
-    // ===== Comparison Engine =====
-    function compareAttributes(guess: Entity, target: Entity): Comparison[] {
-      return ATTRS.map((def) => {
-        const gv = guess.attributs[def.key];
-        const tv = target.attributs[def.key];
-
-        if (def.type === 'exact') {
-          return {
-            key: def.key,
-            label: def.label,
-            guessValue: gv,
-            targetValue: tv,
-            status: gv === tv ? 'correct' : 'wrong',
-          };
-        }
-
-        if (def.type === 'ordered' && def.enumValues) {
-          const gi = def.enumValues.indexOf(gv as string);
-          const ti = def.enumValues.indexOf(tv as string);
-          if (gi === ti) {
-            return { key: def.key, label: def.label, guessValue: gv, targetValue: tv, status: 'correct' as const };
-          }
-          const diff = Math.abs(gi - ti);
-          const arrow: 'up' | 'down' = ti > gi ? 'up' : 'down';
-          return {
-            key: def.key,
-            label: def.label,
-            guessValue: gv,
-            targetValue: tv,
-            status: diff === 1 ? 'close' as const : 'wrong' as const,
-            arrow,
-          };
-        }
-
-        if (def.type === 'range') {
-          const gn = Number(gv);
-          const tn = Number(tv);
-          if (gn === tn) {
-            return { key: def.key, label: def.label, guessValue: gv, targetValue: tv, status: 'correct' as const };
-          }
-          const diff = Math.abs(gn - tn);
-          const arrow: 'up' | 'down' = tn > gn ? 'up' : 'down';
-          const yr = def.yellowRange ?? 1;
-          return {
-            key: def.key,
-            label: def.label,
-            guessValue: gv,
-            targetValue: tv,
-            status: diff <= yr ? 'close' as const : 'wrong' as const,
-            arrow,
-          };
-        }
-
-        return {
-          key: def.key,
-          label: def.label,
-          guessValue: gv,
-          targetValue: tv,
-          status: gv === tv ? 'correct' as const : 'wrong' as const,
-        };
-      });
-    }
-
-    // ===== Streak =====
-    function getYesterday(): string {
-      const d = new Date();
-      d.setUTCDate(d.getUTCDate() - 1);
-      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
-    }
-
-    interface StreakData { current: number; max: number; lastDate: string }
-
-    function getStreak(): StreakData {
-      const raw = storeGet(`${DATA.titre}_streak`);
-      if (raw) {
-        try { return JSON.parse(raw); } catch { /* */ }
-      }
-      return { current: 0, max: 0, lastDate: '' };
-    }
-
-    function updateStreak(won: boolean): void {
-      const today = getTodayStr();
+    /* ---------- streak (legacy key kept) ---------- */
+    interface Streak { current: number; max: number; lastDate: string }
+    const getStreak = (): Streak => store.get('Perfumdle_streak', { current: 0, max: 0, lastDate: '' });
+    function recordStreak(won: boolean) {
       const s = getStreak();
-      if (s.lastDate === today) return; // already recorded today
-      if (won) {
-        const yesterday = getYesterday();
-        s.current = s.lastDate === yesterday ? s.current + 1 : 1;
-        s.max = Math.max(s.max, s.current);
-      } else {
-        s.current = 0;
-      }
+      if (s.lastDate === today) return;
+      s.current = won ? (s.lastDate === yesterday ? s.current + 1 : 1) : 0;
+      s.max = Math.max(s.max, s.current);
       s.lastDate = today;
-      storeSet(`${DATA.titre}_streak`, JSON.stringify(s));
+      store.set('Perfumdle_streak', s);
       renderStreak();
     }
-
-    function renderStreak(): void {
-      const el = document.getElementById('streak-count');
-      if (el) el.textContent = String(getStreak().current);
-    }
-
-    // ===== Game State Management =====
-    const states = new Map<string, ModeState>();
-    let currentMode: string = MODES[0]?.id ?? 'classique';
-
-    function getMaxGuesses(): number {
-      const m = MODES.find((m) => m.id === currentMode);
-      return m?.maxGuesses ?? 8;
-    }
-
-    function stateKey(mode: string): string {
-      return `${DATA.titre}_${mode}_${getTodayStr()}`;
-    }
-
-    function loadModeState(mode: string): ModeState {
-      const cached = states.get(mode);
-      if (cached) return cached;
-
-      const target = getDailyEntity(mode);
-      const raw = storeGet(stateKey(mode));
-      let guessIds: number[] = [];
-      if (raw) {
-        try { guessIds = JSON.parse(raw).guessIds ?? []; } catch { /* */ }
-      }
-
-      const maxG = (MODES.find((m) => m.id === mode)?.maxGuesses) ?? 8;
-      const won = guessIds.length > 0 && guessIds[guessIds.length - 1] === target.id;
-      const lost = !won && guessIds.length >= maxG;
-
-      const st: ModeState = { target, guessIds, won, lost };
-      states.set(mode, st);
-      return st;
-    }
-
-    function saveModeState(mode: string): void {
-      const st = states.get(mode);
-      if (!st) return;
-      storeSet(stateKey(mode), JSON.stringify({ guessIds: st.guessIds }));
-    }
-
-    // ===== DOM Helpers =====
-    function $(id: string): HTMLElement | null {
-      return document.getElementById(id);
-    }
-
-    function h(tag: string, cls: string, text?: string): HTMLElement {
-      const el = document.createElement(tag);
-      if (cls) el.className = cls;
-      if (text !== undefined) el.textContent = text;
-      return el;
-    }
-
-    // ===== Normalize for search =====
-    function normalize(str: string): string {
-      return str
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLowerCase()
-        .trim();
-    }
-
-    // ===== Autocomplete =====
-    const searchInput = $('search-input') as HTMLInputElement;
-    const dropdown = $('search-dropdown')!;
-    let activeIndex = -1;
-    let filteredItems: Entity[] = [];
-
-    function filterEntities(query: string): Entity[] {
-      const st = loadModeState(currentMode);
-      const guessedSet = new Set(st.guessIds);
-      const q = normalize(query);
-      if (q.length < 1) return [];
-
-      return ENTITIES.filter((e) => {
-        if (guessedSet.has(e.id)) return false;
-        return normalize(e.nom).includes(q);
-      }).slice(0, 8);
-    }
-
-    function renderDropdown(items: Entity[]): void {
-      filteredItems = items;
-      activeIndex = -1;
-      if (items.length === 0) {
-        dropdown.hidden = true;
-        return;
-      }
-      dropdown.innerHTML = '';
-      items.forEach((entity, i) => {
-        const li = document.createElement('li');
-        li.role = 'option';
-        li.id = `option-${i}`;
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'search-option';
-        btn.dataset.index = String(i);
-
-        // Avatar or placeholder
-        if (entity.image) {
-          const img = document.createElement('img');
-          img.src = entity.image;
-          img.alt = '';
-          img.loading = 'lazy';
-          btn.appendChild(img);
-        } else {
-          const ph = h('span', 'placeholder-avatar', entity.nom.charAt(0).toUpperCase());
-          btn.appendChild(ph);
-        }
-
-        const nameSpan = h('span', '', entity.nom);
-        btn.appendChild(nameSpan);
-
-        btn.addEventListener('mousedown', (e) => {
-          e.preventDefault();
-          selectEntity(entity);
-        });
-        li.appendChild(btn);
-        dropdown.appendChild(li);
-      });
-      dropdown.hidden = false;
-    }
-
-    function updateActiveOption(): void {
-      dropdown.querySelectorAll('.search-option').forEach((el, i) => {
-        (el as HTMLElement).dataset.active = i === activeIndex ? 'true' : 'false';
-      });
-    }
-
-    searchInput.addEventListener('input', () => {
-      renderDropdown(filterEntities(searchInput.value));
-    });
-
-    searchInput.addEventListener('focus', () => {
-      if (searchInput.value.length > 0) {
-        renderDropdown(filterEntities(searchInput.value));
-      }
-    });
-
-    searchInput.addEventListener('blur', () => {
-      setTimeout(() => { dropdown.hidden = true; }, 150);
-    });
-
-    searchInput.addEventListener('keydown', (e: KeyboardEvent) => {
-      if (dropdown.hidden) return;
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        activeIndex = Math.min(activeIndex + 1, filteredItems.length - 1);
-        updateActiveOption();
-      } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        activeIndex = Math.max(activeIndex - 1, 0);
-        updateActiveOption();
-      } else if (e.key === 'Enter' && activeIndex >= 0) {
-        e.preventDefault();
-        selectEntity(filteredItems[activeIndex]);
-      } else if (e.key === 'Escape') {
-        dropdown.hidden = true;
-      }
-    });
-
-    // ===== Submit a Guess =====
-    function selectEntity(entity: Entity): void {
-      const st = loadModeState(currentMode);
-      if (st.won || st.lost) return;
-      if (st.guessIds.includes(entity.id)) return;
-
-      st.guessIds.push(entity.id);
-      st.won = entity.id === st.target.id;
-      st.lost = !st.won && st.guessIds.length >= getMaxGuesses();
-      saveModeState(currentMode);
-
-      // Clear search
-      searchInput.value = '';
-      dropdown.hidden = true;
-      filteredItems = [];
-
-      renderCurrentMode();
-
-      if (st.won || st.lost) {
-        updateStreak(st.won);
-        searchInput.disabled = true;
-      } else {
-        searchInput.focus();
-      }
-    }
-
-    // ===== Render: Classique Mode =====
-    function renderClassiqueHeader(): void {
-      const header = $('guess-header');
-      if (!header) return;
-      header.innerHTML = '';
-      // Empty header cell for image column
-      const imgHeader = h('div', 'guess-header-cell guess-header-img');
-      header.appendChild(imgHeader);
-      const nameCell = h('div', 'guess-header-cell', i18n('game.name_header'));
-      header.appendChild(nameCell);
-      ATTRS.forEach((a) => {
-        header.appendChild(h('div', 'guess-header-cell', a.label));
-      });
-    }
-
-    function arrowIcon(arrow?: string): string {
-      if (arrow === 'up') return '\u25B2';
-      if (arrow === 'down') return '\u25BC';
-      return '';
-    }
-
-    function statusClass(status: string): string {
-      if (status === 'correct') return 'cell-correct';
-      if (status === 'close') return 'cell-close';
-      return 'cell-wrong';
-    }
-
-    function renderClassiqueGuess(entity: Entity, comparison: Comparison[]): HTMLElement {
-      const row = h('div', 'guess-row');
-
-      // Image thumbnail (always render cell for alignment)
-      const imgCell = h('div', 'guess-cell-img');
-      if (entity.image) {
-        const img = document.createElement('img');
-        img.src = entity.image;
-        img.alt = entity.nom;
-        img.loading = 'lazy';
-        imgCell.appendChild(img);
-      }
-      row.appendChild(imgCell);
-
-      const nameCell = h('div', 'guess-cell-name');
-      if (entity.slug) {
-        const nameLink = document.createElement('a');
-        nameLink.href = `/${LANG}/parfum/${entity.slug}/`;
-        nameLink.textContent = entity.nom;
-        nameLink.title = entity.nom;
-        nameCell.appendChild(nameLink);
-      } else {
-        nameCell.textContent = entity.nom;
-        nameCell.title = entity.nom;
-      }
-      row.appendChild(nameCell);
-
-      comparison.forEach((c) => {
-        const cell = h('div', `guess-cell ${statusClass(c.status)}`);
-        cell.title = c.label;
-        const val = c.guessValue == null ? '\u2014' : String(c.guessValue);
-        const valSpan = h('span', '', val);
-        cell.appendChild(valSpan);
-        if (c.arrow) {
-          const arrowSpan = h('span', 'arrow', arrowIcon(c.arrow));
-          cell.appendChild(arrowSpan);
-        }
-        row.appendChild(cell);
-      });
-      return row;
-    }
-
-    function renderClassiqueBody(): void {
-      const body = $('guess-body-classique');
-      if (!body) return;
-      const st = loadModeState(currentMode);
-      body.innerHTML = '';
-
-      // Show header only if there are guesses
-      const header = $('guess-header');
-      if (header) header.style.display = st.guessIds.length > 0 ? 'flex' : 'none';
-
-      st.guessIds.forEach((id) => {
-        const entity = ENTITIES.find((e) => e.id === id);
-        if (!entity) return;
-        const comparison = compareAttributes(entity, st.target);
-        body.appendChild(renderClassiqueGuess(entity, comparison));
-      });
-    }
-
-    // ===== Render: Emoji Mode =====
-    function renderEmojiClue(): void {
-      const el = $('emoji-display');
-      if (!el) return;
-      const st = loadModeState('emoji');
-      el.textContent = st.target.emoji ?? '\u2753\u2753\u2753';
-    }
-
-    // ===== Render: Capacite Mode =====
-    function renderCapaciteClue(): void {
-      const el = $('capacite-display');
-      if (!el) return;
-      const st = loadModeState('capacite');
-      el.textContent = st.target.capacite ?? i18n('game.no_description');
-    }
-
-    // ===== Render: Image Mode =====
-    const BLUR_LEVELS = [20, 16, 12, 8, 4, 0];
-
-    function renderImageClue(): void {
-      const container = $('image-display');
-      if (!container) return;
-      const st = loadModeState('image');
-
-      if (!st.target.image) {
-        container.innerHTML = `<span>${i18n('game.no_image_available')}</span>`;
-        return;
-      }
-
-      const blurLevel = BLUR_LEVELS[Math.min(st.guessIds.length, BLUR_LEVELS.length - 1)] ?? 0;
-      container.innerHTML = '';
-      const img = document.createElement('img');
-      img.src = st.target.image;
-      img.alt = i18n('game.mystery_portrait');
-      img.style.filter = `blur(${blurLevel}px)`;
-      container.appendChild(img);
-    }
-
-    // ===== Render: Simple Guess List (non-classique) =====
-    function renderSimpleGuesses(mode: string): void {
-      const body = $(`guess-body-${mode}`);
-      if (!body) return;
-      const st = loadModeState(mode);
-      body.innerHTML = '';
-
-      st.guessIds.forEach((id) => {
-        const entity = ENTITIES.find((e) => e.id === id);
-        if (!entity) return;
-        const isCorrect = id === st.target.id;
-        const row = h('div', `simple-guess ${isCorrect ? 'is-correct' : 'is-wrong'}`);
-        if (entity.slug) {
-          const nameSpan = h('span', '');
-          const nameLink = document.createElement('a');
-          nameLink.href = `/${LANG}/parfum/${entity.slug}/`;
-          nameLink.textContent = entity.nom;
-          nameSpan.appendChild(nameLink);
-          row.appendChild(nameSpan);
-        } else {
-          row.appendChild(h('span', '', entity.nom));
-        }
-        row.appendChild(h('span', 'status-icon', isCorrect ? '\u2713' : '\u2717'));
-        body.appendChild(row);
-      });
-    }
-
-    // ===== Render: Game Over =====
-    function renderGameOver(): void {
-      const container = $('game-over')!;
-      const st = loadModeState(currentMode);
-
-      if (!st.won && !st.lost) {
-        container.hidden = true;
-        return;
-      }
-
-      container.hidden = false;
-      const isWin = st.won;
-      container.innerHTML = '';
-
-      const box = h('div', `game-over-box ${isWin ? 'is-win' : 'is-lose'}`);
-
-      const title = h('h2', 'game-over-title font-display', isWin ? i18n('game.victory') : i18n('game.defeat'));
-      box.appendChild(title);
-
-      // Big reveal image
-      if (st.target.image) {
-        const imgWrap = h('div', 'game-over-img');
-        if (st.target.slug) {
-          const imgLink = document.createElement('a');
-          imgLink.href = `/${LANG}/parfum/${st.target.slug}/`;
-          const img = document.createElement('img');
-          img.src = st.target.image;
-          img.alt = st.target.nom;
-          imgLink.appendChild(img);
-          imgWrap.appendChild(imgLink);
-        } else {
-          const img = document.createElement('img');
-          img.src = st.target.image;
-          img.alt = st.target.nom;
-          imgWrap.appendChild(img);
-        }
-        box.appendChild(imgWrap);
-      }
-
-      const answer = h('p', 'game-over-answer');
-      if (st.target.slug) {
-        answer.innerHTML = i18n('game.was_answer', { name: `<a href="/${LANG}/parfum/${st.target.slug}/">${st.target.nom}</a>` });
-      } else {
-        answer.innerHTML = i18n('game.was_answer', { name: st.target.nom });
-      }
-      box.appendChild(answer);
-
-      const actions = h('div', 'game-over-actions');
-
-      // Share button
-      const shareBtn = document.createElement('button');
-      shareBtn.className = 'btn-share';
-      shareBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> ${i18n('game.share')}`;
-      shareBtn.addEventListener('click', () => shareResult(shareBtn));
-      actions.appendChild(shareBtn);
-
-      // Countdown
-      const countdownBox = h('div', 'countdown-box');
-      countdownBox.appendChild(h('span', 'countdown-label', i18n('game.next_puzzle')));
-      const timer = h('span', 'countdown-timer');
-      timer.id = 'countdown-timer';
-      countdownBox.appendChild(timer);
-      actions.appendChild(countdownBox);
-
-      box.appendChild(actions);
-      container.appendChild(box);
-
-      startCountdown();
-    }
-
-    // ===== Render: Guess Counter =====
-    function renderGuessCounter(): void {
-      const el = $('guess-counter');
-      if (!el) return;
-      const st = loadModeState(currentMode);
-      if (st.won || st.lost) {
-        el.textContent = '';
-      } else {
-        el.textContent = i18n('game.guesses', {
-          current: String(st.guessIds.length),
-          max: String(getMaxGuesses()),
-        });
-      }
-    }
-
-    // ===== Share =====
-    function generateShareText(): string {
-      const st = loadModeState(currentMode);
-      const modeLabel = MODES.find((m) => m.id === currentMode)?.label ?? currentMode;
-      const dayNum = Math.floor(
-        (new Date(getTodayStr()).getTime() - new Date('2025-01-01').getTime()) / 86400000
-      );
-      const score = st.won ? `${st.guessIds.length}/${getMaxGuesses()}` : `X/${getMaxGuesses()}`;
-
-      let grid = '';
-      if (currentMode === 'classique') {
-        grid = st.guessIds
-          .map((id) => {
-            const entity = ENTITIES.find((e) => e.id === id);
-            if (!entity) return '';
-            const comp = compareAttributes(entity, st.target);
-            return comp.map((c) => {
-              if (c.status === 'correct') return '\uD83D\uDFE9';
-              if (c.status === 'close') return '\uD83D\uDFE8';
-              return '\uD83D\uDFE5';
-            }).join('');
-          })
-          .join('\n');
-      } else {
-        grid = st.guessIds
-          .map((id) => (id === st.target.id ? '\uD83D\uDFE9' : '\uD83D\uDFE5'))
-          .join('');
-      }
-
-      const url = DATA.url ?? '';
-      return `${DATA.titre} #${dayNum} ${modeLabel} ${score}\n\n${grid}${url ? '\n\n' + url : ''}`;
-    }
-
-    async function shareResult(btn: HTMLButtonElement): Promise<void> {
-      const text = generateShareText();
-      const url = DATA.url ?? '';
-
-      // Try native share (mobile / supported browsers) first
-      if (navigator.share) {
-        try {
-          await navigator.share({
-            text,
-            ...(url ? { url } : {}),
-          });
-          flashShareButton(btn, true);
-          return;
-        } catch (err: unknown) {
-          // User cancelled or share failed — fall through to clipboard
-          if (err instanceof Error && err.name === 'AbortError') return;
-        }
-      }
-
-      // Fallback: clipboard copy
-      let copied = false;
-      try {
-        await navigator.clipboard.writeText(text);
-        copied = true;
-      } catch {
-        // Last-resort: hidden textarea + execCommand
-        try {
-          const ta = document.createElement('textarea');
-          ta.value = text;
-          ta.setAttribute('readonly', '');
-          ta.style.position = 'fixed';
-          ta.style.left = '-9999px';
-          ta.style.opacity = '0';
-          document.body.appendChild(ta);
-          ta.select();
-          copied = document.execCommand('copy');
-          document.body.removeChild(ta);
-        } catch { /* */ }
-      }
-
-      flashShareButton(btn, copied);
-    }
-
-    function flashShareButton(btn: HTMLButtonElement, success: boolean): void {
-      const original = btn.innerHTML;
-      btn.innerHTML = success ? i18n('game.copied') : i18n('game.copy_failed');
-      btn.disabled = true;
-      setTimeout(() => {
-        btn.innerHTML = original;
-        btn.disabled = false;
-      }, 2000);
-    }
-
-    // ===== Countdown =====
-    let countdownInterval: ReturnType<typeof setInterval> | null = null;
-
-    function startCountdown(): void {
-      if (countdownInterval) clearInterval(countdownInterval);
-      const update = () => {
-        const el = $('countdown-timer');
-        if (!el) return;
-        const now = new Date();
-        const tomorrow = new Date(Date.UTC(
-          now.getUTCFullYear(),
-          now.getUTCMonth(),
-          now.getUTCDate() + 1
-        ));
-        const diff = tomorrow.getTime() - now.getTime();
-        const hrs = String(Math.floor(diff / 3600000)).padStart(2, '0');
-        const min = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
-        const sec = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
-        el.textContent = `${hrs}:${min}:${sec}`;
+    function renderStreak() { const el = document.getElementById('streak-count'); if (el) el.textContent = String(getStreak().current); }
+
+    /* ---------- comparison ---------- */
+    interface Cell { label: string; value: string; status: Status; arrow?: '↑' | '↓' }
+    function compare(g: E, t: E): { cells: Cell[]; shared: string[] } {
+      const dy = t.y - g.y;
+      const gOk = g.g === t.g;
+      const gNear = !gOk && (g.g === 'Unisex' || t.g === 'Unisex');
+      const famOk = g.m === t.m;
+      const famNear = !famOk && g.f.some((x) => t.f.includes(x));
+      const tn = new Set(allNotes(t));
+      return {
+        cells: [
+          { label: T('Maison', 'House'), value: g.b, status: g.b === t.b ? 'ok' : 'no' },
+          { label: T('Année', 'Year'), value: String(g.y), status: dy === 0 ? 'ok' : Math.abs(dy) <= 5 ? 'near' : 'no', arrow: dy > 0 ? '↑' : dy < 0 ? '↓' : undefined },
+          { label: T('Genre', 'Gender'), value: GENDER[g.g], status: gOk ? 'ok' : gNear ? 'near' : 'no' },
+          { label: T('Famille', 'Family'), value: fam(g.m), status: famOk ? 'ok' : famNear ? 'near' : 'no' },
+        ],
+        shared: allNotes(g).filter((n) => tn.has(n)),
       };
-      update();
-      countdownInterval = setInterval(update, 1000);
     }
 
-    // ===== Mode Switching =====
-    function switchMode(mode: string): void {
-      currentMode = mode;
-
-      // Update tabs
-      document.querySelectorAll('.mode-tab').forEach((tab) => {
-        const tabMode = (tab as HTMLElement).dataset.mode;
-        tab.setAttribute('aria-selected', tabMode === mode ? 'true' : 'false');
-      });
-
-      // Update panels
-      document.querySelectorAll('[data-mode-panel]').forEach((panel) => {
-        const pMode = (panel as HTMLElement).dataset.modePanel;
-        (panel as HTMLElement).hidden = pMode !== mode;
-      });
-
-      // Update search state
-      const st = loadModeState(mode);
-      searchInput.disabled = st.won || st.lost;
-      searchInput.value = '';
-      dropdown.hidden = true;
-
-      renderCurrentMode();
+    /* ---------- clues ---------- */
+    function clues(t: E, done = false): { label: string; value: string; html?: string }[] {
+      const decade = Math.floor(t.y / 10) * 10;
+      return [
+        { label: T('Famille olfactive', 'Olfactory family'), value: fam(t.m) },
+        { label: T('Note de fond', 'Base note'), value: note(t.d[0] ?? t.h[0] ?? t.t[0]) },
+        { label: T('Note de cœur', 'Heart note'), value: note(t.h[0] ?? t.d[1] ?? t.t[1] ?? '?') },
+        { label: T('Époque', 'Era'), value: T(`années ${decade}`, `the ${decade}s`) },
+        { label: T('Genre', 'Gender'), value: GENDER[t.g] },
+        { label: T('Note de tête', 'Top note'), value: note(t.t[0] ?? t.h[1] ?? '?') },
+        done
+          ? { label: T('Maison', 'House'), value: t.b }
+          : { label: T('Maison', 'House'), value: `${t.b.charAt(0)}…`, html: t.i ? `<img class="blur" src="${t.i}" alt="${T('Flacon flouté', 'Blurred bottle')}" width="80" height="80" />` : '' },
+      ];
     }
 
-    function renderCurrentMode(): void {
-      const st = loadModeState(currentMode);
+    /* ---------- rendering ---------- */
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+    const ICON: Record<Status, string> = { ok: '✓', near: '≈', no: '✗' };
+    const SR: Record<Status, string> = FR ? { ok: 'exact', near: 'proche', no: 'différent' } : { ok: 'exact', near: 'close', no: 'different' };
 
-      if (currentMode === 'classique') {
-        renderClassiqueHeader();
-        renderClassiqueBody();
-      } else if (currentMode === 'emoji') {
-        renderEmojiClue();
-        renderSimpleGuesses('emoji');
-      } else if (currentMode === 'capacite') {
-        renderCapaciteClue();
-        renderSimpleGuesses('capacite');
-      } else if (currentMode === 'image') {
-        renderImageClue();
-        renderSimpleGuesses('image');
-      } else {
-        // Unknown mode: treat like classique
-        renderClassiqueHeader();
-        renderClassiqueBody();
+    function render() {
+      const s = st();
+      const t = BY.get(s.target)!;
+      const misses = s.guesses.filter((g) => g !== s.target).length;
+      const unlocked = s.done ? 7 : Math.min(7, 2 + misses);
+      $('clues').innerHTML = clues(t, s.done).map((c, i) => i < unlocked
+        ? `<li class="clue is-open"><span class="clue__label">${c.label}</span><span class="clue__value">${esc(c.value)}</span>${c.html ?? ''}</li>`
+        : `<li class="clue"><span class="clue__label">${c.label}</span><span class="clue__lock">${T(`après ${i - 1} erreur${i - 1 > 1 ? 's' : ''}`, `after ${i - 1} miss${i - 1 > 1 ? 'es' : ''}`)}</span></li>`).join('');
+
+      $('guesses').innerHTML = s.guesses.slice().reverse().map((slug) => {
+        const g = BY.get(slug)!;
+        const { cells, shared } = compare(g, t);
+        const win = slug === s.target;
+        return `<li class="guess ${win ? 'is-win' : ''}">
+          <div class="guess__who">${g.i ? `<img src="${g.i}" alt="" width="48" height="48" loading="lazy" />` : '<span class="guess__ph"></span>'}
+            <div><strong>${esc(g.n)}</strong><small>${esc(g.b)} · ${g.y}</small></div></div>
+          <div class="guess__cells">${cells.map((c) => `<div class="cell ${c.status}"><span class="cell__label">${c.label}</span>
+            <span class="cell__value">${esc(c.value)}${c.arrow ? ` <b aria-label="${c.arrow === '↑' ? T('plus récent', 'newer') : T('plus ancien', 'older')}">${c.arrow}</b>` : ''}</span>
+            <span class="cell__icon" aria-hidden="true">${ICON[c.status]}</span><span class="sr-only">${SR[c.status]}</span></div>`).join('')}</div>
+          <p class="guess__notes ${shared.length >= 4 ? 'hot' : shared.length >= 2 ? 'warm' : ''}"><strong>${shared.length}</strong> ${T(shared.length > 1 ? 'notes en commun' : 'note en commun', shared.length === 1 ? 'note in common' : 'notes in common')}${shared.length ? `${T(' : ', ': ')}${shared.slice(0, 5).map((n) => esc(note(n))).join(', ')}` : ''}</p>
+        </li>`;
+      }).join('');
+
+      $('guess-count').textContent = s.done ? '' : T(`Essai ${s.guesses.length + 1} sur ${MAX}`, `Guess ${s.guesses.length + 1} of ${MAX}`);
+      $('guess-box').hidden = s.done;
+      renderResult();
+      document.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.mode === mode)));
+    }
+
+    function shareText(s: State): string {
+      const t = BY.get(s.target)!;
+      const E: Record<Status, string> = { ok: '🟩', near: '🟨', no: '⬜' };
+      const rows = s.guesses.map((slug) => { const c = compare(BY.get(slug)!, t); return c.cells.map((x) => E[x.status]).join('') + ` ${c.shared.length}🌸`; });
+      const date = new Date().toLocaleDateString(FR ? 'fr-FR' : 'en-GB', { day: '2-digit', month: '2-digit' });
+      return `Perfumdle ${mode === 'daily' ? date : T('entraînement', 'practice')} · ${s.won ? s.guesses.length : 'X'}/${MAX}\n${rows.join('\n')}\n${D.gameUrl}`;
+    }
+
+    function renderResult() {
+      const s = st();
+      const box = $('result');
+      if (!s.done) { box.hidden = true; return; }
+      const t = BY.get(s.target)!;
+      const streak = getStreak();
+      box.hidden = false;
+      box.innerHTML = `
+        <div class="result__media">${t.i ? `<img src="${t.i}" alt="${esc(t.n)} ${esc(t.b)}" width="220" height="220" />` : ''}</div>
+        <div class="result__body">
+          <p class="eyebrow">${s.won ? T(`Trouvé en ${s.guesses.length} essai${s.guesses.length > 1 ? 's' : ''}`, `Found in ${s.guesses.length} guess${s.guesses.length > 1 ? 'es' : ''}`) : T('Perdu cette fois', 'Not this time')}</p>
+          <h2 class="h2">${esc(t.n)} <small>${esc(t.b)} · ${t.y}</small></h2>
+          ${mode === 'daily' ? `<p class="result__stats">${T('Série', 'Streak')} : <strong>${streak.current}</strong> · ${T('record', 'best')} : ${streak.max} · <span id="countdown"></span></p>` : ''}
+          <div class="result__actions">
+            <button type="button" class="btn btn--gold" id="share-btn">${T('Partager mon résultat', 'Share my result')}</button>
+            <a class="btn" href="${D.perfumeBase}${t.s}/">${T('Voir la fiche', 'Read the profile')}</a>
+            ${t.sim ? `<a class="btn" href="${D.similarBase}${t.s}/">${T('Parfums similaires', 'Similar perfumes')}</a>` : ''}
+            <button type="button" class="btn" id="train-btn">${mode === 'daily' ? T('Jouer en entraînement', 'Play practice') : T('Nouvelle partie', 'New game')}</button>
+          </div>
+          <p class="result__copied" id="copied" hidden>${T('Résultat copié', 'Result copied')}</p>
+        </div>`;
+      $('share-btn').onclick = async () => {
+        const text = shareText(s);
+        try { if (navigator.share) { await navigator.share({ text }); return; } } catch { /* cancelled */ }
+        try { await navigator.clipboard.writeText(text); $('copied').hidden = false; } catch { /* no clipboard */ }
+      };
+      $('train-btn').onclick = () => { if (mode === 'train') train = fresh(randomTarget()); setMode('train'); save(); };
+      tick();
+    }
+
+    function tick() {
+      const el = document.getElementById('countdown');
+      if (!el) return;
+      const now = new Date();
+      const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const ms = next.getTime() - now.getTime();
+      el.textContent = T('Prochain parfum dans ', 'Next perfume in ') + `${Math.floor(ms / 3600000)} h ${pad(Math.floor(ms / 60000) % 60)}`;
+    }
+    setInterval(tick, 30000);
+
+    /* ---------- guessing ---------- */
+    function guess(slug: string) {
+      const s = st();
+      if (s.done || s.guesses.includes(slug)) return;
+      s.guesses.push(slug);
+      if (slug === s.target) { s.done = true; s.won = true; }
+      else if (s.guesses.length >= MAX) { s.done = true; }
+      if (s.done && mode === 'daily') recordStreak(s.won);
+      save();
+      render();
+      if (s.done) $('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    /* ---------- search / combobox ---------- */
+    const input = $<HTMLInputElement>('guess-input');
+    const list = $('guess-list');
+    const index = D.entities.map((e) => ({ e, key: norm(`${e.n} ${e.b}`) }));
+    let options: E[] = [];
+    let active = -1;
+    /** Name starting with the query first, then a name word starting with it, then house matches. */
+    function rank(e: E, words: string[]): number {
+      const n = norm(e.n);
+      if (n.startsWith(words.join(' '))) return 0;
+      if (n.startsWith(words[0])) return 1;
+      if (n.split(' ').some((w) => w.startsWith(words[0]))) return 2;
+      return 3;
+    }
+    function search(q: string) {
+      const nq = norm(q);
+      const s = st();
+      if (!nq) { options = []; } else {
+        const words = nq.split(' ');
+        options = index.filter((x) => !s.guesses.includes(x.e.s) && words.every((w) => x.key.includes(w)))
+          .sort((a, b) => rank(a.e, words) - rank(b.e, words) || a.e.n.length - b.e.n.length || a.e.n.localeCompare(b.e.n))
+          .slice(0, 8).map((x) => x.e);
       }
-
-      renderGuessCounter();
-      renderGameOver();
-      renderStreak();
-
-      // Search visibility
-      const wrapper = $('search-wrapper');
-      if (wrapper) {
-        wrapper.style.display = (st.won || st.lost) ? 'none' : '';
-      }
+      active = options.length ? 0 : -1;
+      drawList();
     }
-
-    // ===== Mode Tab Listeners =====
-    document.querySelectorAll('.mode-tab').forEach((tab) => {
-      tab.addEventListener('click', () => {
-        const mode = (tab as HTMLElement).dataset.mode;
-        if (mode) switchMode(mode);
-      });
+    function drawList() {
+      list.hidden = !options.length && !input.value;
+      input.setAttribute('aria-expanded', String(!list.hidden));
+      list.innerHTML = options.length
+        ? options.map((e, i) => `<li role="option" id="opt-${i}" data-slug="${e.s}" aria-selected="${i === active}">
+            ${e.i ? `<img src="${e.i}" alt="" width="36" height="36" loading="lazy" />` : '<span class="opt-ph"></span>'}
+            <span><strong>${esc(e.n)}</strong><small>${esc(e.b)} · ${e.y}</small></span></li>`).join('')
+        : input.value ? `<li class="empty">${T('Aucun parfum trouvé', 'No perfume found')}</li>` : '';
+      if (active >= 0) input.setAttribute('aria-activedescendant', `opt-${active}`); else input.removeAttribute('aria-activedescendant');
+    }
+    function pick(i: number) {
+      const e = options[i];
+      if (!e) return;
+      input.value = ''; options = []; drawList(); list.hidden = true;
+      guess(e.s);
+      input.focus();
+    }
+    input.addEventListener('input', () => search(input.value));
+    input.addEventListener('keydown', (ev) => {
+      if (ev.key === 'ArrowDown') { active = Math.min(options.length - 1, active + 1); drawList(); ev.preventDefault(); }
+      else if (ev.key === 'ArrowUp') { active = Math.max(0, active - 1); drawList(); ev.preventDefault(); }
+      else if (ev.key === 'Enter') { pick(active); ev.preventDefault(); }
+      else if (ev.key === 'Escape') { options = []; list.hidden = true; }
     });
+    list.addEventListener('mousedown', (ev) => {
+      const li = (ev.target as HTMLElement).closest<HTMLElement>('[data-slug]');
+      if (li) { ev.preventDefault(); pick(options.findIndex((o) => o.s === li.dataset.slug)); }
+    });
+    input.addEventListener('blur', () => setTimeout(() => { list.hidden = true; input.setAttribute('aria-expanded', 'false'); }, 120));
 
-    // ===== Init =====
-    function init(): void {
-      // If no modes defined, treat as single classique mode
-      if (MODES.length === 0) {
-        MODES.push({
-          id: 'classique',
-          label: 'Classique',
-          icon: '\uD83C\uDFAF',
-          description: '',
-          maxGuesses: 8,
-        });
-      }
+    /* ---------- modes & help ---------- */
+    function setMode(m: 'daily' | 'train') { mode = m; input.value = ''; options = []; drawList(); list.hidden = true; render(); }
+    document.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode as 'daily' | 'train')));
+    const help = $('howto');
+    const helpBtn = $('help-btn');
+    const toggleHelp = (open: boolean) => { help.hidden = !open; helpBtn.setAttribute('aria-expanded', String(open)); store.set('Perfumdle_v2_seen_help', true); };
+    helpBtn.addEventListener('click', () => toggleHelp(help.hidden));
+    $('howto-close').addEventListener('click', () => toggleHelp(false));
+    if (!store.get('Perfumdle_v2_seen_help', false)) help.hidden = false;
 
-      // Filter out modes that have no compatible entities
-      const validModes = MODES.filter((mode) => {
-        if (mode.id === 'emoji') return ENTITIES.some((e) => e.emoji);
-        if (mode.id === 'capacite') return ENTITIES.some((e) => e.capacite);
-        if (mode.id === 'image') return ENTITIES.some((e) => e.image);
-        return true; // classique always valid
-      });
-
-      // Hide tabs for modes that are not valid
-      if (validModes.length !== MODES.length) {
-        MODES.forEach((mode) => {
-          if (!validModes.find((v) => v.id === mode.id)) {
-            const tab = $(`tab-${mode.id}`);
-            if (tab) tab.style.display = 'none';
-            const panel = document.querySelector(`[data-mode-panel="${mode.id}"]`) as HTMLElement;
-            if (panel) panel.hidden = true;
-          }
-        });
-      }
-
-      // If only one valid mode, hide tabs entirely
-      const tabsNav = $('mode-tabs');
-      if (tabsNav && validModes.length <= 1) {
-        tabsNav.style.display = 'none';
-      }
-
-      currentMode = validModes[0]?.id ?? 'classique';
-      renderCurrentMode();
-    }
-
-    init();
+    renderStreak();
+    render();
   </script>
 </Layout>
+
+<style is:global>
+  .game [hidden] { display: none !important; }
+  .game, .game .clue__value, .game .guess__notes strong { font-variant-numeric: lining-nums tabular-nums; }
+  .game { max-width: 46rem; padding-top: clamp(1.2rem, 3vw, 2.2rem); padding-bottom: 2rem; }
+  .game__head { text-align: center; }
+  .game__title { margin: 0.2rem 0 0.4rem; font-size: clamp(2.1rem, 6vw, 3.2rem); }
+  .game__sub { color: var(--ink-2); margin: 0 auto; max-width: 30rem; }
+  .game__tabs { display: flex; gap: 0.4rem; justify-content: center; align-items: center; margin: 1.2rem 0 1rem; }
+  .game__tabs [role='tab'] { font: 500 0.9rem var(--sans); padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--line-strong); background: #fff; color: var(--ink-2); cursor: pointer; }
+  .game__tabs [role='tab'][aria-selected='true'] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .game__help-btn { width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--line-strong); background: #fff; font: 600 1rem var(--serif); cursor: pointer; }
+  .game .howto-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 1.1rem 1.2rem; margin-bottom: 1rem; box-shadow: var(--shadow); }
+  .game .howto-card ol { margin: 0 0 0.8rem 1.1rem; display: grid; gap: 0.45rem; font-size: 0.95rem; color: var(--ink-2); }
+  .game .btn--sm { padding: 0.45rem 1rem; font-size: 0.85rem; }
+  .game .mini { display: inline-grid; place-items: center; width: 1.3rem; height: 1.3rem; border-radius: 5px; font-size: 0.75rem; font-weight: 700; }
+  .game .clues { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 1rem 1.1rem; }
+  .game .clues__title { font: 600 0.72rem var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.6rem; }
+  .game .clues__list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 0.5rem; }
+  .game .clue { border: 1px dashed var(--line-strong); border-radius: 12px; padding: 0.55rem 0.7rem; display: flex; flex-direction: column; gap: 0.1rem; min-height: 3.6rem; }
+  .game .clue.is-open { border-style: solid; border-color: var(--wine); background: #fbf7f4; }
+  .game .clue__label { font-size: 0.72rem; color: var(--muted); }
+  .game .clue__value { font-family: var(--serif); font-size: 1.15rem; color: var(--ink); line-height: 1.15; }
+  .game .clue__lock { font-size: 0.78rem; color: var(--muted); }
+  .game .clue .blur { width: 64px; height: 64px; object-fit: contain; filter: blur(7px); margin-top: 0.3rem; mix-blend-mode: multiply; }
+  .game .guess-box { position: relative; margin: 1rem 0 0.4rem; }
+  .game #guess-input { width: 100%; font: 400 1.05rem var(--sans); padding: 0.95rem 1.1rem; border-radius: 14px; border: 1.5px solid var(--ink); background: #fff; color: var(--ink); }
+  .game #guess-input:focus { outline: 3px solid rgba(122, 31, 43, 0.25); outline-offset: 1px; }
+  .game #guess-list { position: absolute; z-index: 20; left: 0; right: 0; top: calc(100% + 4px); list-style: none; margin: 0; padding: 0.3rem; background: #fff; border: 1px solid var(--line-strong); border-radius: 14px; box-shadow: var(--shadow); max-height: 22rem; overflow-y: auto; }
+  .game #guess-list li { display: flex; align-items: center; gap: 0.7rem; padding: 0.45rem 0.6rem; border-radius: 10px; cursor: pointer; }
+  .game #guess-list li[aria-selected='true'] { background: var(--paper-2); }
+  .game #guess-list li img, .game .opt-ph { width: 36px; height: 36px; object-fit: contain; flex: none; border-radius: 8px; background: var(--paper); }
+  .game #guess-list li strong, .game .guess__who strong { display: block; font-weight: 600; font-size: 0.97rem; color: var(--ink); }
+  .game #guess-list li small, .game .guess__who small { display: block; font-size: 0.8rem; color: var(--muted); }
+  .game #guess-list li.empty { cursor: default; color: var(--muted); }
+  .game .guess-count { text-align: center; font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 0; }
+  .game .guesses { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.7rem; }
+  .game .guess { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 0.8rem; animation: pop 0.25s ease-out; }
+  .game .guess.is-win { border-color: #3F6B3A; box-shadow: 0 0 0 2px rgba(63, 107, 58, 0.2); }
+  .game .guess__who { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.6rem; }
+  .game .guess__who img, .game .guess__ph { width: 48px; height: 48px; object-fit: contain; border-radius: 10px; background: var(--paper); flex: none; }
+  .game .guess__cells { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.4rem; }
+  .game .cell { position: relative; border-radius: 10px; padding: 0.45rem 0.5rem 0.5rem; min-width: 0; }
+  .game .cell__label { display: block; font-size: 0.66rem; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.8; }
+  .game .cell__value { display: block; font-size: 0.86rem; font-weight: 600; line-height: 1.2; overflow-wrap: break-word; hyphens: auto; }
+  .game .cell__icon { position: absolute; top: 0.3rem; right: 0.4rem; font-size: 0.8rem; font-weight: 700; }
+  .game .ok, .game .mini.ok { background: #3F6B3A; color: #fff; }
+  .game .near, .game .mini.near { background: #E7C77C; color: #3b2a07; }
+  .game .no, .game .mini.no { background: var(--paper-2); color: var(--ink-2); }
+  .game .guess__notes { margin: 0.55rem 0 0; font-size: 0.86rem; color: var(--ink-2); }
+  .game .guess__notes strong { font-family: var(--serif); font-size: 1.15rem; margin-right: 0.15rem; }
+  .game .guess__notes.warm strong { color: #9a6a12; }
+  .game .guess__notes.hot strong { color: #3F6B3A; }
+  .game .result { display: grid; gap: 1rem; align-items: center; background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: 1.2rem; margin-top: 1rem; box-shadow: var(--shadow); }
+  .game .result__media img { width: 100%; max-width: 200px; height: auto; margin: 0 auto; display: block; mix-blend-mode: multiply; }
+  .game .result h2 small { display: block; font: 400 0.95rem var(--sans); color: var(--muted); margin-top: 0.2rem; }
+  .game .result__stats { font-size: 0.9rem; color: var(--ink-2); }
+  .game .result__actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
+  .game .result__copied { font-size: 0.85rem; color: #3F6B3A; margin-top: 0.4rem; }
+  @media (min-width: 640px) {
+  .game .result { grid-template-columns: 200px 1fr; }
+  }
+  @media (max-width: 420px) {
+  .game .guess__cells { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .game .clues__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  .game-seo { padding-bottom: 3rem; }
+  .game-seo p { color: var(--ink-2); margin: 0.6rem 0 1rem; }
+  .game-seo .faq-item { border-top: 1px solid var(--line); padding: 0.8rem 0; }
+  .game-seo .faq-item summary { cursor: pointer; font-weight: 600; }
+  .game-seo__links a { color: var(--wine); }
+  @keyframes pop {
+ from { transform: translateY(6px); opacity: 0; } to { transform: none; opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+  .game .guess { animation: none; }
+  }
+</style>
