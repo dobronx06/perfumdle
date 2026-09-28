@@ -59,11 +59,25 @@ const crumbs = [
   { name: p.name },
 ];
 
+/* FR grammar helpers for generated answers: « de » elides before a vowel, seasons take their own preposition,
+   note names keep proper nouns (Sichuan, Calabre) — only the first letter is lowered. */
+const lcFirst = (x: string) => (fr ? x.charAt(0).toLowerCase() + x.slice(1) : x);
+const noteList = (xs: string[]) => {
+  const names = xs.map((n) => lcFirst(noteName(n, l)));
+  return names.length < 2 ? names.join('') : `${names.slice(0, -1).join(', ')} ${fr ? 'et' : 'and'} ${names.at(-1)}`;
+};
+const de = (x: string) => (/^[aeiouyhâéèêîïôœ]/i.test(x) ? `d’${x}` : `de ${x}`);
+const SEASON_IN_FR: Record<string, string> = { spring: 'au printemps', summer: 'en été', autumn: 'en automne', winter: 'en hiver' };
+const seasonList = (xs: string[]) => {
+  const names = xs.map((x) => (fr ? SEASON_IN_FR[x] : SEASON_LABEL.en[x as keyof typeof SEASON_LABEL.en].toLowerCase()));
+  return names.length < 2 ? names.join('') : `${names.slice(0, -1).join(', ')} ${fr ? 'et' : 'and'} ${names.at(-1)}`;
+};
+
 const faqs: FaqT[] = compact([
   {
     q: fr ? `Quelles sont les notes de ${p.name} ?` : `What are the notes of ${p.name}?`,
     a: fr
-      ? `${p.name} de ${p.brand} s'ouvre sur ${lc(list(p.notes.top))}. Son cœur associe ${lc(list(p.notes.heart))}, avant un fond de ${lc(list(p.notes.base))}.`
+      ? `${p.name} de ${p.brand} s'ouvre sur ${noteList(p.notes.top)}. Son cœur associe ${noteList(p.notes.heart)}, avant un fond ${de(noteList(p.notes.base))}.`
       : `${p.name} by ${p.brand} opens with ${list(p.notes.top)}. Its heart combines ${list(p.notes.heart)}, over a base of ${list(p.notes.base)}.`,
   },
   {
@@ -75,13 +89,13 @@ const faqs: FaqT[] = compact([
   {
     q: fr ? `Quand ${p.name} est-il sorti ?` : `When was ${p.name} released?`,
     a: fr
-      ? `${p.name} a été lancé en ${p.year} par ${p.brand}${ed?.perfumer ? `, sur une composition de ${ed.perfumer}` : ''}. Il est proposé en ${p.concentration}.`
+      ? `${p.name} a été lancé en ${p.year} par ${p.brand}${ed?.perfumer ? `, sur une composition ${de(ed.perfumer)}` : ''}. Il est proposé en ${p.concentration}.`
       : `${p.name} was launched in ${p.year} by ${p.brand}${ed?.perfumer ? `, composed by ${ed.perfumer}` : ''}. It comes as an ${p.concentration}.`,
   },
   ed?.seasons?.length
     ? {
         q: fr ? `En quelle saison porter ${p.name} ?` : `When should you wear ${p.name}?`,
-        a: `${fr ? 'Idéalement en' : 'Ideally in'} ${ed.seasons.map((s) => lc(SEASON_LABEL[l][s as keyof typeof SEASON_LABEL.fr])).join(fr ? ' et ' : ' and ')}. ${txt?.wear ?? ''}`.trim(),
+        a: `${fr ? 'Idéalement' : 'Ideally in'} ${seasonList(ed.seasons)}. ${txt?.wear ?? ''}`.trim(),
       }
     : null,
   {
