@@ -1,0 +1,856 @@
+{
+ "_data_issues": [
+  {
+   "slug": "nina-ricci-lair-du-temps",
+   "issue": "tagline_fr/tagline_en mention un oeillet (carnation) absent des notes du dataset (tete: bergamote, peche, neroli; coeur: rose, jasmin, violette)."
+  }
+ ],
+ "sg:summer:F": {
+  "picks": [
+   "dolce-gabbana-light-blue",
+   "issey-miyake-leau-dissey",
+   "chanel-chance",
+   "dior-jadore",
+   "nina-ricci-lair-du-temps",
+   "dolce-gabbana-limperatrice",
+   "kenzo-leau-par-kenzo",
+   "tom-ford-neroli-portofino",
+   "hermes-un-jardin-sur-le-nil",
+   "jo-malone-wood-sage-sea-salt"
+  ],
+  "fr": {
+   "title": "Parfum été femme : 10 parfums frais qui tiennent la chaleur",
+   "meta": "Light Blue ou L'Eau d'Issey en tête : notre classement des parfums d'été pour femme, choisis pour rester frais à 30 °C sans disparaître avant midi.",
+   "h1": "Parfum d'été pour femme : les dix fraîcheurs qu'on garde en juillet",
+   "intro": "Un parfum d'été pour femme doit rester frais sans s'évaporer en une heure. Notre premier choix est Light Blue de Dolce & Gabbana. Pomme, cèdre et jasmin : il est léger comme une chemise en lin, avec le défaut connu de s'effacer vite. L'Eau d'Issey le suit de près et tient mieux grâce à son fond de musc et d'ambre. Chance de Chanel complète le podium pour celles qui veulent un peu de pétillant au bureau. Les trois derniers de la liste sont des parfums mixtes, et nous le signalons.",
+   "sections": [
+    {
+     "title": "Pourquoi la chaleur change le choix du parfum",
+     "body": "La chaleur accélère l'évaporation. Les notes de tête filent plus vite et la peau, plus chaude, projette davantage ce qui reste. Un oriental vanillé qui paraît enveloppant en janvier devient lourd à 30 °C, surtout dans un bureau mal climatisé ou un train bondé. L'humidité aggrave les choses : le sucre colle, le patchouli s'alourdit. On cherche donc des matières qui gardent de l'air entre elles. Les agrumes, les notes aquatiques comme le lotus ou le nénuphar et les fleurs transparentes font ce travail, avec un fond de musc ou de cèdre plutôt que d'ambre épais. Dans notre base, presque tous les parfums de cette page ont une intensité de 2 ou 3 sur 5. C'est voulu. La contrepartie est une tenue plus courte : un parfum d'été se revaporise, et ce n'est pas un défaut de fabrication."
+    },
+    {
+     "title": "Quand et comment les porter",
+     "body": "Le matin, avant de partir travailler, une ou deux pulvérisations suffisent sur la nuque et l'intérieur des coudes. Évitez de vaporiser sur une peau qui va rester au soleil, car certains agrumes supportent mal la lumière. Un tee-shirt en coton retient le parfum bien mieux qu'une peau qui transpire. Vaporisez-le à 20 cm et laissez sécher avant de sortir. Pour la plage, les fraîcheurs salées comme Wood Sage & Sea Salt prolongent la sensation de baignade. Le soir en terrasse, J'adore ou Chance tiennent mieux la distance que les eaux aquatiques. Gardez un vaporisateur de voyage dans le sac plutôt que de doubler la dose le matin : une dose forte à 9 h devient pesante à 14 h. Enfin, ne laissez jamais le flacon dans une voiture au soleil. La chaleur abîme les notes de tête en quelques jours."
+    },
+    {
+     "title": "Fleurs, fruits ou mixtes : comment choisir",
+     "body": "Les sept premiers parfums sont féminins et se rangent en trois styles. Les floraux aquatiques, L'Eau d'Issey et L'Eau par Kenzo, sentent l'eau froide et les tiges coupées. Côté fruités, Light Blue et L'Impératrice jouent la pomme, la pastèque et le kiwi. Ils sont plus gais et plus sucrés. Les floraux classiques (J'adore, Chance et L'Air du Temps) conviennent mieux quand il faut être habillée. Si les fruits vous fatiguent, regardez la fin de la liste. Neroli Portofino, Un Jardin sur le Nil et Wood Sage & Sea Salt sont vendus comme mixtes. Ils ont moins de sucre et plus de relief : fleur d'oranger, mangue verte, sel marin. Notre conseil est simple. Testez deux styles différents sur chaque poignet et attendez une heure avant de choisir, car c'est le fond qui vous accompagnera tout l'après-midi."
+    }
+   ],
+   "why": {
+    "dolce-gabbana-light-blue": "Pomme verte, cèdre et jasmin : Light Blue sent la serviette de plage séchée au soleil. Il ouvre notre classement parce qu'il ne pèse jamais, même en pleine canicule, et qu'il va à presque tout le monde. Son défaut est connu. Avec une intensité de 2 sur 5, il s'efface en quelques heures, plus vite que L'Eau d'Issey. Un petit flacon dans le sac règle le problème.",
+    "issey-miyake-leau-dissey": "Deuxième, L'Eau d'Issey a fixé en 1992 le modèle du floral aquatique : lotus, melon et freesia, puis un fond de musc et de cèdre qui tient mieux que Light Blue. Jacques Cavallier en a fait une eau de toilette très claire, idéale au bureau en juillet. La note melonnée divise encore. Si elle vous rappelle un gel douche, L'Eau par Kenzo est plus mentholée.",
+    "chanel-chance": "Chez Chanel, Chance est la fraîcheur qui a du caractère. Baies roses, ananas et citron pétillent au départ, puis le patchouli et le vétiver donnent une tenue que les eaux aquatiques de la liste n'ont pas. On le préfère pour une journée de travail, avec une pulvérisation de moins qu'en hiver. Son patchouli propre a été beaucoup copié depuis 2002 et surprend moins aujourd'hui.",
+    "dior-jadore": "J'adore est le plus habillé de la sélection. Poire et melon en tête, puis une rose et un jasmin lumineux posés sur la vanille et le musc : c'est le parfum d'un mariage en juin ou d'un dîner dehors. Calice Becker l'a composé en 1999. Par forte chaleur, une seule pulvérisation suffit, sinon la vanille prend le dessus. Moins aquatique que L'Eau d'Issey, il est plus solaire.",
+    "nina-ricci-lair-du-temps": "Face aux fruités modernes, L'Air du Temps joue la retenue depuis 1948. Pêche, néroli, rose et violette sur un fond de santal : Francis Fabron l'a voulu doux, presque poudré. Il plaira à celles qui trouvent Light Blue trop sucré et J'adore trop solaire. Très discret sur la peau, il gagne à être vaporisé aussi sur un foulard en coton. Un peu rétro, très juste en début d'été.",
+    "dolce-gabbana-limperatrice": "Pastèque et kiwi : L'Impératrice est le plus fruité et le plus joueur de la liste. Il sent la salade de fruits sur une table de jardin, avec un jasmin et un musc qui arrondissent le tout. Parfait le week-end et en vacances, moins pour une réunion. Certains nez le trouvent synthétique. Il lui manque en effet la finesse de Light Blue, son cousin de la même maison.",
+    "kenzo-leau-par-kenzo": "Menthe et nénuphar donnent à L'Eau par Kenzo une fraîcheur d'eau froide que peu de féminins osent. Pêche blanche et citron ouvrent, un fond de cèdre et de vanille très léger suit. C'est le parfum du matin quand il fait déjà chaud à 8 h. Sa discrétion est son défaut principal : il s'efface plus vite encore que L'Eau d'Issey. On le revaporise à midi sans remords.",
+    "tom-ford-neroli-portofino": "Premier des mixtes, Neroli Portofino de Tom Ford est une cologne de luxe : bergamote, citron et néroli sur un fond d'ambre et d'angélique. Rodrigo Flores-Roux l'a composé en 2011. Il sent la fleur d'oranger au bord de l'eau, sans trace de sucre. À choisir si les fruités vous lassent. Malgré sa concentration d'eau de parfum, sa tenue reste celle d'une fraîcheur.",
+    "hermes-un-jardin-sur-le-nil": "Mangue verte, lotus et pamplemousse : Un Jardin sur le Nil est l'aquarelle la plus fine de cette page. Jean-Claude Ellena y a glissé un roseau vert et un fond d'encens à peine fumé. Ce mixte est si discret qu'il faut le revaporiser dans l'après-midi. Plus sec que Neroli Portofino, il convient aux journées de bureau où l'on ne veut gêner personne.",
+    "jo-malone-wood-sage-sea-salt": "Sel marin, sauge et bois flotté : Wood Sage & Sea Salt sent la peau après la baignade, une odeur plus minérale que florale. Christine Nagel l'a composé en 2014 pour Jo Malone. C'est notre choix pour sortir des fleurs en été. Concentration de cologne oblige, comptez deux applications par jour. Plus salé qu'Un Jardin sur le Nil, c'est aussi le moins classique de la liste."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme porter en été ?",
+     "a": "Un parfum léger d'intensité faible à moyenne, construit sur les agrumes, les notes aquatiques ou des fleurs transparentes. Light Blue et L'Eau d'Issey sont les valeurs les plus sûres. Chance convient mieux au bureau. Si vous n'aimez pas les fruits, Neroli Portofino ou Un Jardin sur le Nil offrent une fraîcheur plus sèche."
+    },
+    {
+     "q": "Comment faire tenir son parfum en été ?",
+     "a": "Hydratez la peau avant d'appliquer, car une peau sèche retient mal les odeurs. Vaporisez sur la nuque et sur un vêtement en coton plutôt que sur une peau qui transpire. Évitez les zones exposées au soleil. Et gardez un format voyage : deux petites applications valent mieux qu'une grosse le matin."
+    },
+    {
+     "q": "Peut-on porter un parfum sucré en été ?",
+     "a": "Oui, avec la main légère. Une seule pulvérisation d'un floral vanillé comme J'adore passe bien le soir, quand l'air se rafraîchit. En pleine journée à 30 °C, le sucre et le patchouli deviennent vite collants. Gardez les gourmands épais pour l'automne et préférez un fruité transparent comme Light Blue."
+    },
+    {
+     "q": "Eau de toilette ou eau de parfum pour l'été ?",
+     "a": "L'eau de toilette est souvent le meilleur choix, car la chaleur amplifie déjà la diffusion. La concentration ne fait pas tout : Neroli Portofino est une eau de parfum et tient pourtant comme une fraîcheur. Choisissez d'abord les notes, agrumes et musc plutôt qu'ambre, puis la concentration."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best summer perfumes for women: 10 picks that survive heat",
+   "meta": "Light Blue and L'Eau d'Issey lead our ranking of the best summer perfumes for women, picked to stay fresh at 90°F without vanishing by noon.",
+   "h1": "Summer perfumes for women: ten fresh scents worth wearing in July",
+   "intro": "A summer perfume has one job: smell fresh without evaporating in an hour. Our top pick is Dolce & Gabbana Light Blue. Apple, cedar and jasmine make it as light as a linen shirt. Its well-known flaw is that it fades fast. L'Eau d'Issey comes second and lasts longer thanks to its musk and amber base. Chanel Chance rounds out the podium for anyone who wants some sparkle at the office. The last three picks are unisex, and we say so.",
+   "sections": [
+    {
+     "title": "Why heat changes what you should wear",
+     "body": "Heat speeds up evaporation. Top notes burn off faster, and warm skin pushes whatever is left further out into the room. A vanilla amber that feels cozy in January turns heavy at 90°F, especially in a stuffy office or a packed train. Humidity makes it worse. Sugar gets sticky and patchouli thickens. So you want materials that leave some air between them. Think citrus, watery notes like lotus and water lily, and sheer florals over a base of musk or cedar rather than dense amber. Almost every perfume on this page rates 2 or 3 out of 5 for intensity in our database. That is deliberate. The trade-off is shorter wear. You will reapply a summer scent, and that is how it is meant to work."
+    },
+    {
+     "title": "When and how to wear them",
+     "body": "In the morning, one or two sprays on the back of the neck and inside the elbows is enough. Skip skin that will sit in direct sun, since some citrus oils react badly to light. A cotton T-shirt holds scent far better than sweaty skin, so mist it from about eight inches and let it dry before you head out. At the beach, a salty scent like Wood Sage & Sea Salt stretches that just-out-of-the-water feeling. For dinner outside, J'adore or Chance go the distance better than the watery picks. Carry a travel spray instead of doubling the dose at breakfast. Four sprays at 9 a.m. feel heavy by 2 p.m. And never leave the bottle in a hot car. Heat damages the top notes within days."
+    },
+    {
+     "title": "Florals, fruits or unisex: how to choose",
+     "body": "The first seven picks are marketed to women and fall into three camps. The watery florals, L'Eau d'Issey and L'Eau par Kenzo, smell of cold water and cut stems. The fruity pair, Light Blue and L'Impératrice, leans on apple, watermelon and kiwi. They are cheerful and a bit sweeter. The classic florals (J'adore, Chance and L'Air du Temps) work better when you need to look put together. If fruit wears you out, skip to the end of the list. Neroli Portofino, Un Jardin sur le Nil and Wood Sage & Sea Salt are sold as unisex. They carry less sugar and more texture: orange blossom, green mango, sea salt. Our advice is to test two different styles, one on each wrist, and wait an hour. The drydown is what you will live with all afternoon."
+    }
+   ],
+   "why": {
+    "dolce-gabbana-light-blue": "Green apple, cedar and jasmine: Light Blue smells like a beach towel dried in the sun. It tops our list because it never feels heavy, even in a heatwave, and it suits almost everyone. The flaw is well known. With an intensity of 2 out of 5, it fades within a few hours, sooner than L'Eau d'Issey. A small decant in your bag fixes that.",
+    "issey-miyake-leau-dissey": "Launched in 1992, L'Eau d'Issey set the template for the watery floral: lotus, melon and freesia over a musk and cedar base that outlasts Light Blue. Jacques Cavallier made it crystal clear, which makes it ideal for the office in July. The melon note still splits people. If it reminds you of shower gel, L'Eau par Kenzo has a cooler, minty take.",
+    "chanel-chance": "Of all the Chanels, Chance is the fresh one with some bite. Pink pepper, pineapple and lemon fizz up front. Then patchouli and vetiver give it staying power the watery picks here lack. We like it for a summer workday, with one spray fewer than you would use in winter. Its clean patchouli has been copied endlessly since 2002, so it surprises less now.",
+    "dior-jadore": "J'adore is the dressiest pick here. Pear and melon open onto a bright rose and jasmine over vanilla and musk. Think June wedding or dinner on a patio. Calice Becker composed it in 1999. In real heat, stick to one spray or the vanilla takes over. It is less watery than L'Eau d'Issey and sunnier in mood.",
+    "nina-ricci-lair-du-temps": "Next to the modern fruity scents, L'Air du Temps (1948) plays it quiet. Peach, neroli, rose and violet over sandalwood. Francis Fabron kept it soft, almost powdery. It suits anyone who finds Light Blue too sweet and J'adore too loud. It sits very close to the skin, so spray a cotton scarf too. A little old-fashioned, and just right for early summer.",
+    "dolce-gabbana-limperatrice": "Watermelon and kiwi make L'Impératrice the fruitiest and most playful pick. It smells like a fruit salad on a garden table, with jasmine and musk smoothing the edges. Great for weekends and vacations, less so for a meeting. Some noses find it synthetic, and it does lack the polish of Light Blue, its sibling from the same house.",
+    "kenzo-leau-par-kenzo": "Mint and water lily give L'Eau par Kenzo a cold-water freshness few feminine scents attempt. White peach and lemon open it, and a very light cedar and vanilla base follows. This is the one for mornings that are already hot at 8 a.m. Its weakness is longevity. It fades even faster than L'Eau d'Issey, so reapply at lunch without guilt.",
+    "tom-ford-neroli-portofino": "First of the unisex picks, Tom Ford Neroli Portofino is a luxury cologne: bergamot, lemon and neroli over amber and angelica. Rodrigo Flores-Roux created it in 2011. It smells like orange blossom by the water, with no sugar at all. Choose it if fruity scents bore you. Despite the eau de parfum label, it wears like a citrus and fades accordingly.",
+    "hermes-un-jardin-sur-le-nil": "Mango, lotus and grapefruit make Un Jardin sur le Nil the most delicate watercolor on this page. Jean-Claude Ellena added a green reed note and a faint wisp of incense. This unisex scent is so discreet you will need to reapply in the afternoon. It is drier than Neroli Portofino and well suited to office days when you do not want to bother anyone.",
+    "jo-malone-wood-sage-sea-salt": "Sea salt, sage and driftwood: Wood Sage & Sea Salt smells like skin after a swim, more mineral than floral. Christine Nagel made it for Jo Malone in 2014. It is our pick if you want a break from flowers this summer. Being a cologne, it needs two applications a day. Saltier than Un Jardin sur le Nil, it is also the least conventional choice here."
+   },
+   "faq": [
+    {
+     "q": "What perfume should a woman wear in summer?",
+     "a": "Go for something light to moderate in intensity, built on citrus, watery notes or sheer florals. Light Blue and L'Eau d'Issey are the safest bets. Chance works better at the office. If you dislike fruity scents, Neroli Portofino or Un Jardin sur le Nil offer a drier kind of freshness."
+    },
+    {
+     "q": "How do I make perfume last longer in hot weather?",
+     "a": "Moisturize first, because dry skin holds scent poorly. Spray the back of your neck and a cotton garment rather than sweaty skin, and avoid areas exposed to direct sun. Carry a travel atomizer. Two light applications during the day beat one heavy dose in the morning."
+    },
+    {
+     "q": "Can you wear a sweet perfume in summer?",
+     "a": "Yes, with a light hand. One spray of a vanilla floral like J'adore works in the evening once the air cools. At midday in 90°F heat, sugar and patchouli get cloying fast. Save dense gourmands for fall and reach for a sheer fruity scent like Light Blue instead."
+    },
+    {
+     "q": "Is eau de toilette or eau de parfum better for summer?",
+     "a": "Eau de toilette is often the better call, since heat already boosts projection. Concentration is not everything, though. Neroli Portofino is an eau de parfum and still wears like a light citrus. Pick the notes first, citrus and musk over amber, then worry about concentration."
+    }
+   ]
+  }
+ },
+ "sg:summer:M": {
+  "picks": [
+   "dior-eau-sauvage",
+   "giorgio-armani-acqua-di-gio",
+   "hermes-terre-dhermes",
+   "chanel-allure-homme-sport",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "creed-green-irish-tweed",
+   "issey-miyake-leau-dissey-pour-homme",
+   "paco-rabanne-invictus",
+   "creed-silver-mountain-water",
+   "jo-malone-lime-basil-mandarin"
+  ],
+  "fr": {
+   "title": "Parfum été homme : les 10 fraîcheurs à porter par forte chaleur",
+   "meta": "Eau Sauvage et Acqua di Gio en tête : les parfums d'été pour homme qui restent nets sous une chemise en lin, du bureau à la plage.",
+   "h1": "Parfum d'été pour homme : notre classement des eaux fraîches",
+   "intro": "Pour l'été, un parfum d'homme doit rester net quand la chemise colle au dos. Eau Sauvage de Dior arrive en tête : citron, basilic et mousse de chêne, une élégance de 1966 qui n'a pas pris une ride. Acqua di Gio suit, plus marin et plus facile, idéal pour qui ne veut pas réfléchir. Terre d'Hermès ferme le podium avec ses agrumes posés sur du vétiver, pour les journées de travail. Deux mixtes très frais terminent la liste.",
+   "sections": [
+    {
+     "title": "Ce que la chaleur fait à un parfum masculin",
+     "body": "Beaucoup de masculins modernes reposent sur des fonds épais : ambroxan, fève tonka, bois ambrés. Par 30 °C, ces fonds montent plus vite et plus fort, et la transpiration les rend poisseux. Un parfum qui passe bien en octobre peut devenir envahissant dans un métro en juillet. La règle de l'été est donc inverse de celle de l'hiver. On veut un départ hespéridé de citron ou de bergamote. Puis un cœur aromatique comme le romarin ou le basilic, et un fond sec de vétiver, de cèdre ou de musc. C'est exactement la construction d'Eau Sauvage, de Terre d'Hermès et de Light Blue pour Homme. Les aquatiques comme Acqua di Gio ajoutent une sensation d'eau salée. Seul Invictus sort un peu du cadre : intensité 4 sur 5, à réserver aux soirées et au sport."
+    },
+    {
+     "title": "Moments et dosage",
+     "body": "Au bureau, deux pulvérisations le matin suffisent : une sur la nuque, une sur le torse sous la chemise. Le coton garde le parfum et le diffuse doucement toute la journée. Évitez les poignets si vous portez une montre à bracelet cuir, car la sueur et le parfum le tachent. Après le sport, Allure Homme Sport ou Acqua di Gio remplacent bien un déodorant parfumé. Pour la plage, les colognes de Jo Malone ou Silver Mountain Water sont plus agréables qu'un boisé. En soirée, quand l'air retombe, vous pouvez passer à Invictus ou à Green Irish Tweed. Une précaution : les agrumes n'aiment pas le soleil direct sur la peau, vaporisez plutôt là où le vêtement couvre. Et ne cherchez pas la tenue à tout prix. Une fraîcheur qui disparaît à 15 h se revaporise, c'est son mode d'emploi."
+    },
+    {
+     "title": "Hespéridés, aquatiques ou fougères : trois familles pour l'été",
+     "body": "Les hespéridés aromatiques comme Eau Sauvage, Light Blue pour Homme ou Lime Basil & Mandarin sont les plus secs. Ils sentent le zeste et l'herbe coupée. Les aquatiques (Acqua di Gio, L'Eau d'Issey pour Homme, Invictus) évoquent la mer ou l'eau froide avec plus de sucre et de sillage. Green Irish Tweed tient du côté fougère : verveine, violette et ambre gris, une fraîcheur plus habillée. Si vous hésitez, partez d'Eau Sauvage. C'est le repère historique. Tout le reste se définit par rapport à lui : plus marin, plus sucré ou plus boisé. Enfin, Silver Mountain Water et Lime Basil & Mandarin sont vendus comme mixtes. Ils conviennent parfaitement à un homme, avec une tenue limitée qu'on accepte en échange d'une grande netteté."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Eau Sauvage reste la référence de l'été masculin depuis 1966. Edmond Roudnitska y a mis du citron, du romarin et du basilic sur un fond de mousse de chêne et de vétiver. Le résultat sent la chemise blanche repassée. On le classe premier pour sa justesse et parce qu'il va du bureau au mariage. Sa tenue est modeste, plus courte que celle d'Acqua di Gio.",
+    "giorgio-armani-acqua-di-gio": "Bergamote, néroli et citron vert sur un cœur de romarin : Acqua di Gio (1996) est l'aquatique qui a défini une génération. Alberto Morillas l'a rendu très facile à porter, au bureau comme à la plage. Sa force est aussi sa limite, car on le croise partout. Plus marin et plus sucré qu'Eau Sauvage, il tient aussi un peu mieux.",
+    "hermes-terre-dhermes": "Troisième, Terre d'Hermès est l'été des gens qui n'aiment pas les aquatiques. Orange et pamplemousse ouvrent sur une note de silex, puis le poivre et le vétiver prennent le relais. Jean-Claude Ellena en a fait un parfum minéral qui passe aussi en automne. Très répandu depuis 2006, il surprend moins, mais il reste le meilleur choix pour une journée de réunions.",
+    "chanel-allure-homme-sport": "Orange, mandarine et aldéhydes donnent à Allure Homme Sport une fraîcheur savonneuse, celle d'une douche après le tennis. Jacques Polge l'a posée sur de la fève tonka et du vétiver, ce qui la rend plus douce que Terre d'Hermès. Parfait après l'effort ou pour un week-end. Sa projection reste sage : il faut s'approcher pour la sentir.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "Pamplemousse, genièvre et romarin : Light Blue pour Homme est l'une des fraîcheurs les plus directes du classement. Alberto Morillas y ajoute un fond d'encens et de mousse de chêne qui lui donne un peu de nerf. Idéal en vacances et en terrasse. Sa tenue est limitée, nettement plus courte que celle d'Acqua di Gio du même parfumeur.",
+    "creed-green-irish-tweed": "Verveine citronnée, menthe poivrée et feuille de violette : Green Irish Tweed sent l'herbe mouillée d'un matin de juin. Créé en 1985, il est plus habillé que les aquatiques de la liste, grâce à son fond de santal et d'ambre gris. C'est notre choix pour un mariage en été. Certains le trouveront trop classique à côté d'Invictus.",
+    "issey-miyake-leau-dissey-pour-homme": "Yuzu, bergamote et citron : L'Eau d'Issey pour Homme (1994) a fait entrer l'agrume japonais dans les masculins grand public. Jacques Cavallier l'a relevé d'une pointe de muscade et de cannelle. Le départ est très acide, presque criard pour certains nez. Une fois posé sur le santal, il devient plus aimable qu'Acqua di Gio et moins commun.",
+    "paco-rabanne-invictus": "Sucré-salé, Invictus mélange pamplemousse, notes marines et bois de gaïac. C'est le plus puissant de la sélection, avec une intensité de 4 sur 5. À réserver aux soirées d'été, aux festivals ou à la salle de sport, pas au bureau. Une pulvérisation suffit. Face à Light Blue pour Homme, il gagne en sillage ce qu'il perd en finesse.",
+    "creed-silver-mountain-water": "Mixte, Silver Mountain Water de Creed associe bergamote, thé vert et cassis sur un fond de musc. Il évoque l'eau d'un torrent, froide et un peu métallique. Plus pur que Green Irish Tweed de la même maison, il divise à cause de ce cassis. Si l'effet vous plaît, c'est l'une des fraîcheurs les plus tenaces de la liste.",
+    "jo-malone-lime-basil-mandarin": "Citron vert, basilic et thym : Lime Basil & Mandarin sent le potager en plein soleil. Cette cologne mixte de 1999 est la plus sèche de notre sélection, plus herbacée qu'Eau Sauvage. Elle convient aux hommes qui détestent les sillages sucrés. Sa tenue de cologne oblige à revaporiser au déjeuner, ce qui est le prix de cette légèreté."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme porter en été ?",
+     "a": "Un parfum hespéridé ou aquatique d'intensité moyenne, avec un fond sec. Eau Sauvage, Acqua di Gio et Terre d'Hermès sont les trois valeurs sûres. Pour le sport ou le soir, Invictus a plus de sillage. Les hommes qui aiment les notes vertes peuvent aussi regarder Lime Basil & Mandarin, vendu comme mixte."
+    },
+    {
+     "q": "Quel est le parfum le plus frais pour homme ?",
+     "a": "Dans notre sélection, Lime Basil & Mandarin et Light Blue pour Homme donnent la sensation la plus froide dès l'application. Eau Sauvage est plus élégant et à peine moins frais. La fraîcheur se paie toujours en tenue : ces parfums disparaissent en quelques heures et se revaporisent."
+    },
+    {
+     "q": "Où vaporiser son parfum quand il fait chaud ?",
+     "a": "Sur la nuque et sur le torse, sous le tee-shirt ou la chemise. Le tissu retient le parfum et le protège du soleil. Évitez les zones exposées directement, surtout avec des parfums riches en agrumes. Deux pulvérisations suffisent, car la chaleur amplifie déjà la diffusion."
+    },
+    {
+     "q": "Peut-on porter Sauvage de Dior en été ?",
+     "a": "Oui, mais avec une seule pulvérisation, car son intensité est au maximum de notre échelle. Pour une vraie fraîcheur estivale, Eau Sauvage (1966) de la même maison est bien plus adapté. Il est plus léger et plus aromatique, avec un fond de mousse de chêne plutôt que d'ambroxan."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best summer colognes for men: 10 fresh scents for hot days",
+   "meta": "Eau Sauvage and Acqua di Gio lead our list of the best summer fragrances for men that stay crisp under a linen shirt, from the office to the beach.",
+   "h1": "Summer fragrances for men: our ranking of fresh scents",
+   "intro": "A summer fragrance for men has to stay clean when your shirt sticks to your back. Dior Eau Sauvage takes first place. Lemon, basil and oakmoss make a 1966 classic that has not aged a day. Acqua di Gio follows, more marine and effortless, the pick for anyone who does not want to overthink it. Terre d'Hermès completes the podium with citrus over vetiver for workdays. Two very fresh unisex scents close the list.",
+   "sections": [
+    {
+     "title": "What heat does to a men's fragrance",
+     "body": "Plenty of modern men's scents sit on thick bases like ambroxan, tonka bean and amber woods. At 90°F those bases rise faster and louder, and sweat makes them sticky. A fragrance that works in October can become overwhelming on a subway in July. Summer flips the winter rules. You want a citrus opening of lemon or bergamot. Then an herbal heart like rosemary or basil, over a dry base of vetiver, cedar or musk. That is exactly how Eau Sauvage, Terre d'Hermès and Light Blue Pour Homme are built. Aquatics like Acqua di Gio add a salty-water feel on top. Only Invictus breaks the pattern. It rates 4 out of 5 for intensity, so keep it for nights out and the gym."
+    },
+    {
+     "title": "Timing and how much to spray",
+     "body": "For the office, two sprays in the morning are plenty: one on the back of the neck and one on the chest under your shirt. Cotton holds the scent and releases it slowly all day. Skip your wrists if you wear a leather watch strap, since sweat and perfume will stain it. After a workout, Allure Homme Sport or Acqua di Gio make a better refresher than a scented body spray. At the beach, the Jo Malone cologne or Silver Mountain Water feel nicer than anything woody. In the evening, once the heat breaks, you can move up to Invictus or Green Irish Tweed. One caution: citrus and direct sun on bare skin do not mix well, so spray where clothing covers. And stop chasing longevity. A fresh scent that is gone by 3 p.m. is meant to be reapplied."
+    },
+    {
+     "title": "Citrus, aquatic or fougère: three summer families",
+     "body": "The citrus-aromatics are the driest: Eau Sauvage, Light Blue Pour Homme and Lime Basil & Mandarin. They smell of zest and cut grass. The aquatics (Acqua di Gio, L'Eau d'Issey Pour Homme and Invictus) suggest sea spray or cold water, with more sweetness and more trail. Green Irish Tweed sits on the fougère side, with verbena, violet leaf and ambergris for a dressier kind of fresh. If you are unsure where to start, try Eau Sauvage. It is the historical benchmark, and everything else reads as a variation on it: more marine, sweeter or woodier. Silver Mountain Water and Lime Basil & Mandarin are sold as unisex. They wear perfectly well on men. Their short longevity is the price of how clean they smell."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Eau Sauvage has been the benchmark summer scent for men since 1966. Edmond Roudnitska paired lemon, rosemary and basil with oakmoss and vetiver, and the result smells like a crisp white shirt. It ranks first for its precision and because it works from the office to a wedding. Longevity is modest, shorter than Acqua di Gio.",
+    "giorgio-armani-acqua-di-gio": "Bergamot, neroli and lime over a rosemary heart: Acqua di Gio (1996) is the aquatic that defined a generation. Alberto Morillas made it incredibly easy to wear, at work or at the beach. Its strength is also its weakness, because everyone owns it. It is more marine and a bit sweeter than Eau Sauvage, and it lasts slightly longer.",
+    "hermes-terre-dhermes": "Coming in third, Terre d'Hermès is summer for people who dislike aquatics. Orange and grapefruit open onto a flinty note, then pepper and vetiver take over. Jean-Claude Ellena gave it a mineral feel that carries into fall. It has been everywhere since 2006 and surprises less now. For a day of meetings, it is still the best choice here.",
+    "chanel-allure-homme-sport": "Orange, mandarin and aldehydes give Allure Homme Sport a soapy freshness, like a shower after tennis. Jacques Polge set it on tonka bean and vetiver, which makes it softer than Terre d'Hermès. Perfect after a workout or on a weekend. The projection is polite. People need to lean in to notice it.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "Grapefruit, juniper and rosemary make Light Blue Pour Homme one of the most direct fresh scents on this list. Alberto Morillas added an incense and oakmoss base that gives it some backbone. Ideal on vacation or at a rooftop bar. Longevity is limited, well below Acqua di Gio from the same perfumer.",
+    "creed-green-irish-tweed": "Lemon verbena, peppermint and violet leaf: Green Irish Tweed smells like wet grass on a June morning. Released in 1985, it feels dressier than the aquatics here thanks to its sandalwood and ambergris base. It is our pick for a summer wedding. Next to Invictus, some will find it too traditional.",
+    "issey-miyake-leau-dissey-pour-homme": "Yuzu, bergamot and lemon: L'Eau d'Issey Pour Homme (1994) brought the Japanese citrus into mainstream men's fragrance. Jacques Cavallier spiked it with nutmeg and cinnamon. The opening is very sharp, almost shrill to some noses. Once it settles on sandalwood, it turns friendlier than Acqua di Gio and far less common.",
+    "paco-rabanne-invictus": "Sweet and salty at once, Invictus mixes grapefruit, marine notes and guaiac wood. It is the loudest pick here, rated 4 out of 5 for intensity. Save it for summer nights, festivals or the gym rather than the office, and stop at one spray. Compared with Light Blue Pour Homme, it gains in projection what it loses in finesse.",
+    "creed-silver-mountain-water": "Unisex and crisp, Creed Silver Mountain Water pairs bergamot, green tea and blackcurrant over musk. It evokes a mountain stream, cold and slightly metallic. It is purer than Green Irish Tweed from the same house, though that blackcurrant divides people. If you like the effect, it is one of the longer-lasting fresh scents on this list.",
+    "jo-malone-lime-basil-mandarin": "Lime, basil and thyme: Lime Basil & Mandarin smells like a vegetable garden in full sun. This 1999 unisex cologne is the driest pick in our selection, more herbal than Eau Sauvage. It suits men who cannot stand sweet trails. As a cologne, it needs a top-up at lunch. That is the cost of feeling this light."
+   },
+   "faq": [
+    {
+     "q": "What cologne should men wear in summer?",
+     "a": "Pick a citrus or aquatic scent of moderate intensity with a dry base. Eau Sauvage, Acqua di Gio and Terre d'Hermès are the three safe bets. For the gym or a night out, Invictus projects more. Men who like green notes should also try Lime Basil & Mandarin, sold as unisex."
+    },
+    {
+     "q": "What is the freshest fragrance for men?",
+     "a": "In our selection, Lime Basil & Mandarin and Light Blue Pour Homme feel the coldest right after spraying. Eau Sauvage is more elegant and only slightly less fresh. Freshness always costs longevity, though. These scents fade within a few hours and need reapplying."
+    },
+    {
+     "q": "Where should you spray cologne in hot weather?",
+     "a": "On the back of the neck and on your chest, under your T-shirt or shirt. Fabric holds the scent and shields it from the sun. Avoid skin in direct sunlight, especially with citrus-heavy scents. Two sprays are enough because heat already boosts projection."
+    },
+    {
+     "q": "Is Dior Sauvage good for summer?",
+     "a": "It works, but only with a single spray, since it sits at the top of our intensity scale. For true summer freshness, Eau Sauvage (1966) from the same house is a much better fit. It is lighter and more herbal, with an oakmoss base rather than ambroxan."
+    }
+   ]
+  }
+ },
+ "sg:winter:F": {
+  "picks": [
+   "guerlain-shalimar",
+   "yves-saint-laurent-opium",
+   "chanel-n-5",
+   "dior-hypnotic-poison",
+   "thierry-mugler-angel",
+   "clinique-aromatics-elixir",
+   "guerlain-la-petite-robe-noire",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-black-orchid"
+  ],
+  "fr": {
+   "title": "Parfum hiver femme : 9 parfums chauds pour les jours froids",
+   "meta": "Shalimar, Opium ou Hypnotic Poison : notre sélection de parfums d'hiver pour femme, vanillés ou épicés, qui tiennent sous un manteau.",
+   "h1": "Parfum d'hiver pour femme : les neuf qui réchauffent vraiment",
+   "intro": "Un parfum d'hiver pour femme doit percer le froid et durer jusqu'au soir. Shalimar de Guerlain arrive en tête : bergamote, vanille et opoponax, une chaleur fumée qui n'a pas d'équivalent depuis 1925. Opium suit pour celles qui aiment les épices, clou de girofle et prune en tête. Chanel N°5 complète le podium, plus poudré et plus abstrait, parfait sous une écharpe. Les deux derniers choix, signés Tom Ford, sont mixtes et très denses.",
+   "sections": [
+    {
+     "title": "Pourquoi le froid appelle des parfums plus riches",
+     "body": "Par 2 °C, les molécules s'évaporent lentement. Un agrume léger qui explose en juillet reste collé à la peau en janvier, presque muet. La peau elle-même est plus sèche en hiver et retient moins bien les odeurs. Il faut donc des matières lourdes qui continuent de diffuser malgré le froid. La vanille, l'ambre et le patchouli font ce travail, avec la fève tonka et les épices chaudes. Tous les parfums de cette page ont une intensité de 4 ou 5 sur 5 dans notre base, à part La Petite Robe Noire, plus légère. Autre facteur, le chauffage. Dans un appartement à 21 °C ou un restaurant bondé, un oriental épais peut vite saturer l'air. D'où l'intérêt de doser avec prudence. L'hiver pardonne les parfums puissants à l'extérieur. Il les punit dans un ascenseur."
+    },
+    {
+     "title": "Écharpe, manteau, soirée : comment les porter",
+     "body": "La laine est la meilleure alliée d'un parfum d'hiver. Une pulvérisation sur l'intérieur d'une écharpe (testez d'abord sur un coin caché, certains parfums tachent) garde le sillage pendant plusieurs jours. Sur la peau, visez la base du cou et le creux des poignets, là où le vêtement réchauffe. Hydratez avant, car une peau sèche boit le parfum. Pour les fêtes de fin d'année et les dîners, Opium, Angel ou Black Orchid font leur effet avec une seule pulvérisation. Au bureau, Chanel N°5 ou La Petite Robe Noire passent mieux. Aromatics Elixir est un cas à part : très puissant, il se porte en une touche au creux du coude. Enfin, évitez de superposer deux orientaux. L'hiver invite à la générosité, mais deux vanilles ensemble finissent en sirop."
+    },
+    {
+     "title": "Vanillés, épicés ou chyprés : trois façons de passer l'hiver",
+     "body": "Les parfums féminins d'hiver se rangent en trois grandes familles. Les orientaux vanillés, Shalimar et Hypnotic Poison, jouent la douceur fumée ou amandée. Les épicés, Opium en tête, réchauffent par le clou de girofle et l'œillet. Les gourmands comme Angel et La Petite Robe Noire ajoutent du chocolat, du caramel ou de la cerise, ce qui plaît beaucoup ou pas du tout. Le chypre d'Aromatics Elixir, plus rare, mise sur la mousse de chêne et le patchouli pour une chaleur plus sèche, presque austère. Côté homme, les parfums d'hiver sont souvent plus boisés et plus secs. Les féminins assument plus volontiers la vanille et les fleurs capiteuses sur fond d'ambre. Les deux Tom Ford, vendus comme mixtes, font le pont entre les deux mondes."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Shalimar ouvre notre classement parce qu'aucun parfum ne dit l'hiver avec autant d'autorité. Jacques Guerlain a posé en 1925 une bergamote vive sur une vanille fumée, relevée d'opoponax et de fève tonka. Sous un manteau, il tient la journée entière. Sa vanille est plus solennelle que caressante, loin du sucre d'Hypnotic Poison. Une pulvérisation suffit.",
+    "yves-saint-laurent-opium": "Clou de girofle, prune et mandarine : Opium (1977) est l'oriental épicé par excellence. Jean-Louis Sieuzac et Raymond Chaillan l'ont bâti sur un fond d'ambre et de santal qui emplit une pièce entière. Parfait pour une soirée de décembre. À la main lourde, il devient nettement plus envahissant que Shalimar. Une touche sur la nuque, pas davantage.",
+    "chanel-n-5": "Aldéhydes, ylang-ylang et iris : N°5 sent le savon fin et la poudre de riz. Ernest Beaux l'a créé en 1921, et sa concentration en parfum le rend très tenace par temps froid. Moins sucré qu'Opium, il convient au bureau comme au théâtre. Son côté savonneux peut paraître vintage aux nez habitués aux gourmands, et c'est justement ce qui le distingue d'Angel.",
+    "dior-hypnotic-poison": "Noix de coco, abricot et prune ouvrent Hypnotic Poison, puis une vanille profonde s'installe pour des heures. Annick Ménardo en a fait en 1998 une vanille amandée devenue culte. C'est le plus caressant de notre sélection, plus doux que Shalimar et moins fumé. Il se porte au creux du cou sous un col roulé. Trop dense pour les beaux jours, il est parfait de novembre à février.",
+    "thierry-mugler-angel": "Barbe à papa et chocolat sur patchouli : Angel est le premier grand gourmand, lancé en 1992. Olivier Cresp l'a voulu clivant, et il l'est encore. En hiver, son patchouli terreux équilibre le sucre mieux qu'en été. Il sature vite un espace clos, donc une seule pulvérisation, sur le manteau plutôt que sur la peau. Plus puissant que La Petite Robe Noire, il est aussi plus sombre.",
+    "clinique-aromatics-elixir": "Autre registre, Aromatics Elixir (1971) est un chypre herbacé et austère. Bernard Chant y a réuni la camomille et la coriandre sur un fond de mousse de chêne et de patchouli. C'est l'hiver des femmes qui fuient le sucre, à l'opposé d'Angel. Sa puissance est redoutable : une goutte au creux du coude tient jusqu'au lendemain. On l'aime ou on ne le supporte pas.",
+    "guerlain-la-petite-robe-noire": "Cerise, amande et réglisse : La Petite Robe Noire est le gourmand le plus léger de la page. Thierry Wasser et Delphine Jelk l'ont composé en 2009, avec un thé qui allège le fond de vanille et de fève tonka. C'est notre choix pour le bureau en hiver ou pour une première incursion dans les gourmands. Sa cerise très présente ne plaira pas à toutes, et elle tient moins qu'Angel.",
+    "tom-ford-tobacco-vanille": "Mixte et luxueux, Tobacco Vanille associe la feuille de tabac et le gingembre à un fond de vanille, de cacao et de fruits secs. Olivier Gillotin l'a composé en 2007 pour Tom Ford. Il sent le salon d'hiver avec un feu de cheminée. Plus sec que Hypnotic Poison, il reste très dense : par temps doux, il étouffe. Réservez-le aux vraies journées froides et à une seule pulvérisation.",
+    "tom-ford-black-orchid": "Truffe, cassis et orchidée sur patchouli : Black Orchid est le plus sombre de notre sélection. Ce mixte de 2006 a une densité qui convient aux soirées d'hiver et aux tenues noires. Il est plus terreux et moins gourmand que Tobacco Vanille. Dans un espace clos, il peut étouffer l'entourage. Une pulvérisation dans le cou, et on n'y touche plus de la soirée."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme porter en hiver ?",
+     "a": "Un parfum riche, construit sur un fond de vanille, d'ambre, de patchouli ou d'épices. Shalimar, Opium et Chanel N°5 sont nos trois références. Si vous aimez le sucré, Hypnotic Poison et Angel sont plus gourmands. Pour le bureau, La Petite Robe Noire reste plus léger et passe mieux dans une pièce chauffée."
+    },
+    {
+     "q": "Quel parfum d'hiver tient le plus longtemps ?",
+     "a": "Dans notre sélection, Aromatics Elixir, Opium, Angel et Tobacco Vanille sont notés 5 sur 5 en intensité et tiennent très longtemps. Le froid ralentit l'évaporation, ce qui aide. Pour prolonger encore, vaporisez une écharpe en laine après avoir testé sur un coin discret du tissu."
+    },
+    {
+     "q": "Peut-on porter un parfum frais en hiver ?",
+     "a": "Oui, mais il paraîtra discret, car le froid étouffe les notes légères. Si vous n'aimez pas les orientaux, choisissez un parfum poudré comme Chanel N°5 ou un chypre comme Aromatics Elixir. Ils réchauffent sans sucre. Les eaux d'agrumes pures sont plutôt à garder pour les mois chauds."
+    },
+    {
+     "q": "Combien de pulvérisations pour un parfum d'hiver ?",
+     "a": "Une ou deux, pas plus. Les parfums d'hiver sont puissants et le chauffage amplifie leur sillage à l'intérieur. Une pulvérisation dans le cou et une sur l'écharpe suffisent pour la journée. Avec Opium, Angel ou Black Orchid, une seule touche est souvent la bonne dose."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best winter perfumes for women: 9 warm scents for cold days",
+   "meta": "Shalimar, Opium and Hypnotic Poison top our pick of the best winter perfumes for women: rich vanilla and spice that last under a coat.",
+   "h1": "Winter perfumes for women: nine scents that actually keep you warm",
+   "intro": "A winter perfume has to cut through cold air and last until evening. Guerlain Shalimar takes first place. Bergamot, vanilla and opoponax add up to a smoky warmth nothing has matched since 1925. Opium comes second for spice lovers, with clove and plum up front. Chanel N°5 completes the podium, more powdery and abstract, and perfect under a scarf. The last two picks, both from Tom Ford, are unisex and very dense.",
+   "sections": [
+    {
+     "title": "Why cold weather calls for richer perfume",
+     "body": "At 35°F, scent molecules evaporate slowly. A light citrus that blooms in July just sits on your skin in January, barely audible. Winter skin is also drier and holds fragrance less well. So you need heavy materials that keep radiating despite the cold. Vanilla, amber and patchouli do that job, helped by tonka and warm spices. Every perfume on this page rates 4 or 5 out of 5 for intensity in our database, except La Petite Robe Noire, which is lighter. Then there is central heating. In a 70°F apartment or a crowded restaurant, a dense oriental can fill the air fast. That is why dosing matters. Winter forgives a strong perfume outdoors. It punishes one in an elevator."
+    },
+    {
+     "title": "Scarves, coats and evenings: how to wear them",
+     "body": "Wool is a winter perfume's best friend. A spray on the inside of a scarf keeps the scent going for days, but test a hidden corner first, since some perfumes stain. On skin, aim for the base of the neck and the inner wrists, where clothing keeps things warm. Moisturize beforehand, because dry skin soaks fragrance up. For holiday parties and dinners, Opium, Angel or Black Orchid make their point with a single spray. At the office, Chanel N°5 or La Petite Robe Noire are easier on colleagues. Aromatics Elixir is its own case. It is so strong that one dab in the crook of the elbow is enough. And avoid layering two orientals. Winter invites generosity, but two vanillas together turn into syrup."
+    },
+    {
+     "title": "Vanilla, spice or chypre: three ways through winter",
+     "body": "Women's winter perfumes fall into three broad camps. The vanilla orientals, Shalimar and Hypnotic Poison, go for smoky or almond-soft sweetness. The spicy ones, led by Opium, warm you with clove and carnation. Gourmands like Angel and La Petite Robe Noire add chocolate, caramel or cherry, which people either love or hate. The rarer chypre, Aromatics Elixir, relies on oakmoss and patchouli for a drier, almost stern warmth. Men's winter scents tend to be woodier and drier. Feminine ones embrace vanilla and heady florals over amber much more readily. The two Tom Ford picks, sold as unisex, sit somewhere between those two worlds. If you usually borrow a partner's woody cologne in December, start there."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Shalimar leads our list because no perfume says winter with more authority. In 1925, Jacques Guerlain set bright bergamot over smoky vanilla, lifted with opoponax and tonka. Under a coat, it lasts all day. Its vanilla is more solemn than sweet, nothing like the sugar of Hypnotic Poison. One spray is enough.",
+    "yves-saint-laurent-opium": "Clove, plum and mandarin: Opium (1977) is the definitive spicy oriental. Jean-Louis Sieuzac and Raymond Chaillan built it on amber and sandalwood that fill an entire room. Perfect for a December night out. With a heavy hand, it becomes overpowering, far more than Shalimar. One touch on the nape, no more.",
+    "chanel-n-5": "Aldehydes, ylang-ylang and iris make N°5 smell of fine soap and face powder. Ernest Beaux created it in 1921, and the parfum concentration clings stubbornly in cold weather. Less sweet than Opium, it works at the office or the opera. That soapiness may feel vintage to noses raised on gourmands, and it is exactly what sets it apart from Angel.",
+    "dior-hypnotic-poison": "Coconut, apricot and plum open Hypnotic Poison before a deep vanilla settles in for hours. Annick Ménardo turned it into a cult almond vanilla in 1998. It is the most comforting pick here, softer than Shalimar and less smoky. Wear it at the neck under a turtleneck. Too dense for warm weather, it shines from November to February.",
+    "thierry-mugler-angel": "Cotton candy and chocolate over patchouli: Angel, launched in 1992, was the first big gourmand. Olivier Cresp made it polarizing, and it still is. In winter, the earthy patchouli balances the sugar better than in summer. It fills a closed room quickly, so spray your coat once rather than your skin. It is louder than La Petite Robe Noire and darker too.",
+    "clinique-aromatics-elixir": "A different register altogether, Aromatics Elixir (1971) is an herbal, stern chypre. Bernard Chant set chamomile and coriander over a base of oakmoss and patchouli. This is winter for women who avoid sugar, the polar opposite of Angel. It is ferociously strong: one drop in the crook of the elbow lasts until the next day. You either love it or cannot stand it.",
+    "guerlain-la-petite-robe-noire": "Cherry, almond and licorice make La Petite Robe Noire the lightest gourmand on this page. Thierry Wasser and Delphine Jelk composed it in 2009, with a tea note that lifts the vanilla and tonka base. It is our pick for the office in winter or a first step into gourmands. The loud cherry is not for everyone, and it lasts less than Angel.",
+    "tom-ford-tobacco-vanille": "Unisex and plush, Tobacco Vanille pairs tobacco leaf and ginger with a base of vanilla, cocoa and dried fruit. Olivier Gillotin composed it for Tom Ford in 2007. It smells like a winter living room with a fire going. It is drier than Hypnotic Poison but still very dense, and it suffocates in mild weather. Keep it for truly cold days and a single spray.",
+    "tom-ford-black-orchid": "Truffle, blackcurrant and orchid over patchouli: Black Orchid is the darkest pick in our selection. This 2006 unisex scent has the density for winter evenings and black outfits. It is earthier and less gourmand than Tobacco Vanille. In a closed room, it can overwhelm people nearby. One spray at the neck, then leave it alone for the night."
+   },
+   "faq": [
+    {
+     "q": "What perfume should a woman wear in winter?",
+     "a": "Something rich, built on a base of vanilla, amber, patchouli or spice. Shalimar, Opium and Chanel N°5 are our three benchmarks. If you like sweet scents, Hypnotic Poison and Angel are more gourmand. For the office, La Petite Robe Noire is lighter and behaves better in a heated room."
+    },
+    {
+     "q": "Which winter perfume lasts the longest?",
+     "a": "In our selection, Aromatics Elixir, Opium, Angel and Tobacco Vanille rate 5 out of 5 for intensity and last a very long time. Cold slows evaporation, which helps. To stretch wear further, spray a wool scarf after testing a discreet corner of the fabric."
+    },
+    {
+     "q": "Can you wear a fresh perfume in winter?",
+     "a": "You can, but it will feel quiet, since cold mutes light notes. If orientals are not your thing, try a powdery scent like Chanel N°5 or a chypre like Aromatics Elixir. Both bring warmth without sugar. Pure citrus colognes are better saved for the warm months."
+    },
+    {
+     "q": "How many sprays should I use in winter?",
+     "a": "One or two at most. Winter perfumes are strong, and indoor heating amplifies their trail. One spray at the neck and one on your scarf will carry you through the day. With Opium, Angel or Black Orchid, a single spray is usually the right dose."
+    }
+   ]
+  }
+ },
+ "sg:winter:M": {
+  "picks": [
+   "jean-paul-gaultier-le-male",
+   "guerlain-habit-rouge",
+   "viktor-rolf-spicebomb",
+   "thierry-mugler-amen",
+   "dior-fahrenheit",
+   "ralph-lauren-polo",
+   "giorgio-armani-code",
+   "giorgio-armani-stronger-with-you",
+   "tom-ford-oud-wood"
+  ],
+  "fr": {
+   "title": "Parfum hiver homme : 9 parfums chauds, du bureau au réveillon",
+   "meta": "Le Mâle, Habit Rouge et Spicebomb en tête : les meilleurs parfums d'hiver pour homme, entre vanille et cuir, classés par usage.",
+   "h1": "Parfum d'hiver pour homme : notre classement des masculins chauds",
+   "intro": "Un parfum d'hiver pour homme doit tenir dehors par 0 °C sans écraser un bureau chauffé. Le Mâle de Jean Paul Gaultier remporte notre classement : lavande, cannelle et vanille, un confort de mousse à raser chaude qui plaît à presque tout le monde. Habit Rouge suit, plus élégant et plus discret, pour les costumes. Spicebomb complète le podium avec cannelle, safran et tabac, à garder pour le soir. Oud Wood, vendu comme mixte, ferme la liste.",
+   "sections": [
+    {
+     "title": "Ce qui fait un bon masculin d'hiver",
+     "body": "Le froid étouffe les notes de tête, donc un masculin d'hiver se juge surtout à son fond. Trois matières reviennent dans notre sélection. La fève tonka et la vanille donnent une douceur de pâtisserie, comme dans Le Mâle ou A*Men. Le cuir et le tabac, présents dans Polo, Spicebomb et Code, apportent une chaleur sèche de veste en peau. Les épices chaudes (cannelle, clou de girofle, safran) font l'effet d'un vin chaud. Les parfums féminins d'hiver misent souvent sur les fleurs capiteuses. Les masculins gardent plutôt une ossature aromatique de lavande, de sauge ou d'armoise. C'est cette base de fougère qui empêche la vanille de tourner au bonbon. Une fougère ambrée comme Le Mâle est le compromis le plus facile à porter de décembre à février."
+    },
+    {
+     "title": "Quel parfum pour quel moment de l'hiver",
+     "body": "Pour le bureau, Habit Rouge, Code et Stronger With You sont les plus sages. Leur sillage reste proche du corps, ce qui compte dans un open space à 22 °C. Pour un dîner ou un rendez-vous, Le Mâle et Spicebomb ont la bonne dose de chaleur. A*Men et Polo sont les plus puissants de la page, notés 5 sur 5 en intensité. On les réserve aux sorties en plein air, aux marchés de Noël ou aux longues journées où le manteau reste fermé. Fahrenheit est un cas à part : sa note de cuir pétrolé divise, mais il n'a pas d'équivalent pour une balade en forêt en novembre. Le réveillon, enfin, est le seul soir où l'on peut assumer Oud Wood ou Spicebomb avec deux pulvérisations au lieu d'une."
+    },
+    {
+     "title": "Doser en hiver sans saturer la pièce",
+     "body": "Le piège de l'hiver, c'est le contraste entre dehors et dedans. On vaporise généreusement parce qu'on ne sent rien dans le froid, puis le chauffage réveille tout d'un coup. La bonne dose tient en deux pulvérisations : une sur le torse sous le pull, une dans le cou. Le pull en laine sert de diffuseur et prolonge le parfum sur plusieurs heures. Évitez de vaporiser directement l'extérieur d'un manteau clair, certaines formules marquent le tissu. Hydratez la peau le matin, car le froid la dessèche et les notes s'y accrochent moins bien. Si vous portez un parfum aussi puissant que Polo ou A*Men, une seule pulvérisation suffit largement. Vos collègues vous remercieront."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Premier du classement, Le Mâle (1995) marie la lavande et la menthe d'un rasage à une vanille et une fève tonka très douces. Francis Kurkdjian y a glissé de la cannelle, du cumin et de la fleur d'oranger. Le résultat sent la mousse à raser tiède et le pull propre. Plus doux que Spicebomb, il est aussi très répandu, ce qui gêne certains amateurs.",
+    "guerlain-habit-rouge": "Habit Rouge est l'élégance d'hiver version costume. Jean-Paul Guerlain l'a créé en 1965 autour d'agrumes, d'œillet et de cannelle posés sur une vanille poudrée. Il reste proche de la peau, idéal au bureau ou à l'opéra. Sa poudre vanillée peut sembler rétro à côté du Mâle, mais aucun autre masculin de la liste n'a cette distinction.",
+    "viktor-rolf-spicebomb": "Cannelle, safran et paprika sur un fond de tabac et de cuir : Spicebomb (2012) est le plus épicé de notre sélection. Olivier Polge l'a ouvert sur un pamplemousse et des baies roses qui l'allègent au départ. Il sent le vin chaud et la veste en cuir. Moins sucré que Le Mâle, il est aussi peu adapté aux journées douces.",
+    "thierry-mugler-amen": "Café, caramel et patchouli : A*Men (1996) est le gourmand masculin le plus radical du marché. Jacques Huclier l'a construit sur une lavande qui garde un peu d'air. Sa puissance est maximale dans notre base, 5 sur 5. Une pulvérisation, pas deux. Plus sombre et plus terreux que Le Mâle, il ne convient ni aux open spaces ni aux timides.",
+    "dior-fahrenheit": "Violette, muscade et cuir : Fahrenheit (1988) mêle l'odeur d'essence et la fleur, un contraste qui divise encore. Jean-Louis Sieuzac et Michel Almairac ont signé l'un des masculins les plus singuliers de Dior. En hiver, son fond de santal et de vétiver gagne en rondeur. C'est l'opposé de Stronger With You : pas de sucre, que du relief.",
+    "ralph-lauren-polo": "Armoise, pin et mousse de chêne, puis cuir et tabac : Polo (1978) est un vert d'hiver, une forêt de conifères après la pluie. Carlos Benaïm l'a voulu intransigeant, et son intensité de 5 sur 5 le confirme. On le porte dehors, avec un manteau épais. Beaucoup plus sec que Le Mâle, il demande une main très légère.",
+    "giorgio-armani-code": "Fleur d'olivier, anis étoilé et fève tonka : Code (2004) est le plus feutré de la sélection. Antoine Maisondieu l'a terminé sur une note de tabac et de cuir qui le rend séduisant de près. Parfait pour un dîner à deux. Sa projection reste discrète dans cette version d'origine, nettement plus modeste que celle de Spicebomb.",
+    "giorgio-armani-stronger-with-you": "Châtaigne grillée, cannelle et meringue : Stronger With You (2017) sent le marron chaud au coin de la rue. Cécile Matton et Serge Majoullier l'ont rendu doux et rassurant, avec une vanille moins lourde que celle d'A*Men. Il convient aux plus jeunes et au bureau. Son défaut est sa linéarité, avec une projection assez faible.",
+    "tom-ford-oud-wood": "Vendu comme mixte, Oud Wood est la porte d'entrée la plus élégante vers l'oud. Richard Herpin a entouré ce bois de cardamome, de poivre du Sichuan, de santal et de vétiver. Le résultat reste lisse et policé, loin des ouds animaux. Sa tenue est modérée pour une eau de parfum. Plus sec que Code, il convient aux costumes sombres de décembre."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme porter en hiver ?",
+     "a": "Un parfum avec un fond chaud de vanille, de fève tonka, de cuir ou d'épices. Le Mâle, Habit Rouge et Spicebomb sont nos trois premiers choix. Pour le bureau, Code ou Stronger With You restent plus discrets. Les plus puissants, A*Men et Polo, se portent plutôt à l'extérieur et avec une seule pulvérisation."
+    },
+    {
+     "q": "Quel parfum d'hiver homme tient le plus longtemps ?",
+     "a": "Dans notre sélection, A*Men et Polo sont notés 5 sur 5 en intensité et tiennent très longtemps. Le Mâle et Spicebomb suivent, à 4 sur 5. Le froid ralentit l'évaporation, ce qui prolonge encore la tenue. Vaporiser sur un pull en laine aide aussi à garder le parfum toute la journée."
+    },
+    {
+     "q": "Quelle est la différence entre un parfum d'hiver homme et femme ?",
+     "a": "Les deux reposent sur des fonds chauds. Les masculins gardent en général une base aromatique de lavande, de sauge ou d'armoise, et misent sur le cuir, le tabac ou les épices. Les féminins d'hiver assument davantage les fleurs capiteuses et la vanille sucrée. Oud Wood ou Tobacco Vanille, vendus comme mixtes, se portent des deux côtés."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best winter colognes for men: 9 warm scents for cold weather",
+   "meta": "Le Mâle, Habit Rouge and Spicebomb lead our list of the best winter fragrances for men, from vanilla to leather, ranked by occasion.",
+   "h1": "Winter fragrances for men: our ranking of warm scents",
+   "intro": "A winter fragrance for men has to hold up outside at freezing point without flattening a heated office. Jean Paul Gaultier Le Mâle wins our ranking. Lavender, cinnamon and vanilla feel like warm shaving foam, and almost everyone likes it. Habit Rouge comes second, more refined and quieter, the one for suits. Spicebomb completes the podium with cinnamon, saffron and tobacco, best kept for evenings. Oud Wood, sold as unisex, closes the list.",
+   "sections": [
+    {
+     "title": "What makes a good men's winter scent",
+     "body": "Cold mutes top notes, so a winter fragrance lives or dies by its base. Three materials keep coming back in our picks. Tonka and vanilla bring a pastry-like softness, as in Le Mâle or A*Men. Leather and tobacco, found in Polo, Spicebomb and Code, add the dry warmth of a suede jacket. Warm spices like cinnamon, clove and saffron act like mulled wine. Women's winter scents often lean on heady florals. Men's ones keep an herbal backbone of lavender, sage or wormwood instead. That fougère structure is what stops the vanilla from turning into candy. An amber fougère like Le Mâle is the easiest compromise to wear from December to February."
+    },
+    {
+     "title": "Which scent for which winter moment",
+     "body": "For the office, Habit Rouge, Code and Stronger With You are the safest. Their trail stays close to the body, which matters in a 72°F open-plan office. For dinner or a date, Le Mâle and Spicebomb bring the right amount of heat. A*Men and Polo are the strongest here, rated 5 out of 5 for intensity. Keep them for outdoor plans, Christmas markets or long days when your coat stays buttoned. Fahrenheit is its own thing. Its gasoline-tinged leather splits opinion, yet nothing else here matches it for a walk in the woods in November. New Year's Eve, finally, is the one night you can go with two sprays of Oud Wood or Spicebomb instead of one."
+    },
+    {
+     "title": "Dosing in winter without gassing the room",
+     "body": "The winter trap is the gap between outdoors and indoors. You spray generously because you cannot smell anything in the cold, then the heating wakes it all up at once. The right dose is two sprays, one on your chest under your sweater and one at the neck. A wool sweater works as a diffuser and keeps the scent going for hours. Avoid spraying the outside of a light-colored coat, because some formulas mark fabric. Moisturize in the morning too. Cold dries skin, and notes cling to it less well. A wool scarf holds scent for days, so do not switch fragrances on the same one. With something as loud as Polo or A*Men, one spray is plenty. Your coworkers will thank you."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Top of the ranking, Le Mâle (1995) pairs barbershop lavender and mint with very soft vanilla and tonka. Francis Kurkdjian slipped in cinnamon, cumin and orange blossom. The result smells like warm shaving foam and a clean sweater. It is softer than Spicebomb and also extremely common, which puts some enthusiasts off.",
+    "guerlain-habit-rouge": "Habit Rouge is winter elegance in a suit. Jean-Paul Guerlain created it in 1965 around citrus, carnation and cinnamon over powdery vanilla. It stays close to the skin, ideal for the office or the opera. Its vanilla powder can feel old-fashioned next to Le Mâle, but nothing else on this list has its poise.",
+    "viktor-rolf-spicebomb": "Cinnamon, saffron and paprika over tobacco and leather: Spicebomb (2012) is the spiciest pick here. Olivier Polge opened it with grapefruit and pink pepper to lighten the start. It smells like mulled wine and a leather jacket. Less sweet than Le Mâle, it is also a poor fit for mild days.",
+    "thierry-mugler-amen": "Coffee, caramel and patchouli: A*Men (1996) is the most radical men's gourmand around. Jacques Huclier built it on a lavender that keeps some air in it. It maxes out our intensity scale at 5 out of 5. One spray, not two. Darker and earthier than Le Mâle, it suits neither open-plan offices nor shy wearers.",
+    "dior-fahrenheit": "Violet, nutmeg and leather: Fahrenheit (1988) smells of gasoline and flowers at once, a contrast that still divides people. Jean-Louis Sieuzac and Michel Almairac signed one of Dior's most singular men's scents. In winter, its sandalwood and vetiver base rounds out. It is the opposite of Stronger With You, with no sugar and plenty of edge.",
+    "ralph-lauren-polo": "Wormwood, pine and oakmoss, then leather and tobacco: Polo (1978) is a winter green, a conifer forest after rain. Carlos Benaïm made it uncompromising, and its 5 out of 5 intensity proves it. Wear it outdoors with a heavy coat. Far drier than Le Mâle, it needs a very light hand.",
+    "giorgio-armani-code": "Olive blossom, star anise and tonka: Code (2004) is the most hushed pick here. Antoine Maisondieu finished it with tobacco and leather that make it alluring up close. Perfect for dinner for two. Projection is soft in this original version, far more modest than Spicebomb.",
+    "giorgio-armani-stronger-with-you": "Roasted chestnut, cinnamon and meringue: Stronger With You (2017) smells like street-corner chestnuts in December. Cécile Matton and Serge Majoullier made it soft and reassuring, with vanilla lighter than A*Men's. It suits younger wearers and the office. Its flaw is linearity, along with fairly weak projection.",
+    "tom-ford-oud-wood": "Sold as unisex, Oud Wood is the most elegant entry point to oud. Richard Herpin surrounded the wood with cardamom, Sichuan pepper, sandalwood and vetiver. The result is smooth and polished, far from animalic ouds. Longevity is moderate for an eau de parfum. Drier than Code, it pairs well with dark December suits."
+   },
+   "faq": [
+    {
+     "q": "What cologne should men wear in winter?",
+     "a": "Choose a fragrance with a warm base of vanilla, tonka, leather or spice. Le Mâle, Habit Rouge and Spicebomb are our top three. For the office, Code or Stronger With You are more discreet. The strongest, A*Men and Polo, are best worn outdoors and with a single spray."
+    },
+    {
+     "q": "Which men's winter fragrance lasts the longest?",
+     "a": "In our selection, A*Men and Polo rate 5 out of 5 for intensity and last a very long time. Le Mâle and Spicebomb follow at 4 out of 5. Cold slows evaporation, which extends wear further. Spraying a wool sweater also helps the scent carry through the day."
+    },
+    {
+     "q": "How are men's and women's winter perfumes different?",
+     "a": "Both rely on warm bases. Men's scents usually keep an herbal core of lavender, sage or wormwood and lean on leather, tobacco or spice. Women's winter perfumes embrace heady florals and sweet vanilla more openly. Unisex picks like Oud Wood or Tobacco Vanille work on either side."
+    }
+   ]
+  }
+ },
+ "sg:spring:F": {
+  "picks": [
+   "dior-miss-dior",
+   "chanel-coco-mademoiselle",
+   "guerlain-mitsouko",
+   "kenzo-flower-by-kenzo",
+   "estee-lauder-pleasures",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-beautiful",
+   "byredo-bal-dafrique"
+  ],
+  "fr": {
+   "title": "Parfum printemps femme : 8 parfums verts et fleuris",
+   "meta": "Miss Dior de 1947, Coco Mademoiselle et Mitsouko en tête : notre sélection de parfums de printemps pour femme, entre notes vertes, pivoine et chypres.",
+   "h1": "Parfum de printemps pour femme : huit choix pour la saison des fleurs",
+   "intro": "Au printemps, un parfum pour femme doit suivre un temps qui change trois fois par jour. Le Miss Dior de 1947 arrive en tête : galbanum vert, gardénia et mousse de chêne, l'odeur exacte d'une tige qu'on casse. Coco Mademoiselle suit, plus moderne, avec son orange et son patchouli propre qui tiennent du matin au soir. Mitsouko ferme le podium, un chypre à la pêche plus mélancolique. Bal d'Afrique, vendu comme mixte, termine la liste.",
+   "sections": [
+    {
+     "title": "Pourquoi le printemps aime le vert et les chypres",
+     "body": "Le printemps est la saison la plus instable pour un parfum. Le matin est frais, parfois humide, l'après-midi peut déjà dépasser 20 °C. Un oriental d'hiver devient lourd dès les premiers rayons. Une eau d'agrumes d'été, elle, disparaît dans le vent d'avril. Les parfums qui marchent le mieux se situent entre les deux. Les notes vertes comme le galbanum ou la feuille de violette donnent la sensation d'une sève qui monte. Les fleurs de saison comme la pivoine, le lys ou la violette restent légères sans être fugaces. Et le chypre, construit sur la mousse de chêne, apporte un fond qui tient malgré la fraîcheur du matin. La plupart de nos choix ont une intensité de 3 sur 5. C'est la bonne zone : assez présente pour tenir sous un trench, pas assez pour gêner en terrasse."
+    },
+    {
+     "title": "Du trench au premier déjeuner dehors",
+     "body": "Les premières semaines de mars, on peut encore porter Beautiful ou Coco Mademoiselle, plus denses, avec une seule pulvérisation. En avril, les verts prennent le relais : Miss Dior, Pleasures ou L'Air du Temps accompagnent bien les journées de pluie fine. Le trench en coton garde très bien le parfum, vaporisez l'intérieur du col. En mai, pour un mariage ou un déjeuner de famille, Mitsouko et Coco Mademoiselle ont l'allure qu'il faut. Flower by Kenzo, plus poudré, convient au bureau quand les fenêtres restent encore fermées. Une remarque sur la peau : elle sort de l'hiver souvent sèche. Une crème neutre avant le parfum améliore nettement la tenue, surtout pour les floraux légers comme L'Air du Temps, qui s'effacent vite sur une peau déshydratée."
+    },
+    {
+     "title": "Chypres, floraux verts ou poudrés : comment choisir",
+     "body": "Notre sélection se découpe en trois familles. Les chypres, Miss Dior et Mitsouko, sont les plus construits et les plus exigeants. Ils demandent souvent deux ou trois essais avant de plaire. Les floraux verts comme Pleasures et L'Air du Temps sont les plus faciles, car ils sentent le jardin après l'averse. Les floraux ambrés ou poudrés (Coco Mademoiselle, Flower by Kenzo et Beautiful) conviennent à celles qui trouvent les verts trop austères. Si vous portez Light Blue tout l'été, commencez par Pleasures, c'est la transition la plus douce. Si vous portez Shalimar en hiver, essayez Mitsouko de la même maison. Enfin, Bal d'Afrique est vendu comme mixte. Son néroli et son vétiver donnent une version plus sèche et plus lumineuse du printemps."
+    }
+   ],
+   "why": {
+    "dior-miss-dior": "Premier de notre classement, le Miss Dior de 1947 n'a rien à voir avec les versions récentes. Jean Carles et Paul Vacher l'ont ouvert sur le galbanum et le gardénia, puis posé sur la mousse de chêne et le patchouli. C'est le vert du printemps à l'état pur. Plus austère que Coco Mademoiselle, il demande un temps d'adaptation.",
+    "chanel-coco-mademoiselle": "Orange, bergamote et pamplemousse, puis rose, litchi et patchouli : Coco Mademoiselle (2001) est le chypre moderne le plus facile à porter. Jacques Polge l'a rendu lumineux et tenace, avec une intensité de 4 sur 5. Il va du bureau au dîner sans changer de parfum. Très répandu, il surprend moins que Mitsouko, mais plaît presque à coup sûr.",
+    "guerlain-mitsouko": "Mitsouko (1919) est la mélancolie du printemps : une pêche veloutée sur un fond de mousse de chêne et de vétiver. Jacques Guerlain en a fait un chypre fruité d'une grande finesse. Il ne se livre pas au premier essai. Plus sombre que Miss Dior, il convient aux fins de journée d'avril, quand la lumière baisse.",
+    "kenzo-flower-by-kenzo": "Violette, aubépine et cassis sur un fond de vanille et de musc : Flower by Kenzo (2000) est le poudré de la sélection. Alberto Morillas l'a rendu tendre et facile, parfait pour le bureau en mars. Sa douceur peut sembler sage à la longue. À côté de Mitsouko, c'est un parfum sans ambiguïté, qui plaît immédiatement.",
+    "estee-lauder-pleasures": "Feuille de violette, notes vertes et baies roses : Pleasures (1995) sent le jardin après l'averse. Annie Buzantian et Alberto Morillas ont posé une pivoine et un lys très frais sur du patchouli léger. C'est notre choix pour une première bouteille de printemps. Plus transparent que Beautiful, il peut aussi paraître trop discret.",
+    "nina-ricci-lair-du-temps": "Néroli, pêche et violette : L'Air du Temps (1948) a la douceur des premiers matins tièdes. Francis Fabron l'a composé comme un floral retenu, presque poudré. Il se porte en avril avec un pull léger. Sa discrétion est réelle, à peine plus présente que Pleasures, donc vaporisez aussi un foulard. Classique, un brin rétro.",
+    "estee-lauder-beautiful": "Rose, lys, tubéreuse et œillet : Beautiful (1985) est le bouquet le plus opulent de la page. Il a une densité qui convient aux mariages de mai et aux débuts de printemps encore frais. Son intensité de 4 sur 5 réclame une main légère. Beaucoup plus chargé que L'Air du Temps, il plaira à celles qui aiment qu'on remarque leur parfum.",
+    "byredo-bal-dafrique": "Classé mixte par Byredo, Bal d'Afrique (2009) associe bergamote, néroli et violette sur un fond de vétiver et de musc. Jérôme Epinette l'a voulu lumineux et facile. Il sent la peau propre au soleil d'avril. Sa projection reste modeste, plus sage que Coco Mademoiselle. Un bon choix pour celles qui fuient les floraux trop féminins."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme porter au printemps ?",
+     "a": "Un parfum d'intensité moyenne avec des notes vertes, des fleurs de saison ou un fond de chypre. Miss Dior de 1947, Coco Mademoiselle et Mitsouko forment notre podium. Pour un premier achat facile, Pleasures ou Flower by Kenzo sont plus immédiats. Bal d'Afrique, vendu comme mixte, offre une option plus sèche."
+    },
+    {
+     "q": "Quelles notes choisir pour un parfum de printemps ?",
+     "a": "Les notes vertes comme le galbanum ou la feuille de violette, et les fleurs de saison : pivoine, lys, violette. La mousse de chêne des chypres apporte un fond qui tient malgré la fraîcheur. Évitez les vanilles épaisses, qui paraissent lourdes dès que le soleil revient."
+    },
+    {
+     "q": "Un parfum d'hiver peut-il se porter au printemps ?",
+     "a": "En mars, oui, avec une seule pulvérisation. Coco Mademoiselle ou Beautiful font la transition entre les deux saisons. Dès avril, les orientaux très vanillés deviennent pesants. Passez alors à un floral vert comme Pleasures, ou à un chypre comme Mitsouko si vous aimez les parfums de caractère."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best spring perfumes for women: 8 green and floral picks",
+   "meta": "The 1947 Miss Dior, Coco Mademoiselle and Mitsouko lead our pick of the best spring perfumes for women: green notes, peony and classic chypres.",
+   "h1": "Spring perfumes for women: eight picks for flower season",
+   "intro": "A spring perfume has to keep up with weather that changes three times a day. The original 1947 Miss Dior takes first place. Green galbanum, gardenia and oakmoss smell exactly like a snapped stem. Coco Mademoiselle follows, more modern, with orange and clean patchouli that last from morning to night. Mitsouko completes the podium, a peach chypre with a wistful streak. Bal d'Afrique, sold as unisex, rounds out the list.",
+   "sections": [
+    {
+     "title": "Why spring suits green notes and chypres",
+     "body": "Spring is the trickiest season for perfume. Mornings are cool and often damp, while afternoons can already pass 70°F. A winter oriental feels heavy at the first sunshine. A summer citrus, meanwhile, blows away in the April wind. The scents that work best sit between the two. Green notes like galbanum or violet leaf feel like rising sap. Seasonal flowers such as peony, lily and violet stay light without vanishing. And the chypre structure, built on oakmoss, provides a base that holds through a chilly morning. Most of our picks rate 3 out of 5 for intensity. That is the sweet spot: present enough to last under a trench coat, soft enough not to bother anyone at an outdoor table."
+    },
+    {
+     "title": "From trench coat to the first lunch outdoors",
+     "body": "In early March you can still wear Beautiful or Coco Mademoiselle, the denser picks, with a single spray. By April, the greens take over. Miss Dior, Pleasures and L'Air du Temps suit days of light drizzle. A cotton trench holds perfume well, so mist the inside of the collar. In May, for a wedding or a family lunch, Mitsouko and Coco Mademoiselle have the right polish. Flower by Kenzo, more powdery, suits the office while the windows are still shut. One note on skin: it often comes out of winter dry. A plain moisturizer before spraying noticeably improves longevity. That matters most for light florals like L'Air du Temps, which fade quickly on dehydrated skin."
+    },
+    {
+     "title": "Chypre, green floral or powdery: how to choose",
+     "body": "Our selection splits into three families. The chypres, Miss Dior and Mitsouko, are the most structured and the most demanding. They often take two or three tries before they click. Green florals like Pleasures and L'Air du Temps are the easiest, smelling of a garden after rain. The amber or powdery florals (Coco Mademoiselle, Flower by Kenzo and Beautiful) suit anyone who finds green scents too stern. If you wear Light Blue all summer, start with Pleasures. It is the gentlest transition. If Shalimar is your winter scent, try Mitsouko from the same house. Finally, Bal d'Afrique is sold as unisex. Its neroli and vetiver give a drier, brighter take on spring."
+    }
+   ],
+   "why": {
+    "dior-miss-dior": "Our number one, the 1947 Miss Dior has nothing in common with the recent versions. Jean Carles and Paul Vacher opened it with galbanum and gardenia, then set it on oakmoss and patchouli. It is spring green in its purest form. Sterner than Coco Mademoiselle, it takes some getting used to.",
+    "chanel-coco-mademoiselle": "Orange, bergamot and grapefruit, then rose, lychee and patchouli: Coco Mademoiselle (2001) is the easiest modern chypre to wear. Jacques Polge made it bright and long-lasting, with an intensity of 4 out of 5. It goes from the office to dinner without a change. It is everywhere and surprises less than Mitsouko, yet it almost always pleases.",
+    "guerlain-mitsouko": "Mitsouko (1919) is the wistful side of spring: velvety peach over oakmoss and vetiver. Jacques Guerlain made it a fruity chypre of rare finesse. It does not reveal itself on the first wear. Darker than Miss Dior, it suits April evenings as the light fades.",
+    "kenzo-flower-by-kenzo": "Violet, hawthorn and blackcurrant over vanilla and musk: Flower by Kenzo (2000) is the powdery pick here. Alberto Morillas made it tender and easy, perfect for the office in March. Its softness can feel a bit tame over time. Next to Mitsouko, it is straightforward and instantly likable.",
+    "estee-lauder-pleasures": "Green notes, violet leaf and pink pepper: Pleasures (1995) smells like a garden after a shower. Annie Buzantian and Alberto Morillas set a fresh peony and lily over light patchouli. It is our pick for a first spring bottle. More transparent than Beautiful, it can also feel too quiet.",
+    "nina-ricci-lair-du-temps": "Neroli, peach and violet: L'Air du Temps (1948) has the softness of the first mild mornings. Francis Fabron composed it as a restrained, almost powdery floral. Wear it in April with a light sweater. It really is discreet, barely louder than Pleasures, so spray a scarf as well. Classic, a touch retro.",
+    "estee-lauder-beautiful": "Rose, lily, tuberose and carnation: Beautiful (1985) is the most opulent bouquet on this page. Its density suits May weddings and chilly early spring days. At 4 out of 5 for intensity, it calls for a light hand. Far richer than L'Air du Temps, it is for women who like their perfume to be noticed.",
+    "byredo-bal-dafrique": "Byredo sells Bal d'Afrique (2009) as unisex. It pairs bergamot, neroli and violet over vetiver and musk. Jérôme Epinette made it bright and easygoing. It smells like clean skin in April sun. Projection is modest, quieter than Coco Mademoiselle. A good choice if you avoid overtly feminine florals."
+   },
+   "faq": [
+    {
+     "q": "What perfume should a woman wear in spring?",
+     "a": "Something of moderate intensity with green notes, seasonal flowers or a chypre base. The 1947 Miss Dior, Coco Mademoiselle and Mitsouko make up our podium. For an easy first purchase, Pleasures or Flower by Kenzo are more immediate. Bal d'Afrique, sold as unisex, is a drier option."
+    },
+    {
+     "q": "Which notes work best in a spring perfume?",
+     "a": "Green notes like galbanum or violet leaf, plus seasonal flowers such as peony, lily and violet. The oakmoss in chypres adds a base that holds up on cool mornings. Avoid thick vanillas, which feel heavy the moment the sun comes back."
+    },
+    {
+     "q": "Can you wear a winter perfume in spring?",
+     "a": "In March, yes, with a single spray. Coco Mademoiselle or Beautiful bridge the two seasons nicely. From April on, very vanilla orientals start to feel heavy. Switch to a green floral like Pleasures, or to a chypre like Mitsouko if you like perfumes with character."
+    }
+   ]
+  }
+ },
+ "sg:spring:M": {
+  "picks": [
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "chanel-pour-monsieur",
+   "chanel-bleu-de-chanel",
+   "azzaro-azzaro-pour-homme",
+   "versace-pour-homme",
+   "montblanc-explorer",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "byredo-gypsy-water"
+  ],
+  "fr": {
+   "title": "Parfum printemps homme : 9 masculins pour la mi-saison",
+   "meta": "Dior Homme, Green Irish Tweed et Pour Monsieur de Chanel en tête de nos parfums de printemps pour homme, entre iris, lavande et notes vertes.",
+   "h1": "Parfum de printemps pour homme : le classement de la mi-saison",
+   "intro": "Au printemps, un parfum d'homme doit quitter la lourdeur de l'hiver sans tomber dans l'eau fraîche de juillet. Dior Homme arrive en tête : un iris poudré sur du cacao et du vétiver, parfait sous une veste légère. Green Irish Tweed suit avec sa verveine et sa feuille de violette, l'odeur d'une pelouse tondue. Pour Monsieur de Chanel ferme le podium, un chypre discret pour les mariages de mai. Gypsy Water, vendu comme mixte, termine la liste.",
+   "sections": [
+    {
+     "title": "Ce que la mi-saison demande à un masculin",
+     "body": "Le printemps masculin se joue sur les notes aromatiques. Les parfums féminins de saison misent sur les fleurs et les chypres. Les masculins s'appuient sur la lavande, la sauge, le géranium et l'iris. Ces matières restent nettes par 12 °C le matin et ne deviennent pas pesantes à 22 °C l'après-midi. Le fond compte autant. Un vétiver, un cèdre ou une mousse de chêne tiennent sous une veste sans l'alourdir, à l'inverse des vanilles d'hiver. La plupart de nos choix ont une intensité de 3 sur 5. Bleu de Chanel et Azzaro Pour Homme, notés 4, conviennent aux premières semaines encore froides. La Nuit de l'Homme, noté 2, est le plus doux : il sert aux soirées tièdes de mai."
+    },
+    {
+     "title": "Du bureau aux mariages de mai",
+     "body": "Pour le bureau, Dior Homme, Versace Pour Homme et Explorer sont les plus polyvalents. Ils sentent propre sans évoquer la salle de sport. Pour un mariage ou un baptême, Pour Monsieur et Green Irish Tweed ont l'allure qu'il faut avec un costume clair. Le week-end, une balade ou un marché, Gypsy Water apporte ses aiguilles de pin et son encens léger. Le soir, La Nuit de l'Homme joue la cardamome et le cèdre, plus intime. Côté application, deux pulvérisations suffisent : une sur le torse, une sur la nuque. Une veste en coton ou en lin garde bien le parfum. Évitez de réutiliser en avril l'écharpe parfumée tout l'hiver, elle mélangerait deux saisons."
+    },
+    {
+     "title": "Iris, fougère ou vert : trois styles de printemps",
+     "body": "Notre sélection se range en trois styles. L'iris de Dior Homme donne une élégance poudrée et un peu cosmétique, qui surprend encore chez un homme. Les fougères aromatiques comme Azzaro Pour Homme, Versace Pour Homme ou Green Irish Tweed sont les plus classiques. Lavande, sauge et géranium : c'est l'odeur de la chemise propre. Les boisés verts (Explorer, Bleu de Chanel et Gypsy Water) sont plus modernes, avec du vétiver ou des aiguilles de pin. Si vous portez Le Mâle ou A*Men en hiver, passez à Azzaro Pour Homme, qui garde de l'anis et de la lavande. Si vous aimez Eau Sauvage l'été, Pour Monsieur en est le cousin de mi-saison, plus boisé et plus mousseux. Commencez par l'une de ces deux pistes."
+    }
+   ],
+   "why": {
+    "dior-dior-homme": "Premier du classement, Dior Homme (2005) a fait de l'iris un parfum masculin. Olivier Polge l'a encadré de lavande et de sauge, puis posé sur du cacao, du vétiver et du cuir. Le résultat sent le rouge à lèvres et la veste en daim. Parfait au printemps, quand il fait encore frais. Son sillage reste nettement plus discret que celui de Bleu de Chanel.",
+    "creed-green-irish-tweed": "Verveine citronnée, iris et feuille de violette : Green Irish Tweed (1985) sent la pelouse fraîchement tondue en avril. Son fond de santal et d'ambre gris lui donne une élégance plus habillée que Versace Pour Homme. C'est notre choix pour un mariage de printemps. Certains le trouveront trop classique, et c'est justement son intérêt.",
+    "chanel-pour-monsieur": "Chanel Pour Monsieur (1955) est un chypre de grande retenue. Henri Robert l'a ouvert sur le citron et le néroli, avant un cœur d'estragon et de mousse de chêne. Il sent le costume bien coupé. Plus discret que Dior Homme, il ne s'impose jamais, ce qui gênera ceux qui cherchent de la présence.",
+    "chanel-bleu-de-chanel": "Pamplemousse, menthe et gingembre sur un fond d'encens et de santal : Bleu de Chanel (2010) est le plus polyvalent de la sélection. Jacques Polge l'a rendu irréprochable du bureau au dîner. Son intensité de 4 sur 5 convient aux débuts de printemps. Il manque d'audace à côté de Dior Homme, mais on ne se trompe jamais avec lui.",
+    "azzaro-azzaro-pour-homme": "Lavande, anis et basilic : Azzaro Pour Homme (1978) est la fougère de référence. Son fond de mousse de chêne et de vétiver le rend généreux, avec une intensité de 4 sur 5. On le porte en mars et en avril, quand il fait encore frais. Plus daté que Versace Pour Homme, il a aussi beaucoup plus de caractère.",
+    "versace-pour-homme": "Néroli, bergamote et sauge : Versace Pour Homme (2008) est la fougère légère de la page. Alberto Morillas l'a finie sur une fève tonka et un ambre discrets. C'est un bon choix de bureau pour avril et mai. Son défaut est son anonymat, bien moins singulier qu'Azzaro Pour Homme, mais il ne dérange personne.",
+    "montblanc-explorer": "Bergamote, baies roses et sauge sclarée, puis vétiver d'Haïti et cuir : Explorer (2019) est un boisé aromatique très réussi pour le quotidien. Son style le rapproche de Bleu de Chanel, en plus sec et plus cuiré. Il convient aux journées de travail et aux week-ends. Il reste fidèle aux codes de sa catégorie, sans surprise.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Cardamome, lavande et cèdre : La Nuit de l'Homme (2009) est le masculin du soir de printemps. Anne Flipo, Pierre Wargnye et Dominique Ropion l'ont rendu épicé et doux, avec une touche de cumin. Son intensité est faible : 2 sur 5 dans notre base. Plus intime que Dior Homme, il se porte de près.",
+    "byredo-gypsy-water": "Vendu comme mixte, Gypsy Water (2008) pose bergamote et aiguilles de pin sur un encens léger, du santal et de la vanille. Jérôme Epinette l'a voulu poétique et facile. Il sent la forêt après une averse d'avril. Sa projection est modeste, moins marquée que celle d'Explorer, mais il est très agréable de près."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme porter au printemps ?",
+     "a": "Un parfum aromatique d'intensité moyenne, construit sur la lavande, la sauge, l'iris ou les notes vertes. Dior Homme, Green Irish Tweed et Pour Monsieur de Chanel forment notre podium. Pour un choix sûr au bureau, Bleu de Chanel ou Versace Pour Homme conviennent à tout le monde."
+    },
+    {
+     "q": "Quelle différence entre un parfum d'été et de printemps pour homme ?",
+     "a": "Un parfum d'été mise sur les agrumes et les notes marines, avec une tenue courte. Un parfum de printemps garde un fond plus construit (vétiver, mousse ou iris) pour tenir quand le matin est encore frais. Dior Homme ou Azzaro Pour Homme seraient trop présents en juillet."
+    },
+    {
+     "q": "Peut-on porter Bleu de Chanel au printemps ?",
+     "a": "Oui, c'est même l'une de ses meilleures saisons. Son pamplemousse et son gingembre restent frais, et son fond d'encens et de santal tient par temps frais. Deux pulvérisations suffisent au bureau. En plein été, on lui préférera Eau Sauvage ou Acqua di Gio."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best spring colognes for men: 9 scents for in-between weather",
+   "meta": "Dior Homme, Green Irish Tweed and Chanel Pour Monsieur lead our pick of the best spring fragrances for men, with iris, lavender and green notes.",
+   "h1": "Spring fragrances for men: our in-between-season ranking",
+   "intro": "In spring, a men's fragrance needs to shed winter's weight without jumping straight to July's watery freshness. Dior Homme takes first place. Its powdery iris over cocoa and vetiver is perfect under a light jacket. Green Irish Tweed comes second, with verbena and violet leaf that smell like a freshly mowed lawn. Chanel Pour Monsieur completes the podium, a discreet chypre for May weddings. Gypsy Water, sold as unisex, closes the list.",
+   "sections": [
+    {
+     "title": "What in-between weather asks of a men's scent",
+     "body": "Men's spring fragrance is all about aromatic notes. Women's seasonal picks lean on flowers and chypres. Men's ones rely on lavender, sage, geranium and iris instead. These materials stay crisp at 55°F in the morning and never turn heavy at 72°F in the afternoon. The base matters just as much. Vetiver, cedar or oakmoss hold under a jacket without weighing it down, unlike winter vanillas. Most of our picks rate 3 out of 5 for intensity. Bleu de Chanel and Azzaro Pour Homme, rated 4, suit the chilly early weeks. La Nuit de l'Homme, rated 2, is the softest and works for warm May evenings. If you run hot or sit close to colleagues, start there."
+    },
+    {
+     "title": "From the office to May weddings",
+     "body": "For the office, Dior Homme, Versace Pour Homme and Explorer are the most versatile. They smell clean without calling the gym to mind. For a wedding or christening, Pour Monsieur and Green Irish Tweed have the right polish with a light suit. On weekends, whether it is a walk or a farmers market, Gypsy Water brings pine needles and a hint of incense. In the evening, La Nuit de l'Homme plays cardamom and cedar, more intimate. Two sprays are enough, one on the chest and one at the back of the neck. A cotton or linen jacket holds scent well. Skip the scarf you sprayed all winter, since it would blend two seasons."
+    },
+    {
+     "title": "Iris, fougère or green: three spring styles",
+     "body": "Our selection falls into three styles. The iris in Dior Homme gives a powdery, slightly cosmetic elegance that still surprises on a man. Aromatic fougères like Azzaro Pour Homme, Versace Pour Homme and Green Irish Tweed are the most classic. Lavender, sage and geranium add up to the smell of a clean shirt. The green woods (Explorer, Bleu de Chanel and Gypsy Water) feel more modern, with vetiver or pine needles. If you wear Le Mâle or A*Men in winter, move to Azzaro Pour Homme, which keeps some anise and lavender. If Eau Sauvage is your summer scent, Pour Monsieur is its spring cousin, woodier and mossier. Start with one of those two paths."
+    }
+   ],
+   "why": {
+    "dior-dior-homme": "Top of the list, Dior Homme (2005) made iris a men's fragrance. Olivier Polge framed it with lavender and sage, then set it on cocoa, vetiver and leather. It smells of lipstick and a suede jacket. Perfect for spring while the air is still cool. Its trail stays discreet, much more so than Bleu de Chanel's.",
+    "creed-green-irish-tweed": "Lemon verbena, iris and violet leaf: Green Irish Tweed (1985) smells like a lawn freshly mowed in April. Its sandalwood and ambergris base gives it a dressier feel than Versace Pour Homme. It is our pick for a spring wedding. Some will call it too traditional, which is exactly the point.",
+    "chanel-pour-monsieur": "Chanel Pour Monsieur (1955) is a chypre of great restraint. Henri Robert opened it with lemon and neroli before a heart of tarragon and oakmoss. It smells like a well-cut suit. Quieter than Dior Homme, it never imposes itself, which will frustrate anyone looking for presence.",
+    "chanel-bleu-de-chanel": "Grapefruit, mint and ginger over incense and sandalwood: Bleu de Chanel (2010) is the most versatile pick here. Jacques Polge made it flawless from the office to dinner. Its intensity of 4 out of 5 suits early spring. It lacks daring next to Dior Homme, but you never go wrong with it.",
+    "azzaro-azzaro-pour-homme": "Lavender, anise and basil: Azzaro Pour Homme (1978) is the benchmark fougère. Its oakmoss and vetiver base makes it generous, with an intensity of 4 out of 5. Wear it in March and April while it is still cool. More dated than Versace Pour Homme, it also has far more character.",
+    "versace-pour-homme": "Neroli, bergamot and sage: Versace Pour Homme (2008) is the light fougère on this page. Alberto Morillas finished it with discreet tonka and amber. It is a solid office pick for April and May. Its flaw is anonymity, far less distinctive than Azzaro Pour Homme, but it bothers no one.",
+    "montblanc-explorer": "Bergamot, pink pepper and clary sage, then Haitian vetiver and leather: Explorer (2019) is a well-made woody aromatic for everyday wear. Its style puts it close to Bleu de Chanel, only drier and more leathery. It suits workdays and weekends alike. It sticks to the codes of its category, with no surprises.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Cardamom, lavender and cedar: La Nuit de l'Homme (2009) is the spring evening scent here. Anne Flipo, Pierre Wargnye and Dominique Ropion made it spicy and soft, with a touch of cumin. Intensity is low, rated 2 out of 5 in our database. More intimate than Dior Homme, it is meant to be smelled up close.",
+    "byredo-gypsy-water": "Sold as unisex, Gypsy Water (2008) sets bergamot and pine needles over light incense, sandalwood and vanilla. Jérôme Epinette made it poetic and easy to like. It smells like a forest after an April shower. Projection is modest, lighter than Explorer, but it is lovely up close."
+   },
+   "faq": [
+    {
+     "q": "What cologne should men wear in spring?",
+     "a": "An aromatic scent of moderate intensity, built on lavender, sage, iris or green notes. Dior Homme, Green Irish Tweed and Chanel Pour Monsieur make up our podium. For a safe office choice, Bleu de Chanel or Versace Pour Homme suit almost everyone."
+    },
+    {
+     "q": "What is the difference between a summer and a spring cologne?",
+     "a": "A summer scent leans on citrus and marine notes, with short longevity. A spring scent keeps a more structured base of vetiver, moss or iris so it holds up on cool mornings. Dior Homme or Azzaro Pour Homme would feel too present in July."
+    },
+    {
+     "q": "Is Bleu de Chanel good for spring?",
+     "a": "Yes, it is one of its best seasons. The grapefruit and ginger stay fresh, and the incense and sandalwood base holds in cool weather. Two sprays are enough for the office. In the height of summer, Eau Sauvage or Acqua di Gio are better picks."
+    }
+   ]
+  }
+ },
+ "sg:autumn:M": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "creed-aventus",
+   "prada-lhomme",
+   "guy-laroche-drakkar-noir",
+   "dior-sauvage",
+   "paco-rabanne-1-million",
+   "azzaro-wanted",
+   "le-labo-santal-33"
+  ],
+  "fr": {
+   "title": "Parfum automne homme : 8 masculins boisés pour la rentrée",
+   "meta": "Terre d'Hermès, Aventus et L'Homme de Prada en tête de nos parfums d'automne pour homme, du vétiver au cuir, pour la rentrée et les premiers froids.",
+   "h1": "Parfum d'automne pour homme : les boisés qui accompagnent la rentrée",
+   "intro": "En automne, un parfum d'homme doit accompagner le passage de la chemise au pull. Terre d'Hermès remporte notre classement : orange, silex et vétiver, l'odeur d'une terre sèche avant la pluie. Aventus de Creed suit avec son ananas fumé au bouleau, plus démonstratif. L'Homme de Prada complète le podium, un iris propre pour le bureau. Santal 33, vendu comme mixte, ferme la liste pour ceux qui veulent un boisé plus sec.",
+   "sections": [
+    {
+     "title": "Pourquoi l'automne appelle les boisés",
+     "body": "L'automne est la saison de transition dans le sens inverse du printemps. Les journées de septembre sont encore douces, celles de novembre déjà froides. Un aquatique d'été paraît soudain trop mince, alors qu'un oriental d'hiver reste prématuré. Les boisés font le lien. Le vétiver, le cèdre et le patchouli ont une chaleur sèche qui rappelle les feuilles mortes et le bois humide. Le cuir et le bouleau fumé, présents dans Aventus et Drakkar Noir, évoquent la veste en peau qu'on ressort. L'iris de Prada L'Homme ajoute une note de pull propre. La plupart de nos choix ont une intensité de 3 ou 4 sur 5 : assez pour percer l'air frais du matin, sans la lourdeur des parfums de décembre. Sauvage, noté 5, fait exception."
+    },
+    {
+     "title": "De la rentrée aux soirées de novembre",
+     "body": "En septembre, pour la reprise du bureau, Terre d'Hermès et Prada L'Homme sont les plus sûrs. Ils restent nets sous une chemise et ne gênent pas en réunion. En octobre, quand les vestes reviennent, Aventus et Santal 33 prennent le relais. Leur fond boisé se marie bien avec la laine et le tweed. Pour une balade en forêt ou un match le dimanche, Drakkar Noir a le caractère qu'il faut. Les soirées de novembre appellent 1 Million ou Wanted, plus chauds et plus sucrés. Côté dosage, deux pulvérisations suffisent, une sur le torse et une dans le cou. Sauvage fait exception : son intensité maximale impose une seule pulvérisation, même par temps frais."
+    },
+    {
+     "title": "Différences avec l'automne féminin et comment choisir",
+     "body": "Les parfums féminins d'automne s'appuient souvent sur les fruits sombres, la prune ou le chypre à la mousse de chêne. Les masculins de saison préfèrent le bois sec, le cuir et les épices légères. Pour choisir, partez de ce que vous portez l'été. Si vous aimez Eau Sauvage ou Acqua di Gio, Terre d'Hermès est la transition naturelle, avec ses agrumes posés sur du vétiver. Si vous préférez les parfums qui se remarquent, Aventus et Sauvage ont plus de sillage. Les amateurs de sucré iront vers 1 Million ou Wanted, qui annoncent déjà l'hiver. Santal 33 est vendu comme mixte : son santal et son papyrus plaisent à ceux qui veulent sortir des codes masculins classiques."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Terre d'Hermès (2006) est l'automne en flacon : orange et pamplemousse sur une note de silex, puis poivre, patchouli et vétiver. Jean-Claude Ellena y a mis une sécheresse minérale qui convient aux premiers jours frais. Il va au bureau comme au week-end. Très répandu, il surprend moins qu'à sa sortie, mais aucun autre choix de la liste n'est aussi juste pour septembre.",
+    "creed-aventus": "Ananas, bergamote et pomme sur un cœur de bouleau fumé : Aventus (2010) est le plus démonstratif de notre sélection. Son fond de mousse de chêne et d'ambre gris lui donne une assise d'automne. Il convient au bureau comme au dîner, avec une intensité de 4 sur 5. Plus fruité que Terre d'Hermès, il a été si copié qu'il paraît moins singulier.",
+    "prada-lhomme": "Iris, néroli et cardamome : L'Homme de Prada (2016) sent la chemise propre sous un pull en cachemire. Daniela Andrier l'a posé sur un fond d'ambre, de patchouli et de santal. Parfait pour les journées de bureau d'octobre. Il est plus sage qu'Aventus et peut manquer de caractère pour certains, mais il ne dérange personne.",
+    "guy-laroche-drakkar-noir": "Lavande, romarin et genièvre sur un fond de cuir et de mousse de chêne : Drakkar Noir (1982) est une fougère sombre, née pour les premiers froids. Pierre Wargnye l'a voulu solide, avec une intensité de 4 sur 5. Son style évoque clairement les années 1980. Plus austère que Wanted, il plaira à ceux qui aiment les masculins sans sucre.",
+    "dior-sauvage": "Bergamote et poivre, puis lavande, géranium et ambroxan : Sauvage (2015) est le masculin le plus diffusif de la page. François Demachy l'a rendu redoutablement efficace, avec une intensité de 5 sur 5. En automne, une seule pulvérisation suffit. On le croise partout, et son éclat synthétique lasse certains nez. Plus bruyant que Terre d'Hermès, il reste très facile à aimer.",
+    "paco-rabanne-1-million": "Pamplemousse et menthe, puis cannelle, cuir et ambre : 1 Million (2008) annonce déjà l'hiver. Christophe Raynaud, Olivier Pescheux et Michel Girard l'ont bâti pour plaire, et il plaît. Idéal pour une soirée de novembre. Très répandu, il peut devenir lourd dans un bar fermé. Plus sucré que Drakkar Noir, il est aussi moins sérieux.",
+    "azzaro-wanted": "Citron, gingembre et cardamome sur un fond de fève tonka et de bois ambrés : Wanted (2016) est un boisé épicé bien construit. Il accompagne les soirées d'octobre avec une chaleur de pain d'épices. Il ne prend pas de grand risque par rapport aux masculins de sa génération. Moins lourd que 1 Million, il convient aussi en journée.",
+    "le-labo-santal-33": "Seul mixte de la liste, Santal 33 (2011) associe cardamome, violette et iris à un cœur de santal et de papyrus. Frank Voelkl a signé un boisé sec et un peu cuiré. Il évoque le bois de crayon et la selle en cuir. Très répandu dans les grandes villes, il a perdu une part de son originalité. Plus sec que Prada L'Homme, il a aussi plus de caractère."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme porter en automne ?",
+     "a": "Un boisé d'intensité moyenne à forte, avec du vétiver, du cèdre, du cuir ou de l'iris. Terre d'Hermès, Aventus et L'Homme de Prada forment notre podium. Pour les soirées plus fraîches de novembre, 1 Million ou Wanted apportent une chaleur plus sucrée."
+    },
+    {
+     "q": "Quand passer d'un parfum d'été à un parfum d'automne ?",
+     "a": "Dès que les matinées descendent sous 15 °C, en général vers la fin septembre. Les aquatiques paraissent alors trop légers. Terre d'Hermès ou Prada L'Homme sont les transitions les plus douces. Gardez les parfums plus sucrés comme 1 Million pour octobre et novembre."
+    },
+    {
+     "q": "Peut-on porter Sauvage de Dior en automne ?",
+     "a": "Oui, c'est l'une des saisons où il passe le mieux. Son poivre et son ambroxan restent nets par temps frais. Une seule pulvérisation suffit, car son intensité est maximale dans notre base. Pour un style plus discret, Terre d'Hermès est une alternative plus sèche."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best fall colognes for men: 8 woody scents for autumn",
+   "meta": "Terre d'Hermès, Aventus and Prada L'Homme lead our pick of the best fall fragrances for men, from vetiver to leather, for cooler days.",
+   "h1": "Fall fragrances for men: the woody scents that carry you into autumn",
+   "intro": "In the fall, a men's fragrance has to follow you from shirtsleeves to sweaters. Terre d'Hermès wins our ranking. Orange, flint and vetiver smell like dry earth before rain. Creed Aventus comes second with its birch-smoked pineapple, the showier choice. Prada L'Homme completes the podium, a clean iris for the office. Santal 33, sold as unisex, closes the list for anyone who wants a drier wood.",
+   "sections": [
+    {
+     "title": "Why fall calls for woody scents",
+     "body": "Fall is spring in reverse. September days are still mild, November ones already cold. A summer aquatic suddenly feels thin, while a winter oriental is still premature. Woods bridge the gap. Vetiver, cedar and patchouli carry a dry warmth that recalls fallen leaves and damp timber. The leather and smoky birch in Aventus and Drakkar Noir bring back the suede jacket you just pulled from the closet. The iris in Prada L'Homme adds a clean-sweater note. Most of our picks rate 3 or 4 out of 5 for intensity. That is enough to cut through crisp morning air without the heft of December scents. Sauvage, rated 5, is the exception."
+    },
+    {
+     "title": "From back-to-work to November nights",
+     "body": "In September, as the office fills up again, Terre d'Hermès and Prada L'Homme are the safest picks. They stay crisp under a shirt and never bother anyone in a meeting. In October, when jackets come back, Aventus and Santal 33 take over. Their woody bases pair well with wool and tweed. For a forest walk or a Sunday game, Drakkar Noir has the right attitude. November evenings call for 1 Million or Wanted, which are warmer and sweeter. Two sprays are enough, one on the chest and one at the neck. Sauvage is the exception: its maximum intensity means one spray, even in cool weather. Wool holds scent well, so a sweater sprayed on Monday may still smell faintly of it midweek."
+    },
+    {
+     "title": "How fall differs for men and how to choose",
+     "body": "Women's fall perfumes often lean on dark fruit, plum or oakmoss chypres. Men's seasonal scents prefer dry wood, leather and light spice. To choose, start from what you wear in summer. If you like Eau Sauvage or Acqua di Gio, Terre d'Hermès is the natural next step, with citrus resting on vetiver. If you want to be noticed, Aventus and Sauvage project more. Sweet-tooth wearers should head for 1 Million or Wanted, which already hint at winter. Santal 33 is sold as unisex. Its sandalwood and papyrus appeal to anyone who wants to step outside classic masculine codes. Test your pick on skin for a full afternoon before buying, since woods take a few hours to show their real face."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Terre d'Hermès (2006) is fall in a bottle: orange and grapefruit over a flinty note, then pepper, patchouli and vetiver. Jean-Claude Ellena gave it a mineral dryness that suits the first cool days. It works at the office and on weekends. It is everywhere now and surprises less than at launch, yet nothing else here fits September so well.",
+    "creed-aventus": "Pineapple, bergamot and apple over a smoky birch heart: Aventus (2010) is the showiest pick here. Its oakmoss and ambergris base gives it an autumn backbone. It works at the office or at dinner, with an intensity of 4 out of 5. Fruitier than Terre d'Hermès, it has been copied so often that it feels less distinctive.",
+    "prada-lhomme": "Iris, neroli and cardamom: Prada L'Homme (2016) smells like a clean shirt under a cashmere sweater. Daniela Andrier set it on amber, patchouli and sandalwood. Perfect for October office days. It is tamer than Aventus and may lack character for some, but it offends no one.",
+    "guy-laroche-drakkar-noir": "Lavender, rosemary and juniper over leather and oakmoss: Drakkar Noir (1982) is a dark fougère made for the first cold snaps. Pierre Wargnye built it solid, with an intensity of 4 out of 5. Its style clearly belongs to the 1980s. Sterner than Wanted, it suits men who like their scents sugar-free.",
+    "dior-sauvage": "Bergamot and pepper, then lavender, geranium and ambroxan: Sauvage (2015) is the most diffusive scent on this page. François Demachy made it ruthlessly effective, with an intensity of 5 out of 5. In the fall, one spray is plenty. It is everywhere, and its synthetic sheen tires some noses. Louder than Terre d'Hermès, it is still very easy to like.",
+    "paco-rabanne-1-million": "Grapefruit and mint, then cinnamon, leather and amber: 1 Million (2008) already points toward winter. Christophe Raynaud, Olivier Pescheux and Michel Girard built it to please, and it does. Ideal for a November night out. It is extremely common and can turn heavy in a closed bar. Sweeter than Drakkar Noir, it is also less serious.",
+    "azzaro-wanted": "Lemon, ginger and cardamom over tonka and amber woods: Wanted (2016) is a well-built spicy woody. It suits October evenings with a gingerbread warmth. It takes no big risks compared with other men's scents of its generation. Lighter than 1 Million, it also works during the day.",
+    "le-labo-santal-33": "The only unisex pick here, Santal 33 (2011) pairs cardamom, violet and iris with a heart of sandalwood and papyrus. Frank Voelkl made it a dry, slightly leathery wood. It recalls pencil shavings and a leather saddle. It is so common in big cities that it has lost some originality. Drier than Prada L'Homme, it also has more character."
+   },
+   "faq": [
+    {
+     "q": "What cologne should men wear in the fall?",
+     "a": "A woody scent of moderate to strong intensity, built on vetiver, cedar, leather or iris. Terre d'Hermès, Aventus and Prada L'Homme make up our podium. For colder November evenings, 1 Million or Wanted bring a sweeter kind of warmth."
+    },
+    {
+     "q": "When should you switch from a summer to a fall fragrance?",
+     "a": "Once mornings drop below about 60°F, usually toward late September. Aquatics start to feel too thin at that point. Terre d'Hermès or Prada L'Homme make the gentlest transition. Save sweeter scents like 1 Million for October and November."
+    },
+    {
+     "q": "Is Dior Sauvage good for fall?",
+     "a": "Yes, it is one of the seasons where it works best. Its pepper and ambroxan stay crisp in cool weather. One spray is enough, since it sits at the top of our intensity scale. For something quieter, Terre d'Hermès is a drier alternative."
+    }
+   ]
+  }
+ },
+ "sg:autumn:F": {
+  "picks": [
+   "rochas-femme",
+   "dior-poison",
+   "lancome-tresor",
+   "chanel-allure",
+   "viktor-rolf-flowerbomb",
+   "lanvin-arpege",
+   "thierry-mugler-alien",
+   "byredo-gypsy-water",
+   "jo-malone-english-pear-freesia"
+  ],
+  "fr": {
+   "title": "Parfum automne femme : 9 parfums fruités, chyprés et ambrés",
+   "meta": "Femme de Rochas, Poison et Trésor en tête : nos parfums d'automne pour femme, entre prune et mousse de chêne, pour la saison des pulls.",
+   "h1": "Parfum d'automne pour femme : les neuf qui sentent la saison des pulls",
+   "intro": "Un parfum d'automne pour femme doit avoir la couleur des fruits mûrs et des feuilles rousses. Femme de Rochas remporte notre classement : prune, pêche et mousse de chêne, un chypre fruité de 1944 d'une sensualité rare. Poison de Dior suit, plus puissant, avec sa prune épicée de coriandre. Trésor complète le podium, une rose poudrée pour les journées douces d'octobre. Deux mixtes plus légers terminent la liste.",
+   "sections": [
+    {
+     "title": "Ce que l'automne change sur la peau",
+     "body": "En automne, la peau quitte le soleil et redevient plus sèche. Les notes fraîches de l'été s'y accrochent mal, tandis que les fonds boisés ou ambrés commencent à bien tenir. L'air se charge aussi d'humidité. Par temps de pluie, un parfum trop sucré devient collant, mais un chypre ou un floral ambré garde sa tenue. C'est la saison des fruits mûrs : prune, pêche, poire et coing apparaissent dans plusieurs de nos choix. Ils apportent de la rondeur sans la densité des vanilles de décembre. La plupart de nos sélections ont une intensité de 3 ou 4 sur 5. Poison et Alien, notés 5, sont réservés aux soirées. English Pear & Freesia, noté 2, sert de transition au début de septembre."
+    },
+    {
+     "title": "De la rentrée aux soirées de novembre",
+     "body": "En septembre, quand il fait encore doux, English Pear & Freesia ou Allure accompagnent bien la reprise du travail. Ils restent légers sous une chemise. En octobre, la veste en laine revient. C'est le moment de Femme, de Trésor ou d'Arpège, qui tiennent bien sur un col en tricot. Vaporisez l'intérieur du col, après un test sur un coin discret. Pour les dîners de novembre, Poison, Flowerbomb et Alien ont la présence qu'il faut avec une seule pulvérisation. Gypsy Water, avec ses aiguilles de pin et son encens, se prête aux balades en forêt du week-end. Côté peau, reprenez une crème hydratante dès les premiers froids. Un parfum tient nettement mieux sur une peau nourrie."
+    },
+    {
+     "title": "Chypres, orientaux ou fruités : comment choisir",
+     "body": "Notre sélection se découpe en trois styles. Les chypres, avec Femme en tête, associent un fruit mûr à la mousse de chêne pour une élégance un peu rétro. Les orientaux floraux comme Poison, Flowerbomb et Alien sont plus démonstratifs. Leur prune, leur patchouli ou leur ambre blanc annoncent déjà l'hiver. Les floraux poudrés (Trésor, Allure et Arpège) sont les plus polyvalents du lot. Côté homme, l'automne est plutôt boisé et sec. Les parfums féminins de saison assument davantage le fruit et la fleur. Si vous hésitez, commencez par Allure, le plus facile à porter. Gypsy Water et English Pear & Freesia sont vendus comme mixtes, pour celles qui trouvent les orientaux trop chargés."
+    }
+   ],
+   "why": {
+    "rochas-femme": "Femme (1944) ouvre notre classement parce qu'aucun parfum ne sent autant l'automne. Edmond Roudnitska y a posé prune et pêche mûres sur un fond de mousse de chêne et d'ambre. Le résultat évoque un fruit tiède dans une coupe en bois. Moins puissant que Poison, il est aussi plus subtil. Ceux qui n'aiment pas la mousse le trouveront daté.",
+    "dior-poison": "Coriandre, prune et anis, puis tubéreuse et ambre : Poison (1985) est le plus spectaculaire de la sélection. Édouard Fléchier l'a composé sans aucune retenue, avec une intensité de 5 sur 5. Une seule pulvérisation, pour une soirée de novembre. Plus sombre que Femme, il demande de l'assurance à celle qui le porte.",
+    "lancome-tresor": "Rose, pêche et iris sur un fond de santal et de vanille : Trésor (1990) est la rose poudrée des après-midi d'octobre. Sophia Grojsman l'a construite pour la tendresse plus que pour l'effet. C'est notre choix pour une journée de travail en automne. Son caractère rétro ne plaira pas aux amatrices de fraîcheur. Plus doux que Poison, il convient aussi en journée.",
+    "chanel-allure": "Pêche, mandarine et magnolia sur un fond de vanille et de vétiver : Allure (1996) est le floral ambré le plus facile de la page. Jacques Polge l'a poli jusqu'à la neutralité, ce qui peut sembler consensuel. Il va de la rentrée de septembre aux fêtes de fin d'année. Plus clair que Trésor, il est aussi moins mémorable.",
+    "viktor-rolf-flowerbomb": "Thé, osmanthus et orchidée sur un fond de patchouli et de vanille : Flowerbomb (2005) est le floral sucré qui plaît presque à coup sûr. Carlos Benaïm, Olivier Polge et Domitille Michalon-Bertier l'ont rendu dense et rassurant. Parfait pour les soirées de fin octobre. Il manque de transparence à côté d'Allure.",
+    "lanvin-arpege": "Aldéhydes, bergamote et pêche, puis rose, jasmin et muguet sur du santal : Arpège (1927) est le floral classique de la sélection. André Fraysse et Paul Vacher l'ont construit pour durer, et il tient remarquablement. Il se porte au bureau ou au théâtre. À côté de Flowerbomb, son style assumé peut paraître sage.",
+    "thierry-mugler-alien": "Jasmin, cashmeran et bois de tigre sur un ambre blanc : Alien (2005) est le plus radieux et le plus puissant de notre liste. Dominique Ropion et Laurent Bruyère lui ont donné une tenue exemplaire. Une pulvérisation suffit pour une soirée entière. Son intensité peut saturer l'entourage. Plus lumineux que Poison, il est aussi moins épicé.",
+    "byredo-gypsy-water": "Côté mixtes, Gypsy Water (2008) mêle bergamote, poivre et aiguilles de pin à un encens léger, posés sur du santal et de la vanille. Jérôme Epinette en a fait un boisé poétique qui sent la forêt en octobre. Sa projection reste modeste. C'est l'option la plus sèche de la page, loin du sucre de Flowerbomb.",
+    "jo-malone-english-pear-freesia": "Poire, melon et coing sur un cœur de freesia et un fond de patchouli : English Pear & Freesia (2010) est le parfum de septembre. Christine Nagel l'a composé pour Jo Malone. Ce mixte sent le verger en fin d'été. Sa tenue de cologne est courte, bien en dessous d'Allure, donc on le revaporise dans l'après-midi."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme porter en automne ?",
+     "a": "Un parfum d'intensité moyenne à forte, avec un fruit mûr, une fleur poudrée ou un fond de mousse de chêne. Femme de Rochas, Poison et Trésor forment notre podium. Pour un choix plus facile au bureau, Allure ou Arpège passent partout. Les mixtes Gypsy Water et English Pear & Freesia sont plus légers."
+    },
+    {
+     "q": "Quelles notes choisir pour un parfum d'automne ?",
+     "a": "Les fruits de saison comme la prune, la pêche, la poire ou le coing. La mousse de chêne et le patchouli donnent de la profondeur, et la vanille légère arrondit. Gardez les ambres les plus épais pour décembre. En automne, le fruit et le bois suffisent souvent à réchauffer."
+    },
+    {
+     "q": "Peut-on porter un parfum d'été en automne ?",
+     "a": "En septembre, oui, surtout les fruités comme English Pear & Freesia. Dès octobre, les notes fraîches s'effacent vite sur une peau plus sèche. Passez alors à un floral ambré comme Allure ou à un chypre comme Femme de Rochas, qui tiennent mieux par temps frais et humide."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best fall perfumes for women: 9 fruity, chypre and amber picks",
+   "meta": "Rochas Femme, Poison and Trésor lead our pick of the best fall perfumes for women, with plum, peach and oakmoss for sweater weather.",
+   "h1": "Fall perfumes for women: nine picks for sweater weather",
+   "intro": "A fall perfume should carry the colors of ripe fruit and rust-colored leaves. Rochas Femme wins our ranking. Plum, peach and oakmoss make a 1944 fruity chypre of rare sensuality. Dior Poison comes second, louder, with a plum spiked by coriander. Trésor completes the podium, a powdery rose for mild October days. Two lighter unisex scents close the list.",
+   "sections": [
+    {
+     "title": "What fall does to your skin",
+     "body": "In the fall, skin leaves the sun behind and turns drier. Summer's fresh notes struggle to cling to it, while woody or amber bases start to hold well. The air gets damper too. On a rainy day, an overly sweet perfume turns sticky, but a chypre or amber floral keeps its shape. This is ripe-fruit season. Plum, peach, pear and quince show up in several of our picks. They add roundness without the density of December vanillas. Most of our selections rate 3 or 4 out of 5 for intensity. Poison and Alien, rated 5, are for evenings. English Pear & Freesia, rated 2, works as a bridge in early September."
+    },
+    {
+     "title": "From September to November nights",
+     "body": "In September, while it is still mild, English Pear & Freesia or Allure suit the return to work. They stay light under a shirt. In October, the wool jacket comes back. That is the moment for Femme, Trésor or Arpège, which hold well on a knit collar. Spray the inside of the collar after testing a hidden spot. For November dinners, Poison, Flowerbomb and Alien have the presence you want with a single spray. Gypsy Water, with its pine needles and incense, is made for weekend walks in the woods. As for skin, bring back a moisturizer at the first chill. Perfume lasts noticeably longer on nourished skin, and fall is when most people notice their usual scent fading by lunch."
+    },
+    {
+     "title": "Chypre, oriental or fruity: how to choose",
+     "body": "Our selection falls into three styles. The chypres, led by Femme, pair ripe fruit with oakmoss for a slightly retro elegance. Floral orientals like Poison, Flowerbomb and Alien are showier. Their plum, patchouli or white amber already point toward winter. The powdery florals (Trésor, Allure and Arpège) are the most versatile of the group. For men, fall tends to be woody and dry. Women's seasonal perfumes embrace fruit and flowers more openly. If you are unsure, start with Allure, the easiest to wear. Gypsy Water and English Pear & Freesia are sold as unisex, for anyone who finds orientals too heavy. Try two styles side by side on a cool afternoon. The one you still enjoy at dinner is your fall scent."
+    }
+   ],
+   "why": {
+    "rochas-femme": "Femme (1944) tops our list because no perfume smells more like autumn. Edmond Roudnitska set ripe plum and peach over oakmoss and amber. The effect is warm fruit in a wooden bowl. Less powerful than Poison, it is also more nuanced. If you dislike oakmoss, you will find it dated.",
+    "dior-poison": "Coriander, plum and anise, then tuberose and amber: Poison (1985) is the most dramatic pick here. Édouard Fléchier composed it with zero restraint, and it rates 5 out of 5 for intensity. One spray, for a November night out. Darker than Femme, it demands confidence from whoever wears it.",
+    "lancome-tresor": "Rose, peach and iris over sandalwood and vanilla: Trésor (1990) is the powdery rose of October afternoons. Sophia Grojsman built it for tenderness rather than effect. It is our pick for a fall workday. Its retro character will not win over fans of fresh scents. Softer than Poison, it also works in daylight.",
+    "chanel-allure": "Peach, mandarin and magnolia over vanilla and vetiver: Allure (1996) is the easiest amber floral on this page. Jacques Polge polished it almost to neutrality, which can feel a bit safe. It carries you from September to the holidays. Brighter than Trésor, it is also less memorable.",
+    "viktor-rolf-flowerbomb": "Tea, osmanthus and orchid over patchouli and vanilla: Flowerbomb (2005) is the sweet floral that almost always pleases. Carlos Benaïm, Olivier Polge and Domitille Michalon-Bertier made it dense and comforting. Perfect for late October evenings. It lacks the transparency of Allure.",
+    "lanvin-arpege": "Aldehydes, bergamot and peach, then rose, jasmine and lily of the valley over sandalwood: Arpège (1927) is the classic floral in this selection. André Fraysse and Paul Vacher built it to last, and it holds remarkably well. Wear it to the office or the theater. Next to Flowerbomb, its unapologetic classicism may feel tame.",
+    "thierry-mugler-alien": "Jasmine, cashmeran and tiger wood over white amber: Alien (2005) is the most radiant and most powerful pick on our list. Dominique Ropion and Laurent Bruyère gave it outstanding longevity. One spray lasts a whole evening. Its intensity can overwhelm people nearby. Brighter than Poison, it is also less spicy.",
+    "byredo-gypsy-water": "On the unisex side, Gypsy Water (2008) sets bergamot, pepper and pine needles over incense, sandalwood and vanilla. Jérôme Epinette made it a poetic woody that smells like a forest in October. Projection stays modest. It is the driest option on this page, far from the sugar of Flowerbomb.",
+    "jo-malone-english-pear-freesia": "Pear, melon and quince over freesia and a patchouli base: English Pear & Freesia (2010) is the September scent. Christine Nagel composed it for Jo Malone. This unisex cologne smells like an orchard at the end of summer. Longevity is short, well below Allure, so plan to reapply in the afternoon."
+   },
+   "faq": [
+    {
+     "q": "What perfume should a woman wear in the fall?",
+     "a": "Something of moderate to strong intensity, with ripe fruit, a powdery flower or an oakmoss base. Rochas Femme, Poison and Trésor make up our podium. For an easy office choice, Allure or Arpège work anywhere. The unisex Gypsy Water and English Pear & Freesia are lighter options."
+    },
+    {
+     "q": "Which notes work best in a fall perfume?",
+     "a": "Seasonal fruit such as plum, peach, pear or quince. Oakmoss and patchouli add depth, and a light vanilla rounds things out. Save the densest ambers for December. In the fall, fruit and wood are often warm enough on their own."
+    },
+    {
+     "q": "Can you wear a summer perfume in the fall?",
+     "a": "In September, yes, especially fruity ones like English Pear & Freesia. From October on, fresh notes fade quickly on drier skin. Switch to an amber floral like Allure or a chypre like Rochas Femme, which hold up better in cool, damp weather."
+    }
+   ]
+  }
+ }
+}

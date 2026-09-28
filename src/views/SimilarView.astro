@@ -27,10 +27,18 @@ const max = list[0]?.score || 1;
 const sameHouse = list.find((s) => s.perfume.brand === p.brand);
 const otherHouse = list.find((s) => s.perfume.brand !== p.brand);
 
-const title = fr ? `Parfums similaires à ${p.name} (${p.brand}) : 10 alternatives` : `Perfumes similar to ${p.name} (${p.brand}): 10 alternatives`;
-const description = fr
-  ? `Vous aimez ${p.name} de ${p.brand} ? Voici les 10 parfums qui lui ressemblent le plus, classés selon leurs notes communes (${names(own.slice(0, 3))}…).`
-  : `Love ${p.name} by ${p.brand}? Here are the 10 perfumes that smell most like it, ranked by shared notes (${names(own.slice(0, 3))}…).`;
+const titles = fr
+  ? [`Parfums similaires à ${p.name} (${p.brand}) : 10 alternatives`, `Parfums similaires à ${p.name} : 10 alternatives`, `${p.name} : 10 parfums similaires`]
+  : [`Perfumes similar to ${p.name} (${p.brand}): 10 alternatives`, `Perfumes similar to ${p.name}: 10 alternatives`, `${p.name}: 10 similar perfumes`];
+const title = titles.find((t) => t.length <= 65) ?? titles.at(-1)!;
+const descriptions = fr
+  ? [`Vous aimez ${p.name} de ${p.brand} ? Voici les 10 parfums qui lui ressemblent le plus, classés selon leurs notes communes (${names(own.slice(0, 3))}…).`,
+     `Vous aimez ${p.name} de ${p.brand} ? Les 10 parfums qui lui ressemblent le plus, classés selon leurs notes communes.`,
+     `Les 10 parfums qui ressemblent le plus à ${p.name}, classés selon leurs notes communes.`]
+  : [`Love ${p.name} by ${p.brand}? Here are the 10 perfumes that smell most like it, ranked by shared notes (${names(own.slice(0, 3))}…).`,
+     `Love ${p.name} by ${p.brand}? The 10 perfumes that smell most like it, ranked by shared notes.`,
+     `The 10 perfumes that smell most like ${p.name}, ranked by shared notes.`];
+const description = descriptions.find((d) => d.length <= 160) ?? descriptions.at(-1)!;
 const path = url.similar(l, p.slug);
 const crumbs = [
   { name: fr ? 'Accueil' : 'Home', href: url.home(l) },

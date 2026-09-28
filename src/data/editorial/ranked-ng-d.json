@@ -1,0 +1,708 @@
+{
+ "_data_issues": [
+  "nina-ricci-lair-du-temps: tagline_fr/en mentionne l'œillet (carnation), absent des notes du dataset (top: bergamote, pêche, néroli ; heart: rose, jasmin, violette).",
+  "chanel-n-22: tagline_fr mentionne un « encens pâle » absent des notes du dataset."
+ ],
+ "ng:Musk:F": {
+  "picks": [
+   "kenzo-flower-by-kenzo",
+   "calvin-klein-eternity",
+   "issey-miyake-leau-dissey",
+   "dior-jadore",
+   "lancome-tresor",
+   "dolce-gabbana-light-blue",
+   "nina-ricci-lair-du-temps",
+   "byredo-bal-dafrique",
+   "calvin-klein-ck-one"
+  ],
+  "fr": {
+   "title": "Parfum musc blanc femme : 9 parfums à l'odeur de peau propre",
+   "meta": "Flower by Kenzo, Eternity ou L'Eau d'Issey : notre classement des parfums au musc blanc pour femme, du plus poudré au plus aérien. Défauts compris.",
+   "h1": "Les meilleurs parfums au musc pour femme, du coton à la poudre",
+   "intro": "Pour un parfum au musc blanc féminin, notre premier choix est Flower by Kenzo. Son fond tient en deux notes, vanille et musc, et c'est le musc qu'on retrouve sur la peau le soir. Eternity de Calvin Klein vient ensuite pour son effet de linge frais, plus net et moins sucré. L'Eau d'Issey complète le podium avec un musc transparent posé sous des fleurs aquatiques. Les six autres vont du floral d'après-guerre au mixte cotonneux.",
+   "sections": [
+    {
+     "title": "Le musc côté féminin : sous les fleurs, rarement seul",
+     "body": "Dans les parfums féminins de cette sélection, le musc n'est presque jamais la note qu'on remarque en premier. Il arrive sous les fleurs. Chez Trésor, il épaissit la poudre de l'iris et de la rose ; chez J'adore, il prolonge le jasmin quand la poire s'est dissipée. Le terme « musc blanc » ne désigne pas une matière précise. C'est un nom commercial pour des muscs de synthèse au profil propre et cotonneux, qui rappellent le linge sec ou le lait pour le corps. Côté masculin, le même musc sert surtout à prolonger des agrumes et des herbes, avec un effet savon. Côté féminin, il s'associe à la vanille ou à la pêche et glisse vers le poudré. Voilà pourquoi un parfum musqué pour femme paraît souvent plus doux et plus proche de la peau que son équivalent masculin. Un point pratique pour finir : une partie des gens perçoit mal certains muscs. Si votre parfum semble disparaître en une heure, demandez à un proche. Il est sans doute encore là."
+    },
+    {
+     "title": "Poudré, aquatique ou linge propre : trois façons de le porter",
+     "body": "La sélection se range en trois styles. Le musc poudré d'abord (Flower by Kenzo, Trésor et L'Air du Temps) : violette, iris ou rose y rencontrent le musc et donnent cette sensation de peau fardée. C'est le plus confortable en automne. Le musc aquatique ensuite, avec L'Eau d'Issey et Light Blue. Les fleurs semblent mouillées, le fond reste clair, et ce sont les meilleurs choix pour juillet. Le musc linge propre enfin (Eternity, CK One et Bal d'Afrique) est plus sec et plus facile à porter au bureau. Pour choisir, pensez à l'effet recherché plutôt qu'à la tenue : tous ces parfums restent près du corps. Deux pulvérisations suffisent. Une au cou, une sur un vêtement en coton ou en laine, car le musc s'accroche bien aux fibres et y reste parfois jusqu'au lendemain. Évitez d'en rajouter pour compenser une impression de faiblesse : c'est le propre de ces fonds, pas un défaut du flacon."
+    }
+   ],
+   "why": {
+    "kenzo-flower-by-kenzo": "Premier de notre classement parce que le musc y est presque à nu : le fond ne compte que vanille et musc. Le cassis et l'aubépine du départ passent vite, puis la violette tire tout vers une poudre de peau propre. On le conseille à celles qui veulent un musc reconnaissable sans sillage envahissant. Moins floral que Trésor, plus sucré qu'Eternity. Sa douceur peut lasser en fin de journée.",
+    "calvin-klein-eternity": "Eternity sent le linge qui sèche au milieu des fleurs coupées. Le musc arrive tard, derrière le santal et l'ambre, mais c'est lui qui donne cette netteté de chemise blanche. Parfait pour le bureau et le printemps. Nous le trouvons plus sage que Flower by Kenzo et moins aquatique que L'Eau d'Issey. Qui cherche du relief s'y ennuiera un peu.",
+    "issey-miyake-leau-dissey": "Dans L'Eau d'Issey, le musc ouvre la liste du fond, devant le cèdre et l'ambre. Il sert de support à un lotus et à un melon très aqueux : sans lui, ces fleurs mouillées s'évaporeraient en une heure. C'est le musc blanc version transparente, pour l'été et les journées de travail. La note melonnée divise encore. Face à Light Blue, il tient mieux et sent moins le fruit.",
+    "dior-jadore": "J'adore place le musc en tête de son fond, avant la vanille et le cèdre. On le perçoit quand la poire et le melon se retirent : le jasmin devient alors plus crémeux, presque cutané. C'est le bon choix pour qui veut un floral lumineux avec un fond propre. Plus riche en fleurs qu'Eternity, il reste assez sage pour le bureau. Certains le trouveront trop consensuel.",
+    "lancome-tresor": "Trésor est le plus rétro de la liste, et le plus poudré. Le musc y soutient une rose abricotée, de l'iris et du lilas sur un fond de santal et de vanille. Il se porte en automne, avec un pull plutôt qu'un t-shirt. Sophia Grojsman a signé Trésor et Eternity : comparez-les, c'est le même goût du propre avec deux doses de sucre. Les amatrices de fraîcheur passeront leur chemin.",
+    "dolce-gabbana-light-blue": "Light Blue est le plus estival de la sélection. Son fond se résume au musc et à l'ambre, sous une pomme verte croquante et du cèdre. Ce minimalisme en fait un parfum de plage et de vacances. Le défaut est connu : il s'efface vite sur la peau, plus vite que L'Eau d'Issey. Vaporisez aussi un foulard ou un col en coton, où le musc tient plus longtemps.",
+    "nina-ricci-lair-du-temps": "L'Air du Temps rappelle que le musc propre n'a pas attendu les années 1990. En 1948, Francis Fabron le pose sous la rose, le jasmin et la pêche. Santal et cèdre complètent le fond. Le résultat est un floral doux de printemps, très discret. On l'aime pour sa délicatesse, on lui reproche un sillage presque absent. Moins poudré que Trésor, il paraît aussi moins daté.",
+    "byredo-bal-dafrique": "Bal d'Afrique est mixte. Nous l'intégrons pour une raison simple : c'est le plus élégant des muscs floraux secs de notre base. Agrumes et néroli au départ, violette et jasmin au cœur. Le fond mêle vétiver, ambre et musc. Il est plus boisé que les féminins de cette liste et moins sucré que Flower by Kenzo. Sa projection reste modeste, c'est un parfum de proximité.",
+    "calvin-klein-ck-one": "CK One ferme la liste parce qu'il est mixte et très léger. C'est pourtant le modèle du musc « t-shirt blanc ». Bergamote et ananas au départ, un cœur floral effacé, puis musc et cèdre sur un peu d'ambre. Il plaît à celles qui trouvent les féminins classiques trop fleuris. Sa tenue courte oblige à revaporiser l'après-midi, comme Light Blue."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum au musc blanc pour femme ?",
+     "a": "Notre choix est Flower by Kenzo, dont le fond ne compte que vanille et musc : c'est le musc poudré le plus lisible de la sélection. Pour un effet plus net de linge propre, prenez Eternity. Pour l'été, L'Eau d'Issey offre un musc transparent sous des fleurs aquatiques."
+    },
+    {
+     "q": "Quelle différence entre musc blanc et musc ?",
+     "a": "Le musc animal a pratiquement disparu de la parfumerie : les muscs actuels sont presque tous synthétiques. « Musc blanc » est un terme commercial pour les muscs au profil propre et cotonneux, sans facette animale. Un parfum simplement dit musqué peut aller plus loin, vers la peau tiède ou la poudre."
+    },
+    {
+     "q": "Un parfum au musc tient-il longtemps sur la peau ?",
+     "a": "Le musc est une note de fond, il fait donc partie des dernières à partir. Mais il projette peu. Un parfum musqué comme Light Blue ou CK One peut sembler disparu au bout de quelques heures alors qu'on le sent encore de près. Vaporisez aussi un vêtement en coton pour le prolonger."
+    },
+    {
+     "q": "Peut-on porter un parfum musqué au bureau ?",
+     "a": "C'est même la famille la plus sûre pour un open space. Eternity, J'adore et L'Eau d'Issey restent proches du corps et ne dérangent pas les voisins. Évitez seulement de multiplier les pulvérisations pour compenser une impression de faible tenue : deux suffisent, une au cou et une sur un vêtement."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best White Musk Perfumes for Women: 9 Clean-Skin Picks",
+   "meta": "Flower by Kenzo, Eternity and L'Eau d'Issey lead our ranking of white musk perfumes for women. From powdery to sheer, flaws included.",
+   "h1": "White musk perfumes for women, from fresh cotton to soft powder",
+   "intro": "If you want a white musk perfume for women, start with Flower by Kenzo. Its base is just vanilla and musk, and the musk is what's left on your skin by evening. Calvin Klein's Eternity comes second. It's cleaner and less sweet, like laundry drying next to cut flowers. L'Eau d'Issey rounds out the top three with a sheer musk under watery florals. The other six range from a 1948 classic to two unisex cotton-soft scents.",
+   "sections": [
+    {
+     "title": "How musk behaves in women's perfumes",
+     "body": "In the feminine scents on this list, musk is almost never the first thing you notice. It sits under the flowers. In Trésor it thickens the powder of iris and rose. In J'adore it carries the jasmine once the pear has faded. \"White musk\" isn't a single raw material. It's a marketing term for synthetic musks with a clean, cottony profile that recalls dry laundry or body lotion. In men's perfumes the same musks usually stretch out citrus and herbs, and the result smells like soap. In women's perfumes they're paired with vanilla, peach or violet, and they drift toward powder. That's why a musky perfume for women tends to feel softer and closer to the skin than its male counterpart. One practical note: plenty of people are partly blind to certain musks. If your perfume seems gone after an hour, ask someone standing close to you. It's probably still there."
+    },
+    {
+     "title": "Powdery, watery or clean laundry: pick your style",
+     "body": "The nine picks fall into three camps. Powdery musks come first (Flower by Kenzo, Trésor and L'Air du Temps). In these, violet, iris or rose meet the musk and leave a made-up-skin feel. They're the coziest in autumn. Then the watery musks, L'Eau d'Issey and Light Blue. The flowers smell wet, the base stays pale, and they're the ones to reach for in July. Last come the clean-laundry musks: Eternity, CK One and Bal d'Afrique. They're drier and easy to wear to work. Choose by effect rather than longevity, because all of these stay close to the body. Two sprays is plenty. One on the neck and one on a cotton or wool layer, since musk clings to fabric and can still be there the next morning. Don't keep adding sprays to chase a stronger trail. Low projection is how these bases work, not a flaw in the bottle."
+    }
+   ],
+   "why": {
+    "kenzo-flower-by-kenzo": "Number one because the musk is barely dressed: the base lists only vanilla and musk. Blackcurrant and hawthorn fade fast, then violet pulls everything toward a clean, powdered-skin finish. It suits anyone who wants a recognizable musk without a loud trail. More floral than Eternity, less rosy than Trésor. The sweetness can feel a bit much by late afternoon.",
+    "calvin-klein-eternity": "Eternity smells like sheets drying among fresh-cut lilies. The musk shows up late, behind sandalwood and amber, yet it's what gives the scent that crisp white-shirt feel. Great for the office and for spring. It's tamer than Flower by Kenzo and less watery than L'Eau d'Issey. If you want edge, you'll find it a little polite.",
+    "issey-miyake-leau-dissey": "Musk leads the base of L'Eau d'Issey, ahead of cedar and amber. It anchors a very watery lotus and melon that would otherwise vanish within the hour. This is white musk at its most transparent, made for summer and workdays. The melon note still splits opinion. Compared with Light Blue, it lasts longer and smells less fruity.",
+    "dior-jadore": "J'adore puts musk first in its base, before vanilla and cedar. You notice it once the pear and melon step back: the jasmine turns creamy, almost skin-like. Pick it if you want a bright floral with a clean finish. It has more flowers than Eternity but stays office-safe. Some will find it too crowd-pleasing.",
+    "lancome-tresor": "The most retro scent here, and the most powdery. Musk props up an apricot-tinged rose, iris and lilac over sandalwood and vanilla. Wear it in autumn, with a sweater rather than a tee. Sophia Grojsman made both Trésor and Eternity, so try them side by side: same love of clean, two very different sugar levels. Fans of fresh scents should skip it.",
+    "dolce-gabbana-light-blue": "Light Blue is the summer pick. Its base is just musk and amber, under crisp green apple and cedar. That simplicity makes it a beach and vacation scent. The flaw is well known: it fades fast, faster than L'Eau d'Issey. Spray a cotton scarf or collar too, where the musk holds on longer.",
+    "nina-ricci-lair-du-temps": "A reminder that clean musk didn't start in the 1990s. In 1948 Francis Fabron set it under rose, jasmine and peach, with sandalwood and cedar. The result is a soft spring floral that stays very quiet. You'll love the delicacy and wish for more projection. It's less powdery than Trésor and feels less dated for it.",
+    "byredo-bal-dafrique": "Bal d'Afrique is unisex, and it's here because it's the most elegant dry floral musk in our catalogue. Citrus and neroli up top, violet and jasmine in the heart. The base is vetiver, amber and musk. It's woodier than the feminine picks and far less sweet than Flower by Kenzo. Projection stays modest: this one is for people who stand close.",
+    "calvin-klein-ck-one": "CK One sits last because it's unisex and very light. Still, it's the template for the white-T-shirt musk. Bergamot and pineapple open it, a faint floral heart follows, then musk and cedar over a little amber. It works for women who find classic feminine scents too flowery. Like Light Blue, it needs a second spray by mid-afternoon."
+   },
+   "faq": [
+    {
+     "q": "What is the best white musk perfume for women?",
+     "a": "Our pick is Flower by Kenzo. Its base is only vanilla and musk, which makes it the clearest powdery musk on the list. For a crisper clean-laundry effect, go with Eternity. For summer, L'Eau d'Issey gives you a sheer musk under watery florals."
+    },
+    {
+     "q": "What's the difference between white musk and musk?",
+     "a": "Animal musk has all but disappeared from perfumery, and today's musks are almost all synthetic. \"White musk\" is a marketing term for the clean, cottony ones with no animalic edge. A perfume described simply as musky can go further, toward warm skin or powder."
+    },
+    {
+     "q": "Do musk perfumes last long?",
+     "a": "Musk is a base note, so it's among the last things to leave your skin. But it doesn't project much. A musky scent like Light Blue or CK One can seem gone after a few hours while someone close to you still smells it. Spray a cotton layer to stretch it."
+    },
+    {
+     "q": "Can I wear a musk perfume to work?",
+     "a": "It's one of the safest families for an open-plan office. Eternity, J'adore and L'Eau d'Issey stay close to the body and won't bother your neighbors. Just don't pile on sprays to make up for the soft trail. Two is enough: one on the neck, one on your clothes."
+    }
+   ]
+  }
+ },
+ "ng:Musk:M": {
+  "picks": [
+   "prada-lhomme",
+   "dior-dior-homme",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-acqua-di-gio",
+   "creed-green-irish-tweed",
+   "azzaro-chrome",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "jo-malone-wood-sage-sea-salt",
+   "creed-silver-mountain-water"
+  ],
+  "fr": {
+   "title": "Parfum musc homme : 9 parfums qui sentent la chemise propre",
+   "meta": "Prada L'Homme et Dior Homme en tête : notre sélection de parfums musqués pour homme, de l'iris savonneux à la fraîcheur salée. Avis et défauts.",
+   "h1": "Les meilleurs parfums musqués pour homme, classés par style",
+   "intro": "Le meilleur parfum musc pour homme de notre sélection est L'Homme de Prada : un iris savonneux qui sent la chemise blanche sortie du fer. Dior Homme le suit de près avec un musc plus poudré, tenu par le cuir et le vétiver. Allure Homme Sport complète le podium pour qui veut le même effet propre en version sportive et salée. Viennent ensuite les grandes fraîcheurs aquatiques et deux mixtes plus secs.",
+   "sections": [
+    {
+     "title": "Le musc masculin : un effet savon plus qu'une caresse",
+     "body": "Chez les femmes, le musc glisse souvent vers la poudre et la vanille. Chez les hommes, on l'emploie autrement. Il sert d'abord à faire durer ce qui s'évapore vite : le citron d'Eau Sauvage hier, le néroli et la bergamote d'Acqua di Gio aujourd'hui. Il donne aussi cet effet de peau lavée que l'on retrouve dans presque toute la parfumerie masculine fraîche. Deux familles se partagent la sélection. D'un côté, les iris musqués comme Prada L'Homme et Dior Homme, où le musc arrondit une matière déjà douce. De l'autre, les aromatiques et marins, où il se cache sous les agrumes et le sel. Dans les deux cas, ne cherchez pas un sillage de salle de réunion. Un parfum musqué pour homme se sent à la bise ou au col de la veste. C'est sa qualité au bureau et son défaut en soirée, où l'on préférera un boisé plus dense."
+    },
+    {
+     "title": "Iris, sel ou agrumes : comment choisir son musc",
+     "body": "Si vous aimez l'odeur du linge propre et des chemises repassées, commencez par Prada L'Homme ou Chrome. Le premier est plus doux, le second plus métallique. Pour une version plus tendre qui passe du bureau au dîner, Dior Homme et son cacao discret restent imbattables. Les amateurs de mer iront vers Acqua di Gio ou D&G Light Blue pour Homme, deux signatures d'Alberto Morillas où le musc prolonge l'eau et les agrumes. Wood Sage & Sea Salt et Silver Mountain Water, tous deux mixtes, conviennent à ceux qui trouvent les masculins classiques trop appuyés. Côté application, visez la chaleur du corps : base du cou et intérieur des poignets, puis une pulvérisation sur le t-shirt. Le musc tient mieux sur le tissu que sur une peau sèche. Deux ou trois pulvérisations suffisent pour les eaux de toilette de cette liste. Les colognes de Jo Malone en demandent une de plus."
+    }
+   ],
+   "why": {
+    "prada-lhomme": "Premier parce qu'il fait exactement ce qu'on attend d'un parfum musc pour homme : sentir propre sans sentir le gel douche. L'iris et le néroli du départ reposent sur un fond de santal, de musc et de cèdre. Daniela Andrier en a fait un parfum de tous les jours, très sûr au bureau. Plus savonneux que Dior Homme, il manque un peu de mordant.",
+    "dior-dior-homme": "Dior Homme a appris à beaucoup d'hommes à porter un parfum doux. Son iris poudré et son cacao reposent sur vétiver, cuir et musc. Le résultat est plus chaud et plus sensuel que Prada L'Homme, avec la même élégance de col blanc. On le porte d'octobre à avril, du bureau au dîner. Sa projection sage frustrera les amateurs de sillage.",
+    "chanel-allure-homme-sport": "Allure Homme Sport garde le musc pour la fin, sous la fève tonka et le vétiver. Avant, l'orange et les aldéhydes donnent une impression de sel sur la peau après l'effort. C'est notre choix pour qui veut un musc propre mais plus vivant que Prada L'Homme. Parfait l'été et au sport. La projection reste un peu timide pour un Chanel.",
+    "giorgio-armani-acqua-di-gio": "Acqua di Gio est ici pour une raison précise : son fond de patchouli, cèdre et musc est ce qui reste quand la bergamote et le néroli ont fondu. C'est l'odeur de peau chauffée au soleil. Référence du genre, il reste impeccable en été et au bureau. Revers de sa popularité, il surprend peu. Plus marin que D&G Light Blue pour Homme, et un peu plus tenace.",
+    "creed-green-irish-tweed": "Green Irish Tweed associe musc et ambre gris sous une verveine citronnée et des feuilles de violette. Le résultat est vert et net, presque herbacé, avec un fond qui reste longtemps propre. Il convient aux hommes qui aiment le classique sans l'amertume de la mousse. Moins aquatique qu'Acqua di Gio. Certains le trouveront trop sage pour son rang.",
+    "azzaro-chrome": "Chrome sent la chemise repassée et le métal poli. Le musc, le santal et la mousse de chêne portent un départ de citron et de romarin très lumineux. C'est un premier parfum musqué sans risque, facile à porter et apprécié de l'entourage. Plus métallique que Prada L'Homme, il manque de relief pour les nez aguerris.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "Le fond de D&G Light Blue pour Homme commence par le musc, suivi de mousse de chêne et d'encens. Au-dessus, pamplemousse glacé et genièvre évoquent l'été sicilien. C'est le plus estival des masculins de la liste. Sa tenue reste limitée, moins bonne que celle d'Acqua di Gio. Revaporisez en fin d'après-midi.",
+    "jo-malone-wood-sage-sea-salt": "Wood Sage & Sea Salt est mixte, et c'est le musc le plus minéral de la sélection. L'ambrette (une graine à l'odeur musquée) apparaît dès le départ avec le sel marin. Christine Nagel pose ensuite la sauge et le bois flotté sur un fond de musc. Plus sec et moins sucré que les masculins classés devant lui. En cologne, il demande à être renouvelé.",
+    "creed-silver-mountain-water": "Mixte lui aussi, Silver Mountain Water place le musc en tête de son fond devant le santal. Le thé vert et le cassis donnent une fraîcheur froide, presque minérale. C'est le musc des hommes qui trouvent Acqua di Gio trop répandu. Le cassis métallique ne plaira pas à tous. Plus aérien que Green Irish Tweed, de la même maison."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum musc pour homme ?",
+     "a": "Notre choix est Prada L'Homme, un iris savonneux sur fond de musc et de santal, idéal au quotidien. Si vous voulez plus de chaleur, prenez Dior Homme et son iris cacaoté. Pour une version sportive et estivale, Allure Homme Sport de Chanel garde le même effet propre avec plus d'éclat."
+    },
+    {
+     "q": "Le musc est-il une note trop féminine pour un homme ?",
+     "a": "Non. Le musc est présent dans une grande partie des parfums masculins frais, d'Acqua di Gio à Chrome. Il y donne un effet de peau lavée plutôt qu'une douceur poudrée. C'est l'accord qui l'entoure qui décide : avec la vanille et la violette, il penche vers le féminin ; avec les agrumes et les herbes, vers le masculin."
+    },
+    {
+     "q": "Quel parfum musqué pour homme porter en été ?",
+     "a": "D&G Light Blue pour Homme et Acqua di Gio sont les plus adaptés à la chaleur. Leur musc prolonge des agrumes et une impression marine sans alourdir. Wood Sage & Sea Salt, mixte, convient aux journées de plage. Prévoyez de revaporiser : ces fraîcheurs tiennent moins longtemps que les iris musqués."
+    },
+    {
+     "q": "Qu'est-ce que l'ambrette dans un parfum ?",
+     "a": "L'ambrette est une graine d'hibiscus dont l'huile a une odeur musquée, légèrement fruitée. C'est l'un des rares muscs d'origine végétale. Dans Wood Sage & Sea Salt, elle apparaît dès le départ et relie le sel marin au fond de musc. Elle donne une sensation de peau chaude plus naturelle que les muscs blancs."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Musk Colognes for Men: 9 Clean-Shirt Scents Ranked",
+   "meta": "Prada L'Homme and Dior Homme top our ranking of musky fragrances for men. Soapy iris or salty freshness, here's what each one smells like.",
+   "h1": "The best musky fragrances for men, sorted by style",
+   "intro": "The best musk fragrance for men on our list is Prada L'Homme: a soapy iris that smells like a white shirt fresh off the ironing board. Dior Homme is a close second, with a more powdery musk held up by leather and vetiver. Allure Homme Sport rounds out the top three if you want the same clean effect with a salty, sporty edge. After that come the big aquatic classics and two drier unisex picks.",
+   "sections": [
+    {
+     "title": "Musk in men's fragrance: soap, not silk",
+     "body": "In women's perfumes, musk often drifts toward powder and vanilla. In men's fragrances it has a different job. First, it makes fleeting materials last: the lemon of Eau Sauvage decades ago, the bergamot and neroli of Acqua di Gio today. Second, it adds that just-showered skin effect found across almost all fresh masculine perfumery. The picks here split into two groups. One is the musky irises, Prada L'Homme and Dior Homme, where musk rounds off an already soft material. The other is aromatics and aquatics, where musk hides under citrus and salt. Either way, don't expect a scent that fills a meeting room. A musky men's fragrance is noticed when someone leans in for a hug or brushes your jacket collar. That's a strength at work and a weakness at night, when a denser woody scent does better."
+    },
+    {
+     "title": "Iris, salt or citrus: choosing your musk",
+     "body": "If you love the smell of clean laundry and pressed shirts, start with Prada L'Homme or Chrome. Prada is softer. Chrome is more metallic. For something warmer that goes from office to dinner, Dior Homme and its faint cocoa are hard to beat. Beach people should head for Acqua di Gio or D&G Light Blue pour Homme, both by Alberto Morillas, where musk stretches out the sea and the citrus. Wood Sage & Sea Salt and Silver Mountain Water are unisex and work for men who find classic masculine scents too loud. When you apply, aim for warm skin: base of the neck and inner wrists, then one spray on your T-shirt. Musk holds better on fabric than on dry skin. Two or three sprays is enough for the eaux de toilette here. The Jo Malone cologne needs one more."
+    }
+   ],
+   "why": {
+    "prada-lhomme": "Top spot because it does exactly what a musk scent for men should: smell clean without smelling like shower gel. Iris and neroli sit on a base of sandalwood, musk and cedar. Daniela Andrier built it for every day, and it's very safe at work. It's soapier than Dior Homme and lacks a bit of bite.",
+    "dior-dior-homme": "Dior Homme taught a lot of men to wear something soft. Powdery iris and cocoa rest on vetiver, leather and musk. It's warmer and more sensual than Prada L'Homme, with the same buttoned-up polish. Wear it October to April, desk to dinner. The quiet projection will disappoint anyone chasing a trail.",
+    "chanel-allure-homme-sport": "Allure Homme Sport saves the musk for last, under tonka and vetiver. Before that, orange and aldehydes give a salty post-workout skin feel. Pick it if you want clean musk with more life than Prada L'Homme. Ideal for summer and the gym. Projection is a little shy for a Chanel.",
+    "giorgio-armani-acqua-di-gio": "It's here for one reason: the patchouli, cedar and musk base is what remains once the bergamot and neroli melt away. That's the smell of sun-warmed skin. A benchmark of the genre, still spotless in summer and at the office. The downside of its fame is that it rarely surprises. More marine than D&G Light Blue pour Homme, and a bit longer-lasting.",
+    "creed-green-irish-tweed": "Green Irish Tweed pairs musk and ambergris under lemon verbena and violet leaf. The effect is green and crisp, almost grassy, with a base that stays clean for hours. It suits men who like a classic without the bitterness of oakmoss. Less aquatic than Acqua di Gio. Some will find it too restrained for its reputation.",
+    "azzaro-chrome": "Chrome smells like a pressed shirt and polished metal. Musk, sandalwood and oakmoss carry a bright opening of lemon and rosemary. It's a no-risk first musky fragrance that people around you tend to like. More metallic than Prada L'Homme, though seasoned noses will find it flat.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "D&G Light Blue pour Homme opens its base with musk, followed by oakmoss and incense. Up top, icy grapefruit and juniper say Sicilian summer. It's the most summery masculine pick here. Longevity is limited and weaker than Acqua di Gio's. Plan on a second spray in the late afternoon.",
+    "jo-malone-wood-sage-sea-salt": "Unisex, and the most mineral musk on the list. Ambrette (a seed with a naturally musky smell) shows up right at the start alongside sea salt. Christine Nagel then lays sage and driftwood over a musk base. Drier and less sweet than the masculine picks above it. As a cologne, it needs reapplying.",
+    "creed-silver-mountain-water": "Another unisex pick, with musk leading its base ahead of sandalwood. Green tea and blackcurrant give a cold, almost mineral freshness. This is the musk for men who think Acqua di Gio is everywhere. The metallic blackcurrant won't please everyone. It's airier than Green Irish Tweed, from the same house."
+   },
+   "faq": [
+    {
+     "q": "What is the best musk fragrance for men?",
+     "a": "Our pick is Prada L'Homme, a soapy iris over musk and sandalwood that works every day. If you want more warmth, go for Dior Homme and its cocoa-tinged iris. For a sporty summer version, Chanel's Allure Homme Sport keeps the same clean feel with more sparkle."
+    },
+    {
+     "q": "Is musk too feminine for men?",
+     "a": "No. Musk shows up in a huge share of fresh men's fragrances, from Acqua di Gio to Chrome. There it reads as clean skin rather than soft powder. What surrounds it decides the effect: with vanilla and violet it leans feminine, with citrus and herbs it leans masculine."
+    },
+    {
+     "q": "Which musky cologne is best for summer?",
+     "a": "D&G Light Blue pour Homme and Acqua di Gio handle heat best. Their musk stretches out citrus and a marine feel without weighing anything down. Wood Sage & Sea Salt, which is unisex, is great for beach days. Expect to reapply: these fresh scents fade sooner than the musky irises."
+    },
+    {
+     "q": "What is ambrette in perfume?",
+     "a": "Ambrette is a hibiscus seed whose oil smells musky and slightly fruity. It's one of the few plant-based musks. In Wood Sage & Sea Salt it appears right in the opening and links the sea salt to the musk base. It gives a warmer, more natural skin feel than white musks."
+    }
+   ]
+  }
+ },
+ "ng:Neroli:F": {
+  "picks": [
+   "jennifer-lopez-glow",
+   "prada-infusion-diris",
+   "dolce-gabbana-dolce",
+   "chanel-n-19",
+   "chanel-n-5",
+   "nina-ricci-lair-du-temps",
+   "by-kilian-love-dont-be-shy",
+   "versace-yellow-diamond",
+   "tom-ford-neroli-portofino",
+   "thierry-mugler-mugler-cologne"
+  ],
+  "fr": {
+   "title": "Parfum néroli femme : 10 parfums lumineux, du savon à la poudre",
+   "meta": "Glow, Infusion d'Iris ou N°19 : notre classement des parfums au néroli pour femme, de la peau propre au floral aldéhydé. Avec les défauts de chacun.",
+   "h1": "Les meilleurs parfums au néroli pour femme, classés et commentés",
+   "intro": "Le parfum au néroli pour femme que nous plaçons en tête est Glow de Jennifer Lopez : néroli, fleur d'oranger et musc propre, l'odeur d'une peau qui sort de la douche. Infusion d'Iris de Prada suit avec un néroli plus sec, posé sur l'iris et l'encens. Dolce de Dolce & Gabbana complète le podium, plus laiteux. Les grands Chanel viennent ensuite, où le néroli sert d'éclat plutôt que de sujet.",
+   "sections": [
+    {
+     "title": "Deux usages du néroli dans les parfums féminins",
+     "body": "Dans les parfums masculins, le néroli sert presque toujours la cologne : un départ vif, puis des herbes et du bois. Côté féminin, on le rencontre sous deux formes très différentes. La première est celle de la lumière. Dans N°5 ou N°19, il se tient en tête avec les aldéhydes ou le galbanum et donne un éclat qui s'efface vite. On ne le reconnaît pas, on sent seulement que le bouquet s'ouvre. La seconde est celle de la peau propre. Dans Glow, Dolce ou Infusion d'Iris, il est associé à la fleur d'oranger et à un fond de musc ou d'encens. Ce couple néroli et fleur d'oranger est le vrai marqueur des féminins de cette liste : le néroli apporte le vert et le zeste, la fleur d'oranger le miel et la chair. Si vous aimez l'odeur d'un savon de Marseille, cherchez ce duo. Si vous préférez le glamour d'un grand floral, le néroli ne sera qu'un détail de départ."
+    },
+    {
+     "title": "Faire durer une note qui s'envole",
+     "body": "Le néroli s'évapore vite. Dans les parfums de cette sélection, sa tenue dépend donc de ce qui le suit. Glow et Mugler Cologne misent sur le musc : l'effet propre persiste, même quand le néroli a disparu. Love Don't Be Shy le noie dans le caramel et la vanille, ce qui lui donne des heures mais lui retire sa fraîcheur. Infusion d'Iris le prolonge par l'iris et le benjoin, avec une discrétion qui frôle le confidentiel. Pour en profiter, vaporisez le matin sur la peau et une fois sur un foulard, où les notes de tête durent plus longtemps. Au printemps et en été, choisissez Glow, Dolce ou Yellow Diamond. En hiver, N°5 et Love Don't Be Shy tiennent mieux la route. Évitez de chercher un néroli puissant : c'est une matière de lumière, pas de sillage. Notre conseil pour les peaux sèches est simple : hydratez d'abord avec une crème neutre, le parfum s'y accroche mieux."
+    }
+   ],
+   "why": {
+    "jennifer-lopez-glow": "Glow est en tête parce que le néroli y est le sujet, pas un détail. Il ouvre avec la fleur d'oranger et le pamplemousse, puis se pose sur un musc propre adouci de vanille et d'iris. L'effet est celui d'une peau fraîchement douchée. C'est simple, presque trop, mais c'est exactement ce qu'on cherche ici. Plus savonneux que Dolce, moins sophistiqué qu'Infusion d'Iris.",
+    "prada-infusion-diris": "Infusion d'Iris ouvre sur fleur d'oranger, néroli et mandarine. Daniela Andrier fait ensuite glisser cette fraîcheur vers un iris de lin, du cèdre et de l'encens. C'est le néroli le plus élégant de la liste et le plus sec. Il plaira aux femmes qui trouvent Glow trop sucré. Son défaut : sur la peau, il reste presque confidentiel.",
+    "dolce-gabbana-dolce": "Dolce associe le néroli à la papaye et à l'amaryllis blanc, puis à un nénuphar et un lys très laiteux. Le fond de cashmeran et de musc garde cette douceur contre la peau. C'est le néroli le plus tendre de notre sélection, idéal au printemps. Moins savonneux que Glow. Sa faible projection le rend vite effacé.",
+    "chanel-n-19": "N°19 place le néroli entre le galbanum et la bergamote, dans une tête verte et presque froide. Henri Robert le fait ensuite passer à l'iris et à la mousse de chêne. Ici, le néroli ne sent pas le savon : il durcit le vert et donne de l'air. C'est le choix des femmes qui détestent les floraux sucrés. À l'opposé de Love Don't Be Shy.",
+    "chanel-n-5": "Dans N°5, le néroli partage la tête avec les aldéhydes et l'ylang-ylang. Ernest Beaux l'utilise comme une étincelle : il allume le bouquet de rose et de jasmin puis disparaît. Nous le classons ici pour ce rôle d'étincelle, plus que pour le néroli lui-même. Son côté savonneux et vintage peut dérouter. Plus chaud et plus poudré que N°19.",
+    "nina-ricci-lair-du-temps": "L'Air du Temps pose le néroli avec la bergamote et la pêche, au-dessus d'une rose et d'un jasmin très doux. C'est un néroli d'après-guerre, sage et duveteux, pensé pour le jour. On l'aime pour sa délicatesse. On lui reproche un sillage si discret qu'il frustre. Plus ancien et plus poudré que Dolce, dans la même veine tendre.",
+    "by-kilian-love-dont-be-shy": "Love Don't Be Shy transforme le néroli en confiserie. Il ouvre avec la bergamote et les baies roses, puis la fleur d'oranger rencontre caramel, sucre et vanille. C'est le néroli de soirée, pour l'automne et l'hiver. Calice Becker l'a rendu addictif, mais la sucrosité sature vite. Aux antipodes de N°19 et bien plus tenace que Glow.",
+    "versace-yellow-diamond": "Yellow Diamond mêle le néroli au citron et à un sorbet de poire. Au cœur, fleur d'oranger et mimosa gardent la lumière. C'est un néroli d'été, facile, qu'on vaporise avant la plage ou le déjeuner en terrasse. Il manque d'originalité et tient peu. Plus fruité que Glow, moins laiteux que Dolce.",
+    "tom-ford-neroli-portofino": "Neroli Portofino est mixte, et c'est peut-être le plus beau néroli de notre base. Rodrigo Flores-Roux l'a construit comme une cologne de luxe : agrumes, néroli et fleur d'oranger, puis ambre et musc. Nous le plaçons après les féminins par cohérence de genre, pas de qualité. La tenue reste celle d'une fraîcheur. Plus hespéridé que Glow.",
+    "thierry-mugler-mugler-cologne": "Mugler Cologne est mixte et réduit la formule à l'essentiel. Néroli, bergamote et petit-grain en tête. Puis la fleur d'oranger, et du musc au fond. Le résultat sent la peau propre avec une netteté que peu de féminins atteignent. Alberto Morillas en a fait un parfum de salle de bain chic. Très léger, il demande plusieurs applications. Plus minimaliste que Neroli Portofino."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum au néroli choisir pour une femme ?",
+     "a": "Pour un néroli bien lisible, prenez Glow de Jennifer Lopez, qui l'associe à la fleur d'oranger et à un musc propre. Si vous voulez plus d'élégance et moins de sucre, Infusion d'Iris de Prada est notre second choix. Pour le soir, Love Don't Be Shy en fait une version gourmande et plus tenace."
+    },
+    {
+     "q": "Néroli et fleur d'oranger, est-ce la même chose ?",
+     "a": "Non, même s'ils viennent du même arbre, l'oranger amer. Le néroli est une huile distillée, plus verte et plus zestée. La fleur d'oranger absolue est plus miellée et plus charnelle. Dans les parfums féminins, on les trouve souvent ensemble : c'est le cas de Glow, d'Infusion d'Iris et de Love Don't Be Shy."
+    },
+    {
+     "q": "Pourquoi mon parfum au néroli ne tient-il pas ?",
+     "a": "Parce que le néroli est une note de tête volatile. Ce qui reste après une heure, c'est le fond : musc dans Glow, iris et encens dans Infusion d'Iris. Si vous voulez que la fraîcheur dure, vaporisez un foulard en plus de la peau ou choisissez un parfum au fond plus dense comme Love Don't Be Shy."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Neroli Perfumes for Women: 10 Picks, Clean to Powdery",
+   "meta": "Glow, Infusion d'Iris and Chanel N°19 lead our ranking of neroli perfumes for women. Fresh soap or aldehydic glamour, flaws included.",
+   "h1": "The best neroli perfumes for women, from fresh soap to powder",
+   "intro": "Our top neroli perfume for women is Glow by Jennifer Lopez: neroli, orange blossom and clean musk, like skin straight out of the shower. Prada's Infusion d'Iris comes second with a drier neroli over iris and incense. Dolce by Dolce & Gabbana takes third, softer and milkier. The Chanel classics follow. In those, neroli is the spark at the top, not the main event.",
+   "sections": [
+    {
+     "title": "Two ways neroli works in women's perfume",
+     "body": "In men's fragrance, neroli almost always serves the cologne formula: a bright opening, then herbs and wood. In women's perfume it shows up in two very different roles. The first is light. In N°5 or N°19 it sits up top with aldehydes or galbanum and gives a flash of brightness that fades fast. You don't recognize it as neroli. You just feel the bouquet open up. The second role is clean skin. In Glow, Dolce and Infusion d'Iris, neroli is paired with orange blossom over a base of musk or incense. That neroli and orange blossom pairing is the real signature of the feminine picks here. Neroli brings the green, zesty side, orange blossom the honey and flesh. If you love the smell of a good bar of soap, look for that duo. If you prefer the glamour of a big floral, neroli will be a brief opening detail."
+    },
+    {
+     "title": "Making a fleeting note last",
+     "body": "Neroli evaporates quickly, so how long it lasts depends on what comes after it. Glow and Mugler Cologne rely on musk: the clean effect lingers even once the neroli itself is gone. Love Don't Be Shy drowns it in caramel and vanilla, which buys hours of wear but costs all the freshness. Infusion d'Iris extends it with iris and benzoin, quietly enough to be almost private. To get the most out of it, spray your skin in the morning and a scarf once, since top notes last longer on fabric. In spring and summer, reach for Glow, Dolce or Yellow Diamond. In winter, N°5 and Love Don't Be Shy hold up better. Don't expect a powerful neroli. It's a material for brightness, not for a trail. One tip for dry skin: moisturize first with an unscented lotion, and the perfume will cling better."
+    }
+   ],
+   "why": {
+    "jennifer-lopez-glow": "Glow is number one because neroli is the point here, not a footnote. It opens with orange blossom and grapefruit, then settles on clean musk softened by vanilla and orris. The effect is freshly showered skin. It's simple, maybe too simple, but that's exactly what this list is about. Soapier than Dolce and less refined than Infusion d'Iris.",
+    "prada-infusion-diris": "Orange blossom, neroli and mandarin open Infusion d'Iris. Daniela Andrier then slides that freshness into a linen-like iris, cedar and incense. It's the most elegant neroli on the list, and the driest. Women who find Glow too sweet will like it. The catch: on skin it's close to a secret.",
+    "dolce-gabbana-dolce": "Dolce pairs neroli with papaya and white amaryllis, then a milky water lily and lily. A cashmeran and musk base keeps that softness close to the skin. It's the gentlest neroli we've picked, lovely in spring. Less soapy than Glow. Its weak projection means it disappears fast.",
+    "chanel-n-19": "N°19 wedges neroli between galbanum and bergamot in a green, almost cold opening. Henri Robert then hands it over to iris and oakmoss. Here neroli doesn't smell like soap: it sharpens the green and adds air. This is for women who hate sweet florals. The polar opposite of Love Don't Be Shy.",
+    "chanel-n-5": "In N°5, neroli shares the top with aldehydes and ylang-ylang. Ernest Beaux used it as a spark that lights up the rose and jasmine, then vanishes. We rank it for that spark more than for the neroli itself. The soapy, vintage feel can put people off. Warmer and more powdery than N°19.",
+    "nina-ricci-lair-du-temps": "L'Air du Temps sets neroli with bergamot and peach above a very soft rose and jasmine. It's a postwar neroli, gentle and fuzzy, made for daytime. You'll love the delicacy. You may hate how little it projects. Older and more powdery than Dolce, in the same tender vein.",
+    "by-kilian-love-dont-be-shy": "Love Don't Be Shy turns neroli into candy. Bergamot and pink pepper open it, then orange blossom meets caramel, sugar and vanilla. This is the evening neroli, for autumn and winter. Calice Becker made it addictive, but the sweetness gets cloying quickly. The opposite of N°19, and far longer-lasting than Glow.",
+    "versace-yellow-diamond": "Yellow Diamond mixes neroli with lemon and a pear sorbet. Orange blossom and mimosa keep the heart bright. It's an easy summer neroli, the kind you spray before the beach or a patio lunch. It isn't original and it doesn't last. Fruitier than Glow and less milky than Dolce.",
+    "tom-ford-neroli-portofino": "Unisex, and arguably the most beautiful neroli we cover. Rodrigo Flores-Roux built it as a luxury cologne: citrus, neroli and orange blossom, then amber and musk. It sits behind the feminine picks for gender reasons, not quality. Longevity is still that of a fresh scent. More citrusy than Glow.",
+    "thierry-mugler-mugler-cologne": "Mugler Cologne is unisex and stripped to the essentials. Neroli, bergamot and petitgrain up top. Orange blossom in the heart, musk below. It smells like clean skin with a crispness few feminine scents manage. Alberto Morillas made it the chic bathroom scent. It's very light and needs several applications. Even more minimal than Neroli Portofino."
+   },
+   "faq": [
+    {
+     "q": "What is the best neroli perfume for women?",
+     "a": "For a neroli you can clearly smell, try Glow by Jennifer Lopez, which pairs it with orange blossom and clean musk. If you want more polish and less sugar, Prada's Infusion d'Iris is our second pick. For evenings, Love Don't Be Shy turns neroli into a sweeter, longer-lasting scent."
+    },
+    {
+     "q": "Is neroli the same as orange blossom?",
+     "a": "No, though both come from the bitter orange tree. Neroli is a distilled oil, greener and zestier. Orange blossom absolute is more honeyed and fleshy. Women's perfumes often use both together, as Glow, Infusion d'Iris and Love Don't Be Shy do."
+    },
+    {
+     "q": "Why doesn't my neroli perfume last?",
+     "a": "Because neroli is a volatile top note. What remains after an hour is the base: musk in Glow, iris and incense in Infusion d'Iris. If you want the freshness to stick around, spray a scarf as well as your skin, or pick a scent with a denser base like Love Don't Be Shy."
+    }
+   ]
+  }
+ },
+ "ng:Orange:F": {
+  "picks": [
+   "hermes-eau-des-merveilles",
+   "chanel-coco-mademoiselle",
+   "guerlain-vol-de-nuit",
+   "parfums-de-marly-darcy",
+   "parfums-de-marly-safanad",
+   "elizabeth-taylor-white-diamonds",
+   "acqua-di-parma-colonia",
+   "maison-margiela-replica-by-the-fireplace"
+  ],
+  "fr": {
+   "title": "Parfum orange femme : 8 parfums au zeste, du floral à l'ambré",
+   "meta": "Eau des Merveilles et Coco Mademoiselle en tête : notre sélection de parfums à l'orange pour femme, de l'agrume pétillant à l'ambre salé.",
+   "h1": "Les meilleurs parfums à l'orange pour femme, notre classement",
+   "intro": "Le parfum à l'orange pour femme que nous préférons est Eau des Merveilles d'Hermès. L'orange y rencontre l'élémi et un ambre salé, et le résultat ne ressemble à rien d'autre. Coco Mademoiselle suit, avec une orange pétillante posée sur un patchouli propre : c'est le choix le plus polyvalent. Vol de Nuit de Guerlain complète le podium pour celles qui aiment l'orange au bord de la poudre et de la vanille.",
+   "sections": [
+    {
+     "title": "L'orange au féminin : un éclat avant les fleurs",
+     "body": "Dans les parfums masculins, l'orange est souvent amère et sèche, tenue par le poivre et le vétiver. Côté féminin, elle joue un autre rôle. Elle sert de rampe de lancement aux fleurs. Dans Coco Mademoiselle et Darcy, elle ouvre sur la rose et le jasmin avec un effet de pulpe juteuse qui rend le bouquet plus jeune. Dans Safanad, elle s'appuie sur une poire et prépare une fleur d'oranger crémeuse. Ce n'est presque jamais une note qu'on garde longtemps. Elle colore les dix premières minutes, puis s'efface derrière le cœur. Pour cette raison, il ne faut pas chercher un parfum qui « sent l'orange » toute la journée : aucun des huit ne le fait. Cherchez plutôt celui dont le départ vous plaît et dont le fond vous convient. Eau des Merveilles est l'exception partielle de la liste. L'ambre et l'élémi y prolongent l'impression d'écorce plus longtemps que chez les autres."
+    },
+    {
+     "title": "Du zeste au dessert : choisir selon le fond",
+     "body": "Puisque l'orange part vite, c'est le fond qui décide. Trois directions se dessinent dans cette sélection. La première est celle du patchouli propre et des bois, avec Coco Mademoiselle et Darcy. C'est la plus facile au bureau et au printemps. La deuxième est ambrée et sucrée. Vol de Nuit s'y pose sur la vanille et le benjoin, Safanad sur une vanille crémeuse. By the Fireplace pousse l'idée jusqu'aux marrons grillés. Ce sont des parfums d'automne, plus doux sur la peau. La troisième reste dans la fraîcheur pure avec la Colonia d'Acqua di Parma : citron, orange et lavande sur des bois légers. White Diamonds occupe une place à part, puisque l'orange n'y est qu'un reflet dans des aldéhydes très glamour. Pour l'application, deux pulvérisations suffisent sur les eaux de parfum de la liste. Sur la Colonia, soyez plus généreuse et revaporisez à midi."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "Eau des Merveilles est notre numéro un parce que l'orange y dure plus qu'ailleurs. L'élémi et un ambre salé prolongent l'écorce, puis le cèdre et le vétiver sèchent le tout. On pense à une pierre chaude au bord de la mer. Ralf Schwieger et Nathalie Feisthauer ont signé ici un parfum qui déroute celles qui attendent une fleur. Beaucoup moins sucré que Safanad.",
+    "chanel-coco-mademoiselle": "Coco Mademoiselle ouvre sur orange, bergamote et pamplemousse, puis glisse vers la rose et le litchi. Le fond de patchouli propre et de vanille lui donne une tenue solide. C'est le parfum à l'orange le plus polyvalent de la liste : bureau, rendez-vous, week-end. Jacques Polge l'a si bien construit qu'on le croise partout. Plus sophistiqué que Darcy, plus banal aujourd'hui.",
+    "guerlain-vol-de-nuit": "Vol de Nuit place l'orange à côté du galbanum amer. Ce départ vert et piquant laisse ensuite passer l'iris, la violette et une vanille boisée. Jacques Guerlain en a fait un parfum de nuit, poudré et rétro. Il demande de la patience, car le premier contact surprend. C'est l'orange la plus mystérieuse de notre sélection, aux antipodes du pétillant de Coco Mademoiselle.",
+    "parfums-de-marly-darcy": "Darcy inonde une rose et un jasmin d'orange, de citron et de bergamote. Le fond de patchouli, musc et bois reste léger. C'est un parfum de printemps et de déjeuner au soleil, très facile à porter. Il ressemble à un Coco Mademoiselle plus simple et moins tenace. Nous le trouvons joli mais moins personnel que les autres créations de la maison.",
+    "parfums-de-marly-safanad": "Safanad mise sur la rondeur. L'orange et la poire ouvrent vers une fleur d'oranger, un ylang-ylang et un iris crémeux, puis une vanille et un ambre bien présents. C'est l'orange version douceur, parfaite à l'automne pour qui aime les floraux sucrés. Elle manque d'audace pour une maison de niche. Moins salée et bien plus gourmande qu'Eau des Merveilles.",
+    "elizabeth-taylor-white-diamonds": "White Diamonds n'est pas un parfum d'orange à proprement parler. L'orange y brille avec le néroli et la bergamote dans un nuage d'aldéhydes, puis cède la place à la tubéreuse et à la mousse de chêne. Nous l'incluons pour celles qui veulent ce reflet d'agrume dans un grand floral de soirée. Opulent, il peut paraître daté. Plus glamour que Darcy.",
+    "acqua-di-parma-colonia": "La Colonia est mixte. On la conseille aux femmes qui veulent l'orange la plus nette, sans fleur ni sucre. Citron, bergamote et orange ouvrent sur la lavande et le romarin, avec un peu de verveine. Les bois du fond restent discrets. C'est une cologne historique, créée en 1916, pour les journées chaudes. Sa tenue est forcément limitée. Plus sèche que Darcy et bien plus fraîche que tout le reste.",
+    "maison-margiela-replica-by-the-fireplace": "By the Fireplace, mixte, prend l'orange dans l'autre sens. Elle se mêle au girofle et aux baies roses, puis disparaît dans les marrons grillés, le gaïac et une vanille fumée. C'est l'orange de décembre, celle d'une écorce posée près du feu. Marie Salamagne signe un parfum réconfortant mais linéaire et assez sucré. À réserver à l'hiver, à l'inverse de la Colonia."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum à l'orange choisir pour une femme ?",
+     "a": "Pour une orange originale et durable, prenez Eau des Merveilles d'Hermès, où l'agrume se prolonge dans un ambre salé. Pour un parfum plus classique et polyvalent, Coco Mademoiselle ouvre sur une orange pétillante avant la rose et le patchouli. Si vous aimez les parfums doux, Safanad fait de l'orange un préambule à la vanille."
+    },
+    {
+     "q": "Un parfum à l'orange est-il forcément estival ?",
+     "a": "Non. L'orange est une note de tête, et c'est le fond qui décide de la saison. Darcy et la Colonia sont faits pour l'été. Vol de Nuit et Safanad reposent sur la vanille et conviennent à l'automne. By the Fireplace associe même l'orange aux marrons grillés, ce qui en fait un parfum d'hiver."
+    },
+    {
+     "q": "Quel parfum à l'orange porter au bureau ?",
+     "a": "Coco Mademoiselle est le plus sûr : son orange est lumineuse, son fond de patchouli reste propre et sa présence ne déborde pas si on se limite à deux pulvérisations. Eau des Merveilles convient aussi, avec un style plus minéral. Évitez White Diamonds en open space, son opulence aldéhydée prend beaucoup de place."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Orange Perfumes for Women: 8 Zesty Picks Ranked",
+   "meta": "Eau des Merveilles and Coco Mademoiselle lead our list of orange perfumes for women, from sparkling citrus to salty amber. Flaws included.",
+   "h1": "The best orange perfumes for women, ranked and reviewed",
+   "intro": "Our favorite orange perfume for women is Hermès Eau des Merveilles. Orange meets elemi and a salty amber, and the result smells like nothing else. Coco Mademoiselle comes second with a fizzy orange over clean patchouli, the most versatile choice on the list. Guerlain's Vol de Nuit takes third for anyone who likes orange edging into powder and vanilla. Five more follow, from sunny florals to a fireside scent.",
+   "sections": [
+    {
+     "title": "What orange does in women's perfume",
+     "body": "In men's fragrances, orange tends to be bitter and dry, held up by pepper and vetiver. In women's perfumes it plays a different part. It's a launch ramp for the flowers. In Coco Mademoiselle and Darcy, it opens onto rose and jasmine with a juicy, pulpy effect that makes the bouquet feel younger. In Safanad it leans on pear and leads into a creamy orange blossom. It's almost never a note that sticks around. It colors the first ten minutes, then steps back behind the heart. So don't look for a perfume that smells of orange all day, because none of these eight do. Look for the one whose opening you love and whose base suits you. Eau des Merveilles is the partial exception. Amber and elemi carry the peel impression longer than anywhere else on the list."
+    },
+    {
+     "title": "From zest to dessert: let the base decide",
+     "body": "Since orange leaves early, the base is what you're really choosing. This list splits three ways. First, clean patchouli and woods, with Coco Mademoiselle and Darcy. That's the easiest route for work and spring. Second, amber and sweetness. Vol de Nuit settles on vanilla and benzoin, Safanad on a creamy vanilla, and By the Fireplace takes the idea all the way to roasted chestnuts. These are autumn scents, softer on skin. Third, pure freshness with Acqua di Parma's Colonia: lemon, orange and lavender over light woods. White Diamonds stands apart, since orange is just a glint in its glamorous aldehydes. Two sprays is plenty for the eaux de parfum here. With the Colonia, be generous and top up at lunch."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "Our number one because the orange lasts longer here than anywhere else. Elemi and a salty amber stretch out the peel, then cedar and vetiver dry everything down. Think warm stone by the sea. Ralf Schwieger and Nathalie Feisthauer made something that throws anyone expecting a flower. Far less sweet than Safanad.",
+    "chanel-coco-mademoiselle": "Coco Mademoiselle opens on orange, bergamot and grapefruit, then slides into rose and lychee. Clean patchouli and vanilla in the base give it real staying power. It's the most versatile orange scent on the list: office, dates, weekends. Jacques Polge built it so well that you smell it everywhere. More polished than Darcy, and more common these days.",
+    "guerlain-vol-de-nuit": "Vol de Nuit puts orange next to bitter galbanum. That green, prickly start then gives way to iris, violet and a woody vanilla. Jacques Guerlain made it a night scent, powdery and retro. It takes patience, because first contact is strange. The most mysterious orange here, worlds away from the fizz of Coco Mademoiselle.",
+    "parfums-de-marly-darcy": "Darcy floods rose and jasmine with orange, lemon and bergamot. The patchouli, musk and wood base stays light. It's a spring scent for sunny lunches, very easy to wear. Picture a simpler, shorter-lived Coco Mademoiselle. Pretty, but less personal than the house's best work.",
+    "parfums-de-marly-safanad": "Safanad is all about roundness. Orange and pear lead into orange blossom, ylang-ylang and creamy iris, then a generous vanilla and amber. This is orange as comfort, perfect in autumn if you like sweet florals. It plays it safe for a niche house. Less salty and much sweeter than Eau des Merveilles.",
+    "elizabeth-taylor-white-diamonds": "Strictly speaking, this isn't an orange perfume. Orange glints with neroli and bergamot inside a cloud of aldehydes, then yields to tuberose and oakmoss. We include it for anyone who wants that citrus flash in a grand evening floral. It's opulent and can feel dated. More glamorous than Darcy.",
+    "acqua-di-parma-colonia": "The Colonia is unisex. We recommend it to women who want the cleanest orange, with no flowers and no sugar. Lemon, bergamot and orange lead into lavender and rosemary with a touch of verbena. The woods underneath stay quiet. It's a heritage cologne from 1916, made for hot days. Longevity is limited, as you'd expect. Drier than Darcy and fresher than anything else here.",
+    "maison-margiela-replica-by-the-fireplace": "By the Fireplace, also unisex, takes orange the other way. It mingles with clove and pink pepper, then melts into roasted chestnuts, guaiac and a smoky vanilla. This is December orange, peel left by the fire. Marie Salamagne made it cozy but linear and fairly sweet. Keep it for winter, the opposite of the Colonia."
+   },
+   "faq": [
+    {
+     "q": "What is the best orange perfume for women?",
+     "a": "For an original orange that lasts, pick Hermès Eau des Merveilles, where the citrus carries into a salty amber. For something more classic and versatile, Coco Mademoiselle opens on sparkling orange before rose and patchouli. If you like soft scents, Safanad uses orange as a prelude to vanilla."
+    },
+    {
+     "q": "Are orange perfumes only for summer?",
+     "a": "No. Orange is a top note, so the base decides the season. Darcy and the Colonia are summer scents. Vol de Nuit and Safanad rest on vanilla and suit autumn. By the Fireplace even pairs orange with roasted chestnuts, which makes it a winter perfume."
+    },
+    {
+     "q": "Which orange perfume is best for the office?",
+     "a": "Coco Mademoiselle is the safest bet. The orange is bright, the patchouli base stays clean, and it won't overflow if you stick to two sprays. Eau des Merveilles works too, in a more mineral style. Skip White Diamonds in an open-plan office, since its aldehydic opulence takes up a lot of room."
+    }
+   ]
+  }
+ },
+ "ng:Orange:M": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "chanel-allure-homme-sport",
+   "amouage-jubilation-xxv-man",
+   "prada-luna-rossa",
+   "parfums-de-marly-ispazon",
+   "abercrombie-fitch-fierce",
+   "acqua-di-parma-colonia",
+   "maison-margiela-replica-by-the-fireplace"
+  ],
+  "fr": {
+   "title": "Parfum orange homme : 8 parfums à l'écorce sèche et minérale",
+   "meta": "Terre d'Hermès, Allure Homme Sport ou Jubilation XXV : notre classement des parfums à l'orange pour homme, de la pierre chaude à l'encens.",
+   "h1": "Les meilleurs parfums à l'orange pour homme, du sport au soir",
+   "intro": "Le meilleur parfum à l'orange pour homme reste Terre d'Hermès. Son orange amère frotte contre le silex et le vétiver, et le résultat sent la terre chauffée. Allure Homme Sport vient ensuite, plus pétillant et plus salé, pour l'été et l'effort. Jubilation XXV d'Amouage prend la troisième place : l'orange y ouvre un oriental d'encens et de mûre, réservé aux grandes occasions. Cinq autres suivent, de la garrigue au coin du feu.",
+   "sections": [
+    {
+     "title": "L'orange côté homme : l'écorce plus que le fruit",
+     "body": "Chez les femmes, l'orange sert souvent de préambule juteux aux fleurs. Dans les parfums masculins de cette liste, on garde surtout l'écorce. Le zeste est sec, parfois amer, et il frotte contre des matières dures. Dans Terre d'Hermès, il rencontre le silex et le poivre avant de tomber sur le vétiver. Dans Allure Homme Sport, il s'associe à des aldéhydes qui donnent une impression de sel. Dans Ispazon, il se perd dans le laurier et le thym comme dans une garrigue. On sent rarement la pulpe, presque jamais le sucre. Cette sécheresse explique pourquoi l'orange plaît autant en parfumerie masculine : elle apporte de la lumière sans rien d'enfantin. C'est aussi pourquoi elle se marie si bien au vétiver et au cèdre, deux fonds secs qui prolongent son amertume. Ceux qui cherchent une orange gourmande la trouveront plutôt dans By the Fireplace, le seul de la liste à l'assumer."
+    },
+    {
+     "title": "Du matin au soir : choisir selon le moment",
+     "body": "Pour le bureau, Terre d'Hermès et Luna Rossa sont les plus sûrs. Le premier est plus terreux, le second plus lisse avec sa lavande mentholée. Pour le sport ou la chaleur, Allure Homme Sport et Fierce fonctionnent mieux : départ vif et fond musqué qui ne colle pas à la peau. Fierce porte une forte image de marque, à vous de voir si cela vous gêne. La Colonia d'Acqua di Parma est la plus classique, à vaporiser généreusement le matin et à renouveler. Pour le soir, changez d'univers. Jubilation XXV et By the Fireplace utilisent l'orange comme un rayon de lumière dans un fond sombre d'encens ou de bois fumé. Un conseil pratique : l'orange s'évapore en quelques minutes, alors ne jugez pas un parfum sur la touche. Portez-le une demi-journée. Sur Terre d'Hermès en particulier, le vrai visage apparaît quand le vétiver prend le relais."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Terre d'Hermès est notre premier choix parce que l'orange y a une fonction précise : éclairer la terre. Jean-Claude Ellena la pose sur le silex et le pamplemousse, puis la fait glisser vers le poivre, le vétiver et le cèdre. Le résultat est sec et minéral, parfait au bureau. Il est devenu si répandu qu'il surprend moins. Plus terreux qu'Allure Homme Sport.",
+    "chanel-allure-homme-sport": "Allure Homme Sport ouvre sur orange, mandarine et aldéhydes, un départ pétillant qui évoque une peau salée après le sport. Le poivre et le néroli prennent ensuite le relais, puis la fève tonka et le musc adoucissent le fond. C'est l'orange la plus estivale des masculins de la liste. Sa projection reste sage. Moins minéral que Terre d'Hermès, plus doux aussi.",
+    "amouage-jubilation-xxv-man": "Jubilation XXV glisse l'orange parmi la mûre, l'encens, le labdanum et l'estragon. Bertrand Duchaufour en fait la lueur d'un oriental dense qui descend vers la myrrhe, l'oud et l'opoponax. On le réserve aux soirées d'hiver et aux grandes occasions. Il demande du temps pour être apprivoisé. Rien à voir avec la fraîcheur de Luna Rossa : c'est l'autre bout du spectre.",
+    "prada-luna-rossa": "Luna Rossa associe l'orange à la lavande et à la bergamote, puis passe à la sauge, à la menthe verte et à l'ambroxan. Daniela Andrier a construit une lavande nette, presque polie, que l'orange rend plus chaleureuse. C'est un parfum de bureau et de printemps. Trop sage pour marquer durablement, mais impossible de se tromper avec. Plus lisse que Terre d'Hermès.",
+    "parfums-de-marly-ispazon": "Ispazon mêle l'orange au citron vert, au citron, au laurier et au thym. Le résultat évoque une garrigue au soleil, qui s'adoucit ensuite sur le cèdre, le musc et un fond ambré vanillé. C'est un aromatique original, pour le printemps et l'automne. Il reste éclipsé par d'autres parfums de la maison. Plus sucré au fond que Terre d'Hermès.",
+    "abercrombie-fitch-fierce": "Fierce emploie l'orange avec le petit-grain, la cardamome et le sapin. Le cœur de romarin et de jasmin mène à un fond de musc, de mousse de chêne et de vétiver. C'est une fraîcheur boisée efficace, qui projette bien pour une cologne. Son association à une enseigne de vêtements peut freiner certains. Plus résineux qu'Allure Homme Sport.",
+    "acqua-di-parma-colonia": "Pour un homme, la Colonia est l'orange la plus classique qui soit. Citron, bergamote et orange y précèdent la lavande et le romarin sur des bois légers. Créée en 1916, elle est mixte et n'a pas pris une ride. On l'aime après la douche et le rasage, en été. Sa tenue est celle d'une cologne. Plus traditionnelle que Luna Rossa, et moins lavandée.",
+    "maison-margiela-replica-by-the-fireplace": "By the Fireplace est mixte et c'est l'orange la plus hivernale de notre sélection. Le zeste se mêle au girofle, puis s'efface dans les marrons grillés, le gaïac et une vanille fumée. Marie Salamagne l'a voulu réconfortant, et il l'est. Il reste linéaire et assez sucré. À choisir si Jubilation XXV vous semble trop dense pour le soir."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum à l'orange pour homme ?",
+     "a": "Notre choix est Terre d'Hermès : son orange amère, posée sur le silex et le vétiver, donne un parfum sec et minéral qui convient à presque toutes les situations. Pour l'été et le sport, Allure Homme Sport est plus pétillant. Pour le soir, Jubilation XXV d'Amouage fait de l'orange la lueur d'un oriental à l'encens."
+    },
+    {
+     "q": "Terre d'Hermès sent-il vraiment l'orange ?",
+     "a": "Au départ, oui. L'orange et le pamplemousse dominent les premières minutes avec une facette amère. Ensuite, le poivre et le géranium prennent le relais, puis le vétiver et le cèdre. Sur la peau, après une heure, on sent surtout la terre sèche et le bois. L'orange reste une impression de lumière, pas une note qu'on identifie."
+    },
+    {
+     "q": "Quel parfum à l'orange pour homme porter en hiver ?",
+     "a": "By the Fireplace associe l'orange au girofle, aux marrons grillés et à une vanille fumée : c'est le plus réconfortant. Jubilation XXV est plus dense, avec l'encens, la myrrhe et l'oud. Évitez les colognes comme la Colonia par temps froid, elles disparaissent trop vite et paraissent maigres sous un manteau."
+    },
+    {
+     "q": "Orange ou bergamote : quelle différence dans un parfum ?",
+     "a": "La bergamote est plus fleurie et légèrement poivrée. L'orange est plus ronde et évoque davantage le fruit. Dans les parfums masculins de cette liste, les deux sont souvent réunies, comme dans Luna Rossa ou la Colonia. L'orange apporte la chaleur, la bergamote la netteté."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Orange Colognes for Men: 8 Dry, Zesty Scents Ranked",
+   "meta": "Terre d'Hermès, Allure Homme Sport and Jubilation XXV top our ranking of orange fragrances for men, from sunbaked stone to smoky incense.",
+   "h1": "The best orange fragrances for men, from gym bag to evening",
+   "intro": "The best orange fragrance for men is still Terre d'Hermès. Its bitter orange rubs against flint and vetiver, and the whole thing smells like sunbaked earth. Allure Homme Sport comes second, fizzier and saltier, built for summer and workouts. Amouage's Jubilation XXV takes third: orange opens a dense oriental of incense and blackberry, strictly for special nights. Five more follow, from herb-covered hillsides to a fireside chestnut scent.",
+   "sections": [
+    {
+     "title": "Orange in men's fragrance: peel, not pulp",
+     "body": "In women's perfumes, orange often works as a juicy prelude to flowers. In the men's scents on this list, it's mostly the peel you get. The zest is dry and sometimes bitter, and it rubs against hard materials. In Terre d'Hermès it meets flint and pepper before landing on vetiver. In Allure Homme Sport it teams up with aldehydes that feel almost salty. In Ispazon it gets lost among bay leaf and thyme like a Mediterranean hillside. You rarely smell the flesh of the fruit and almost never the sugar. That dryness is why orange works so well in men's perfumery: it brings light without anything childish. It's also why it pairs so naturally with vetiver and cedar, two dry bases that stretch out its bitterness. If you want a sweet, edible orange, By the Fireplace is the only one here that goes there."
+    },
+    {
+     "title": "Morning to night: pick by occasion",
+     "body": "For the office, Terre d'Hermès and Luna Rossa are the safest. Terre is earthier. Luna Rossa is smoother, thanks to its minty lavender. For the gym or hot weather, Allure Homme Sport and Fierce do better, with a bright start and a musky base that doesn't feel sticky. Fierce comes with a strong retail association, so decide whether that bothers you. Acqua di Parma's Colonia is the classic, best sprayed generously in the morning and topped up later. For evenings, switch worlds entirely. Jubilation XXV and By the Fireplace use orange as a shaft of light in a dark base of incense or smoky wood. A practical tip: orange evaporates within minutes, so don't judge any of these on a paper strip. Wear it for half a day. With Terre d'Hermès especially, the real character shows up once the vetiver takes over."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Terre d'Hermès is our top pick because orange has a clear job here: to light up the earth. Jean-Claude Ellena sets it on flint and grapefruit, then slides it into pepper, vetiver and cedar. The result is dry and mineral, perfect for work. It's so widespread now that it surprises less. Earthier than Allure Homme Sport.",
+    "chanel-allure-homme-sport": "Orange, mandarin and aldehydes open Allure Homme Sport with a fizz that recalls salty skin after exercise. Pepper and neroli follow, then tonka and musk soften the base. It's the most summery orange among the men's picks. Projection is modest. Less mineral than Terre d'Hermès, and softer.",
+    "amouage-jubilation-xxv-man": "Jubilation XXV tucks orange among blackberry, incense, labdanum and tarragon. Bertrand Duchaufour makes it the glow at the top of a dense oriental that sinks into myrrh, oud and opoponax. Save it for winter evenings and big occasions. It takes time to warm up to. Nothing like Luna Rossa's freshness: this is the far end of the spectrum.",
+    "prada-luna-rossa": "Luna Rossa pairs orange with lavender and bergamot, then moves to sage, spearmint and ambroxan. Daniela Andrier built a clean, almost polished lavender that the orange warms up. It's an office and springtime scent. Too safe to be memorable, but impossible to get wrong. Smoother than Terre d'Hermès.",
+    "parfums-de-marly-ispazon": "Ispazon mixes orange with lime, lemon, bay leaf and thyme. It smells like sun on wild herbs, then softens over cedar, musk and a vanilla-amber base. An original aromatic for spring and autumn. It's overshadowed by the house's bestsellers. Sweeter in the drydown than Terre d'Hermès.",
+    "abercrombie-fitch-fierce": "Fierce uses orange alongside petitgrain, cardamom and fir. A rosemary and jasmine heart leads to musk, oakmoss and vetiver. It's an effective woody freshness that projects well for a cologne. The link to a clothing chain may put some people off. More resinous than Allure Homme Sport.",
+    "acqua-di-parma-colonia": "For men, the Colonia is orange at its most classic. Lemon, bergamot and orange lead into lavender and rosemary over light woods. Launched in 1916 and unisex, it hasn't aged a day. Wear it after a shower and a shave in summer. Longevity is cologne-level. More traditional than Luna Rossa, with less lavender.",
+    "maison-margiela-replica-by-the-fireplace": "Unisex, and the most wintry orange we've picked. The zest mingles with clove, then fades into roasted chestnuts, guaiac and smoky vanilla. Marie Salamagne wanted it cozy, and it is. It's also linear and fairly sweet. Choose it if Jubilation XXV feels too heavy for a night out."
+   },
+   "faq": [
+    {
+     "q": "What is the best orange fragrance for men?",
+     "a": "Our pick is Terre d'Hermès. Its bitter orange over flint and vetiver makes a dry, mineral scent that works almost anywhere. For summer and the gym, Allure Homme Sport is fizzier. For evenings, Amouage's Jubilation XXV turns orange into the first glow of an incense-heavy oriental."
+    },
+    {
+     "q": "Does Terre d'Hermès actually smell like orange?",
+     "a": "At first, yes. Orange and grapefruit dominate the opening minutes with a bitter edge. Then pepper and geranium take over, followed by vetiver and cedar. After an hour on skin, you mostly smell dry earth and wood. The orange stays as a feeling of light rather than a note you can pick out."
+    },
+    {
+     "q": "Which orange cologne works in winter?",
+     "a": "By the Fireplace pairs orange with clove, roasted chestnuts and smoky vanilla, making it the coziest option. Jubilation XXV is denser, with incense, myrrh and oud. Skip light colognes like the Colonia in cold weather. They vanish too quickly and feel thin under a coat."
+    },
+    {
+     "q": "Orange vs bergamot: what's the difference in perfume?",
+     "a": "Bergamot is more floral and slightly peppery. Orange is rounder and smells more like the actual fruit. The men's scents here often use both, as Luna Rossa and the Colonia do. Orange brings warmth, bergamot brings crispness."
+    }
+   ]
+  }
+ },
+ "ng:Oud:F": {
+  "picks": [
+   "parfums-de-marly-delina-exclusif",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "tom-ford-noir-de-noir",
+   "louis-vuitton-ombre-nomade",
+   "penhaligons-halfeti",
+   "parfums-de-marly-kuhuyan",
+   "lattafa-raghba",
+   "xerjoff-alexandria-ii"
+  ],
+  "fr": {
+   "title": "Parfum oud femme : 8 ouds à la rose, au fruit ou à la vanille",
+   "meta": "Delina Exclusif, Oud Satin Mood ou Noir de Noir : notre classement des parfums au oud pour femme, de la rose litchi à la vanille sucrée. Avis francs.",
+   "h1": "Les meilleurs parfums au oud pour femme, classés et commentés",
+   "intro": "Le parfum au oud pour femme que nous plaçons en tête est Delina Exclusif de Parfums de Marly : une rose litchi plongée dans l'oud et l'encens, le seul féminin revendiqué de la liste. Oud Satin Mood de Maison Francis Kurkdjian suit, avec un oud drapé de violette et de vanille. Noir de Noir de Tom Ford complète le podium pour celles qui aiment la rose sombre et terreuse. Les cinq autres sont mixtes, tous choisis pour leur rondeur.",
+   "sections": [
+    {
+     "title": "Comment l'oud se porte côté féminin",
+     "body": "Soyons honnêtes : la grande majorité des parfums au oud sont vendus comme mixtes. Sur les huit de cette sélection, un seul est présenté comme féminin. Ce qui distingue un oud « pour femme », c'est donc l'accord qui l'entoure. Côté masculin, l'oud s'associe à l'encens, au cuir ou aux épices sèches et garde son côté fumé. Côté féminin, on l'enrobe. La rose est son alliée la plus fréquente : on la retrouve dans cinq des huit parfums, de Delina Exclusif à Halfeti. Elle adoucit le côté médicinal du bois et lui donne une chair. Le fruit vient ensuite, avec le litchi de Delina Exclusif ou la framboise d'Ombre Nomade. Enfin la vanille, le benjoin ou le sucre arrondissent le fond, comme dans Raghba. Le résultat est un oud plus velouté, qui garde sa profondeur mais perd son âpreté. Si vous aimez les roses opulentes et les fonds ambrés, vous êtes au bon endroit."
+    },
+    {
+     "title": "Doser un oud : une pulvérisation de trop se remarque",
+     "body": "La plupart des parfums de cette liste ont une intensité de 4 ou 5 sur notre échelle. Delina Exclusif, Oud Satin Mood et Ombre Nomade sont parmi les plus puissants de notre base. Une seule pulvérisation suffit souvent, deux au maximum pour une soirée en extérieur. Posez-la sur la nuque ou le décolleté plutôt que sur les poignets, que l'on approche du visage et des autres. Évitez les espaces clos et les repas : l'oud sature vite une pièce. Ces parfums sont faits pour l'automne et l'hiver, quand l'air froid retient leur densité. Par temps chaud, ils deviennent lourds et collants. Si vous débutez, commencez par Kuhuyan ou Alexandria II (plus poudrés ou plus boisés) avant de passer aux roses denses. Et testez toujours sur la peau pendant une journée entière. Un oud change beaucoup entre la première heure et le soir, souvent en mieux."
+    }
+   ],
+   "why": {
+    "parfums-de-marly-delina-exclusif": "Delina Exclusif est le seul parfum de la liste présenté comme féminin, et il le justifie. Quentin Bisch plonge la rose litchi de Delina dans l'oud et l'encens, puis pose le tout sur vanille, ambre et musc. Le résultat est pourpre et fastueux, fait pour les grandes soirées d'hiver. Il se dose avec prudence. Plus fruité qu'Oud Satin Mood, moins sombre que Noir de Noir.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Oud Satin Mood est mixte, mais c'est l'un des ouds les plus féminins qui soient. Francis Kurkdjian l'entoure de violette et de rose, puis de benjoin, de vanille et de santal. On pense à un tissu précieux plus qu'à du bois. Sa puissance et sa douceur peuvent écraser : une pulvérisation suffit. Plus poudré et plus sucré que Delina Exclusif.",
+    "tom-ford-noir-de-noir": "Mixte, Noir de Noir associe l'oud à une rose noire, à la truffe et à la vanille. Le safran du départ et le patchouli du fond rendent le tout terreux, presque chocolaté. C'est l'oud des femmes qui aiment les roses sombres plutôt que les roses sucrées. Dense, il ne supporte pas les beaux jours. Plus terrien que tous les autres de cette sélection.",
+    "louis-vuitton-ombre-nomade": "Ombre Nomade ouvre sur la framboise et la rose, puis fait entrer l'oud et l'encens avant un benjoin ambré. Jacques Cavallier Belletrud a construit un oud mixte somptueux et bien équilibré. La framboise lui donne une douceur qui plaira aux amatrices de Delina Exclusif. Sa puissance impose la retenue. Plus fumé qu'Oud Satin Mood, moins gourmand que Raghba.",
+    "penhaligons-halfeti": "Halfeti est un oud mixte construit autour de la rose, du safran et d'une rangée d'épices. Le fond réunit oud et cuir sur un lit de santal, de fève tonka et de vanille. Nous l'aimons pour sa profondeur. Sa complexité peut dérouter si vous n'êtes pas familière des orientaux denses. Plus épicé et plus cuiré que Noir de Noir, il reste moins sucré qu'Ombre Nomade.",
+    "parfums-de-marly-kuhuyan": "Kuhuyan est d'abord un cuir poudré d'héliotrope, qui repose sur l'oud, l'ambre gris et la fève tonka. Il est mixte et plus doux que la plupart des ouds de la liste. C'est notre conseil pour une première approche : on sent l'oud sans être submergée. On lui reproche d'être resté confidentiel. Plus poudré qu'Halfeti, bien moins opulent que Delina Exclusif.",
+    "lattafa-raghba": "Raghba est l'oud le plus gourmand de la sélection. La vanille ouvre, le sucre et l'oud forment le cœur, l'encens et le santal ferment la marche. C'est une douceur orientale dense, chaleureuse, très sucrée. Elle plaira à celles qui aiment les vanilles lourdes. Linéaire, elle évolue peu sur la peau. Plus simple qu'Oud Satin Mood et bien moins rosé.",
+    "xerjoff-alexandria-ii": "Alexandria II ferme la liste avec un oud mixte plus boisé que floral. Bois de rose, pomme et cannelle en tête. Rose et cèdre au cœur, puis un fond d'oud et de santal adouci par l'ambre et la vanille. Sa concentration parfum lui donne une tenue remarquable. L'opulence peut sembler démonstrative. Moins rosé que Delina Exclusif, il conviendra à celles qui préfèrent le bois à la fleur."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum au oud pour femme ?",
+     "a": "Notre choix est Delina Exclusif de Parfums de Marly, une rose litchi posée sur l'oud et l'encens. C'est le seul de notre sélection présenté comme féminin. Parmi les mixtes, Oud Satin Mood de Maison Francis Kurkdjian est le plus doux, avec sa violette et sa vanille. Pour une rose plus sombre, prenez Noir de Noir."
+    },
+    {
+     "q": "Un parfum au oud est-il trop masculin pour une femme ?",
+     "a": "Non. La plupart des ouds sont d'ailleurs vendus comme mixtes. Tout dépend de ce qui l'accompagne : avec l'encens et le cuir, l'oud paraît plus masculin ; avec la rose, le fruit ou la vanille, il devient velouté. Delina Exclusif, Oud Satin Mood et Ombre Nomade en sont de bons exemples."
+    },
+    {
+     "q": "Combien de pulvérisations pour un parfum au oud ?",
+     "a": "Une seule suffit pour la plupart des parfums de cette liste, deux au maximum en extérieur. Delina Exclusif, Oud Satin Mood et Ombre Nomade sont particulièrement puissants. Vaporisez la nuque ou le décolleté plutôt que les poignets, et évitez les espaces clos où l'oud sature vite l'air."
+    },
+    {
+     "q": "Que veut dire rose-oud en parfumerie ?",
+     "a": "C'est l'accord le plus répandu dans les ouds dits féminins. La rose adoucit le côté médicinal et fumé du bois, et l'oud donne à la rose une profondeur sombre. Noir de Noir, Halfeti et Delina Exclusif en proposent trois lectures : terreuse, épicée puis fruitée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Oud Perfumes for Women: 8 Rose, Fruit and Vanilla Ouds",
+   "meta": "Delina Exclusif, Oud Satin Mood and Noir de Noir lead our ranking of oud perfumes for women, from lychee rose to sugary vanilla.",
+   "h1": "The best oud perfumes for women, ranked and reviewed",
+   "intro": "Our top oud perfume for women is Delina Exclusif by Parfums de Marly: a lychee rose steeped in oud and incense, and the only scent here marketed as feminine. Maison Francis Kurkdjian's Oud Satin Mood comes second, oud wrapped in violet and vanilla. Tom Ford's Noir de Noir takes third for anyone who loves a dark, earthy rose. The other five are unisex, each chosen for its roundness.",
+   "sections": [
+    {
+     "title": "How oud gets worn in women's perfume",
+     "body": "Let's be upfront: most oud perfumes are sold as unisex. Of the eight here, only one is marketed to women. What makes an oud feel feminine, then, is what surrounds it. In men's fragrances, oud usually comes with incense, leather or dry spice and keeps its smoky bite. In women's perfumes it gets dressed up. Rose is its most frequent partner. You'll find it in five of the eight picks, from Delina Exclusif to Halfeti. Rose softens the medicinal side of the wood and gives it flesh. Fruit comes next, like the lychee in Delina Exclusif or the raspberry in Ombre Nomade. Then vanilla, benzoin or sugar round out the base, as in Raghba. The result is a velvety oud that keeps its depth but loses its rasp. If you love opulent roses and amber drydowns, you're in the right place."
+    },
+    {
+     "title": "Dosing oud: one spray too many shows",
+     "body": "Most scents on this list score 4 or 5 on our intensity scale. Delina Exclusif, Oud Satin Mood and Ombre Nomade are among the strongest perfumes we cover. One spray is often enough, two at most for an evening outdoors. Put it on the back of your neck or your chest rather than your wrists, which end up near your face and other people. Avoid small rooms and dinners, because oud fills a space fast. These are autumn and winter perfumes, when cold air keeps their density in check. In hot weather they turn heavy and sticky. If you're new to oud, start with Kuhuyan or Alexandria II (more powdery or woody) before moving to the dense roses. And always test on skin for a full day. An oud changes a lot between the first hour and the evening, usually for the better."
+    }
+   ],
+   "why": {
+    "parfums-de-marly-delina-exclusif": "The only perfume here marketed as feminine, and it earns the label. Quentin Bisch drops Delina's lychee rose into oud and incense, then sets it on vanilla, amber and musk. The result is plush and regal, made for big winter nights. Dose it carefully. Fruitier than Oud Satin Mood and less dark than Noir de Noir.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Oud Satin Mood is unisex, but it's one of the most feminine ouds around. Francis Kurkdjian surrounds it with violet and rose, then benzoin, vanilla and sandalwood. It feels like expensive fabric more than wood. The strength and sweetness can overwhelm, so one spray will do. More powdery and sugary than Delina Exclusif.",
+    "tom-ford-noir-de-noir": "This unisex Tom Ford pairs oud with black rose, truffle and vanilla. Saffron up top and patchouli below make it earthy, almost chocolatey. This is the oud for women who like dark roses rather than sweet ones. It's dense and doesn't handle warm weather. Earthier than anything else on the list.",
+    "louis-vuitton-ombre-nomade": "Raspberry and rose open Ombre Nomade before oud and incense arrive over an amber benzoin base. Jacques Cavallier Belletrud built a lavish, well-balanced unisex oud. The raspberry adds a sweetness fans of Delina Exclusif will enjoy. Its power demands restraint. Smokier than Oud Satin Mood, less sugary than Raghba.",
+    "penhaligons-halfeti": "Halfeti is a unisex oud built around rose, saffron and a row of spices. The base sets oud and leather on a bed of sandalwood, tonka and vanilla. We love its depth. The complexity can be a lot if dense orientals are new to you. Spicier and more leathery than Noir de Noir, but less sweet than Ombre Nomade.",
+    "parfums-de-marly-kuhuyan": "Kuhuyan is first a heliotrope-dusted leather, resting on oud, ambergris and tonka. It's unisex and softer than most ouds here. That makes it our pick for a first try: you smell the oud without drowning in it. Our one gripe is that it's stayed under the radar. More powdery than Halfeti and far less opulent than Delina Exclusif.",
+    "lattafa-raghba": "Raghba is the most dessert-like oud we've picked. Vanilla opens, sugar and oud form the heart, incense and sandalwood close it out. It's dense, warm and very sweet. Lovers of heavy vanillas will be happy. It's linear and barely changes on skin. Simpler than Oud Satin Mood and much less rosy.",
+    "xerjoff-alexandria-ii": "Alexandria II closes the list with a unisex oud that's more woody than floral. Rosewood, apple and cinnamon up top. Rose and cedar in the heart, then oud and sandalwood softened by amber and vanilla. The parfum concentration gives it serious staying power. The opulence can feel like showing off. Less rosy than Delina Exclusif, it suits women who prefer wood to flowers."
+   },
+   "faq": [
+    {
+     "q": "What is the best oud perfume for women?",
+     "a": "Our pick is Delina Exclusif by Parfums de Marly, a lychee rose over oud and incense. It's the only one in our selection marketed as feminine. Among unisex options, Maison Francis Kurkdjian's Oud Satin Mood is the softest, with violet and vanilla. For a darker rose, go with Noir de Noir."
+    },
+    {
+     "q": "Is oud too masculine for women?",
+     "a": "No, and most ouds are sold as unisex anyway. It all depends on what's around it. With incense and leather, oud reads more masculine. With rose, fruit or vanilla, it turns velvety. Delina Exclusif, Oud Satin Mood and Ombre Nomade are good examples of the softer side."
+    },
+    {
+     "q": "How many sprays of an oud perfume should I use?",
+     "a": "One is enough for most of these, two at most outdoors. Delina Exclusif, Oud Satin Mood and Ombre Nomade are especially strong. Spray the back of your neck or your chest rather than your wrists, and avoid small enclosed spaces where oud quickly takes over the air."
+    },
+    {
+     "q": "What does rose-oud mean in perfume?",
+     "a": "It's the most common pairing in ouds aimed at women. Rose softens the medicinal, smoky side of the wood, and oud gives the rose a dark depth. Noir de Noir, Halfeti and Delina Exclusif offer three takes on it: earthy, spicy and fruity."
+    }
+   ]
+  }
+ },
+ "ng:Oud:M": {
+  "picks": [
+   "amouage-epic-man",
+   "amouage-interlude-man",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-haltane",
+   "montale-black-aoud",
+   "parfums-de-marly-pegasus-exclusif",
+   "amouage-jubilation-xxv-man",
+   "tom-ford-oud-wood",
+   "tom-ford-tobacco-oud",
+   "creed-royal-oud"
+  ],
+  "fr": {
+   "title": "Parfum oud homme : 10 ouds classés, de l'encens au bois sec",
+   "meta": "Epic Man, Interlude Man et Shagya en tête : notre classement des parfums au oud pour homme, du plus fumé au plus facile à porter au bureau.",
+   "h1": "Les meilleurs parfums au oud pour homme, notre classement",
+   "intro": "Le meilleur parfum au oud pour homme de notre sélection est Epic Man d'Amouage : encens, épices et oud sur un fond de cuir, comme une caravane qui traverse la fumée. Interlude Man, de la même maison, suit avec un oud plus chaotique et plus résineux. Shagya de Parfums de Marly complète le podium, parce qu'il rend l'oud lumineux et portable dès le matin. Sept autres suivent, des ouds de club aux versions policées.",
+   "sections": [
+    {
+     "title": "L'oud masculin : fumée, cuir et épices",
+     "body": "Côté féminin, l'oud se cache souvent sous la rose et la vanille. Dans les parfums masculins de cette liste, on le laisse davantage à nu. Il s'entoure de matières qui renforcent son côté sec et fumé. L'encens d'abord, présent dans Epic Man, Interlude Man et Jubilation XXV. Le cuir ensuite, qui prolonge la facette animale du bois chez Epic Man et Interlude Man. Les épices enfin : safran, cardamome ou muscade. Le résultat sent le bois brûlé, la résine et parfois la cave, loin des ouds sucrés qu'on voit ailleurs. Une deuxième école existe pourtant, plus occidentale. Shagya, Oud Wood et Royal Oud utilisent un oud lissé, entouré d'agrumes et de bois secs. Ce n'est pas le même plaisir. Les premiers impressionnent et divisent. Les seconds se portent au bureau sans que personne ne se retourne. Choisir un oud pour homme, c'est d'abord choisir son camp entre ces deux styles."
+    },
+    {
+     "title": "Par où commencer : de l'oud policé à l'oud brut",
+     "body": "Si vous n'avez jamais porté d'oud, ne commencez pas par Interlude Man. Commencez par Oud Wood ou Royal Oud, deux ouds sages qui montrent la matière sans l'imposer. Shagya est l'étape suivante, plus nerveux avec son citron vert et son vétiver. Haltane et Pegasus Exclusif ajoutent une gourmandise (praliné pour l'un, amande et vanille pour l'autre) qui rend l'oud plus aimable. Ce n'est qu'après que l'on apprécie vraiment les Amouage et Black Aoud, qui demandent du temps et de l'assurance. Côté dosage, restez sur deux pulvérisations au maximum pour les parfums d'intensité 5 comme Interlude Man, Black Aoud ou Tobacco Oud. Visez le torse ou la nuque, sous un col. L'oud est une matière d'hiver : par temps chaud, il devient vite étouffant, pour vous comme pour les autres. Au bureau, préférez Shagya, Royal Oud ou Oud Wood : ce sont les seuls qui passent sans créer de gêne."
+    }
+   ],
+   "why": {
+    "amouage-epic-man": "Epic Man est notre numéro un parce qu'il réunit tout ce que l'oud masculin sait faire. Baies roses, encens, safran et cardamome ouvrent la marche. La myrrhe prend le relais, puis l'oud s'installe avec le cuir et le patchouli. C'est riche et cohérent, sans excès de sucre. Plus lisible qu'Interlude Man, il reste trop austère pour un public large.",
+    "amouage-interlude-man": "Interlude Man est l'oud le plus intense de cette liste. Pierre Negrin ouvre sur l'origan et le poivre. Il empile ensuite encens, opoponax, ambre et labdanum avant un fond d'oud et de cuir. Le résultat est un chaos résineux, spectaculaire et difficile à porter. Nous le classons deuxième pour son ambition. Plus fumé et bien moins sage qu'Epic Man.",
+    "parfums-de-marly-shagya": "Shagya fait de l'oud un parfum de jour. Le citron vert et les baies roses éclairent un cœur d'oud et de cèdre, puis le vétiver et le gaïac gardent le tout sec. C'est nerveux plus que sombre, parfait pour découvrir la matière au printemps ou à l'automne. Il manque un peu de profondeur au fond. Beaucoup plus accessible que les Amouage.",
+    "parfums-de-marly-haltane": "Haltane part d'une lavande et d'une sauge sclarée très aromatiques, puis bascule vers le safran et un praliné. L'oud et le cèdre ferment la marche. C'est une fougère qui devient gourmande au crépuscule, pour les soirées d'automne. Le praliné divisera les amateurs de lavandes sèches. Plus sucré que Shagya, moins dense que Pegasus Exclusif.",
+    "montale-black-aoud": "Black Aoud est l'oud brut de la sélection : une rose sombre sur du patchouli, du labdanum et un oud très présent. Le fond de santal, d'ambre et de musc ne l'adoucit guère. On l'aime pour sa franchise, on lui reproche un caractère synthétique marqué. Deux pulvérisations au maximum. Plus rosé qu'Epic Man, plus brutal que Noir de Noir de Tom Ford.",
+    "parfums-de-marly-pegasus-exclusif": "Pegasus Exclusif épaissit l'amande et l'héliotrope de Pegasus avec de l'oud et du gaïac. La vanille, le santal et l'ambre rendent le fond moelleux. C'est l'oud le plus doux des masculins de la liste, fait pour les rendez-vous d'hiver. Par temps doux, il devient lourd. Plus gourmand qu'Haltane et moins épicé qu'Epic Man.",
+    "amouage-jubilation-xxv-man": "Jubilation XXV n'est pas un oud pur. L'oud y figure au fond, à côté de l'opoponax et de la myrrhe, sous un départ de mûre et d'encens. Bertrand Duchaufour en a fait un oriental fumé qui se porte aux grandes occasions. Nous l'incluons pour ceux qui veulent l'oud en toile de fond. Plus fruité qu'Epic Man, moins brut qu'Interlude Man.",
+    "tom-ford-oud-wood": "Oud Wood, mixte, est la porte d'entrée la plus connue vers l'oud. Richard Herpin l'entoure de bois de rose, de cardamome et de poivre du Sichuan. Le santal, le vétiver et la fève tonka arrondissent ensuite le fond. C'est lisse et élégant, très sûr au bureau. Les amateurs d'ouds sauvages le trouveront timide et sa tenue reste modérée. À l'opposé d'Interlude Man.",
+    "tom-ford-tobacco-oud": "Tobacco Oud est mixte et ressemble à un salon de club anglais. Whisky et cannelle en tête, puis tabac, oud et benjoin sur un fond de castoréum. C'est l'oud des soirées d'hiver au coin du feu. Luxueux et cohérent, il est trop lourd pour la vie de tous les jours. Plus alcoolisé et plus animal qu'Oud Wood, de la même maison.",
+    "creed-royal-oud": "Royal Oud est un oud mixte en version sobre. Citron, baies roses et bergamote en tête. Le cèdre, le galbanum et l'angélique suivent, avant un fond de santal et de musc. On sent l'oud comme une ombre sous le bois. C'est l'un des plus portables de la liste, à l'aise au bureau. Trop sage pour les amateurs d'ouds authentiques. Plus vert que Shagya."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum au oud pour homme ?",
+     "a": "Notre choix est Epic Man d'Amouage, qui associe l'oud à l'encens, au safran et au cuir. C'est le plus complet de notre sélection. Pour un oud plus facile au quotidien, Shagya de Parfums de Marly est plus sec et plus lumineux. Si vous voulez l'expérience la plus intense, essayez Interlude Man."
+    },
+    {
+     "q": "Quel parfum au oud choisir quand on débute ?",
+     "a": "Commencez par Oud Wood de Tom Ford ou Royal Oud de Creed. Ce sont deux ouds lissés, entourés de bois et d'épices douces, qui montrent la matière sans la rendre agressive. Passez ensuite à Shagya, puis aux Amouage quand vous aurez pris goût au côté fumé."
+    },
+    {
+     "q": "Peut-on porter un parfum au oud au bureau ?",
+     "a": "Oui, à condition de bien le choisir. Royal Oud et Oud Wood ont une intensité modérée et restent proches du corps. Shagya, un peu plus présent, reste sec et lumineux. Évitez Interlude Man, Black Aoud ou Tobacco Oud en journée : ils saturent un espace clos. Une pulvérisation sur le torse, sous la chemise, suffit."
+    },
+    {
+     "q": "Le parfum au oud se porte-t-il en été ?",
+     "a": "Rarement. L'oud est dense et la chaleur le rend étouffant. Si vous tenez à en porter l'été, choisissez Shagya : son citron vert et son vétiver le gardent sec et lumineux. Évitez les versions sucrées comme Pegasus Exclusif ou Haltane, qui deviennent lourdes dès que la température monte."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Oud Colognes for Men: 10 Ouds Ranked, Smoky to Easy",
+   "meta": "Epic Man, Interlude Man and Shagya top our ranking of oud fragrances for men, from smoky incense bombs to office-friendly woods.",
+   "h1": "The best oud fragrances for men, from smoky to wearable",
+   "intro": "The best oud fragrance for men on our list is Amouage Epic Man: incense, spice and oud over leather, like a caravan moving through smoke. Interlude Man from the same house comes second, with a wilder and more resinous take. Parfums de Marly's Shagya takes third because it makes oud bright and wearable from the morning on. Seven more follow, from dark club-room ouds to polished office picks.",
+   "sections": [
+    {
+     "title": "Oud in men's fragrance: smoke, leather and spice",
+     "body": "In women's perfumes, oud often hides under rose and vanilla. In the men's scents here, it's left more exposed. It's surrounded by materials that push its dry, smoky side. Incense first, found in Epic Man, Interlude Man and Jubilation XXV. Then leather, which stretches out the animalic side of the wood in Epic Man and Interlude Man. Then spices: saffron, cardamom or nutmeg. The result smells of burnt wood and resin, sometimes of a damp cellar, far from the sugary ouds you see elsewhere. There's a second, more Western school too. Shagya, Oud Wood and Royal Oud use a smoothed-out oud framed by citrus, cedar or vetiver. It's a different pleasure. The first group impresses and divides. The second you can wear to work without anyone turning around. Picking an oud for men starts with picking a side."
+    },
+    {
+     "title": "Where to start: from polished to raw",
+     "body": "If you've never worn oud, don't start with Interlude Man. Start with Oud Wood or Royal Oud, two restrained ouds that show you the material without forcing it on you. Shagya is the next step, livelier with its lime and vetiver. Haltane and Pegasus Exclusif add a sweet edge (praline in one, almond and vanilla in the other) that makes oud friendlier. Only after that do the Amouage scents and Black Aoud really click, because they take time and confidence. For dosing, stick to two sprays at most for intensity-5 scents like Interlude Man, Black Aoud or Tobacco Oud. Aim for your chest or the back of your neck, under a collar. Oud is a winter material. In heat it gets stifling fast, for you and everyone nearby. At the office, go with Shagya, Royal Oud or Oud Wood. They're the only ones that pass without causing trouble."
+    }
+   ],
+   "why": {
+    "amouage-epic-man": "Epic Man is our number one because it pulls together everything masculine oud does well. Pink pepper, incense, saffron and cardamom lead. Myrrh takes over, then oud settles in with leather and patchouli. It's rich and coherent, without piling on sugar. Easier to read than Interlude Man, though still too austere for a mass audience.",
+    "amouage-interlude-man": "The most intense oud on this list. Pierre Negrin opens with oregano and pepper. Then he stacks incense, opoponax, amber and labdanum before an oud and leather base. It's resinous chaos, spectacular and hard to wear. We rank it second for sheer ambition. Smokier and far less polite than Epic Man.",
+    "parfums-de-marly-shagya": "Shagya turns oud into a daytime scent. Lime and pink pepper brighten an oud and cedar heart, then vetiver and guaiac keep it dry. It's nervy rather than dark, ideal for getting to know the material in spring or autumn. The drydown lacks a little depth. Far more approachable than the Amouage picks.",
+    "parfums-de-marly-haltane": "Haltane starts with a very herbal lavender and clary sage, then tips into saffron and praline. Oud and cedar close it out. It's a fougère that turns gourmand at dusk, for autumn evenings. The praline will split fans of dry lavender. Sweeter than Shagya, lighter than Pegasus Exclusif.",
+    "montale-black-aoud": "Black Aoud is the raw oud here: dark rose over patchouli, labdanum and a very loud oud. The sandalwood, amber and musk base barely softens it. We like its honesty. We don't love its obviously synthetic edge. Two sprays, no more. Rosier than Epic Man, rougher than Tom Ford's Noir de Noir.",
+    "parfums-de-marly-pegasus-exclusif": "Pegasus Exclusif thickens Pegasus's almond and heliotrope with oud and guaiac. Vanilla, sandalwood and amber make the base plush. It's the softest oud among the men's picks, made for winter dates. In mild weather it gets heavy. More gourmand than Haltane and less spicy than Epic Man.",
+    "amouage-jubilation-xxv-man": "Jubilation XXV isn't a pure oud. Oud sits in the base next to opoponax and myrrh, under an opening of blackberry and incense. Bertrand Duchaufour made it a smoky oriental for big occasions. We include it for men who want oud as a backdrop. Fruitier than Epic Man, less raw than Interlude Man.",
+    "tom-ford-oud-wood": "Oud Wood, a unisex scent, is the best-known gateway to oud. Richard Herpin frames it with rosewood, cardamom and Sichuan pepper. Sandalwood, vetiver and tonka then round out the base. It's smooth and elegant, very safe at work. Fans of wild ouds will find it timid, and longevity is only moderate. The opposite of Interlude Man.",
+    "tom-ford-tobacco-oud": "Unisex, and it smells like an English gentlemen's club. Whisky and cinnamon up top, then tobacco, oud and benzoin over castoreum. This is the oud for winter nights by the fire. Luxurious and coherent, it's too heavy for everyday life. Boozier and more animalic than Oud Wood, from the same house.",
+    "creed-royal-oud": "Royal Oud is a unisex oud played straight. Lemon, pink pepper and bergamot open. Cedar, galbanum and angelica follow before a sandalwood and musk base. You sense the oud as a shadow under the wood. It's one of the most wearable picks here and comfortable at the office. Too tame for oud purists. Greener than Shagya."
+   },
+   "faq": [
+    {
+     "q": "What is the best oud fragrance for men?",
+     "a": "Our pick is Amouage Epic Man, which pairs oud with incense, saffron and leather. It's the most complete scent in our selection. For an easier everyday oud, Parfums de Marly's Shagya is drier and brighter. If you want the most intense experience, try Interlude Man."
+    },
+    {
+     "q": "Which oud should a beginner try first?",
+     "a": "Start with Tom Ford Oud Wood or Creed Royal Oud. Both are smoothed-out ouds framed by woods and gentle spices, so you meet the material without it getting aggressive. Move on to Shagya next, then to the Amouage scents once you've developed a taste for smoke."
+    },
+    {
+     "q": "Can you wear oud to the office?",
+     "a": "Yes, if you pick carefully. Royal Oud and Oud Wood have moderate intensity and stay close to the body. Shagya projects a bit more but stays dry and bright. Skip Interlude Man, Black Aoud or Tobacco Oud during the day, since they take over an enclosed space. One spray on the chest, under your shirt, is enough."
+    },
+    {
+     "q": "Can you wear oud in summer?",
+     "a": "Rarely. Oud is dense, and heat makes it stifling. If you insist, go with Shagya: its lime and vetiver keep it dry and bright. Avoid sweet versions like Pegasus Exclusif or Haltane, which get heavy as soon as the temperature climbs."
+    }
+   ]
+  }
+ }
+}

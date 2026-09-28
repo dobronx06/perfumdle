@@ -1,0 +1,602 @@
+{
+ "_data_issues": [
+  {
+   "slug": "tom-ford-oud-wood",
+   "issue": "perfumer = 'Richard Herpe' : le parfumeur documenté d'Oud Wood est Richard Herpin (orthographe à vérifier/corriger)"
+  }
+ ],
+ "best:homme": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "dior-eau-sauvage",
+   "chanel-bleu-de-chanel",
+   "dior-dior-homme",
+   "dior-fahrenheit",
+   "guerlain-habit-rouge",
+   "creed-aventus",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "thierry-mugler-amen"
+  ],
+  "fr": {
+   "title": "Meilleur parfum homme : notre top 10 classé et argumenté",
+   "meta": "Terre d'Hermès, Eau Sauvage et Bleu de Chanel en tête : notre classement des meilleurs parfums homme, avec à qui va chacun et ce qui cloche.",
+   "h1": "Meilleurs parfums homme : le classement de la rédaction",
+   "intro": "Le meilleur parfum homme, pour nous, est Terre d'Hermès. Ce boisé d'orange et de silex passe du bureau au dîner sans jamais forcer. Juste derrière, Eau Sauvage reste la leçon de fraîcheur que les hespéridés masculins suivent depuis 1966. Bleu de Chanel complète le podium pour qui ne veut qu'un flacon, toute l'année. Le reste du classement mêle des classiques comme Habit Rouge et des signatures plus clivantes comme Fahrenheit ou A*Men. Sauvage de Dior n'y figure pas, et on explique pourquoi plus bas.",
+   "sections": [
+    {
+     "title": "Nos critères de classement",
+     "body": "Quatre critères ont compté. L'influence d'abord : un parfum qui a fixé un style pèse plus lourd qu'un succès de saison. Vient ensuite la qualité de composition, c'est-à-dire la netteté du dessin et la façon dont la tête passe la main au fond. La polyvalence compte aussi, car la plupart des hommes portent un seul parfum toute l'année. Nous avons enfin regardé la présence sur la peau, notée de 1 à 5 dans nos fiches. La puissance ne suffit pas pour grimper. A*Men est noté 5 sur 5 et finit dixième, parce qu'il ne se porte pas partout. Eau Sauvage n'est noté que 2 et arrive deuxième, car aucun autre parfum de cette liste n'a autant servi de modèle. Le prix n'est jamais entré dans le calcul. Aucune marque n'a payé pour figurer ici, et chaque choix renvoie à une fiche que vous pouvez vérifier."
+    },
+    {
+     "title": "Frais, boisé ou ambré : trouver sa famille",
+     "body": "Le classement se lit mieux par familles. Côté frais, Eau Sauvage et Acqua di Giò Profumo sont des parfums de printemps et d'été. Le premier est un citron sec relevé d'herbes. Le second ajoute de l'encens et du patchouli qui le rendent plus adulte que l'Acqua di Giò d'origine. Côté boisé, Terre d'Hermès et Bleu de Chanel sont les plus simples à porter au bureau ; Terre est plus minéral, Bleu plus lisse grâce à son fond de santal et d'encens. Les ambrés prennent l'hiver. Habit Rouge est une vanille poudrée à l'ancienne et Le Mâle une lavande sucrée à la fève tonka. A*Men pousse plus loin avec un café caramélisé sur patchouli. Dior Homme et Fahrenheit font bande à part : le premier joue l'iris et le cacao, le second une violette cuirée qu'on adore ou qu'on déteste. Si vous hésitez encore, commencez par un boisé."
+    },
+    {
+     "title": "Les absents qu'on assume",
+     "body": "Sauvage de Dior est partout. Il fonctionne : bergamote poivrée, lavande et un fond d'ambroxan qui porte loin. Mais son éclat synthétique fatigue vite, et on le sent dans chaque rame de métro. On lui préfère Eau Sauvage, son aîné chez Dior, plus sec et plus humain. Pour Monsieur de Chanel, sorti en 1955, a failli entrer. C'est un chypre d'une retenue exemplaire, sans doute trop discret pour un premier flacon. 1 Million reste redoutable en soirée, mais sa cannelle ambrée devient lourde en espace clos. Le Mâle occupe le même terrain avec plus de caractère. Cool Water a ouvert la voie aux aquatiques en 1988. Il a été tellement copié qu'Acqua di Giò Profumo nous semble aujourd'hui le meilleur représentant de la famille. Enfin Invictus, efficace et diffusif, manque trop de singularité face aux dix parfums retenus."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Premier du classement parce qu'il n'a presque aucun point faible. L'orange et le pamplemousse s'ouvrent sur une note de silex, puis le vétiver et le cèdre prennent le relais avec une sécheresse très Hermès. Jean-Claude Ellena l'a signé en 2006. Il va aussi bien à 25 ans qu'à 60. Son seul défaut tient à son succès : on le reconnaît vite. Plus minéral que Bleu de Chanel, il est aussi moins flatteur au premier contact.",
+    "dior-eau-sauvage": "Edmond Roudnitska a composé en 1966 un citron aux herbes (romarin, basilic) posé sur la mousse de chêne, et presque tous les frais masculins en descendent. C'est le parfum d'été par excellence, au bureau comme en chemise de lin le week-end. La tenue est courte : prévoyez une seconde pulvérisation en début d'après-midi. Plus sec et plus élégant qu'Acqua di Giò Profumo.",
+    "chanel-bleu-de-chanel": "Choix le plus sûr si vous ne voulez qu'un flacon. Pamplemousse et menthe en tête, gingembre au cœur, puis un fond de santal et d'encens qui tient bien. Il passe du rendez-vous professionnel au dîner. On lui reproche un manque d'audace, et c'est vrai : à côté de Fahrenheit, il paraît très policé. C'est justement ce qui en fait un excellent premier grand parfum.",
+    "dior-dior-homme": "Olivier Polge a placé l'iris au centre d'un masculin en 2005, avec une touche de cacao. Le résultat est poudré et doux, avec un effet rouge à lèvres assumé. Il convient aux hommes qui n'aiment pas les boisés musclés. Sa projection reste modeste : on le sent de près, bien moins que Le Mâle. Gentleman de Givenchy reprend aujourd'hui une idée voisine, en plus sucré.",
+    "dior-fahrenheit": "Clivant comme aucun autre parfum du top 10. Sa violette et son cuir dégagent une note pétrolée, presque d'essence chaude, que personne d'autre ne propose dans cette liste. On le classe cinquième pour une originalité intacte depuis 1988. Portez-le en automne et le soir, avec une ou deux pulvérisations. Si l'odeur vous gêne en boutique, n'insistez pas : Dior Homme est plus facile.",
+    "guerlain-habit-rouge": "Jean-Paul Guerlain signe en 1965 un oriental masculin très construit. Citron et basilic ouvrent, l'œillet et la cannelle suivent, puis la vanille poudrée de la maison s'installe. C'est le parfum des hommes qui aiment la veste bien coupée. Certains le trouvent rétro. Sur une écharpe en laine, en hiver, il se garde longtemps. Moins sucré que Le Mâle, plus sec qu'A*Men.",
+    "creed-aventus": "Seul parfum de niche du classement, et il le mérite. L'ananas et la pomme sur un fond de bouleau fumé et de mousse de chêne ont créé en 2010 un fruité boisé que beaucoup de parfums ont imité. Polyvalent, il se porte du printemps à l'automne. Son aura s'est un peu diluée à force de copies. Face à Bleu de Chanel, il est plus fruité et plus fumé.",
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian a posé la lavande et la menthe sur un fond de vanille et de fève tonka en 1995, et la formule est devenue culte. C'est un masculin de soirée, doux et chaleureux, parfait pour un rendez-vous d'hiver. On le trouve parfois trop répandu, ou trop sucré quand on préfère les boisés secs. Plus aimable qu'A*Men, il envahit moins une pièce.",
+    "giorgio-armani-acqua-di-gio-profumo": "L'Acqua di Giò d'origine est trop vue pour notre top 10. Sa version Profumo, signée en 2015 par le même Alberto Morillas, ajoute l'encens et le patchouli à la fraîcheur marine. Elle gagne en profondeur et en tenue. C'est notre aquatique préféré pour l'été et le bureau. Plus sombre qu'Eau Sauvage, elle reste lisible même par forte chaleur.",
+    "thierry-mugler-amen": "Café, caramel et miel sur un fond de patchouli : A*Men a transposé au masculin l'idée gourmande d'Angel en 1996. Il divise, et sa puissance ne pardonne pas l'excès. Une seule pulvérisation suffit, sur le torse plutôt que dans le cou. On le classe dixième parce qu'il ne se porte pas au bureau. Un soir d'hiver, peu de parfums de cette liste tiennent aussi longtemps."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum homme ?",
+     "a": "Pour nous, Terre d'Hermès : il est polyvalent, bien construit et se porte toute l'année. Si vous cherchez surtout de la fraîcheur, Eau Sauvage reste la référence. Pour un parfum de soirée plus chaleureux, regardez Le Mâle ou Habit Rouge. Le bon choix dépend d'abord de l'usage : bureau, soirée ou été."
+    },
+    {
+     "q": "Quel parfum homme tient le plus longtemps ?",
+     "a": "Dans ce classement, A*Men est le plus puissant, noté 5 sur 5. Cinq autres suivent à 4, dont Le Mâle, Bleu de Chanel et Fahrenheit. Les fonds de patchouli, de vanille ou de cuir tiennent mieux que les agrumes. Eau Sauvage, très hespéridé, demande à être revaporisé dans la journée."
+    },
+    {
+     "q": "Quel parfum homme choisir pour le bureau ?",
+     "a": "Un boisé ou un frais modéré. Terre d'Hermès et Bleu de Chanel sont nos deux choix, avec Dior Homme si vous aimez la poudre. Une ou deux pulvérisations suffisent. Évitez A*Men et Le Mâle en open space : leur douceur ambrée prend vite toute la place."
+    },
+    {
+     "q": "Pourquoi Sauvage de Dior n'est-il pas dans ce classement ?",
+     "a": "Parce qu'on le croise partout et que son éclat d'ambroxan finit par lasser. Il reste efficace et facile à aimer, et beaucoup d'hommes ont raison de le porter. Mais pour une signature plus personnelle chez Dior, Eau Sauvage, Dior Homme ou Fahrenheit ont davantage à dire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best perfumes for men: our top 10, ranked and explained",
+   "meta": "Terre d'Hermès, Eau Sauvage, Bleu de Chanel and seven more. Our ranking of the best men's fragrances, with who each one suits and where it falls short.",
+   "h1": "The best men's fragrances, ranked by our editors",
+   "intro": "Our pick for the best men's fragrance is Terre d'Hermès. Orange and flint over vetiver, it works at the office and at dinner without ever pushing. Eau Sauvage comes second: since 1966 it has been the template for fresh citrus scents for men. Bleu de Chanel completes the podium for anyone who wants one bottle all year. Below that, classics like Habit Rouge sit next to polarizing picks such as Fahrenheit and A*Men. Dior Sauvage didn't make the cut, and we explain why.",
+   "sections": [
+    {
+     "title": "How we ranked them",
+     "body": "Four things counted. Influence came first: a fragrance that set a style weighs more than a seasonal hit. Then composition, meaning how cleanly the idea is drawn and how the opening hands over to the base. Versatility matters because most men wear one scent all year. Last came presence on skin, which our database rates from 1 to 5. Power alone doesn't win. A*Men scores 5 out of 5 and still ranks tenth, because you can't wear it everywhere. Eau Sauvage scores 2 and ranks second, because nothing else on this list has served as a model so often. Price played no part. No brand paid to be here, and every pick links to a fact sheet you can check."
+    },
+    {
+     "title": "Fresh, woody or amber: find your lane",
+     "body": "The list reads best by family. On the fresh side, Eau Sauvage and Acqua di Giò Profumo are spring and summer scents. The first is dry lemon and herbs. The second adds incense and patchouli, which makes it more grown-up than the original Acqua di Giò. For woods, Terre d'Hermès and Bleu de Chanel are the easiest office picks. Terre is more mineral, while Bleu is smoother thanks to its sandalwood and incense base. The ambers own winter. Habit Rouge is an old-school powdery vanilla and Le Mâle a sweet lavender on tonka. A*Men goes further with caramelized coffee over patchouli. Dior Homme and Fahrenheit stand apart. One is iris and cocoa; the other is a leathery violet that people love or can't stand. If you're still unsure, start with a woody."
+    },
+    {
+     "title": "The ones we left out",
+     "body": "Dior Sauvage is everywhere. It works: peppery bergamot, lavender and an ambroxan base that projects far. But its synthetic brightness gets tiring, and you smell it on every commuter train. We prefer its older sibling Eau Sauvage, drier and more human. Chanel Pour Monsieur from 1955 nearly made it. It's a chypre of rare restraint, probably too quiet for a first bottle. 1 Million is still a crowd-pleaser at night, but its cinnamon and amber turn heavy in a closed room. Le Mâle covers the same ground with more character. Cool Water opened the door for aquatics in 1988, yet it has been copied so often that Acqua di Giò Profumo now strikes us as the family's best representative. Invictus is effective and loud, but it lacks the personality of the ten we kept."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Number one because it has almost no weak spot. Orange and grapefruit open onto a flinty note, then vetiver and cedar take over with that dry Hermès feel. Jean-Claude Ellena made it in 2006. It suits a 25-year-old as well as a 60-year-old. Its only flaw is success: people recognize it quickly. It's more mineral than Bleu de Chanel and less flattering on first sniff.",
+    "dior-eau-sauvage": "Edmond Roudnitska built this in 1966 from lemon, rosemary and basil over oakmoss, and most fresh men's scents descend from it. It's the summer fragrance, whether in a linen shirt or at the office. Longevity is short, so plan a second spray after lunch. Drier and more elegant than Acqua di Giò Profumo, it rewards anyone who prefers restraint to volume.",
+    "chanel-bleu-de-chanel": "Safest choice if you only want one bottle. Grapefruit and mint up top, ginger in the heart, then sandalwood and incense that last well. It goes from a client meeting to a dinner date. Critics call it unadventurous, and they're right: next to Fahrenheit it feels very polished. That polish is exactly what makes it a great first serious fragrance.",
+    "dior-dior-homme": "Olivier Polge put iris at the center of a men's scent in 2005, with a touch of cocoa. The result is soft and powdery, with a lipstick feel it doesn't hide. It's for men who dislike muscular woods. Projection is modest: people notice it up close, far less than Le Mâle. Givenchy Gentleman now plays a similar card, only sweeter.",
+    "dior-fahrenheit": "Divisive like nothing else in this top 10. Its violet and leather give off a petrol-like note, almost hot gasoline, that no other scent here offers. We rank it fifth for an originality that hasn't faded since 1988. Wear it in autumn and at night, one or two sprays. If it bothers you at the counter, don't force it: Dior Homme is easier.",
+    "guerlain-habit-rouge": "Jean-Paul Guerlain's 1965 oriental for men moves from lemon and basil to carnation and cinnamon, then settles on the house's powdery vanilla. It's for men who like a well-cut jacket. Some find it dated. On a wool scarf in winter it lingers for a long time. Less sweet than Le Mâle and drier than A*Men, it is the most tailored scent on the list.",
+    "creed-aventus": "Only niche fragrance in this top 10, and it earns the spot. Pineapple and apple over smoky birch and oakmoss created a fruity-woody style in 2010 that many scents have imitated. It works from spring to autumn. All those copies have dimmed its aura a little. Next to Bleu de Chanel it's fruitier and smokier.",
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian set lavender and mint on vanilla and tonka in 1995, and it became a cult scent. It's an evening fragrance, warm and soft, perfect for a winter date. Some find it overexposed, or too sweet if they prefer dry woods. It's friendlier than A*Men and fills a room less, which makes it the easier of the two ambers to wear.",
+    "giorgio-armani-acqua-di-gio-profumo": "Plain Acqua di Giò is too common for our top 10. The Profumo version, made in 2015 by the same Alberto Morillas, adds incense and patchouli to the marine freshness. It gains depth and staying power. This is our favorite aquatic for summer and the office. Darker than Eau Sauvage, it still reads clearly in the heat.",
+    "thierry-mugler-amen": "Coffee, caramel and honey over patchouli: A*Men brought the gourmand idea of Angel to men's perfumery in 1996. It polarizes, and its strength punishes a heavy hand. One spray on the chest is enough. It ranks tenth only because it doesn't belong at the office. On a winter night, few scents here last as long."
+   },
+   "faq": [
+    {
+     "q": "What is the best perfume for men?",
+     "a": "We'd say Terre d'Hermès: versatile, well built and wearable all year. If freshness is the priority, Eau Sauvage is still the reference. For a warmer evening scent, look at Le Mâle or Habit Rouge. The right answer depends on when you'll wear it, whether that's the office, a night out or summer."
+    },
+    {
+     "q": "Which men's fragrance lasts the longest?",
+     "a": "On this list A*Men is the strongest, rated 5 out of 5. Five others follow at 4, including Le Mâle, Bleu de Chanel and Fahrenheit. Bases of patchouli, vanilla or leather outlast citrus. Eau Sauvage, being mostly citrus, needs a top-up during the day."
+    },
+    {
+     "q": "What's a good men's fragrance for the office?",
+     "a": "A woody or a moderate fresh scent. Terre d'Hermès and Bleu de Chanel are our two picks, with Dior Homme if you like powder. One or two sprays are plenty. Skip A*Men and Le Mâle in an open-plan office, since their sweet amber takes over the room."
+    },
+    {
+     "q": "Why isn't Dior Sauvage on the list?",
+     "a": "Because it's everywhere and its ambroxan glare wears thin. It's effective and easy to like, and plenty of men are happy with it. But if you want something more personal from Dior, Eau Sauvage, Dior Homme and Fahrenheit have more to say."
+    }
+   ]
+  }
+ },
+ "best:niche": {
+  "picks": [
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "creed-aventus",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "le-labo-santal-33",
+   "creed-green-irish-tweed",
+   "parfums-de-marly-layton",
+   "byredo-gypsy-water",
+   "le-labo-rose-31",
+   "parfums-de-marly-delina",
+   "escentric-molecules-molecule-01"
+  ],
+  "fr": {
+   "title": "Parfum niche : notre top 10 des meilleurs parfums de niche",
+   "meta": "Portrait of a Lady, Aventus et Baccarat Rouge 540 en tête : notre classement des meilleurs parfums de niche, et lesquels valent vraiment l'essai.",
+   "h1": "Les meilleurs parfums de niche, selon notre rédaction",
+   "intro": "Notre meilleur parfum de niche est Portrait of a Lady de Frédéric Malle. Dominique Ropion y a composé une rose au patchouli et à l'encens d'une ampleur rare. Aventus de Creed suit de près, pour son fruité fumé que tout le marché a copié. Baccarat Rouge 540 complète le podium avec son accord ambré et safrané. Le reste du top 10 va du santal de Le Labo à la molécule unique de Molecule 01. Voici comment nous les avons choisis.",
+   "sections": [
+    {
+     "title": "Qu'est-ce qu'un parfum de niche ?",
+     "body": "Un parfum de niche vient d'une maison spécialisée dans le parfum, et non d'une maison de mode ou d'une marque de cosmétiques. La distribution est plus sélective, les collections plus courtes, et les compositions prennent en principe plus de risques. Le mot décrit une démarche plus qu'un statut. Beaucoup de ces maisons appartiennent aujourd'hui à de grands groupes, comme Le Labo et Frédéric Malle chez Estée Lauder, sans que leur style ait changé du tout au tout. Pour ce classement, nous avons pesé l'influence et la qualité de composition. La polyvalence et la présence sur la peau (notée de 1 à 5 dans nos fiches) ont compté aussi. Le prix, souvent élevé dans cette catégorie, n'est pas entré en ligne de compte. Un parfum de niche n'est pas meilleur par principe : certains sont aussi sages que ce qu'on trouve en grand magasin."
+    },
+    {
+     "title": "Les maisons derrière la sélection",
+     "body": "Sept maisons figurent dans notre top 10. Frédéric Malle édite des parfums signés du nom de leur parfumeur, dont Portrait of a Lady. Creed joue le luxe classique avec Aventus et Green Irish Tweed. Maison Francis Kurkdjian porte le nom de son fondateur, qui a composé Baccarat Rouge 540. Le Labo est surtout connu pour Santal 33, et sa Rose 31 au cumin mérite autant d'attention. Byredo travaille beaucoup avec Jérôme Epinette, l'auteur de Gypsy Water. Parfums de Marly, maison d'inspiration équestre, fait des parfums généreux et souvent sucrés comme Layton et Delina. Escentric Molecules a transformé une seule molécule en parfum. Jo Malone, propriété d'Estée Lauder depuis 1999, est souvent rangée dans la niche. Ses colognes comme Wood Sage & Sea Salt sont une bonne porte d'entrée, mais leur tenue courte les a tenues hors du classement."
+    },
+    {
+     "title": "Par où commencer",
+     "body": "Si la niche est nouvelle pour vous, commencez par un parfum facile. Gypsy Water et Green Irish Tweed sont doux, bien construits et simples à porter au bureau. Baccarat Rouge 540, Layton et Portrait of a Lady sont les plus puissants (5 sur 5) : une pulvérisation suffit, deux au maximum. Molecule 01 est un cas à part. Sur certaines peaux il forme un halo boisé, sur d'autres on ne sent presque rien : portez-le plusieurs jours avant de trancher. Demandez des échantillons dès que possible. Un parfum de niche se juge sur deux ou trois jours de port, pas sur une touche en boutique. Méfiez-vous aussi de l'effet de mode. Aventus et Baccarat Rouge 540 ont été tant copiés que les originaux peuvent sembler familiers dès la première pulvérisation."
+    }
+   ],
+   "why": {
+    "editions-de-parfums-frederic-malle-portrait-of-a-lady": "Premier du classement parce qu'il tient la promesse de la niche : une idée forte, exécutée sans compromis. Dominique Ropion a posé une rose à la framboise sur un fond de patchouli et d'encens, avec une ampleur rare. Sa puissance le réserve au soir et à l'automne. Nos fiches le classent au féminin, mais il se porte très bien sur une peau masculine. Plus sombre et plus sec que Delina.",
+    "creed-aventus": "Ananas, pomme et bouleau fumé sur mousse de chêne : Aventus a lancé en 2010 un fruité boisé que beaucoup ont imité. Il reste l'un des parfums de niche les plus polyvalents, du bureau au dîner et du printemps à l'automne. Son aura a pâli à force de copies. Face à Layton, il est plus sec et bien moins sucré.",
+    "maison-francis-kurkdjian-baccarat-rouge-540": "Francis Kurkdjian a construit un accord de safran, de jasmin et de bois ambrés à la diffusion hors norme, avec une résine de sapin au cœur. On le reconnaît aujourd'hui dans la rue, et c'est aussi son défaut. Une seule pulvérisation suffit, le soir, en automne ou en hiver. Plus aérien que Portrait of a Lady, il est aussi moins riche.",
+    "le-labo-santal-33": "Frank Voelkl a écrit en 2011 un santal au papyrus et au cuir, ouvert par la cardamome et la violette. C'est le boisé de niche le plus facile à porter au quotidien, aussi bien au bureau qu'en week-end. Son omniprésence a émoussé l'originalité. Plus sec que Gypsy Water, il projette nettement plus (4 sur 5 contre 3).",
+    "creed-green-irish-tweed": "Green Irish Tweed date de 1985 et reste d'une grande netteté : verveine citronnée, feuille de violette et iris sur un fond de santal et d'ambre gris. C'est une fraîcheur verte très élégante, idéale au bureau au printemps. Certains la trouvent trop classique. Moins spectaculaire qu'Aventus, il est aussi plus raffiné et plus discret.",
+    "parfums-de-marly-layton": "Hamid Merati-Kashani a mêlé la pomme et la lavande à une vanille épicée de cardamome et de poivre. Le résultat est addictif et très puissant. C'est le parfum de soirée d'hiver de la liste, mais il devient trop sucré sous la chaleur. Face à Aventus, il est plus doux et plus gourmand. Deux pulvérisations au maximum.",
+    "byredo-gypsy-water": "Jérôme Epinette a composé en 2008 un boisé d'encens et d'aiguilles de pin, adouci par la vanille et l'iris. On pense à un feu de camp lointain plus qu'à un parfum. Sa projection reste modeste, ce qui en fait un bon choix pour le bureau ou un rendez-vous discret. Plus doux que Santal 33, il se sent surtout de près.",
+    "le-labo-rose-31": "Daphné Bugey a associé en 2006 la rose au cumin et au poivre, sur un fond de cèdre et de bois de gaïac. Cette rose ne fait pas bouquet : elle évoque plutôt une peau chaude et boisée. Le cumin peut paraître trop corporel sur certaines peaux, alors testez avant d'acheter. Plus sèche que Delina, elle va aussi bien aux hommes qu'aux femmes.",
+    "parfums-de-marly-delina": "Litchi, rhubarbe et rose : Delina est la rose fruitée la plus aimable de notre sélection. Le fond de cashmeran et d'encens l'empêche de rester sucrée. Elle se porte le jour comme le soir, au printemps et en automne. Les puristes la trouvent trop douce. Portrait of a Lady traite la même fleur en version sombre ; Delina en est la version lumineuse.",
+    "escentric-molecules-molecule-01": "Un seul ingrédient, l'Iso E Super, que Geza Schoen a présenté seul en 2006. Sur certaines peaux, il crée un halo boisé et velouté ; sur d'autres, on ne sent presque rien. C'est le parfum le plus conceptuel de la liste. Il se porte au bureau sans jamais déranger et se superpose bien à d'autres parfums. Testez-le plusieurs jours avant d'acheter."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum de niche ?",
+     "a": "C'est un parfum créé par une maison spécialisée, distribué de façon sélective, plutôt que par une maison de mode. Les compositions y sont souvent plus libres. Le terme ne garantit pas la qualité : certains parfums de niche sont très sages, et des parfums de grande distribution sont excellents."
+    },
+    {
+     "q": "Quel est le meilleur parfum de niche ?",
+     "a": "Pour nous, Portrait of a Lady de Frédéric Malle, pour l'ampleur de sa rose au patchouli. Aventus de Creed et Baccarat Rouge 540 suivent de près. Si vous cherchez un premier parfum de niche plus facile, Gypsy Water ou Green Irish Tweed sont plus simples à porter au quotidien."
+    },
+    {
+     "q": "Quel parfum de niche pour homme ?",
+     "a": "Aventus et Green Irish Tweed de Creed restent les deux références, l'un fruité et fumé, l'autre vert. Layton de Parfums de Marly est un choix plus gourmand pour le soir. Santal 33 et Rose 31 de Le Labo sont mixtes et se portent très bien sur une peau masculine."
+    },
+    {
+     "q": "Un parfum de niche tient-il mieux ?",
+     "a": "Pas forcément. Portrait of a Lady, Layton et Baccarat Rouge 540 sont très puissants, notés 5 sur 5. Mais les colognes de Jo Malone ou Molecule 01 restent discrètes. La tenue dépend surtout des notes de fond et de la concentration, pas du statut de la maison."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best niche fragrances: our top 10, ranked and explained",
+   "meta": "Portrait of a Lady, Aventus and Baccarat Rouge 540 lead our ranking of the best niche fragrances: what sets each apart and which ones are worth testing.",
+   "h1": "The best niche perfumes, according to our editors",
+   "intro": "Our top niche fragrance is Frédéric Malle's Portrait of a Lady, a rose with patchouli and incense on a grand scale, composed by Dominique Ropion. Creed Aventus is a close second for the smoky fruit accord the whole market copied. Baccarat Rouge 540 rounds out the podium with its saffron and amber glow. The rest of the list runs from Le Labo's sandalwood to the single-molecule Molecule 01. Here's how we chose them.",
+   "sections": [
+    {
+     "title": "What counts as niche",
+     "body": "A niche perfume comes from a house that specializes in fragrance, not from a fashion label or a cosmetics brand. Distribution is more selective, collections are smaller, and compositions tend to take more risks. The word describes an approach more than a status. Many of these houses now belong to large groups, such as Le Labo and Frédéric Malle under Estée Lauder, and their style hasn't changed that much. We ranked on influence and quality of composition. Versatility and presence on skin (rated 1 to 5 in our database) counted too. Price didn't, even though it runs high in this category. Niche isn't better by default: some niche scents are as safe as anything at a department store counter."
+    },
+    {
+     "title": "The houses behind the list",
+     "body": "Seven houses made the cut. Frédéric Malle publishes perfumes under their perfumer's name, Portrait of a Lady among them. Creed plays classic luxury with Aventus and Green Irish Tweed. Maison Francis Kurkdjian carries the name of its founder, who composed Baccarat Rouge 540. Le Labo is best known for Santal 33, though its cumin-laced Rose 31 deserves as much attention. Byredo works a lot with Jérôme Epinette, who made Gypsy Water. Parfums de Marly has an equestrian theme and leans generous and often sweet, as Layton and Delina show. Escentric Molecules turned a single aroma chemical into a perfume. Jo Malone, owned by Estée Lauder since 1999, is often filed under niche. Its colognes like Wood Sage & Sea Salt make a gentle entry point, but their short life on skin kept them off our list."
+    },
+    {
+     "title": "Where to start",
+     "body": "If niche is new to you, start with an easy wearer. Gypsy Water and Green Irish Tweed are gentle, well built and office-friendly. Baccarat Rouge 540, Layton and Portrait of a Lady are the strongest here (5 out of 5): one spray is enough, two at most. Molecule 01 is its own case. On some skins it makes a soft woody halo, on others you smell almost nothing, so wear it for a few days before deciding. Ask for samples wherever you can. Niche perfume is judged over two or three days of wear, not on a paper strip at the counter. And don't buy on hype alone. Aventus and Baccarat Rouge 540 have been copied so widely that the originals can feel familiar from the first spray."
+    }
+   ],
+   "why": {
+    "editions-de-parfums-frederic-malle-portrait-of-a-lady": "Number one because it delivers what niche promises: a strong idea, carried out without compromise. Dominique Ropion set a raspberry-tinged rose over patchouli and incense, on a grand scale. Its power makes it an autumn evening scent. Our database lists it as feminine, but it wears very well on men. Darker and drier than Delina.",
+    "creed-aventus": "Pineapple, apple and smoky birch over oakmoss: in 2010 Aventus launched a fruity-woody style that many have imitated. It remains one of the most versatile niche scents, from office to dinner and from spring to autumn. All the copies have dimmed its aura. Next to Layton it's drier and far less sweet.",
+    "maison-francis-kurkdjian-baccarat-rouge-540": "Francis Kurkdjian built an accord of saffron, jasmine and ambery woods with enormous diffusion, and a fir resin note at its heart. You now recognize it on the street, which is also its weakness. One spray is enough, at night, in autumn or winter. It's airier than Portrait of a Lady and less rich.",
+    "le-labo-santal-33": "Frank Voelkl's 2011 sandalwood leans on papyrus and leather, opened by cardamom and violet. It's the easiest niche woody for daily wear, as good at the office as on a weekend. Being everywhere has worn down its originality. Drier than Gypsy Water, it also projects much more.",
+    "creed-green-irish-tweed": "Green Irish Tweed dates from 1985 and still smells sharp: lemon verbena, violet leaf and iris over sandalwood and ambergris. It's a very elegant green freshness, ideal for the office in spring. Some find it too classic. Less showy than Aventus, it's more refined and more discreet.",
+    "parfums-de-marly-layton": "Hamid Merati-Kashani blended apple and lavender into a vanilla spiced with cardamom and pepper. The result is addictive and very strong. It's the winter evening pick on this list, but it turns too sweet in heat. Compared with Aventus it's softer and more gourmand. Two sprays at most.",
+    "byredo-gypsy-water": "Jérôme Epinette's 2008 woody mixes incense and pine needles, softened by vanilla and iris. It suggests a distant campfire more than a perfume. Projection is modest, which makes it a good pick for the office or a quiet date. Softer than Santal 33, it's mostly a skin scent.",
+    "le-labo-rose-31": "Daphné Bugey paired rose with cumin and pepper in 2006, over cedar and guaiac wood. This rose doesn't read as a bouquet but as warm, woody skin. On some people the cumin can feel too bodily, so test first. Drier than Delina, it suits men and women equally.",
+    "parfums-de-marly-delina": "Lychee, rhubarb and rose: Delina is the friendliest fruity rose in this selection. A base of cashmeran and incense keeps it from staying sugary. It works day or night, in spring and autumn. Purists find it too sweet. Portrait of a Lady is the dark take on the flower; Delina is the bright one.",
+    "escentric-molecules-molecule-01": "One ingredient, Iso E Super, presented on its own by Geza Schoen in 2006. On some skins it makes a velvety woody halo; on others you smell almost nothing. It's the most conceptual scent on the list. It never bothers anyone at the office and layers well with other perfumes. Wear it for a few days before buying."
+   },
+   "faq": [
+    {
+     "q": "What is a niche perfume?",
+     "a": "A fragrance made by a house that specializes in perfume and sells it selectively, rather than by a fashion label. Compositions tend to be freer. The label doesn't guarantee quality, though: some niche scents are very safe, and some department store perfumes are excellent."
+    },
+    {
+     "q": "What is the best niche perfume?",
+     "a": "We'd pick Frédéric Malle's Portrait of a Lady for the scale of its patchouli rose. Creed Aventus and Baccarat Rouge 540 follow closely. For an easier first niche bottle, Gypsy Water or Green Irish Tweed are simpler to wear every day."
+    },
+    {
+     "q": "What are the best niche fragrances for men?",
+     "a": "Creed Aventus and Green Irish Tweed remain the two references, one fruity and smoky, the other green. Layton from Parfums de Marly is a sweeter evening choice. Le Labo's Santal 33 and Rose 31 are unisex and wear very well on men."
+    },
+    {
+     "q": "Do niche perfumes last longer?",
+     "a": "Not necessarily. Portrait of a Lady, Layton and Baccarat Rouge 540 are very strong, rated 5 out of 5. Jo Malone colognes and Molecule 01 stay quiet. Longevity depends on base notes and concentration, not on the status of the house."
+    }
+   ]
+  }
+ },
+ "best:femme": {
+  "picks": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "thierry-mugler-angel",
+   "yves-saint-laurent-opium",
+   "dior-hypnotic-poison",
+   "chanel-n-19",
+   "yves-saint-laurent-libre"
+  ],
+  "fr": {
+   "title": "Meilleur parfum femme : notre classement des 10 grands noms",
+   "meta": "N°5, Shalimar et Mitsouko en tête : notre classement des meilleurs parfums femme, du chypre historique au gourmand moderne.",
+   "h1": "Meilleurs parfums femme : le top 10 de la rédaction",
+   "intro": "Le meilleur parfum femme reste pour nous N°5 de Chanel. Ses aldéhydes de 1921 sont toujours la leçon de base du floral abstrait, et il se porte encore avec une vraie autorité. Shalimar arrive deuxième pour sa vanille fumée, Mitsouko troisième pour son chypre à la pêche. Parmi les parfums plus récents, J'adore et Coco Mademoiselle sont les meilleurs choix pour tous les jours. Le classement va jusqu'à Libre, sorti en 2019.",
+   "sections": [
+    {
+     "title": "Comment nous avons classé",
+     "body": "Le classement pèse quatre critères. L'influence d'abord : N°5, Shalimar et Angel ont chacun fixé le modèle d'une famille, et cela compte. La qualité de composition ensuite, jugée sur la netteté de l'idée plus que sur la longueur de la liste des notes. La polyvalence, parce qu'un parfum qu'on ne porte qu'en soirée d'hiver rend moins de services. Enfin la présence sur la peau, que nos fiches notent de 1 à 5. Cette dernière ne suffit pas. Opium et Angel sont notés 5 et aucun des deux n'est premier. Mitsouko n'est noté que 3, mais sa construction reste le modèle du chypre. Nous n'avons tenu compte ni des prix ni des ventes. La Vie Est Belle, très efficace mais trop répandue et trop sucrée à notre goût, reste en dehors du top 10."
+    },
+    {
+     "title": "Classiques ou modernes : lire le classement",
+     "body": "Quatre parfums de la liste ont plus de cinquante ans, et ce n'est pas de la nostalgie. N°5, Shalimar et Mitsouko se portent encore si l'on accepte un style plus construit que les fruités actuels. On y trouve des aldéhydes savonneux, une vanille fumée ou de la mousse de chêne. Opium (1977) et N°19 (1971) forment un duo de contraires : l'un est épicé et chaud, l'autre vert et froid. Les modernes sont plus faciles d'accès. J'adore est un floral lumineux de poire et de jasmin qui ne vexe personne au bureau. Coco Mademoiselle mise sur un patchouli propre, Hypnotic Poison sur une vanille à la noix de coco. Angel reste à part : c'est le gourmand fondateur, avec son caramel et son patchouli. Libre ferme la liste sur un contraste de lavande et de fleur d'oranger qu'on n'attendait pas dans un féminin."
+    },
+    {
+     "title": "Quel parfum femme choisir selon l'usage",
+     "body": "Pour un premier grand parfum, prenez J'adore ou Coco Mademoiselle. Ils sont polis et difficiles à rater. Au bureau, N°19 est notre préféré, avec son iris vert qui reste net toute la matinée. Pour le soir, Shalimar et Hypnotic Poison jouent la vanille de deux façons : le premier est solennel et fumé, le second plus crémeux. En plein hiver, Opium et Angel réclament une seule pulvérisation : leur intensité sature vite une pièce fermée. Au printemps, Mitsouko et Libre fonctionnent bien. Le premier se réchauffe lentement sur la peau, le second passe du jour au soir sans effort. Essayez toujours sur la peau plutôt que sur une touche en papier. Les chypres comme Mitsouko changent beaucoup après une heure, et le premier contact ne dit presque rien."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "Numéro un parce qu'aucun parfum de cette liste n'a autant servi de référence. Ernest Beaux a posé en 1921 des aldéhydes pétillants sur la rose, le jasmin et l'iris, avec un fond de santal et de vanille. C'est un floral abstrait, qu'on reconnaît sans pouvoir nommer une fleur. Son côté savonneux paraît vintage à certaines. En extrait et par temps froid, il est plus rond que N°19.",
+    "guerlain-shalimar": "Jacques Guerlain a créé en 1925 un ambré où la bergamote rencontre une vanille fumée et l'opoponax. La vanille y est solennelle plutôt que sucrée, ce qui déroute celles qui attendent un gourmand. C'est un parfum de soirée et de rendez-vous, en automne et en hiver. Moins sucré qu'Hypnotic Poison, il a aussi bien plus de relief.",
+    "guerlain-mitsouko": "Troisième, et sans doute le plus difficile à aimer du premier coup. La pêche et la bergamote s'appuient sur la mousse de chêne et le vétiver : c'est le chypre fruité de référence depuis 1919. Il demande plusieurs essais avant de livrer sa mélancolie. Portez-le en automne, au bureau ou au dîner. Plus sombre que N°19, il est aussi moins froid.",
+    "dior-jadore": "Calice Becker a signé en 1999 un floral lumineux : poire et melon en tête, puis rose et jasmin sur un fond de musc et de vanille. C'est le parfum qu'on offre sans risque, pour le bureau comme pour une occasion. On lui reproche sa sagesse face aux fleurs plus sombres de la liste, comme Opium. Nous le classons quatrième pour une exécution sans faute.",
+    "chanel-coco-mademoiselle": "Une orange vive sur un patchouli propre, avec la rose et le litchi au cœur. Jacques Polge l'a composé en 2001, et il tient bien du bureau au dîner sans changer de ton. Sa grande diffusion lui a fait perdre un peu de singularité. Plus moderne que N°5, c'est le Chanel le plus facile pour une première fois.",
+    "thierry-mugler-angel": "Barbe à papa, chocolat et caramel sur un patchouli sombre : en 1992, Olivier Cresp a posé les bases du gourmand moderne. Angel divise, et c'est tant mieux. Il sature vite une pièce, donc une pulvérisation suffit, de préférence en hiver. On le place sixième parce que les gourmands actuels lui doivent beaucoup, pas parce qu'il plaît à tout le monde. Hypnotic Poison est plus doux.",
+    "yves-saint-laurent-opium": "Clou de girofle, prune et mandarine sur un fond de santal et d'ambre vanillé : Opium est l'oriental épicé type depuis 1977. Il est somptueux en hiver et envahissant si la main est lourde. Réservez-le au soir et aux grandes occasions. Plus sec et plus épicé que Shalimar, il ne cherche jamais à être doux.",
+    "dior-hypnotic-poison": "Annick Ménardo a mis en 1998 de la noix de coco et de la prune sur une vanille musquée, avec la tubéreuse et le jasmin au cœur. C'est une vanille culte, profonde et crémeuse. Ce parfum est trop dense pour l'été, mais parfait pour un rendez-vous d'hiver. Plus accessible que Shalimar, il est aussi moins complexe.",
+    "chanel-n-19": "Henri Robert a créé en 1971 un chypre vert où le galbanum et l'iris dominent, sur mousse de chêne et cuir. C'est notre parfum de bureau préféré : net, froid, jamais sucré. Cette froideur déroute celles qui aiment les floraux gourmands. Au printemps, avec une chemise blanche, il tombe juste. Il forme avec N°5 le duo le plus contrasté de Chanel.",
+    "yves-saint-laurent-libre": "Anne Flipo et Carlos Benaïm ont associé en 2019 la lavande, habituelle chez les hommes, à la fleur d'oranger. Le contraste fonctionne, frais puis chaud. Le fond de vanille et de musc reste plus convenu. Libre est le nom le plus récent de la liste, un bon parfum de soirée ou de bureau en automne. Moins sucré que Coco Mademoiselle, il a plus de tension."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum femme ?",
+     "a": "Pour nous, N°5 de Chanel, pour son influence et sa construction. Pour un usage quotidien, J'adore et Coco Mademoiselle sont plus faciles. Si vous aimez les parfums chauds, tournez-vous vers Shalimar ou Hypnotic Poison. Le meilleur parfum reste celui qui tient sur votre peau : testez toujours sur le poignet avant d'acheter."
+    },
+    {
+     "q": "Quel parfum femme tient le plus longtemps ?",
+     "a": "Dans ce classement, Opium et Angel sont notés 5 sur 5 en intensité. Cinq autres suivent à 4, dont N°5, Shalimar et Libre. Les fonds de vanille, de patchouli et d'ambre tiennent le mieux. Pour les faire durer, vaporisez sur des zones chaudes et sur un vêtement."
+    },
+    {
+     "q": "Quel parfum femme classique choisir ?",
+     "a": "N°5 reste le choix évident, mais Mitsouko et Shalimar ont autant de caractère. Pour un classique plus frais, N°19 de Chanel et son iris vert conviennent bien au printemps. Ces parfums anciens demandent souvent deux ou trois essais avant de plaire, alors ne jugez pas sur une touche."
+    },
+    {
+     "q": "Quel parfum femme porter au bureau ?",
+     "a": "Choisissez un parfum d'intensité moyenne. N°19, J'adore et Coco Mademoiselle sont nos trois conseils, à une ou deux pulvérisations. Évitez Angel et Opium dans un espace partagé : leur puissance prend vite toute la pièce, même quand vous ne la sentez plus sur vous."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best perfumes for women: our top 10, ranked",
+   "meta": "Chanel N°5, Shalimar and Mitsouko lead our ranking of the best women's perfumes, from historic chypres to modern gourmands. Flaws included.",
+   "h1": "The best women's perfumes, ranked by our editors",
+   "intro": "Our choice for the best women's perfume is still Chanel N°5. Its 1921 aldehydes remain the textbook abstract floral, and it's still worn with real authority. Shalimar is second for its smoky vanilla, Mitsouko third for its peach chypre. Among the newer names, J'adore and Coco Mademoiselle are the best picks for everyday wear. The list runs all the way to Libre, launched in 2019.",
+   "sections": [
+    {
+     "title": "How we ranked them",
+     "body": "Four criteria shaped the list. Influence first: N°5, Shalimar and Angel each set the model for a whole family. Composition next, judged on the clarity of the idea rather than the length of the notes list. Versatility, because a perfume you can only wear on winter nights does less for you. And presence on skin, rated 1 to 5 in our database. Strength alone doesn't win. Opium and Angel both score 5 and neither is first. Mitsouko only scores 3, yet its structure is still the model chypre. We ignored price and sales figures. La Vie Est Belle is effective but too common and too sweet for our taste, so it stays outside the top 10."
+    },
+    {
+     "title": "Classics and moderns",
+     "body": "Four perfumes here are more than fifty years old, and that isn't nostalgia. N°5, Shalimar and Mitsouko still wear well if you accept a more structured style than today's fruity scents. Expect soapy aldehydes, smoky vanilla or oakmoss. Opium (1977) and N°19 (1971) are a study in opposites. One is spicy and warm, the other green and cool. The modern picks are easier to approach. J'adore is a bright pear and jasmine floral that offends nobody at work. Coco Mademoiselle bets on clean patchouli, Hypnotic Poison on coconut vanilla. Angel stands apart as the founding gourmand, all caramel and patchouli. Libre closes the list with a lavender and orange blossom contrast few expected in a women's scent."
+    },
+    {
+     "title": "Which one for which moment",
+     "body": "For a first serious perfume, go with J'adore or Coco Mademoiselle. They're polished and hard to get wrong. At the office, N°19 is our favorite, its green iris staying crisp all morning. For evenings, Shalimar and Hypnotic Poison handle vanilla in two ways: the first formal and smoky, the second creamy. In deep winter, Opium and Angel need a single spray: their strength fills a closed room fast. In spring, Mitsouko and Libre both shine. Mitsouko warms slowly on skin, while Libre moves easily from day to night. Always test on skin rather than a paper strip. Chypres like Mitsouko change a lot after an hour, and the first sniff tells you very little."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "First place because nothing on this list has served as a reference more often. In 1921 Ernest Beaux set sparkling aldehydes over rose, jasmine and iris, with sandalwood and vanilla underneath. It's an abstract floral: you recognize it without naming a single flower. Some find the soapiness dated. In parfum strength on a cold day, it's rounder than N°19.",
+    "guerlain-shalimar": "Jacques Guerlain's 1925 amber pairs bergamot with smoky vanilla and opoponax. The vanilla is formal rather than sugary, which throws people expecting a gourmand. It's an evening and date perfume for autumn and winter. Less sweet than Hypnotic Poison, it also has far more depth, and it rewards a slow wear over a whole evening.",
+    "guerlain-mitsouko": "Third, and probably the hardest to love on first try. Peach and bergamot rest on oakmoss and vetiver: the reference fruity chypre since 1919. It takes a few wearings before its melancholy comes through. Wear it in autumn, at work or at dinner. Darker than N°19, and less cold, it suits someone patient.",
+    "dior-jadore": "Calice Becker's 1999 floral is all light: pear and melon up top, rose and jasmine in the heart, musk and vanilla below. It's the perfume you can gift without risk, for the office or an occasion. Critics call it too well-behaved next to darker flowers like Opium. We rank it fourth for flawless execution.",
+    "chanel-coco-mademoiselle": "A bright orange over clean patchouli, with rose and lychee in the middle. Jacques Polge composed it in 2001, and it lasts from office to dinner without changing tone. Being everywhere has cost it some individuality. More modern than N°5, it's the easiest Chanel to start with.",
+    "thierry-mugler-angel": "Cotton candy, chocolate and caramel over dark patchouli: in 1992 Olivier Cresp laid the foundations of the modern gourmand. Angel polarizes, and that's fine. It fills a room quickly, so one spray is enough, ideally in winter. It ranks sixth because today's gourmands owe it a lot, not because everyone likes it. Hypnotic Poison is softer.",
+    "yves-saint-laurent-opium": "Clove, plum and mandarin over sandalwood, vanilla and amber: Opium has been the spicy oriental benchmark since 1977. It's gorgeous in winter and overwhelming with a heavy hand. Save it for evenings and big occasions. Drier and spicier than Shalimar, it has no interest in being soft.",
+    "dior-hypnotic-poison": "Annick Ménardo put coconut and plum over musky vanilla in 1998, with tuberose and jasmine at the heart. It's a cult vanilla, deep and creamy. Too dense for summer, it's perfect for a winter date. More approachable than Shalimar, if less complex, it's the vanilla we'd suggest to a first-timer.",
+    "chanel-n-19": "Henri Robert's 1971 green chypre is led by galbanum and iris over oakmoss and leather. It's our favorite office perfume: crisp, cool, never sweet. That coolness puts off fans of gourmand florals. With a white shirt in spring, it's just right. Next to N°5, it makes Chanel's most contrasted pair.",
+    "yves-saint-laurent-libre": "Anne Flipo and Carlos Benaïm paired lavender, usually a men's note, with orange blossom in 2019. The contrast works, fresh then warm. The vanilla and musk base is more predictable. Libre is the newest name here, a good evening or office scent in autumn. Less sweet than Coco Mademoiselle, it has more tension."
+   },
+   "faq": [
+    {
+     "q": "What is the best perfume for women?",
+     "a": "We'd name Chanel N°5 for its influence and construction. For everyday wear, J'adore and Coco Mademoiselle are easier. If you like warm scents, try Shalimar or Hypnotic Poison. The best perfume is the one that works on your skin, so always test on your wrist before buying."
+    },
+    {
+     "q": "Which women's perfume lasts the longest?",
+     "a": "On this list, Opium and Angel are rated 5 out of 5 for strength. Five others follow at 4, including N°5, Shalimar and Libre. Vanilla, patchouli and amber bases last best. Spray on warm skin and on clothing to stretch them further."
+    },
+    {
+     "q": "What's a good classic perfume for women?",
+     "a": "N°5 is the obvious answer, but Mitsouko and Shalimar have just as much character. For a fresher classic, Chanel N°19 and its green iris suit spring well. Older perfumes like these often need two or three tries before they click, so don't judge them on a paper strip."
+    },
+    {
+     "q": "What perfume should I wear to work?",
+     "a": "Pick something of medium strength. N°19, J'adore and Coco Mademoiselle are our three suggestions, at one or two sprays. Avoid Angel and Opium in a shared space, as their power takes over the room quickly, even when you can no longer smell it on yourself."
+    }
+   ]
+  }
+ },
+ "best:mixtes": {
+  "picks": [
+   "hermes-un-jardin-sur-le-nil",
+   "guerlain-jicky",
+   "calvin-klein-ck-one",
+   "le-labo-santal-33",
+   "tom-ford-oud-wood",
+   "byredo-bal-dafrique",
+   "tom-ford-tobacco-vanille",
+   "jo-malone-wood-sage-sea-salt",
+   "yves-saint-laurent-tuxedo",
+   "acqua-di-parma-colonia"
+  ],
+  "fr": {
+   "title": "Meilleur parfum mixte : notre top 10 des parfums sans genre",
+   "meta": "Un Jardin sur le Nil, Jicky et CK One en tête : notre classement des meilleurs parfums mixtes, à partager ou à porter sans regarder le rayon.",
+   "h1": "Les meilleurs parfums mixtes, classés par la rédaction",
+   "intro": "Notre meilleur parfum mixte est Un Jardin sur le Nil d'Hermès. Jean-Claude Ellena y a peint une mangue verte et un lotus qui ne penchent ni vers le masculin ni vers le féminin. Jicky de Guerlain arrive deuxième : hommes et femmes le portent depuis 1889. CK One complète le podium, pour avoir fait du parfum partagé un phénomène de masse en 1994. Suivent des boisés de niche, des colognes et un tabac vanillé.",
+   "sections": [
+    {
+     "title": "Nos critères de classement",
+     "body": "Un parfum mixte, dans nos fiches, est un parfum que sa maison ne destine à aucun genre. Nous avons classé ceux-ci sur l'influence, la qualité de composition, la polyvalence et la présence sur la peau (notée de 1 à 5). Un critère a pesé en plus : la neutralité réelle. Certains parfums vendus comme mixtes penchent nettement d'un côté, et ils descendent dans la liste. Tobacco Vanille se lit souvent comme un ambré de soirée assez masculin. Un Jardin sur le Nil, lui, reste parfaitement au milieu. Les colognes légères comme Colonia sont neutres par nature, mais leur tenue courte les garde en bas du classement. Le prix n'a joué aucun rôle. Nous avons aussi laissé de côté Baccarat Rouge 540, déjà classé parmi nos meilleurs parfums de niche, pour faire de la place à d'autres noms."
+    },
+    {
+     "title": "Du frais au boisé : les styles du mixte",
+     "body": "Le mixte n'est pas un style unique. La tradition la plus ancienne est la cologne. Colonia d'Acqua di Parma (1916) mêle citron, lavande et romarin, et tout le monde peut la porter. CK One a repris l'idée en 1994 avec un musc propre et un ananas discret. Les boisés de niche forment une deuxième famille. Santal 33 et Tuxedo misent sur le cuir ou le patchouli sans basculer dans le masculin appuyé. Bal d'Afrique et Wood Sage & Sea Salt jouent plutôt la transparence : un musc floral pour l'un, du sel marin et de la sauge pour l'autre. Jicky relève d'une autre époque, avec sa lavande et sa vanille sur une pointe de civette animale. Reste la famille chaude. Tobacco Vanille est le plus puissant de la liste (5 sur 5). Oud Wood, plus retenu, reste un parfum de soirée élégante."
+    },
+    {
+     "title": "Partager un flacon : conseils pratiques",
+     "body": "Un parfum mixte se partage bien dans un couple ou une colocation, mais il ne sentira pas pareil sur deux peaux. Les muscs, présents dans CK One comme dans Bal d'Afrique, et l'ambroxan de Santal 33 réagissent beaucoup à la chaleur de la peau. Testez sur les deux poignets avant d'acheter. Pour un usage quotidien, Un Jardin sur le Nil et Bal d'Afrique sont les plus consensuels. Pour le soir, Oud Wood se partage plus facilement que Tobacco Vanille, dont la densité étouffe par temps doux. Les colognes comme Colonia et Wood Sage & Sea Salt demandent d'être revaporisées : gardez un petit vaporisateur dans votre sac. Et si un seul flacon doit servir à deux, Santal 33 est le compromis le plus sûr de cette liste. Il est boisé sans être rude, et assez tenace pour une journée entière."
+    }
+   ],
+   "why": {
+    "hermes-un-jardin-sur-le-nil": "Premier parce qu'il est le plus neutre de tous. Jean-Claude Ellena a peint en 2005 une mangue verte, du lotus et du pamplemousse, puis un fond léger d'encens et de sycomore. On pense à une tige de roseau froissée. Sa discrétion oblige à revaporiser l'après-midi. Plus aquarellé que Bal d'Afrique, il convient à toutes les peaux et à tous les bureaux.",
+    "guerlain-jicky": "Aimé Guerlain l'a composé en 1889, et c'est l'un des plus anciens parfums encore vendus. La lavande et la bergamote s'ouvrent sur une vanille et une fève tonka, avec une touche de civette animale. Hommes et femmes le portent depuis l'origine. Cette facette animale déroute les nez habitués aux parfums propres. Plus classique que Tobacco Vanille, il est aussi bien plus léger.",
+    "calvin-klein-ck-one": "CK One a fait du parfum partagé un réflexe de génération en 1994. Alberto Morillas et Harry Frémont l'ont voulu propre : bergamote, ananas et citron, puis un musc net sur le cèdre. C'est le parfum t-shirt blanc, à vaporiser généreusement l'été après la douche. Sa tenue est courte. Plus simple que Colonia, il est aussi moins élégant.",
+    "le-labo-santal-33": "Santal, papyrus et cuir, ouverts par la cardamome et la violette : Frank Voelkl a signé en 2011 un boisé qui va aussi bien à une femme qu'à un homme. Il tient bien (4 sur 5) et se porte toute la journée. On le croise souvent, ce qui a émoussé son originalité. Plus dense que Wood Sage & Sea Salt, il reste moins sombre que Tuxedo.",
+    "tom-ford-oud-wood": "Une porte d'entrée vers l'oud, sans l'aspect animal qui effraie parfois. Le bois de rose et la cardamome ouvrent sur un oud lissé par le santal, le vétiver et la fève tonka. Il reste élégant au bureau comme en soirée. Les amateurs d'ouds sauvages le trouvent trop sage, et sa tenue est modérée. Moins dense que Tobacco Vanille, il se partage plus facilement.",
+    "byredo-bal-dafrique": "Jérôme Epinette a composé en 2009 un musc floral lumineux : néroli et bergamote, puis violette et jasmin sur vétiver et musc. C'est un parfum facile à aimer, qui plaît autant aux hommes qu'aux femmes. Sa projection reste modeste, ce qui convient bien au bureau. Plus floral que Wood Sage & Sea Salt, il tient aussi mieux (3 sur 5 contre 2).",
+    "tom-ford-tobacco-vanille": "Olivier Gillotin a mis en 2007 du tabac, de la vanille et du cacao sur des fruits secs et du daim. C'est somptueux et très dense : une pulvérisation suffit. Il devient étouffant par temps doux, donc réservez-le aux soirs d'hiver. Plus sucré qu'Oud Wood, il a aussi beaucoup plus de sillage. On le classe septième parce qu'il ne se porte qu'une partie de l'année.",
+    "jo-malone-wood-sage-sea-salt": "Christine Nagel a évoqué en 2014 un bord de mer anglais : sel marin, sauge, algue rouge et bois flotté. C'est la fraîcheur mixte la plus originale de la liste, loin des agrumes classiques. Sa tenue de cologne oblige à renouveler l'application. Plus salé que Colonia, il est aussi plus moderne et plus facile à porter en ville.",
+    "yves-saint-laurent-tuxedo": "Juliette Karagueuzoglou a construit en 2015 un patchouli sophistiqué, relevé de baies roses et de violette noire, sur ambroxan et cèdre. Il est parfaitement tenu et se porte le soir, quel que soit le genre. Sa sobriété peut sembler austère. Plus sec que Tobacco Vanille, il va mieux avec une chemise blanche qu'avec un pull en laine.",
+    "acqua-di-parma-colonia": "Acqua di Parma a lancé Colonia en 1916. Cette cologne reste un modèle d'élégance simple : citron et bergamote, puis lavande, romarin et verveine. Elle se porte au bureau par grosse chaleur. Sa tenue est forcément limitée, comme celle de toute cologne. Plus classique que CK One, elle se vaporise sans compter après la douche."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum mixte ?",
+     "a": "C'est un parfum que la marque ne destine à aucun genre en particulier. En pratique, les colognes, les boisés secs et les muscs propres sont les familles les plus neutres. Un parfum n'a pas de genre en soi : ce sont surtout les habitudes du marché qui rangent la vanille côté femme et la lavande côté homme."
+    },
+    {
+     "q": "Quel est le meilleur parfum mixte ?",
+     "a": "Pour nous, Un Jardin sur le Nil d'Hermès, le plus neutre et le plus facile à porter de la sélection. Jicky de Guerlain et CK One suivent. Pour un mixte plus présent et plus tenace, Santal 33 de Le Labo est le meilleur compromis, du bureau au week-end."
+    },
+    {
+     "q": "Quel parfum mixte porter en hiver ?",
+     "a": "Tobacco Vanille et Oud Wood de Tom Ford sont nos deux choix, le premier très dense, le second plus élégant et discret. Tuxedo d'Yves Saint Laurent, un patchouli sec, convient aux soirées. Jicky, avec sa vanille et sa lavande, fonctionne aussi très bien quand il fait froid."
+    },
+    {
+     "q": "Un parfum mixte sent-il pareil sur un homme et sur une femme ?",
+     "a": "Pas toujours. Chaque peau réagit différemment, surtout aux muscs de CK One ou de Bal d'Afrique et à l'ambroxan de Santal 33. La différence tient à la peau, pas au genre. Testez sur chacun avant de partager un flacon, idéalement sur une journée entière."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best unisex perfumes: our top 10 genderless picks",
+   "meta": "Un Jardin sur le Nil, Jicky and CK One top our ranking of the best unisex fragrances: scents to share, or to wear without checking the aisle.",
+   "h1": "The best unisex fragrances, ranked by our editors",
+   "intro": "Our favorite unisex perfume is Hermès Un Jardin sur le Nil. Jean-Claude Ellena's green mango and lotus lean neither masculine nor feminine. Guerlain's Jicky is second, worn by men and women alike since 1889. CK One takes third place for turning shared perfume into a mass phenomenon in 1994. After that come niche woods, colognes and a tobacco vanilla.",
+   "sections": [
+    {
+     "title": "How we ranked them",
+     "body": "In our database, a unisex perfume is one its house doesn't target at either gender. We ranked these on influence, composition, versatility and presence on skin (rated 1 to 5). One more criterion weighed in: real neutrality. Some scents sold as unisex clearly lean one way, and they drop down the list. Tobacco Vanille often reads as a fairly masculine evening amber. Un Jardin sur le Nil sits right in the middle. Light colognes like Colonia are neutral by nature, but their short wear keeps them near the bottom. Price played no part. We also left out Baccarat Rouge 540, already ranked among our best niche perfumes, to make room for other names."
+    },
+    {
+     "title": "From fresh to woody",
+     "body": "Unisex isn't one style. The oldest tradition is the cologne. Acqua di Parma's Colonia (1916) blends lemon, lavender and rosemary, and anyone can wear it. CK One took up the idea in 1994 with clean musk and a hint of pineapple. Niche woods form a second group. Santal 33 and Tuxedo work leather or patchouli without tipping into heavy masculinity. Bal d'Afrique and Wood Sage & Sea Salt go for transparency: floral musk for one, sea salt and sage for the other. Jicky belongs to another era, with lavender and vanilla over a streak of animalic civet. Then there's the warm group. Tobacco Vanille is the strongest scent here at 5 out of 5, while Oud Wood is more restrained and stays an elegant evening choice."
+    },
+    {
+     "title": "Sharing a bottle",
+     "body": "A unisex perfume works well shared by a couple or flatmates, but it won't smell the same on two skins. Musks, found in CK One and Bal d'Afrique, and the ambroxan in Santal 33 react strongly to skin warmth. Test on both wrists before buying. For everyday wear, Un Jardin sur le Nil and Bal d'Afrique are the easiest to agree on. For evenings, Oud Wood is easier to share than Tobacco Vanille, which turns stifling in mild weather. Colognes like Colonia and Wood Sage & Sea Salt need reapplying, so keep a travel spray in your bag. And if one bottle has to serve two people, Santal 33 is the safest compromise here. It's woody without being rough, and it lasts a full day."
+    }
+   ],
+   "why": {
+    "hermes-un-jardin-sur-le-nil": "First because it's the most neutral of all. In 2005 Jean-Claude Ellena painted green mango, lotus and grapefruit over a light base of incense and sycamore. Think of a crushed reed stem. It's quiet, so plan a second spray in the afternoon. More watercolor than Bal d'Afrique, it suits every skin and every office.",
+    "guerlain-jicky": "Aimé Guerlain composed it in 1889, and it's one of the oldest perfumes still on sale. Lavender and bergamot open onto vanilla and tonka, with a touch of animalic civet. Men and women have worn it from the start. That animal edge puts off noses used to clean scents. More classical than Tobacco Vanille, it's also much lighter.",
+    "calvin-klein-ck-one": "CK One made sharing a fragrance a generational habit in 1994. Alberto Morillas and Harry Frémont kept it clean: bergamot, pineapple and lemon, then crisp musk on cedar. It's the white T-shirt scent, sprayed generously after a summer shower. Longevity is short. Simpler than Colonia, it's also less refined.",
+    "le-labo-santal-33": "Sandalwood, papyrus and leather, opened by cardamom and violet: Frank Voelkl's 2011 woody fits a woman as well as a man. It lasts well (4 out of 5) and wears all day. You smell it often, which has dulled its originality. Denser than Wood Sage & Sea Salt, it's still less dark than Tuxedo.",
+    "tom-ford-oud-wood": "An entry point to oud without the animal side that scares some people off. Rosewood and cardamom lead into an oud smoothed by sandalwood, vetiver and tonka. It stays elegant at the office or at night. Lovers of wild ouds find it too tame, and longevity is moderate. Less dense than Tobacco Vanille, it's easier to share.",
+    "byredo-bal-dafrique": "Jérôme Epinette's 2009 floral musk is all light: neroli and bergamot, then violet and jasmine over vetiver and musk. It's easy to like and pleases men as much as women. Projection stays modest, which suits an office. More floral than Wood Sage & Sea Salt, it lasts longer too.",
+    "tom-ford-tobacco-vanille": "Olivier Gillotin set tobacco, vanilla and cocoa over dried fruit and suede in 2007. It's lavish and very dense: one spray is plenty. In mild weather it turns stifling, so keep it for winter nights. Sweeter than Oud Wood, it also has far more trail. We rank it seventh only because it's a part-of-the-year scent.",
+    "jo-malone-wood-sage-sea-salt": "Christine Nagel evoked a British shoreline in 2014: sea salt, sage, red algae and driftwood. It's the most original fresh scent on the list, far from classic citrus. Cologne-level longevity means reapplying during the day. Saltier than Colonia, it's also more modern and easier to wear in the city.",
+    "yves-saint-laurent-tuxedo": "Juliette Karagueuzoglou built a polished patchouli in 2015, lifted by pink pepper and black violet over ambroxan and cedar. It's impeccably made and works for evenings on anyone. Its restraint can feel austere. Drier than Tobacco Vanille, it suits a white shirt better than a wool sweater.",
+    "acqua-di-parma-colonia": "Acqua di Parma launched Colonia in 1916. It's still a model of simple elegance: lemon and bergamot, then lavender, rosemary and verbena. Wear it to the office in a heatwave. Like any cologne, it fades fast. More classic than CK One, it can be splashed on freely after a shower."
+   },
+   "faq": [
+    {
+     "q": "What makes a perfume unisex?",
+     "a": "Mostly the brand's decision not to target a gender. In practice, colognes, dry woods and clean musks are the most neutral families. Perfume has no gender in itself: market habits are what put vanilla on the women's shelf and lavender on the men's."
+    },
+    {
+     "q": "What is the best unisex perfume?",
+     "a": "We'd say Hermès Un Jardin sur le Nil, the most neutral and easiest to wear in this selection. Guerlain's Jicky and CK One follow. For a unisex scent with more presence and staying power, Le Labo Santal 33 is the best compromise."
+    },
+    {
+     "q": "What's a good unisex fragrance for winter?",
+     "a": "Tom Ford's Tobacco Vanille and Oud Wood are our two picks, the first very dense, the second more elegant and discreet. Yves Saint Laurent's Tuxedo, a dry patchouli, works for evenings. Jicky, with its vanilla and lavender, also does well in the cold."
+    },
+    {
+     "q": "Does a unisex perfume smell the same on men and women?",
+     "a": "Not always. Every skin reacts differently, especially to the musks in CK One or Bal d'Afrique and the ambroxan in Santal 33. The difference comes from the skin, not the gender. Test on each person before sharing a bottle."
+    }
+   ]
+  }
+ },
+ "hub:best": {
+  "fr": {
+   "title": "Meilleurs parfums : nos classements par genre et par maison",
+   "meta": "Nos classements des meilleurs parfums par genre et pour la niche, puis maison par maison de Dior à Tom Ford. Une méthode claire et des choix assumés.",
+   "h1": "Les meilleurs parfums, classés par la rédaction",
+   "intro": "Il n'existe pas un meilleur parfum, mais certains sont mieux construits, plus influents et plus faciles à porter que d'autres. Nos classements les rangent d'abord par genre : homme, femme ou mixtes. Une liste traite à part les parfums de niche. D'autres vont maison par maison, de Dior à Chanel en passant par Guerlain et Yves Saint Laurent, Tom Ford et Armani. Chaque liste compte six à dix parfums, avec pour chacun ce qu'il apporte, à qui il va et son principal défaut.",
+   "sections": [
+    {
+     "title": "Notre méthode de classement",
+     "body": "Chaque classement repose sur quatre critères. L'influence d'abord : un parfum qui a fixé le modèle d'une famille, comme N°5 ou Angel, pèse plus lourd qu'un succès passager. La qualité de composition ensuite, jugée sur la clarté de l'idée plutôt que sur la longueur de la liste des notes. La polyvalence compte aussi, car la plupart des gens portent un seul parfum au quotidien. Enfin, la présence sur la peau est notée de 1 à 5 dans nos fiches. Aucun critère ne gagne seul : un parfum très puissant peut finir bas s'il ne se porte qu'en soirée d'hiver. Nous n'avons tenu compte ni du prix ni des chiffres de vente, et aucune marque ne paie pour figurer dans une liste. Chaque choix renvoie à une fiche parfum où vérifier les notes, le parfumeur et l'année. Quand un best-seller manque, nous expliquons pourquoi."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum du monde ?",
+     "a": "Aucun classement honnête ne peut le désigner. Dans nos listes, N°5 de Chanel arrive premier côté femme, Terre d'Hermès côté homme et Un Jardin sur le Nil chez les mixtes. Ces choix reflètent l'influence et la qualité de composition, pas les ventes. Le meilleur parfum pour vous reste celui qui tient bien sur votre peau."
+    },
+    {
+     "q": "Comment choisissez-vous les parfums classés ?",
+     "a": "Nous partons de notre base de plus de 300 parfums documentés. Chaque classement puise dans ce catalogue et range six à dix parfums selon quatre critères : influence, composition, polyvalence et présence sur la peau. Les prix et les ventes n'entrent jamais en compte, et chaque choix est argumenté."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best perfumes: our rankings by gender and by house",
+   "meta": "Our rankings of the best perfumes by gender and for niche, then house by house from Dior to Tom Ford. A clear method and opinionated picks.",
+   "h1": "The best perfumes, ranked by our editors",
+   "intro": "There's no single best perfume, but some are better built, more influential and easier to wear than others. Our rankings sort them first by gender: men, women or unisex. A separate list covers niche perfumes. Others go house by house: Dior and Chanel, Guerlain and Yves Saint Laurent, then Tom Ford and Armani. Each list holds six to ten perfumes, with what each one brings, who it suits and its main flaw.",
+   "sections": [
+    {
+     "title": "How we rank",
+     "body": "Every ranking rests on four criteria. Influence comes first: a perfume that set the model for a family, like N°5 or Angel, weighs more than a passing hit. Composition is next, judged on the clarity of the idea rather than the length of the notes list. Versatility counts too, since most people wear one perfume day to day. Finally, presence on skin is rated 1 to 5 in our fact sheets. No single criterion wins: a very strong perfume can finish low if it only works on winter nights. We ignore price and sales figures, and no brand pays to appear on a list. Every pick links to a perfume fact sheet where you can check the notes, the perfumer and the year. When a bestseller is missing, we say why."
+    }
+   ],
+   "faq": [
+    {
+     "q": "What is the best perfume in the world?",
+     "a": "No honest ranking can name one. On our lists, Chanel N°5 comes first for women, Terre d'Hermès for men and Un Jardin sur le Nil for unisex. Those choices reflect influence and composition, not sales. The best perfume for you is the one that works on your skin."
+    },
+    {
+     "q": "How do you pick the perfumes you rank?",
+     "a": "We start from our database of more than 300 documented perfumes. Each ranking draws on that catalog and orders six to ten of them by four criteria: influence, composition, versatility and presence on skin. Price and sales play no part, and every pick comes with its reasons."
+    }
+   ]
+  }
+ },
+ "hub:nose": {
+  "fr": {
+   "title": "Parfumeur : le métier de nez et ses grandes signatures",
+   "meta": "Qu'est-ce qu'un parfumeur, ou nez ? Formation et métier, puis comment reconnaître la signature d'un créateur, de Jean-Claude Ellena à Francis Kurkdjian.",
+   "h1": "Parfumeurs : le métier de nez expliqué",
+   "intro": "Un parfumeur, qu'on appelle aussi un nez, compose des parfums en assemblant des matières naturelles et des molécules de synthèse. La plupart ne travaillent pas pour une seule marque : ils sont salariés de maisons de composition comme Givaudan ou IFF et répondent aux commandes des marques. Quelques maisons, comme Guerlain ou Hermès, ont eu leur propre parfumeur. Nos pages parfumeurs retracent chaque parcours et le style qu'on retrouve d'un parfum à l'autre.",
+   "sections": [
+    {
+     "title": "Le métier et la signature d'un nez",
+     "body": "Le métier commence par la mémorisation de centaines de matières premières, puis par l'apprentissage de leur dosage. En France, beaucoup de parfumeurs passent par des études de chimie ou par une école spécialisée comme l'ISIPCA à Versailles. Le parfumeur écrit une formule et la fait peser. Il la sent, puis la corrige des dizaines de fois. Lire la signature d'un nez demande de comparer plusieurs de ses parfums. Chez Jean-Claude Ellena, on retrouve une économie de moyens. Peu de notes et beaucoup de transparence, comme dans Terre d'Hermès ou Un Jardin sur le Nil. Dominique Ropion aime au contraire l'ampleur, de Portrait of a Lady à Alien. Francis Kurkdjian passe de la lavande sucrée du Mâle à l'accord ambré de Baccarat Rouge 540, mais garde un trait net et reconnaissable. Sur chaque fiche parfumeur, nous relions ses créations pour que ces constantes apparaissent d'elles-mêmes."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Quelle différence entre un parfumeur et un nez ?",
+     "a": "Aucune sur le fond : « nez » est le surnom familier du parfumeur créateur. Le mot parfumeur désigne aussi, plus largement, le commerçant qui vend des parfums. Dans nos pages, parfumeur et nez désignent toujours la personne qui compose la formule, pas celle qui la vend."
+    },
+    {
+     "q": "Comment devenir parfumeur ?",
+     "a": "La voie la plus courante passe par des études de chimie, puis par une école spécialisée comme l'ISIPCA à Versailles. Certaines maisons de composition forment aussi leurs futurs parfumeurs en interne. Il faut ensuite des années d'apprentissage pour mémoriser les matières et signer ses premières formules."
+    }
+   ]
+  },
+  "en": {
+   "title": "Perfumers: what a nose does and how to read a signature",
+   "meta": "What is a perfumer, or nose? The training and the job, then how to spot a creator's signature, from Jean-Claude Ellena to Francis Kurkdjian.",
+   "h1": "Perfumers: the craft of the nose explained",
+   "intro": "A perfumer, often called a nose, composes fragrances by blending natural materials with synthetic molecules. Most don't work for a single brand. They're employed by fragrance houses such as Givaudan or IFF and answer briefs from brands. A few houses, like Guerlain and Hermès, have had their own in-house perfumer. Our perfumer pages trace each career and the style that carries from one scent to the next.",
+   "sections": [
+    {
+     "title": "The craft, and how to read a nose's signature",
+     "body": "The job starts with memorizing hundreds of raw materials, then learning how to dose them. In France, many perfumers come through chemistry studies or a specialized school such as ISIPCA in Versailles. A perfumer writes a formula and has it weighed. Then they smell it and correct it, often dozens of times. Reading a nose's signature means comparing several of their perfumes. Jean-Claude Ellena works with economy: few notes and plenty of transparency, as in Terre d'Hermès or Un Jardin sur le Nil. Dominique Ropion prefers scale, from Portrait of a Lady to Alien. Francis Kurkdjian moves from the sweet lavender of Le Mâle to the amber accord of Baccarat Rouge 540, yet keeps a clean and recognizable line. On each perfumer page we link their creations so these patterns show up on their own."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is a perfumer the same as a nose?",
+     "a": "In practice, yes. Nose is the informal name for a perfumer who creates fragrances. In French, the word parfumeur can also mean someone who sells perfume. On our pages, perfumer and nose always refer to the person who writes the formula, not the one who sells it."
+    },
+    {
+     "q": "How do you become a perfumer?",
+     "a": "The usual route runs through chemistry studies, then a specialized school such as ISIPCA in Versailles. Some fragrance houses also train future perfumers in-house. After that come years of apprenticeship to memorize materials before signing a first formula."
+    }
+   ]
+  }
+ },
+ "hub:guide": {
+  "fr": {
+   "title": "Guides parfum : choisir, porter et comprendre son parfum",
+   "meta": "Nos guides pratiques pour trouver un parfum qui tient ou un premier parfum ado, et pour comprendre la pyramide olfactive et le musc blanc.",
+   "h1": "Nos guides pratiques du parfum",
+   "intro": "Ces guides répondent aux questions qu'on se pose devant un rayon de parfumerie. Lesquels tiennent vraiment toute la journée ? Quel premier parfum offrir à un adolescent ? Que veut dire musc blanc sur une étiquette ? Chaque guide s'appuie sur nos fiches parfum et propose une courte sélection. Les conseils restent concrets : nombre de pulvérisations, zone d'application et saison.",
+   "sections": [
+    {
+     "title": "Ce que vous trouverez dans nos guides",
+     "body": "Les guides de tenue (côté femme et côté homme) expliquent pourquoi un parfum dure : concentration, notes de fond et type de peau. Ceux consacrés au premier parfum d'un adolescent privilégient les eaux de toilette légères, à une ou deux pulvérisations. Le guide du musc blanc démêle ce que recouvre ce nom, souvent un ensemble de muscs de synthèse à l'odeur de linge propre. Celui de la pyramide olfactive explique les notes de tête, de cœur et de fond, et montre où ce modèle atteint ses limites. Nos guides des parfums qui attirent les compliments restent honnêtes : aucun parfum ne garantit la séduction, mais certains font plus réagir que d'autres. Chaque guide renvoie vers les fiches des parfums cités, pour vérifier les notes et l'année de sortie avant d'aller tester en boutique."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Comment choisir un parfum qui tient ?",
+     "a": "Regardez d'abord la concentration : une eau de parfum tient en général mieux qu'une eau de toilette. Les notes de fond comptent ensuite : vanille, ambre, patchouli et bois durent plus longtemps que les agrumes. Vaporisez sur une peau hydratée et sur les vêtements pour prolonger l'effet."
+    },
+    {
+     "q": "Qu'est-ce que la pyramide olfactive ?",
+     "a": "C'est la façon classique de décrire un parfum en trois étages. Les notes de tête se sentent dans les premières minutes, les notes de cœur prennent le relais, puis les notes de fond restent le plus longtemps. Le modèle simplifie beaucoup : certains parfums modernes sont presque linéaires du début à la fin."
+    }
+   ]
+  },
+  "en": {
+   "title": "Perfume guides: choosing, wearing and understanding scent",
+   "meta": "Practical perfume guides to find a long-lasting scent or a first fragrance for a teen, and to understand white musk and the fragrance pyramid.",
+   "h1": "Our practical perfume guides",
+   "intro": "These guides answer the questions people ask in front of a perfume counter. Which scents actually last all day? What makes a good first fragrance for a teenager? What does white musk mean on a label? Each guide draws on our perfume fact sheets and offers a short selection. The advice stays practical: how many sprays, where to apply and in which season.",
+   "sections": [
+    {
+     "title": "What you'll find in our guides",
+     "body": "The longevity guides (for women and for men) explain why a perfume lasts: concentration, base notes and skin type. The first-perfume guides for teens favor light eaux de toilette at one or two sprays. The white musk guide untangles what that name covers, usually a set of synthetic musks that smell like clean laundry. The fragrance pyramid guide explains top, heart and base notes, and shows where the model breaks down. Our guides to perfumes that get compliments stay honest: no scent guarantees attraction, but some draw more reactions than others. Every guide links to the fact sheets of the perfumes it mentions, so you can check the notes and launch year before testing in a store."
+    }
+   ],
+   "faq": [
+    {
+     "q": "How do I choose a perfume that lasts?",
+     "a": "Start with concentration: an eau de parfum usually lasts longer than an eau de toilette. Base notes matter next: vanilla, amber, patchouli and woods outlast citrus. Spray on moisturized skin and on clothing to stretch the effect further."
+    },
+    {
+     "q": "What is the fragrance pyramid?",
+     "a": "It's the classic way to describe a perfume in three layers. Top notes show in the first minutes, heart notes take over, then base notes linger longest. The model simplifies a lot: some modern perfumes are nearly linear from start to finish."
+    }
+   ]
+  }
+ }
+}

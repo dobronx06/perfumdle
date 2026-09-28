@@ -1,0 +1,787 @@
+{
+ "_data_issues": [
+  {
+   "slug": "ralph-lauren-polo",
+   "issue": "wear_fr contient un tiret cadratin (« épais : tweed, laine, cuir »), contraire à WRITING_RULES."
+  },
+  {
+   "slug": "chanel-n-22",
+   "issue": "tagline_fr cite « encens pâle » alors que l'encens ne figure pas dans les notes."
+  },
+  {
+   "slug": "chanel-chance",
+   "issue": "tagline_fr parle de « chypre » alors que families = ['floral']."
+  },
+  {
+   "slug": "dior-fahrenheit",
+   "issue": "families = ['floral','woody'] : le fond cuir et la note pétrolée justifieraient une facette 'leather'."
+  },
+  {
+   "slug": "guerlain-habit-rouge",
+   "issue": "verdict_fr contient « intemporel », formule bannie par WRITING_RULES."
+  }
+ ],
+ "ng:Lavender:F": {
+  "picks": [
+   "yves-saint-laurent-libre",
+   "guerlain-mon-guerlain",
+   "yves-saint-laurent-libre-intense",
+   "parfums-de-marly-palatine",
+   "guerlain-jicky",
+   "maison-margiela-replica-bubble-bath",
+   "tom-ford-fucking-fabulous",
+   "maison-margiela-replica-coffee-break"
+  ],
+  "fr": {
+   "title": "Parfum lavande femme : 8 choix, de Libre à Jicky",
+   "meta": "Libre, Mon Guerlain et Jicky en tête : notre classement des parfums lavande pour femme, de la lavande face à la fleur d’oranger à la lavande savonneuse.",
+   "h1": "Les meilleurs parfums à la lavande pour femme",
+   "intro": "Côté féminin, la lavande travaille rarement seule : on l’adoucit. Notre premier choix reste Libre d’Yves Saint Laurent, parce que sa lavande garde son mordant face à la fleur d’oranger et que le contraste se sent longtemps. Mon Guerlain vient ensuite pour qui préfère une lavande fondue dans la vanille, plus tendre et plus facile au bureau. Libre Intense complète le podium pour le soir. Plus bas, quelques mixtes (Jicky, Replica Bubble Bath) que beaucoup de femmes portent.",
+   "sections": [
+    {
+     "title": "Une lavande empruntée au vestiaire masculin",
+     "body": "La lavande a longtemps signé les fougères pour homme, avec la coumarine et la mousse de chêne. Les parfums féminins la reprennent mais la traitent autrement. Elle reste en tête, rarement au-delà, et sert de contrepoint à un cœur floral ou à un fond vanillé. Dans Libre, Anne Flipo et Carlos Benaïm la posent face à la fleur d’oranger et au jasmin : l’aromatique sec contre la fleur blanche, c’est tout le sujet du parfum. Mon Guerlain choisit la fusion plutôt que le choc. Sa lavande de Provence glisse dans une vanille et une coumarine qui arrondissent tout, sans l’amertume qu’on trouve dans un masculin. Palatine va plus loin dans la discrétion puisque la lavande y est cachée au cœur, derrière la violette et la poire. Là où un homme cherche souvent la lavande du barbier, nette et savonneuse, une femme la reçoit comme une fraîcheur qui se dissout dans la douceur."
+    },
+    {
+     "title": "Choisir selon ce qu’on attend de la lavande",
+     "body": "Si vous aimez le contraste et les parfums qui ont du caractère, Libre reste la référence ; il tient une journée de bureau prolongée par un dîner. Libre Intense garde la même charpente mais remplace le cèdre et le musc par la fève tonka et le santal. Il est plus chaud et plus tenace, un peu moins lisible aussi : on le réserve au soir. Pour une lavande de salle de bain, Replica Bubble Bath fait exactement ce que son nom promet avec de la mousse, du savon et une coco discrète en fond. Il disparaît vite, c’est son défaut. À l’autre bout, Fucking Fabulous de Tom Ford marie la lavande et la sauge sclarée à un cuir amandé et poudré. C’est le choix des femmes qui empruntent volontiers les flacons de leur compagnon. Jicky date de 1889 et porte une civette qui déroute encore. On le conseille aux amatrices d’archives, pas en premier achat."
+    },
+    {
+     "title": "Quelle saison pour une lavande féminine",
+     "body": "Paradoxe : la lavande évoque l’été provençal, mais la plupart des parfums féminins qui la mettent en avant sont des parfums de saison fraîche. Libre, Libre Intense et Mon Guerlain s’épanouissent de l’automne au printemps, parce que leur fond vanillé devient lourd par forte chaleur. Pour l’été, mieux vaut Palatine et son musc à la poire. Bubble Bath convient aussi, car on peut le revaporiser sans risque. Replica Coffee Break est l’exception gourmande : lavande, café et lait sur une vanille légère, pour les matins d’hiver au bureau. Il tient peu, mais il ne gêne personne. Un conseil d’application pour finir. Dans la plupart de ces parfums la lavande est une note de tête, donc elle se sent surtout pendant la première heure. Pour la garder plus longtemps, vaporisez aussi un peu sur une écharpe ou le col d’un manteau, où les notes volatiles s’évaporent moins vite que sur la peau chaude."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-libre": "Premier de la liste parce qu’il est le seul à faire de la lavande le sujet d’un parfum féminin. Elle arrive sèche et aromatique, puis la fleur d’oranger la contredit sans l’effacer. C’est ce frottement qui plaît. Le fond vanillé est plus convenu, et on aurait aimé un final moins attendu. Plus nerveux que Mon Guerlain, il va aux femmes qui aiment les parfums un peu androgynes.",
+    "guerlain-mon-guerlain": "Guerlain prend la lavande à rebours de Libre : pas de contraste, une fusion. La lavande de Provence se fond dans le jasmin, l’iris et une vanille crémeuse relevée de coumarine. Le résultat est tendre et se porte aussi bien au bureau que le soir. Son défaut tient à cette douceur, car il paraît sage à côté de Jicky, son aîné dans la maison. Idéal pour une première lavande.",
+    "yves-saint-laurent-libre-intense": "Même squelette que Libre, autre humeur. La fève tonka et le santal remplacent le cèdre, la vanille prend plus de place, et la lavande ne fait plus que passer. Il gagne en tenue et en chaleur ce qu’il perd en contraste. On le garde pour les soirées d’automne et d’hiver, avec deux pulvérisations au plus. Si vous hésitez entre les deux, commencez par l’original.",
+    "parfums-de-marly-palatine": "Ici la lavande se cache. Parfums de Marly la place au cœur à côté de la violette, sous une ouverture de poire et de pêche. On la devine plus qu’on ne la sent. C’est le choix le plus discret de la sélection, parfait au bureau et au printemps quand Libre serait trop affirmé. Revers de la médaille : un floral musqué bien fait mais qui marque peu les esprits.",
+    "guerlain-jicky": "Le doyen de la page, créé en 1889 par Aimé Guerlain et classé mixte. Lavande, bergamote et citron en tête. Puis vanille, fève tonka et une civette nettement animale. On y reconnaît déjà l’idée lavande et vanille que Mon Guerlain reprendra, en bien moins poli. Certaines femmes adorent ce contraste, d’autres le trouvent sale. Essayez-le sur la peau avant d’acheter, jamais sur une touche.",
+    "maison-margiela-replica-bubble-bath": "Pour une lavande sans vanille ni fleur blanche, c’est lui. La note de savon ouvre, la lavande arrive au cœur avec le jasmin et la rose, puis un fond de musc et de coco rappelle la mousse du bain. Il est mixte et très propre. Sa faiblesse est connue : il s’efface vite et ne laisse qu’une peau douce. On le revaporise sans crainte, ce qu’on ne ferait pas avec Libre Intense.",
+    "tom-ford-fucking-fabulous": "Tom Ford associe la lavande et la sauge sclarée à un cœur d’amande, de cuir et d’iris. On obtient une lavande poudrée, presque crémeuse, bien plus sombre que celle de Mon Guerlain. Le nom est tapageur, la composition l’est beaucoup moins. C’est le choix des femmes qui aiment les cuirs doux et les parfums sans genre, à porter le soir en saison froide.",
+    "maison-margiela-replica-coffee-break": "Dernier de la liste mais le plus inattendu : une lavande trempée dans un café au lait. Le poivre et la fleur d’oranger ouvrent, puis la lavande rejoint le café, le lait et la tonka sur une vanille légère. C’est doux et mousseux, parfait pour un matin d’hiver au bureau. Comme Bubble Bath, de la même collection Replica, il reste discret et tient peu."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent vraiment la lavande ?",
+     "a": "Libre d’Yves Saint Laurent est le plus lisible : la lavande est en tête et reste perceptible face à la fleur d’oranger. Mon Guerlain la rend plus douce, fondue dans la vanille. Pour une lavande propre qui rappelle le linge, Replica Bubble Bath de Maison Margiela est plus littéral, mais sa tenue est courte."
+    },
+    {
+     "q": "La lavande est-elle réservée aux parfums pour homme ?",
+     "a": "Non. Elle domine les fougères masculines depuis la fin du XIXe siècle, mais les parfumeurs l’utilisent aussi en féminin, comme dans Mon Guerlain en 2017 ou Libre en 2019. La différence tient aux partenaires : coumarine et mousse de chêne chez les hommes, fleur d’oranger ou vanille chez les femmes. Jicky, créé en 1889, a toujours été porté par les deux."
+    },
+    {
+     "q": "Quel parfum lavande et vanille pour femme ?",
+     "a": "Mon Guerlain est le plus équilibré, avec une lavande de Provence posée sur la vanille, le santal et la coumarine. Libre Intense pousse la vanille plus loin avec la fève tonka, pour un rendu plus sombre et plus tenace. Si vous aimez les parfums historiques, Jicky associait déjà lavande et vanille en 1889, avec une note animale en plus."
+    },
+    {
+     "q": "Peut-on porter un parfum lavande en été ?",
+     "a": "Oui, mais pas n’importe lequel. Libre et Mon Guerlain ont un fond vanillé qui alourdit par forte chaleur. En été, préférez Palatine et son musc fruité, ou Replica Bubble Bath pour sa légèreté savonneuse. Vaporisez-les le matin et gardez le flacon à portée de main pour une seconde application dans l’après-midi."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lavender perfume for women: 8 picks, from Libre to Jicky",
+   "meta": "Lavender perfumes for women, ranked: YSL Libre and Mon Guerlain lead six more, from lavender against orange blossom to soapy bath-foam lavender.",
+   "h1": "The best lavender perfumes for women",
+   "intro": "In women’s perfumes, lavender rarely works alone. It gets softened. Our top pick is YSL Libre, because its lavender keeps its bite against orange blossom and the contrast lasts. Mon Guerlain comes second for anyone who wants lavender melted into vanilla, softer and easier at the office. Libre Intense is the evening option. Further down you’ll find a few unisex scents (Jicky, Replica Bubble Bath) that plenty of women wear.",
+   "sections": [
+    {
+     "title": "Borrowed from the men’s shelf",
+     "body": "For well over a century, lavender was the backbone of men’s fougères, paired with coumarin and oakmoss. Women’s perfumes use it differently. It sits in the top notes, rarely beyond, and plays against a floral heart or a vanilla base. In Libre, Anne Flipo and Carlos Benaïm set it against orange blossom and jasmine. Dry herb against white flower: that friction is the whole point. Mon Guerlain goes for blending instead. Its Provence lavender slides into vanilla and coumarin, with none of the bitterness you get in a men’s fougère. Palatine is quieter still and hides lavender in the heart, behind violet and pear. Men usually want the barbershop version, sharp and soapy. In a women’s perfume, lavender reads more like a cool breath that dissolves into something soft."
+    },
+    {
+     "title": "Picking by what you want from lavender",
+     "body": "If you like contrast and a perfume with some attitude, Libre is the reference, and it lasts from a workday into dinner. Libre Intense keeps the same frame but swaps cedar and musk for tonka and sandalwood. It is warmer and longer-lasting, a little less legible too, so save it for evenings. For bathroom lavender, Replica Bubble Bath does exactly what the name says: soap, foam and a hint of coconut in the base. It fades quickly. That is its flaw. At the other end, Tom Ford’s Fucking Fabulous pairs lavender and clary sage with a powdery almond leather. It suits women who borrow their partner’s bottles. Jicky dates from 1889 and carries a civet note that still surprises modern noses. We’d suggest it to archive lovers, not as a first buy."
+    },
+    {
+     "title": "Which season suits a feminine lavender",
+     "body": "Here is the paradox. Lavender smells like a Provençal summer, yet most women’s perfumes that feature it are cold-weather scents. Libre, Libre Intense and Mon Guerlain work best from autumn to spring, because their vanilla bases turn heavy in real heat. For summer, go for Palatine and its pear-tinged musk. Bubble Bath works too, since you can reapply it freely. Replica Coffee Break is the gourmand exception: lavender, coffee and milk over a light vanilla, made for winter mornings at your desk. It is quiet and short-lived, but it bothers no one. One last tip on application. In most of these perfumes lavender is a top note, so you mostly smell it in the first hour. Spray a little on a scarf or a coat collar as well, where volatile notes hang on longer than on warm skin."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-libre": "Number one because it is the only perfume here that makes lavender the actual subject of a women’s fragrance. The lavender opens dry and herbal, then orange blossom argues with it without winning. That tension is what people love. The vanilla drydown is more predictable, and we wish the ending took more risks. Sharper than Mon Guerlain, it suits women who like a slightly androgynous edge.",
+    "guerlain-mon-guerlain": "Guerlain takes the opposite route from Libre: blending, not contrast. Provence lavender melts into jasmine, iris and a creamy vanilla lifted by coumarin. The result is soft and easy, fine for the office or for dinner. The downside is that very softness. Next to Jicky, its elder in the same house, it feels well-behaved. A good first lavender.",
+    "yves-saint-laurent-libre-intense": "Same skeleton as Libre, different mood. Tonka and sandalwood replace cedar, vanilla takes up more room, and the lavender barely passes through. It gains warmth and staying power but loses the contrast. Keep it for autumn and winter evenings, two sprays at most. If you can’t choose between the two, start with the original.",
+    "parfums-de-marly-palatine": "Here the lavender hides. Parfums de Marly tucks it into the heart next to violet, under an opening of pear and peach. You sense it more than you smell it. It is the most discreet pick on this list, a good office scent in spring when Libre would feel too loud. The catch: a well-made floral musk that doesn’t leave much of a mark.",
+    "guerlain-jicky": "The oldest perfume on the page, created in 1889 by Aimé Guerlain and sold as unisex. Lavender, bergamot and lemon up top. Then vanilla, tonka and a clearly animalic civet. You can already smell the lavender and vanilla idea that Mon Guerlain would revisit, in a far less polished form. Some women love the contrast. Others find it dirty. Test it on skin, never on a paper strip.",
+    "maison-margiela-replica-bubble-bath": "If you want lavender without vanilla or white flowers, this is it. Soap opens, lavender arrives in the heart with jasmine and rose, and a musk and coconut base recalls bath foam. It is unisex and very clean. Its weakness is well known: it fades fast and leaves only soft skin behind. You can reapply it freely, which you wouldn’t do with Libre Intense.",
+    "tom-ford-fucking-fabulous": "Tom Ford pairs lavender and clary sage with a heart of almond, leather and iris. The result is a powdery, almost creamy lavender, far darker than Mon Guerlain’s. The name is loud. The composition isn’t. It is the pick for women who like soft leathers and genderless perfumes, worn at night in cold weather.",
+    "maison-margiela-replica-coffee-break": "Last on the list but the most unexpected: lavender dipped in milky coffee. Pepper and orange blossom open, then lavender joins coffee, milk and tonka over a light vanilla. It is soft and frothy, perfect for a winter morning at work. Like Bubble Bath from the same Replica line, it stays quiet and doesn’t last long."
+   },
+   "faq": [
+    {
+     "q": "Which women’s perfume smells most like lavender?",
+     "a": "YSL Libre is the clearest: lavender sits in the top notes and stays noticeable against orange blossom. Mon Guerlain makes it softer, blended into vanilla. For clean lavender closer to fresh laundry, Maison Margiela’s Replica Bubble Bath is more literal, though it doesn’t last long."
+    },
+    {
+     "q": "Is lavender a men’s note?",
+     "a": "Not only. It has dominated men’s fougères since the late 19th century, but perfumers use it in women’s scents too, as in Mon Guerlain (2017) and Libre (2019). The difference lies in the partners: coumarin and oakmoss for men, orange blossom or vanilla for women. Jicky, from 1889, has always been worn by both."
+    },
+    {
+     "q": "What is a good lavender and vanilla perfume for women?",
+     "a": "Mon Guerlain is the most balanced, with Provence lavender over vanilla, sandalwood and coumarin. Libre Intense pushes the vanilla further with tonka, for a darker and longer-lasting result. If you like historic perfumes, Jicky already paired lavender and vanilla in 1889, with an animalic note on top."
+    },
+    {
+     "q": "Can you wear lavender perfume in summer?",
+     "a": "Yes, but choose carefully. Libre and Mon Guerlain have vanilla bases that get heavy in the heat. In summer, reach for the muskier Palatine or the light, soapy Replica Bubble Bath. Spray in the morning and keep the bottle handy for a second round in the afternoon."
+    }
+   ]
+  }
+ },
+ "ng:Lavender:M": {
+  "picks": [
+   "jean-paul-gaultier-le-male",
+   "azzaro-azzaro-pour-homme",
+   "prada-luna-rossa",
+   "guy-laroche-drakkar-noir",
+   "parfums-de-marly-pegasus",
+   "thierry-mugler-amen",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "davidoff-cool-water",
+   "cerruti-1881"
+  ],
+  "fr": {
+   "title": "Parfum lavande homme : 9 fougères, du barbier à la vanille",
+   "meta": "Du Mâle de Gaultier à Luna Rossa de Prada, notre classement des parfums lavande pour homme : fougères classiques, lavandes vanillées et versions nettes.",
+   "h1": "Les meilleurs parfums à la lavande pour homme",
+   "intro": "La lavande est la note masculine par excellence, et presque chaque décennie l’a réinventée. Notre premier choix est Le Mâle de Jean Paul Gaultier : lavande, menthe et vanille, une formule que tout le monde reconnaît et qui plaît encore. Azzaro Pour Homme arrive deuxième pour la fougère classique à l’anis et à la mousse de chêne. Luna Rossa de Prada complète le trio avec une lavande moderne et nette, taillée pour le bureau.",
+   "sections": [
+    {
+     "title": "La fougère, point de départ de la lavande masculine",
+     "body": "Depuis Fougère Royale d’Houbigant en 1882, la lavande masculine suit un schéma simple. Lavande en tête, souvent un peu de géranium au cœur, coumarine et mousse de chêne en fond. Azzaro Pour Homme (1978) en donne une version méditerranéenne avec l’anis et le basilic. Drakkar Noir (1982) la durcit avec le romarin, le cuir et la mousse, dans le style sombre des années 1980. Cerruti 1881 et Ck Eternity for Men l’allègent ensuite, en direction du costume clair et du bureau. Ce qui distingue la lavande d’homme de celle des parfums féminins, c’est ce fond amer et moussu. Il donne l’odeur du salon de barbier et de la mousse à raser. Chez les femmes, la lavande sert de contrepoint à une fleur ou à une vanille. Chez les hommes, elle porte toute la structure du parfum."
+    },
+    {
+     "title": "1995 : la lavande passe à la vanille",
+     "body": "Le Mâle change la donne en 1995. Francis Kurkdjian garde la lavande et la menthe du barbier mais remplace la mousse de chêne par la vanille et l’ambre. Au cœur, la cannelle et le cumin ajoutent une impression de peau. La fougère devient câline et un peu provocante. Un an plus tard, A*Men part exactement des mêmes notes de tête et les jette dans le café, le caramel et le patchouli. Les deux ont eu une descendance nombreuse. Pegasus de Parfums de Marly pousse la douceur vers l’amande et l’héliotrope, Phantom de Paco Rabanne vers la vanille fumée. Haltane va jusqu’au praliné sur un fond d’oud. Prada Luna Rossa (2012) fait le chemin inverse face à cette vague sucrée : une lavande avec menthe verte et ambroxan, sans aucune vanille. Dior Sauvage, lui, garde la lavande au cœur mais la noie dans l’ambroxan au point qu’on la remarque à peine."
+    },
+    {
+     "title": "Laquelle porter, et à quel moment",
+     "body": "Pour le bureau, visez les lavandes sèches. Luna Rossa et Cerruti 1881 sont les plus sûres, fraîches sans être sportives, et elles supportent le printemps comme l’été. Azzaro Pour Homme convient aussi, à condition d’aimer l’anis. Le soir, les lavandes vanillées prennent le relais. Le Mâle et Pegasus demandent du froid, et deux pulvérisations suffisent. La Nuit de l’Homme est l’option intime : cardamome et lavande sur un cèdre, avec une projection faible qui en fait un parfum de rendez-vous plus que de soirée bondée. A*Men se manie avec précaution, une vaporisation sur le torse sous la chemise. Cool Water reste le plus simple pour l’été et le sport, mais son ADN a été tant copié qu’il sent familier. Si vous ne voulez qu’un flacon, prenez Le Mâle pour l’hiver ou Luna Rossa pour tout le reste de l’année."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Le Mâle prend la place de numéro un parce qu’il a fait de la lavande de barbier un parfum de séduction. Menthe et lavande en tête, cannelle et cumin au cœur. Le fond mêle vanille, tonka et ambre. Il est sucré, reconnaissable de loin, et c’est là son défaut : on le croise partout. Plus doux qu’Azzaro Pour Homme, moins écrasant qu’A*Men.",
+    "azzaro-azzaro-pour-homme": "Voici la fougère classique de cette sélection. La lavande y côtoie l’anis et la bergamote, puis l’iris et le basilic, sur un fond de mousse de chêne et de vétiver. C’est généreux et franchement aromatique, un peu daté pour qui ne jure que par les boisés modernes. À l’inverse du Mâle, aucune vanille ne vient l’adoucir. On le porte au bureau comme le soir, hors canicule.",
+    "prada-luna-rossa": "Daniela Andrier signe ici une lavande nette et mentholée, posée sur l’ambroxan et l’ambrette. Pas de vanille, pas de mousse : une propreté moderne qui convient parfaitement au bureau et aux beaux jours. C’est le contraire exact de Pegasus. Son défaut vient de cette sagesse, car il marque peu et s’oublie vite dans une pièce. Pour une première lavande, c’est un choix sans risque.",
+    "guy-laroche-drakkar-noir": "Pierre Wargnye a composé en 1982 la fougère la plus sombre de la page. En tête, lavande, romarin et basilic. Au cœur, genièvre et œillet, puis le cuir et la mousse de chêne en fond. Il sent son époque, et c’est ce qui fait son charme aujourd’hui. Plus rugueux qu’Azzaro Pour Homme, il demande l’automne et un pull épais. À éviter au bureau par temps chaud.",
+    "parfums-de-marly-pegasus": "Hamid Merati-Kashani a caché la lavande de Pegasus au cœur, entre l’amande et le jasmin. On sent surtout l’héliotrope et une vanille crémeuse, le tout très poudré. C’est la lavande la plus gourmande de la liste après A*Men, mais sans café ni caramel. Le parfum reste assez linéaire, ce qui en lasse certains. Idéal pour un rendez-vous en hiver.",
+    "thierry-mugler-amen": "Voilà le cas extrême. A*Men ouvre sur la même lavande mentholée que Le Mâle, puis bascule dans le café torréfié, le caramel et un patchouli goudronné. Jacques Huclier a signé en 1996 un gourmand masculin d’une puissance rare. Une seule vaporisation suffit, deux si vous êtes dehors. La lavande y dure peu : on l’achète pour ce qui vient après.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Ce parfum est la lavande qu’on ne sent que de près. Cardamome et lavande ouvrent, puis le cèdre et la violette s’installent sur un fond de vétiver et de coumarine. L’élégance est remarquable, la tenue beaucoup moins. On le classe pour les rendez-vous, là où Le Mâle serait trop bavard. Revaporisez en cours de soirée.",
+    "davidoff-cool-water": "En 1988, Pierre Bourdon associe la menthe, la lavande et la coriandre à un air iodé. Cool Water a beaucoup pesé sur les fraîcheurs aquatiques des années 1990. C’est la lavande la plus fraîche de la sélection, faite pour l’été et le sport. Le revers : il a été tant copié qu’il paraît aujourd’hui familier. Moins sophistiqué que Luna Rossa, plus énergique aussi.",
+    "cerruti-1881": "Sobre, 1881 marie la lavande au cyprès et au genièvre sur un fond de santal et de musc. C’est la fougère méditerranéenne du costume en lin. Elle ne cherche pas à séduire, et c’est pour ça qu’on l’aime au bureau. Un peu effacée face aux compositions plus modernes, elle tient aussi moins que Drakkar Noir. Parfaite avec une chemise claire au printemps."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum lavande pour homme ?",
+     "a": "Tout dépend du style. Pour une lavande vanillée qui plaît au plus grand nombre, Le Mâle de Jean Paul Gaultier reste la référence depuis 1995. Pour la fougère classique, Azzaro Pour Homme est plus aromatique et plus sec. Si vous voulez une lavande moderne et propre pour le bureau, Luna Rossa de Prada est la plus sûre."
+    },
+    {
+     "q": "Pourquoi la lavande est-elle si présente dans les parfums pour homme ?",
+     "a": "Parce qu’elle est la base de la famille fougère, née avec Fougère Royale d’Houbigant en 1882. Associée à la coumarine et à la mousse de chêne, elle évoque le propre et le rasage. Cette odeur est devenue un code masculin, repris par Azzaro Pour Homme et Drakkar Noir, puis par Le Mâle et ses héritiers."
+    },
+    {
+     "q": "Quel parfum homme lavande et vanille choisir ?",
+     "a": "Le Mâle est le modèle du genre, avec sa lavande mentholée sur vanille, tonka et ambre. Pegasus de Parfums de Marly est plus poudré grâce à l’amande et à l’héliotrope. Phantom de Paco Rabanne ajoute une note fumée et fruitée. Tous trois se portent plutôt en automne et en hiver, le soir de préférence."
+    },
+    {
+     "q": "Quel parfum lavande homme pour l’été ?",
+     "a": "Évitez les lavandes vanillées, trop lourdes au soleil. Prada Luna Rossa, Cerruti 1881 et Cool Water de Davidoff sont faits pour la chaleur : la lavande y côtoie des notes vertes ou la menthe, sur des fonds légers de musc ou de santal. Ils tiennent moins, alors gardez un petit vaporisateur pour la fin de journée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lavender fragrances for men: 9 picks, barbershop to vanilla",
+   "meta": "From Jean Paul Gaultier Le Male to Prada Luna Rossa: the best lavender fragrances for men, from classic fougères to vanilla and clean modern takes.",
+   "h1": "The best lavender fragrances for men",
+   "intro": "Lavender is the defining men’s note, and nearly every decade has reinvented it. Our top pick is Jean Paul Gaultier Le Male: lavender, mint and vanilla, a formula everyone recognises and most people still like. Azzaro Pour Homme takes second place as the classic fougère, with anise and oakmoss. Prada Luna Rossa rounds out the top three with a clean, modern lavender built for the office.",
+   "sections": [
+    {
+     "title": "The fougère: where men’s lavender starts",
+     "body": "Ever since Houbigant’s Fougère Royale in 1882, men’s lavender has followed a simple plan. Lavender on top, often a touch of geranium in the heart, coumarin and oakmoss in the base. Azzaro Pour Homme (1978) gives it a Mediterranean spin with anise and basil. Drakkar Noir (1982) toughens it with rosemary, leather and moss, in the dark style of that decade. Cerruti 1881 and CK Eternity for Men later lightened it for pale suits and offices. What sets men’s lavender apart from the women’s version is that bitter, mossy base. It is the smell of a barbershop and shaving foam. In women’s perfumes lavender plays against a flower or a vanilla. In men’s, it carries the whole structure."
+    },
+    {
+     "title": "1995: lavender meets vanilla",
+     "body": "Le Male changed the rules in 1995. Francis Kurkdjian kept the barbershop lavender and mint but swapped oakmoss for vanilla and amber. Cinnamon and cumin in the heart add a skin-like warmth. The fougère turned cuddly and a bit provocative. A year later, A*Men started from the exact same top notes and threw them into coffee, caramel and patchouli. Both spawned plenty of followers. Parfums de Marly’s Pegasus pushes the sweetness toward almond and heliotrope, Paco Rabanne’s Phantom toward smoky vanilla. Haltane goes all the way to praline over oud. Prada Luna Rossa (2012) runs the other way: lavender with spearmint and ambroxan, and no vanilla at all. Dior Sauvage keeps lavender in its heart but buries it under so much ambroxan that you barely notice."
+    },
+    {
+     "title": "What to wear, and when",
+     "body": "For the office, go for dry lavenders. Luna Rossa and Cerruti 1881 are the safest bets, fresh without being sporty, and they handle spring and summer well. Azzaro Pour Homme works too, provided you like anise. In the evening, the vanilla lavenders take over. Le Male and Pegasus want cold weather, and two sprays are enough. La Nuit de l’Homme is the intimate option: cardamom and lavender over cedar, with low projection that makes it a date scent rather than a crowded-bar one. Handle A*Men with care, one spray on the chest under your shirt. Cool Water is still the easiest choice for summer and the gym, though it has been copied so often that it smells familiar. If you only want one bottle, get Le Male for winter or Luna Rossa for the rest of the year."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Le Male takes the top spot because it turned barbershop lavender into a seduction scent. Mint and lavender up top, cinnamon and cumin in the heart. The base is vanilla, tonka and amber. It is sweet and recognisable from across a room, which is also its weakness: you smell it everywhere. Softer than Azzaro Pour Homme, less overwhelming than A*Men.",
+    "azzaro-azzaro-pour-homme": "This is the classic fougère of the list. Lavender meets anise and bergamot, then iris and basil, over oakmoss and vetiver. It is generous and frankly herbal, a bit dated if you only wear modern woods. Unlike Le Male, it has no vanilla to soften it. Wear it to the office or out at night, anytime except a heatwave.",
+    "prada-luna-rossa": "Daniela Andrier built a clean, minty lavender over ambroxan and ambrette. No vanilla, no moss: just modern cleanliness that suits the office and warm days perfectly. It is the exact opposite of Pegasus. Its flaw is that restraint, since it leaves little trace in a room. For a first lavender fragrance, it is the no-risk choice.",
+    "guy-laroche-drakkar-noir": "Pierre Wargnye composed the darkest fougère on the page in 1982. Lavender, rosemary and basil open. Juniper and carnation follow, then leather and oakmoss in the base. It smells of its era, and that is exactly its charm today. Rougher than Azzaro Pour Homme, it calls for autumn and a thick sweater. Skip it at the office on hot days.",
+    "parfums-de-marly-pegasus": "Hamid Merati-Kashani hid the lavender in Pegasus’s heart, between almond and jasmine. What you mostly smell is heliotrope and creamy vanilla, all very powdery. After A*Men, it is the most gourmand lavender here, but with no coffee or caramel. It stays fairly linear, which bores some people. Ideal for a winter date.",
+    "thierry-mugler-amen": "Now for the extreme case. A*Men opens with the same minty lavender as Le Male, then plunges into roasted coffee, burnt caramel and tarry patchouli. Jacques Huclier created a men’s gourmand of rare power in 1996. One spray is enough, two if you are outdoors. The lavender doesn’t last: you buy it for what comes next.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "La Nuit de l’Homme is the lavender people only notice up close. Cardamom and lavender open, then cedar and violet settle over vetiver and coumarin. The elegance is remarkable. The longevity is not. We rank it for dates, where Le Male would talk too loudly. Reapply halfway through the evening.",
+    "davidoff-cool-water": "Back in 1988, Pierre Bourdon paired mint and lavender with coriander and a salty, marine air. Cool Water heavily shaped the aquatic fragrances of the 1990s. It is the freshest lavender on the list, made for summer and the gym. The downside: it has been copied so much that it now feels familiar. Less refined than Luna Rossa, and more energetic.",
+    "cerruti-1881": "Understated, 1881 blends lavender with cypress and juniper over sandalwood and musk. It is the Mediterranean fougère of a linen suit. It doesn’t try to seduce, which is why it works so well at the office. A little faded next to more modern compositions, it also lasts less than Drakkar Noir. Wear it with a light shirt in spring."
+   },
+   "faq": [
+    {
+     "q": "What is the best lavender fragrance for men?",
+     "a": "It depends on the style you want. For a crowd-pleasing lavender with vanilla, Jean Paul Gaultier Le Male has been the reference since 1995. For a classic fougère, Azzaro Pour Homme is drier and more herbal. If you want a clean, modern lavender for work, Prada Luna Rossa is the safest pick."
+    },
+    {
+     "q": "Why do so many men’s fragrances contain lavender?",
+     "a": "Because lavender is the base of the fougère family, which started with Houbigant’s Fougère Royale in 1882. Paired with coumarin and oakmoss, it smells clean and freshly shaved. That scent became a masculine code, picked up by Azzaro Pour Homme and Drakkar Noir, then by Le Male and its many followers."
+    },
+    {
+     "q": "What’s a good lavender and vanilla fragrance for men?",
+     "a": "Le Male is the model, with minty lavender over vanilla, tonka and amber. Parfums de Marly’s Pegasus is more powdery thanks to almond and heliotrope. Paco Rabanne’s Phantom adds a smoky, fruity twist. All three work best in autumn and winter, mostly in the evening."
+    },
+    {
+     "q": "Which lavender fragrance is best for summer?",
+     "a": "Skip the vanilla lavenders, which get heavy in the sun. Prada Luna Rossa, Cerruti 1881 and Davidoff Cool Water are built for heat: lavender with green notes or mint, over light musk or sandalwood. They fade faster, so keep a travel spray for the end of the day."
+    }
+   ]
+  }
+ },
+ "ng:Leather:M": {
+  "picks": [
+   "dior-fahrenheit",
+   "parfums-de-marly-godolphin",
+   "ralph-lauren-polo",
+   "amouage-interlude-man",
+   "guerlain-lhomme-ideal",
+   "dior-dior-homme",
+   "paco-rabanne-1-million",
+   "tom-ford-tuscan-leather",
+   "tom-ford-ombre-leather"
+  ],
+  "fr": {
+   "title": "Parfum cuir homme : 9 cuirs, du plus doux au plus fumé",
+   "meta": "Fahrenheit et Godolphin en tête : notre sélection de parfums cuir pour homme, du cuir poudré de Dior Homme au cuir fumé d’Interlude Man.",
+   "h1": "Les meilleurs parfums cuir pour homme",
+   "intro": "Le cuir masculin sent rarement le cuir seul. Il se glisse sous une fougère, un iris ou une cannelle sucrée, et c’est ce partenaire qui décide de tout. Notre premier choix est Fahrenheit de Dior, pour son cuir chaud et sa note d’essence qui ne ressemble à rien d’autre. Godolphin de Parfums de Marly suit avec un cuir fleuri d’iris et de rose, plus habillé. Polo de Ralph Lauren complète le podium pour qui aime les cuirs verts et puissants.",
+   "sections": [
+    {
+     "title": "Où se cache le cuir dans un parfum d’homme",
+     "body": "Dans la plupart des masculins, le cuir est une note de fond. Il arrive tard et donne du poids à ce qui précède. Polo le pose sous le pin et la mousse de chêne : un cuir de sellerie, vert et amer. Fahrenheit le met sous la violette et la muscade, d’où cette impression d’asphalte chaud. Dior Homme et L’Homme Idéal en font un murmure, un cuir de gant sous l’iris ou l’amande. 1 Million le sucre avec la cannelle et l’ambre, et Pure XS va encore plus loin dans le même sens. Les parfums entièrement construits sur le cuir sont plus rares chez les hommes. Godolphin en est un, avec son safran, son thym et son fond de cuir ambré. Interlude Man, lui, le noie dans l’encens et l’oud jusqu’à la fumée. C’est là que se joue le choix : un cuir d’accent pour tous les jours, ou un cuir sujet pour le soir."
+    },
+    {
+     "title": "Cuir d’homme, cuir de femme, cuir mixte",
+     "body": "Côté féminin, les grands cuirs historiques sont poudrés et fleuris. En 1919, Tabac Blond de Caron associait déjà le cuir à l’œillet et à l’iris. Côté masculin, le cuir a longtemps été amer et boisé, marié au tabac ou à la mousse. Kouros (1981) y ajoute la civette, Drakkar Noir la lavande. Les frontières ont bougé depuis. Tuscan Leather et Ombre Leather de Tom Ford sont vendus comme mixtes, et beaucoup d’hommes les ont pourtant adoptés. On les a placés en fin de liste pour respecter le genre de la page, mais Tuscan Leather est sans doute le cuir le plus franc de toute la sélection, avec sa framboise et son daim. Ombre Leather est plus lisse, plus facile. Si vous cherchez l’odeur d’une veste de cuir neuve, commencez par ces deux-là."
+    },
+    {
+     "title": "Doser un parfum cuir",
+     "body": "Les parfums cuir sont souvent puissants, et cette page ne fait pas exception. Polo, Interlude Man et Tuscan Leather sont les plus forts. Une seule pulvérisation sur la poitrine suffit pour une soirée entière. Tous demandent le froid. Par temps chaud, le cuir devient vite lourd et un peu animal. Pour le bureau, restez sur les cuirs d’accent comme Dior Homme ou L’Homme Idéal. Ils tiennent la journée sans envahir la pièce. Fahrenheit fait exception : sa violette le rend portable au bureau par temps frais, à condition que votre entourage aime sa note pétrolée. Un dernier réflexe à prendre : essayez un cuir sur la peau, jamais sur une touche en papier. L’accord évolue beaucoup pendant la première heure, et c’est souvent le fond qui fait pencher la balance."
+    }
+   ],
+   "why": {
+    "dior-fahrenheit": "Numéro un parce qu’aucun autre cuir ne sent comme lui. Jean-Louis Sieuzac et Michel Almairac ont posé en 1988 la lavande et l’aubépine sur la violette, puis sur un fond de cuir et de vétiver. Le résultat évoque l’essence et l’asphalte chaud. On l’adore ou on le déteste, sans juste milieu. Plus lumineux que Polo, il passe au bureau par temps frais.",
+    "parfums-de-marly-godolphin": "Le seul pur cuir masculin de la page. Parfums de Marly l’ouvre sur le safran et le thym, puis passe par la rose et l’iris avant un fond de cuir ambré. C’est un cuir d’écurie en habit de gala, plus fleuri que Tuscan Leather et moins sucré que 1 Million. Il reste confidentiel dans le catalogue de la maison, et c’est dommage. À porter le soir, en automne.",
+    "ralph-lauren-polo": "Carlos Benaïm a composé en 1978 un cuir de sellerie caché sous une forêt. Armoise et thym en tête, pin et mousse de chêne au cœur, cuir et tabac au fond. C’est puissant, vert, sans aucune concession au sucre. Le défaut est sa force : deux pulvérisations de trop et il sature une pièce. On le réserve à l’hiver, sur la laine ou le tweed.",
+    "amouage-interlude-man": "Pierre Negrin a signé ici le cuir le plus sombre de la sélection. L’origan et le poivre ouvrent, l’encens et l’opoponax prennent le relais, puis l’oud et le cuir finissent dans la fumée. C’est dense et chaotique, splendide pour les initiés. Pour tous les autres, il est franchement difficile à porter. Une seule pulvérisation, en hiver, et jamais au bureau.",
+    "guerlain-lhomme-ideal": "Guerlain traite le cuir en douceur. L’amande amère et le romarin ouvrent, puis la fève tonka et le cuir forment un cœur rond sur le vétiver et le cèdre. C’est le cuir le plus facile de la liste, au même niveau que Dior Homme pour le bureau. Certains le trouveront trop doux, surtout face à Polo. Pour une première approche du cuir, c’est notre conseil.",
+    "dior-dior-homme": "Olivier Polge a construit Dior Homme autour d’un iris poudré et cacaoté, et le cuir n’arrive qu’en fond avec le vétiver et le musc. C’est un cuir de gant, presque imperceptible, qui donne du grain à l’iris. La projection reste modeste. On le choisit pour la finesse et non pour le sillage, et beaucoup de femmes l’empruntent. Plus sec que L’Homme Idéal.",
+    "paco-rabanne-1-million": "Tout est sucré ici, même le cuir. Menthe et pamplemousse ouvrent, puis la cannelle arrive sur un fond d’ambre, de cuir et de patchouli. C’est le cuir le plus facile à aimer de la page et le plus répandu, ce qui refroidit certains. En espace clos, il devient vite lourd. Une ou deux pulvérisations suffisent pour une soirée.",
+    "tom-ford-tuscan-leather": "Mixte sur le papier, et très porté par les hommes. Harry Frémont a posé en 2007 une framboise et du safran sur un cuir brut et du daim. C’est le cuir le plus franc de la sélection, celui qui sent vraiment la sellerie. Il ne passe qu’en toute petite quantité, et jamais par temps chaud. S’il n’était pas classé mixte, il serait sur le podium.",
+    "tom-ford-ombre-leather": "Sonia Constant a imaginé en 2018 un cuir souple, fleuri de jasmin et épicé de cardamome. Plus lisse que Tuscan Leather, il se porte facilement au quotidien, en soirée comme en semaine. C’est le cuir moderne par excellence, bien construit, un peu consensuel. Les puristes lui préfèrent Godolphin, les autres le trouvent parfait pour débuter."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme sent le cuir ?",
+     "a": "Pour un cuir franc, Tuscan Leather de Tom Ford est le plus explicite, mais il est classé mixte. Côté strictement masculin, Godolphin de Parfums de Marly construit tout son parfum autour du cuir. Fahrenheit de Dior et Polo de Ralph Lauren le placent en fond, sous la violette pour l’un et sous le pin pour l’autre."
+    },
+    {
+     "q": "Quel parfum cuir pour homme porter au bureau ?",
+     "a": "Choisissez un cuir d’accent plutôt qu’un cuir sujet. Dior Homme et L’Homme Idéal de Guerlain cachent le cuir sous l’iris ou l’amande, et restent discrets. Fahrenheit convient aussi par temps frais si votre entourage aime sa note pétrolée. Évitez Polo, Interlude Man et Tuscan Leather, trop puissants pour un open space."
+    },
+    {
+     "q": "Ombre Leather de Tom Ford est-il un parfum pour homme ?",
+     "a": "Tom Ford le vend comme mixte. Dans les faits, il se porte très bien au masculin parce qu’il est lisse et facile : cardamome, jasmin et cuir sur un fond d’ambre et de musc. Une femme qui aime les cuirs doux peut le porter tout aussi bien. Il est moins intense que Tuscan Leather, son grand frère."
+    },
+    {
+     "q": "Un parfum cuir se porte-t-il en été ?",
+     "a": "Rarement bien. Tous les cuirs de cette sélection sont pensés pour l’automne et l’hiver, et la chaleur accentue leur côté animal ou sucré. Si vous tenez au cuir en été, Cedrat Boise de Mancera le cache sous le citron et le cassis, pour un rendu frais. Sinon, une seule pulvérisation de Dior Homme le soir fera l’affaire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Leather fragrances for men: 9 picks, from soft to smoky",
+   "meta": "Dior Fahrenheit and Parfums de Marly Godolphin lead our men’s leather fragrance ranking, from Dior Homme’s powdery leather to Interlude Man’s smoke.",
+   "h1": "The best leather fragrances for men",
+   "intro": "In men’s perfume, leather rarely smells of leather alone. It slides under a fougère, an iris or a sugary cinnamon, and that partner decides everything. Our top pick is Dior Fahrenheit, for its warm leather and petrol note that smells like nothing else. Parfums de Marly’s Godolphin comes second with a dressier leather, softened by iris and rose. Ralph Lauren Polo completes the podium for fans of green, powerful leathers.",
+   "sections": [
+    {
+     "title": "Where leather hides in a men’s fragrance",
+     "body": "In most men’s scents, leather is a base note. It arrives late and gives weight to everything above it. Polo sets it under pine and oakmoss: a saddle leather, green and bitter. Fahrenheit puts it beneath violet and nutmeg, which is where that hot-asphalt feel comes from. Dior Homme and L’Homme Idéal turn it into a whisper, a glove leather under iris or almond. 1 Million sweetens it with cinnamon and amber, and Pure XS pushes further in the same direction. Fragrances built entirely around leather are rarer on the men’s side. Godolphin is one, with saffron and thyme over an amber leather base. Interlude Man drowns it in incense and oud until it turns to smoke. That is the real choice here: leather as an accent for every day, or leather as the subject for the evening."
+    },
+    {
+     "title": "Men’s leather, women’s leather, unisex leather",
+     "body": "On the women’s side, the great historic leathers are powdery and floral. Back in 1919, Caron’s Tabac Blond already paired leather with carnation and iris. Men’s leathers were long bitter and woody, matched with tobacco or moss. Kouros (1981) added civet, Drakkar Noir added lavender. The lines have since blurred. Tom Ford’s Tuscan Leather and Ombre Leather are sold as unisex, yet plenty of men have adopted them. We placed them at the end to respect the page’s focus, but Tuscan Leather is probably the most straightforward leather in the whole selection, with raspberry and suede. Ombre Leather is smoother and easier. If you want the smell of a brand-new leather jacket, start with those two."
+    },
+    {
+     "title": "How much leather to wear",
+     "body": "Leather fragrances tend to be strong, and this page is no exception. Polo, Interlude Man and Tuscan Leather are the most powerful. One spray on the chest is enough for a whole evening. All of them want cold weather. In the heat, leather quickly turns heavy and a little animalic. For the office, stick to accent leathers like Dior Homme or L’Homme Idéal. They last the day without filling the room. Fahrenheit is the exception: its violet makes it office-friendly in cool weather, provided the people around you like its petrol note. One more habit worth having: test a leather on skin, never on a paper strip. The accord shifts a lot during the first hour, and the drydown is usually what makes up your mind."
+    }
+   ],
+   "why": {
+    "dior-fahrenheit": "Number one because no other leather smells like it. In 1988, Jean-Louis Sieuzac and Michel Almairac set lavender and hawthorn over violet, then over a base of leather and vetiver. The result evokes petrol and warm asphalt. People love it or hate it, with no middle ground. Brighter than Polo, it works at the office in cool weather.",
+    "parfums-de-marly-godolphin": "The only pure men’s leather on the page. Parfums de Marly opens it with saffron and thyme, then passes through rose and iris before an amber leather base. Think stables in black tie: more floral than Tuscan Leather, less sweet than 1 Million. It remains a lesser-known name in the house’s catalogue, which is a shame. Wear it on autumn evenings.",
+    "ralph-lauren-polo": "Carlos Benaïm hid a saddle leather under a forest in 1978. Mugwort and thyme up top, pine and oakmoss in the heart, leather and tobacco in the base. It is powerful and green, with zero concession to sweetness. Its strength is also its flaw: two sprays too many and it fills a room. Keep it for winter, on wool or tweed.",
+    "amouage-interlude-man": "Pierre Negrin created the darkest leather in this selection. Oregano and pepper open, incense and opoponax take over, and then oud and leather end in smoke. It is dense and chaotic, magnificent for connoisseurs. For everyone else it is frankly hard to wear. One spray, in winter, and never at the office.",
+    "guerlain-lhomme-ideal": "Guerlain handles leather gently. Bitter almond and rosemary open, then tonka and leather form a round heart over vetiver and cedar. It is the easiest leather on the list, on par with Dior Homme for the office. Some will find it too soft, especially next to Polo. For a first step into leather, this is our recommendation.",
+    "dior-dior-homme": "Olivier Polge built Dior Homme around a powdery, cocoa-tinged iris. The leather only appears in the base, with vetiver and musk. It is a glove leather, barely there, giving the iris some grain. Projection stays modest. You choose it for finesse rather than trail, and plenty of women borrow it. Drier than L’Homme Idéal.",
+    "paco-rabanne-1-million": "Everything is sweet here, even the leather. Mint and grapefruit open, then cinnamon arrives over a base of amber, leather and patchouli. It is the easiest leather to love on this page and the most common, which puts some people off. In a closed room it quickly gets heavy. One or two sprays for a night out.",
+    "tom-ford-tuscan-leather": "Unisex on paper, and many men wear it. In 2007, Harry Frémont set raspberry and saffron over raw leather and suede. It is the most literal leather in the selection, the one that truly smells like a saddlery. Wear it in tiny amounts, and never in hot weather. If it weren’t labelled unisex, it would be on the podium.",
+    "tom-ford-ombre-leather": "Sonia Constant designed a supple leather in 2018, lit by jasmine and spiced with cardamom. Smoother than Tuscan Leather, it is easy to wear every day, at night or during the week. It is the modern leather par excellence: well made, a little crowd-pleasing. Purists prefer Godolphin. Everyone else finds it a perfect starting point."
+   },
+   "faq": [
+    {
+     "q": "Which men’s fragrance smells most like leather?",
+     "a": "For an unmistakable leather, Tom Ford’s Tuscan Leather is the most literal, though it is sold as unisex. Among strictly men’s scents, Parfums de Marly’s Godolphin builds the whole perfume around leather. Dior Fahrenheit and Ralph Lauren Polo keep it in the base, under violet in one case and pine in the other."
+    },
+    {
+     "q": "Can I wear a leather fragrance to the office?",
+     "a": "Yes, if you choose an accent leather rather than a full one. Dior Homme and Guerlain’s L’Homme Idéal hide the leather under iris or almond and stay discreet. Fahrenheit also works in cool weather if your colleagues enjoy its petrol note. Avoid Polo, Interlude Man and Tuscan Leather, which are too strong for an open-plan office."
+    },
+    {
+     "q": "Is Tom Ford Ombre Leather a men’s fragrance?",
+     "a": "Tom Ford sells it as unisex. In practice it wears very well on men because it is smooth and easy: cardamom, jasmine and leather over amber and musk. A woman who likes soft leathers can wear it just as easily. It is also less intense than its sibling, Tuscan Leather."
+    },
+    {
+     "q": "Can you wear leather fragrances in summer?",
+     "a": "Rarely well. Every leather in this selection is designed for autumn and winter, and heat brings out their animalic or sugary side. If you want leather in summer, Mancera Cedrat Boise hides it under lemon and blackcurrant for a fresher result. Otherwise, a single spray of Dior Homme in the evening will do."
+    }
+   ]
+  }
+ },
+ "ng:Lemon:F": {
+  "picks": [
+   "dolce-gabbana-light-blue-eau-intense",
+   "versace-dylan-turquoise",
+   "chanel-chance",
+   "hermes-jour-dhermes",
+   "hermes-eau-des-merveilles",
+   "guerlain-shalimar",
+   "dolce-gabbana-devotion",
+   "maison-francis-kurkdjian-petit-matin",
+   "acqua-di-parma-colonia"
+  ],
+  "fr": {
+   "title": "Parfum citron femme : 9 parfums où le zeste fait la lumière",
+   "meta": "Light Blue Eau Intense, Chance ou Shalimar : notre sélection de parfums au citron pour femme, des eaux d’été aux floraux qui s’ouvrent sur un zeste.",
+   "h1": "Les meilleurs parfums au citron pour femme",
+   "intro": "Dans un parfum féminin, le citron joue rarement les solistes. Il ouvre le parfum puis cède la place à un fruit, une fleur ou une vanille. Notre premier choix est Light Blue Eau Intense de Dolce & Gabbana, où le citron et la pomme verte tiennent plus longtemps que dans la plupart des eaux d’été. Dylan Turquoise de Versace suit pour les vacances, Chance de Chanel pour le reste de l’année. Deux mixtes ferment la liste pour les amatrices de colognes.",
+   "sections": [
+    {
+     "title": "Le citron féminin cherche un fruit",
+     "body": "Chez les hommes, le citron vient souvent avec des herbes comme le romarin ou le basilic. Chez les femmes, il cherche plutôt un fruit ou une fleur. Light Blue Eau Intense le colle à la pomme Granny Smith, Dylan Turquoise à la goyave et au cassis, Chance à l’ananas et au poivre rose. Devotion le confit avec l’orange et le rhum. Le zeste perd alors son côté amer et sec pour devenir juteux, presque sucré. C’est la principale différence avec les colognes masculines, où le citron reste plus nerveux. Autre spécificité féminine : le citron comme éclat d’ouverture dans les grands classiques. Shalimar et Mitsouko s’ouvrent tous deux sur la bergamote et le citron avant de plonger dans la vanille ou la mousse de chêne. Là, on ne cherche pas la fraîcheur. On cherche le contraste entre la lumière du départ et la profondeur du fond."
+    },
+    {
+     "title": "Pour l’été ou pour toute l’année",
+     "body": "Les parfums citronnés les plus frais de cette sélection sont faits pour la chaleur. Dylan Turquoise, Light Blue Eau Intense et Petit Matin se portent en journée de mai à septembre. Ils supportent bien d’être revaporisés. Jour d’Hermès est plus délicat : Jean-Claude Ellena y pose le citron et le pamplemousse sur un bouquet blanc aquarellé, très discret. Pour toute l’année, Chance et Eau des Merveilles sont plus polyvalents. Le premier passe au bureau, le second a un ambre salin qui tient bien en automne. Shalimar et Devotion, enfin, sont des parfums d’hiver où le citron ne dure que quelques minutes. Si c’est le zeste que vous cherchez, ils vous décevront. Si vous aimez l’idée d’une ouverture lumineuse avant la vanille, ce sont les plus beaux de la liste."
+    },
+    {
+     "title": "Faire durer un parfum citronné",
+     "body": "Le citron s’évapore vite, c’est sa nature. Pour qu’il dure, il faut un fond qui prenne le relais. Les versions eau de parfum aident : Light Blue Eau Intense tient nettement mieux que le Light Blue d’origine grâce à son bois ambré. Dylan Turquoise s’appuie sur le Clearwood et le musc, Chance sur le patchouli et le vétiver. À l’inverse, Colonia d’Acqua di Parma est une eau de Cologne au sens strict et tient peu, comme toutes les colognes. On l’applique généreusement sur la peau et les vêtements, puis on la renouvelle à midi. Un conseil simple pour l’été : gardez le flacon au frais et vaporisez après la douche, sur une peau encore légèrement humide, pour que les notes de tête s’accrochent un peu mieux."
+    }
+   ],
+   "why": {
+    "dolce-gabbana-light-blue-eau-intense": "Premier choix parce qu’il fait durer le citron mieux que les autres eaux d’été. Olivier Cresp l’associe à la pomme Granny Smith, puis au souci et au jasmin, sur un bois ambré musqué. C’est acidulé et très propre, parfait pour les vacances. On lui reproche un caractère convenu, et c’est juste. Plus sucré que Petit Matin, moins exotique que Dylan Turquoise.",
+    "versace-dylan-turquoise": "Versace mise ici sur un citron solaire, servi avec la mandarine et le poivre rose. La goyave et le cassis arrivent ensuite sur un fond de bois clair et de musc. C’est l’eau de vacances de la sélection, joyeuse et lumineuse comme une crique grecque. Elle ne réinvente rien et ne cherche pas à le faire. À porter en journée, l’été.",
+    "chanel-chance": "Jacques Polge a mis dans Chance un citron pétillant, avec l’ananas et le poivre rose. Le cœur de jacinthe et de jasmin mène à un patchouli propre, largement imité depuis 2002. C’est le parfum citronné le plus polyvalent de la page : bureau, week-end, printemps comme été. Il plaît à un public jeune qui veut du Chanel sans formalité. Moins salin qu’Eau des Merveilles.",
+    "hermes-jour-dhermes": "Ici le citron sert d’esquisse. Jean-Claude Ellena l’associe au pamplemousse, puis dessine à l’aquarelle un bouquet de gardénia et de pois de senteur. Rien ne pèse. C’est le parfum le plus raffiné de la liste, mais aussi le plus discret et le moins tenace. On le porte au bureau au printemps, en sachant qu’il faudra le renouveler. Plus floral que Chance.",
+    "hermes-eau-des-merveilles": "Oubliez le citron d’été. Dans Eau des Merveilles, il ouvre avec l’orange et l’élémi. Puis il s’efface devant un ambre salin posé sur le cèdre et la mousse de chêne. Ralf Schwieger et Nathalie Feisthauer ont signé un parfum de pierre chaude et de sel. Il déroute ceux qui attendent une fleur, et il se porte presque toute l’année.",
+    "guerlain-shalimar": "Le citron de Shalimar dure quelques minutes, et c’est justement ce qui compte. Jacques Guerlain l’a posé en 1925 avec la bergamote et la mandarine au-dessus d’une vanille fumée et résineuse. La chute de la lumière vers l’ombre fait tout le parfum. Il figure ici pour le contraste plus que pour la fraîcheur. À réserver aux soirs d’hiver.",
+    "dolce-gabbana-devotion": "Dolce & Gabbana confit le citron avec l’orange et le rhum, puis le pose sur une fleur d’oranger et un fond de vanille et de santal. On pense à un dessert sicilien plus qu’à une citronnade. C’est la version la plus gourmande de la page, pour les soirées d’automne. Son défaut : une structure linéaire qui bouge peu après la première heure. Bien plus sucré que Shalimar.",
+    "maison-francis-kurkdjian-petit-matin": "Francis Kurkdjian associe le citron et la bergamote à la fleur d’oranger et au lavandin, sur un fond de musc et d’ambroxan. On pense à des draps propres un matin d’été. Il est mixte, lumineux et élégant, mais sa tenue reste modeste. Plus sec que Light Blue Eau Intense, il convient au bureau par grande chaleur.",
+    "acqua-di-parma-colonia": "Pour les puristes : le citron à l’état de cologne, créé en 1916. Citron et bergamote en tête, puis la lavande, le romarin et la verveine au cœur. Le parfum est mixte, élégant et bref. On le vaporise sans compter, sur la peau et les vêtements. Face à Petit Matin, il est plus aromatique et encore moins tenace."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent le citron ?",
+     "a": "Light Blue Eau Intense de Dolce & Gabbana et Dylan Turquoise de Versace sont les plus citronnés de notre sélection, avec un zeste bien présent en ouverture. Pour une cologne plus littérale, Colonia d’Acqua di Parma et Petit Matin de Maison Francis Kurkdjian sont mixtes et se portent très bien au féminin."
+    },
+    {
+     "q": "Quel parfum citronné tient longtemps ?",
+     "a": "Le citron est volatil par nature, donc la tenue dépend du fond. Light Blue Eau Intense, en eau de parfum, s’appuie sur un bois ambré et dure plus que l’original. Chance tient grâce au patchouli et au vétiver. Eau des Merveilles prolonge ses agrumes par un ambre salin et la mousse de chêne."
+    },
+    {
+     "q": "Quel parfum frais et citronné pour l’été ?",
+     "a": "Pour la chaleur, visez les eaux légères : Dylan Turquoise, Light Blue Eau Intense ou Petit Matin. Toutes trois supportent d’être revaporisées. Jour d’Hermès est plus raffiné mais très discret. Évitez Shalimar et Devotion, dont le citron n’ouvre qu’une vanille lourde, peu agréable par forte chaleur."
+    },
+    {
+     "q": "Light Blue sent-il le citron ?",
+     "a": "Oui, le citron fait partie de l’ouverture de Light Blue. Dans la version Eau Intense de 2017, il est associé à la pomme Granny Smith, ce qui le rend plus acidulé et plus vert. Le fond de bois ambré et de musc prend ensuite le relais, avec une meilleure tenue que l’eau de toilette d’origine."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lemon perfume for women: 9 picks where zest brings the light",
+   "meta": "Light Blue Eau Intense, Chanel Chance or Shalimar: our pick of lemon perfumes for women, from summer splashes to florals that open on a zest.",
+   "h1": "The best lemon perfumes for women",
+   "intro": "In women’s perfume, lemon rarely plays solo. It opens the scent, then hands over to a fruit, a flower or a vanilla. Our top pick is Dolce & Gabbana’s Light Blue Eau Intense, where lemon and green apple last longer than in most summer scents. Versace’s Dylan Turquoise comes next for holidays, and Chanel Chance covers the rest of the year. Two unisex colognes close the list for fans of pure citrus.",
+   "sections": [
+    {
+     "title": "Feminine lemon looks for fruit",
+     "body": "In men’s fragrances, lemon usually comes with herbs like rosemary or basil. In women’s, it looks for a fruit or a flower. Light Blue Eau Intense pairs it with Granny Smith apple, Dylan Turquoise with guava and blackcurrant, Chance with pineapple and pink pepper. Devotion candies it with orange and rum. The zest loses its bitter, dry edge and turns juicy, almost sweet. That is the main difference from men’s colognes, where lemon stays sharper. There is another feminine specialty: lemon as the flash of light at the start of a great classic. Shalimar and Mitsouko both open on bergamot and lemon before sinking into vanilla or oakmoss. Freshness isn’t the point there. The point is the contrast between a bright start and a deep base."
+    },
+    {
+     "title": "Summer only, or all year",
+     "body": "The freshest lemon perfumes here are made for heat. Dylan Turquoise, Light Blue Eau Intense and Petit Matin are daytime scents from May to September. They also take reapplication well. Jour d’Hermès is more delicate: Jean-Claude Ellena sets lemon and grapefruit over a watercolour bouquet of white flowers, very quiet. For year-round wear, Chance and Eau des Merveilles are more versatile. The first works at the office, while the second has a salty amber that holds up nicely in autumn. Shalimar and Devotion are winter perfumes in which the lemon lasts only a few minutes. If zest is what you’re after, they will disappoint you. If you like the idea of a bright opening before vanilla, they are the most beautiful on the list."
+    },
+    {
+     "title": "Making a lemon perfume last",
+     "body": "Lemon evaporates fast. That’s simply what it does. To make it last, you need a base that takes over. Eau de parfum versions help: Light Blue Eau Intense lasts noticeably longer than the original Light Blue thanks to its amber wood. Dylan Turquoise leans on Clearwood and musk, Chance on patchouli and vetiver. Acqua di Parma’s Colonia, on the other hand, is an eau de cologne in the strict sense and fades quickly like all colognes. Apply it generously on skin and clothes, and top up at lunch. One easy summer tip: keep the bottle somewhere cool and spray right after a shower, on slightly damp skin, so the top notes cling a little better."
+    }
+   ],
+   "why": {
+    "dolce-gabbana-light-blue-eau-intense": "Our first pick because it keeps lemon going longer than the other summer scents. Olivier Cresp pairs it with Granny Smith apple, then marigold and jasmine, over a musky amber wood. It is tangy and very clean, perfect for holidays. Critics call it predictable, and they have a point. Sweeter than Petit Matin, less exotic than Dylan Turquoise.",
+    "versace-dylan-turquoise": "Versace goes for a sunny lemon here, served with mandarin and pink pepper. Guava and blackcurrant follow over pale woods and musk. It is the holiday scent of the selection, cheerful and bright like a Greek cove. It reinvents nothing and doesn’t try to. Wear it on summer days.",
+    "chanel-chance": "Jacques Polge gave Chance a fizzy lemon, with pineapple and pink pepper. The hyacinth and jasmine heart leads to a clean patchouli that has been widely imitated since 2002. It is the most versatile lemon perfume on the page: office, weekend, spring or summer. It suits younger wearers who want Chanel without formality. Less salty than Eau des Merveilles.",
+    "hermes-jour-dhermes": "Here the lemon is just a sketch. Jean-Claude Ellena pairs it with grapefruit, then paints a watercolour bouquet of gardenia and sweet pea. Nothing weighs it down. It is the most refined perfume on the list, but also the quietest and the shortest-lived. Wear it to the office in spring, knowing you will need to reapply. More floral than Chance.",
+    "hermes-eau-des-merveilles": "Forget summer lemon. In Eau des Merveilles, it opens with orange and elemi. Then it steps aside for a salty amber set over cedar and oakmoss. Ralf Schwieger and Nathalie Feisthauer made a perfume of warm stone and salt. It throws people who expect a flower, and you can wear it nearly all year.",
+    "guerlain-shalimar": "Shalimar’s lemon lasts a few minutes, and that is exactly the point. In 1925, Jacques Guerlain set it with bergamot and mandarin above a smoky, resinous vanilla. The fall from light into shadow is the whole perfume. It makes this list for contrast rather than freshness. Save it for winter evenings.",
+    "dolce-gabbana-devotion": "Dolce & Gabbana candies the lemon with orange and rum, then sets it on orange blossom and a vanilla and sandalwood base. It reads like a Sicilian dessert more than lemonade. It is the most gourmand take on the page, for autumn evenings. The flaw: a linear structure that barely moves after the first hour. Much sweeter than Shalimar.",
+    "maison-francis-kurkdjian-petit-matin": "Francis Kurkdjian pairs lemon and bergamot with orange blossom and lavandin over musk and ambroxan. Think clean sheets on a summer morning. It is unisex, bright and elegant, but its longevity is modest. Drier than Light Blue Eau Intense, it works at the office during a heatwave.",
+    "acqua-di-parma-colonia": "For purists: lemon in cologne form, created in 1916. Lemon and bergamot up top, then lavender, rosemary and verbena in the heart. The perfume is unisex, elegant and brief. Spray it freely on skin and clothes. Compared with Petit Matin, it is more herbal and lasts even less."
+   },
+   "faq": [
+    {
+     "q": "Which women’s perfume smells like lemon?",
+     "a": "Dolce & Gabbana’s Light Blue Eau Intense and Versace’s Dylan Turquoise are the most lemony in our selection, with a zest that stands out in the opening. For a more literal cologne, Acqua di Parma’s Colonia and Maison Francis Kurkdjian’s Petit Matin are unisex but wear beautifully on women."
+    },
+    {
+     "q": "Which lemon perfume lasts the longest?",
+     "a": "Lemon is volatile by nature, so longevity depends on the base. Light Blue Eau Intense, an eau de parfum, rests on amber wood and outlasts the original. Chance holds on thanks to patchouli and vetiver. Eau des Merveilles extends its citrus with a salty amber and oakmoss."
+    },
+    {
+     "q": "What is a good fresh lemon perfume for summer?",
+     "a": "For hot weather, go for light scents: Dylan Turquoise, Light Blue Eau Intense or Petit Matin. All three handle reapplication well. Jour d’Hermès is more refined but very discreet. Avoid Shalimar and Devotion, where lemon only opens onto a heavy vanilla that feels cloying in the heat."
+    },
+    {
+     "q": "Does Light Blue smell like lemon?",
+     "a": "Yes, lemon is part of Light Blue’s opening. In the 2017 Eau Intense version it is paired with Granny Smith apple, which makes it tangier and greener. A base of amber wood and musk then takes over, and it lasts longer than the original eau de toilette."
+    }
+   ]
+  }
+ },
+ "ng:Lemon:M": {
+  "picks": [
+   "dior-eau-sauvage",
+   "chanel-pour-monsieur",
+   "chanel-bleu-de-chanel",
+   "azzaro-chrome",
+   "issey-miyake-leau-dissey-pour-homme",
+   "versace-pour-homme",
+   "penhaligons-blenheim-bouquet",
+   "guerlain-habit-rouge",
+   "tom-ford-neroli-portofino"
+  ],
+  "fr": {
+   "title": "Parfum citron homme : 9 parfums, de l’Eau Sauvage à Bleu",
+   "meta": "Eau Sauvage et Pour Monsieur en tête : notre classement des parfums au citron pour homme, des colognes classiques aux fraîcheurs boisées modernes.",
+   "h1": "Les meilleurs parfums au citron pour homme",
+   "intro": "Le citron a construit la parfumerie masculine fraîche. Notre premier choix est Eau Sauvage de Dior, parce qu’Edmond Roudnitska y a posé en 1966 un citron, des herbes et un jasmin transparent qui n’ont pas pris une ride. Pour Monsieur de Chanel suit, plus sec et plus discret encore. Bleu de Chanel complète le trio pour qui veut un citron moderne, tenu par le santal et l’encens. Attention à la tenue : la plupart de ces parfums sont courts.",
+   "sections": [
+    {
+     "title": "Des colognes aux chypres : un héritage masculin",
+     "body": "Depuis l’eau de Cologne du XVIIIe siècle, le citron a été porté par les hommes comme par les femmes. Le XXe siècle en fait un code masculin en l’associant aux herbes et à la mousse. Blenheim Bouquet de Penhaligon’s, en 1902, marie déjà le citron et le citron vert à la lavande et au pin. Pour Monsieur, en 1955, ajoute l’estragon et la mousse de chêne pour donner un chypre sec. En 1966, Eau Sauvage allège tout : citron, romarin et basilic sur un jasmin transparent. Edmond Roudnitska y utilise l’hédione, une molécule au parfum de jasmin aérien qui deviendra un standard. Voilà la vraie différence avec les parfums féminins de la même note. Chez les femmes, le citron cherche un fruit. Chez les hommes, il cherche une herbe aromatique et un fond de mousse ou de vétiver, qui lui donnent une allure plus sèche."
+    },
+    {
+     "title": "Le citron dans les masculins modernes",
+     "body": "À partir des années 1990, le citron change de rôle. Il n’est plus le sujet, il devient l’étincelle qui lance un boisé ou une fougère. Azzaro Chrome (1996) l’associe au romarin et au néroli pour une fraîcheur de chemise repassée. L’Eau d’Issey Pour Homme (1994) le pousse vers le yuzu, plus acide, avec des épices fines. Bleu de Chanel l’aiguise avec le pamplemousse et la menthe, puis le fait tomber sur le santal et l’encens. Versace Pour Homme le marie au néroli et à la sauge. Même Habit Rouge, oriental vanillé de 1965, s’ouvre sur le citron et le basilic avant la poudre. Ce qui a changé, c’est la durée. Les fonds modernes à base de bois ou d’ambroxan retiennent l’impression citronnée plus longtemps que les vieilles colognes, sans vraiment prolonger le citron lui-même."
+    },
+    {
+     "title": "Accepter une tenue courte",
+     "body": "La plupart des citrons de cette page sont des eaux de toilette légères. Eau Sauvage, Pour Monsieur et Blenheim Bouquet comptent parmi les plus discrets de la sélection. Ce n’est pas un défaut de fabrication, c’est la nature de la note. Vous avez plusieurs options. Vaporisez plus généreusement qu’avec un boisé, sur le cou et le torse. Gardez un petit flacon de voyage au bureau pour une seconde application l’après-midi. Ou choisissez un parfum dont le fond tient seul, comme Bleu de Chanel ou Habit Rouge. Sur les vêtements, le citron dure plus longtemps que sur la peau, mais testez d’abord sur un tissu discret. En été, ces parfums sont imbattables : aucun ne devient lourd en pleine canicule."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Numéro un pour sa justesse. Edmond Roudnitska y pose le citron et le romarin sur un jasmin transparent, puis un fond de mousse de chêne et de vétiver. Rien ne dépasse. C’est la fraîcheur classique par excellence, et beaucoup de femmes la portent aussi. Seul défaut, la tenue, modeste comme souvent chez les grandes eaux hespéridées. Plus lumineuse que Pour Monsieur.",
+    "chanel-pour-monsieur": "Henri Robert a composé en 1955 un chypre d’une retenue presque britannique. Citron, néroli et bergamote en tête, puis l’estragon et la mousse de chêne sur un fond de santal et de labdanum. Il murmure plus qu’il ne parle. Pour le bureau et les occasions formelles de jour, on ne fait pas mieux. Ceux qui veulent du sillage passeront leur chemin.",
+    "chanel-bleu-de-chanel": "Jacques Polge aiguise le citron avec le pamplemousse et la menthe, puis le fait glisser vers le gingembre et la muscade. Le fond de santal, de cèdre et d’encens tient bien plus longtemps que les colognes de la liste. C’est le citron le plus facile à porter au quotidien, au bureau comme au dîner. On lui reproche de ne prendre aucun risque, et c’est juste. Plus boisé qu’Azzaro Chrome.",
+    "azzaro-chrome": "Azzaro Chrome sent la chemise repassée et le métal poli. Le citron, le romarin et le néroli ouvrent, puis un cœur de cyclamen et d’ananas s’adoucit sur la mousse de chêne et le musc. C’est souvent l’un des premiers parfums d’un homme, et ce n’est pas un hasard : il est facile et propre. Les nez aguerris le trouveront plat à côté d’Eau Sauvage.",
+    "issey-miyake-leau-dissey-pour-homme": "Avec L’Eau d’Issey Pour Homme, Jacques Cavallier remplace le citron classique par un yuzu acidulé, soutenu par le citron et la bergamote. La muscade et la cannelle donnent du relief avant un fond de santal et de vétiver. C’est la fraîcheur des années 1990 dans toute sa netteté. L’acidité, très marquée, peut sembler criarde. Plus tonique que Versace Pour Homme.",
+    "versace-pour-homme": "Alberto Morillas marie le citron au néroli et à la bergamote, puis à la sauge et au cèdre. Le fond de fève tonka et d’ambre adoucit l’ensemble. C’est une fougère méditerranéenne propre, facile, un peu anonyme. Elle convient au bureau par temps doux et à ceux qui veulent un parfum qu’on ne leur reprochera jamais. Plus douce que Chrome.",
+    "penhaligons-blenheim-bouquet": "Le plus ancien de la page, créé en 1902 par Walter Penhaligon. Citron, citron vert et lavande sur des aiguilles de pin, puis un fond de poivre et de musc. On y sent l’élégance nette d’un gentleman anglais. Sa tenue et son sillage sont modestes, comme ceux de Pour Monsieur. Pour les amateurs de colognes britanniques, il reste une référence.",
+    "guerlain-habit-rouge": "Jean-Paul Guerlain a créé en 1965 un oriental masculin qui s’ouvre sur le citron, la bergamote et le basilic. La rose, l’œillet et la cannelle suivent, puis une vanille poudrée prend toute la place. On le classe ici pour ce départ citronné, pas pour la fraîcheur. Il peut sembler rétro. Portez-le à l’automne, avec un manteau de laine.",
+    "tom-ford-neroli-portofino": "Mixte, et parfait pour un homme en été. Rodrigo Flores-Roux associe les agrumes au néroli et à la fleur d’oranger, sur un fond d’ambre et d’angélique. C’est une cologne de luxe pensée pour la Riviera, et elle est très belle. Plus florale qu’Eau Sauvage, elle tient aussi peu qu’elle."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme sent le citron ?",
+     "a": "Eau Sauvage de Dior est la référence, avec un citron frais sur des herbes et un jasmin léger. Pour Monsieur de Chanel est plus sec, Azzaro Chrome plus propre et plus simple. Si vous voulez une cologne presque littérale, Blenheim Bouquet de Penhaligon’s associe le citron, le citron vert et la lavande depuis 1902."
+    },
+    {
+     "q": "Quel est le meilleur parfum frais pour homme ?",
+     "a": "Pour une fraîcheur citronnée classique, Eau Sauvage reste notre référence. Pour une fraîcheur moderne qui tient la journée, Bleu de Chanel est plus polyvalent grâce à son fond de santal et d’encens. Au bureau par forte chaleur, Versace Pour Homme et Azzaro Chrome sont des choix sûrs, discrets et faciles."
+    },
+    {
+     "q": "Pourquoi les parfums au citron tiennent-ils peu ?",
+     "a": "Parce que le citron est l’une des matières les plus volatiles de la parfumerie. Il brille surtout pendant les premières minutes. Ce qu’on sent ensuite, ce sont les herbes, les bois ou la mousse qui le soutiennent. Choisissez un fond solide, comme dans Bleu de Chanel, ou revaporisez dans la journée."
+    },
+    {
+     "q": "Eau Sauvage de Dior sent-elle le citron ?",
+     "a": "Oui, surtout au départ. Le citron et la bergamote ouvrent avec le romarin, puis le jasmin et la coriandre prennent le relais sur un fond de mousse de chêne et de vétiver. L’impression générale reste celle d’une eau citronnée et herbacée, très nette, à la tenue modeste."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lemon fragrances for men: 9 picks, Eau Sauvage to Bleu",
+   "meta": "Dior Eau Sauvage and Chanel Pour Monsieur lead our ranking of lemon fragrances for men, from classic colognes to modern woody citrus scents.",
+   "h1": "The best lemon fragrances for men",
+   "intro": "Lemon built fresh men’s perfumery. Our top pick is Dior Eau Sauvage, because in 1966 Edmond Roudnitska set lemon, herbs and a sheer jasmine in a formula that still feels current. Chanel Pour Monsieur follows, drier and even quieter. Bleu de Chanel completes the top three if you want a modern lemon held up by sandalwood and incense. One warning about longevity: most of these scents are short-lived.",
+   "sections": [
+    {
+     "title": "From colognes to chypres: a masculine heritage",
+     "body": "Since the eau de cologne of the 18th century, lemon has been worn by men and women alike. The 20th century turned it into a masculine code by pairing it with herbs and moss. In 1902, Penhaligon’s Blenheim Bouquet was already blending lemon and lime with lavender and pine. Chanel Pour Monsieur added tarragon and oakmoss in 1955 to make a dry chypre. In 1966, Eau Sauvage lightened everything: lemon, rosemary and basil over a sheer jasmine. Edmond Roudnitska used hedione, a molecule with an airy jasmine smell that later became standard. That is the real difference from women’s perfumes built on the same note. In women’s scents lemon looks for fruit. In men’s, it looks for an aromatic herb and a base of moss or vetiver, which gives it a drier bearing."
+    },
+    {
+     "title": "Lemon in modern men’s fragrances",
+     "body": "From the 1990s on, lemon changed jobs. It stopped being the subject and became the spark that launches a wood or a fougère. Azzaro Chrome (1996) pairs it with rosemary and neroli for an ironed-shirt freshness. L’Eau d’Issey Pour Homme (1994) pushes it toward the sharper yuzu, with fine spices. Bleu de Chanel sharpens it with grapefruit and mint, then drops it onto sandalwood and incense. Versace Pour Homme pairs it with neroli and sage. Even Habit Rouge, a vanilla oriental from 1965, opens on lemon and basil before the powder arrives. What changed is duration. Modern bases of wood or ambroxan hold the citrus impression longer than old colognes, without really extending the lemon itself."
+    },
+    {
+     "title": "Living with short longevity",
+     "body": "Most lemons on this page are light eaux de toilette. Eau Sauvage, Pour Monsieur and Blenheim Bouquet are among the most discreet scents in the selection. That isn’t a manufacturing flaw. It is the nature of the note. You have a few options. Spray more generously than you would with a woody scent, on the neck and chest. Keep a travel atomiser at the office for a second round in the afternoon. Or pick a perfume whose base holds on by itself, such as Bleu de Chanel or Habit Rouge. Lemon lasts longer on clothes than on skin, but test on a hidden patch of fabric first. In summer these fragrances are unbeatable: none of them turns heavy in a heatwave."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Number one for its precision. Edmond Roudnitska set lemon and rosemary over a sheer jasmine, then a base of oakmoss and vetiver. Nothing sticks out. It is the classic fresh scent par excellence, and plenty of women wear it too. The one flaw is longevity, modest as with most great citrus colognes. Brighter than Pour Monsieur.",
+    "chanel-pour-monsieur": "Henri Robert composed a chypre of almost British restraint in 1955. Lemon, neroli and bergamot up top, then tarragon and oakmoss over sandalwood and labdanum. It whispers rather than speaks. For the office and formal daytime occasions, nothing does it better. If you want a trail, look elsewhere.",
+    "chanel-bleu-de-chanel": "Jacques Polge sharpens lemon with grapefruit and mint, then slides it toward ginger and nutmeg. The sandalwood, cedar and incense base lasts far longer than the colognes on this list. It is the easiest lemon to wear every day, at the office or at dinner. Critics say it plays too safe, and they’re right. Woodier than Azzaro Chrome.",
+    "azzaro-chrome": "Azzaro Chrome smells like an ironed shirt and polished metal. Lemon, rosemary and neroli open, then a cyclamen and pineapple heart softens over oakmoss and musk. It is often one of a man’s first fragrances, and that’s no accident: it is easy and clean. Seasoned noses will find it flat next to Eau Sauvage.",
+    "issey-miyake-leau-dissey-pour-homme": "With L’Eau d’Issey Pour Homme, Jacques Cavallier swapped classic lemon for a tart yuzu, backed by lemon and bergamot. Nutmeg and cinnamon add texture before a sandalwood and vetiver base. It is 1990s freshness at its crispest. The very sharp acidity can come across as shrill. More bracing than Versace Pour Homme.",
+    "versace-pour-homme": "Alberto Morillas pairs lemon with neroli and bergamot, then sage and cedar. A tonka and amber base softens the whole thing. It is a clean, easy Mediterranean fougère, a little anonymous. It suits the office in mild weather and anyone who wants a scent nobody will ever complain about. Softer than Chrome.",
+    "penhaligons-blenheim-bouquet": "The oldest perfume on the page, created in 1902 by Walter Penhaligon. Lemon, lime and lavender over pine needles, then a base of pepper and musk. It has the crisp elegance of an English gentleman. Longevity and trail are modest, like Pour Monsieur’s. For lovers of British colognes, it is still a reference.",
+    "guerlain-habit-rouge": "Jean-Paul Guerlain created a men’s oriental in 1965 that opens on lemon, bergamot and basil. Rose, carnation and cinnamon follow, then a powdery vanilla takes over. It makes this list for that citrus opening, not for freshness. It can feel old-fashioned. Wear it in autumn with a wool coat.",
+    "tom-ford-neroli-portofino": "Unisex, and a great summer choice for men. Rodrigo Flores-Roux pairs citrus with neroli and orange blossom over amber and angelica. It is a luxury cologne built for the Riviera, and a very beautiful one. More floral than Eau Sauvage, it fades just as quickly."
+   },
+   "faq": [
+    {
+     "q": "Which men’s fragrance smells like lemon?",
+     "a": "Dior Eau Sauvage is the benchmark, with fresh lemon over herbs and a light jasmine. Chanel Pour Monsieur is drier, while Azzaro Chrome is cleaner and simpler. For an almost literal cologne, Penhaligon’s Blenheim Bouquet has paired lemon, lime and lavender since 1902."
+    },
+    {
+     "q": "What is the best fresh fragrance for men?",
+     "a": "For a classic citrus freshness, Eau Sauvage remains our reference. For a modern fresh scent that lasts all day, Bleu de Chanel is more versatile thanks to its sandalwood and incense base. At the office in hot weather, Versace Pour Homme and Azzaro Chrome are safe, discreet and easy choices."
+    },
+    {
+     "q": "Why don’t lemon fragrances last long?",
+     "a": "Because lemon is one of the most volatile materials in perfumery. It mostly shines during the first few minutes. What you smell afterwards are the herbs, woods or moss supporting it. Pick a solid base, as in Bleu de Chanel, or reapply during the day."
+    },
+    {
+     "q": "Does Dior Eau Sauvage smell like lemon?",
+     "a": "Yes, especially at the start. Lemon and bergamot open with rosemary, then jasmine and coriander take over on a base of oakmoss and vetiver. The overall impression stays that of a crisp, herbal lemon cologne, with modest longevity."
+    }
+   ]
+  }
+ },
+ "ng:Lily of the Valley:F": {
+  "picks": [
+   "chloe-chloe-eau-de-parfum",
+   "yves-saint-laurent-paris",
+   "lanvin-arpege",
+   "chanel-n-22",
+   "parfums-de-marly-valaya",
+   "parfums-de-marly-meliora",
+   "gucci-bamboo",
+   "maison-margiela-replica-lazy-sunday-morning",
+   "tiziana-terenzi-kirke"
+  ],
+  "fr": {
+   "title": "Parfum muguet femme : 9 parfums où le muguet fait respirer",
+   "meta": "Chloé et Paris d’Yves Saint Laurent en tête : notre sélection de parfums au muguet pour femme, du bouquet de roses poudré au musc de linge propre.",
+   "h1": "Les meilleurs parfums au muguet pour femme",
+   "intro": "Le muguet est rarement le héros d’un parfum féminin. Il sert plutôt d’air frais au milieu d’un bouquet. Notre premier choix est Chloé Eau de Parfum, où il éclaire une rose poudrée et propre, facile à porter tous les jours. Paris d’Yves Saint Laurent suit pour une rose plus opulente, portée par la violette. Arpège de Lanvin complète le podium pour celles qui aiment les floraux aldéhydés classiques.",
+   "sections": [
+    {
+     "title": "Le rôle du muguet dans un bouquet féminin",
+     "body": "Dans les parfums de cette sélection, le muguet occupe presque toujours le cœur ou la tête, à côté d’une rose ou d’un jasmin. Son travail consiste à alléger. Chloé et Paris l’utilisent pour aérer des roses qui, sans lui, seraient plus lourdes. Arpège et N°22 le posent au milieu des aldéhydes, ce qui donne cet effet de linge amidonné et de poudre typique des grands floraux des années 1920. Valaya reprend cette idée en version moderne, avec une pêche blanche. Meliora et Kirke le mettent au service du fruit, cassis et framboise pour l’un, fruit de la passion pour l’autre. Les soliflores de muguet pur, comme Diorissimo de Dior en 1956, restent rares. Côté masculin, le muguet existe aussi, mais il se cache dans des fraîcheurs propres comme L’Eau d’Issey Pour Homme ou Fierce. Chez les femmes, c’est une fleur qu’on reconnaît."
+    },
+    {
+     "title": "Muguet frais, poudré ou fruité : comment choisir",
+     "body": "Pour un muguet propre et léger, Replica Lazy Sunday Morning est le plus direct. Aldéhydes, poire et muguet ouvrent sur des muscs de linge. Il est mixte et très discret. Gucci Bamboo ouvre aussi sur le muguet, mais il bascule vite vers le lys et la tubéreuse. Pour un muguet poudré, Arpège et N°22 sont les références, avec un classicisme assumé qui ne plaira pas à toutes. Pour un muguet fruité, Meliora reste délicat alors que Kirke est d’une puissance rare, à doser avec une seule pulvérisation. La saison compte aussi. La plupart de ces parfums sont faits pour le printemps, ce qui tombe bien : c’est la saison du muguet, celle du 1er mai. Paris et Arpège passent aussi l’automne. Pour l’été, gardez les plus légers, Lazy Sunday Morning et Chloé."
+    }
+   ],
+   "why": {
+    "chloe-chloe-eau-de-parfum": "Premier choix pour son équilibre. Michel Almairac et Amandine Clerc-Marie ont posé le muguet et le magnolia autour d’une rose poudrée, après une ouverture de pivoine et de litchi. Le muguet y apporte l’air qui empêche la rose de peser. C’est propre, net, très portable au bureau. Sa facette savonneuse ne plaira pas à toutes. Plus légère que Paris.",
+    "yves-saint-laurent-paris": "Sophia Grojsman a composé en 1983 une brassée de roses poudrées de violette, avec l’iris et le muguet au cœur. Le muguet y joue un rôle de lumière, derrière une rose opulente et très présente. C’est le plus rayonnant de la sélection après Kirke. Certains le trouvent daté. Celles qui l’aiment le gardent souvent toute leur vie. À porter au printemps, pour un déjeuner.",
+    "lanvin-arpege": "Arpège date de 1927 et porte la signature d’André Fraysse et Paul Vacher. Aldéhydes et pêche ouvrent, puis la rose, le jasmin et le muguet forment un accord poli comme un vernis ancien. Le fond de santal et de vanille tient longtemps. C’est un classique assumé, un peu distant, plus rond que N°22. Parfait pour une journée fraîche au bureau.",
+    "chanel-n-22": "Ernest Beaux a composé N°22 en 1922 pour Chanel, et le muguet y apparaît dès la tête avec les aldéhydes et le néroli. Le cœur de tubéreuse, de jasmin et de rose forme ensuite un bouquet blanc nimbé de poudre. C’est le plus lumineux des floraux aldéhydés de la page. Son style ancien déroute certains nez. On le sort pour une occasion particulière.",
+    "parfums-de-marly-valaya": "Valaya reprend en 2023 l’idée des floraux aldéhydés, mais avec une pêche blanche. Le muguet, la fleur d’oranger et un peu de vétiver forment un cœur clair sur un fond de musc et d’ambroxan. On pense à une robe de soie claire au soleil. C’est très plaisant, et assez sage pour une maison habituée aux parfums plus démonstratifs. Plus moderne qu’Arpège, moins poudré aussi.",
+    "parfums-de-marly-meliora": "Cassis et framboise ouvrent Meliora. Puis la rose, le muguet et l’ylang-ylang prennent le relais sur un musc amandé. On pense à un sorbet de baies servi dans un jardin anglais. C’est le muguet le plus fruité après Kirke, mais bien plus délicat. Il reste dans l’ombre de Delina, sa grande sœur. Idéal au printemps, en journée.",
+    "gucci-bamboo": "Gucci Bamboo place le muguet en tête avec la bergamote et l’ylang-ylang, puis s’épanouit sur le lys Casablanca et la tubéreuse. Le muguet sert donc de prélude à un bouquet blanc plus crémeux, posé sur le santal. Élégant et bien fait, il manque un peu d’aspérité. Plus riche que Chloé, moins singulier que N°22.",
+    "maison-margiela-replica-lazy-sunday-morning": "Mixte et très discret, c’est le muguet du linge propre. Aldéhydes, poire et muguet en tête. L’iris et la rose passent ensuite sur un fond de muscs et d’ambrette. On pense à un matin paresseux dans des draps de coton. Il s’efface vite, c’est son défaut, et il se situe à l’opposé de Kirke sur l’échelle de la puissance. On le revaporise sans crainte.",
+    "tiziana-terenzi-kirke": "Tiziana Terenzi a fait de Kirke un cocktail tropical de fruit de la passion, de pêche et de cassis, avec un muguet au cœur. Le fond de musc, de santal et de patchouli tient très longtemps. C’est le parfum le plus puissant de la page, et il sature vite l’entourage. Une seule pulvérisation suffit, surtout en été. Mixte, il s’adresse aux amatrices de fruités intenses."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum sent le muguet ?",
+     "a": "Dans notre sélection, Chloé Eau de Parfum et Replica Lazy Sunday Morning font le plus sentir le muguet : le premier autour d’une rose poudrée, le second dans un musc de linge propre. Pour un muguet plus classique entouré d’aldéhydes, Arpège de Lanvin et N°22 de Chanel sont les références."
+    },
+    {
+     "q": "Un parfum au muguet fait-il vieux ?",
+     "a": "Pas forcément. L’image vient des floraux aldéhydés comme Arpège ou N°22, qu’on associe souvent à la coiffeuse de nos grands-mères. Les parfums récents utilisent le muguet autrement : Valaya avec une pêche blanche, Meliora avec des fruits rouges, Lazy Sunday Morning avec des muscs propres. Le muguet y apporte de la fraîcheur, pas de la poussière."
+    },
+    {
+     "q": "Quel parfum muguet tient longtemps ?",
+     "a": "Kirke de Tiziana Terenzi est le plus tenace, mais le muguet y est noyé dans les fruits. Paris d’Yves Saint Laurent tient bien grâce à son fond de santal, de musc et d’ambre, et Arpège offre lui aussi une belle tenue. À l’inverse, Lazy Sunday Morning et Gucci Bamboo restent plus légers."
+    },
+    {
+     "q": "Quel parfum au muguet offrir pour le 1er mai ?",
+     "a": "Pour un cadeau sûr, Chloé Eau de Parfum est le plus facile : une rose propre éclairée par le muguet, qui plaît au plus grand nombre. Pour une personne qui aime les classiques, Arpège ou N°22 feront plus d’effet. Si elle préfère les parfums discrets, Replica Lazy Sunday Morning évoque le linge frais sans jamais s’imposer."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lily of the valley perfume for women: 9 picks",
+   "meta": "Chloé and YSL Paris lead our pick of lily of the valley perfumes for women, from powdery rose bouquets and aldehydic classics to clean musks.",
+   "h1": "The best lily of the valley perfumes for women",
+   "intro": "Lily of the valley is rarely the star of a women’s perfume. It works more like fresh air inside a bouquet. Our top pick is Chloé Eau de Parfum, where it brightens a clean, powdery rose that is easy to wear every day. YSL Paris follows with a lusher rose, backed by violet. Lanvin Arpège completes the podium for anyone who loves classic aldehydic florals.",
+   "sections": [
+    {
+     "title": "What lily of the valley does in a feminine bouquet",
+     "body": "In the perfumes on this list, lily of the valley almost always sits in the heart or the top, next to a rose or a jasmine. Its job is to lighten things. Chloé and Paris use it to air out roses that would feel heavier without it. Arpège and N°22 set it among aldehydes, which creates the starched-linen and powder effect typical of the great florals of the 1920s. Valaya revisits that idea in a modern key, with white peach. Meliora and Kirke put it to work for fruit: blackcurrant and raspberry in one, passion fruit in the other. Pure lily of the valley soliflores, like Dior’s Diorissimo from 1956, remain rare. Men’s fragrances use the note too, but they hide it in clean fresh scents like L’Eau d’Issey Pour Homme or Fierce. In women’s perfumes, it is a flower you can actually recognise."
+    },
+    {
+     "title": "Fresh, powdery or fruity: how to choose",
+     "body": "For a clean, light lily of the valley, Replica Lazy Sunday Morning is the most direct. Aldehydes, pear and lily of the valley open onto laundry musks. It is unisex and very quiet. Gucci Bamboo also opens on lily of the valley, but it quickly tips into Casablanca lily and tuberose. For a powdery version, Arpège and N°22 are the references, with an unapologetic classicism that won’t suit everyone. For a fruity one, Meliora stays delicate while Kirke is extremely powerful, so one spray is plenty. Season matters too. Most of these perfumes are made for spring, which is fitting, since that is when the flower blooms. In France it is even the flower of May Day. Paris and Arpège also handle autumn well. For summer, stick with the lightest ones, Lazy Sunday Morning and Chloé."
+    }
+   ],
+   "why": {
+    "chloe-chloe-eau-de-parfum": "Our first pick for its balance. Michel Almairac and Amandine Clerc-Marie set lily of the valley and magnolia around a powdery rose, after an opening of peony and lychee. The lily of the valley supplies the air that keeps the rose from weighing down. It is clean and crisp, very wearable at the office. Its soapy side won’t please everyone. Lighter than Paris.",
+    "yves-saint-laurent-paris": "Sophia Grojsman composed an armful of violet-dusted roses in 1983, with iris and lily of the valley in the heart. Here the lily of the valley plays the role of light behind a lush, very present rose. After Kirke, it is the most radiant perfume in the selection. Some find it dated. Those who love it often keep it for life. Wear it in spring, for lunch.",
+    "lanvin-arpege": "Arpège dates from 1927 and bears the signature of André Fraysse and Paul Vacher. Aldehydes and peach open, then rose, jasmine and lily of the valley form an accord polished like old varnish. The sandalwood and vanilla base lasts a long time. It is an unapologetic classic, a little aloof, rounder than N°22. Perfect for a cool day at the office.",
+    "chanel-n-22": "Ernest Beaux composed N°22 for Chanel in 1922, and lily of the valley appears right in the opening with aldehydes and neroli. The tuberose, jasmine and rose heart then forms a white bouquet haloed in powder. It is the brightest aldehydic floral on the page. Its vintage style puts some noses off. Save it for a special occasion.",
+    "parfums-de-marly-valaya": "Valaya revisited the aldehydic floral in 2023, with white peach. Lily of the valley, orange blossom and a touch of vetiver form a pale heart over musk and ambroxan. Think of a light silk dress in the sun. It is very pleasant, and fairly restrained for a house known for louder perfumes. More modern than Arpège, and less powdery.",
+    "parfums-de-marly-meliora": "Blackcurrant and raspberry open Meliora. Then rose, lily of the valley and ylang-ylang take over on an almond-tinged musk. Picture a berry sorbet served in an English garden. It is the fruitiest lily of the valley after Kirke, but far more delicate. It lives in the shadow of Delina, its big sister. Ideal on spring days.",
+    "gucci-bamboo": "Gucci Bamboo puts lily of the valley up top with bergamot and ylang-ylang, then blooms into Casablanca lily and tuberose. So the lily of the valley is a prelude to a creamier white bouquet resting on sandalwood. Elegant and well made, it lacks a bit of edge. Richer than Chloé, less distinctive than N°22.",
+    "maison-margiela-replica-lazy-sunday-morning": "Unisex and very quiet, this is the clean-laundry lily of the valley. Aldehydes, pear and lily of the valley up top. Iris and rose follow over musks and ambrette. Picture a lazy morning in cotton sheets. It fades quickly, which is its flaw, and it sits at the opposite end of the power scale from Kirke. Reapply without worry.",
+    "tiziana-terenzi-kirke": "Tiziana Terenzi turned Kirke into a tropical cocktail of passion fruit, peach and blackcurrant, with lily of the valley in the heart. The musk, sandalwood and patchouli base lasts a very long time. It is the most powerful perfume on the page and quickly overwhelms the people around you. One spray is enough, especially in summer. It is unisex and made for fans of intense fruity scents."
+   },
+   "faq": [
+    {
+     "q": "Which perfume smells like lily of the valley?",
+     "a": "In our selection, Chloé Eau de Parfum and Replica Lazy Sunday Morning bring it out most clearly: the first around a powdery rose, the second in a clean-laundry musk. For a more classic lily of the valley surrounded by aldehydes, Lanvin Arpège and Chanel N°22 are the references."
+    },
+    {
+     "q": "Does lily of the valley perfume smell old-fashioned?",
+     "a": "Not necessarily. The image comes from aldehydic florals like Arpège or N°22, often linked to our grandmothers’ dressing tables. Recent perfumes use the note differently: Valaya with white peach, Meliora with red berries, Lazy Sunday Morning with clean musks. There, lily of the valley brings freshness, not dust."
+    },
+    {
+     "q": "Which lily of the valley perfume lasts longest?",
+     "a": "Tiziana Terenzi’s Kirke is the most tenacious, but the lily of the valley is buried under fruit. YSL Paris lasts well thanks to its sandalwood, musk and amber base, and Arpège also offers solid staying power. Lazy Sunday Morning and Gucci Bamboo, by contrast, stay lighter."
+    },
+    {
+     "q": "What lily of the valley perfume makes a good gift?",
+     "a": "For a safe gift, Chloé Eau de Parfum is the easiest: a clean rose lit by lily of the valley that pleases most people. For someone who loves the classics, Arpège or N°22 will make more of an impression. If she prefers discreet scents, Replica Lazy Sunday Morning evokes fresh laundry without ever taking over."
+    }
+   ]
+  }
+ },
+ "ng:Mint:M": {
+  "picks": [
+   "davidoff-cool-water",
+   "versace-eros",
+   "jean-paul-gaultier-le-male",
+   "chanel-bleu-de-chanel",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-sedley"
+  ],
+  "fr": {
+   "title": "Parfum menthe homme : 8 parfums à l’ouverture glacée",
+   "meta": "Cool Water et Versace Eros en tête : notre classement des parfums à la menthe pour homme, de la fraîcheur marine au bonbon glacé et vanillé.",
+   "h1": "Les meilleurs parfums à la menthe pour homme",
+   "intro": "Dans un parfum masculin, la menthe sert à réveiller. Elle frappe fort pendant quelques minutes puis laisse la place au reste, et c’est ce reste qui doit guider votre choix. Notre premier choix est Cool Water de Davidoff, où la menthe s’associe à la lavande et à un air marin pour une fraîcheur franche. Eros de Versace suit pour une menthe sucrée et nocturne. Le Mâle complète le podium avec sa menthe de barbier noyée dans la vanille.",
+   "sections": [
+    {
+     "title": "Menthe et lavande, un duo masculin",
+     "body": "La menthe apparaît presque toujours en tête, et très souvent avec la lavande. Cool Water (1988), Le Mâle (1995) et A*Men (1996) partagent cette ouverture, qui évoque la mousse à raser sur une peau fraîchement rasée. Ce qui les sépare arrive ensuite. Cool Water file vers la coriandre et le géranium, sur un fond de cèdre et de musc. Le Mâle bascule dans la cannelle et la vanille. A*Men plonge dans le café et le caramel. Darley de Parfums de Marly reprend le même duo, mais avec une cannelle et une tonka plus retenues. Côté féminin, la menthe est beaucoup plus rare et plus douce : dans L’Eau par Kenzo, elle se cache au cœur avec le nénuphar. Chez les hommes, c’est une porte qu’on ouvre d’un coup."
+    },
+    {
+     "title": "Menthe glacée ou menthe sucrée",
+     "body": "Deux écoles s’opposent. La première utilise la menthe pour la fraîcheur pure. Bleu de Chanel l’associe au pamplemousse et au citron avant le gingembre et l’encens, et Sedley la mêle au pamplemousse et à la lavande sur un fond de vétiver. Ce sont des parfums de journée, faciles au bureau. La seconde école fait de la menthe un bonbon. Eros la marie à la pomme verte et à la vanille, 1 Million au pamplemousse et à la cannelle. Le contraste froid et sucré fonctionne très bien le soir dans une pièce pleine, mais il fatigue vite en open space. Entre les deux, Le Mâle et Darley jouent la carte de la fougère : une menthe de barbier adoucie par la tonka. Choisissez selon votre journée, pas selon l’ouverture. La menthe aura souvent disparu avant que vous arriviez au travail."
+    },
+    {
+     "title": "Quand porter un parfum à la menthe",
+     "body": "L’été semble évident, mais seuls Cool Water et Sedley sont vraiment faits pour la chaleur. Eros, Le Mâle, A*Men et 1 Million sont des parfums d’automne et d’hiver. La menthe y sert de contraste à un fond chaud. Bleu de Chanel et Darley couvrent l’automne, l’hiver et le printemps. Pour la dose, la règle change selon la puissance. Eros et A*Men sont parmi les plus puissants de la sélection : une ou deux pulvérisations suffisent. Cool Water et Sedley en supportent davantage, et gagnent à être revaporisés dans la journée. Un conseil pratique : vaporisez dix minutes avant de partir. Votre entourage ne sentira pas que la bouffée mentholée du départ, qui est la plus agressive."
+    }
+   ],
+   "why": {
+    "davidoff-cool-water": "Premier de la liste parce que sa menthe sert une fraîcheur sans sucre, du début à la fin. Pierre Bourdon l’associe à la lavande et à la coriandre, puis à un cœur de géranium et de jasmin, sur un fond de cèdre et de musc. L’effet d’air iodé fait le reste. C’est la fraîcheur la plus franche de la page, idéale pour le sport et l’été. Son ADN a été tant copié qu’il sent aujourd’hui familier.",
+    "versace-eros": "Aurélien Guichard a composé en 2012 une menthe glacée qui rencontre la pomme verte et le citron. La fève tonka, l’ambroxan et le géranium prennent le relais, puis la vanille. On pense à un bonbon néon. C’est puissant et joyeusement excessif, parfait en club et inadapté au bureau. Plus sucré que Cool Water, plus jeune que Le Mâle.",
+    "jean-paul-gaultier-le-male": "Troisième, Le Mâle est la menthe de barbier devenue parfum de séduction. Elle ouvre avec la lavande et la bergamote, puis la cannelle et le cumin réchauffent le cœur avant la vanille et l’ambre. La menthe disparaît vite, mais elle donne ce premier frisson qu’on reconnaît partout. Son défaut : il est très répandu. Moins brutal qu’A*Men, plus doux que Cool Water.",
+    "chanel-bleu-de-chanel": "Jacques Polge utilise la menthe comme un aiguisoir, avec le pamplemousse et le citron. Le gingembre et la muscade suivent, puis le santal, le cèdre et l’encens. C’est la menthe la plus sage et la plus polyvalente de la sélection, parfaite au bureau. On lui reproche de ne surprendre personne. Plus boisé que Sedley, beaucoup moins sucré qu’Eros.",
+    "thierry-mugler-amen": "A*Men ouvre sur la même menthe à la lavande que Le Mâle, puis la jette dans le café torréfié, le caramel et le miel. Le patchouli goudronné du fond fait le reste. C’est la version la plus extrême de la page, d’une puissance qui ne pardonne pas l’excès. Une vaporisation suffit, par temps froid. Pour les amateurs de parfums singuliers, rien ne le remplace.",
+    "paco-rabanne-1-million": "Ici la menthe sert de glaçon dans un cocktail sucré. Avec le pamplemousse et la mandarine, elle ouvre sur la cannelle et la rose avant un fond d’ambre et de cuir. Le lingot doré tient ses promesses : on le remarque. Il devient lourd en espace clos. Plus chaud qu’Eros, moins gourmand qu’A*Men.",
+    "parfums-de-marly-darley": "Darley est la fougère ambrée de la sélection. La menthe et le citron d’Amalfi ouvrent, puis la lavande et la cannelle forment un cœur rond sur la tonka et le santal. L’allure est aristocratique, moins sucrée que Le Mâle. Il est aussi plus discret que les best-sellers de la maison, ce qui en fait un bon parfum de bureau par temps frais.",
+    "parfums-de-marly-sedley": "Le seul mixte de la page, et le plus estival. La menthe fraîche s’associe au citron et au pamplemousse, puis à la lavande et au romarin. Le fond de vétiver, de cèdre et d’ambroxan reste propre. On pense à une chemise blanche repassée au soleil. Assez conventionnel, mais très agréable l’été. Plus léger que Bleu de Chanel."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme sent la menthe ?",
+     "a": "Cool Water de Davidoff et Eros de Versace sont les plus mentholés au départ. Le premier associe la menthe à la lavande et à un air marin, le second à la pomme verte et à la vanille. Pour une menthe plus fine et moins sucrée, Bleu de Chanel l’utilise avec le pamplemousse avant un fond boisé."
+    },
+    {
+     "q": "Quel parfum à la menthe pour homme en été ?",
+     "a": "Cool Water et Sedley de Parfums de Marly sont les deux vrais parfums d’été de notre sélection. Leur menthe s’appuie sur la lavande et les agrumes, sans vanille. Évitez Eros, 1 Million et A*Men par forte chaleur : leurs fonds sucrés deviennent vite lourds. Revaporisez l’après-midi, car la menthe s’évapore vite."
+    },
+    {
+     "q": "Eros de Versace sent-il la menthe ?",
+     "a": "Oui, nettement, pendant les premières minutes. La menthe s’ouvre avec la pomme verte et le citron, puis la fève tonka et la vanille prennent le dessus. C’est ce contraste entre une tête glacée et un fond sucré qui fait sa signature. Il est puissant : une ou deux pulvérisations suffisent."
+    },
+    {
+     "q": "Combien de temps dure la menthe dans un parfum ?",
+     "a": "Peu de temps. Très volatile, elle domine les premières minutes puis s’efface derrière la lavande, les agrumes ou les bois. C’est pour ça qu’il faut choisir un parfum mentholé pour son fond : la vanille d’Eros, la tonka du Mâle, le santal et l’encens de Bleu de Chanel."
+    }
+   ]
+  },
+  "en": {
+   "title": "Mint fragrances for men: 8 picks with an icy opening",
+   "meta": "Davidoff Cool Water and Versace Eros lead our ranking of mint fragrances for men, from marine freshness to icy candy and vanilla fougères.",
+   "h1": "The best mint fragrances for men",
+   "intro": "In men’s fragrances, mint is there to wake you up. It hits hard for a few minutes, then steps aside, and what comes after should drive your choice. Our top pick is Davidoff Cool Water, where mint meets lavender and a marine breeze for a straightforward freshness. Versace Eros follows with a sweet, nocturnal mint. Le Male completes the podium with barbershop mint drowned in vanilla.",
+   "sections": [
+    {
+     "title": "Mint and lavender, a men’s double act",
+     "body": "Mint almost always sits in the top notes, and very often alongside lavender. Cool Water (1988), Le Male (1995) and A*Men (1996) share that opening, which smells like shaving foam on freshly shaved skin. What separates them comes next. Cool Water heads toward coriander and geranium over cedar and musk. Le Male tips into cinnamon and vanilla. A*Men dives into coffee and caramel. Parfums de Marly’s Darley reuses the same pairing, with more restrained cinnamon and tonka. On the women’s side, mint is far rarer and softer: in L’Eau par Kenzo it hides in the heart with water lily. For men, it is a door you fling open."
+    },
+    {
+     "title": "Icy mint or sweet mint",
+     "body": "Two schools compete. The first uses mint for pure freshness. Bleu de Chanel pairs it with grapefruit and lemon before ginger and incense, and Sedley mixes it with grapefruit and lavender over vetiver. These are daytime scents, easy at the office. The second school turns mint into candy. Eros pairs it with green apple and vanilla, 1 Million with grapefruit and cinnamon. The cold-meets-sweet contrast works very well at night in a crowded room, but it wears thin in an open-plan office. In between, Le Male and Darley play the fougère card, with barbershop mint softened by tonka. Choose based on your day, not on the opening. The mint will often be gone before you get to work."
+    },
+    {
+     "title": "When to wear a mint fragrance",
+     "body": "Summer seems obvious, but only Cool Water and Sedley are truly built for heat. Eros, Le Male, A*Men and 1 Million are autumn and winter scents. In them, mint is a contrast to a warm base. Bleu de Chanel and Darley cover autumn, winter and spring. As for dosage, the rule depends on strength. Eros and A*Men are among the most powerful in the selection, so one or two sprays will do. Cool Water and Sedley can take more, and they benefit from a top-up during the day. One practical tip: spray ten minutes before you leave. That way people around you won’t get only the opening blast of menthol, which is the harshest part."
+    }
+   ],
+   "why": {
+    "davidoff-cool-water": "First on the list because its mint serves a sugar-free freshness from start to finish. Pierre Bourdon paired it with lavender and coriander, then a geranium and jasmine heart, over cedar and musk. The salty-air effect does the rest. It is the most straightforward fresh scent on the page, ideal for sport and summer. Its DNA has been copied so much that it now smells familiar.",
+    "versace-eros": "Aurélien Guichard composed an icy mint in 2012 that meets green apple and lemon. Tonka, ambroxan and geranium take over, followed by vanilla. Think neon candy. It is powerful and gleefully excessive, perfect for a club and wrong for the office. Sweeter than Cool Water, younger than Le Male.",
+    "jean-paul-gaultier-le-male": "In third place, Le Male is barbershop mint turned seduction scent. It opens with lavender and bergamot, then cinnamon and cumin warm the heart before vanilla and amber. The mint vanishes quickly, but it gives that first shiver everyone recognises. Its downside: it is everywhere. Less brutal than A*Men, softer than Cool Water.",
+    "chanel-bleu-de-chanel": "Jacques Polge uses mint like a whetstone, alongside grapefruit and lemon. Ginger and nutmeg follow, then sandalwood, cedar and incense. It is the most restrained and versatile mint in the selection, perfect for the office. Critics say it surprises no one. Woodier than Sedley, far less sweet than Eros.",
+    "thierry-mugler-amen": "A*Men opens with the same lavender-mint as Le Male, then throws it into roasted coffee, caramel and honey. The tarry patchouli base does the rest. It is the most extreme scent on the page, with a power that punishes any excess. One spray is enough, in cold weather. For fans of singular perfumes, nothing replaces it.",
+    "paco-rabanne-1-million": "Here mint is the ice cube in a sweet cocktail. With grapefruit and mandarin, it opens onto cinnamon and rose before a base of amber and leather. The gold-bar bottle keeps its promise: people notice you. It gets heavy in closed spaces. Warmer than Eros, less gourmand than A*Men.",
+    "parfums-de-marly-darley": "Darley is the amber fougère of the selection. Mint and Amalfi lemon open, then lavender and cinnamon form a round heart over tonka and sandalwood. It has an aristocratic bearing and is less sweet than Le Male. It is also more discreet than the house’s best-sellers, which makes it a good office scent in cool weather.",
+    "parfums-de-marly-sedley": "The only unisex scent on the page, and the most summery. Fresh mint pairs with lemon and grapefruit, then lavender and rosemary. The vetiver, cedar and ambroxan base stays clean. Picture a white shirt ironed in the sun. Fairly conventional, but very pleasant in summer. Lighter than Bleu de Chanel."
+   },
+   "faq": [
+    {
+     "q": "Which men’s fragrance smells like mint?",
+     "a": "Davidoff Cool Water and Versace Eros are the most minty in the opening. The first pairs mint with lavender and a marine breeze, the second with green apple and vanilla. For a finer, less sugary mint, Bleu de Chanel uses it with grapefruit before a woody base."
+    },
+    {
+     "q": "What is a good mint fragrance for men in summer?",
+     "a": "Cool Water and Parfums de Marly’s Sedley are the two true summer scents in our selection. Their mint rests on lavender and citrus, with no vanilla. Avoid Eros, 1 Million and A*Men in hot weather, since their sweet bases quickly get heavy. Reapply in the afternoon, because mint evaporates fast."
+    },
+    {
+     "q": "Does Versace Eros smell like mint?",
+     "a": "Yes, clearly, for the first few minutes. The mint opens with green apple and lemon, then tonka and vanilla take over. That contrast between an icy top and a sweet base is its signature. It is powerful, so one or two sprays are enough."
+    },
+    {
+     "q": "How long does mint last in a fragrance?",
+     "a": "Not long. Highly volatile, it dominates the first few minutes and then fades behind lavender, citrus or woods. That is why you should choose a minty fragrance for its base: the vanilla in Eros, the tonka in Le Male, the sandalwood and incense in Bleu de Chanel."
+    }
+   ]
+  }
+ }
+}

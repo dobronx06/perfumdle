@@ -1,0 +1,64 @@
+---
+/** Index of a ranked family: /meilleurs-parfums/, /parfumeurs/, /guides/. Lists live pages only. */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import type { Locale } from '../i18n';
+import { url, GUIDES } from '../lib/catalog';
+import { hubCopy, liveOfKind, rankedUrl, rankedCopy, rankedBase, picksOf } from '../lib/ranked';
+import { breadcrumbLd, faqLd, itemListLd, articleLd, compact } from '../lib/seo';
+
+interface Props { kind: 'best' | 'nose' | 'guide'; locale: Locale }
+const { kind, locale: l } = Astro.props;
+const fr = l === 'fr';
+const other: Locale = fr ? 'en' : 'fr';
+const c = hubCopy(kind)![l];
+const path = rankedBase[kind](l);
+const items = liveOfKind(kind).map((d) => ({
+  href: rankedUrl(d, l),
+  title: rankedCopy(d.id)![l].h1,
+  sub: picksOf(d).slice(0, 3).map((p) => p.name).join(' · '),
+}));
+const crumbs = [{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: c.h1 }];
+const jsonLd = compact([
+  articleLd({ headline: c.h1, description: c.meta, path, lang: l }),
+  breadcrumbLd(crumbs),
+  itemListLd(c.h1, items.map((it) => ({ name: it.title, href: it.href }))),
+  faqLd(c.faq),
+]);
+---
+
+<Layout title={c.title} description={c.meta} locale={l} alternates={{ [l]: path, [other]: rankedBase[kind](other) } as Record<Locale, string>} jsonLd={jsonLd} ogType="article">
+  <div class="page">
+    <Header locale={l} altHref={rankedBase[kind](other)} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={crumbs} />
+        <section class="section--tight" style="max-width:46rem">
+          <p class="eyebrow reveal">{kind === 'best' ? (fr ? 'Classements' : 'Rankings') : kind === 'nose' ? (fr ? 'Les nez' : 'The noses') : 'Guides'}</p>
+          <h1 class="h1 reveal reveal-2">{c.h1}</h1>
+          <p class="lede reveal reveal-3">{c.intro}</p>
+        </section>
+      </div>
+      <section class="section--tight">
+        <div class="wrap">
+          <div class="guides">
+            {items.map((it) => <a href={it.href}><strong>{it.title}</strong><span>{it.sub}</span></a>)}
+            {kind === 'guide' && GUIDES.map((g) => <a href={`/${l}/${g.slug}/`}><strong>{fr ? g.fr : g.en}</strong></a>)}
+          </div>
+        </div>
+      </section>
+      <div class="wrap section--tight">
+        <article class="prose" style="max-width:46rem;margin:0 auto">
+          {c.sections.map((s) => <><h2>{s.title}</h2><p>{s.body}</p></>)}
+        </article>
+      </div>
+      <div class="wrap wrap--text">
+        <Faq items={c.faq} title={fr ? 'Questions fréquentes' : 'Frequently asked questions'} />
+      </div>
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>

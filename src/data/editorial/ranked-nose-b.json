@@ -1,0 +1,665 @@
+{
+ "_data_issues": [
+  "byredo-mojave-ghost: notes de tête « Sapotille » et « Sapotille de Jamaïque » font doublon (Jamaican Nesberry = sapotille).",
+  "narciso-rodriguez-narciso: notes de fond « Cèdre » et « Cèdre noir » font doublon.",
+  "hermes-jour-dhermes: nom « Jour d'Hermes » sans accent (Jour d’Hermès).",
+  "calvin-klein-ck-eternity-for-men: casse du nom « Ck » (CK Eternity for Men).",
+  "ralph-lauren-polo: wear_fr publié contient un tiret cadratin (après « vêtements épais »), contraire à WRITING_RULES.",
+  "byredo-blanche: gender « Feminine » alors que Byredo présente ses parfums comme mixtes ; à vérifier."
+ ],
+ "nose:olivier-cresp": {
+  "picks": [
+   "thierry-mugler-angel",
+   "dolce-gabbana-light-blue",
+   "yves-saint-laurent-black-opium",
+   "givenchy-gentleman",
+   "yves-saint-laurent-mon-paris",
+   "dolce-gabbana-light-blue-eau-intense"
+  ],
+  "fr": {
+   "title": "Olivier Cresp : parfums, parcours et créations",
+   "meta": "Angel, Light Blue et Black Opium : le parcours d’Olivier Cresp et notre classement de ses parfums, du gourmand fondateur à la pomme d’été.",
+   "h1": "Olivier Cresp, le parfumeur d’Angel et de Light Blue",
+   "intro": "Olivier Cresp signe deux parfums que tout oppose et qui ont chacun fait école. Angel, en 1992, pose la barbe à papa sur un patchouli massif et ouvre la voie au gourmand moderne. En 2001, Light Blue prend le chemin inverse avec une pomme croquante et du cèdre, presque sans sucre. Notre classement met ces deux-là en tête. Black Opium suit, un café vanillé qu’il cosigne pour Yves Saint Laurent.",
+   "sections": [
+    {
+     "title": "Parcours : de Grasse à Firmenich",
+     "body": "Olivier Cresp vient d’une famille grassoise liée à la parfumerie. Sa sœur, Françoise Caron, est elle aussi parfumeuse. Son nom est associé à la maison de composition Firmenich, qui fournit les grandes marques en formules. C’est là que se construit l’essentiel de la carrière qu’on retrouve dans cette page. Angel sort chez Mugler en 1992 et reste son coup d’éclat le plus commenté. Light Blue, neuf ans plus tard, montre qu’il sait aussi travailler léger. Les lancements plus récents racontent une autre réalité du métier : Black Opium est signé à quatre, Gentleman et Mon Paris à trois. Dans les grandes maisons de mode, un parfum de ce calibre est souvent un travail d’équipe, et la part de chacun est rarement détaillée publiquement. On lit donc ces cosignatures comme des collaborations, sans attribuer à Cresp plus que sa part."
+    },
+    {
+     "title": "Style : tout le sucre, ou pas de sucre du tout",
+     "body": "Deux familles de parfums se dessinent dans sa production. D’un côté, les gourmands denses posés sur du patchouli : Angel, Black Opium et Mon Paris partagent ce fond terreux qui empêche le sucre de devenir mièvre. Gentleman reprend le même patchouli côté masculin, adouci par l’iris. De l’autre côté, les fruités transparents de Dolce & Gabbana, bâtis sur la pomme verte et un fond de musc ou de bois ambré. Un détail revient d’un parfum à l’autre : la poire, présente dans Black Opium, Mon Paris et Gentleman. Cresp aime ouvrir sur un fruit reconnaissable, puis laisser le fond faire le travail. Ses parfums les plus forts (Angel, Black Opium) demandent une main légère. Les plus frais (Light Blue) ont le défaut inverse et s’effacent trop tôt. Rares sont les parfumeurs dont le catalogue couvre un écart aussi large."
+    }
+   ],
+   "why": {
+    "thierry-mugler-angel": "Le parfum qui justifie à lui seul cette page. Cresp y ose la barbe à papa, le miel et le chocolat sur un patchouli presque terreux, sans chercher à arrondir le contraste. L’intensité est maximale : une ou deux touches suffisent, en hiver seulement. Black Opium lui doit beaucoup, mais Angel reste plus sec au fond et bien plus clivant. On l’aime ou on le fuit.",
+    "dolce-gabbana-light-blue": "Tout l’inverse d’Angel, et c’est ce qui impressionne. Ici Cresp retire le sucre et garde une pomme verte, de la jacinthe des bois et du cèdre sur un fond de musc. Le résultat sent l’après-midi d’été sans effort apparent. Son défaut est connu : cette eau de toilette s’efface en quelques heures. Pour plus de tenue, voir Light Blue Eau Intense en fin de classement.",
+    "yves-saint-laurent-black-opium": "Cosigné avec Nathalie Lorson, Marie Salamagne et Honorine Blanc, ce gourmand reprend la logique d’Angel sur un mode plus poli. Le café et l’amande occupent le cœur, la vanille et le patchouli tiennent le fond. La poire et les baies roses du départ le rendent plus accessible. Il va aux soirées d’hiver, à condition de rester à deux pulvérisations : au-delà, la douceur sature.",
+    "givenchy-gentleman": "Seul masculin de la sélection, cosigné avec Nathalie Lorson et Olivier Pescheux. On y retrouve la poire chère à Cresp, cette fois posée sur de la lavande et de la cardamome, puis sur un iris poudré. Le fond de patchouli, de vanille noire et de cuir reste sage. Bon choix de bureau en mi-saison, bien moins démonstratif qu’Angel ou Black Opium.",
+    "yves-saint-laurent-mon-paris": "Fraise, framboise et poire en tête, puis pivoine et datura : Mon Paris pousse le fruit plus loin que tous les autres parfums de la page. Cresp le cosigne avec Harry Frémont et Dora Baghriche. Le fond de patchouli et d’ambroxan tient bien. La douceur appuyée lasse vite en espace clos, et il reste moins nuancé que Black Opium. Il vise clairement un public jeune.",
+    "dolce-gabbana-light-blue-eau-intense": "Version plus solaire et plus tenace de Light Blue, signée par Cresp seul en 2017. Citron et pomme Granny Smith ouvrent, le souci apporte une note un peu herbacée, puis un bois ambré prend le relais. Il dure nettement plus longtemps que l’original. Il perd en revanche la transparence qui faisait le charme de la version 2001, d’où sa dernière place."
+   },
+   "faq": [
+    {
+     "q": "Quels sont les parfums les plus connus d’Olivier Cresp ?",
+     "a": "Angel de Mugler (1992) et Light Blue de Dolce & Gabbana (2001) sont ses deux parfums les plus célèbres. Il a aussi cosigné Black Opium et Mon Paris pour Yves Saint Laurent, ainsi que Gentleman de Givenchy en 2017. Ces trois derniers sont des travaux d’équipe avec d’autres parfumeurs."
+    },
+    {
+     "q": "Quel parfum d’Olivier Cresp porter en été ?",
+     "a": "Light Blue, ou Light Blue Eau Intense si l’original tient trop peu sur votre peau. Les deux reposent sur une pomme verte fraîche et un fond léger de musc ou de bois ambré. Angel, Black Opium et Mon Paris sont à garder pour l’automne et l’hiver : leur sucre devient pesant à la chaleur."
+    },
+    {
+     "q": "Pourquoi dit-on qu’Angel a inventé le gourmand moderne ?",
+     "a": "Parce qu’en 1992 il met au premier plan des notes de confiserie (barbe à papa, caramel et chocolat), ce que peu de grands féminins osaient alors. Il les tend sur un patchouli très présent. Ce contraste entre sucre et terre a servi de modèle à beaucoup de gourmands venus ensuite, Black Opium compris."
+    }
+   ]
+  },
+  "en": {
+   "title": "Olivier Cresp: Perfumes, Career and Signature Creations",
+   "meta": "Olivier Cresp made both Angel and Light Blue. His career, his style and our ranking of his best perfumes, from gourmand to fresh apple.",
+   "h1": "Olivier Cresp, the nose behind Angel and Light Blue",
+   "intro": "Few perfumers can claim two blockbusters that pull in opposite directions. Olivier Cresp can. Angel (1992) put cotton candy on top of heavy patchouli and set the template for the modern gourmand. Light Blue (2001) went the other way with crisp apple and cedar and almost no sugar. Those two lead our ranking. Black Opium comes third, a coffee and vanilla gourmand he co-authored for Yves Saint Laurent.",
+   "sections": [
+    {
+     "title": "Career: a Grasse family and a Firmenich nose",
+     "body": "Olivier Cresp comes from a Grasse family with roots in perfumery, and his sister Françoise Caron is a perfumer too. His name is tied to Firmenich, one of the big fragrance houses that write formulas for fashion brands. Angel, launched by Mugler in 1992, remains the work people bring up first. Light Blue arrived nine years later and proved he could work light as well as loud. The more recent launches on this page tell a different story about the job. Black Opium lists four perfumers. Gentleman and Mon Paris list three each. At this scale a fragrance is usually a team effort, and the split of credit is rarely made public. So we read those co-signatures as collaborations and do not hand Cresp more than his share of them. What stays constant is a knack for accords that are easy to recognise from across a room."
+    },
+    {
+     "title": "Style: full sugar, or none at all",
+     "body": "His output splits into two camps. The first is dense gourmands sitting on patchouli. Angel, Black Opium and Mon Paris share that earthy base, and it is what stops the sugar from turning childish. Gentleman borrows the same patchouli for a men’s scent and softens it with iris. The second camp is the see-through fruity style of the Dolce & Gabbana pair, built on green apple over musk or amberwood. One detail keeps coming back: pear, which opens Black Opium, Mon Paris and Gentleman. Cresp likes a recognisable fruit up front and lets the base do the heavy lifting afterwards. The practical upshot is simple. His strongest scents (Angel, Black Opium) need a light hand on the trigger. His freshest (Light Blue) have the opposite problem and fade before lunch. Few perfumers have a catalogue with this much range between its two ends."
+    }
+   ],
+   "why": {
+    "thierry-mugler-angel": "The reason this page exists. Cresp set cotton candy, honey and chocolate against an almost earthy patchouli and made no attempt to smooth the clash. Intensity is maxed out, so one or two sprays in winter are plenty. Black Opium owes it a lot, yet Angel stays drier at the base and far more divisive. People love it or leave the room.",
+    "dolce-gabbana-light-blue": "Angel’s opposite, which is exactly what makes it impressive. Cresp strips out the sugar and keeps green apple, bluebell and cedar over a soft musk. It smells like a summer afternoon with no visible effort. The known flaw: this eau de toilette is mostly gone within a few hours. If you want more staying power, look at Eau Intense at the bottom of the list.",
+    "yves-saint-laurent-black-opium": "Co-authored with Nathalie Lorson, Marie Salamagne and Honorine Blanc, this is Angel’s logic in a more polished form. Coffee and almond sit at the heart while vanilla and patchouli hold the base. Pear and pink pepper make the opening friendlier. It suits winter nights, but keep it to two sprays because the sweetness piles up fast.",
+    "givenchy-gentleman": "Our only masculine pick, co-signed with Nathalie Lorson and Olivier Pescheux. Cresp’s favourite pear is back, this time over lavender and cardamom and then a powdery iris. The patchouli, black vanilla and leather base stays well behaved. A good office pick for spring or autumn, and far less showy than Angel or Black Opium.",
+    "yves-saint-laurent-mon-paris": "Strawberry, raspberry and pear up top, then peony and datura. Mon Paris pushes fruit further than anything else on this page. Cresp shares the credit with Harry Frémont and Dora Baghriche. The patchouli and Ambroxan base lasts well, but the heavy sweetness wears thin in a small room and it has less depth than Black Opium. It is aimed squarely at a younger crowd.",
+    "dolce-gabbana-light-blue-eau-intense": "A sunnier, longer-lasting Light Blue, credited to Cresp alone in 2017. Lemon and Granny Smith apple open, marigold adds a slightly herbal edge, and amberwood takes over. It clearly outlasts the original. What it loses is the transparency that made the 2001 version so easy to love, which is why it sits last."
+   },
+   "faq": [
+    {
+     "q": "What are Olivier Cresp’s most famous perfumes?",
+     "a": "Angel by Mugler (1992) and Light Blue by Dolce & Gabbana (2001) are the two big ones. He also co-authored Black Opium and Mon Paris for Yves Saint Laurent and Gentleman for Givenchy in 2017. Those last three were team projects with other perfumers."
+    },
+    {
+     "q": "Which Olivier Cresp perfume works best in summer?",
+     "a": "Light Blue, or Light Blue Eau Intense if the original disappears too fast on your skin. Both rest on crisp green apple and a light musk or amberwood base. Keep Angel, Black Opium and Mon Paris for autumn and winter, because their sugar turns heavy in the heat."
+    },
+    {
+     "q": "Why is Angel called the first modern gourmand?",
+     "a": "In 1992 it put confectionery notes like cotton candy, caramel and chocolate right at the front, which few major women’s fragrances dared to do. It then stretched them over a very present patchouli. That sweet-versus-earthy tension became a model for many gourmands that followed, Black Opium included."
+    }
+   ]
+  }
+ },
+ "nose:anne-flipo": {
+  "picks": [
+   "lancome-la-vie-est-belle",
+   "yves-saint-laurent-libre",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "givenchy-linterdit",
+   "paco-rabanne-invictus",
+   "paco-rabanne-lady-million"
+  ],
+  "fr": {
+   "title": "Anne Flipo : parfums, parcours et créations",
+   "meta": "La Vie Est Belle, Libre et La Nuit de l’Homme : parcours d’Anne Flipo, son style autour de la fleur d’oranger et notre classement de ses parfums.",
+   "h1": "Anne Flipo, parfumeuse de La Vie Est Belle et de Libre",
+   "intro": "Anne Flipo a cosigné une bonne part des best-sellers de parfumerie des années 2010. Notre classement place La Vie Est Belle en tête : un iris enrobé de praline qui a imposé le gourmand floral dans tous les rayons. Libre suit, pour son contraste franc entre lavande et fleur d’oranger. La Nuit de l’Homme complète le podium, plus discret mais d’une élégance épicée rare chez un masculin grand public.",
+   "sections": [
+    {
+     "title": "Parcours : une parfumeuse d’équipe chez IFF",
+     "body": "Anne Flipo compose pour IFF, l’une des grandes maisons de composition qui travaillent pour les marques de mode et de cosmétique. Sa trajectoire se lit surtout à travers des collaborations. Aucun des six parfums de cette page n’est signé par elle seule. Dominique Ropion apparaît sur cinq d’entre eux, Olivier Polge sur deux, Carlos Benaïm sur Libre. Cette façon de travailler à plusieurs mains est la norme pour les lancements de cette envergure, et la répartition exacte des rôles reste le plus souvent confidentielle. Son nom revient pourtant sur des parfums très différents : un gourmand féminin chez Lancôme, deux masculins chez Yves Saint Laurent et Paco Rabanne, deux floraux chez Givenchy et Paco Rabanne. Tous sortent entre 2009 et 2019, ce qui situe bien sa période la plus visible auprès du grand public."
+    },
+    {
+     "title": "Style : la fleur d’oranger comme fil rouge",
+     "body": "Un ingrédient traverse presque toute cette sélection. La fleur d’oranger apparaît dans La Vie Est Belle, Libre, L’Interdit et Lady Million. Le jasmin est encore plus présent, puisqu’il manque seulement dans La Nuit de l’Homme. Ces fleurs blanches servent de pivot entre un départ fruité (cassis, poire, framboise) et un fond chaud où le patchouli revient quatre fois. Le résultat est souvent généreux, parfois trop. La Vie Est Belle et Lady Million assument un sucre qui peut lasser. Libre et L’Interdit sont plus intéressants parce qu’ils introduisent une tension : la lavande dans le premier, le vétiver dans le second. Côté masculin, le ton change nettement. La Nuit de l’Homme joue la cardamome et le cèdre à voix basse. Invictus mise sur le pamplemousse et un sucré-salé très diffusif. On sent une parfumeuse à l’aise dans l’efficacité, qui réussit le mieux quand un contraste vient casser la douceur."
+    }
+   ],
+   "why": {
+    "lancome-la-vie-est-belle": "Premier du classement pour son influence, cosigné avec Olivier Polge et Dominique Ropion. L’idée est limpide : un iris et une poire pris dans la praline et la vanille, avec le patchouli pour tenir le tout. L’intensité est maximale et une pulvérisation suffit. Plus sucré que Libre, moins floral que Lady Million, il reste le modèle du genre. Son omniprésence lasse certains nez.",
+    "yves-saint-laurent-libre": "Avec Carlos Benaïm, Anne Flipo installe ici une lavande aromatique (d’ordinaire réservée aux masculins) face à une fleur d’oranger voluptueuse. Ce frottement donne à Libre plus de caractère que La Vie Est Belle. Le fond vanillé et musqué reste convenu. Il marche du bureau au dîner en saison fraîche et plaît aux amatrices de parfums un peu androgynes.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Le plus raffiné de la page, et le plus timide. Cardamome, lavande et cèdre, puis un cumin discret et un fond de vétiver et de fève tonka. Tout est chuchoté. Son intensité de 2 sur 5 pose problème : la tenue et la projection déçoivent souvent. À réserver aux rendez-vous, là où Invictus serait bien trop bruyant.",
+    "givenchy-linterdit": "Une tubéreuse lumineuse, cosignée avec Dominique Ropion et Fanny Bal, qui descend vers un fond de vétiver et de patchouli plus mordant qu’on ne l’attend. Moins sucré que Lady Million, plus sombre que Libre, il passe bien au bureau comme le soir. Sa part d’ombre reste mesurée. Ceux qui veulent une vraie fleur blanche noire resteront sur leur faim.",
+    "paco-rabanne-invictus": "Seul parfum frais de la sélection. Pamplemousse et notes marines ouvrent, la feuille de laurier et l’hedione font le lien, puis le gaïac et l’ambre gris installent un sucré-salé très diffusif. C’est efficace par temps chaud. C’est aussi un style tellement copié qu’il manque de singularité aujourd’hui. Face à La Nuit de l’Homme, il gagne en présence et perd en finesse.",
+    "paco-rabanne-lady-million": "Aucun des six n’est plus démonstratif. Framboise et citron d’Amalfi en tête, gardénia et fleur d’oranger au cœur, puis un miel doré sur patchouli. Il est taillé pour les soirées festives d’hiver. Son sucre le date un peu, et il parle fort. On le classe dernier, derrière L’Interdit qui travaille les fleurs blanches avec plus de retenue."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums a créés Anne Flipo ?",
+     "a": "Parmi les plus connus : La Vie Est Belle de Lancôme (2012) et L’Interdit de Givenchy (2018). Chez Yves Saint Laurent, Libre (2019) et La Nuit de l’Homme (2009). Chez Paco Rabanne, Invictus (2013) et Lady Million (2010). Tous sont cosignés avec d’autres parfumeurs, souvent Dominique Ropion."
+    },
+    {
+     "q": "La Vie Est Belle ou Libre : lequel choisir ?",
+     "a": "La Vie Est Belle si vous aimez le sucré réconfortant : praline, vanille et iris, avec une tenue très forte. Libre si vous préférez un parfum plus tendu, où la lavande vient contrarier la fleur d’oranger. Libre passe mieux au bureau. La Vie Est Belle est plus facile à reconnaître sur les autres."
+    },
+    {
+     "q": "Quel parfum d’Anne Flipo pour un homme ?",
+     "a": "Deux options très différentes. La Nuit de l’Homme pour un parfum intime, épicé et élégant, idéal en rendez-vous mais peu tenace. Invictus pour un frais sucré-salé qui se remarque de loin, plutôt l’été et en journée. Le premier convient mieux aux hommes qui fuient les sillages envahissants."
+    }
+   ]
+  },
+  "en": {
+   "title": "Anne Flipo: Perfumes, Career and Signature Creations",
+   "meta": "La Vie Est Belle, Libre and La Nuit de l’Homme: Anne Flipo’s career, her orange blossom signature and our ranking of her best perfumes.",
+   "h1": "Anne Flipo, the perfumer behind La Vie Est Belle and Libre",
+   "intro": "Anne Flipo’s name sits on a remarkable number of 2010s bestsellers. La Vie Est Belle tops our ranking: praline-coated iris that made the floral gourmand a fixture on every counter. Libre is second for its sharp clash of lavender and orange blossom. La Nuit de l’Homme rounds out the top three. It is quieter, but its spicy elegance is rare in a mass-market men’s scent.",
+   "sections": [
+    {
+     "title": "Career: a team player at IFF",
+     "body": "Anne Flipo works for IFF, one of the major fragrance houses that compose for fashion and beauty brands. Her career is best read through collaborations. Not one of the six perfumes on this page carries her name alone. Dominique Ropion appears on five of them, Olivier Polge on two and Carlos Benaïm on Libre. Group authorship is standard for launches this size, and who did what is rarely disclosed. What the list does show is range. Her name turns up on a gourmand for Lancôme, two men’s fragrances for Yves Saint Laurent and Paco Rabanne, and two florals for Givenchy and Paco Rabanne. All of them came out between 2009 and 2019, her most visible decade as far as the general public is concerned. That run of launches for big fashion and beauty names says a lot about how much trust brands place in her."
+    },
+    {
+     "title": "Style: orange blossom as the common thread",
+     "body": "One material runs through almost the whole selection. Orange blossom shows up in La Vie Est Belle, Libre, L’Interdit and Lady Million. Jasmine is even more widespread and is missing only from La Nuit de l’Homme. These white flowers act as a hinge between a fruity opening (blackcurrant, pear, raspberry) and a warm base where patchouli appears four times. The result is often generous and sometimes too much so. La Vie Est Belle and Lady Million lean on sugar that can wear you out. Libre and L’Interdit are more interesting because each adds friction: lavender in one, vetiver in the other. The men’s side sounds different. La Nuit de l’Homme keeps cardamom and cedar at a murmur. Invictus goes for grapefruit and a loud sweet-salty trail. Her best work happens when something cuts through the sweetness."
+    }
+   ],
+   "why": {
+    "lancome-la-vie-est-belle": "Number one for sheer influence, co-authored with Olivier Polge and Dominique Ropion. The idea is crystal clear: iris and pear wrapped in praline and vanilla, with patchouli holding it together. It is about as strong as perfume gets, so one spray will do. Sweeter than Libre and less floral than Lady Million, it is still the reference for the style. Its ubiquity puts some people off.",
+    "yves-saint-laurent-libre": "With Carlos Benaïm, Flipo sets aromatic lavender (usually a men’s material) against lush orange blossom. That friction gives Libre more character than La Vie Est Belle. The vanilla and musk base is fairly standard. It goes from office to dinner in cooler months and suits anyone who likes a slightly androgynous edge.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "The most refined scent here and the shyest. Cardamom, lavender and cedar, then a hint of cumin over vetiver and tonka. Everything is said in a low voice. Its intensity of 2 out of 5 is the catch, since longevity and projection often disappoint. Save it for dates, where Invictus would be far too loud.",
+    "givenchy-linterdit": "A bright tuberose, co-signed with Dominique Ropion and Fanny Bal, that drops into a vetiver and patchouli base with more bite than you expect. Less sugary than Lady Million and darker than Libre, it works at the office and at night. The dark side stays polite, though. Anyone hoping for a truly noir white floral will want more.",
+    "paco-rabanne-invictus": "Only fresh scent in the lineup. Grapefruit and sea notes open, bay leaf and Hedione bridge the gap, then guaiac and ambergris lay down a loud sweet-salty trail. It works well in hot weather. It has also been imitated so often that it now feels generic. Next to La Nuit de l’Homme it gains presence and loses finesse.",
+    "paco-rabanne-lady-million": "Nothing here is showier. Raspberry and Amalfi lemon up top, gardenia and orange blossom in the heart, then golden honey over patchouli. It is built for festive winter nights. The sugar dates it a little and it talks loudly. It ranks last, behind L’Interdit, which handles white flowers with more restraint."
+   },
+   "faq": [
+    {
+     "q": "Which perfumes did Anne Flipo create?",
+     "a": "The best known are La Vie Est Belle by Lancôme (2012) and L’Interdit by Givenchy (2018). For Yves Saint Laurent she worked on Libre (2019) and La Nuit de l’Homme (2009). For Paco Rabanne, Invictus (2013) and Lady Million (2010). Each was co-authored, often with Dominique Ropion."
+    },
+    {
+     "q": "La Vie Est Belle or Libre: which one should I buy?",
+     "a": "Pick La Vie Est Belle if you want comforting sweetness: praline, vanilla and iris with very long wear. Pick Libre if you prefer more tension, with lavender pushing back against orange blossom. Libre is easier to wear at work. La Vie Est Belle is the one people will recognise on you."
+    },
+    {
+     "q": "What is the best Anne Flipo fragrance for men?",
+     "a": "It depends on the mood. La Nuit de l’Homme is intimate, spicy and elegant, great for a date but short-lived. Invictus is a sweet-salty fresh scent that carries across a room, best in summer and daytime. The first suits men who dislike heavy trails."
+    }
+   ]
+  }
+ },
+ "nose:carlos-benaim": {
+  "picks": [
+   "ralph-lauren-polo",
+   "calvin-klein-ck-eternity-for-men",
+   "viktor-rolf-flowerbomb",
+   "yves-saint-laurent-libre",
+   "giorgio-armani-my-way"
+  ],
+  "fr": {
+   "title": "Carlos Benaïm : parfums, parcours et créations",
+   "meta": "De Polo (1978) à Flowerbomb et Libre : le parcours de Carlos Benaïm chez IFF, son style et notre classement de ses parfums les plus marquants.",
+   "h1": "Carlos Benaïm, de la fougère verte de Polo aux floraux modernes",
+   "intro": "Carlos Benaïm a signé Polo pour Ralph Lauren en 1978 et My Way pour Giorgio Armani en 2020. Plus de quarante ans séparent ces deux parfums. Notre classement met Polo en tête, un vert magistral et sans concession. Ck Eternity for Men arrive deuxième, fougère propre de la fin des années 1980. Flowerbomb complète le podium : un floral sucré sur patchouli qui montre l’autre versant de sa carrière.",
+   "sections": [
+    {
+     "title": "Parcours : une longue carrière chez IFF",
+     "body": "Originaire de Tanger, Carlos Benaïm est l’un des parfumeurs historiques d’IFF, maison de composition américaine qui travaille pour les grandes marques. Sa longévité frappe d’abord. Polo date de 1978 et Ck Eternity for Men de 1989. Flowerbomb arrive en 2005, Libre en 2019 et My Way en 2020. Les deux premiers sont signés par lui seul, à une époque où les masculins se construisaient autour des herbes, du pin et des mousses. Les trois suivants sont cosignés : avec Olivier Polge et Domitille Michalon-Bertier pour Flowerbomb, avec Anne Flipo pour Libre, avec Bruno Jovanovic pour My Way. Ce passage du travail solitaire au travail d’équipe reflète l’évolution du métier plus qu’un changement de méthode personnel. On y voit aussi un parfumeur que les marques rappellent d’une décennie à l’autre, ce qui en dit long sur la confiance qu’il inspire."
+    },
+    {
+     "title": "Style : de la fougère aux fleurs blanches",
+     "body": "Sa production se lit en deux temps. Les masculins de Ralph Lauren et Calvin Klein appartiennent à la tradition fougère et aromatique. Polo empile l’armoise, le basilic, le pin et la mousse de chêne sur un fond de cuir et de tabac. Eternity for Men allège la formule avec la lavande, la sauge et le bois de rose. Les féminins plus récents misent sur les fleurs, jasmin en tête. On le trouve dans Flowerbomb, Libre et My Way, et déjà dans le cœur d’Eternity. Libre fait le pont entre les deux époques en posant une lavande de fougère masculine sur une fleur d’oranger. On retrouve là un réflexe de Benaïm : garder une structure claire, lisible dès la première minute. Ses parfums ne cherchent pas le flou. Le revers, c’est une certaine sagesse chez My Way, qui respecte les codes du floral blanc sans vraiment les bousculer."
+    }
+   ],
+   "why": {
+    "ralph-lauren-polo": "Le plus ambitieux de la page, signé par Benaïm seul en 1978. Armoise, basilic et thym ouvrent. Le pin et la mousse de chêne font le cœur, puis le cuir et le tabac prennent tout l’espace. Intensité 5 sur 5 : une seule pulvérisation, sur un pull de laine en hiver. Beaucoup plus dense qu’Eternity for Men, il ne plaira pas aux amateurs de propre.",
+    "calvin-klein-ck-eternity-for-men": "Onze ans après Polo, Benaïm signe la version apaisée de la fougère. Lavande, mandarine et notes vertes ouvrent. Sauge, basilic et jasmin suivent sur un fond de santal et de bois de rose. C’est net et rassurant, parfait au bureau au printemps. Son style propre peut sembler daté face aux masculins actuels. Il reste bien plus portable que Polo au quotidien.",
+    "viktor-rolf-flowerbomb": "Cosigné avec Olivier Polge et Domitille Michalon-Bertier, Flowerbomb montre le Benaïm des floraux sucrés. Le thé et l’osmanthus du départ cèdent vite la place au jasmin, à la rose et à l’orchidée, portés par le patchouli et la vanille. Il est plus dense que My Way et plus sucré que Libre. À porter avec retenue, surtout en intérieur.",
+    "yves-saint-laurent-libre": "Ici, Benaïm apporte son savoir-faire de fougère à un féminin. La lavande de tête, avec la mandarine et le cassis, dialogue avec la fleur d’oranger et le jasmin cosignés avec Anne Flipo. C’est le chaînon manquant entre Eternity for Men et ses floraux. Le fond vanillé reste convenu, mais le contraste suffit à le rendre intéressant du bureau au dîner.",
+    "giorgio-armani-my-way": "Dernier en date, cosigné avec Bruno Jovanovic en 2020. Tubéreuse et fleur d’oranger sur un voile de vanille et de santal : un floral blanc solaire, facile à porter de jour. Il est bien exécuté. Il est aussi le plus convenu de la page, loin de l’ambition de Polo ou du contraste de Libre. Bon choix pour une première fleur blanche."
+   },
+   "faq": [
+    {
+     "q": "Quels sont les parfums créés par Carlos Benaïm ?",
+     "a": "Ses signatures les plus connues sont Polo de Ralph Lauren (1978) et Ck Eternity for Men de Calvin Klein (1989), qu’il a composés seul. Il a aussi cosigné Flowerbomb de Viktor & Rolf (2005), Libre d’Yves Saint Laurent (2019) et My Way de Giorgio Armani (2020)."
+    },
+    {
+     "q": "Polo de Ralph Lauren est-il encore portable aujourd’hui ?",
+     "a": "Oui, à condition de le doser. C’est un vert puissant fait de pin, de mousse de chêne, de cuir et de tabac. Il est très éloigné des masculins frais actuels. Une pulvérisation suffit, plutôt en automne et en hiver, sur des vêtements épais. Pour un style plus doux, Eternity for Men est une meilleure porte d’entrée."
+    },
+    {
+     "q": "Quelle différence entre Flowerbomb et My Way ?",
+     "a": "Flowerbomb est plus dense et plus sucré, avec un fond de patchouli et de vanille marqué, pensé pour le soir. My Way est un floral blanc plus lumineux, centré sur la tubéreuse et la fleur d’oranger, qui se porte facilement en journée. Les deux sont cosignés par Carlos Benaïm."
+    }
+   ]
+  },
+  "en": {
+   "title": "Carlos Benaïm: Perfumes, Career and Signature Creations",
+   "meta": "From Polo (1978) to Flowerbomb and Libre: Carlos Benaïm’s long career at IFF, his style and our ranking of his most important perfumes.",
+   "h1": "Carlos Benaïm, from the green fougère of Polo to modern florals",
+   "intro": "Carlos Benaïm composed Polo for Ralph Lauren in 1978 and co-authored My Way for Giorgio Armani in 2020. More than forty years sit between those two launches. Polo tops our ranking as a commanding, uncompromising green. Ck Eternity for Men comes second, the clean fougère of the late 1980s. Flowerbomb takes third place and shows the other side of his career: sweet flowers over patchouli.",
+   "sections": [
+    {
+     "title": "Career: decades at IFF",
+     "body": "Born in Tangier, Carlos Benaïm is one of the long-serving perfumers at IFF, the American fragrance house that composes for major brands. The first thing that stands out is how long he has been at it. Polo dates from 1978 and Ck Eternity for Men from 1989. Flowerbomb followed in 2005, Libre in 2019 and My Way in 2020. The first two carry his name alone and belong to an era when men’s fragrances were built on herbs, pine and moss. The last three are shared: with Olivier Polge and Domitille Michalon-Bertier on Flowerbomb, with Anne Flipo on Libre and with Bruno Jovanovic on My Way. That shift from solo work to teamwork says more about how the industry changed than about his own method. It also shows a perfumer that brands keep coming back to, decade after decade."
+    },
+    {
+     "title": "Style: from fougère to white flowers",
+     "body": "His work reads in two chapters. The men’s scents for Ralph Lauren and Calvin Klein sit squarely in the fougère and aromatic tradition. Polo stacks artemisia, basil, pine and oakmoss on a base of leather and tobacco. Eternity for Men lightens the formula with lavender, sage and rosewood. The more recent women’s scents turn to flowers, jasmine above all. It appears in Flowerbomb, Libre and My Way, and it was already in the heart of Eternity. Libre bridges the two chapters by setting a fougère-style lavender against orange blossom. That reveals a Benaïm habit: a clear structure you can read in the first minute. His perfumes do not go for blur or mystery. The downside is a certain caution in My Way, which follows white floral conventions without really pushing on them."
+    }
+   ],
+   "why": {
+    "ralph-lauren-polo": "The most ambitious scent on the page, composed by Benaïm alone in 1978. Artemisia, basil and thyme open. Pine and oakmoss form the heart, then leather and tobacco take over the room. Intensity is 5 out of 5, so one spray on a wool sweater in winter is enough. Far denser than Eternity for Men, it will not win over fans of clean scents.",
+    "calvin-klein-ck-eternity-for-men": "Eleven years after Polo, Benaïm wrote the calmer version of the fougère. Lavender, mandarin and green notes open. Sage, basil and jasmine follow over sandalwood and rosewood. It is neat and reassuring, ideal at the office in spring. Next to today’s men’s releases the clean style can feel dated. For daily wear it is still far easier than Polo.",
+    "viktor-rolf-flowerbomb": "Co-authored with Olivier Polge and Domitille Michalon-Bertier, Flowerbomb shows Benaïm’s sweet floral side. Tea and osmanthus quickly give way to jasmine, rose and orchid, carried by patchouli and vanilla. It is denser than My Way and sweeter than Libre. Wear it with restraint, especially indoors.",
+    "yves-saint-laurent-libre": "Here Benaïm brings his fougère know-how to a women’s perfume. The lavender opening, with mandarin and blackcurrant, plays against the orange blossom and jasmine he shaped with Anne Flipo. It is the missing link between Eternity for Men and his florals. The vanilla base is ordinary, yet the contrast alone makes it worth wearing from office to dinner.",
+    "giorgio-armani-my-way": "His most recent work, co-signed with Bruno Jovanovic in 2020. Tuberose and orange blossom over a veil of vanilla and sandalwood make a sunny white floral that is easy to wear by day. It is well made. It is also the most conventional scent here, far from Polo’s ambition or Libre’s contrast. A solid first white floral."
+   },
+   "faq": [
+    {
+     "q": "What perfumes did Carlos Benaïm create?",
+     "a": "His best-known solo works are Polo by Ralph Lauren (1978) and Ck Eternity for Men by Calvin Klein (1989). He also co-authored Flowerbomb by Viktor & Rolf (2005), Libre by Yves Saint Laurent (2019) and My Way by Giorgio Armani (2020)."
+    },
+    {
+     "q": "Is Ralph Lauren Polo still wearable today?",
+     "a": "Yes, if you go easy on it. It is a powerful green built on pine, oakmoss, leather and tobacco. That puts it very far from today’s fresh men’s scents. One spray is enough, ideally in autumn or winter and on heavier clothes. If you want something gentler, Eternity for Men is a better way in."
+    },
+    {
+     "q": "What is the difference between Flowerbomb and My Way?",
+     "a": "Flowerbomb is denser and sweeter, with a strong patchouli and vanilla base meant for evenings. My Way is a brighter white floral centred on tuberose and orange blossom, and it is easy to wear during the day. Carlos Benaïm co-authored both."
+    }
+   ]
+  }
+ },
+ "nose:jerome-epinette": {
+  "picks": [
+   "byredo-bal-dafrique",
+   "byredo-gypsy-water",
+   "byredo-mojave-ghost",
+   "byredo-super-cedar",
+   "byredo-blanche"
+  ],
+  "fr": {
+   "title": "Jérôme Epinette : parfums, parcours et créations",
+   "meta": "Bal d’Afrique et Gypsy Water : qui est Jérôme Epinette, le parfumeur de Byredo ? Son style musqué et notre classement de ses parfums.",
+   "h1": "Jérôme Epinette, le nez qui a façonné l’odeur de Byredo",
+   "intro": "Jérôme Epinette est le parfumeur derrière les grands classiques de Byredo. Notre classement place Bal d’Afrique en tête pour son équilibre entre agrumes dorés, violette et vétiver. Gypsy Water suit, un boisé de pin et d’encens très facile à aimer. Mojave Ghost complète le podium avec un musc floral d’une grande délicatesse. Tous partagent un défaut assumé : une projection modeste qui en fait des parfums de peau.",
+   "sections": [
+    {
+     "title": "Parcours : Robertet et la longue collaboration avec Byredo",
+     "body": "Jérôme Epinette travaille pour Robertet, maison de composition grassoise connue pour ses matières premières naturelles. Son nom est indissociable de Byredo, la marque suédoise fondée par Ben Gorham. Les cinq parfums de cette page sont tous des Byredo, sortis entre 2008 et 2016, et tous signés par lui seul. C’est assez rare pour être noté. Là où les grands lancements de mode passent souvent par trois ou quatre parfumeurs, cette collaboration repose sur un dialogue suivi entre un créateur de marque et un compositeur. Le résultat se voit dans la cohérence du catalogue. D’un parfum à l’autre, on retrouve les mêmes proportions et les mêmes fonds clairs, avec la même retenue. On ne s’aventure pas plus loin sur sa biographie, faute de sources assez solides : ce sont ses parfums qui parlent le mieux de lui."
+    },
+    {
+     "title": "Style : musc, bois blonds et discrétion",
+     "body": "Aucun parfum de la sélection ne dépasse une intensité de 3 sur 5, et trois d’entre eux plafonnent à 2. C’est un choix de style plus qu’une faiblesse. Epinette compose des parfums qui restent près du corps et se découvrent de près. Le musc revient dans quatre parfums sur cinq, sous forme de musc chantilly dans Mojave Ghost. La violette apparaît trois fois (Bal d’Afrique, Mojave Ghost et Blanche), toujours poudrée et jamais sucrée. Les bois sont clairs : santal, cèdre, bois blonds. Le vétiver apporte un peu de terre à Bal d’Afrique et à Super Cedar. Seul Gypsy Water s’autorise une vraie chaleur, avec l’encens et la vanille. Pour qui cherche du sillage, ce catalogue frustre. Pour qui aime un parfum qu’on ne sent qu’en s’approchant, c’est l’une des signatures les plus cohérentes de la niche moderne. Prévoyez de revaporiser en milieu de journée."
+    }
+   ],
+   "why": {
+    "byredo-bal-dafrique": "Notre premier choix, parce qu’il résume le mieux le style Epinette. Bergamote, citron et néroli ouvrent avec éclat. La violette et le cyclamen adoucissent, puis le vétiver et le musc posent un fond sec. Plus chaleureux que Blanche, moins boisé que Super Cedar. Il se porte au bureau aux beaux jours. Sa projection reste modeste après deux heures.",
+    "byredo-gypsy-water": "Le plus chaud et le plus narratif des cinq. Le poivre et le citron laissent place à l’encens et aux aiguilles de pin, puis à un santal vanillé qui évoque un feu de camp en forêt. Il plaît autant aux hommes qu’aux femmes. On le préfère au printemps et à l’automne. Comme Bal d’Afrique, il manque un peu de voix sur la durée.",
+    "byredo-mojave-ghost": "Epinette y travaille la délicatesse à l’extrême : sapotille et ambrette en tête, magnolia et violette au cœur, un musc chantilly sur cèdre au fond. Le résultat évoque une fleur sèche sur une peau propre. Intensité 2 sur 5, donc un parfum de bureau et de proximité. Plus fruité que Blanche, il frustrera ceux qui veulent qu’on les remarque.",
+    "byredo-super-cedar": "Formule minimaliste en quatre notes seulement : rose, cèdre, vétiver et musc. Epinette en tire un cèdre blond et rosé qui rappelle le crayon fraîchement taillé. C’est le plus boisé de la sélection et le plus facile à porter toute l’année, sauf en pleine canicule. Très discret, il s’adresse aux amateurs de minimalisme plutôt qu’aux fans de Gypsy Water.",
+    "byredo-blanche": "Aldéhydes, baies roses et pivoine sur musc et bois blonds : l’odeur du linge propre séché au soleil. Epinette pousse ici l’idée du propre plus loin que partout ailleurs. C’est élégant, mais certains y sentiront la lessive, d’où sa dernière place. Il reste le plus lumineux des cinq pour une journée de printemps au bureau."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums Byredo a créés Jérôme Epinette ?",
+     "a": "Parmi les plus connus : Gypsy Water (2008), Bal d’Afrique et Blanche (2009), Mojave Ghost (2014) et Super Cedar (2016). Il les a tous signés seul. Leur style commun repose sur des muscs doux, des bois clairs et une projection volontairement discrète."
+    },
+    {
+     "q": "Bal d’Afrique ou Gypsy Water : lequel choisir ?",
+     "a": "Bal d’Afrique est plus floral et plus lumineux, avec des agrumes, de la violette et un fond de vétiver. Il brille au printemps et en été. Gypsy Water est plus boisé et plus chaud, entre pin, encens et vanille. Il convient mieux au printemps et à l’automne. Les deux ont une projection modeste."
+    },
+    {
+     "q": "Pourquoi les parfums Byredo tiennent-ils peu ?",
+     "a": "Les compositions de Jérôme Epinette misent sur des muscs, des bois clairs et des fleurs poudrées plutôt que sur des fonds lourds comme l’ambre ou le patchouli. Elles restent près de la peau par choix. Vaporisez sur la peau et sur un vêtement, et prévoyez une retouche dans la journée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Jérôme Epinette: Perfumes, Career and Signature Creations",
+   "meta": "Bal d’Afrique and Gypsy Water: who is Jérôme Epinette, the perfumer behind Byredo? His musky style and our ranking of his best work.",
+   "h1": "Jérôme Epinette, the nose who shaped the smell of Byredo",
+   "intro": "Jérôme Epinette is the perfumer behind Byredo’s best-known classics. Bal d’Afrique tops our ranking for the way it balances golden citrus, violet and vetiver. Gypsy Water is second, a pine and incense woody that is very easy to like. Mojave Ghost takes third with a delicate floral musk. All five share one deliberate trait: modest projection. These are skin scents, and they are meant to be.",
+   "sections": [
+    {
+     "title": "Career: Robertet and a long partnership with Byredo",
+     "body": "Jérôme Epinette works for Robertet, the Grasse fragrance house known for its natural raw materials. His name is closely tied to Byredo, the Swedish brand founded by Ben Gorham. All five perfumes on this page are Byredo releases from 2008 to 2016, and every one is credited to him alone. That is worth pointing out. Big fashion launches often list three or four perfumers, while this partnership rests on a steady back-and-forth between one brand founder and one composer. You can smell the result in how consistent the catalogue is. The same proportions, the same pale bases and the same restraint turn up from one bottle to the next. We are not going further into his biography because solid sources are thin. His perfumes are the best evidence of who he is as a perfumer."
+    },
+    {
+     "title": "Style: musk, blond woods and restraint",
+     "body": "No scent in this selection goes above an intensity of 3 out of 5, and three of them top out at 2. That is a style choice rather than a weakness. Epinette writes perfumes that stay close to the body and reveal themselves up close. Musk shows up in four of the five, as a chantilly musk in Mojave Ghost. Violet appears three times (Bal d’Afrique, Mojave Ghost and Blanche) and is always powdery, never sugary. The woods are pale: sandalwood, cedar, blond woods. Vetiver adds a little earth to Bal d’Afrique and Super Cedar. Only Gypsy Water allows itself real warmth, through incense and vanilla. If you want a trail, this catalogue will frustrate you. If you like a scent people only notice when they lean in, it is one of the most coherent signatures in modern niche. Plan on a midday top-up."
+    }
+   ],
+   "why": {
+    "byredo-bal-dafrique": "Our top pick because it sums up the Epinette style best. Bergamot, lemon and neroli open brightly. Violet and cyclamen soften things, then vetiver and musk lay down a dry base. Warmer than Blanche and less woody than Super Cedar, it works at the office in warm weather. Projection drops off after a couple of hours.",
+    "byredo-gypsy-water": "The warmest and most story-driven of the five. Pepper and lemon give way to incense and pine needles, then a vanilla-tinged sandalwood that recalls a campfire at the edge of a forest. It suits men and women equally. Spring and autumn are its seasons. Like Bal d’Afrique, it runs a little quiet over the day.",
+    "byredo-mojave-ghost": "Epinette pushes delicacy as far as it goes here: sapodilla and ambrette up top, magnolia and violet in the heart, chantilly musk over cedar in the base. It smells like a dried flower on clean skin. With an intensity of 2 out of 5 it is an office and close-range scent. Fruitier than Blanche, it will frustrate anyone who wants to be noticed.",
+    "byredo-super-cedar": "A minimalist formula with just four notes: rose, cedar, vetiver and musk. Epinette turns them into a pale, rosy cedar that smells like a freshly sharpened pencil. It is the woodiest scent here and the easiest to wear year-round, except in a heatwave. Very quiet, it is for minimalists rather than Gypsy Water fans.",
+    "byredo-blanche": "Aldehydes, pink pepper and peony over musk and blond woods: the smell of clean laundry dried in the sun. Epinette takes the idea of clean further here than anywhere else. It is elegant, but some noses will read it as detergent, which is why it ranks last. Still, it is the brightest of the five for a spring day at the office."
+   },
+   "faq": [
+    {
+     "q": "Which Byredo perfumes did Jérôme Epinette create?",
+     "a": "The best known include Gypsy Water (2008), Bal d’Afrique and Blanche (2009), Mojave Ghost (2014) and Super Cedar (2016). He is the sole credited perfumer on all of them. They share soft musks, pale woods and a deliberately quiet projection."
+    },
+    {
+     "q": "Bal d’Afrique or Gypsy Water: which should I choose?",
+     "a": "Bal d’Afrique is more floral and brighter, with citrus, violet and a vetiver base that shines in spring and summer. Gypsy Water is woodier and warmer, built on pine, incense and vanilla. It fits spring and autumn better. Neither projects very far."
+    },
+    {
+     "q": "Why do Byredo perfumes fade so quickly?",
+     "a": "Jérôme Epinette’s compositions lean on musks, pale woods and powdery flowers instead of heavy bases like amber or patchouli. They stay close to the skin by design. Spray on skin and on clothing, and expect to reapply once during the day."
+    }
+   ]
+  }
+ },
+ "nose:daniela-andrier": {
+  "picks": [
+   "prada-infusion-diris",
+   "prada-lhomme",
+   "prada-candy",
+   "prada-luna-rossa-carbon",
+   "prada-luna-rossa"
+  ],
+  "fr": {
+   "title": "Daniela Andrier : parfums, parcours et créations",
+   "meta": "Infusion d’Iris et Candy : qui est Daniela Andrier, la parfumeuse de Prada ? Son goût pour l’iris et le propre, et notre classement de ses parfums.",
+   "h1": "Daniela Andrier, la parfumeuse qui a donné sa voix à Prada",
+   "intro": "Daniela Andrier est la parfumeuse dont le nom revient le plus souvent chez Prada. Notre classement met Infusion d’Iris en tête : un iris de lin et d’encens d’une élégance rare. L’Homme suit, la version masculine et savonneuse de la même idée. Candy prend la troisième place pour son caramel chic, preuve qu’elle sait aussi faire du gourmand. Les deux Luna Rossa ferment la marche, plus efficaces que personnels.",
+   "sections": [
+    {
+     "title": "Parcours : Givaudan et la fidélité à Prada",
+     "body": "Daniela Andrier compose chez Givaudan, l’une des grandes maisons de composition mondiales. Son nom est avant tout associé à Prada. Les cinq parfums de cette page sortent tous chez la marque italienne entre 2007 et 2017, et tous sont signés par elle seule. Cette fidélité à une maison ressemble à celle d’un parfumeur attitré, même si le statut exact de la collaboration n’est pas toujours rendu public. Elle explique en tout cas la cohérence du catalogue. D’Infusion d’Iris à Luna Rossa Carbon revient une même idée du luxe : propre, sec et précis, sans surcharge. Même Candy, le plus sucré, garde une ligne nette avec seulement six notes. Les détails de sa formation et de ses débuts restent peu documentés, on s’en tient donc à ce que montrent les parfums eux-mêmes. Ils suffisent à dessiner un style très reconnaissable."
+    },
+    {
+     "title": "Style : l’iris, le savon et l’ambroxan",
+     "body": "Trois motifs reviennent. D’abord l’iris, au cœur d’Infusion d’Iris et en tête de L’Homme, traité de façon fraîche et savonneuse plutôt que beurrée. Ensuite le benjoin, qui relie Candy et Infusion d’Iris et apporte une douceur résineuse sans vanille lourde. Enfin l’ambroxan, qui donne aux deux Luna Rossa leur netteté presque minérale. Le point commun, c’est une forme de retenue. Andrier évite l’empilement : Luna Rossa Carbon tient en six notes, Candy aussi. Côté masculin, elle privilégie la lavande et la bergamote (deux classiques de la fougère) qu’elle rend plus modernes et plus lisses. Le risque est la sagesse, et c’est le reproche qu’on peut faire aux deux Luna Rossa. Quand elle prend un parti franc, comme le caramel de Candy ou l’encens d’Infusion d’Iris, le résultat devient beaucoup plus mémorable."
+    }
+   ],
+   "why": {
+    "prada-infusion-diris": "Chef-d’œuvre de la page. Fleur d’oranger et néroli ouvrent. L’iris et le galbanum installent ensuite une fraîcheur de lin, avant un fond d’encens, de cèdre et de benjoin. Andrier y trouve le ton exact du propre raffiné. Défaut réel : l’intensité de 2 sur 5 le rend presque confidentiel. Plus lumineux que L’Homme, il se porte au bureau au printemps.",
+    "prada-lhomme": "Le pendant masculin d’Infusion d’Iris, avec l’iris cette fois en tête, accompagné de néroli et de cardamome. Le géranium et le patchouli donnent plus de corps, puis santal, cèdre et musc laissent l’odeur d’une chemise blanche repassée. Idéal au bureau et pour un rendez-vous de jour. Il reste un peu sage pour qui cherche du caractère.",
+    "prada-candy": "Candy montre qu’Andrier sait aussi faire sucré. Caramel, musc et notes poudrées dès l’ouverture. Benjoin et miel au cœur, vanille au fond : la friandise est assumée, mais la ligne reste nette. Nettement plus sucré que tout le reste de la page, il s’adresse aux amatrices de gourmands qui préfèrent le caramel au fruit. À garder pour les soirées d’hiver.",
+    "prada-luna-rossa-carbon": "Bergamote et poivre, puis lavande et notes métalliques, sur un fond d’ambroxan et de patchouli : une fougère nette comme un circuit électronique. C’est efficace et facile à porter presque toute l’année. L’ambroxan omniprésent le rapproche de nombreux masculins actuels. Plus sombre que Luna Rossa, il se remarque un peu plus.",
+    "prada-luna-rossa": "La lavande la plus propre de la sélection, relevée de menthe verte et de sauge. Le fond mêle ambrette, patchouli et santal. Andrier la polit comme la coque d’un voilier de course. Parfait au bureau aux beaux jours. On le classe dernier parce qu’il marque peu : Luna Rossa Carbon, sorti cinq ans plus tard, a plus de relief."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums Prada a créés Daniela Andrier ?",
+     "a": "Elle a signé seule Infusion d’Iris (2007) et Candy (2011), puis Luna Rossa (2012), L’Homme (2016) et Luna Rossa Carbon (2017). Ces cinq parfums partagent un style propre et précis, avec l’iris, le benjoin ou l’ambroxan comme matières récurrentes."
+    },
+    {
+     "q": "Infusion d’Iris ou L’Homme Prada : quelle différence ?",
+     "a": "Les deux tournent autour de l’iris. Infusion d’Iris est plus lumineux et plus aérien, avec de la fleur d’oranger, du galbanum et un fond d’encens. L’Homme ajoute cardamome, géranium et patchouli pour un résultat plus savonneux et plus structuré. Le second tient un peu mieux."
+    },
+    {
+     "q": "Prada Candy est-il trop sucré ?",
+     "a": "Il est franchement sucré, avec du caramel dès l’ouverture et un fond de benjoin, de miel et de vanille. Sa ligne reste pourtant épurée, sans fruit ni fleur. Si vous n’aimez pas le caramel, passez votre chemin. Sinon, une ou deux pulvérisations suffisent, plutôt en hiver et le soir."
+    }
+   ]
+  },
+  "en": {
+   "title": "Daniela Andrier: Perfumes, Career and Signature Creations",
+   "meta": "Infusion d’Iris and Candy: who is Daniela Andrier, the perfumer behind Prada? Her taste for iris and clean lines, and our ranking of her work.",
+   "h1": "Daniela Andrier, the perfumer who gave Prada its voice",
+   "intro": "Daniela Andrier is the perfumer most closely associated with Prada. Infusion d’Iris leads our ranking, an iris of linen and incense with rare poise. L’Homme is second, the soapy men’s take on the same idea. Candy comes third for its chic caramel and proves she can do gourmand too. The two Luna Rossa scents close the list. They are effective, but less personal.",
+   "sections": [
+    {
+     "title": "Career: Givaudan and a loyal bond with Prada",
+     "body": "Daniela Andrier composes at Givaudan, one of the world’s largest fragrance houses. Her name is above all linked to Prada. All five perfumes here came out under the Italian label between 2007 and 2017, and each is credited to her alone. That kind of loyalty resembles an in-house role, even though the exact terms of the partnership are not always made public. It certainly explains how coherent the catalogue feels. The same idea of luxury runs from Infusion d’Iris to Luna Rossa Carbon: clean, dry and precise, with no clutter. Even Candy, the sweetest of the lot, keeps a tidy outline with only six notes. Details of her training and early career are thinly documented, so we stick to what the perfumes themselves show. They are enough to sketch a style you can recognise blind."
+    },
+    {
+     "title": "Style: iris, soap and Ambroxan",
+     "body": "Three motifs keep coming back. The first is iris, at the heart of Infusion d’Iris and in the opening of L’Homme, handled as something cool and soapy rather than buttery. The second is benzoin, which links Candy and Infusion d’Iris and brings a resinous softness without heavy vanilla. The third is Ambroxan, which gives both Luna Rossa scents their almost mineral clarity. What ties it together is restraint. Andrier avoids stacking materials, and Luna Rossa Carbon and Candy each run on six notes. For men she favours lavender and bergamot, two fougère staples, and makes them smoother and more modern. The risk is playing it safe, which is the fair criticism of the Luna Rossa pair. When she commits to something bold, like Candy’s caramel or the incense in Infusion d’Iris, the result becomes far more memorable."
+    }
+   ],
+   "why": {
+    "prada-infusion-diris": "The standout on this page. Orange blossom and neroli open. Iris and galbanum bring a linen-like coolness, then incense, cedar and benzoin close it out. Andrier nails the tone of refined clean here. The real drawback is an intensity of 2 out of 5, which makes it almost private. Brighter than L’Homme, it is a spring office scent.",
+    "prada-lhomme": "Think of it as the men’s counterpart to Infusion d’Iris, with iris moved up to the opening alongside neroli and cardamom. Geranium and patchouli add body, then sandalwood, cedar and musk leave the smell of a freshly ironed white shirt. Ideal at the office or for a daytime date. It may feel too polite if you want character.",
+    "prada-candy": "Proof that Andrier can do sweet. Caramel, musk and powdery notes from the first spray. Benzoin and honey in the heart, vanilla at the base. It is an unapologetic treat, yet the outline stays clean. Much sweeter than anything else here, it is for gourmand lovers who prefer caramel to fruit. Save it for winter evenings.",
+    "prada-luna-rossa-carbon": "Bergamot and pepper, then lavender and metallic notes over Ambroxan and patchouli: a fougère as clean as a circuit board. It is effective and wearable most of the year. The heavy Ambroxan puts it close to plenty of other modern men’s releases. Darker than the original Luna Rossa, it gets noticed a bit more.",
+    "prada-luna-rossa": "Cleanest lavender in the selection, lifted by spearmint and sage over ambrette, patchouli and sandalwood. Andrier polishes it like the hull of a racing yacht. Perfect for the office in warm weather. It ranks last because it leaves little impression. Carbon, released five years later, has more depth."
+   },
+   "faq": [
+    {
+     "q": "Which Prada perfumes did Daniela Andrier create?",
+     "a": "She is the sole credited perfumer on Infusion d’Iris (2007) and Candy (2011), then Luna Rossa (2012), L’Homme (2016) and Luna Rossa Carbon (2017). All five share a clean and precise style, with iris, benzoin or Ambroxan as recurring materials."
+    },
+    {
+     "q": "Infusion d’Iris vs Prada L’Homme: what is the difference?",
+     "a": "Both revolve around iris. Infusion d’Iris is brighter and airier, with orange blossom, galbanum and an incense base. L’Homme adds cardamom, geranium and patchouli for a soapier, more structured result. L’Homme also lasts a little longer on skin."
+    },
+    {
+     "q": "Is Prada Candy too sweet?",
+     "a": "It is openly sweet, with caramel right from the start and a base of benzoin, honey and vanilla. The structure is still spare, with no fruit or flowers in the way. If you dislike caramel, skip it. Otherwise one or two sprays are plenty, ideally on winter evenings."
+    }
+   ]
+  }
+ },
+ "nose:aurelien-guichard": {
+  "picks": [
+   "narciso-rodriguez-narciso",
+   "versace-eros",
+   "gucci-guilty-pour-homme",
+   "gucci-guilty"
+  ],
+  "fr": {
+   "title": "Aurélien Guichard : parfums, parcours et créations",
+   "meta": "Eros, Narciso et Gucci Guilty : le parcours d’Aurélien Guichard, son style entre excès et épure et notre classement de ses parfums.",
+   "h1": "Aurélien Guichard, du bonbon néon d’Eros à l’épure de Narciso",
+   "intro": "Aurélien Guichard a signé seul des parfums que tout sépare. Notre classement place Narciso en tête : rose, gardénia et musc poudré sur un fond de cèdre, d’une pureté graphique. Eros arrive deuxième, un bonbon à la menthe et à la vanille taillé pour les nuits de club. Guilty Pour Homme complète le podium avec une fougère moderne et épurée. Guilty, son pendant féminin, ferme la marche.",
+   "sections": [
+    {
+     "title": "Parcours : une famille de parfumeurs et une marque à son nom",
+     "body": "Aurélien Guichard a grandi dans le métier. Il est le fils de Jean Guichard, parfumeur reconnu qui a longtemps formé de jeunes nez. Il a ensuite fait carrière dans les grandes maisons de composition, où il a signé des parfums pour Versace, Gucci ou Narciso Rodriguez. Les quatre parfums de cette page portent tous son seul nom, ce qui est rare pour des lancements de mode de cette taille. En 2019, il franchit un cap en créant sa propre marque Matière Première, consacrée à des parfums construits autour d’un ingrédient phare. Ce projet personnel éclaire rétrospectivement ses créations pour les grandes marques. Même quand le brief est commercial, on sent chez lui l’envie d’isoler une matière et de la mettre en avant, qu’il s’agisse du musc de Narciso ou de la menthe glacée d’Eros."
+    },
+    {
+     "title": "Style : l’excès maîtrisé et la ligne claire",
+     "body": "Deux tempéraments cohabitent dans cette sélection. Eros pousse tous les curseurs : intensité 5 sur 5, menthe, pomme verte et vanille. Son sillage s’annonce avant vous. Narciso et Guilty Pour Homme font l’inverse avec des formules très courtes. Le premier tient en six notes, le second en cinq. Entre ces pôles, quelques constantes. Le cèdre apparaît dans trois parfums sur quatre et donne une ossature sèche. Le patchouli relie les deux Guilty. Le vétiver ancre Eros et Narciso. Le géranium, plus rare, passe dans Eros et dans Guilty. Guichard aime les contrastes nets entre une tête très reconnaissable et un fond boisé qui ne se dissout pas dans le sucre. Son point faible tient à la tenue, jugée courte pour les deux Guilty. Son point fort, c’est la lisibilité : on reconnaît chacun de ces parfums en une seconde."
+    }
+   ],
+   "why": {
+    "narciso-rodriguez-narciso": "Notre premier choix, pour sa rigueur. Rose et gardénia s’effacent vite derrière un musc poudré qui occupe tout le cœur, puis le cèdre et le vétiver dessinent un fond sec. Guichard fait beaucoup avec six notes. Le résultat est élégant au bureau comme le soir. Sa sobriété peut sembler froide à celles qui aiment les floraux plus chaleureux que Guilty.",
+    "versace-eros": "L’exact opposé de Narciso. Menthe glacée, pomme verte et citron en tête. Puis fève tonka et ambroxan, et enfin vanille, vétiver et cèdre. Intensité maximale : c’est un parfum de sortie, de club, de soirée d’hiver. Guichard en fait un bonbon néon joyeusement excessif. Totalement inadapté au bureau ou à un dîner feutré, où Guilty Pour Homme fera bien mieux l’affaire.",
+    "gucci-guilty-pour-homme": "Cinq notes à peine : lavande et citron, fleur d’oranger, cèdre et patchouli. Guichard dessine une fougère moderne, sensuelle et nette, bien plus sobre qu’Eros. Elle passe en journée comme en soirée, surtout au printemps et à l’automne. Le reproche récurrent concerne la tenue, un peu courte. Prévoyez de revaporiser en fin d’après-midi.",
+    "gucci-guilty": "Pendant féminin sorti un an avant la version masculine. Baies roses, mandarine et bergamote ouvrent sur un cœur de pêche, de lilas et de géranium. Le fond réunit patchouli, ambre et musc. Le lilas poudré est la bonne idée. La tenue déçoit souvent, et l’ensemble paraît moins abouti que Narciso, d’où sa dernière place."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums a créés Aurélien Guichard ?",
+     "a": "Parmi les plus connus : Gucci Guilty (2010) et Guilty Pour Homme (2011), Eros de Versace (2012) et Narciso de Narciso Rodriguez (2014). Tous sont signés par lui seul. Il a aussi fondé en 2019 sa propre marque, Matière Première, centrée sur des ingrédients phares."
+    },
+    {
+     "q": "Versace Eros est-il trop fort ?",
+     "a": "Il est l’un des masculins les plus puissants du marché courant, avec une intensité de 5 sur 5. Menthe, vanille et fève tonka projettent loin et longtemps. Une ou deux pulvérisations suffisent, de préférence le soir et par temps frais. Au bureau, mieux vaut choisir Guilty Pour Homme."
+    },
+    {
+     "q": "Narciso Rodriguez Narciso ou For Her : quelle différence ?",
+     "a": "Cette page ne traite que de Narciso, la version de 2014 signée Aurélien Guichard. Elle mise sur la rose, le gardénia et un musc poudré sur fond de cèdre et de vétiver. For Her est un autre parfum de la même maison, avec un autre parfumeur. Sentez les deux avant de choisir."
+    }
+   ]
+  },
+  "en": {
+   "title": "Aurélien Guichard: Perfumes, Career and Signature Creations",
+   "meta": "Versace Eros, Narciso and Gucci Guilty: Aurélien Guichard’s career, his style between excess and restraint and our ranking of his perfumes.",
+   "h1": "Aurélien Guichard, from the neon candy of Eros to the clean lines of Narciso",
+   "intro": "Aurélien Guichard is the sole perfumer on scents that could hardly be more different. Narciso tops our ranking: rose, gardenia and powdery musk over cedar, with graphic purity. Eros is second, a mint and vanilla candy built for club nights. Guilty Pour Homme takes third with a modern, pared-back fougère. Guilty, its women’s counterpart, closes the list.",
+   "sections": [
+    {
+     "title": "Career: a perfumer’s son with his own brand",
+     "body": "Aurélien Guichard grew up inside the trade. His father is Jean Guichard, a respected perfumer who spent years training young noses. Aurélien went on to work for the major fragrance houses, composing for Versace, Gucci and Narciso Rodriguez among others. All four perfumes here carry his name alone, which is unusual for fashion launches of this size. In 2019 he took a bigger step and launched his own brand, Matière Première, built around fragrances that each spotlight one key ingredient. That personal project casts light on his work for big labels. Even when the brief is commercial, you can sense the urge to isolate one material and push it forward, whether it is the musk in Narciso or the icy mint in Eros. It is a useful lens for reading everything on this page."
+    },
+    {
+     "title": "Style: controlled excess and clean lines",
+     "body": "Two temperaments share this selection. Eros pushes every dial to the limit: intensity 5 out of 5, mint, green apple and vanilla. Its trail arrives before you do. Narciso and Guilty Pour Homme go the other way with very short formulas. The first runs on six notes and the second on five. A few constants link the two poles. Cedar shows up in three of the four and gives them a dry frame. Patchouli ties the two Guilty scents together. Vetiver anchors Eros and Narciso. Geranium, less common, appears in Eros and in Guilty. Guichard likes a sharp contrast between a very recognisable opening and a woody base that does not melt into sugar. His weak spot is longevity, often judged short on both Guilty scents. His strength is legibility. You can identify each of these perfumes in a single sniff."
+    }
+   ],
+   "why": {
+    "narciso-rodriguez-narciso": "Our top pick for its discipline. Rose and gardenia quickly step aside for a powdery musk that fills the heart, then cedar and vetiver draw a dry base. Guichard does a lot with six notes. It is elegant at the office and at night. The restraint can feel cold to anyone who prefers warmer florals like Guilty.",
+    "versace-eros": "Narciso’s exact opposite. Icy mint, green apple and lemon up top. Then tonka and Ambroxan, and finally vanilla, vetiver and cedar. Intensity is maxed out, so this is for nights out, clubs and cold evenings. Guichard turns it into a gleefully over-the-top neon candy. It is wrong for the office or a quiet dinner, where Guilty Pour Homme does a far better job.",
+    "gucci-guilty-pour-homme": "Barely five notes: lavender and lemon, orange blossom, cedar and patchouli. Guichard sketches a modern, sensual fougère that is much calmer than Eros. It works by day or night, especially in spring and autumn. The usual complaint is longevity, which runs a bit short. Plan on a late-afternoon top-up.",
+    "gucci-guilty": "The women’s version, released a year before the men’s. Pink pepper, mandarin and bergamot open onto peach, lilac and geranium. The base brings patchouli, amber and musk. The powdery lilac is the clever touch. Longevity often disappoints, and the whole feels less resolved than Narciso, hence last place."
+   },
+   "faq": [
+    {
+     "q": "What perfumes has Aurélien Guichard created?",
+     "a": "His best-known include Gucci Guilty (2010) and Guilty Pour Homme (2011), Versace Eros (2012) and Narciso by Narciso Rodriguez (2014). All are credited to him alone. In 2019 he also founded his own brand, Matière Première, which builds each scent around a key ingredient."
+    },
+    {
+     "q": "Is Versace Eros too strong?",
+     "a": "It is one of the most powerful mainstream men’s fragrances, rated 5 out of 5 for intensity. Mint, vanilla and tonka project far and last long. One or two sprays are enough, ideally in the evening and in cool weather. For the office, reach for Guilty Pour Homme instead."
+    },
+    {
+     "q": "Narciso vs Narciso Rodriguez For Her: what is the difference?",
+     "a": "This page covers Narciso, the 2014 release by Aurélien Guichard. It centres on rose, gardenia and powdery musk over cedar and vetiver. For Her is a separate perfume from the same brand, made by a different perfumer. Try both on skin before choosing."
+    }
+   ]
+  }
+ },
+ "nose:jean-claude-ellena": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "hermes-un-jardin-sur-le-nil",
+   "hermes-jour-dhermes"
+  ],
+  "fr": {
+   "title": "Jean-Claude Ellena : parfums, parcours et créations",
+   "meta": "Terre d’Hermès, Un Jardin sur le Nil et Jour d’Hermès : le parcours de Jean-Claude Ellena, son art de l’épure et notre classement de ses parfums.",
+   "h1": "Jean-Claude Ellena, le parfumeur de l’épure chez Hermès",
+   "intro": "Jean-Claude Ellena a été le parfumeur exclusif d’Hermès de 2004 à 2016, et ses parfums pour la maison sont des leçons d’économie. Notre classement place Terre d’Hermès en tête : orange amère, silex et vétiver, un boisé sec devenu une référence masculine. Un Jardin sur le Nil suit, aquarelle de mangue verte et de roseau. Jour d’Hermès ferme la marche, un floral blanc très fin mais trop discret.",
+   "sections": [
+    {
+     "title": "Parcours : de Grasse à la maison Hermès",
+     "body": "Né à Grasse en 1947, Jean-Claude Ellena a grandi au milieu des usines de parfum. Il a travaillé pour plusieurs maisons de composition avant de devenir, en 2004, le parfumeur exclusif d’Hermès. Ce poste peu courant dans l’industrie lui permet de composer seul, sans comité de co-auteurs. Les trois parfums de cette page datent de cette période et portent son seul nom. Il quitte le poste en 2016, et Christine Nagel lui succède. Ellena est aussi l’un des rares parfumeurs à avoir expliqué son travail par écrit. Son Journal d’un parfumeur raconte le quotidien de la création, avec ses essais, ses doutes et ses formules courtes. Il a également signé un « Que sais-je ? » consacré au parfum. Ces livres ont beaucoup fait pour faire connaître le métier hors du cercle des spécialistes."
+    },
+    {
+     "title": "Style : l’aquarelle et la formule courte",
+     "body": "Ellena parle volontiers de ses parfums comme de dessins au trait ou d’aquarelles. On le sent dès la liste des notes. Jour d’Hermès en compte sept, Terre d’Hermès neuf, et chacune est lisible. Il préfère suggérer une matière plutôt que la reproduire. Le silex de Terre d’Hermès n’est pas une odeur naturelle : c’est une impression de pierre sèche obtenue par assemblage. La mangue verte et le roseau du Jardin sur le Nil évoquent un paysage plus qu’un fruit. Le pamplemousse revient dans les trois parfums et leur donne une ouverture fraîche, jamais sucrée. Le revers de cette méthode, c’est la tenue. Deux parfums sur trois ont une intensité de 2 sur 5 et imposent de revaporiser. Terre d’Hermès fait exception grâce à son fond de vétiver, de cèdre et de benjoin. Aucun des trois n’utilise la vanille ou le sucre comme béquille."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Le plus accompli des trois et notre premier choix. Orange et pamplemousse ouvrent, puis le silex apporte une sensation minérale. Poivre, géranium et patchouli mènent ensuite à un fond de vétiver, de cèdre et de benjoin. Ellena y écrit la terre chauffée au soleil sans une goutte de sucre. Parfait au bureau presque toute l’année. Devenu très répandu, il surprend moins qu’en 2006.",
+    "hermes-un-jardin-sur-le-nil": "Une aquarelle, au sens propre. La mangue verte, le lotus et le pamplemousse passent vite. La pivoine et le roseau prennent le relais, puis l’encens et le sycomore restent en filigrane. Mixte et léger, il convient aux journées chaudes et aux amateurs de fraîcheurs vertes non sucrées. Beaucoup plus discret que Terre d’Hermès, il demande une retouche à midi.",
+    "hermes-jour-dhermes": "Seul féminin de la sélection. Pamplemousse et citron, puis gardénia, pois de senteur et fleurs blanches sur un fond de musc et de bois. Ellena esquisse un bouquet plus qu’il ne le peint. La finesse est réelle. La tenue l’est beaucoup moins, et c’est ce qui le place derrière Un Jardin sur le Nil, plus original."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums a créés Jean-Claude Ellena pour Hermès ?",
+     "a": "Parmi ses créations les plus connues pour Hermès figurent Un Jardin sur le Nil (2005), Terre d’Hermès (2006) et Jour d’Hermès (2013). Il a aussi composé de nombreuses autres eaux pour la maison, notamment dans la série des Jardins et la collection Hermessence, entre 2004 et 2016."
+    },
+    {
+     "q": "Terre d’Hermès convient-il au bureau ?",
+     "a": "Oui, c’est même l’un des meilleurs choix possibles. Son boisé sec d’orange, de silex et de vétiver ne contient aucune note sucrée et reste présent sans envahir l’espace. Deux pulvérisations le matin suffisent pour la journée. Évitez simplement le grand froid, où il paraît un peu maigre."
+    },
+    {
+     "q": "Qui a remplacé Jean-Claude Ellena chez Hermès ?",
+     "a": "Christine Nagel lui a succédé comme parfumeuse exclusive d’Hermès en 2016, après une période de transition où ils ont travaillé ensemble. Ellena avait occupé le poste depuis 2004. Son style minimaliste reste la référence à laquelle on compare les créations récentes de la maison."
+    }
+   ]
+  },
+  "en": {
+   "title": "Jean-Claude Ellena: Perfumes, Career and Signature Creations",
+   "meta": "Terre d’Hermès, Un Jardin sur le Nil and Jour d’Hermès: Jean-Claude Ellena’s career, his minimalist craft and our ranking of his Hermès perfumes.",
+   "h1": "Jean-Claude Ellena, the minimalist who defined Hermès perfume",
+   "intro": "Jean-Claude Ellena was Hermès’ exclusive perfumer from 2004 to 2016, and his work for the house is a lesson in economy. Terre d’Hermès tops our ranking: bitter orange, flint and vetiver in a dry woody that became a benchmark for men. Un Jardin sur le Nil is second, a watercolour of green mango and reeds. Jour d’Hermès is third, a very fine white floral that is simply too quiet.",
+   "sections": [
+    {
+     "title": "Career: from Grasse to Hermès",
+     "body": "Born in Grasse in 1947, Jean-Claude Ellena grew up surrounded by the town’s perfume factories. He worked for several fragrance houses before becoming Hermès’ exclusive perfumer in 2004. The role, rare in the industry, let him compose alone rather than as one name in a team of co-authors. All three perfumes on this page come from that period and carry his name alone. He stepped down in 2016 and Christine Nagel took over. Ellena is also one of the few perfumers who have explained their craft in print. His book Journal d’un parfumeur (published in English as The Diary of a Nose) walks through the daily work of creation, with its trials, doubts and short formulas. He also wrote a short introductory book on perfume for the French Que sais-je series. Those books did a great deal to open the profession up to curious readers."
+    },
+    {
+     "title": "Style: watercolour and short formulas",
+     "body": "Ellena likes to describe his perfumes as line drawings or watercolours, and you can see it in the note lists. Jour d’Hermès has seven notes and Terre d’Hermès nine, each one easy to pick out. He would rather suggest a material than copy it. The flint in Terre d’Hermès is not a natural smell but an impression of dry stone built from other materials. The green mango and reeds of Un Jardin sur le Nil describe a landscape more than a fruit. Grapefruit appears in all three and gives each a fresh, unsweetened opening. The downside of the method is longevity. Two of the three have an intensity of 2 out of 5 and need reapplying. Terre d’Hermès is the exception thanks to its vetiver, cedar and benzoin base. None of them leans on vanilla or sugar as a crutch, which sets him apart from most of his peers."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "The most complete of the three and our number one. Orange and grapefruit open, then flint adds a mineral edge. Pepper, geranium and patchouli lead on to vetiver, cedar and benzoin. Ellena writes sun-warmed earth without a drop of sugar. It is ideal for the office most of the year. It is now so common that it surprises less than it did in 2006.",
+    "hermes-un-jardin-sur-le-nil": "A watercolour in the literal sense. Green mango, lotus and grapefruit pass quickly. Peony and reeds take over, and incense and sycamore linger in the background. Unisex and light, it suits hot days and anyone who likes green freshness without sugar. It is much quieter than Terre d’Hermès, so expect to reapply around lunchtime.",
+    "hermes-jour-dhermes": "Only feminine scent in this selection. Grapefruit and lemon, then gardenia, sweet pea and white flowers over musk and woods. Ellena sketches a bouquet rather than painting it in full. The finesse is real. The longevity is not, and that puts it behind the more original Un Jardin sur le Nil."
+   },
+   "faq": [
+    {
+     "q": "What perfumes did Jean-Claude Ellena create for Hermès?",
+     "a": "His best-known Hermès creations include Un Jardin sur le Nil (2005), Terre d’Hermès (2006) and Jour d’Hermès (2013). Between 2004 and 2016 he also composed many other scents for the house, notably in the Jardins series and the Hermessence collection."
+    },
+    {
+     "q": "Is Terre d’Hermès a good office fragrance?",
+     "a": "Yes, it is one of the best. Its dry blend of orange, flint and vetiver has no sweet notes and stays present without filling the room. Two sprays in the morning will carry you through the day. Just skip it in deep cold, where it can feel a little thin."
+    },
+    {
+     "q": "Who replaced Jean-Claude Ellena at Hermès?",
+     "a": "Christine Nagel succeeded him as Hermès’ exclusive perfumer in 2016, after a transition period during which they worked side by side. Ellena had held the role since 2004. His minimalist style remains the yardstick against which the house’s newer releases are judged."
+    }
+   ]
+  }
+ },
+ "nose:jacques-guerlain": {
+  "picks": [
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "guerlain-vol-de-nuit"
+  ],
+  "fr": {
+   "title": "Jacques Guerlain : parfums, parcours et créations",
+   "meta": "Shalimar, Mitsouko et Vol de Nuit : le parcours de Jacques Guerlain, le style de ses grands classiques et notre classement de ses parfums.",
+   "h1": "Jacques Guerlain, l’auteur de Shalimar et de Mitsouko",
+   "intro": "Jacques Guerlain a composé certains des parfums les plus étudiés du XXe siècle. Notre classement place Shalimar en tête : une bergamote éclatante qui s’effondre dans une vanille fumée, l’oriental dont tant d’autres descendent. Mitsouko suit de très près, une pêche posée sur la mousse de chêne. Vol de Nuit complète la sélection, plus poudré et plus secret, pour les nez patients.",
+   "sections": [
+    {
+     "title": "Parcours : la troisième génération Guerlain",
+     "body": "Né en 1874 et mort en 1963, Jacques Guerlain est le petit-fils de Pierre-François-Pascal Guerlain, fondateur de la maison en 1828. Il succède à son oncle Aimé Guerlain, l’auteur de Jicky, comme parfumeur de la famille. Sa carrière couvre plusieurs décennies et donne à Guerlain une grande partie de son répertoire classique. Avant les trois parfums de cette page, il signe L’Heure Bleue en 1912. Viennent ensuite Mitsouko en 1919, dont le nom est emprunté à l’héroïne du roman La Bataille de Claude Farrère. Shalimar suit en 1925, nommé d’après les jardins de Lahore. Vol de Nuit sort en 1933 et reprend le titre du roman d’Antoine de Saint-Exupéry paru deux ans plus tôt. Ces références littéraires disent quelque chose de son époque. Le parfum y est pensé comme une œuvre à part entière, avec un titre, une histoire et une ambition artistique."
+    },
+    {
+     "title": "Style : bergamote, vanille et profondeur",
+     "body": "Les trois parfums ouvrent sur la bergamote, souvent accompagnée de citron ou d’orange. Cette fraîcheur d’agrume n’est jamais là pour durer. Elle sert de rampe de lancement vers des fonds très riches. Shalimar descend vers la vanille, la fève tonka et l’opoponax. Mitsouko vers la mousse de chêne et le vétiver. Vol de Nuit vers la vanille, le santal et le benjoin. Le jasmin traverse les trois cœurs. L’iris en relie deux, Shalimar et Vol de Nuit, et leur donne ce grain poudré typique de la maison. Ce qui frappe aujourd’hui, c’est le sens du contraste. Chez Jacques Guerlain, la lumière du départ et l’ombre du fond ne se mélangent pas tout à fait : on sent le passage de l’une à l’autre. Ces parfums demandent de la patience. Ils changent beaucoup sur la peau pendant la première heure, et se jugent mal sur une mouillette sentie en deux secondes."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Le plus influent des trois, et notre premier choix. La bergamote et le citron éclatent puis cèdent la place au jasmin, à la rose et à l’iris. Viennent ensuite la vanille, la fève tonka et l’opoponax. Jacques Guerlain y fixe le modèle de l’oriental vanillé. La vanille est ici résineuse et solennelle, loin des gourmands actuels. À porter le soir, par temps froid.",
+    "guerlain-mitsouko": "Un chypre, là où Shalimar est un oriental. La pêche veloutée et la bergamote se posent sur la rose, le jasmin et l’ylang-ylang, puis sur une mousse de chêne et un vétiver mélancoliques. Moins puissant que Shalimar, il se porte au bureau comme à l’opéra. Il faut souvent plusieurs essais pour l’aimer. Ceux qui y parviennent le gardent longtemps.",
+    "guerlain-vol-de-nuit": "Plus secret que les deux autres. Le galbanum amer ouvre sur une note verte inattendue. Jasmin, violette et iris forment ensuite un cœur très poudré. Le fond mêle vanille, santal et benjoin. Plus sec et plus nuancé que Shalimar, il paraît aussi plus rétro. Réservé aux soirées froides et aux amateurs de parfums anciens."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums a créés Jacques Guerlain ?",
+     "a": "Parmi ses créations les plus célèbres : L’Heure Bleue (1912), Mitsouko (1919), Shalimar (1925) et Vol de Nuit (1933). Il a été le parfumeur de la maison familiale pendant plusieurs décennies, après son oncle Aimé Guerlain, et a composé une grande partie du répertoire classique de Guerlain."
+    },
+    {
+     "q": "Shalimar ou Mitsouko : lequel choisir ?",
+     "a": "Shalimar si vous aimez la vanille chaude et résineuse, pour le soir et l’hiver. Mitsouko si vous préférez un parfum plus sec et plus mélancolique, construit sur la pêche et la mousse de chêne, qui se porte aussi en journée. Mitsouko est plus difficile d’accès, mais souvent plus attachant avec le temps."
+    },
+    {
+     "q": "D’où vient le nom Vol de Nuit ?",
+     "a": "Guerlain l’a emprunté au roman d’Antoine de Saint-Exupéry, publié en 1931, qui raconte les débuts de l’aviation postale de nuit. Le parfum sort deux ans plus tard, en 1933. Son ouverture de galbanum et son cœur poudré d’iris évoquent bien cette idée de ciel nocturne."
+    }
+   ]
+  },
+  "en": {
+   "title": "Jacques Guerlain: Perfumes, Career and Signature Creations",
+   "meta": "Shalimar, Mitsouko and Vol de Nuit: the career of Jacques Guerlain, the style behind his classics and our ranking of his greatest perfumes.",
+   "h1": "Jacques Guerlain, the man behind Shalimar and Mitsouko",
+   "intro": "Jacques Guerlain composed some of the most studied perfumes of the twentieth century. Shalimar tops our ranking: bright bergamot collapsing into smoky vanilla, the oriental that so many others descend from. Mitsouko is a very close second, a peach laid over oakmoss. Vol de Nuit completes the list. It is more powdery and more secretive, and it rewards a patient nose.",
+   "sections": [
+    {
+     "title": "Career: the third Guerlain generation",
+     "body": "Jacques Guerlain (1874 to 1963) was the grandson of Pierre-François-Pascal Guerlain, who founded the house in 1828. He took over from his uncle Aimé Guerlain, the creator of Jicky, as the family’s perfumer. His career spanned several decades and gave Guerlain much of its classic repertoire. Before the three perfumes here, he composed L’Heure Bleue in 1912. Mitsouko followed in 1919, named after the heroine of Claude Farrère’s novel La Bataille. Shalimar came in 1925, named after the gardens of Lahore. Vol de Nuit arrived in 1933 and borrowed the title of Antoine de Saint-Exupéry’s novel, published two years earlier and known in English as Night Flight. Those literary references say something about the period. A perfume was conceived as a work in its own right, with a title, a story and real artistic ambition."
+    },
+    {
+     "title": "Style: bergamot, vanilla and depth",
+     "body": "All three perfumes open on bergamot, often with lemon or orange alongside. That citrus freshness is never meant to last. It is a launch ramp toward very rich bases. Shalimar sinks into vanilla, tonka and opoponax. Mitsouko settles on oakmoss and vetiver. Vol de Nuit ends on vanilla, sandalwood and benzoin. Jasmine runs through all three hearts. Iris links two of them, Shalimar and Vol de Nuit, and gives them the powdery grain the house is known for. What stands out today is his sense of contrast. The light of the opening and the shadow of the base never fully blend, and you can feel the moment one hands over to the other. These perfumes ask for patience. They shift a great deal on skin during the first hour and are hard to judge from a paper strip sniffed for two seconds."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "The most influential of the three and our first pick. Bergamot and lemon flare up and give way to jasmine, rose and iris. The base follows with vanilla, tonka and opoponax. Jacques Guerlain set the template for the vanilla oriental here. The vanilla is resinous and solemn, nothing like today’s gourmands. Wear it on cold evenings.",
+    "guerlain-mitsouko": "A chypre, where Shalimar is an oriental. Velvety peach and bergamot sit on rose, jasmine and ylang-ylang, then on wistful oakmoss and vetiver. Less powerful than Shalimar, it works at the office as well as at the opera. It often takes a few tries to love it. People who get there tend to keep it for good.",
+    "guerlain-vol-de-nuit": "Most secretive of the three. Bitter galbanum opens on an unexpected green note. Jasmine, violet and iris then build a very powdery heart before vanilla, sandalwood and benzoin. Drier and more nuanced than Shalimar, it also feels more old-fashioned. Keep it for cold evenings and for lovers of vintage-style perfume."
+   },
+   "faq": [
+    {
+     "q": "What perfumes did Jacques Guerlain create?",
+     "a": "His most famous include L’Heure Bleue (1912), Mitsouko (1919), Shalimar (1925) and Vol de Nuit (1933). He served as the family house’s perfumer for several decades after his uncle Aimé Guerlain and composed much of Guerlain’s classic repertoire."
+    },
+    {
+     "q": "Shalimar or Mitsouko: which should I choose?",
+     "a": "Choose Shalimar if you love warm, resinous vanilla for evenings and winter. Choose Mitsouko if you prefer something drier and more wistful, built on peach and oakmoss, which also works during the day. Mitsouko is harder to get into but often more rewarding over time."
+    },
+    {
+     "q": "Where does the name Vol de Nuit come from?",
+     "a": "Guerlain borrowed it from Antoine de Saint-Exupéry’s 1931 novel about the early days of night airmail flights, known in English as Night Flight. The perfume followed two years later, in 1933. Its galbanum opening and powdery iris heart suit that idea of a night sky."
+    }
+   ]
+  }
+ }
+}

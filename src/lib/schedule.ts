@@ -7,7 +7,8 @@
 import schedule from '../data/publish-schedule.json';
 
 type Kind = keyof typeof schedule;
-const today = new Date().toISOString().slice(0, 10);
+// PUBLISH_DATE=YYYY-MM-DD lets you preview the site as it will be on a given day.
+const today = process.env.PUBLISH_DATE ?? new Date().toISOString().slice(0, 10);
 
 export function isPublished(kind: Kind, slug: string): boolean {
   const date = (schedule[kind] as Record<string, string>)[slug];

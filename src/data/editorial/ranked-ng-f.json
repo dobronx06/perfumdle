@@ -1,0 +1,736 @@
+{
+ "_data_issues": [
+  "nina-ricci-lair-du-temps : le tagline_fr parle d’un « bouquet d’œillet » alors que l’œillet ne figure pas dans les notes du dataset (tête bergamote, pêche, néroli ; cœur rose, jasmin, violette). L’œillet épicé est pourtant la signature connue de ce parfum : ajouter l’œillet aux notes ou reformuler le tagline."
+ ],
+ "ng:Sandalwood:M": {
+  "picks": [
+   "chanel-bleu-de-chanel",
+   "tom-ford-noir-extreme",
+   "chanel-pour-monsieur",
+   "dior-fahrenheit",
+   "amouage-reflection-man",
+   "hugo-boss-boss-bottled",
+   "issey-miyake-leau-dissey-pour-homme",
+   "prada-lhomme",
+   "le-labo-santal-33"
+  ],
+  "fr": {
+   "title": "Parfum santal homme : 9 boisés, du plus sec au plus crémeux",
+   "meta": "Bleu de Chanel ou Noir Extrême ? Notre sélection de parfums au santal pour homme, du boisé sec au santal lacté, avec nos conseils de port.",
+   "h1": "Les meilleurs parfums homme au santal",
+   "intro": "Pour un parfum santal homme, notre premier choix est Bleu de Chanel : le santal y porte l’encens et le cèdre sans jamais sucrer. Noir Extrême de Tom Ford prend le chemin inverse et pousse le bois vers le dessert avec son accord kulfi. Pour la discrétion, Pour Monsieur de Chanel glisse son santal sous le citron et la mousse de chêne. Le reste de la sélection couvre le cuir, l’iris et la fraîcheur du yuzu.",
+   "sections": [
+    {
+     "title": "Côté homme, le santal sert de charpente",
+     "body": "Dans les parfums masculins de notre sélection, le santal est presque toujours en fond. Il arrive tard et rarement seul. On le trouve avec le cèdre, le vétiver, le cuir ou l’encens. Les parfums féminins le marient plutôt à la vanille et aux fleurs blanches, ce qui l’épaissit jusqu’à la crème. Côté homme, il joue l’amortisseur : il arrondit la lavande d’une fougère ou calme l’acidité d’un yuzu. Sous le cuir de Fahrenheit, il donne un appui plus doux. Voilà pourquoi un parfum homme « au santal » ne sent pas forcément le santal à la première pulvérisation. Il faut attendre une heure ou deux pour que la note lactée remonte sous les agrumes et les herbes. Testez donc sur la peau, jamais sur une touche en carton, et jugez le parfum sur son fond plutôt que sur son départ. C’est là que se joue la différence entre deux boisés qui semblent jumeaux en boutique."
+    },
+    {
+     "title": "Santal sec ou santal lacté : deux écoles",
+     "body": "Deux lectures du santal cohabitent dans cette page. La première est sèche et droite. Bleu de Chanel l’entoure d’encens et de cèdre, Santal 33 le frotte au cuir et au papyrus, et le rendu évoque plus la planche de bois que la crème. La seconde est lactée, parfois sucrée. Noir Extrême et Boss Bottled glissent de la vanille dans le fond, ce qui rapproche le santal d’un dessert tiède. Entre les deux se placent les frais. L’Eau d’Issey Pour Homme et Pour Monsieur n’utilisent le santal que pour prolonger des agrumes qui s’envoleraient vite sans lui. Pour choisir, partez de ce que vous portez déjà. Un amateur de colognes ira vers Pour Monsieur, celui qui aime les orientaux prendra Noir Extrême. Un mot sur la matière enfin : le santal de Mysore est devenu rare et cher, et la parfumerie actuelle s’appuie largement sur des molécules de synthèse et sur le santal australien."
+    }
+   ],
+   "why": {
+    "chanel-bleu-de-chanel": "Premier de la liste parce que le santal y fait exactement ce qu’on attend de lui chez un homme : il porte l’encens et le cèdre sans rien sucrer. Le pamplemousse et le gingembre ouvrent vite, puis le bois prend le relais pour la journée. Avec une intensité de 4 sur 5, il passe du bureau au dîner. Son défaut est sa sagesse. Plus net que Boss Bottled, il reste moins original que Santal 33.",
+    "tom-ford-noir-extreme": "Tom Ford fait ici le choix du santal gourmand. L’accord kulfi (un dessert glacé indien) se pose sur la vanille et l’ambre, avec une rose en arrière-plan et du safran en tête. C’est le parfum le plus doux de la page et le plus à l’aise un soir d’hiver. Les amateurs de masculins secs le trouveront trop sucré ; ceux-là iront plutôt vers Bleu de Chanel.",
+    "chanel-pour-monsieur": "Un chypre de 1955 signé Henri Robert, d’une retenue qui détonne dans cette sélection. Le citron et l’estragon partent en premier, la mousse de chêne suit, puis le santal et le labdanum ferment la marche à voix basse. Intensité 2 sur 5 : il reste près de la peau. C’est le choix de ceux qui trouvent Bleu de Chanel trop démonstratif, à condition d’accepter de revaporiser à midi.",
+    "dior-fahrenheit": "Ici le santal sert de coussin au cuir et au vétiver. Fahrenheit (1988, Jean-Louis Sieuzac et Michel Almairac) est surtout connu pour sa violette et son effet d’essence, et c’est le fond boisé qui empêche ce départ pétrolé de devenir agressif. Il divise encore : on l’aime ou on le fuit. Plus sombre que Reflection Man, il vise l’automne et le soir.",
+    "amouage-reflection-man": "Amouage signe avec Reflection Man (2007) un masculin floral qui n’a peur ni du jasmin ni de l’ylang-ylang. Lucas Sieuzac pose dessous un santal propre et lumineux, épaulé par le cèdre et le vétiver. C’est la façon la plus élégante de porter le santal au printemps. Certains le trouveront trop sage. Face à Prada L’Homme, il est plus floral et nettement plus présent.",
+    "hugo-boss-boss-bottled": "Le masculin de bureau par excellence, créé par Annick Ménardo en 1998. La pomme et la cannelle ouvrent sur un fond de santal, de cèdre et de vanille qui sent le pull propre. Il partage avec Noir Extrême une touche vanillée, en bien plus discret. On le recommande à qui veut un santal facile à porter tous les jours, pas à qui cherche à surprendre.",
+    "issey-miyake-leau-dissey-pour-homme": "Avec L’Eau d’Issey Pour Homme (1994, Jacques Cavallier), le santal devient un simple fixateur. Le yuzu acidulé domine longtemps, soutenu par la muscade et la cannelle. Ensuite seulement, le fond de santal et de musc garde une trace propre sur la peau. C’est l’option d’été de la page. Son acidité peut sembler criarde ; Pour Monsieur est plus doux dans le même registre frais.",
+    "prada-lhomme": "Daniela Andrier construit Prada L’Homme (2016) autour d’un iris savonneux, et le santal n’y apparaît qu’en fond avec le musc et le cèdre. L’ensemble rappelle une chemise blanche tout juste repassée. C’est le santal le plus discret de notre sélection après Pour Monsieur, idéal pour le bureau. Pour plus de caractère, Fahrenheit offre une poudre voisine (la violette) en bien plus sombre.",
+    "le-labo-santal-33": "Seul mixte de la sélection, Santal 33 de Le Labo (2011) mérite sa place parce que c’est l’un des rares parfums où le santal tient le rôle principal. Frank Voelkl le construit sec, frotté de cuir et de papyrus, avec un iris et une violette en tête. On le classe dernier uniquement parce qu’il n’est pas pensé pour les hommes. Son omniprésence en ville lui a retiré un peu de sa surprise."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum homme sent vraiment le santal ?",
+     "a": "Dans notre sélection, Santal 33 de Le Labo est celui où le santal se sent le plus, mais il est mixte. Côté masculin, Bleu de Chanel et Noir Extrême laissent le mieux percevoir la note en fond : sèche chez le premier, lactée chez le second. Comptez une à deux heures avant qu’elle ne domine sur la peau."
+    },
+    {
+     "q": "Le santal est-il une note masculine ou féminine ?",
+     "a": "Ni l’un ni l’autre : le santal est une note de fond partagée. Ce qui change, ce sont ses voisins. Les parfums féminins l’enrobent de vanille et de fleurs blanches. Les masculins l’associent plutôt au cèdre, au vétiver ou à l’encens. À note égale, un parfum au santal sera donc plus sec côté homme."
+    },
+    {
+     "q": "Quel parfum au santal pour homme porter au bureau ?",
+     "a": "Prada L’Homme et Pour Monsieur de Chanel sont les plus sûrs : intensité modérée, fond propre, aucun sucre. Bleu de Chanel convient aussi si vous restez à deux pulvérisations, car il projette davantage. Évitez Noir Extrême en journée. Sa vanille et son kulfi sont faits pour le soir."
+    },
+    {
+     "q": "Un parfum au santal tient-il longtemps sur la peau ?",
+     "a": "Le santal fait partie des notes de fond qui durent le plus, mais la tenue dépend surtout du parfum entier. Un frais comme L’Eau d’Issey Pour Homme ne laisse qu’une trace légère en fin de journée. Noir Extrême ou Bleu de Chanel, plus chargés en fond, restent perceptibles bien plus longtemps."
+    }
+   ]
+  },
+  "en": {
+   "title": "Sandalwood Cologne for Men: 9 Picks, Dry to Creamy",
+   "meta": "From the dry sandalwood of Bleu de Chanel to the milky warmth of Tom Ford Noir Extreme: the best sandalwood fragrances for men, ranked and explained.",
+   "h1": "The best sandalwood fragrances for men",
+   "intro": "Our top pick is Bleu de Chanel. Its sandalwood carries incense and cedar without turning sweet, and it moves from the office to dinner with no effort. If you want the creamy side of the wood, Tom Ford Noir Extreme wraps it in a kulfi accord and vanilla. For something quiet, Chanel Pour Monsieur tucks its sandalwood under lemon and oakmoss. The rest of the list covers leather, iris and a sharp yuzu freshness.",
+   "sections": [
+    {
+     "title": "In men's fragrance, sandalwood is the frame",
+     "body": "In the masculine fragrances on this list, sandalwood almost always sits in the base. It shows up late and rarely alone. Its usual partners are cedar, vetiver, leather and incense. Women's fragrances tend to pair it with vanilla and white flowers, which pushes it toward cream. On the men's side it works more like a shock absorber. It rounds off the lavender in a fougère and softens the acidity of yuzu. Under the leather of Fahrenheit it adds a gentler floor. That is why a men's scent billed as sandalwood often doesn't smell of it on the first spray. Give it an hour or two and the milky note rises under the citrus and herbs. So test on skin, never on a paper strip, and judge the drydown rather than the opening. Two woody scents that feel identical at the counter can be very different by mid-afternoon."
+    },
+    {
+     "title": "Dry sandalwood or milky sandalwood",
+     "body": "Two readings of sandalwood share this page. The first is dry and straight. Bleu de Chanel surrounds it with incense and cedar. Santal 33 rubs it against leather and papyrus, and the result smells more like a plank of wood than a dessert. The second reading is milky and sometimes sweet. Noir Extreme and Boss Bottled slip vanilla into the base, which brings the wood close to a warm pudding. The fresh scents sit in between. L'Eau d'Issey Pour Homme and Pour Monsieur use sandalwood mainly to stretch citrus that would otherwise vanish in an hour. To choose, start from what you already wear. A cologne person should try Pour Monsieur first. Someone who loves ambery scents will go straight to Noir Extreme. One note on the material itself: Mysore sandalwood has become scarce and expensive, and modern perfumery leans heavily on synthetic sandalwood molecules and Australian sandalwood."
+    }
+   ],
+   "why": {
+    "chanel-bleu-de-chanel": "Number one because the sandalwood does exactly what a man's scent needs from it. It carries incense and cedar without adding sugar. Grapefruit and ginger open fast, then the wood takes over for the day. At an intensity of 4 out of 5 it handles both office and evening. Its flaw is that it plays safe. It is cleaner than Boss Bottled but less original than Santal 33.",
+    "tom-ford-noir-extreme": "Tom Ford goes for gourmand sandalwood here. A kulfi accord (the Indian frozen dessert) rests on vanilla and amber, with rose in the background and saffron up top. It is the sweetest scent on the page and the one most at home on a winter night. Fans of dry masculine scents will find it too sugary and should stick with Bleu de Chanel.",
+    "chanel-pour-monsieur": "A 1955 chypre by Henri Robert, and the most restrained thing on this list. Lemon and tarragon go first, oakmoss follows, and the sandalwood and labdanum close things out quietly. At an intensity of 2 out of 5 it stays close to the skin. Pick it if Bleu de Chanel feels too loud, and accept that you will reapply at lunch.",
+    "dior-fahrenheit": "Sandalwood acts as a cushion for leather and vetiver here. Fahrenheit (1988, by Jean-Louis Sieuzac and Michel Almairac) is famous for its violet and its gasoline effect. The woody base is what keeps that petrol opening from turning harsh. People still love it or hate it. It is darker than Reflection Man and built for autumn evenings.",
+    "amouage-reflection-man": "With Reflection Man (2007), Amouage made a floral masculine that isn't shy about jasmine or ylang-ylang. Lucas Sieuzac set a clean and bright sandalwood underneath, backed by cedar and vetiver. It is the most elegant way to wear sandalwood in spring. Some will find it too polite. Next to Prada L'Homme it is more floral and projects a lot more.",
+    "hugo-boss-boss-bottled": "The office classic, created by Annick Ménardo in 1998. Apple and cinnamon open onto a base of sandalwood, cedar and vanilla that smells like a clean sweater. It shares a vanilla touch with Noir Extreme, only much quieter. We recommend it for an easy everyday sandalwood. Look elsewhere if you want to surprise anyone.",
+    "issey-miyake-leau-dissey-pour-homme": "In L'Eau d'Issey Pour Homme (1994, Jacques Cavallier), sandalwood is mostly a fixative. Tart yuzu dominates for a long time with nutmeg and cinnamon behind it. Only later does the sandalwood and musk base leave a clean trace. This is the summer option on the page. The acidity can feel shrill, and Pour Monsieur is softer in the same fresh register.",
+    "prada-lhomme": "Daniela Andrier built Prada L'Homme (2016) around a soapy iris. The sandalwood only appears in the base with musk and cedar, and the overall effect is a freshly ironed white shirt. After Pour Monsieur it is the quietest sandalwood here, which makes it ideal for work. For more character, Fahrenheit offers a similar powdery note (violet) in a much darker frame.",
+    "le-labo-santal-33": "Our only unisex pick, Santal 33 by Le Labo (2011) earns its place because sandalwood is actually the lead. Frank Voelkl made it dry, rubbed with leather and papyrus, with iris and violet at the top. It ranks last only because it wasn't designed as a men's scent. Being worn by half of every big city has taken some of the surprise away."
+   },
+   "faq": [
+    {
+     "q": "Which men's fragrance smells most like sandalwood?",
+     "a": "On this list, Le Labo Santal 33 has the most obvious sandalwood, but it is unisex. Among men's scents, Bleu de Chanel and Tom Ford Noir Extreme show the note best in the drydown. The first is dry and the second is milky. Allow an hour or two before the wood takes over."
+    },
+    {
+     "q": "Is sandalwood a masculine or feminine note?",
+     "a": "Neither. Sandalwood is a shared base note and what changes is the company it keeps. Women's fragrances wrap it in vanilla and white flowers. Men's fragrances pair it with cedar, vetiver or incense. So the same note usually reads drier in a men's scent."
+    },
+    {
+     "q": "What is a good sandalwood cologne for the office?",
+     "a": "Prada L'Homme and Chanel Pour Monsieur are the safest bets. Both are moderate in strength, clean in the base and free of sugar. Bleu de Chanel also works if you stop at two sprays, since it projects more. Save Noir Extreme for the evening because its vanilla is too much for a meeting room."
+    },
+    {
+     "q": "Does sandalwood last long on skin?",
+     "a": "Sandalwood is one of the longer-lasting base notes, but longevity depends on the whole formula. A fresh scent like L'Eau d'Issey Pour Homme leaves only a faint trace by evening. Noir Extreme and Bleu de Chanel carry heavier bases and stay noticeable much longer. Spray skin and a bit of clothing for extra hours."
+    }
+   ]
+  }
+ },
+ "ng:Tonka Bean:F": {
+  "picks": [
+   "guerlain-shalimar",
+   "guerlain-la-petite-robe-noire",
+   "carolina-herrera-good-girl",
+   "chanel-coco",
+   "yves-saint-laurent-libre-intense",
+   "thierry-mugler-angel",
+   "jean-paul-gaultier-scandal",
+   "parfums-de-marly-cassili",
+   "tom-ford-lost-cherry"
+  ],
+  "fr": {
+   "title": "Parfum tonka femme : 9 parfums à la fève tonka",
+   "meta": "Shalimar, La Petite Robe Noire et Good Girl : les parfums femme à la fève tonka qui valent le détour, du plus poudré au plus gourmand.",
+   "h1": "Les meilleurs parfums femme à la fève tonka",
+   "intro": "Le meilleur parfum tonka femme reste Shalimar de Guerlain : la fève y épaule une vanille fumée et donne au fond sa texture d’amande sèche. La Petite Robe Noire prend le relais pour une version plus gourmande et plus légère, avec sa cerise et son anis. Good Girl de Carolina Herrera complète le podium en posant la tonka sous le cacao et la tubéreuse. Tous restent des parfums d’automne et de soirée.",
+   "sections": [
+    {
+     "title": "Chez les femmes, la tonka suit la vanille",
+     "body": "Dans les parfums féminins de notre sélection, la fève tonka ne travaille presque jamais seule. Six fois sur neuf, elle partage le fond avec la vanille. Son rôle est de casser le sucre : elle ajoute une sécheresse d’amande et de foin qui empêche la vanille de tourner à la crème pâtissière. Chez les hommes, la même note sert à tout autre chose. La coumarine (la molécule principale de la fève) a donné naissance à la famille fougère à la fin du XIXe siècle, et on la retrouve depuis dans les lavandes de barbier. Côté féminin, elle s’est installée dans les orientaux puis dans les gourmands. Libre Intense est l’exception intéressante de cette page, puisqu’il reprend le duo lavande et tonka des masculins pour l’habiller de fleur d’oranger. Si vous aimez les lavandes de barbier portées par les hommes, commencez par lui."
+    },
+    {
+     "title": "Poudrée, gourmande ou liquoreuse : trois façons de la porter",
+     "body": "La tonka se lit différemment selon ce qui l’entoure. Avec l’iris et l’opoponax de Shalimar, elle devient poudrée et presque solennelle. Avec le caramel ou le cacao, elle bascule franchement dans le dessert : c’est le cas chez Scandal, Angel ou Good Girl. Lost Cherry et La Petite Robe Noire l’associent à l’amande et à la cerise, et c’est la combinaison la plus naturelle, car la tonka a elle-même une facette de cerise confite. Pour une première tonka, on conseille La Petite Robe Noire : c’est l’intensité la plus modérée de la page (3 sur 5). Scandal et Angel sont notés 5 et demandent une seule pulvérisation, sur la nuque ou sur un pull. Aucun de ces parfums n’est fait pour l’été. La tonka se révèle au bout de quelques heures et gagne à la chaleur du corps, pas à celle de l’air."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Premier sans discussion. Jacques Guerlain a composé en 1925 un fond où la tonka, la vanille et l’opoponax se fondent en une seule matière fumée. La bergamote de départ s’effondre dans ce fond, et c’est ce contraste qui fait son charme. Sa vanille est plus solennelle que caressante. Moins sucré qu’Angel, il plaira à celles qui cherchent une tonka adulte plutôt qu’un dessert.",
+    "guerlain-la-petite-robe-noire": "La tonka la plus facile de la sélection. Thierry Wasser et Delphine Jelk (2009) la posent avec la vanille et l’anis sous une cerise noire et une amande, avec du thé fumé au cœur. L’intensité reste modérée, ce qui en fait un bon parfum de rendez-vous ou même de journée en hiver. La cerise très présente divise. Elle est plus légère et plus espiègle que Shalimar, sa grande sœur de maison.",
+    "carolina-herrera-good-girl": "Ce Carolina Herrera de 2016, signé Louise Turner, fait de la tonka un pont entre deux mondes : la tubéreuse blanche au cœur et le cacao noir en fond. En tête, l’amande et le café annoncent la couleur. C’est un parfum de soirée efficace, plus sombre que La Petite Robe Noire. On le trouve parfois trop sucré pour le bureau, et on partage cet avis.",
+    "chanel-coco": "Jacques Polge a construit Coco en 1984 comme un oriental épicé, et la tonka y apporte la rondeur sous le clou de girofle et le santal. Moins gourmand que les autres parfums de cette page, il a quelque chose de baroque et d’un peu solennel. Sa richesse demande une main légère : une pulvérisation suffit. C’est le cousin chic de Shalimar, plus épicé et moins vanillé.",
+    "yves-saint-laurent-libre-intense": "Voilà la tonka féminine qui regarde vers les masculins. Libre Intense (2020) garde la lavande en tête et la noie dans la fleur d’oranger, la vanille et la tonka. Le résultat sent la fougère de barbier passée au satin. C’est le parfum de la liste qui plaira le plus à celles qui trouvent les gourmands trop sucrés. Il perd un peu du contraste de Libre, mais tient mieux.",
+    "thierry-mugler-angel": "Angel a inventé en 1992 le gourmand moderne, avec Olivier Cresp à la composition. Ici la tonka est prise dans une collision de barbe à papa, de caramel et de patchouli. Intensité 5 sur 5 : il sature vite un bureau ou une voiture. On le place sixième parce que la tonka y est éclipsée par le patchouli, pas par manque de mérite. Plus clivant que Scandal, il est aussi plus singulier.",
+    "jean-paul-gaultier-scandal": "Scandal (2017) joue la carte du miel dégoulinant sur un gardénia charnu, avec la tonka et le caramel dessous. C’est le parfum le plus sucré de notre sélection. Pour les amatrices du genre, il est généreux et tient longtemps. Pour les autres, il devient écœurant au bout d’une heure. Face à Angel, il est moins sombre, avec la même puissance et une gourmandise plus dorée.",
+    "parfums-de-marly-cassili": "Chez Parfums de Marly, Cassili (2019) marie la prune et le frangipanier à un fond de vanille, de tonka et de santal. Le résultat est crémeux et solaire. C’est la seule tonka de la page qu’on peut envisager au printemps. Elle reste sucrée et assez prévisible. Si La Petite Robe Noire vous semble trop fantasque, Cassili est plus sage.",
+    "tom-ford-lost-cherry": "Mixte, Lost Cherry (2018) entre dans la sélection pour une raison simple : la tonka a une facette de cerise, et Louise Turner l’a poussée jusqu’à la liqueur. L’amande et la griotte à l’eau-de-vie dominent, la tonka et la vanille suivent en fond. C’est plus riche et plus sirupeux que La Petite Robe Noire. À réserver aux soirs d’hiver."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent la fève tonka ?",
+     "a": "Dans notre sélection, Shalimar et Libre Intense laissent le mieux percevoir la tonka, parce que le sucre n’y écrase pas sa facette d’amande et de foin. Dans les gourmands comme Angel ou Scandal, elle est bien présente mais se fond dans le caramel et le miel. Attendez une ou deux heures : c’est une note de fond."
+    },
+    {
+     "q": "Quelle différence entre un parfum tonka et un parfum vanille ?",
+     "a": "La vanille est crémeuse et sucrée. La tonka est plus sèche, avec des nuances d’amande, de foin et de tabac blond. Dans les parfums féminins, les deux vont souvent ensemble. Un parfum où la tonka domine, comme Libre Intense, sentira moins le dessert qu’un parfum centré sur la vanille."
+    },
+    {
+     "q": "Un parfum à la tonka peut-il se porter en été ?",
+     "a": "C’est rarement une bonne idée. La tonka est une note chaude qui s’épaissit avec la chaleur, et presque tous les parfums de cette page sont classés automne et hiver. Si vous tenez à en porter une au printemps, Cassili est la plus lumineuse. Restez à une pulvérisation."
+    },
+    {
+     "q": "La fève tonka est-elle une note plutôt masculine ?",
+     "a": "Historiquement, elle est liée aux fougères masculines, qui l’associent à la lavande. Mais les parfums féminins l’utilisent depuis longtemps, dans les orientaux comme Shalimar puis dans les gourmands comme Angel. Côté femme, elle est simplement plus sucrée et plus florale."
+    }
+   ]
+  },
+  "en": {
+   "title": "Tonka Bean Perfume for Women: 9 Picks Worth Wearing",
+   "meta": "Shalimar, La Petite Robe Noire and Good Girl lead our list of tonka bean perfumes for women, from powdery classics to full-on gourmands.",
+   "h1": "The best tonka bean fragrances for women",
+   "intro": "Guerlain Shalimar is still the best tonka perfume for women. The bean props up a smoky vanilla and gives the drydown a dry almond texture. La Petite Robe Noire is the lighter and more playful follow-up, with cherry and anise on top. Carolina Herrera Good Girl completes the podium by setting tonka under cocoa and tuberose. All three belong to autumn evenings rather than summer afternoons.",
+   "sections": [
+    {
+     "title": "In women's perfume, tonka follows vanilla",
+     "body": "In the feminine scents on this list, tonka almost never works alone. Six times out of nine it shares the base with vanilla. Its job is to cut the sugar. It adds a dry almond and hay edge that keeps vanilla from turning into custard. In men's perfume the same note does something else entirely. Coumarin (the main molecule in the bean) gave birth to the fougère family in the late nineteenth century, and it has lived in barbershop lavenders ever since. On the feminine side it settled into ambery orientals first, then into gourmands. Libre Intense is the interesting exception here. It borrows the lavender and tonka pairing from men's scents and dresses it in orange blossom. If you have ever liked a classic barbershop cologne on someone else, start with this one."
+    },
+    {
+     "title": "Powdery, gourmand or boozy",
+     "body": "Tonka reads differently depending on its neighbors. With the iris and opoponax of Shalimar it turns powdery and almost solemn. With caramel or cocoa it tips straight into dessert, as in Scandal, Angel and Good Girl. Lost Cherry and La Petite Robe Noire pair it with almond and cherry, which is the most natural match because tonka itself has a candied cherry facet. For a first tonka perfume we suggest La Petite Robe Noire. It has the gentlest intensity on the page, 3 out of 5. Scandal and Angel sit at 5 and need a single spray on the nape or on a sweater. None of these are summer scents. Tonka shows up after a few hours and blooms with body heat, not with hot weather."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Number one, no contest. In 1925 Jacques Guerlain built a base where tonka, vanilla and opoponax melt into one smoky material. The bright bergamot opening collapses into it, and that contrast is the whole charm. The vanilla is more formal than cuddly. It is less sugary than Angel and suits anyone who wants a grown-up tonka rather than a dessert.",
+    "guerlain-la-petite-robe-noire": "The easiest tonka on the list. Thierry Wasser and Delphine Jelk (2009) set it with vanilla and anise under black cherry and almond, with smoky tea in the heart. Intensity is moderate, so it works for a date or even a winter workday. The loud cherry splits opinion. It is lighter and cheekier than Shalimar, its older sibling at Guerlain.",
+    "carolina-herrera-good-girl": "Louise Turner's 2016 Good Girl uses tonka as a bridge between white tuberose in the heart and dark cocoa in the base. Almond and coffee up top set the tone. It is an effective evening scent and darker than La Petite Robe Noire. Some find it too sweet for work, and we agree.",
+    "chanel-coco": "Jacques Polge built Coco in 1984 as a spicy oriental, and tonka adds roundness under clove and sandalwood. It is less gourmand than anything else here and has a baroque, slightly formal feel. Its richness calls for a light hand, so one spray is plenty. Think of it as the chic cousin of Shalimar, spicier and less vanilla-heavy.",
+    "yves-saint-laurent-libre-intense": "Here is the feminine tonka that looks across the aisle. Libre Intense (2020) keeps lavender up top and drowns it in orange blossom, vanilla and tonka. It smells like a barbershop fougère wrapped in satin. It will please anyone who finds gourmands too sugary. It loses a bit of the original Libre's contrast but lasts longer.",
+    "thierry-mugler-angel": "Angel invented the modern gourmand in 1992, with Olivier Cresp behind the formula. Tonka gets caught in a pile-up of cotton candy, caramel and patchouli. At 5 out of 5 it fills an office or a car in minutes. We rank it sixth because the patchouli overshadows the tonka, not for lack of merit. More divisive than Scandal, it is also more original.",
+    "jean-paul-gaultier-scandal": "Scandal (2017) goes for dripping honey over a fleshy gardenia, with tonka and caramel below. It is the sweetest perfume in this selection. Fans of the style will find it generous and long-lasting. Everyone else will feel queasy after an hour. Compared with Angel it is less dark, just as loud and more golden.",
+    "parfums-de-marly-cassili": "From Parfums de Marly, Cassili (2019) pairs plum and frangipani with a base of vanilla, tonka and sandalwood. The result is creamy and sunny. It is the only tonka scent here you could wear in spring. It stays sweet and fairly predictable. If La Petite Robe Noire feels too quirky, Cassili is the safer choice.",
+    "tom-ford-lost-cherry": "Lost Cherry (2018) is unisex and makes the cut for one reason. Tonka has a cherry facet, and Louise Turner pushed it all the way to liqueur. Almond and brandied cherry lead, with tonka and vanilla in the base. It is richer and more syrupy than La Petite Robe Noire. Keep it for winter nights."
+   },
+   "faq": [
+    {
+     "q": "Which women's perfume smells most of tonka bean?",
+     "a": "On this list, Shalimar and Libre Intense show tonka most clearly because sugar doesn't bury its almond and hay facets. In gourmands like Angel or Scandal it is there but melts into caramel and honey. Give it an hour or two, since tonka is a base note."
+    },
+    {
+     "q": "What is the difference between tonka and vanilla in perfume?",
+     "a": "Vanilla is creamy and sweet. Tonka is drier, with hints of almond, hay and blond tobacco. The two often appear together in women's fragrances. A scent where tonka leads, like Libre Intense, smells less like dessert than one built around vanilla."
+    },
+    {
+     "q": "Can you wear a tonka perfume in summer?",
+     "a": "Usually not well. Tonka is a warm note that thickens in the heat, and almost every scent on this page is rated for autumn and winter. If you want one for spring, Cassili is the brightest. Stick to a single spray."
+    }
+   ]
+  }
+ },
+ "ng:Vanilla:F": {
+  "picks": [
+   "guerlain-shalimar",
+   "dior-hypnotic-poison",
+   "lancome-la-vie-est-belle",
+   "thierry-mugler-angel",
+   "yves-saint-laurent-opium",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "chanel-allure",
+   "kenzo-flower-by-kenzo",
+   "dior-dolce-vita"
+  ],
+  "fr": {
+   "title": "Parfum vanille femme : les 10 meilleurs parfums vanillés",
+   "meta": "De Shalimar à Hypnotic Poison, notre classement des parfums vanille pour femme : fumés, gourmands ou poudrés. Avec la saison idéale de chacun.",
+   "h1": "Les meilleurs parfums vanillés pour femme, classés",
+   "intro": "Si vous cherchez un parfum vanille femme, commencez par Shalimar de Guerlain. Sa vanille fumée, posée sous une bergamote éclatante, reste la référence depuis 1925. Hypnotic Poison de Dior arrive juste derrière, plus trouble, avec sa noix de coco et son amande. Pour une vanille gourmande et moderne, La Vie Est Belle de Lancôme l’enrobe de praline et d’iris. Plus bas dans la liste, Allure et Flower by Kenzo proposent des vanilles légères pour la journée.",
+   "sections": [
+    {
+     "title": "La vanille au féminin : du baume à la praline",
+     "body": "Côté féminin, la vanille a suivi trois chemins en un siècle. Le premier est celui des orientaux : Shalimar en 1925, Opium en 1977. La vanille y est mêlée de résines, d’opoponax ou de clou de girofle, et elle sent la fumée autant que le sucre. Le deuxième chemin est gourmand. Angel l’ouvre en 1992 avec son caramel et son patchouli, La Vie Est Belle le popularise vingt ans plus tard avec la praline. Le troisième est floral et poudré : Allure, Flower by Kenzo ou Dolce Vita glissent la vanille sous des fleurs pour arrondir le fond sans l’alourdir. La différence avec les parfums masculins tient aux partenaires. Chez l’homme, la lavande, le tabac ou les épices tiennent presque toujours la vanille et la sèchent. Chez la femme, on l’entoure de fruits et de fleurs blanches. Elle y paraît donc plus ronde et plus sucrée, à dose égale."
+    },
+    {
+     "title": "Fumée, gourmande ou poudrée : comment choisir",
+     "body": "Le plus simple est de partir de votre tolérance au sucre. Si les desserts en flacon vous lassent vite, restez du côté fumé avec Shalimar, Opium ou Hypnotic Poison. Chez ce dernier, l’amande et le musc tirent la vanille vers la peau plus que vers la pâtisserie. Si vous aimez l’odeur d’une boulangerie, La Vie Est Belle, Angel et La Petite Robe Noire sont faits pour vous. Angel est le plus radical, La Petite Robe Noire le plus léger. Pour le bureau, visez les vanilles florales. Allure et Flower by Kenzo ont une intensité de 3 sur 5 et ne dérangeront personne en open space. Regardez aussi l’intensité avant d’acheter. Six parfums de cette liste sont notés 4 ou 5, et ceux-là ne pardonnent pas une main lourde."
+    },
+    {
+     "title": "Porter la vanille sans saturer la pièce",
+     "body": "La vanille est une note de fond qui gagne en volume avec la chaleur du corps. Une pulvérisation de trop, et elle occupe tout l’espace. Pour les parfums les plus puissants de la sélection (Angel, Opium ou La Vie Est Belle), une seule pulvérisation sur la nuque suffit. Deux sur les poignets conviennent aux vanilles plus légères comme Dolce Vita. Vaporisée sur un pull en laine, la vanille tient souvent plus longtemps que sur la peau et reste plus douce. Évitez en revanche les vêtements clairs en soie. Côté saison, la plupart de ces parfums sont faits pour l’automne et l’hiver. En été, la chaleur transforme les vanilles denses en sirop : gardez alors Allure ou Flower by Kenzo, ou réservez Hypnotic Poison aux soirées fraîches."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Classé premier parce que toute la vanille féminine en descend. Jacques Guerlain a posé en 1925 une bergamote éclatante sur un fond de vanille, de tonka et d’opoponax, et ce départ qui s’effondre dans le baume n’a jamais été égalé. Sa vanille est fumée, presque cuirée. Elle est moins sucrée que celle de La Vie Est Belle. Il faut accepter un parfum plus solennel que caressant.",
+    "dior-hypnotic-poison": "La vanille la plus trouble des années 1990. Annick Ménardo (1998) l’entoure de noix de coco, d’abricot et de prune. La tubéreuse et le jasmin tiennent le cœur, et le fond musqué rapproche la vanille de la peau. On l’aime pour ce côté presque animal que les gourmands récents ont perdu. Plus dense qu’Allure, elle est trop lourde pour l’été.",
+    "lancome-la-vie-est-belle": "Lancôme a lancé en 2012 la vanille gourmande de toute une décennie. Olivier Polge, Dominique Ropion et Anne Flipo enrobent un iris de praline, avec la poire et le cassis en tête. L’efficacité est redoutable et la tenue aussi. Son omniprésence et sa puissance (5 sur 5) en lassent certains. Moins sombre qu’Angel, il est aussi plus consensuel.",
+    "thierry-mugler-angel": "Pour la vanille, Angel est le point de rupture. En 1992, Olivier Cresp la jette dans la barbe à papa et le chocolat, puis la tire vers le bas avec un patchouli terreux. C’est le parfum le plus clivant de la page. Il sature vite un espace clos, alors une pulvérisation suffit. Ceux qui trouvent La Vie Est Belle trop lisse le préféreront.",
+    "yves-saint-laurent-opium": "Opium (1977) donne à la vanille son versant épicé. Jean-Louis Sieuzac et Raymond Chaillan la mêlent au clou de girofle, à la prune confite et à l’ambre, et le résultat ne demande pas la permission. C’est une vanille pour le soir et pour l’hiver. Avec la main lourde, il envahit une pièce. Plus épicé que Shalimar, il est aussi moins poudré.",
+    "viktor-rolf-flowerbomb": "Flowerbomb (2005) fait éclater des fleurs sucrées (jasmin, rose et orchidée) sur un fond de patchouli, de vanille et de musc. La vanille y sert surtout de liant. Le thé et l’osmanthus en tête lui donnent une petite fraîcheur au départ. C’est un parfum fédérateur, parfois trop dense pour qui aime la transparence. À côté de La Vie Est Belle, il est plus floral et moins pâtissier.",
+    "guerlain-la-petite-robe-noire": "Sa vanille est la plus espiègle de la page. La Petite Robe Noire (2009) la pose avec la tonka et l’anis sous une cerise noire et une amande, avec du thé fumé au cœur. L’intensité reste modérée, ce qui en fait une bonne vanille de rendez-vous. La cerise divise. Pour une gourmandise plus légère qu’Angel, c’est le bon choix.",
+    "chanel-allure": "Allure (1996) est la vanille qu’on porte au bureau sans y penser. Jacques Polge la mêle au vétiver et au santal, sous une pêche veloutée et des fleurs blondes, et le fond reste boisé plus que sucré. C’est un floral ambré d’un grand poli. On peut lui reprocher d’être consensuel. Face à Hypnotic Poison, c’est le jour contre la nuit.",
+    "kenzo-flower-by-kenzo": "Ici la vanille se fait poudre. Alberto Morillas a imaginé en 2000 le parfum d’un coquelicot qui n’a pas d’odeur, avec la violette au cœur et un fond de vanille et de musc. C’est la vanille la plus douce et la plus aérienne de notre sélection, facile à porter de jour. Sa sagesse finit par lasser certaines. Plus légère qu’Allure, elle est aussi plus rétro.",
+    "dior-dolce-vita": "Dernier de la liste, Dolce Vita (1994) apporte ce qui manque aux autres : une vanille solaire. La pêche, la cannelle et le santal crémeux évoquent une tarte chaude, et l’eau de toilette reste légère. C’est l’option de mi-saison, au printemps comme en automne. Son esthétique très années 1990 ne plaira pas aux amatrices de minimalisme, qui préféreront Allure."
+   },
+   "faq": [
+    {
+     "q": "Quel est le parfum vanille femme qui tient le plus longtemps ?",
+     "a": "Dans notre sélection, les vanilles notées 5 sur 5 en intensité tiennent le mieux : La Vie Est Belle, Angel et Opium. Shalimar et Hypnotic Poison suivent de près. Pour prolonger la tenue, vaporisez aussi un vêtement en laine : la vanille s’y accroche souvent plus longtemps que sur une peau sèche."
+    },
+    {
+     "q": "Quel parfum vanillé femme n’est pas trop sucré ?",
+     "a": "Shalimar et Opium sont les plus sûrs : leur vanille est mêlée de résines ou d’épices et sent la fumée autant que le sucre. Allure est aussi peu sucrée, grâce au vétiver et au santal du fond. Évitez Angel et La Vie Est Belle si le côté pâtissier vous dérange."
+    },
+    {
+     "q": "Peut-on porter un parfum vanille en été ?",
+     "a": "Oui, à condition de choisir une vanille légère. Allure, Flower by Kenzo et Dolce Vita sont les plus adaptés à la chaleur dans cette liste. Les vanilles denses comme Hypnotic Poison ou Angel deviennent sirupeuses par temps chaud. Gardez-les pour les soirées fraîches ou l’hiver."
+    },
+    {
+     "q": "Quelle différence entre un parfum vanillé et un parfum gourmand ?",
+     "a": "Un parfum vanillé a la vanille dans son fond. Elle peut y être fumée, boisée ou poudrée, comme dans Shalimar ou Allure. Un gourmand évoque franchement un dessert, avec caramel, praline ou chocolat. Angel et La Vie Est Belle sont des gourmands. Tous les gourmands ne sont pas vanillés, et l’inverse est vrai aussi."
+    }
+   ]
+  },
+  "en": {
+   "title": "Vanilla Perfume for Women: The 10 Best, Ranked",
+   "meta": "From Shalimar to Hypnotic Poison, our ranking of the best vanilla perfumes for women. Smoky, gourmand or powdery, with the right season for each.",
+   "h1": "The best vanilla perfumes for women",
+   "intro": "If you want one vanilla perfume, make it Guerlain Shalimar. Its smoky vanilla under a bright bergamot has been the reference since 1925. Dior Hypnotic Poison comes right behind it, murkier and more intimate, with coconut and almond. For a modern gourmand, Lancôme La Vie Est Belle wraps its vanilla in praline and iris. Further down, Chanel Allure and Flower by Kenzo offer lighter vanillas you can wear to work.",
+   "sections": [
+    {
+     "title": "Feminine vanilla, from balsam to praline",
+     "body": "Vanilla in women's perfume has taken three roads in a century. The first is the ambery oriental: Shalimar in 1925, Opium in 1977. Here vanilla is mixed with resins, opoponax or clove, and it smells as much of smoke as of sugar. The second road is gourmand. Angel opened it in 1992 with caramel and patchouli, and La Vie Est Belle took it mainstream twenty years later with praline. The third is floral and powdery. Allure, Flower by Kenzo and Dolce Vita tuck vanilla under flowers to round out the base without weighing it down. What separates these from men's vanillas is the company. In masculine scents vanilla is usually held in check by lavender, tobacco or spice, which dry it out. In feminine ones it sits with fruit and white flowers. At the same dose it reads rounder and sweeter."
+    },
+    {
+     "title": "Smoky, gourmand or powdery: how to choose",
+     "body": "Start with your tolerance for sugar. If dessert-in-a-bottle gets old fast, stay on the smoky side with Shalimar, Opium or Hypnotic Poison. Their almond and musk pull the vanilla toward skin rather than pastry. Bakery lovers should head for La Vie Est Belle, Angel and La Petite Robe Noire, each at a different sugar level. Angel is the most extreme and La Petite Robe Noire the lightest. For the office, go floral. Allure and Flower by Kenzo sit at 3 out of 5 in intensity and won't bother anyone at the next desk. Check intensity before you buy. Six scents on this list are rated 4 or 5, and those punish a heavy hand."
+    },
+    {
+     "title": "Wearing vanilla without filling the room",
+     "body": "Vanilla is a base note that grows with body heat. One spray too many and it takes over the space. For the strongest scents here (Angel, Opium and La Vie Est Belle), a single spray at the nape is enough. The lighter ones like Dolce Vita can take two on the wrists. Sprayed on a wool sweater, vanilla often lasts longer than on skin and stays softer. Skip pale silk, though, because the oils can mark it. Most of these perfumes are built for autumn and winter, when the air is cool enough to keep vanilla in check. Summer heat turns dense vanillas into syrup, so switch to Allure or Flower by Kenzo in July and save Hypnotic Poison for cool evenings."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "It ranks first because every feminine vanilla since descends from it. In 1925 Jacques Guerlain set a bright bergamot over a base of vanilla, tonka and opoponax. That opening collapsing into balsam has never been matched. The vanilla is smoky, almost leathery, and much less sugary than La Vie Est Belle. Expect something formal rather than cuddly.",
+    "dior-hypnotic-poison": "The murkiest vanilla of the 1990s. Annick Ménardo (1998) surrounded it with coconut, apricot and plum. Tuberose and jasmine fill the heart, and a musky base pulls it close to skin. People love it for that almost animal side that recent gourmands have lost. It is denser than Allure and too heavy for summer.",
+    "lancome-la-vie-est-belle": "In 2012 Lancôme launched the vanilla of an entire decade. Olivier Polge, Dominique Ropion and Anne Flipo coated an iris in praline, with pear and blackcurrant up top. It works, and it lasts. Its ubiquity and its power (5 out of 5) wear some people out. It is less dark than Angel and easier to like.",
+    "thierry-mugler-angel": "For vanilla, Angel was the breaking point. In 1992 Olivier Cresp threw it into cotton candy, caramel and chocolate, then dragged it down with earthy patchouli. It is the most divisive scent on this page. It fills a small room fast, so one spray will do. If La Vie Est Belle feels too smooth, this is your pick.",
+    "yves-saint-laurent-opium": "Opium (1977) shows vanilla's spicy side. Jean-Louis Sieuzac and Raymond Chaillan mixed it with clove, candied plum and amber, and the result does not ask for permission. This is a vanilla for winter nights. Overapply and it will take over the room. It is spicier than Shalimar and less powdery.",
+    "viktor-rolf-flowerbomb": "Flowerbomb (2005) sets off sweet flowers (jasmine, rose and orchid) over patchouli, vanilla and musk. The vanilla acts mainly as glue. Tea and osmanthus give it a little freshness at the start. It is a crowd-pleaser, sometimes too dense for fans of sheer scents. Next to La Vie Est Belle it is more floral and less like pastry.",
+    "guerlain-la-petite-robe-noire": "Its vanilla is the most playful on the page. La Petite Robe Noire (2009) sets it with tonka and anise under black cherry and almond, with smoky tea in the heart. Intensity stays moderate, which makes it a good date-night vanilla. The cherry splits opinion. For something lighter than Angel it is the right call.",
+    "chanel-allure": "Allure (1996) is the vanilla you wear to work without a second thought. Jacques Polge blended it with vetiver and sandalwood under a velvety peach and pale flowers, and the base stays woody rather than sweet. It is polished to a high shine. Some call it bland. Next to Hypnotic Poison it is day versus night.",
+    "kenzo-flower-by-kenzo": "Vanilla turns to powder here. In 2000 Alberto Morillas imagined the scent of a poppy, a flower that has none, with violet in the heart and vanilla and musk in the base. It is the softest and airiest vanilla on the list and easy to wear in daylight. Its good manners can grow dull. It is lighter than Allure and more retro.",
+    "dior-dolce-vita": "Last on the list, Dolce Vita (1994) brings what the others lack, a sunny vanilla. Peach, cinnamon and creamy sandalwood recall a warm tart, and the eau de toilette stays light. It works in between seasons, spring or autumn. Its very 1990s style won't win over minimalists, who should look at Allure instead."
+   },
+   "faq": [
+    {
+     "q": "Which vanilla perfume for women lasts the longest?",
+     "a": "On this list, the vanillas rated 5 out of 5 for intensity last best: La Vie Est Belle, Angel and Opium. Shalimar and Hypnotic Poison are close behind. To stretch wear time further, spray a wool sweater too, since vanilla often clings to fabric longer than to dry skin."
+    },
+    {
+     "q": "What is a vanilla perfume that isn't too sweet?",
+     "a": "Shalimar and Opium are the safest choices because their vanilla is mixed with resins or spices and smells of smoke as much as sugar. Allure is also low on sugar thanks to the vetiver and sandalwood in its base. Avoid Angel and La Vie Est Belle if pastry notes bother you."
+    },
+    {
+     "q": "Can you wear vanilla perfume in summer?",
+     "a": "Yes, if you pick a light one. Allure, Flower by Kenzo and Dolce Vita handle heat best on this list. Dense vanillas like Hypnotic Poison or Angel turn syrupy on hot days. Keep those for cool evenings and winter."
+    },
+    {
+     "q": "Is a vanilla perfume the same as a gourmand?",
+     "a": "Not quite. A vanilla perfume has vanilla in the base. That vanilla can be smoky, woody or powdery, as in Shalimar or Allure. A gourmand smells openly of dessert, with caramel, praline or chocolate. Angel and La Vie Est Belle are gourmands. Not every gourmand uses vanilla, and not every vanilla is gourmand."
+    }
+   ]
+  }
+ },
+ "ng:Vanilla:M": {
+  "picks": [
+   "jean-paul-gaultier-le-male",
+   "guerlain-habit-rouge",
+   "thierry-mugler-amen",
+   "parfums-de-marly-herod",
+   "maison-margiela-replica-jazz-club",
+   "versace-eros",
+   "giorgio-armani-stronger-with-you",
+   "parfums-de-marly-althair",
+   "tom-ford-noir-extreme",
+   "tom-ford-tobacco-vanille"
+  ],
+  "fr": {
+   "title": "Parfum vanille homme : 10 masculins vanillés qui assument",
+   "meta": "Le Mâle, Habit Rouge et A*Men en tête : notre sélection de parfums vanillés pour homme, de la lavande de barbier au tabac miellé.",
+   "h1": "Les meilleurs parfums vanillés pour homme",
+   "intro": "Le parfum vanille homme de référence reste Le Mâle de Jean Paul Gaultier : une lavande de barbier trempée dans la vanille, qui a fait de la douceur un code masculin en 1995. Habit Rouge de Guerlain, trente ans plus tôt, montrait déjà la voie avec une vanille poudrée sous les agrumes. Pour une version plus sombre, A*Men mélange la vanille au café et au patchouli. Herod et Jazz Club complètent la liste avec des vanilles de tabac et de rhum.",
+   "sections": [
+    {
+     "title": "Chez l’homme, la vanille a toujours un contrepoids",
+     "body": "Aucun des parfums masculins de cette page ne laisse la vanille seule. Il y a toujours quelque chose pour la tenir. Dans Le Mâle et Habit Rouge, c’est la lavande ou les agrumes. Chez Herod et Jazz Club, c’est le tabac, l’encens ou le rhum. A*Men utilise un patchouli presque goudronné, Eros une menthe glacée. Ce contrepoids est ce qui distingue une vanille masculine d’une vanille féminine : côté femme, on l’entoure de fleurs et de fruits qui l’arrondissent. Côté homme, on cherche à la sécher ou à la fumer. L’idée n’est pas neuve. Guerlain la pratique avec Habit Rouge dès 1965. Mais c’est Le Mâle, en 1995, qui a fait de la vanille un argument de séduction masculine grand public. Depuis, Stronger With You ou Althair ont poussé le curseur vers le dessert, avec des résultats plus sucrés que ce que la génération précédente aurait osé."
+    },
+    {
+     "title": "Lavande, tabac ou dessert : trouver sa vanille",
+     "body": "Quatre profils se dégagent de la sélection. Le premier est la fougère vanillée : Le Mâle et, dans un registre plus ancien et plus poudré, Habit Rouge. C’est le point d’entrée le plus sûr. Le deuxième profil mêle la vanille au tabac et à l’alcool. Herod l’associe à la cannelle et à l’encens, Jazz Club au rhum et au styrax, Tobacco Vanille aux fruits secs. On y gagne de la profondeur et un côté salon feutré. Le troisième est franchement gourmand, avec la châtaigne de Stronger With You, le praliné d’Althair et le kulfi de Noir Extrême. Le dernier profil est à part. Eros associe menthe, pomme verte et vanille pour un effet bonbon très sonore, pensé pour les soirées plus que pour le quotidien. Si vous n’avez jamais porté de vanille, commencez par la lavande. Si vous en portez déjà, passez au tabac."
+    },
+    {
+     "title": "Bureau, soirée : doser une vanille masculine",
+     "body": "Une vanille masculine se juge au bout d’une heure, pas en boutique. La lavande ou la menthe de départ s’envolent, et c’est le fond qui restera toute la journée. Au bureau, choisissez les intensités modérées de la liste : Habit Rouge, Jazz Club ou Stronger With You (3 sur 5). Deux pulvérisations suffisent, sur le cou ou le torse, sous la chemise. Pour le soir, A*Men et Eros sont notés 5 et une seule pulvérisation fait déjà beaucoup. Tobacco Vanille est dans le même cas. La saison compte autant que le dosage. Presque toutes ces vanilles sont faites pour l’automne et l’hiver, et la chaleur de juillet les rend vite pâteuses. Au printemps, Eros et Le Mâle restent portables, à dose réduite."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Premier parce qu’il a rendu la vanille masculine évidente. Francis Kurkdjian a trempé en 1995 une lavande de barbier et une menthe dans un fond de vanille, de tonka et d’ambre, avec de la cannelle et de la fleur d’oranger au cœur. Le résultat est câlin sans être mou. Son défaut tient à son succès : on le croise partout. Plus sec que Stronger With You, il reste la vanille la plus lisible pour un homme.",
+    "guerlain-habit-rouge": "L’ancêtre de la page, créé par Jean-Paul Guerlain en 1965. Sa vanille est poudrée et posée sous des agrumes, du basilic et un œillet, avec l’ambre et le patchouli en soutien. Il est plus discret que Le Mâle (intensité 3 sur 5) et passe au bureau sans difficulté. Le côté rétro peut dérouter les moins de trente ans. Pour une vanille d’homme discrète et élégante, c’est lui qu’on choisit.",
+    "thierry-mugler-amen": "A*Men (1996) prend la vanille à rebrousse-poil. Jacques Huclier la mêle au café torréfié, au caramel brûlé et à un patchouli presque goudronné, sous une lavande mentholée. C’est la vanille la plus sombre et la plus puissante de la sélection. Une pulvérisation, pas deux. À côté, Le Mâle paraît presque sage. On le réserve à l’hiver et aux soirées.",
+    "parfums-de-marly-herod": "Herod (2012) est la vanille des fumeurs de pipe. La cannelle ouvre, la feuille de tabac et l’encens forment le cœur, et la vanille arrive dessous pour tout adoucir avec le cèdre et l’ambre. On peut le trouver trop policé si l’on aime les tabacs bruts. Il est moins dense que Tobacco Vanille et plus facile à porter en journée d’automne.",
+    "maison-margiela-replica-jazz-club": "Alienor Massenet a signé en 2013 une scène très précise : rhum, tabac et vanille dans un club feutré, avec la sauge sclarée et le vétiver en soutien. Jazz Club est l’une des vanilles les plus lisibles de la liste. Sa tenue est un peu courte pour un parfum aussi chaleureux. Face à Herod, il est plus léger et plus boisé.",
+    "versace-eros": "Eros (2012) fait de la vanille un bonbon néon. Aurélien Guichard la pose sous une menthe glacée et une pomme verte, avec la tonka et l’ambroxan au cœur. Le parfum projette fort (5 sur 5) et vise les soirées plus que les réunions. Son côté sucré ne convient pas aux contextes feutrés. Plus frais que Le Mâle au départ, il finit plus sucré.",
+    "giorgio-armani-stronger-with-you": "Cécile Matton et Serge Majoullier ont construit Stronger With You (2017) autour d’une châtaigne grillée et d’une vanille sucrée, avec de la cardamome et une meringue en chemin. C’est la vanille de marché de Noël de la sélection. Elle est aimable et réconfortante, mais linéaire et discrète en projection. Pour plus de présence dans le même esprit, tournez-vous vers Althair.",
+    "parfums-de-marly-althair": "Sorti en 2023, Althair est la vanille la plus récente de la page. Parfums de Marly l’entoure de praliné, de cannelle et de bois de gaïac, avec la fleur d’oranger et la cardamome en tête. C’est une douceur ambrée bien construite, qui manque parfois de contraste. Plus riche que Stronger With You, elle reste moins fumée que Herod.",
+    "tom-ford-noir-extreme": "Noir Extrême (2015) mène la vanille vers l’Inde avec un accord kulfi, du safran et une absolue de rose. Le fond d’ambre et de santal l’épaissit encore. C’est la vanille la plus luxueuse de la liste, et aussi l’une des plus douces. Les amateurs de masculins secs le trouveront trop sucré. Face à Althair, il a plus de relief et une rose que l’autre n’a pas.",
+    "tom-ford-tobacco-vanille": "Seul mixte de la sélection, Tobacco Vanille (2007) est placé en fin de liste pour cette raison. Olivier Gillotin y mêle une feuille de tabac miellée à une vanille épaisse, du cacao, de la tonka et des fruits secs. C’est la référence du genre et le plus dense de la page. Par temps doux, il devient vite étouffant. Plus lourd que Herod, il est aussi plus spectaculaire."
+   },
+   "faq": [
+    {
+     "q": "Un homme peut-il porter un parfum à la vanille ?",
+     "a": "Oui, et depuis longtemps. Habit Rouge de Guerlain associait déjà la vanille aux agrumes en 1965, et Le Mâle en a fait un classique masculin trente ans plus tard. La clé est le contrepoids : lavande, tabac, épices ou menthe empêchent la vanille de virer au dessert sur une peau d’homme."
+    },
+    {
+     "q": "Quel parfum vanillé homme porter au bureau ?",
+     "a": "Habit Rouge est le plus sûr, avec sa vanille poudrée et une intensité modérée. Jazz Club et Stronger With You conviennent aussi, à deux pulvérisations maximum. Évitez A*Men et Eros en réunion : notés 5 sur 5, ils se sentent à plusieurs mètres."
+    },
+    {
+     "q": "Quel parfum homme associe vanille et tabac ?",
+     "a": "Trois parfums de la sélection jouent ce duo. Tobacco Vanille de Tom Ford est le plus dense et le plus connu. Herod de Parfums de Marly ajoute cannelle et encens, pour un rendu plus policé. Jazz Club de Maison Margiela est le plus léger, avec une touche de rhum."
+    },
+    {
+     "q": "Le Mâle ou Stronger With You : lequel choisir ?",
+     "a": "Le Mâle est une fougère : sa vanille est tenue par la lavande et la menthe, et il projette davantage. Stronger With You est plus gourmand, avec sa châtaigne grillée, et reste plus près de la peau. Le premier convient à qui veut être remarqué. Le second convient à qui préfère une douceur discrète."
+    }
+   ]
+  },
+  "en": {
+   "title": "Vanilla Cologne for Men: 10 Picks from Fresh to Dark",
+   "meta": "Le Male, Habit Rouge and A*Men lead our list of the best vanilla fragrances for men. From barbershop lavender to honeyed tobacco, with tips on wearing them.",
+   "h1": "The best vanilla fragrances for men",
+   "intro": "The benchmark vanilla cologne for men is still Jean Paul Gaultier Le Male. It dunks barbershop lavender in vanilla, and in 1995 it made sweetness a masculine code. Guerlain Habit Rouge had pointed the way thirty years earlier with a powdery vanilla under citrus. For something darker, Mugler A*Men mixes vanilla with coffee and patchouli. Herod and Jazz Club round out the top five with tobacco and rum.",
+   "sections": [
+    {
+     "title": "In men's scents, vanilla always gets a counterweight",
+     "body": "None of the masculine fragrances on this page leave vanilla on its own. Something always holds it in place. In Le Male and Habit Rouge it is lavender or citrus. In Herod and Jazz Club it is tobacco, incense or rum. A*Men uses an almost tarry patchouli, and Eros uses icy mint. That counterweight is what separates a men's vanilla from a women's one. Feminine scents surround vanilla with flowers and fruit that round it out. Masculine ones try to dry it or smoke it. The idea is not new, and Guerlain was doing it with Habit Rouge in 1965. But Le Male in 1995 turned vanilla into a mainstream seduction play for men. Since then, Stronger With You and Althair have pushed the dial toward dessert, with results sweeter than the previous generation would have dared."
+    },
+    {
+     "title": "Lavender, tobacco or dessert: finding your vanilla",
+     "body": "Four profiles emerge from this list. The first is the vanilla fougère, with Le Male and the older, more powdery Habit Rouge. It is the safest entry point. The second mixes vanilla with tobacco and booze. Herod adds cinnamon and incense, Jazz Club uses rum and styrax, and Tobacco Vanille brings dried fruit. You gain depth and a smoky lounge feel. The third profile is openly gourmand: the chestnut of Stronger With You, the praline of Althair and the kulfi of Noir Extreme. The last one stands alone. Eros pairs mint, green apple and vanilla for a loud candy effect built for nights out rather than daily wear. If you have never worn vanilla, start with lavender. If you already do, move on to tobacco."
+    },
+    {
+     "title": "Office or night out: dosing a men's vanilla",
+     "body": "Judge a men's vanilla after an hour, not at the counter. The lavender or mint opening flies off, and the base is what you will wear all day. For the office, stick to the moderate scents on the list: Habit Rouge, Jazz Club or Stronger With You (all rated 3 out of 5). Two sprays are enough, on the neck or chest under your shirt. For evenings, A*Men and Eros are rated 5, so a single spray already goes a long way. Tobacco Vanille is in the same league. Season matters as much as dose. Almost all of these vanillas are built for autumn and winter, and July heat turns them pasty fast. In spring, Eros and Le Male still work at a lighter dose."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Number one because it made vanilla obvious for men. In 1995 Francis Kurkdjian dipped barbershop lavender and mint into a base of vanilla, tonka and amber, with cinnamon and orange blossom in the heart. It is cuddly without going soft. Its flaw is its success, since you smell it everywhere. Drier than Stronger With You, it remains the clearest vanilla for a man.",
+    "guerlain-habit-rouge": "The ancestor of this page, created by Jean-Paul Guerlain in 1965. Its vanilla is powdery and sits under citrus, basil and carnation, with amber and patchouli in support. It is quieter than Le Male (intensity 3 out of 5) and handles the office with ease. The vintage feel can puzzle younger noses. For a discreet, elegant men's vanilla, this is the one we reach for.",
+    "thierry-mugler-amen": "A*Men (1996) rubs vanilla the wrong way. Jacques Huclier mixed it with roasted coffee, burnt caramel and an almost tarry patchouli under minty lavender. It is the darkest and loudest vanilla in this selection. One spray, not two. Next to it Le Male seems almost polite. Keep it for winter nights.",
+    "parfums-de-marly-herod": "Herod (2012) is the pipe smoker's vanilla. Cinnamon opens, tobacco leaf and incense make up the heart, and vanilla arrives underneath with cedar and amber to soften everything. Fans of raw tobacco may find it too polished. It is less dense than Tobacco Vanille and easier to wear on an autumn day.",
+    "maison-margiela-replica-jazz-club": "Alienor Massenet built a very specific scene in 2013: rum, tobacco and vanilla in a dim club, with clary sage and vetiver for support. Jazz Club is one of the most legible vanillas here. Its longevity is a little short for such a warm scent. Compared with Herod it is lighter and woodier.",
+    "versace-eros": "Eros (2012) turns vanilla into neon candy. Aurélien Guichard set it under icy mint and green apple, with tonka and ambroxan in the heart. It projects hard (5 out of 5) and is aimed at nights out rather than meetings. The sweetness does not suit quiet settings. It opens fresher than Le Male but finishes sweeter.",
+    "giorgio-armani-stronger-with-you": "Cécile Matton and Serge Majoullier built Stronger With You (2017) around roasted chestnut and sugary vanilla, with cardamom and a meringue note along the way. This is the Christmas market vanilla of the list. It is friendly and comforting, but linear and soft in projection. For more presence in the same mood, try Althair.",
+    "parfums-de-marly-althair": "Released in 2023, Althair is the newest vanilla on the page. Parfums de Marly surrounds it with praline, cinnamon and guaiac wood, with orange blossom and cardamom on top. It is a well-built ambery sweetness that sometimes lacks contrast. It is richer than Stronger With You but less smoky than Herod.",
+    "tom-ford-noir-extreme": "Noir Extreme (2015) takes vanilla to India with a kulfi accord, saffron and rose absolute over amber and sandalwood. It is the most luxurious vanilla on the list and one of the sweetest. Fans of dry masculine scents will find it too sugary. Next to Althair it has more depth and a rose that the other lacks.",
+    "tom-ford-tobacco-vanille": "Our only unisex pick, Tobacco Vanille (2007) sits at the bottom for that reason alone. Olivier Gillotin blended honeyed tobacco leaf with thick vanilla, cocoa, tonka and dried fruit. It is the reference in its genre and the densest scent here. In mild weather it quickly becomes stifling. Heavier than Herod, it is also more dramatic."
+   },
+   "faq": [
+    {
+     "q": "Can men wear vanilla perfume?",
+     "a": "Yes, and they have for decades. Guerlain Habit Rouge paired vanilla with citrus back in 1965, and Le Male turned it into a men's classic thirty years later. The key is a counterweight. Lavender, tobacco, spice or mint keeps vanilla from reading as dessert on a man's skin."
+    },
+    {
+     "q": "What is a good vanilla cologne for the office?",
+     "a": "Habit Rouge is the safest, with its powdery vanilla and moderate strength. Jazz Club and Stronger With You also work at two sprays maximum. Skip A*Men and Eros in meetings, since at 5 out of 5 they can be smelled across the room."
+    },
+    {
+     "q": "Which men's fragrance combines vanilla and tobacco?",
+     "a": "Three scents on this list play that duet. Tom Ford Tobacco Vanille is the densest and best known. Parfums de Marly Herod adds cinnamon and incense for a more polished feel. Maison Margiela Jazz Club is the lightest, with a touch of rum."
+    },
+    {
+     "q": "Le Male or Stronger With You: which one should I pick?",
+     "a": "Le Male is a fougère. Its vanilla is held by lavender and mint, and it projects more. Stronger With You is more gourmand, built on roasted chestnut, and stays closer to the skin. Pick the first if you want to be noticed and the second if you prefer a quiet sweetness."
+    }
+   ]
+  }
+ },
+ "ng:Vetiver:M": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "dior-eau-sauvage",
+   "dior-dior-homme",
+   "chanel-pour-monsieur",
+   "dior-fahrenheit",
+   "chanel-allure-homme-sport",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "le-labo-bergamote-22"
+  ],
+  "fr": {
+   "title": "Parfum vétiver homme : 9 parfums secs, terreux et élégants",
+   "meta": "Terre d’Hermès, Eau Sauvage et Dior Homme en tête : les meilleurs parfums au vétiver pour homme, du zeste de citron au cuir poudré.",
+   "h1": "Les meilleurs parfums homme au vétiver",
+   "intro": "Pour un parfum vétiver homme, notre premier choix est Terre d’Hermès : le vétiver y sent la terre chauffée et la pierre sèche, sous une orange amère. Eau Sauvage de Dior le montre sous un jour plus léger, en fond discret d’une eau hespéridée de 1966. Dior Homme, troisième, pose le vétiver sous un iris cacaoté et prouve qu’il sait aussi être doux. La suite de la sélection va du cuir de Fahrenheit aux épices de Spicebomb.",
+   "sections": [
+    {
+     "title": "Le vétiver, colonne vertébrale du masculin sobre",
+     "body": "Dans la parfumerie masculine, le vétiver joue le rôle que le musc blanc tient souvent chez les femmes : il donne une tenue propre à un parfum sans le rendre lourd. Sur les neuf parfums de notre sélection, il est systématiquement en fond. Côté féminin, on le croise aussi en accent sec sous des fleurs ou un patchouli, comme dans Coco Mademoiselle ou Chance. Côté masculin, il devient la structure. Il ancre les agrumes d’Eau Sauvage et prolonge le pamplemousse de Terre d’Hermès. Sous l’iris de Dior Homme, il sèche le cacao et évite que le parfum ne tourne à la poudre de riz. Sa facette verte, proche du pamplemousse, explique pourquoi on l’associe si souvent aux hespéridés. Sa facette fumée et terreuse explique l’inverse : il sait aussi tenir un cuir ou une épice. C’est une des rares notes masculines qui passent du matin au soir."
+    },
+    {
+     "title": "Trois vétivers, trois moments",
+     "body": "On peut ranger la sélection en trois familles. D’abord les vétivers de jour, portés par des agrumes. Eau Sauvage, Bergamote 22 et Allure Homme Sport en font partie, avec une intensité de 2 ou 3 sur 5. Ce sont des parfums de bureau et d’été. Viennent ensuite les vétivers minéraux et poudrés, les plus élégants. Terre d’Hermès a son silex, Dior Homme son iris et Pour Monsieur sa mousse de chêne. Ils passent en toute saison sauf les grosses chaleurs. Enfin, les vétivers du soir s’appuient sur le cuir ou les épices. Fahrenheit, La Nuit de l’Homme et Spicebomb occupent ce terrain, avec plus de chaleur et un fond plus sombre. Si vous voulez un seul parfum au vétiver pour toute l’année, Terre d’Hermès reste le plus polyvalent. Pour le soir uniquement, Spicebomb a plus de présence que La Nuit de l’Homme, dont la projection reste modeste."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Premier parce qu’il fait du vétiver le sujet, pas un simple fond. Jean-Claude Ellena (2006) l’associe au cèdre et au benjoin, sous une orange amère, un pamplemousse et une note de silex. L’effet est celui d’une terre chauffée par le soleil. C’est le vétiver le plus polyvalent de la liste, du bureau au week-end. Son succès a émoussé la surprise. Face à Eau Sauvage, il est plus minéral et tient mieux.",
+    "dior-eau-sauvage": "Eau Sauvage (1966) prouve qu’un vétiver peut rester presque invisible et tout changer. Edmond Roudnitska le glisse avec la mousse de chêne et le musc sous un citron, du romarin et un jasmin transparent. Le vétiver sert ici à tenir le zeste plus longtemps. La tenue reste modeste : prévoyez de revaporiser. Plus léger que Terre d’Hermès, c’est le vétiver d’été de la page.",
+    "dior-dior-homme": "Dior Homme (2005) a appris aux hommes à porter un iris, et le vétiver y joue le garde-fou. Olivier Polge le pose avec le cuir et le musc sous un iris poudré et cacaoté. Sans lui, l’ensemble tournerait au rouge à lèvres. C’est le vétiver le plus doux de la sélection, élégant au bureau comme en rendez-vous. Il manque de sillage pour qui veut être remarqué. Plus poudré que Pour Monsieur, il est aussi plus moderne.",
+    "chanel-pour-monsieur": "Un chypre de 1955 signé Henri Robert, où le vétiver partage le fond avec le santal et le labdanum. Le citron et l’estragon ouvrent, la mousse de chêne suit. L’ensemble a une retenue presque britannique et une intensité de 2 sur 5. C’est le plus discret de notre sélection avec Eau Sauvage, dont il partage l’esprit hespéridé. On le préfère pour les journées de printemps et les costumes clairs.",
+    "dior-fahrenheit": "Fahrenheit (1988) montre le vétiver dans sa version la plus sombre. Jean-Louis Sieuzac et Michel Almairac le posent avec le cuir et le santal sous une violette et une muscade, et le départ garde cet effet d’essence qui divise. C’est un parfum d’automne et de soirée. On l’adore ou on le fuit. Plus radical que Dior Homme, il partage avec lui une note poudrée.",
+    "chanel-allure-homme-sport": "Jacques Polge a construit Allure Homme Sport (2004) sur une orange pétillante et des aldéhydes salins, avec la tonka, le vétiver et le musc en fond. Le vétiver apporte la sécheresse qui empêche la tonka de sucrer. C’est la fraîcheur sportive la plus raffinée de la sélection, parfaite en été. La projection reste un peu sage. Plus rond que Bergamote 22, il est aussi moins franc sur le vétiver.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "La Nuit de l’Homme (2009) murmure plus qu’il ne parle. Anne Flipo, Pierre Wargnye et Dominique Ropion posent le vétiver avec la tonka et la coumarine, sous une cardamome fraîche et une lavande. Le cèdre et le cumin au cœur donnent un grain de peau. C’est un parfum de rendez-vous, mais sa tenue et sa projection sont modestes. Spicebomb fera plus d’effet dans une pièce.",
+    "viktor-rolf-spicebomb": "Olivier Polge a enfermé en 2012 la cannelle, le safran et le paprika dans une grenade de verre. Le tabac, le vétiver et le cuir forment le fond. Le vétiver y apporte la sécheresse qui équilibre les épices chaudes. C’est le plus chaleureux des vétivers de cette page, à éviter les jours chauds. Face à La Nuit de l’Homme, il est plus sonore et plus tenace.",
+    "le-labo-bergamote-22": "Mixte et placé dernier pour cette raison, Bergamote 22 (2006) est pourtant l’un des vétivers les plus nets de la liste. Le Labo ancre une bergamote, du petitgrain et un pamplemousse dans le vétiver, les muscs et le cèdre. Résultat : un agrume qui refuse de s’évaporer. Sa fraîcheur reste classique. À côté d’Eau Sauvage, il tient nettement mieux."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum au vétiver pour homme ?",
+     "a": "Dans notre sélection, Terre d’Hermès est le plus réussi et le plus polyvalent : son vétiver minéral passe du bureau au week-end et tient bien. Pour un vétiver plus léger, Eau Sauvage reste une référence depuis 1966. Pour le soir, Fahrenheit et Spicebomb offrent des versions plus sombres."
+    },
+    {
+     "q": "Quelle odeur a un parfum au vétiver ?",
+     "a": "Le vétiver sent la racine terreuse, le bois sec et parfois la fumée, avec une fraîcheur verte proche du pamplemousse. Dans un parfum homme, il se perçoit surtout en fond, après les agrumes ou les épices. Terre d’Hermès le rend minéral. Dans Spicebomb, il sèche la cannelle et le tabac."
+    },
+    {
+     "q": "Un parfum au vétiver peut-il se porter en été ?",
+     "a": "Oui, c’est même une de ses forces. Associé aux agrumes, le vétiver donne des parfums frais et tenaces : Eau Sauvage, Allure Homme Sport et Bergamote 22 sont faits pour la chaleur. Évitez en revanche Spicebomb et Fahrenheit, dont les épices et le cuir pèsent au soleil."
+    }
+   ]
+  },
+  "en": {
+   "title": "Vetiver Cologne for Men: 9 Dry, Earthy, Elegant Picks",
+   "meta": "Terre d'Hermès, Eau Sauvage and Dior Homme top our list of the best vetiver fragrances for men, from lemon zest to powdery leather.",
+   "h1": "The best vetiver fragrances for men",
+   "intro": "Our top vetiver cologne for men is Terre d'Hermès. The vetiver smells of sun-warmed soil and dry stone under bitter orange. Dior Eau Sauvage shows a lighter side, with vetiver quietly anchoring a 1966 citrus splash. Dior Homme comes third and sets vetiver under a cocoa-tinged iris, proof that the note can be soft too. The rest of the list runs from Fahrenheit's leather to the spice of Spicebomb.",
+   "sections": [
+    {
+     "title": "Vetiver, the backbone of understated men's scents",
+     "body": "In men's perfumery vetiver plays the role white musk often plays in women's. It gives a scent clean staying power without weighing it down. In all nine fragrances here it sits in the base. Women's perfumes use it too, usually as a dry accent under flowers or patchouli, as in Coco Mademoiselle or Chance. In men's scents it becomes the structure. It anchors the citrus in Eau Sauvage and stretches the grapefruit in Terre d'Hermès. Under the iris of Dior Homme it dries out the cocoa and stops the scent from turning into face powder. Its green, grapefruit-like facet explains why it pairs so often with citrus. Its smoky, earthy facet explains the opposite, since it can also hold up leather or spice. Few men's notes move so easily from morning to night."
+    },
+    {
+     "title": "Three kinds of vetiver for three moments",
+     "body": "The selection splits into three groups. First come the daytime vetivers carried by citrus. Eau Sauvage, Bergamote 22 and Allure Homme Sport belong here, at an intensity of 2 or 3 out of 5. These are office and summer scents. Next are the mineral and powdery vetivers, the most elegant of the lot. Terre d'Hermès has its flint note, Dior Homme its iris and Pour Monsieur its oakmoss. They work in any season except a heatwave. Last come the evening vetivers built on leather or spice. Fahrenheit, La Nuit de l'Homme and Spicebomb hold this ground, with more warmth and a darker base. If you want one vetiver for the whole year, Terre d'Hermès is the most versatile. For evenings only, Spicebomb has more presence than La Nuit de l'Homme, which projects softly."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Number one because it makes vetiver the subject, not just a base. Jean-Claude Ellena (2006) paired it with cedar and benzoin under bitter orange, grapefruit and a flint note. The effect is earth warmed by the sun. It is the most versatile vetiver on the list, from office to weekend. Its popularity has dulled the surprise. Next to Eau Sauvage it is more mineral and lasts longer.",
+    "dior-eau-sauvage": "Eau Sauvage (1966) shows that vetiver can stay almost invisible and still change everything. Edmond Roudnitska tucked it in with oakmoss and musk under lemon, rosemary and a sheer jasmine. Here the vetiver keeps the zest alive longer. Longevity is still modest, so plan to reapply. Lighter than Terre d'Hermès, it is the summer vetiver on this page.",
+    "dior-dior-homme": "Dior Homme (2005) taught men to wear iris, and vetiver is its guardrail. Olivier Polge set it with leather and musk under a powdery, cocoa-tinged iris. Without it the whole thing would drift toward lipstick. It is the softest vetiver here, elegant at work or on a date. It lacks projection if you want to be noticed. More powdery than Pour Monsieur, it is also more modern.",
+    "chanel-pour-monsieur": "A 1955 chypre by Henri Robert, where vetiver shares the base with sandalwood and labdanum. Lemon and tarragon open, oakmoss follows. The whole thing has an almost British restraint and an intensity of 2 out of 5. Along with Eau Sauvage it is the quietest pick here, and the two share a citrus spirit. We like it best on spring days with a light suit.",
+    "dior-fahrenheit": "Fahrenheit (1988) shows vetiver at its darkest. Jean-Louis Sieuzac and Michel Almairac set it with leather and sandalwood under violet and nutmeg, and the opening keeps that gasoline effect people still argue about. This is an autumn evening scent. You love it or you run. More radical than Dior Homme, it shares a powdery note with it.",
+    "chanel-allure-homme-sport": "Jacques Polge built Allure Homme Sport (2004) on sparkling orange and salty aldehydes, with tonka, vetiver and musk in the base. The vetiver brings the dryness that keeps the tonka from going sweet. It is the most refined sporty fresh scent on the list and ideal for summer. Projection is a little shy. Rounder than Bergamote 22, it is also less direct about its vetiver.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "La Nuit de l'Homme (2009) whispers rather than talks. Anne Flipo, Pierre Wargnye and Dominique Ropion set vetiver with tonka and coumarin under fresh cardamom and lavender. Cedar and cumin in the heart add a skin-like grain. It is a date scent, but longevity and projection are modest. Spicebomb will make more of an impression in a room.",
+    "viktor-rolf-spicebomb": "In 2012 Olivier Polge locked cinnamon, saffron and paprika inside a glass grenade. Tobacco, vetiver and leather make up the base. Vetiver brings the dryness that balances the hot spices. It is the warmest vetiver on this page and a poor choice for hot days. Compared with La Nuit de l'Homme it is louder and lasts longer.",
+    "le-labo-bergamote-22": "Unisex and ranked last for that reason, Bergamote 22 (2006) is still one of the clearest vetivers here. Le Labo anchors bergamot, petitgrain and grapefruit in vetiver, musks and cedar. The result is citrus that refuses to evaporate. The freshness itself is fairly classic. Next to Eau Sauvage it lasts far longer."
+   },
+   "faq": [
+    {
+     "q": "What is the best vetiver cologne for men?",
+     "a": "On our list, Terre d'Hermès is the best made and the most versatile. Its mineral vetiver works from office to weekend and lasts well. For a lighter vetiver, Eau Sauvage has been a reference since 1966. For evenings, Fahrenheit and Spicebomb offer darker takes."
+    },
+    {
+     "q": "What does vetiver smell like in a men's fragrance?",
+     "a": "Vetiver smells of earthy roots and dry wood, sometimes smoke, with a green freshness close to grapefruit. In a men's scent you mostly notice it in the drydown, after the citrus or spice. Terre d'Hermès makes it mineral. Spicebomb uses it to dry out cinnamon and tobacco."
+    },
+    {
+     "q": "Can you wear vetiver in summer?",
+     "a": "Yes, and it is one of the note's strengths. Paired with citrus, vetiver makes fresh scents that last: Eau Sauvage, Allure Homme Sport and Bergamote 22 are built for heat. Skip Spicebomb and Fahrenheit in July, since their spice and leather feel heavy in the sun."
+    }
+   ]
+  }
+ },
+ "ng:Violet:F": {
+  "picks": [
+   "yves-saint-laurent-paris",
+   "dolce-gabbana-the-only-one",
+   "kenzo-flower-by-kenzo",
+   "guerlain-vol-de-nuit",
+   "marc-jacobs-daisy",
+   "burberry-her",
+   "nina-ricci-lair-du-temps",
+   "parfums-de-marly-palatine",
+   "maison-francis-kurkdjian-oud-satin-mood"
+  ],
+  "fr": {
+   "title": "Parfum violette femme : 9 parfums poudrés, fruités ou sombres",
+   "meta": "Paris d’Yves Saint Laurent, The Only One et Flower by Kenzo : notre sélection de parfums à la violette pour femme, du poudré rétro au gourmand.",
+   "h1": "Les meilleurs parfums femme à la violette",
+   "intro": "Le plus beau parfum violette femme de notre sélection est Paris d’Yves Saint Laurent, où la violette poudre une brassée de roses depuis 1983. The Only One de Dolce & Gabbana la place en tête d’un accord café et iris, pour une violette gourmande et rétro. Flower by Kenzo complète le podium avec une violette douce, presque aérienne. Plus loin, Daisy et Her de Burberry montrent son versant fruité, et Vol de Nuit son versant ancien.",
+   "sections": [
+    {
+     "title": "Côté femme la fleur, côté homme la feuille",
+     "body": "La violette n’a pas le même visage selon le rayon. Dans les parfums masculins, c’est presque toujours la feuille qu’on utilise. Verte et un peu métallique, elle rafraîchit Green Irish Tweed ou Stronger With You. Dans les parfums féminins de cette page, c’est la fleur qui domine, avec son côté bonbon poudré. Elle y joue rarement le premier rôle. On la trouve surtout au cœur, où elle sert de liant. Elle poudre la rose de Paris et adoucit le café de The Only One. Chez Her de Burberry, elle arrondit les baies rouges. Seul Daisy utilise à la fois la feuille et la fleur, ce qui lui donne une fraîcheur de prairie qu’aucun autre parfum de la liste n’a. Si vous cherchez une violette qui se sente clairement, visez celles où elle est en tête ou au cœur avec peu de concurrence : The Only One et Flower by Kenzo sont les plus lisibles."
+    },
+    {
+     "title": "Rétro, fruitée ou gourmande : trois familles",
+     "body": "La violette féminine se range en trois familles dans notre sélection. La première est poudrée et rétro. Vol de Nuit (1933) l’associe à l’iris et au galbanum, L’Air du Temps (1948) à la rose et au jasmin, Paris (1983) à une rose opulente. Ce sont des parfums qui évoquent la boîte à poudre de grand-mère, dans le meilleur sens. La deuxième famille est fruitée et moderne : Daisy, Her et Palatine posent la violette sur des baies, de la fraise ou de la poire. C’est la famille la plus facile à porter en journée et la plus légère. La troisième est gourmande ou sombre. The Only One la mêle au café, tandis qu’Oud Satin Mood l’enveloppe d’oud, de rose et de vanille. Pour le bureau, choisissez la deuxième famille. Pour un dîner d’hiver, la troisième."
+    },
+    {
+     "title": "Porter la violette sans perdre le fil",
+     "body": "La violette a une particularité gênante : les ionones qui la composent fatiguent vite l’odorat. Au bout de quelques minutes, vous ne sentez plus votre propre parfum, alors que votre entourage le perçoit très bien. Le réflexe de revaporiser est donc à éviter. Deux pulvérisations suffisent pour les violettes légères comme Daisy ou L’Air du Temps, une seule pour Paris ou Oud Satin Mood, plus puissants. Vaporisez sur la peau plutôt que sur les vêtements : la violette a besoin de chaleur pour se fondre dans les muscs du fond. Côté saison, le printemps lui va le mieux. C’est la saison où la fleur existe et où ses facettes poudrées ne pèsent pas. The Only One et Oud Satin Mood font exception et se portent plutôt l’hiver."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-paris": "Premier parce que la violette y fait exactement ce qu’elle fait le mieux : poudrer une rose. Sophia Grojsman a composé en 1983 une brassée de roses où la violette arrive dès la tête, avec l’iris et le muguet au cœur. Le rendu est rayonnant et très aimé. Son opulence peut sembler datée aux amatrices de minimalisme. Plus rosé que Flower by Kenzo, il est aussi plus présent.",
+    "dolce-gabbana-the-only-one": "La violette gourmande de la sélection. Violaine Collas l’a placée en tête de The Only One (2018), au-dessus d’un café et d’un iris, avec la vanille et le patchouli en fond. C’est la violette la plus lisible de la page et la plus adaptée au soir. La tenue reste moyenne, ce qui déçoit un peu pour ce style. Plus sombre que Paris, il est aussi moins classique.",
+    "kenzo-flower-by-kenzo": "Sa violette est la plus aérienne de notre sélection. Alberto Morillas l’a placée au cœur de Flower by Kenzo (2000) avec le jasmin, sous un cassis et une aubépine. Le fond de vanille et de musc la prolonge. Le résultat évoque un coquelicot imaginaire, doux et poudré. Il manque un peu de relief à la longue. Plus léger que Paris, c’est une violette de bureau.",
+    "guerlain-vol-de-nuit": "Jacques Guerlain a signé Vol de Nuit en 1933, et c’est la violette la plus ancienne de cette liste. Elle se mêle à l’iris et au jasmin, entre un galbanum amer en tête et une vanille boisée en fond. Le parfum est nuancé et rétro, et il demande un nez patient. On le réserve aux soirées d’automne. Plus sec que L’Air du Temps, il est aussi plus mystérieux.",
+    "marc-jacobs-daisy": "Daisy (2007) est le seul parfum de la page à utiliser la violette deux fois : la feuille en tête avec la fraise et le pamplemousse sanguin, la fleur au cœur avec le gardénia et le jasmin. Alberto Morillas en tire une fraîcheur de pique-nique printanier. La tenue et la présence restent limitées. Plus vert que Her, c’est notre choix pour un premier parfum à la violette.",
+    "burberry-her": "Francis Kurkdjian a construit Her (2018) comme une corbeille de mûres, de framboises et de fraises, avec la violette au cœur pour arrondir le tout. Le cacao sec du fond lui donne une petite amertume bienvenue. C’est la violette la plus juteuse de la sélection. Sa douceur fruitée devient un peu uniforme avec le temps. Plus sucré que Daisy, il tient mieux.",
+    "nina-ricci-lair-du-temps": "L’Air du Temps (1948) est né de l’après-guerre, et Francis Fabron y place la violette au cœur avec la rose et le jasmin. La pêche et le néroli en tête lui donnent une douceur duveteuse. C’est la violette la plus délicate de notre sélection, et aussi la plus discrète sur la peau. Les amatrices de sillage seront frustrées. Moins sombre que Vol de Nuit, il est plus facile à porter de jour.",
+    "parfums-de-marly-palatine": "Palatine (2024) pose la violette et la lavande au cœur, entre une poire et une pêche en tête et un fond de musc et de santal. Parfums de Marly en fait un floral velouté comme une peau de fruit. C’est la violette la plus récente de la page et une des plus sages. Elle marque peu les esprits. Face à Her, elle est moins sucrée et plus musquée.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Seul mixte de la sélection, placé dernier pour cette raison. Francis Kurkdjian ouvre Oud Satin Mood (2015) sur la violette et la rose, puis les drape d’oud, de benjoin et de vanille. C’est la violette la plus sombre et la plus puissante de la liste (5 sur 5). Sa douceur peut devenir écrasante. À côté de The Only One, elle est plus riche et moins gourmande."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent vraiment la violette ?",
+     "a": "Dans notre sélection, The Only One et Flower by Kenzo laissent le mieux percevoir la violette, parce qu’elle y a peu de concurrence au cœur. Paris la montre aussi très bien, mais mêlée à une rose. Pour la feuille de violette, plus verte, Daisy est le seul parfum féminin de la liste à l’utiliser."
+    },
+    {
+     "q": "Pourquoi je ne sens plus mon parfum à la violette ?",
+     "a": "Les ionones, molécules qui donnent son odeur à la violette, saturent vite les récepteurs olfactifs. Au bout de quelques minutes, votre nez s’y habitue et ne les perçoit plus, alors que votre entourage les sent encore. Ne revaporisez donc pas. Deux pulvérisations le matin suffisent pour la plupart des parfums de cette page."
+    },
+    {
+     "q": "Un parfum à la violette fait-il vieillot ?",
+     "a": "Pas forcément. Vol de Nuit ou L’Air du Temps ont un charme rétro assumé, c’est vrai. Mais Daisy, Her et Palatine associent la violette à des fruits frais et paraissent très actuels. The Only One la marie au café pour un résultat gourmand qui n’a rien de poussiéreux."
+    },
+    {
+     "q": "Quel parfum violette pour le printemps ?",
+     "a": "Daisy et Flower by Kenzo sont les plus adaptés : légers et frais, ils suivent la saison où la fleur existe vraiment. Palatine et Her conviennent aussi grâce à leurs fruits. Gardez The Only One et Oud Satin Mood pour l’hiver, leurs fonds de vanille et d’oud pèsent aux beaux jours."
+    }
+   ]
+  },
+  "en": {
+   "title": "Violet Perfume for Women: 9 Powdery, Fruity and Dark Picks",
+   "meta": "Yves Saint Laurent Paris, The Only One and Flower by Kenzo lead our list of the best violet perfumes for women, from retro powder to gourmand.",
+   "h1": "The best violet perfumes for women",
+   "intro": "The finest violet perfume on our list is Yves Saint Laurent Paris, where violet has been powdering an armful of roses since 1983. Dolce & Gabbana The Only One puts it on top of coffee and iris for a gourmand, retro take. Flower by Kenzo completes the podium with a soft, almost airy violet. Further down, Daisy and Burberry Her show the fruity side of the note, and Vol de Nuit its vintage side.",
+   "sections": [
+    {
+     "title": "Flower for women, leaf for men",
+     "body": "Violet wears a different face depending on the aisle. In men's scents it is almost always the leaf: green and slightly metallic, it freshens Green Irish Tweed or Stronger With You. In the women's perfumes on this page the flower dominates, with its powdery candy feel. It rarely takes the lead role. It usually sits in the heart and acts as a binder. It powders the rose in Paris and softens the coffee in The Only One. In Burberry Her it rounds off the red berries. Only Daisy uses both leaf and flower, which gives it a meadow freshness no other scent here has. If you want a violet you can clearly smell, pick one where it faces little competition. The Only One and Flower by Kenzo are the most legible."
+    },
+    {
+     "title": "Retro, fruity or gourmand",
+     "body": "Feminine violet falls into three groups on this list. The first is powdery and vintage. Vol de Nuit (1933) pairs it with iris and galbanum. L'Air du Temps (1948) sets it with rose and jasmine, and Paris (1983) with a lush rose. These smell like a grandmother's powder compact, in the best sense. The second group is fruity and modern. Daisy, Her and Palatine place violet over berries, strawberry or pear. It is the easiest group for daytime and the lightest. The third is gourmand or dark. The Only One blends violet with coffee, while Oud Satin Mood wraps it in oud, rose and vanilla. For the office, choose from the second group, which won't bother anyone at the next desk. For a winter dinner, go with the third."
+    },
+    {
+     "title": "Wearing violet without losing track of it",
+     "body": "Violet has one awkward trait. The ionones behind its scent tire the nose quickly. After a few minutes you stop smelling your own perfume, while people around you still notice it. So resist the urge to reapply. Two sprays are enough for light violets like Daisy or L'Air du Temps, and one is plenty for Paris or Oud Satin Mood, which are stronger. Spray skin rather than clothes, since violet needs warmth to melt into the musky base. Spring suits it best. That is when the flower actually blooms and its powdery side feels weightless. The Only One and Oud Satin Mood are the exceptions and belong to winter. Their vanilla bases need cold air to stay in shape."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-paris": "Number one because violet does what it does best here: it powders a rose. In 1983 Sophia Grojsman built an armful of roses with violet right in the opening and iris and lily of the valley in the heart. It is radiant and much loved. Its opulence can feel dated to minimalists. Rosier than Flower by Kenzo, it also has more presence.",
+    "dolce-gabbana-the-only-one": "The gourmand violet of the list. Violaine Collas put it at the top of The Only One (2018), above coffee and iris, with vanilla and patchouli in the base. It is the most legible violet on the page and the best one for evenings. Longevity is only average, a letdown for this style. Darker than Paris, it is also less classic.",
+    "kenzo-flower-by-kenzo": "This is the airiest violet in our selection. Alberto Morillas placed it in the heart of Flower by Kenzo (2000) with jasmine, below blackcurrant and hawthorn. A vanilla and musk base carries it on. The result suggests an imaginary poppy, soft and powdery. It can feel a little flat over time. Lighter than Paris, it is a violet for the office.",
+    "guerlain-vol-de-nuit": "Jacques Guerlain signed Vol de Nuit in 1933, making it the oldest violet on the list. The note mingles with iris and jasmine between bitter galbanum up top and woody vanilla below. It is nuanced and vintage and asks for a patient nose. Keep it for autumn evenings. Drier than L'Air du Temps, it is also more mysterious.",
+    "marc-jacobs-daisy": "Daisy (2007) is the only scent here that uses violet twice. The leaf sits up top with strawberry and blood grapefruit, the flower in the heart with gardenia and jasmine. Alberto Morillas turned that into a spring picnic. Longevity and presence are limited. Greener than Her, it is our pick for a first violet perfume.",
+    "burberry-her": "Francis Kurkdjian built Her (2018) as a basket of blackberries, raspberries and strawberries, with violet in the heart to round it all off. Dry cocoa in the base adds a welcome bitter edge. It is the juiciest violet in the selection. The fruity sweetness can feel one-note after a few hours. Sweeter than Daisy, it lasts longer.",
+    "nina-ricci-lair-du-temps": "L'Air du Temps (1948) was born after the war, and Francis Fabron set violet in its heart with rose and jasmine. Peach and neroli on top give it a downy softness. It is the most delicate violet on the list and also the quietest on skin. Anyone who wants a trail will be frustrated. Less dark than Vol de Nuit, it is easier to wear by day.",
+    "parfums-de-marly-palatine": "Palatine (2024) puts violet and lavender in the heart, between pear and peach up top and a musk and sandalwood base. Parfums de Marly made it a floral as velvety as fruit skin. It is the newest violet on the page and one of the most polite. It won't leave a strong memory. Compared with Her it is less sweet and muskier.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Our only unisex pick, ranked last for that reason. Francis Kurkdjian opens Oud Satin Mood (2015) on violet and rose, then drapes them in oud, benzoin and vanilla. It is the darkest and strongest violet on the list (5 out of 5). Its sweetness can become overwhelming. Next to The Only One it is richer and less gourmand."
+   },
+   "faq": [
+    {
+     "q": "Which women's perfume smells most like violets?",
+     "a": "On this list, The Only One and Flower by Kenzo show violet most clearly because little else competes with it in the heart. Paris shows it well too, blended with rose. For the greener violet leaf, Daisy is the only feminine scent here that uses it."
+    },
+    {
+     "q": "Why can't I smell my violet perfume after a few minutes?",
+     "a": "Ionones, the molecules behind violet's scent, saturate your smell receptors fast. Your nose gets used to them and stops registering them, while people around you still can. So don't reapply. Two morning sprays are enough for most perfumes on this page."
+    },
+    {
+     "q": "Do violet perfumes smell old-fashioned?",
+     "a": "Not necessarily. Vol de Nuit and L'Air du Temps do have an open vintage charm. But Daisy, Her and Palatine pair violet with fresh fruit and feel very current. The Only One mixes it with coffee for a gourmand result that has nothing dusty about it."
+    },
+    {
+     "q": "What is a good violet perfume for spring?",
+     "a": "Daisy and Flower by Kenzo are the best fits. They are light and fresh and match the season when the flower actually blooms. Palatine and Her also work thanks to their fruit. Save The Only One and Oud Satin Mood for winter, as their vanilla and oud bases feel heavy on warm days."
+    }
+   ]
+  }
+ },
+ "ng:Ylang-Ylang:F": {
+  "picks": [
+   "chanel-n-5",
+   "chanel-gabrielle",
+   "guerlain-mitsouko",
+   "jean-patou-joy",
+   "guerlain-linstant-de-guerlain",
+   "parfums-de-marly-safanad",
+   "giorgio-beverly-hills-giorgio",
+   "editions-de-parfums-frederic-malle-carnal-flower",
+   "tom-ford-soleil-blanc"
+  ],
+  "fr": {
+   "title": "Parfum ylang-ylang femme : 9 parfums solaires et crémeux",
+   "meta": "Chanel N°5, Gabrielle et Mitsouko : notre sélection de parfums à l’ylang-ylang pour femme, des grands classiques aux fleurs blanches solaires.",
+   "h1": "Les meilleurs parfums femme à l’ylang-ylang",
+   "intro": "Le parfum ylang-ylang femme le plus célèbre reste Chanel N°5 : l’ylang y éclaire les aldéhydes dès la tête, et c’est lui qui donne au bouquet sa chaleur crémeuse. Signé Olivier Polge en 2017, Gabrielle en fait l’une de ses quatre fleurs blanches, en pleine lumière. Mitsouko de Guerlain, troisième, cache l’ylang au cœur d’un chypre à la pêche. La sélection va ensuite du floral monumental de Giorgio à la tubéreuse charnelle de Carnal Flower.",
+   "sections": [
+    {
+     "title": "Une fleur de soutien dans les grands féminins",
+     "body": "L’ylang-ylang est l’une des fleurs les plus présentes dans la parfumerie féminine, et l’une des moins visibles. Dans notre sélection, elle n’est jamais seule en vedette. Elle soutient. Dans N°5, elle réchauffe les aldéhydes. Dans Mitsouko, elle arrondit la rose et le jasmin avant la mousse de chêne. Chez Gabrielle ou Giorgio, elle fait le lien entre la tubéreuse, le jasmin et la fleur d’oranger. Sa facette de crème et de banane mûre donne du corps aux bouquets blancs, qui paraîtraient maigres sans elle. Côté masculin, la note est presque absente : parmi les parfums de notre catalogue, Reflection Man d’Amouage est l’un des rares à l’utiliser. C’est donc une note franchement féminine dans la pratique, même si rien ne l’interdit aux hommes. Pour sentir l’ylang de près, il faut aller vers les fleurs blanches les plus charnelles : Carnal Flower ou Soleil Blanc, tous deux mixtes."
+    },
+    {
+     "title": "Aldéhydé, chypré ou fleur blanche : choisir son ylang",
+     "body": "Trois styles se partagent la sélection. Le premier est aldéhydé : N°5 et, dans une moindre mesure, Giorgio posent l’ylang sous un nuage scintillant et savonneux. C’est l’ylang des grands soirs, classique et très reconnaissable. Le deuxième est chypré. Mitsouko l’associe à la pêche et à la mousse de chêne, et le résultat est plus mélancolique que solaire. Joy le tient avec une pointe de civette. Le troisième style est celui des fleurs blanches modernes : Gabrielle, Safanad, Carnal Flower ou Soleil Blanc. Ici l’ylang se montre plus franc et plus lumineux. Pour l’été, ce sont eux qu’on conseille, en particulier Soleil Blanc et sa noix de coco. Pour une première approche, Safanad est le plus doux, avec sa poire et sa vanille crémeuse. Giorgio, noté 5 sur 5, demande une seule pulvérisation."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "Premier parce que c’est le parfum qui a rendu l’ylang indispensable. Ernest Beaux l’a placé en tête en 1921 avec les aldéhydes et le néroli, avant une rose, un jasmin et un iris. L’ylang y apporte la chaleur qui empêche les aldéhydes de rester froids. Le fond de santal et de vanille prolonge sa crème. Le côté savonneux et vintage peut dérouter. Plus abstrait que Gabrielle, il reste la référence.",
+    "chanel-gabrielle": "Chez Chanel, Gabrielle (2017) montre l’ylang au grand jour. Olivier Polge l’a réuni avec le jasmin, la fleur d’oranger et la tubéreuse au cœur, sous un pamplemousse et une mandarine. Le rendu est radieux et impeccable. Certains le trouveront trop poli pour surprendre. On peut y voir un cousin lumineux de N°5, sans les aldéhydes.",
+    "guerlain-mitsouko": "Mitsouko (1919) cache l’ylang au cœur, avec la rose et le jasmin, entre une pêche veloutée et un fond de mousse de chêne. Jacques Guerlain en a fait le chypre le plus mélancolique du siècle. Il demande plusieurs essais avant de livrer sa profondeur. L’ylang y est discret mais essentiel. Plus sombre que Gabrielle, il se porte en automne.",
+    "jean-patou-joy": "Joy (1930) est une avalanche de rose et de jasmin, et l’ylang y arrive dès la tête avec la tubéreuse. Henri Alméras a tenu l’ensemble avec une pointe de civette qui lui donne chair. C’est le floral le plus somptueux de la sélection, en concentration parfum. Son style très classique peut paraître daté. Moins aldéhydé que N°5, il est plus franchement floral.",
+    "guerlain-linstant-de-guerlain": "Maurice Roucel a construit L’Instant de Guerlain (2003) autour d’un magnolia, avec le jasmin et l’ylang au cœur, sous un anis étoilé et une fleur d’oranger. Le fond d’ambre miellé donne à l’ensemble une lumière dorée. C’est l’ylang le plus fin de la page, facile au bureau. On le juge souvent plus discret que les monuments de la maison. Face à Mitsouko, il est plus lumineux.",
+    "parfums-de-marly-safanad": "Safanad (2013) mise sur la rondeur. Fleur d’oranger, ylang et iris forment le cœur, entre une poire en tête et un fond de vanille et de santal. C’est l’ylang le plus crémeux et le plus accessible de la sélection. Parfums de Marly livre un floral plaisant et bien fait, peu surprenant pour une maison de niche. Plus doux que Gabrielle, il convient aux premières approches de la note.",
+    "giorgio-beverly-hills-giorgio": "Voici l’ylang version Rodeo Drive. Giorgio (1981) le mêle à la tubéreuse, au gardénia et au jasmin, sous une fleur d’oranger et un abricot. La puissance est maximale (5 sur 5) : une seule pulvérisation, et loin des espaces partagés. C’est le floral le plus tapageur de la liste, assumé comme tel. Plus bruyant que Joy, il est aussi moins nuancé.",
+    "editions-de-parfums-frederic-malle-carnal-flower": "Mixte, Carnal Flower (2005) arrive en fin de liste pour cette raison, mais c’est ici que l’ylang se sent le mieux. Dominique Ropion l’a placé avec la tubéreuse et le jasmin, rafraîchis d’eucalyptus et de melon, sur un fond de noix de coco et de musc. Le réalisme floral est saisissant. Il sature vite les nez qui n’aiment pas la tubéreuse. Plus vert que Giorgio, il est aussi plus moderne.",
+    "tom-ford-soleil-blanc": "Également mixte, Soleil Blanc (2016) montre la facette solaire de l’ylang. La note y côtoie la tubéreuse et le jasmin, entre une pistache en tête et un fond de coco, d’ambre et de benjoin. On pense à une peau chauffée au soleil. La coco lactée ne plaira pas à toutes. C’est l’ylang d’été de la sélection, plus léger que Carnal Flower."
+   },
+   "faq": [
+    {
+     "q": "Quels parfums femme contiennent de l’ylang-ylang ?",
+     "a": "Beaucoup de grands féminins en contiennent, souvent sans le mettre en avant. Dans notre sélection, N°5 et Joy l’utilisent en tête. Gabrielle, Mitsouko et L’Instant de Guerlain le placent au cœur. Pour le sentir plus nettement, Carnal Flower et Soleil Blanc le placent au milieu de fleurs blanches charnelles."
+    },
+    {
+     "q": "Quelle odeur a un parfum à l’ylang-ylang ?",
+     "a": "L’ylang sent la fleur jaune gorgée de soleil, avec des nuances de jasmin, de banane mûre et de crème. Dans un parfum féminin, il rend les bouquets plus ronds et plus chauds. Dans N°5, il réchauffe les aldéhydes. Chez Soleil Blanc, il évoque une peau après la plage."
+    },
+    {
+     "q": "Un parfum à l’ylang-ylang peut-il se porter en été ?",
+     "a": "Oui, à condition de choisir une version lumineuse. Soleil Blanc et Carnal Flower sont faits pour la chaleur, tout comme Gabrielle. Évitez en revanche Giorgio et Joy par forte chaleur : leur puissance et leur opulence deviennent vite pesantes. Une à deux pulvérisations suffisent dans tous les cas."
+    }
+   ]
+  },
+  "en": {
+   "title": "Ylang-Ylang Perfume for Women: 9 Sunny, Creamy Picks",
+   "meta": "Chanel No. 5, Gabrielle and Mitsouko lead our list of the best ylang-ylang perfumes for women, from grand classics to sunlit white florals.",
+   "h1": "The best ylang-ylang perfumes for women",
+   "intro": "The most famous ylang-ylang perfume for women is still Chanel No. 5. Ylang lights up the aldehydes from the first spray and gives the bouquet its creamy warmth. Gabrielle, created by Olivier Polge in 2017, makes it one of four white flowers in full daylight. Guerlain Mitsouko ranks third and hides ylang in the heart of a peach chypre. The list then runs from the monumental Giorgio to the fleshy tuberose of Carnal Flower.",
+   "sections": [
+    {
+     "title": "A supporting flower in the great feminine classics",
+     "body": "Ylang-ylang is one of the most common flowers in women's perfumery and one of the least noticed. On this list it never takes the lead alone. It supports. In No. 5 it warms up the aldehydes. In Mitsouko it rounds out rose and jasmine before the oakmoss arrives. In Gabrielle or Giorgio it links tuberose, jasmine and orange blossom. Its custard and ripe banana facets give body to white bouquets that would feel thin without it. On the men's side the note is nearly absent. Among the scents in our catalog, Amouage Reflection Man is one of the few masculines that uses it. In practice that makes ylang a feminine note, even though nothing stops men from wearing it. To smell ylang up close, go to the fleshiest white florals: Carnal Flower or Soleil Blanc, both unisex."
+    },
+    {
+     "title": "Aldehydic, chypre or white floral",
+     "body": "Three styles share this selection. The first is aldehydic. No. 5 and to a lesser degree Giorgio set ylang under a sparkling, soapy cloud. This is ylang for big nights, classic and instantly recognizable. The second style is chypre. Mitsouko pairs ylang with peach and oakmoss, and the result is more wistful than sunny. Joy holds it with a touch of civet. The third style is the modern white floral: Gabrielle, Safanad, Carnal Flower and Soleil Blanc. Here ylang is more direct and brighter. These are the ones we recommend for summer, especially Soleil Blanc with its coconut. For a first try, Safanad is the gentlest, with pear and creamy vanilla. Giorgio is rated 5 out of 5 and needs only one spray."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "Number one because this is the perfume that made ylang essential. Ernest Beaux put it in the opening in 1921 with aldehydes and neroli, ahead of rose, jasmine and iris. Ylang brings the warmth that keeps the aldehydes from feeling cold. The sandalwood and vanilla base stretches its creaminess. The soapy vintage feel can put people off. More abstract than Gabrielle, it is still the benchmark.",
+    "chanel-gabrielle": "At Chanel, Gabrielle (2017) puts ylang in plain view. Olivier Polge grouped it with jasmine, orange blossom and tuberose in the heart, under grapefruit and mandarin. It is radiant and flawless. Some will find it too polished to surprise. Think of it as a bright modern cousin of No. 5 without the aldehydes.",
+    "guerlain-mitsouko": "Mitsouko (1919) hides ylang in the heart with rose and jasmine, between a velvety peach and an oakmoss base. Jacques Guerlain made it the most melancholy chypre of the century. It takes several wearings before it opens up. The ylang is quiet but essential. Darker than Gabrielle, it belongs to autumn.",
+    "jean-patou-joy": "Joy (1930) is an avalanche of rose and jasmine, and ylang shows up right in the opening with tuberose. Henri Alméras held it all together with a touch of civet that gives it flesh. It is the most lavish floral in this selection and comes in parfum concentration. The very classic style can feel dated. Less aldehydic than No. 5, it is more openly floral.",
+    "guerlain-linstant-de-guerlain": "Maurice Roucel built L'Instant de Guerlain (2003) around magnolia, with jasmine and ylang in the heart under star anise and orange blossom. A honeyed amber base gives it a golden glow. It is the most refined ylang on the page and easy to wear to work. People often call it quieter than the house's monuments. Next to Mitsouko it is brighter.",
+    "parfums-de-marly-safanad": "Safanad (2013) bets on softness. Orange blossom, ylang and iris form the heart, between pear up top and a vanilla and sandalwood base. It is the creamiest and most approachable ylang here. Parfums de Marly delivers a pleasant, well-made floral that takes few risks for a niche house. Softer than Gabrielle, it suits a first encounter with the note.",
+    "giorgio-beverly-hills-giorgio": "This is ylang, Rodeo Drive style. Giorgio (1981) blends it with tuberose, gardenia and jasmine under orange blossom and apricot. Power is maxed out at 5 out of 5, so one spray and stay away from shared offices. It is the loudest floral on the list and proud of it. Brasher than Joy, it is also less nuanced.",
+    "editions-de-parfums-frederic-malle-carnal-flower": "Carnal Flower (2005) is unisex and sits near the bottom for that reason, yet it is where ylang is easiest to smell. Dominique Ropion set it with tuberose and jasmine, freshened by eucalyptus and melon, over coconut and musk. The floral realism is striking. It overwhelms anyone who dislikes tuberose. Greener than Giorgio, it is also more modern.",
+    "tom-ford-soleil-blanc": "Also unisex, Soleil Blanc (2016) shows the sunny side of ylang. The note sits with tuberose and jasmine between pistachio on top and a base of coconut, amber and benzoin. It smells like skin warmed by the sun. The milky coconut won't suit everyone. This is the summer ylang of the list, lighter than Carnal Flower."
+   },
+   "faq": [
+    {
+     "q": "Which women's perfumes contain ylang-ylang?",
+     "a": "Many great feminine scents do, often without advertising it. On this list, No. 5 and Joy use it in the opening. Gabrielle, Mitsouko and L'Instant de Guerlain place it in the heart. To smell it more clearly, Carnal Flower and Soleil Blanc set it among fleshy white flowers."
+    },
+    {
+     "q": "What does ylang-ylang smell like in perfume?",
+     "a": "Ylang smells like a yellow flower full of sun, with hints of jasmine, ripe banana and custard. In a women's perfume it makes bouquets rounder and warmer. In No. 5 it warms the aldehydes. In Soleil Blanc it recalls skin after a day at the beach."
+    },
+    {
+     "q": "Can you wear ylang-ylang perfume in summer?",
+     "a": "Yes, if you pick a bright one. Soleil Blanc and Carnal Flower are made for heat, and so is Gabrielle. Avoid Giorgio and Joy on very hot days, since their power and richness quickly feel heavy. One or two sprays are enough either way."
+    }
+   ]
+  }
+ }
+}

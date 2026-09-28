@@ -7,6 +7,7 @@ import {
   url, brands, notes, families, eras, genders, seasons, noteName, familyName, eraName, topNotes, pairedNotes,
   similarity, brandByName, noteByKey, decadeOf, perfumeEditorial, GENDER_LABEL, type Perfume, type Faq, type Brand,
 } from './catalog';
+import { rankedLinks } from './ranked';
 
 const other = (l: Locale): Locale => (l === 'fr' ? 'en' : 'fr');
 const home = (l: Locale) => ({ name: l === 'fr' ? 'Accueil' : 'Home', href: url.home(l) });
@@ -31,6 +32,11 @@ function houseGroup(l: Locale, list: Perfume[]) {
     variant: 'houses' as const,
     items: [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([b, c]) => ({ label: b, href: url.brand(l, b), count: c })),
   };
+}
+
+/** Links to live ranked selections (note × genre, meilleurs parfums…), or nothing. */
+function selectionGroup(l: Locale, title: string, items: { label: string; href: string }[]) {
+  return items.length ? [{ eyebrow: l === 'fr' ? 'Sélections commentées' : 'Curated selections', title, items }] : [];
 }
 
 const byYear = (a: Perfume, b: Perfume) => a.year - b.year;
@@ -85,6 +91,7 @@ export function brandPage(b: Brand, l: Locale) {
         variant: 'houses' as const,
         items: similarHouses.map(({ o }) => ({ label: o.name, href: url.brand(l, o.name), count: o.perfumes.length })),
       },
+      ...selectionGroup(l, fr ? `Les meilleurs parfums ${b.name}` : `The best ${b.name} perfumes`, rankedLinks(l, (d) => d.brand === b.name)),
     ],
     faq: ed?.faq,
   };
@@ -157,6 +164,7 @@ export function notePage(key: string, l: Locale) {
         title: fr ? `Souvent associée à` : 'Often paired with',
         items: pairedNotes(key, 10).map((x) => ({ label: noteName(x.key, l), href: url.note(l, x.key), count: x.count })),
       },
+      ...selectionGroup(l, fr ? `${name} : sélection femme ou homme` : `${name}: for women or for men`, rankedLinks(l, (d) => d.kind === 'ng' && d.note === key)),
       houseGroup(l, n.perfumes),
     ],
     faq: ed?.faq ?? [],
@@ -197,7 +205,11 @@ export function familyPage(key: string, l: Locale) {
     ],
     perfumes: f.perfumes.slice().sort(byFame),
     perfumesTitle: fr ? `Les parfums de la famille ${lc(l, name)}` : `${name} perfumes`,
-    groups: [noteGroup(l, f.perfumes), houseGroup(l, f.perfumes)],
+    groups: [
+      noteGroup(l, f.perfumes),
+      ...selectionGroup(l, fr ? `${name} : sélection femme ou homme` : `${name}: for women or for men`, rankedLinks(l, (d) => d.kind === 'fg' && d.family === key)),
+      houseGroup(l, f.perfumes),
+    ],
     faq: ed?.faq ?? [],
     filterable: true,
     pager: {
@@ -269,7 +281,11 @@ export function genderPage(g: string, l: Locale) {
     sections: [{ title: fr ? 'Ce qui définit la sélection' : 'What defines this edit', body: ed?.body }],
     perfumes: x.perfumes.slice().sort(byFame),
     perfumesTitle: name,
-    groups: [noteGroup(l, x.perfumes), houseGroup(l, x.perfumes)],
+    groups: [
+      noteGroup(l, x.perfumes),
+      ...selectionGroup(l, fr ? 'Nos sélections par note, famille et saison' : 'Our selections by note, family and season', rankedLinks(l, (d) => d.gender === g && (d.kind === 'best' || d.kind === 'ng' || d.kind === 'fg' || d.kind === 'sg'))),
+      houseGroup(l, x.perfumes),
+    ],
     faq: ed?.faq ?? [],
   };
 }
@@ -294,7 +310,11 @@ export function seasonPage(s: string, l: Locale) {
     sections: [{ title: fr ? 'Pourquoi la saison compte' : 'Why the season matters', body: ed?.body }],
     perfumes: x.perfumes.slice().sort(byFame),
     perfumesTitle: name,
-    groups: [noteGroup(l, x.perfumes), houseGroup(l, x.perfumes)],
+    groups: [
+      noteGroup(l, x.perfumes),
+      ...selectionGroup(l, fr ? `${name} : femme ou homme` : `${name}: for women or for men`, rankedLinks(l, (d) => d.kind === 'sg' && d.season === s)),
+      houseGroup(l, x.perfumes),
+    ],
     faq: ed?.faq ?? [],
     filterable: true,
   };

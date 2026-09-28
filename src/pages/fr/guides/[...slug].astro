@@ -1,0 +1,14 @@
+---
+import RankedView from '../../../views/RankedView.astro';
+import RankedHubView from '../../../views/RankedHubView.astro';
+import { liveOfKind, hubCopy, type RankedDef } from '../../../lib/ranked';
+
+export function getStaticPaths() {
+  const live = liveOfKind('guide');
+  const pages = live.map((d) => ({ params: { slug: d.slug_fr }, props: { d } as { d?: RankedDef } }));
+  return live.length && hubCopy('guide') ? [{ params: { slug: undefined }, props: {} as { d?: RankedDef } }, ...pages] : pages;
+}
+const { d } = Astro.props;
+---
+
+{d ? <RankedView d={d} locale="fr" /> : <RankedHubView kind="guide" locale="fr" />}

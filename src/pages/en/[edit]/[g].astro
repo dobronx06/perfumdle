@@ -1,0 +1,14 @@
+---
+/** Season × gender: /en/<season>/<gender>/ */
+import RankedView from '../../../views/RankedView.astro';
+import { liveOfKind, rankedUrl } from '../../../lib/ranked';
+
+export function getStaticPaths() {
+  return liveOfKind('sg').map((d) => {
+    const [, , edit, g] = rankedUrl(d, 'en').split('/');
+    return { params: { edit, g }, props: { d } };
+  });
+}
+---
+
+<RankedView d={Astro.props.d} locale="en" />

@@ -1,0 +1,710 @@
+{
+ "_data_issues": [
+  {
+   "slug": "tom-ford-neroli-portofino",
+   "issue": "tagline FR/EN évoque « air marin / sea air » alors qu'aucune note marine ne figure dans la pyramide"
+  },
+  {
+   "slug": "chanel-n-22",
+   "issue": "tagline mentionne « encens pâle » mais la pyramide ne contient pas d'encens"
+  },
+  {
+   "slug": "dior-miss-dior",
+   "issue": "fiche décrit le chypre original de 1947 (EdT, Carles/Vacher) sous le nom « Miss Dior », homonyme du Miss Dior actuel qui est une autre composition ; risque de confusion pour le lecteur"
+  },
+  {
+   "slug": "giorgio-armani-acqua-di-gio",
+   "issue": "nom sans accent (« Acqua di Gio ») alors que les flankers s'écrivent « Acqua di Giò » ; harmoniser"
+  },
+  {
+   "slug": "dior-dior-homme-intense",
+   "issue": "perfumer null ; souvent attribué à Olivier Polge, à vérifier avant de renseigner"
+  }
+ ],
+ "best:giorgio-armani:M": {
+  "picks": [
+   "giorgio-armani-acqua-di-gio-profumo",
+   "giorgio-armani-acqua-di-gio",
+   "giorgio-armani-code",
+   "giorgio-armani-stronger-with-you-intensely",
+   "giorgio-armani-acqua-di-gio-absolu",
+   "giorgio-armani-stronger-with-you"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Armani homme : les 6 flacons classés",
+   "meta": "Acqua di Giò Profumo devant l'original, Code sur le podium : notre classement des meilleurs parfums Giorgio Armani pour homme, avec l'usage de chacun.",
+   "h1": "Les meilleurs parfums Giorgio Armani pour homme, de la mer au caramel",
+   "intro": "Le meilleur parfum Armani pour homme, selon nous, est Acqua di Giò Profumo. Il garde la fraîcheur marine de l'original et l'assombrit d'encens et de patchouli, ce qui le rend portable du bureau au dîner. Acqua di Giò, le classique de 1996, arrive deuxième. Code complète le podium pour les soirées d'hiver, avec sa fleur d'olivier et sa tonka. Les deux Stronger With You, plus sucrés, ferment la marche avec Acqua di Giò Absolu.",
+   "sections": [
+    {
+     "title": "Pourquoi Profumo passe devant l'original",
+     "body": "Le classement repose sur quatre critères : l'influence, la qualité de composition, la polyvalence et la tenue selon l'intensité. Sur l'influence, Acqua di Giò gagne sans discussion. Alberto Morillas a fixé en 1996 le modèle de la fraîcheur masculine aquatique, et on le sent encore partout. Profumo, signé par le même parfumeur en 2015, le dépasse sur les trois autres critères. Il est noté 4 sur 5 en intensité contre 3 pour l'original. Il se porte trois saisons sur quatre et va jusqu'au rendez-vous du soir, là où l'original reste un parfum de journée chaude. Code, troisième, appartient à une autre famille. C'est un boisé ambré plus feutré, à réserver au froid. Les deux Stronger With You sont efficaces mais sucrés, et leur usage se limite à l'automne et à l'hiver. C'est ce manque de polyvalence qui les place en bas de la liste."
+    },
+    {
+     "title": "Deux pôles : la mer et le marché de Noël",
+     "body": "La gamme masculine d'Armani se partage en deux univers qui ne se croisent presque pas. D'un côté, la lignée Acqua di Giò. Ses trois parfums sont signés Alberto Morillas et bâtis sur la bergamote, le romarin et un fond de patchouli. L'original est le plus lumineux, avec son citron vert et son néroli. Profumo ajoute l'encens et l'ambre. Absolu épaissit le tout avec du labdanum, de la tonka et des bois. De l'autre côté, les gourmands d'hiver : Stronger With You et sa version Intensely jouent la châtaigne grillée, la meringue ou le caramel sur un fond de vanille. Entre les deux, Code occupe une place à part avec son anis étoilé, son cuir et son tabac. Pour un homme qui ne veut qu'un flacon Armani, notre conseil est simple. Choisissez Profumo si vous vivez surtout en ville, Code si vous sortez beaucoup le soir."
+    }
+   ],
+   "why": {
+    "giorgio-armani-acqua-di-gio-profumo": "Premier de notre classement parce qu'il fait tout ce que fait l'original, en mieux habillé. Alberto Morillas a assombri en 2015 l'eau marine d'Acqua di Giò avec de l'encens et du patchouli, sur un cœur de romarin et de sauge. Il va du bureau aux soirées d'été. On peut lui reprocher de rester sage. Face à l'original, il gagne en profondeur sans perdre en fraîcheur.",
+    "giorgio-armani-acqua-di-gio": "Le classique de 1996 signé Alberto Morillas : bergamote, néroli et citron vert sur un cœur de jasmin et de romarin, puis patchouli et musc. Il sent la peau réchauffée par le soleil et le sel. Au bureau comme en week-end, il ne fait jamais de faux pas. Son problème, c'est qu'il est partout. Plus léger que Profumo, il tient aussi moins longtemps.",
+    "giorgio-armani-code": "Fleur d'olivier, anis étoilé et bois de gaïac sur un fond de tonka, de cuir et de tabac : Antoine Maisondieu a composé en 2004 un boisé ambré d'une sensualité feutrée. C'est l'Armani du soir et des rendez-vous, par temps frais. Sa projection reste discrète dans sa version originale. Moins sucré que Stronger With You, il plaira aux hommes qui veulent de la douceur sans dessert.",
+    "giorgio-armani-stronger-with-you-intensely": "Caramel, cannelle et daim vanillé : la version 2019 pousse Stronger With You vers l'oriental gourmand. Elle sent la fête d'hiver et tient bien mieux que l'original. On la porte le soir ou en rendez-vous, en automne et en hiver. C'est franchement sucré et inutilisable aux beaux jours. Si Code vous semble trop discret, c'est l'alternative la plus chaleureuse de la maison.",
+    "giorgio-armani-acqua-di-gio-absolu": "Troisième variation d'Acqua di Giò par Alberto Morillas, en 2018. L'eau marine est épaissie de bois et de labdanum, de tonka et de patchouli. Au cœur, on trouve lavande et géranium. Il se porte au bureau comme le soir, de la fin du printemps à l'automne. Il est moins lumineux que l'original. Entre Acqua di Giò et Profumo, il plaira aux fidèles qui veulent un fond plus boisé.",
+    "giorgio-armani-stronger-with-you": "Châtaigne grillée et vanille sucrée : ce masculin de 2017 sent le marché de Noël. Chez Cécile Matton et Serge Majoullier, la cardamome et la sauge empêchent l'effet bonbon. Il plaît aux jeunes hommes qui aiment les gourmands doux, en soirée d'automne ou d'hiver. Il est linéaire et discret en projection. Intensely fait la même chose avec plus de présence."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Armani pour homme ?",
+     "a": "Pour nous, Acqua di Giò Profumo : la fraîcheur marine de l'original avec plus de profondeur et une meilleure tenue. Si vous cherchez un parfum d'été léger, l'Acqua di Giò original reste la référence. Pour les soirées d'hiver, Code est le plus élégant de la maison."
+    },
+    {
+     "q": "Acqua di Giò ou Acqua di Giò Profumo : lequel choisir ?",
+     "a": "L'original est plus léger et plus citronné, parfait par forte chaleur mais d'une tenue moyenne. Profumo ajoute de l'encens et du patchouli, tient plus longtemps et se porte aussi le soir. Si vous n'en prenez qu'un, Profumo est le plus polyvalent des deux."
+    },
+    {
+     "q": "Quel parfum Armani pour homme porter en hiver ?",
+     "a": "Code pour une douceur élégante, avec sa tonka et son tabac. Stronger With You Intensely si vous aimez les parfums sucrés : caramel, cannelle et vanille. Stronger With You est plus léger et plus discret. Évitez l'Acqua di Giò original par grand froid, sa fraîcheur y paraît vite mince."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Armani Cologne for Men: All 6 Ranked",
+   "meta": "Acqua di Gio Profumo beats the original and Code makes the podium: our ranking of the best Giorgio Armani fragrances for men, with when to wear each.",
+   "h1": "The best Giorgio Armani fragrances for men, from sea breeze to toffee",
+   "intro": "Our best Armani cologne for men is Acqua di Gio Profumo. It keeps the marine freshness of the original and darkens it with incense and patchouli, which makes it wearable from the office to dinner. Acqua di Gio, the 1996 classic, comes second. Code completes the podium for winter evenings with olive blossom and tonka. The two Stronger With You scents, both sweeter, close the list alongside Acqua di Gio Absolu.",
+   "sections": [
+    {
+     "title": "Why Profumo beats the original",
+     "body": "We ranked on four criteria: influence, composition, versatility and performance relative to intensity. On influence, Acqua di Gio wins easily. Alberto Morillas set the template for the aquatic men's scent in 1996, and you still smell it everywhere. Profumo, by the same perfumer in 2015, beats it on the other three. It scores 4 out of 5 for intensity against 3 for the original. It works for three seasons and carries into an evening date, while the original stays a hot-weather daytime scent. Code, in third, belongs to another family. It is a hushed amber wood best kept for cold weather. The two Stronger With You scents are effective but sweet, and they only really work in autumn and winter. That lack of range is what puts them at the bottom."
+    },
+    {
+     "title": "Two poles: the sea and the Christmas market",
+     "body": "Armani's men's range splits into two worlds that barely overlap. On one side sits the Acqua di Gio line. All three are by Alberto Morillas and built on bergamot, rosemary and a patchouli base. The original is the brightest, with lime and neroli. Profumo adds incense and amber. Absolu thickens everything with labdanum, tonka and woods. On the other side are the winter gourmands. Stronger With You and its Intensely version play roasted chestnut, meringue or toffee over vanilla. Code sits in between with its star anise, leather and tobacco. If you only want one Armani bottle, our advice is simple. Choose Profumo if you spend most of your time in the city, and Code if you go out a lot at night."
+    }
+   ],
+   "why": {
+    "giorgio-armani-acqua-di-gio-profumo": "Number one because it does everything the original does, only better dressed. In 2015 Alberto Morillas darkened Acqua di Gio's sea breeze with incense and patchouli, over a heart of rosemary and sage. It goes from the office to summer evenings. Some will call it safe. Compared with the original, it gains depth without losing its freshness.",
+    "giorgio-armani-acqua-di-gio": "The 1996 classic by Alberto Morillas: citrus, neroli and lime over jasmine and rosemary, with patchouli and musk underneath. It smells like sun-warmed skin and sea salt. At the office or on the weekend, it never puts a foot wrong. The problem is that it is everywhere. Lighter than Profumo, it also fades sooner.",
+    "giorgio-armani-code": "Olive blossom, star anise and guaiac wood over tonka, leather and tobacco. Antoine Maisondieu composed a hushed, sensual amber wood in 2004. This is the Armani for evenings and dates when the weather turns cool. Projection stays modest in the original version. Less sweet than Stronger With You, it suits men who want softness without dessert.",
+    "giorgio-armani-stronger-with-you-intensely": "Toffee, cinnamon and vanilla suede. The 2019 version pushes Stronger With You toward a gourmand oriental. It smells like a winter party and lasts far longer than the original. Wear it in the evening or on a date in autumn and winter. It is openly sweet and useless in warm weather. If Code feels too quiet, this is the warmest alternative in the house.",
+    "giorgio-armani-acqua-di-gio-absolu": "Alberto Morillas's third take on Acqua di Gio, released in 2018. The sea breeze is thickened with woods, labdanum, tonka and patchouli over lavender and geranium. It works at the office and in the evening, from late spring to autumn. It is less luminous than the original. Sitting between Acqua di Gio and Profumo, it suits loyal fans who want a woodier base.",
+    "giorgio-armani-stronger-with-you": "Roasted chestnut and sweet vanilla make this 2017 masculine smell like a Christmas market. In Cécile Matton and Serge Majoullier's hands, cardamom and sage keep it from turning into candy. It appeals to younger men who like soft gourmands on autumn or winter evenings. It is linear and projects quietly. Intensely does the same thing with more presence."
+   },
+   "faq": [
+    {
+     "q": "What is the best Armani cologne for men?",
+     "a": "Our pick is Acqua di Gio Profumo: the marine freshness of the original with more depth and better staying power. If you want a light summer scent, the original Acqua di Gio remains the benchmark. For winter evenings, Code is the most elegant option in the range."
+    },
+    {
+     "q": "Acqua di Gio or Acqua di Gio Profumo: which is better?",
+     "a": "The original is lighter and more lemony, perfect in real heat but only average on longevity. Profumo adds incense and patchouli, lasts longer and also works at night. If you only buy one, Profumo is the more versatile of the two."
+    },
+    {
+     "q": "Which Armani cologne is best for winter?",
+     "a": "Code if you want understated warmth from tonka and tobacco. Stronger With You Intensely if you like sweet scents built on toffee, cinnamon and vanilla. Stronger With You is lighter and quieter. Skip the original Acqua di Gio in deep cold, where its freshness quickly feels thin."
+    }
+   ]
+  }
+ },
+ "best:chanel:F": {
+  "picks": [
+   "chanel-n-5",
+   "chanel-n-19",
+   "chanel-coco-mademoiselle",
+   "chanel-coco",
+   "chanel-allure",
+   "chanel-chance",
+   "chanel-gabrielle",
+   "chanel-coromandel",
+   "chanel-n-22",
+   "chanel-chance-eau-tendre"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Chanel femme : notre classement de N°5 à Chance",
+   "meta": "N°5 en tête, N°19 et Coco Mademoiselle sur le podium : notre classement des 10 meilleurs parfums Chanel pour femme, avec le défaut de chacun.",
+   "h1": "Les meilleurs parfums Chanel pour femme, du N°5 à Gabrielle",
+   "intro": "Le meilleur parfum Chanel pour femme reste N°5. Ernest Beaux l'a composé en 1921 et son nuage d'aldéhydes n'a toujours pas d'équivalent. N°19, le Chanel le plus vert, prend la deuxième place pour son iris et son galbanum glacés. Coco Mademoiselle ferme le podium : c'est le plus facile à porter des trois, du bureau au dîner. Sept autres parfums suivent, des orientaux de Jacques Polge aux fruités légers de la ligne Chance.",
+   "sections": [
+    {
+     "title": "Nos critères pour classer les parfums Chanel",
+     "body": "Chez Chanel, presque tout est bien fait. Il a donc fallu départager sur autre chose que la qualité brute. L'influence a compté en premier : N°5 a changé la parfumerie en 1921 et N°19 a donné au chypre vert une élégance distante que peu de parfums ont retrouvée. La polyvalence a joué ensuite. Coco Mademoiselle et Allure se portent au bureau comme au dîner, ce qui les place devant Coco, plus somptueux mais limité aux soirées d'hiver. Nous avons aussi regardé la singularité. Chance et Gabrielle sont impeccables mais leurs formules ont été beaucoup imitées, d'où leur rang moyen. La tenue suit l'intensité fournie. Quatre parfums de la liste sont notés 4 sur 5, dont N°5 et Coco. Chance Eau Tendre plafonne à 2. Coromandel est officiellement mixte. Nous l'avons gardé parce que c'est le patchouli le plus noble de la maison."
+    },
+    {
+     "title": "Beaux, Robert, Polge : un même vocabulaire",
+     "body": "Ces dix parfums viennent d'une poignée de parfumeurs. Ernest Beaux signe N°5 en 1921 et N°22 l'année suivante, deux bouquets aldéhydés et poudrés. Henri Robert compose N°19 en 1971. Jacques Polge prend ensuite le relais pendant plusieurs décennies. On lui doit Coco et Allure, Coco Mademoiselle et les deux Chance. Il cosigne aussi Coromandel avec Christopher Sheldrake. Son fils Olivier Polge signe Gabrielle en 2017. Malgré les époques, le vocabulaire reste stable. Le jasmin apparaît dans neuf parfums sur dix. L'iris revient dans sept, souvent là où on ne l'attend pas, comme dans Chance. Le vétiver sèche le fond de six d'entre eux. C'est ce qui donne aux Chanel leur air de famille : des fleurs blanches tenues par un fond sec et propre, jamais trop sucré. Si vous aimez les gourmands lourds, la maison vous offrira peu de choix, à part Coco."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "Premier parce qu'aucun parfum de la maison n'a eu autant d'influence. Les aldéhydes d'Ernest Beaux scintillent en 1921 sur l'ylang-ylang, la rose et le jasmin, puis sur un fond de santal et de vanille. Il se porte par temps froid, en soirée ou pour une occasion qui mérite un peu d'apparat. Son côté savonneux et vintage déroute les nez habitués aux fruités. Plus abstrait que Gabrielle, il reste plus mémorable.",
+    "chanel-n-19": "Henri Robert a signé en 1971 le Chanel le plus vert. Le galbanum glacé ouvre sur un iris gris, puis la mousse de chêne, le vétiver et une touche de cuir ferment la marche. Il se porte en journée, au bureau, aux saisons de transition. Sa froideur surprend les amatrices de floraux sucrés. Beaucoup plus sec que Coco Mademoiselle, c'est notre favori pour une élégance sans sourire forcé.",
+    "chanel-coco-mademoiselle": "Troisième, et le plus facile à porter du podium. Jacques Polge a posé en 2001 des agrumes pétillants sur un patchouli propre, avec de la rose et du litchi au cœur. Il va du bureau au dîner, surtout en mi-saison. Son défaut est d'être partout : on le reconnaît dans la rue. Plus moderne que N°5, il a aussi moins de mystère.",
+    "chanel-coco": "Oriental baroque de 1984, Coco puise dans les laques et les brocarts de l'appartement de Mademoiselle. Clou de girofle, pêche et coriandre sur un fond de santal, de tonka et d'ambre : le résultat est somptueux. On le réserve aux soirées d'hiver, d'une main légère. C'est le Chanel le plus chaud de la liste, bien plus dense que Coco Mademoiselle qui a repris son prénom.",
+    "chanel-allure": "Pêche veloutée, fleurs blondes et vanille boisée : Allure (1996) est le floral ambré le plus poli de la maison. Il accompagne une journée de travail comme un dîner, sans excentricité. On peut lui reprocher d'être consensuel. Moins pétillant que Coco Mademoiselle, il plaît à celles qui veulent un Chanel raffiné sans avoir à le commenter.",
+    "chanel-chance": "Poivre rose, ananas et citron ouvrent sur la jacinthe et l'iris, avant un patchouli propre. Chance (2002) est le Chanel qui ne se prend pas au sérieux, fait pour les journées de printemps et d'été. Il a été tellement imité que son patchouli paraît aujourd'hui banal. Plus jeune qu'Allure, il reste une bonne porte d'entrée dans la maison.",
+    "chanel-gabrielle": "Quatre fleurs blanches en pleine lumière, signées Olivier Polge en 2017 : jasmin et fleur d'oranger, ylang-ylang et tubéreuse. Gabrielle se porte au bureau et aux réceptions de printemps. L'exécution est impeccable. On le trouve pourtant trop poli pour surprendre. Face à N°22, autre bouquet blanc de la maison, il paraît plus moderne et moins poudré.",
+    "chanel-coromandel": "Mixte sur le papier, Coromandel (2007) est un patchouli poudré de benjoin et d'encens, signé Jacques Polge et Christopher Sheldrake. Il se porte l'automne et l'hiver, au bureau comme le soir. Ceux qui attendent un patchouli sombre le trouveront trop doux. Plus sec que Coco, c'est l'oriental Chanel pour les femmes qui n'aiment pas le sucre.",
+    "chanel-n-22": "Ernest Beaux a signé N°22 en 1922, un an après N°5. Aldéhydes, néroli et muguet ouvrent sur un bouquet blanc où la tubéreuse domine, puis l'iris et la vanille poudrent le fond. Il convient aux occasions particulières et aux journées lumineuses. Son style ancien ne séduira pas tous les nez. Moins célèbre que N°5, il est aussi plus lumineux.",
+    "chanel-chance-eau-tendre": "Dernier de notre liste et le plus léger. Coing et pamplemousse se posent sur l'iris et la jacinthe, puis sur un fond de musc et de cèdre. Il se porte en journée, au printemps et en été. Sa tenue est mesurée (2 sur 5 en intensité) et il faut revaporiser l'après-midi. Plus pastel que Chance, il convient aux femmes qui veulent rester discrètes."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Chanel pour femme ?",
+     "a": "N°5 reste le plus marquant de la maison, avec ses aldéhydes et ses fleurs blanches poudrées. Si vous cherchez un parfum plus facile à porter au quotidien, Coco Mademoiselle est le meilleur choix. Pour une élégance plus verte et plus sèche, essayez N°19."
+    },
+    {
+     "q": "Coco Mademoiselle ou Chance : lequel choisir ?",
+     "a": "Coco Mademoiselle est plus affirmé : agrumes, rose et patchouli avec une tenue solide du bureau au dîner. Chance est plus léger et pétillant, avec du poivre rose et de la jacinthe, pensé pour le printemps et l'été. Choisissez Coco Mademoiselle pour une signature, Chance pour la décontraction."
+    },
+    {
+     "q": "Quel parfum Chanel porter au bureau ?",
+     "a": "Allure et Coco Mademoiselle sont les plus adaptés : présents sans envahir, faciles à vivre toute la journée. N°19 convient aussi si vous aimez les parfums verts et secs. Évitez Coco en journée, sa richesse épicée se remarque vite dans un bureau fermé."
+    },
+    {
+     "q": "Le N°5 est-il un parfum de vieille dame ?",
+     "a": "C'est un reproche fréquent, lié à ses aldéhydes savonneux et à son fond poudré. N°5 porte le style des années 1920, et c'est ce qui le rend unique. Portez-le avec parcimonie, une ou deux pulvérisations, sur une tenue simple. Le contraste le rend beaucoup plus moderne."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Chanel Perfume for Women: No. 5 to Chance, Ranked",
+   "meta": "No. 5 leads, with No. 19 and Coco Mademoiselle on the podium: our ranking of the 10 best Chanel perfumes for women, with the catch for each one.",
+   "h1": "The best Chanel perfumes for women, from No. 5 to Gabrielle",
+   "intro": "The best Chanel perfume for women is still No. 5. Ernest Beaux composed it in 1921, and nothing else smells like its cloud of aldehydes. No. 19, Chanel's greenest scent, takes second for its icy iris and galbanum. Coco Mademoiselle completes the podium as the easiest of the three to wear, from the office to dinner. Seven more follow, from Jacques Polge's orientals to the light fruity Chance line.",
+   "sections": [
+    {
+     "title": "How we ranked Chanel's perfumes",
+     "body": "Almost everything Chanel makes is well built, so we had to separate them on more than raw quality. Influence came first. No. 5 changed perfumery in 1921, and No. 19 gave the green chypre a cool elegance few scents have matched. Versatility came next. Coco Mademoiselle and Allure work at the office and at dinner, which puts them ahead of Coco, richer but limited to winter evenings. We also looked at originality. Chance and Gabrielle are flawless but widely imitated, hence their mid-table spots. Performance follows the intensity data. Four scents here score 4 out of 5, No. 5 and Coco among them. Chance Eau Tendre tops out at 2. Coromandel is officially unisex. We kept it because it is the finest patchouli in the house."
+    },
+    {
+     "title": "Beaux, Robert, Polge: one vocabulary",
+     "body": "These ten scents come from a handful of perfumers. Ernest Beaux made No. 5 in 1921 and No. 22 the following year, both powdery aldehydic bouquets. Henri Robert composed No. 19 in 1971. Jacques Polge then held the reins for decades. He gave the house Coco and Allure, Coco Mademoiselle and both Chance scents. He also co-signed Coromandel with Christopher Sheldrake. His son Olivier Polge signed Gabrielle in 2017. Across all those years, the vocabulary barely shifts. Jasmine appears in nine of the ten. Iris shows up in seven, often where you would not expect it, as in Chance. Vetiver dries down the base of six. That is what gives Chanel its family resemblance: white flowers held up by a dry, clean base that never gets too sweet. If you love heavy gourmands, the house has little for you beyond Coco."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "First because no other Chanel has had as much influence. Ernest Beaux's aldehydes sparkled in 1921 over ylang-ylang, rose and jasmine, then a base of sandalwood and vanilla. Wear it in cold weather, in the evening or for an occasion that deserves some ceremony. Its soapy vintage feel puzzles noses raised on fruity scents. More abstract than Gabrielle, it is also far more memorable.",
+    "chanel-n-19": "Henri Robert composed Chanel's greenest scent in 1971. Icy galbanum opens onto grey iris, then oakmoss, vetiver and a touch of leather close it out. It is a daytime and office scent for the in-between seasons. Its chill surprises anyone used to sweet florals. Much drier than Coco Mademoiselle, it is our favourite for elegance without a forced smile.",
+    "chanel-coco-mademoiselle": "Third, and the easiest to wear on the podium. In 2001 Jacques Polge set sparkling citrus over clean patchouli, with rose and lychee at the heart. It goes from office to dinner, especially in spring and autumn. Its flaw is that it is everywhere, and you will recognise it on the street. More modern than No. 5, it also has less mystery.",
+    "chanel-coco": "A baroque oriental from 1984, Coco draws on the lacquer screens and brocades of Mademoiselle's apartment. Clove, peach and coriander sit over sandalwood, tonka and amber. The result is lavish. Keep it for winter evenings and use a light hand. It is the warmest Chanel on the list and much denser than Coco Mademoiselle, which borrowed its name.",
+    "chanel-allure": "Velvety peach, blond florals and woody vanilla. Allure (1996) is the most polished floral amber in the house. It carries you through a workday or a dinner without any eccentricity. You could call it safe. Less sparkling than Coco Mademoiselle, it suits women who want a refined Chanel that nobody needs to comment on.",
+    "chanel-chance": "Pink pepper, pineapple and lemon open onto hyacinth and iris before a clean patchouli. Chance (2002) is the Chanel that does not take itself seriously, built for spring and summer days. It has been copied so often that its patchouli now feels ordinary. Younger than Allure, it is still a good entry point to the house.",
+    "chanel-gabrielle": "Four white flowers in full light, composed by Olivier Polge in 2017: jasmine and orange blossom, ylang-ylang and tuberose. Gabrielle works at the office and at spring receptions. The execution is flawless. Even so, it is too polished to surprise anyone. Next to No. 22, the house's other white bouquet, it feels more modern and less powdery.",
+    "chanel-coromandel": "Unisex on paper, Coromandel (2007) is a patchouli dusted with benzoin and incense, by Jacques Polge and Christopher Sheldrake. Wear it in autumn and winter, at work or in the evening. Anyone expecting a dark patchouli will find it too soft. Drier than Coco, it is the Chanel oriental for women who do not want sugar.",
+    "chanel-n-22": "Ernest Beaux signed No. 22 in 1922, a year after No. 5. Aldehydes, neroli and lily of the valley open onto a white bouquet led by tuberose, then iris and vanilla powder the base. It suits special occasions and bright days. Its old-school style will not win every nose. Less famous than No. 5, it is also brighter.",
+    "chanel-chance-eau-tendre": "Last on our list and the lightest. Quince and grapefruit rest on iris and hyacinth, then musk and cedar. It is a daytime scent for spring and summer. Longevity is modest at 2 out of 5, so plan to reapply in the afternoon. More pastel than Chance, it suits women who want to stay discreet."
+   },
+   "faq": [
+    {
+     "q": "What is the best Chanel perfume for women?",
+     "a": "No. 5 is still the house's defining scent, with its aldehydes and powdery white flowers. If you want something easier for everyday wear, Coco Mademoiselle is the best pick. For a greener, drier kind of elegance, try No. 19."
+    },
+    {
+     "q": "Coco Mademoiselle or Chance: which should I choose?",
+     "a": "Coco Mademoiselle is bolder, with citrus, rose and patchouli and solid staying power from office to dinner. Chance is lighter and fizzier, with pink pepper and hyacinth, built for spring and summer. Pick Coco Mademoiselle for a signature and Chance for something relaxed."
+    },
+    {
+     "q": "Which Chanel perfume is best for the office?",
+     "a": "Allure and Coco Mademoiselle fit best. They have presence without taking over and are easy to wear all day. No. 19 also works if you like green, dry scents. Skip Coco during the day, as its rich spice stands out quickly in a closed office."
+    },
+    {
+     "q": "Is Chanel No. 5 an old lady perfume?",
+     "a": "It is a common complaint, tied to its soapy aldehydes and powdery base. No. 5 carries the style of the 1920s, and that is what makes it unique. Wear it sparingly, one or two sprays, with a simple outfit. The contrast makes it feel far more modern."
+    }
+   ]
+  }
+ },
+ "best:dior:F": {
+  "picks": [
+   "dior-miss-dior",
+   "dior-jadore",
+   "dior-hypnotic-poison",
+   "dior-poison",
+   "dior-dior-joy",
+   "dior-dolce-vita",
+   "dior-dior-addict",
+   "dior-miss-dior-blooming-bouquet"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Dior femme : le classement de la rédaction",
+   "meta": "Du Miss Dior de 1947 à J'adore et Hypnotic Poison : notre classement des meilleurs parfums Dior pour femme, avec l'usage idéal et le défaut de chacun.",
+   "h1": "Les meilleurs parfums Dior pour femme, du chypre de 1947 à Joy",
+   "intro": "Le meilleur parfum Dior pour femme reste pour nous le Miss Dior de 1947. C'est un chypre vert et moussu qui n'a rien perdu de son allure. J'adore arrive deuxième parce qu'il se porte partout, du bureau à un mariage. Hypnotic Poison complète le podium : c'est la vanille la plus trouble de la maison, faite pour le soir. Viennent ensuite cinq parfums plus faciles ou plus datés, classés selon ce qu'ils apportent vraiment.",
+   "sections": [
+    {
+     "title": "Comment nous avons classé les parfums Dior",
+     "body": "Le classement tient compte de quatre choses. L'influence, d'abord. Miss Dior (1947) et Poison (1985) ont chacun marqué leur époque et on les cite encore comme des modèles. La qualité de composition ensuite, jugée sur la netteté des matières et la façon dont le parfum évolue. La polyvalence compte beaucoup. J'adore et Dior Joy se portent au bureau, en journée et en soirée légère, alors que Poison ne sort que quelques soirs d'hiver. C'est ce qui explique qu'un monument comme Poison ne soit que quatrième. La tenue vient en dernier. Elle suit l'intensité : Poison est noté 5 sur 5, Hypnotic Poison et Dior Addict 4, tandis que Miss Dior Blooming Bouquet plafonne à 2 et demande un rappel dans la journée. Nous n'avons pas retenu de flankers récents faute de données fiables. Les huit parfums de cette page couvrent déjà toute la palette de la maison."
+    },
+    {
+     "title": "La rose, fil rouge de la maison",
+     "body": "Un détail frappe quand on aligne ces huit pyramides : la rose est présente dans chacune. Elle se cache derrière le galbanum dans Miss Dior, derrière la tubéreuse dans Poison et Hypnotic Poison. Dans Dior Joy elle devient une rose de Grasse assumée, dans Blooming Bouquet elle accompagne la pivoine. Le jasmin revient presque aussi souvent. Cette constance florale dit quelque chose de Dior : même ses orientaux les plus sombres restent des parfums de fleurs. L'autre constante, ce sont les fruits. On trouve de la prune dans Poison et Hypnotic Poison, de la pêche dans Dolce Vita, Joy et Blooming Bouquet. J'adore préfère la poire et le melon. Dior aime adoucir ses fleurs par un fruit mûr. Le seul parfum qui y échappe est justement le plus ancien, Miss Dior, sec et vert comme on le faisait en 1947."
+    },
+    {
+     "title": "Quel Dior choisir selon le moment",
+     "body": "Pour le bureau, J'adore et Dior Joy sont les choix les plus sûrs. Ils sont lumineux sans excès et se portent de mars à octobre. Miss Dior peut aussi y aller si vous aimez les parfums qui ont du caractère. Pour un rendez-vous ou un dîner d'hiver, Hypnotic Poison reste notre favori, avec Dior Addict pour celles qui veulent une vanille plus florale. Poison se garde pour les grandes soirées et se dose avec une seule pulvérisation. Dolce Vita trouve sa place à la mi-saison, quand il fait doux mais pas chaud. Enfin, pour un premier Dior ou une peau qui supporte mal les parfums denses, Miss Dior Blooming Bouquet est la porte d'entrée la plus douce. Vaporisez-le sur les vêtements, il y tiendra mieux que sur la peau."
+    }
+   ],
+   "why": {
+    "dior-miss-dior": "Notre numéro un est aussi le plus ancien : le chypre de 1947 signé Jean Carles et Paul Vacher. Galbanum et bergamote en tête, puis un cœur de jasmin et de narcisse sur mousse de chêne et labdanum. Il habille comme une veste bien coupée, au bureau ou à un déjeuner important. Attention, il n'a rien à voir avec les Miss Dior récents, bien plus sucrés. Face à Dior Joy, il paraît austère.",
+    "dior-jadore": "Calice Becker a signé en 1999 le floral le plus lumineux de la maison. Poire et melon en tête, puis rose et jasmin sur un fond de musc et de vanille : tout est clair et rien ne dérange. Il va au bureau comme à un mariage, du printemps à la fin de l'été. On lui reproche une certaine sagesse. Moins sombre que Hypnotic Poison, il plaira à celles qui fuient les parfums du soir.",
+    "dior-hypnotic-poison": "Troisième, et c'est la vanille de la maison. Annick Ménardo l'a composée en 1998 avec de la noix de coco, de la prune et de l'abricot, puis une tubéreuse et un fond de vanille musquée qui colle à la peau. On le porte le soir par temps froid. En été, il est trop dense. Plus trouble que Dior Addict, il crée aussi plus de dépendance.",
+    "dior-poison": "Prune confite, coriandre et anis sur une tubéreuse massive : Édouard Fléchier a créé en 1985 le parfum le plus provocant de la décennie. Il atteint 5 sur 5 en intensité, le maximum de cette liste. Une pulvérisation, pas deux. On le classe quatrième malgré son influence parce qu'il se porte peu de soirs par an. Son petit frère Hypnotic Poison est bien plus facile à vivre.",
+    "dior-dior-joy": "Pour le quotidien, c'est le Dior le plus simple à porter. François Demachy a posé une rose de Grasse et une pêche sur des bois musqués où l'on devine le santal et le patchouli. Il passe du printemps à l'automne sans effort et ne gêne personne au bureau. Son défaut est aussi sa qualité : il est lisse. À côté de Miss Dior, il semble presque trop poli.",
+    "dior-dolce-vita": "Sorti en 1994, Dolce Vita sent la tarte aux fruits tiède : pêche et cannelle, lys et santal crémeux. C'est le floral épicé de la sélection, à porter à la mi-saison de jour comme de soir. Son esthétique très années 1990 ne convaincra pas les amatrices de minimalisme. Plus chaleureux que J'adore et moins sucré que Dior Addict, il mérite d'être redécouvert.",
+    "dior-dior-addict": "Floral nocturne de 2002, Dior Addict tourne autour de la fleur de la reine de la nuit et d'une vanille ambrée. Feuille de mandarinier et fleur d'oranger ouvrent la marche, santal et tonka la ferment. C'est un parfum de soirée d'hiver, généreux. En journée, sa densité vanillée sature vite. Moins trouble que Hypnotic Poison, il ira à celles qui trouvent ce dernier trop sombre.",
+    "dior-miss-dior-blooming-bouquet": "Dernier de notre liste, et le plus léger. Pivoine et rose sur un fond de musc, avec de la mandarine et de la pêche en tête : c'est un floral frais de journée signé François Demachy en 2014. Son intensité plafonne à 2 sur 5, donc il faut revaporiser dans l'après-midi. Parfait pour débuter chez Dior. Face au Miss Dior de 1947, il n'a gardé que le nom."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Dior pour femme ?",
+     "a": "Pour nous, le Miss Dior de 1947, un chypre vert au galbanum et à la mousse de chêne. Si vous cherchez un parfum plus consensuel, J'adore est le meilleur choix polyvalent de la maison. Pour le soir et l'hiver, Hypnotic Poison reste la référence vanillée de Dior."
+    },
+    {
+     "q": "Quel parfum Dior porter au bureau ?",
+     "a": "J'adore et Dior Joy sont les plus adaptés : lumineux et présents sans envahir un open space. Miss Dior Blooming Bouquet convient aussi si vous voulez rester très discrète. Évitez Poison et Dior Addict en journée, leur densité se remarque vite dans un espace fermé."
+    },
+    {
+     "q": "Quelle différence entre Poison et Hypnotic Poison ?",
+     "a": "Poison (1985) est une tubéreuse massive, épicée de coriandre et d'anis sur une prune confite. Hypnotic Poison (1998) garde la prune et la tubéreuse mais ajoute de la noix de coco et un fond de vanille musquée. Le second est plus doux et plus gourmand. Le premier est plus puissant et plus théâtral."
+    },
+    {
+     "q": "Le Miss Dior de 1947 est-il le même que le Miss Dior actuel ?",
+     "a": "Non. Le nom a été repris pour des parfums récents bien plus doux et floraux. Le Miss Dior dont nous parlons est le chypre de 1947, vert et moussu, avec galbanum et mousse de chêne. Si vous ne connaissez Miss Dior que par ses publicités récentes, sentez-le avant d'acheter."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Dior Perfume for Women: Our Editors' Ranking",
+   "meta": "From the 1947 Miss Dior to J'adore and Hypnotic Poison: our ranking of the best Dior perfumes for women, with when to wear each one and its catch.",
+   "h1": "The best Dior perfumes for women, from 1947 to Joy",
+   "intro": "Our pick for the best Dior perfume for women is the original Miss Dior from 1947. It is a green, mossy chypre that still looks sharp today. J'adore comes second because it works almost anywhere, from the office to a wedding. Hypnotic Poison takes third as the house's murkiest vanilla, built for evenings. Five more follow. Some are easier to wear, some feel more dated, and each is ranked on what it actually brings.",
+   "sections": [
+    {
+     "title": "How we ranked Dior's perfumes",
+     "body": "Four things shaped the order. Influence came first. Miss Dior (1947) and Poison (1985) each defined their era and are still used as reference points. Composition came next, judged on how clean the materials are and how the scent develops on skin. Versatility counted a lot. J'adore and Dior Joy work at the office, in daytime and on a relaxed evening, while Poison only comes out on a handful of winter nights. That is why a landmark like Poison sits fourth. Performance came last and tracks intensity. Poison scores 5 out of 5, Hypnotic Poison and Dior Addict score 4. Miss Dior Blooming Bouquet tops out at 2 and needs a top-up during the day. We did not include recent flankers because we lack solid data on them. These eight already cover the full range of the house."
+    },
+    {
+     "title": "Rose, the thread that runs through Dior",
+     "body": "Line up the eight pyramids and one detail jumps out: every single one contains rose. It hides behind galbanum in Miss Dior and behind tuberose in Poison and Hypnotic Poison. In Dior Joy it becomes an openly Grasse rose, and in Blooming Bouquet it sits next to peony. Jasmine shows up almost as often. That floral backbone says something about the house. Even its darkest orientals are flower perfumes at heart. The other constant is fruit. Plum turns up in Poison and Hypnotic Poison. Peach appears in Dolce Vita, Joy and Blooming Bouquet, while J'adore prefers pear and melon. Dior likes to soften its flowers with ripe fruit. The one exception is the oldest scent here. Miss Dior stays dry and green, the way chypres were made in 1947."
+    },
+    {
+     "title": "Which Dior for which moment",
+     "body": "For work, J'adore and Dior Joy are the safest bets. They are bright and noticeable without taking over an open-plan office, and they work from March to October. Miss Dior can go to the office too if you like a scent with some backbone. For a date or a winter dinner, Hypnotic Poison is our favourite, with Dior Addict as the more floral vanilla option. Keep Poison for big nights and stop at one spray. Dolce Vita belongs to the in-between seasons, when it is mild but not hot. For a first Dior, or skin that struggles with dense scents, Miss Dior Blooming Bouquet is the gentlest way in. Spray it on your clothes, where it lasts longer than on skin."
+    }
+   ],
+   "why": {
+    "dior-miss-dior": "Our number one is also the oldest: the 1947 chypre by Jean Carles and Paul Vacher. Galbanum and bergamot up top, then jasmine and narcissus over oakmoss and labdanum. It dresses you like a well-cut jacket, at the office or a business lunch. Be warned that it has nothing to do with recent Miss Dior releases, which are far sweeter. Next to Dior Joy it can feel stern.",
+    "dior-jadore": "Calice Becker composed the brightest floral in the house in 1999. Pear and melon open, then rose and jasmine settle over musk and vanilla. Everything is clear and nothing grates. It works at the office and at a wedding, from spring through late summer. The usual complaint is that it plays it safe. Lighter than Hypnotic Poison, it suits women who avoid evening scents.",
+    "dior-hypnotic-poison": "Third place goes to the house vanilla. Annick Ménardo built it in 1998 from coconut, plum and apricot, then tuberose and a musky vanilla base that clings to skin. Wear it at night when it is cold. In summer it is far too dense. Murkier than Dior Addict, it is also more addictive, and plenty of fans never switch.",
+    "dior-poison": "Candied plum, coriander and anise over a huge tuberose. Édouard Fléchier created the most provocative scent of the 1980s in 1985. It hits 5 out of 5 for intensity, the highest on this list. One spray, not two. Despite its influence we rank it fourth because it only suits a few nights a year. Its younger sibling Hypnotic Poison is much easier to live with.",
+    "dior-dior-joy": "For everyday wear, this is the easiest Dior to put on. François Demachy set Grasse rose and peach over musky woods with sandalwood and patchouli underneath. It moves from spring into autumn without effort and bothers nobody at the office. Its flaw is also its strength: it is smooth. Next to Miss Dior it can feel almost too polished.",
+    "dior-dolce-vita": "Launched in 1994, Dolce Vita smells like a warm fruit tart: peach and cinnamon, lily and creamy sandalwood. It is the spicy floral of the selection, good for day or night in spring and autumn. Its very 1990s style will not win over minimalists. Warmer than J'adore and less sweet than Dior Addict, it deserves a second look.",
+    "dior-dior-addict": "A night floral from 2002, Dior Addict revolves around night-blooming cereus and ambered vanilla. Mandarin leaf and orange blossom lead in, sandalwood and tonka close. This is a generous winter evening scent. In daytime its vanilla density gets heavy fast. It is less murky than Hypnotic Poison and suits anyone who finds that one too dark.",
+    "dior-miss-dior-blooming-bouquet": "Last on our list and the lightest. Peony and rose over musk, with mandarin and peach up top: a fresh daytime floral by François Demachy from 2014. Intensity tops out at 2 out of 5, so expect to reapply in the afternoon. It is a good first Dior. Compared with the 1947 Miss Dior, it only kept the name."
+   },
+   "faq": [
+    {
+     "q": "What is the best Dior perfume for women?",
+     "a": "We would pick the 1947 Miss Dior, a green chypre built on galbanum and oakmoss. If you want something more crowd-pleasing, J'adore is the best all-rounder in the house. For evenings and winter, Hypnotic Poison remains Dior's benchmark vanilla."
+    },
+    {
+     "q": "Which Dior perfume is best for the office?",
+     "a": "J'adore and Dior Joy are the best fits. Both are bright and noticeable without filling an open-plan space. Miss Dior Blooming Bouquet works too if you want to stay very discreet. Skip Poison and Dior Addict during the day, since their density stands out in a closed room."
+    },
+    {
+     "q": "What is the difference between Poison and Hypnotic Poison?",
+     "a": "Poison (1985) is a massive tuberose spiced with coriander and anise over candied plum. Hypnotic Poison (1998) keeps the plum and tuberose but adds coconut and a musky vanilla base. The second is softer and more gourmand. The first is louder and more theatrical."
+    },
+    {
+     "q": "Is the 1947 Miss Dior the same as today's Miss Dior?",
+     "a": "No. The name has been reused for recent perfumes that are much softer and more floral. The Miss Dior we rank here is the 1947 chypre, green and mossy with galbanum and oakmoss. If you only know Miss Dior from recent ads, smell this one before you buy."
+    }
+   ]
+  }
+ },
+ "best:dior:M": {
+  "picks": [
+   "dior-eau-sauvage",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "dior-sauvage",
+   "dior-dior-homme-intense",
+   "dior-sauvage-elixir",
+   "dior-fahrenheit-le-parfum"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Dior homme : 7 flacons classés et commentés",
+   "meta": "Eau Sauvage devant Sauvage, Fahrenheit sur le podium : notre classement des meilleurs parfums Dior pour homme, avec le bon usage de chacun.",
+   "h1": "Les meilleurs parfums Dior pour homme, de 1966 à Sauvage Elixir",
+   "intro": "Notre meilleur parfum Dior pour homme n'est pas Sauvage. C'est Eau Sauvage, l'hespéridé d'Edmond Roudnitska sorti en 1966, qui reste une leçon de sobriété. Fahrenheit arrive deuxième pour son accord violette et cuir que personne n'a vraiment copié. Dior Homme complète le podium avec son iris cacaoté. Sauvage, le plus répandu, n'est que quatrième : il est efficace mais on le croise partout. Les versions intenses ferment la liste.",
+   "sections": [
+    {
+     "title": "Pourquoi Eau Sauvage passe devant Sauvage",
+     "body": "Nous avons classé ces sept parfums sur quatre critères : l'influence, la qualité de composition, la polyvalence et la tenue au regard de l'intensité. Eau Sauvage coche les deux premiers mieux que tous les autres. Son citron, son basilic et son jasmin transparent ont servi de modèle à des décennies de fraîcheurs masculines. Sa tenue est modeste (intensité 2 sur 5), et c'est son seul point faible. Sauvage, à l'inverse, gagne haut la main sur la tenue et la polyvalence. Noté 5 sur 5, il se porte de jour comme de soir trois saisons sur quatre. Ce qui le fait reculer, c'est l'originalité. Son ambroxan est devenu l'odeur de toute une génération. Fahrenheit et Dior Homme passent devant lui parce qu'ils ont chacun ouvert une voie : la violette pétrolée pour le premier, l'iris pour homme pour le second."
+    },
+    {
+     "title": "Trois lignées, sept flacons",
+     "body": "La parfumerie masculine de Dior se lit comme trois familles. La première tourne autour du nom Sauvage : Eau Sauvage en 1966, puis Sauvage en 2015 et Sauvage Elixir en 2021. Les deux derniers sont signés François Demachy et partagent la lavande, mais l'Elixir remplace le poivre par la cannelle, la muscade et la réglisse. La deuxième lignée est Fahrenheit. L'original de 1988 joue la violette, la muscade et le cuir. Le Parfum de 2014 ajoute du benjoin et de la tonka et perd un peu de mordant. La troisième est Dior Homme : l'iris cacaoté de 2005, puis l'Intense de 2007 plus beurré, avec ambrette et poire. Dans chaque lignée, notre conseil est le même. Commencez par l'original. Les versions concentrées sont plus sombres et plus sucrées, et elles ne se portent qu'en automne ou en hiver."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Premier, et pas par nostalgie. Edmond Roudnitska a posé en 1966 du citron, du romarin et du basilic sur un jasmin transparent et un fond de mousse de chêne et de vétiver. Le résultat reste net et élégant. Sa tenue est faible, il faut le revaporiser à midi. Face à Sauvage, il paraît discret. C'est justement ce qui le rend si agréable au bureau en été.",
+    "dior-fahrenheit": "Violette, muscade et cuir sur un fond de vétiver : Jean-Louis Sieuzac et Michel Almairac ont signé en 1988 un masculin qui sent l'asphalte chaud. Il divise encore. On l'adore ou on déteste sa note pétrolée. Il se porte le soir ou au bureau par temps frais. Plus singulier que Dior Homme, il est aussi moins facile, et c'est pour ça qu'on l'aime.",
+    "dior-dior-homme": "Olivier Polge a composé en 2005 un iris poudré relevé de cacao, sur un fond de vétiver et de cuir. C'est le Dior qui a rendu la douceur acceptable dans un parfum d'homme. Il va au bureau comme à un rendez-vous, surtout quand il fait frais. Son défaut est un sillage discret. Moins dense que Dior Homme Intense, il reste plus facile à porter de jour.",
+    "dior-sauvage": "Quatrième, et on assume. Bergamote électrique, poivre du Sichuan et lavande sur un fond d'ambroxan : François Demachy a créé en 2015 un parfum redoutable d'efficacité. Il se porte partout, trois saisons sur quatre, et tient toute la journée. Le problème, c'est qu'on le sent sur tout le monde. Si vous voulez vous démarquer, Fahrenheit ou Eau Sauvage feront mieux.",
+    "dior-dior-homme-intense": "Version plus riche de Dior Homme, sortie en 2007. L'iris devient beurré, soutenu par l'ambrette et une touche de poire, sur un fond de cèdre et de vétiver. C'est un parfum de soirée d'automne ou d'hiver, pour un dîner habillé. Certains le trouveront trop poudré. Face à l'original, il gagne en profondeur ce qu'il perd en polyvalence.",
+    "dior-sauvage-elixir": "Muscade, cannelle et cardamome sur un fond de réglisse, de santal et d'ambre : l'Elixir de 2021 garde la lavande de Sauvage et oublie sa fraîcheur. Il est noté 5 sur 5 en intensité. Une seule vaporisation suffit pour une soirée entière. Plus sombre et plus épicé que Sauvage, il n'a presque plus rien de l'original. On le réserve aux soirées froides.",
+    "dior-fahrenheit-le-parfum": "Dernier de la liste, mais loin d'être raté. François Demachy a repris en 2014 la violette et le cuir de Fahrenheit en ajoutant du benjoin et de la tonka. Le résultat est velouté et nocturne. Il manque le mordant pétrolé qui faisait le sel de l'original de 1988. À choisir si vous aimez Fahrenheit mais le trouvez trop tranchant."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Dior pour homme ?",
+     "a": "Pour nous, Eau Sauvage : un hespéridé de 1966 d'une grande élégance, parfait par temps chaud. Si vous cherchez plus de tenue, Sauvage est le choix le plus efficace de la maison. Pour un parfum qui sort de l'ordinaire, Fahrenheit reste inimitable avec sa violette et son cuir."
+    },
+    {
+     "q": "Sauvage ou Eau Sauvage : lequel choisir ?",
+     "a": "Ce sont deux parfums différents. Eau Sauvage (1966) est un hespéridé aromatique léger, au citron et au basilic, qui tient peu. Sauvage (2015) est une fougère poivrée à l'ambroxan, très puissante et très diffusante. Le premier est plus raffiné, le second plus pratique pour une longue journée."
+    },
+    {
+     "q": "Quelle différence entre Dior Homme et Dior Homme Intense ?",
+     "a": "Les deux reposent sur l'iris. Dior Homme (2005) l'associe au cacao, à la lavande et au cuir pour un résultat poudré qui se porte de jour. Dior Homme Intense (2007) le rend beurré avec de l'ambrette et de la poire. Il est plus dense et mieux adapté au soir et à l'hiver."
+    },
+    {
+     "q": "Quel parfum Dior pour homme porter en été ?",
+     "a": "Eau Sauvage est le plus adapté aux fortes chaleurs grâce à son citron et à ses herbes. Sauvage fonctionne aussi en été mais sa puissance demande une main légère : une ou deux pulvérisations. Évitez Sauvage Elixir et Fahrenheit Le Parfum, pensés pour l'automne et l'hiver."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Dior Cologne for Men: 7 Bottles Ranked",
+   "meta": "Eau Sauvage beats Sauvage and Fahrenheit makes the podium: our ranking of the best Dior fragrances for men, with when to wear each one.",
+   "h1": "The best Dior fragrances for men, from 1966 to Sauvage Elixir",
+   "intro": "Our best Dior cologne for men is not Sauvage. It is Eau Sauvage, the 1966 citrus by Edmond Roudnitska, still a masterclass in restraint. Fahrenheit comes second for a violet and leather accord that nobody has really copied. Dior Homme takes third with its cocoa-tinged iris. Sauvage, the one everybody owns, lands fourth. It works, but you smell it on everyone. The intense versions close out the list.",
+   "sections": [
+    {
+     "title": "Why Eau Sauvage beats Sauvage",
+     "body": "We ranked these seven on four criteria: influence, quality of composition, versatility and performance relative to intensity. Eau Sauvage scores best on the first two. Its lemon, basil and sheer jasmine shaped decades of fresh men's fragrance. Longevity is modest (intensity 2 out of 5), and that is its only real weakness. Sauvage is the opposite. It wins easily on performance and versatility, scoring 5 out of 5 and working day or night for three seasons. What holds it back is originality. Its ambroxan became the default smell of a whole generation. Fahrenheit and Dior Homme rank above it because each one opened a new path. Fahrenheit made petrol-tinged violet wearable, and Dior Homme brought iris into men's fragrance."
+    },
+    {
+     "title": "Three bloodlines, seven bottles",
+     "body": "Dior's men's range reads like three families. The first centres on the Sauvage name: Eau Sauvage in 1966, then Sauvage in 2015 and Sauvage Elixir in 2021. The last two are by François Demachy and share lavender, but the Elixir swaps pepper for cinnamon, nutmeg and liquorice. The second family is Fahrenheit. The 1988 original plays violet, nutmeg and leather. Le Parfum from 2014 adds benzoin and tonka and loses some bite. The third is Dior Homme. The 2005 cocoa iris was followed in 2007 by the Intense, a butterier take with ambrette and pear. Our advice is the same in each family. Start with the original. The concentrated versions are darker and sweeter, and they only really work in autumn and winter."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "First place, and not out of nostalgia. In 1966 Edmond Roudnitska set lemon, rosemary and basil over sheer jasmine with an oakmoss and vetiver base. It still smells crisp and elegant. Longevity is weak, so plan on a second spray at lunch. Next to Sauvage it seems quiet, which is exactly why it is so pleasant at the office in summer.",
+    "dior-fahrenheit": "Violet, nutmeg and leather over vetiver. Jean-Louis Sieuzac and Michel Almairac created a masculine in 1988 that smells like warm asphalt. It still divides people: you love the petrol note or you cannot stand it. Wear it in the evening or at the office when it is cool. It is stranger than Dior Homme and harder to wear, which is why we like it.",
+    "dior-dior-homme": "Olivier Polge composed a powdery iris with a touch of cocoa in 2005, resting on vetiver and leather. This is the Dior that made softness acceptable in a men's scent. It works at the office and on a date, especially in cooler weather. The downside is a quiet trail. It is less dense than Dior Homme Intense and easier to wear by day.",
+    "dior-sauvage": "Fourth, and we stand by it. Electric bergamot, Sichuan pepper and lavender over ambroxan: François Demachy made a ruthlessly effective scent in 2015. It works almost anywhere for three seasons and lasts all day. The problem is that everyone wears it. If you want to stand out, Fahrenheit or Eau Sauvage will serve you better.",
+    "dior-dior-homme-intense": "A richer take on Dior Homme, released in 2007. The iris turns buttery, backed by ambrette and a hint of pear over cedar and vetiver. It is an autumn or winter evening scent for a dressed-up dinner. Some will find it too powdery. Compared with the original, it gains depth and loses versatility.",
+    "dior-sauvage-elixir": "Nutmeg, cinnamon and cardamom over liquorice, sandalwood and amber. The 2021 Elixir keeps Sauvage's lavender and drops its freshness. It scores 5 out of 5 for intensity, so one spray covers a whole evening. Darker and spicier than Sauvage, it has almost nothing left of the original. Keep it for cold nights.",
+    "dior-fahrenheit-le-parfum": "Last on the list, but far from a failure. In 2014 François Demachy took Fahrenheit's violet and leather and added benzoin and tonka. The result is velvety and nocturnal. It lacks the petrol bite that made the 1988 original special. Choose it if you like Fahrenheit but find it too sharp."
+   },
+   "faq": [
+    {
+     "q": "What is the best Dior cologne for men?",
+     "a": "Our pick is Eau Sauvage, an elegant 1966 citrus that shines in warm weather. If you need more staying power, Sauvage is the most effective option in the range. For something out of the ordinary, Fahrenheit remains one of a kind with its violet and leather."
+    },
+    {
+     "q": "Sauvage or Eau Sauvage: which should I buy?",
+     "a": "They are two different scents. Eau Sauvage (1966) is a light aromatic citrus with lemon and basil that fades fairly fast. Sauvage (2015) is a peppery fougère built on ambroxan, very strong and very loud. The first is more refined. The second is more practical for a long day."
+    },
+    {
+     "q": "What is the difference between Dior Homme and Dior Homme Intense?",
+     "a": "Both are built on iris. Dior Homme (2005) pairs it with cocoa, lavender and leather for a powdery scent you can wear by day. Dior Homme Intense (2007) makes the iris buttery with ambrette and pear. It is denser and better suited to evenings and winter."
+    },
+    {
+     "q": "Which Dior cologne is best for summer?",
+     "a": "Eau Sauvage handles heat best thanks to its lemon and herbs. Sauvage also works in summer, but its strength calls for a light hand, one or two sprays at most. Skip Sauvage Elixir and Fahrenheit Le Parfum in hot weather. Both are built for autumn and winter."
+    }
+   ]
+  }
+ },
+ "best:guerlain:F": {
+  "picks": [
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "guerlain-linstant-de-guerlain",
+   "guerlain-vol-de-nuit",
+   "guerlain-jicky",
+   "guerlain-la-petite-robe-noire",
+   "guerlain-mon-guerlain",
+   "guerlain-aqua-allegoria-mandarine-basilic"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Guerlain femme : Shalimar, Mitsouko et les autres",
+   "meta": "Shalimar en tête, Mitsouko juste derrière : notre classement des meilleurs parfums Guerlain pour femme, des monuments aux créations récentes.",
+   "h1": "Les meilleurs parfums Guerlain pour femme, de Jicky à Mon Guerlain",
+   "intro": "Le meilleur parfum Guerlain pour femme, c'est Shalimar. Sorti en 1925, il a donné sa forme à l'oriental vanillé et reste le plus magnétique de la maison. Mitsouko le suit de près : un chypre à la pêche, plus mélancolique et plus exigeant. L'Instant de Guerlain complète notre podium, parce qu'il offre la finesse Guerlain dans un parfum qu'on porte aussi au bureau. Le reste de la liste va du flacon d'archives aux créations des années 2000.",
+   "sections": [
+    {
+     "title": "Nos critères pour classer les Guerlain",
+     "body": "Classer Guerlain oblige à trancher entre l'histoire et l'usage. Nous avons retenu quatre critères. L'influence pèse lourd ici, car la maison a produit plusieurs parfums que toute la profession cite encore. La qualité de composition vient ensuite. La polyvalence compte aussi : un parfum qu'on peut porter du bureau au dîner gagne des places. C'est ce qui fait monter L'Instant de Guerlain devant Vol de Nuit, plus beau peut-être mais plus difficile. La tenue, enfin, dépend de l'intensité. Shalimar, noté 4 sur 5, dure longtemps sur la peau. Aqua Allegoria Mandarine Basilic, noté 2, s'efface dans l'après-midi. Nous avons classé Jicky, officiellement mixte, parce que beaucoup de femmes le portent et qu'on ne comprend pas Guerlain sans lui. Mon Guerlain et La Petite Robe Noire, plus récents, arrivent derrière les grands classiques sans démériter."
+    },
+    {
+     "title": "Une même famille, de Jicky à Mon Guerlain",
+     "body": "Ce qui relie ces huit parfums porte un nom chez les amateurs : la guerlinade. On la reconnaît à quelques matières qui reviennent sans cesse. Il y a la bergamote en tête, présente dans sept parfums sur huit. L'iris apparaît au cœur de Shalimar, Vol de Nuit, Jicky et Mon Guerlain. Au fond, la vanille domine, souvent accompagnée de tonka. Trois parfums de cette page viennent de Jacques Guerlain : Mitsouko en 1919, Shalimar en 1925 et Vol de Nuit en 1933. Jicky, signé Aimé Guerlain dès 1889, posait déjà l'accord lavande et vanille. Plus de cent ans plus tard, Mon Guerlain de Thierry Wasser et Delphine Jelk associe à nouveau lavande et vanille, en plus tendre. Cette continuité est la force de la maison. Elle a aussi une limite : si la vanille poudrée vous ennuie, peu de Guerlain vous séduiront, à part Mitsouko et l'Aqua Allegoria."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Premier sans discussion. Jacques Guerlain a fait s'effondrer en 1925 une bergamote éclatante dans une vanille fumée, relevée de tonka et d'opoponax. C'est le modèle de tous les orientaux vanillés. Il se porte le soir, par temps froid, sur une peau qui aime les sillages denses. Sa vanille est plus solennelle que caressante. Face à Mon Guerlain, il paraît austère mais bien plus profond.",
+    "guerlain-mitsouko": "Une pêche veloutée posée sur la mousse de chêne et le vétiver : Mitsouko date de 1919 et reste le chypre le plus nuancé qui soit. On le porte par temps doux et gris, au bureau comme à l'opéra. Il faut plusieurs essais avant qu'il se livre. Moins sucré que Shalimar, il plaira à celles qui préfèrent l'intrigue à l'évidence.",
+    "guerlain-linstant-de-guerlain": "Troisième, et c'est notre choix le plus polyvalent. Maurice Roucel a composé en 2003 un oriental lumineux autour du magnolia et de l'anis étoilé, posé sur un ambre miellé. Il va au bureau comme le soir, de l'automne au printemps. On le juge souvent trop discret à côté des monuments de la maison. Plus clair que Shalimar, il se porte beaucoup plus facilement en journée.",
+    "guerlain-vol-de-nuit": "Galbanum amer et iris poudré sur une vanille boisée : Jacques Guerlain a signé Vol de Nuit en 1933. C'est un parfum d'une nuance rare, rétro par sa poudre, qu'on porte le soir avec un vêtement qui a de la tenue. Il demande un nez patient. Plus vert en ouverture que Shalimar, il est aussi moins chaleureux et moins facile à aimer au premier essai.",
+    "guerlain-jicky": "Officiellement mixte, Jicky a été créé par Aimé Guerlain en 1889. Lavande, bergamote et citron ouvrent sur un cœur floral, puis une vanille et une tonka marquées d'une pointe de civette. Cette facette animale déroute les nez habitués aux parfums propres. On le porte par temps frais. Mon Guerlain reprend son duo lavande et vanille en version plus lisse et plus sage.",
+    "guerlain-la-petite-robe-noire": "Cerise noire, amande et thé fumé sur un fond de vanille et de tonka : c'est le gourmand de la maison, signé Thierry Wasser et Delphine Jelk en 2009. Il convient à un rendez-vous ou à une sortie décontractée, du printemps à l'hiver. La cerise très présente ne plaira pas à tout le monde. Moins sucré qu'il n'y paraît, il reste plus espiègle que Mon Guerlain.",
+    "guerlain-mon-guerlain": "Lavande de Provence et vanille crémeuse : en 2017, Mon Guerlain retrouve le duo de Jicky en version tendre. Il se porte au quotidien, au bureau ou le soir, dès que le temps fraîchit. On lui reproche d'être sage face aux grands classiques et c'est vrai. Pour une femme qui découvre Guerlain, c'est pourtant une entrée plus accessible que Shalimar.",
+    "guerlain-aqua-allegoria-mandarine-basilic": "Clémentine, thé vert et basilic sur un fond léger de santal : c'est le seul Guerlain frais de la sélection. Il sent le verger méditerranéen à midi et met de bonne humeur. Sa tenue est limitée et il faut le revaporiser dans la journée. À l'opposé de Shalimar en tout point, il sert de parfum d'été à celles qui portent la vanille le reste de l'année."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Guerlain pour femme ?",
+     "a": "Shalimar, sorti en 1925, reste le plus marquant : une bergamote qui fond dans une vanille fumée. Si vous préférez un parfum moins sucré, Mitsouko est le grand chypre de la maison. Pour un usage quotidien, L'Instant de Guerlain est le choix le plus facile à porter."
+    },
+    {
+     "q": "Quel parfum Guerlain choisir pour un premier achat ?",
+     "a": "Mon Guerlain est une bonne porte d'entrée : lavande et vanille crémeuse, sans rien de difficile. L'Instant de Guerlain convient aussi, plus lumineux. Shalimar et Mitsouko méritent d'être essayés sur la peau avant l'achat car leur caractère surprend souvent au premier contact."
+    },
+    {
+     "q": "Quel parfum Guerlain porter en été ?",
+     "a": "Aqua Allegoria Mandarine Basilic, pensé pour le printemps et l'été, avec sa clémentine et son basilic. Les grands classiques de la maison (Shalimar, Vol de Nuit, Jicky) sont faits pour le froid. Mitsouko peut accompagner une journée douce de fin d'été, mais pas une vraie canicule."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Guerlain Perfume for Women: Shalimar, Mitsouko and More",
+   "meta": "Shalimar leads and Mitsouko follows close behind in our ranking of the best Guerlain perfumes for women, from house legends to modern releases.",
+   "h1": "The best Guerlain perfumes for women, from Jicky to Mon Guerlain",
+   "intro": "The best Guerlain perfume for women is Shalimar. Launched in 1925, it gave the vanilla oriental its shape and is still the house's most magnetic scent. Mitsouko is a close second, a peach chypre that is more wistful and more demanding. L'Instant de Guerlain completes our podium because it brings Guerlain finesse to something you can also wear to work. The rest of the list runs from archive classics to scents from the 2000s.",
+   "sections": [
+    {
+     "title": "How we ranked the Guerlains",
+     "body": "Ranking Guerlain means choosing between history and everyday use. We settled on four criteria. Influence carries real weight here, since the house has made several perfumes the whole industry still cites. Composition comes next. Versatility counts too: a scent you can wear from the office to dinner moves up. That is why L'Instant de Guerlain edges ahead of Vol de Nuit, which may be more beautiful but is much harder to wear. Performance depends on intensity. Shalimar, at 4 out of 5, lasts a long time on skin. Aqua Allegoria Mandarine Basilic, at 2, is gone by mid-afternoon. We included Jicky even though it is officially unisex. Plenty of women wear it, and you cannot understand Guerlain without it. Mon Guerlain and La Petite Robe Noire, the newer scents, sit behind the big classics without embarrassing themselves."
+    },
+    {
+     "title": "One family, from Jicky to Mon Guerlain",
+     "body": "Fans have a name for what ties these eight together: the Guerlinade. You spot it through a handful of materials that keep coming back. Bergamot sits at the top of seven of the eight. Iris appears in the heart of Shalimar, Vol de Nuit, Jicky and Mon Guerlain. Vanilla rules the base, often with tonka alongside. Three of the scents here are by Jacques Guerlain: Mitsouko in 1919, Shalimar in 1925 and Vol de Nuit in 1933. Jicky, by Aimé Guerlain in 1889, already paired lavender with vanilla. More than a century later, Mon Guerlain by Thierry Wasser and Delphine Jelk pairs lavender and vanilla again, in a softer key. This continuity is the house's strength. It is also a limit. If powdery vanilla bores you, few Guerlains will win you over apart from Mitsouko and the Aqua Allegoria."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "First place, no debate. In 1925 Jacques Guerlain let a bright bergamot collapse into smoky vanilla, lifted with tonka and opoponax. Every vanilla oriental since owes it something. Wear it on cold evenings, on skin that handles a dense trail. Its vanilla is more solemn than cuddly. Next to Mon Guerlain it feels stern, but it is far deeper.",
+    "guerlain-mitsouko": "A velvety peach laid over oakmoss and vetiver. Mitsouko dates from 1919 and remains the most nuanced chypre around. It suits mild grey days, at the office or at the opera. It takes a few wearings before it opens up to you. Less sweet than Shalimar, it rewards women who prefer mystery to the obvious.",
+    "guerlain-linstant-de-guerlain": "Third place, and our most versatile pick. Maurice Roucel built a luminous oriental around magnolia and star anise in 2003, set over honeyed amber. It works at the office and in the evening, from autumn to spring. People often call it too quiet next to the house legends. It is brighter than Shalimar and far easier to wear in daytime.",
+    "guerlain-vol-de-nuit": "Bitter galbanum and powdery iris over woody vanilla, signed by Jacques Guerlain in 1933. It has rare nuance and a retro powderiness, and it wants an evening and an outfit with some structure. It asks for a patient nose. Greener at the start than Shalimar, it is also less warm and harder to love on the first try.",
+    "guerlain-jicky": "Officially unisex, Jicky was created by Aimé Guerlain in 1889. Lavender, bergamot and lemon open onto a floral heart, then vanilla and tonka with a streak of civet. That animal edge throws noses used to clean scents. Wear it in cool weather. Mon Guerlain revisits its lavender and vanilla pairing, only smoother and more polite.",
+    "guerlain-la-petite-robe-noire": "Black cherry, almond and smoky tea over vanilla, tonka and anise. This is the house gourmand, by Thierry Wasser and Delphine Jelk in 2009. It suits a date or a casual night out, from spring to winter. The loud cherry will not please everyone. It is less sugary than it looks and more playful than Mon Guerlain.",
+    "guerlain-mon-guerlain": "Provençal lavender and creamy vanilla: in 2017 Mon Guerlain returned to Jicky's pairing in a tender key. You can wear it every day, at work or in the evening, once the weather cools. Critics call it tame next to the big classics, and they have a point. For a woman new to Guerlain, though, it is an easier way in than Shalimar.",
+    "guerlain-aqua-allegoria-mandarine-basilic": "Clementine, green tea and basil over a light sandalwood base. It is the only fresh Guerlain in the selection. It smells like a Mediterranean orchard at noon and lifts your mood. Longevity is limited, so reapply during the day. The opposite of Shalimar in every way, it makes a good summer scent for women who wear vanilla the rest of the year."
+   },
+   "faq": [
+    {
+     "q": "What is the best Guerlain perfume for women?",
+     "a": "Shalimar, launched in 1925, is still the standout: bergamot melting into smoky vanilla. If you prefer something less sweet, Mitsouko is the house's great chypre. For everyday wear, L'Instant de Guerlain is the easiest one to live with."
+    },
+    {
+     "q": "Which Guerlain should I buy first?",
+     "a": "Mon Guerlain is a good starting point: lavender and creamy vanilla with nothing difficult about it. L'Instant de Guerlain also works and is brighter. Try Shalimar and Mitsouko on skin before buying, because their character often surprises people at first."
+    },
+    {
+     "q": "Which Guerlain perfume is best for summer?",
+     "a": "Aqua Allegoria Mandarine Basilic, made for spring and summer with its clementine and basil. The big house classics like Shalimar, Vol de Nuit and Jicky are cold-weather scents. Mitsouko can handle a mild late-summer day, but not a real heatwave."
+    }
+   ]
+  }
+ },
+ "best:tom-ford:M": {
+  "picks": [
+   "tom-ford-oud-wood",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-noir-extreme",
+   "tom-ford-tuscan-leather",
+   "tom-ford-ombre-leather",
+   "tom-ford-neroli-portofino",
+   "tom-ford-tobacco-oud",
+   "tom-ford-fucking-fabulous"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Tom Ford homme : notre classement en 8 flacons",
+   "meta": "Oud Wood en tête, Tobacco Vanille juste derrière : notre classement des meilleurs parfums Tom Ford pour homme, avec la tenue et le défaut de chacun.",
+   "h1": "Les meilleurs parfums Tom Ford pour homme, classés sans détour",
+   "intro": "Le meilleur parfum Tom Ford pour homme, pour nous, c'est Oud Wood : un oud poli qu'on porte au bureau sans envahir l'open space. Tobacco Vanille arrive deuxième, plus dense et plus sucré, pour les soirées froides. Noir Extrême ferme le podium et c'est le seul masculin officiel de la sélection. Les cinq suivants sont mixtes sur le papier. Dans les faits, ce sont des parfums que les hommes portent autant que les femmes, et parfois davantage.",
+   "sections": [
+    {
+     "title": "Nos critères pour classer les Tom Ford",
+     "body": "Quatre critères ont compté. L'influence d'abord : Tobacco Vanille, Oud Wood et Tuscan Leather sont tous trois sortis en 2007. Ils ont fixé le style de la maison et ont été copiés partout. Vient ensuite la qualité de composition, jugée sur la lisibilité des matières. La polyvalence pèse lourd, car un parfum qu'on ne sort que trois soirs par an vaut moins qu'un parfum qu'on porte tout l'hiver. C'est pour ça qu'Oud Wood, noté 3 sur 5 en intensité et adapté au bureau, passe devant Tobacco Vanille. Dernier critère, la tenue. Elle n'est jamais un problème chez Tom Ford, sauf pour Neroli Portofino. Le vrai sujet est plutôt l'excès : Tuscan Leather, Tobacco Vanille et Tobacco Oud sont notés 5 sur 5 et une pulvérisation de trop suffit à gâcher une soirée. Nous avons écarté Lost Cherry, Bitter Peach et Soleil Blanc. Portés surtout par des femmes, ils auraient brouillé une sélection pensée pour les hommes."
+    },
+    {
+     "title": "Un fumoir, du cuir et du safran : la cohérence Tom Ford",
+     "body": "Mettez ces huit parfums côte à côte et un décor apparaît. Il y a du tabac dans Tobacco Vanille et Tobacco Oud. Il y a du cuir dans Tuscan Leather, Ombre Leather et Fucking Fabulous. Un fil de safran court aussi de Noir Extrême à Tuscan Leather en passant par Ombre Leather. Les fonds reviennent aussi : santal, ambre, vanille ou tonka dans presque chaque flacon. La maison pense en saisons froides. Sept de nos huit picks sont classés automne et hiver. L'unique exception, Neroli Portofino, fait figure de parenthèse méditerranéenne. Cette constance a un revers. Les parfums se ressemblent par leur densité et un homme qui en possède déjà deux cherchera ailleurs un parfum sec ou vert. Pour un premier Tom Ford, on conseille donc de partir du registre qu'on aime déjà : le cuir, le tabac ou l'oud."
+    },
+    {
+     "title": "Quel Tom Ford choisir selon l'usage",
+     "body": "Pour le travail, Oud Wood reste le choix le plus sûr, avec Ombre Leather en second si vous préférez le cuir. Pour un dîner ou un rendez-vous d'hiver, Tobacco Vanille et Noir Extrême se disputent la place : le premier sent le tabac blond et les fruits secs, le second le lait épicé et la rose. En été, seul Neroli Portofino tient la route, et il faudra le revaporiser l'après-midi. Les amateurs de sensations fortes iront vers Tuscan Leather ou Tobacco Oud, à réserver aux soirs de grand froid. Un conseil d'application vaut pour toute la gamme : vaporisez sur la peau du torse ou sur l'intérieur d'une veste plutôt que sur le cou. La diffusion est plus lente, et vos voisins de table vous remercieront."
+    }
+   ],
+   "why": {
+    "tom-ford-oud-wood": "Premier de notre classement parce qu'il va partout. Cardamome et poivre du Sichuan ouvrent sur un oud sec, adouci par la tonka et le santal, sans rien d'animal. C'est le Tom Ford qu'on porte au bureau en hiver. Sa tenue reste moyenne et les amateurs d'ouds bruts le trouveront sage. À côté de Tobacco Oud, il paraît presque transparent, ce qui est justement ce qu'on lui demande.",
+    "tom-ford-tobacco-vanille": "Tabac miellé, vanille épaisse, fruits secs et daim : c'est le parfum que tout le monde associe à la maison. Mixte sur le papier, il parle beaucoup aux hommes grâce à sa bouffée de feuille de tabac. Une pulvérisation suffit et deux saturent une pièce. Plus sucré que Noir Extrême et moins fumé que Tobacco Oud, il ne sort qu'avec le froid. Par temps doux, il devient pâteux.",
+    "tom-ford-noir-extreme": "Seul masculin officiel du lot. Le safran et la mandarine laissent vite place au kulfi, ce dessert indien lacté, puis à un fond d'ambre et de santal. On le classe troisième pour sa rondeur bien construite et sa tenue solide. Les hommes qui aiment les masculins secs le trouveront trop doux. Il reste plus facile à porter que Tobacco Vanille en soirée d'automne, car moins massif.",
+    "tom-ford-tuscan-leather": "Framboise, safran et thym sur un cuir brut, signé Harry Frémont en 2007. C'est le cuir le plus puissant de la maison, avec une odeur de sellerie qui se passe d'explication. Une seule vaporisation, sur le torse plutôt que dans le cou. Plus sauvage qu'Ombre Leather, il est aussi bien moins facile à vivre. On le réserve aux soirées d'hiver et aux hommes qui assument d'être remarqués.",
+    "tom-ford-ombre-leather": "Pour un cuir de tous les jours, c'est lui. Sonia Constant a posé de la cardamome et du jasmin sur un cuir souple, avec un fond de mousse et de musc. Il se porte en soirée comme le week-end, par temps frais. Comparé à Tuscan Leather, il est plus lisse et moins marquant. Certains y voient un manque de relief. Nous y voyons la raison pour laquelle on le remet plus souvent.",
+    "tom-ford-neroli-portofino": "Le seul pick d'été de ce classement. Rodrigo Flores-Roux a construit une cologne de luxe : bergamote, citron, néroli et fleur d'oranger sur un fond musqué et angélique. Elle va au bureau comme en vacances. Le défaut est connu, une fraîcheur de ce type tient peu et il faut revaporiser dans l'après-midi. À l'opposé de Tobacco Oud, c'est l'autre visage de Tom Ford.",
+    "tom-ford-tobacco-oud": "Whisky, cannelle, tabac et oud sur un fond de castoréum : c'est le plus sombre de la liste. On le garde pour les soirées d'hiver et les grandes occasions, en quantité mesurée. Plus fumé et plus boisé que Tobacco Vanille, il est aussi moins sucré, ce qui plaira aux hommes que la vanille lasse. Au quotidien, il est trop lourd et on ne va pas le cacher.",
+    "tom-ford-fucking-fabulous": "Derrière le nom tapageur se cache un cuir amandé d'une grande finesse. Sauge sclarée et lavande en tête, puis un cœur d'amande, d'iris et de vanille posé sur le cashmeran. Il plaît aux hommes qui aiment les cuirs poudrés : plus doux que Tuscan Leather, plus crémeux qu'Ombre Leather. On le place huitième parce que son nom freine beaucoup d'acheteurs, pas à cause de la composition."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Tom Ford pour homme ?",
+     "a": "Pour un seul flacon, on conseille Oud Wood : il se porte au bureau comme le soir et reste discret. Si vous voulez un parfum de soirée plus marquant, Tobacco Vanille est la référence de la maison. Noir Extrême est le meilleur choix si vous tenez à un parfum officiellement masculin."
+    },
+    {
+     "q": "Les parfums Tom Ford mixtes conviennent-ils aux hommes ?",
+     "a": "Oui, et c'est même la majorité de la gamme. Oud Wood, Tobacco Vanille ou Tuscan Leather sont classés mixtes. Leurs matières sont pourtant celles de la parfumerie masculine classique : tabac, cuir, oud et épices. Seuls quelques fruités comme Lost Cherry penchent nettement vers un public féminin."
+    },
+    {
+     "q": "Quel parfum Tom Ford pour homme porter en été ?",
+     "a": "Neroli Portofino, sans hésiter. C'est une cologne d'agrumes et de néroli, légère et nette, qui va du bureau à la plage. Les autres parfums de la maison sont pensés pour l'automne et l'hiver. Par forte chaleur, Tobacco Vanille ou Tuscan Leather deviennent vite étouffants."
+    },
+    {
+     "q": "Combien de pulvérisations pour un parfum Tom Ford ?",
+     "a": "Une seule pour les plus puissants : Tobacco Vanille, Tuscan Leather et Tobacco Oud. Deux pour Oud Wood, Ombre Leather ou Noir Extrême, qui diffusent moins. Neroli Portofino supporte trois pulvérisations et un rappel dans la journée. Visez le torse ou les vêtements plutôt que le cou."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best Tom Ford Cologne for Men: 8 Bottles, Ranked",
+   "meta": "Oud Wood and Tobacco Vanille lead our ranking of the best Tom Ford fragrances for men, with longevity, best season and the catch for each one.",
+   "h1": "The best Tom Ford fragrances for men, ranked honestly",
+   "intro": "Our top Tom Ford for men is Oud Wood. It is a polished oud you can wear to the office without clearing the room. Tobacco Vanille comes second: denser, sweeter, and made for cold nights. Noir Extreme rounds out the podium as the only official men's scent on the list. The other five are sold as unisex. In practice, men wear them at least as much as women do.",
+   "sections": [
+    {
+     "title": "How we ranked them",
+     "body": "We looked at four things. Influence came first. Tobacco Vanille, Oud Wood and Tuscan Leather all launched in 2007 and defined the house style, then got copied everywhere. Next came composition, judged on how clearly the materials read. Versatility weighed heavily. A scent you wear all winter beats one you pull out three nights a year, which is why Oud Wood (intensity 3 out of 5, office-friendly) edges out Tobacco Vanille. Last came performance. Longevity is rarely an issue with Tom Ford, Neroli Portofino aside. Overdoing it is the real risk: Tuscan Leather, Tobacco Vanille and Tobacco Oud all score 5 out of 5, and one spray too many can ruin a dinner. We left out Lost Cherry, Bitter Peach and Soleil Blanc. They are mostly worn by women, and we wanted a list that makes sense for men."
+    },
+    {
+     "title": "Smoke, leather and saffron: the house signature",
+     "body": "Line these eight bottles up and a room appears. Tobacco runs through Tobacco Vanille and Tobacco Oud. Leather runs through Tuscan Leather, Ombre Leather and Fucking Fabulous. A thread of saffron runs from Noir Extreme through Ombre Leather to Tuscan Leather. The bases repeat too: sandalwood, amber, vanilla or tonka turn up in nearly every one. This is a house that thinks in cold weather. Seven of our eight picks are rated for autumn and winter. The lone exception, Neroli Portofino, reads like a Mediterranean holiday from the rest. That consistency has a downside. The scents share a certain density, so a man who already owns two may want something dry or green from another brand. For a first Tom Ford, start from a register you already like: leather, tobacco or oud."
+    },
+    {
+     "title": "Which one for which occasion",
+     "body": "For work, Oud Wood is the safe bet, with Ombre Leather as the backup if you prefer leather. For a winter dinner or a date, Tobacco Vanille and Noir Extreme compete for the spot. The first smells of blond tobacco and dried fruit, the second of spiced milk and rose. In summer, only Neroli Portofino works, and you will need to reapply by mid-afternoon. If you want something loud, go for Tuscan Leather or Tobacco Oud and keep them for properly cold nights. One tip applies across the range. Spray your chest or the lining of a jacket rather than your neck. The scent unfolds more slowly that way, and the people sitting next to you will appreciate it."
+    }
+   ],
+   "why": {
+    "tom-ford-oud-wood": "Number one because it works almost anywhere. Cardamom and Sichuan pepper open onto a dry oud, softened with tonka and sandalwood, with nothing barnyard about it. This is the Tom Ford you can wear to the office in January. Longevity is only average, and fans of raw oud will call it tame. Next to Tobacco Oud it feels almost sheer, which is exactly the point.",
+    "tom-ford-tobacco-vanille": "Honeyed tobacco, thick vanilla, dried fruit and suede. This is the scent most people picture when they hear the name. It is unisex on paper, but that puff of tobacco leaf speaks loudly to men. One spray is enough and two will fill a room. Sweeter than Noir Extreme and less smoky than Tobacco Oud, it only works in the cold. In mild weather it turns cloying.",
+    "tom-ford-noir-extreme": "The only official men's fragrance here. Saffron and mandarin give way quickly to kulfi, the milky Indian dessert, then to amber and sandalwood. We rank it third for its well-built warmth and solid staying power. If you like your masculines dry, you will find it too soft. It is still easier to wear than Tobacco Vanille on an autumn evening because it is less massive.",
+    "tom-ford-tuscan-leather": "Raspberry, saffron and thyme over raw leather, composed by Harry Frémont in 2007. It is the most powerful leather in the lineup and smells unmistakably of a saddle shop. Use one spray on the chest, not the neck. It is wilder than Ombre Leather and far harder to live with. Save it for winter nights, and only if you are happy to be noticed.",
+    "tom-ford-ombre-leather": "If you want a leather for everyday wear, this is it. Sonia Constant set cardamom and jasmine on supple leather over moss and musk. It works for evenings and weekends in cool weather. Compared with Tuscan Leather it is smoother and less of a statement. Some people call that flat. We think it is the reason you end up reaching for it more often.",
+    "tom-ford-neroli-portofino": "Our only summer pick. Rodrigo Flores-Roux built a luxury cologne of bergamot, lemon, neroli and orange blossom over musk and angelica. It goes from office to beach without effort. The catch is well known: citrus like this fades, so plan on a second spray after lunch. It is the polar opposite of Tobacco Oud and shows the lighter side of the house.",
+    "tom-ford-tobacco-oud": "Whisky, cinnamon, tobacco and oud over castoreum make this the darkest scent on the list. Keep it for winter nights and special occasions, and go easy. It is smokier and woodier than Tobacco Vanille, and less sweet, which suits men who are tired of vanilla. For everyday wear it is simply too heavy. We will not pretend otherwise.",
+    "tom-ford-fucking-fabulous": "Behind the loud name sits a refined almond leather. Clary sage and lavender up top, then a heart of almond, iris and vanilla resting on cashmeran. Men who like powdery leathers will enjoy it: softer than Tuscan Leather, creamier than Ombre Leather. It lands eighth because the name puts off a lot of buyers, not because of anything in the bottle."
+   },
+   "faq": [
+    {
+     "q": "What is the best Tom Ford cologne for men?",
+     "a": "If you only buy one, make it Oud Wood. It works at the office and in the evening, and it never shouts. For a statement evening scent, Tobacco Vanille is the house benchmark. Noir Extreme is the pick if you want something officially marketed to men."
+    },
+    {
+     "q": "Can men wear Tom Ford's unisex fragrances?",
+     "a": "Yes, and most of the range is unisex anyway. Oud Wood, Tobacco Vanille and Tuscan Leather are labelled unisex. Their materials are classic men's territory: tobacco, leather, oud and spice. Only a few fruity releases such as Lost Cherry lean clearly toward women."
+    },
+    {
+     "q": "Which Tom Ford is best for summer?",
+     "a": "Neroli Portofino. It is a citrus and neroli cologne, light and clean, that works from the office to the beach. Almost everything else from the house is built for autumn and winter. In real heat, Tobacco Vanille or Tuscan Leather quickly become suffocating."
+    },
+    {
+     "q": "How many sprays of Tom Ford should I use?",
+     "a": "One for the heavy hitters: Tobacco Vanille, Tuscan Leather and Tobacco Oud. Two for Oud Wood, Ombre Leather or Noir Extreme, which project less. Neroli Portofino can take three plus a top-up later in the day. Aim for your chest or clothes rather than your neck."
+    }
+   ]
+  }
+ },
+ "best:yves-saint-laurent:F": {
+  "picks": [
+   "yves-saint-laurent-opium",
+   "yves-saint-laurent-paris",
+   "yves-saint-laurent-libre",
+   "yves-saint-laurent-black-opium",
+   "yves-saint-laurent-libre-intense",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-tuxedo"
+  ],
+  "fr": {
+   "title": "Meilleur parfum Yves Saint Laurent femme : notre top 7",
+   "meta": "Opium, Paris, Libre ou Black Opium ? Notre classement des meilleurs parfums Yves Saint Laurent pour femme, avec le bon moment pour chacun.",
+   "h1": "Les meilleurs parfums Yves Saint Laurent pour femme, classés",
+   "intro": "Le meilleur parfum Yves Saint Laurent pour femme reste Opium, l'oriental épicé de 1977 qui n'a jamais demandé la permission. Paris, la rose poudrée de Sophia Grojsman, arrive deuxième. Libre complète le podium : c'est le plus polyvalent de la maison, capable d'aller du bureau au dîner. Black Opium et Mon Paris, plus sucrés, viennent ensuite. Nous les aimons, mais ils ne tiennent pas la comparaison avec les originaux dont ils portent le nom.",
+   "sections": [
+    {
+     "title": "Comment nous avons classé les Yves Saint Laurent",
+     "body": "Quatre critères ont guidé ce classement. L'influence d'abord. Opium a imposé en 1977 l'oriental épicé à forte présence et Paris a fait de la rose poudrée l'une des odeurs des années 1980. La qualité de composition ensuite, jugée sur la tenue de l'accord principal. La polyvalence compte beaucoup : Libre se porte au bureau, au dîner et en rendez-vous de l'automne au printemps, ce qui le fait passer devant Black Opium. Reste la tenue, qui n'est un problème pour aucun parfum de la liste. Presque tous sont notés 4 sur 5 en intensité et Opium atteint 5. Le vrai risque chez Yves Saint Laurent, c'est l'excès de sucre ou d'épices, pas le manque de présence. Nous avons ajouté Tuxedo, officiellement mixte, parce qu'il offre une alternative sèche à celles que les gourmands de la maison fatiguent."
+    },
+    {
+     "title": "Trois duos et un smoking",
+     "body": "Ce qui frappe dans cette sélection, c'est qu'elle fonctionne par paires. Opium (1977) a donné naissance à Black Opium en 2014. Le premier sent le clou de girofle et la prune confite, le second l'expresso sucré et la vanille. Paris (1983) a prêté son nom à Mon Paris en 2016 : la rose poudrée de violette est devenue une fraise sur patchouli. Libre (2019) s'est prolongé en Libre Intense l'année suivante, avec plus de vanille et de tonka. À chaque fois, la version récente est plus sucrée et plus facile à aimer dès la première minute. À chaque fois aussi, nous préférons l'original. Tuxedo reste à part. Sorti en 2015, il traduit le smoking de la maison en patchouli, violette noire et genièvre. C'est le seul parfum de la liste qui ne cherche pas à plaire tout de suite."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-opium": "Premier parce qu'aucun autre parfum de la maison n'a autant marqué son époque. Jean-Louis Sieuzac et Raymond Chaillan ont signé en 1977 un oriental au clou de girofle et à la prune, posé sur santal, vanille et ambre. Il atteint 5 sur 5 en intensité. Une pulvérisation suffit pour une soirée d'hiver. Plus sec et plus épicé que Black Opium, il ne s'adresse pas aux amatrices de sucre.",
+    "yves-saint-laurent-paris": "Sophia Grojsman a composé en 1983 une brassée de roses poudrées de violette, avec un cœur d'iris et de muguet. Le résultat rayonne et se porte volontiers de jour, au printemps, pour un déjeuner ou un rendez-vous. Son opulence peut sembler datée aux amatrices de minimalisme. Face à Mon Paris, qui a repris son nom, il paraît plus adulte et bien moins sucré.",
+    "yves-saint-laurent-libre": "Lavande aromatique contre fleur d'oranger voluptueuse : Anne Flipo et Carlos Benaïm ont construit en 2019 un floral qui emprunte au vestiaire masculin. C'est le parfum le plus polyvalent de la sélection, du bureau au dîner. Le fond de vanille, de cèdre et de musc reste assez convenu. Moins sombre que Libre Intense, il garde intact le contraste qui fait son intérêt.",
+    "yves-saint-laurent-black-opium": "Un expresso sucré servi à minuit : café, amande et jasmin sur un fond de vanille et de patchouli. Sorti en 2014, c'est le gourmand café qui a le plus circulé ces dernières années. On le porte en soirée, par temps frais. Sa douceur sature vite si l'on force la dose. À côté d'Opium, il n'a gardé qu'une partie du nom et presque rien du caractère.",
+    "yves-saint-laurent-libre-intense": "Version plus chaude de Libre, sortie en 2020. La lavande et la fleur d'oranger se noient dans la vanille, la tonka et le santal. Il tient mieux que l'original et se porte le soir ou en rendez-vous, de l'automne au printemps. Il perd en revanche une partie du contraste qui faisait le charme de Libre. À choisir si Black Opium vous semble trop sucré.",
+    "yves-saint-laurent-mon-paris": "Fraise, framboise et poire sur un cœur de pivoine et de datura, puis un fond de patchouli et d'ambroxan. Mon Paris (2016) plaît aux jeunes femmes qui aiment les fruités intenses. On le porte pour un rendez-vous, surtout quand il fait frais. Sa douceur appuyée devient vite envahissante. Il est bien plus sucré que Paris, dont il n'a gardé que le nom.",
+    "yves-saint-laurent-tuxedo": "Mixte et à part. Juliette Karagueuzoglou a traduit en 2015 le smoking de la maison en patchouli, violette noire et genièvre, posés sur ambroxan et cèdre. Il convient aux soirées habillées d'automne et d'hiver. Sa sobriété peut sembler austère. Pour une femme que Black Opium ou Mon Paris lassent, c'est l'Yves Saint Laurent le plus sec et le plus élégant de la liste."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum Yves Saint Laurent pour femme ?",
+     "a": "Opium reste le plus marquant de la maison : un oriental épicé au clou de girofle et à la prune. Pour un parfum polyvalent qui se porte aussi au bureau, Libre est notre meilleur choix. Si vous aimez les roses poudrées, Paris mérite d'être essayé avant les créations récentes."
+    },
+    {
+     "q": "Black Opium ou Libre : lequel choisir ?",
+     "a": "Black Opium est un gourmand au café et à la vanille, pensé pour le soir et les sorties. Libre oppose la lavande à la fleur d'oranger et se porte plus facilement en journée ou au bureau. Si vous hésitez, Libre est le plus polyvalent. Black Opium est plus sucré et plus addictif."
+    },
+    {
+     "q": "Opium est-il trop fort pour être porté au quotidien ?",
+     "a": "Oui, dans la plupart des cas. Opium est noté 5 sur 5 en intensité et son clou de girofle se remarque de loin. On le réserve aux soirées d'hiver et aux grandes occasions, avec une seule pulvérisation. Pour le quotidien, Libre ou Paris sont plus adaptés."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best YSL Perfume for Women: Our Top 7 Ranked",
+   "meta": "Opium, Paris, Libre or Black Opium? Our ranking of the best Yves Saint Laurent perfumes for women, with the right moment to wear each one.",
+   "h1": "The best Yves Saint Laurent perfumes for women, ranked",
+   "intro": "The best YSL perfume for women is still Opium, the 1977 spiced oriental that never asked anyone's permission. Paris, Sophia Grojsman's powdery rose, comes second. Libre completes the podium as the most versatile scent in the house, equally at home at work and at dinner. Black Opium and Mon Paris, both sweeter, follow. We like them. They just cannot stand up to the originals whose names they borrow.",
+   "sections": [
+    {
+     "title": "How we ranked YSL's perfumes",
+     "body": "Four criteria shaped this list. Influence came first. Opium made the loud spiced oriental fashionable in 1977, and Paris made powdery rose one of the defining smells of the 1980s. Composition came next, judged on how well the main accord holds together. Versatility mattered a lot. Libre works at the office, at dinner and on a date from autumn through spring, which puts it ahead of Black Opium. Performance is not a problem for anything here. Nearly all of them score 4 out of 5 for intensity, and Opium hits 5. With YSL the real risk is too much sugar or spice, never too little presence. We also included Tuxedo, officially unisex, because it gives a dry alternative to women who have had enough of the house gourmands."
+    },
+    {
+     "title": "Three pairs and a tuxedo",
+     "body": "What stands out in this selection is that it works in pairs. Opium (1977) led to Black Opium in 2014. The first smells of clove and candied plum, the second of sweetened espresso and vanilla. Paris (1983) lent its name to Mon Paris in 2016, and the violet-dusted rose turned into strawberry over patchouli. Libre (2019) became Libre Intense a year later, with more vanilla and tonka. Each time, the newer version is sweeter and easier to like in the first minute. Each time, we still prefer the original. Tuxedo stands apart. Launched in 2015, it translates the house's famous tuxedo into patchouli, black violet and juniper. It is the only scent on the list that does not try to please you straight away."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-opium": "First because no other scent from the house shaped its era as much. Jean-Louis Sieuzac and Raymond Chaillan composed it in 1977, all clove and plum over sandalwood, vanilla and amber. It scores 5 out of 5 for intensity. One spray is plenty for a winter evening. Drier and spicier than Black Opium, it is not for anyone chasing sugar.",
+    "yves-saint-laurent-paris": "Sophia Grojsman composed an armful of violet-powdered roses in 1983, with iris and lily of the valley at the heart. It glows, and it works well by day in spring, for a lunch or a date. Minimalists may find the opulence dated. Next to Mon Paris, which borrowed its name, it feels more grown-up and much less sweet.",
+    "yves-saint-laurent-libre": "Aromatic lavender against lush orange blossom. Anne Flipo and Carlos Benaïm built a floral in 2019 that borrows from the men's wardrobe. It is the most versatile scent in the selection, from the office to dinner. The vanilla, cedar and musk base is fairly predictable. Lighter than Libre Intense, it keeps the contrast that makes it interesting.",
+    "yves-saint-laurent-black-opium": "A sweetened midnight espresso: coffee, almond and jasmine over vanilla and patchouli. Released in 2014, it is the coffee gourmand you have smelled everywhere in recent years. Wear it on cool evenings. Its sweetness gets cloying if you overspray. Next to Opium, it kept part of the name and almost none of the character.",
+    "yves-saint-laurent-libre-intense": "Libre's warmer sibling, released in 2020. The lavender and orange blossom sink into vanilla, tonka and sandalwood. It lasts longer than the original and suits evenings or dates from autumn to spring. The trade-off is that it loses some of the contrast that made Libre work. Pick it if Black Opium feels too sweet.",
+    "yves-saint-laurent-mon-paris": "Strawberry, raspberry and pear over peony and datura, then patchouli and ambroxan. Mon Paris (2016) appeals to younger women who like bold fruity scents. Wear it on a date, ideally when it is cool out. Its heavy sweetness can quickly take over a room. It is far sweeter than Paris and shares little with it beyond the name.",
+    "yves-saint-laurent-tuxedo": "Unisex and in a league of its own. Juliette Karagueuzoglou turned the house tuxedo into patchouli, black violet and juniper in 2015, over ambroxan and cedar. It suits dressy autumn and winter evenings. Some will find it austere. For a woman worn out by Black Opium or Mon Paris, this is the driest and most elegant YSL on the list."
+   },
+   "faq": [
+    {
+     "q": "What is the best YSL perfume for women?",
+     "a": "Opium is still the house's defining scent: a spiced oriental built on clove and plum. For something versatile you can also wear to work, Libre is our top choice. If you love powdery roses, try Paris before the newer releases."
+    },
+    {
+     "q": "Black Opium or Libre: which should I choose?",
+     "a": "Black Opium is a coffee and vanilla gourmand made for evenings and nights out. Libre sets lavender against orange blossom and is easier to wear by day or at the office. If you are torn, Libre is the more versatile of the two. Black Opium is sweeter and more addictive."
+    },
+    {
+     "q": "Is Opium too strong for everyday wear?",
+     "a": "For most people, yes. Opium scores 5 out of 5 for intensity and its clove carries a long way. Keep it for winter evenings and special occasions, and stick to a single spray. For everyday wear, Libre or Paris make more sense."
+    }
+   ]
+  }
+ }
+}

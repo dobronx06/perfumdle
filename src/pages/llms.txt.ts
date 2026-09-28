@@ -1,6 +1,7 @@
 /** llms.txt — a plain map of the site for AI assistants and answer engines (GEO). */
 import type { APIRoute } from 'astro';
 import { SITE, url, brands, notes, families, eras, noteName, familyName, eraName, perfumes, GUIDES } from '../lib/catalog';
+import { livePages, rankedUrl, rankedCopy } from '../lib/ranked';
 
 export const GET: APIRoute = () => {
   const l = 'fr' as const;
@@ -34,6 +35,7 @@ export const GET: APIRoute = () => {
     '## Guides',
     ...GUIDES.map((g) => `- [${g.fr}](${SITE}/fr/${g.slug}/)`),
     '',
+    ...(livePages.length ? ['## Sélections commentées', ...livePages.map((d) => `- [${rankedCopy(d.id)!.fr.h1}](${SITE}${rankedUrl(d, l)})`), ''] : []),
   ];
   return new Response(lines.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 };

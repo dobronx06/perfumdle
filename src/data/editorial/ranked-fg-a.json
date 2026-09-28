@@ -1,0 +1,841 @@
+{
+ "_data_issues": [
+  "estee-lauder-youth-dew: classé oriental,spicy mais aucune épice dans notes_fr/notes_en (aldéhydes, pêche, bergamote / rose, jasmin, ylang / vanille, patchouli, musc) ; à compléter si la source le permet."
+ ],
+ "fg:fruity:F": {
+  "picks": [
+   "burberry-her",
+   "rochas-femme",
+   "dolce-gabbana-light-blue",
+   "chanel-chance-eau-tendre",
+   "giorgio-armani-si-passione",
+   "tom-ford-lost-cherry",
+   "marc-jacobs-daisy",
+   "jo-malone-english-pear-freesia"
+  ],
+  "fr": {
+   "title": "Parfum fruité femme : 8 choix, de la poire à la cerise",
+   "meta": "Burberry Her en tête, Rochas Femme et Light Blue derrière : notre classement des parfums fruités pour femme, du plus frais au plus gourmand.",
+   "h1": "Les meilleurs parfums fruités pour femme, classés",
+   "intro": "Notre premier choix de parfum fruité pour femme est Her de Burberry : mûre, framboise et fraise sur un fond de musc et de cacao sec, avec une tenue que peu de fruités atteignent. Juste derrière, Femme de Rochas montre ce que le fruit donnait avant le sucre. C'est une prune mûre posée sur la mousse de chêne, signée Edmond Roudnitska en 1944. Pour l'été, Light Blue reste la pomme la plus simple à porter, à condition d'accepter qu'elle s'efface vite.",
+   "sections": [
+    {
+     "title": "Trois façons de traiter le fruit côté féminin",
+     "body": "Presque aucun fruit ne se distille. Les agrumes mis à part, la poire ou la fraise d'un parfum sont des accords reconstruits par le parfumeur. C'est pour cela qu'elles sont si nettes en tête et si brèves ensuite. Dans les parfums féminins, le fruit est rarement seul. Associé à des fleurs, il donne un floral fruité clair comme Daisy ou Chance Eau Tendre. Avec du sucre et de la vanille, il glisse vers le gourmand : Her et Lost Cherry vont dans ce sens. Le style le plus ancien pose le fruit sur la mousse de chêne pour faire un chypre fruité plus grave, dont Femme de Rochas reste le modèle. Les masculins utilisent le fruit autrement. Une pomme ou un ananas y éclaire la tête puis laisse la place au bois. Les féminins osent les fruits rouges, la prune ou la cerise liquoreuse, qui restent perceptibles jusqu'au cœur. C'est leur charme, et leur risque aussi : passé un certain dosage, le fruit tourne au sirop."
+    },
+    {
+     "title": "Comment choisir son parfum fruité",
+     "body": "Regardez le fond avant la tête. Le fruit s'évapore souvent dans la première heure, et ce qui reste ensuite décide de tout. Un fond de musc et de cèdre donne un parfum clair qui s'efface dans l'après-midi : c'est le cas de Light Blue et de Daisy. Un fond de vanille et de patchouli prolonge la gourmandise jusqu'au soir, comme dans Sì Passione. La mousse de chêne de Femme de Rochas laisse un sillage plus sec et plus sérieux, qui plaît rarement au premier essai. Pensez ensuite à la saison. Les fruits frais comme la pomme ou la poire supportent la chaleur. La prune et la cerise à la liqueur deviennent lourdes dès que le thermomètre grimpe. Testez enfin sur la peau et pas sur une mouillette. Les fruités sucrés changent beaucoup d'une personne à l'autre, et c'est au bout de deux heures qu'on sait si l'on aime vraiment ce qui reste."
+    }
+   ],
+   "why": {
+    "burberry-her": "Premier de la liste parce qu'il tient. Mûre, framboise et fraise arrivent en bloc. Ensuite la violette et un fond de cacao sec évitent l'effet bonbon. Avec une intensité de 4 sur 5, deux pulvérisations suffisent. Il va à celles qui veulent un fruité bien visible d'avril à décembre. Son défaut est connu : la douceur reste la même du début à la fin, là où Sì Passione évolue vers la vanille.",
+    "rochas-femme": "Voici le fruité d'avant les fruits rouges. Edmond Roudnitska y pose la prune et la pêche sur la mousse de chêne en 1944, et le résultat est plus sombre que tout le reste de cette page. On le réserve aux soirées d'automne et aux amatrices de chypres anciens. Qui ne connaît que Her ou Daisy le trouvera sans doute daté : c'est le prix de sa profondeur.",
+    "dolce-gabbana-light-blue": "Pomme croquante, cèdre et un jasmin très léger : Light Blue est depuis 2001 le fruité d'été le plus facile de cette sélection. Olivier Cresp l'a posé sur un fond de musc et d'ambre qui ne pèse rien. C'est aussi sa limite. Sur peau sèche, il faut le renouveler après le déjeuner. Plus acidulé que Daisy, il convient à celles qui veulent sentir le propre et le soleil sans une once de sucre.",
+    "chanel-chance-eau-tendre": "Le fruit le plus discret du classement. Pamplemousse et coing ouvrent sur un cœur d'iris et de jacinthe, puis un fond de musc et de cèdre très poli. Jacques Polge en a fait un parfum de bureau qui ne dérange personne. Il ne crée pas de sillage et ne cherche pas à en créer. On le conseille à celles qui trouvent Her trop sucré et Light Blue trop estival.",
+    "giorgio-armani-si-passione": "Poire, cassis et baies roses ouvrent sur une rose et un héliotrope qui glissent vite vers la vanille. Sì Passione est le fruité du soir de cette sélection, avec un fond de patchouli qui tient jusqu'au lendemain sur une écharpe. Il plaira aux amatrices de chaleur sucrée en automne. Face à Femme de Rochas, il manque de mystère : tout est dit au bout d'une heure.",
+    "tom-ford-lost-cherry": "Cerise noire à la liqueur, amande amère, puis un fond de tonka et de santal. Lost Cherry est mixte sur le papier, mais il tient ici le rôle du fruité le plus riche, plus liquoreux que Her et plus sombre que Sì Passione. Réservez-le à l'hiver et aux dîners. L'amande peut virer au sirop sur certaines peaux, donc on l'essaie une journée entière avant de l'adopter.",
+    "marc-jacobs-daisy": "Fraise, feuille de violette et pamplemousse sanguin : Daisy a le fruité le plus tendre de la page. Alberto Morillas l'a voulu léger et il l'est, parfois trop, car sa tenue reste courte. C'est un bon premier parfum pour une adolescente ou un choix sans risque pour le bureau. Plus floral que Light Blue, il partage avec lui un fond musqué très propre.",
+    "jo-malone-english-pear-freesia": "Christine Nagel a composé ici un fruité d'automne d'une grande délicatesse : poire mûre, melon et coing sur un freesia transparent. C'est une eau de Cologne, donc la tenue se compte en heures, pas en journées. Mixte, il s'adresse à celles qui veulent un fruit sans sucre ni vanille. Porté par-dessus Chance Eau Tendre, il gagne en présence sans perdre sa clarté."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum fruité pour femme ?",
+     "a": "Pour nous, Her de Burberry : ses fruits rouges sont nets, sa tenue est bonne et il se porte trois saisons sur quatre. Si vous préférez un style classique, Femme de Rochas reste la référence du chypre fruité. Pour l'été, Light Blue est plus frais et plus facile, mais il tient beaucoup moins longtemps."
+    },
+    {
+     "q": "Un parfum fruité tient-il longtemps sur la peau ?",
+     "a": "Pas toujours. Les notes de fruit sont placées en tête, donc elles partent les premières. La tenue dépend du fond : vanille et patchouli prolongent l'effet dans Sì Passione ou Lost Cherry. Les fonds de musc léger de Daisy et Light Blue s'effacent en quelques heures. Une pulvérisation sur une écharpe garde le fruit plus longtemps."
+    },
+    {
+     "q": "Quelle différence entre un parfum fruité et un parfum gourmand ?",
+     "a": "Le fruité joue sur le côté juteux et acidulé du fruit frais. Le gourmand évoque quelque chose qui se mange : caramel, vanille, praline ou chocolat. Beaucoup de parfums féminins mêlent les deux. Her et Lost Cherry sont des fruités gourmands, alors que Chance Eau Tendre et Light Blue restent des fruités sans sucre apparent."
+    }
+   ]
+  },
+  "en": {
+   "title": "Fruity perfumes for women: 8 picks, from pear to cherry",
+   "meta": "Burberry Her, Rochas Femme and Light Blue lead our ranking of fruity perfumes for women, from crisp summer apple to boozy black cherry.",
+   "h1": "The best fruity perfumes for women, ranked",
+   "intro": "Our top fruity perfume for women is Burberry Her. Blackberry, raspberry and strawberry sit on musk and dry cocoa, and it lasts longer than most of its genre. Second place goes to Rochas Femme, which shows what fruit meant before sugar took over: ripe plum on oakmoss, composed by Edmond Roudnitska in 1944. For summer, Light Blue is still the easiest apple to wear. Just accept that it fades by mid-afternoon.",
+   "sections": [
+    {
+     "title": "Three ways feminine perfumes handle fruit",
+     "body": "Almost no fruit can be distilled. Citrus aside, the pear or strawberry in a bottle is an accord built by the perfumer, which is why it smells so vivid at first and disappears so fast. In women's perfumes, fruit rarely works alone. Pair it with flowers and you get a clear floral fruity like Daisy or Chance Eau Tendre. Add sugar and vanilla and it turns gourmand, the road taken by Her and Lost Cherry. The oldest approach sets fruit on oakmoss to make a fruity chypre, and Rochas Femme is still the textbook case. Men's perfumes use fruit differently. An apple or a pineapple brightens the opening, then steps aside for woods. Women's perfumes let red berries, plum and liqueur cherry stay audible well into the heart. That is the appeal. It is also the risk, because past a certain dose fruit starts to smell like syrup."
+    },
+    {
+     "title": "How to choose a fruity perfume",
+     "body": "Read the base notes first. Fruit usually burns off within the first hour, and whatever is left decides whether you like the perfume. A musk and cedar base gives a clean scent that is gone by the afternoon, as with Light Blue and Daisy. Vanilla and patchouli carry the sweetness into the evening, which is how Sì Passione works. Oakmoss, as in Rochas Femme, leaves a drier and more serious trail that rarely wins people over on the first try. Then think about the season. Fresh fruit like apple and pear copes with heat. Plum and boozy cherry get heavy once the weather warms up. Finally, test on skin rather than a paper strip. Sweet fruity scents vary a lot from one person to another, and you only really know after a couple of hours of wear."
+    }
+   ],
+   "why": {
+    "burberry-her": "It ranks first because it lasts. Blackberry, raspberry and strawberry arrive all at once, then violet and a dry cocoa base keep it from smelling like candy. At 4 out of 5 on intensity, two sprays are enough. It suits anyone who wants a clearly fruity scent from April to December. The known flaw: the sweetness never changes, whereas Sì Passione at least drifts toward vanilla.",
+    "rochas-femme": "This is fruity before red berries existed. Edmond Roudnitska set plum and peach on oakmoss in 1944, and the result is darker than anything else on this page. Save it for autumn evenings and for fans of old-school chypres. If you only know Her or Daisy, it may smell dated at first. That is the price of its depth.",
+    "dolce-gabbana-light-blue": "Crisp apple, cedar and a whisper of jasmine. Since 2001, Light Blue has been the easiest summer fruity you can buy. Olivier Cresp built it on a weightless musk and amber base, and that is also its weakness: on dry skin you will need to reapply after lunch. Tarter than Daisy, it suits people who want to smell clean and sunny with zero sugar.",
+    "chanel-chance-eau-tendre": "The quietest fruit in the ranking. Grapefruit and quince open onto iris and hyacinth, then a polished musk and cedar base. Jacques Polge made it an office scent that bothers nobody. It projects very little and does not try to. We recommend it to anyone who finds Her too sweet and Light Blue too beachy.",
+    "giorgio-armani-si-passione": "Pear, blackcurrant and pink pepper lead into rose and heliotrope, which slide quickly toward vanilla. Sì Passione is the evening fruity in this selection, with a patchouli base that can still be on your scarf the next morning. Great for autumn if you like warm sweetness. Next to Rochas Femme it lacks mystery. Everything is said within the first hour.",
+    "tom-ford-lost-cherry": "Black cherry soaked in liqueur, bitter almond, then tonka and sandalwood. Lost Cherry is sold as unisex, but here it plays the richest fruity on the list: boozier than Her and darker than Sì Passione. Wear it in winter and at dinner. The almond can turn syrupy on some skin, so wear a sample for a full day before committing.",
+    "marc-jacobs-daisy": "Strawberry, violet leaf and blood grapefruit make Daisy the softest fruity here. Alberto Morillas kept it light, sometimes too light, since it does not last long. It works well as a first perfume for a teenager or as a safe office choice. More floral than Light Blue, it shares the same clean musky drydown.",
+    "jo-malone-english-pear-freesia": "Ripe pear, melon and quince over sheer freesia. Christine Nagel made an autumn fruity with real delicacy. It is a cologne, so longevity is measured in hours, not days. Unisex, it suits people who want fruit without sugar or vanilla. Layered over Chance Eau Tendre, it gains presence and keeps its clarity."
+   },
+   "faq": [
+    {
+     "q": "What is the best fruity perfume for women?",
+     "a": "Our pick is Burberry Her. The red berries are clear, it lasts well and you can wear it three seasons out of four. If you prefer something classic, Rochas Femme is the reference fruity chypre. For summer, Light Blue is fresher and easier to wear, but it fades much sooner."
+    },
+    {
+     "q": "Do fruity perfumes last long?",
+     "a": "Not always. Fruit notes sit at the top of the pyramid, so they evaporate first. Longevity depends on the base. Vanilla and patchouli extend it in Sì Passione and Lost Cherry, while the light musk bases of Daisy and Light Blue fade within a few hours. A spray on a scarf keeps the fruit around longer."
+    },
+    {
+     "q": "What is the difference between fruity and gourmand perfumes?",
+     "a": "Fruity scents play on the juicy, tart side of fresh fruit. Gourmand scents smell like dessert: caramel, vanilla, praline or chocolate. Many women's perfumes mix both. Her and Lost Cherry are fruity gourmands, while Chance Eau Tendre and Light Blue stay fruity with no obvious sugar."
+    }
+   ]
+  }
+ },
+ "fg:floral:F": {
+  "picks": [
+   "dior-jadore",
+   "chanel-n-5",
+   "jean-patou-joy",
+   "chanel-coco-mademoiselle",
+   "nina-ricci-lair-du-temps",
+   "viktor-rolf-flowerbomb",
+   "calvin-klein-eternity",
+   "le-labo-rose-31"
+  ],
+  "fr": {
+   "title": "Parfum floral femme : 8 bouquets, du classique au moderne",
+   "meta": "J'adore, le N°5 et Joy en tête : notre classement des parfums floraux pour femme, de la rose au jasmin et à l'iris.",
+   "h1": "Quel parfum floral choisir quand on est une femme ?",
+   "intro": "Si vous ne deviez essayer qu'un parfum floral pour femme, ce serait J'adore de Dior. Rose, jasmin et magnolia y sont portés par la poire. Le résultat est lumineux sans être mièvre, facile au bureau comme le soir. Le N°5 de Chanel arrive deuxième parce qu'il reste la leçon d'abstraction de la famille, même si son côté savonneux divise. Troisième, Joy de Patou s'adresse à celles qui veulent le jasmin et la rose dans toute leur richesse.",
+   "sections": [
+    {
+     "title": "Ce qui distingue un floral féminin",
+     "body": "Le floral est la plus grande famille de la parfumerie féminine, et de loin. Presque tous les parfums pour femme contiennent de la rose ou du jasmin quelque part. Ce qui fait un floral, c'est que la fleur reste audible du début à la fin au lieu de servir de simple liant. Plusieurs styles cohabitent. Le bouquet classique mêle plusieurs fleurs sans qu'aucune domine : Joy et L'Air du Temps en sont les modèles. Le floral aldéhydé, lancé par le N°5 en 1921, rend la fleur abstraite et un peu savonneuse. Le floral solaire des années 1990 et 2000, avec J'adore ou Eternity, cherche la lumière et la propreté. Le floral sucré moderne pose les pétales sur la vanille et le patchouli, comme Flowerbomb. Côté masculin, la fleur existe aussi mais elle se cache : un iris dans Dior Homme, une violette dans Fahrenheit. Chez les femmes, on la montre."
+    },
+    {
+     "title": "Choisir selon la fleur et le moment",
+     "body": "Commencez par la fleur. La rose est la plus polyvalente, du bureau au dîner. Le jasmin et la tubéreuse, dites fleurs blanches, ont plus de présence et un côté charnel qui convient mieux au soir. La violette et l'iris tirent vers le poudré, plus sage. Regardez ensuite ce qui porte les fleurs. Un fond de musc et de santal, comme dans L'Air du Temps ou Eternity, donne un parfum proche de la peau. Un fond de patchouli et de vanille, celui de Coco Mademoiselle ou de Flowerbomb, projette beaucoup plus et tient jusqu'au soir. Pour le travail, on évite les intensités de 4 et plus ou l'on se limite à une seule pulvérisation. Pour un premier achat, J'adore reste le choix le moins risqué de cette sélection. Rose 31 est à l'inverse celui qu'il faut absolument tester avant, à cause du cumin."
+    }
+   ],
+   "why": {
+    "dior-jadore": "Calice Becker a fait en 1999 un floral qui plaît à presque tout le monde sans être fade. La poire et le melon en tête donnent de l'éclat, puis rose, jasmin et violette restent nets jusqu'au fond musqué. On le porte au bureau comme à un mariage. Son seul reproche : face à Joy ou au N°5, il manque d'ombre. C'est un floral de plein jour.",
+    "chanel-n-5": "Ernest Beaux a mis les aldéhydes au premier plan en 1921, et c'est ce qui rend ce bouquet de rose, de jasmin et d'ylang-ylang si difficile à décomposer. Le N°5 sent la fleur sans ressembler à aucune. Il va aux femmes qui aiment les parfums habillés, surtout l'hiver. Plus savonneux que J'adore, il peut sembler vintage à un nez de vingt ans.",
+    "jean-patou-joy": "Rose, tubéreuse, ylang-ylang puis un jasmin très présent : Joy est le floral le plus opulent de la liste. Henri Alméras l'a composé en 1930 avec un fond de civette qui lui donne un côté chaud et presque animal. Réservez-le aux grandes occasions. Il paraîtra daté à celles qui aiment Flowerbomb, et c'est justement ce qui le rend précieux.",
+    "chanel-coco-mademoiselle": "Orange et bergamote en tête, rose et jasmin au cœur, puis un patchouli franc : Coco Mademoiselle a fixé en 2001 le modèle du floral moderne pour femme active. Sa tenue est excellente. Le problème est sa popularité, car on le croise partout. Plus sec que Flowerbomb et plus chaleureux que J'adore, il reste un choix très sûr pour le bureau.",
+    "nina-ricci-lair-du-temps": "Le plus doux des classiques. Francis Fabron a posé en 1948 la pêche et la bergamote sur une rose et une violette très tendres, avec un fond de santal et de musc. L'Air du Temps se porte au printemps, sur une robe légère. Il ne fait presque pas de sillage : celles qui cherchent la présence de Joy seront frustrées.",
+    "viktor-rolf-flowerbomb": "Jasmin, rose et orchidée enveloppés dans un fond de patchouli et de vanille, avec un filet de thé en tête. Flowerbomb est le floral sucré de cette sélection, pensé pour le soir et l'hiver. Il tient longtemps et se remarque. On le conseille à celles qui trouvent Coco Mademoiselle trop sec. Sa densité fatigue vite en espace clos, donc une pulvérisation suffit.",
+    "calvin-klein-eternity": "Freesia, lys et rose sur un fond d'ambre et de musc : Sophia Grojsman a composé en 1988 un floral très propre, presque savonneux. Eternity n'a rien de spectaculaire, et c'est sa qualité. Il convient aux journées de travail et aux femmes qui ne veulent pas qu'on commente leur parfum. Plus frais que L'Air du Temps, il est aussi moins poétique.",
+    "le-labo-rose-31": "Une rose mixte, sèche et poivrée, avec un cumin qui la rend presque corporelle. Daphné Bugey l'a posée sur du cèdre et du bois de gaïac, loin des roses sucrées. Rose 31 plaira aux femmes qui trouvent J'adore trop lisse. Le cumin peut rappeler la sueur sur certaines peaux : c'est le floral de la liste qu'il faut tester avant d'acheter."
+   },
+   "faq": [
+    {
+     "q": "Quel est le parfum floral pour femme le plus vendu ?",
+     "a": "Nous n'avons pas de chiffres de ventes fiables à citer. On peut dire en revanche que J'adore, le N°5 et Coco Mademoiselle font partie des floraux les plus connus et les plus portés. Ce sont aussi des choix sûrs pour offrir, car leur style est facile à identifier et plaît largement."
+    },
+    {
+     "q": "Quel parfum floral porter au bureau ?",
+     "a": "Choisissez un floral à intensité modérée avec un fond de musc ou de santal. Eternity, L'Air du Temps et J'adore conviennent très bien, à raison d'une ou deux pulvérisations. Évitez Flowerbomb et Joy en journée de travail. Leur densité remplit vite un open space."
+    },
+    {
+     "q": "Quelle différence entre un floral et un floral poudré ?",
+     "a": "Un floral met en avant les pétales : rose, jasmin, tubéreuse. Un floral poudré ajoute de l'iris, de la violette ou des aldéhydes, qui évoquent la poudre de riz et le maquillage. Le N°5 est à la frontière des deux. J'adore reste un floral pur, sans effet poudré marqué."
+    }
+   ]
+  },
+  "en": {
+   "title": "Floral perfumes for women: 8 bouquets, classic to modern",
+   "meta": "J'adore, Chanel No. 5 and Joy lead our ranking of floral perfumes for women, compared honestly, from rose and jasmine to iris.",
+   "h1": "Floral perfumes for women: which one to choose",
+   "intro": "If you only try one floral perfume, make it Dior J'adore. Pear lifts a heart of rose, jasmine and magnolia. It is bright without being sugary and works from the office to a wedding. Chanel No. 5 comes second because it is still the family's great lesson in abstraction, even if its soapy side divides people. Third place goes to Patou Joy, for anyone who wants jasmine and rose at full richness.",
+   "sections": [
+    {
+     "title": "What makes a feminine floral",
+     "body": "Floral is by far the biggest family in women's perfumery. Nearly every women's scent has rose or jasmine somewhere. What makes a floral is that the flower stays audible from start to finish instead of acting as a binder. Several styles coexist. The classic bouquet blends many flowers with none in charge, and Joy and L'Air du Temps are the models. The aldehydic floral, launched by No. 5 in 1921, makes the flower abstract and slightly soapy. The bright florals of the 1990s and 2000s, like J'adore and Eternity, chase light and cleanliness. The modern sweet floral lays petals on vanilla and patchouli, as Flowerbomb does. Men's perfumes use flowers too, but they hide them: an iris in Dior Homme, a violet in Fahrenheit. Women's perfumes put them front and center."
+    },
+    {
+     "title": "Choosing by flower and occasion",
+     "body": "Start with the flower. Rose is the most versatile and goes from desk to dinner. Jasmine and tuberose, the white flowers, have more presence and a carnal edge that suits evenings. Violet and iris lean powdery and quieter. Then look at what carries the flowers. A musk and sandalwood base, as in L'Air du Temps or Eternity, keeps the scent close to the skin. A patchouli and vanilla base, like Coco Mademoiselle or Flowerbomb, projects far more and lasts into the night. At work, skip anything rated 4 or above on intensity, or limit yourself to one spray. For a first purchase, J'adore is the safest bet in this selection. Rose 31 is the opposite: the one you must test first, because of the cumin."
+    }
+   ],
+   "why": {
+    "dior-jadore": "In 1999 Calice Becker made a floral almost everyone likes without it being bland. Pear and melon give the opening its glow, then rose, jasmine and violet stay clear down to a musky base. Wear it to the office or to a wedding. The only knock: next to Joy or No. 5 it has no shadows. This is a daylight floral.",
+    "chanel-n-5": "Ernest Beaux pushed aldehydes to the front in 1921, which is why this bouquet of rose, jasmine and ylang-ylang is so hard to pick apart. No. 5 smells of flowers without resembling any one of them. It suits women who like dressed-up scents, especially in winter. Soapier than J'adore, it can read as vintage to a twenty-year-old nose.",
+    "jean-patou-joy": "Rose, tuberose and ylang-ylang, then a heavy dose of jasmine. Joy is the most opulent floral on this list. Henri Alméras composed it in 1930 with a civet base that makes it warm and almost animalic. Save it for big occasions. Flowerbomb fans may find it old-fashioned, and that is exactly why it is worth knowing.",
+    "chanel-coco-mademoiselle": "Orange and bergamot up top, rose and jasmine in the heart, then frank patchouli. Coco Mademoiselle set the template for the modern working woman's floral in 2001. Longevity is excellent. The downside is popularity: you smell it everywhere. Drier than Flowerbomb and warmer than J'adore, it remains a very safe office choice.",
+    "nina-ricci-lair-du-temps": "The gentlest of the classics. In 1948 Francis Fabron set peach and bergamot on a soft rose and violet, over sandalwood and musk. L'Air du Temps belongs to spring and light dresses. It leaves almost no trail, so anyone looking for the presence of Joy will be disappointed.",
+    "viktor-rolf-flowerbomb": "Jasmine, rose and orchid wrapped in patchouli and vanilla, with a thread of tea at the top. Flowerbomb is the sweet floral here, built for evenings and winter. It lasts and it gets noticed. We recommend it to anyone who finds Coco Mademoiselle too dry. It gets tiring in closed rooms, so one spray is plenty.",
+    "calvin-klein-eternity": "Freesia, lily and rose over amber and musk. Sophia Grojsman made a very clean, almost soapy floral in 1988. Eternity is not spectacular, and that is the point. It works for office days and for women who do not want comments on their perfume. Fresher than L'Air du Temps, it is also less poetic.",
+    "le-labo-rose-31": "A unisex rose, dry and peppery, with cumin that makes it almost bodily. Daphné Bugey set it on cedar and guaiac wood, far from sugary roses. Rose 31 suits women who find J'adore too smooth. On some skin the cumin reads as sweat, so this is the floral on the list you should sample before buying."
+   },
+   "faq": [
+    {
+     "q": "What is the best-selling floral perfume for women?",
+     "a": "We do not have reliable sales figures to quote. What we can say is that J'adore, Chanel No. 5 and Coco Mademoiselle are among the best-known and most worn florals. They are also safe gifts, since their style is easy to recognize and widely liked."
+    },
+    {
+     "q": "Which floral perfume is best for the office?",
+     "a": "Pick a floral with moderate intensity and a musk or sandalwood base. Eternity, L'Air du Temps and J'adore all work well with one or two sprays. Avoid Flowerbomb and Joy on work days. Their density fills an open-plan office fast."
+    },
+    {
+     "q": "What is the difference between floral and powdery floral?",
+     "a": "A floral puts the petals first: rose, jasmine, tuberose. A powdery floral adds iris, violet or aldehydes, which recall face powder and makeup. Chanel No. 5 sits right on the border between the two. J'adore stays a pure floral with no strong powdery effect."
+    }
+   ]
+  }
+ },
+ "fg:woody:M": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "chanel-bleu-de-chanel",
+   "dior-fahrenheit",
+   "le-labo-santal-33",
+   "tom-ford-oud-wood",
+   "hugo-boss-boss-bottled",
+   "montblanc-explorer",
+   "chanel-allure-homme-sport"
+  ],
+  "fr": {
+   "title": "Parfum boisé homme : 8 bois à connaître, du vétiver à l'oud",
+   "meta": "Terre d'Hermès, Bleu de Chanel et Fahrenheit en tête : notre sélection de parfums boisés pour homme, classés et comparés sans langue de bois.",
+   "h1": "Les meilleurs parfums boisés pour homme",
+   "intro": "Le meilleur parfum boisé pour homme, selon nous, reste Terre d'Hermès. Jean-Claude Ellena y fait tenir l'orange, le silex et le vétiver dans une composition sèche et claire qui se porte toute l'année. Bleu de Chanel arrive juste derrière pour sa polyvalence : cèdre, santal et encens sous des agrumes, sans faux pas. Pour un bois plus sombre, Fahrenheit prend la troisième place avec sa violette et son cuir célèbres.",
+   "sections": [
+    {
+     "title": "Les sous-familles du boisé masculin",
+     "body": "Dans un parfum pour homme, le bois est rarement un détail. Il forme le squelette, là où les féminins l'utilisent surtout pour porter des fleurs. On distingue plusieurs styles. Le boisé sec et minéral repose sur le vétiver et le cèdre : Terre d'Hermès en est l'exemple le plus clair. Le boisé aromatique ajoute des agrumes, de la menthe ou de la sauge pour gagner en fraîcheur, comme Bleu de Chanel ou Explorer. Le boisé crémeux met le santal au premier plan, et Santal 33 l'a rendu très populaire. Le boisé épicé réchauffe le tout avec cannelle ou clou de girofle, à la manière de Boss Bottled. Il y a enfin l'oud, un bois résineux venu du Moyen-Orient, qu'Oud Wood a contribué à faire connaître en Occident dans une version douce. Le cuir s'invite souvent au fond, comme dans Fahrenheit, et durcit l'ensemble."
+    },
+    {
+     "title": "Comment choisir un boisé pour homme",
+     "body": "Le premier critère est la saison. Les boisés frais, avec des agrumes en tête et un vétiver clair, fonctionnent au printemps et en été : Allure Homme Sport et Terre d'Hermès en font partie. Les boisés à fond de cuir, d'encens ou d'oud prennent toute leur place à l'automne. Le deuxième critère est l'environnement. Au bureau, on cherche une intensité de 3 ou 4 sur 5 maximum et un sillage net, ce que Bleu de Chanel fait très bien. Le soir, Fahrenheit ou Oud Wood donnent plus de relief. Le troisième critère, c'est la peau. Le vétiver et le cèdre restent assez stables d'une personne à l'autre, alors que le santal crémeux de Santal 33 peut tourner au lait ou au crayon selon les peaux. Testez toujours sur le poignet et attendez au moins une heure : un boisé se juge sur son fond, pas sur ses agrumes."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Orange, pamplemousse et une note de silex qui sent la pierre chauffée. Jean-Claude Ellena a ensuite posé le poivre et le géranium sur un vétiver et un cèdre très secs. Terre d'Hermès est le boisé le plus intelligent de la liste et il va à presque tous les âges. Seul reproche : il est si répandu depuis 2006 qu'il ne surprend plus personne. Plus minéral que Bleu de Chanel, il est aussi moins sucré.",
+    "chanel-bleu-de-chanel": "Le choix passe-partout. Pamplemousse et citron ouvrent sur le gingembre et la muscade, puis cèdre, santal et encens forment un fond propre et durable. Jacques Polge a visé l'homme qui ne veut pas se tromper, et c'est réussi. Il manque d'audace face à Fahrenheit. Pour le bureau ou un premier rendez-vous, il reste pourtant difficile à battre.",
+    "dior-fahrenheit": "Lavande, violette et muscade reposent sur le cuir et le vétiver. Fahrenheit a une note que beaucoup décrivent comme pétrolée, et qui ne ressemble à rien d'autre depuis 1988. On l'adore ou on le déteste. Il va aux hommes qui aiment qu'on remarque leur parfum. Plus sombre que Terre d'Hermès, il se garde pour l'automne et le soir.",
+    "le-labo-santal-33": "Santal, cèdre et papyrus avec un filet de violette et de cardamome : Santal 33 est mixte, mais il se porte très bien sur une peau d'homme. Frank Voelkl a construit un bois crémeux avec une touche de cuir qui évoque le crayon et la selle. Son omniprésence dans les grandes villes a usé l'effet de surprise. Plus doux que Terre d'Hermès, il convient au quotidien.",
+    "tom-ford-oud-wood": "Une porte d'entrée vers l'oud, sans l'aspect animal ou médicinal qu'il peut avoir. Richard Herpin l'entoure de cardamome, de poivre du Sichuan et de santal, puis de tonka. Oud Wood est plus calme que son nom le laisse croire. Parfait pour découvrir cette matière au bureau l'hiver, il décevra les amateurs d'ouds sauvages et tient moins que Fahrenheit.",
+    "hugo-boss-boss-bottled": "Pomme, cannelle et clou de girofle sur un fond de santal, de cèdre et de vanille. Annick Ménardo a signé en 1998 un boisé épicé consensuel, que beaucoup d'hommes ont porté un jour. Il n'étonne personne, c'est vrai. Plus chaud que Bleu de Chanel, moins singulier que Fahrenheit, il reste une valeur sûre pour l'automne et le bureau.",
+    "montblanc-explorer": "Bergamote et sauge sclarée d'abord. Viennent ensuite le vétiver, le patchouli et une touche de cuir. Explorer est un boisé aromatique très bien fait, qui rappelle d'autres succès de sa catégorie. Il se porte au bureau, en week-end et au printemps sans jamais déranger. Il n'a pas la personnalité de Terre d'Hermès. C'est le choix raisonnable de cette sélection.",
+    "chanel-allure-homme-sport": "Aldéhydes et mandarine en tête, poivre et cèdre au cœur. Le fond de tonka et de vétiver reste très doux. Allure Homme Sport est le boisé le plus estival du classement. Sa projection reste sage, donc il faut deux ou trois pulvérisations. Face à Bleu de Chanel, il est plus lumineux et moins durable. On le conseille pour le sport et les journées chaudes."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum boisé pour homme ?",
+     "a": "Notre choix est Terre d'Hermès pour son équilibre entre agrumes, silex et vétiver. Il a aussi l'avantage de se porter toute l'année. Bleu de Chanel est plus polyvalent au bureau. Fahrenheit est le plus marquant des trois, mais il divise. Si vous aimez le bois crémeux, Santal 33 est une alternative mixte."
+    },
+    {
+     "q": "Quel parfum boisé pour homme porter en été ?",
+     "a": "Cherchez un boisé avec des agrumes en tête et un fond léger de vétiver ou de cèdre. Allure Homme Sport et Terre d'Hermès sont nos deux meilleurs choix pour la chaleur. Évitez Fahrenheit et Oud Wood en plein été : leurs fonds de cuir et d'oud deviennent lourds au soleil."
+    },
+    {
+     "q": "Quelle différence entre un parfum boisé et un parfum ambré ?",
+     "a": "Un boisé met en avant le cèdre, le vétiver ou le santal, avec une impression sèche. Un ambré (autrefois appelé oriental) repose sur la vanille, les résines et les épices chaudes, plus sucré et enveloppant. Beaucoup de parfums mêlent les deux, comme Oud Wood, classé boisé et ambré."
+    }
+   ]
+  },
+  "en": {
+   "title": "Woody fragrances for men: 8 woods worth knowing",
+   "meta": "Terre d'Hermès, Bleu de Chanel and Fahrenheit lead our ranking of woody fragrances for men, from dry vetiver to smooth oud.",
+   "h1": "The best woody fragrances for men, ranked",
+   "intro": "Our pick for the best woody fragrance for men is Terre d'Hermès. Jean-Claude Ellena balanced orange, flint and vetiver into something dry and clear that works all year. Bleu de Chanel comes second for sheer versatility: cedar, sandalwood and incense under citrus, with no missteps. Fahrenheit rounds out the podium for men who want a darker wood, with its famous violet and leather.",
+   "sections": [
+    {
+     "title": "The main styles of masculine woods",
+     "body": "In men's fragrance, wood is rarely a detail. It is the skeleton, whereas women's perfumes mostly use it to carry flowers. There are several styles. Dry, mineral woods rest on vetiver and cedar, and Terre d'Hermès is the clearest example. Aromatic woods add citrus, mint or sage for freshness, as in Bleu de Chanel and Explorer. Creamy woods push sandalwood forward, which Santal 33 made hugely popular. Spicy woods warm things up with cinnamon or clove, like Boss Bottled. Then there is oud, a resinous wood from the Middle East that Oud Wood helped introduce to Western noses in a gentle form. Leather often shows up in the base, as in Fahrenheit, and toughens everything around it."
+    },
+    {
+     "title": "How to pick a woody fragrance",
+     "body": "Season comes first. Fresh woods with citrus on top and a light vetiver work in spring and summer, and Allure Homme Sport and Terre d'Hermès belong here. Woods with a leather, incense or oud base come into their own in autumn. Setting comes second. At the office, stay at 3 or 4 out of 5 on intensity with a clean trail, which is exactly what Bleu de Chanel does. In the evening, Fahrenheit or Oud Wood give more depth. Skin comes third. Vetiver and cedar stay fairly stable from one person to the next, while the creamy sandalwood of Santal 33 can turn milky or pencil-like depending on the wearer. Always test on your wrist and wait at least an hour. A woody scent is judged on its drydown, not its citrus."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Orange, grapefruit and a flinty note that smells like sun-warmed stone. Jean-Claude Ellena then laid pepper and geranium over very dry vetiver and cedar. Terre d'Hermès is the smartest wood on the list and suits almost any age. The one complaint: it has been so widespread since 2006 that it no longer surprises anyone. More mineral than Bleu de Chanel, and less sweet.",
+    "chanel-bleu-de-chanel": "The go-anywhere choice. Grapefruit and lemon open onto ginger and nutmeg. Cedar, sandalwood and incense then form a clean base that lasts. Jacques Polge aimed at the man who does not want to get it wrong, and he hit the mark. It lacks daring next to Fahrenheit. For the office or a first date, it is still hard to beat.",
+    "dior-fahrenheit": "Lavender, violet and nutmeg over leather, sandalwood and vetiver. Fahrenheit has a note many describe as petrol-like, and nothing else has smelled like it since 1988. You love it or you hate it. It suits men who want their scent noticed. Darker than Terre d'Hermès, it belongs to autumn and evenings.",
+    "le-labo-santal-33": "Sandalwood, cedar and papyrus with a thread of violet and cardamom. Santal 33 is unisex but wears beautifully on men. Frank Voelkl built a creamy wood with a touch of leather that recalls pencil shavings and saddles. Its ubiquity in big cities has dulled the surprise. Softer than Terre d'Hermès, it works as an everyday scent.",
+    "tom-ford-oud-wood": "An entry point to oud without the animalic or medicinal edge the material can have. Richard Herpin surrounds it with cardamom, Sichuan pepper and sandalwood, then tonka. Oud Wood is calmer than its name suggests. Great for trying oud at the office in winter, it will disappoint fans of wilder ouds and lasts less than Fahrenheit.",
+    "hugo-boss-boss-bottled": "Apple, cinnamon and clove over sandalwood, cedar and vanilla. Annick Ménardo created a crowd-pleasing spicy wood in 1998 that many men have owned at some point. It surprises no one, fair enough. Warmer than Bleu de Chanel and less singular than Fahrenheit, it remains a safe bet for autumn and the office.",
+    "montblanc-explorer": "Bergamot and clary sage first. Then vetiver, patchouli and a hint of leather. Explorer is a very well made aromatic wood that echoes other hits in its category. It works at the office, on weekends and in spring without ever getting in the way. It lacks the personality of Terre d'Hermès. This is the sensible choice in the lineup.",
+    "chanel-allure-homme-sport": "Aldehydes and mandarin up top, pepper and cedar in the heart. The tonka and vetiver base stays soft. Allure Homme Sport is the most summery wood in the ranking. Projection is modest, so use two or three sprays. Compared with Bleu de Chanel it is brighter and shorter-lived. We like it for the gym and hot days."
+   },
+   "faq": [
+    {
+     "q": "What is the best woody fragrance for men?",
+     "a": "Our choice is Terre d'Hermès for its balance of citrus, flint and vetiver, and because it works all year. Bleu de Chanel is more versatile at the office. Fahrenheit is the most memorable of the three, but it divides opinion. If you like creamy woods, Santal 33 is a unisex alternative."
+    },
+    {
+     "q": "Which woody fragrance should men wear in summer?",
+     "a": "Look for a woody scent with citrus on top and a light vetiver or cedar base. Allure Homme Sport and Terre d'Hermès are our two best picks for hot weather. Skip Fahrenheit and Oud Wood in midsummer, because their leather and oud bases get heavy in the sun."
+    },
+    {
+     "q": "What is the difference between woody and amber fragrances?",
+     "a": "A woody fragrance puts cedar, vetiver, sandalwood or patchouli first and feels dry. An amber fragrance (formerly called oriental) relies on vanilla, resins and warm spices, and feels sweeter and more enveloping. Many scents mix the two. Oud Wood, for example, is classed as both woody and amber."
+    }
+   ]
+  }
+ },
+ "fg:powdery:F": {
+  "picks": [
+   "chanel-n-5",
+   "kenzo-flower-by-kenzo",
+   "chloe-chloe-eau-de-parfum",
+   "byredo-blanche",
+   "lanvin-arpege",
+   "chanel-n-22",
+   "elizabeth-taylor-white-diamonds"
+  ],
+  "fr": {
+   "title": "Parfum poudré femme : 7 parfums qui sentent la poudre de riz",
+   "meta": "Du N°5 de Chanel à Flower by Kenzo : sept parfums poudrés pour femme classés, avec ce qui les rend doux, savonneux ou rétro.",
+   "h1": "Les parfums poudrés pour femme que l'on recommande",
+   "intro": "Pour un parfum poudré féminin, notre premier choix reste le N°5 de Chanel : ses aldéhydes donnent à la rose et au jasmin cet effet de poudre fine sur la peau que personne n'a mieux réussi depuis 1921. Si vous le trouvez trop habillé, Flower by Kenzo est la porte d'entrée la plus douce, avec sa violette posée sur la vanille. Le Chloé Eau de Parfum complète le trio pour une poudre plus fraîche, centrée sur la rose.",
+   "sections": [
+    {
+     "title": "D'où vient l'effet poudré",
+     "body": "Aucune matière ne s'appelle « poudre ». L'effet naît de quelques ingrédients qui rappellent le maquillage ancien : la racine d'iris et son côté beurré, la violette ou l'héliotrope. Les aldéhydes jouent aussi un rôle. Ce sont des molécules de synthèse qui donnent un halo scintillant et un peu savonneux, celui du N°5, du N°22 ou d'Arpège. Côté féminin, le poudré assume son lien avec la coiffeuse, le rouge à lèvres et le talc. Les masculins poudrés existent, mais ils rangent l'iris sous la lavande ou le cuir pour éviter cette image. On peut classer notre sélection en trois styles. Le poudré aldéhydé est le plus ancien et le plus habillé. Le poudré floral moderne adoucit la formule avec de la vanille ou de la rose fraîche : Flower by Kenzo et le Chloé. Le poudré propre enfin, plus proche du linge que du fard, dont Blanche de Byredo est l'exemple parfait."
+    },
+    {
+     "title": "Bien choisir (et bien porter) un poudré",
+     "body": "Le poudré a une réputation de parfum de grand-mère, et c'est vrai pour une partie des aldéhydés. Si c'est votre crainte, commencez par Flower by Kenzo ou Blanche, qui gardent l'effet de douceur sans le côté rétro. Si au contraire vous aimez les parfums de caractère, Arpège et White Diamonds offrent une poudre plus riche, pour le soir et l'hiver. Ces parfums s'expriment mieux sur une peau hydratée : appliquez-les après une crème neutre pour qu'ils tiennent davantage. Une seule pulvérisation au creux du cou suffit pour les plus denses. Le poudré aime le froid et les matières douces comme la laine ou le cachemire. En plein été, seuls Blanche et le Chloé restent vraiment confortables. Méfiez-vous enfin des souvenirs : on juge souvent un poudré à travers le parfum d'une mère ou d'une tante, alors qu'il peut sentir tout autre chose sur votre propre peau."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "Premier ici parce que ses aldéhydes sont l'effet poudré le plus précis qui soit. Ernest Beaux les a dosés en 1921 pour que la rose, le jasmin et l'iris semblent flotter sur la peau. On le porte le soir ou pour une occasion, plutôt l'hiver. Il va aux femmes qui aiment les parfums de caractère. Sa facette savonneuse le rend plus sévère que Flower by Kenzo.",
+    "kenzo-flower-by-kenzo": "La violette et la vanille donnent à Flower by Kenzo sa douceur de rouge à lèvres, soutenue par un cassis et une aubépine discrets. Alberto Morillas en a fait en 2000 un poudré moderne, sans aldéhydes, qui ne sent jamais la vieille dame. C'est notre conseil pour une première approche de la famille. Face au N°5, il manque un peu d'ampleur et paraît plus sage avec le temps.",
+    "chloe-chloe-eau-de-parfum": "Une rose fraîche et savonneuse, ouverte par la pivoine et le litchi. Michel Almairac et Amandine Clerc-Marie ont signé en 2008 un poudré lumineux qui se porte le jour, au bureau ou à un premier rendez-vous. Il est moins doux que Flower by Kenzo et plus jeune qu'Arpège. Son côté savon ne plaira pas à toutes, surtout à celles qui cherchent de la chaleur.",
+    "byredo-blanche": "Blanche sent le linge propre plus que le fard : aldéhydes, pivoine et rose sur un musc très net. Jérôme Epinette a construit en 2009 le poudré le plus léger de cette page, avec une intensité de 2 sur 5. On le porte l'été sans peine. Certaines y sentent la lessive, ce qui est la limite du style. Plus moderne que le N°22, il tient aussi beaucoup moins.",
+    "lanvin-arpege": "Chez Lanvin en 1927, Arpège ouvre sur les aldéhydes et la pêche avant un bouquet de rose et de muguet. La vanille et le santal arrondissent ensuite le tout, et la tenue est remarquable. Il plaira aux amatrices de N°5 qui cherchent une poudre plus chaude et plus ronde. Son classicisme peut sembler sage à un nez habitué aux fruités d'aujourd'hui.",
+    "chanel-n-22": "Un an après le N°5, Ernest Beaux a récidivé avec une version plus blanche : tubéreuse, jasmin et ylang-ylang sur un fond de vanille et d'iris. Le N°22 est plus lumineux et plus crémeux que son aîné. On le choisit pour un mariage ou une fête de printemps. Son style ancien est assumé et demande un vrai goût pour les fleurs blanches.",
+    "elizabeth-taylor-white-diamonds": "Aldéhydes et néroli en tête, un cœur de fleurs blanches, puis un fond de mousse de chêne et de patchouli. White Diamonds est le poudré le plus généreux de la liste, pensé pour le glamour du soir. Il tient longtemps avec une intensité de 4 sur 5. À côté de Blanche, il paraît très chargé, et son opulence peut sembler datée."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum poudré ?",
+     "a": "C'est un parfum dont l'effet final rappelle la poudre de riz ou le maquillage. Il vient surtout de l'iris et de la violette, mais aussi des aldéhydes et de certains muscs. Le N°5 de Chanel, Flower by Kenzo et Arpège sont trois exemples très différents de cette famille."
+    },
+    {
+     "q": "Quel parfum poudré pour femme est le plus doux ?",
+     "a": "Flower by Kenzo, grâce à sa violette posée sur la vanille et le musc. Blanche de Byredo est encore plus léger mais plus propre que doux. Évitez White Diamonds et le N°5 si vous cherchez la discrétion : ce sont les deux plus présents de notre sélection."
+    },
+    {
+     "q": "Un parfum poudré fait-il forcément vieux ?",
+     "a": "Non. Les poudrés aldéhydés comme Arpège ou White Diamonds ont un style ancien assumé. Les poudrés récents, comme le Chloé Eau de Parfum ou Blanche, jouent sur la fraîcheur et le propre. Tout dépend aussi de la façon de le porter : une seule pulvérisation rajeunit beaucoup un parfum dense."
+    }
+   ]
+  },
+  "en": {
+   "title": "Powdery perfumes for women: 7 soft, makeup-bag scents",
+   "meta": "From Chanel No. 5 to Flower by Kenzo: seven powdery perfumes for women ranked, with what makes each one soft, soapy or retro.",
+   "h1": "Powdery perfumes for women we actually recommend",
+   "intro": "For a powdery perfume, our first pick is still Chanel No. 5. Its aldehydes give rose and jasmine that fine-powder-on-skin effect nobody has done better since 1921. If it feels too formal, Flower by Kenzo is the gentlest way in, with violet resting on vanilla. The Chloé Eau de Parfum completes the top three for a fresher powder built around rose.",
+   "sections": [
+    {
+     "title": "Where the powdery effect comes from",
+     "body": "No ingredient is actually called powder. The effect comes from a handful of materials that recall old-fashioned makeup: buttery orris root, violet or heliotrope. Aldehydes matter too. These synthetic molecules add a sparkling, slightly soapy halo, the one you smell in No. 5, No. 22 and Arpège. Feminine powdery scents embrace their link to the vanity table, lipstick and talc. Powdery men's fragrances exist, but they tuck iris under lavender or leather to avoid that image. Our selection falls into three styles. Aldehydic powder is the oldest and the most dressed-up. Modern floral powder softens the formula with vanilla or fresh rose, as in Flower by Kenzo and Chloé. Clean powder sits closer to fresh laundry than to face powder, and Byredo Blanche is the perfect example."
+    },
+    {
+     "title": "Choosing and wearing a powdery scent",
+     "body": "Powdery perfumes have a grandmother reputation, and it is deserved for some aldehydic ones. If that worries you, start with Flower by Kenzo or Blanche. Both keep the softness without the retro feel. If you like perfumes with character, Arpège and White Diamonds offer richer powder for winter evenings. These scents perform best on moisturized skin, so apply them over an unscented lotion to make them last. One spray at the base of the neck is enough for the densest ones. Powder loves cold weather and soft fabrics like wool or cashmere. In high summer, only Blanche and Chloé stay truly comfortable. One last warning about memory: we often judge a powdery scent through a mother's or an aunt's perfume, yet it can smell completely different on your own skin."
+    }
+   ],
+   "why": {
+    "chanel-n-5": "It ranks first because its aldehydes are the most precise powdery effect there is. Ernest Beaux dosed them in 1921 so that rose, jasmine and iris seem to float above the skin. Wear it in the evening or for an occasion, ideally in winter. It suits women who like perfume with character. Its soapy facet makes it sterner than Flower by Kenzo.",
+    "kenzo-flower-by-kenzo": "Violet and vanilla give Flower by Kenzo its lipstick softness, backed by a discreet blackcurrant and hawthorn. Alberto Morillas made it in 2000 as a modern powdery scent with no aldehydes, so it never smells old-fashioned. It is our advice for a first try at the family. Next to No. 5 it lacks breadth and can feel tame over time.",
+    "chloe-chloe-eau-de-parfum": "A fresh, soapy rose opened by peony and lychee. Michel Almairac and Amandine Clerc-Marie made a bright powdery scent in 2008 that works by day, at the office or on a first date. It is less soft than Flower by Kenzo and younger than Arpège. The soap will not please everyone, especially anyone looking for warmth.",
+    "byredo-blanche": "Blanche smells like fresh laundry more than face powder. Aldehydes, peony and rose sit on a very clean musk. Jérôme Epinette built the lightest powdery scent on this page in 2009, rated 2 out of 5 on intensity. It is easy to wear in summer. Some people smell detergent, which is the limit of the style. More modern than No. 22, it also fades much faster.",
+    "lanvin-arpege": "Launched by Lanvin in 1927, Arpège opens on aldehydes and peach before a bouquet of rose and lily of the valley. Vanilla and sandalwood then round it off, and it lasts remarkably well. It will please No. 5 fans who want a warmer, rounder powder. Its classicism may feel tame to a nose raised on today's fruity scents.",
+    "chanel-n-22": "One year after No. 5, Ernest Beaux did it again with a whiter version: tuberose, jasmine and ylang-ylang over vanilla and iris. No. 22 is brighter and creamier than its older sibling. Pick it for a wedding or a spring party. The old-school style is fully intended and calls for a real love of white flowers.",
+    "elizabeth-taylor-white-diamonds": "Aldehydes and neroli lead into a heart of white flowers, then oakmoss and patchouli in the base. White Diamonds is the most generous powdery scent on the list, built for evening glamour. At 4 out of 5 on intensity, it lasts a long time. Next to Blanche it feels very loaded, and its opulence can seem dated."
+   },
+   "faq": [
+    {
+     "q": "What is a powdery perfume?",
+     "a": "It is a perfume whose drydown recalls face powder or makeup. The effect mostly comes from iris and violet, helped by aldehydes and some musks. Chanel No. 5, Flower by Kenzo and Arpège are three very different examples of the family."
+    },
+    {
+     "q": "What is the softest powdery perfume for women?",
+     "a": "Flower by Kenzo, thanks to its violet on a vanilla and musk base. Byredo Blanche is even lighter, though it reads clean rather than soft. Avoid White Diamonds and No. 5 if you want discretion, since they are the two strongest in our selection."
+    },
+    {
+     "q": "Do powdery perfumes smell old?",
+     "a": "No. Aldehydic powders like Arpège and White Diamonds have a deliberately vintage style. Recent powdery scents like Chloé Eau de Parfum and Blanche play on freshness and cleanliness. How you wear it matters too: a single spray makes a dense perfume feel much younger."
+    }
+   ]
+  }
+ },
+ "fg:chypre:F": {
+  "picks": [
+   "guerlain-mitsouko",
+   "dior-miss-dior",
+   "chanel-n-19",
+   "rochas-femme",
+   "clinique-aromatics-elixir",
+   "giorgio-armani-si",
+   "salvatore-ferragamo-signorina",
+   "jimmy-choo-jimmy-choo"
+  ],
+  "fr": {
+   "title": "Parfum chypré femme : 8 chypres, des classiques aux modernes",
+   "meta": "Mitsouko, Miss Dior 1947 et le N°19 : notre classement des parfums chyprés pour femme, de la mousse de chêne d'origine au patchouli fruité.",
+   "h1": "Parfums chyprés pour femme : notre sélection commentée",
+   "intro": "Le meilleur parfum chypré pour femme reste à nos yeux Mitsouko de Guerlain : une pêche mélancolique posée sur la mousse de chêne, qui demande plusieurs essais puis ne vous lâche plus. Miss Dior version 1947 suit de près avec son galbanum vert et son patchouli. Pour qui veut un chypre moderne et plus facile, Sì de Giorgio Armani garde la structure en remplaçant la rigueur par du cassis et de la vanille.",
+   "sections": [
+    {
+     "title": "Qu'est-ce qu'un chypre féminin ?",
+     "body": "Le nom vient du Chypre de Coty, lancé en 1917, qui a donné sa forme à toute la famille. La structure est simple à décrire. Une tête de bergamote lumineuse s'appuie sur un fond sombre de mousse de chêne et de labdanum, souvent renforcé de patchouli. Ce contraste entre clair et obscur donne au chypre son allure sèche et adulte. Côté féminin, on y ajoute des fleurs et parfois un fruit. Mitsouko et Rochas Femme y mettent la pêche ou la prune, Miss Dior le jasmin et le gardénia. Côté masculin, la même base porte plutôt du cuir et des herbes aromatiques. La mousse de chêne est aujourd'hui soumise à des restrictions liées aux allergies, ce qui a poussé les maisons à reformuler les anciens chypres. Les versions actuelles restent belles mais plus légères. D'où l'apparition du chypre moderne, où le patchouli prend la place de la mousse : Sì, Signorina et Jimmy Choo en sont trois exemples."
+    },
+    {
+     "title": "Chypre classique ou chypre moderne : lequel choisir",
+     "body": "Si vous n'avez jamais porté de chypre, ne commencez pas par Aromatics Elixir. Il est magnifique, mais sa puissance de 5 sur 5 et ses herbes amères découragent vite. Commencez plutôt par un chypre moderne comme Sì ou Signorina, qui gardent la tenue et l'élégance avec une touche sucrée plus familière. Si vous l'aimez, passez ensuite à Miss Dior ou au N°19, plus verts et plus secs. Mitsouko se garde pour plus tard, quand on a appris à aimer l'amertume de la mousse. Les chypres sont des parfums de mi-saison. Le printemps et l'automne leur vont mieux que la canicule, qui accentue leur côté terreux. Au bureau, le N°19 et Signorina passent très bien. Le soir, Rochas Femme et Aromatics Elixir prennent toute leur ampleur. Sur une peau sèche, hydratez avant d'appliquer : la mousse de chêne y paraît sinon plus poussiéreuse."
+    }
+   ],
+   "why": {
+    "guerlain-mitsouko": "Jacques Guerlain a créé Mitsouko en 1919, deux ans après le Chypre de Coty, et c'est lui qui reste la référence. La pêche et la bergamote s'effacent vite derrière la mousse de chêne et le vétiver, avec une mélancolie que peu de parfums ont. Il va aux femmes patientes. Plus doux que Miss Dior mais plus difficile que Sì, il demande plusieurs jours d'essai.",
+    "dior-miss-dior": "Premier souffle vert et piquant : c'est le galbanum qui ouvre Miss Dior version 1947. Jasmin, rose et narcisse suivent, puis le patchouli et la mousse de chêne ferment la marche. Jean Carles et Paul Vacher ont signé un chypre élégant et sec, parfait au printemps. Ne le confondez pas avec les Miss Dior récents, bien plus sucrés. Plus vert que Mitsouko, il paraîtra austère à certaines.",
+    "chanel-n-19": "Galbanum et néroli en tête, un iris froid au cœur, puis mousse de chêne et cuir : Henri Robert a construit en 1971 le chypre le plus vert et le plus distant de la sélection. Il convient au bureau et aux femmes qui n'aiment pas le sucre. Sa froideur peut dérouter. À côté de Rochas Femme, il paraît presque minéral.",
+    "rochas-femme": "Une prune mûre sur la mousse de chêne, avec l'ambre et le musc pour arrondir. Edmond Roudnitska a donné en 1944 au chypre une sensualité plus chaude et plus charnelle que chez Guerlain. C'est un parfum d'automne et de dîner. Il peut paraître daté à celles qui ne supportent pas la mousse, mais il fait le lien parfait entre Mitsouko et les chypres fruités d'aujourd'hui.",
+    "clinique-aromatics-elixir": "Le chypre le plus puissant de la liste, avec une intensité de 5 sur 5. Camomille et coriandre ouvrent sur une rose très dense, puis mousse de chêne et patchouli s'installent pour la journée. Bernard Chant l'a composé en 1971, et il n'a rien perdu de sa radicalité. Une seule pulvérisation suffit. Plus herbacé que le N°19, il fatigue les nez qui aiment la transparence.",
+    "giorgio-armani-si": "Christine Nagel a conçu Sì en 2013 comme un chypre moderne : cassis et bergamote, une rose au freesia, puis vanille et patchouli sur un fond d'ambroxan. C'est notre conseil pour découvrir la famille sans prendre de risque. Il tient bien et se porte le soir comme au bureau. Son défaut : la vanille finit par prendre le dessus, ce qui l'éloigne de la sécheresse de Miss Dior.",
+    "salvatore-ferragamo-signorina": "Cassis et poire en tête, pivoine et rose au cœur. Le fond de patchouli est adouci par une note de panna cotta. Signorina est le chypre le plus tendre de la sélection. Il convient aux jeunes femmes et aux journées de bureau. Plus léger que Sì, il reste assez classique dans sa catégorie et ne surprendra pas les amatrices de chypres anciens.",
+    "jimmy-choo-jimmy-choo": "Poire et mandarine, une orchidée caramélisée puis un patchouli bien présent : Jimmy Choo pose en 2011 un chypre fruité plutôt gourmand. Il se porte le soir en automne et plaît à celles qui trouvent Mitsouko trop sévère. Le duo caramel et patchouli a été beaucoup repris depuis. Face à Signorina, il est plus sucré et plus sombre."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum chypré ?",
+     "a": "C'est un parfum construit sur le contraste entre une tête de bergamote et un fond de mousse de chêne, de labdanum et souvent de patchouli. Le nom vient du Chypre de Coty (1917). Mitsouko et Miss Dior 1947 sont des chypres classiques. Sì et Signorina en sont des versions modernes et plus sucrées."
+    },
+    {
+     "q": "Quel est le meilleur parfum chypré pour femme ?",
+     "a": "Pour nous, Mitsouko de Guerlain, pour sa profondeur et son histoire. Il demande cependant un peu d'habitude. Si vous cherchez un chypre plus facile, Sì de Giorgio Armani garde la structure avec une douceur moderne. Pour le bureau, le N°19 de Chanel est plus net et plus vert."
+    },
+    {
+     "q": "Les parfums chyprés sont-ils démodés ?",
+     "a": "Les chypres à la mousse de chêne ont moins de place qu'avant, en partie parce que cette matière est aujourd'hui encadrée. Le style n'a pas disparu pour autant. Il s'est transformé en chypre moderne où le patchouli prend le relais. Sì, Signorina et Jimmy Choo en sont de bons exemples."
+    }
+   ]
+  },
+  "en": {
+   "title": "Chypre perfumes for women: 8 picks, classic to modern",
+   "meta": "Mitsouko, Miss Dior 1947 and Chanel No. 19 lead our ranking of chypre perfumes for women, from original oakmoss to fruity patchouli.",
+   "h1": "The best chypre perfumes for women, with notes",
+   "intro": "Our favorite chypre perfume for women is still Guerlain Mitsouko. A melancholy peach on oakmoss, it takes a few tries and then never lets go. The 1947 Miss Dior follows closely with green galbanum and patchouli. For a modern chypre that is easier to love, Giorgio Armani Sì keeps the structure but swaps the severity for blackcurrant and vanilla.",
+   "sections": [
+    {
+     "title": "What a feminine chypre is",
+     "body": "The name comes from Coty's Chypre, launched in 1917, which shaped the whole family. The structure is easy to describe. A bright bergamot top rests on a dark base of oakmoss and labdanum, often reinforced with patchouli. That contrast between light and shadow gives chypres their dry, grown-up feel. Feminine chypres add flowers and sometimes fruit. Mitsouko and Rochas Femme bring peach or plum, while Miss Dior brings jasmine and gardenia. Masculine chypres use the same base for leather and aromatic herbs. Oakmoss is now subject to restrictions over allergy concerns, so perfume houses have reformulated the old chypres. Current versions are still beautiful but lighter. That is how the modern chypre was born, with patchouli standing in for moss. Sì, Signorina and Jimmy Choo are three examples."
+    },
+    {
+     "title": "Classic or modern chypre: which to pick",
+     "body": "If you have never worn a chypre, do not start with Aromatics Elixir. It is magnificent, but its 5 out of 5 intensity and bitter herbs put people off fast. Start instead with a modern chypre like Sì or Signorina. They keep the longevity and the poise with a more familiar touch of sweetness. If you like them, move on to Miss Dior or No. 19, which are greener and drier. Keep Mitsouko for later, once you have learned to enjoy the bitterness of moss. Chypres are shoulder-season scents. Spring and autumn suit them better than a heatwave, which exaggerates their earthy side. At the office, No. 19 and Signorina work very well. In the evening, Rochas Femme and Aromatics Elixir open up fully. On dry skin, moisturize first, or the oakmoss can smell dusty."
+    }
+   ],
+   "why": {
+    "guerlain-mitsouko": "Jacques Guerlain created Mitsouko in 1919, two years after Coty's Chypre, and it remains the benchmark. Peach and bergamot fade quickly behind oakmoss and vetiver, leaving a melancholy few perfumes have. It suits patient wearers. Softer than Miss Dior but harder than Sì, it needs several days of testing.",
+    "dior-miss-dior": "A sharp green breath of galbanum opens the 1947 Miss Dior. Jasmine, rose and narcissus follow, then patchouli and oakmoss close the procession. Jean Carles and Paul Vacher made an elegant, dry chypre that is perfect in spring. Do not confuse it with recent Miss Dior releases, which are much sweeter. Greener than Mitsouko, it will feel austere to some.",
+    "chanel-n-19": "Galbanum and neroli up top, a cool iris in the heart, then oakmoss and leather. Henri Robert built the greenest and most aloof chypre in this selection in 1971. It suits the office and anyone who dislikes sugar. Its coolness can be off-putting. Next to Rochas Femme, it feels almost mineral.",
+    "rochas-femme": "Ripe plum on oakmoss, with amber and musk to soften the edges. In 1944 Edmond Roudnitska gave the chypre a warmer, more carnal sensuality than Guerlain had. It is an autumn and dinner scent. It may seem dated if you dislike moss, but it forms the perfect bridge between Mitsouko and today's fruity chypres.",
+    "clinique-aromatics-elixir": "The most powerful chypre on the list, rated 5 out of 5 on intensity. Chamomile and coriander open onto a dense rose, then oakmoss and patchouli settle in for the day. Bernard Chant composed it in 1971 and it has lost none of its bite. One spray is enough. More herbal than No. 19, it wears out noses that prefer transparency.",
+    "giorgio-armani-si": "Christine Nagel designed Sì in 2013 as a modern chypre: blackcurrant and bergamot, rose with freesia, then vanilla and patchouli over ambroxan. It is our advice for trying the family without risk. It lasts well and works for evenings and the office alike. The flaw is that vanilla eventually takes over, which pulls it far from the dryness of Miss Dior.",
+    "salvatore-ferragamo-signorina": "Blackcurrant and pear up top, peony and rose in the heart, and a patchouli base softened by a panna cotta note. Signorina is the gentlest chypre in the selection. It suits younger wearers and office days. Lighter than Sì, it is fairly conventional for its category and will not surprise fans of vintage chypres.",
+    "jimmy-choo-jimmy-choo": "Pear and mandarin, a caramelized orchid, then plenty of patchouli. In 2011 Jimmy Choo delivered a fruity chypre that leans gourmand. It is an autumn evening scent for anyone who finds Mitsouko too stern. The caramel and patchouli pairing has been widely copied since. Compared with Signorina, it is sweeter and darker."
+   },
+   "faq": [
+    {
+     "q": "What is a chypre perfume?",
+     "a": "It is a perfume built on the contrast between a bergamot top and a base of oakmoss, labdanum and often patchouli. The name comes from Coty's Chypre (1917). Mitsouko and the 1947 Miss Dior are classic chypres. Sì and Signorina are modern, sweeter takes on the style."
+    },
+    {
+     "q": "What is the best chypre perfume for women?",
+     "a": "Our pick is Guerlain Mitsouko for its depth and history. It does take some getting used to. If you want an easier chypre, Giorgio Armani Sì keeps the structure with modern softness. For the office, Chanel No. 19 is cleaner and greener."
+    },
+    {
+     "q": "Are chypre perfumes old-fashioned?",
+     "a": "Oakmoss chypres are rarer than they used to be, partly because the material is now restricted. The style has not disappeared, though. It has evolved into the modern chypre, where patchouli takes over from moss. Sì, Signorina and Jimmy Choo are good examples."
+    }
+   ]
+  }
+ },
+ "fg:oriental:M": {
+  "picks": [
+   "jean-paul-gaultier-le-male",
+   "guerlain-habit-rouge",
+   "thierry-mugler-amen",
+   "viktor-rolf-spicebomb",
+   "tom-ford-tobacco-vanille",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "giorgio-armani-code",
+   "tom-ford-oud-wood",
+   "amouage-interlude-man"
+  ],
+  "fr": {
+   "title": "Parfum oriental homme : 9 ambrés, de la vanille à l'encens",
+   "meta": "Le Mâle, Habit Rouge et A*Men : notre classement des parfums orientaux pour homme, de la fougère vanillée à l'oud et à l'encens d'Amouage.",
+   "h1": "Les meilleurs parfums orientaux (ambrés) pour homme",
+   "intro": "Notre premier choix de parfum oriental pour homme est Le Mâle de Jean Paul Gaultier. Sa lavande posée sur la vanille et la fève tonka a défini en 1995 la chaleur masculine pour toute une génération. Habit Rouge suit, parce que Guerlain y proposait dès 1965 une vanille poudrée pour homme d'une élégance rare. A*Men complète le podium pour ceux qui veulent l'oriental le plus radical : café, caramel et patchouli à pleine puissance.",
+   "sections": [
+    {
+     "title": "Oriental, ambré, oud : de quoi parle-t-on ?",
+     "body": "Dans le vocabulaire des parfumeurs, « oriental » désigne une famille construite sur la vanille et les résines, relevées d'épices chaudes. Le métier parle de plus en plus d'« ambré », un terme plus neutre qui décrit la même chose. Côté masculin, cette chaleur se combine souvent avec la lavande d'une fougère : Le Mâle et La Nuit de l'Homme sont des fougères ambrées. Elle peut aussi pencher vers les épices (Spicebomb), vers la gourmandise (A*Men) ou vers le tabac (Tobacco Vanille). Beaucoup de gens qui cherchent un « parfum oriental homme » pensent pourtant à autre chose. Ils veulent les parfums d'inspiration moyen-orientale, riches en oud, en encens et en résines fumées. Nous en avons retenu deux dans cette sélection. Oud Wood en donne une lecture très douce. Interlude Man, de la maison omanaise Amouage, en montre la version la plus intense."
+    },
+    {
+     "title": "Comment porter un oriental quand on est un homme",
+     "body": "Un oriental se dose avec prudence. La vanille et les résines tiennent longtemps et diffusent fort dans une pièce chauffée, surtout quand l'intensité atteint 5 sur 5 comme pour A*Men, Tobacco Vanille ou Interlude Man. Une pulvérisation sur le torse, sous la chemise, suffit souvent. Ce sont des parfums d'automne et d'hiver. Au-dessus de 20 degrés, la plupart deviennent collants, et seuls La Nuit de l'Homme ou Code restent supportables au printemps. Pour le bureau, choisissez les plus sobres : Habit Rouge, Code ou Oud Wood. Pour un rendez-vous, Le Mâle et La Nuit de l'Homme ont fait leurs preuves. Si vous débutez, évitez de commencer par Interlude Man. Sa fumée d'encens et d'oud est magnifique mais demande d'avoir déjà apprivoisé des parfums plus simples. Le Mâle est une meilleure porte d'entrée."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian a composé en 1995 une fougère ambrée qui sent le savon à barbe et la peau chaude. La menthe et la lavande s'effacent derrière la vanille et la tonka, avec une pointe de cannelle. Le Mâle va aux hommes qui aiment être remarqués le soir. On lui reproche d'être trop répandu et un peu doux pour les amateurs de boisés secs. Plus sucré qu'Habit Rouge, il est aussi plus facile.",
+    "guerlain-habit-rouge": "Citron, basilic puis un œillet à la cannelle, avant une vanille poudrée qui dure : Jean-Paul Guerlain a signé en 1965 l'un des premiers orientaux pour homme. Habit Rouge convient au bureau comme au dîner, à condition d'aimer la poudre. Ce côté rétro rebute certains. Face au Mâle, il paraît plus élégant et moins charnel.",
+    "thierry-mugler-amen": "Café, caramel et miel sur un fond de patchouli et de vanille : A*Men est l'oriental le plus radical de la liste. Jacques Huclier a poussé en 1996 la gourmandise masculine à un niveau rarement égalé. Une seule pulvérisation, pas deux. Il va aux hommes qui assument un sillage massif. Plus puissant que Spicebomb, il peut aussi devenir écrasant.",
+    "viktor-rolf-spicebomb": "Cannelle, safran et paprika au cœur, tabac et cuir au fond : Olivier Polge a construit en 2012 un oriental épicé chaleureux et bien équilibré. Spicebomb est idéal pour les soirées d'hiver. Il ne supporte pas les journées chaudes. Moins sucré qu'A*Men et plus sec que Le Mâle, il plaît à ceux qui veulent des épices sans gourmandise.",
+    "tom-ford-tobacco-vanille": "Feuille de tabac, vanille et cacao, puis des fruits secs et du daim. Olivier Gillotin a créé en 2007 un parfum mixte qui évoque un vieux salon de cuir. Tobacco Vanille est très dense, avec une intensité de 5 sur 5. On le réserve à l'hiver et aux soirées. Par temps doux, il étouffe. Plus riche que Spicebomb, il fait passer Le Mâle pour une eau fraîche.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Cardamome et lavande, un cœur de cèdre et de cumin, puis la tonka : La Nuit de l'Homme est l'oriental le plus élégant et le plus discret de cette sélection. Il a été conçu pour les rendez-vous, près de la peau. Sa tenue et sa projection restent modestes, ce qui frustre beaucoup d'hommes. Plus léger que Le Mâle, il se porte aussi au printemps.",
+    "giorgio-armani-code": "Bergamote et pomme en tête, fleur d'olivier et anis étoilé au cœur. Le fond mêle tonka, cuir et tabac. Antoine Maisondieu a fait de Code un ambré boisé raffiné, parfait pour le bureau ou un dîner. Sa projection est discrète dans la version originale. Plus sobre que Spicebomb, il plaira aux hommes qui veulent de la chaleur sans se faire remarquer.",
+    "tom-ford-oud-wood": "Ici, Oud Wood représente la version la plus douce de l'oriental moyen-oriental. Cardamome et poivre du Sichuan entourent un oud poli, arrondi par le santal, la tonka et l'ambre. Richard Herpin en a gommé le côté animal. Il se porte au bureau en hiver. Face à Interlude Man, il paraît presque timide, et sa tenue reste modérée.",
+    "amouage-interlude-man": "Encens, opoponax et labdanum, puis l'oud et le cuir : Pierre Negrin a conçu en 2012 une fumée résineuse d'une densité rare. Interlude Man est l'oriental des initiés, difficile à porter et impossible à ignorer. Réservez-le à l'hiver et aux grandes soirées. C'est l'exact opposé d'Oud Wood dans cette sélection, et pas un premier achat."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum oriental pour homme ?",
+     "a": "Pour nous, Le Mâle de Jean Paul Gaultier, pour son équilibre entre lavande et vanille et sa facilité à porter. Habit Rouge est plus élégant, A*Men plus puissant. Si vous cherchez un oriental au sens moyen-oriental du terme, avec oud et encens, Interlude Man d'Amouage est la référence de notre sélection."
+    },
+    {
+     "q": "Quelle différence entre parfum oriental et parfum ambré ?",
+     "a": "Aucune sur le fond. Les deux mots désignent la même famille, construite sur la vanille et les résines avec des épices chaudes. « Ambré » est le terme que l'industrie utilise de plus en plus. « Oriental » reste courant dans les recherches et les boutiques."
+    },
+    {
+     "q": "Peut-on porter un parfum oriental au bureau ?",
+     "a": "Oui, en choisissant un oriental sobre et en le dosant bien. Habit Rouge, Code et Oud Wood fonctionnent au bureau avec une ou deux pulvérisations. Évitez A*Men, Tobacco Vanille et Interlude Man en espace partagé : leur intensité de 5 sur 5 remplit une pièce."
+    },
+    {
+     "q": "Quel parfum oriental homme choisir pour l'hiver ?",
+     "a": "Spicebomb et Tobacco Vanille sont deux choix parfaits pour le froid. Le premier mise sur les épices et le cuir, le second sur le tabac et la vanille. Pour une soirée, A*Men et Le Mâle restent des valeurs sûres. Interlude Man convient aux amateurs d'encens très confirmés."
+    }
+   ]
+  },
+  "en": {
+   "title": "Oriental fragrances for men: 9 amber scents, vanilla to oud",
+   "meta": "Le Mâle, Habit Rouge and A*Men lead our ranking of oriental fragrances for men, from vanilla fougères to Amouage's smoky incense.",
+   "h1": "The best oriental (amber) fragrances for men",
+   "intro": "Our top oriental fragrance for men is Jean Paul Gaultier Le Mâle. Its lavender on vanilla and tonka defined masculine warmth for a whole generation after 1995. Habit Rouge follows, because Guerlain offered men a powdery vanilla of rare elegance as early as 1965. A*Men completes the podium for anyone who wants the most radical option: coffee, caramel and patchouli at full blast.",
+   "sections": [
+    {
+     "title": "Oriental, amber, oud: what are we talking about?",
+     "body": "In perfumers' vocabulary, oriental refers to a family built on vanilla and resins, lifted by warm spices. The industry increasingly calls it amber, a more neutral term for the same thing. In men's fragrance, that warmth often pairs with the lavender of a fougère, so Le Mâle and La Nuit de l'Homme are amber fougères. It can also lean spicy (Spicebomb), gourmand (A*Men) or toward tobacco (Tobacco Vanille). Many people searching for an oriental fragrance for men mean something else, though. They want Middle Eastern style scents rich in oud, incense and smoky resins. We kept two of those here. Oud Wood offers a very gentle reading. Interlude Man, from the Omani house Amouage, shows the most intense version."
+    },
+    {
+     "title": "How to wear an oriental fragrance",
+     "body": "Go easy with the sprayer. Vanilla and resins last for hours and radiate strongly in a heated room, especially at 5 out of 5 intensity like A*Men, Tobacco Vanille and Interlude Man. One spray on the chest, under the shirt, is often enough. These are autumn and winter scents. Above 20°C most of them turn cloying, and only La Nuit de l'Homme and Code stay wearable in spring. For the office, choose the quieter ones: Habit Rouge, Code or Oud Wood. For a date, Le Mâle and La Nuit de l'Homme have proven themselves many times over. If you are new to the family, do not start with Interlude Man. Its incense and oud smoke is gorgeous but requires some experience with simpler scents first. Le Mâle is a better way in."
+    }
+   ],
+   "why": {
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian composed an amber fougère in 1995 that smells of shaving soap and warm skin. Mint and lavender fade behind vanilla and tonka, with a hint of cinnamon. Le Mâle suits men who like to be noticed at night. Critics call it overexposed and too sweet for fans of dry woods. Sweeter than Habit Rouge, it is also easier to wear.",
+    "guerlain-habit-rouge": "Lemon and basil, then a cinnamon-laced carnation before a powdery vanilla that lingers. Jean-Paul Guerlain created one of the first orientals for men in 1965. Habit Rouge works at the office and at dinner, as long as you like powder. That retro feel puts some people off. Next to Le Mâle it feels more refined and less carnal.",
+    "thierry-mugler-amen": "Coffee, caramel and honey over patchouli and vanilla. A*Men is the most radical oriental on the list. In 1996 Jacques Huclier pushed masculine gourmand to a level rarely matched since. One spray, not two. It suits men who are happy with a massive trail. Stronger than Spicebomb, it can also become overwhelming.",
+    "viktor-rolf-spicebomb": "Cinnamon, saffron and paprika in the heart, tobacco and leather in the base. Olivier Polge built a warm, balanced spicy oriental in 2012. Spicebomb is ideal for winter evenings and cannot handle hot days. Less sweet than A*Men and drier than Le Mâle, it pleases men who want spice without dessert.",
+    "tom-ford-tobacco-vanille": "Tobacco leaf, vanilla and cocoa, then dried fruit and suede. Olivier Gillotin created a unisex scent in 2007 that recalls an old leather armchair. Tobacco Vanille is very dense, rated 5 out of 5 on intensity. Keep it for winter nights. In mild weather it smothers. Richer than Spicebomb, it makes Le Mâle smell like a light cologne.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Cardamom and lavender, a heart of cedar and cumin, then tonka. La Nuit de l'Homme is the most elegant and discreet oriental in this selection, designed for dates and close contact. Longevity and projection are modest, which frustrates many wearers. Lighter than Le Mâle, it also works in spring.",
+    "giorgio-armani-code": "Bergamot and apple up top, olive blossom and star anise in the heart. The base blends tonka, leather and tobacco. Antoine Maisondieu made Code a refined woody amber, perfect for the office or dinner. Projection is quiet in the original version. More restrained than Spicebomb, it suits men who want warmth without drawing attention.",
+    "tom-ford-oud-wood": "Here Oud Wood stands for the gentlest side of the Middle Eastern style. Cardamom and Sichuan pepper surround a polished oud, rounded out by sandalwood, tonka and amber. Richard Herpin smoothed away the animalic edge. Wear it to the office in winter. Next to Interlude Man it seems almost shy, and longevity is only moderate.",
+    "amouage-interlude-man": "Incense, opoponax and labdanum, then oud and leather. Pierre Negrin designed a resinous smoke of rare density in 2012. Interlude Man is the insider's oriental, hard to wear and impossible to ignore. Keep it for winter and big nights out. It is the polar opposite of Oud Wood in this selection, and not a first purchase."
+   },
+   "faq": [
+    {
+     "q": "What is the best oriental fragrance for men?",
+     "a": "Our pick is Jean Paul Gaultier Le Mâle for its balance of lavender and vanilla and how easy it is to wear. Habit Rouge is more elegant, A*Men more powerful. If you mean oriental in the Middle Eastern sense, with oud and incense, Amouage Interlude Man is the reference in our selection."
+    },
+    {
+     "q": "What is the difference between oriental and amber fragrances?",
+     "a": "There is none in substance. Both words describe the same family, built on vanilla and resins with warm spices. Amber is the term the industry increasingly prefers, while oriental remains common in searches and shops."
+    },
+    {
+     "q": "Can you wear an oriental fragrance to the office?",
+     "a": "Yes, if you choose a restrained one and dose it carefully. Habit Rouge, Code and Oud Wood work at the office with one or two sprays. Avoid A*Men, Tobacco Vanille and Interlude Man in shared spaces, because their 5 out of 5 intensity fills a room."
+    },
+    {
+     "q": "Which oriental fragrance is best for winter?",
+     "a": "Spicebomb and Tobacco Vanille are both perfect for cold weather. The first relies on spice and leather, the second on tobacco and vanilla. For a night out, A*Men and Le Mâle are safe bets. Interlude Man is for seasoned incense lovers."
+    }
+   ]
+  }
+ },
+ "fg:woody:F": {
+  "picks": [
+   "hermes-eau-des-merveilles",
+   "thierry-mugler-alien",
+   "le-labo-santal-33",
+   "givenchy-linterdit",
+   "prada-infusion-diris",
+   "byredo-gypsy-water",
+   "dior-dior-joy",
+   "caron-tabac-blond"
+  ],
+  "fr": {
+   "title": "Parfum boisé femme : 8 bois, du santal crémeux au cuir",
+   "meta": "Eau des Merveilles, Alien et Santal 33 en tête : notre sélection de parfums boisés pour femme, des bois salés aux bois crémeux.",
+   "h1": "Parfums boisés pour femme : les 8 que l'on conseille",
+   "intro": "Notre premier choix de parfum boisé pour femme est Eau des Merveilles d'Hermès. Son ambre salé posé sur le cèdre et le vétiver sent le bois flotté et la peau après la plage, sans une once de sucre. Alien de Mugler vient ensuite pour celles qui veulent un bois ambré puissant, porté par un jasmin solaire. En troisième position, Santal 33 offre un santal mixte et crémeux que beaucoup de femmes ont adopté.",
+   "sections": [
+    {
+     "title": "Le bois dans un parfum féminin",
+     "body": "Longtemps, le bois a surtout servi de support aux fleurs dans les parfums pour femme. Un peu de santal ou de cèdre au fond, et l'on parlait de floral. Les boisés féminins d'aujourd'hui mettent le bois au premier plan, mais pas le même que chez les hommes. Là où un masculin boisé mise sur le vétiver sec et le cèdre, les féminins préfèrent des bois plus doux. On y trouve le santal crémeux, le cashmeran (une molécule qui évoque un bois musqué et un peu poudré) et l'ambre boisé. Plusieurs styles se dessinent. Le boisé salé et minéral d'Eau des Merveilles. Le boisé ambré et solaire d'Alien. Le floral boisé, où une tubéreuse ou une rose repose sur le patchouli, comme L'Interdit et Dior Joy. Le boisé d'iris et d'encens, plus cérébral, d'Infusion d'Iris. Il reste enfin le cuir boisé ancien de Tabac Blond, un style presque disparu."
+    },
+    {
+     "title": "Comment choisir un boisé féminin",
+     "body": "Posez-vous d'abord une question : voulez-vous sentir la fleur ou le bois ? Si vous aimez encore les fleurs, L'Interdit et Dior Joy offrent une transition douce vers la famille. Si vous voulez vraiment du bois, Eau des Merveilles et Santal 33 sont plus francs. Pensez ensuite à la puissance. Alien atteint 5 sur 5, et une seule pulvérisation suffit pour la journée. Infusion d'Iris, à l'inverse, reste presque confidentiel sur la peau. Les boisés clairs se portent toute l'année, alors que Tabac Blond et Alien demandent le froid. Au bureau, Infusion d'Iris et Gypsy Water passent partout. Le soir, Alien et L'Interdit prennent plus de place. Beaucoup de boisés de cette sélection sont mixtes. C'est souvent le bon endroit pour chercher un parfum qui ne sente ni la fleur ni le sucre."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "Ralf Schwieger et Nathalie Feisthauer ont imaginé en 2004 un ambre salé qui ne ressemble à aucun autre. L'orange et l'élémi pétillent, puis le poivre et la violette glissent vers le cèdre, le vétiver et la mousse de chêne. Il se porte au bureau comme en vacances. Ceux qui attendent une fleur seront déroutés. Plus sec que Santal 33, il est notre coup de cœur de la page.",
+    "thierry-mugler-alien": "Un jasmin solaire sur un bois ambré et un cashmeran très présents : Alien est le boisé le plus puissant de la sélection, avec une intensité de 5 sur 5. Dominique Ropion et Laurent Bruyère l'ont composé en 2005 pour qu'il tienne du matin au soir. Il va aux femmes qui aiment les sillages marqués. Une pulvérisation, jamais trois. Face à Eau des Merveilles, il paraît presque théâtral.",
+    "le-labo-santal-33": "Santal 33 est mixte, et c'est souvent sur les femmes qu'on le sent le plus. Frank Voelkl y associe le santal, le cèdre et le papyrus à une violette et une cardamome discrètes. L'effet est crémeux, un peu cuiré, avec un côté crayon taillé. Il convient au quotidien. Son omniprésence a usé la surprise. Plus doux que Gypsy Water, il est aussi moins poétique.",
+    "givenchy-linterdit": "Tubéreuse, fleur d'oranger et jasmin reposent sur un fond de vétiver et de patchouli qui assombrit le bouquet. L'Interdit de 2018 est un floral boisé plus trouble qu'il n'y paraît, signé par Dominique Ropion, Anne Flipo et Fanny Bal. C'est un bon choix pour le soir en automne. Sa part d'ombre reste mesurée : face à Tabac Blond, il reste très sage.",
+    "prada-infusion-diris": "L'iris le plus élégant de la liste, entouré de néroli et de fleur d'oranger. Il repose sur le cèdre, l'encens et le benjoin. Daniela Andrier a composé en 2007 un parfum qui sent le propre et la pierre fraîche. On le porte au bureau sans jamais gêner personne. Sa discrétion est aussi son défaut. À côté d'Alien, il semble presque inaudible.",
+    "byredo-gypsy-water": "Poivre et citron, un cœur d'encens et d'aiguilles de pin, puis le santal et la vanille : Gypsy Water sent la forêt après un feu de camp. Jérôme Epinette l'a voulu mixte et poétique. Il convient au printemps et à l'automne, en week-end surtout. Sa projection reste modeste. Plus résineux que Santal 33, il manque de tenue par rapport à Alien.",
+    "dior-dior-joy": "Rose de Grasse et jasmin avec une pêche légère, puis musc, santal et patchouli : Dior Joy est le floral boisé le plus lumineux de la sélection. François Demachy l'a construit en 2018 pour le quotidien, du bureau au week-end. Il plaira à celles qui ne veulent pas encore quitter les fleurs. Son défaut : il est si lisse qu'on l'oublie. L'Interdit, plus sombre, laisse un souvenir plus net.",
+    "caron-tabac-blond": "Ernest Daltroff a créé Tabac Blond en 1919, à l'époque où les femmes se mettaient à fumer. Le parfum sent encore le cuir et le tabac blond. L'œillet et l'iris adoucissent un fond de cuir, de vétiver et de vanille. C'est le boisé le plus ancien et le plus singulier de la liste. Il demande une vraie curiosité. Face à Dior Joy, il semble venir d'une autre planète."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum boisé pour femme ?",
+     "a": "Pour nous, Eau des Merveilles d'Hermès, pour son ambre salé et son équilibre entre bois et fraîcheur. Si vous voulez plus de puissance, Alien de Mugler est un boisé ambré très tenace. Pour un bois crémeux et mixte, Santal 33 reste la référence de notre sélection."
+    },
+    {
+     "q": "Un parfum boisé peut-il être féminin ?",
+     "a": "Oui. Les boisés féminins utilisent des bois plus doux que les masculins : santal, cashmeran, ambre boisé. Ils les associent souvent à des fleurs ou à l'iris. L'Interdit, Dior Joy et Infusion d'Iris montrent qu'un parfum boisé peut rester très féminin sans être sucré."
+    },
+    {
+     "q": "Quel parfum boisé pour femme porter au bureau ?",
+     "a": "Infusion d'Iris de Prada et Gypsy Water de Byredo sont nos deux choix pour le bureau : présents sans jamais déranger. Eau des Merveilles convient aussi très bien. Évitez Alien en open space, car son intensité de 5 sur 5 diffuse très loin."
+    }
+   ]
+  },
+  "en": {
+   "title": "Woody perfumes for women: 8 woods, creamy to leathery",
+   "meta": "Eau des Merveilles, Alien and Santal 33 lead our pick of woody perfumes for women, from salty woods to creamy sandalwood and old leather.",
+   "h1": "Woody perfumes for women: the 8 we recommend",
+   "intro": "Our first choice of woody perfume for women is Hermès Eau des Merveilles. Its salty amber on cedar and vetiver smells like driftwood and skin after a day at the beach, with no sugar at all. Mugler Alien comes next for anyone who wants a powerful amber wood carried by sunny jasmine. In third place, Santal 33 offers a creamy unisex sandalwood that many women have adopted.",
+   "sections": [
+    {
+     "title": "Wood in feminine perfume",
+     "body": "For a long time, wood mostly propped up flowers in women's perfumes. A bit of sandalwood or cedar in the base, and it was still called a floral. Today's feminine woody scents put wood in front, but not the same wood men get. Where a masculine woody leans on dry vetiver and cedar, feminine ones prefer softer woods. Think creamy sandalwood, cashmeran (a molecule that smells of musky, slightly powdery wood) and amber woods. Several styles stand out. The salty, mineral wood of Eau des Merveilles. The sunny amber wood of Alien. The floral woody, where tuberose or rose rests on patchouli, as in L'Interdit and Dior Joy. The more cerebral iris and incense wood of Infusion d'Iris. And finally the old leathery wood of Tabac Blond, a style that has nearly vanished."
+    },
+    {
+     "title": "How to choose a woody scent",
+     "body": "Ask yourself one question first: do you want to smell the flower or the wood? If you still love flowers, L'Interdit and Dior Joy make a gentle bridge into the family. If you really want wood, Eau des Merveilles and Santal 33 are more direct. Then think about strength. Alien rates 5 out of 5, and one spray lasts all day. Infusion d'Iris, at the other end, stays almost private on the skin. Light woods work all year, while Tabac Blond and Alien need cold weather. At the office, Infusion d'Iris and Gypsy Water fit anywhere. In the evening, Alien and L'Interdit take up more room. Many woody scents in this selection are unisex. That is often the right place to look for a perfume that smells of neither flowers nor sugar."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "Ralf Schwieger and Nathalie Feisthauer created a salty amber in 2004 that resembles nothing else. Orange and elemi fizz, then pepper and violet slide toward cedar, vetiver and oakmoss. It works at the office and on holiday. Anyone expecting a flower will be puzzled. Drier than Santal 33, it is our favorite on the page.",
+    "thierry-mugler-alien": "A sunny jasmine over strong amber wood and cashmeran. Alien is the most powerful wood in the selection at 5 out of 5 intensity. Dominique Ropion and Laurent Bruyère composed it in 2005 to last from morning to night. It suits women who like a noticeable trail. One spray, never three. Next to Eau des Merveilles it feels almost theatrical.",
+    "le-labo-santal-33": "Santal 33 is unisex, and you often smell it most on women. Frank Voelkl pairs sandalwood, cedar and papyrus with discreet violet and cardamom. The result is creamy and slightly leathery, with a hint of sharpened pencil. It works every day. Its ubiquity has worn off the surprise. Softer than Gypsy Water, it is also less poetic.",
+    "givenchy-linterdit": "Tuberose, orange blossom and jasmine rest on a vetiver and patchouli base that darkens the bouquet. The 2018 L'Interdit is a floral woody with more shade than it first shows, signed by Dominique Ropion, Anne Flipo and Fanny Bal. A good autumn evening choice. Its dark side stays measured, though: next to Tabac Blond it is very well behaved.",
+    "prada-infusion-diris": "The most elegant iris on the list, framed by neroli and orange blossom. It rests on cedar, incense and benzoin. Daniela Andrier composed a scent in 2007 that smells of clean skin and cool stone. You can wear it to the office without bothering anyone. Its discretion is also its flaw. Next to Alien it is almost inaudible.",
+    "byredo-gypsy-water": "Pepper and lemon, a heart of incense and pine needles, then sandalwood and vanilla. Gypsy Water smells like a forest after a campfire. Jérôme Epinette made it unisex and poetic. It suits spring and autumn, especially weekends. Projection is modest. More resinous than Santal 33, it lacks the staying power of Alien.",
+    "dior-dior-joy": "Grasse rose and jasmine with a soft peach, then musk, sandalwood and patchouli. Dior Joy is the brightest floral woody in the selection. François Demachy built it in 2018 for everyday wear, office to weekend. It suits women who are not ready to give up flowers. The flaw: it is so smooth you forget it. L'Interdit, darker, leaves a clearer memory.",
+    "caron-tabac-blond": "Ernest Daltroff created Tabac Blond in 1919, when women were taking up smoking. It still smells of leather and blond tobacco. Carnation and iris soften a base of leather, vetiver and vanilla. It is the oldest and most singular wood on the list. It calls for real curiosity. Next to Dior Joy, it seems to come from another planet."
+   },
+   "faq": [
+    {
+     "q": "What is the best woody perfume for women?",
+     "a": "Our pick is Hermès Eau des Merveilles for its salty amber and its balance of wood and freshness. If you want more power, Mugler Alien is a very long-lasting amber wood. For a creamy unisex wood, Santal 33 is the reference in our selection."
+    },
+    {
+     "q": "Can a woody perfume be feminine?",
+     "a": "Yes. Feminine woody scents use softer woods than masculine ones: sandalwood, cashmeran, amber woods. They often pair them with flowers or iris. L'Interdit, Dior Joy and Infusion d'Iris show that a woody scent can stay very feminine without being sweet."
+    },
+    {
+     "q": "Which woody perfume works for the office?",
+     "a": "Prada Infusion d'Iris and Byredo Gypsy Water are our two office picks: present without ever getting in the way. Eau des Merveilles also works very well. Avoid Alien in an open-plan office, since its 5 out of 5 intensity carries a long way."
+    }
+   ]
+  }
+ },
+ "fg:spicy:F": {
+  "picks": [
+   "yves-saint-laurent-opium",
+   "chanel-coco",
+   "givenchy-linterdit-rouge",
+   "estee-lauder-youth-dew",
+   "maison-margiela-replica-by-the-fireplace",
+   "tom-ford-tobacco-vanille",
+   "byredo-rose-of-no-mans-land",
+   "parfums-de-marly-kalan"
+  ],
+  "fr": {
+   "title": "Parfum épicé femme : 8 parfums au clou de girofle et au poivre",
+   "meta": "Opium, Coco et L'Interdit Rouge en tête : notre sélection de parfums épicés pour femme, du grand oriental au poivre rose plus léger.",
+   "h1": "Les parfums épicés pour femme qui valent le détour",
+   "intro": "Le parfum épicé pour femme par excellence reste Opium d'Yves Saint Laurent. Clou de girofle, prune et mandarine sur un fond de santal et de vanille : depuis 1977, rien n'a fait plus fort dans le genre. Coco de Chanel arrive juste derrière, plus poli, avec sa coriandre et son girofle posés sur la tonka. Pour une version récente, L'Interdit Rouge de Givenchy associe le gingembre et le piment de la Jamaïque à une tubéreuse.",
+   "sections": [
+    {
+     "title": "Les épices dans un parfum féminin",
+     "body": "Les parfums pour homme utilisent souvent les épices pour leur fraîcheur : poivre, cardamome, gingembre en tête. Les féminins les emploient autrement. Le clou de girofle surtout se marie avec la rose et le jasmin pour recréer l'odeur de l'œillet, une fleur qui ne donne presque pas d'essence. C'est le secret d'Opium et de Coco. On distingue trois grands styles. Le grand oriental épicé des années 1950 à 1980 est dense et spectaculaire : Youth Dew, Opium et Coco. Le floral épicé moderne pose le gingembre ou le piment sur une fleur blanche, comme L'Interdit Rouge. Le boisé épicé réconfortant, souvent mixte, joue sur le girofle et la châtaigne grillée (By the Fireplace) ou sur le tabac et la vanille (Tobacco Vanille). Enfin, le poivre rose apporte une épice légère et presque fruitée, que Rose of No Man's Land utilise pour éclairer une rose."
+    },
+    {
+     "title": "Porter un parfum épicé sans en faire trop",
+     "body": "Les grands épicés féminins ont une intensité de 4 ou 5 sur 5. Youth Dew et Opium ne pardonnent pas une main lourde : une pulvérisation dans le cou ou sur la nuque suffit pour une soirée. Ce sont des parfums de froid. En été, la chaleur fait ressortir le girofle et la vanille jusqu'à l'écœurement. Pour le bureau, choisissez une épice légère comme Rose of No Man's Land ou Kalan, qui restent plus polies. Le soir, L'Interdit Rouge et Coco trouvent leur place à un dîner. Vaporisez les épicés sur un pull en laine plutôt que sur un tissu synthétique : la laine garde l'odeur longtemps et l'adoucit. Si vous n'avez jamais porté d'épicé, commencez par By the Fireplace, dont le girofle est enveloppé de vanille. Opium se découvre ensuite, quand on a appris à aimer la chaleur des épices."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-opium": "Clou de girofle, prune et mandarine ouvrent sur un cœur d'œillet et de jasmin. Le santal et la vanille s'installent ensuite pour la nuit. Jean-Louis Sieuzac et Raymond Chaillan ont signé en 1977 le modèle de la famille. Il va aux femmes qui assument un sillage. Une seule pulvérisation suffit. Plus massif que Coco, il paraît excessif si l'on a la main lourde.",
+    "chanel-coco": "Jacques Polge a composé Coco en 1984 comme un oriental épicé très construit. La coriandre et la pêche s'effacent vite derrière un girofle posé sur la rose et le jasmin, puis la tonka arrondit tout. Il convient au soir et à l'hiver. Sa richesse demande une main légère. Plus poli qu'Opium, il est aussi plus lisse.",
+    "givenchy-linterdit-rouge": "Gingembre et orange sanguine en tête, puis une tubéreuse relevée de piment de la Jamaïque sur un fond de santal et de patchouli. L'Interdit Rouge est l'épicé moderne de cette sélection, pensé pour les soirées d'automne. Il plaira à celles qui trouvent Opium trop ancien. On lui reproche un côté un peu brouillon. Face à Coco, il manque de rigueur mais gagne en énergie.",
+    "estee-lauder-youth-dew": "Josephine Catapano a créé Youth Dew en 1953, et sa ténacité reste hors norme. Les aldéhydes et la pêche laissent place à une rose chaude, puis un fond de vanille et de patchouli très dense. Réservez-le à l'hiver. Il peut étouffer dans une pièce fermée. À côté de Rose of No Man's Land, il paraît d'un autre siècle, et c'est un peu vrai.",
+    "maison-margiela-replica-by-the-fireplace": "Huile de girofle et baies roses, puis la châtaigne grillée et le bois de gaïac sur un fond de vanille et de notes fumées. Marie Salamagne a composé un parfum mixte qui sent le feu de cheminée. C'est notre conseil pour débuter dans les épicés : chaleureux, jamais agressif. Il est linéaire et assez sucré. Plus doux qu'Opium, il n'en a pas la profondeur.",
+    "tom-ford-tobacco-vanille": "Tabac, gingembre et vanille, puis du cacao et des fruits secs sur un fond de daim. Tobacco Vanille est mixte et très dense, avec une intensité de 5 sur 5. Olivier Gillotin l'a construit comme un salon de cuir chauffé. Il va aux femmes qui aiment les parfums enveloppants l'hiver. Par temps doux, il devient étouffant. Plus sombre que By the Fireplace, il tient aussi beaucoup plus.",
+    "byredo-rose-of-no-mans-land": "L'épicé le plus léger de la liste. Baies roses et rose de Turquie ouvrent sur une fleur de framboisier, puis un fond de papyrus et de musc très net. Rose of No Man's Land convient au bureau et au printemps. Sa discrétion peut sembler froide. Face à Youth Dew, il paraît presque transparent, et c'est sa qualité.",
+    "parfums-de-marly-kalan": "Orange sanguine et poivre en tête, lavande et fleur d'oranger au cœur, puis un fond de santal et de tonka. Kalan est un épicé mixte lumineux et polyvalent qui se porte même au printemps. Il convient à celles qui veulent de la chaleur au bureau. Il marque moins que les grands succès de Parfums de Marly. On le choisit pour sa fraîcheur, pas pour la profondeur d'Opium."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum épicé pour femme ?",
+     "a": "Pour nous, Opium d'Yves Saint Laurent, pour son clou de girofle et sa profondeur. Coco de Chanel est une alternative plus polie. Si vous cherchez quelque chose de plus actuel, L'Interdit Rouge de Givenchy associe les épices à une tubéreuse. Pour débuter, By the Fireplace est plus facile."
+    },
+    {
+     "q": "Quelles épices trouve-t-on dans les parfums féminins ?",
+     "a": "Surtout le clou de girofle et la cannelle, puis le poivre rose et le gingembre. Le girofle recrée l'odeur de l'œillet avec la rose, comme dans Opium et Coco. Le poivre rose donne une épice légère, presque fruitée, que l'on trouve dans Rose of No Man's Land."
+    },
+    {
+     "q": "Peut-on porter un parfum épicé en été ?",
+     "a": "Rarement. La chaleur accentue le girofle et la vanille, ce qui rend Opium ou Youth Dew écœurants. Si vous voulez une épice en été, choisissez un poivre rose léger comme Rose of No Man's Land. Kalan reste aussi portable au printemps grâce à son orange sanguine."
+    }
+   ]
+  },
+  "en": {
+   "title": "Spicy perfumes for women: 8 picks, clove to pink pepper",
+   "meta": "Opium, Chanel Coco and L'Interdit Rouge lead our pick of spicy perfumes for women, from the great spicy orientals to lighter pink pepper.",
+   "h1": "Spicy perfumes for women worth wearing",
+   "intro": "The spicy perfume for women is still Yves Saint Laurent Opium. Clove, plum and mandarin over sandalwood and vanilla: since 1977, nothing in the genre has hit harder. Chanel Coco comes right behind, more polished, with coriander and clove on tonka. For a recent take, Givenchy L'Interdit Rouge pairs ginger and allspice with tuberose.",
+   "sections": [
+    {
+     "title": "How feminine perfumes use spice",
+     "body": "Men's fragrances often use spice for freshness, with pepper, cardamom or ginger at the top. Women's perfumes use it differently. Clove in particular blends with rose and jasmine to recreate the smell of carnation, a flower that yields almost no oil. That is the secret of Opium and Coco. There are three main styles. The great spicy orientals of the 1950s to the 1980s are dense and dramatic: Youth Dew, Opium and Coco. The modern spicy floral sets ginger or allspice on a white flower, like L'Interdit Rouge. The cozy spicy wood, often unisex, plays on clove and roasted chestnut (By the Fireplace) or on tobacco and vanilla (Tobacco Vanille). Finally, pink pepper brings a light and almost fruity spice, which Rose of No Man's Land uses to brighten a rose."
+    },
+    {
+     "title": "Wearing spice without overdoing it",
+     "body": "The big feminine spicy scents rate 4 or 5 out of 5 on intensity. Youth Dew and Opium punish a heavy hand, so one spray at the neck is enough for an evening. These are cold-weather perfumes. In summer, heat amplifies clove and vanilla until they turn cloying. For the office, choose a lighter spice like Rose of No Man's Land or Kalan, which stay more polite. In the evening, L'Interdit Rouge and Coco belong at a dinner table. Spray spicy scents on a wool sweater rather than synthetic fabric, since wool holds the scent longer and softens it. If you have never worn a spicy perfume, start with By the Fireplace, whose clove is wrapped in vanilla. Save Opium for later, once you have learned to love warm spice."
+    }
+   ],
+   "why": {
+    "yves-saint-laurent-opium": "Plum, mandarin and clove open onto a heart of carnation and jasmine. Sandalwood and vanilla then settle in for the night. Jean-Louis Sieuzac and Raymond Chaillan set the family's template in 1977. It suits women who own their trail. One spray is enough. Heavier than Coco, it becomes too much with a heavy hand.",
+    "chanel-coco": "Jacques Polge composed Coco in 1984 as a tightly built spicy oriental. Coriander and peach fade fast behind clove on rose and jasmine, then tonka rounds everything off. It belongs to evenings and winter. Its richness calls for a light touch. More polished than Opium, it is also smoother.",
+    "givenchy-linterdit-rouge": "Ginger and blood orange up top, then tuberose spiked with allspice over sandalwood and patchouli. L'Interdit Rouge is the modern spicy scent in this selection, built for autumn evenings. It will appeal to anyone who finds Opium too old-school. Critics call it a little messy. Next to Coco it lacks rigor but gains energy.",
+    "estee-lauder-youth-dew": "Josephine Catapano created Youth Dew in 1953, and its tenacity is still in a league of its own. Aldehydes and peach give way to a warm rose, then a very dense vanilla and patchouli base. Keep it for winter. It can smother a closed room. Next to Rose of No Man's Land it seems to belong to another century, which is partly true.",
+    "maison-margiela-replica-by-the-fireplace": "Clove oil and pink pepper, then roasted chestnut and guaiac wood over vanilla and smoky notes. Marie Salamagne composed a unisex scent that smells like a log fire. It is our advice for a first spicy perfume: warm, never aggressive. It is linear and fairly sweet. Softer than Opium, it lacks its depth.",
+    "tom-ford-tobacco-vanille": "Tobacco, ginger and vanilla, then cocoa and dried fruit on a suede base. Tobacco Vanille is unisex and very dense, rated 5 out of 5 on intensity. Olivier Gillotin built it like a heated leather lounge. It suits women who love enveloping scents in winter. In mild weather it gets stifling. Darker than By the Fireplace, it also lasts much longer.",
+    "byredo-rose-of-no-mans-land": "The lightest spicy scent on the list. Pink pepper and Turkish rose open onto raspberry blossom, then a very clean papyrus and musk base. Rose of No Man's Land works at the office and in spring. Its restraint can feel cold. Next to Youth Dew it seems almost transparent, and that is its strength.",
+    "parfums-de-marly-kalan": "Blood orange, pepper and spices up top, then lavender and orange blossom before a sandalwood and tonka base. Kalan is a bright, versatile unisex spicy scent you can even wear in spring. It suits anyone who wants warmth at the office. It makes less of an impression than the house's big hits. You pick it for freshness, not for the depth of Opium."
+   },
+   "faq": [
+    {
+     "q": "What is the best spicy perfume for women?",
+     "a": "Our pick is Yves Saint Laurent Opium for its clove and its depth. Chanel Coco is a more polished alternative. If you want something more current, Givenchy L'Interdit Rouge pairs spice with tuberose. For beginners, By the Fireplace is easier to wear."
+    },
+    {
+     "q": "Which spices are used in women's perfumes?",
+     "a": "Mostly clove and cinnamon, then pink pepper and ginger. Clove recreates the smell of carnation when paired with rose, as in Opium and Coco. Pink pepper adds a light, almost fruity spice, which you will find in Rose of No Man's Land."
+    },
+    {
+     "q": "Can you wear a spicy perfume in summer?",
+     "a": "Rarely. Heat amplifies clove and vanilla, which makes Opium or Youth Dew cloying. If you want spice in summer, choose a light pink pepper scent like Rose of No Man's Land. Kalan also stays wearable in spring thanks to its blood orange."
+    }
+   ]
+  }
+ },
+ "fg:gourmand:F": {
+  "picks": [
+   "thierry-mugler-angel",
+   "guerlain-la-petite-robe-noire",
+   "prada-candy",
+   "yves-saint-laurent-black-opium",
+   "lancome-la-vie-est-belle",
+   "tom-ford-lost-cherry",
+   "maison-margiela-replica-coffee-break",
+   "ariana-grande-cloud"
+  ],
+  "fr": {
+   "title": "Parfum gourmand femme : 8 choix, du caramel au café",
+   "meta": "Angel, La Petite Robe Noire et Prada Candy en tête : notre classement des parfums gourmands pour femme, du caramel au café au lait.",
+   "h1": "Les meilleurs parfums gourmands pour femme",
+   "intro": "Le parfum gourmand pour femme le plus important reste Angel de Mugler. En 1992, sa barbe à papa, son chocolat et son caramel posés sur un patchouli massif ont ouvert une famille entière. La Petite Robe Noire de Guerlain arrive deuxième pour son équilibre entre cerise, réglisse et amande. Prada Candy complète le podium : un caramel au benjoin chic et franchement sucré, pour celles qui assument.",
+   "sections": [
+    {
+     "title": "Ce qui fait un gourmand féminin",
+     "body": "Un parfum gourmand évoque quelque chose qui se mange : vanille, praline, café ou chocolat. Avant 1992, ces notes existaient déjà en parfumerie, mais on les cachait dans un fond ambré. Angel les a mises au premier plan, et la parfumerie féminine ne s'en est jamais remise. Aujourd'hui, les gourmands se déclinent en plusieurs styles. Le gourmand patchouli associe le sucre à une terre sombre qui l'empêche de devenir mièvre : Angel et La Vie Est Belle. Le gourmand café joue sur l'amertume, avec Black Opium ou Coffee Break. Le gourmand caramel se concentre sur une seule friandise, comme Candy. Le gourmand fruité ajoute cerise ou amande, dans La Petite Robe Noire et Lost Cherry. Côté masculin, la gourmandise s'appuie plutôt sur la lavande et la tonka, comme dans A*Men. Les féminines poussent davantage vers la praline, le fruit et la fleur d'oranger."
+    },
+    {
+     "title": "Choisir un gourmand qui ne lasse pas",
+     "body": "Le risque d'un gourmand, c'est l'écœurement. Pour l'éviter, cherchez un contrepoint : du patchouli, du café ou de la réglisse. Angel a son patchouli, Black Opium son café, La Petite Robe Noire son anis. Les gourmands sans contrepoint, comme Cloud, sont agréables mais linéaires. La puissance compte aussi. Angel et La Vie Est Belle atteignent 5 sur 5 : une pulvérisation suffit, surtout en intérieur. Coffee Break, à l'inverse, reste proche de la peau et se porte au bureau sans gêner. Les gourmands aiment le froid. En été, la chaleur amplifie le sucre et les rend vite pesants. Pour la belle saison, préférez les plus légers ou gardez-les pour le soir. Enfin, testez-les sur votre peau pendant une journée. Un gourmand peut sentir la pâtisserie sur une personne et le bonbon chimique sur une autre."
+    }
+   ],
+   "why": {
+    "thierry-mugler-angel": "Barbe à papa, chocolat et caramel sur un patchouli puissant : Olivier Cresp a créé en 1992 un parfum qui divise encore. Angel est le point de départ de la famille, et il reste le plus radical. Réservez-le à l'hiver, à une seule pulvérisation. Il sature vite un espace clos. Face à Cloud, il paraît d'une autre intensité.",
+    "guerlain-la-petite-robe-noire": "Cerise et amande ouvrent sur une rose, de la réglisse et du thé. La tonka, la vanille et l'anis ferment la marche. Thierry Wasser et Delphine Jelk ont trouvé en 2009 un équilibre rare entre gourmandise et élégance. C'est notre conseil pour une première approche. La cerise est très présente, ce qui ne plaira pas à tout le monde. Il pèse moitié moins qu'Angel sur la peau et gagne en finesse.",
+    "prada-candy": "Caramel, musc et benjoin : Daniela Andrier a composé en 2011 un gourmand minimaliste, qui mise tout sur une seule friandise. Prada Candy est chic et franchement sucré. Il va aux femmes qui aiment le caramel sans détour, le soir ou en automne. Les allergiques au sucre passeront leur chemin. Là où La Petite Robe Noire superpose les idées, Candy n'en a qu'une et la tient.",
+    "yves-saint-laurent-black-opium": "Café noir, fleur d'oranger et jasmin, puis un fond de vanille et de patchouli : Black Opium reste depuis 2014 l'un des gourmands café les plus connus. Quatre parfumeurs ont signé ce parfum du soir, efficace et addictif. Il convient aux sorties et aux dîners. Sa douceur sature si l'on en abuse. Plus amer que La Vie Est Belle, il reste plus sucré que Coffee Break.",
+    "lancome-la-vie-est-belle": "Iris, poire et cassis sur une praline, une vanille et un patchouli très présents. La Vie Est Belle a été composé en 2012 par Olivier Polge, Dominique Ropion et Anne Flipo. Il est puissant, avec une intensité de 5 sur 5, et on le croise partout. Une pulvérisation, pas davantage. Son omniprésence lasse certains nez. Plus poudré qu'Angel, il est aussi plus consensuel.",
+    "tom-ford-lost-cherry": "Ici, Lost Cherry représente le gourmand fruité le plus adulte. Cerise à la liqueur et amande amère reposent sur la tonka, le santal et la vanille. Louise Turner l'a voulu mixte et opulent. On le réserve aux soirées d'hiver. L'amande peut devenir sirupeuse sur certaines peaux. Plus liquoreux que La Petite Robe Noire, il n'en a pas la légèreté.",
+    "maison-margiela-replica-coffee-break": "Un café au lait avec de la lavande, sur un fond de vanille et de vétiver. Coffee Break est le gourmand le plus discret de la sélection, avec une intensité de 2 sur 5. Il se porte au bureau et en journée sans jamais peser. Sa tenue est courte, ce qui oblige à le renouveler. Beaucoup moins sucré que Black Opium, il plaira à celles qui fuient la pâtisserie.",
+    "ariana-grande-cloud": "Lavande, poire et bergamote en tête, puis la noix de coco et la praline sur des muscs crémeux. Cloud est un gourmand doux et réconfortant, facile à porter au quotidien. C'est un bon premier parfum gourmand. Son profil sucré et linéaire manque de relief. Face à Angel, il paraît très sage. C'est justement ce qui le rend facile."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum gourmand pour femme ?",
+     "a": "Pour nous, Angel de Mugler, parce qu'il a fondé la famille et qu'il reste le plus singulier. Il est cependant très puissant. Si vous préférez un gourmand plus facile, La Petite Robe Noire de Guerlain équilibre bien le sucre et l'élégance. Pour le bureau, Coffee Break est le plus discret."
+    },
+    {
+     "q": "Quelle est la différence entre un parfum gourmand et un parfum vanillé ?",
+     "a": "Un parfum vanillé met la vanille au centre, souvent avec des résines ou des bois. Un gourmand va plus loin et imite une vraie friandise : caramel, praline, chocolat ou café. La plupart des gourmands contiennent de la vanille, mais tous les vanillés ne sont pas gourmands."
+    },
+    {
+     "q": "Un parfum gourmand est-il adapté à l'été ?",
+     "a": "Rarement. La chaleur accentue le sucre, et un gourmand dense comme Angel ou La Vie Est Belle devient vite pesant. En été, préférez les plus légers comme Coffee Break, ou gardez vos gourmands pour les soirées fraîches. Une seule pulvérisation suffit dans tous les cas."
+    }
+   ]
+  },
+  "en": {
+   "title": "Gourmand perfumes for women: 8 vanilla, coffee and caramel picks",
+   "meta": "Angel, La Petite Robe Noire and Prada Candy lead our ranking of gourmand perfumes for women, from caramel to milky coffee.",
+   "h1": "The best gourmand perfumes for women",
+   "intro": "The most important gourmand perfume for women is still Mugler Angel. In 1992, its cotton candy, chocolate and caramel over massive patchouli opened up an entire family. Guerlain La Petite Robe Noire comes second for its balance of cherry, licorice and almond. Prada Candy rounds out the top three: a chic benzoin caramel that is openly sweet, for those who own it.",
+   "sections": [
+    {
+     "title": "What makes a feminine gourmand",
+     "body": "A gourmand perfume smells like something you could eat: vanilla, praline, coffee or chocolate. Before 1992 these notes already existed in perfumery, but they were tucked away in amber bases. Angel pushed them to the front, and women's perfumery has never been the same. Today gourmands come in several styles. Patchouli gourmands pair sugar with dark earth to keep it from going limp, as in Angel and La Vie Est Belle. Coffee gourmands play on bitterness, like Black Opium or Coffee Break. Caramel gourmands focus on a single treat, as Candy does. Fruity gourmands add cherry or almond, in La Petite Robe Noire and Lost Cherry. Men's gourmands tend to lean on lavender and tonka, as in A*Men. Feminine ones push further toward praline, fruit and orange blossom."
+    },
+    {
+     "title": "Choosing a gourmand you won't tire of",
+     "body": "The risk with gourmands is sugar fatigue. To avoid it, look for a counterpoint: patchouli, coffee or licorice. Angel has its patchouli, Black Opium its coffee, La Petite Robe Noire its anise. Gourmands with no counterpoint, like Cloud, are pleasant but linear. Strength matters too. Angel and La Vie Est Belle hit 5 out of 5, so one spray is plenty, especially indoors. Coffee Break, on the other hand, stays close to the skin and works at the office without bothering anyone. Gourmands love the cold. In summer, heat amplifies the sugar and makes them heavy fast. For warm months, choose the lightest ones or save them for evenings. Finally, wear them on your own skin for a full day. A gourmand can smell like a bakery on one person and like synthetic candy on another."
+    }
+   ],
+   "why": {
+    "thierry-mugler-angel": "Cotton candy, chocolate and caramel on powerful patchouli. Olivier Cresp created a perfume in 1992 that still divides people. Angel is where the family starts, and it remains the most radical. Keep it for winter, one spray only. It saturates a closed room quickly. Next to Cloud, it plays in another league of intensity.",
+    "guerlain-la-petite-robe-noire": "Cherry and almond open onto rose, licorice and tea. Tonka, vanilla and anise close the show. Thierry Wasser and Delphine Jelk struck a rare balance between treat and elegance in 2009. It is our advice for a first gourmand. The cherry is very present, which not everyone will like. It sits far lighter on the skin than Angel and gains in finesse.",
+    "prada-candy": "Caramel, musk and benzoin. Daniela Andrier composed a minimalist gourmand in 2011 that bets everything on a single sweet. Prada Candy is chic and openly sugary. It suits women who like caramel without detours, in the evening or in autumn. Sugar-haters should walk on by. Where La Petite Robe Noire layers ideas, Candy has one and holds it.",
+    "yves-saint-laurent-black-opium": "Black coffee, orange blossom and jasmine over a vanilla and patchouli base. Since 2014, Black Opium has been one of the best-known coffee gourmands. Four perfumers signed this effective, addictive evening scent. It works for nights out and dinners. Its sweetness overwhelms if you overdo it. More bitter than La Vie Est Belle, it is still sweeter than Coffee Break.",
+    "lancome-la-vie-est-belle": "Iris, pear and blackcurrant over prominent praline, vanilla and patchouli. La Vie Est Belle was composed in 2012 by Olivier Polge, Dominique Ropion and Anne Flipo. It is powerful at 5 out of 5 intensity, and you smell it everywhere. One spray, no more. Its ubiquity tires some noses. Powderier than Angel, it is also more of a crowd-pleaser.",
+    "tom-ford-lost-cherry": "Here Lost Cherry stands for the most grown-up fruity gourmand. Liqueur cherry and bitter almond rest on tonka, sandalwood and vanilla. Louise Turner made it unisex and opulent. Save it for winter evenings. The almond can turn syrupy on some skin. Boozier than La Petite Robe Noire, it lacks its lightness.",
+    "maison-margiela-replica-coffee-break": "A milky coffee with lavender on a vanilla and vetiver base. Coffee Break is the quietest gourmand in the selection, rated 2 out of 5 on intensity. It works at the office and during the day without ever weighing on anyone. Longevity is short, so you will need to reapply. Far less sweet than Black Opium, it suits anyone who avoids pastry scents.",
+    "ariana-grande-cloud": "Lavender, pear and bergamot up top, then coconut and praline over creamy musks. Cloud is a soft, comforting gourmand that is easy to wear every day. It makes a good first gourmand. Its sweet, linear profile lacks contrast. Next to Angel it seems very tame. That is exactly what makes it easy."
+   },
+   "faq": [
+    {
+     "q": "What is the best gourmand perfume for women?",
+     "a": "Our pick is Mugler Angel, because it founded the family and remains the most singular. It is very powerful, though. If you want an easier gourmand, Guerlain La Petite Robe Noire balances sugar and elegance well. For the office, Coffee Break is the most discreet."
+    },
+    {
+     "q": "What is the difference between gourmand and vanilla perfumes?",
+     "a": "A vanilla perfume puts vanilla at the center, often with resins or woods. A gourmand goes further and imitates an actual treat: caramel, praline, chocolate or coffee. Most gourmands contain vanilla, but not every vanilla perfume is a gourmand."
+    },
+    {
+     "q": "Are gourmand perfumes good for summer?",
+     "a": "Rarely. Heat amplifies sugar, and a dense gourmand like Angel or La Vie Est Belle quickly feels heavy. In summer, choose lighter options like Coffee Break, or save your gourmands for cool evenings. Either way, one spray is enough."
+    }
+   ]
+  }
+ }
+}

@@ -68,7 +68,8 @@ dans `_data_issues` de chaque fichier `src/data/editorial/*.json`.
 ## 5. Rythme de publication (pas de spam)
 
 - **Lancement** : ~440 nouvelles URLs (220 FR + 220 EN) + 614 fiches parfum réécrites. Dans la fourchette 200–500 demandée.
-- **Goutte-à-goutte** : les 614 pages « parfums similaires » sortent à **8 parfums/jour (16 URLs)** du 12/10 au 19/11/2026
+- **Goutte-à-goutte** : les 614 pages « parfums similaires » sortent à **8 parfums/jour (16 URLs)** du 12/10 au 19/11/2026,
+  et 204 URLs de sélections commentées sortent de façon irrégulière du 1/10 au 30/11 (§8.5)
   (`src/data/publish-schedule.json`, généré par `python3 scripts/schedule.py <début> <par_jour>`).
   Une GitHub Action (`.github/workflows/daily-rebuild.yml`) relance le build chaque matin — il faut ajouter le secret
   `DEPLOY_HOOK_URL` (deploy hook de l'hébergeur).
@@ -151,6 +152,28 @@ Coût réel : 22 crédits bulk (482 → 460), 13 crédits keyword, 5 crédits si
 
 Nouveau palier réaliste : ~1 700 pages fin novembre → **~2 000** avec les priorités 1–5 (≈ 140 pages FR + EN), puis parfumeurs et extension du dataset.
 Le palier « comparatifs » de la §6 est remplacé par « note × genre / famille × genre / meilleurs parfums ».
+
+### 8.5 Sélections commentées programmées (1/10 → 30/11/2026)
+
+102 pages × 2 langues (204 URLs), rédigées une par une (Opus, règles anti AI slop de `scripts/WRITING_RULES.md`,
+contrôlées par `scripts/lint_copy.py` : zéro tiret cadratin, pas de virgules en rafale, formules bannies, faits limités aux données).
+
+| Famille | Pages | Exemples d'URL | Volume FR cumulé visé |
+|---|---|---|---|
+| Note × genre | 42 | `/fr/notes/vanille/femme/`, `/fr/notes/oud/homme/` | ~10 600 |
+| Famille × genre | 17 | `/fr/familles/boise/homme/`, `/fr/familles/fruite/femme/` | ~4 900 |
+| Saison × genre | 8 | `/fr/parfums-hiver/femme/`, `/fr/parfums-ete/homme/` | ~1 900 (saisonnier) |
+| Meilleurs parfums | 11 + hub | `/fr/meilleurs-parfums/homme/`, `/fr/meilleurs-parfums/dior-femme/` | ~13 000 |
+| Parfumeurs | 16 + hub | `/fr/parfumeurs/francis-kurkdjian/` | ~15 600 |
+| Guides d'usage | 8 + hub | `/fr/guides/parfum-musc-blanc/`, `/fr/guides/parfum-ado-garcon/` | ~7 600 |
+
+- Définitions (pool de parfums candidats, volumes) : `python3 scripts/ranked_pages.py` → `src/data/ranked-pages.json`.
+- Textes : `src/data/editorial/ranked-*.json` (picks classés + « pourquoi » par parfum, sections, FAQ, FR + EN).
+- Calendrier **irrégulier** : `python3 scripts/schedule_ranked.py 2026-10-01 2026-11-30` → 0 à 4 pages/jour, 9 jours sans
+  publication, pages hiver/automne en premier. Clé `ranked` de `publish-schedule.json`.
+- Une page n'existe (route, sitemap, liens, llms.txt) qu'une fois sa date passée ; les hubs apparaissent avec leur première page.
+- Maillage automatique : note/famille/saison/genre/maison → leurs sélections ; fiche parfum → « Dans nos sélections » + lien vers la page du parfumeur.
+- Prévisualiser le site à une date donnée : `PUBLISH_DATE=2026-12-01 ./node_modules/.bin/astro build` (1 899 pages, audit propre).
 
 ## 9. Ce qui a volontairement été écarté
 

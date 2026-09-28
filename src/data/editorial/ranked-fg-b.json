@@ -1,0 +1,830 @@
+{
+ "_data_issues": [],
+ "fg:spicy:M": {
+  "picks": [
+   "viktor-rolf-spicebomb",
+   "hermes-terre-dhermes",
+   "dior-sauvage-elixir",
+   "paco-rabanne-1-million",
+   "azzaro-wanted-by-night",
+   "dolce-gabbana-the-one-for-men",
+   "chanel-allure-homme-sport",
+   "gucci-gucci-pour-homme-ii",
+   "parfums-de-marly-herod"
+  ],
+  "fr": {
+   "title": "Parfum épicé homme : les 9 meilleurs, du poivre à la cannelle",
+   "meta": "Spicebomb, Terre d'Hermès et Sauvage Elixir en tête : notre sélection de parfums épicés pour homme, classée par style d'épices et par saison.",
+   "h1": "Le parfum épicé pour homme, en neuf choix classés",
+   "intro": "Si vous cherchez un parfum épicé pour homme, commencez par Spicebomb de Viktor & Rolf. Cannelle, safran et paprika sur un fond de tabac et de cuir : c'est la famille résumée en un flacon. Terre d'Hermès arrive juste derrière pour ceux qui préfèrent le poivre sec à la chaleur sucrée. Sauvage Elixir complète le podium, plus dense et plus coûteux en pulvérisations qu'on ne le croit. Le reste de la liste couvre l'été, le bureau et les soirées d'hiver.",
+   "sections": [
+    {
+     "title": "Épices chaudes ou épices froides : la vraie ligne de partage",
+     "body": "Tout parfum épicé masculin se range d'un côté ou de l'autre. Les épices dites chaudes (cannelle, clou de girofle, muscade) évoquent la cuisine, le vin chaud et le pain d'épices. Elles se posent presque toujours sur de l'ambre, du tabac ou de la vanille. Spicebomb, 1 Million et Wanted by Night appartiennent à ce clan. Les épices froides (poivre, gingembre, cardamome) piquent le nez sans le réchauffer. Elles donnent de la tension à un boisé ou à un agrume, comme dans Terre d'Hermès et Allure Homme Sport. Côté féminin, la famille épicée sert surtout à assombrir une fleur (l'œillet et le clou de girofle d'Opium en sont l'exemple). Côté masculin, l'épice est rarement décorative : c'est souvent elle qui porte le parfum, du départ jusqu'au fond."
+    },
+    {
+     "title": "Comment choisir selon la saison et le contexte",
+     "body": "La température décide plus que le goût. Une cannelle sucrée comme celle de 1 Million devient pesante dès 25 degrés, surtout dans un bureau fermé. À l'inverse, le poivre d'Allure Homme Sport tient bien la chaleur parce qu'il repose sur de l'orange et du néroli. Pour un usage quotidien et professionnel, on vise une intensité de 3 sur 5 : The One for Men, Gucci Pour Homme II ou Terre d'Hermès. Pour le soir en hiver, les parfums notés 4 ou 5 prennent le relais. Sauvage Elixir est une concentration Parfum : deux pulvérisations suffisent, une sur la nuque et une sur la poitrine, sous la chemise. Même logique pour Herod, dont le tabac vanillé diffuse longtemps sur un pull en laine. Dernier conseil : testez toujours une épice chaude sur la peau pendant une heure avant d'acheter, car la cannelle change beaucoup après le départ."
+    }
+   ],
+   "why": {
+    "viktor-rolf-spicebomb": "Premier de notre classement parce qu'il met les épices au centre, sans détour. Cannelle, safran et paprika forment le cœur, le tabac et le cuir font le fond. Il est plus sec et moins bonbon que 1 Million, ce qui le rend plus facile à porter après trente ans. Son défaut : il n'a rien à faire en été, et il le sait.",
+    "hermes-terre-dhermes": "Ici le poivre et le géranium jouent contre l'orange et une note de silex. Jean-Claude Ellena en a tiré un épicé minéral, sans une once de sucre, qu'on peut porter d'avril à octobre. C'est l'opposé exact de Spicebomb dans cette sélection. Il est devenu très répandu, donc peu surprenant, mais sa construction reste la plus intelligente de la liste.",
+    "dior-sauvage-elixir": "Muscade, cannelle et cardamome dès le départ, puis une lavande et un fond de réglisse, de santal et d'ambre. C'est le plus puissant de la page (intensité 5) et le seul en concentration Parfum. On le réserve aux soirées froides, à dose réduite. Face à Herod, il est plus sombre et plus épicé, moins vanillé.",
+    "paco-rabanne-1-million": "La cannelle version bonbon doré, posée sur l'ambre et un cuir sucré. Il plaît vite et fort, notamment aux hommes jeunes qui veulent être remarqués. Revers de la médaille : il est partout, et il sature une voiture ou un ascenseur en quelques secondes. Wanted by Night donne la même chaleur avec un peu plus de relief grâce au cumin et à l'encens.",
+    "azzaro-wanted-by-night": "Fabrice Pellegrin y associe cannelle, cumin et encens, puis descend vers le tabac et la fève tonka. Le résultat est plus fumé que 1 Million et moins sucré que Stronger With You Intensely. Un bon choix pour une soirée d'automne. La cannelle reste toutefois un peu trop gourmande pour ceux qui aiment les épices sèches.",
+    "dolce-gabbana-the-one-for-men": "Le plus doux des épicés de la liste. Gingembre et cardamome se fondent dans la fleur d'oranger, puis dans un fond ambré de labdanum. Olivier Polge l'a voulu confortable, presque feutré. Il projette peu, ce qui en fait un bon parfum de bureau en hiver, là où Spicebomb serait de trop.",
+    "chanel-allure-homme-sport": "Notre choix pour l'été. Le poivre y est froid, soutenu par l'orange et la mandarine puis par un cèdre sec. Le fond est fait de fève tonka et de musc. C'est l'épicé le plus lumineux de la page et le seul vraiment pensé pour la chaleur. Il reste sage en projection : prévoyez de revaporiser en fin d'après-midi.",
+    "gucci-gucci-pour-homme-ii": "Un épicé de thé noir, de cannelle et de piment de la Jamaïque, adouci par la violette et arrondi par le tabac et la myrrhe. Il se porte près de la peau, sans chercher l'effet. Moins lisse que The One for Men, il a plus de caractère, mais sa discrétion décevra ceux qui veulent de la projection.",
+    "parfums-de-marly-herod": "Cannelle et bois de poivre ouvrent sur un cœur de tabac et d'encens, puis tout glisse vers la vanille. C'est l'épicé le plus réconfortant de cette sélection, une écharpe plutôt qu'une veste. Les amateurs de tabac brut le trouveront trop poli. Il se situe entre Spicebomb, plus sec, et Tobacco Vanille, plus lourd."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum épicé pour homme ?",
+     "a": "Pour nous, c'est Spicebomb de Viktor & Rolf. Il place la cannelle, le safran et le paprika au premier plan sans les noyer dans le sucre. Si vous préférez un épicé sec et polyvalent, Terre d'Hermès est la meilleure alternative. Pour l'hiver et le soir, Sauvage Elixir est plus puissant."
+    },
+    {
+     "q": "Quel parfum épicé homme porter en été ?",
+     "a": "Choisissez un parfum aux épices froides. Allure Homme Sport de Chanel associe le poivre à l'orange et au néroli, et reste agréable par forte chaleur. Terre d'Hermès fonctionne aussi jusqu'à la fin de l'été. Évitez la cannelle sucrée de 1 Million ou de Spicebomb, qui devient lourde au soleil."
+    },
+    {
+     "q": "Un parfum épicé convient-il pour le bureau ?",
+     "a": "Oui, à condition de rester sur une intensité modérée. The One for Men, Gucci Pour Homme II et Terre d'Hermès sont notés 3 sur 5 et restent proches de la peau. Une ou deux pulvérisations suffisent. Les parfums très sucrés ou très puissants sont à garder pour le soir."
+    },
+    {
+     "q": "Quelle différence entre un parfum épicé et un parfum oriental ?",
+     "a": "Le parfum épicé se définit par ses épices : poivre, cannelle, cardamome, girofle. L'oriental (ou ambré) se définit par son fond chaud de vanille, de résines et d'ambre. Beaucoup de parfums sont les deux, comme Spicebomb ou Wanted by Night. Terre d'Hermès, lui, est épicé sans être oriental."
+    }
+   ]
+  },
+  "en": {
+   "title": "Spicy Perfumes for Men: 9 Best, From Pepper to Cinnamon",
+   "meta": "Spicebomb, Terre d'Hermès and Sauvage Elixir lead our ranking of spicy fragrances for men, sorted by spice style and season.",
+   "h1": "The best spicy colognes for men, ranked",
+   "intro": "Start with Spicebomb by Viktor & Rolf. Cinnamon, saffron and paprika sit over tobacco and leather, and nothing else on this list sums up the family so neatly. Terre d'Hermès is second, the pick for men who want dry pepper instead of sugar. Sauvage Elixir takes third: denser, darker and best worn with a light hand. The rest of the ranking covers summer, the office and cold winter nights.",
+   "sections": [
+    {
+     "title": "Warm spices versus cool spices",
+     "body": "Every spicy men's fragrance falls on one side of this line. Warm spices mean cinnamon, clove and nutmeg. They smell of mulled wine and baking, and they almost always rest on amber, tobacco or vanilla. Spicebomb, 1 Million and Wanted by Night belong here. Cool spices mean pepper, ginger and cardamom. They prickle rather than warm, and they add tension to woods or citrus, as in Terre d'Hermès and Allure Homme Sport. Women's spicy perfumes tend to use spice to darken a flower, the way Opium pairs clove with carnation. In men's perfumery the spice usually does the heavy lifting itself, from the first spray to the drydown. That is why the family splits so clearly between cozy and crisp, and why you should know which camp you prefer before you shop."
+    },
+    {
+     "title": "How to choose by season and setting",
+     "body": "Temperature matters more than taste. A sugary cinnamon like 1 Million turns heavy above 77°F, especially in a closed office. The pepper in Allure Homme Sport handles heat well because orange and neroli keep it bright. For daily and work wear, aim for a strength of 3 out of 5: The One for Men, Gucci Pour Homme II or Terre d'Hermès. For winter evenings, move up to the 4s and 5s. Sauvage Elixir is a Parfum concentration, so two sprays are plenty. Put one on the neck and one on the chest under your shirt. Herod works the same way, and its vanilla tobacco lasts for hours on a wool sweater. One last tip: wear a warm-spice scent on skin for an hour before buying. Cinnamon shifts a lot once the opening fades."
+    }
+   ],
+   "why": {
+    "viktor-rolf-spicebomb": "Number one because the spices are the whole point. Cinnamon, saffron and paprika make up the heart, with tobacco and leather underneath. It is drier and less candied than 1 Million, which makes it easier to wear past your twenties. The catch is simple: it has no business in summer.",
+    "hermes-terre-dhermes": "Pepper and geranium play against orange and a flinty mineral note. Jean-Claude Ellena built a spicy scent with zero sugar, wearable from April to October. It is the exact opposite of Spicebomb on this page. Its popularity means it rarely surprises anyone now, but it remains the smartest construction here.",
+    "dior-sauvage-elixir": "Nutmeg, cinnamon and cardamom open. Lavender follows, then licorice, sandalwood and amber in the base. It is the strongest scent on the list (5 out of 5) and the only one in Parfum concentration. Keep it for cold nights and use fewer sprays than you think. Next to Herod it is darker and spicier, with less vanilla.",
+    "paco-rabanne-1-million": "Golden-candy cinnamon, laid over amber and sweet leather. It wins people over fast, especially younger guys who want to be noticed. The downside: everyone wears it, and it fills a car in seconds. Wanted by Night gives similar warmth with more texture thanks to cumin and incense.",
+    "azzaro-wanted-by-night": "Fabrice Pellegrin pairs cinnamon with cumin and incense, then slides into tobacco and tonka. It is smokier than 1 Million and less sweet than Stronger With You Intensely. A good call for a fall evening out. Fans of dry spice may still find the cinnamon a touch too gourmand.",
+    "dolce-gabbana-the-one-for-men": "The softest scent in this ranking. Ginger and cardamom melt into orange blossom, then into an amber base with labdanum. Olivier Polge made it comfortable, almost hushed. Projection is modest, which makes it a solid winter office pick where Spicebomb would be too much.",
+    "chanel-allure-homme-sport": "Our summer choice. The pepper here is cool, backed by orange and mandarin and then dry cedar. Tonka and musk sit at the base. It is the brightest scent on the page and the only one truly built for heat. It stays fairly close to the skin, so plan on a top-up late in the afternoon.",
+    "gucci-gucci-pour-homme-ii": "Black tea, cinnamon and allspice, softened by violet leaf and rounded out with tobacco and myrrh. It sits near the skin and never tries too hard. It has more character than The One for Men, though anyone after big projection will be disappointed.",
+    "parfums-de-marly-herod": "Cinnamon and pepperwood open onto tobacco and incense, then everything drifts into vanilla. This is the coziest spicy scent in the ranking, more scarf than jacket. Lovers of raw tobacco may find it too polished. It sits between Spicebomb, which is drier, and Tobacco Vanille, which is heavier."
+   },
+   "faq": [
+    {
+     "q": "What is the best spicy cologne for men?",
+     "a": "Our pick is Spicebomb by Viktor & Rolf, because it puts cinnamon, saffron and paprika up front without drowning them in sugar. If you want something drier and more versatile, go for Terre d'Hermès. For winter nights, Sauvage Elixir is the stronger option."
+    },
+    {
+     "q": "Can you wear a spicy fragrance in summer?",
+     "a": "Yes, if you choose cool spices. Chanel Allure Homme Sport pairs pepper with orange and neroli and stays pleasant in real heat. Terre d'Hermès also works through late summer. Skip the sweet cinnamon of 1 Million or Spicebomb when it is hot, as it turns cloying fast."
+    },
+    {
+     "q": "Are spicy colognes office-appropriate?",
+     "a": "They are, as long as you keep strength moderate. The One for Men, Gucci Pour Homme II and Terre d'Hermès all rate 3 out of 5 and stay close to the skin. One or two sprays is enough. Save the sweeter, louder options for evenings."
+    },
+    {
+     "q": "What is the difference between spicy and oriental fragrances?",
+     "a": "A spicy fragrance is defined by its spices: pepper, cinnamon, cardamom or clove. An oriental (or amber) fragrance is defined by a warm base of vanilla, resins and amber. Plenty of scents are both, like Spicebomb and Wanted by Night. Terre d'Hermès is spicy without being oriental at all."
+    }
+   ]
+  }
+ },
+ "fg:aquatic:M": {
+  "picks": [
+   "giorgio-armani-acqua-di-gio-profumo",
+   "giorgio-armani-acqua-di-gio",
+   "davidoff-cool-water",
+   "issey-miyake-leau-dissey-pour-homme",
+   "paco-rabanne-invictus",
+   "paco-rabanne-invictus-legend",
+   "creed-millesime-imperial"
+  ],
+  "fr": {
+   "title": "Parfum marin homme : 7 parfums aquatiques classés",
+   "meta": "Acqua di Giò Profumo, Cool Water et Invictus : notre classement des parfums marins et aquatiques pour homme, du plus salé au plus aromatique.",
+   "h1": "Les meilleurs parfums aquatiques pour homme, du sel à l'embrun",
+   "intro": "Le meilleur parfum marin pour homme, selon nous, est Acqua di Giò Profumo. Il garde la fraîcheur de l'original et y ajoute de l'encens et du patchouli, d'où une tenue et une profondeur rares dans la famille. Acqua di Giò de 1996 reste la référence la plus portée. Cool Water, sorti en 1988, complète le trio pour son côté menthe et lavande. Viennent ensuite les versions plus sucrées et salées d'Invictus.",
+   "sections": [
+    {
+     "title": "Ce qui fait un parfum aquatique masculin",
+     "body": "La famille aquatique est jeune. Elle s'est imposée à la fin des années 1980 et dans les années 1990, grâce à des molécules de synthèse capables d'évoquer l'air marin, l'eau froide ou le linge mouillé. Cool Water en est l'un des pionniers. Côté masculin, cette sensation d'eau s'appuie presque toujours sur des herbes aromatiques : romarin et coriandre dans Acqua di Giò, menthe et lavande dans Cool Water, laurier dans Invictus. Le fond reste boisé ou ambré (cèdre, patchouli, gaïac). Côté féminin, la même idée d'eau se marie plutôt aux fleurs et aux fruits transparents. C'est la raison pour laquelle un aquatique pour homme sent souvent plus vert et plus sec qu'on ne l'imagine. Les notes marines seules ne tiennent pas : ce sont les herbes et les bois qui donnent au parfum sa forme."
+    },
+    {
+     "title": "Salé, aromatique ou agrumé : trois façons d'aller à la mer",
+     "body": "On distingue trois styles dans cette sélection. L'aquatique aromatique d'abord, avec Cool Water et Acqua di Giò : c'est le plus classique et le plus propre. Le marin salé ajoute ensuite du sel et de l'ambre gris à un fond sucré : c'est Invictus, et surtout Invictus Legend qui cite le sel marin dès l'ouverture. Dans l'agrumé marin enfin, l'eau passe par les zestes : L'Eau d'Issey Pour Homme et son yuzu, ou Millesime Imperial de Creed (un mixte qui marie citron et sel). Pour choisir, pensez au moment. Au bureau, un aromatique d'intensité 3 suffit. Pour une soirée d'été en terrasse, Acqua di Giò Profumo ou Invictus Legend tiennent mieux grâce à leurs bases plus chaudes. Aucun de ces parfums n'aime le grand froid, où ils paraissent vite minces."
+    }
+   ],
+   "why": {
+    "giorgio-armani-acqua-di-gio-profumo": "Alberto Morillas reprend l'idée de l'original et l'assombrit. Les notes aquatiques et la bergamote tiennent le départ, puis le romarin et la sauge laissent place à l'encens et au patchouli. C'est l'aquatique de cette liste qui passe le mieux l'automne. Plus profond qu'Acqua di Giò, il est aussi moins solaire : ceux qui cherchent l'effet plage pure préféreront l'aîné.",
+    "giorgio-armani-acqua-di-gio": "La référence de 1996 garde sa place au podium. Bergamote, néroli et citron vert ouvrent sur un cœur de jasmin et de romarin, avec un fond de cèdre et de musc. Rien ne dépasse. On lui reproche d'être partout, ce qui est vrai. Face à Cool Water, il est plus hespéridé et moins lavandé, donc plus facile à porter par grosse chaleur.",
+    "davidoff-cool-water": "Pierre Bourdon l'a signé en 1988 et son ADN menthe, lavande et coriandre a été copié des centaines de fois. Porté aujourd'hui, il paraît familier, mais il projette mieux que la plupart de ses héritiers (intensité 4). C'est le plus aromatique de la page. Il convient aux hommes qui aiment les fougères et veulent une version plus fraîche.",
+    "issey-miyake-leau-dissey-pour-homme": "Ici la mer passe par le yuzu, le citron et la bergamote, relevés de muscade et de cannelle au cœur. Jacques Cavallier l'a composé en 1994. Son acidité est très franche, parfois criarde sur une peau sèche. On l'aime pour un matin d'été. Moins salé qu'Invictus, il est aussi bien moins sucré.",
+    "paco-rabanne-invictus": "Pamplemousse et notes marines au départ, feuille de laurier et jasmin au cœur, gaïac et ambre gris au fond. C'est un sucré-salé très efficace et très diffusif. Il plaît aux jeunes hommes qui veulent un parfum sportif qui se remarque. Son style est tellement répandu qu'il manque de singularité face à Acqua di Giò Profumo.",
+    "paco-rabanne-invictus-legend": "Plus chaud que l'Invictus original. Le sel marin ouvre avec le pamplemousse, puis viennent géranium et poivre, sur un fond de gaïac, d'ambre et de benjoin. On le porte de mai à octobre, y compris le soir. Il reste moins marquant que les grands boisés marins, mais il tient mieux que l'original.",
+    "creed-millesime-imperial": "Seul mixte de la sélection, il mérite sa place pour son équilibre entre agrumes et sel marin, avec un iris discret au cœur et un fond de santal et d'ambre. C'est le plus élégant et le plus solaire de la liste. Sa tenue est modeste (intensité 3) : L'Eau d'Issey Pour Homme dure à peu près autant."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum marin pour homme ?",
+     "a": "Acqua di Giò Profumo, pour sa profondeur et sa tenue, suivi d'Acqua di Giò original et de Cool Water. Si vous voulez un effet plus salé, Invictus Legend est un bon choix. Pour une fraîcheur d'agrumes et de sel plus raffinée, regardez Millesime Imperial de Creed."
+    },
+    {
+     "q": "Quelle différence entre parfum marin et parfum aquatique ?",
+     "a": "Les deux termes désignent la même famille. On dit plutôt marin quand le parfum évoque le sel et l'air de la mer, comme Invictus Legend. On dit aquatique pour une fraîcheur d'eau plus large, comme Acqua di Giò. Dans les deux cas, l'effet vient surtout de molécules de synthèse."
+    },
+    {
+     "q": "Un parfum aquatique homme tient-il longtemps ?",
+     "a": "Moins qu'un boisé ou un oriental, en général. Les notes marines et les agrumes s'évaporent vite. Pour gagner en tenue, préférez une eau de parfum au fond plus riche. Acqua di Giò Profumo a de l'encens et du patchouli, Invictus Legend de l'ambre et du benjoin. Vaporisez aussi sur les vêtements."
+    },
+    {
+     "q": "Peut-on porter un parfum marin en hiver ?",
+     "a": "C'est possible, mais rarement idéal. Les aquatiques sont pensés pour la chaleur et paraissent minces par temps froid. Si vous tenez à ce style en hiver, Acqua di Giò Profumo est le plus adapté grâce à son encens. Cool Water fonctionne aussi à la mi-saison."
+    }
+   ]
+  },
+  "en": {
+   "title": "Aquatic Colognes for Men: 7 Best Ocean Scents",
+   "meta": "Acqua di Giò Profumo, Cool Water and Invictus lead our ranking of the best aquatic and marine colognes for men, from salty to herbal.",
+   "h1": "The best aquatic fragrances for men, ranked",
+   "intro": "Our top aquatic cologne for men is Acqua di Giò Profumo. It keeps the freshness of the original and adds incense and patchouli, which gives it rare depth and staying power for this family. The 1996 Acqua di Giò is still the benchmark. Cool Water, from 1988, rounds out the top three with its mint and lavender. Then come the saltier, sweeter takes on Invictus.",
+   "sections": [
+    {
+     "title": "What makes an aquatic fragrance masculine",
+     "body": "Aquatics are a young family. They took off in the late 1980s and through the 1990s, thanks to synthetic molecules that smell like sea air, cold water or damp laundry. Cool Water was one of the pioneers. On the men's side, that watery effect nearly always leans on herbs: rosemary and coriander in Acqua di Giò, mint and lavender in Cool Water, bay leaf in Invictus. The base stays woody or ambery, with cedar, patchouli or guaiac. Women's aquatics pair the same water idea with sheer flowers and fruit. That is why a men's aquatic often smells greener and drier than you expect. Marine notes alone would not hold together. The herbs and woods give the scent its shape, and they are what you are really choosing between."
+    },
+    {
+     "title": "Salty, herbal or citrus: three routes to the sea",
+     "body": "This ranking covers three styles. Herbal aquatics come first, with Cool Water and Acqua di Giò. They are the most classic and the cleanest. Salty marines add sea salt and ambergris to a sweeter base, as in Invictus and especially Invictus Legend, which opens on sea salt. Citrus marines carry the water through zest: L'Eau d'Issey Pour Homme with its yuzu, or Creed's unisex Millesime Imperial, which pairs lemon with salt. Choose by occasion. For the office, a herbal aquatic rated 3 out of 5 is plenty. For a summer evening on a patio, Acqua di Giò Profumo or Invictus Legend last longer thanks to warmer bases. None of these scents like deep cold, where they come across thin."
+    }
+   ],
+   "why": {
+    "giorgio-armani-acqua-di-gio-profumo": "Alberto Morillas takes the original idea and darkens it. Marine notes and bergamot lead, then rosemary and sage give way to incense and patchouli. It is the aquatic here that handles fall best. It has more depth than Acqua di Giò but less sunshine, so beach purists may still prefer the original.",
+    "giorgio-armani-acqua-di-gio": "The 1996 benchmark keeps its podium spot. Bergamot, neroli and lime lead into jasmine and rosemary, over cedar and musk. Nothing sticks out. Yes, everyone owns it. Compared with Cool Water it is more citrus and less lavender, which makes it easier in real heat.",
+    "davidoff-cool-water": "Pierre Bourdon created it in 1988, and its mint, lavender and coriander DNA has been copied endlessly. It smells familiar now, yet it projects better than most of its descendants (4 out of 5). This is the most herbal pick on the page, ideal for fougère fans who want something cooler.",
+    "issey-miyake-leau-dissey-pour-homme": "Here the sea comes through yuzu, lemon and bergamot, with nutmeg and cinnamon in the heart. Jacques Cavallier composed it in 1994. The sourness is sharp and can turn shrill on dry skin. Great for a summer morning. It is less salty than Invictus and far less sweet.",
+    "paco-rabanne-invictus": "Grapefruit and marine notes up top, bay leaf and jasmine in the middle, guaiac and ambergris below. A sweet-salty formula that works and carries far. Younger guys like it as a sporty scent that gets noticed. The style is so widespread that it lacks personality next to Acqua di Giò Profumo.",
+    "paco-rabanne-invictus-legend": "A warmer Invictus. Sea salt and grapefruit open, then geranium and pepper, over guaiac, amber and benzoin. It works from May through October, evenings included. It is less memorable than the great woody marines, but it outlasts the original and suits men who find the first Invictus too sporty.",
+    "creed-millesime-imperial": "Unlike the rest of this list it is unisex. It earns its place with a neat balance of citrus and sea salt, a quiet iris heart and a sandalwood and amber base. It is the most refined and sunniest pick here. Longevity is modest (3 out of 5), about the same as L'Eau d'Issey Pour Homme."
+   },
+   "faq": [
+    {
+     "q": "What is the best aquatic cologne for men?",
+     "a": "Acqua di Giò Profumo for its depth and longevity, followed by the original Acqua di Giò and Cool Water. For a saltier effect, try Invictus Legend. If you want a more refined citrus-and-salt freshness, look at Creed Millesime Imperial."
+    },
+    {
+     "q": "Is there a difference between marine and aquatic fragrances?",
+     "a": "They describe the same family. Marine usually points to salt and sea air, as in Invictus Legend. Aquatic covers a broader watery freshness, like Acqua di Giò. Either way, the effect mostly comes from synthetic molecules rather than anything harvested from the ocean."
+    },
+    {
+     "q": "How long do aquatic colognes last?",
+     "a": "Usually less than woody or amber scents, because marine notes and citrus evaporate fast. For better longevity, pick an eau de parfum with a richer base. Acqua di Giò Profumo has incense and patchouli, and Invictus Legend has amber and benzoin. Spraying your clothes helps too."
+    },
+    {
+     "q": "Can you wear an aquatic fragrance in winter?",
+     "a": "You can, but it is rarely ideal. Aquatics are built for warmth and feel thin in the cold. If you want the style year-round, Acqua di Giò Profumo handles winter best thanks to its incense. Cool Water also does fine in spring and early fall."
+    }
+   ]
+  }
+ },
+ "fg:oriental:F": {
+  "picks": [
+   "guerlain-shalimar",
+   "yves-saint-laurent-opium",
+   "chanel-coco",
+   "dior-hypnotic-poison",
+   "calvin-klein-obsession",
+   "thierry-mugler-alien",
+   "estee-lauder-youth-dew",
+   "yves-saint-laurent-black-opium",
+   "thierry-mugler-angel"
+  ],
+  "fr": {
+   "title": "Parfum oriental femme : 9 ambrés classés, de Shalimar à Angel",
+   "meta": "Shalimar, Opium et Hypnotic Poison en tête : notre sélection de parfums orientaux pour femme, classée par style et par saison.",
+   "h1": "Les parfums orientaux pour femme qui comptent vraiment",
+   "intro": "Le parfum oriental femme de référence reste Shalimar de Guerlain, lancé en 1925 : une vanille fumée sur opoponax et fève tonka, que tous les ambrés modernes citent encore. Opium d'Yves Saint Laurent arrive deuxième, pour sa version épicée au clou de girofle. Coco de Chanel complète le podium, plus lisse et plus solaire. Pour une approche actuelle et gourmande, Hypnotic Poison et Black Opium sont les meilleures portes d'entrée.",
+   "sections": [
+    {
+     "title": "Oriental, ambré : ce qui définit la famille côté féminin",
+     "body": "Un parfum oriental repose sur un fond chaud de vanille, de fève tonka et d'ambre. S'y ajoutent des résines comme le benjoin, l'opoponax ou le labdanum. On parle aussi d'ambré, terme que beaucoup de marques préfèrent aujourd'hui. Côté féminin, ce fond sert presque toujours de socle à des fleurs capiteuses. Le jasmin revient dans huit de nos neuf choix, souvent avec la rose, parfois avec l'iris ou la tubéreuse. C'est la grande différence avec les orientaux masculins, qui misent plutôt sur les épices sèches, le tabac ou le cuir. La famille féminine a aussi ses repères historiques : Shalimar en 1925, Youth Dew en 1953, Opium en 1977, Obsession en 1985. Ce sont des parfums puissants. Sur neuf, cinq ont une intensité de 5 sur 5 dans nos fiches, ce qui impose une main légère."
+    },
+    {
+     "title": "Vanillé, épicé ou gourmand : trouver son oriental",
+     "body": "Trois sous-styles se dégagent de cette sélection. L'oriental vanillé classique, d'abord, avec Shalimar et Obsession : des agrumes au départ et des fleurs au cœur, puis de la vanille avec de l'encens ou de l'opoponax. Il paraît solennel et un peu rétro, ce qui fait son charme. L'oriental épicé ensuite, avec Opium, Coco et Youth Dew : clou de girofle et œillet sur une chaleur presque sombre. Enfin l'oriental gourmand est né avec Angel en 1992. Hypnotic Poison et Black Opium l'ont prolongé, la vanille y rejoint le caramel, le café ou la noix de coco. Alien fait bande à part avec son ambre blanc très lumineux. Pour choisir, regardez votre saison et votre bureau. Tous ces parfums sont faits pour l'automne et l'hiver. Une pulvérisation au creux du coude ou sur la nuque suffit, et on évite les espaces clos avec Youth Dew ou Angel."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Numéro un parce que tout part de là. Jacques Guerlain pose la bergamote et le citron sur une vanille, de la fève tonka et de l'opoponax, avec l'iris et le jasmin au cœur. La vanille y est solennelle plutôt que câline. Celles qui l'attendent gourmande seront surprises. Plus sec et plus fumé qu'Hypnotic Poison, il se porte volontiers en tenue du soir.",
+    "yves-saint-laurent-opium": "Le modèle de l'oriental épicé. Mandarine, prune et clou de girofle au départ. Œillet et jasmin au cœur, puis santal, vanille et ambre. Opium est dense et parfois envahissant : on le vaporise une fois, pas trois. Face à Coco, il est plus sombre et plus fruité, là où le Chanel reste plus lumineux.",
+    "chanel-coco": "Jacques Polge signe en 1984 un oriental plus solaire qu'Opium, avec la pêche et la mandarine en ouverture. Rose, jasmin et clou de girofle suivent, sur un fond de santal, de fève tonka et d'ambre. La construction est impeccable. C'est un parfum riche, qui demande une main légère. Il convient à celles qui trouvent Opium trop théâtral.",
+    "dior-hypnotic-poison": "L'oriental vanillé version moderne, signé Annick Ménardo en 1998. Noix de coco, prune et abricot ouvrent sur la tubéreuse et le jasmin, puis sur une vanille musquée et du santal. Plus doux que Shalimar, moins sucré qu'Angel, il est devenu culte pour sa texture. Trop dense pour l'été, il est parfait sur un pull en laine.",
+    "calvin-klein-obsession": "Un ambré franc des années 1980, composé par Jean Guichard. La vanille est déjà là dès le départ avec la mandarine. Fleur d'oranger et jasmin suivent, sur un fond d'ambre, de musc et d'encens. Sa présence est rare, son style un peu daté pour qui cherche de la légèreté. C'est le cousin plus résineux de Shalimar.",
+    "thierry-mugler-alien": "Jasmin signé Dominique Ropion et Laurent Bruyère, posé sur du cashmeran et un ambre blanc lumineux. Alien ne ressemble à aucun autre oriental de cette liste : pas d'épices, peu de vanille visible, beaucoup d'éclat. Sa tenue est exemplaire. Son intensité aussi : une seule pulvérisation, sinon il sature l'entourage.",
+    "estee-lauder-youth-dew": "Josephine Catapano l'a composé en 1953. Aldéhydes et pêche en tête. Rose, jasmin et ylang-ylang au cœur, puis vanille, patchouli et musc. C'est le plus tenace et le plus chaud de nos orientaux, et le plus difficile à doser. Dans un espace clos, il peut étouffer. Pour les amatrices de parfums anciens, c'est une pièce à connaître avant Opium.",
+    "yves-saint-laurent-black-opium": "La version gourmande et actuelle d'Opium, sortie en 2014. Baies roses, poire et fleur d'oranger ouvrent, puis café, jasmin et amande glissent vers la vanille et le patchouli. C'est le plus facile à porter pour une première incursion dans la famille. Très addictif, il sature si l'on en abuse. Moins sucré qu'Angel, il est plus sombre qu'Hypnotic Poison.",
+    "thierry-mugler-angel": "Olivier Cresp a ouvert en 1992 la voie du gourmand : barbe à papa, miel, chocolat et caramel sur patchouli et vanille. Angel est clivant par nature. Son patchouli le rend plus terreux que Black Opium. On l'aime ou on le fuit, et il sature vite un espace clos. Une pulvérisation suffit largement."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum oriental pour femme ?",
+     "a": "Shalimar de Guerlain reste la référence, pour sa vanille fumée et son histoire. Si vous préférez un oriental épicé, Opium ou Coco de Chanel sont les grands classiques. Pour une version moderne et plus sucrée, Hypnotic Poison et Black Opium sont les choix les plus faciles à aimer."
+    },
+    {
+     "q": "Quelle différence entre parfum oriental et parfum ambré ?",
+     "a": "Aucune sur le fond : ambré est le nom que la profession utilise de plus en plus pour la famille orientale. Les deux désignent des parfums construits sur un fond chaud de vanille, de résines et de fève tonka. Shalimar, Obsession ou Opium appartiennent tous à cette famille."
+    },
+    {
+     "q": "Peut-on porter un parfum oriental en journée ?",
+     "a": "Oui, à petite dose. Choisissez un oriental moins puissant, comme Hypnotic Poison ou Black Opium, et limitez-vous à une pulvérisation. Évitez Youth Dew, Opium et Angel au bureau : leur intensité de 5 sur 5 prend vite trop de place dans une pièce fermée."
+    },
+    {
+     "q": "Quel parfum oriental femme pour l'hiver ?",
+     "a": "Presque tous les orientaux sont faits pour le froid. Shalimar, Coco et Obsession sont parfaits pour les soirées d'hiver. Si vous aimez les notes gourmandes, Hypnotic Poison et sa vanille à la noix de coco fonctionnent très bien sur la laine et le cachemire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Oriental Perfumes for Women: 9 Amber Classics Ranked",
+   "meta": "Shalimar, Opium and Hypnotic Poison top our ranking of oriental and amber perfumes for women, sorted by style and by season.",
+   "h1": "The best oriental fragrances for women",
+   "intro": "The oriental perfume every woman should smell at least once is Guerlain Shalimar, from 1925. Its smoky vanilla over opoponax and tonka is still the template for modern ambers. Yves Saint Laurent Opium comes second as the spicy benchmark, built on clove. Chanel Coco completes the podium, smoother and sunnier. For a modern, gourmand entry point, Hypnotic Poison and Black Opium are the easiest to love.",
+   "sections": [
+    {
+     "title": "What defines the oriental family for women",
+     "body": "An oriental fragrance sits on a warm base of vanilla, tonka and amber. Resins such as benzoin, opoponax or labdanum often join in. Many brands now call the family amber instead. In women's perfumery that base nearly always carries heady flowers. Jasmine appears in eight of our nine picks, often with rose and sometimes with iris or tuberose. That is the big difference from men's orientals, which lean on dry spice, tobacco or leather. The women's side also has clear landmarks: Shalimar in 1925, Youth Dew in 1953, Opium in 1977, Obsession in 1985. These are powerful scents. Five of the nine are rated 5 out of 5 for strength on our pages, so go easy on the trigger. One spray is often enough to fill a room."
+    },
+    {
+     "title": "Vanilla, spicy or gourmand: finding your oriental",
+     "body": "Three sub-styles show up in this ranking. Classic vanilla orientals come first, with Shalimar and Obsession: citrus up top, flowers in the heart, vanilla with incense or opoponax below. They feel formal and a bit retro, which is the appeal. Spicy orientals follow, with Opium, Coco and Youth Dew: clove and carnation, patchouli and an almost dark warmth. Gourmand orientals arrived with Angel in 1992 and continue with Hypnotic Poison and Black Opium, where vanilla meets caramel, coffee or coconut. Alien stands apart with a bright white amber. To choose, think about season and setting. All of these are fall and winter scents. Spray once on the inner elbow or the back of the neck, and keep Youth Dew and Angel away from small rooms."
+    }
+   ],
+   "why": {
+    "guerlain-shalimar": "Number one because everything starts here. Jacques Guerlain set bergamot and lemon over vanilla, tonka and opoponax, with iris and jasmine in the heart. The vanilla is stately rather than cuddly, so anyone expecting dessert will be surprised. Drier and smokier than Hypnotic Poison, it suits evening wear best.",
+    "yves-saint-laurent-opium": "Opium is the model spicy oriental. Mandarin, plum and clove open. Carnation and jasmine follow, then sandalwood, vanilla and amber. Opium is dense and can crowd a room, so spray once, not three times. Next to Coco it is darker and fruitier, while the Chanel stays brighter.",
+    "chanel-coco": "Jacques Polge's 1984 oriental is sunnier than Opium. Peach and mandarin open before rose, jasmine and clove settle over sandalwood, tonka and amber. The construction is flawless. It is rich and needs a light hand. A good match for anyone who finds Opium too theatrical.",
+    "dior-hypnotic-poison": "The modern vanilla oriental, created by Annick Ménardo in 1998. Coconut, plum and apricot lead into tuberose and jasmine, then a musky vanilla with sandalwood. Softer than Shalimar and less sugary than Angel, it earned cult status for its texture. Too dense for summer, perfect on a wool sweater.",
+    "calvin-klein-obsession": "A straight-up 1980s amber by Jean Guichard. Vanilla shows up early alongside mandarin. Orange blossom and jasmine follow over amber, musk and incense. Its presence is huge and its style a little dated if you want something light. Think of it as Shalimar's more resinous cousin.",
+    "thierry-mugler-alien": "Jasmine by Dominique Ropion and Laurent Bruyère, set on cashmeran and a luminous white amber. Alien looks nothing like the other orientals here: no spice, little obvious vanilla, lots of radiance. Longevity is outstanding. So is the strength, so one spray only or it will swamp the people around you.",
+    "estee-lauder-youth-dew": "Josephine Catapano composed it in 1953. Aldehydes and peach up top. Rose, jasmine and ylang-ylang in the heart, then vanilla, patchouli and musk. It is the most tenacious and warmest oriental on the page, and the hardest to dose. In a closed room it can smother. Vintage lovers should try it before Opium.",
+    "yves-saint-laurent-black-opium": "Launched in 2014, this is the modern gourmand take on Opium. Pink pepper, pear and orange blossom open, then coffee, jasmine and almond slide into vanilla and patchouli. It is the easiest way into the family. Very moreish, it cloys if you overdo it. Less sugary than Angel and darker than Hypnotic Poison.",
+    "thierry-mugler-angel": "Olivier Cresp opened the gourmand door in 1992 with cotton candy, honey, chocolate and caramel over patchouli and vanilla. Angel divides people by design. The patchouli makes it earthier than Black Opium. You love it or you run, and it saturates small spaces quickly. One spray is plenty."
+   },
+   "faq": [
+    {
+     "q": "What is the best oriental perfume for women?",
+     "a": "Guerlain Shalimar remains the reference for its smoky vanilla and its history. If you prefer a spicy oriental, Opium and Chanel Coco are the great classics. For a modern, sweeter take, Hypnotic Poison and Black Opium are the easiest to love."
+    },
+    {
+     "q": "Is oriental the same as amber in perfume?",
+     "a": "Yes. Amber is the name the industry increasingly uses for the oriental family. Both describe fragrances built on a warm base of vanilla, resins and tonka bean. Shalimar, Obsession and Opium all belong to it, whatever the label on the box says."
+    },
+    {
+     "q": "Can I wear an oriental perfume during the day?",
+     "a": "Yes, in small doses. Pick a softer oriental such as Hypnotic Poison or Black Opium and stick to one spray. Leave Youth Dew, Opium and Angel at home on office days: at 5 out of 5 in strength, they take over a closed room fast."
+    },
+    {
+     "q": "Which oriental perfume is best for winter?",
+     "a": "Almost every oriental is built for cold weather. Shalimar, Coco and Obsession are superb on winter evenings. If you like gourmand notes, Hypnotic Poison and its coconut vanilla work beautifully on wool and cashmere, where the scent lingers for hours."
+    }
+   ]
+  }
+ },
+ "fg:citrus:M": {
+  "picks": [
+   "dior-eau-sauvage",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "azzaro-chrome",
+   "penhaligons-blenheim-bouquet",
+   "acqua-di-parma-colonia",
+   "tom-ford-neroli-portofino",
+   "mancera-cedrat-boise",
+   "nishane-hacivat",
+   "calvin-klein-ck-one"
+  ],
+  "fr": {
+   "title": "Parfum hespéridé homme : 9 agrumes, d'Eau Sauvage à CK One",
+   "meta": "Eau Sauvage, Light Blue pour Homme et Colonia : notre sélection de parfums hespéridés pour homme, avec des solutions pour une tenue plus longue.",
+   "h1": "Les meilleurs parfums hespéridés pour homme, et comment les faire durer",
+   "intro": "Le parfum hespéridé homme par excellence reste Eau Sauvage de Dior (1966) : citron, bergamote et romarin sur un fond de mousse de chêne et de vétiver, d'une sobriété que personne n'a égalée. Light Blue pour Homme arrive deuxième, plus moderne et plus juteux. Chrome d'Azzaro complète le podium pour un usage quotidien. Si la tenue vous inquiète, regardez plus bas Cedrat Boise et Hacivat, deux mixtes qui durent nettement plus longtemps.",
+   "sections": [
+    {
+     "title": "Hespéridé masculin : agrumes, herbes et mousse",
+     "body": "Le mot vient du jardin des Hespérides, où la mythologie grecque plaçait des pommes d'or que l'on a longtemps assimilées aux agrumes. En parfumerie, un hespéridé repose sur les essences de zestes : citron et bergamote surtout, mais aussi orange, pamplemousse ou cédrat. C'est la famille des eaux de Cologne. Côté masculin, les agrumes sont presque toujours tenus par des herbes aromatiques (romarin, basilic, lavande) et par un fond sec de mousse de chêne ou de vétiver. Eau Sauvage, Chrome et Blenheim Bouquet suivent ce schéma. Côté féminin, la même fraîcheur glisse plus volontiers vers la fleur d'oranger et le néroli. Le problème est connu : les essences d'agrumes sont parmi les plus volatiles de la palette. Un hespéridé classique s'efface souvent en deux ou trois heures, et ce n'est pas un défaut de fabrication."
+    },
+    {
+     "title": "Comment choisir, et comment le faire tenir",
+     "body": "Première question : cherchez-vous une cologne pure ou un agrume qui dure ? Pour la pureté, Colonia d'Acqua di Parma et Blenheim Bouquet restent imbattables, à condition d'accepter de revaporiser à midi. Pour tenir une journée, il faut un fond plus riche. Cedrat Boise pose son citron sur du cuir, du cèdre et de la vanille. Hacivat, en extrait, s'appuie sur la mousse de chêne et le patchouli. Deuxième question : le contexte. Au bureau, Chrome ou Light Blue pour Homme passent partout. Pour un dîner d'été, Neroli Portofino apporte une fleur d'oranger plus habillée. Côté application, vaporisez les agrumes sur les vêtements autant que sur la peau : le coton et le lin les retiennent mieux. Une peau sèche gagne aussi à être hydratée avant, avec une crème sans parfum."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Edmond Roudnitska signe en 1966 un modèle d'hespéridé masculin. Citron, bergamote et romarin ouvrent sur un cœur de jasmin et de basilic, puis sur la mousse de chêne et le vétiver. Il a été l'un des premiers parfums à employer l'hédione, qui donne ce jasmin aérien. Sa tenue reste modeste. Plus sec que Light Blue, il vieillit aussi beaucoup mieux sur la peau d'un homme mûr.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "Alberto Morillas y met du pamplemousse, de la bergamote et de la mandarine. Genièvre et romarin suivent, sur un fond de musc et de mousse de chêne. C'est l'hespéridé le plus estival de la liste, facile et juteux. Sa tenue est limitée. À côté d'Eau Sauvage, il paraît plus jeune et moins nuancé.",
+    "azzaro-chrome": "Citron, romarin et néroli en tête, puis une touche d'ananas et de cyclamen, sur mousse de chêne et santal. Chrome est propre, consensuel, sans faux pas. Il manque de relief pour les nez aguerris, mais c'est un excellent premier parfum ou un bon choix pour le sport. Il tient un peu mieux que Blenheim Bouquet.",
+    "penhaligons-blenheim-bouquet": "Doyen masculin de la sélection, créé en 1902 par Walter Penhaligon. Citron, citron vert et lavande, puis du pin, puis du poivre et du musc. C'est le plus sec et le plus britannique de la page, d'une élégance nette. Son sillage reste modeste. On le choisit pour la tenue de ville plutôt que pour la plage, à l'inverse de Light Blue.",
+    "acqua-di-parma-colonia": "Mixte sur le papier, cette cologne de 1916 associe citron, bergamote et orange à la lavande, au romarin et à la verveine. Le fond de santal et de vétiver reste léger. C'est la plus élégante de la liste et la plus fugace. Elle se vaporise généreusement, comme une vraie eau de Cologne, et plus souvent que Neroli Portofino.",
+    "tom-ford-neroli-portofino": "Ce mixte de Rodrigo Flores-Roux part de la bergamote, de la mandarine et du citron. Le néroli et la fleur d'oranger prennent ensuite le relais. C'est l'agrume le plus habillé de la page, idéal pour un dîner d'été. Sa tenue reste celle d'une fraîcheur. Plus floral que Colonia, il plaira à ceux qui trouvent Eau Sauvage trop austère.",
+    "mancera-cedrat-boise": "Notre solution pour les hommes qui trouvent que les agrumes ne tiennent pas. Citron, cassis et bergamote ouvrent, puis viennent patchouli et jasmin. Surtout, le fond réunit cèdre, cuir, santal et vanille (intensité 4). C'est un mixte qui se porte très bien au masculin. Il peut paraître un peu synthétique, notamment face à Colonia.",
+    "nishane-hacivat": "Voici le plus puissant de la liste (intensité 5, en extrait). Jorge Lee associe ananas, pamplemousse et bergamote à un fond de mousse de chêne et de bois : c'est presque un chypre fruité. Ce mixte tient sans problème une journée. La mousse peut sembler rugueuse aux nez sensibles. Plus sombre que Cedrat Boise, il convient aussi en automne.",
+    "calvin-klein-ck-one": "Le mixte des années 1990, signé Alberto Morillas et Harry Frémont. Bergamote, ananas et citron sur un cœur de jasmin et de muscade, puis musc et cèdre. C'est l'hespéridé le plus léger de la page et le plus simple à porter tous les jours. Sa tenue courte oblige à revaporiser, comme Colonia."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum hespéridé pour homme ?",
+     "a": "Eau Sauvage de Dior reste notre premier choix pour sa sobriété et sa construction. Light Blue pour Homme est plus estival et plus facile. Si vous cherchez un agrume qui tient longtemps, Cedrat Boise de Mancera et Hacivat de Nishane sont les meilleures options de cette sélection."
+    },
+    {
+     "q": "Pourquoi les parfums aux agrumes tiennent-ils si peu ?",
+     "a": "Les essences de citron, de bergamote ou d'orange sont très volatiles : elles s'évaporent vite, c'est ce qui les rend si fraîches au départ. Un hespéridé classique dure souvent deux ou trois heures. Pour tenir plus longtemps, choisissez un parfum avec un fond boisé ou moussu, comme Hacivat."
+    },
+    {
+     "q": "Que veut dire hespéridé en parfumerie ?",
+     "a": "Hespéridé désigne la famille des parfums construits sur les agrumes : citron et bergamote en tête, mais aussi orange, mandarine ou cédrat. Le nom vient du jardin des Hespérides de la mythologie grecque. Les eaux de Cologne, comme Colonia d'Acqua di Parma, en sont la forme la plus ancienne."
+    },
+    {
+     "q": "Un parfum hespéridé homme peut-il se porter en hiver ?",
+     "a": "Oui, s'il a un fond assez présent. Avec son cuir, son cèdre et sa vanille, Cedrat Boise tient bien par temps frais. Hacivat, plus puissant, passe très bien l'automne. Les colognes pures comme Colonia ou CK One restent plutôt réservées au printemps et à l'été."
+    }
+   ]
+  },
+  "en": {
+   "title": "Citrus Colognes for Men: 9 Best, From Eau Sauvage to CK One",
+   "meta": "Eau Sauvage, Light Blue pour Homme and Colonia lead our ranking of citrus fragrances for men, plus the picks that actually last all day.",
+   "h1": "The best citrus fragrances for men, and how to make them last",
+   "intro": "The citrus cologne to beat is still Dior Eau Sauvage, from 1966. Lemon, bergamot and rosemary sit on oakmoss and vetiver with a restraint nobody has matched. Light Blue pour Homme comes second, juicier and more modern. Azzaro Chrome rounds out the top three as an everyday pick. If longevity worries you, scroll down to Cedrat Boise and Hacivat, two unisex scents that last far longer.",
+   "sections": [
+    {
+     "title": "Men's citrus: zest, herbs and moss",
+     "body": "Perfumers call this family hesperidic, after the Garden of the Hesperides and its golden apples in Greek myth, long read as citrus fruit. A citrus fragrance is built on zest oils, mostly lemon and bergamot but also orange, grapefruit or citron. It is the family of the classic eau de cologne. On the men's side, the citrus is almost always held up by herbs like rosemary, basil or lavender, over a dry base of oakmoss or vetiver. Eau Sauvage, Chrome and Blenheim Bouquet all follow that pattern. Women's citrus scents tend to drift toward orange blossom and neroli instead. The catch is well known. Citrus oils are among the most volatile materials in perfumery, so a classic citrus often fades within two or three hours. That is chemistry, not a flaw."
+    },
+    {
+     "title": "How to choose one, and how to make it last",
+     "body": "First question: do you want a pure cologne or a citrus that lasts? For purity, Acqua di Parma Colonia and Blenheim Bouquet are hard to beat, as long as you are happy to reapply at lunch. To last a full day you need a richer base. Cedrat Boise puts its lemon on leather, cedar and vanilla. Hacivat, an extrait, leans on oakmoss and patchouli. Second question: where are you wearing it? Chrome or Light Blue pour Homme work anywhere, including the office. For a summer dinner, Neroli Portofino brings a dressier orange blossom. When applying, spray your clothes as well as your skin, since cotton and linen hold citrus better. Dry skin also benefits from an unscented moisturizer first."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Edmond Roudnitska's 1966 model of a men's citrus. Lemon, bergamot and rosemary lead into a jasmine and basil heart, then oakmoss and vetiver. It was one of the first perfumes to use hedione, which gives that airy jasmine. Longevity is modest. Drier than Light Blue, it also ages far better on an older man's skin.",
+    "dolce-gabbana-d-g-light-blue-pour-homme": "Alberto Morillas used grapefruit, bergamot and mandarin, then juniper and rosemary over musk and oakmoss. It is the most summery citrus here, easy and juicy. Staying power is limited. Next to Eau Sauvage it feels younger and less nuanced, which is exactly what some buyers want.",
+    "azzaro-chrome": "Lemon, rosemary and neroli up top, a hint of pineapple and cyclamen, then oakmoss and sandalwood. Chrome is clean and safe, with no missteps. Seasoned noses will find it flat, but it makes an excellent first fragrance or gym scent. It lasts a little longer than Blenheim Bouquet.",
+    "penhaligons-blenheim-bouquet": "Created in 1902, the elder statesman of this ranking was composed by Walter Penhaligon. Lemon, lime and lavender, then pine, then pepper and musk. It is the driest and most British scent on the page, with a crisp elegance. Projection is soft. Wear it with a suit rather than to the beach, unlike Light Blue.",
+    "acqua-di-parma-colonia": "Unisex on paper, this 1916 cologne pairs lemon, bergamot and orange with lavender, rosemary and verbena. The sandalwood and vetiver base stays light. It is the most elegant pick here and the most fleeting. Spray it generously, the old-school way, and more often than Neroli Portofino.",
+    "tom-ford-neroli-portofino": "This unisex scent by Rodrigo Flores-Roux starts on bergamot, mandarin and lemon. Neroli and orange blossom take over after that. It is the dressiest citrus on the page and ideal for a summer dinner. Longevity is still that of a fresh scent. More floral than Colonia, it suits men who find Eau Sauvage too austere.",
+    "mancera-cedrat-boise": "Our fix for men who say citrus never lasts. Lemon, blackcurrant and bergamot open, then patchouli and jasmine. The base is where it counts: cedar, leather, sandalwood and vanilla (4 out of 5 for strength). It is unisex but wears very well on men. It can smell a little synthetic, especially next to Colonia.",
+    "nishane-hacivat": "Strongest in this ranking: an extrait rated 5 out of 5. Jorge Lee pairs pineapple, grapefruit and bergamot with oakmoss and woods, which makes it close to a fruity chypre. This unisex pick easily lasts a full day. The moss can feel rough to sensitive noses. Darker than Cedrat Boise, it also works in fall.",
+    "calvin-klein-ck-one": "The unisex hit of the 1990s, by Alberto Morillas and Harry Frémont. Bergamot, pineapple and lemon over jasmine and nutmeg, then musk and cedar. It is the lightest citrus on the page and the easiest to wear every day without thinking. Short longevity means reapplying, much like Colonia."
+   },
+   "faq": [
+    {
+     "q": "What is the best citrus cologne for men?",
+     "a": "Dior Eau Sauvage is our top pick for its restraint and construction. Light Blue pour Homme is sunnier and easier. If you need a citrus that lasts, Mancera Cedrat Boise and Nishane Hacivat are the strongest options in this ranking, both unisex."
+    },
+    {
+     "q": "Why do citrus fragrances fade so fast?",
+     "a": "Lemon, bergamot and orange oils are highly volatile. They evaporate quickly, which is also why they smell so fresh at first. A classic citrus often lasts two or three hours. For more staying power, choose a scent with a woody or mossy base, such as Hacivat."
+    },
+    {
+     "q": "What does hesperidic mean in perfume?",
+     "a": "Hesperidic is the technical name for the citrus family, from lemon and bergamot to orange, mandarin and citron. It comes from the Garden of the Hesperides in Greek myth. Colognes like Acqua di Parma Colonia are the oldest form of the family still on sale."
+    },
+    {
+     "q": "Can men wear citrus fragrances in winter?",
+     "a": "Yes, if the base has some weight. With its leather, cedar and vanilla, Cedrat Boise holds up well in cool weather. Hacivat, stronger still, handles fall with ease. Pure colognes like Colonia or CK One are better kept for spring and summer."
+    }
+   ]
+  }
+ },
+ "fg:floral:M": {
+  "picks": [
+   "dior-dior-homme-intense",
+   "dior-dior-homme",
+   "dior-fahrenheit",
+   "amouage-reflection-man",
+   "givenchy-gentleman",
+   "yves-saint-laurent-myslf",
+   "montale-black-aoud",
+   "le-labo-rose-31",
+   "byredo-bal-dafrique"
+  ],
+  "fr": {
+   "title": "Parfum floral homme : 9 fleurs masculines, de l'iris à la rose",
+   "meta": "Dior Homme Intense, Fahrenheit et Reflection Man : notre sélection de parfums floraux pour homme, de l'iris poudré à la rose sombre.",
+   "h1": "Porter des fleurs au masculin : notre sélection de parfums floraux pour homme",
+   "intro": "Selon nous, le meilleur parfum floral pour homme est Dior Homme Intense : un iris poudré posé sur la lavande, la poire et un fond de cèdre et de vétiver. Dior Homme, plus léger et plus cacaoté, le suit de près. Fahrenheit complète le podium pour sa violette pétrolée, qu'on adore ou qu'on déteste. Le reste de la liste va de la fleur d'oranger propre de MYSLF à la rose sombre de Black Aoud.",
+   "sections": [
+    {
+     "title": "Quelles fleurs dans un parfum masculin",
+     "body": "Les fleurs n'ont jamais quitté la parfumerie masculine. Elles se cachent simplement mieux. Quatre dominent notre sélection. L'iris d'abord, poudré et un peu terreux, qui fait tout Dior Homme et Gentleman. La violette ensuite, souvent sous forme de feuille verte et métallique comme dans Fahrenheit. La fleur d'oranger et le néroli, propres et lumineux, dans MYSLF ou Reflection Man. La rose enfin devient masculine dès qu'on l'associe à l'oud, au cumin ou au labdanum. C'est le cas dans Black Aoud et Rose 31. Côté féminin, ces mêmes fleurs sont souvent le sujet principal et s'épanouissent sur la vanille ou le musc. Côté masculin, elles sont tenues par de la lavande, du cuir ou du vétiver. C'est ce cadre sec qui les rend portables pour un homme qui ne veut pas sentir le bouquet."
+    },
+    {
+     "title": "Choisir un floral masculin selon son style",
+     "body": "Si vous débutez dans la famille, commencez par l'iris : Dior Homme ou Gentleman restent élégants au bureau et ne choquent personne. Pour un floral plus frais, Reflection Man et MYSLF jouent la carte du propre, avec du jasmin, du néroli et de la fleur d'oranger. Ils passent du printemps à l'automne. Si vous cherchez du caractère, Fahrenheit reste le plus clivant de la liste, et Black Aoud le plus puissant (intensité 5). La rose au cumin de Rose 31 demande, elle, une peau qui la supporte : testez-la une journée entière avant d'acheter. Côté dosage, un floral masculin se vaporise avec retenue. Deux pulvérisations suffisent pour Dior Homme Intense, une seule pour Black Aoud. Et les fleurs poudrées comme l'iris tiennent mieux sur un col de chemise que sur une peau très sèche."
+    }
+   ],
+   "why": {
+    "dior-dior-homme-intense": "Notre premier choix, parce qu'il pousse l'idée de l'iris masculin plus loin que tout le reste. La lavande ouvre, puis l'iris, l'ambrette et la poire forment un cœur poudré, sur un fond de cèdre et de vétiver. Plus dense que Dior Homme, il se porte surtout en automne et en hiver. Certains le trouveront trop poudré, et c'est justement ce qui le distingue.",
+    "dior-dior-homme": "Olivier Polge l'a composé en 2005 autour d'un iris cacaoté, encadré par la lavande, la sauge et un fond de vétiver et de cuir. C'est l'entrée la plus facile dans les floraux masculins. Il reste discret, ce qui le rend idéal au bureau. Ceux qui cherchent du sillage lui préféreront la version Intense.",
+    "dior-fahrenheit": "La violette la plus célèbre de la parfumerie masculine, signée Jean-Louis Sieuzac et Michel Almairac en 1988. Lavande, mandarine et aubépine, puis violette et muscade, puis cuir et vétiver. Cette note pétrolée divise encore. C'est le parfum le plus radical de cette sélection, bien plus sombre que Gentleman.",
+    "amouage-reflection-man": "Lucas Sieuzac y réunit jasmin, néroli, iris et ylang-ylang. Le romarin et les baies roses ouvrent, le santal et le vétiver prennent le relais. C'est le floral le plus lumineux et le plus propre de la page. Il convient du printemps à l'automne. Sa propreté paraîtra un peu sage à qui cherche la noirceur de Black Aoud.",
+    "givenchy-gentleman": "Iris plus doux et plus moderne, par Nathalie Lorson, Olivier Cresp et Olivier Pescheux. La poire et la cardamome ouvrent. L'iris et la fleur d'oranger suivent, puis patchouli, vanille noire et cuir. Il est plus sucré que Dior Homme, donc plus facile à aimer. Son défaut : il reste assez sage.",
+    "yves-saint-laurent-myslf": "Une fleur d'oranger assumée, sur de la bergamote et un fond d'ambroxan et de patchouli. MYSLF montre qu'une fleur blanche peut entrer dans un masculin sans le rendre mièvre. Sa structure reste simple et proche des boisés ambrés du moment. Il est plus frais que Gentleman, et plus direct que Reflection Man.",
+    "montale-black-aoud": "Le patchouli ouvre, puis la rose, le labdanum et l'oud forment le cœur. Le fond mêle santal, ambre et musc. C'est le floral le plus lourd de la liste, et le plus assumé. Une pulvérisation suffit, surtout en intérieur. Son caractère un peu synthétique rebutera certains. Rose 31 offre une autre rose masculine, beaucoup plus sèche.",
+    "le-labo-rose-31": "Un mixte de Daphné Bugey qui porte la rose très loin du jardin : cumin et poivre au départ, puis cèdre, gaïac et ciste. C'est la rose la plus sèche de la page. Le cumin peut paraître trop corporel sur certaines peaux, d'où l'intérêt de l'essayer avant. Plus aérée que Black Aoud, elle se porte aussi au printemps.",
+    "byredo-bal-dafrique": "Floral mixte le plus léger de notre sélection. Jérôme Epinette associe bergamote, citron et néroli à la violette, au jasmin et au cyclamen, sur un fond de vétiver et de musc. Il est facile à aimer et se porte bien en été. Sa projection reste modeste. Moins poudré que Dior Homme, c'est une bonne option pour qui trouve l'iris trop sérieux."
+   },
+   "faq": [
+    {
+     "q": "Un homme peut-il porter un parfum floral ?",
+     "a": "Oui, et la plupart des grands masculins contiennent des fleurs. L'iris de Dior Homme, la violette de Fahrenheit ou la fleur d'oranger de MYSLF en sont des exemples. La différence tient au cadre : lavande, cuir, vétiver ou bois donnent aux fleurs une allure sèche et masculine."
+    },
+    {
+     "q": "Quel est le meilleur parfum floral pour homme ?",
+     "a": "Pour nous, Dior Homme Intense, pour son iris poudré sur fond de cèdre et de vétiver. Dior Homme est plus léger et plus facile au bureau. Si vous voulez une rose, Black Aoud de Montale est puissant, Rose 31 de Le Labo plus sec et épicé."
+    },
+    {
+     "q": "Quelle fleur choisir pour un premier parfum floral masculin ?",
+     "a": "L'iris est le choix le plus sûr. Il est poudré, un peu terreux, et se marie très bien avec la lavande et le cuir. Dior Homme et Gentleman de Givenchy sont deux bons points de départ. Si vous préférez la fraîcheur, la fleur d'oranger de MYSLF est plus lumineuse."
+    },
+    {
+     "q": "Parfum floral homme : pour quelle saison ?",
+     "a": "Cela dépend de la fleur. L'iris et la rose sombre conviennent à l'automne et à l'hiver, comme Dior Homme Intense ou Black Aoud. La fleur d'oranger, le néroli et le jasmin passent mieux au printemps et en été : Reflection Man, MYSLF ou Bal d'Afrique sont faits pour ça."
+    }
+   ]
+  },
+  "en": {
+   "title": "Floral Fragrances for Men: 9 Best, From Iris to Rose",
+   "meta": "Dior Homme Intense, Fahrenheit and Reflection Man lead our ranking of floral fragrances for men, from powdery iris to dark rose and oud.",
+   "h1": "The best floral colognes for men",
+   "intro": "Our favorite floral fragrance for men is Dior Homme Intense: a powdery iris on lavender and pear, over cedar and vetiver. Dior Homme, lighter and more cocoa-like, sits right behind it. Fahrenheit completes the podium for its gasoline-edged violet, which people either love or can't stand. The rest of the ranking runs from the clean orange blossom of MYSLF to the dark rose of Black Aoud.",
+   "sections": [
+    {
+     "title": "Which flowers work in men's fragrance",
+     "body": "Flowers never left men's perfumery. They just hide better. Four of them dominate this ranking. Iris is powdery and slightly earthy, and it defines Dior Homme and Gentleman. Violet often shows up as a green, metallic leaf, as in Fahrenheit. Orange blossom and neroli bring a clean glow to MYSLF and Reflection Man. Rose turns masculine the moment you pair it with oud, cumin or labdanum, as in Black Aoud and Rose 31. In women's perfumery the same flowers are usually the main subject, blooming over vanilla or musk. In men's scents they are framed by lavender, leather or vetiver. That dry frame is what makes them wearable for men who do not want to smell like a bouquet, and it is the thread running through every pick here."
+    },
+    {
+     "title": "Picking a floral cologne for your style",
+     "body": "If you are new to the family, start with iris. Dior Homme and Gentleman stay polished at the office and never shock anyone. For something fresher, Reflection Man and MYSLF go clean with jasmine, neroli and orange blossom. Both work from spring to fall. If you want character, Fahrenheit is the most divisive scent here, and Black Aoud the strongest (5 out of 5). The cumin rose of Rose 31 needs skin that suits it, so wear a sample for a full day before buying. Go easy on the sprays. Two are enough for Dior Homme Intense, one for Black Aoud. Powdery flowers like iris also last better on a shirt collar than on very dry skin."
+    }
+   ],
+   "why": {
+    "dior-dior-homme-intense": "Our top pick, because it takes the masculine iris further than anything else. Lavender opens, then iris, ambrette and pear build a powdery heart over cedar and vetiver. Denser than Dior Homme, it shines in fall and winter. Some find it too powdery, which is exactly what sets it apart.",
+    "dior-dior-homme": "Olivier Polge built it in 2005 around a cocoa-tinged iris, framed by lavender, sage, vetiver and leather. It is the easiest way into men's florals. It stays quiet, which makes it ideal for work. Anyone after more projection should go straight to the Intense version.",
+    "dior-fahrenheit": "Fahrenheit is the most famous violet in men's perfumery, by Jean-Louis Sieuzac and Michel Almairac in 1988. Lavender, mandarin and hawthorn, then violet and nutmeg, then leather and vetiver. That gasoline note still splits opinion. It is the most radical scent on this page, far darker than Gentleman.",
+    "amouage-reflection-man": "Lucas Sieuzac gathers jasmine, neroli, orris and ylang-ylang, opened by rosemary and pink pepper and set on sandalwood and vetiver. It is the brightest and cleanest floral here, wearable from spring through fall. Anyone chasing the darkness of Black Aoud will find it a bit polite.",
+    "givenchy-gentleman": "Softer and more modern, this iris is by Nathalie Lorson, Olivier Cresp and Olivier Pescheux. Pear and cardamom open. Iris and orange blossom follow, then patchouli, black vanilla and leather. It is sweeter than Dior Homme, so it is easier to like. The flip side is that it plays it safe.",
+    "yves-saint-laurent-myslf": "An unapologetic orange blossom over bergamot, with ambroxan and patchouli underneath. MYSLF proves a white flower can sit in a men's scent without going soft. The structure is simple and close to today's woody ambers. It is fresher than Gentleman and more direct than Reflection Man.",
+    "montale-black-aoud": "Patchouli opens, then rose, labdanum and oud form the heart. The base blends sandalwood, amber and musk. It is the heaviest floral here and the least shy. One spray is enough, especially indoors. Its slightly synthetic edge will put some people off. Rose 31 offers another masculine rose, much drier.",
+    "le-labo-rose-31": "A unisex scent by Daphné Bugey that takes rose far from the garden: cumin and pepper up top, then cedar, guaiac and cistus. It is the driest rose on the page. The cumin can read as sweaty on some skin, so test it first. Airier than Black Aoud, it also works in spring.",
+    "byredo-bal-dafrique": "The lightest unisex floral in this ranking. Jérôme Epinette pairs bergamot, lemon and neroli with violet, jasmine and cyclamen over vetiver and musk. It is easy to like and great in summer. Projection is modest. Less powdery than Dior Homme, it suits men who find iris too serious."
+   },
+   "faq": [
+    {
+     "q": "Can men wear floral fragrances?",
+     "a": "Yes, and most great men's fragrances contain flowers. The iris in Dior Homme, the violet in Fahrenheit and the orange blossom in MYSLF are good examples. What makes them masculine is the frame: lavender, leather, vetiver or woods give the flowers a dry edge."
+    },
+    {
+     "q": "What is the best floral cologne for men?",
+     "a": "Our pick is Dior Homme Intense for its powdery iris over cedar and vetiver. Dior Homme is lighter and easier for work. If you want rose, Montale Black Aoud is the powerhouse, while Le Labo Rose 31 is drier and spicier."
+    },
+    {
+     "q": "Which flower should I try first?",
+     "a": "Iris is the safest bet. It is powdery, a little earthy, and pairs beautifully with lavender and leather. Dior Homme and Givenchy Gentleman are two good starting points. If you prefer something fresher, the orange blossom in MYSLF is brighter and easier in warm weather."
+    },
+    {
+     "q": "When should men wear floral fragrances?",
+     "a": "It depends on the flower. Iris and dark rose suit fall and winter, as in Dior Homme Intense or Black Aoud. Orange blossom, neroli and jasmine work better in spring and summer: Reflection Man, MYSLF and Bal d'Afrique are made for the warmer months."
+    }
+   ]
+  }
+ },
+ "fg:fougere:M": {
+  "picks": [
+   "azzaro-azzaro-pour-homme",
+   "jean-paul-gaultier-le-male",
+   "creed-green-irish-tweed",
+   "guy-laroche-drakkar-noir",
+   "dior-sauvage",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "yves-saint-laurent-kouros",
+   "parfums-de-marly-pegasus",
+   "ralph-lauren-polo",
+   "guerlain-jicky"
+  ],
+  "fr": {
+   "title": "Parfum fougère homme : 10 fougères classées, d'Azzaro à Sauvage",
+   "meta": "Azzaro Pour Homme, Le Mâle et Green Irish Tweed : notre sélection de parfums fougère pour homme, de la lavande classique à la fougère ambrée.",
+   "h1": "La fougère, famille masculine par excellence : nos 10 choix",
+   "intro": "Pour comprendre ce qu'est un parfum fougère pour homme, sentez Azzaro Pour Homme. Lavande, anis, géranium et mousse de chêne : la formule classique, sans détour. Le Mâle de Jean Paul Gaultier arrive deuxième, pour sa fougère adoucie de vanille. Green Irish Tweed complète le podium dans un registre vert et frais. Plus loin, Sauvage et La Nuit de l'Homme montrent comment la famille a évolué, et Kouros ou Polo rappellent sa version la plus puissante.",
+   "sections": [
+    {
+     "title": "Une fougère ne sent pas la fougère",
+     "body": "La plante n'a presque pas d'odeur. Le nom vient de Fougère Royale, créé par Houbigant en 1882. Ce parfum a donné son nom à tout un accord : lavande, géranium, mousse de chêne et coumarine (la molécule qui sent le foin coupé et la fève tonka). Jicky de Guerlain, sorti en 1889 et présent dans notre sélection, en est un cousin proche. Il est plus vanillé et plus animal. La famille est devenue la plus masculine de la parfumerie. Côté féminin, elle n'existe presque pas : la lavande et la mousse y sont rares, ou fondues dans un chypre. La plupart de nos choix gardent au moins deux piliers de l'accord. Azzaro Pour Homme et Drakkar Noir ont la lavande et la mousse de chêne. Le Mâle et La Nuit de l'Homme ont la lavande et la fève tonka ou la coumarine. Sauvage garde la lavande et le géranium, mais remplace la mousse par l'ambroxan."
+    },
+    {
+     "title": "Classique, fraîche, ambrée ou puissante : quatre fougères",
+     "body": "La fougère classique (Azzaro Pour Homme, Drakkar Noir) est aromatique, un peu savonneuse, très années 1980. Elle va aux hommes qui aiment le rasage à l'ancienne. La fougère fraîche et verte (Green Irish Tweed, Sauvage) garde la structure mais éclaircit tout : verveine et feuille de violette pour le Creed, poivre et ambroxan pour le Dior. C'est la plus facile au quotidien. La fougère ambrée (Le Mâle, La Nuit de l'Homme, Pegasus) ajoute vanille, cardamome ou amande. Elle est plus douce, plus faite pour le soir. Enfin la fougère puissante (Polo, Kouros) pousse la mousse, le cuir ou la civette très loin : intensité 5 sur 5 pour les deux. Pour choisir, partez de la saison. Les fraîches passent le printemps et l'été, les ambrées et les puissantes attendent l'automne. Une ou deux pulvérisations suffisent pour Kouros et Polo, qui ne pardonnent pas l'excès."
+    }
+   ],
+   "why": {
+    "azzaro-azzaro-pour-homme": "Notre numéro un parce qu'il enseigne la famille mieux que tout autre. Lavande, anis et bergamote ouvrent. Iris, basilic et géranium suivent, puis mousse de chêne et vétiver terminent. C'est généreux, solide, très lisible. Son style paraît daté à ceux qui ne jurent que par les boisés modernes. Face à Drakkar Noir, il est plus rond et moins sombre.",
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian l'a composé en 1995 : lavande et menthe sur un cœur de cannelle, de cumin et de fleur d'oranger, puis vanille, fève tonka et ambre. C'est la fougère la plus sensuelle de la page, et l'une des plus reconnaissables. Certains la trouvent trop douce. Plus chaleureux que Sauvage, il est aussi beaucoup moins sec.",
+    "creed-green-irish-tweed": "Verveine citronnée, iris et menthe poivrée ouvrent. Feuille de violette et trèfle font le cœur, santal et ambre gris le fond. C'est la fougère la plus verte et la plus raffinée de la liste. Elle se porte au printemps et en été. Sa sobriété peut paraître classique. Moins puissant que Sauvage, il est aussi plus nuancé.",
+    "guy-laroche-drakkar-noir": "Pierre Wargnye l'a signé en 1982. Lavande, romarin et basilic d'abord. Puis genièvre, coriandre et œillet sur un fond de cèdre, de cuir et de mousse de chêne. C'est la fougère la plus sombre du trio classique, très marquée par son époque. On la choisit pour l'automne. À côté d'Azzaro Pour Homme, elle est plus sèche et plus cuirée.",
+    "dior-sauvage": "François Demachy a modernisé la fougère en 2015 : bergamote et poivre, lavande et géranium relevés de poivre du Sichuan, puis ambroxan, cèdre et labdanum. C'est la fougère la plus répandue du moment et l'une des plus puissantes (intensité 5). Son éclat synthétique lasse certains nez. Elle est bien plus lumineuse que Drakkar Noir.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "Une fougère épicée, signée Anne Flipo, Pierre Wargnye et Dominique Ropion. Cardamome, bergamote et lavande en tête. Cèdre, cumin et violette au cœur, puis vétiver et coumarine. L'élégance est remarquable. Sa tenue est faible (intensité 2) : c'est le plus discret de la page, à l'opposé de Kouros.",
+    "yves-saint-laurent-kouros": "En 1981, Pierre Bourdon compose la fougère animale par excellence. Aldéhydes, sauge sclarée et armoise ouvrent. Œillet et jasmin suivent, puis civette, cuir, miel et vanille. C'est magnifique pour certains et insupportable pour d'autres. Une seule pulvérisation, de préférence en hiver. Il est plus charnel que Polo.",
+    "parfums-de-marly-pegasus": "Hamid Merati-Kashani ouvre sur l'héliotrope, le cumin et la bergamote. Amande, lavande et jasmin suivent, sur un fond de vanille, de santal et d'ambre. C'est une fougère amandée, poudrée et très séduisante. Son développement reste assez linéaire. Plus douce que Le Mâle, elle convient aux hommes qui trouvent la menthe de ce dernier trop présente.",
+    "ralph-lauren-polo": "Carlos Benaïm signe en 1978 une fougère verte et puissante. Armoise, basilic et thym ouvrent. Le pin, le patchouli et la mousse de chêne mènent au cuir, au tabac et au musc. C'est la plus intransigeante de la liste. Elle demande une main légère et un temps froid. Moins animal que Kouros, Polo est plus boisé et plus sec.",
+    "guerlain-jicky": "Seul mixte de notre sélection, et le plus ancien : Aimé Guerlain l'a créé en 1889. Lavande, bergamote et citron sur un fond de vanille, de fève tonka et de civette. C'est un ancêtre direct de la fougère ambrée, qu'on retrouve dans Le Mâle. La facette animale surprendra les nez habitués aux parfums propres."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum fougère ?",
+     "a": "C'est un accord, pas une odeur de plante : lavande, géranium, mousse de chêne et coumarine (cette note de foin et de fève tonka). Le nom vient de Fougère Royale d'Houbigant, en 1882. Azzaro Pour Homme ou Drakkar Noir en sont des exemples classiques."
+    },
+    {
+     "q": "Quel est le meilleur parfum fougère pour homme ?",
+     "a": "Azzaro Pour Homme reste notre référence pour comprendre la famille. Le Mâle est la meilleure fougère ambrée, Green Irish Tweed la plus raffinée dans le registre frais. Pour une version moderne et très diffusive, Dior Sauvage est le choix le plus actuel."
+    },
+    {
+     "q": "Les parfums fougère sont-ils démodés ?",
+     "a": "Pas du tout. Le style fougère des années 1980 (Azzaro Pour Homme, Drakkar Noir) peut sembler daté, mais la famille s'est renouvelée. Sauvage de Dior et La Nuit de l'Homme sont des fougères modernes. Les fougères ambrées comme Le Mâle ou Pegasus restent aussi très portées."
+    },
+    {
+     "q": "Quelle fougère homme pour l'été ?",
+     "a": "Choisissez une fougère fraîche. Green Irish Tweed, avec sa verveine et sa feuille de violette, est parfait par temps chaud. Sauvage fonctionne aussi du printemps à l'automne, à dose réduite. Gardez les fougères ambrées comme Le Mâle pour les soirées fraîches."
+    }
+   ]
+  },
+  "en": {
+   "title": "Fougère Colognes for Men: 10 Best, From Azzaro to Sauvage",
+   "meta": "Azzaro Pour Homme, Le Male and Green Irish Tweed lead our ranking of fougère fragrances for men, from classic lavender to amber fougères.",
+   "h1": "The fougère: the most masculine family in perfume",
+   "intro": "To understand the fougère family, smell Azzaro Pour Homme. Lavender, anise, geranium and oakmoss: the classic formula with nothing extra. Jean Paul Gaultier Le Male comes second for its vanilla-softened take. Creed Green Irish Tweed completes the podium in a greener, fresher key. Further down, Sauvage and La Nuit de l'Homme show how the family has moved on, while Kouros and Polo recall its loudest era.",
+   "sections": [
+    {
+     "title": "A fougère does not smell of fern",
+     "body": "Ferns barely smell of anything. The name comes from Houbigant's Fougère Royale, launched in 1882. It gave its name to a whole accord: lavender, geranium, oakmoss and coumarin (the molecule behind the scent of cut hay and tonka bean). Guerlain Jicky, from 1889 and part of our ranking, is a close cousin with more vanilla and a feral edge. The fougère became the most masculine family in perfumery. It barely exists in women's fragrance, where lavender and oakmoss are rare or folded into chypres. Most picks here keep at least two pillars of the accord. Azzaro Pour Homme and Drakkar Noir have lavender and oakmoss. Le Male and La Nuit de l'Homme pair lavender with tonka or coumarin. Sauvage keeps lavender and geranium but swaps the moss for ambroxan."
+    },
+    {
+     "title": "Classic, fresh, amber or loud: four kinds of fougère",
+     "body": "The classic fougère (Azzaro Pour Homme, Drakkar Noir) is herbal, a little soapy and very 1980s. It suits men who like an old-school barbershop shave. The fresh, green fougère (Green Irish Tweed, Sauvage) keeps the structure but lightens everything: verbena and violet leaf in the Creed, pepper and ambroxan in the Dior. It is the easiest to wear daily. The amber fougère (Le Male, La Nuit de l'Homme, Pegasus) adds vanilla, cardamom or almond. It is softer and better for evenings. The loud fougère (Polo, Kouros) pushes moss, leather or civet to the limit. Both rate 5 out of 5 for strength. Pick by season. Fresh fougères suit spring and summer, while amber and loud ones wait for fall. One or two sprays of Kouros or Polo is the maximum."
+    }
+   ],
+   "why": {
+    "azzaro-azzaro-pour-homme": "Our number one because it teaches the family better than anything else. Lavender, anise and bergamot open. Iris, basil and geranium follow, then oakmoss and vetiver close. Generous, solid and easy to read. It will feel dated to men who only wear modern woody scents. Next to Drakkar Noir it is rounder and less dark.",
+    "jean-paul-gaultier-le-male": "Francis Kurkdjian composed it in 1995: lavender and mint over cinnamon, cumin and orange blossom, then vanilla, tonka and amber. It is the most sensual fougère on the page and one of the most recognizable. Some find it too sweet. Warmer than Sauvage, it is also far less dry.",
+    "creed-green-irish-tweed": "Lemon verbena, iris and peppermint open. Violet leaf and clover form the heart, with sandalwood and ambergris below. It is the greenest and most refined fougère here, made for spring and summer. Some will call it too classic. Less powerful than Sauvage, it has more nuance.",
+    "guy-laroche-drakkar-noir": "Pierre Wargnye created it in 1982. Lavender, rosemary and basil come first. Juniper, coriander and carnation follow over cedar, leather and oakmoss. It is the darkest of the classic trio and very much of its time. Wear it in fall. Compared with Azzaro Pour Homme, it is drier and more leathery.",
+    "dior-sauvage": "François Demachy updated the fougère in 2015: bergamot and pepper, lavender and geranium lifted by Sichuan pepper, then ambroxan, cedar and labdanum. It is the most worn fougère today and one of the strongest (5 out of 5). Its synthetic sparkle wears thin for some noses. It is far brighter than Drakkar Noir.",
+    "yves-saint-laurent-la-nuit-de-lhomme": "A spicy fougère by Anne Flipo, Pierre Wargnye and Dominique Ropion. Cardamom, bergamot and lavender up top. Cedar, cumin and violet in the heart, then vetiver and coumarin. The elegance is remarkable. Longevity is weak (2 out of 5), making it the quietest scent here and the polar opposite of Kouros.",
+    "yves-saint-laurent-kouros": "In 1981 Pierre Bourdon composed the definitive animalic fougère. Aldehydes, clary sage and wormwood open. Carnation and jasmine follow, then civet, leather, honey and vanilla. Some find it magnificent, others unbearable. One spray, ideally in winter. It is more carnal than Polo.",
+    "parfums-de-marly-pegasus": "Hamid Merati-Kashani opens on heliotrope, cumin and bergamot. Almond, lavender and jasmine follow over vanilla, sandalwood and amber. The result is an almond fougère, powdery and very likable. It develops in a fairly straight line. Softer than Le Male, it suits men who find the mint in the Gaultier too loud.",
+    "ralph-lauren-polo": "Carlos Benaïm's 1978 green powerhouse. Wormwood, basil and thyme open. Pine, patchouli and oakmoss lead to leather, tobacco and musk. It is the most uncompromising scent in the ranking. It needs a light hand and cold weather. Less animalic than Kouros, Polo is woodier and drier.",
+    "guerlain-jicky": "The only unisex pick here, and the oldest: Aimé Guerlain created it in 1889. Lavender, bergamot and lemon over vanilla, tonka and civet. It is a direct ancestor of the amber fougère you find in Le Male. The animalic facet will surprise noses used to squeaky-clean scents."
+   },
+   "faq": [
+    {
+     "q": "What is a fougère fragrance?",
+     "a": "It is an accord, not the smell of a plant: lavender, geranium, oakmoss and coumarin (which smells of hay and tonka bean). The name comes from Houbigant's Fougère Royale, from 1882. Azzaro Pour Homme and Drakkar Noir are classic examples of the style."
+    },
+    {
+     "q": "What is the best fougère cologne for men?",
+     "a": "Azzaro Pour Homme is our reference for understanding the family. Le Male is the best amber fougère, and Green Irish Tweed the most refined fresh one. For a modern, loud take, Dior Sauvage is the most current choice."
+    },
+    {
+     "q": "Are fougère fragrances old-fashioned?",
+     "a": "Not at all. The 1980s style of Azzaro Pour Homme or Drakkar Noir can feel dated, but the family has been renewed. Dior Sauvage and La Nuit de l'Homme are modern fougères. Amber fougères like Le Male and Pegasus are still widely worn today."
+    },
+    {
+     "q": "Which fougère works best in summer?",
+     "a": "Go for a fresh one. Green Irish Tweed, with its verbena and violet leaf, is ideal in hot weather. Sauvage also works from spring to fall if you keep the sprays down. Save amber fougères like Le Male for cool evenings."
+    }
+   ]
+  }
+ },
+ "fg:musky:F": {
+  "picks": [
+   "narciso-rodriguez-narciso-rodriguez-for-her",
+   "narciso-rodriguez-narciso",
+   "dior-dior-joy",
+   "parfums-de-marly-athalia",
+   "parfums-de-marly-palatine",
+   "carolina-herrera-212-vip",
+   "maison-margiela-replica-lazy-sunday-morning",
+   "initio-parfums-prives-musk-therapy",
+   "byredo-bal-dafrique",
+   "maison-margiela-replica-bubble-bath"
+  ],
+  "fr": {
+   "title": "Parfum musqué femme : 10 muscs, du plus charnel au plus propre",
+   "meta": "Narciso Rodriguez for Her, Narciso et Lazy Sunday Morning : notre sélection de parfums musqués pour femme, de la peau chaude au linge propre.",
+   "h1": "Les meilleurs parfums musqués pour femme, peau ou linge propre",
+   "intro": "Le parfum musqué femme de référence est Narciso Rodriguez for Her, sorti en 2003. Son musc est placé au cœur, entre la rose, la pêche et la fleur d'oranger. Le fond est boisé, avec du patchouli. Son cadet de 2014, Narciso, arrive deuxième : plus blanc et plus sec. Dior Joy complète le podium pour un musc plus lumineux. Si vous cherchez l'effet linge propre, descendez vers Lazy Sunday Morning et Bubble Bath.",
+   "sections": [
+    {
+     "title": "Le musc côté féminin : une affaire de peau",
+     "body": "Le musc animal a pratiquement disparu de la parfumerie. Les muscs d'aujourd'hui sont presque tous des molécules de synthèse. Chacune a sa couleur : poudrée ou savonneuse, fruitée, parfois presque minérale. Côté féminin, le musc joue souvent le rôle de seconde peau. Il arrondit une fleur (rose, gardénia, fleur d'oranger) et la fait durer sans la rendre lourde. C'est le principe des deux Narciso Rodriguez, qui placent le musc au cœur de la pyramide. Côté masculin, le musc reste plus souvent un fond discret sous les bois et l'ambre. Autre particularité : certaines personnes perçoivent mal certains muscs. Un parfum musqué peut donc sembler très présent sur votre amie et presque absent sur vous. Si c'est le cas, essayez un musc plus boisé comme Musk Therapy, ou un musc floral plus dense comme Narciso Rodriguez for Her."
+    },
+    {
+     "title": "Charnel, floral ou propre : choisir son musc",
+     "body": "On peut classer notre sélection en trois styles. Le musc charnel et floral d'abord : avec leurs roses et leur fond boisé, Narciso Rodriguez for Her et Narciso se portent de l'automne au printemps. Ils conviennent au bureau comme au soir. Vient ensuite le musc lumineux, où la fleur passe devant : Dior Joy, Athalia et Palatine sont plus poudrés et plus doux. 212 VIP y ajoute une note gourmande et festive. Le musc propre, enfin, évoque les draps frais ou la sortie de bain. On y range quatre mixtes discrets : Lazy Sunday Morning, Bubble Bath, Musk Therapy et Bal d'Afrique. Ils sont parfaits au printemps et en été, mais s'effacent vite. Pour les faire tenir, vaporisez-les sur un vêtement en coton ou dans les cheveux. Les muscs se superposent bien : un musc propre sous un floral renforce sa tenue sans le changer."
+    }
+   ],
+   "why": {
+    "narciso-rodriguez-narciso-rodriguez-for-her": "Notre numéro un, signé Christine Nagel et Francis Kurkdjian. Rose, pêche et bergamote ouvrent. Le musc s'installe ensuite avec l'ambre et la fleur d'oranger, sur patchouli, santal et vétiver. C'est le musc le plus charnel de la page, élégant et un peu sombre. Plus chaud que Narciso, il convient mieux au soir et à l'hiver.",
+    "narciso-rodriguez-narciso": "Aurélien Guichard a repris l'idée en 2014. La rose et le gardénia ouvrent, le musc tient le cœur, puis viennent le cèdre et le vétiver. Le résultat est plus blanc et plus poudré que For Her, presque minimaliste. Sa sobriété paraîtra froide à certaines. C'est le meilleur choix de cette liste pour le bureau.",
+    "dior-dior-joy": "François Demachy l'a construit sur la bergamote et la mandarine. La rose de Grasse, le jasmin et la pêche suivent, avant un fond de musc, de santal et de cèdre. C'est le musc le plus radieux de la sélection. Il reste un peu lisse. Face à Narciso, il est plus fleuri et plus solaire, idéal au printemps.",
+    "parfums-de-marly-athalia": "Encens et orange amère ouvrent sur l'iris, la fleur d'oranger et le cashmeran, puis sur le musc, l'ambre et la vanille. C'est le musc le plus poudré de la page et le plus raffiné. Sa discrétion frôle parfois l'effacement. On le préfère en automne, là où Palatine (sa voisine de maison) est plus printanière.",
+    "parfums-de-marly-palatine": "Poire, pêche et mandarine au départ. Violette et lavande ensuite, sur un fond de musc, de santal et de vanille. Palatine est délicat et bien dosé, sans surprise. C'est le musc fruité de la liste, facile pour le quotidien. Il est plus frais qu'Athalia et moins sucré que 212 VIP.",
+    "carolina-herrera-212-vip": "Musc version fête : fruit de la passion et orange amère, gardénia et musc, puis vanille, fève tonka et benjoin. C'est le plus gourmand et le plus projetant de la sélection (intensité 4). Il manque de profondeur, mais il remplit son rôle un samedi soir. À l'opposé de Narciso, il n'a rien de minimaliste.",
+    "maison-margiela-replica-lazy-sunday-morning": "Un mixte qui a fait du linge propre un style. Aldéhydes, poire et muguet ouvrent, puis fleur d'oranger, rose et iris se posent sur le musc et l'ambrette. C'est un musc de peau réconfortant, très doux. Il devient vite imperceptible. Plus floral que Bubble Bath, il convient aux femmes qui trouvent Narciso trop sérieux.",
+    "initio-parfums-prives-musk-therapy": "Mixte en extrait, Musk Therapy part de la bergamote et de la mandarine. Le magnolia blanc et le cassis suivent, sur santal et musc. C'est le musc le plus boisé de la sélection et une bonne option si vous percevez mal les muscs plus légers. Son sillage reste proche de la peau. Plus dense que Lazy Sunday Morning, il tient mieux.",
+    "byredo-bal-dafrique": "Ce mixte de Jérôme Epinette associe bergamote, citron et néroli à la violette, au jasmin et au cyclamen. Le fond réunit vétiver, ambre et musc. C'est le musc le plus lumineux et le plus estival de la liste. Facile à aimer, il projette peu. Moins savonneux que Bubble Bath, il a plus de relief grâce au vétiver.",
+    "maison-margiela-replica-bubble-bath": "Le nom dit tout. Savon et bergamote au départ, puis lavande, jasmin et rose sur un fond de musc, de noix de coco et de patchouli. Ce mixte est le plus littéral de la page, une odeur de bain moussant. Il est trop discret pour qui aime le sillage. On le garde pour le week-end, en complément d'un musc plus tenace comme Narciso Rodriguez for Her."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum musqué pour femme ?",
+     "a": "Narciso Rodriguez for Her reste la référence, pour son musc charnel entouré de rose et de fleur d'oranger. Narciso est plus blanc et plus sobre. Pour un effet linge propre, Lazy Sunday Morning de Maison Margiela est le plus réussi de notre sélection."
+    },
+    {
+     "q": "Pourquoi je ne sens plus mon parfum musqué ?",
+     "a": "Certaines personnes perçoivent mal certaines molécules de musc, et le nez s'habitue aussi très vite à un parfum porté tous les jours. Votre entourage le sent souvent mieux que vous. Si le problème persiste, essayez un musc plus boisé comme Musk Therapy ou plus dense comme Narciso Rodriguez for Her."
+    },
+    {
+     "q": "Quel parfum musqué femme sent le propre ?",
+     "a": "Les muscs propres évoquent le linge frais ou la sortie de bain. Lazy Sunday Morning et Bubble Bath de Maison Margiela sont les plus explicites. Bal d'Afrique de Byredo est plus lumineux, avec du néroli et du vétiver. Tous trois sont mixtes et assez légers."
+    },
+    {
+     "q": "Un parfum musqué tient-il longtemps ?",
+     "a": "Cela dépend du style. Un musc floral et boisé comme Narciso Rodriguez for Her tient une bonne journée. Les muscs propres, comme Lazy Sunday Morning, sont plus fugaces. Pour les prolonger, vaporisez sur les vêtements ou superposez-les à un parfum plus riche."
+    }
+   ]
+  },
+  "en": {
+   "title": "Musky Perfumes for Women: 10 Best, From Sensual to Clean",
+   "meta": "Narciso Rodriguez for Her, Narciso and Lazy Sunday Morning lead our ranking of musky perfumes for women, from warm skin to clean laundry.",
+   "h1": "The best musk perfumes for women",
+   "intro": "The musk perfume to beat is Narciso Rodriguez for Her, from 2003. Musk sits at its heart, wrapped in rose, peach and orange blossom over patchouli. Narciso, the 2014 follow-up, is second: whiter and drier. Dior Joy completes the podium with a brighter, sunnier musk. If you want that clean-laundry effect, scroll down to Lazy Sunday Morning and Bubble Bath.",
+   "sections": [
+    {
+     "title": "Musk in women's perfume: it is all about skin",
+     "body": "Natural animal musk has all but disappeared from perfumery. Almost every musk used today is a synthetic molecule. Each has its own shade: powdery or soapy, fruity, sometimes almost mineral. In women's fragrance, musk often acts as a second skin. It rounds out a flower such as rose, gardenia or orange blossom and makes it last without weighing it down. Both Narciso Rodriguez scents are built on that idea, with musk right in the heart of the pyramid. In men's perfumes musk more often stays in the background under woods and amber. There is another quirk. Some people barely perceive certain musks, so a musky scent can seem loud on your friend and almost absent on you. If that happens, try a woodier musk like Musk Therapy or a denser floral musk like Narciso Rodriguez for Her."
+    },
+    {
+     "title": "Sensual, floral or clean: choosing your musk",
+     "body": "Our ranking falls into three styles. Sensual floral musks come first. With their roses and woody base, Narciso Rodriguez for Her and Narciso work from fall to spring, at the office or at night. Bright musks let the flower lead: Dior Joy, Athalia and Palatine, softer and more powdery. 212 VIP adds a gourmand, party-ready twist. Clean musks smell of fresh sheets or a warm bath. Four quiet unisex scents fit here: Lazy Sunday Morning, Bubble Bath, Musk Therapy and Bal d'Afrique. They are perfect in spring and summer but fade fast. To make them last, spray them on a cotton top or in your hair. Musks also layer well. A clean musk under a floral boosts longevity without changing the scent."
+    }
+   ],
+   "why": {
+    "narciso-rodriguez-narciso-rodriguez-for-her": "Our number one, by Christine Nagel and Francis Kurkdjian. Rose, peach and bergamot open. Musk then settles in with amber and orange blossom over patchouli, sandalwood and vetiver. It is the most sensual musk on the page, elegant and a little dark. Warmer than Narciso, it suits evenings and winter better.",
+    "narciso-rodriguez-narciso": "Aurélien Guichard revisited the idea in 2014. Rose and gardenia open, musk holds the heart, then cedar and vetiver arrive. It comes out whiter and more powdery than For Her, almost minimalist. Some will find it cold. It is the best office pick in this ranking.",
+    "dior-dior-joy": "François Demachy built it on bergamot and mandarin. Grasse rose, jasmine and peach follow, before a base of musk, sandalwood and cedar. It is the most radiant musk here. It can feel a bit smooth and safe. Compared with Narciso it is more floral and sunnier, ideal in spring.",
+    "parfums-de-marly-athalia": "Incense and bitter orange open onto iris, orange blossom and cashmeran, then musk, amber and vanilla. It is the most powdery and most refined musk on the page. At times it is so discreet it nearly disappears. Wear it in fall, while its house sibling Palatine suits spring better.",
+    "parfums-de-marly-palatine": "Pear, peach and mandarin up top. Violet and lavender follow over musk, sandalwood and vanilla. Palatine is delicate and well dosed, with no surprises. It is the fruity musk of the list and an easy daily wear. Fresher than Athalia and less sugary than 212 VIP.",
+    "carolina-herrera-212-vip": "Musk in party mode: passion fruit and bitter orange, gardenia and musk, then vanilla, tonka and benzoin. It is the sweetest and loudest pick in this ranking (4 out of 5). It lacks depth, but it does its job on a Saturday night. Nothing about it is minimalist, unlike Narciso.",
+    "maison-margiela-replica-lazy-sunday-morning": "A unisex scent that turned clean laundry into a style. Aldehydes, pear and lily of the valley open, then orange blossom, rose and iris settle on musk and ambrette. It is a soft, comforting skin musk. It also vanishes quickly. More floral than Bubble Bath, it suits women who find Narciso too serious.",
+    "initio-parfums-prives-musk-therapy": "This unisex extrait is built on bergamot and mandarin, then white magnolia and blackcurrant over sandalwood and musk. It is the woodiest musk in the ranking and a good choice if lighter musks vanish on you. It stays close to the skin. Denser than Lazy Sunday Morning, it lasts longer.",
+    "byredo-bal-dafrique": "Jérôme Epinette's unisex scent pairs bergamot, lemon and neroli with violet, jasmine and cyclamen. The base is vetiver, amber and musk. It is the brightest, most summery musk on the list. Easy to love, soft in projection. Less soapy than Bubble Bath, it has more texture thanks to the vetiver.",
+    "maison-margiela-replica-bubble-bath": "The name says it all. Soap and bergamot come first, then lavender, jasmine and rose over musk, coconut and patchouli. This unisex pick is the most literal scent here, pure bubble bath. It is too quiet for anyone who wants a trail. Keep it for weekends, or layer it under a longer-lasting musk like Narciso Rodriguez for Her."
+   },
+   "faq": [
+    {
+     "q": "What is the best musky perfume for women?",
+     "a": "Narciso Rodriguez for Her remains the benchmark, with a sensual musk wrapped in rose and orange blossom. Narciso is whiter and more restrained. For a clean-laundry effect, Maison Margiela Lazy Sunday Morning is the best of our picks."
+    },
+    {
+     "q": "Why can't I smell my musk perfume anymore?",
+     "a": "Some people barely perceive certain musk molecules, and your nose also adapts quickly to a scent you wear every day. Others often smell it better than you do. If it keeps happening, try a woodier musk like Musk Therapy or a denser one like Narciso Rodriguez for Her."
+    },
+    {
+     "q": "Which musk perfume smells the cleanest?",
+     "a": "Clean musks evoke fresh laundry or stepping out of the bath. Maison Margiela Lazy Sunday Morning and Bubble Bath are the most literal. Byredo Bal d'Afrique is brighter, with neroli and vetiver. All three are unisex and fairly light on the skin."
+    },
+    {
+     "q": "Do musky perfumes last long?",
+     "a": "It depends on the style. A floral, woody musk like Narciso Rodriguez for Her lasts a good full day. Clean musks such as Lazy Sunday Morning are more fleeting. To stretch them, spray your clothes or layer them over a richer scent."
+    }
+   ]
+  }
+ },
+ "fg:aromatic:M": {
+  "picks": [
+   "dior-eau-sauvage",
+   "chanel-bleu-de-chanel",
+   "ralph-lauren-polo",
+   "yves-saint-laurent-y",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "montblanc-explorer",
+   "prada-luna-rossa",
+   "versace-pour-homme",
+   "jo-malone-wood-sage-sea-salt",
+   "jo-malone-lime-basil-mandarin"
+  ],
+  "fr": {
+   "title": "Parfum aromatique homme : 10 parfums aux herbes classés",
+   "meta": "Eau Sauvage, Bleu de Chanel et Polo en tête : notre sélection de parfums aromatiques pour homme, du romarin à la sauge, pour le bureau et l'été.",
+   "h1": "Romarin, sauge, basilic : les meilleurs parfums aromatiques pour homme",
+   "intro": "Le parfum aromatique homme le plus accompli reste Eau Sauvage de Dior : romarin et basilic autour du citron, sur un fond de mousse de chêne. Bleu de Chanel arrive deuxième, pour sa menthe et sa muscade posées sur l'encens et le santal. Polo de Ralph Lauren complète le podium dans le registre vert et puissant. Pour une version actuelle, Y d'Yves Saint Laurent et Explorer de Montblanc montrent comment la sauge a pris le pouvoir.",
+   "sections": [
+    {
+     "title": "Aromatique, fougère, hespéridé : où passe la frontière",
+     "body": "Un parfum aromatique est construit sur les herbes de cuisine et de garrigue : romarin et sauge, basilic et thym, menthe ou lavande. Il se distingue de la fougère, qui est un accord précis de lavande, de mousse de chêne et de coumarine. Il se distingue aussi de l'hespéridé, où les agrumes dominent. Dans les faits, les trois se croisent souvent. Eau Sauvage est à la fois aromatique et hespéridé. Côté masculin, les herbes ont un rôle clair : donner de la verdeur et une sensation de peau rasée de frais. Côté féminin, elles restent rares et servent surtout à rafraîchir une fleur. La grande évolution récente, c'est la sauge. On la trouve dans Y et Luna Rossa, dans Acqua di Giò Profumo et Versace Pour Homme. Explorer l'utilise sous forme de sauge sclarée. Elle a remplacé la lavande comme herbe masculine de référence dans les lancements des années 2010."
+    },
+    {
+     "title": "Choisir un aromatique selon l'usage",
+     "body": "Pour le bureau, visez un aromatique d'intensité 3 ou 4 avec un fond boisé : Bleu de Chanel, Y ou Explorer passent partout sans fatiguer les collègues. Pour l'été, les herbes associées aux agrumes ou au sel sont plus agréables. Eau Sauvage, Lime Basil & Mandarin et Wood Sage & Sea Salt se vaporisent généreusement, mais ils demandent une retouche en cours de journée. Pour l'automne, Polo reste le plus impressionnant : armoise, pin et mousse de chêne, avec du cuir et du tabac au fond. Il se vaporise une fois, pas davantage. Un conseil pratique : les herbes aromatiques ressortent mieux sur une peau propre et légèrement humide. Appliquez votre parfum juste après la douche, sur le cou et la poitrine, plutôt que sur les poignets que l'on frotte."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "Premier de ce classement pour la manière dont Edmond Roudnitska traite les herbes : le romarin dès l'ouverture, le basilic et la coriandre au cœur, avec le jasmin pour adoucir. Tout reste sec et net jusqu'à la mousse de chêne et au vétiver. C'est l'aromatique le plus élégant de la page. Sa tenue est modeste, comme celle de Lime Basil & Mandarin.",
+    "chanel-bleu-de-chanel": "Jacques Polge y fait passer l'aromatique par la menthe, puis par le gingembre et la muscade. Le fond réunit santal, cèdre et encens. C'est le plus polyvalent de la sélection : il va au bureau, au dîner, en toute saison sauf l'été le plus chaud. Son défaut est son manque d'audace. Face à Y, il est plus boisé et moins sucré.",
+    "ralph-lauren-polo": "Le plus vert et le plus puissant (intensité 5). Carlos Benaïm ouvre sur l'armoise, le basilic et le thym. Il passe par le pin et la mousse de chêne pour finir sur le cuir et le tabac. Il date de 1978 et ne cherche pas à plaire. Une pulvérisation suffit. À côté d'Eau Sauvage, il paraît sauvage au sens propre.",
+    "yves-saint-laurent-y": "Dominique Ropion y associe la pomme et le gingembre à un cœur de sauge, de genièvre et de géranium, puis à des bois ambrés et à la fève tonka. C'est l'aromatique moderne type, très efficace et polyvalent. Il reste proche des codes du moment. Plus sucré que Bleu de Chanel, il plaît davantage aux moins de trente ans.",
+    "giorgio-armani-acqua-di-gio-profumo": "Ici ce sont le romarin et la sauge qui comptent, portés par la bergamote et des notes aquatiques. L'encens et le patchouli leur donnent un fond sombre. C'est l'aromatique le plus marin de notre liste, avec Wood Sage & Sea Salt, mais beaucoup plus tenace que ce dernier. On le porte du printemps à l'automne.",
+    "montblanc-explorer": "Bergamote, baies roses et sauge sclarée en tête. Vétiver et patchouli au cœur, puis cacao, ambroxan et akigalawood. Explorer est un boisé aromatique très réussi pour le quotidien. Il reste dans les codes de sa catégorie. Plus terreux que Y grâce au vétiver et au patchouli, il se porte volontiers en automne.",
+    "prada-luna-rossa": "Daniela Andrier signe une lavande moderne et très propre, avec la sauge et la menthe verte au cœur. L'ambrette, le patchouli et le santal suivent. C'est l'aromatique le plus net de la page, idéal au printemps. Il est peut-être trop sage pour marquer. Plus frais que Versace Pour Homme, il est aussi un peu moins présent.",
+    "versace-pour-homme": "Alberto Morillas y met du citron, de la bergamote et du néroli. La sauge, le cèdre et le géranium suivent, avant l'ambre et la fève tonka. C'est un aromatique frais et facile, sans aspérité. Il reste discret et un peu anonyme. On le choisit pour l'été, quand Bleu de Chanel devient trop dense.",
+    "jo-malone-wood-sage-sea-salt": "Un mixte de Christine Nagel qui marie sel marin, pamplemousse et ambrette à la sauge, au chou marin et à l'algue rouge, sur bois flotté et musc. C'est la sauge la plus minérale de cette sélection, une vraie odeur de littoral. Sa concentration de cologne oblige à revaporiser. Beaucoup plus légère qu'Acqua di Giò Profumo.",
+    "jo-malone-lime-basil-mandarin": "Autre mixte de la maison, construit sur le citron vert, la mandarine et la bergamote. Le basilic, le thym et le lilas suivent, sur vétiver et patchouli. C'est l'aromatique le plus culinaire de la page, qui sent le basilic froissé. La tenue est courte. Il complète bien Eau Sauvage, avec lequel il partage le goût des herbes fraîches."
+   },
+   "faq": [
+    {
+     "q": "Qu'est-ce qu'un parfum aromatique pour homme ?",
+     "a": "C'est un parfum construit sur les herbes : romarin et sauge, basilic et thym, menthe ou lavande. Ces notes donnent une sensation verte et propre. Eau Sauvage de Dior, Polo de Ralph Lauren ou Y d'Yves Saint Laurent sont trois styles différents de la même famille."
+    },
+    {
+     "q": "Quel est le meilleur parfum aromatique homme ?",
+     "a": "Eau Sauvage de Dior reste notre premier choix pour son équilibre entre herbes et agrumes. Bleu de Chanel est le plus polyvalent, Polo le plus puissant. Si vous cherchez un aromatique moderne à la sauge, Y d'Yves Saint Laurent ou Explorer de Montblanc sont les meilleures options."
+    },
+    {
+     "q": "Quelle différence entre aromatique et fougère ?",
+     "a": "La fougère est un accord précis : lavande, mousse de chêne et coumarine. L'aromatique est une famille plus large, définie par la présence d'herbes. Beaucoup de fougères sont aromatiques, mais un parfum comme Bleu de Chanel ou Luna Rossa est aromatique sans être une fougère classique."
+    },
+    {
+     "q": "Un parfum aromatique convient-il pour le bureau ?",
+     "a": "C'est même l'une des meilleures familles pour le bureau. Les herbes sentent le propre sans être envahissantes. Bleu de Chanel, Y et Explorer sont des choix sûrs, à raison de deux pulvérisations. Évitez Polo en espace fermé : son intensité de 5 sur 5 prend trop de place."
+    }
+   ]
+  },
+  "en": {
+   "title": "Aromatic Colognes for Men: 10 Best Herbal Fragrances",
+   "meta": "Eau Sauvage, Bleu de Chanel and Polo lead our ranking of aromatic fragrances for men, from rosemary to sage, for the office and for summer.",
+   "h1": "Rosemary, sage and basil: the best aromatic fragrances for men",
+   "intro": "The most accomplished aromatic fragrance for men is still Dior Eau Sauvage: rosemary and basil around lemon, over oakmoss. Bleu de Chanel is second, with mint and nutmeg on incense and sandalwood. Ralph Lauren Polo completes the podium in a green, powerful key. For a modern take, Yves Saint Laurent Y and Montblanc Explorer show how sage has taken over men's perfumery.",
+   "sections": [
+    {
+     "title": "Aromatic, fougère or citrus: where the lines fall",
+     "body": "An aromatic fragrance is built on kitchen and hillside herbs such as rosemary and sage, basil and thyme, mint or lavender. It differs from the fougère, which is a specific accord of lavender, oakmoss and coumarin. It also differs from citrus scents, where zest takes the lead. In practice the three overlap. Eau Sauvage is both aromatic and citrus. In men's perfumery, herbs have a clear job: they bring greenness, cleanliness and that freshly shaved feel. In women's fragrance they are rare and mostly used to freshen a flower. The big recent shift is sage. You find it in Y and Luna Rossa, in Acqua di Giò Profumo and in Versace Pour Homme. Explorer uses it as clary sage. It has replaced lavender as the go-to masculine herb in launches from the 2010s onward."
+    },
+    {
+     "title": "Choosing an aromatic for the way you live",
+     "body": "For the office, aim for an aromatic rated 3 or 4 with a woody base. Bleu de Chanel, Y or Explorer work anywhere without wearing out your coworkers. For summer, herbs paired with citrus or salt feel better. Eau Sauvage, Lime Basil & Mandarin and Wood Sage & Sea Salt can be sprayed generously, but they need a top-up during the day. For fall, Polo is the most impressive: wormwood, pine and oakmoss with leather and tobacco underneath. Spray it once and stop there. One practical tip: herbal notes shine on clean, slightly damp skin. Apply right after a shower, on the neck and chest, rather than on wrists you then rub together."
+    }
+   ],
+   "why": {
+    "dior-eau-sauvage": "First in this ranking for how Edmond Roudnitska handles herbs: rosemary right at the opening, basil and coriander in the heart, jasmine to soften. Everything stays dry and crisp down to the oakmoss and vetiver. It is the most elegant aromatic on the page. Longevity is modest, much like Lime Basil & Mandarin.",
+    "chanel-bleu-de-chanel": "Jacques Polge runs the herbal side through mint, then ginger and nutmeg. The base is sandalwood, cedar and incense. It is the most versatile pick here: office, dinner, any season except peak summer. Its weakness is a lack of daring. Next to Y it is woodier and less sweet.",
+    "ralph-lauren-polo": "The greenest and strongest scent here (5 out of 5). Carlos Benaïm opens with wormwood, basil and thyme. He moves through pine and oakmoss and ends on leather and tobacco. It dates from 1978 and makes no effort to please. One spray is enough. Next to Eau Sauvage it feels truly wild.",
+    "yves-saint-laurent-y": "Dominique Ropion pairs apple and ginger with a heart of sage, juniper and geranium, then amber woods and tonka. This is the textbook modern aromatic, effective and versatile. It sticks close to current trends. Sweeter than Bleu de Chanel, it tends to win over guys under thirty.",
+    "giorgio-armani-acqua-di-gio-profumo": "Here rosemary and sage do the talking, carried by bergamot and marine notes. Incense and patchouli give them a dark base. With Wood Sage & Sea Salt, it is the most marine aromatic on the list, but it lasts far longer than the Jo Malone. Wear it from spring through fall.",
+    "montblanc-explorer": "Bergamot, pink pepper and clary sage up top. Vetiver and patchouli in the heart, then cocoa, ambroxan and akigalawood. Explorer is a very good everyday woody aromatic. It stays within the codes of its category. Earthier than Y thanks to the vetiver and patchouli, it is a natural fit for fall.",
+    "prada-luna-rossa": "Daniela Andrier's modern and very clean lavender, with sage and spearmint in the heart. Ambrette, patchouli and sandalwood follow. It is the crispest aromatic on the page and ideal in spring. It may be too polite to leave a mark. Fresher than Versace Pour Homme, it is also a little quieter.",
+    "versace-pour-homme": "Alberto Morillas uses lemon, bergamot and neroli. Sage, cedar and geranium follow before amber and tonka. It is a fresh, easy aromatic with no rough edges. It stays discreet and a bit anonymous. Reach for it in summer, when Bleu de Chanel feels too dense.",
+    "jo-malone-wood-sage-sea-salt": "A unisex scent by Christine Nagel that pairs sea salt, grapefruit and ambrette with sage, sea kale and red algae over driftwood and musk. It is the most mineral sage in this ranking, a real coastline in a bottle. Cologne strength means reapplying. Much lighter than Acqua di Giò Profumo.",
+    "jo-malone-lime-basil-mandarin": "Another unisex scent from the house, built on lime, mandarin and bergamot. Basil, thyme and lilac follow over vetiver and patchouli. It is the most culinary aromatic here and smells like crushed basil leaves. Longevity is short. It pairs well in spirit with Eau Sauvage, which shares its love of fresh herbs."
+   },
+   "faq": [
+    {
+     "q": "What is an aromatic fragrance for men?",
+     "a": "It is a fragrance built on herbs such as rosemary and sage, basil and thyme, mint or lavender. These notes give a green, clean feel. Dior Eau Sauvage, Ralph Lauren Polo and Yves Saint Laurent Y are three very different styles within the same family."
+    },
+    {
+     "q": "What is the best aromatic cologne for men?",
+     "a": "Dior Eau Sauvage is our top pick for its balance of herbs and citrus. Bleu de Chanel is the most versatile and Polo the strongest. For a modern sage-based aromatic, Yves Saint Laurent Y and Montblanc Explorer are the best options."
+    },
+    {
+     "q": "What is the difference between aromatic and fougère?",
+     "a": "A fougère is a specific accord of lavender, oakmoss and coumarin. Aromatic is a broader family defined by herbs. Many fougères are aromatic, but a scent like Bleu de Chanel or Luna Rossa is aromatic without being a classic fougère."
+    },
+    {
+     "q": "Are aromatic fragrances good for the office?",
+     "a": "They are one of the best families for work. Herbs smell clean without taking over the room. Bleu de Chanel, Y and Explorer are safe picks at two sprays. Avoid Polo in closed spaces, where its 5 out of 5 strength is simply too much."
+    }
+   ]
+  }
+ }
+}

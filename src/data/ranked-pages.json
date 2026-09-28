@@ -1,0 +1,4057 @@
+[
+ {
+  "id": "nose:francis-kurkdjian",
+  "kind": "nose",
+  "slug_fr": "francis-kurkdjian",
+  "slug_en": "francis-kurkdjian",
+  "volume": 12700,
+  "keywords": [
+   {
+    "kw": "francis kurkdjian",
+    "volume": 11400
+   },
+   {
+    "kw": "parfumeur francis kurkdjian",
+    "volume": 1300
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "burberry-her",
+   "narciso-rodriguez-narciso-rodriguez-for-her",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "maison-francis-kurkdjian-grand-soir",
+   "maison-francis-kurkdjian-baccarat-rouge-540-extrait",
+   "maison-francis-kurkdjian-petit-matin"
+  ],
+  "perfumer": "Francis Kurkdjian"
+ },
+ {
+  "id": "best:homme",
+  "kind": "best",
+  "slug_fr": "homme",
+  "slug_en": "men",
+  "volume": 5800,
+  "keywords": [
+   {
+    "kw": "meilleur parfum homme",
+    "volume": 4900
+   },
+   {
+    "kw": "meilleurs parfums homme",
+    "volume": 900
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "azzaro-chrome",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "creed-aventus",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "versace-eros",
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "givenchy-gentleman",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "giorgio-armani-stronger-with-you",
+   "yves-saint-laurent-y",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "hugo-boss-boss-bottled",
+   "giorgio-armani-code",
+   "paco-rabanne-pure-xs",
+   "jean-paul-gaultier-ultra-male",
+   "maison-margiela-replica-jazz-club",
+   "dior-fahrenheit-le-parfum",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "issey-miyake-nuit-dissey"
+  ],
+  "gender": "Masculine"
+ },
+ {
+  "id": "guide:musc-blanc",
+  "kind": "guide",
+  "slug_fr": "parfum-musc-blanc",
+  "slug_en": "white-musk-perfume",
+  "volume": 4190,
+  "keywords": [
+   {
+    "kw": "parfum musc blanc",
+    "volume": 3300
+   },
+   {
+    "kw": "parfum musc blanc femme",
+    "volume": 720
+   },
+   {
+    "kw": "parfum musc blanc homme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "dior-eau-sauvage",
+   "jean-patou-joy",
+   "rochas-femme",
+   "ralph-lauren-polo",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "dior-jadore",
+   "jo-malone-lime-basil-mandarin",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "creed-aventus",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "kenzo-leau-par-kenzo",
+   "azzaro-azzaro-pour-homme",
+   "davidoff-cool-water",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-silver-mountain-water",
+   "creed-green-irish-tweed",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-libre",
+   "dolce-gabbana-dolce"
+  ]
+ },
+ {
+  "id": "best:niche",
+  "kind": "best",
+  "slug_fr": "niche",
+  "slug_en": "niche",
+  "volume": 3440,
+  "keywords": [
+   {
+    "kw": "meilleur parfum de niche",
+    "volume": 140
+   },
+   {
+    "kw": "parfum de niche",
+    "volume": 800
+   },
+   {
+    "kw": "parfum niche",
+    "volume": 2500
+   }
+  ],
+  "pool": [
+   "jo-malone-lime-basil-mandarin",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "creed-aventus",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "creed-silver-mountain-water",
+   "creed-green-irish-tweed",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "le-labo-another-13",
+   "le-labo-rose-31",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "parfums-de-marly-ispazon",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-hamdani",
+   "parfums-de-marly-meliora",
+   "parfums-de-marly-safanad",
+   "parfums-de-marly-darcy",
+   "parfums-de-marly-galloway",
+   "parfums-de-marly-byerley",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-carlisle",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-athalia",
+   "parfums-de-marly-delina",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-delina-exclusif",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-cassili",
+   "parfums-de-marly-sedley"
+  ]
+ },
+ {
+  "id": "best:femme",
+  "kind": "best",
+  "slug_fr": "femme",
+  "slug_en": "women",
+  "volume": 2684,
+  "keywords": [
+   {
+    "kw": "meilleur parfum femme",
+    "volume": 2400
+   },
+   {
+    "kw": "meilleurs parfums femme",
+    "volume": 284
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "lancome-la-vie-est-belle",
+   "kenzo-leau-par-kenzo",
+   "clinique-aromatics-elixir",
+   "dior-dolce-vita",
+   "giorgio-armani-si",
+   "giorgio-armani-si-passione",
+   "carolina-herrera-good-girl",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-black-opium",
+   "yves-saint-laurent-libre",
+   "dolce-gabbana-dolce",
+   "dolce-gabbana-the-one",
+   "guerlain-vol-de-nuit",
+   "caron-tabac-blond",
+   "chanel-n-19",
+   "cacharel-anais-anais",
+   "yves-saint-laurent-paris"
+  ],
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Patchouli:F",
+  "kind": "ng",
+  "slug_fr": "patchouli/femme",
+  "slug_en": "patchouli/women",
+  "volume": 2164,
+  "keywords": [
+   {
+    "kw": "parfum au patchouli femme",
+    "volume": 1900
+   },
+   {
+    "kw": "parfum patchouli femme",
+    "volume": 264
+   }
+  ],
+  "pool": [
+   "dior-miss-dior",
+   "estee-lauder-youth-dew",
+   "thierry-mugler-angel",
+   "estee-lauder-pleasures",
+   "chanel-coco-mademoiselle",
+   "chanel-chance",
+   "viktor-rolf-flowerbomb",
+   "lancome-la-vie-est-belle",
+   "clinique-aromatics-elixir",
+   "giorgio-armani-si",
+   "giorgio-armani-si-passione",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-black-opium",
+   "givenchy-linterdit",
+   "givenchy-very-irresistible",
+   "dior-miss-dior-blooming-bouquet",
+   "paco-rabanne-lady-million",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "gucci-guilty",
+   "jean-paul-gaultier-scandal",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-ombre-leather",
+   "tom-ford-noir-de-noir",
+   "yves-saint-laurent-tuxedo",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-carlisle"
+  ],
+  "note": "Patchouli",
+  "gender": "Feminine",
+  "name_fr": "Patchouli",
+  "name_en": "Patchouli"
+ },
+ {
+  "id": "ng:Vanilla:F",
+  "kind": "ng",
+  "slug_fr": "vanille/femme",
+  "slug_en": "vanilla/women",
+  "volume": 1000,
+  "keywords": [
+   {
+    "kw": "parfum vanille femme",
+    "volume": 909
+   },
+   {
+    "kw": "parfum vanillé femme",
+    "volume": 91
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "yves-saint-laurent-opium",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "chanel-chance",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "lancome-la-vie-est-belle",
+   "kenzo-leau-par-kenzo",
+   "dior-dolce-vita",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "byredo-gypsy-water",
+   "guerlain-jicky",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "maison-margiela-replica-by-the-fireplace",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-carlisle"
+  ],
+  "note": "Vanilla",
+  "gender": "Feminine",
+  "name_fr": "Vanille",
+  "name_en": "Vanilla"
+ },
+ {
+  "id": "ng:Musk:F",
+  "kind": "ng",
+  "slug_fr": "musc/femme",
+  "slug_en": "musk/women",
+  "volume": 920,
+  "keywords": [
+   {
+    "kw": "parfum musc blanc femme",
+    "volume": 720
+   },
+   {
+    "kw": "parfum musc femme",
+    "volume": 200
+   }
+  ],
+  "pool": [
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "jean-patou-joy",
+   "rochas-femme",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "dior-jadore",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "kenzo-leau-par-kenzo",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-libre",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "jo-malone-peony-blush-suede"
+  ],
+  "note": "Musk",
+  "gender": "Feminine",
+  "name_fr": "Musc",
+  "name_en": "Musk"
+ },
+ {
+  "id": "ng:Oud:F",
+  "kind": "ng",
+  "slug_fr": "oud/femme",
+  "slug_en": "oud/women",
+  "volume": 909,
+  "keywords": [
+   {
+    "kw": "parfum oud femme",
+    "volume": 909
+   }
+  ],
+  "pool": [
+   "parfums-de-marly-delina-exclusif",
+   "tom-ford-oud-wood",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-layton-exclusif",
+   "initio-parfums-prives-oud-for-greatness",
+   "xerjoff-alexandria-ii",
+   "penhaligons-halfeti",
+   "tom-ford-tobacco-oud",
+   "creed-royal-oud",
+   "lattafa-raghba",
+   "louis-vuitton-ombre-nomade"
+  ],
+  "note": "Oud",
+  "gender": "Feminine",
+  "name_fr": "Oud",
+  "name_en": "Oud"
+ },
+ {
+  "id": "ng:Vanilla:M",
+  "kind": "ng",
+  "slug_fr": "vanille/homme",
+  "slug_en": "vanilla/men",
+  "volume": 880,
+  "keywords": [
+   {
+    "kw": "parfum vanille homme",
+    "volume": 800
+   },
+   {
+    "kw": "parfum vanillé homme",
+    "volume": 80
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "guerlain-habit-rouge",
+   "versace-eros",
+   "giorgio-armani-stronger-with-you",
+   "hugo-boss-boss-bottled",
+   "paco-rabanne-pure-xs",
+   "jean-paul-gaultier-ultra-male",
+   "maison-margiela-replica-jazz-club",
+   "tom-ford-noir-extreme",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "parfums-de-marly-ispazon",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-pegasus-exclusif",
+   "parfums-de-marly-althair",
+   "giorgio-armani-stronger-with-you-intensely",
+   "yves-saint-laurent-kouros",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "byredo-gypsy-water",
+   "guerlain-jicky",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "maison-margiela-replica-by-the-fireplace",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-carlisle"
+  ],
+  "note": "Vanilla",
+  "gender": "Masculine",
+  "name_fr": "Vanille",
+  "name_en": "Vanilla"
+ },
+ {
+  "id": "guide:ado-garcon",
+  "kind": "guide",
+  "slug_fr": "parfum-ado-garcon",
+  "slug_en": "teen-boy-fragrance",
+  "volume": 880,
+  "keywords": [
+   {
+    "kw": "parfum ado garçon",
+    "volume": 880
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "givenchy-gentleman",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-stronger-with-you",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "hugo-boss-boss-bottled",
+   "giorgio-armani-code",
+   "maison-margiela-replica-jazz-club",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia"
+  ]
+ },
+ {
+  "id": "fg:fruity:F",
+  "kind": "fg",
+  "slug_fr": "fruite/femme",
+  "slug_en": "fruity/women",
+  "volume": 800,
+  "keywords": [
+   {
+    "kw": "parfum fruité femme",
+    "volume": 800
+   }
+  ],
+  "pool": [
+   "rochas-femme",
+   "dolce-gabbana-light-blue",
+   "dior-dolce-vita",
+   "giorgio-armani-si-passione",
+   "versace-bright-crystal",
+   "burberry-her",
+   "dolce-gabbana-limperatrice",
+   "parfums-de-marly-oriana",
+   "parfums-de-marly-valaya",
+   "marc-jacobs-daisy",
+   "chanel-chance-eau-tendre",
+   "dolce-gabbana-light-blue-eau-intense",
+   "givenchy-irresistible",
+   "britney-spears-fantasy",
+   "rihanna-rebl-fleur",
+   "burberry-her-elixir",
+   "jimmy-choo-jimmy-choo",
+   "coach-coach-floral",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-lost-cherry",
+   "parfums-de-marly-carlisle",
+   "tiziana-terenzi-kirke"
+  ],
+  "family": "fruity",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Amber:F",
+  "kind": "ng",
+  "slug_fr": "ambre/femme",
+  "slug_en": "amber/women",
+  "volume": 720,
+  "keywords": [
+   {
+    "kw": "parfum ambre femme",
+    "volume": 655
+   },
+   {
+    "kw": "parfum ambré femme",
+    "volume": 65
+   }
+  ],
+  "pool": [
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "issey-miyake-leau-dissey",
+   "dolce-gabbana-light-blue",
+   "dolce-gabbana-dolce",
+   "dolce-gabbana-the-one",
+   "yves-saint-laurent-paris",
+   "versace-bright-crystal",
+   "chanel-coco",
+   "dior-miss-dior-blooming-bouquet",
+   "paco-rabanne-lady-million",
+   "paco-rabanne-olympea",
+   "hermes-rouge",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "burberry-her",
+   "gucci-guilty",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-oud-wood",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-ombre-leather",
+   "tom-ford-neroli-portofino",
+   "le-labo-rose-31",
+   "parfums-de-marly-galloway"
+  ],
+  "note": "Amber",
+  "gender": "Feminine",
+  "name_fr": "Ambre",
+  "name_en": "Amber"
+ },
+ {
+  "id": "guide:ado-fille",
+  "kind": "guide",
+  "slug_fr": "parfum-ado-fille",
+  "slug_en": "teen-girl-perfume",
+  "volume": 720,
+  "keywords": [
+   {
+    "kw": "parfum ado fille",
+    "volume": 720
+   }
+  ],
+  "pool": [
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "lanvin-arpege",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "calvin-klein-eternity",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "guerlain-la-petite-robe-noire",
+   "kenzo-leau-par-kenzo",
+   "dior-dolce-vita",
+   "dolce-gabbana-dolce",
+   "dolce-gabbana-the-one",
+   "guerlain-vol-de-nuit",
+   "caron-tabac-blond",
+   "chanel-n-19",
+   "cacharel-anais-anais",
+   "lancome-tresor-midnight-rose",
+   "versace-bright-crystal",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia"
+  ]
+ },
+ {
+  "id": "guide:attire-femmes",
+  "kind": "guide",
+  "slug_fr": "parfum-qui-attire-les-femmes",
+  "slug_en": "most-complimented-mens-fragrances",
+  "volume": 720,
+  "keywords": [
+   {
+    "kw": "parfum qui attire les femmes",
+    "volume": 720
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "azzaro-chrome",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "creed-aventus",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky"
+  ]
+ },
+ {
+  "id": "ng:Violet:F",
+  "kind": "ng",
+  "slug_fr": "violette/femme",
+  "slug_en": "violet/women",
+  "volume": 660,
+  "keywords": [
+   {
+    "kw": "parfum violette femme",
+    "volume": 590
+   },
+   {
+    "kw": "parfum à la violette femme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "nina-ricci-lair-du-temps",
+   "dior-jadore",
+   "kenzo-flower-by-kenzo",
+   "guerlain-vol-de-nuit",
+   "yves-saint-laurent-paris",
+   "burberry-her",
+   "parfums-de-marly-palatine",
+   "byredo-blanche",
+   "marc-jacobs-daisy",
+   "dolce-gabbana-the-only-one",
+   "hermes-eau-des-merveilles",
+   "rihanna-rebl-fleur",
+   "le-labo-santal-33",
+   "byredo-bal-dafrique",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-greenley"
+  ],
+  "note": "Violet",
+  "gender": "Feminine",
+  "name_fr": "Violette",
+  "name_en": "Violet"
+ },
+ {
+  "id": "guide:tenue-femme",
+  "kind": "guide",
+  "slug_fr": "parfum-qui-tient-longtemps-femme",
+  "slug_en": "long-lasting-perfume-women",
+  "volume": 650,
+  "keywords": [
+   {
+    "kw": "parfum qui tient longtemps femme",
+    "volume": 390
+   },
+   {
+    "kw": "parfum qui tient longtemps",
+    "volume": 260
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "estee-lauder-youth-dew",
+   "jean-patou-joy",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "chanel-coco-mademoiselle",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "lancome-la-vie-est-belle",
+   "clinique-aromatics-elixir",
+   "giorgio-armani-si",
+   "giorgio-armani-si-passione",
+   "carolina-herrera-good-girl",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-black-opium",
+   "yves-saint-laurent-libre",
+   "yves-saint-laurent-paris",
+   "prada-candy",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "le-labo-santal-33",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "yves-saint-laurent-tuxedo",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan"
+  ]
+ },
+ {
+  "id": "nose:olivier-polge",
+  "kind": "nose",
+  "slug_fr": "olivier-polge",
+  "slug_en": "olivier-polge",
+  "volume": 590,
+  "keywords": [
+   {
+    "kw": "olivier polge",
+    "volume": 590
+   }
+  ],
+  "pool": [
+   "viktor-rolf-flowerbomb",
+   "lancome-la-vie-est-belle",
+   "paco-rabanne-invictus",
+   "dior-dior-homme",
+   "viktor-rolf-spicebomb",
+   "chanel-gabrielle",
+   "dolce-gabbana-the-one-for-men"
+  ],
+  "perfumer": "Olivier Polge"
+ },
+ {
+  "id": "fg:floral:F",
+  "kind": "fg",
+  "slug_fr": "floral/femme",
+  "slug_en": "floral/women",
+  "volume": 536,
+  "keywords": [
+   {
+    "kw": "parfum floral femme",
+    "volume": 536
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "nina-ricci-lair-du-temps",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "estee-lauder-beautiful",
+   "calvin-klein-eternity",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "viktor-rolf-flowerbomb",
+   "kenzo-leau-par-kenzo",
+   "dior-dolce-vita",
+   "giorgio-armani-si",
+   "giorgio-armani-si-passione",
+   "carolina-herrera-good-girl",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "byredo-bal-dafrique",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "le-labo-rose-31",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-carlisle"
+  ],
+  "family": "floral",
+  "gender": "Feminine"
+ },
+ {
+  "id": "sg:summer:F",
+  "kind": "sg",
+  "slug_fr": "parfums-ete/femme",
+  "slug_en": "summer-perfumes/women",
+  "volume": 536,
+  "keywords": [
+   {
+    "kw": "parfum été femme",
+    "volume": 536
+   }
+  ],
+  "pool": [
+   "nina-ricci-lair-du-temps",
+   "calvin-klein-eternity",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "dior-jadore",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "kenzo-leau-par-kenzo",
+   "dolce-gabbana-dolce",
+   "cacharel-anais-anais",
+   "versace-bright-crystal",
+   "givenchy-very-irresistible",
+   "dior-miss-dior-blooming-bouquet",
+   "lancome-idole",
+   "gucci-bamboo",
+   "gucci-bloom",
+   "chloe-chloe-eau-de-parfum",
+   "gucci-gucci-flora",
+   "coach-coach",
+   "dolce-gabbana-limperatrice",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "jo-malone-wood-sage-sea-salt",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "jo-malone-peony-blush-suede",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "tom-ford-neroli-portofino"
+  ],
+  "season": "summer",
+  "gender": "Feminine"
+ },
+ {
+  "id": "fg:woody:M",
+  "kind": "fg",
+  "slug_fr": "boise/homme",
+  "slug_en": "woody/men",
+  "volume": 500,
+  "keywords": [
+   {
+    "kw": "parfum boisé homme",
+    "volume": 500
+   }
+  ],
+  "pool": [
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "hermes-terre-dhermes",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "azzaro-wanted",
+   "montblanc-explorer",
+   "givenchy-gentleman",
+   "chanel-allure-homme-sport",
+   "yves-saint-laurent-y",
+   "hugo-boss-boss-bottled",
+   "giorgio-armani-code",
+   "maison-margiela-replica-jazz-club",
+   "dior-fahrenheit-le-parfum",
+   "issey-miyake-nuit-dissey",
+   "tom-ford-noir-extreme",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-lippizan",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "le-labo-another-13",
+   "le-labo-rose-31",
+   "yves-saint-laurent-tuxedo"
+  ],
+  "family": "woody",
+  "gender": "Masculine"
+ },
+ {
+  "id": "fg:powdery:F",
+  "kind": "fg",
+  "slug_fr": "poudre/femme",
+  "slug_en": "powdery/women",
+  "volume": 500,
+  "keywords": [
+   {
+    "kw": "parfum poudré femme",
+    "volume": 500
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "lanvin-arpege",
+   "kenzo-flower-by-kenzo",
+   "chloe-chloe-eau-de-parfum",
+   "byredo-blanche",
+   "chanel-n-22",
+   "elizabeth-taylor-white-diamonds"
+  ],
+  "family": "powdery",
+  "gender": "Feminine"
+ },
+ {
+  "id": "nose:dominique-ropion",
+  "kind": "nose",
+  "slug_fr": "dominique-ropion",
+  "slug_en": "dominique-ropion",
+  "volume": 500,
+  "keywords": [
+   {
+    "kw": "dominique ropion",
+    "volume": 500
+   }
+  ],
+  "pool": [
+   "thierry-mugler-alien",
+   "lancome-la-vie-est-belle",
+   "paco-rabanne-invictus",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "givenchy-linterdit",
+   "paco-rabanne-lady-million",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "yves-saint-laurent-y",
+   "editions-de-parfums-frederic-malle-carnal-flower",
+   "givenchy-irresistible",
+   "calvin-klein-euphoria"
+  ],
+  "perfumer": "Dominique Ropion"
+ },
+ {
+  "id": "sg:summer:M",
+  "kind": "sg",
+  "slug_fr": "parfums-ete/homme",
+  "slug_en": "summer-perfumes/men",
+  "volume": 480,
+  "keywords": [
+   {
+    "kw": "parfum été homme",
+    "volume": 480
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "creed-aventus",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "davidoff-cool-water",
+   "issey-miyake-leau-dissey-pour-homme",
+   "creed-green-irish-tweed",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "prada-luna-rossa",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "jo-malone-wood-sage-sea-salt",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "jo-malone-peony-blush-suede",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "tom-ford-neroli-portofino"
+  ],
+  "season": "summer",
+  "gender": "Masculine"
+ },
+ {
+  "id": "nose:thierry-wasser",
+  "kind": "nose",
+  "slug_fr": "thierry-wasser",
+  "slug_en": "thierry-wasser",
+  "volume": 480,
+  "keywords": [
+   {
+    "kw": "thierry wasser",
+    "volume": 480
+   }
+  ],
+  "pool": [
+   "guerlain-la-petite-robe-noire",
+   "guerlain-mon-guerlain",
+   "guerlain-lhomme-ideal"
+  ],
+  "perfumer": "Thierry Wasser"
+ },
+ {
+  "id": "guide:attire-hommes",
+  "kind": "guide",
+  "slug_fr": "parfum-qui-attire-les-hommes",
+  "slug_en": "most-complimented-womens-perfumes",
+  "volume": 480,
+  "keywords": [
+   {
+    "kw": "parfum qui attire les hommes",
+    "volume": 480
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky"
+  ]
+ },
+ {
+  "id": "sg:winter:F",
+  "kind": "sg",
+  "slug_fr": "parfums-hiver/femme",
+  "slug_en": "winter-perfumes/women",
+  "volume": 461,
+  "keywords": [
+   {
+    "kw": "parfum hiver femme",
+    "volume": 291
+   },
+   {
+    "kw": "parfum d hiver femme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "lancome-la-vie-est-belle",
+   "clinique-aromatics-elixir",
+   "giorgio-armani-si",
+   "giorgio-armani-si-passione",
+   "carolina-herrera-good-girl",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "guerlain-jicky",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "le-labo-another-13",
+   "tom-ford-noir-de-noir"
+  ],
+  "season": "winter",
+  "gender": "Feminine"
+ },
+ {
+  "id": "fg:chypre:F",
+  "kind": "fg",
+  "slug_fr": "chypre/femme",
+  "slug_en": "chypre/women",
+  "volume": 400,
+  "keywords": [
+   {
+    "kw": "parfum chypré femme",
+    "volume": 400
+   }
+  ],
+  "pool": [
+   "dior-miss-dior",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "clinique-aromatics-elixir",
+   "giorgio-armani-si",
+   "chanel-n-19",
+   "rihanna-rebl-fleur",
+   "jimmy-choo-jimmy-choo",
+   "salvatore-ferragamo-signorina",
+   "tiziana-terenzi-kirke"
+  ],
+  "family": "chypre",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Patchouli:M",
+  "kind": "ng",
+  "slug_fr": "patchouli/homme",
+  "slug_en": "patchouli/men",
+  "volume": 390,
+  "keywords": [
+   {
+    "kw": "parfum patchouli homme",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "paco-rabanne-invictus",
+   "hermes-terre-dhermes",
+   "guerlain-habit-rouge",
+   "ralph-lauren-polo-blue",
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "givenchy-gentleman",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "issey-miyake-nuit-dissey",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-lippizan",
+   "amouage-interlude-man",
+   "amouage-reflection-man",
+   "amouage-jubilation-xxv-man",
+   "amouage-epic-man",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-ombre-leather",
+   "tom-ford-noir-de-noir",
+   "yves-saint-laurent-tuxedo",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-carlisle"
+  ],
+  "note": "Patchouli",
+  "gender": "Masculine",
+  "name_fr": "Patchouli",
+  "name_en": "Patchouli"
+ },
+ {
+  "id": "fg:oriental:M",
+  "kind": "fg",
+  "slug_fr": "oriental-ambre/homme",
+  "slug_en": "oriental-amber/men",
+  "volume": 390,
+  "keywords": [
+   {
+    "kw": "parfum oriental homme",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "guerlain-habit-rouge",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "prada-lhomme",
+   "giorgio-armani-stronger-with-you",
+   "giorgio-armani-code",
+   "paco-rabanne-pure-xs",
+   "jean-paul-gaultier-ultra-male",
+   "maison-margiela-replica-jazz-club",
+   "tom-ford-noir-extreme",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-ispazon",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-pegasus-exclusif",
+   "parfums-de-marly-althair",
+   "amouage-interlude-man",
+   "amouage-jubilation-xxv-man",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "guerlain-jicky",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-hamdani"
+  ],
+  "family": "oriental",
+  "gender": "Masculine"
+ },
+ {
+  "id": "fg:woody:F",
+  "kind": "fg",
+  "slug_fr": "boise/femme",
+  "slug_en": "woody/women",
+  "volume": 390,
+  "keywords": [
+   {
+    "kw": "parfum boisé femme",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "thierry-mugler-alien",
+   "caron-tabac-blond",
+   "givenchy-linterdit",
+   "paco-rabanne-lady-million",
+   "gucci-bamboo",
+   "parfums-de-marly-athalia",
+   "parfums-de-marly-palatine",
+   "versace-dylan-turquoise",
+   "carolina-herrera-212-vip",
+   "dior-dior-joy",
+   "paco-rabanne-fame",
+   "prada-infusion-diris",
+   "hermes-eau-des-merveilles",
+   "issey-miyake-a-drop-dissey",
+   "thierry-mugler-womanity",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "le-labo-another-13",
+   "le-labo-rose-31",
+   "yves-saint-laurent-tuxedo",
+   "maison-margiela-replica-by-the-fireplace",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-hamdani",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-sedley"
+  ],
+  "family": "woody",
+  "gender": "Feminine"
+ },
+ {
+  "id": "nose:alberto-morillas",
+  "kind": "nose",
+  "slug_fr": "alberto-morillas",
+  "slug_en": "alberto-morillas",
+  "volume": 390,
+  "keywords": [
+   {
+    "kw": "alberto morillas",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "giorgio-armani-acqua-di-gio",
+   "kenzo-flower-by-kenzo",
+   "versace-pour-homme",
+   "versace-bright-crystal",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "gucci-bloom",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "marc-jacobs-daisy",
+   "versace-dylan-blue-pour-homme",
+   "giorgio-armani-acqua-di-gio-absolu",
+   "thierry-mugler-mugler-cologne"
+  ],
+  "perfumer": "Alberto Morillas"
+ },
+ {
+  "id": "nose:christine-nagel",
+  "kind": "nose",
+  "slug_fr": "christine-nagel",
+  "slug_en": "christine-nagel",
+  "volume": 390,
+  "keywords": [
+   {
+    "kw": "christine nagel",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "jo-malone-wood-sage-sea-salt",
+   "giorgio-armani-si",
+   "dolce-gabbana-the-one",
+   "jo-malone-english-pear-freesia",
+   "hermes-twilly-dhermes",
+   "narciso-rodriguez-narciso-rodriguez-for-her"
+  ],
+  "perfumer": "Christine Nagel"
+ },
+ {
+  "id": "sg:winter:M",
+  "kind": "sg",
+  "slug_fr": "parfums-hiver/homme",
+  "slug_en": "winter-perfumes/men",
+  "volume": 346,
+  "keywords": [
+   {
+    "kw": "parfum hiver homme",
+    "volume": 236
+   },
+   {
+    "kw": "parfum d hiver homme",
+    "volume": 110
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "versace-eros",
+   "givenchy-gentleman",
+   "giorgio-armani-stronger-with-you",
+   "yves-saint-laurent-y",
+   "hugo-boss-boss-bottled",
+   "giorgio-armani-code",
+   "paco-rabanne-pure-xs",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "guerlain-jicky",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "le-labo-another-13",
+   "tom-ford-noir-de-noir"
+  ],
+  "season": "winter",
+  "gender": "Masculine"
+ },
+ {
+  "id": "best:tom-ford:M",
+  "kind": "best",
+  "slug_fr": "tom-ford-homme",
+  "slug_en": "tom-ford-men",
+  "volume": 330,
+  "keywords": [
+   {
+    "kw": "meilleur parfum tom ford homme",
+    "volume": 260
+   },
+   {
+    "kw": "meilleur parfum tom ford",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "tom-ford-noir-extreme",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "tom-ford-neroli-portofino",
+   "tom-ford-noir-de-noir",
+   "tom-ford-tuscan-leather",
+   "tom-ford-bitter-peach",
+   "tom-ford-rose-prick",
+   "tom-ford-soleil-blanc",
+   "tom-ford-fucking-fabulous",
+   "tom-ford-tobacco-oud"
+  ],
+  "brand": "Tom Ford",
+  "gender": "Masculine"
+ },
+ {
+  "id": "ng:Amber:M",
+  "kind": "ng",
+  "slug_fr": "ambre/homme",
+  "slug_en": "amber/men",
+  "volume": 320,
+  "keywords": [
+   {
+    "kw": "parfum ambre homme",
+    "volume": 291
+   },
+   {
+    "kw": "parfum ambré homme",
+    "volume": 29
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "paco-rabanne-1-million",
+   "guerlain-habit-rouge",
+   "davidoff-cool-water",
+   "dior-dior-homme",
+   "versace-pour-homme",
+   "prada-lhomme",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "jean-paul-gaultier-ultra-male",
+   "tom-ford-noir-extreme",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "parfums-de-marly-ispazon",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-pegasus-exclusif",
+   "amouage-interlude-man",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-oud-wood",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-ombre-leather",
+   "tom-ford-neroli-portofino",
+   "le-labo-rose-31",
+   "parfums-de-marly-galloway"
+  ],
+  "note": "Amber",
+  "gender": "Masculine",
+  "name_fr": "Ambre",
+  "name_en": "Amber"
+ },
+ {
+  "id": "ng:Musk:M",
+  "kind": "ng",
+  "slug_fr": "musc/homme",
+  "slug_en": "musk/men",
+  "volume": 300,
+  "keywords": [
+   {
+    "kw": "parfum musc homme",
+    "volume": 300
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "creed-aventus",
+   "azzaro-azzaro-pour-homme",
+   "davidoff-cool-water",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "ralph-lauren-polo-blue",
+   "versace-pour-homme",
+   "prada-lhomme",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "cerruti-1881",
+   "jean-paul-gaultier-ultra-male",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-lippizan",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "jo-malone-peony-blush-suede"
+  ],
+  "note": "Musk",
+  "gender": "Masculine",
+  "name_fr": "Musc",
+  "name_en": "Musk"
+ },
+ {
+  "id": "best:dior:F",
+  "kind": "best",
+  "slug_fr": "dior-femme",
+  "slug_en": "dior-women",
+  "volume": 300,
+  "keywords": [
+   {
+    "kw": "meilleur parfum dior femme",
+    "volume": 210
+   },
+   {
+    "kw": "meilleur parfum dior",
+    "volume": 90
+   }
+  ],
+  "pool": [
+   "dior-miss-dior",
+   "dior-poison",
+   "dior-jadore",
+   "dior-hypnotic-poison",
+   "dior-dolce-vita",
+   "dior-dior-addict",
+   "dior-miss-dior-blooming-bouquet",
+   "dior-dior-joy"
+  ],
+  "brand": "Dior",
+  "gender": "Feminine"
+ },
+ {
+  "id": "guide:pyramide",
+  "kind": "guide",
+  "slug_fr": "pyramide-olfactive",
+  "slug_en": "fragrance-pyramid",
+  "volume": 290,
+  "keywords": [
+   {
+    "kw": "notes de tête",
+    "volume": 210
+   },
+   {
+    "kw": "pyramide olfactive",
+    "volume": 80
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "dior-eau-sauvage",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "ralph-lauren-polo",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "azzaro-chrome"
+  ]
+ },
+ {
+  "id": "ng:Jasmine:F",
+  "kind": "ng",
+  "slug_fr": "jasmin/femme",
+  "slug_en": "jasmine/women",
+  "volume": 280,
+  "keywords": [
+   {
+    "kw": "parfum jasmin femme",
+    "volume": 210
+   },
+   {
+    "kw": "parfum au jasmin femme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "byredo-bal-dafrique",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "le-labo-another-13",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-layton"
+  ],
+  "note": "Jasmine",
+  "gender": "Feminine",
+  "name_fr": "Jasmin",
+  "name_en": "Jasmine"
+ },
+ {
+  "id": "fg:spicy:F",
+  "kind": "fg",
+  "slug_fr": "epice/femme",
+  "slug_en": "spicy/women",
+  "volume": 260,
+  "keywords": [
+   {
+    "kw": "parfum épicé femme",
+    "volume": 260
+   }
+  ],
+  "pool": [
+   "estee-lauder-youth-dew",
+   "yves-saint-laurent-opium",
+   "chanel-coco",
+   "givenchy-linterdit-rouge",
+   "tom-ford-tobacco-vanille",
+   "yves-saint-laurent-tuxedo",
+   "maison-margiela-replica-by-the-fireplace",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-carios",
+   "initio-parfums-prives-side-effect",
+   "xerjoff-naxos",
+   "tom-ford-tobacco-oud",
+   "byredo-rose-of-no-mans-land"
+  ],
+  "family": "spicy",
+  "gender": "Feminine"
+ },
+ {
+  "id": "nose:francois-demachy",
+  "kind": "nose",
+  "slug_fr": "francois-demachy",
+  "slug_en": "francois-demachy",
+  "volume": 260,
+  "keywords": [
+   {
+    "kw": "françois demachy",
+    "volume": 260
+   }
+  ],
+  "pool": [
+   "dior-sauvage",
+   "dior-miss-dior-blooming-bouquet",
+   "dior-fahrenheit-le-parfum",
+   "dior-dior-joy",
+   "dior-sauvage-elixir"
+  ],
+  "perfumer": "François Demachy"
+ },
+ {
+  "id": "ng:Lemon:F",
+  "kind": "ng",
+  "slug_fr": "citron/femme",
+  "slug_en": "lemon/women",
+  "volume": 210,
+  "keywords": [
+   {
+    "kw": "parfum citron femme",
+    "volume": 210
+   }
+  ],
+  "pool": [
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "chanel-allure",
+   "chanel-chance",
+   "kenzo-leau-par-kenzo",
+   "caron-tabac-blond",
+   "parfums-de-marly-darcy",
+   "versace-yellow-diamond",
+   "versace-dylan-turquoise",
+   "dolce-gabbana-light-blue-eau-intense",
+   "dolce-gabbana-devotion",
+   "hermes-eau-des-merveilles",
+   "hermes-jour-dhermes",
+   "calvin-klein-ck-one",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "guerlain-jicky",
+   "tom-ford-neroli-portofino",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-sedley",
+   "xerjoff-naxos",
+   "xerjoff-erba-pura",
+   "mancera-cedrat-boise",
+   "maison-francis-kurkdjian-petit-matin",
+   "nishane-ani",
+   "creed-royal-oud",
+   "creed-millesime-imperial",
+   "acqua-di-parma-fico-di-amalfi"
+  ],
+  "note": "Lemon",
+  "gender": "Feminine",
+  "name_fr": "Citron",
+  "name_en": "Lemon"
+ },
+ {
+  "id": "ng:Coconut:F",
+  "kind": "ng",
+  "slug_fr": "noix-de-coco/femme",
+  "slug_en": "coconut/women",
+  "volume": 210,
+  "keywords": [
+   {
+    "kw": "parfum noix de coco femme",
+    "volume": 210
+   }
+  ],
+  "pool": [
+   "thierry-mugler-angel",
+   "dior-hypnotic-poison",
+   "ariana-grande-cloud",
+   "versace-crystal-noir",
+   "rihanna-rebl-fleur",
+   "diptyque-philosykos",
+   "editions-de-parfums-frederic-malle-carnal-flower",
+   "tom-ford-soleil-blanc",
+   "maison-margiela-replica-bubble-bath"
+  ],
+  "note": "Coconut",
+  "gender": "Feminine",
+  "name_fr": "Noix de coco",
+  "name_en": "Coconut"
+ },
+ {
+  "id": "ng:Rose:F",
+  "kind": "ng",
+  "slug_fr": "rose/femme",
+  "slug_en": "rose/women",
+  "volume": 210,
+  "keywords": [
+   {
+    "kw": "parfum rose femme",
+    "volume": 210
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "calvin-klein-ck-one",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-lost-cherry",
+   "le-labo-rose-31",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-carlisle"
+  ],
+  "note": "Rose",
+  "gender": "Feminine",
+  "name_fr": "Rose",
+  "name_en": "Rose"
+ },
+ {
+  "id": "nose:jacques-polge",
+  "kind": "nose",
+  "slug_fr": "jacques-polge",
+  "slug_en": "jacques-polge",
+  "volume": 210,
+  "keywords": [
+   {
+    "kw": "jacques polge",
+    "volume": 210
+   }
+  ],
+  "pool": [
+   "chanel-allure",
+   "chanel-coco-mademoiselle",
+   "chanel-chance",
+   "chanel-bleu-de-chanel",
+   "chanel-coco",
+   "chanel-allure-homme-sport",
+   "chanel-chance-eau-tendre",
+   "chanel-coromandel"
+  ],
+  "perfumer": "Jacques Polge"
+ },
+ {
+  "id": "ng:Lily of the Valley:F",
+  "kind": "ng",
+  "slug_fr": "muguet/femme",
+  "slug_en": "lily-of-the-valley/women",
+  "volume": 200,
+  "keywords": [
+   {
+    "kw": "parfum muguet femme",
+    "volume": 200
+   }
+  ],
+  "pool": [
+   "lanvin-arpege",
+   "yves-saint-laurent-paris",
+   "gucci-bamboo",
+   "chloe-chloe-eau-de-parfum",
+   "parfums-de-marly-meliora",
+   "parfums-de-marly-valaya",
+   "chanel-n-22",
+   "xerjoff-alexandria-ii",
+   "tiziana-terenzi-kirke",
+   "maison-margiela-replica-lazy-sunday-morning"
+  ],
+  "note": "Lily of the Valley",
+  "gender": "Feminine",
+  "name_fr": "Muguet",
+  "name_en": "Lily of the Valley"
+ },
+ {
+  "id": "fg:gourmand:F",
+  "kind": "fg",
+  "slug_fr": "gourmand/femme",
+  "slug_en": "gourmand/women",
+  "volume": 200,
+  "keywords": [
+   {
+    "kw": "parfum gourmand femme",
+    "volume": 200
+   }
+  ],
+  "pool": [
+   "thierry-mugler-angel",
+   "guerlain-la-petite-robe-noire",
+   "lancome-la-vie-est-belle",
+   "yves-saint-laurent-black-opium",
+   "lancome-tresor-midnight-rose",
+   "prada-candy",
+   "burberry-her",
+   "ariana-grande-cloud",
+   "parfums-de-marly-oriana",
+   "dolce-gabbana-devotion",
+   "lancome-la-nuit-tresor",
+   "britney-spears-fantasy",
+   "burberry-her-elixir",
+   "tom-ford-lost-cherry",
+   "maison-margiela-replica-coffee-break"
+  ],
+  "family": "gourmand",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Pepper:F",
+  "kind": "ng",
+  "slug_fr": "poivre/femme",
+  "slug_en": "pepper/women",
+  "volume": 191,
+  "keywords": [
+   {
+    "kw": "parfum poivre femme",
+    "volume": 191
+   }
+  ],
+  "pool": [
+   "versace-crystal-noir",
+   "hermes-eau-des-merveilles",
+   "byredo-gypsy-water",
+   "le-labo-rose-31",
+   "parfums-de-marly-galloway",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-carios",
+   "maison-margiela-replica-coffee-break",
+   "atelier-cologne-clementine-california"
+  ],
+  "note": "Pepper",
+  "gender": "Feminine",
+  "name_fr": "Poivre",
+  "name_en": "Pepper"
+ },
+ {
+  "id": "ng:Iris:F",
+  "kind": "ng",
+  "slug_fr": "iris/femme",
+  "slug_en": "iris/women",
+  "volume": 170,
+  "keywords": [
+   {
+    "kw": "parfum iris femme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "jean-patou-joy",
+   "lancome-tresor",
+   "chanel-chance",
+   "lancome-la-vie-est-belle",
+   "guerlain-vol-de-nuit",
+   "caron-tabac-blond",
+   "chanel-n-19",
+   "yves-saint-laurent-paris",
+   "hermes-rouge",
+   "gucci-bloom",
+   "guerlain-mon-guerlain",
+   "parfums-de-marly-safanad",
+   "parfums-de-marly-athalia",
+   "diptyque-do-son",
+   "by-kilian-love-dont-be-shy",
+   "marc-jacobs-decadence",
+   "chanel-chance-eau-tendre",
+   "chanel-gabrielle",
+   "chanel-n-22",
+   "dolce-gabbana-the-only-one",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "guerlain-jicky",
+   "parfums-de-marly-galloway",
+   "tom-ford-fucking-fabulous",
+   "creed-millesime-imperial",
+   "maison-margiela-replica-lazy-sunday-morning",
+   "chanel-coromandel"
+  ],
+  "note": "Iris",
+  "gender": "Feminine",
+  "name_fr": "Iris",
+  "name_en": "Iris"
+ },
+ {
+  "id": "fg:spicy:M",
+  "kind": "fg",
+  "slug_fr": "epice/homme",
+  "slug_en": "spicy/men",
+  "volume": 170,
+  "keywords": [
+   {
+    "kw": "parfum épicé homme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "paco-rabanne-1-million",
+   "hermes-terre-dhermes",
+   "azzaro-wanted",
+   "viktor-rolf-spicebomb",
+   "chanel-allure-homme-sport",
+   "hugo-boss-boss-bottled",
+   "paco-rabanne-pure-xs",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-byerley",
+   "valentino-uomo-born-in-roma",
+   "dior-sauvage-elixir",
+   "giorgio-armani-stronger-with-you-intensely",
+   "dolce-gabbana-the-one-for-men",
+   "ralph-lauren-polo-red",
+   "hugo-boss-boss-the-scent",
+   "azzaro-wanted-by-night",
+   "viktor-rolf-spicebomb-extreme",
+   "gucci-gucci-pour-homme-ii",
+   "tom-ford-tobacco-vanille",
+   "yves-saint-laurent-tuxedo",
+   "maison-margiela-replica-by-the-fireplace",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-carios",
+   "initio-parfums-prives-side-effect",
+   "xerjoff-naxos",
+   "tom-ford-tobacco-oud",
+   "byredo-rose-of-no-mans-land"
+  ],
+  "family": "spicy",
+  "gender": "Masculine"
+ },
+ {
+  "id": "best:dior:M",
+  "kind": "best",
+  "slug_fr": "dior-homme",
+  "slug_en": "dior-men",
+  "volume": 170,
+  "keywords": [
+   {
+    "kw": "meilleur parfum dior homme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "dior-sauvage",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "dior-fahrenheit-le-parfum",
+   "dior-dior-homme-intense",
+   "dior-sauvage-elixir"
+  ],
+  "brand": "Dior",
+  "gender": "Masculine"
+ },
+ {
+  "id": "best:guerlain:F",
+  "kind": "best",
+  "slug_fr": "guerlain-femme",
+  "slug_en": "guerlain-women",
+  "volume": 170,
+  "keywords": [
+   {
+    "kw": "meilleur parfum guerlain femme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "guerlain-la-petite-robe-noire",
+   "guerlain-vol-de-nuit",
+   "guerlain-linstant-de-guerlain",
+   "guerlain-mon-guerlain",
+   "guerlain-aqua-allegoria-mandarine-basilic",
+   "guerlain-jicky"
+  ],
+  "brand": "Guerlain",
+  "gender": "Feminine"
+ },
+ {
+  "id": "best:yves-saint-laurent:F",
+  "kind": "best",
+  "slug_fr": "yves-saint-laurent-femme",
+  "slug_en": "yves-saint-laurent-women",
+  "volume": 170,
+  "keywords": [
+   {
+    "kw": "meilleur parfum yves saint laurent femme",
+    "volume": 170
+   }
+  ],
+  "pool": [
+   "yves-saint-laurent-opium",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-black-opium",
+   "yves-saint-laurent-libre",
+   "yves-saint-laurent-paris",
+   "yves-saint-laurent-libre-intense",
+   "yves-saint-laurent-tuxedo"
+  ],
+  "brand": "Yves Saint Laurent",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Pepper:M",
+  "kind": "ng",
+  "slug_fr": "poivre/homme",
+  "slug_en": "pepper/men",
+  "volume": 155,
+  "keywords": [
+   {
+    "kw": "parfum poivre homme",
+    "volume": 155
+   }
+  ],
+  "pool": [
+   "dior-sauvage",
+   "hermes-terre-dhermes",
+   "chanel-allure-homme-sport",
+   "issey-miyake-nuit-dissey",
+   "amouage-interlude-man",
+   "penhaligons-blenheim-bouquet",
+   "versace-dylan-blue-pour-homme",
+   "paco-rabanne-invictus-legend",
+   "prada-luna-rossa-carbon",
+   "viktor-rolf-spicebomb-extreme",
+   "byredo-gypsy-water",
+   "le-labo-rose-31",
+   "parfums-de-marly-galloway",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-carios",
+   "maison-margiela-replica-coffee-break",
+   "atelier-cologne-clementine-california"
+  ],
+  "note": "Pepper",
+  "gender": "Masculine",
+  "name_fr": "Poivre",
+  "name_en": "Pepper"
+ },
+ {
+  "id": "ng:Oud:M",
+  "kind": "ng",
+  "slug_fr": "oud/homme",
+  "slug_en": "oud/men",
+  "volume": 145,
+  "keywords": [
+   {
+    "kw": "parfum oud homme",
+    "volume": 145
+   }
+  ],
+  "pool": [
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-pegasus-exclusif",
+   "parfums-de-marly-haltane",
+   "amouage-interlude-man",
+   "amouage-jubilation-xxv-man",
+   "amouage-epic-man",
+   "montale-black-aoud",
+   "tom-ford-oud-wood",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-layton-exclusif",
+   "initio-parfums-prives-oud-for-greatness",
+   "xerjoff-alexandria-ii",
+   "penhaligons-halfeti",
+   "tom-ford-tobacco-oud",
+   "creed-royal-oud",
+   "lattafa-raghba",
+   "louis-vuitton-ombre-nomade"
+  ],
+  "note": "Oud",
+  "gender": "Masculine",
+  "name_fr": "Oud",
+  "name_en": "Oud"
+ },
+ {
+  "id": "ng:Lemon:M",
+  "kind": "ng",
+  "slug_fr": "citron/homme",
+  "slug_en": "lemon/men",
+  "volume": 140,
+  "keywords": [
+   {
+    "kw": "parfum citron homme",
+    "volume": 140
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "azzaro-chrome",
+   "chanel-bleu-de-chanel",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "issey-miyake-leau-dissey-pour-homme",
+   "azzaro-wanted",
+   "versace-pour-homme",
+   "versace-eros",
+   "giorgio-armani-code",
+   "maison-margiela-replica-jazz-club",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-ispazon",
+   "penhaligons-blenheim-bouquet",
+   "dolce-gabbana-k-by-dolce-gabbana",
+   "ralph-lauren-polo-red",
+   "azzaro-wanted-by-night",
+   "abercrombie-fitch-fierce",
+   "gucci-guilty-pour-homme",
+   "calvin-klein-ck-one",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "guerlain-jicky",
+   "tom-ford-neroli-portofino",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-sedley",
+   "xerjoff-naxos",
+   "xerjoff-erba-pura"
+  ],
+  "note": "Lemon",
+  "gender": "Masculine",
+  "name_fr": "Citron",
+  "name_en": "Lemon"
+ },
+ {
+  "id": "guide:tenue-homme",
+  "kind": "guide",
+  "slug_fr": "parfum-qui-tient-longtemps-homme",
+  "slug_en": "long-lasting-cologne-men",
+  "volume": 140,
+  "keywords": [
+   {
+    "kw": "parfum qui tient longtemps homme",
+    "volume": 140
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "creed-aventus",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "azzaro-wanted",
+   "viktor-rolf-spicebomb",
+   "versace-eros",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "yves-saint-laurent-y",
+   "paco-rabanne-pure-xs",
+   "jean-paul-gaultier-ultra-male",
+   "dior-fahrenheit-le-parfum",
+   "tom-ford-noir-extreme",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-godolphin",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "le-labo-santal-33",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "yves-saint-laurent-tuxedo",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan"
+  ]
+ },
+ {
+  "id": "best:chanel:F",
+  "kind": "best",
+  "slug_fr": "chanel-femme",
+  "slug_en": "chanel-women",
+  "volume": 130,
+  "keywords": [
+   {
+    "kw": "meilleur parfum chanel femme",
+    "volume": 110
+   },
+   {
+    "kw": "meilleur parfum chanel",
+    "volume": 20
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "chanel-allure",
+   "chanel-coco-mademoiselle",
+   "chanel-chance",
+   "chanel-n-19",
+   "chanel-coco",
+   "chanel-chance-eau-tendre",
+   "chanel-gabrielle",
+   "chanel-n-22",
+   "chanel-coromandel"
+  ],
+  "brand": "Chanel",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Rose:M",
+  "kind": "ng",
+  "slug_fr": "rose/homme",
+  "slug_en": "rose/men",
+  "volume": 127,
+  "keywords": [
+   {
+    "kw": "parfum rose homme",
+    "volume": 127
+   }
+  ],
+  "pool": [
+   "paco-rabanne-1-million",
+   "creed-aventus",
+   "guerlain-habit-rouge",
+   "yves-saint-laurent-jazz",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "amouage-jubilation-xxv-man",
+   "montale-black-aoud",
+   "calvin-klein-ck-one",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "tom-ford-lost-cherry",
+   "le-labo-rose-31",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-carlisle",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-layton-exclusif",
+   "xerjoff-alexandria-ii",
+   "penhaligons-halfeti",
+   "mancera-instant-crush",
+   "montale-intense-cafe",
+   "diptyque-tam-dao",
+   "nishane-ani",
+   "tom-ford-rose-prick",
+   "byredo-rose-of-no-mans-land",
+   "byredo-super-cedar"
+  ],
+  "note": "Rose",
+  "gender": "Masculine",
+  "name_fr": "Rose",
+  "name_en": "Rose"
+ },
+ {
+  "id": "ng:Neroli:F",
+  "kind": "ng",
+  "slug_fr": "neroli/femme",
+  "slug_en": "neroli/women",
+  "volume": 110,
+  "keywords": [
+   {
+    "kw": "parfum néroli femme",
+    "volume": 110
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "nina-ricci-lair-du-temps",
+   "dolce-gabbana-dolce",
+   "chanel-n-19",
+   "by-kilian-love-dont-be-shy",
+   "versace-yellow-diamond",
+   "chanel-n-22",
+   "prada-infusion-diris",
+   "elizabeth-taylor-white-diamonds",
+   "jennifer-lopez-glow",
+   "dolce-gabbana-dolce-gabbana-pour-femme",
+   "byredo-bal-dafrique",
+   "creed-silver-mountain-water",
+   "tom-ford-neroli-portofino",
+   "chanel-coromandel",
+   "thierry-mugler-mugler-cologne"
+  ],
+  "note": "Neroli",
+  "gender": "Feminine",
+  "name_fr": "Néroli",
+  "name_en": "Neroli"
+ },
+ {
+  "id": "ng:Orange:M",
+  "kind": "ng",
+  "slug_fr": "orange/homme",
+  "slug_en": "orange/men",
+  "volume": 110,
+  "keywords": [
+   {
+    "kw": "parfum orange homme",
+    "volume": 110
+   }
+  ],
+  "pool": [
+   "hermes-terre-dhermes",
+   "prada-luna-rossa",
+   "chanel-allure-homme-sport",
+   "parfums-de-marly-ispazon",
+   "amouage-jubilation-xxv-man",
+   "abercrombie-fitch-fierce",
+   "maison-margiela-replica-by-the-fireplace",
+   "acqua-di-parma-colonia"
+  ],
+  "note": "Orange",
+  "gender": "Masculine",
+  "name_fr": "Orange",
+  "name_en": "Orange"
+ },
+ {
+  "id": "ng:Sandalwood:F",
+  "kind": "ng",
+  "slug_fr": "santal/femme",
+  "slug_en": "sandalwood/women",
+  "volume": 110,
+  "keywords": [
+   {
+    "kw": "parfum santal femme",
+    "volume": 110
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "nina-ricci-lair-du-temps",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-hypnotic-poison",
+   "dior-dolce-vita",
+   "carolina-herrera-good-girl",
+   "guerlain-vol-de-nuit",
+   "cacharel-anais-anais",
+   "yves-saint-laurent-paris",
+   "chanel-coco",
+   "dior-dior-addict",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "creed-silver-mountain-water",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "acqua-di-parma-colonia"
+  ],
+  "note": "Sandalwood",
+  "gender": "Feminine",
+  "name_fr": "Santal",
+  "name_en": "Sandalwood"
+ },
+ {
+  "id": "ng:Bergamot:F",
+  "kind": "ng",
+  "slug_fr": "bergamote/femme",
+  "slug_en": "bergamot/women",
+  "volume": 90,
+  "keywords": [
+   {
+    "kw": "parfum bergamote femme",
+    "volume": 90
+   }
+  ],
+  "pool": [
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "calvin-klein-obsession",
+   "chanel-coco-mademoiselle",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "clinique-aromatics-elixir",
+   "dior-dolce-vita",
+   "giorgio-armani-si",
+   "carolina-herrera-good-girl",
+   "dolce-gabbana-the-one",
+   "guerlain-vol-de-nuit",
+   "caron-tabac-blond",
+   "chanel-n-19",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "creed-silver-mountain-water",
+   "guerlain-jicky",
+   "tom-ford-neroli-portofino",
+   "maison-francis-kurkdjian-oud-satin-mood"
+  ],
+  "note": "Bergamot",
+  "gender": "Feminine",
+  "name_fr": "Bergamote",
+  "name_en": "Bergamot"
+ },
+ {
+  "id": "ng:Leather:M",
+  "kind": "ng",
+  "slug_fr": "cuir/homme",
+  "slug_en": "leather/men",
+  "volume": 90,
+  "keywords": [
+   {
+    "kw": "parfum cuir homme",
+    "volume": 90
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "paco-rabanne-1-million",
+   "guy-laroche-drakkar-noir",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "viktor-rolf-spicebomb",
+   "montblanc-explorer",
+   "givenchy-gentleman",
+   "giorgio-armani-code",
+   "paco-rabanne-pure-xs",
+   "dior-fahrenheit-le-parfum",
+   "issey-miyake-nuit-dissey",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "amouage-interlude-man",
+   "amouage-epic-man",
+   "valentino-valentino-uomo",
+   "yves-saint-laurent-kouros",
+   "hugo-boss-boss-the-scent",
+   "guerlain-lhomme-ideal",
+   "le-labo-santal-33",
+   "tom-ford-ombre-leather",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-hamdani",
+   "parfums-de-marly-eragon",
+   "penhaligons-halfeti",
+   "mancera-cedrat-boise",
+   "tom-ford-tuscan-leather",
+   "tom-ford-fucking-fabulous"
+  ],
+  "note": "Leather",
+  "gender": "Masculine",
+  "name_fr": "Cuir",
+  "name_en": "Leather"
+ },
+ {
+  "id": "ng:Lavender:F",
+  "kind": "ng",
+  "slug_fr": "lavande/femme",
+  "slug_en": "lavender/women",
+  "volume": 90,
+  "keywords": [
+   {
+    "kw": "parfum lavande femme",
+    "volume": 90
+   }
+  ],
+  "pool": [
+   "yves-saint-laurent-libre",
+   "guerlain-mon-guerlain",
+   "parfums-de-marly-palatine",
+   "yves-saint-laurent-libre-intense",
+   "guerlain-jicky",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-sedley",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-valero",
+   "initio-parfums-prives-oud-for-greatness",
+   "initio-parfums-prives-rehab",
+   "xerjoff-naxos",
+   "xerjoff-alexandria-ii",
+   "editions-de-parfums-frederic-malle-musc-ravageur",
+   "nishane-ani",
+   "tom-ford-fucking-fabulous",
+   "maison-margiela-replica-bubble-bath",
+   "maison-margiela-replica-coffee-break"
+  ],
+  "note": "Lavender",
+  "gender": "Feminine",
+  "name_fr": "Lavande",
+  "name_en": "Lavender"
+ },
+ {
+  "id": "ng:Orange:F",
+  "kind": "ng",
+  "slug_fr": "orange/femme",
+  "slug_en": "orange/women",
+  "volume": 90,
+  "keywords": [
+   {
+    "kw": "parfum orange femme",
+    "volume": 90
+   }
+  ],
+  "pool": [
+   "chanel-coco-mademoiselle",
+   "guerlain-vol-de-nuit",
+   "parfums-de-marly-safanad",
+   "parfums-de-marly-darcy",
+   "hermes-eau-des-merveilles",
+   "elizabeth-taylor-white-diamonds",
+   "maison-margiela-replica-by-the-fireplace",
+   "acqua-di-parma-colonia"
+  ],
+  "note": "Orange",
+  "gender": "Feminine",
+  "name_fr": "Orange",
+  "name_en": "Orange"
+ },
+ {
+  "id": "fg:aquatic:M",
+  "kind": "fg",
+  "slug_fr": "aquatique/homme",
+  "slug_en": "aquatic/men",
+  "volume": 90,
+  "keywords": [
+   {
+    "kw": "parfum marin homme",
+    "volume": 70
+   },
+   {
+    "kw": "parfum aquatique homme",
+    "volume": 20
+   }
+  ],
+  "pool": [
+   "giorgio-armani-acqua-di-gio",
+   "paco-rabanne-invictus",
+   "davidoff-cool-water",
+   "issey-miyake-leau-dissey-pour-homme",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "paco-rabanne-invictus-legend",
+   "creed-millesime-imperial"
+  ],
+  "family": "aquatic",
+  "gender": "Masculine"
+ },
+ {
+  "id": "fg:oriental:F",
+  "kind": "fg",
+  "slug_fr": "oriental-ambre/femme",
+  "slug_en": "oriental-amber/women",
+  "volume": 87,
+  "keywords": [
+   {
+    "kw": "parfum oriental femme",
+    "volume": 87
+   }
+  ],
+  "pool": [
+   "guerlain-shalimar",
+   "estee-lauder-youth-dew",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "chanel-allure",
+   "chanel-coco-mademoiselle",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "carolina-herrera-good-girl",
+   "yves-saint-laurent-black-opium",
+   "dolce-gabbana-the-one",
+   "guerlain-vol-de-nuit",
+   "caron-tabac-blond",
+   "prada-candy",
+   "chanel-coco",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "guerlain-jicky",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-hamdani"
+  ],
+  "family": "oriental",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Bergamot:M",
+  "kind": "ng",
+  "slug_fr": "bergamote/homme",
+  "slug_en": "bergamot/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum bergamote homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "dior-sauvage",
+   "creed-aventus",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "prada-luna-rossa",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "yves-saint-laurent-y",
+   "cerruti-1881",
+   "giorgio-armani-code",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "creed-silver-mountain-water",
+   "guerlain-jicky",
+   "tom-ford-neroli-portofino",
+   "maison-francis-kurkdjian-oud-satin-mood"
+  ],
+  "note": "Bergamot",
+  "gender": "Masculine",
+  "name_fr": "Bergamote",
+  "name_en": "Bergamot"
+ },
+ {
+  "id": "ng:Cinnamon:M",
+  "kind": "ng",
+  "slug_fr": "cannelle/homme",
+  "slug_en": "cinnamon/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum cannelle homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "paco-rabanne-1-million",
+   "guerlain-habit-rouge",
+   "issey-miyake-leau-dissey-pour-homme",
+   "viktor-rolf-spicebomb",
+   "giorgio-armani-stronger-with-you",
+   "hugo-boss-boss-bottled",
+   "paco-rabanne-pure-xs",
+   "jean-paul-gaultier-ultra-male",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-althair",
+   "amouage-jubilation-xxv-man",
+   "dior-sauvage-elixir",
+   "giorgio-armani-stronger-with-you-intensely",
+   "yves-saint-laurent-kouros",
+   "azzaro-wanted-by-night",
+   "viktor-rolf-spicebomb-extreme",
+   "gucci-gucci-pour-homme-ii",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-eragon",
+   "initio-parfums-prives-side-effect",
+   "xerjoff-naxos",
+   "xerjoff-alexandria-ii",
+   "editions-de-parfums-frederic-malle-musc-ravageur",
+   "by-kilian-angels-share",
+   "tom-ford-tobacco-oud"
+  ],
+  "note": "Cinnamon",
+  "gender": "Masculine",
+  "name_fr": "Cannelle",
+  "name_en": "Cinnamon"
+ },
+ {
+  "id": "ng:Cedar:M",
+  "kind": "ng",
+  "slug_fr": "cedre/homme",
+  "slug_en": "cedar/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum cèdre homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "giorgio-armani-acqua-di-gio",
+   "chanel-bleu-de-chanel",
+   "dior-sauvage",
+   "hermes-terre-dhermes",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "versace-pour-homme",
+   "versace-eros",
+   "prada-lhomme",
+   "chanel-allure-homme-sport",
+   "giorgio-armani-stronger-with-you",
+   "yves-saint-laurent-y",
+   "cerruti-1881",
+   "hugo-boss-boss-bottled",
+   "paco-rabanne-pure-xs",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "le-labo-santal-33",
+   "le-labo-rose-31",
+   "yves-saint-laurent-tuxedo",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-sedley",
+   "parfums-de-marly-greenley",
+   "parfums-de-marly-carios"
+  ],
+  "note": "Cedar",
+  "gender": "Masculine",
+  "name_fr": "Cèdre",
+  "name_en": "Cedar"
+ },
+ {
+  "id": "ng:Lavender:M",
+  "kind": "ng",
+  "slug_fr": "lavande/homme",
+  "slug_en": "lavender/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum lavande homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "dior-sauvage",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "prada-luna-rossa",
+   "givenchy-gentleman",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "dior-fahrenheit-le-parfum",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-pegasus-exclusif",
+   "parfums-de-marly-haltane",
+   "guerlain-jicky",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-sedley",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-valero",
+   "initio-parfums-prives-oud-for-greatness",
+   "initio-parfums-prives-rehab"
+  ],
+  "note": "Lavender",
+  "gender": "Masculine",
+  "name_fr": "Lavande",
+  "name_en": "Lavender"
+ },
+ {
+  "id": "ng:Sandalwood:M",
+  "kind": "ng",
+  "slug_fr": "santal/homme",
+  "slug_en": "sandalwood/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum santal homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "azzaro-chrome",
+   "chanel-bleu-de-chanel",
+   "chanel-pour-monsieur",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "creed-green-irish-tweed",
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "hugo-boss-boss-bottled",
+   "yves-saint-laurent-jazz",
+   "tom-ford-noir-extreme",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-pegasus-exclusif",
+   "amouage-interlude-man",
+   "amouage-reflection-man",
+   "montale-black-aoud",
+   "tom-ford-black-orchid",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "creed-silver-mountain-water",
+   "tom-ford-lost-cherry",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "acqua-di-parma-colonia"
+  ],
+  "note": "Sandalwood",
+  "gender": "Masculine",
+  "name_fr": "Santal",
+  "name_en": "Sandalwood"
+ },
+ {
+  "id": "fg:citrus:M",
+  "kind": "fg",
+  "slug_fr": "hesperide/homme",
+  "slug_en": "citrus/men",
+  "volume": 70,
+  "keywords": [
+   {
+    "kw": "parfum hespéridé homme",
+    "volume": 70
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "azzaro-chrome",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "penhaligons-blenheim-bouquet",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "tom-ford-neroli-portofino",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-galloway",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-greenley",
+   "mancera-cedrat-boise",
+   "maison-francis-kurkdjian-petit-matin",
+   "nishane-hacivat",
+   "creed-millesime-imperial",
+   "thierry-mugler-mugler-cologne",
+   "acqua-di-parma-fico-di-amalfi",
+   "atelier-cologne-clementine-california",
+   "louis-vuitton-afternoon-swim"
+  ],
+  "family": "citrus",
+  "gender": "Masculine"
+ },
+ {
+  "id": "ng:Caramel:F",
+  "kind": "ng",
+  "slug_fr": "caramel/femme",
+  "slug_en": "caramel/women",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum caramel femme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "thierry-mugler-angel",
+   "prada-candy",
+   "jean-paul-gaultier-scandal",
+   "by-kilian-love-dont-be-shy",
+   "sol-de-janeiro-sol-cheirosa-62",
+   "parfums-de-marly-habdan"
+  ],
+  "note": "Caramel",
+  "gender": "Feminine",
+  "name_fr": "Caramel",
+  "name_en": "Caramel"
+ },
+ {
+  "id": "ng:Cedar:F",
+  "kind": "ng",
+  "slug_fr": "cedre/femme",
+  "slug_en": "cedar/women",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum cèdre femme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "nina-ricci-lair-du-temps",
+   "issey-miyake-leau-dissey",
+   "dior-jadore",
+   "dolce-gabbana-light-blue",
+   "kenzo-leau-par-kenzo",
+   "dior-dolce-vita",
+   "giorgio-armani-si-passione",
+   "yves-saint-laurent-black-opium",
+   "yves-saint-laurent-libre",
+   "lancome-tresor-midnight-rose",
+   "lancome-idole",
+   "chloe-chloe-eau-de-parfum",
+   "dolce-gabbana-limperatrice",
+   "parfums-de-marly-delina",
+   "versace-dylan-turquoise",
+   "chanel-chance-eau-tendre",
+   "dior-dior-joy",
+   "givenchy-irresistible",
+   "prada-infusion-diris",
+   "hermes-eau-des-merveilles",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "le-labo-santal-33",
+   "le-labo-rose-31",
+   "yves-saint-laurent-tuxedo",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-sedley",
+   "parfums-de-marly-greenley",
+   "parfums-de-marly-carios"
+  ],
+  "note": "Cedar",
+  "gender": "Feminine",
+  "name_fr": "Cèdre",
+  "name_en": "Cedar"
+ },
+ {
+  "id": "ng:Incense:F",
+  "kind": "ng",
+  "slug_fr": "encens/femme",
+  "slug_en": "incense/women",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum encens femme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "calvin-klein-obsession",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "parfums-de-marly-athalia",
+   "parfums-de-marly-delina",
+   "parfums-de-marly-delina-exclusif",
+   "paco-rabanne-fame",
+   "prada-infusion-diris",
+   "byredo-gypsy-water",
+   "hermes-un-jardin-sur-le-nil",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-hamdani",
+   "tom-ford-tuscan-leather",
+   "chanel-coromandel",
+   "lattafa-raghba",
+   "louis-vuitton-ombre-nomade"
+  ],
+  "note": "Incense",
+  "gender": "Feminine",
+  "name_fr": "Encens",
+  "name_en": "Incense"
+ },
+ {
+  "id": "ng:Jasmine:M",
+  "kind": "ng",
+  "slug_fr": "jasmin/homme",
+  "slug_en": "jasmine/men",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum jasmin homme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "creed-aventus",
+   "davidoff-cool-water",
+   "calvin-klein-ck-eternity-for-men",
+   "tom-ford-noir-extreme",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "parfums-de-marly-pegasus",
+   "parfums-de-marly-pegasus-exclusif",
+   "amouage-reflection-man",
+   "yves-saint-laurent-kouros",
+   "abercrombie-fitch-fierce",
+   "calvin-klein-ck-one",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "byredo-bal-dafrique",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "le-labo-another-13",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-percival",
+   "xerjoff-naxos",
+   "penhaligons-halfeti",
+   "mancera-cedrat-boise"
+  ],
+  "note": "Jasmine",
+  "gender": "Masculine",
+  "name_fr": "Jasmin",
+  "name_en": "Jasmine"
+ },
+ {
+  "id": "ng:Ylang-Ylang:F",
+  "kind": "ng",
+  "slug_fr": "ylang-ylang/femme",
+  "slug_en": "ylang-ylang/women",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum ylang ylang femme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "chanel-n-5",
+   "estee-lauder-youth-dew",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "clinique-aromatics-elixir",
+   "caron-tabac-blond",
+   "gucci-bamboo",
+   "guerlain-linstant-de-guerlain",
+   "parfums-de-marly-meliora",
+   "parfums-de-marly-safanad",
+   "chanel-gabrielle",
+   "chanel-n-22",
+   "elizabeth-taylor-white-diamonds",
+   "giorgio-beverly-hills-giorgio",
+   "tom-ford-black-orchid",
+   "editions-de-parfums-frederic-malle-carnal-flower",
+   "tom-ford-soleil-blanc"
+  ],
+  "note": "Ylang-Ylang",
+  "gender": "Feminine",
+  "name_fr": "Ylang-ylang",
+  "name_en": "Ylang-Ylang"
+ },
+ {
+  "id": "fg:floral:M",
+  "kind": "fg",
+  "slug_fr": "floral/homme",
+  "slug_en": "floral/men",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum floral homme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "givenchy-gentleman",
+   "amouage-reflection-man",
+   "montale-black-aoud",
+   "dior-dior-homme-intense",
+   "yves-saint-laurent-myslf",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "byredo-bal-dafrique",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "le-labo-rose-31",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-carlisle",
+   "parfums-de-marly-layton",
+   "initio-parfums-prives-musk-therapy",
+   "maison-francis-kurkdjian-baccarat-rouge-540-extrait",
+   "editions-de-parfums-frederic-malle-carnal-flower",
+   "nishane-ani",
+   "tom-ford-rose-prick",
+   "tom-ford-soleil-blanc",
+   "byredo-super-cedar",
+   "maison-margiela-replica-lazy-sunday-morning",
+   "maison-margiela-replica-bubble-bath"
+  ],
+  "family": "floral",
+  "gender": "Masculine"
+ },
+ {
+  "id": "fg:fougere:M",
+  "kind": "fg",
+  "slug_fr": "fougere/homme",
+  "slug_en": "fougere/men",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum fougère homme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "dior-sauvage",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "creed-green-irish-tweed",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "ralph-lauren-polo-blue",
+   "versace-pour-homme",
+   "versace-eros",
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "giorgio-armani-stronger-with-you",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "jean-paul-gaultier-ultra-male",
+   "yves-saint-laurent-jazz",
+   "paco-rabanne-phantom",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-pegasus",
+   "amouage-jubilation-xxv-man",
+   "versace-dylan-blue-pour-homme",
+   "valentino-valentino-uomo",
+   "yves-saint-laurent-kouros",
+   "prada-luna-rossa-carbon",
+   "guerlain-jicky"
+  ],
+  "family": "fougere",
+  "gender": "Masculine"
+ },
+ {
+  "id": "sg:spring:F",
+  "kind": "sg",
+  "slug_fr": "parfums-printemps/femme",
+  "slug_en": "spring-perfumes/women",
+  "volume": 50,
+  "keywords": [
+   {
+    "kw": "parfum printemps femme",
+    "volume": 50
+   }
+  ],
+  "pool": [
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "guerlain-mitsouko",
+   "estee-lauder-beautiful",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "viktor-rolf-flowerbomb",
+   "guerlain-la-petite-robe-noire",
+   "kenzo-leau-par-kenzo",
+   "dior-dolce-vita",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky"
+  ],
+  "season": "spring",
+  "gender": "Feminine"
+ },
+ {
+  "id": "fg:musky:F",
+  "kind": "fg",
+  "slug_fr": "musque/femme",
+  "slug_en": "musky/women",
+  "volume": 40,
+  "keywords": [
+   {
+    "kw": "parfum musqué femme",
+    "volume": 40
+   }
+  ],
+  "pool": [
+   "narciso-rodriguez-narciso-rodriguez-for-her",
+   "parfums-de-marly-athalia",
+   "parfums-de-marly-palatine",
+   "carolina-herrera-212-vip",
+   "dior-dior-joy",
+   "paco-rabanne-fame",
+   "narciso-rodriguez-narciso",
+   "byredo-bal-dafrique",
+   "initio-parfums-prives-musk-therapy",
+   "byredo-super-cedar",
+   "maison-margiela-replica-lazy-sunday-morning",
+   "maison-margiela-replica-bubble-bath"
+  ],
+  "family": "musky",
+  "gender": "Feminine"
+ },
+ {
+  "id": "ng:Vetiver:M",
+  "kind": "ng",
+  "slug_fr": "vetiver/homme",
+  "slug_en": "vetiver/men",
+  "volume": 35,
+  "keywords": [
+   {
+    "kw": "parfum vétiver homme",
+    "volume": 35
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "azzaro-azzaro-pour-homme",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "versace-eros",
+   "chanel-allure-homme-sport",
+   "dior-fahrenheit-le-parfum",
+   "issey-miyake-nuit-dissey",
+   "parfums-de-marly-shagya",
+   "parfums-de-marly-lippizan",
+   "parfums-de-marly-godolphin",
+   "parfums-de-marly-herod",
+   "parfums-de-marly-byerley",
+   "parfums-de-marly-perseus",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-oud-wood",
+   "byredo-bal-dafrique",
+   "le-labo-rose-31",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-sedley",
+   "parfums-de-marly-carios",
+   "initio-parfums-prives-rehab",
+   "le-labo-bergamote-22",
+   "byredo-super-cedar"
+  ],
+  "note": "Vetiver",
+  "gender": "Masculine",
+  "name_fr": "Vétiver",
+  "name_en": "Vetiver"
+ },
+ {
+  "id": "ng:Tonka Bean:F",
+  "kind": "ng",
+  "slug_fr": "feve-tonka/femme",
+  "slug_en": "tonka-bean/women",
+  "volume": 33,
+  "keywords": [
+   {
+    "kw": "parfum tonka femme",
+    "volume": 20
+   },
+   {
+    "kw": "parfum fève tonka femme",
+    "volume": 13
+   }
+  ],
+  "pool": [
+   "guerlain-shalimar",
+   "thierry-mugler-angel",
+   "guerlain-la-petite-robe-noire",
+   "carolina-herrera-good-girl",
+   "chanel-coco",
+   "dior-dior-addict",
+   "jean-paul-gaultier-scandal",
+   "parfums-de-marly-cassili",
+   "carolina-herrera-212-vip",
+   "carolina-herrera-good-girl-supreme",
+   "yves-saint-laurent-libre-intense",
+   "roberto-cavalli-roberto-cavalli",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "guerlain-jicky",
+   "tom-ford-lost-cherry",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-carlisle",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-kalan",
+   "parfums-de-marly-carios",
+   "parfums-de-marly-eragon",
+   "xerjoff-naxos",
+   "penhaligons-halfeti",
+   "maison-francis-kurkdjian-grand-soir",
+   "editions-de-parfums-frederic-malle-musc-ravageur",
+   "by-kilian-angels-share",
+   "tom-ford-bitter-peach",
+   "tom-ford-rose-prick"
+  ],
+  "note": "Tonka Bean",
+  "gender": "Feminine",
+  "name_fr": "Fève tonka",
+  "name_en": "Tonka Bean"
+ },
+ {
+  "id": "ng:Mint:M",
+  "kind": "ng",
+  "slug_fr": "menthe/homme",
+  "slug_en": "mint/men",
+  "volume": 30,
+  "keywords": [
+   {
+    "kw": "parfum menthe homme",
+    "volume": 30
+   }
+  ],
+  "pool": [
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "davidoff-cool-water",
+   "versace-eros",
+   "parfums-de-marly-darley",
+   "parfums-de-marly-sedley"
+  ],
+  "note": "Mint",
+  "gender": "Masculine",
+  "name_fr": "Menthe",
+  "name_en": "Mint"
+ },
+ {
+  "id": "ng:Grapefruit:F",
+  "kind": "ng",
+  "slug_fr": "pamplemousse/femme",
+  "slug_en": "grapefruit/women",
+  "volume": 30,
+  "keywords": [
+   {
+    "kw": "parfum pamplemousse femme",
+    "volume": 30
+   }
+  ],
+  "pool": [
+   "chanel-coco-mademoiselle",
+   "parfums-de-marly-oriana",
+   "chanel-chance-eau-tendre",
+   "chanel-gabrielle",
+   "hermes-jour-dhermes",
+   "jennifer-lopez-glow",
+   "jo-malone-wood-sage-sea-salt",
+   "hermes-un-jardin-sur-le-nil",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-sedley",
+   "penhaligons-halfeti",
+   "le-labo-bergamote-22",
+   "nishane-hacivat",
+   "acqua-di-parma-fico-di-amalfi"
+  ],
+  "note": "Grapefruit",
+  "gender": "Feminine",
+  "name_fr": "Pamplemousse",
+  "name_en": "Grapefruit"
+ },
+ {
+  "id": "sg:spring:M",
+  "kind": "sg",
+  "slug_fr": "parfums-printemps/homme",
+  "slug_en": "spring-perfumes/men",
+  "volume": 30,
+  "keywords": [
+   {
+    "kw": "parfum printemps homme",
+    "volume": 30
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "creed-aventus",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "azzaro-azzaro-pour-homme",
+   "davidoff-cool-water",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme",
+   "creed-green-irish-tweed",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky"
+  ],
+  "season": "spring",
+  "gender": "Masculine"
+ },
+ {
+  "id": "best:giorgio-armani:M",
+  "kind": "best",
+  "slug_fr": "giorgio-armani-homme",
+  "slug_en": "giorgio-armani-men",
+  "volume": 30,
+  "keywords": [
+   {
+    "kw": "meilleur parfum armani homme",
+    "volume": 30
+   }
+  ],
+  "pool": [
+   "giorgio-armani-acqua-di-gio",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "giorgio-armani-stronger-with-you",
+   "giorgio-armani-code",
+   "giorgio-armani-acqua-di-gio-absolu",
+   "giorgio-armani-stronger-with-you-intensely"
+  ],
+  "brand": "Giorgio Armani",
+  "gender": "Masculine"
+ },
+ {
+  "id": "fg:aromatic:M",
+  "kind": "fg",
+  "slug_fr": "aromatique/homme",
+  "slug_en": "aromatic/men",
+  "volume": 20,
+  "keywords": [
+   {
+    "kw": "parfum aromatique homme",
+    "volume": 20
+   }
+  ],
+  "pool": [
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "giorgio-armani-acqua-di-gio",
+   "azzaro-chrome",
+   "chanel-bleu-de-chanel",
+   "dior-sauvage",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "davidoff-cool-water",
+   "creed-green-irish-tweed",
+   "ralph-lauren-polo-blue",
+   "montblanc-explorer",
+   "versace-pour-homme",
+   "versace-eros",
+   "prada-luna-rossa",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "yves-saint-laurent-y",
+   "cerruti-1881",
+   "calvin-klein-ck-eternity-for-men",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "jo-malone-wood-sage-sea-salt",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "tom-ford-neroli-portofino",
+   "acqua-di-parma-colonia",
+   "parfums-de-marly-galloway"
+  ],
+  "family": "aromatic",
+  "gender": "Masculine"
+ },
+ {
+  "id": "best:mixtes",
+  "kind": "best",
+  "slug_fr": "mixtes",
+  "slug_en": "unisex",
+  "volume": 20,
+  "keywords": [
+   {
+    "kw": "meilleur parfum mixte",
+    "volume": 20
+   }
+  ],
+  "pool": [
+   "calvin-klein-ck-one",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-un-jardin-sur-le-nil",
+   "creed-silver-mountain-water",
+   "guerlain-jicky",
+   "jo-malone-peony-blush-suede",
+   "jo-malone-english-pear-freesia",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01",
+   "tom-ford-ombre-leather",
+   "tom-ford-lost-cherry",
+   "tom-ford-neroli-portofino",
+   "le-labo-another-13",
+   "le-labo-rose-31",
+   "tom-ford-noir-de-noir",
+   "maison-francis-kurkdjian-oud-satin-mood",
+   "yves-saint-laurent-tuxedo",
+   "maison-margiela-replica-by-the-fireplace",
+   "acqua-di-parma-colonia",
+   "byredo-mojave-ghost",
+   "parfums-de-marly-habdan",
+   "parfums-de-marly-oajan",
+   "parfums-de-marly-kuhuyan",
+   "parfums-de-marly-hamdani",
+   "parfums-de-marly-galloway",
+   "parfums-de-marly-akaster",
+   "parfums-de-marly-carlisle",
+   "parfums-de-marly-layton",
+   "parfums-de-marly-nisean",
+   "parfums-de-marly-layton-exclusif",
+   "parfums-de-marly-percival",
+   "parfums-de-marly-sedley"
+  ],
+  "gender": "Unisex"
+ },
+ {
+  "id": "sg:autumn:M",
+  "kind": "sg",
+  "slug_fr": "parfums-automne/homme",
+  "slug_en": "autumn-perfumes/men",
+  "volume": 10,
+  "keywords": [
+   {
+    "kw": "parfum automne homme",
+    "volume": 10
+   }
+  ],
+  "pool": [
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "dior-sauvage",
+   "creed-aventus",
+   "hermes-terre-dhermes",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "dior-fahrenheit",
+   "dior-dior-homme",
+   "azzaro-wanted",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "viktor-rolf-spicebomb",
+   "montblanc-explorer",
+   "versace-eros",
+   "prada-lhomme",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "guerlain-jicky",
+   "jo-malone-english-pear-freesia",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01"
+  ],
+  "season": "autumn",
+  "gender": "Masculine"
+ },
+ {
+  "id": "sg:autumn:F",
+  "kind": "sg",
+  "slug_fr": "parfums-automne/femme",
+  "slug_en": "autumn-perfumes/women",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "chanel-allure",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien",
+   "viktor-rolf-flowerbomb",
+   "tom-ford-black-orchid",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "guerlain-jicky",
+   "jo-malone-english-pear-freesia",
+   "juliette-has-a-gun-not-a-perfume",
+   "escentric-molecules-molecule-01"
+  ],
+  "season": "autumn",
+  "gender": "Feminine"
+ },
+ {
+  "id": "nose:carlos-benaim",
+  "kind": "nose",
+  "slug_fr": "carlos-benaim",
+  "slug_en": "carlos-benaim",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "ralph-lauren-polo",
+   "viktor-rolf-flowerbomb",
+   "yves-saint-laurent-libre",
+   "giorgio-armani-my-way",
+   "calvin-klein-ck-eternity-for-men",
+   "calvin-klein-euphoria"
+  ],
+  "perfumer": "Carlos Benaïm"
+ },
+ {
+  "id": "nose:olivier-cresp",
+  "kind": "nose",
+  "slug_fr": "olivier-cresp",
+  "slug_en": "olivier-cresp",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "thierry-mugler-angel",
+   "dolce-gabbana-light-blue",
+   "yves-saint-laurent-mon-paris",
+   "yves-saint-laurent-black-opium",
+   "givenchy-gentleman",
+   "dolce-gabbana-light-blue-eau-intense"
+  ],
+  "perfumer": "Olivier Cresp"
+ },
+ {
+  "id": "nose:anne-flipo",
+  "kind": "nose",
+  "slug_fr": "anne-flipo",
+  "slug_en": "anne-flipo",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "lancome-la-vie-est-belle",
+   "paco-rabanne-invictus",
+   "yves-saint-laurent-libre",
+   "yves-saint-laurent-la-nuit-de-lhomme",
+   "givenchy-linterdit",
+   "paco-rabanne-lady-million"
+  ],
+  "perfumer": "Anne Flipo"
+ },
+ {
+  "id": "nose:jerome-epinette",
+  "kind": "nose",
+  "slug_fr": "jerome-epinette",
+  "slug_en": "jerome-epinette",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "byredo-mojave-ghost",
+   "byredo-blanche",
+   "byredo-super-cedar"
+  ],
+  "perfumer": "Jérôme Epinette"
+ },
+ {
+  "id": "nose:daniela-andrier",
+  "kind": "nose",
+  "slug_fr": "daniela-andrier",
+  "slug_en": "daniela-andrier",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "prada-luna-rossa",
+   "prada-lhomme",
+   "prada-candy",
+   "prada-infusion-diris",
+   "prada-luna-rossa-carbon"
+  ],
+  "perfumer": "Daniela Andrier"
+ },
+ {
+  "id": "nose:aurelien-guichard",
+  "kind": "nose",
+  "slug_fr": "aurelien-guichard",
+  "slug_en": "aurelien-guichard",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "versace-eros",
+   "gucci-guilty",
+   "narciso-rodriguez-narciso",
+   "gucci-guilty-pour-homme"
+  ],
+  "perfumer": "Aurélien Guichard"
+ },
+ {
+  "id": "nose:jean-claude-ellena",
+  "kind": "nose",
+  "slug_fr": "jean-claude-ellena",
+  "slug_en": "jean-claude-ellena",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "hermes-terre-dhermes",
+   "hermes-un-jardin-sur-le-nil",
+   "hermes-jour-dhermes"
+  ],
+  "perfumer": "Jean-Claude Ellena"
+ },
+ {
+  "id": "nose:jacques-guerlain",
+  "kind": "nose",
+  "slug_fr": "jacques-guerlain",
+  "slug_en": "jacques-guerlain",
+  "volume": 0,
+  "keywords": [],
+  "pool": [
+   "guerlain-shalimar",
+   "guerlain-mitsouko",
+   "guerlain-vol-de-nuit"
+  ],
+  "perfumer": "Jacques Guerlain"
+ }
+]

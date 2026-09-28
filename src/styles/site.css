@@ -450,3 +450,21 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .game-howto details p { margin-top: 0.5rem; }
 .game-howto__links { margin-top: 1.5rem; }
 .game-howto__links a { color: var(--color-accent); }
+
+/* ---------------------------------------------------------- ranked selections */
+.ranked { list-style: none; display: grid; gap: 1rem; padding: 0; }
+.ranked__item {
+  display: grid; grid-template-columns: auto 5.5rem 1fr; gap: 1rem; align-items: start;
+  padding: 1.1rem; border: 1px solid var(--line); border-radius: 20px; background: #fff;
+}
+.ranked__n { font-family: var(--serif); font-size: 2.2rem; line-height: 1; color: var(--wine); width: 2rem; text-align: center; }
+.ranked__media { aspect-ratio: 1; border-radius: 14px; }
+.ranked__body p { font-size: 0.97rem; color: var(--ink-2); }
+.ranked__body .card__house { font-size: 0.78rem; }
+.tag--link { background: none; border: 1px solid var(--wine); color: var(--wine); }
+@media (min-width: 720px) { .ranked__item { grid-template-columns: auto 8rem 1fr; gap: 1.4rem; padding: 1.4rem; } }
+@media (max-width: 480px) {
+  .ranked__item { grid-template-columns: auto 1fr; }
+  .ranked__media { grid-column: 2; max-width: 7rem; }
+  .ranked__body { grid-column: 1 / -1; }
+}

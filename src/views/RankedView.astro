@@ -1,0 +1,143 @@
+---
+/**
+ * Ranked page ("sélection commentée"): direct answer + editorial sections + numbered picks with a
+ * hand-written "why" for each + the rest of the candidate pool + sibling pages + FAQ.
+ * Used by note × genre, famille × genre, saison × genre, meilleurs parfums, parfumeurs and guides.
+ */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import { url, allNotes, noteName, hasNotePage, tintFor, familyLabel } from '../lib/catalog';
+import { rankedUrl, rankedCopy, picksOf, othersOf, parentOf, relatedOf, type RankedDef } from '../lib/ranked';
+import { isPublished } from '../lib/schedule';
+import schedule from '../data/publish-schedule.json';
+import { breadcrumbLd, faqLd, itemListLd, articleLd, compact } from '../lib/seo';
+
+interface Props { d: RankedDef; locale: Locale }
+const { d, locale: l } = Astro.props;
+const fr = l === 'fr';
+const other: Locale = fr ? 'en' : 'fr';
+const c = rankedCopy(d.id)![l];
+const picks = picksOf(d);
+const others = othersOf(d);
+const path = rankedUrl(d, l);
+const parent = parentOf(d, l);
+const related = relatedOf(d, l);
+const published = (schedule.ranked as Record<string, string>)[d.id];
+
+const crumbs = [{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, parent, { name: c.h1 }];
+const EYEBROW: Record<string, [string, string]> = {
+  ng: ['Note × genre', 'Note × gender'], fg: ['Famille × genre', 'Family × gender'], sg: ['Saison', 'Season'],
+  best: ['Classement', 'Ranking'], nose: ['Parfumeur', 'Perfumer'], guide: ['Guide', 'Guide'],
+};
+const eyebrow = EYEBROW[d.kind][fr ? 0 : 1];
+const mosaic = picks.filter((p) => p.image).slice(0, 3);
+const noteChips = (slug: string) => {
+  const p = picks.find((x) => x.slug === slug)!;
+  const own = d.note ? [d.note, ...allNotes(p).filter((n) => n !== d.note)] : allNotes(p);
+  return own.filter(hasNotePage).slice(0, 4);
+};
+
+const jsonLd = compact([
+  { ...articleLd({ headline: c.h1, description: c.meta, path, lang: l, image: mosaic[0]?.image ?? undefined, about: c.h1 }), ...(published ? { datePublished: published } : {}) },
+  breadcrumbLd(crumbs),
+  itemListLd(c.h1, picks.map((p) => ({ name: `${p.name} (${p.brand})`, href: url.perfume(l, p.slug) }))),
+  faqLd(c.faq),
+]);
+---
+
+<Layout title={c.title} description={c.meta} locale={l} alternates={{ [l]: path, [other]: rankedUrl(d, other) } as Record<Locale, string>} jsonLd={jsonLd} image={mosaic[0]?.image ?? undefined} ogType="article">
+  <div class="page">
+    <Header locale={l} altHref={rankedUrl(d, other)} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={crumbs} />
+        <section class="entity-hero">
+          <div class="entity-hero__copy">
+            <p class="eyebrow reveal">{eyebrow}</p>
+            <h1 class="h1 reveal reveal-2">{c.h1}</h1>
+            <p class="lede reveal reveal-3">{c.intro}</p>
+            <div class="stat-row reveal reveal-4">
+              <div><strong>{picks.length}</strong><span>{fr ? 'parfums commentés' : 'perfumes reviewed'}</span></div>
+              {others.length > 0 && <div><strong>{picks.length + others.length}</strong><span>{fr ? 'parfums comparés' : 'perfumes compared'}</span></div>}
+            </div>
+          </div>
+          <div class="entity-hero__media reveal" style={`background:${picks[0] ? tintFor(picks[0]) : '#E9E3DA'}`}>
+            {mosaic.length > 0 && (
+              <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;width:90%;align-items:end">
+                {mosaic.map((p, i) => <img src={p.image!} alt={`${p.name} ${p.brand}`} width="600" height="600" style={`width:100%;height:auto;mix-blend-mode:multiply;transform:translateY(${i === 1 ? '-12%' : '0'}) scale(${i === 1 ? 1.15 : 1})`} loading="eager" />)}
+              </div>
+            )}
+          </div>
+        </section>
+      </div>
+
+      <div class="wrap section--tight">
+        <article class="prose wrap--text" style="max-width:46rem;margin:0 auto">
+          {c.sections.map((s, i) => (
+            <>
+              <h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2>
+              <p class={i === 0 ? 'dropcap' : ''}>{s.body}</p>
+            </>
+          ))}
+        </article>
+      </div>
+
+      <section class="section--tight">
+        <div class="wrap wrap--text" style="max-width:56rem">
+          <p class="eyebrow">{fr ? 'Notre sélection' : 'Our selection'}</p>
+          <h2 class="h2" style="margin:0.4rem 0 1.4rem">{fr ? `${picks.length} parfums, dans l'ordre` : `${picks.length} perfumes, in order`}</h2>
+          <ol class="ranked">
+            {picks.map((p, i) => (
+              <li class="ranked__item">
+                <span class="ranked__n">{i + 1}</span>
+                <a href={url.perfume(l, p.slug)} class="card__media ranked__media" style={`background:${tintFor(p)}`}>
+                  {p.image && <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading={i < 2 ? 'eager' : 'lazy'} />}
+                </a>
+                <div class="ranked__body">
+                  <p class="card__house">{p.brand} · {p.year} · {familyLabel(p.family, l)}</p>
+                  <h3 class="h3" style="margin:0.15rem 0 0.5rem"><a href={url.perfume(l, p.slug)}>{p.name}</a></h3>
+                  <p>{c.why?.[p.slug]}</p>
+                  <div class="tags" style="margin-top:0.7rem">
+                    {noteChips(p.slug).map((n) => <a class="tag" href={url.note(l, n)}>{noteName(n, l)}</a>)}
+                    {isPublished('similar', p.slug) && <a class="tag tag--link" href={url.similar(l, p.slug)}>{fr ? 'Parfums similaires' : 'Similar perfumes'}</a>}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      {others.length > 0 && (
+        <section class="section--tight">
+          <div class="wrap">
+            <p class="eyebrow">{fr ? 'Pour aller plus loin' : 'Going further'}</p>
+            <h2 class="h2" style="margin:0.4rem 0 1.4rem">{fr ? 'Les autres parfums que nous avons comparés' : 'The other perfumes we compared'}</h2>
+            <div class="cards">{others.map((p) => <PerfumeCard p={p} locale={l} />)}</div>
+          </div>
+        </section>
+      )}
+
+      <section class="section--tight">
+        <div class="wrap">
+          <p class="eyebrow">{fr ? 'À lire aussi' : 'Read next'}</p>
+          <h2 class="h2" style="margin:0.4rem 0 1.4rem">{fr ? 'Sélections proches' : 'Related selections'}</h2>
+          <div class="chips">
+            <a class="chip chip--lg" href={parent.href}>{parent.name}</a>
+            {related.map((it) => <a class="chip chip--lg" href={it.href}>{it.label}</a>)}
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap wrap--text">
+        <Faq items={c.faq} title={fr ? 'Questions fréquentes' : 'Frequently asked questions'} />
+      </div>
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>

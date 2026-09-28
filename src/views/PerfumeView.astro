@@ -12,6 +12,7 @@ import {
 } from '../lib/catalog';
 import { breadcrumbLd, faqLd, compact } from '../lib/seo';
 import { isPublished } from '../lib/schedule';
+import { rankedLinks, rankedCopy, liveOfKind, rankedUrl } from '../lib/ranked';
 
 interface Props { p: Perfume; locale: Locale }
 const { p, locale: l } = Astro.props;
@@ -30,6 +31,9 @@ const lc = (s: string) => (fr ? s.toLowerCase() : s);
 const gender = GENDER_LABEL[l][p.gender];
 const decade = decadeOf(p.year);
 const hasSimilarPage = isPublished('similar', p.slug);
+const selections = rankedLinks(l, (d) => d.kind !== 'nose' && !!rankedCopy(d.id)?.picks?.includes(p.slug)).slice(0, 8);
+const perfumerNames = (ed?.perfumer ?? '').split(/,| et | and |&/).map((s) => s.trim()).filter(Boolean);
+const noseHref = (n: string) => { const d = liveOfKind('nose').find((x) => x.perfumer === n); return d ? rankedUrl(d, l) : null; };
 
 const tiers = [
   { key: 'top', title: fr ? 'Notes de tête' : 'Top notes', hint: fr ? 'Les premières minutes' : 'The first minutes', notes: p.notes.top },
@@ -130,7 +134,7 @@ const jsonLd = compact([
               <div><dt>{fr ? 'Pour' : 'For'}</dt><dd><a href={url.gender(l, p.gender)}>{gender}</a></dd></div>
               <div><dt>{fr ? 'Famille' : 'Family'}</dt><dd>{p.families[0] && hasFamilyPage(p.families[0]) ? <a href={url.family(l, p.families[0])}>{familyLabel(p.family, l)}</a> : familyLabel(p.family, l)}</dd></div>
               <div><dt>Concentration</dt><dd>{p.concentration}</dd></div>
-              {ed?.perfumer && <div><dt>{fr ? 'Parfumeur' : 'Perfumer'}</dt><dd>{ed.perfumer}</dd></div>}
+              {ed?.perfumer && <div><dt>{fr ? 'Parfumeur' : 'Perfumer'}</dt><dd>{perfumerNames.map((n, i) => <>{i > 0 && ', '}{noseHref(n) ? <a href={noseHref(n)!}>{n}</a> : n}</>)}</dd></div>}
             </dl>
           </div>
         </section>
@@ -190,6 +194,12 @@ const jsonLd = compact([
                 <div class="tags" style="margin-top:0.4rem">{ed.seasons.map((s) => <a class="tag" href={url.season(l, s)}>{SEASON_LABEL[l][s as keyof typeof SEASON_LABEL.fr]}</a>)}</div>
                 <p class="eyebrow" style="color:var(--muted);margin-top:1.1rem">{fr ? 'Occasions' : 'Occasions'}</p>
                 <div class="tags" style="margin-top:0.4rem">{ed.occasions.map((o) => <span class="tag">{OCCASION_LABEL[l][o as keyof typeof OCCASION_LABEL.fr] ?? o}</span>)}</div>
+                {selections.length > 0 && (
+                  <>
+                    <p class="eyebrow" style="color:var(--muted);margin-top:1.1rem">{fr ? 'Dans nos sélections' : 'In our selections'}</p>
+                    <div class="tags" style="margin-top:0.4rem">{selections.map((x) => <a class="tag" href={x.href}>{x.label}</a>)}</div>
+                  </>
+                )}
               </div>
             )}
             <div class="aside-card" style="background:var(--ink);color:var(--paper);border-color:var(--ink)">

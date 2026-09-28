@@ -1,6 +1,7 @@
 ---
 import { type Locale } from '../i18n';
 import { url, families, notes, brands, familyName, noteName, GUIDES, genders, seasons } from '../lib/catalog';
+import { liveOfKind, hubCopy, rankedBase } from '../lib/ranked';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -9,6 +10,9 @@ const year = new Date().getFullYear();
 
 const topBrands = [...brands].sort((a, b) => b.perfumes.length - a.perfumes.length).slice(0, 10);
 const topNotes = notes.slice(0, 10);
+const hubs = (['best', 'nose', 'guide'] as const)
+  .filter((k) => liveOfKind(k).length && hubCopy(k))
+  .map((k) => ({ href: rankedBase[k](locale), label: { best: fr ? 'Meilleurs parfums' : 'Best perfumes', nose: fr ? 'Parfumeurs' : 'Perfumers', guide: fr ? 'Guides pratiques' : 'Practical guides' }[k] }));
 ---
 
 <footer class="colophon">
@@ -38,6 +42,7 @@ const topNotes = notes.slice(0, 10);
     </nav>
     <nav aria-label="Guides">
       <h2>Guides</h2>
+      {hubs.map((h) => <a href={h.href}><strong>{h.label}</strong></a>)}
       {GUIDES.map((g) => <a href={`/${locale}/${g.slug}/`}>{fr ? g.fr : g.en}</a>)}
     </nav>
   </div>

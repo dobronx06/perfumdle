@@ -1,0 +1,13 @@
+---
+import RankedView from '../../../../views/RankedView.astro';
+import { liveOfKind, rankedUrl } from '../../../../lib/ranked';
+
+export function getStaticPaths() {
+  return liveOfKind('fg').map((d) => {
+    const [, , , slug, g] = rankedUrl(d, 'fr').split('/');
+    return { params: { slug, g }, props: { d } };
+  });
+}
+---
+
+<RankedView d={Astro.props.d} locale="fr" />

@@ -1,0 +1,696 @@
+{
+ "_data_issues": [
+  "nina-ricci-lair-du-temps: tagline_fr évoque un « bouquet d'œillet » alors que l'œillet n'apparaît pas dans les notes (tête/cœur/fond).",
+  "lancome-tresor: tagline_fr parle de « rose abricotée » mais la pyramide liste pêche, pas abricot.",
+  "guerlain-habit-rouge: verdict_fr publié contient « intemporel », mot banni par WRITING_RULES.md."
+ ],
+ "ng:Patchouli:F": {
+  "picks": [
+   "chanel-coco-mademoiselle",
+   "thierry-mugler-angel",
+   "clinique-aromatics-elixir",
+   "editions-de-parfums-frederic-malle-portrait-of-a-lady",
+   "dior-miss-dior",
+   "chanel-chance",
+   "giorgio-armani-si",
+   "viktor-rolf-flowerbomb",
+   "lancome-la-vie-est-belle"
+  ],
+  "fr": {
+   "title": "Parfum au patchouli femme : 9 choix, du chypre au gourmand",
+   "meta": "Coco Mademoiselle, Angel et Aromatics Elixir : notre classement des parfums au patchouli pour femme, du patchouli propre au plus sombre.",
+   "h1": "Les meilleurs parfums femme au patchouli, classés et comparés",
+   "intro": "Pour un parfum au patchouli féminin facile à porter, notre premier choix est Coco Mademoiselle : un patchouli nettoyé, glissé sous des agrumes et une rose au litchi. Angel arrive deuxième pour celles qui veulent la version spectaculaire, collée à la barbe à papa. Aromatics Elixir ferme le podium. C'est le choix des amatrices de chypres sombres qui ne craignent pas la puissance. Le reste de la liste couvre les autres façons de le porter, de la légèreté de Chance à la rose théâtrale de Portrait of a Lady.",
+   "sections": [
+    {
+     "title": "Le patchouli côté féminin : une base qu'on habille",
+     "body": "Dans un parfum pour femme, le patchouli joue rarement en solo. Il sert de plancher à des fleurs, à du fruit ou à du sucre, et c'est ce qu'on pose dessus qui décide du caractère. Côté masculin, il fréquente la lavande, le cuir et le café avec un profil plus sec. Côté féminin, ses partenaires s'appellent rose, jasmin ou praline. Huit parfums sur neuf dans notre sélection le placent en fond. Seul Portrait of a Lady le fait monter au cœur. Autre différence nette : depuis Coco Mademoiselle en 2001, la parfumerie féminine grand public préfère un patchouli propre, débarrassé de son côté cave humide. Chance l'utilise ainsi, Sì aussi. Le patchouli terreux et camphré des années 1970 reste l'affaire des chypres, et il faut aller le chercher chez Aromatics Elixir ou dans le Miss Dior de 1947."
+    },
+    {
+     "title": "Chypre, floral ou gourmand : trois manières de le porter",
+     "body": "Le chypre est la forme historique. Patchouli et mousse de chêne y forment un fond sec, un peu amer, que Miss Dior éclaire au galbanum et qu'Aromatics Elixir épaissit de camomille. C'est élégant et exigeant. Le chypre moderne garde le patchouli mais retire la mousse : Coco Mademoiselle, Chance et Sì posent dessus des agrumes, du cassis ou de la jacinthe. C'est la famille la plus portable au bureau. Reste le gourmand, né avec Angel en 1992. Le patchouli y sert de contrepoids à la barbe à papa, au caramel et à la praline de La Vie Est Belle. Sans lui, ces parfums tourneraient à la confiserie. Pour choisir, testez sur la peau et attendez deux heures avant de juger. Le patchouli se révèle dans le fond, pas sur la mouillette."
+    },
+    {
+     "title": "Doser un parfum au patchouli sans saturer la pièce",
+     "body": "Quatre parfums de cette liste atteignent l'intensité maximale de notre échelle : Angel, Aromatics Elixir, Portrait of a Lady et La Vie Est Belle. Pour eux, une pulvérisation à la base du cou et une sur un vêtement en laine suffisent largement. Le patchouli s'accroche aux fibres et se sent encore le lendemain sur une écharpe. En été, on se tourne vers Chance, le seul de la sélection conseillé aux beaux jours. Au bureau, Coco Mademoiselle et Miss Dior passent sans gêner personne. Le soir et par temps froid, les gourmands et Portrait of a Lady prennent toute leur ampleur. Un conseil : ne superposez pas un lait parfumé vanillé, le patchouli gourmand n'en a pas besoin."
+    }
+   ],
+   "why": {
+    "chanel-coco-mademoiselle": "Notre numéro un, parce qu'il a appris aux femmes à aimer un patchouli qui ne sent ni la cave ni l'encens. Orange et pamplemousse l'allègent, la rose au litchi l'arrondit. Il convient au bureau comme à un dîner. Son défaut vient de son succès : on le croise partout. Chance en garde l'idée avec plus d'humour et moins de tenue.",
+    "thierry-mugler-angel": "Voici le patchouli le plus reconnaissable de la liste, collé à la barbe à papa et au chocolat. Olivier Cresp a créé là le gourmand moderne, et le patchouli en est la moitié sombre. Il clive. Une pulvérisation suffit, deux saturent un ascenseur. Face à La Vie Est Belle, il est plus rugueux et beaucoup moins consensuel.",
+    "clinique-aromatics-elixir": "Pour celles qui veulent sentir la terre et les herbes. Camomille, rose et mousse de chêne posées sur patchouli et vétiver donnent un chypre sombre, presque médicinal, d'une autorité rare. Bernard Chant ne cherchait pas à plaire. C'est plus dur que Miss Dior et bien plus puissant. On le réserve aux soirées d'hiver et aux peaux qui aiment les parfums sérieux.",
+    "editions-de-parfums-frederic-malle-portrait-of-a-lady": "Ici le patchouli monte au cœur, à côté de l'encens et de la cannelle, et une rose rouge s'y noie. Le résultat est théâtral, dense et d'une tenue énorme. C'est le choix des amatrices de rose sombre. Moins sucré qu'Angel, il est tout aussi imposant. À éviter en journée d'été ou dans un open space.",
+    "dior-miss-dior": "Retour au patchouli d'origine : un fond de chypre avec mousse de chêne et labdanum, ouvert par un galbanum tranchant. Il n'a rien à voir avec les Miss Dior récents. Plus léger qu'Aromatics Elixir, il reste austère pour un nez habitué au sucre. Parfait pour une journée de travail où l'on veut paraître nette.",
+    "chanel-chance": "Le patchouli le plus léger de la sélection. Baies roses, ananas et jacinthe le font pétiller, et il se porte même au printemps ou en été. C'est la bonne porte d'entrée pour une première rencontre avec la note. La tenue reste celle d'une eau de toilette : comptez une retouche l'après-midi, là où Coco Mademoiselle tient la journée.",
+    "giorgio-armani-si": "Christine Nagel a posé le patchouli sous un nectar de cassis et une vanille épaisse. On obtient un chypre moderne tout en rondeur, plus sucré que Coco Mademoiselle et moins bruyant que Flowerbomb. Le patchouli s'efface un peu derrière la vanille au fil de la soirée. C'est son défaut, et c'est aussi pour ça qu'il plaît autant.",
+    "viktor-rolf-flowerbomb": "Un nuage de fleurs sucrées qui atterrit sur un lit de patchouli et de musc. La note sert de charpente plus que de vedette. Si vous aimez les floraux denses du soir, c'est une valeur sûre. Pour qui préfère la transparence, il est trop compact. Plus floral que La Vie Est Belle, moins gourmand qu'Angel.",
+    "lancome-la-vie-est-belle": "Iris, praline et vanille dominent, le patchouli tient le fond et empêche le tout de tourner au bonbon. C'est le patchouli le plus doux de la liste, noyé dans le sucre. Son efficacité est redoutable et sa puissance aussi : une seule pulvérisation. Pour un patchouli plus visible, remontez vers Angel."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum au patchouli pour femme ?",
+     "a": "Pour la plupart des femmes, Coco Mademoiselle. Son patchouli est propre, porté par des agrumes et une rose, et il passe partout. Si vous voulez un patchouli plus marqué, Angel le mêle au gourmand et Aromatics Elixir le montre sous son jour le plus terreux, dans un chypre très puissant."
+    },
+    {
+     "q": "Parfum au patchouli femme : est-ce que ça sent le hippie ?",
+     "a": "Pas dans les parfums de cette sélection. L'huile de patchouli pure a ce côté terreux et camphré qu'on associe aux années 1970. En parfumerie féminine moderne, on utilise souvent une version fractionnée, plus boisée et plus nette. Chance ou Coco Mademoiselle n'ont rien de l'encens de boutique indienne."
+    },
+    {
+     "q": "Quel parfum patchouli femme pour l'été ?",
+     "a": "Chance est le plus adapté : baies roses, ananas et jacinthe allègent son patchouli, et il est conseillé du printemps à l'été. Évitez en revanche Angel, Portrait of a Lady ou La Vie Est Belle par forte chaleur. Leur fond devient pesant sur une peau chaude."
+    },
+    {
+     "q": "Le patchouli tient-il longtemps sur la peau ?",
+     "a": "Oui, c'est une des notes de fond les plus tenaces. Dans les parfums notés 5 sur notre échelle d'intensité, il se sent encore le soir et sur les vêtements le lendemain. Une eau de toilette comme Chance ou Miss Dior tient moins longtemps, parce que la concentration est plus faible."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best patchouli perfumes for women: 9 picks ranked",
+   "meta": "From Coco Mademoiselle to Angel and Aromatics Elixir: the best patchouli perfumes for women, from clean and bright to dark and earthy.",
+   "h1": "Patchouli perfumes for women, ranked and compared",
+   "intro": "If you want one patchouli perfume that works almost anywhere, start with Coco Mademoiselle. Its patchouli is clean, dressed in citrus and a lychee-tinged rose. Angel is our number two for anyone who wants the loud version, welded to cotton candy. Aromatics Elixir rounds out the top three. It is the dark, herbal chypre for people who like power. The rest of the list covers lighter and sweeter takes, from Chance to the red rose of Portrait of a Lady.",
+   "sections": [
+    {
+     "title": "How patchouli behaves in women's perfume",
+     "body": "In feminine perfumes, patchouli is almost never the lead. It is the floor. What sits on top of it (rose, jasmine or praline) sets the mood. In men's fragrances it tends to keep company with lavender, leather and coffee, and it reads drier. Eight of our nine picks use it as a base note, and only Portrait of a Lady lifts it into the heart. The other big shift came in 2001 with Coco Mademoiselle. Since then, mainstream women's perfume has favored a cleaned-up patchouli that keeps the woodiness and drops the damp cellar smell. Chance and Sì work the same way. If you want the old earthy, camphor-edged patchouli, you have to go to the chypres: Aromatics Elixir or the original 1947 Miss Dior. Neither is shy."
+    },
+    {
+     "title": "Chypre, floral or gourmand: pick your style",
+     "body": "The chypre is the classic form. Patchouli and oakmoss make a dry, slightly bitter base. Miss Dior lifts it with sharp galbanum while Aromatics Elixir thickens it with chamomile. Beautiful, but demanding. The modern chypre keeps the patchouli and drops the moss. Coco Mademoiselle, Chance and Sì put citrus, cassis or hyacinth on top, and that is the easiest family to wear to work. Then there is gourmand, born with Angel in 1992. Here patchouli is the counterweight to cotton candy, caramel and the praline in La Vie Est Belle. Take it out and these perfumes would smell like a candy store. Test on skin and wait two hours before deciding. Patchouli shows up in the drydown, not on a paper strip."
+    },
+    {
+     "title": "Wearing patchouli without filling the room",
+     "body": "Four perfumes on this list hit the top of our intensity scale: Angel, Aromatics Elixir, Portrait of a Lady and La Vie Est Belle. One spray at the base of the neck and one on a wool layer is plenty. Patchouli clings to fabric and can still be on a scarf the next morning. For summer, Chance is the one to reach for. Coco Mademoiselle and Miss Dior are safe in an office. The gourmands and Portrait of a Lady come into their own on cold evenings. One practical tip: skip the vanilla body lotion underneath. A gourmand patchouli is sweet enough already, and layering sugar on sugar only makes it cloying."
+    }
+   ],
+   "why": {
+    "chanel-coco-mademoiselle": "Our top pick because it taught a generation to love patchouli that smells of neither basement nor incense. Orange and grapefruit lighten it and a lychee rose softens it. Office or dinner, it fits. The only downside is its success: you will smell it everywhere. Chance runs on a similar idea with more humor and less staying power.",
+    "thierry-mugler-angel": "Easily the most recognizable patchouli here, fused to cotton candy and chocolate. Olivier Cresp's creation invented the modern gourmand, and patchouli is its dark half. People love it or leave it. One spray is enough and two will clear an elevator. Next to La Vie Est Belle it is rougher and far less crowd-pleasing.",
+    "clinique-aromatics-elixir": "For anyone who wants to smell earth and herbs. Chamomile, rose and oakmoss over patchouli and vetiver make a dark, almost medicinal chypre with real authority. Bernard Chant was not trying to be liked. It is tougher than Miss Dior and much stronger. Keep it for winter evenings and for skin that enjoys serious perfume.",
+    "editions-de-parfums-frederic-malle-portrait-of-a-lady": "Patchouli moves up to the heart here, beside incense and cinnamon, with a red rose sinking into it. The result is theatrical and dense, with huge longevity. Pick it if you love dark roses. It is less sugary than Angel yet just as imposing. Not for a summer day or an open-plan office.",
+    "dior-miss-dior": "Here is patchouli the way it was first used: a chypre base with oakmoss and labdanum, opened by sharp galbanum. It has nothing in common with the recent Miss Dior line. Lighter than Aromatics Elixir, it can still feel stern to a nose raised on sugar. Ideal for a workday when you want to look put together.",
+    "chanel-chance": "The lightest patchouli on the list. Pink pepper, pineapple and hyacinth make it fizz, and it works in spring and summer. A good first step if you are unsure about the note. Longevity is eau de toilette level, so plan on a touch-up in the afternoon, where Coco Mademoiselle lasts the day.",
+    "giorgio-armani-si": "Christine Nagel set patchouli under a cassis nectar and a thick vanilla. It is a rounded modern chypre, sweeter than Coco Mademoiselle and quieter than Flowerbomb. As the evening goes on, the patchouli fades behind the vanilla. That is its weakness and also why so many people like it.",
+    "viktor-rolf-flowerbomb": "A cloud of sweet flowers landing on patchouli and musk. The note is the frame rather than the star. If you like dense evening florals, it is a safe bet. If you prefer sheer perfumes, it will feel too packed. More floral than La Vie Est Belle and less edible than Angel.",
+    "lancome-la-vie-est-belle": "Iris, praline and vanilla lead while patchouli holds the base and keeps the whole thing from turning into candy. It is the softest patchouli here, buried in sugar. Very effective and very strong, so one spray only. If you want to actually notice the patchouli, move up to Angel."
+   },
+   "faq": [
+    {
+     "q": "What is the best patchouli perfume for women?",
+     "a": "For most people, Coco Mademoiselle. Its patchouli is clean and sits under citrus and rose, so it works almost anywhere. If you want more patchouli, Angel pairs it with a gourmand accord, and Aromatics Elixir shows its earthiest side in a very strong chypre."
+    },
+    {
+     "q": "Do patchouli perfumes smell like hippie oil?",
+     "a": "Not the ones on this list. Straight patchouli oil has that earthy, camphor smell people link to the 1970s. Modern women's perfumes often use a fractionated version that smells woodier and cleaner. Chance and Coco Mademoiselle have nothing in common with a head shop."
+    },
+    {
+     "q": "Is there a patchouli perfume for women that works in summer?",
+     "a": "Chance is the best fit. Pink pepper, pineapple and hyacinth lighten the patchouli, and it is made for spring and summer. Avoid Angel, Portrait of a Lady and La Vie Est Belle in real heat. Their bases get heavy on warm skin."
+    },
+    {
+     "q": "How long does patchouli last on skin?",
+     "a": "It is one of the longest-lasting base notes. In the perfumes rated 5 on our intensity scale, you will still smell it at night and on clothes the next day. Eaux de toilette like Chance or Miss Dior fade sooner because the concentration is lower."
+    }
+   ]
+  }
+ },
+ "ng:Patchouli:M": {
+  "picks": [
+   "thierry-mugler-amen",
+   "yves-saint-laurent-tuxedo",
+   "ralph-lauren-polo",
+   "hermes-terre-dhermes",
+   "amouage-interlude-man",
+   "giorgio-armani-acqua-di-gio-profumo",
+   "givenchy-gentleman",
+   "paco-rabanne-1-million"
+  ],
+  "fr": {
+   "title": "Parfum patchouli homme : 8 parfums où la note se sent vraiment",
+   "meta": "A*Men, Tuxedo et Polo en tête : les parfums homme où le patchouli compte vraiment, du plus discret au plus goudronné.",
+   "h1": "Patchouli pour homme : notre sélection, du plus sec au plus sombre",
+   "intro": "Le meilleur parfum patchouli homme reste pour nous A*Men : café, caramel et un patchouli goudronné qu'on ne peut pas rater. Tuxedo, un mixte, arrive deuxième parce qu'il place le patchouli dès la tête, ce qui est rare. Polo complète le trio pour ceux qui aiment le vert et le cuir. Les autres picks montrent un patchouli plus discret, qui tient le fond d'un parfum frais comme Terre d'Hermès ou Acqua di Giò Profumo.",
+   "sections": [
+    {
+     "title": "Chez l'homme, le patchouli se cache souvent",
+     "body": "C'est le paradoxe masculin : le patchouli est partout et on le remarque peu. Dans Acqua di Giò, Invictus ou Luna Rossa, il sert de colle sous les agrumes et la marine, sans jamais se montrer. Côté féminin, il porte des fleurs et du sucre et finit souvent nettoyé, lissé. Côté masculin, on le garde plus brut. Il s'associe au cuir, au tabac ou à l'encens. Il assume aussi son côté terre mouillée. Polo le met au cœur avec le pin. Interlude Man le noie dans les résines. Si vous cherchez un parfum où la note se sent, lisez la pyramide : un patchouli en tête ou au cœur a plus de chances d'être perçu qu'un patchouli noyé dans un fond déjà chargé."
+    },
+    {
+     "title": "Choisir selon le moment de la journée",
+     "body": "Pour le bureau, Terre d'Hermès et Acqua di Giò Profumo sont les plus sûrs. Leur patchouli reste en arrière-plan, sous l'orange et le silex pour l'un, sous l'encens et la marine pour l'autre. Gentleman s'y prête aussi, avec son iris poudré. Le soir, A*Men et 1 Million prennent le relais. Ils sont sucrés et projettent loin. Tuxedo vise les grandes occasions, un dîner ou un mariage en costume sombre. Polo et Interlude Man sont des parfums d'automne et d'hiver, puissants et un peu vintage : deux pulvérisations au maximum, sur un pull ou une veste en laine. Par forte chaleur, aucun de ces huit parfums n'est idéal. Si vous tenez au patchouli en été, gardez Terre d'Hermès et vaporisez léger."
+    }
+   ],
+   "why": {
+    "thierry-mugler-amen": "Le patchouli masculin le plus assumé de la liste. Jacques Huclier l'a associé au café torréfié et au caramel brûlé, et le résultat sent le goudron sucré. C'est le pendant masculin d'Angel, en plus sombre. Sa puissance ne pardonne rien : une pulvérisation, pas deux. Face à 1 Million, il est plus clivant et plus original.",
+    "yves-saint-laurent-tuxedo": "Un mixte, mais on le classe deuxième parce que le patchouli ouvre le parfum au lieu de le fermer. Violette noire et genièvre l'accompagnent, puis l'ambroxan le sèche. C'est le patchouli le plus élégant de la sélection, parfait en costume du soir. Son défaut : une sobriété qui peut paraître austère à côté d'A*Men.",
+    "ralph-lauren-polo": "Pin, armoise et thym en tête, puis un cœur où patchouli et mousse de chêne se tiennent la main. Le fond part vers le cuir et le tabac. C'est un vert d'avant la vague aquatique, très puissant. Carlos Benaïm a signé là un masculin qui demande une main légère. Plus rugueux que Gentleman, plus dense que Terre d'Hermès.",
+    "hermes-terre-dhermes": "Ici le patchouli reste discret, au cœur avec le poivre et le géranium. Il donne pourtant au parfum son odeur de terre chauffée. Jean-Claude Ellena l'a dosé pour qu'il ne se voie pas. C'est le choix le plus polyvalent de la liste : bureau, week-end, printemps. Si vous voulez sentir la note franchement, préférez Polo ou A*Men.",
+    "amouage-interlude-man": "Origan, encens et oud fumé forment un nuage résineux dans lequel le patchouli se fond. On le sent surtout en fin de journée, quand le fond cuir et santal prend le dessus. C'est le parfum le plus dense de la sélection, pour initiés. À côté, Tuxedo paraît presque léger. Réservez-le aux soirées d'hiver.",
+    "giorgio-armani-acqua-di-gio-profumo": "Alberto Morillas a assombri son Acqua di Giò avec de l'encens et du patchouli. La fraîcheur marine reste, mais le fond prend la couleur d'une roche au crépuscule. C'est le patchouli le plus frais de la liste, portable du printemps à l'automne. Plus profond que l'original, moins marqué que Terre d'Hermès sur le côté terreux.",
+    "givenchy-gentleman": "Iris poudré et poire en ouverture, puis un fond où patchouli, vanille noire et cuir s'installent. Le patchouli y est doux, presque velouté. Un bon choix pour un homme qui veut un parfum soigné sans aller vers le sombre. On lui reproche une certaine sagesse, surtout face à Tuxedo, qui vise le même public avec plus de tenue.",
+    "paco-rabanne-1-million": "Cannelle, cuir sucré et ambre dominent. Le patchouli ne se sent qu'en fond et assombrit un peu ce lingot doré. C'est le plus consensuel des parfums sucrés de la liste, très apprécié des jeunes hommes. En espace clos, il devient lourd. Pour un patchouli plus lisible dans le même registre, A*Men va plus loin."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum patchouli homme choisir pour débuter ?",
+     "a": "Terre d'Hermès est la porte d'entrée la plus douce. Son patchouli reste au cœur, discret, sous l'orange et le vétiver, et il se porte au bureau. Si ça vous plaît, passez à Tuxedo pour un patchouli plus visible, puis à A*Men si vous aimez le sucré et la puissance."
+    },
+    {
+     "q": "Le patchouli est-il une note masculine ou féminine ?",
+     "a": "Les deux. Il est présent dans une grande part des parfums masculins et féminins. La différence tient à ses partenaires : fleurs et vanille chez la femme, cuir, tabac, encens et bois chez l'homme. Le patchouli masculin est souvent laissé plus brut et plus terreux."
+    },
+    {
+     "q": "Parfum patchouli homme : peut-on le porter au travail ?",
+     "a": "Oui, à condition de choisir un parfum où il reste en fond. Terre d'Hermès, Acqua di Giò Profumo et Gentleman passent très bien en réunion. A*Men, Polo ou Interlude Man sont trop puissants pour un bureau partagé, sauf à une pulvérisation sur le torse sous la chemise."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best patchouli colognes for men: 8 picks where you smell it",
+   "meta": "A*Men, Tuxedo and Terre d'Hermès: the men's fragrances where patchouli really counts, from quiet and dry to dark and tarry.",
+   "h1": "Patchouli fragrances for men, from dry to dark",
+   "intro": "Our top patchouli fragrance for men is A*Men. Roasted coffee, burnt caramel and a tarry patchouli you cannot miss. Tuxedo, a unisex pick, comes second because it puts patchouli right in the opening, which is rare. Polo takes third for fans of green, leathery classics. The rest of the list shows a quieter patchouli holding up the base of fresher scents like Terre d'Hermès and Acqua di Giò Profumo.",
+   "sections": [
+    {
+     "title": "In men's fragrance, patchouli often hides",
+     "body": "Here is the odd thing about men's perfume. Patchouli is everywhere and hardly anyone notices it. In Acqua di Giò, Invictus or Luna Rossa it is the glue under citrus and sea notes, never stepping forward. Women's perfumes tend to use a cleaned-up patchouli under flowers and sugar. Men's perfumes keep it rougher. It sits with leather, tobacco or incense. And it is allowed to smell like wet earth. Polo puts it in the heart next to pine. Interlude Man drowns it in resins. If you want to actually smell the note, check the pyramid. Patchouli in the top or heart is more likely to come through than patchouli buried in a crowded base."
+    },
+    {
+     "title": "Matching the scent to the time of day",
+     "body": "For the office, Terre d'Hermès and Acqua di Giò Profumo are the safest. Their patchouli stays in the background, under orange and flint in one, under incense and sea air in the other. Gentleman works too, thanks to its powdery iris. In the evening, A*Men and 1 Million take over. Both are sweet and both project. Tuxedo is for dressed-up nights, a dinner or a wedding in a dark suit. Polo and Interlude Man are fall and winter scents, strong and a bit old-school. Two sprays at most, on a sweater or a wool jacket. None of these eight is ideal in real heat. If you want patchouli in summer, stick with Terre d'Hermès and go light."
+    }
+   ],
+   "why": {
+    "thierry-mugler-amen": "The boldest men's patchouli on the list. Jacques Huclier paired it with roasted coffee and burnt caramel, and it ends up smelling like sweet tar. Think of it as a darker, masculine cousin of Angel. It punishes a heavy hand, so one spray only. Next to 1 Million it is more divisive and far more original.",
+    "yves-saint-laurent-tuxedo": "Technically unisex, but it ranks second because patchouli opens the scent instead of closing it. Black violet and juniper follow, then ambroxan dries everything out. It is the most elegant patchouli here and made for evening tailoring. The catch is its restraint, which can read as stiff next to A*Men.",
+    "ralph-lauren-polo": "Pine, artemisia and thyme up top, then a heart where patchouli and oakmoss work together. The base heads toward leather and tobacco. This is green masculine perfume from before the aquatic wave, and it is loud. Carlos Benaïm built something that needs a light touch. Rougher than Gentleman and denser than Terre d'Hermès.",
+    "hermes-terre-dhermes": "Subtle here, the patchouli sits in the heart with pepper and geranium. Yet it gives the scent its warm-earth smell. Jean-Claude Ellena dosed it so you would not spot it. The most versatile pick on the list: office, weekend, spring. If you want to clearly smell patchouli, go for Polo or A*Men instead.",
+    "amouage-interlude-man": "Oregano, incense and smoky oud make a resin cloud that swallows the patchouli. You notice it most late in the day, when the leather and sandalwood base takes over. The densest scent in this selection and one for seasoned noses. Next to it, Tuxedo feels almost light. Save it for winter nights.",
+    "giorgio-armani-acqua-di-gio-profumo": "Alberto Morillas darkened his Acqua di Giò with incense and patchouli. The marine freshness is still there, but the base turns the color of wet rock at dusk. The freshest patchouli on the list, wearable from spring into fall. Deeper than the original and less earthy than Terre d'Hermès.",
+    "givenchy-gentleman": "Powdery iris and pear open, then patchouli, black vanilla and leather settle in. The patchouli here is soft, almost velvety. A good pick if you want something polished without going dark. It can feel a little tame, especially next to Tuxedo, which aims at the same crowd with more presence.",
+    "paco-rabanne-1-million": "Cinnamon, sweet leather and amber lead. Patchouli only shows up in the drydown and shades the gold a little. It is the most crowd-pleasing of the sweet picks and a favorite with younger guys. In a closed room it gets heavy. For a patchouli you can actually read in the same style, A*Men goes further."
+   },
+   "faq": [
+    {
+     "q": "What is a good patchouli cologne for beginners?",
+     "a": "Terre d'Hermès is the gentlest way in. Its patchouli stays in the heart, behind orange and vetiver, and it works at the office. If you like it, move to Tuxedo for more visible patchouli, then to A*Men if you enjoy sweetness and power."
+    },
+    {
+     "q": "Is patchouli a masculine or feminine note?",
+     "a": "Both. It shows up in a large share of men's and women's perfumes. What changes is the company it keeps: flowers and vanilla on the feminine side, leather, tobacco, incense and woods on the masculine side. Men's fragrances usually leave it rougher and earthier."
+    },
+    {
+     "q": "Can I wear a patchouli fragrance to work?",
+     "a": "Yes, if the patchouli stays in the base. Terre d'Hermès, Acqua di Giò Profumo and Gentleman are all fine in a meeting. A*Men, Polo and Interlude Man are too strong for a shared office unless you do one spray on the chest under your shirt."
+    }
+   ]
+  }
+ },
+ "ng:Pepper:F": {
+  "picks": [
+   "hermes-eau-des-merveilles",
+   "versace-crystal-noir",
+   "le-labo-rose-31",
+   "byredo-gypsy-water",
+   "parfums-de-marly-kalan",
+   "maison-margiela-replica-coffee-break",
+   "atelier-cologne-clementine-california",
+   "parfums-de-marly-galloway"
+  ],
+  "fr": {
+   "title": "Parfum poivre femme : 8 parfums où le poivre noir se sent",
+   "meta": "Eau des Merveilles, Crystal Noir et Rose 31 : les parfums femme et mixtes où le poivre noir apporte du mordant, du plus frais au plus crémeux.",
+   "h1": "Le poivre noir dans les parfums pour femme : notre sélection",
+   "intro": "Notre premier choix pour un parfum poivré féminin est Eau des Merveilles d'Hermès : le poivre y pique un ambre salé et une écorce d'orange, sans jamais sucrer. Crystal Noir de Versace arrive juste derrière, pour un poivre qui ouvre sur la noix de coco et le gardénia. Rose 31, un mixte, complète le podium avec une rose frottée de cumin. Le poivre noir reste rare dans les féminins, d'où la place faite ici aux parfums mixtes.",
+   "sections": [
+    {
+     "title": "Poivre noir et parfum féminin : un contraste plus qu'un pilier",
+     "body": "Dans les parfums masculins, le poivre noir est souvent le moteur : il lance la fraîcheur et donne l'effet électrique qu'on attend d'un boisé moderne. Côté féminin, il joue un autre rôle. Il vient casser une matière trop ronde. Dans Crystal Noir, il empêche la noix de coco et le gardénia de tourner au lait solaire. Dans Eau des Merveilles, il pique un ambre salé qui sans lui paraîtrait trop sage. On le trouve donc en petite dose, en tête, et il disparaît vite. Seuls deux parfums strictement féminins de notre base le mettent en avant, ce qui explique la part des mixtes dans cette sélection. Rose 31, Gypsy Water ou Kalan se portent très bien sur une peau de femme, et on vous le signale à chaque fois."
+    },
+    {
+     "title": "Poivre noir ou baies roses : ne pas confondre",
+     "body": "Beaucoup de parfums féminins affichent des « baies roses » ou du « poivre rose ». Ce n'est pas la même matière. Les baies roses sentent le fruit rouge acidulé et le zeste, avec un piquant très léger. On les trouve partout dans la parfumerie grand public, de Chance à Mon Paris. Le poivre noir est plus sec, plus boisé, avec une pointe résineuse. Il donne du nerf plus que du pétillant. Si vous aimez l'effet frais et joyeux, Clementine California et Galloway associent poivre et agrumes. Si vous cherchez quelque chose de plus sombre, Crystal Noir et Kalan le posent sur des épices et un bois ambré. Notre conseil : sentez le parfum dans les dix premières minutes. C'est là que le poivre noir se montre, avant de se fondre dans le reste."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "Le poivre le plus intelligent de la liste, parce qu'il travaille avec un ambre salé et de l'élémi au lieu de réchauffer une fleur. Ralf Schwieger et Nathalie Feisthauer ont fait un parfum de pierre chaude et de sel, portable toute l'année. Celles qui attendent un floral seront surprises. Plus sec et plus lumineux que Crystal Noir.",
+    "versace-crystal-noir": "Ici, le poivre ouvre avec gingembre et cardamome, puis cède la place à une noix de coco crémeuse et au gardénia. C'est le plus féminin des picks et le plus sensuel. Antoine Lie a signé un floral oriental du soir, à porter par temps froid. La coco peut sembler lourde. Si vous voulez le poivre sans la crème, prenez Eau des Merveilles.",
+    "le-labo-rose-31": "Un mixte, et l'un des rares parfums où le poivre partage la tête avec la rose et le cumin. Le résultat est sec, un peu fumé, loin de la rose romantique. Il va aux femmes qui trouvent les roses trop jolies. Sur certaines peaux, le cumin devient trop corporel. Plus boisé que Galloway, moins crémeux que Crystal Noir.",
+    "byredo-gypsy-water": "Mixte lui aussi. Le poivre se mêle à la bergamote et au citron, puis laisse place au pin, à l'encens et à une vanille poudrée. Une odeur de feu de camp à l'orée d'un bois. C'est facile à aimer et très portable au quotidien. La projection reste modeste : on le sent de près, pas à trois mètres.",
+    "parfums-de-marly-kalan": "Parfum mixte, Kalan marie le poivre noir à l'orange sanguine avant de glisser vers la lavande et la fleur d'oranger, puis vers un fond ambré. C'est le plus chaleureux de la sélection après Crystal Noir, et le plus polyvalent. Il marche en journée d'automne comme le soir. On le trouve un peu moins marquant que les grands succès de la maison.",
+    "maison-margiela-replica-coffee-break": "Une curiosité : le poivre ouvre un café au lait mousseux, avec lavande et vanille. Mixte, doux, il se porte comme un pull chaud le dimanche. Le poivre y est léger, juste assez pour réveiller le lait. Sa tenue est faible, c'est son vrai défaut. Nettement moins sérieux qu'Eau des Merveilles.",
+    "atelier-cologne-clementine-california": "Poivre, basilic et anis étoilé au cœur, sous une clémentine gorgée de soleil. C'est le poivre de l'été, mixte et très frais. Parfait pour une journée chaude au bureau ou en terrasse. Sa tenue reste celle d'une cologne, il faudra revaporiser. Plus joyeux et plus fruité que Galloway.",
+    "parfums-de-marly-galloway": "Des agrumes poivrés qui s'adoucissent dans la fleur d'oranger et l'iris. Mixte, propre et facile, il convient au printemps et à l'été. Le poivre s'estompe vite pour laisser un fond de musc. On lui reproche de manquer de relief. Si vous voulez plus de caractère dans le même esprit frais, Rose 31 en a davantage."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum au poivre pour une femme ?",
+     "a": "Eau des Merveilles d'Hermès est notre premier choix : un poivre sec sur un ambre salé, qui se porte toute l'année. Pour un poivre plus sensuel, Crystal Noir l'associe à la noix de coco et au gardénia. Les deux sont des parfums féminins, les autres de la sélection sont mixtes."
+    },
+    {
+     "q": "Poivre rose et poivre noir, quelle différence dans un parfum ?",
+     "a": "Les baies roses sentent le fruit rouge acidulé et pétillent légèrement. Le poivre noir est plus sec et boisé, avec une petite chaleur. Les féminins grand public utilisent surtout les baies roses. Le poivre noir apparaît plus souvent dans les masculins et les mixtes."
+    },
+    {
+     "q": "Un parfum poivré pour femme, ça fait masculin ?",
+     "a": "Pas forcément. Tout dépend de ce qui entoure le poivre. Avec la noix de coco et les fleurs blanches de Crystal Noir, il reste très féminin. Avec le cèdre et le vétiver d'Eau des Merveilles, il glisse vers le boisé. C'est justement ce contraste qui fait son intérêt."
+    }
+   ]
+  },
+  "en": {
+   "title": "Pepper perfumes for women: 8 scents with a spicy edge",
+   "meta": "Eau des Merveilles, Crystal Noir and Rose 31: women's and unisex perfumes where black pepper adds bite, from fresh citrus to creamy florals.",
+   "h1": "Black pepper in women's perfume: our picks",
+   "intro": "Our top peppery perfume for women is Hermès Eau des Merveilles. The pepper sharpens a salty amber and orange peel and never turns sweet. Versace Crystal Noir is a close second, with pepper opening onto coconut and gardenia. Rose 31, a unisex scent, takes third with a rose rubbed in cumin. Black pepper is rare in feminine perfume, which is why several unisex picks made the cut.",
+   "sections": [
+    {
+     "title": "Black pepper in women's perfume: contrast, not backbone",
+     "body": "In men's fragrance, black pepper is often the engine. It kicks off the freshness and gives modern woody scents their electric feel. In women's perfume it has a different job. It cuts through something too soft. In Crystal Noir it stops the coconut and gardenia from smelling like sunscreen. In Eau des Merveilles it gives edge to a salty amber that would otherwise feel tame. So it tends to come in small doses, in the top notes, and it fades quickly. Only two strictly feminine perfumes in our database put it forward, which is why unisex scents fill out this list. Rose 31, Gypsy Water and Kalan all wear beautifully on women, and we flag each one."
+    },
+    {
+     "title": "Black pepper vs pink pepper",
+     "body": "Lots of women's perfumes list pink pepper. It is a different material. Pink peppercorns smell of tart red fruit and zest, with only a hint of heat. Mainstream perfumery uses them everywhere, from Chance to Mon Paris. Black pepper is drier and woodier, with a resinous edge. It adds nerve rather than sparkle. If you like the fresh, cheerful effect, Clementine California and Galloway pair pepper with citrus. If you want something darker, Crystal Noir and Kalan set it on spices and ambery woods. Our advice: smell the perfume in the first ten minutes. That is when black pepper shows itself, before it melts into everything else. After an hour, you are mostly smelling the base."
+    }
+   ],
+   "why": {
+    "hermes-eau-des-merveilles": "The smartest use of pepper on the list, because it plays against salty amber and elemi rather than warming up a flower. Ralf Schwieger and Nathalie Feisthauer made a scent of warm stone and salt that works all year. If you expect a floral, you will be surprised. Drier and brighter than Crystal Noir.",
+    "versace-crystal-noir": "Pepper opens with ginger and cardamom, then gives way to creamy coconut and gardenia. The most feminine pick here and the most sensual. Antoine Lie made an evening floral oriental for cold weather. The coconut can feel heavy. If you want the pepper without the cream, go for Eau des Merveilles.",
+    "le-labo-rose-31": "Unisex, and one of the few scents where pepper shares the opening with rose and cumin. It comes out dry and a little smoky, far from a romantic rose. Great for women who find most roses too pretty. On some skin the cumin reads as sweaty. Woodier than Galloway and less creamy than Crystal Noir.",
+    "byredo-gypsy-water": "Also unisex. Pepper mingles with bergamot and lemon, then gives way to pine, incense and a powdery vanilla. It smells like a campfire at the edge of the woods. Easy to love and very wearable day to day. Projection is modest, so people smell it up close rather than across the room.",
+    "parfums-de-marly-kalan": "A unisex scent where black pepper meets blood orange, then slides toward lavender, orange blossom and an ambery base. After Crystal Noir, it is the warmest pick here and the most versatile. It works on a fall afternoon and at night. It is a little less memorable than the house's big hits.",
+    "maison-margiela-replica-coffee-break": "An oddball: pepper opens onto a foamy café au lait with lavender and vanilla. Unisex and soft, it wears like a warm sweater on a Sunday. The pepper is light, just enough to wake up the milk. Longevity is weak, and that is its real flaw. Far less serious than Eau des Merveilles.",
+    "atelier-cologne-clementine-california": "Basil, pepper and star anise sit in the heart under a sun-soaked clementine. This is summer pepper, unisex and very fresh. Great for a hot day at work or an afternoon outside. It lasts like a cologne, so you will need to reapply. Brighter and fruitier than Galloway.",
+    "parfums-de-marly-galloway": "Peppered citrus that softens into orange blossom and iris. Unisex, clean and easy, it suits spring and summer. The pepper fades fast and leaves a musky base. The criticism is a lack of depth. If you want more character in the same fresh mood, Rose 31 has it."
+   },
+   "faq": [
+    {
+     "q": "What is a good pepper perfume for women?",
+     "a": "Hermès Eau des Merveilles is our top pick: dry pepper over salty amber, wearable all year. For a more sensual take, Crystal Noir pairs pepper with coconut and gardenia. Those two are feminine releases, and the rest of our list is unisex."
+    },
+    {
+     "q": "What is the difference between pink pepper and black pepper in perfume?",
+     "a": "Pink pepper smells of tart red berries and fizzes a little. Black pepper is drier and woodier, with a bit of warmth. Mainstream women's perfumes mostly use pink pepper. Black pepper shows up more in men's and unisex scents."
+    },
+    {
+     "q": "Will a peppery perfume make me smell masculine?",
+     "a": "Not necessarily. It depends on what surrounds the pepper. With the coconut and white flowers of Crystal Noir it stays very feminine. With the cedar and vetiver of Eau des Merveilles it leans woody. That contrast is exactly what makes it interesting."
+    }
+   ]
+  }
+ },
+ "ng:Pepper:M": {
+  "picks": [
+   "hermes-terre-dhermes",
+   "dior-sauvage",
+   "viktor-rolf-spicebomb-extreme",
+   "chanel-allure-homme-sport",
+   "amouage-interlude-man",
+   "prada-luna-rossa-carbon",
+   "issey-miyake-nuit-dissey",
+   "versace-dylan-blue-pour-homme",
+   "penhaligons-blenheim-bouquet"
+  ],
+  "fr": {
+   "title": "Parfum poivre homme : 9 parfums classés, du frais au fumé",
+   "meta": "Terre d'Hermès, Sauvage et Spicebomb Extreme : notre classement des parfums homme au poivre noir, du plus frais au plus épicé.",
+   "h1": "Les meilleurs parfums poivrés pour homme",
+   "intro": "Notre premier choix de parfum poivré pour homme est Terre d'Hermès : un poivre posé entre l'orange amère et le vétiver, sec comme une pierre au soleil. Sauvage arrive deuxième, avec deux poivres (noir et Sichuan) qui lui donnent son effet électrique. Spicebomb Extreme complète le podium pour ceux qui veulent le poivre au chaud, dans le tabac et la vanille. Les six autres vont de la fraîcheur sportive d'Allure Homme Sport à l'encens d'Interlude Man.",
+   "sections": [
+    {
+     "title": "Le poivre, moteur de la fraîcheur masculine",
+     "body": "Chez la femme, le poivre noir sert surtout de contraste à une matière trop douce. Chez l'homme, il tient un rôle central depuis une vingtaine d'années : il donne du mordant aux agrumes et prépare l'arrivée des bois secs. Terre d'Hermès l'a posé au cœur en 2006, Sauvage l'a doublé de poivre du Sichuan en 2015, et une bonne part des boisés frais actuels en découle. La recette tient en trois étages : bergamote ou pamplemousse en tête, poivre et géranium au milieu, puis ambroxan ou vétiver en fond. Luna Rossa Carbon et Dylan Blue suivent ce schéma. L'autre école est chaude. Le poivre y ouvre sur la cannelle, le tabac ou l'encens, comme dans Spicebomb Extreme ou Interlude Man. Même note, deux saisons différentes."
+    },
+    {
+     "title": "Frais ou épicé : lequel choisir",
+     "body": "Pour le bureau et les beaux jours, restez sur le versant frais. Terre d'Hermès, Allure Homme Sport et Luna Rossa Carbon sont notés 3 sur notre échelle d'intensité, ce qui les rend faciles en espace partagé. Sauvage monte à 5 : deux pulvérisations suffisent, trois deviennent envahissantes. Pour le soir et l'hiver, le versant épicé est plus gratifiant. Spicebomb Extreme et Interlude Man tiennent longtemps sur une écharpe. Nuit d'Issey fait le pont, avec son cuir poivré et son encens léger, et passe aussi bien au bureau qu'en soirée. Blenheim Bouquet reste à part : un poivre de fond, discret, sous un citron et une lavande de 1902. C'est le seul choix vraiment classique de la liste, et le plus léger."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Notre numéro un, parce que le poivre y est dosé avec une précision rare. Jean-Claude Ellena l'a placé au cœur, entre le géranium et le patchouli, sous une orange amère et une note de silex. Il se porte partout et en toute saison sauf l'hiver. Son défaut : on le croise souvent. Moins synthétique que Sauvage, plus sec aussi.",
+    "dior-sauvage": "Le parfum qui a fait du poivre une note grand public. Poivre noir en tête, poivre du Sichuan au cœur, puis un ambroxan minéral qui porte loin. François Demachy visait l'efficacité et il l'a obtenue. L'omniprésence et l'éclat synthétique lassent certains nez. Face à Terre d'Hermès, il projette plus et nuance moins.",
+    "viktor-rolf-spicebomb-extreme": "Version chaude du poivre. Il ouvre avec le gingembre, puis tombe dans la cannelle, le tabac et une vanille épaisse. C'est le choix des soirées d'hiver et des rendez-vous. Trop dense pour le printemps. Plus sucré et plus confortable qu'Interlude Man, qui joue dans le même registre épicé avec beaucoup plus de fumée.",
+    "chanel-allure-homme-sport": "Orange, aldéhydes et un poivre au cœur avec le néroli et le cèdre. Jacques Polge a fait un parfum de sport très propre, qui finit sur la tonka et le musc. Parfait l'été, au bureau ou après la douche. Sa projection est sage. Moins marquant que Sauvage, mais on s'en lasse beaucoup moins vite.",
+    "amouage-interlude-man": "Poivre et origan en tête, puis l'encens, l'opoponax et un fond d'oud et de cuir. Pierre Negrin a construit un parfum dense, presque chaotique. Le poivre y sert d'allumette plus que de sujet. C'est pour les amateurs de résines, pas pour un premier achat. Beaucoup plus fumé que Spicebomb Extreme.",
+    "prada-luna-rossa-carbon": "Bergamote et poivre en tête, lavande et notes métalliques au cœur, ambroxan au fond. Daniela Andrier a dessiné une fougère nette, qui ressemble à Sauvage en plus calme. C'est un bon choix pour qui trouve ce dernier trop bruyant. On lui reproche le même ambroxan omniprésent et un manque d'originalité.",
+    "issey-miyake-nuit-dissey": "Pris dans un cœur de cuir et d'encens, le poivre se cache sous un pamplemousse et des baies roses. Le fond patchouli et tonka reste assez classique. C'est le parfum poivré le plus facile à porter le soir sans lourdeur. Moins imposant qu'Interlude Man, plus sombre qu'Allure Homme Sport.",
+    "versace-dylan-blue-pour-homme": "Alberto Morillas a glissé le poivre au cœur, avec feuille de violette, papyrus et ambroxan. En tête, agrumes et feuille de figuier. Le fond part vers l'encens et le safran. C'est un parfum bleu efficace, qui ressemble à beaucoup d'autres. Plus fumé que Luna Rossa Carbon, mais aussi plus convenu.",
+    "penhaligons-blenheim-bouquet": "Un poivre de fond discret, sous le citron, le citron vert et la lavande. Walter Penhaligon l'a composé en 1902 et il garde une élégance de barbier anglais. C'est le plus léger de la sélection, parfait au bureau par temps chaud. La tenue et le sillage restent modestes. À l'opposé total de Sauvage."
+   },
+   "faq": [
+    {
+     "q": "Quel est le meilleur parfum poivré pour homme ?",
+     "a": "Terre d'Hermès pour la finesse, Sauvage pour l'efficacité. Le premier dose le poivre avec l'orange et le vétiver, le second le double de poivre du Sichuan et d'ambroxan. Si vous préférez un poivre chaud pour l'hiver, Spicebomb Extreme est notre choix."
+    },
+    {
+     "q": "Parfum poivre homme : c'est quoi le poivre du Sichuan ?",
+     "a": "Ce n'est pas un vrai poivre mais une baie aux facettes citronnées et un peu fourmillantes. En parfumerie, il apporte une fraîcheur vive, plus pétillante que le poivre noir. Sauvage l'utilise au cœur, en complément du poivre noir de tête."
+    },
+    {
+     "q": "Un parfum au poivre, c'est pour l'été ou l'hiver ?",
+     "a": "Les deux, selon ce qui l'accompagne. Avec des agrumes et de l'ambroxan, comme dans Allure Homme Sport ou Luna Rossa Carbon, c'est un parfum d'été. Avec la cannelle, le tabac ou l'encens, comme dans Spicebomb Extreme ou Interlude Man, il devient un parfum d'hiver."
+    },
+    {
+     "q": "Combien de pulvérisations pour Sauvage ?",
+     "a": "Deux suffisent, une dans le cou et une sur le torse. Sauvage est noté 5 sur 5 en intensité dans notre base. Au-delà, il devient envahissant, surtout en espace clos. Terre d'Hermès ou Allure Homme Sport supportent une pulvérisation de plus."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best pepper colognes for men: 9 picks, fresh to smoky",
+   "meta": "Terre d'Hermès, Sauvage and Spicebomb Extreme: our ranking of men's fragrances built on black pepper, from crisp and fresh to warm and smoky.",
+   "h1": "The best peppery fragrances for men",
+   "intro": "Our top peppery fragrance for men is Terre d'Hermès. Its pepper sits between bitter orange and vetiver, dry as a sun-baked stone. Sauvage comes second, with two peppers (black and Sichuan) behind its electric feel. Spicebomb Extreme takes third for anyone who wants pepper warmed up with tobacco and vanilla. The other six range from the sporty freshness of Allure Homme Sport to the incense cloud of Interlude Man.",
+   "sections": [
+    {
+     "title": "Pepper as the engine of men's freshness",
+     "body": "In women's perfume, black pepper mostly adds contrast to something soft. In men's fragrance it has become central over the last twenty years or so. It gives citrus some bite and sets up the dry woods that follow. Terre d'Hermès put it in the heart in 2006. Sauvage doubled it with Sichuan pepper in 2015. A good share of today's fresh woody scents follow the same plan: bergamot or grapefruit up top, pepper and geranium in the middle, ambroxan or vetiver at the base. Luna Rossa Carbon and Dylan Blue are built that way. The other school is warm. There, pepper opens onto cinnamon, tobacco or incense, as in Spicebomb Extreme or Interlude Man. Same note, different season."
+    },
+    {
+     "title": "Fresh or spicy: which way to go",
+     "body": "For the office and warm weather, stay on the fresh side. Terre d'Hermès, Allure Homme Sport and Luna Rossa Carbon score 3 on our intensity scale, so they are easy in shared spaces. Sauvage scores 5. Two sprays are enough and three get overwhelming. For evenings and winter, the spicy side pays off. Spicebomb Extreme and Interlude Man hang on a scarf for hours. Nuit d'Issey sits between the two, with peppery leather and light incense, and works at work or at night. Blenheim Bouquet is in a category of its own. Its pepper is a quiet base note under lemon and lavender from 1902. It is the only true classic here, and the lightest."
+    }
+   ],
+   "why": {
+    "hermes-terre-dhermes": "Our number one because the pepper is dosed with rare precision. Jean-Claude Ellena put it in the heart with geranium and patchouli, under bitter orange and a flinty note. It works almost anywhere and in every season but deep winter. Its only flaw is that it is very common. Less synthetic than Sauvage, and drier.",
+    "dior-sauvage": "The scent that made pepper mainstream. Black pepper up top, Sichuan pepper in the heart, then a mineral ambroxan that carries far. François Demachy went for impact and got it. Its ubiquity and synthetic sheen wear some noses out. Compared with Terre d'Hermès, it projects more and says less.",
+    "viktor-rolf-spicebomb-extreme": "Pepper, warmed up. It opens with ginger, then drops into cinnamon, tobacco and thick vanilla. This is for winter nights and dates. Too dense for spring. Sweeter and cozier than Interlude Man, which works the same spicy territory with a lot more smoke.",
+    "chanel-allure-homme-sport": "Orange and aldehydes on top, pepper in the heart with neroli and cedar. Jacques Polge made a very clean sport scent that settles on tonka and musk. Ideal for summer, the office or right after a shower. Projection is polite. Less striking than Sauvage, but much harder to get tired of.",
+    "amouage-interlude-man": "Oregano and pepper open, then incense, opoponax and a base of oud and leather. Pierre Negrin built something dense, almost chaotic. The pepper is the match, not the fire. This is for resin lovers, not a first bottle. Far smokier than Spicebomb Extreme.",
+    "prada-luna-rossa-carbon": "Bergamot and pepper up top, lavender and metallic notes in the heart, ambroxan at the base. Daniela Andrier drew a crisp fougère that feels like a calmer Sauvage. A good pick if you find Sauvage too loud. It shares the same heavy ambroxan and does not break much new ground.",
+    "issey-miyake-nuit-dissey": "Here pepper is wrapped in a heart of leather and incense, under grapefruit and pink pepper. The patchouli and tonka base is fairly standard. It is the easiest peppery scent to wear at night without feeling heavy. Less imposing than Interlude Man and darker than Allure Homme Sport.",
+    "versace-dylan-blue-pour-homme": "Alberto Morillas tucked pepper into the heart with violet leaf, papyrus and ambroxan. Citrus and fig leaf open it. The base heads toward incense and saffron. An effective blue scent that resembles plenty of others. Smokier than Luna Rossa Carbon but also more predictable.",
+    "penhaligons-blenheim-bouquet": "A quiet pepper in the base, under lemon, lime and lavender. Walter Penhaligon composed it in 1902, and it still smells like an English barbershop. The lightest scent in the list and great for hot office days. Longevity and projection are modest. The polar opposite of Sauvage."
+   },
+   "faq": [
+    {
+     "q": "What is the best pepper fragrance for men?",
+     "a": "Terre d'Hermès for finesse, Sauvage for impact. The first balances pepper with orange and vetiver. The second doubles it with Sichuan pepper and ambroxan. If you want a warm pepper for winter, Spicebomb Extreme is our pick."
+    },
+    {
+     "q": "What does Sichuan pepper smell like in a fragrance?",
+     "a": "Botanically it is not pepper at all. It is a berry with lemony and slightly tingling facets. In perfume it brings a bright freshness that fizzes more than black pepper does. Sauvage uses it in the heart to back up the black pepper in the opening."
+    },
+    {
+     "q": "Is a peppery cologne better for summer or winter?",
+     "a": "Both, depending on its partners. With citrus and ambroxan, as in Allure Homme Sport or Luna Rossa Carbon, it is a summer scent. With cinnamon, tobacco or incense, as in Spicebomb Extreme or Interlude Man, it becomes a winter one."
+    },
+    {
+     "q": "How many sprays of Sauvage should I use?",
+     "a": "Two is enough, one on the neck and one on the chest. Sauvage is rated 5 out of 5 for intensity in our database. Beyond that it gets overwhelming, especially indoors. Terre d'Hermès and Allure Homme Sport can take an extra spray."
+    }
+   ]
+  }
+ },
+ "ng:Rose:F": {
+  "picks": [
+   "lancome-tresor",
+   "jean-patou-joy",
+   "guerlain-mitsouko",
+   "chanel-coco-mademoiselle",
+   "estee-lauder-beautiful",
+   "rochas-femme",
+   "yves-saint-laurent-opium",
+   "estee-lauder-pleasures",
+   "le-labo-rose-31",
+   "maison-francis-kurkdjian-oud-satin-mood"
+  ],
+  "fr": {
+   "title": "Parfum rose femme : 10 roses, de la poudrée à la plus sombre",
+   "meta": "Trésor, Joy ou Mitsouko : notre classement des parfums femme à la rose, de la rose poudrée à la rose noire et épicée.",
+   "h1": "Parfums à la rose pour femme : quelle rose choisir ?",
+   "intro": "Si vous cherchez un parfum où la rose se sent vraiment, notre premier choix est Trésor : une rose poudrée, adoucie de pêche et d'iris, que Sophia Grojsman a rendue aussi tendre qu'un pull en cachemire. Joy suit, pour une rose plus opulente, soutenue par le jasmin et une pointe de civette. Mitsouko complète le podium avec une rose posée sur la mousse de chêne. Les sept autres couvrent la rose propre, la rose épicée et la rose noire.",
+   "sections": [
+    {
+     "title": "La rose féminine : une note partout, un rôle qui change",
+     "body": "La rose figure dans une grande partie des parfums féminins de notre base, au cœur le plus souvent. Elle y joue rarement le même rôle. Dans N°5 ou J'adore, elle se fond dans un bouquet et on ne la reconnaît pas. Dans Trésor ou Joy, elle mène. Chez l'homme, c'est l'inverse : la rose se cache sous la cannelle, le cuir ou l'oud, et l'on préfère ne pas trop la nommer. Côté féminin, on peut la montrer. La vraie question est donc le style. Rose poudrée, avec iris et musc, comme Trésor. Rose opulente, avec jasmin et tubéreuse, comme Joy et Beautiful. Rose chyprée, posée sur la mousse, comme Mitsouko et Femme. Rose propre sur patchouli moderne, comme Coco Mademoiselle. Et rose sombre, avec épices ou oud."
+    },
+    {
+     "title": "Classique ou moderne : comment trancher",
+     "body": "Les roses d'avant 1950 de cette liste (Mitsouko, Joy, Femme) ont un point commun : un fond animal ou moussu qui leur donne du relief et un air ancien. Elles demandent de l'habitude. Si vous venez des floraux fruités actuels, commencez plutôt par Coco Mademoiselle ou Pleasures, deux roses nettes et faciles, notées pour le printemps. Pour l'hiver, Opium et Oud Satin Mood mettent la rose dans les épices ou la vanille, avec une intensité maximale : une pulvérisation suffit. Rose 31 est le cas à part. Mixte, sèche, frottée de cumin et de bois, c'est la rose des femmes qui n'aiment pas les roses. Un conseil pratique pour toutes : vaporisez sur la peau, pas sur un vêtement en soie. Un parfum concentré peut marquer une soie claire."
+    }
+   ],
+   "why": {
+    "lancome-tresor": "Notre numéro un pour une rose qu'on reconnaît tout de suite. Pêche et ananas l'éclairent en tête. L'iris et le lilas la poudrent au cœur, puis santal, vanille et musc l'enveloppent. C'est doux, rond, très rétro. Les amatrices de fraîcheur le trouveront trop enveloppant. Plus tendre que Joy, moins sombre qu'Opium.",
+    "jean-patou-joy": "Avalanche de rose et de jasmin, avec de la tubéreuse et de l'ylang en tête. Henri Alméras a ajouté une touche de civette qui donne de la chair au bouquet. C'est somptueux, et c'est daté pour certains nez. On le porte le soir ou pour une grande occasion. Plus opulent que Trésor, moins moussu que Mitsouko.",
+    "guerlain-mitsouko": "Au cœur, la rose se tient entre jasmin et ylang. Mais ce sont la pêche et la mousse de chêne qui dessinent le parfum. Jacques Guerlain a fait un chypre mélancolique, qui demande plusieurs essais. On l'aime en automne, au bureau ou le soir. Plus sec et plus sérieux que Femme, qui joue la prune.",
+    "chanel-coco-mademoiselle": "La rose moderne par excellence : elle partage le cœur avec le jasmin et un litchi acidulé, sur un fond de patchouli propre. C'est la rose la plus facile de la liste, au bureau comme à un rendez-vous. Son succès la rend banale. Pour une rose aussi nette mais plus verte, Pleasures est une bonne alternative.",
+    "estee-lauder-beautiful": "Une gerbe de mariée : rose et lys en tête, puis jasmin, tubéreuse et œillet. La rose est l'étendard de ce bouquet démesuré. C'est un parfum de fête, de cérémonie, et il se sent de loin. Sa densité réclame une main légère. Plus floral et moins poudré que Trésor.",
+    "rochas-femme": "Edmond Roudnitska a posé la rose sur une prune mûre et un fond de mousse de chêne. Le résultat est un chypre fruité sensuel, d'une grande classe. On le porte le soir, par temps frais. Il peut paraître daté à qui n'aime pas la mousse. Plus charnel que Mitsouko, plus sobre qu'Opium.",
+    "yves-saint-laurent-opium": "Ici la rose côtoie le jasmin et l'œillet, prise dans le clou de girofle et la prune confite. C'est la rose épicée la plus célèbre de la liste, et la plus envahissante. À réserver aux soirées d'hiver, avec une seule pulvérisation. Plus dense que Femme, moins gourmand qu'Oud Satin Mood.",
+    "estee-lauder-pleasures": "Rose mouillée, avec pivoine et lys, sous des feuilles de violette et des notes vertes. C'est la plus fraîche et la plus légère de la sélection. Parfait au printemps et en été, en journée. Sa discrétion est à double tranchant : elle ne gêne personne, mais on l'oublie vite. Plus végétal que Coco Mademoiselle.",
+    "le-labo-rose-31": "Un mixte, et la rose la moins romantique de la liste. Cumin et poivre l'encadrent, le cèdre et le bois de gaïac la sèchent. C'est la rose des femmes qui trouvent les autres trop jolies. Sur certaines peaux, le cumin devient trop corporel. À l'opposé total de Trésor.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Mixte également. La rose et la violette ouvrent sur un oud adouci de benjoin, puis la vanille prend le dessus. Francis Kurkdjian a fait une rose confite, soyeuse, très puissante. C'est un parfum de soirée d'hiver. Sa douceur peut devenir écrasante. Plus sucré qu'Opium, plus lisse que Rose 31."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent vraiment la rose ?",
+     "a": "Trésor et Joy sont ceux où la rose se reconnaît le plus nettement. Trésor la rend poudrée et douce, Joy la rend opulente avec du jasmin. Pour une rose plus actuelle, Coco Mademoiselle la place sur un patchouli propre. Dans N°5 ou J'adore, la rose est présente mais fondue dans le bouquet."
+    },
+    {
+     "q": "Quel parfum à la rose pour une femme jeune ?",
+     "a": "Coco Mademoiselle et Pleasures sont les plus faciles. Leurs roses sont nettes, fraîches, sans le fond moussu ou animal des classiques. Rose 31 plaira à celles qui veulent quelque chose de plus original. Les roses d'avant 1950, comme Mitsouko ou Joy, demandent un peu plus d'habitude."
+    },
+    {
+     "q": "Parfum rose femme : lequel pour l'hiver ?",
+     "a": "Opium et Oud Satin Mood, parce qu'ils posent la rose sur des épices, de la vanille ou de l'oud. Les deux sont notés 5 sur 5 en intensité : une pulvérisation suffit. Trésor fonctionne aussi par temps froid, avec un profil plus doux et poudré."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best rose perfumes for women: 10 picks, powdery to dark",
+   "meta": "Trésor, Joy and Mitsouko: our ranking of rose perfumes for women, from soft powdery roses to spiced and dark ones.",
+   "h1": "Rose perfumes for women: which rose is yours?",
+   "intro": "If you want a perfume that clearly smells of rose, start with Trésor. Sophia Grojsman made it powdery and soft with peach and iris, as tender as a cashmere sweater. Joy is next for a more opulent rose, backed by jasmine and a touch of civet. Mitsouko takes third with a rose set on oakmoss. The other seven cover clean roses, spiced roses and dark ones.",
+   "sections": [
+    {
+     "title": "Rose in women's perfume: everywhere, but never the same",
+     "body": "Rose shows up in a large share of the feminine perfumes in our database, usually in the heart. It rarely plays the same part twice. In N°5 or J'adore it melts into a bouquet and you would not pick it out. In Trésor or Joy it leads. Men's fragrances do the opposite: the rose hides under cinnamon, leather or oud and nobody names it. In women's perfume you are free to show it. So the real question is style. There is the powdery rose with iris and musk, like Trésor. The lavish one with jasmine and tuberose, like Joy and Beautiful. The chypre rose on moss, like Mitsouko and Femme. The clean rose on modern patchouli, like Coco Mademoiselle. And the dark rose, with spice or oud."
+    },
+    {
+     "title": "Classic or modern: how to decide",
+     "body": "The pre-1950 roses on this list (Mitsouko, Joy, Femme) share an animal or mossy base that gives them depth and an old-world feel. They take some getting used to. If you come from today's fruity florals, start with Coco Mademoiselle or Pleasures. Both are clean, easy roses suited to spring. For winter, Opium and Oud Satin Mood set rose in spice or vanilla at full intensity, so one spray is plenty. Rose 31 is the outlier. Unisex, dry, rubbed with cumin and wood, it is the rose for women who do not like roses. One practical note for all of them: spray on skin, not on silk. A concentrated perfume can mark pale silk."
+    }
+   ],
+   "why": {
+    "lancome-tresor": "Our top pick for a rose you recognize instantly. Peach and pineapple brighten the opening. Iris and lilac powder the heart, then sandalwood, vanilla and musk wrap it up. Soft, round and very retro. If you love fresh scents, it may feel too cozy. Tenderer than Joy and less dark than Opium.",
+    "jean-patou-joy": "An avalanche of rose and jasmine, with tuberose and ylang up top. Henri Alméras added a touch of civet that gives the bouquet some flesh. Lavish, and dated to some noses. Wear it at night or for a big occasion. More opulent than Trésor, less mossy than Mitsouko.",
+    "guerlain-mitsouko": "Rose sits in the heart with jasmine and ylang, but peach and oakmoss draw the outline. Jacques Guerlain made a melancholy chypre that needs a few wears to open up. Lovely in fall, at the office or at night. Drier and more serious than Femme, which leans on plum.",
+    "chanel-coco-mademoiselle": "The modern rose, full stop. It shares the heart with jasmine and a tart lychee over clean patchouli. The easiest rose on the list, office or date. Its popularity makes it feel ordinary. For an equally clean but greener rose, Pleasures is a good alternative.",
+    "estee-lauder-beautiful": "A wedding bouquet: rose and lily up top, then jasmine, tuberose and carnation. Rose carries the flag for this oversized arrangement. It is a party scent, a ceremony scent, and it carries. Go easy on the trigger. More floral and less powdery than Trésor.",
+    "rochas-femme": "Edmond Roudnitska set the rose on ripe plum and an oakmoss base. The result is a sensual fruity chypre with real class. Wear it in the evening when it is cool out. It can feel old-fashioned if you dislike moss. More carnal than Mitsouko and more restrained than Opium.",
+    "yves-saint-laurent-opium": "Here rose keeps company with jasmine and carnation, caught in clove and candied plum. The most famous spiced rose on the list, and the most overpowering. Keep it for winter nights and use one spray. Denser than Femme and less sweet than Oud Satin Mood.",
+    "estee-lauder-pleasures": "Dewy rose, peony and lily under violet leaf and green notes. The freshest and lightest pick here. Great for spring and summer days. Its quietness cuts both ways: it bothers no one, and it is easy to forget. Greener than Coco Mademoiselle.",
+    "le-labo-rose-31": "Unisex, and the least romantic rose on the list. Cumin and pepper frame it while cedar and guaiac wood dry it out. It is the rose for women who find the others too pretty. On some skin the cumin reads as sweaty. The exact opposite of Trésor.",
+    "maison-francis-kurkdjian-oud-satin-mood": "Also unisex. Rose and violet open onto oud softened with benzoin, then vanilla takes over. Francis Kurkdjian made a candied, silky rose with serious power. A winter evening scent. Its sweetness can become overwhelming. Sweeter than Opium and smoother than Rose 31."
+   },
+   "faq": [
+    {
+     "q": "Which women's perfume smells most like real rose?",
+     "a": "Trésor and Joy put the rose most clearly in front. Trésor makes it soft and powdery, Joy makes it lavish with jasmine. For a more current rose, Coco Mademoiselle sets it on clean patchouli. In N°5 or J'adore the rose is there but blended into the bouquet."
+    },
+    {
+     "q": "What is a good rose perfume for a younger woman?",
+     "a": "Coco Mademoiselle and Pleasures are the easiest. Their roses are clean and fresh, without the mossy or animal base of the classics. Rose 31 suits anyone who wants something less expected. Pre-1950 roses like Mitsouko or Joy take a bit more getting used to."
+    },
+    {
+     "q": "Which rose perfume works best in winter?",
+     "a": "Opium and Oud Satin Mood, because they set rose on spices, vanilla or oud. Both are rated 5 out of 5 for intensity, so one spray is enough. Trésor also works in cold weather with a softer, powdery profile."
+    }
+   ]
+  }
+ },
+ "ng:Rose:M": {
+  "picks": [
+   "parfums-de-marly-godolphin",
+   "montale-black-aoud",
+   "guerlain-habit-rouge",
+   "amouage-jubilation-xxv-man",
+   "penhaligons-halfeti",
+   "yves-saint-laurent-jazz",
+   "tom-ford-rose-prick",
+   "parfums-de-marly-nisean",
+   "paco-rabanne-1-million",
+   "creed-aventus"
+  ],
+  "fr": {
+   "title": "Parfum rose homme : 10 parfums où la rose a du caractère",
+   "meta": "Godolphin, Black Aoud et Habit Rouge : les parfums homme où la rose s'habille de cuir ou d'oud. Notre classement commenté et argumenté.",
+   "h1": "La rose dans les parfums pour homme : notre sélection",
+   "intro": "Le parfum rose homme le plus réussi de notre base est pour nous Godolphin de Parfums de Marly : une rose et un iris montés sur du cuir, du safran et du thym. Black Aoud arrive deuxième pour la rose la plus franche, frontalement associée à l'oud. Habit Rouge complète le podium. Sa rose se cache entre l'œillet et la cannelle depuis 1965. Les autres montrent comment les parfumeurs rendent la rose masculine : épices, bois, résines.",
+   "sections": [
+    {
+     "title": "Une rose masculine, c'est une rose déguisée",
+     "body": "Chez la femme, la rose peut se montrer nue, poudrée ou fruitée. Chez l'homme, la parfumerie occidentale l'a longtemps déguisée. On la place au cœur, entre des épices et un fond de bois ou de cuir, et on évite qu'elle sente le bouquet. Habit Rouge l'enveloppe d'œillet et de cannelle. Jazz la glisse dans une fougère à l'armoise. 1 Million la noie dans la cannelle et l'ambre. La tradition orientale a une autre approche, qui a gagné la niche européenne : la rose y est assumée et mariée à l'oud, au safran ou à l'encens. Black Aoud, Halfeti et Jubilation XXV viennent de là. Si vous voulez sentir la rose sans ambiguïté, allez vers ce versant. Si vous préférez qu'on la devine, restez chez les classiques."
+    },
+    {
+     "title": "Porter la rose au masculin sans faire fleuri",
+     "body": "Tout dépend de ce qui l'entoure. Le cuir et le safran la rendent sèche et élégante, comme dans Godolphin. L'oud et le patchouli la rendent sombre, parfois brutale, comme dans Black Aoud. Le poivre du Sichuan et le curcuma de Rose Prick la font piquer. Pour un premier essai, Habit Rouge ou Jazz sont les plus rassurants : leur rose ne se remarque que de près. Au bureau, préférez-les aux roses orientales, souvent notées 4 ou 5 en intensité. Le soir, Halfeti et Nisean prennent toute leur ampleur, surtout sur un col de manteau en hiver. Une pulvérisation sur le torse et une sur la nuque suffisent pour ces deux-là. Aventus reste un cas limite : sa rose existe au cœur, mais personne ne l'achète pour elle."
+    }
+   ],
+   "why": {
+    "parfums-de-marly-godolphin": "Notre premier choix parce que la rose y est lisible sans jamais faire bouquet. Safran, thym et cyprès l'ouvrent. L'iris et le jasmin l'accompagnent, puis le cuir et le vétiver l'emportent. C'est élégant, riche et peu connu. Il se porte le soir comme au bureau, par temps frais. Plus sec qu'Halfeti, bien moins brutal que Black Aoud.",
+    "montale-black-aoud": "La rose la plus frontale de la liste. Elle partage le cœur avec l'oud et le labdanum, sur un fond de patchouli, de santal et d'ambre. C'est puissant, sombre et sans compromis. Le côté synthétique peut rebuter. À réserver aux soirées d'hiver. Plus brut que Jubilation XXV, qui habille la même idée de fruits noirs et d'encens.",
+    "guerlain-habit-rouge": "Le classique de la rose masculine cachée. Jean-Paul Guerlain l'a posée entre l'œillet et la cannelle, sous des agrumes, avant un fond de vanille poudrée. On devine la rose plus qu'on ne la sent. C'est raffiné et un peu rétro. Plus doux que Jazz, beaucoup plus discret que 1 Million.",
+    "amouage-jubilation-xxv-man": "Bertrand Duchaufour a mis la rose au milieu d'un cœur chargé de miel, de cannelle et de bois de gaïac. Mûre, encens et myrrhe l'encadrent. C'est un oriental somptueux, qui demande du temps pour se livrer. Pour les amateurs d'encens plus que de rose pure. Plus riche que Black Aoud, moins frontal.",
+    "penhaligons-halfeti": "Un mixte. La rose et le jasmin s'installent au cœur après une tête de safran, de cardamome et de cyprès, puis l'oud et le cuir prennent la suite. Rose noire, épices et fumée : c'est profond et complexe. Les nez peu habitués aux orientaux denses risquent de s'y perdre. Plus sucré que Godolphin grâce à la tonka et la vanille.",
+    "yves-saint-laurent-jazz": "Armoise et néroli en tête, puis un cœur d'œillet, de rose et de géranium, et un fond de mousse de chêne. La rose y est presque invisible, fondue dans une fougère des années 1980. C'est sous-estimé et très portable au bureau. Le style classique ne plaira pas aux amateurs de fraîcheur moderne. Plus vert qu'Habit Rouge.",
+    "tom-ford-rose-prick": "Autre mixte, et la rose la plus lisible avec Black Aoud. Poivre du Sichuan et curcuma lui donnent des épines, puis le patchouli et la tonka l'arrondissent. Sa structure est simple. C'est un bon moyen de tester la rose franche sans passer par l'oud. Plus léger et plus vif que Nisean.",
+    "parfums-de-marly-nisean": "Mixte également. Safran, labdanum et géranium entourent la rose, sur une tête d'agrumes acidulés et un fond de patchouli. C'est un oriental épicé vivant, très intense. Une pulvérisation suffit. Plus lumineux qu'Halfeti, moins sombre que Black Aoud, et à réserver au soir.",
+    "paco-rabanne-1-million": "Au cœur, la rose partage la place avec la cannelle et les épices, et on ne la remarque pas. Ce qu'on sent, c'est le cuir sucré et l'ambre. On le classe ici parce qu'il montre bien comment une rose peut arrondir un masculin sucré sans se faire voir. Très répandu, parfois lourd. Pour une rose plus présente, Habit Rouge.",
+    "creed-aventus": "Une rose au cœur, avec le jasmin et le bouleau fumé, sous l'ananas et la bergamote. Personne ne la remarque, mais elle adoucit le passage du fruit à la mousse de chêne. On le cite surtout pour sa polyvalence. Si c'est la rose que vous cherchez, remontez dans la liste : Godolphin la montre bien davantage."
+   },
+   "faq": [
+    {
+     "q": "Un homme peut-il porter un parfum à la rose ?",
+     "a": "Oui, et beaucoup le font sans le savoir. La rose est au cœur d'Habit Rouge, de Jazz, de 1 Million ou d'Aventus. Elle y est entourée d'épices, de cuir ou de bois, ce qui la rend sèche et moins florale. Les parfums rose et oud comme Black Aoud la montrent sans détour."
+    },
+    {
+     "q": "Parfum rose et oud homme : lequel choisir ?",
+     "a": "Black Aoud est le plus direct, avec une rose et un oud sombres sur patchouli. Halfeti ajoute du safran, du cuir et de la vanille pour un rendu plus rond. Les deux sont puissants et conviennent aux soirées d'hiver. Commencez avec une seule pulvérisation."
+    },
+    {
+     "q": "Quel parfum rose homme pour le bureau ?",
+     "a": "Habit Rouge ou Jazz. Leur rose est enveloppée d'œillet, de cannelle ou d'armoise et ne se sent que de près. Godolphin passe aussi, avec son cuir élégant. Évitez Black Aoud et Nisean dans un bureau partagé : leur intensité est trop forte pour un espace clos."
+    }
+   ]
+  },
+  "en": {
+   "title": "Rose fragrances for men: 10 picks with backbone",
+   "meta": "Godolphin, Black Aoud and Habit Rouge: men's fragrances where rose is dressed in leather, oud or spice. Our ranked and reviewed picks.",
+   "h1": "Rose in men's fragrance: our picks",
+   "intro": "The best rose fragrance for men in our database is Parfums de Marly Godolphin. Rose and iris are built over leather, saffron and thyme. Black Aoud is second for the most upfront rose, paired head-on with oud. Habit Rouge takes third. Its rose has been hiding between carnation and cinnamon since 1965. The rest show how perfumers make rose read masculine: spice, wood and resin.",
+   "sections": [
+    {
+     "title": "A masculine rose is a rose in disguise",
+     "body": "In women's perfume, rose can go bare, powdery or fruity. In men's fragrance, Western perfumery has long kept it in disguise. It goes in the heart, between spices and a base of wood or leather, and it is not allowed to smell like a bouquet. Habit Rouge wraps it in carnation and cinnamon. Jazz tucks it into an artemisia fougère. 1 Million buries it in cinnamon and amber. Middle Eastern perfumery takes another route that has spread through European niche houses. There, rose is out in the open and paired with oud, saffron or incense. Black Aoud, Halfeti and Jubilation XXV come from that side. If you want to clearly smell rose, go that way. If you would rather people only guess at it, stay with the classics."
+    },
+    {
+     "title": "Wearing rose without smelling flowery",
+     "body": "It all comes down to what surrounds it. Leather and saffron make it dry and elegant, as in Godolphin. Oud and patchouli make it dark and sometimes brutal, as in Black Aoud. The Sichuan pepper and turmeric in Rose Prick give it a sting. For a first try, Habit Rouge or Jazz are the safest because their rose only shows up close. At work, pick those over the oud roses, which often score 4 or 5 on our intensity scale. At night, Halfeti and Nisean come into their own, especially on a winter coat collar. One spray on the chest and one on the back of the neck is enough for both. Aventus is a borderline case. There is rose in its heart, but nobody buys it for that."
+    }
+   ],
+   "why": {
+    "parfums-de-marly-godolphin": "Our top pick because the rose is clear without ever smelling like a bouquet. Saffron, thyme and cypress open it. Iris and jasmine keep it company, then leather and vetiver take over. Elegant, rich and under the radar. It works at night or at the office in cool weather. Drier than Halfeti and far less brutal than Black Aoud.",
+    "montale-black-aoud": "The most upfront rose on the list. It shares the heart with oud and labdanum over patchouli, sandalwood and amber. Loud, dark and uncompromising. The synthetic edge puts some people off. Save it for winter nights. Rawer than Jubilation XXV, which dresses a similar idea in dark berries and incense.",
+    "guerlain-habit-rouge": "Here is the classic hidden rose for men. Jean-Paul Guerlain set it between carnation and cinnamon, under citrus, before a powdery vanilla base. You sense the rose more than you smell it. Refined and a bit retro. Softer than Jazz and much quieter than 1 Million.",
+    "amouage-jubilation-xxv-man": "Bertrand Duchaufour put the rose in a crowded heart of honey, cinnamon and guaiac wood. Blackberry, incense and myrrh frame it. A lavish oriental that takes time to open up. Better for incense fans than for rose purists. Richer than Black Aoud and less in-your-face.",
+    "penhaligons-halfeti": "Unisex. Rose and jasmine settle in after an opening of saffron, cardamom and cypress, then oud and leather follow. Dark rose, spice and smoke: deep and complex. If dense orientals are new to you, it can feel like a maze. Sweeter than Godolphin thanks to tonka and vanilla.",
+    "yves-saint-laurent-jazz": "Artemisia and neroli open, then a heart of carnation, rose and geranium, then an oakmoss base. The rose is nearly invisible, blended into an 1980s fougère. Underrated and very office-friendly. The classic style will not win over fans of modern freshness. Greener than Habit Rouge.",
+    "tom-ford-rose-prick": "Another unisex pick, and the most readable rose here after Black Aoud. Sichuan pepper and turmeric give it thorns, then patchouli and tonka round it off. The structure is simple. A good way to try a straightforward rose without going through oud. Lighter and livelier than Nisean.",
+    "parfums-de-marly-nisean": "Also unisex. Saffron, labdanum and geranium surround the rose, with tart citrus on top and patchouli underneath. A lively, very intense spicy oriental. One spray is enough. Brighter than Halfeti, less dark than Black Aoud, and best kept strictly for evenings out.",
+    "paco-rabanne-1-million": "Rose sits in the heart with cinnamon and spice, and you never notice it. What you smell is sweet leather and amber. It earns a spot because it shows how rose can round out a sweet masculine without being seen. Very common and sometimes heavy. For a more present rose, try Habit Rouge.",
+    "creed-aventus": "There is rose in the heart, with jasmine and smoky birch, under pineapple and bergamot. Nobody notices it, but it smooths the shift from fruit to oakmoss. We list it mostly for its versatility. If rose is what you are after, look higher up: Godolphin shows it far more."
+   },
+   "faq": [
+    {
+     "q": "Can men wear rose fragrances?",
+     "a": "Yes, and many already do without knowing it. Rose sits in the heart of Habit Rouge, Jazz, 1 Million and Aventus. It is surrounded by spice, leather or wood, which makes it dry and less floral. Rose and oud scents like Black Aoud show it openly."
+    },
+    {
+     "q": "Which rose and oud fragrance should a man try?",
+     "a": "Black Aoud is the most direct, with dark rose and oud over patchouli. Halfeti adds saffron, leather and vanilla for a rounder result. Both are strong and best on winter nights. Start with one spray."
+    },
+    {
+     "q": "Is there a rose cologne for men that works at the office?",
+     "a": "Habit Rouge or Jazz. Their rose is wrapped in carnation, cinnamon or artemisia and only comes through up close. Godolphin works too, with its polished leather. Skip Black Aoud and Nisean in a shared office. They are too intense for a closed room."
+    }
+   ]
+  }
+ },
+ "ng:Sandalwood:F": {
+  "picks": [
+   "dior-dolce-vita",
+   "chanel-coco",
+   "dior-hypnotic-poison",
+   "calvin-klein-obsession",
+   "le-labo-santal-33",
+   "guerlain-vol-de-nuit",
+   "chanel-n-5",
+   "yves-saint-laurent-paris",
+   "carolina-herrera-good-girl"
+  ],
+  "fr": {
+   "title": "Parfum santal femme : 9 parfums au bois crémeux, classés",
+   "meta": "Dolce Vita, Coco et Santal 33 : notre sélection de parfums femme au santal, du bois lacté sous les fleurs au santal sec.",
+   "h1": "Le santal dans les parfums pour femme : notre classement",
+   "intro": "Pour un parfum femme où le santal se sent, notre premier choix est Dolce Vita de Dior : pêche, cannelle et un santal crémeux qui évoque une tarte chaude. Coco de Chanel suit, avec un santal posé sous le clou de girofle et la tonka. Hypnotic Poison complète le podium pour ceux qui aiment le santal noyé dans la vanille et la noix de coco. Santal 33, un mixte, est là pour celles qui préfèrent un santal sec.",
+   "sections": [
+    {
+     "title": "Côté féminin, le santal sert de peau aux fleurs",
+     "body": "Dans un parfum pour femme, le santal est rarement le sujet. Il sert de peau. Posé sous un bouquet de rose, de jasmin ou de tubéreuse, il arrondit les fleurs et leur donne un fond tiède et lacté qui reste des heures. C'est ce qu'il fait dans N°5, Paris ou Hypnotic Poison. On l'associe très souvent à la vanille, à la tonka ou au musc, trois matières qui renforcent son côté crémeux. Côté masculin, le santal travaille avec le cèdre, le vétiver ou le cuir. On y garde son profil plus sec. Santal 33 est entre les deux : mixte, il marie le santal au cuir et au papyrus et se porte très bien sur une femme. Si vous aimez le santal pour lui-même, cherchez les parfums qui le montent au cœur, comme Obsession."
+    },
+    {
+     "title": "Santal oriental ou santal floral : bien choisir",
+     "body": "Deux familles se partagent la sélection. Les orientaux posent le santal sur l'ambre, la vanille ou l'encens. Coco, Obsession, Hypnotic Poison et Vol de Nuit en font partie. Ils sont chauds, notés pour l'automne et l'hiver, et plusieurs atteignent 4 ou 5 en intensité. Une ou deux pulvérisations suffisent, idéalement sur la peau plutôt que sur un vêtement. Les floraux comme N°5, Paris et Dolce Vita gardent le santal en fond, sous des fleurs poudrées ou une pêche. Ils sont plus portables en journée et au printemps. Good Girl fait le lien, avec un santal adossé au cacao et à la tonka. Notre conseil : jugez un parfum au santal une heure après l'application. Les notes de tête masquent souvent le bois, qui ne se révèle qu'une fois le parfum posé."
+    }
+   ],
+   "why": {
+    "dior-dolce-vita": "Notre premier choix, parce que le santal y est crémeux et lisible, adossé à une pêche solaire et à un soupçon de cannelle. Rose et lys au cœur restent légers. On le porte en journée d'automne ou de printemps. Son esthétique très années 1990 ne plaira pas aux amatrices de minimalisme. Plus lumineux que Coco, moins sucré qu'Hypnotic Poison.",
+    "chanel-coco": "Jacques Polge a posé le santal sous un cœur de rose, de jasmin et de clou de girofle, avec de la tonka et de l'ambre. Le résultat est un oriental baroque, riche et impeccable. Le santal y donne la rondeur finale. C'est un parfum du soir et de l'hiver. Plus épicé que Dolce Vita, plus construit qu'Obsession.",
+    "dior-hypnotic-poison": "Annick Ménardo a fondu le santal dans la vanille et la noix de coco, avec une prune et un abricot bien mûrs. C'est la version la plus gourmande de la sélection, trouble et addictive. Trop dense pour l'été. Le santal se sent comme une peau chaude sous le sucre. Plus sombre que Dolce Vita.",
+    "calvin-klein-obsession": "Un des rares féminins où le santal monte au cœur, avec le jasmin et la fleur d'oranger. L'ambre, le musc et l'encens le prolongent. Jean Guichard a composé l'ambre des années 1980 dans toute sa franchise. C'est puissant et un peu daté. Moins sucré qu'Hypnotic Poison, plus direct que Coco.",
+    "le-labo-santal-33": "Mixte, c'est le santal le plus sec de la liste. Cardamome, violette et iris en tête. Viennent ensuite ambroxan, santal et papyrus sur un fond de cèdre et de cuir. On est loin du bois lacté des féminins classiques. Parfait pour celles qui trouvent les santals trop doux. Son omniprésence en a émoussé l'originalité.",
+    "guerlain-vol-de-nuit": "Galbanum amer en tête, iris et violette au cœur, puis un fond de vanille, de santal et de benjoin. Jacques Guerlain a fait un parfum poudré et nocturne, d'une grande nuance. Le santal y est discret, fondu dans la vanille. Il demande un nez patient. Plus vert et plus mélancolique que Coco.",
+    "chanel-n-5": "Le santal n'y est pas la vedette, mais il porte tout le bouquet d'aldéhydes et de fleurs. Ernest Beaux l'a associé au vétiver et à la vanille, et c'est lui qu'on sent en fin de journée, crémeux sur la peau. Le côté savonneux peut dérouter. Plus abstrait que Paris, plus sage qu'Obsession.",
+    "yves-saint-laurent-paris": "Une brassée de roses poudrées de violette, sur un fond de santal, de musc et d'ambre. Sophia Grojsman a fait de la rose la vedette, et le santal la prolonge sans bruit. C'est le choix des amatrices de fleurs qui veulent un fond chaud. Son opulence peut paraître datée. Plus floral que Dolce Vita.",
+    "carolina-herrera-good-girl": "Amande, café et tubéreuse, puis cacao, tonka et santal en fond. Louise Turner a joué le bien et le mal, et le santal adoucit le cacao. C'est le choix le plus actuel de la sélection. On le trouvera peut-être trop sucré. Plus gourmand que Coco, moins trouble qu'Hypnotic Poison."
+   },
+   "faq": [
+    {
+     "q": "Quel parfum femme sent le santal ?",
+     "a": "Dolce Vita de Dior est celui où le santal se sent le plus clairement, crémeux sous une pêche et une cannelle. Obsession le place au cœur, ce qui est rare. Pour un santal plus sec et boisé, Santal 33 de Le Labo est un mixte qui se porte très bien sur une femme."
+    },
+    {
+     "q": "Parfum santal femme : pour quelle saison ?",
+     "a": "Surtout l'automne et l'hiver, quand sa chaleur crémeuse se déploie. Coco, Obsession et Hypnotic Poison sont faits pour le froid. Dolce Vita et Paris se portent aussi au printemps. Pour un santal portable aux beaux jours, préférez un floral plutôt qu'un oriental."
+    },
+    {
+     "q": "Le santal est-il une note masculine ?",
+     "a": "Non, il est très présent dans les parfums féminins. Côté femme, il sert de fond crémeux aux fleurs et à la vanille. Côté homme, on le marie plutôt au cèdre, au vétiver ou au cuir, ce qui le rend plus sec. Santal 33 montre bien la version mixte."
+    }
+   ]
+  },
+  "en": {
+   "title": "Best sandalwood perfumes for women: 9 creamy picks",
+   "meta": "Dolce Vita, Coco and Santal 33: our ranking of sandalwood perfumes for women, from milky woods under flowers to dry sandalwood.",
+   "h1": "Sandalwood perfumes for women, ranked",
+   "intro": "If you want a women's perfume where sandalwood comes through, start with Dior Dolce Vita. Peach, cinnamon and a creamy sandalwood that smells like a warm tart. Chanel Coco is next, with sandalwood under clove and tonka. Hypnotic Poison takes third for anyone who likes sandalwood melted into vanilla and coconut. Santal 33, a unisex pick, is here for those who prefer their sandalwood dry.",
+   "sections": [
+    {
+     "title": "In women's perfume, sandalwood is the skin under the flowers",
+     "body": "In feminine perfume, sandalwood is rarely the subject. It is the skin. Set under rose, jasmine or tuberose, it rounds out the flowers and gives them a warm, milky base that lasts for hours. That is its job in N°5, Paris and Hypnotic Poison. It usually comes with vanilla, tonka or musk, which all push its creamy side. Men's fragrances pair sandalwood with cedar, vetiver or leather and keep it drier. Santal 33 sits in between. It is unisex, it pairs sandalwood with leather and papyrus, and it wears very well on women. If you love sandalwood for its own sake, look for perfumes that lift it into the heart, like Obsession."
+    },
+    {
+     "title": "Oriental or floral sandalwood: choosing well",
+     "body": "Two families split this list. The orientals set sandalwood on amber, vanilla or incense. Coco, Obsession, Hypnotic Poison and Vol de Nuit belong here. They are warm, made for fall and winter, and several score 4 or 5 for intensity. One or two sprays are enough, ideally on skin rather than clothes. Florals like N°5, Paris and Dolce Vita keep sandalwood in the base, under powdery flowers or peach. They are easier by day and in spring. Good Girl bridges the two, with sandalwood backing cacao and tonka. Our tip: judge a sandalwood perfume an hour after you put it on. Top notes often mask the wood, which only shows once the perfume settles."
+    }
+   ],
+   "why": {
+    "dior-dolce-vita": "Our top pick because the sandalwood is creamy and easy to read, backed by sunny peach and a hint of cinnamon. Rose and lily in the heart stay light. Wear it on fall or spring days. Its very 1990s look will not suit minimalists. Brighter than Coco and less sugary than Hypnotic Poison.",
+    "chanel-coco": "Jacques Polge set sandalwood under a heart of rose, jasmine and clove, with tonka and amber. The result is a baroque oriental, rich and flawless. Sandalwood gives it the final roundness. An evening and winter scent. Spicier than Dolce Vita and more polished than Obsession.",
+    "dior-hypnotic-poison": "Annick Ménardo melted sandalwood into vanilla and coconut, with very ripe plum and apricot. The most gourmand take on the list, hazy and addictive. Too dense for summer. The sandalwood reads like warm skin under the sugar. Darker than Dolce Vita.",
+    "calvin-klein-obsession": "One of the few women's perfumes that lifts sandalwood into the heart, alongside jasmine and orange blossom. Amber, musk and incense carry it on. Jean Guichard composed the 1980s amber at full volume. Strong and a bit dated. Less sweet than Hypnotic Poison and more direct than Coco.",
+    "le-labo-santal-33": "Unisex, and the driest sandalwood here. Cardamom, violet and iris up top. Then ambroxan, sandalwood and papyrus over cedar and leather. Nothing like the milky wood of classic feminines. Great if you find most sandalwoods too soft. Its ubiquity has dulled its edge.",
+    "guerlain-vol-de-nuit": "Bitter galbanum up top, iris and violet in the heart, then vanilla, sandalwood and benzoin. Jacques Guerlain made a powdery, nocturnal perfume full of nuance. The sandalwood is quiet, folded into the vanilla. It rewards a patient nose. Greener and more wistful than Coco.",
+    "chanel-n-5": "Sandalwood is not the star, but it holds up the whole aldehydic bouquet. Ernest Beaux paired it with vetiver and vanilla, and it is what you smell at the end of the day, creamy on skin. The soapy side can be off-putting. More abstract than Paris and tamer than Obsession.",
+    "yves-saint-laurent-paris": "An armful of roses dusted with violet, over sandalwood, musk and amber. Sophia Grojsman made rose the star, and sandalwood carries it quietly. A good pick for flower lovers who want a warm base. Its opulence can feel dated. More floral than Dolce Vita.",
+    "carolina-herrera-good-girl": "Almond, coffee and tuberose, then cacao, tonka and sandalwood at the base. Louise Turner played good against bad, and the sandalwood softens the cacao. The most current pick on the list. Some will find it too sweet. More gourmand than Coco, less hazy than Hypnotic Poison."
+   },
+   "faq": [
+    {
+     "q": "Which women's perfume smells like sandalwood?",
+     "a": "Dior Dolce Vita is the clearest, with creamy sandalwood under peach and cinnamon. Obsession puts sandalwood in the heart, which is rare. For a drier, woodier sandalwood, Le Labo Santal 33 is a unisex scent that wears beautifully on women."
+    },
+    {
+     "q": "What season suits sandalwood perfume?",
+     "a": "Mostly fall and winter, when its creamy warmth opens up. Coco, Obsession and Hypnotic Poison are built for the cold. Dolce Vita and Paris also work in spring. For sandalwood in warm weather, pick a floral over an oriental."
+    },
+    {
+     "q": "Is sandalwood a masculine note?",
+     "a": "No, it is everywhere in women's perfume. There it serves as a creamy base for flowers and vanilla. Men's fragrances tend to pair it with cedar, vetiver or leather, which makes it drier. Santal 33 shows the unisex version well."
+    }
+   ]
+  }
+ }
+}

@@ -202,7 +202,7 @@ const FAMILY_DEFAULTS: Record<string, { fr: string; en: string; slug_fr: string;
   aromatic: { fr: 'Aromatique', en: 'Aromatic', slug_fr: 'aromatique', slug_en: 'aromatic' },
   fruity: { fr: 'Fruité', en: 'Fruity', slug_fr: 'fruite', slug_en: 'fruity' },
   spicy: { fr: 'Épicé', en: 'Spicy', slug_fr: 'epice', slug_en: 'spicy' },
-  musky: { fr: 'Musqué', en: 'Musky', slug_fr: 'muse', slug_en: 'musky' },
+  musky: { fr: 'Musqué', en: 'Musky', slug_fr: 'musque', slug_en: 'musky' },
   powdery: { fr: 'Poudré', en: 'Powdery', slug_fr: 'poudre', slug_en: 'powdery' },
   green: { fr: 'Vert', en: 'Green', slug_fr: 'vert', slug_en: 'green' },
 };
