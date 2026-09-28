@@ -95,7 +95,7 @@ Règle d'or : **ne publier une famille de pages que si chaque page a une donnée
 ## 8. Mots-clés & concurrence (Haloscan, Google FR, 28/09/2026)
 
 Données brutes : `seo/haloscan/*.tsv` (~2 900 requêtes mesurées, exact match) + `seo/haloscan/serp_analysis.md` (13 SERP).
-Coût : ~60 crédits bulk, ~25 crédits keyword/site sur un solde mensuel de ~480 / ~9 900.
+Coût réel : 22 crédits bulk (482 → 460), 13 crédits keyword, 5 crédits site.
 
 ### 8.1 Ce que disent les volumes
 
