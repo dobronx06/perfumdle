@@ -1,0 +1,11 @@
+---
+import SimilarView from '../../../views/SimilarView.astro';
+import { perfumeBySlug } from '../../../lib/catalog';
+import { publishedSlugs } from '../../../lib/schedule';
+
+export function getStaticPaths() {
+  return publishedSlugs('similar').map((slug) => ({ params: { slug }, props: { p: perfumeBySlug.get(slug)! } }));
+}
+---
+
+<SimilarView p={Astro.props.p} locale="fr" />

@@ -1,0 +1,42 @@
+---
+import Shell from '../components/Shell.astro';
+import type { Locale } from '../i18n';
+import { url, brands } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const groups = new Map<string, typeof brands>();
+for (const b of brands) {
+  const k = b.name[0].normalize('NFD')[0].toUpperCase();
+  groups.set(k, [...(groups.get(k) ?? []), b]);
+}
+const top = [...brands].sort((a, b) => b.perfumes.length - a.perfumes.length).slice(0, 8);
+---
+
+<Shell
+  locale={l}
+  title={fr ? `Maisons de parfum : ${brands.length} marques de A à Z` : `Perfume houses: ${brands.length} brands from A to Z`}
+  description={fr ? `Chanel, Guerlain, Dior, Creed, Parfums de Marly… Découvrez l'histoire et les parfums iconiques de ${brands.length} maisons, du créateur à la niche.` : `Chanel, Guerlain, Dior, Creed, Parfums de Marly… The history and iconic perfumes of ${brands.length} houses, from designer to niche.`}
+  alternates={{ fr: url.brands('fr'), en: url.brands('en') }}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Maisons' : 'Houses' }]}
+  eyebrow={fr ? 'Index' : 'Index'}
+  h1={fr ? 'Les maisons de parfum' : 'Perfume houses'}
+  lede={fr ? 'Des maisons historiques de la parfumerie française aux créateurs de niche : chaque marque, son histoire, sa signature et ses parfums.' : 'From the historic French houses to niche creators: every brand, its story, its signature and its perfumes.'}
+  jsonLd={[itemListLd(fr ? 'Maisons de parfum' : 'Perfume houses', brands.map((b) => ({ name: b.name, href: url.brand(l, b.name) })))]}
+>
+  <section class="section--tight" style="padding-top:0">
+    <p class="eyebrow">{fr ? 'Les plus représentées' : 'Most represented'}</p>
+    <div class="houses" style="margin-top:1rem">{top.map((b) => <a href={url.brand(l, b.name)}>{b.name}<small>{b.perfumes.length}</small></a>)}</div>
+  </section>
+  <section class="section--tight">
+    <nav class="az-nav" aria-label="A–Z">{[...groups.keys()].map((k) => <a href={`#${k}`}>{k}</a>)}</nav>
+    {[...groups.entries()].map(([k, list]) => (
+      <div class="az-group" id={k}>
+        <h2>{k}</h2>
+        <div class="houses" style="border-top:0">{list.map((b) => <a href={url.brand(l, b.name)}>{b.name}<small>{b.perfumes.length}</small></a>)}</div>
+      </div>
+    ))}
+  </section>
+</Shell>

@@ -1,0 +1,12 @@
+---
+import CollectionView from '../../../views/CollectionView.astro';
+import { familyPage } from '../../../lib/pages';
+import { families } from '../../../lib/catalog';
+
+export function getStaticPaths() {
+  return families.map((f) => ({ params: { slug: f.slug_fr }, props: { key: f.key } }));
+}
+const props = familyPage(Astro.props.key, 'fr');
+---
+
+<CollectionView {...props} />

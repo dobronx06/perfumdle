@@ -1,0 +1,41 @@
+---
+/** Page shell for index pages: layout + masthead + crumbs + title block + slot + footer. */
+import Layout from '../layouts/Layout.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import Crumbs from './Crumbs.astro';
+import type { Locale } from '../i18n';
+import { breadcrumbLd, compact } from '../lib/seo';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  alternates: Record<Locale, string>;
+  crumbs: { name: string; href?: string }[];
+  eyebrow: string;
+  h1: string;
+  lede?: string;
+  jsonLd?: Record<string, unknown>[];
+}
+const P = Astro.props;
+const other = P.locale === 'fr' ? 'en' : 'fr';
+---
+
+<Layout title={P.title} description={P.description} locale={P.locale} alternates={P.alternates} jsonLd={compact([breadcrumbLd(P.crumbs), ...(P.jsonLd ?? [])])}>
+  <div class="page">
+    <Header locale={P.locale} altHref={P.alternates[other]} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={P.crumbs} />
+        <header style="padding-block:1.5rem clamp(2rem,4vw,3rem)">
+          <p class="eyebrow reveal">{P.eyebrow}</p>
+          <h1 class="h1 reveal reveal-2" style="margin-top:0.7rem;max-width:18ch">{P.h1}</h1>
+          {P.lede && <p class="lede reveal reveal-3" style="margin-top:1.2rem">{P.lede}</p>}
+        </header>
+        <slot />
+      </div>
+    </main>
+    <Footer locale={P.locale} />
+  </div>
+</Layout>

@@ -1,0 +1,287 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import {
+  url, perfumes, perfumeBySlug, brands, notes, families, eras, genders, seasons, noteName, familyName, eraName,
+  tintFor, homeEditorial, GUIDES, SITE, familyCover, type Perfume,
+} from '../lib/catalog';
+import { faqLd, compact } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const ed = homeEditorial(l);
+const pick = (slugs: string[]) => slugs.map((s) => perfumeBySlug.get(s)).filter(Boolean) as Perfume[];
+
+const mosaic = pick(['yves-saint-laurent-opium', 'dior-sauvage', 'maison-francis-kurkdjian-baccarat-rouge-540', 'guerlain-mitsouko', 'tom-ford-tobacco-vanille', 'thierry-mugler-angel', 'creed-aventus', 'lancome-la-vie-est-belle'])
+  .filter((p) => p.image)
+  .slice(0, 6);
+const icons = pick([
+  'guerlain-mitsouko', 'yves-saint-laurent-opium', 'thierry-mugler-angel', 'calvin-klein-ck-one', 'dior-sauvage', 'dior-jadore',
+  'creed-aventus', 'maison-francis-kurkdjian-baccarat-rouge-540', 'lancome-la-vie-est-belle', 'chanel-chance',
+  'tom-ford-black-orchid', 'le-labo-santal-33',
+]);
+const topBrands = [...brands].sort((a, b) => b.perfumes.length - a.perfumes.length).slice(0, 16);
+
+const search = [
+  ...perfumes.map((p) => ({ t: p.name, s: p.brand, h: url.perfume(l, p.slug), i: p.image, k: fr ? 'Parfum' : 'Perfume' })),
+  ...brands.map((b) => ({ t: b.name, s: `${b.perfumes.length} ${fr ? 'parfums' : 'perfumes'}`, h: url.brand(l, b.name), i: null, k: fr ? 'Maison' : 'House' })),
+  ...notes.map((n) => ({ t: noteName(n.key, l), s: `${n.perfumes.length} ${fr ? 'parfums' : 'perfumes'}`, h: url.note(l, n.key), i: null, k: 'Note' })),
+  ...families.map((f) => ({ t: familyName(f.key, l), s: fr ? 'Famille olfactive' : 'Olfactory family', h: url.family(l, f.key), i: null, k: fr ? 'Famille' : 'Family' })),
+];
+
+const title = ed?.title ?? (fr ? 'Perfumdle — L’encyclopédie des parfums iconiques' : 'Perfumdle — The encyclopedia of iconic perfumes');
+const description = ed?.meta ?? (fr
+  ? `${perfumes.length} parfums iconiques décodés : notes, maisons, familles olfactives, époques. Et chaque jour, un parfum mystère à deviner.`
+  : `${perfumes.length} iconic perfumes decoded: notes, houses, olfactory families, eras. And every day, a mystery perfume to guess.`);
+const faqs = ed?.faq ?? [];
+
+const jsonLd = compact([
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Perfumdle',
+    url: `${SITE}/${l}/`,
+    inLanguage: l,
+    description,
+    potentialAction: { '@type': 'SearchAction', target: `${SITE}${url.perfumes(l)}?q={search_term_string}`, 'query-input': 'required name=search_term_string' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Perfumdle',
+    url: SITE,
+    logo: `${SITE}/favicon.svg`,
+    description: fr ? 'Encyclopédie éditoriale indépendante des parfums iconiques.' : 'Independent editorial encyclopedia of iconic perfumes.',
+  },
+  faqLd(faqs),
+]);
+---
+
+<Layout title={title} description={description} locale={l} alternates={{ fr: '/fr/', en: '/en/' }} jsonLd={jsonLd} image={mosaic[0]?.image ?? undefined}>
+  <div class="page">
+    <Header locale={l} altHref={fr ? '/en/' : '/fr/'} />
+    <main>
+      <!-- HERO -->
+      <section class="wrap hero-home">
+        <div class="hero-home__grid">
+          <div class="hero-home__copy">
+            <p class="eyebrow reveal">{fr ? `Encyclopédie · ${perfumes.length} parfums iconiques` : `Encyclopedia · ${perfumes.length} iconic perfumes`}</p>
+            <h1 class="display reveal reveal-2" style="margin-top:1.1rem">
+              {fr ? <>Tout ce qu'un parfum <em>raconte</em>, note par note.</> : <>Everything a perfume <em>says</em>, note by note.</>}
+            </h1>
+            <p class="lede reveal reveal-3">{ed?.lede ?? (fr
+              ? "Pyramides olfactives, histoires des maisons, familles et époques : l'encyclopédie pour comprendre les parfums que vous aimez — et découvrir ceux que vous aimerez."
+              : 'Fragrance pyramids, house histories, families and eras: the encyclopedia to understand the perfumes you love — and find the ones you will.')}</p>
+            <div class="finder reveal reveal-4">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input id="finder" type="search" autocomplete="off" placeholder={fr ? 'Un parfum, une maison, une note…' : 'A perfume, a house, a note…'} aria-label={fr ? 'Rechercher' : 'Search'} />
+              <div class="finder__results" id="finder-results" hidden></div>
+            </div>
+            <div class="hero-home__cta reveal reveal-4">
+              <a class="btn" href={url.perfumes(l)}>{fr ? 'Explorer les parfums' : 'Explore the perfumes'}</a>
+              <a class="btn btn--ghost" href={url.game(l)}>{fr ? 'Jouer au parfum du jour' : "Play today's perfume"}</a>
+            </div>
+          </div>
+          <div class="hero-mosaic reveal reveal-2" aria-label={fr ? 'Parfums à la une' : 'Featured perfumes'}>
+            {mosaic.map((p, i) => (
+              <a href={url.perfume(l, p.slug)} style={`background:${tintFor(p)}`}>
+                <img src={p.image!} alt={`${p.name} ${p.brand}`} width="600" height="600" loading={i < 3 ? 'eager' : 'lazy'} />
+                <span>{p.brand} — {p.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- FAMILIES -->
+      <section class="section section--paper2">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Par famille olfactive' : 'By olfactory family'}</p>
+              <h2 class="h2" style="margin-top:0.4rem">{fr ? <>Trouvez votre <em>famille</em></> : <>Find your <em>family</em></>}</h2>
+            </div>
+            <a class="link-arrow" href={url.families(l)}>{fr ? 'Toutes les familles' : 'All families'}</a>
+          </div>
+          <div class="tiles">
+            {families.slice(0, 10).map((f) => {
+              const img = familyCover[f.key];
+              return (
+                <a class="tile" href={url.family(l, f.key)} style={`background:${f.tint}`}>
+                  <span class="tile__name">{familyName(f.key, l)}</span>
+                  <span class="tile__count">{f.perfumes.length} {fr ? 'parfums' : 'perfumes'}</span>
+                  {img && <img class="tile__img" src={img} alt="" loading="lazy" width="600" height="600" />}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <!-- ICONS -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Les incontestables' : 'The undisputed'}</p>
+              <h2 class="h2" style="margin-top:0.4rem">{fr ? <>Douze parfums qui ont <em>changé l'histoire</em></> : <>Twelve perfumes that <em>changed history</em></>}</h2>
+            </div>
+            <a class="link-arrow" href={url.perfumes(l)}>{fr ? `Les ${perfumes.length} parfums` : `All ${perfumes.length} perfumes`}</a>
+          </div>
+          <div class="cards">{icons.map((p) => <PerfumeCard p={p} locale={l} />)}</div>
+        </div>
+      </section>
+
+      <!-- NOTES -->
+      <section class="section section--ink">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Le vocabulaire' : 'The vocabulary'}</p>
+              <h2 class="h2" style="margin-top:0.4rem">{fr ? 'Explorer par note' : 'Explore by note'}</h2>
+              <p class="lede">{fr ? 'Vanille, iris, oud, bergamote : chaque matière a son odeur, son histoire et ses chefs-d’œuvre.' : 'Vanilla, iris, oud, bergamot: every material has its smell, its story and its masterpieces.'}</p>
+            </div>
+            <a class="link-arrow" href={url.notes(l)}>{fr ? `Les ${notes.length} notes` : `All ${notes.length} notes`}</a>
+          </div>
+          <div class="chips">
+            {notes.slice(0, 36).map((n) => <a class="chip chip--lg" href={url.note(l, n.key)}>{noteName(n.key, l)}<small>{n.perfumes.length}</small></a>)}
+          </div>
+        </div>
+      </section>
+
+      <!-- HOUSES -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Les maisons' : 'The houses'}</p>
+              <h2 class="h2" style="margin-top:0.4rem">{fr ? <>De Guerlain à la <em>niche</em></> : <>From Guerlain to <em>niche</em></>}</h2>
+            </div>
+            <a class="link-arrow" href={url.brands(l)}>{fr ? `Les ${brands.length} maisons` : `All ${brands.length} houses`}</a>
+          </div>
+          <div class="houses">{topBrands.map((b) => <a href={url.brand(l, b.name)}>{b.name}<small>{b.perfumes.length}</small></a>)}</div>
+        </div>
+      </section>
+
+      <!-- ERAS -->
+      <section class="section--ink" style="padding-top:clamp(3rem,6vw,5rem)">
+        <div class="wrap">
+          <p class="eyebrow">{fr ? 'Chronologie' : 'Timeline'}</p>
+          <h2 class="h2" style="margin:0.4rem 0 2rem">{fr ? 'Un siècle de parfums' : 'A century of perfume'}</h2>
+        </div>
+        <nav class="timeline" aria-label={fr ? 'Époques' : 'Eras'}>
+          {eras.map((e) => <a href={url.era(l, e.decade)}><strong>{e.decade}</strong><span>{e.perfumes.length} {fr ? 'parfums' : 'perfumes'}</span></a>)}
+        </nav>
+      </section>
+
+      <!-- EDITS -->
+      <section class="section--tight">
+        <div class="wrap">
+          <p class="eyebrow">{fr ? 'Sélections' : 'Edits'}</p>
+          <div class="chips" style="margin-top:1rem">
+            {genders.map((g) => <a class="chip chip--lg" href={url.gender(l, g.key)}>{fr ? g.name_fr : g.name_en}<small>{g.perfumes.length}</small></a>)}
+            {seasons.map((s) => <a class="chip chip--lg" href={url.season(l, s.key)}>{fr ? s.name_fr : s.name_en}<small>{s.perfumes.length}</small></a>)}
+          </div>
+        </div>
+      </section>
+
+      <!-- GAME (secondary) -->
+      <section class="section--tight">
+        <div class="wrap">
+          <div class="teaser">
+            <div>
+              <p class="eyebrow">{fr ? 'Le jeu quotidien' : 'The daily game'}</p>
+              <h2 class="h2" style="margin:0.5rem 0 1rem">{fr ? 'Sauriez-vous reconnaître le parfum du jour ?' : "Could you recognise today's perfume?"}</h2>
+              <p class="lede">{fr ? "Un parfum mystère, un indice par essai : maison, année, famille, concentration. Un nouveau défi chaque jour à minuit." : 'One mystery perfume, one clue per guess: house, year, family, concentration. A new challenge every day at midnight.'}</p>
+              <div style="margin-top:1.6rem"><a class="btn btn--gold" href={url.game(l)}>{fr ? 'Jouer maintenant' : 'Play now'}</a></div>
+            </div>
+            <div class="teaser__mystery" aria-hidden="true">?</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIDES -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Guides' : 'Guides'}</p>
+              <h2 class="h2" style="margin-top:0.4rem">{fr ? 'Comprendre le parfum' : 'Understanding perfume'}</h2>
+            </div>
+          </div>
+          <div class="guides">
+            {GUIDES.map((g) => <a href={`/${l}/${g.slug}/`}><span class="eyebrow">{fr ? 'Guide' : 'Guide'}</span><strong>{fr ? g.fr : g.en}</strong></a>)}
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT + FAQ -->
+      {ed && (
+        <section class="section section--paper2">
+          <div class="wrap article">
+            <div class="prose">
+              <p class="eyebrow">{fr ? 'À propos' : 'About'}</p>
+              <h2 style="margin-top:0.4rem">{ed.h1}</h2>
+              <p>{ed.about}</p>
+            </div>
+            <div></div>
+          </div>
+          <div class="wrap wrap--text" style="margin-top:1rem">
+            <div class="faq">
+              {faqs.map((f: { q: string; a: string }) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+            </div>
+          </div>
+        </section>
+      )}
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>
+
+<script type="application/json" id="finder-data" set:html={JSON.stringify(search)} />
+<script>
+  const data: { t: string; s: string; h: string; i: string | null; k: string }[] = JSON.parse(document.getElementById('finder-data')!.textContent!);
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const index = data.map((d) => ({ ...d, n: norm(`${d.t} ${d.s}`) }));
+  const input = document.getElementById('finder') as HTMLInputElement;
+  const box = document.getElementById('finder-results')!;
+  let active = -1;
+  const render = () => {
+    const q = norm(input.value.trim());
+    active = -1;
+    if (q.length < 2) { box.hidden = true; return; }
+    const hits = index.filter((d) => d.n.includes(q)).sort((a, b) => Number(!norm(a.t).startsWith(q)) - Number(!norm(b.t).startsWith(q))).slice(0, 8);
+    box.innerHTML = '';
+    for (const d of hits) {
+      const a = document.createElement('a');
+      a.href = d.h;
+      if (d.i) { const img = document.createElement('img'); img.src = d.i; img.alt = ''; a.append(img); }
+      const txt = document.createElement('span');
+      txt.innerHTML = `<strong></strong><br><span class="muted" style="font-size:.8rem"></span>`;
+      txt.querySelector('strong')!.textContent = d.t;
+      (txt.querySelector('.muted') as HTMLElement).textContent = d.s;
+      const tag = document.createElement('small');
+      tag.textContent = d.k;
+      a.append(txt, tag);
+      box.append(a);
+    }
+    box.hidden = hits.length === 0;
+  };
+  input.addEventListener('input', render);
+  input.addEventListener('keydown', (e) => {
+    const links = [...box.querySelectorAll('a')];
+    if (!links.length) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      active = (active + (e.key === 'ArrowDown' ? 1 : -1) + links.length) % links.length;
+      links.forEach((x, i) => (i === active ? x.setAttribute('data-active', '') : x.removeAttribute('data-active')));
+    } else if (e.key === 'Enter') {
+      location.href = (links[Math.max(active, 0)] as HTMLAnchorElement).href;
+    }
+  });
+  document.addEventListener('click', (e) => { if (!(e.target as HTMLElement).closest('.finder')) box.hidden = true; });
+</script>

@@ -1,0 +1,177 @@
+---
+/**
+ * Generic hub template: brand, note, family, era, gender and season pages.
+ * Every hub = direct answer (intro) + editorial sections + perfume grid + cross-links + FAQ.
+ */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import type { Perfume, Faq as FaqT } from '../lib/catalog';
+import { breadcrumbLd, faqLd, itemListLd, articleLd, compact } from '../lib/seo';
+
+export interface LinkGroup { eyebrow: string; title: string; items: { label: string; href: string; count?: number }[]; variant?: 'chips' | 'houses' }
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  eyebrow: string;
+  h1: string;
+  intro: string;
+  crumbs: { name: string; href?: string }[];
+  alternates: Record<Locale, string>;
+  tint?: string;
+  heroImage?: string | null;
+  facts?: { label: string; value: string; href?: string }[];
+  stats?: { value: string; label: string }[];
+  sections?: { title: string; body?: string }[];
+  perfumes: Perfume[];
+  perfumesTitle: string;
+  perfumeNote?: (p: Perfume) => string | undefined;
+  groups?: LinkGroup[];
+  faq?: FaqT[];
+  pager?: { prev?: { label: string; href: string }; next?: { label: string; href: string } };
+  filterable?: boolean;
+}
+
+const P = Astro.props;
+const l = P.locale;
+const fr = l === 'fr';
+const path = P.alternates[l];
+
+const jsonLd = compact([
+  articleLd({ headline: P.h1, description: P.description, path, lang: l, image: P.heroImage ?? P.perfumes[0]?.image ?? undefined, about: P.h1 }),
+  breadcrumbLd(P.crumbs),
+  itemListLd(P.perfumesTitle, P.perfumes.slice(0, 50).map((p) => ({ name: `${p.name} — ${p.brand}`, href: `/${l}/parfum/${p.slug}/` }))),
+  P.faq ? faqLd(P.faq) : null,
+]);
+const mosaic = P.perfumes.filter((p) => p.image).slice(0, 3);
+---
+
+<Layout title={P.title} description={P.description} locale={l} alternates={P.alternates} jsonLd={jsonLd} image={P.heroImage ?? mosaic[0]?.image ?? undefined} ogType="article">
+  <div class="page">
+    <Header locale={l} altHref={P.alternates[fr ? 'en' : 'fr']} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={P.crumbs} />
+        <section class="entity-hero">
+          <div class="entity-hero__copy">
+            <p class="eyebrow reveal">{P.eyebrow}</p>
+            <h1 class="h1 reveal reveal-2">{P.h1}</h1>
+            <p class="lede reveal reveal-3">{P.intro}</p>
+            {P.facts && P.facts.length > 0 && (
+              <dl class="facts reveal reveal-4">
+                {P.facts.map((f) => <div><dt>{f.label}</dt><dd>{f.href ? <a href={f.href}>{f.value}</a> : f.value}</dd></div>)}
+              </dl>
+            )}
+            {P.stats && (
+              <div class="stat-row reveal reveal-4">
+                {P.stats.map((s) => <div><strong>{s.value}</strong><span>{s.label}</span></div>)}
+              </div>
+            )}
+          </div>
+          <div class="entity-hero__media reveal" style={`background:${P.tint ?? '#E9E3DA'}`}>
+            {P.heroImage
+              ? <img src={P.heroImage} alt="" width="600" height="600" loading="eager" />
+              : mosaic.length > 0 && (
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;width:90%;align-items:end">
+                  {mosaic.map((p, i) => <img src={p.image!} alt={`${p.name} ${p.brand}`} width="600" height="600" style={`width:100%;height:auto;mix-blend-mode:multiply;transform:translateY(${i === 1 ? '-12%' : '0'}) scale(${i === 1 ? 1.15 : 1})`} loading="eager" />)}
+                </div>
+              )}
+          </div>
+        </section>
+      </div>
+
+      {P.sections && P.sections.filter((s) => s.body).length > 0 && (
+        <div class="wrap section--tight">
+          <div class="article">
+            <article class="prose">
+              {P.sections.filter((s) => s.body).map((s, i) => (
+                <>
+                  <h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2>
+                  <p class={i === 0 ? 'dropcap' : ''}>{s.body}</p>
+                </>
+              ))}
+            </article>
+            <aside class="aside">
+              {P.groups?.filter((g) => g.variant !== 'houses').slice(0, 1).map((g) => (
+                <div class="aside-card">
+                  <p class="eyebrow">{g.eyebrow}</p>
+                  <h2 style="margin-top:0.3rem">{g.title}</h2>
+                  <div class="chips">{g.items.map((it) => <a class="chip" href={it.href}>{it.label}{it.count && <small>{it.count}</small>}</a>)}</div>
+                </div>
+              ))}
+              <div class="aside-card" style="background:var(--ink);color:var(--paper);border-color:var(--ink)">
+                <h2>{fr ? 'Le parfum mystère du jour' : "Today's mystery perfume"}</h2>
+                <p style="font-size:0.9rem;opacity:.75;margin-bottom:1rem">{fr ? 'Maison, année, famille : trouvez-le en quelques essais.' : 'House, year, family: find it in a few guesses.'}</p>
+                <a href={`/${l}/${fr ? 'jeu' : 'game'}/`} class="btn btn--gold">{fr ? 'Jouer' : 'Play'}</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      )}
+
+      <section class="section--tight">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{P.perfumes.length} {fr ? 'parfums' : 'perfumes'}</p>
+              <h2 class="h2">{P.perfumesTitle}</h2>
+            </div>
+          </div>
+          {P.filterable && (
+            <div class="filters" data-filters>
+              <button type="button" data-g="" aria-pressed="true">{fr ? 'Tous' : 'All'}</button>
+              <button type="button" data-g="Feminine" aria-pressed="false">{fr ? 'Femme' : 'Women'}</button>
+              <button type="button" data-g="Masculine" aria-pressed="false">{fr ? 'Homme' : 'Men'}</button>
+              <button type="button" data-g="Unisex" aria-pressed="false">{fr ? 'Mixte' : 'Unisex'}</button>
+            </div>
+          )}
+          <div class="cards">
+            {P.perfumes.map((p) => <PerfumeCard p={p} locale={l} note={P.perfumeNote?.(p)} />)}
+          </div>
+        </div>
+      </section>
+
+      {P.groups?.map((g, i) => (i > 0 || !P.sections?.some((s) => s.body) || g.variant === 'houses') && (
+        <section class="section--tight">
+          <div class="wrap">
+            <p class="eyebrow">{g.eyebrow}</p>
+            <h2 class="h2" style="margin:0.4rem 0 1.4rem">{g.title}</h2>
+            {g.variant === 'houses'
+              ? <div class="houses">{g.items.map((it) => <a href={it.href}>{it.label}{it.count && <small>{it.count}</small>}</a>)}</div>
+              : <div class="chips">{g.items.map((it) => <a class="chip chip--lg" href={it.href}>{it.label}{it.count && <small>{it.count}</small>}</a>)}</div>}
+          </div>
+        </section>
+      ))}
+
+      <div class="wrap wrap--text">
+        {P.faq && <Faq items={P.faq} title={fr ? 'Questions fréquentes' : 'Frequently asked questions'} />}
+        {P.pager && (
+          <nav class="pager" aria-label="Pagination">
+            {P.pager.prev ? <a href={P.pager.prev.href}><small>{fr ? 'Précédent' : 'Previous'}</small><strong>{P.pager.prev.label}</strong></a> : <span></span>}
+            {P.pager.next ? <a href={P.pager.next.href}><small>{fr ? 'Suivant' : 'Next'}</small><strong>{P.pager.next.label}</strong></a> : <span></span>}
+          </nav>
+        )}
+      </div>
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-filters]').forEach((bar) => {
+    const cards = bar.parentElement!.querySelectorAll<HTMLElement>('[data-card]');
+    bar.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('button');
+      if (!btn) return;
+      bar.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+      const g = btn.dataset.g;
+      cards.forEach((c) => (g && c.dataset.gender !== g ? c.setAttribute('data-hidden', '') : c.removeAttribute('data-hidden')));
+    });
+  });
+</script>

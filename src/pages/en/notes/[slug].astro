@@ -1,0 +1,12 @@
+---
+import CollectionView from '../../../views/CollectionView.astro';
+import { notePage } from '../../../lib/pages';
+import { notes, noteSlug } from '../../../lib/catalog';
+
+export function getStaticPaths() {
+  return notes.map((n) => ({ params: { slug: noteSlug(n.key, 'en') }, props: { key: n.key } }));
+}
+const props = notePage(Astro.props.key, 'en');
+---
+
+<CollectionView {...props} />

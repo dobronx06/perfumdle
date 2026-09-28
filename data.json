@@ -895,7 +895,7 @@
         "Cedar",
         "Incense"
       ],
-      "concentration": "Eau de Parfum"
+      "concentration": "Eau de Toilette"
     },
     {
       "name": "La Vie Est Belle",
@@ -2137,7 +2137,7 @@
         "Black Vanilla",
         "Leather"
       ],
-      "concentration": "Eau de Parfum"
+      "concentration": "Eau de Toilette"
     },
     {
       "name": "Very Irrésistible",
@@ -2456,7 +2456,6 @@
       ],
       "baseNotes": [
         "Amber",
-        "Oud",
         "Musk"
       ],
       "concentration": "Eau de Toilette"
@@ -2514,19 +2513,13 @@
       "gender": "Unisex",
       "family": "Woody",
       "topNotes": [
-        "Ambroxan",
-        "Musk",
-        "Cedar"
+        "Ambroxan"
       ],
       "heartNotes": [
-        "Ambroxan",
-        "Cetalox",
-        "Cashmeran"
+        "Ambroxan"
       ],
       "baseNotes": [
-        "Ambroxan",
-        "White Musk",
-        "Sandalwood"
+        "Ambroxan"
       ],
       "concentration": "Eau de Parfum"
     },
@@ -2537,19 +2530,13 @@
       "gender": "Unisex",
       "family": "Woody",
       "topNotes": [
-        "Iso E Super",
-        "Cedar",
-        "Musk"
+        "Iso E Super"
       ],
       "heartNotes": [
-        "Iso E Super",
-        "Vetiver",
-        "Amber"
+        "Iso E Super"
       ],
       "baseNotes": [
-        "Iso E Super",
-        "Sandalwood",
-        "Cashmeran"
+        "Iso E Super"
       ],
       "concentration": "Eau de Toilette"
     },
@@ -2597,7 +2584,7 @@
         "Tonka Bean",
         "Cedar"
       ],
-      "concentration": "Eau de Parfum"
+      "concentration": "Eau de Toilette"
     },
     {
       "name": "Ombre Leather",
@@ -2740,7 +2727,7 @@
     {
       "name": "1881",
       "brand": "Cerruti",
-      "year": 1995,
+      "year": 1990,
       "gender": "Masculine",
       "family": "Aromatic Fougère",
       "topNotes": [
@@ -2945,7 +2932,7 @@
       "concentration": "Eau de Parfum"
     },
     {
-      "name": "Chloe Eau de Parfum",
+      "name": "Chloé Eau de Parfum",
       "brand": "Chloé",
       "year": 2008,
       "gender": "Feminine",
@@ -3080,7 +3067,7 @@
         "Sandalwood",
         "Vetiver"
       ],
-      "concentration": "Eau de Parfum"
+      "concentration": "Eau de Toilette"
     },
     {
       "name": "Oud Satin Mood",
@@ -3731,7 +3718,7 @@
     {
       "name": "Meliora",
       "brand": "Parfums de Marly",
-      "year": 2013,
+      "year": 2017,
       "gender": "Feminine",
       "family": "Floral Green",
       "topNotes": [
@@ -4184,7 +4171,7 @@
       "concentration": "Parfum"
     },
     {
-      "name": "Delina La Rosee",
+      "name": "Delina La Rosée",
       "brand": "Parfums de Marly",
       "year": 2021,
       "gender": "Feminine",
@@ -5846,7 +5833,7 @@
     {
       "name": "Dior Homme Intense",
       "brand": "Dior",
-      "year": 2011,
+      "year": 2007,
       "gender": "Masculine",
       "family": "Floral Woody",
       "topNotes": [
@@ -6040,10 +6027,10 @@
         "Labdanum",
         "Amber"
       ],
-      "concentration": "Eau de Parfum"
+      "concentration": "Eau de Toilette"
     },
     {
-      "name": "La Nuit Tresor",
+      "name": "La Nuit Trésor",
       "brand": "Lancome",
       "year": 2015,
       "gender": "Feminine",
@@ -6980,7 +6967,7 @@
       "concentration": "Eau de Toilette"
     },
     {
-      "name": "L'Homme Ideal",
+      "name": "L'Homme Idéal",
       "brand": "Guerlain",
       "year": 2014,
       "gender": "Masculine",

@@ -271,14 +271,14 @@ const jsonLd = {
           <div class="content-link-card__title">{fr ? "Guide stratégie Perfumdle" : "Perfumdle strategy guide"}</div>
           <div class="content-link-card__desc">{fr ? "Comment gagner au jeu" : "How to win the game"}</div>
         </a>
-        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
-          <div class="content-link-card__title">{fr ? "Les 150 parfums" : "All 150 perfumes"}</div>
+        <a href={(locale === 'fr' ? '/fr/parfums/' : '/en/perfumes/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Tous les parfums" : "All perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Liste complète avec détails" : "Complete list with details"}</div>
         </a>
       </div>
 
       <div class="content-cta-box">
-        <p>{fr ? "Maintenant que vous connaissez les concentrations, testez-vous sur les 150 parfums iconiques !" : "Now that you know the concentrations, test yourself on the 150 iconic perfumes!"}</p>
+        <p>{fr ? "Maintenant que vous connaissez les concentrations, testez-vous sur les 300 parfums iconiques !" : "Now that you know the concentrations, test yourself on the 300 iconic perfumes!"}</p>
         <a href={localePath(locale)} class="btn-play">{t(locale, 'content.play_cta')}</a>
       </div>
     </main>

@@ -67,8 +67,8 @@ const jsonLd = {
 
       <p>
         {fr
-          ? "La classification des parfums en familles olfactives permet de mieux comprendre et décrire les fragrances. Découvrez les 7 grandes familles qui structurent l'univers de la parfumerie, avec des exemples tirés des 150 parfums iconiques de Perfumdle."
-          : "Classifying perfumes into olfactory families helps to better understand and describe fragrances. Discover the 7 main families that structure the world of perfumery, with examples from the 150 iconic perfumes in Perfumdle."
+          ? "La classification des parfums en familles olfactives permet de mieux comprendre et décrire les fragrances. Découvrez les 7 grandes familles qui structurent l'univers de la parfumerie, avec des exemples tirés des 300 parfums iconiques de Perfumdle."
+          : "Classifying perfumes into olfactory families helps to better understand and describe fragrances. Discover the 7 main families that structure the world of perfumery, with examples from the 300 iconic perfumes in Perfumdle."
         }
       </p>
 
@@ -119,8 +119,8 @@ const jsonLd = {
       </p>
       <p>
         {fr
-          ? `On trouve <strong>${familyCounts.woody} parfums boisés</strong> parmi nos 150 sélections :`
-          : `There are <strong>${familyCounts.woody} woody perfumes</strong> among our 150 selections:`
+          ? `On trouve <strong>${familyCounts.woody} parfums boisés</strong> parmi nos 300 parfums :`
+          : `There are <strong>${familyCounts.woody} woody perfumes</strong> among our 300 perfumes:`
         }
       </p>
       <ul>
@@ -262,8 +262,8 @@ const jsonLd = {
           <div class="content-link-card__title">{fr ? "Guide stratégie" : "Strategy guide"}</div>
           <div class="content-link-card__desc">{fr ? "Astuces pour gagner" : "Tips to win"}</div>
         </a>
-        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
-          <div class="content-link-card__title">{fr ? "Les 150 parfums" : "All 150 perfumes"}</div>
+        <a href={(locale === 'fr' ? '/fr/parfums/' : '/en/perfumes/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Tous les parfums" : "All perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Liste complète" : "Complete list"}</div>
         </a>
       </div>

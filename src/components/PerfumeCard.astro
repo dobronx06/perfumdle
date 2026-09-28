@@ -1,0 +1,20 @@
+---
+import type { Locale } from '../i18n';
+import { url, tintFor, type Perfume } from '../lib/catalog';
+
+interface Props { p: Perfume; locale: Locale; note?: string; eager?: boolean }
+const { p, locale, note, eager = false } = Astro.props;
+const initials = p.name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
+---
+
+<a href={url.perfume(locale, p.slug)} class="card" data-card data-gender={p.gender} data-families={p.families.join(' ')} data-search={`${p.name} ${p.brand}`.toLowerCase()}>
+  <div class="card__media" style={`background:${tintFor(p)}`}>
+    {p.image
+      ? <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+      : <span class="card__initials">{initials}</span>}
+  </div>
+  <span class="card__house">{p.brand}</span>
+  <span class="card__name">{p.name}</span>
+  <span class="card__meta">{p.year} · {p.concentration}</span>
+  {note && <span class="card__shared">{note}</span>}
+</a>

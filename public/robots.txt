@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perfumdle.com/sitemap-index.xml

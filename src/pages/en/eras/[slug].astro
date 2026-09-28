@@ -1,0 +1,12 @@
+---
+import CollectionView from '../../../views/CollectionView.astro';
+import { eraPage } from '../../../lib/pages';
+import { eras, eraSlug } from '../../../lib/catalog';
+
+export function getStaticPaths() {
+  return eras.map((e) => ({ params: { slug: eraSlug(e.decade, 'en') }, props: { decade: e.decade } }));
+}
+const props = eraPage(Astro.props.decade, 'en');
+---
+
+<CollectionView {...props} />

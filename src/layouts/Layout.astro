@@ -1,72 +1,101 @@
 ---
 import '../styles/global.css';
-import data from '../data/data.json';
+import '../styles/site.css';
 import theme from '../data/theme.json';
-import { t, altLocale, localePath, ogLocale, type Locale } from '../i18n';
+import { t, altLocale, ogLocale, type Locale } from '../i18n';
+import { SITE } from '../lib/catalog';
 
 interface Props {
   title?: string;
   description?: string;
   locale: Locale;
+  /** Absolute or root-relative canonical. Defaults to the current path. */
   canonical?: string;
-  jsonLd?: Record<string, unknown>;
+  /** Root-relative path of each language version. Defaults to swapping the locale prefix. */
+  alternates?: Partial<Record<Locale, string>>;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  image?: string;
+  ogType?: 'website' | 'article';
+  noindex?: boolean;
+  /** The game keeps its original night-atelier look. */
+  dark?: boolean;
 }
 
-const { locale, title = data.titre, description = t(locale, 'site.description'), canonical, jsonLd } = Astro.props;
+const {
+  locale,
+  title = 'Perfumdle',
+  description = t(locale, 'site.description'),
+  jsonLd,
+  image,
+  ogType = 'website',
+  noindex = false,
+  dark = false,
+} = Astro.props;
+
+const pathname = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const abs = (p: string) => (p.startsWith('http') ? p : `${SITE}${p}`);
+const canonical = abs(Astro.props.canonical ?? pathname);
 const other = altLocale(locale);
+const alternates: Record<Locale, string> = {
+  fr: Astro.props.alternates?.fr ?? pathname.replace(`/${locale}/`, '/fr/'),
+  en: Astro.props.alternates?.en ?? pathname.replace(`/${locale}/`, '/en/'),
+};
+const ogImage = abs(image ?? '/og-default.jpg');
 
-const fontFamilies = [
-  `${theme.typo.titre.replace(/ /g, '+')}:wght@400;700`,
-  `${theme.typo.corps.replace(/ /g, '+')}:wght@400;500;600;700`,
-];
-const fontUrl = `https://fonts.googleapis.com/css2?${fontFamilies.map((f) => `family=${f}`).join('&')}&display=swap`;
-
-const pathname = Astro.url.pathname;
-const frPath = pathname.replace(`/${locale}/`, '/fr/');
-const enPath = pathname.replace(`/${locale}/`, '/en/');
-
+const light = {
+  primary: '#7A1F2B', accent: '#7A1F2B', bg: '#F7F3EE', bgCard: '#FFFFFF', text: '#1A1411', textMuted: '#6B605A',
+  correct: '#3F6B3A', close: '#B7832F', wrong: '#D9D2CA', danger: '#B3261E', border: 'rgba(26,20,17,0.12)',
+};
+const c = dark ? { ...theme.couleurs, border: theme.style.borderColor } : light;
 const cssVars = [
-  `--font-titre: '${theme.typo.titre}', cursive`,
-  `--font-corps: '${theme.typo.corps}', system-ui, sans-serif`,
-  `--color-primary: ${theme.couleurs.primary}`,
-  `--color-accent: ${theme.couleurs.accent}`,
-  `--color-bg: ${theme.couleurs.bg}`,
-  `--color-bg-card: ${theme.couleurs.bgCard}`,
-  `--color-text: ${theme.couleurs.text}`,
-  `--color-text-muted: ${theme.couleurs.textMuted}`,
-  `--color-correct: ${theme.couleurs.correct}`,
-  `--color-close: ${theme.couleurs.close}`,
-  `--color-wrong: ${theme.couleurs.wrong}`,
-  `--color-danger: ${theme.couleurs.danger ?? '#ef4444'}`,
+  `--font-titre: 'Cormorant Garamond', 'Playfair Display', Georgia, serif`,
+  `--font-corps: 'Inter', system-ui, -apple-system, sans-serif`,
+  `--color-primary: ${c.primary}`,
+  `--color-accent: ${c.accent}`,
+  `--color-bg: ${c.bg}`,
+  `--color-bg-card: ${c.bgCard}`,
+  `--color-text: ${c.text}`,
+  `--color-text-muted: ${c.textMuted}`,
+  `--color-correct: ${c.correct}`,
+  `--color-close: ${c.close}`,
+  `--color-wrong: ${c.wrong}`,
+  `--color-danger: ${c.danger ?? '#ef4444'}`,
   `--radius: ${theme.style.borderRadius}`,
-  `--border-color: ${theme.style.borderColor}`,
+  `--border-color: ${c.border}`,
 ].join('; ');
+const fontUrl = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap';
+const ld = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
 ---
 
 <!doctype html>
-<html lang={locale} style={cssVars}>
+<html lang={locale} style={cssVars} class={dark ? 'theme-night' : 'theme-paper'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex, follow" /> : <meta name="robots" content="index, follow, max-image-preview:large" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="fr" href={abs(alternates.fr)} />
+    <link rel="alternate" hreflang="en" href={abs(alternates.en)} />
+    <link rel="alternate" hreflang="x-default" href={abs(alternates.fr)} />
+    <meta name="theme-color" content={dark ? '#0A0A0B' : '#F7F3EE'} />
+
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={data.titre} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="Perfumdle" />
     <meta property="og:locale" content={ogLocale(locale)} />
     <meta property="og:locale:alternate" content={ogLocale(other)} />
-    <title>{title}</title>
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    {canonical && <link rel="canonical" href={canonical} />}
-    <link rel="alternate" hreflang="fr" href={`https://perfumdle.com${frPath}`} />
-    <link rel="alternate" hreflang="en" href={`https://perfumdle.com${enPath}`} />
-    <link rel="alternate" hreflang="x-default" href={`https://perfumdle.com${frPath}`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href={fontUrl} rel="stylesheet" />
-    {jsonLd && (
-      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    )}
+    {ld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     <script defer data-domain="perfumdle.com" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>

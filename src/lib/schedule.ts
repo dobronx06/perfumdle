@@ -1,0 +1,19 @@
+/**
+ * Drip-feed publishing. Programmatic page families listed in
+ * src/data/publish-schedule.json only go live once their date has passed,
+ * so Google sees steady growth instead of a sudden spike of URLs.
+ * A daily rebuild (see .github/workflows/daily-rebuild.yml) publishes the next batch.
+ */
+import schedule from '../data/publish-schedule.json';
+
+type Kind = keyof typeof schedule;
+const today = new Date().toISOString().slice(0, 10);
+
+export function isPublished(kind: Kind, slug: string): boolean {
+  const date = (schedule[kind] as Record<string, string>)[slug];
+  return !!date && date <= today;
+}
+
+export function publishedSlugs(kind: Kind): string[] {
+  return Object.entries(schedule[kind] as Record<string, string>).filter(([, d]) => d <= today).map(([s]) => s);
+}

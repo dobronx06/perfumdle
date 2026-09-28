@@ -1,0 +1,538 @@
+{
+  "guerlain-shalimar": {
+    "verdict": "poor",
+    "why": "generic Fragrance.com gold travel atomizer, no Shalimar bottle"
+  },
+  "nina-ricci-lair-du-temps": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dior-eau-sauvage": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "jean-patou-joy": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-mitsouko": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "ralph-lauren-polo": {
+    "verdict": "unsure",
+    "why": "frosted pale bottle with gold cap and embossed polo emblem; classic Polo is dark green glass"
+  },
+  "estee-lauder-beautiful": {
+    "verdict": "wrong",
+    "why": "shows \"FAWN\" by ABL indie perfume, not Estee Lauder Beautiful"
+  },
+  "calvin-klein-eternity": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "thierry-mugler-angel": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "calvin-klein-ck-one": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-allure": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "kenzo-flower-by-kenzo": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-chance": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "thierry-mugler-alien": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-la-petite-robe-noire": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "paco-rabanne-1-million": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "lancome-la-vie-est-belle": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dior-sauvage": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-tobacco-vanille": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "le-labo-santal-33": {
+    "verdict": "ok",
+    "why": "labelled Santal 33 bottle (small in frame)"
+  },
+  "byredo-bal-dafrique": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "hermes-un-jardin-sur-le-nil": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-pour-monsieur": {
+    "verdict": "ok",
+    "why": "Chanel Pour Monsieur bottle, label faint but legible"
+  },
+  "clinique-aromatics-elixir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guy-laroche-drakkar-noir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dior-fahrenheit": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dior-dolce-vita": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "creed-silver-mountain-water": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "giorgio-armani-si": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "carolina-herrera-good-girl": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "yves-saint-laurent-black-opium": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dolce-gabbana-dolce": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "azzaro-wanted": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-vol-de-nuit": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-n-19": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "yves-saint-laurent-paris": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "yves-saint-laurent-la-nuit-de-lhomme": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "ralph-lauren-polo-blue": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "versace-pour-homme": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "versace-bright-crystal": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "prada-lhomme": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "givenchy-linterdit": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "givenchy-very-irresistible": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-allure-homme-sport": {
+    "verdict": "poor",
+    "why": "deodorant spray can of Allure Homme Sport, not the perfume bottle"
+  },
+  "dior-miss-dior-blooming-bouquet": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "giorgio-armani-stronger-with-you": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "paco-rabanne-olympea": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "hermes-twilly-dhermes": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "juliette-has-a-gun-not-a-perfume": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "burberry-her": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-ombre-leather": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "gucci-bamboo": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "gucci-guilty": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "cerruti-1881": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-linstant-de-guerlain": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "le-labo-another-13": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-noir-de-noir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-mon-guerlain": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "burberry-burberry-london": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "paco-rabanne-pure-xs": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "narciso-rodriguez-narciso-rodriguez-for-her": {
+    "verdict": "ok",
+    "why": "correct bottle; slight semi-transparent white haze residue on right side"
+  },
+  "maison-margiela-replica-jazz-club": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "gucci-gucci-flora": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "coach-coach": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "acqua-di-parma-colonia": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "byredo-mojave-ghost": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-darley": {
+    "verdict": "ok",
+    "why": "PdM clear/gold bottle consistent with Darley (name not legible)"
+  },
+  "parfums-de-marly-godolphin": {
+    "verdict": "ok",
+    "why": "PdM gold-beige bottle consistent with Godolphin"
+  },
+  "parfums-de-marly-pegasus": {
+    "verdict": "ok",
+    "why": "PdM silver-lilac bottle consistent with Pegasus"
+  },
+  "parfums-de-marly-habdan": {
+    "verdict": "poor",
+    "why": "tiny black sample vial labelled Habdan"
+  },
+  "parfums-de-marly-meliora": {
+    "verdict": "unsure",
+    "why": "PdM Delina-style bottle (clear, gold cap, white tassel); cannot confirm it is Meliora"
+  },
+  "parfums-de-marly-darcy": {
+    "verdict": "poor",
+    "why": "tiny black sample vial labelled Darcy"
+  },
+  "parfums-de-marly-byerley": {
+    "verdict": "ok",
+    "why": "dark PdM horse-crest bottle, consistent with Byerley (name not legible)"
+  },
+  "parfums-de-marly-carlisle": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-delina": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-delina-exclusif": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-cassili": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-kalan": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-pegasus-exclusif": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-haltane": {
+    "verdict": "poor",
+    "why": "1.5ml sample vial, name not legible"
+  },
+  "parfums-de-marly-althair": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "parfums-de-marly-perseus": {
+    "verdict": "unsure",
+    "why": "low-res (250px) blurry tan PdM bottle, off-center; cannot confirm Perseus"
+  },
+  "initio-parfums-prives-side-effect": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "initio-parfums-prives-musk-therapy": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "xerjoff-erba-pura": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "amouage-interlude-man": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "amouage-jubilation-xxv-man": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "penhaligons-halfeti": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "mancera-cedrat-boise": {
+    "verdict": "ok",
+    "why": "labelled bottle with pouch"
+  },
+  "montale-intense-cafe": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "diptyque-philosykos": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "diptyque-do-son": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "maison-francis-kurkdjian-grand-soir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "maison-francis-kurkdjian-petit-matin": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "editions-de-parfums-frederic-malle-musc-ravageur": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "by-kilian-love-dont-be-shy": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "nishane-hacivat": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tiziana-terenzi-kirke": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-bitter-peach": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-soleil-blanc": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "tom-ford-tobacco-oud": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "creed-millesime-imperial": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "byredo-rose-of-no-mans-land": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "maison-margiela-replica-lazy-sunday-morning": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "maison-margiela-replica-coffee-break": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "marc-jacobs-decadence": {
+    "verdict": "wrong",
+    "why": "vintage \"Decadence for men\" print ad, not the Marc Jacobs handbag bottle"
+  },
+  "versace-yellow-diamond": {
+    "verdict": "ok",
+    "why": "labelled bottle; cap edges have slight cutout artifacts"
+  },
+  "versace-dylan-turquoise": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "valentino-uomo-born-in-roma": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "chanel-chance-eau-tendre": {
+    "verdict": "poor",
+    "why": "three twist-and-spray refill vials, not the round bottle"
+  },
+  "dior-dior-joy": {
+    "verdict": "poor",
+    "why": "generic Fragrance.com silver travel atomizer, no Dior Joy bottle"
+  },
+  "dior-sauvage-elixir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "giorgio-armani-stronger-with-you-intensely": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "dolce-gabbana-the-only-one": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "givenchy-linterdit-rouge": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "thierry-mugler-mugler-cologne": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "paco-rabanne-1-million-lucky": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "yves-saint-laurent-myslf": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "yves-saint-laurent-libre-intense": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "calvin-klein-euphoria": {
+    "verdict": "ok",
+    "why": "Euphoria bottle, small in frame"
+  },
+  "prada-luna-rossa-carbon": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "hermes-jour-dhermes": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "hugo-boss-boss-the-scent": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "giorgio-beverly-hills-giorgio": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "jennifer-lopez-glow": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "sol-de-janeiro-sol-cheirosa-62": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "burberry-her-elixir": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "azzaro-wanted-by-night": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "jimmy-choo-jimmy-choo": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "lattafa-raghba": {
+    "verdict": "ok",
+    "why": "Raghba bottle, shown alongside a body spray can"
+  },
+  "salvatore-ferragamo-signorina": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "louis-vuitton-ombre-nomade": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "guerlain-lhomme-ideal": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  },
+  "coach-coach-floral": {
+    "verdict": "ok",
+    "why": "correct bottle/label visible"
+  }
+}

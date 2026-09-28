@@ -1,0 +1,33 @@
+---
+import Shell from '../components/Shell.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import { url, eras, eraName } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+---
+
+<Shell
+  locale={l}
+  title={fr ? `Histoire du parfum : les icônes de ${eras[0].decade} à aujourd'hui` : `Perfume history: the icons from ${eras[0].decade} to today`}
+  description={fr ? "Des années 1920 de N°5 et Shalimar aux blockbusters des années 2020 : parcourez l'histoire de la parfumerie décennie par décennie." : 'From the 1920s of N°5 and Shalimar to the blockbusters of the 2020s: explore perfume history decade by decade.'}
+  alternates={{ fr: url.eras('fr'), en: url.eras('en') }}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Époques' : 'Eras' }]}
+  eyebrow={fr ? 'Chronologie' : 'Timeline'}
+  h1={fr ? 'Un siècle de parfums, décennie par décennie' : 'A century of perfume, decade by decade'}
+  lede={fr ? "Chaque époque a son odeur : aldéhydes des années folles, chypres d'après-guerre, orientaux puissants des années 80, fraîcheur des années 90, gourmands et ambrés d'aujourd'hui." : 'Every era has its smell: aldehydes of the Roaring Twenties, post-war chypres, powerful 80s orientals, 90s freshness, and today’s gourmands and ambers.'}
+  jsonLd={[itemListLd(fr ? 'Époques' : 'Eras', eras.map((e) => ({ name: eraName(e.decade, l), href: url.era(l, e.decade) })))]}
+>
+  {eras.map((e) => (
+    <section class="az-group" style="grid-template-columns:1fr;gap:1rem">
+      <div class="section__head" style="margin:0">
+        <h2 class="h2"><a href={url.era(l, e.decade)}>{eraName(e.decade, l)}</a></h2>
+        <a class="link-arrow" href={url.era(l, e.decade)}>{e.perfumes.length} {fr ? 'parfums' : 'perfumes'}</a>
+      </div>
+      <div class="cards cards--5">{e.perfumes.slice(0, 5).map((p) => <PerfumeCard p={p} locale={l} />)}</div>
+    </section>
+  ))}
+</Shell>

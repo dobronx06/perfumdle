@@ -1,0 +1,17 @@
+---
+/** Gender and season edits live at the root: /en/womens-perfumes/, /en/winter-perfumes/… */
+import CollectionView from '../../views/CollectionView.astro';
+import { genderPage, seasonPage } from '../../lib/pages';
+import { genders, seasons } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return [
+    ...genders.map((g) => ({ params: { edit: g.slug_en }, props: { kind: 'gender', key: g.key } })),
+    ...seasons.map((s) => ({ params: { edit: s.slug_en }, props: { kind: 'season', key: s.key } })),
+  ];
+}
+const { kind, key } = Astro.props;
+const props = kind === 'gender' ? genderPage(key, 'en') : seasonPage(key, 'en');
+---
+
+<CollectionView {...props} />

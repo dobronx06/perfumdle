@@ -1,0 +1,1403 @@
+{
+ "_data_issues": [],
+ "Amber": {
+  "slug_fr": "ambre",
+  "slug_en": "amber",
+  "name_fr": "Ambre",
+  "name_en": "Amber",
+  "category": "resinous",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à l'ambre : note, odeur et grands classiques",
+   "meta": "L'ambre en parfum n'est ni une pierre ni l'ambre gris : c'est un accord chaud de labdanum, vanille et benjoin. Odeur, origine et parfums ambrés iconiques.",
+   "h1": "L'ambre en parfumerie : un accord chaud, résineux et doré",
+   "intro": "En parfumerie, l'ambre désigne un accord imaginaire et non une matière unique : un mariage de labdanum, de vanille et de résines comme le benjoin. Il sent la peau chaude, la résine sucrée et la poudre dorée, avec une douceur enveloppante qui tient des heures.",
+   "smell": "L'ambre sent d'abord la chaleur : une résine ambrée, légèrement fumée, adoucie par une vanille crémeuse et une touche poudrée qui rappelle le baume et le cuir tendre. Selon le dosage, il peut tirer vers le caramel, la cire d'abeille ou la tonalité balsamique d'un vieux bois ciré. Sur la peau, l'accord se révèle lentement : il gagne en rondeur au fil des heures, s'arrondit, puis laisse un fond sensuel, presque charnel, qui semble fusionner avec la chaleur du corps.",
+   "origin": "Il ne faut pas le confondre avec l'ambre fossile, résine sans odeur utilisée en joaillerie, ni avec l'ambre gris, concrétion d'origine marine. L'accord ambré est une construction de parfumeur apparue à la fin du XIXe siècle, héritière des baumes orientaux. Sa base classique associe le labdanum, gomme tirée du ciste d'Espagne, à la vanille ou à la vanilline de synthèse, au benjoin du Laos et parfois au styrax. Les grands orientaux du début du XXe siècle en ont fait une signature de la parfumerie française.",
+   "craft": "Presque toujours placé en fond, l'ambre sert de socle chaud à la composition : il fixe les notes plus volatiles et donne du relief aux épices, aux fleurs blanches et aux bois. Associé à la vanille et à l'encens, il signe les grands orientaux comme Opium d'Yves Saint Laurent ou Obsession de Calvin Klein. Dans une lecture plus moderne et aérienne, il se fait lumineux et minéral dans Baccarat Rouge 540 de Maison Francis Kurkdjian. Son effet est toujours le même : envelopper, arrondir, prolonger.",
+   "wear": "L'ambre se porte surtout en automne et en hiver, le soir ou par temps froid. Il séduit les amateurs de parfums chaleureux, sensuels et persistants, quel que soit le genre.",
+   "faq": [
+    {
+     "q": "L'ambre en parfum est-il la même chose que l'ambre gris ?",
+     "a": "Non. L'ambre des parfumeurs est un accord chaud à base de labdanum, de vanille et de résines. L'ambre gris est une matière animale d'origine marine, au profil salé, musqué et tabacé, aujourd'hui presque toujours remplacé par des molécules comme l'ambroxan. Les deux évoquent la chaleur, mais leurs odeurs sont très différentes."
+    },
+    {
+     "q": "Quels sont les parfums ambrés les plus célèbres ?",
+     "a": "Parmi les références qui contiennent une note d'ambre dans leur fond, on cite souvent Opium d'Yves Saint Laurent, Obsession de Calvin Klein, Le Mâle de Jean Paul Gaultier ou, plus récemment, Baccarat Rouge 540 de Maison Francis Kurkdjian, qui propose une interprétation plus transparente et sucrée de la chaleur ambrée."
+    },
+    {
+     "q": "Un parfum ambré tient-il longtemps ?",
+     "a": "Oui, c'est l'une de ses grandes qualités. Les matières qui composent l'accord, comme le labdanum, la vanille et le benjoin, sont lourdes et peu volatiles. Elles restent perceptibles pendant de longues heures et jouent le rôle de fixateur pour le reste de la formule. Sur des vêtements en laine, un fond ambré peut encore se sentir le lendemain."
+    }
+   ]
+  },
+  "en": {
+   "title": "Amber Perfumes: Scent, Origin and Iconic Fragrances",
+   "meta": "Amber in perfume is neither fossil resin nor ambergris: it's a warm accord of labdanum, vanilla and benzoin. Learn how it smells and discover the icons.",
+   "h1": "Amber in perfume: a warm, resinous, golden accord",
+   "intro": "In perfumery, amber is an imaginary accord rather than a single raw material: a blend of labdanum, vanilla and balsamic resins such as benzoin. It smells of warm skin, sweet resin and golden powder, with an enveloping softness that lasts for hours.",
+   "smell": "Amber smells, above all, warm. Picture a glowing resin with a faint smoky edge, softened by creamy vanilla and a powdery touch reminiscent of balsam and soft leather. Depending on the dose it can lean toward caramel, beeswax or the balmy tone of polished old wood. On skin the accord unfolds slowly, gaining roundness as the hours pass before settling into a sensual, almost carnal base that seems to merge with body heat.",
+   "origin": "Amber in perfume has nothing to do with fossil amber, the odourless resin used in jewellery, nor with ambergris, a marine concretion. The amber accord is a perfumer's construction that emerged in the late nineteenth century, drawing on old oriental balsams. Its classic skeleton pairs labdanum, a gum taken from Spanish rockrose, with vanilla or synthetic vanillin, benzoin from Laos and sometimes styrax. The great French orientals of the early twentieth century turned it into a house signature.",
+   "craft": "Almost always placed in the base, amber acts as a warm foundation: it anchors volatile notes and gives depth to spices, white flowers and woods. Paired with vanilla and incense it defines big orientals such as Opium by Yves Saint Laurent or Obsession by Calvin Klein. In a modern, airier reading it turns luminous and mineral in Baccarat Rouge 540 by Maison Francis Kurkdjian. Its effect never changes: it wraps, rounds off and extends everything around it.",
+   "wear": "Amber is best worn in autumn and winter, in the evening or in cold weather. It appeals to anyone who likes warm, sensual, long-lasting fragrances, regardless of gender.",
+   "faq": [
+    {
+     "q": "Is amber in perfume the same as ambergris?",
+     "a": "No. Perfumers' amber is a warm accord built from labdanum, vanilla and resins. Ambergris is an animal material of marine origin with a salty, musky, tobacco-like profile, and today it is almost always replaced by molecules such as Ambroxan. Both suggest warmth, but they smell very different."
+    },
+    {
+     "q": "What are the most famous amber perfumes?",
+     "a": "Frequently cited fragrances with amber in the base include Opium by Yves Saint Laurent, Obsession by Calvin Klein and, more recently, Baccarat Rouge 540 by Maison Francis Kurkdjian, which offers a sheerer, sweeter take on ambery warmth. Jean Paul Gaultier's Le Mâle also rests on an ambery, vanilla-rich base."
+    },
+    {
+     "q": "Do amber fragrances last long?",
+     "a": "Yes, longevity is one of amber's main strengths. The materials behind the accord, such as labdanum, vanilla and benzoin, are heavy and evaporate slowly. They stay noticeable for many hours and fix the rest of the formula. On wool clothing, an ambery drydown can often still be detected the next day."
+    }
+   ]
+  }
+ },
+ "Ambroxan": {
+  "slug_fr": "ambroxan",
+  "slug_en": "ambroxan",
+  "name_fr": "Ambroxan",
+  "name_en": "Ambroxan",
+  "category": "synthetic",
+  "source": "synthetic",
+  "fr": {
+   "title": "Ambroxan en parfum : odeur, origine et parfums phares",
+   "meta": "L'ambroxan, molécule ambrée issue de la sauge sclarée, remplace l'ambre gris : odeur boisée, salée, minérale. Son histoire et ses parfums phares.",
+   "h1": "L'ambroxan, la molécule qui imite l'ambre gris",
+   "intro": "L'ambroxan est une molécule de synthèse à l'odeur boisée, ambrée et légèrement salée, créée pour reproduire la facette la plus noble de l'ambre gris. Elle donne à un parfum un effet de peau propre, minérale et rayonnante, très présent dans la parfumerie masculine moderne.",
+   "smell": "L'ambroxan sent la peau chauffée au soleil après une baignade : un boisé sec et minéral, une pointe salée, une chaleur ambrée sans sucre ni vanille. Certains y perçoivent une nuance musquée, presque sensuelle ; d'autres une impression de pierre tiède. Sa particularité tient à la perception : à forte dose, certaines personnes la sentent à peine, puis elle réapparaît par vagues. Sur la peau, elle diffuse longtemps et forme un halo net, sans évolution spectaculaire mais d'une grande tenue.",
+   "origin": "L'ambre gris, concrétion rejetée par le cachalot et affinée par la mer, doit une grande part de son odeur à la dégradation de l'ambréine. Dans les années 1950, les chimistes ont obtenu une molécule proche à partir du sclaréol, extrait de la sauge sclarée. Plusieurs fournisseurs la commercialisent sous des noms déposés, dont Ambroxan et Cetalox. Aujourd'hui, des procédés de biotechnologie permettent aussi de la produire par fermentation. Elle a rendu l'ambre gris naturel quasiment inutile dans la parfumerie courante.",
+   "craft": "Utilisée en fond, parfois dès le cœur, elle apporte diffusion, tenue et une texture minérale qui modernise les bois et les agrumes. Elle se marie au poivre, à la bergamote, au cèdre et au vétiver. Sauvage de Dior l'a rendue célèbre auprès du grand public, portée à un dosage très visible. Not a Perfume de Juliette Has a Gun en fait le sujet quasi unique de la formule, tandis qu'Another 13 du Labo l'associe aux muscs pour un effet de peau abstraite.",
+   "wear": "Polyvalent, l'ambroxan se porte en toute saison, au bureau comme le soir. Il plaît à ceux qui aiment les parfums propres, boisés et persistants, sans sucre.",
+   "faq": [
+    {
+     "q": "L'ambroxan est-il naturel ?",
+     "a": "Non, c'est une molécule de synthèse. Elle est toutefois fabriquée à partir d'une matière végétale, le sclaréol extrait de la sauge sclarée, ou par fermentation biotechnologique. Elle reproduit la facette ambrée de l'ambre gris sans recourir à cette matière animale rare, ce qui en fait un ingrédient plus stable et plus accessible."
+    },
+    {
+     "q": "Pourquoi l'ambroxan sent-il différemment selon les personnes ?",
+     "a": "Certaines personnes présentent une sensibilité réduite à ce type de molécule ambrée : elles la perçoivent faiblement, voire pas du tout. D'autres la trouvent très puissante. L'odorat s'y habitue aussi vite, si bien que le porteur croit souvent que son parfum a disparu alors que son entourage le sent encore nettement."
+    },
+    {
+     "q": "Quels parfums sont riches en ambroxan ?",
+     "a": "Dans notre base, l'ambroxan figure notamment dans Sauvage de Dior, Eros de Versace, Luna Rossa de Prada et Tuxedo d'Yves Saint Laurent. Not a Perfume de Juliette Has a Gun en est l'exemple le plus radical, puisque la molécule apparaît à tous les étages de la pyramide et constitue l'essentiel de la formule."
+    }
+   ]
+  },
+  "en": {
+   "title": "Ambroxan in Perfume: Smell, Origin and Key Fragrances",
+   "meta": "Ambroxan is the amber molecule from clary sage that replaced ambergris: woody, salty and mineral. Learn how it smells, where it comes from and who uses it.",
+   "h1": "Ambroxan, the molecule behind modern ambergris",
+   "intro": "Ambroxan is a synthetic molecule with a woody, ambery, slightly salty smell, created to reproduce the finest facet of ambergris. It gives a fragrance a clean, mineral, radiant skin effect and is everywhere in modern masculine perfumery.",
+   "smell": "Ambroxan smells like sun-warmed skin after a swim: dry, mineral wood, a salty edge and ambery warmth with no sugar or vanilla. Some people pick up a musky, almost sensual nuance; others describe warm stone. Perception is its quirk: at high doses some noses barely register it, then it comes back in waves. On skin it radiates for a long time as a clean halo, without dramatic evolution but with remarkable staying power.",
+   "origin": "Ambergris, a concretion expelled by sperm whales and aged at sea, owes much of its scent to the breakdown of a compound called ambrein. In the 1950s chemists obtained a closely related molecule from sclareol, extracted from clary sage. Several suppliers sell it under trade names including Ambroxan and Cetalox, and biotech processes now also produce it by fermentation. It has made natural ambergris practically unnecessary in everyday perfumery.",
+   "craft": "Used in the base, sometimes from the heart, it brings diffusion, longevity and a mineral texture that modernises woods and citrus. It pairs with pepper, bergamot, cedar and vetiver. Dior's Sauvage made it famous with the general public at a very noticeable dose. Not a Perfume by Juliette Has a Gun makes it almost the entire formula, while Le Labo's Another 13 blends it with musks for an abstract second-skin effect.",
+   "wear": "Versatile, Ambroxan works in every season, at the office or at night. It suits people who like clean, woody, long-lasting scents without sweetness.",
+   "faq": [
+    {
+     "q": "Is Ambroxan natural?",
+     "a": "No, it is a synthetic molecule. It is, however, made from a plant material, sclareol from clary sage, or through biotech fermentation. It reproduces the ambery facet of ambergris without relying on that rare animal material, which makes it far more consistent and affordable for perfumers."
+    },
+    {
+     "q": "Why do some people barely smell Ambroxan?",
+     "a": "Some people have a reduced sensitivity to this type of ambery molecule and perceive it faintly or not at all, while others find it very strong. The nose also adapts to it quickly, so wearers often think their fragrance has faded while people around them can still smell it clearly."
+    },
+    {
+     "q": "Which perfumes contain a lot of Ambroxan?",
+     "a": "In our database, Ambroxan appears in Dior's Sauvage, Versace's Eros, Prada's Luna Rossa and Yves Saint Laurent's Tuxedo, among others. Not a Perfume by Juliette Has a Gun is the most radical example, listing the molecule at every level of the pyramid and built almost entirely around it."
+    }
+   ]
+  }
+ },
+ "Bergamot": {
+  "slug_fr": "bergamote",
+  "slug_en": "bergamot",
+  "name_fr": "Bergamote",
+  "name_en": "Bergamot",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la bergamote : odeur, origine et icônes",
+   "meta": "La bergamote, agrume de Calabre au zeste floral et légèrement amer, ouvre la plupart des parfums. Son odeur, sa récolte et les créations qui la subliment.",
+   "h1": "La bergamote, le zeste lumineux de la parfumerie",
+   "intro": "La bergamote est un agrume dont on presse le zeste pour obtenir une essence fraîche, pétillante et à la fois florale, légèrement amère. C'est la note de tête la plus utilisée en parfumerie, celle qui donne son éclat aux eaux de Cologne, aux chypres et à d'innombrables parfums modernes.",
+   "smell": "Moins acide que le citron, moins sucrée que l'orange, la bergamote sent le zeste frotté entre les doigts avec une nuance florale et une amertume élégante qui évoque le thé Earl Grey, qu'elle parfume d'ailleurs. On y devine aussi une facette poivrée et une pointe de lavande. Comme tous les agrumes, elle est volatile : son éclat domine les premières minutes, puis s'estompe, laissant une trace plus douce et ambrée qui relie la tête du parfum à son cœur.",
+   "origin": "Le bergamotier, Citrus bergamia, est cultivé surtout sur une étroite bande côtière de Calabre, autour de Reggio, qui fournit l'essentiel de la production mondiale. L'essence est obtenue par expression à froid du zeste. À l'état brut, elle contient du bergaptène, une substance photosensibilisante ; la parfumerie emploie donc majoritairement des qualités débarrassées de ces composés. Pilier de l'eau de Cologne dès le XVIIIe siècle, elle est aussi au cœur du chypre, construit sur le contraste bergamote, ciste et mousse de chêne.",
+   "craft": "En tête, elle apporte lumière et fraîcheur, mais son rôle dépasse l'ouverture : elle relie agrumes et fleurs, et adoucit les contrastes. Dans Shalimar de Guerlain, elle tranche la vanille du fond ; dans Miss Dior de 1947, elle éclaire la structure chyprée. Eau Sauvage de Dior en fait l'axe d'une fraîcheur hespéridée masculine. Elle s'accorde naturellement avec le néroli, la lavande, le poivre, le vétiver et le patchouli.",
+   "wear": "Idéale au printemps et en été, en journée, la bergamote convient à tous les styles. Elle plaît à ceux qui recherchent un parfum net, élégant, jamais trop sucré.",
+   "faq": [
+    {
+     "q": "Quelle odeur a la bergamote dans un parfum ?",
+     "a": "Elle sent le zeste d'agrume frais avec une facette florale et une légère amertume, entre citron doux et orange amère. C'est la même odeur que celle du thé Earl Grey. En parfum, elle s'exprime surtout dans les premières minutes, avant de laisser place aux notes de cœur, tout en adoucissant la transition."
+    },
+    {
+     "q": "Pourquoi la bergamote est-elle dans presque tous les parfums ?",
+     "a": "Parce qu'elle est très polyvalente : elle apporte de l'éclat sans agressivité, fait le lien avec les fleurs et les bois, et se marie aussi bien aux compositions fraîches qu'aux orientaux. Elle est aussi indispensable aux deux grandes structures historiques que sont l'eau de Cologne et le chypre."
+    },
+    {
+     "q": "D'où vient la bergamote utilisée en parfumerie ?",
+     "a": "La très grande majorité provient de Calabre, dans le sud de l'Italie, où le climat de la côte ionienne convient particulièrement au bergamotier. La Côte d'Ivoire en produit également. L'essence est extraite par pression à froid de l'écorce, puis souvent traitée pour retirer les composés photosensibilisants."
+    }
+   ]
+  },
+  "en": {
+   "title": "Bergamot Perfumes: Scent, Origin and Classic Icons",
+   "meta": "Bergamot, the Calabrian citrus with a floral, gently bitter zest, opens most perfumes. Discover how it smells, how it's made and the fragrances it defines.",
+   "h1": "Bergamot, perfumery's bright citrus zest",
+   "intro": "Bergamot is a citrus fruit whose peel is pressed to obtain a fresh, sparkling essence that is both floral and slightly bitter. It is the most widely used top note in perfumery, giving sparkle to colognes, chypres and countless modern fragrances.",
+   "smell": "Less sharp than lemon and less sweet than orange, bergamot smells like zest rubbed between the fingers, with a floral nuance and an elegant bitterness familiar from Earl Grey tea, which it flavours. There is also a peppery facet and a hint of lavender. Like all citrus it is volatile: its brightness dominates the first minutes, then fades into a softer, faintly ambery trail that bridges the top of the fragrance to its heart.",
+   "origin": "The bergamot tree, Citrus bergamia, is grown mainly on a narrow coastal strip of Calabria around Reggio, which supplies most of the world's output. The essence is obtained by cold-pressing the peel. In its raw state it contains bergapten, a photosensitising compound, so perfumers mostly use grades with these compounds removed. A cornerstone of eau de Cologne from the eighteenth century, it is also central to the chypre, built on the contrast of bergamot, cistus and oakmoss.",
+   "craft": "At the top it brings light and freshness, but its role goes further: it links citrus to flowers and smooths contrasts. In Guerlain's Shalimar it cuts through the vanilla base; in Dior's 1947 Miss Dior it brightens the chypre structure. Dior's Eau Sauvage builds its masculine citrus freshness around it. It pairs naturally with neroli, lavender, pepper, vetiver and patchouli.",
+   "wear": "Ideal for spring and summer daytime wear, bergamot suits every style. It appeals to people who want a clean, elegant scent that never turns too sweet.",
+   "faq": [
+    {
+     "q": "What does bergamot smell like in perfume?",
+     "a": "It smells of fresh citrus zest with a floral facet and a light bitterness, somewhere between sweet lemon and bitter orange. It is the same aroma you find in Earl Grey tea. In a fragrance it shines mostly in the first minutes, then gives way to the heart notes while smoothing the transition."
+    },
+    {
+     "q": "Why is bergamot in so many perfumes?",
+     "a": "Because it is remarkably versatile. It adds brightness without harshness, connects with florals and woods, and works in fresh compositions as well as rich orientals. It is also essential to perfumery's two great historic structures, the eau de Cologne and the chypre, which both depend on its luminous zest."
+    },
+    {
+     "q": "Where does perfumery bergamot come from?",
+     "a": "The vast majority comes from Calabria in southern Italy, where the Ionian coastal climate suits the bergamot tree particularly well. Ivory Coast also produces some. The essence is cold-pressed from the peel, then often treated to remove its photosensitising compounds before being used in fragrance."
+    }
+   ]
+  }
+ },
+ "Caramel": {
+  "slug_fr": "caramel",
+  "slug_en": "caramel",
+  "name_fr": "Caramel",
+  "name_en": "Caramel",
+  "category": "gourmand",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au caramel : odeur, accord et gourmands phares",
+   "meta": "Le caramel en parfum est un accord gourmand de synthèse, sucré, beurré et un peu brûlé. Sa construction, son odeur et les parfums qui osent cette note.",
+   "h1": "Le caramel en parfum : la gourmandise brûlée",
+   "intro": "La note de caramel est un accord gourmand reconstitué par le parfumeur, car le caramel lui-même ne se distille pas. Elle sent le sucre cuit, le beurre et une pointe de brûlé, et donne aux parfums un côté réconfortant et addictif.",
+   "smell": "Tout dépend du degré de cuisson imaginé : tantôt blond, lacté et proche de la barbe à papa, tantôt ambré, presque amer, avec une facette de noix grillée. Le caramel parfumé est rond, collant et chaleureux. Sur la peau, sa part sucrée s'adoucit après l'ouverture et se fond dans les notes de vanille, de fève tonka ou de musc, laissant un sillage de pâtisserie tiède qui persiste longtemps.",
+   "origin": "Aucune essence naturelle ne donne une odeur de caramel exploitable. Le parfumeur assemble donc des molécules comme l'éthyl maltol, au parfum de sucre filé, le maltol, le furanéol aux accents de fraise cuite et de sucre brun, ou encore des notes lactées et beurrées. L'histoire moderne du caramel en parfum commence avec Angel de Mugler en 1992, qui a osé une dose massive d'éthyl maltol et ouvert la voie à toute la famille gourmande.",
+   "craft": "Généralement placé en cœur ou en fond, le caramel s'associe à la vanille, au praliné, au café, au patchouli ou au rhum. Le patchouli, terreux et sombre, est son contrepoint préféré : c'est la tension qui fait la signature d'Angel de Mugler et de sa version masculine A*Men. Scandal de Jean Paul Gaultier l'associe au miel pour un effet plus doré. Utilisé avec mesure, il réchauffe ; en excès, il sature.",
+   "wear": "Le caramel se porte plutôt par temps froid, en automne et en hiver. Il séduit les amateurs de parfums gourmands, réconfortants et très présents.",
+   "faq": [
+    {
+     "q": "Comment fait-on une odeur de caramel en parfum ?",
+     "a": "Par un accord de synthèse. Le parfumeur combine notamment l'éthyl maltol, qui sent le sucre filé, le maltol et le furanéol, aux nuances de sucre brun, avec des notes vanillées et lactées. Le caramel alimentaire ne peut pas être distillé ni extrait pour donner une matière première utilisable en parfumerie."
+    },
+    {
+     "q": "Quel est le premier grand parfum au caramel ?",
+     "a": "Angel de Mugler, lancé en 1992, est considéré comme le fondateur de la famille gourmande moderne. Il associe des notes de caramel et de barbe à papa à un patchouli puissant. Son succès a inspiré une longue lignée de parfums sucrés, dont A*Men, sa déclinaison masculine sortie en 1996."
+    },
+    {
+     "q": "Un parfum au caramel est-il forcément très sucré ?",
+     "a": "Pas nécessairement. Associé à des bois, du patchouli, du café ou des épices, le caramel peut paraître plus sombre et presque salé. Les versions qui l'évoquent brûlé ou ambré sont moins enfantines que celles orientées barbe à papa. Le dosage et les notes voisines changent entièrement la perception de la douceur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Caramel Perfumes: Scent, Accord and Gourmand Icons",
+   "meta": "Caramel in perfume is a synthetic gourmand accord: sweet, buttery and slightly burnt. Learn how perfumers build it, how it smells and which scents dare it.",
+   "h1": "Caramel in perfume: the burnt-sugar gourmand",
+   "intro": "Caramel is a gourmand accord built by the perfumer, because caramel itself cannot be distilled. It smells of cooked sugar, butter and a hint of burn, giving fragrances a comforting, addictive quality.",
+   "smell": "It all depends on how dark the imagined cooking goes. Sometimes blond and milky, close to candy floss; sometimes amber and almost bitter, with a roasted-nut facet. Perfumed caramel is round, sticky and warm. On skin its sugary side softens after the opening and melts into vanilla, tonka bean or musk, leaving a trail of warm patisserie that lingers for hours.",
+   "origin": "No natural essence gives a usable caramel smell, so perfumers assemble molecules such as ethyl maltol, which smells of spun sugar, maltol, furaneol with its cooked-strawberry and brown-sugar tones, plus milky and buttery notes. The modern history of caramel in perfume starts with Mugler's Angel in 1992, which dared a massive dose of ethyl maltol and opened the door to the entire gourmand family.",
+   "craft": "Usually placed in the heart or base, caramel pairs with vanilla, praline, coffee, patchouli and rum. Dark, earthy patchouli is its favourite counterpoint: that tension is the signature of Mugler's Angel and its masculine sibling A*Men. Jean Paul Gaultier's Scandal pairs it with honey for a more golden effect. Used with restraint it warms; overdosed it saturates. The trick is balance: a caramel note needs something bitter, woody or smoky beside it to stay adult.",
+   "wear": "Caramel suits cold weather, autumn and winter. It appeals to fans of gourmand, comforting, high-presence fragrances.",
+   "faq": [
+    {
+     "q": "How do perfumers create a caramel smell?",
+     "a": "Through a synthetic accord. Perfumers combine ethyl maltol, which smells of spun sugar, with maltol and furaneol for brown-sugar nuances, plus vanilla and milky notes. Edible caramel cannot be distilled or extracted into a usable perfumery raw material, so the note is always a reconstruction."
+    },
+    {
+     "q": "What was the first big caramel perfume?",
+     "a": "Mugler's Angel, launched in 1992, is considered the founder of the modern gourmand family. It pairs caramel and candy-floss notes with powerful patchouli. Its success inspired a long line of sweet fragrances, including A*Men, its masculine counterpart released in 1996."
+    },
+    {
+     "q": "Are caramel perfumes always very sweet?",
+     "a": "Not necessarily. Paired with woods, patchouli, coffee or spices, caramel can feel darker and almost salty. Versions that evoke burnt or amber caramel are less childlike than candy-floss interpretations. The dose and the surrounding notes completely change how sweet the fragrance feels on skin."
+    }
+   ]
+  }
+ },
+ "Cedar": {
+  "slug_fr": "cedre",
+  "slug_en": "cedar",
+  "name_fr": "Cèdre",
+  "name_en": "Cedar",
+  "category": "woody",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au cèdre : odeur, origine et parfums boisés",
+   "meta": "Le cèdre apporte aux parfums un boisé sec et net, évoquant le crayon taillé. Son odeur, cèdre de l'Atlas ou de Virginie, et les parfums qui l'emploient.",
+   "h1": "Le cèdre, colonne vertébrale des parfums boisés",
+   "intro": "Le cèdre est un bois à l'odeur sèche, droite et légèrement fumée, que l'on compare souvent à des copeaux de crayon taillé. En parfumerie, il sert de structure boisée à une immense partie des créations, masculines comme féminines.",
+   "smell": "Le cèdre sent le bois fraîchement coupé, sec et propre, avec une nuance résineuse et parfois une touche fumée ou cuirée. Le cèdre de l'Atlas est plus chaud, doux et presque balsamique ; celui de Virginie évoque franchement le crayon et la sciure. Sur la peau, il reste stable et linéaire : il ne bouleverse pas un parfum, il lui donne de l'assise, une verticalité rassurante qui dure jusqu'au fond.",
+   "origin": "Le terme recouvre plusieurs essences distillées à la vapeur. Le cèdre de l'Atlas, Cedrus atlantica, vient surtout du Maroc. Le cèdre de Virginie et celui du Texas sont en réalité des genévriers américains, Juniperus virginiana et Juniperus ashei, dont on distille le bois et les copeaux issus de l'industrie. On en isole aussi des dérivés comme le cédrol ou l'acétate de cédryle. Présent depuis longtemps dans les fougères et les chypres, le cèdre est devenu omniprésent dans la parfumerie contemporaine.",
+   "craft": "Principalement en fond, le cèdre structure et sèche une composition. Il s'associe au vétiver, au santal, à l'iris, aux agrumes et aux muscs, et soutient souvent des molécules boisées comme l'Iso E Super. Terre d'Hermès le combine à l'orange et au vétiver pour un boisé minéral ; Bleu de Chanel en fait un pilier de sa fraîcheur boisée. Santal 33 du Labo l'utilise pour donner à son santal une texture sèche et crayeuse.",
+   "wear": "Le cèdre se porte toute l'année, au quotidien comme au bureau. Il convient à ceux qui aiment les parfums nets, secs et élégants, sans excès de sucre.",
+   "faq": [
+    {
+     "q": "Quelle différence entre cèdre de l'Atlas et cèdre de Virginie ?",
+     "a": "Le cèdre de l'Atlas est un vrai cèdre marocain, au profil chaud, doux et légèrement balsamique. Le cèdre de Virginie est un genévrier nord-américain dont l'odeur rappelle directement le crayon taillé, plus sèche et plus nette. Les parfumeurs choisissent l'un ou l'autre selon l'effet recherché : chaleur ou netteté."
+    },
+    {
+     "q": "Pourquoi le cèdre sent-il le crayon ?",
+     "a": "Parce que les crayons de bois ont longtemps été fabriqués en cèdre, notamment en genévrier de Virginie, choisi pour sa tendreté. L'association est donc littérale : l'odeur de taille-crayon est celle de ce bois. C'est pourquoi cette facette est très marquée dans les parfums qui utilisent le cèdre de Virginie."
+    },
+    {
+     "q": "Le cèdre est-il un parfum masculin ?",
+     "a": "Il est très présent dans les parfums masculins, mais pas exclusivement. On le trouve dans le fond de nombreux féminins, comme J'adore de Dior ou L'Air du Temps de Nina Ricci, où il apporte structure et tenue sans être perçu comme dominant. Sa sécheresse équilibre les fleurs et les notes sucrées."
+    }
+   ]
+  },
+  "en": {
+   "title": "Cedar Perfumes: Scent, Origin and Woody Fragrances",
+   "meta": "Cedar gives perfume a dry, clean wood reminiscent of pencil shavings. How it smells, Atlas versus Virginia cedar, and the fragrances built on its backbone.",
+   "h1": "Cedar, the backbone of woody fragrances",
+   "intro": "Cedar is a wood with a dry, upright, slightly smoky smell, often compared to freshly sharpened pencils. In perfumery it provides the woody structure for a huge share of fragrances, masculine and feminine alike.",
+   "smell": "Cedar smells of freshly cut wood, dry and clean, with a resinous nuance and sometimes a smoky or leathery touch. Atlas cedar is warmer, softer and almost balsamic; Virginia cedar is frankly pencil-like, all sawdust and shavings. On skin it stays stable and linear. It does not upend a fragrance but gives it footing, a reassuring vertical line that holds right through the drydown.",
+   "origin": "The name covers several steam-distilled oils. Atlas cedar, Cedrus atlantica, comes mainly from Morocco. Virginia and Texas cedar are actually American junipers, Juniperus virginiana and Juniperus ashei, distilled from wood and chips left over by the timber industry. Derivatives such as cedrol and cedryl acetate are isolated from them too. Long used in fougères and chypres, cedar has become ubiquitous in contemporary perfumery.",
+   "craft": "Mostly used in the base, cedar structures and dries a composition. It pairs with vetiver, sandalwood, iris, citrus and musks, and often supports woody molecules such as Iso E Super. Terre d'Hermès combines it with orange and vetiver for a mineral woodiness, while Bleu de Chanel relies on it as a pillar of its fresh-woody profile. Le Labo's Santal 33 uses it to give its sandalwood a dry, chalky texture.",
+   "wear": "Cedar works all year round, for everyday wear and the office. It suits people who like clean, dry, elegant fragrances without excess sweetness.",
+   "faq": [
+    {
+     "q": "What is the difference between Atlas and Virginia cedar?",
+     "a": "Atlas cedar is a true Moroccan cedar with a warm, soft, slightly balsamic profile. Virginia cedar is a North American juniper that smells directly of sharpened pencils, drier and crisper. Perfumers choose one or the other depending on the effect they want: warmth and depth, or clarity and snap."
+    },
+    {
+     "q": "Why does cedar smell like pencils?",
+     "a": "Because wooden pencils were long made from cedar, particularly Virginia juniper, chosen for its softness. The association is literal: the smell of a pencil sharpener is the smell of that wood. That is why this facet is so pronounced in fragrances built on Virginia cedar."
+    },
+    {
+     "q": "Is cedar a masculine note?",
+     "a": "It is very common in men's fragrances but not exclusive to them. It sits in the base of many feminine scents, such as Dior's J'adore or Nina Ricci's L'Air du Temps, where it adds structure and longevity without dominating. Its dryness balances florals and sweeter notes."
+    }
+   ]
+  }
+ },
+ "Coconut": {
+  "slug_fr": "noix-de-coco",
+  "slug_en": "coconut",
+  "name_fr": "Noix de coco",
+  "name_en": "Coconut",
+  "category": "gourmand",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à la noix de coco : odeur, accord et icônes",
+   "meta": "La noix de coco en parfum est un accord lacté et solaire, bâti sur des lactones. Son odeur, sa construction et les parfums qui la marient aux fleurs.",
+   "h1": "La noix de coco en parfum : lactée, solaire et crémeuse",
+   "intro": "La note de noix de coco est presque toujours un accord créé à partir de molécules appelées lactones, car le fruit ne donne pas d'essence exploitable en parfumerie. Elle sent la pulpe crémeuse, le lait sucré et la crème solaire, avec une douceur ronde et chaude.",
+   "smell": "La noix de coco parfumée est lactée, crémeuse, légèrement cireuse, avec une facette boisée qui rappelle la coque. Selon l'accord, elle évoque le lait de coco, la pâtisserie ou le monoï des vacances. Sur la peau, elle se fait plus douce et plus peau au fil des heures ; les lactones qui la composent sont tenaces et se fondent dans les muscs et la vanille, laissant un sillage chaud et confortable.",
+   "origin": "L'huile de coco est grasse et presque inodore : on ne peut pas en tirer une essence parfumante utile. Les parfumeurs recomposent donc la note avec des lactones, comme la gamma-nonalactone, surnommée historiquement aldéhyde C-18 malgré son nom trompeur, ou la delta-octalactone, plus crémeuse. La lactone de massoïa, tirée d'une écorce, peut compléter l'ensemble. Ces molécules existent aussi naturellement dans la pêche, l'abricot ou le lait.",
+   "craft": "Présente en tête comme en fond, la noix de coco adoucit, arrondit et donne un effet de peau ensoleillée. Elle forme un duo classique avec les fleurs blanches, notamment la tubéreuse et le frangipanier, dont elle souligne la facette crémeuse : Carnal Flower de Frédéric Malle en joue. Soleil Blanc de Tom Ford l'associe à des notes solaires et ambrées, tandis que Hypnotic Poison de Dior l'ouvre avant un fond de vanille et de santal.",
+   "wear": "La noix de coco se porte surtout l'été, en vacances ou en soirée par temps chaud. Elle plaît aux amateurs de parfums solaires, doux et gourmands.",
+   "faq": [
+    {
+     "q": "Existe-t-il une essence naturelle de noix de coco ?",
+     "a": "Pas vraiment. L'huile de coco, grasse et peu odorante, n'est pas utilisable comme matière première parfumante. Les notes de coco des parfums sont donc construites avec des lactones de synthèse, parfois complétées par la lactone de massoïa, d'origine végétale. C'est un accord, pas une extraction du fruit."
+    },
+    {
+     "q": "Pourquoi la noix de coco rappelle-t-elle la crème solaire ?",
+     "a": "Parce que de nombreuses crèmes et huiles solaires sont parfumées avec des lactones à facette coco, associées au monoï et aux fleurs blanches. Notre mémoire a donc lié cette odeur à la plage et à l'été. Les parfums dits solaires jouent volontairement sur ce souvenir pour évoquer la peau chauffée au soleil."
+    },
+    {
+     "q": "Quels parfums contiennent une note de noix de coco ?",
+     "a": "Dans notre base, on la trouve notamment dans Angel de Mugler et Hypnotic Poison de Dior en tête, dans Philosykos de Diptyque en cœur, et dans le fond de Carnal Flower de Frédéric Malle et de Soleil Blanc de Tom Ford. Chacun l'utilise différemment, du gourmand au floral solaire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Coconut Perfumes: Scent, Accord and Iconic Fragrances",
+   "meta": "Coconut in perfume is a milky, sunny accord built on lactones. Learn how it smells, how perfumers make it and which fragrances pair it with white flowers.",
+   "h1": "Coconut in perfume: milky, sunny and creamy",
+   "intro": "Coconut is almost always an accord built from molecules called lactones, because the fruit yields no usable perfume essence. It smells of creamy flesh, sweet milk and sunscreen, with a round, warm softness.",
+   "smell": "Perfumed coconut is milky, creamy and slightly waxy, with a woody facet that recalls the shell. Depending on the accord it suggests coconut milk, pastry or holiday monoi oil. On skin it grows softer and closer to the body over the hours. The lactones behind it are tenacious and melt into musks and vanilla, leaving a warm, comfortable trail. It rarely feels loud, but it clings.",
+   "origin": "Coconut oil is fatty and almost odourless, so it cannot provide a useful fragrant essence. Perfumers rebuild the note with lactones such as gamma-nonalactone, historically nicknamed aldehyde C-18 despite the misleading name, or the creamier delta-octalactone. Massoia lactone, taken from a tree bark, can round it out. These molecules also occur naturally in peach, apricot and milk. Some specialist suppliers also offer coconut extracts, but they remain rare in fine fragrance.",
+   "craft": "Found in the top as well as the base, coconut softens, rounds and adds a sun-warmed skin effect. It forms a classic duo with white flowers, especially tuberose and frangipani, whose creamy side it underlines, as in Frédéric Malle's Carnal Flower. Tom Ford's Soleil Blanc pairs it with solar and ambery notes, while Dior's Hypnotic Poison opens with it before a vanilla and sandalwood base.",
+   "wear": "Coconut is mainly a summer note, for holidays or warm evenings. It appeals to lovers of sunny, soft and gourmand fragrances.",
+   "faq": [
+    {
+     "q": "Is there a natural coconut essential oil for perfume?",
+     "a": "Not really. Coconut oil is fatty and barely scented, so it cannot serve as a fragrant raw material. Coconut notes in perfume are built with synthetic lactones, sometimes completed by plant-derived massoia lactone. It is an accord, not an extraction from the fruit itself."
+    },
+    {
+     "q": "Why does coconut smell like sunscreen?",
+     "a": "Because many sun creams and oils are scented with coconut-like lactones, often alongside monoi and white flowers. Our memory has therefore linked the smell to beaches and summer. So-called solar fragrances deliberately play on that association to evoke sun-warmed skin."
+    },
+    {
+     "q": "Which perfumes feature a coconut note?",
+     "a": "In our database it appears in the top of Mugler's Angel and Dior's Hypnotic Poison, in the heart of Diptyque's Philosykos, and in the base of Frédéric Malle's Carnal Flower and Tom Ford's Soleil Blanc. Each uses it differently, from gourmand to sunny floral."
+    }
+   ]
+  }
+ },
+ "Cypress": {
+  "slug_fr": "cypres",
+  "slug_en": "cypress",
+  "name_fr": "Cyprès",
+  "name_en": "Cypress",
+  "category": "woody",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au cyprès : odeur, origine et compositions",
+   "meta": "Le cyprès donne aux parfums une fraîcheur résineuse et verte, entre aiguilles de pin et bois sec. Son odeur, son origine méditerranéenne et ses usages.",
+   "h1": "Le cyprès, un boisé vert et résineux venu de Méditerranée",
+   "intro": "Le cyprès est un conifère méditerranéen dont on distille les rameaux pour obtenir une essence fraîche, verte et résineuse. Il sent l'aiguille de conifère, le bois sec et la garrigue, avec une pointe fumée qui donne du caractère aux parfums masculins et aromatiques.",
+   "smell": "L'essence de cyprès est d'abord vive et balsamique, avec une fraîcheur de sève et d'aiguilles écrasées proche du pin et du genièvre. Vient ensuite une facette boisée, sèche, légèrement ambrée, parfois décrite comme fumée ou tabacée. Elle évoque les allées de cyprès sous le soleil, la chaleur de la pierre et des herbes sèches. Sur la peau, sa fraîcheur s'estompe assez vite pour laisser un bois discret et propre.",
+   "origin": "Le cyprès commun, Cupressus sempervirens, pousse sur tout le pourtour méditerranéen, de la Provence à la Grèce en passant par l'Espagne et le Maroc. L'huile essentielle est obtenue par distillation à la vapeur des rameaux et des aiguilles, parfois des cônes. Arbre des cimetières et des jardins toscans, il est associé depuis l'Antiquité à la longévité. En parfumerie, il appartient au vocabulaire classique des eaux fraîches, des fougères et des chypres.",
+   "craft": "Le cyprès se place surtout en tête ou en cœur, où il apporte un souffle vert et résineux. Il se marie avec la lavande, le romarin, la bergamote, le genévrier, le vétiver et le cèdre, et renforce l'impression de plein air d'une composition. Godolphin de Parfums de Marly l'utilise en ouverture avec le thym et la rose, tandis que Halfeti de Penhaligon's l'associe au safran et à l'oud pour une chaleur plus orientale.",
+   "wear": "Le cyprès se porte volontiers au printemps et en été, de jour. Il plaît à ceux qui aiment les parfums aromatiques, boisés et naturels.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le cyprès en parfum ?",
+     "a": "Il sent la résine fraîche, les aiguilles de conifère et le bois sec, avec une nuance fumée. Son profil se situe entre le pin, le genévrier et le cèdre, avec une vivacité balsamique en ouverture. Il évoque la garrigue et les paysages méditerranéens, plutôt que la forêt humide du nord."
+    },
+    {
+     "q": "Le cyprès a-t-il un lien avec le chypre ?",
+     "a": "Non, malgré la ressemblance des mots. La famille chypre tire son nom de l'île de Chypre, popularisée par Chypre de Coty en 1917, et repose sur l'accord bergamote, ciste et mousse de chêne. Le cyprès est un arbre ; il peut apparaître dans un chypre, mais n'en est pas le fondement."
+    },
+    {
+     "q": "Quels parfums contiennent du cyprès ?",
+     "a": "Dans notre base, le cyprès figure en tête de 1881 de Cerruti, de Godolphin et d'Akaster de Parfums de Marly, ainsi que de Halfeti de Penhaligon's. Il apparaît aussi en cœur de Valero de Parfums de Marly et en fond de Clementine California d'Atelier Cologne, où il apporte de la sécheresse boisée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Cypress Perfumes: Scent, Origin and How It's Used",
+   "meta": "Cypress brings a green, resinous freshness to perfume, between pine needles and dry wood. Discover how it smells, its Mediterranean origin and its uses.",
+   "h1": "Cypress, a green, resinous wood from the Mediterranean",
+   "intro": "Cypress is a Mediterranean conifer whose twigs are distilled into a fresh, green, resinous essence. It smells of conifer needles, dry wood and sun-baked scrubland, with a smoky edge that lends character to aromatic and masculine fragrances.",
+   "smell": "Cypress oil opens bright and balsamic, with the freshness of sap and crushed needles, close to pine and juniper. A dry, woody, faintly ambery facet follows, sometimes described as smoky or tobacco-like. It evokes cypress-lined roads in the sun, warm stone and dry herbs. On skin its freshness fades fairly quickly, leaving a quiet, clean wood. Its charm lies in that contrast between cool sap and dusty warmth.",
+   "origin": "The Mediterranean cypress, Cupressus sempervirens, grows around the whole Mediterranean basin, from Provence to Greece, Spain and Morocco. The essential oil is steam-distilled from twigs and needles, sometimes cones. A tree of cemeteries and Tuscan gardens, it has been linked with longevity since antiquity. In perfumery it belongs to the classic vocabulary of fresh colognes, fougères and chypres. Its oil is prized for its clarity and for how easily it blends.",
+   "craft": "Cypress sits mainly in the top or heart, adding a green, resinous breath. It pairs with lavender, rosemary, bergamot, juniper, vetiver and cedar, and reinforces an outdoor impression. Parfums de Marly's Godolphin uses it in the opening with thyme and rose, while Penhaligon's Halfeti sets it against saffron and oud for a warmer, more oriental mood. In both cases it keeps the composition airy and outdoorsy, never heavy.",
+   "wear": "Cypress is lovely in spring and summer, for daytime. It appeals to people who enjoy aromatic, woody, natural-feeling fragrances.",
+   "faq": [
+    {
+     "q": "What does cypress smell like in perfume?",
+     "a": "It smells of fresh resin, conifer needles and dry wood, with a smoky nuance. Its profile sits between pine, juniper and cedar, with a balsamic brightness in the opening. It evokes Mediterranean scrubland and landscapes rather than a damp northern forest."
+    },
+    {
+     "q": "Is cypress related to chypre?",
+     "a": "No, despite the similar-sounding words. The chypre family takes its name from Cyprus, popularised by Coty's Chypre in 1917, and rests on a bergamot, cistus and oakmoss accord. Cypress is a tree; it can appear in a chypre, but it is not the foundation of the family."
+    },
+    {
+     "q": "Which perfumes contain cypress?",
+     "a": "In our database, cypress sits in the top of Cerruti's 1881, Parfums de Marly's Godolphin and Akaster, and Penhaligon's Halfeti. It also appears in the heart of Parfums de Marly's Valero and in the base of Atelier Cologne's Clementine California, where it adds woody dryness."
+    }
+   ]
+  }
+ },
+ "Geranium": {
+  "slug_fr": "geranium",
+  "slug_en": "geranium",
+  "name_fr": "Géranium",
+  "name_en": "Geranium",
+  "category": "floral",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au géranium : odeur, origine et classiques",
+   "meta": "Le géranium sent la rose verte, la menthe et le citron. L'odeur du géranium rosat, sa distillation à La Réunion et en Égypte, et ses parfums phares.",
+   "h1": "Le géranium, la rose verte des parfums masculins",
+   "intro": "En parfumerie, le géranium désigne l'essence du géranium rosat, distillée à partir de ses feuilles. Il sent la rose, mais une rose verte, mentholée et citronnée, qui a fait de lui un pilier des fougères et des parfums masculins.",
+   "smell": "Le géranium rosat offre une odeur de rose fraîche et feuillue, avec une facette mentholée, presque métallique, et une pointe d'agrume. On y perçoit aussi un accent terreux et poivré. C'est une rose sans sucre, plus franche et plus aromatique que la rose de Damas. Sur la peau, son ouverture vive et verte s'adoucit rapidement pour laisser une note florale propre et légèrement savonneuse.",
+   "origin": "L'essence provient surtout de Pelargonium graveolens et de ses hybrides, plantes originaires d'Afrique du Sud. On distille à la vapeur les feuilles et les tiges, riches en géraniol et en citronellol, les mêmes molécules que dans la rose. Le géranium Bourbon de La Réunion est historiquement le plus réputé ; l'Égypte, la Chine et Madagascar sont d'autres grands producteurs. Longtemps utilisé pour étoffer ou remplacer la rose, il s'est imposé au XXe siècle dans les fougères.",
+   "craft": "Généralement en cœur, le géranium fait le lien entre les notes aromatiques de tête et les bois du fond. Il s'accorde à la lavande, à la sauge, au poivre, à la mousse de chêne et au vétiver. Azzaro Pour Homme et Cool Water de Davidoff en font une composante de leur fraîcheur aromatique ; Terre d'Hermès et Sauvage de Dior l'utilisent pour apporter une floralité discrète à des structures boisées et minérales.",
+   "wear": "Le géranium se porte en toute saison, particulièrement au printemps. Il plaît aux amateurs de parfums frais, aromatiques et élégants, souvent masculins mais pas seulement.",
+   "faq": [
+    {
+     "q": "Le géranium sent-il la rose ?",
+     "a": "Oui, en partie. Le géranium rosat contient du géraniol et du citronellol, deux molécules clés de l'odeur de rose. Mais il y ajoute des facettes vertes, mentholées et citronnées qui le rendent plus vif et moins sucré. C'est pourquoi on le décrit souvent comme une rose verte ou aromatique."
+    },
+    {
+     "q": "Pourquoi le géranium est-il si fréquent dans les parfums pour homme ?",
+     "a": "Parce qu'il apporte une floralité sans douceur excessive, qui s'intègre naturellement aux structures aromatiques. Dans les fougères, il relie la lavande et les bois. Il donne de l'élégance et de la netteté sans rendre le parfum floral au sens classique, ce qui a séduit la parfumerie masculine."
+    },
+    {
+     "q": "Qu'est-ce que le géranium Bourbon ?",
+     "a": "C'est l'essence de géranium rosat produite historiquement sur l'île de La Réunion, autrefois appelée île Bourbon. Elle est réputée pour sa richesse et son équilibre entre rose et menthe. Sa production est aujourd'hui modeste, et d'autres origines comme l'Égypte ou la Chine fournissent l'essentiel du marché."
+    }
+   ]
+  },
+  "en": {
+   "title": "Geranium Perfumes: Scent, Origin and Classics",
+   "meta": "Geranium smells of green rose, mint and lemon. Learn how rose geranium smells, how it is distilled in Réunion and Egypt, and which perfumes feature it.",
+   "h1": "Geranium, the green rose of men's fragrance",
+   "intro": "In perfumery, geranium means the oil of rose geranium, distilled from its leaves. It smells of rose, but a green, minty, lemony rose, which made it a pillar of fougères and masculine fragrances.",
+   "smell": "Rose geranium offers a fresh, leafy rose scent with a minty, almost metallic facet and a touch of citrus. There is also an earthy, peppery accent. It is a rose without sugar, franker and more aromatic than Damask rose. On skin its bright green opening softens quickly into a clean, slightly soapy floral note. Some grades lean more minty, others more rosy and lemony, depending on origin.",
+   "origin": "The oil comes mainly from Pelargonium graveolens and its hybrids, plants native to South Africa. Leaves and stems are steam-distilled; they are rich in geraniol and citronellol, the same molecules found in rose. Bourbon geranium from Réunion is historically the most prized, with Egypt, China and Madagascar other major producers. Long used to extend or replace rose, it became central to twentieth-century fougères.",
+   "craft": "Usually placed in the heart, geranium bridges aromatic top notes and woody bases. It pairs with lavender, sage, pepper, oakmoss and vetiver. Azzaro Pour Homme and Davidoff's Cool Water use it as part of their aromatic freshness, while Terre d'Hermès and Dior's Sauvage rely on it for a discreet floral touch within woody, mineral structures. It also works as a bridge in rose compositions, adding lift and a crisp, leafy edge.",
+   "wear": "Geranium works in any season, especially spring. It appeals to fans of fresh, aromatic, elegant scents, often masculine but not exclusively.",
+   "faq": [
+    {
+     "q": "Does geranium smell like rose?",
+     "a": "Partly, yes. Rose geranium contains geraniol and citronellol, two key molecules in the smell of rose. But it adds green, minty and lemony facets that make it brighter and less sweet. That is why it is often described as a green or aromatic rose."
+    },
+    {
+     "q": "Why is geranium so common in men's fragrances?",
+     "a": "Because it brings floralcy without excessive sweetness and slots naturally into aromatic structures. In fougères it links lavender and woods. It adds elegance and crispness without making the scent read as a traditional floral, which is why masculine perfumery adopted it so widely."
+    },
+    {
+     "q": "What is Bourbon geranium?",
+     "a": "It is rose geranium oil historically produced on Réunion Island, formerly called Île Bourbon. It is prized for its richness and its balance between rose and mint. Production there is now modest, and origins such as Egypt and China supply most of the market today."
+    }
+   ]
+  }
+ },
+ "Green Notes": {
+  "slug_fr": "notes-vertes",
+  "slug_en": "green-notes",
+  "name_fr": "Notes vertes",
+  "name_en": "Green Notes",
+  "category": "green",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums aux notes vertes : odeur, matières et icônes",
+   "meta": "Les notes vertes évoquent l'herbe coupée, la tige froissée et la feuille humide. Les matières qui les composent, leur effet et les parfums verts clés.",
+   "h1": "Les notes vertes, l'odeur de la sève et de l'herbe coupée",
+   "intro": "Les notes vertes regroupent des matières qui sentent la feuille, la tige écrasée et l'herbe fraîchement coupée. Elles apportent à un parfum une fraîcheur végétale, vive et parfois légèrement amère, qui évoque le jardin au printemps.",
+   "smell": "Une note verte peut être tendre comme une pelouse tondue, croquante comme une tige de jacinthe, ou plus âpre, résineuse et presque piquante. On y retrouve la sève, le petit pois écossé, la feuille de violette humide ou la peau de concombre. Ces facettes sont souvent vives et fugaces en ouverture ; certaines matières, comme le galbanum, persistent davantage et donnent au parfum un fil vert et amer qui traverse le cœur.",
+   "origin": "Il ne s'agit pas d'une matière unique mais d'une famille. Côté synthèse, le cis-3-hexénol, alcool des feuilles, reproduit l'herbe coupée ; le triplal ou le styrallyl acétate apportent des accents verts et fruités. Côté naturel, le galbanum, gomme-résine d'une ombellifère d'Iran, l'absolu de feuille de violette et celui de feuille de figuier sont les plus utilisés. Les parfums verts se sont affirmés au milieu du XXe siècle, avec des chypres et des floraux très végétaux.",
+   "craft": "Les notes vertes se placent surtout en tête, où elles réveillent la composition, mais elles peuvent aussi structurer un cœur floral. Elles s'associent au muguet, à la jacinthe, à la rose, au figuier et aux agrumes. Philosykos de Diptyque les combine à la feuille et au bois de figuier ; Pleasures d'Estée Lauder les utilise pour une floralité aérienne et rosée, et Euphoria de Calvin Klein pour rafraîchir un fond fruité et ambré.",
+   "wear": "Les notes vertes se portent surtout au printemps et en été, en journée. Elles conviennent à ceux qui aiment les parfums naturels, frais et un peu aériens.",
+   "faq": [
+    {
+     "q": "Que signifie « notes vertes » dans un parfum ?",
+     "a": "C'est un terme générique qui désigne les matières évoquant la végétation fraîche : herbe coupée, tige, feuille froissée, sève. Elles peuvent être naturelles, comme le galbanum ou la feuille de violette, ou de synthèse, comme le cis-3-hexénol. Elles donnent une impression de fraîcheur vivante et naturelle."
+    },
+    {
+     "q": "Quelle molécule sent l'herbe coupée ?",
+     "a": "Le cis-3-hexénol, aussi appelé alcool des feuilles. Les plantes l'émettent lorsqu'on les coupe ou qu'on les froisse, ce qui explique l'odeur caractéristique d'une pelouse tondue. En parfumerie, il est employé à très faible dose, car il est puissant et peut vite devenir cru s'il est surdosé."
+    },
+    {
+     "q": "Quels parfums contiennent des notes vertes ?",
+     "a": "Dans notre base, elles figurent en tête de Pleasures d'Estée Lauder, d'Euphoria de Calvin Klein, de Jimmy Choo, de Womanity de Mugler et de CK Eternity for Men, ainsi qu'en cœur de Philosykos de Diptyque, où elles accompagnent la feuille de figuier et une note de coco lactée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Green Notes in Perfume: Scent, Materials and Icons",
+   "meta": "Green notes smell of cut grass, crushed stems and damp leaves. Discover the materials behind them, the effect they give and the green perfumes to know.",
+   "h1": "Green notes: the smell of sap and freshly cut grass",
+   "intro": "Green notes are materials that smell of leaves, crushed stems and freshly cut grass. They give a fragrance a lively, vegetal freshness, sometimes slightly bitter, that evokes a garden in spring.",
+   "smell": "A green note can be tender like a mown lawn, crisp like a snapped hyacinth stem, or sharper, resinous and almost prickly. Think sap, freshly shelled peas, wet violet leaf or cucumber peel. These facets tend to be bright and fleeting in the opening, though some materials, such as galbanum, last longer and run a bitter green thread through the heart of the fragrance. The effect is always one of vitality, of something alive and just picked.",
+   "origin": "This is not a single material but a family. On the synthetic side, cis-3-hexenol, known as leaf alcohol, reproduces cut grass, while triplal and styrallyl acetate add green, fruity accents. Among naturals, galbanum, a gum resin from an Iranian umbellifer, violet leaf absolute and fig leaf absolute are the most widely used. Green fragrances came into their own in the mid-twentieth century with strongly vegetal chypres and florals that made bitterness a signature.",
+   "craft": "Green notes mostly sit in the top, where they wake up the composition, but they can also structure a floral heart. They pair with lily of the valley, hyacinth, rose, fig and citrus. Diptyque's Philosykos combines them with fig leaf and fig wood; Estée Lauder's Pleasures uses them for an airy, dewy floral, and Calvin Klein's Euphoria uses them to freshen a fruity, ambery base. A small dose is usually enough to change the whole perception of a formula.",
+   "wear": "Green notes are best in spring and summer, for daytime. They suit people who like natural, fresh, airy fragrances.",
+   "faq": [
+    {
+     "q": "What does \"green notes\" mean in perfume?",
+     "a": "It is a generic term for materials that evoke fresh vegetation: cut grass, stems, crushed leaves and sap. They can be natural, such as galbanum or violet leaf, or synthetic, such as cis-3-hexenol. Together they create an impression of lively, natural freshness that makes a fragrance feel outdoors and just picked."
+    },
+    {
+     "q": "Which molecule smells like cut grass?",
+     "a": "Cis-3-hexenol, also called leaf alcohol. Plants release it when they are cut or bruised, which explains the typical smell of a freshly mown lawn. In perfumery it is used at very low doses, because it is powerful and quickly turns raw and harsh if overdosed."
+    },
+    {
+     "q": "Which perfumes feature green notes?",
+     "a": "In our database they appear in the top of Estée Lauder's Pleasures, Calvin Klein's Euphoria, Jimmy Choo, Mugler's Womanity and CK Eternity for Men, and in the heart of Diptyque's Philosykos, where they accompany fig leaf and a milky coconut note in a very natural way."
+    }
+   ]
+  }
+ },
+ "Incense": {
+  "slug_fr": "encens",
+  "slug_en": "incense",
+  "name_fr": "Encens",
+  "name_en": "Incense",
+  "category": "resinous",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à l'encens : odeur, oliban et grands parfums",
+   "meta": "L'encens, ou oliban, donne aux parfums une fumée citronnée, poivrée et mystique. Son odeur, sa récolte en Oman et en Somalie, et ses parfums phares.",
+   "h1": "L'encens, fumée sacrée et résine lumineuse",
+   "intro": "En parfumerie, l'encens désigne le plus souvent l'oliban, une résine récoltée sur des arbres du genre Boswellia. Il sent la fumée d'église, le citron, le poivre et la pierre froide, et donne aux parfums une profondeur à la fois spirituelle et moderne.",
+   "smell": "L'oliban surprend par sa fraîcheur : ses premières facettes sont citronnées, térébenthinées et poivrées, presque pétillantes. Vient ensuite l'impression de fumée sèche, de pierre et de cire de cierge qui l'associe aux lieux de culte. Moins sucré que la myrrhe ou le labdanum, il reste aérien. Sur la peau, il se fait plus doux et balsamique au fil des heures, laissant une trace boisée, minérale et légèrement fumée.",
+   "origin": "L'oliban est une gomme-résine qui s'écoule des incisions pratiquées dans l'écorce des Boswellia, notamment Boswellia sacra en Oman et au Yémen, et Boswellia carteri ou papyrifera dans la Corne de l'Afrique. Les larmes séchées sont ensuite distillées pour obtenir une huile essentielle, ou traitées aux solvants pour produire un résinoïde. Brûlé depuis l'Antiquité dans les temples, il était l'une des marchandises les plus précieuses de la route de l'encens.",
+   "craft": "Selon la matière et le dosage, l'encens peut éclairer une tête, structurer un cœur ou fumer un fond. Il se marie aux bois, à la rose, à l'iris, au poivre, au patchouli et à l'ambre. Bleu de Chanel l'emploie en fond pour donner de la profondeur à sa fraîcheur boisée, tandis que Portrait of a Lady de Frédéric Malle l'associe à une rose sombre. Un Jardin sur le Nil d'Hermès en fait un voile discret derrière le lotus et la mangue verte.",
+   "wear": "L'encens se porte surtout en automne et en hiver, le soir, mais les versions citronnées fonctionnent aussi au printemps. Il plaît aux amateurs de parfums mystérieux et contemplatifs.",
+   "faq": [
+    {
+     "q": "Encens et oliban, est-ce la même chose ?",
+     "a": "En parfumerie, oui dans la plupart des cas. Oliban est le nom français de la résine des Boswellia, appelée frankincense en anglais. Le mot encens est plus large et peut désigner tout mélange de résines brûlées, mais quand une pyramide olfactive mentionne l'encens, c'est généralement l'oliban qui est visé."
+    },
+    {
+     "q": "Pourquoi l'encens sent-il l'église ?",
+     "a": "Parce que l'oliban est brûlé depuis des siècles dans les cérémonies religieuses, notamment dans les liturgies chrétiennes. Son odeur de fumée résineuse et citronnée est donc étroitement associée à ces lieux dans notre mémoire. Les parfumeurs jouent souvent sur cette évocation pour créer une atmosphère méditative ou solennelle."
+    },
+    {
+     "q": "Un parfum à l'encens est-il forcément lourd ?",
+     "a": "Non. L'oliban a une facette fraîche, citronnée et poivrée qui peut rester très aérienne. Associé à des agrumes ou à des notes aquatiques, il donne une fumée légère et lumineuse. Ce sont plutôt les accords avec la myrrhe, le labdanum ou la vanille qui rendent les parfums à l'encens plus denses."
+    }
+   ]
+  },
+  "en": {
+   "title": "Incense Perfumes: Frankincense Scent and Key Fragrances",
+   "meta": "Incense, or frankincense, gives perfume a lemony, peppery, mystical smoke. How it smells, how it's harvested in Oman and Somalia, and scents using it.",
+   "h1": "Incense: sacred smoke and luminous resin",
+   "intro": "In perfumery, incense usually means frankincense, or olibanum, a resin harvested from Boswellia trees. It smells of church smoke, lemon, pepper and cool stone, lending fragrances a depth that is both spiritual and modern.",
+   "smell": "Frankincense surprises with its freshness. Its first facets are lemony, turpentine-like and peppery, almost fizzy. Then comes the impression of dry smoke, stone and candle wax that links it to places of worship. Less sweet than myrrh or labdanum, it stays airy. On skin it grows softer and more balsamic over the hours, leaving a woody, mineral, faintly smoky trace that feels calm and a little austere.",
+   "origin": "Frankincense is a gum resin that oozes from cuts made in the bark of Boswellia trees, notably Boswellia sacra in Oman and Yemen, and Boswellia carteri or papyrifera in the Horn of Africa. The dried tears are then steam-distilled into an essential oil or solvent-extracted into a resinoid. Burned in temples since antiquity, it was one of the most precious goods traded along the ancient incense route across Arabia.",
+   "craft": "Depending on the material and dose, incense can brighten a top, structure a heart or smoke out a base. It pairs with woods, rose, iris, pepper, patchouli and amber. Bleu de Chanel uses it in the base to deepen its fresh woodiness, while Frédéric Malle's Portrait of a Lady sets it beside a dark rose. Hermès's Un Jardin sur le Nil turns it into a discreet veil behind lotus and green mango.",
+   "wear": "Incense suits autumn and winter evenings, though lemony versions also work in spring. It appeals to lovers of mysterious, contemplative fragrances.",
+   "faq": [
+    {
+     "q": "Are incense and frankincense the same in perfume?",
+     "a": "In most cases, yes. Frankincense, also called olibanum, is the resin of Boswellia trees. Incense is a broader word that can describe any blend of burned resins, but when a perfume pyramid lists incense, it generally refers to frankincense and its lemony, smoky character."
+    },
+    {
+     "q": "Why does incense smell like church?",
+     "a": "Because frankincense has been burned for centuries in religious ceremonies, particularly in Christian liturgy. Its resinous, lemony smoke is therefore tightly linked to those places in our memory. Perfumers often play on that association to create a meditative or solemn atmosphere in a composition."
+    },
+    {
+     "q": "Is an incense perfume always heavy?",
+     "a": "No. Frankincense has a fresh, lemony, peppery facet that can remain very airy. Paired with citrus or aquatic notes it gives a light, luminous smoke. It is rather accords with myrrh, labdanum or vanilla that make incense fragrances feel denser and warmer."
+    }
+   ]
+  }
+ },
+ "Labdanum": {
+  "slug_fr": "labdanum",
+  "slug_en": "labdanum",
+  "name_fr": "Labdanum",
+  "name_en": "Labdanum",
+  "category": "resinous",
+  "source": "natural",
+  "fr": {
+   "title": "Labdanum en parfum : odeur, ciste et parfums ambrés",
+   "meta": "Le labdanum, gomme du ciste, donne aux parfums une chaleur ambrée, cuirée, animale. Son odeur, sa récolte en Andalousie, son rôle dans le chypre.",
+   "h1": "Le labdanum, l'âme ambrée du ciste",
+   "intro": "Le labdanum est une gomme-résine produite par le ciste, un arbuste méditerranéen. Il sent l'ambre chaud, le cuir, le miel sombre et la peau, et constitue la base de l'accord ambré ainsi qu'un pilier de la structure chyprée.",
+   "smell": "Riche et dense, le labdanum évoque d'abord une résine ambrée, balsamique, avec une douceur de miel foncé et de fruits secs. Très vite se dessinent des facettes plus sombres : cuir, tabac, bois brûlé, et une animalité chaude qui rappelle la peau ou l'ambre gris. Sur la peau, il évolue peu mais s'installe durablement, apportant une profondeur veloutée et une chaleur qui reste perceptible jusqu'au lendemain.",
+   "origin": "Le labdanum provient du ciste ladanifère, Cistus ladanifer, qui pousse dans les garrigues d'Espagne, notamment en Andalousie, et du Portugal. Dans l'Antiquité, en Crète, on le récoltait en peignant la barbe des chèvres qui broutaient les cistes. Aujourd'hui, on fait bouillir les rameaux pour recueillir la gomme, puis on en tire une résine, un absolu ou une essence. Son nom même a donné le mot ladanum dans les textes anciens.",
+   "craft": "Surtout utilisé en fond, parfois en cœur, le labdanum est la pierre angulaire de l'accord ambré avec la vanille. Dans le chypre, il forme avec la bergamote et la mousse de chêne le trio fondateur : Miss Dior de 1947 en est un exemple dans notre base. Pour Monsieur de Chanel l'emploie pour donner du corps à une fraîcheur classique, et Sauvage de Dior pour ajouter une ombre ambrée à son fond boisé.",
+   "wear": "Le labdanum se porte en automne et en hiver, le soir ou dans les moments intimes. Il plaît à ceux qui aiment les parfums chauds, profonds, légèrement cuirés.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le labdanum ?",
+     "a": "Il sent l'ambre chaud et résineux, avec des nuances de cuir, de miel foncé, de tabac et une animalité douce qui rappelle la peau. C'est une matière dense et veloutée, beaucoup moins fraîche que l'encens. Elle apporte une chaleur profonde et une grande tenue aux compositions."
+    },
+    {
+     "q": "Le labdanum est-il de l'ambre ?",
+     "a": "Pas exactement, mais il en est le cœur. L'ambre en parfumerie est un accord imaginaire, et le labdanum en constitue l'ingrédient principal, associé à la vanille et à d'autres baumes. Il n'a aucun lien avec l'ambre fossile, ni avec l'ambre gris, même s'il en partage certaines facettes chaudes."
+    },
+    {
+     "q": "Quel est le rôle du labdanum dans un chypre ?",
+     "a": "Il forme avec la bergamote et la mousse de chêne l'ossature traditionnelle du chypre. La bergamote apporte la lumière, la mousse la note boisée et humide, et le labdanum la chaleur ambrée qui relie l'ensemble. Sans lui, la structure paraîtrait plus sèche et moins sensuelle."
+    }
+   ]
+  },
+  "en": {
+   "title": "Labdanum in Perfume: Scent, Cistus and Amber Classics",
+   "meta": "Labdanum, the gum of rockrose, gives perfume ambery, leathery warmth. How it smells, how it's harvested in Andalusia and its role in chypre and amber.",
+   "h1": "Labdanum, the ambery soul of rockrose",
+   "intro": "Labdanum is a gum resin produced by rockrose, a Mediterranean shrub. It smells of warm amber, leather, dark honey and skin, and it is the basis of the amber accord as well as a pillar of the chypre structure.",
+   "smell": "Rich and dense, labdanum first suggests an ambery, balsamic resin with the sweetness of dark honey and dried fruit. Darker facets soon appear: leather, tobacco, charred wood and a warm animalic quality reminiscent of skin or ambergris. On skin it changes little but settles in for the long haul, bringing velvety depth and a warmth that can still be felt the next day.",
+   "origin": "Labdanum comes from gum rockrose, Cistus ladanifer, which grows wild in the scrublands of Spain, particularly Andalusia, and Portugal. In ancient Crete it was gathered by combing the beards of goats that grazed on cistus bushes. Today the twigs are boiled to release the gum, which is then processed into a resin, an absolute or an essential oil. Ancient texts refer to it as ladanum, a prized aromatic.",
+   "craft": "Mostly used in the base, sometimes in the heart, labdanum is the cornerstone of the amber accord alongside vanilla. In chypres it forms the founding trio with bergamot and oakmoss; Dior's 1947 Miss Dior is an example in our database. Chanel's Pour Monsieur uses it to give body to classic freshness, and Dior's Sauvage adds an ambery shadow to its woody base with it.",
+   "wear": "Labdanum is an autumn and winter note, for evenings and intimate moments. It appeals to those who like warm, deep, slightly leathery fragrances.",
+   "faq": [
+    {
+     "q": "What does labdanum smell like?",
+     "a": "It smells of warm, resinous amber, with nuances of leather, dark honey, tobacco and a soft animalic quality that recalls skin. It is a dense, velvety material, far less fresh than frankincense, bringing deep warmth and excellent longevity to any composition it features in."
+    },
+    {
+     "q": "Is labdanum the same as amber?",
+     "a": "Not exactly, but it is amber's core. Amber in perfumery is an imaginary accord, and labdanum is its main ingredient, combined with vanilla and other balsams. It has nothing to do with fossil amber or ambergris, although it shares some of their warm facets."
+    },
+    {
+     "q": "What role does labdanum play in a chypre?",
+     "a": "With bergamot and oakmoss it forms the traditional framework of the chypre. Bergamot brings light, oakmoss a damp, woody depth, and labdanum the ambery warmth that ties everything together. Without it the structure would feel drier and far less sensual."
+    }
+   ]
+  }
+ },
+ "Lilac": {
+  "slug_fr": "lilas",
+  "slug_en": "lilac",
+  "name_fr": "Lilas",
+  "name_en": "Lilac",
+  "category": "floral",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au lilas : odeur, accord et fleurs de printemps",
+   "meta": "Le lilas, fleur muette, se recrée en parfum par un accord frais, poudré et légèrement amandé. Son odeur, sa construction et les parfums qui l'emploient.",
+   "h1": "Le lilas, fleur muette recréée par le parfumeur",
+   "intro": "Le lilas est une fleur dite muette : on ne sait pas en extraire une essence fidèle, si bien que sa note est toujours un accord reconstitué. Il sent la fleur fraîche du printemps, à la fois verte, poudrée, miellée et légèrement amandée.",
+   "smell": "Le lilas parfumé a une fraîcheur presque humide, une facette verte de feuille et de tige, puis un cœur floral miellé et poudré. On y devine une nuance d'amande et parfois une touche indolique discrète. C'est une odeur nostalgique, celle des jardins et des haies en avril. Sur la peau, l'accord reste léger et tendre ; il s'estompe assez vite pour se fondre dans les muscs et les bois clairs.",
+   "origin": "Le lilas commun, Syringa vulgaris, originaire des Balkans, fleurit dans les jardins d'Europe au printemps. Ses fleurs résistent mal à l'extraction : les rares essais donnent un résultat peu fidèle. Les parfumeurs recomposent donc son odeur avec des molécules comme le terpinéol, aux accents verts et fleuris, l'hydroxycitronellal, l'héliotropine, qui apporte le côté amandé et poudré, et l'alcool phényléthylique. Le lilas figure parmi les grands soliflores du début du XXe siècle.",
+   "craft": "Le lilas se place en cœur, souvent entouré d'autres fleurs printanières comme le muguet, la jacinthe ou la rose. Il donne une fraîcheur tendre et romantique. Trésor de Lancôme l'associe à la rose et à la pêche pour un floral poudré ; Guilty de Gucci l'intègre à un cœur floral plus moderne, et A Drop d'Issey d'Issey Miyake l'utilise pour une floralité douce et propre. Il se marie aussi à l'héliotrope et aux muscs blancs.",
+   "wear": "Le lilas se porte surtout au printemps, en journée. Il séduit ceux qui aiment les floraux frais, nostalgiques et délicats.",
+   "faq": [
+    {
+     "q": "Existe-t-il une huile essentielle de lilas ?",
+     "a": "Non, pas pour la parfumerie courante. Le lilas fait partie des fleurs dites muettes, dont l'extraction ne restitue pas fidèlement l'odeur. Les notes de lilas des parfums sont donc des accords créés à partir de molécules comme le terpinéol, l'héliotropine et l'hydroxycitronellal, qui imitent la fleur vivante."
+    },
+    {
+     "q": "Quelle odeur a le lilas en parfum ?",
+     "a": "Il sent la fleur fraîche et printanière, avec une facette verte, un cœur miellé et poudré, et une légère note d'amande. C'est une odeur tendre, un peu nostalgique, qui évoque les jardins en avril. Moins capiteux que les fleurs blanches, il reste léger et lumineux."
+    },
+    {
+     "q": "Quels parfums contiennent une note de lilas ?",
+     "a": "Dans notre base, le lilas apparaît en cœur de Trésor de Lancôme, de Lime Basil & Mandarin de Jo Malone, de Guilty de Gucci et d'A Drop d'Issey d'Issey Miyake. Dans chacun, il apporte une floralité printanière et tendre plutôt qu'un rôle de soliflore dominant."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lilac Perfumes: Scent, Accord and Spring Florals",
+   "meta": "Lilac is a mute flower, so perfumers rebuild it as a fresh, powdery, almond-tinged accord. Learn how it smells, how it's made and which scents feature it.",
+   "h1": "Lilac, the mute flower rebuilt by perfumers",
+   "intro": "Lilac is a so-called mute flower: it cannot be extracted into a faithful essence, so its note is always a reconstructed accord. It smells of fresh spring blossom, at once green, powdery, honeyed and faintly almond-like.",
+   "smell": "Perfumed lilac has an almost dewy freshness, a green facet of leaf and stem, then a honeyed, powdery floral heart. There is a hint of almond and sometimes a discreet indolic touch. It is a nostalgic smell, the smell of gardens and hedges in April. On skin the accord stays light and tender, fading fairly quickly into musks and pale woods rather than projecting loudly.",
+   "origin": "Common lilac, Syringa vulgaris, native to the Balkans, blooms in European gardens in spring. Its flowers respond poorly to extraction, and the rare attempts give an unconvincing result. Perfumers therefore rebuild its smell with molecules such as terpineol for green floral tones, hydroxycitronellal, heliotropin for the almondy, powdery side, and phenylethyl alcohol. Lilac was among the popular single-flower themes of the early twentieth century, when such soliflores were in vogue.",
+   "craft": "Lilac sits in the heart, often surrounded by other spring flowers such as lily of the valley, hyacinth and rose. It adds a tender, romantic freshness. Lancôme's Trésor pairs it with rose and peach for a powdery floral; Gucci's Guilty weaves it into a more modern floral heart, and Issey Miyake's A Drop d'Issey uses it for a soft, clean floralcy. It also blends well with heliotrope and white musks.",
+   "wear": "Lilac is essentially a spring, daytime note. It appeals to people who love fresh, nostalgic, delicate florals.",
+   "faq": [
+    {
+     "q": "Is there a lilac essential oil?",
+     "a": "Not for mainstream perfumery. Lilac is one of the so-called mute flowers whose extraction does not faithfully capture its smell. Lilac notes in perfume are therefore accords built from molecules such as terpineol, heliotropin and hydroxycitronellal that imitate the living flower."
+    },
+    {
+     "q": "What does lilac smell like in perfume?",
+     "a": "It smells of fresh spring blossom, with a green facet, a honeyed, powdery heart and a light almond nuance. It is a tender, slightly nostalgic scent that evokes gardens in April. Less heady than white flowers, it stays light and luminous on skin."
+    },
+    {
+     "q": "Which perfumes feature lilac?",
+     "a": "In our database, lilac appears in the heart of Lancôme's Trésor, Jo Malone's Lime Basil & Mandarin, Gucci's Guilty and Issey Miyake's A Drop d'Issey. In each it brings a tender spring floralcy rather than acting as a dominant soliflore."
+    }
+   ]
+  }
+ },
+ "Lotus": {
+  "slug_fr": "lotus",
+  "slug_en": "lotus",
+  "name_fr": "Lotus",
+  "name_en": "Lotus",
+  "category": "floral",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au lotus : odeur, origine et floraux aquatiques",
+   "meta": "Le lotus apporte aux parfums une fleur aquatique, fraîche et poudrée, entre nénuphar et melon. Son odeur, son origine asiatique et ses parfums phares.",
+   "h1": "Le lotus, fleur d'eau douce et de lumière",
+   "intro": "En parfumerie, le lotus évoque une fleur aquatique, fraîche et légèrement poudrée, qui sent l'eau calme, le pétale et une douceur proche du melon. Il est le plus souvent reconstitué en accord, même si un absolu naturel existe.",
+   "smell": "La note de lotus mêle une fraîcheur mouillée, presque ozonique, à une floralité douce et cireuse. On y perçoit des nuances de nénuphar, de feuille verte, parfois de fruit juteux et de poudre. Elle reste transparente et apaisante, loin de l'opulence des fleurs blanches. Sur la peau, elle s'efface assez vite derrière les muscs et les bois clairs, laissant une impression de peau propre et d'eau.",
+   "origin": "Le lotus sacré, Nelumbo nucifera, pousse dans les eaux calmes d'Asie, de l'Inde au Vietnam, où il est un symbole de pureté. Un absolu de lotus, rare et coûteux, est produit en Inde par extraction aux solvants des fleurs. Mais la plupart des notes de lotus du marché sont des accords : molécules aquatiques, hédione, notes vertes et fruitées. Le lotus s'est popularisé dans les années 1990 avec la vague des parfums aquatiques et transparents.",
+   "craft": "Présent en tête ou en cœur, le lotus apporte fraîcheur et transparence. Il s'associe au muguet, au cyclamen, au nénuphar, aux agrumes et aux muscs. L'Eau d'Issey d'Issey Miyake l'utilise en tête pour son floral aquatique ; Un Jardin sur le Nil d'Hermès le marie à la mangue verte et à l'encens, tandis que Black Orchid de Tom Ford l'intègre de façon plus inattendue à un cœur sombre et truffé.",
+   "wear": "Le lotus se porte au printemps et en été, en journée. Il plaît à ceux qui aiment les floraux légers, frais et épurés.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le lotus en parfum ?",
+     "a": "Il sent la fleur d'eau : fraîche, légèrement cireuse et poudrée, avec des nuances vertes et parfois fruitées rappelant le melon. C'est une odeur calme et transparente, bien plus discrète que les fleurs blanches. Elle donne aux parfums une sensation de pureté et de légèreté."
+    },
+    {
+     "q": "Le lotus est-il naturel dans les parfums ?",
+     "a": "Rarement. Un absolu de lotus existe, extrait en Inde, mais il est cher et peu utilisé en parfumerie grand public. La plupart des notes de lotus sont des accords construits avec des molécules aquatiques, de l'hédione et des notes vertes, qui traduisent l'idée de la fleur plus qu'ils ne la copient."
+    },
+    {
+     "q": "Quels parfums contiennent du lotus ?",
+     "a": "Dans notre base, le lotus figure en tête de L'Eau d'Issey d'Issey Miyake et d'Un Jardin sur le Nil d'Hermès, et en cœur de Black Orchid de Tom Ford, Bright Crystal de Versace et Euphoria de Calvin Klein. Ses usages vont du floral aquatique au floral oriental."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lotus Perfumes: Scent, Origin and Aquatic Florals",
+   "meta": "Lotus brings an aquatic, fresh and powdery flower to perfume, between water lily and melon. Discover how it smells, its Asian origin and key fragrances.",
+   "h1": "Lotus, the flower of still water and light",
+   "intro": "In perfumery, lotus evokes an aquatic, fresh, slightly powdery flower that smells of calm water, petals and a melon-like sweetness. It is usually reconstructed as an accord, although a natural absolute does exist.",
+   "smell": "The lotus note blends a wet, almost ozonic freshness with a soft, waxy floralcy. You can pick up nuances of water lily, green leaf, sometimes juicy fruit and powder. It stays transparent and soothing, far from the opulence of white flowers. On skin it fades fairly quickly behind musks and pale woods, leaving an impression of clean skin and water. It is a note of calm rather than seduction.",
+   "origin": "The sacred lotus, Nelumbo nucifera, grows in the still waters of Asia, from India to Vietnam, where it symbolises purity. A rare and costly lotus absolute is produced in India by solvent extraction of the flowers. Most lotus notes on the market, however, are accords made with aquatic molecules, hedione and green and fruity notes. Lotus became popular in the 1990s with the wave of aquatic, transparent fragrances.",
+   "craft": "Found in the top or heart, lotus adds freshness and transparency. It pairs with lily of the valley, cyclamen, water lily, citrus and musks. Issey Miyake's L'Eau d'Issey opens with it in an aquatic floral; Hermès's Un Jardin sur le Nil marries it to green mango and incense, while Tom Ford's Black Orchid weaves it, more unexpectedly, into a dark, truffle-laced heart.",
+   "wear": "Lotus suits spring and summer, for daytime. It appeals to lovers of light, fresh, minimalist florals.",
+   "faq": [
+    {
+     "q": "What does lotus smell like in perfume?",
+     "a": "It smells like a water flower: fresh, slightly waxy and powdery, with green nuances and sometimes a fruity, melon-like touch. It is a calm, transparent scent, far more discreet than white flowers, giving fragrances a feeling of purity and lightness."
+    },
+    {
+     "q": "Is lotus natural in perfumes?",
+     "a": "Rarely. A lotus absolute exists, extracted in India, but it is expensive and little used in mainstream perfumery. Most lotus notes are accords built with aquatic molecules, hedione and green notes that convey the idea of the flower rather than copying it exactly."
+    },
+    {
+     "q": "Which perfumes contain lotus?",
+     "a": "In our database, lotus appears in the top of Issey Miyake's L'Eau d'Issey and Hermès's Un Jardin sur le Nil, and in the heart of Tom Ford's Black Orchid, Versace's Bright Crystal and Calvin Klein's Euphoria. Its uses range from aquatic florals to darker oriental compositions."
+    }
+   ]
+  }
+ },
+ "Mint": {
+  "slug_fr": "menthe",
+  "slug_en": "mint",
+  "name_fr": "Menthe",
+  "name_en": "Mint",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la menthe : odeur, origine et fraîcheur",
+   "meta": "La menthe donne aux parfums une fraîcheur glacée, verte et aromatique. Menthe poivrée ou verte, origine, distillation et parfums masculins qui l'emploient.",
+   "h1": "La menthe, fraîcheur glacée et aromatique",
+   "intro": "La menthe apporte aux parfums une fraîcheur immédiate, froide et verte, due notamment au menthol. Elle sent la feuille froissée, le thé et parfois le chewing-gum, et donne une ouverture vive, très présente dans les parfums masculins.",
+   "smell": "La menthe poivrée est glacée, camphrée et légèrement sucrée ; la menthe verte, plus douce, évoque la feuille fraîche, le chewing-gum et le thé à la menthe. Toutes deux ont un effet quasi physique de fraîcheur, comme un souffle froid. Sur la peau, cette sensation est intense mais brève : la menthe s'évapore vite et laisse place à la lavande, aux agrumes ou aux bois qu'elle a servi à réveiller.",
+   "origin": "Les huiles essentielles de menthe sont obtenues par distillation à la vapeur des parties aériennes. La menthe poivrée, Mentha x piperita, riche en menthol, est largement cultivée aux États-Unis, notamment dans le nord-ouest ; la menthe verte, Mentha spicata, doit son odeur à la carvone. L'Inde est un très grand producteur de menthe des champs, Mentha arvensis, source majeure de menthol. En parfumerie fine, la menthe s'utilise avec parcimonie tant elle peut évoquer le dentifrice.",
+   "craft": "Placée en tête, la menthe donne un coup de fraîcheur et d'énergie. Elle se marie à la lavande, au basilic, aux agrumes, à la vanille et aux bois. Le Mâle de Jean Paul Gaultier l'associe à la lavande et à une vanille ambrée, un contraste froid-chaud devenu célèbre ; Cool Water de Davidoff l'intègre à une fraîcheur aromatique aquatique, et Eros de Versace l'oppose à la vanille et à la fève tonka.",
+   "wear": "La menthe se porte au printemps et en été, en journée ou pour le sport. Elle plaît aux amateurs de parfums frais, énergiques et aromatiques.",
+   "faq": [
+    {
+     "q": "Pourquoi la menthe donne-t-elle une sensation de froid ?",
+     "a": "Grâce au menthol, qui active les récepteurs sensoriels du froid dans le nez et sur la peau. Ce n'est pas seulement une odeur mais une sensation physique. En parfum, cet effet rafraîchissant est surtout perceptible dans les premières minutes, avant que la menthe, très volatile, ne s'évapore."
+    },
+    {
+     "q": "Quelle différence entre menthe poivrée et menthe verte en parfum ?",
+     "a": "La menthe poivrée est riche en menthol : elle est glacée, camphrée, très vive. La menthe verte doit son odeur à la carvone : plus douce, plus sucrée, elle évoque le chewing-gum et le thé à la menthe. Les parfumeurs choisissent selon l'effet recherché, du tonique au plus gourmand."
+    },
+    {
+     "q": "Quels parfums contiennent de la menthe ?",
+     "a": "Dans notre base, la menthe apparaît en tête du Mâle de Jean Paul Gaultier, d'A*Men de Mugler, de 1 Million de Paco Rabanne, de Bleu de Chanel, de Cool Water de Davidoff et d'Eros de Versace. Elle est aussi en cœur de L'Eau par Kenzo."
+    }
+   ]
+  },
+  "en": {
+   "title": "Mint Perfumes: Scent, Origin and Cool Freshness",
+   "meta": "Mint gives perfume an icy, green, aromatic freshness. Peppermint versus spearmint, where they're grown, how they're distilled and the scents using them.",
+   "h1": "Mint: icy, aromatic freshness",
+   "intro": "Mint gives fragrances an instant freshness, cold and green, largely thanks to menthol. It smells of crushed leaves, tea and sometimes chewing gum, creating a lively opening that is especially common in men's perfumes.",
+   "smell": "Peppermint is icy, camphorous and slightly sweet; spearmint is softer, suggesting fresh leaves, chewing gum and mint tea. Both have an almost physical cooling effect, like a cold breath. On skin that sensation is intense but brief: mint evaporates quickly and makes way for the lavender, citrus or woods it was used to awaken. Used well, it gives a composition a jolt of energy without dominating it.",
+   "origin": "Mint essential oils are steam-distilled from the aerial parts of the plant. Peppermint, Mentha x piperita, rich in menthol, is widely grown in the United States, especially in the Pacific Northwest; spearmint, Mentha spicata, owes its smell to carvone. India is a huge producer of corn mint, Mentha arvensis, a major source of menthol. In fine fragrance, mint is used sparingly, since too much quickly evokes toothpaste rather than perfume.",
+   "craft": "Placed in the top, mint delivers a burst of freshness and energy. It pairs with lavender, basil, citrus, vanilla and woods. Jean Paul Gaultier's Le Mâle combines it with lavender and an ambery vanilla, a famous hot-cold contrast; Davidoff's Cool Water weaves it into an aquatic aromatic freshness, and Versace's Eros sets it against vanilla and tonka bean for a sweeter modern take.",
+   "wear": "Mint suits spring and summer, daytime or the gym. It appeals to fans of fresh, energetic, aromatic fragrances.",
+   "faq": [
+    {
+     "q": "Why does mint feel cold?",
+     "a": "Because of menthol, which activates the cold-sensing receptors in the nose and on the skin. It is not only a smell but a physical sensation. In perfume the cooling effect is mostly noticeable in the first minutes, before the highly volatile mint evaporates."
+    },
+    {
+     "q": "What is the difference between peppermint and spearmint in perfume?",
+     "a": "Peppermint is rich in menthol, making it icy, camphorous and very bright. Spearmint owes its smell to carvone and is softer and sweeter, closer to chewing gum and mint tea. Perfumers choose between them depending on the effect they want, from bracing to more gourmand."
+    },
+    {
+     "q": "Which perfumes contain mint?",
+     "a": "In our database, mint appears in the top of Jean Paul Gaultier's Le Mâle, Mugler's A*Men, Paco Rabanne's 1 Million, Bleu de Chanel, Davidoff's Cool Water and Versace's Eros. It also sits in the heart of Kenzo's L'Eau par Kenzo."
+    }
+   ]
+  }
+ },
+ "Neroli": {
+  "slug_fr": "neroli",
+  "slug_en": "neroli",
+  "name_fr": "Néroli",
+  "name_en": "Neroli",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au néroli : odeur, origine et grandes Colognes",
+   "meta": "Le néroli, essence de fleur d'oranger amer, mêle fraîcheur d'agrume, miel et savon. Son odeur, sa distillation en Tunisie et les parfums qui l'honorent.",
+   "h1": "Le néroli, la fleur d'oranger en version lumineuse",
+   "intro": "Le néroli est l'huile essentielle obtenue par distillation des fleurs de l'oranger amer. Il sent la fleur blanche fraîche, le zeste, le miel léger et le linge propre, et apporte aux parfums une luminosité à la fois florale et hespéridée.",
+   "smell": "Le néroli s'ouvre sur une fraîcheur verte et citronnée, presque amère, puis révèle une floralité blanche, miellée et légèrement savonneuse. Plus clair et plus aérien que l'absolu de fleur d'oranger, il garde une note de propreté solaire, de Méditerranée au printemps. Sur la peau, il reste lumineux mais assez fugace ; il se prolonge souvent grâce aux muscs et à la fleur d'oranger qui l'accompagnent dans la formule.",
+   "origin": "Le néroli provient du bigaradier, Citrus aurantium, dont on distille les fleurs à la vapeur. La Tunisie, le Maroc et l'Égypte en sont d'importants producteurs. Il faut des quantités considérables de fleurs pour obtenir un kilo d'essence, ce qui en fait une matière précieuse. Son nom viendrait d'une princesse de Nerola, au XVIIe siècle, qui l'aurait mis à la mode. Le même arbre donne aussi l'absolu de fleur d'oranger, le petit-grain et l'essence d'orange amère.",
+   "craft": "Placé en tête ou en cœur, le néroli est l'âme des eaux de Cologne, aux côtés de la bergamote, du citron et du romarin. Il apporte éclat et propreté aux floraux et aux boisés frais. Neroli Portofino de Tom Ford en fait le héros d'une Cologne contemporaine ; Chanel N°5 l'utilise en tête pour éclairer les aldéhydes, et Acqua di Gio de Giorgio Armani pour adoucir sa fraîcheur marine.",
+   "wear": "Le néroli se porte au printemps et en été, de jour. Il plaît à ceux qui aiment les parfums propres, lumineux et élégants, quel que soit le genre.",
+   "faq": [
+    {
+     "q": "Quelle différence entre néroli et fleur d'oranger ?",
+     "a": "Les deux viennent des fleurs de l'oranger amer, mais par des procédés différents. Le néroli est distillé à la vapeur : il est frais, vert et hespéridé. L'absolu de fleur d'oranger est obtenu par solvant : il est plus riche, miellé et indolique. Le premier éclaire, le second enveloppe."
+    },
+    {
+     "q": "Pourquoi le néroli est-il si cher ?",
+     "a": "Parce qu'il faut une très grande quantité de fleurs, cueillies à la main au printemps, pour obtenir un kilo d'huile essentielle. La récolte est courte et dépend fortement de la météo. Cette rareté relative en fait l'une des matières premières florales les plus coûteuses de la palette."
+    },
+    {
+     "q": "Quels parfums contiennent du néroli ?",
+     "a": "Dans notre base, le néroli est en tête de Chanel N°5, de L'Air du Temps de Nina Ricci, d'Acqua di Gio de Giorgio Armani et de Pour Monsieur de Chanel. Neroli Portofino de Tom Ford et Allure Homme Sport de Chanel l'emploient en cœur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Neroli Perfumes: Scent, Origin and Great Colognes",
+   "meta": "Neroli, the oil of bitter orange blossom, blends citrus freshness, light honey and clean soap. How it smells, where it's distilled and the scents using it.",
+   "h1": "Neroli, orange blossom in its brightest form",
+   "intro": "Neroli is the essential oil distilled from the blossoms of the bitter orange tree. It smells of fresh white flowers, zest, light honey and clean linen, giving fragrances a luminosity that is both floral and citrusy.",
+   "smell": "Neroli opens with a green, lemony, almost bitter freshness, then reveals a white, honeyed, slightly soapy floral side. Clearer and airier than orange blossom absolute, it keeps a sunny cleanliness, like the Mediterranean in spring. On skin it stays bright but rather fleeting, and is usually extended by the musks and orange blossom that accompany it in the formula. It is the smell of freshly laundered cotton drying in a citrus grove.",
+   "origin": "Neroli comes from the bitter orange tree, Citrus aurantium, whose flowers are steam-distilled. Tunisia, Morocco and Egypt are important producers. It takes an enormous quantity of blossoms to obtain a kilo of oil, which makes it a precious material. Its name is said to come from a seventeenth-century princess of Nerola who made it fashionable. The same tree also gives orange blossom absolute, petitgrain from the leaves and bitter orange oil from the peel.",
+   "craft": "Placed in the top or heart, neroli is the soul of eau de Cologne alongside bergamot, lemon and rosemary. It brings sparkle and cleanliness to florals and fresh woody scents. Tom Ford's Neroli Portofino makes it the hero of a contemporary cologne; Chanel N°5 uses it in the top to brighten the aldehydes, and Giorgio Armani's Acqua di Gio uses it to soften its marine freshness.",
+   "wear": "Neroli suits spring and summer, for daytime. It appeals to anyone who loves clean, luminous, elegant fragrances, whatever their gender.",
+   "faq": [
+    {
+     "q": "What is the difference between neroli and orange blossom?",
+     "a": "Both come from bitter orange flowers, but through different processes. Neroli is steam-distilled, making it fresh, green and citrusy. Orange blossom absolute is solvent-extracted, giving a richer, honeyed, indolic material. The first brightens a composition, the second envelops it. Many perfumes use both together."
+    },
+    {
+     "q": "Why is neroli so expensive?",
+     "a": "Because it takes a huge quantity of hand-picked spring blossoms to produce a kilo of essential oil. The harvest is short and heavily dependent on the weather. That relative scarcity makes it one of the costlier floral raw materials in the perfumer's palette."
+    },
+    {
+     "q": "Which perfumes contain neroli?",
+     "a": "In our database, neroli is in the top of Chanel N°5, Nina Ricci's L'Air du Temps, Giorgio Armani's Acqua di Gio and Chanel's Pour Monsieur. Tom Ford's Neroli Portofino and Chanel's Allure Homme Sport feature it in the heart. It is a classic of fresh compositions."
+    }
+   ]
+  }
+ },
+ "Orange": {
+  "slug_fr": "orange",
+  "slug_en": "orange",
+  "name_fr": "Orange",
+  "name_en": "Orange",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à l'orange : odeur, origine et agrumes solaires",
+   "meta": "L'orange apporte aux parfums un zeste juteux, sucré et solaire. Orange douce ou amère, pression à froid, et les parfums qui en font un éclat lumineux.",
+   "h1": "L'orange, zeste juteux et solaire",
+   "intro": "L'essence d'orange est pressée à froid à partir de l'écorce du fruit. Elle sent le zeste juteux, sucré et ensoleillé, et donne aux parfums une ouverture joyeuse, plus ronde et plus gourmande que le citron ou la bergamote.",
+   "smell": "L'orange douce évoque le fruit qu'on épluche : jus, pulpe, zeste huileux, avec une douceur presque confite. L'orange amère, ou bigarade, est plus sèche, plus verte, avec une amertume élégante. Dans les deux cas, l'odeur est pétillante et lumineuse. Sur la peau, elle est volatile : son éclat dure peu, mais il colore les premières minutes du parfum et laisse une chaleur fruitée qui se fond dans le cœur.",
+   "origin": "L'orange douce, Citrus sinensis, est produite en grande quantité au Brésil et aux États-Unis, en Floride notamment ; son essence est un coproduit de l'industrie du jus, obtenu par expression à froid du zeste. L'orange amère, Citrus aurantium, cultivée autour de la Méditerranée, donne aussi le néroli et le petit-grain. Riche en limonène, l'essence d'orange est l'un des matériaux naturels les plus abordables de la parfumerie et un pilier historique des eaux de Cologne.",
+   "craft": "L'orange se place presque toujours en tête. Elle s'associe à la bergamote, au citron, au néroli, aux épices, à la vanille et aux bois. Colonia d'Acqua di Parma l'intègre à sa fraîcheur hespéridée classique ; Terre d'Hermès l'associe au pamplemousse et au vétiver pour un boisé minéral, et Eau des Merveilles d'Hermès la marie à l'ambre pour un contraste lumineux et salé. Elle donne aux compositions un sourire immédiat.",
+   "wear": "L'orange se porte au printemps et en été, et en hiver dans les compositions épicées. Elle plaît à ceux qui aiment les parfums gais, solaires et faciles.",
+   "faq": [
+    {
+     "q": "Quelle différence entre orange douce et orange amère en parfum ?",
+     "a": "L'orange douce sent le fruit mûr, juteux et sucré. L'orange amère, ou bigarade, est plus verte, sèche et subtilement amère, avec une élégance plus classique. Le bigaradier offre aussi d'autres matières : le néroli, tiré de ses fleurs, et le petit-grain, distillé à partir de ses feuilles et rameaux."
+    },
+    {
+     "q": "Pourquoi l'orange tient-elle peu sur la peau ?",
+     "a": "Parce qu'elle est composée surtout de limonène, une molécule très volatile qui s'évapore rapidement. Comme tous les agrumes, elle brille dans les premières minutes. Les parfumeurs prolongent souvent son effet avec des muscs, des molécules plus tenaces ou des accords qui imitent son éclat en fond."
+    },
+    {
+     "q": "Quels parfums contiennent de l'orange ?",
+     "a": "Dans notre base, l'orange figure en tête de Coco Mademoiselle de Chanel, de Terre d'Hermès, de Vol de Nuit de Guerlain, de Colonia d'Acqua di Parma, d'Eau des Merveilles d'Hermès et de Luna Rossa de Prada. Elle y apporte chaque fois une ouverture lumineuse."
+    }
+   ]
+  },
+  "en": {
+   "title": "Orange Perfumes: Scent, Origin and Sunny Citrus",
+   "meta": "Orange gives perfume a juicy, sweet, sunny zest. Sweet versus bitter orange, cold-pressing, and the fragrances that turn it into a bright, joyful opening.",
+   "h1": "Orange: juicy, sunlit zest",
+   "intro": "Orange oil is cold-pressed from the peel of the fruit. It smells of juicy, sweet, sunny zest and gives fragrances a cheerful opening that is rounder and more gourmand than lemon or bergamot.",
+   "smell": "Sweet orange recalls the fruit as you peel it: juice, pulp and oily zest, with an almost candied sweetness. Bitter orange, or bigarade, is drier and greener, with an elegant bitterness. Either way the smell is sparkling and bright. On skin it is volatile, so its sparkle is short-lived, but it colours the first minutes of a fragrance and leaves a fruity warmth that melts into the heart notes.",
+   "origin": "Sweet orange, Citrus sinensis, is produced in vast quantities in Brazil and the United States, notably Florida, and its oil is a by-product of the juice industry, obtained by cold-pressing the peel. Bitter orange, Citrus aurantium, grown around the Mediterranean, also yields neroli and petitgrain. Rich in limonene, orange oil is one of the most affordable natural materials in perfumery and a historic pillar of eau de Cologne.",
+   "craft": "Orange nearly always sits in the top. It pairs with bergamot, lemon, neroli, spices, vanilla and woods. Acqua di Parma's Colonia weaves it into classic citrus freshness; Terre d'Hermès combines it with grapefruit and vetiver for a mineral woodiness, and Hermès's Eau des Merveilles pairs it with amber for a bright, salty contrast. It gives any composition an instant smile.",
+   "wear": "Orange suits spring and summer, and winter too in spicy compositions. It appeals to people who like cheerful, sunny, easy fragrances.",
+   "faq": [
+    {
+     "q": "What is the difference between sweet and bitter orange in perfume?",
+     "a": "Sweet orange smells of ripe, juicy, sugary fruit. Bitter orange, or bigarade, is greener, drier and subtly bitter, with a more classic elegance. The bitter orange tree also provides other materials: neroli from its blossoms and petitgrain distilled from its leaves and twigs."
+    },
+    {
+     "q": "Why doesn't orange last long on skin?",
+     "a": "Because it is mostly limonene, a highly volatile molecule that evaporates quickly. Like all citrus it shines in the first minutes. Perfumers often extend its effect with musks, more tenacious molecules or accords that echo its brightness further down in the base."
+    },
+    {
+     "q": "Which perfumes contain orange?",
+     "a": "In our database, orange sits in the top of Chanel's Coco Mademoiselle, Terre d'Hermès, Guerlain's Vol de Nuit, Acqua di Parma's Colonia, Hermès's Eau des Merveilles and Prada's Luna Rossa, bringing a luminous opening each time. It rarely stars alone but sets the mood of the whole opening."
+    }
+   ]
+  }
+ },
+ "Oud": {
+  "slug_fr": "oud",
+  "slug_en": "oud",
+  "name_fr": "Oud",
+  "name_en": "Oud",
+  "category": "woody",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au oud : odeur, bois d'agar et grands parfums",
+   "meta": "Le oud, ou bois d'agar, sent le bois fumé, le cuir et la résine animale. Son origine asiatique, sa rareté, ses versions de synthèse et ses parfums phares.",
+   "h1": "Le oud, le bois le plus précieux de la parfumerie",
+   "intro": "Le oud, ou bois d'agar, est une résine sombre qui se forme dans le bois de certains arbres d'Asie lorsqu'ils sont infectés. Il sent le bois fumé, le cuir, la résine et une animalité parfois presque médicinale, d'une intensité et d'une profondeur uniques.",
+   "smell": "Le oud naturel est complexe et déroutant : boisé, fumé, cuiré, avec des facettes de fruits secs, de miel, de terre et parfois de fromage ou d'étable, selon son origine. Les accords de oud utilisés en parfumerie occidentale sont plus lisses, secs et boisés, avec une touche médicinale. Sur la peau, le oud est très tenace : il évolue lentement, s'adoucit et laisse un fond sombre et chaud pendant des heures.",
+   "origin": "Le oud provient des arbres du genre Aquilaria, en Asie du Sud et du Sud-Est : Inde, Bangladesh, Cambodge, Laos, Vietnam, Indonésie. Blessé et infecté par des champignons, l'arbre produit une résine qui imprègne son bois. Ce bois est brûlé ou distillé pour donner l'huile de oud. Surexploitées, les espèces sauvages sont protégées par la CITES, et les plantations inoculées se développent. Tradition millénaire au Moyen-Orient, le oud s'est imposé en Occident au début des années 2000.",
+   "craft": "Placé en cœur ou en fond, le oud apporte densité, profondeur et une signature immédiatement reconnaissable. Les parfumeurs utilisent rarement l'huile naturelle seule : ils recourent surtout à des accords de synthèse. Il se marie à la rose, au safran, au santal, au patchouli et à l'ambre. Oud Wood de Tom Ford l'a rendu accessible au grand public ; Oud Satin Mood de Maison Francis Kurkdjian l'enrobe de rose et de vanille.",
+   "wear": "Le oud se porte en automne et en hiver, le soir. Il séduit les amateurs de parfums intenses, sombres et opulents, quel que soit le genre.",
+   "faq": [
+    {
+     "q": "Qu'est-ce que le oud en parfum ?",
+     "a": "C'est la résine qui imprègne le bois des arbres Aquilaria lorsqu'ils sont infectés par des champignons. Ce bois résineux, appelé bois d'agar, est distillé pour obtenir une huile au parfum boisé, fumé et cuiré. Dans la plupart des parfums occidentaux, la note de oud est un accord reconstitué."
+    },
+    {
+     "q": "Pourquoi le oud naturel est-il si cher ?",
+     "a": "Parce que la formation de la résine est lente et aléatoire, que les arbres sauvages sont rares et protégés, et qu'il faut beaucoup de bois pour obtenir peu d'huile. Les meilleures qualités issues d'arbres anciens sont parmi les matières premières les plus chères au monde."
+    },
+    {
+     "q": "Quels parfums contiennent du oud ?",
+     "a": "Dans notre base, le oud figure notamment dans Oud Wood et Noir de Noir de Tom Ford, Oud Satin Mood de Maison Francis Kurkdjian, Royal Oud de Creed, Black Aoud de Montale, Interlude Man d'Amouage et plusieurs créations de Parfums de Marly comme Layton Exclusif."
+    }
+   ]
+  },
+  "en": {
+   "title": "Oud Perfumes: Agarwood Scent and Key Fragrances",
+   "meta": "Oud, or agarwood, smells of smoky wood, leather and animalic resin. Learn about its Asian origin, its rarity, its synthetic versions and key perfumes.",
+   "h1": "Oud, perfumery's most precious wood",
+   "intro": "Oud, or agarwood, is a dark resin that forms inside certain Asian trees when they become infected. It smells of smoky wood, leather, resin and an animalic, sometimes almost medicinal edge, with unique intensity and depth.",
+   "smell": "Natural oud is complex and challenging: woody, smoky and leathery, with facets of dried fruit, honey, earth and sometimes cheese or barnyard, depending on its origin. The oud accords used in Western perfumery are smoother, drier and woodier, with a medicinal touch. On skin oud is extremely tenacious: it evolves slowly, softens over time and leaves a dark, warm base for hours.",
+   "origin": "Oud comes from trees of the genus Aquilaria in South and Southeast Asia: India, Bangladesh, Cambodia, Laos, Vietnam and Indonesia. When wounded and infected by fungi, the tree produces a resin that saturates its wood, which is then burned or distilled into oud oil. Overharvested, wild species are protected under CITES, and inoculated plantations are expanding. A centuries-old tradition in the Middle East, oud entered Western perfumery in force in the early 2000s.",
+   "craft": "Placed in the heart or base, oud brings density, depth and an instantly recognisable signature. Perfumers rarely use the natural oil alone and rely mostly on synthetic accords. It pairs with rose, saffron, sandalwood, patchouli and amber. Tom Ford's Oud Wood made it accessible to a wide audience, while Maison Francis Kurkdjian's Oud Satin Mood wraps it in rose and vanilla.",
+   "wear": "Oud is an autumn and winter evening note. It appeals to lovers of intense, dark, opulent fragrances, regardless of gender.",
+   "faq": [
+    {
+     "q": "What is oud in perfume?",
+     "a": "It is the resin that saturates the wood of Aquilaria trees when they are infected by fungi. This resinous wood, called agarwood, is distilled into an oil with a woody, smoky, leathery smell. In most Western fragrances, however, the oud note is a reconstructed accord rather than the natural oil."
+    },
+    {
+     "q": "Why is natural oud so expensive?",
+     "a": "Because the resin forms slowly and unpredictably, wild trees are rare and protected, and a lot of wood is needed for a little oil. The finest grades from old trees rank among the most expensive raw materials in the world."
+    },
+    {
+     "q": "Which perfumes contain oud?",
+     "a": "In our database, oud appears in Tom Ford's Oud Wood and Noir de Noir, Maison Francis Kurkdjian's Oud Satin Mood, Creed's Royal Oud, Montale's Black Aoud, Amouage's Interlude Man and several Parfums de Marly creations such as Layton Exclusif. Each interprets its dark wood differently."
+    }
+   ]
+  }
+ },
+ "Pear": {
+  "slug_fr": "poire",
+  "slug_en": "pear",
+  "name_fr": "Poire",
+  "name_en": "Pear",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à la poire : odeur, accord et fruités phares",
+   "meta": "La poire apporte aux parfums un fruit juteux, croquant et un peu sucré. Comment on recrée son odeur, ses accords préférés et les parfums qui l'emploient.",
+   "h1": "La poire, fraîcheur juteuse et croquante",
+   "intro": "La note de poire est un accord de synthèse, car le fruit ne donne pas d'essence utilisable. Elle sent la chair juteuse, croquante et un peu sucrée d'une poire bien mûre, et donne aux parfums une ouverture fraîche, lumineuse et gourmande à la fois.",
+   "smell": "La poire parfumée est aqueuse, croquante, avec une douceur de sirop léger et une facette verte de peau. Selon l'accord, elle peut tirer vers le bonbon, la poire Williams, ou vers une fraîcheur presque florale. Elle reste pétillante et nette, jamais lourde. Sur la peau, elle brille surtout dans les premières minutes, puis cède la place aux fleurs, au praliné ou aux bois, laissant une trace fruitée légère.",
+   "origin": "Comme la plupart des fruits, la poire ne se distille pas pour donner une essence parfumante. Les parfumeurs recomposent son odeur avec des esters : l'acétate d'hexyle, l'acétate d'amyle ou l'ester dit de poire, le décadiénoate d'éthyle, qui reproduit fidèlement la poire Williams. Ces molécules existent naturellement dans le fruit. La poire s'est imposée dans la parfumerie à partir des années 1990 et 2000, avec l'essor des floraux fruités et des gourmands modernes.",
+   "craft": "Placée en tête, la poire donne un premier contact frais et appétissant. Elle se marie au cassis, à l'iris, au jasmin, au freesia, au praliné et au patchouli. English Pear & Freesia de Jo Malone en fait le cœur d'un floral fruité automnal ; La Vie Est Belle de Lancôme l'associe au cassis avant un fond praliné, et Black Opium d'Yves Saint Laurent l'utilise pour éclairer son accord de café et de vanille.",
+   "wear": "La poire se porte toute l'année, surtout au printemps et à l'automne. Elle plaît aux amateurs de parfums fruités, frais et faciles à porter.",
+   "faq": [
+    {
+     "q": "Comment fait-on une odeur de poire en parfum ?",
+     "a": "Avec des esters de synthèse, notamment l'acétate d'hexyle et le décadiénoate d'éthyle, dit ester de poire. Ces molécules, présentes naturellement dans le fruit, reproduisent son côté juteux et sucré. Le fruit lui-même ne peut pas être extrait pour obtenir une matière première parfumante exploitable."
+    },
+    {
+     "q": "La poire est-elle une note féminine ?",
+     "a": "Elle est très fréquente dans les floraux fruités féminins, mais on la trouve aussi dans des parfums masculins. Gentleman de Givenchy l'associe à la lavande et à l'iris, et Ultra Male de Jean Paul Gaultier l'utilise en tête. Associée à des notes aromatiques ou boisées, elle perd son côté bonbon."
+    },
+    {
+     "q": "Quels parfums contiennent une note de poire ?",
+     "a": "Dans notre base, la poire figure en tête de J'adore de Dior, de La Vie Est Belle de Lancôme, de Black Opium et Mon Paris d'Yves Saint Laurent, d'Idôle de Lancôme et d'English Pear & Freesia de Jo Malone. Another 13 du Labo l'emploie en cœur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Pear Perfumes: Scent, Accord and Fruity Favourites",
+   "meta": "Pear gives perfume a juicy, crisp, lightly sweet fruit. Learn how perfumers recreate its smell, its favourite pairings and the fragrances that feature it.",
+   "h1": "Pear: juicy, crisp freshness",
+   "intro": "Pear is a synthetic accord, because the fruit yields no usable essence. It smells of the juicy, crisp, slightly sweet flesh of a ripe pear and gives fragrances an opening that is fresh, bright and gently gourmand.",
+   "smell": "Perfumed pear is watery and crisp, with the sweetness of light syrup and a green facet of peel. Depending on the accord it can lean toward candy, Williams pear brandy or an almost floral freshness. It stays sparkling and clean, never heavy. On skin it shines mainly in the first minutes before giving way to flowers, praline or woods, leaving a light fruity trace behind.",
+   "origin": "Like most fruits, pear cannot be distilled into a fragrant essence. Perfumers rebuild its smell with esters such as hexyl acetate, amyl acetate and the so-called pear ester, ethyl decadienoate, which faithfully reproduces Williams pear. These molecules occur naturally in the fruit. Pear rose to prominence in perfumery from the 1990s and 2000s onward, with the boom in fruity florals and modern gourmands that favoured juicy, approachable openings.",
+   "craft": "Placed in the top, pear offers a fresh, appetising first impression. It pairs with blackcurrant, iris, jasmine, freesia, praline and patchouli. Jo Malone's English Pear & Freesia makes it the centre of an autumnal fruity floral; Lancôme's La Vie Est Belle pairs it with blackcurrant before a praline base, and Yves Saint Laurent's Black Opium uses it to brighten its coffee and vanilla accord.",
+   "wear": "Pear works all year round, especially in spring and autumn. It appeals to fans of fruity, fresh, easy-to-wear fragrances.",
+   "faq": [
+    {
+     "q": "How do perfumers create a pear smell?",
+     "a": "With synthetic esters, notably hexyl acetate and ethyl decadienoate, known as pear ester. These molecules, which occur naturally in the fruit, reproduce its juicy, sweet character. The fruit itself cannot be extracted to produce a usable fragrant raw material, so the note is always an accord."
+    },
+    {
+     "q": "Is pear a feminine note?",
+     "a": "It is very common in feminine fruity florals, but it also appears in men's fragrances. Givenchy's Gentleman pairs it with lavender and iris, and Jean Paul Gaultier's Ultra Male opens with it. Combined with aromatic or woody notes, pear loses its candy-like side."
+    },
+    {
+     "q": "Which perfumes feature pear?",
+     "a": "In our database, pear sits in the top of Dior's J'adore, Lancôme's La Vie Est Belle and Idôle, Yves Saint Laurent's Black Opium and Mon Paris, and Jo Malone's English Pear & Freesia. Le Labo's Another 13 uses it in the heart for a subtler effect."
+    }
+   ]
+  }
+ },
+ "Pineapple": {
+  "slug_fr": "ananas",
+  "slug_en": "pineapple",
+  "name_fr": "Ananas",
+  "name_en": "Pineapple",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à l'ananas : odeur, accord et parfums cultes",
+   "meta": "L'ananas donne aux parfums un fruit tropical juteux, acidulé, un peu fumé. Comment on le recrée, ses accords et les parfums qui en ont fait leur signature.",
+   "h1": "L'ananas, l'éclat tropical et acidulé",
+   "intro": "La note d'ananas est un accord de synthèse qui reproduit le fruit tropical : juteux, sucré, acidulé, avec une pointe presque piquante. Elle apporte aux parfums une ouverture pétillante et exotique, devenue célèbre dans la parfumerie masculine moderne.",
+   "smell": "L'ananas parfumé mêle le jus sucré, l'acidité vive et une facette légèrement fermentée ou caramélisée, comme un fruit très mûr. Associé aux bois ou au bouleau, il peut paraître fumé. Il est éclatant, joyeux, parfois un peu synthétique quand il est surdosé. Sur la peau, sa fraîcheur fruitée est intense au départ puis s'estompe assez vite, laissant place aux muscs, aux mousses ou aux fleurs du cœur.",
+   "origin": "Le fruit ne fournit pas d'essence utilisable, si bien que la note est reconstituée avec des esters comme le caproate d'allyle, à l'odeur très typée d'ananas, ou le butyrate d'éthyle, plus fruité et sucré. Ces molécules sont aussi utilisées en aromatique alimentaire. Longtemps discrète, présente surtout dans les floraux fruités des années 1990, la note d'ananas est devenue emblématique au début des années 2010 grâce à un succès masculin majeur.",
+   "craft": "Presque toujours en tête, l'ananas apporte énergie et luminosité. Il se marie à la bergamote, à la pomme, au cassis, au bouleau, à la mousse de chêne et aux muscs. Aventus de Creed l'a associé au bouleau fumé et à la mousse, une combinaison largement imitée ; CK One de Calvin Klein l'intègre à sa fraîcheur hespéridée, et Hacivat de Nishane l'oppose à un fond boisé et moussu.",
+   "wear": "L'ananas se porte au printemps et en été, en journée comme en soirée. Il plaît à ceux qui aiment les parfums fruités, énergiques et affirmés.",
+   "faq": [
+    {
+     "q": "Pourquoi l'ananas est-il si présent dans les parfums masculins ?",
+     "a": "Le succès d'Aventus de Creed, lancé en 2010, a popularisé l'association de l'ananas avec des notes fumées, boisées et moussues. Cette combinaison fruitée et virile a été largement reprise. L'ananas apporte une ouverture lumineuse et énergique qui contraste efficacement avec des fonds plus secs et sombres."
+    },
+    {
+     "q": "Comment recrée-t-on l'odeur de l'ananas ?",
+     "a": "Avec des esters de synthèse, principalement le caproate d'allyle, qui donne une odeur d'ananas très reconnaissable, et le butyrate d'éthyle pour la facette juteuse et sucrée. Le fruit lui-même ne permet pas d'extraire une matière première parfumante, la note est donc toujours un accord."
+    },
+    {
+     "q": "Quels parfums contiennent de l'ananas ?",
+     "a": "Dans notre base, l'ananas figure en tête de Trésor de Lancôme, de CK One de Calvin Klein, de Chance de Chanel, d'Aventus de Creed, d'Hacivat de Nishane et de Coach Floral. Chrome d'Azzaro l'utilise en cœur pour renforcer sa fraîcheur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Pineapple Perfumes: Scent, Accord and Cult Fragrances",
+   "meta": "Pineapple gives perfume a juicy, tangy, slightly smoky tropical fruit. Discover how it's recreated, its classic pairings and the scents that made it cult.",
+   "h1": "Pineapple: tropical, tangy sparkle",
+   "intro": "Pineapple is a synthetic accord that reproduces the tropical fruit: juicy, sweet and tangy, with an almost prickly edge. It gives fragrances a sparkling, exotic opening that became famous in modern men's perfumery.",
+   "smell": "Perfumed pineapple blends sweet juice, bright acidity and a slightly fermented or caramelised facet, like very ripe fruit. Paired with woods or birch it can seem smoky. It is radiant and cheerful, sometimes a little synthetic when overdosed. On skin its fruity freshness is intense at first, then fades fairly quickly into the musks, mosses or flowers of the heart and base.",
+   "origin": "The fruit yields no usable essence, so the note is rebuilt with esters such as allyl caproate, which has a very typical pineapple smell, and ethyl butyrate, fruitier and sweeter. These molecules are also used in food flavourings. Long discreet and found mainly in 1990s fruity florals, pineapple became iconic in the early 2010s thanks to a major masculine success that countless brands later followed.",
+   "craft": "Almost always placed in the top, pineapple brings energy and brightness. It pairs with bergamot, apple, blackcurrant, birch, oakmoss and musks. Creed's Aventus combined it with smoky birch and moss, a pairing widely imitated; Calvin Klein's CK One weaves it into its citrus freshness, and Nishane's Hacivat sets it against a woody, mossy base. Used sparingly, it reads as juicy freshness rather than a fruit cocktail.",
+   "wear": "Pineapple suits spring and summer, day or night. It appeals to people who like fruity, energetic, assertive fragrances.",
+   "faq": [
+    {
+     "q": "Why is pineapple so common in men's fragrances?",
+     "a": "The success of Creed's Aventus, launched in 2010, popularised the pairing of pineapple with smoky, woody and mossy notes. That fruity yet rugged combination has been widely copied. Pineapple brings a bright, energetic opening that contrasts effectively with drier, darker bases."
+    },
+    {
+     "q": "How is pineapple recreated in perfume?",
+     "a": "With synthetic esters, chiefly allyl caproate, which gives a very recognisable pineapple smell, and ethyl butyrate for the juicy, sweet facet. The fruit itself cannot be extracted into a fragrant raw material, so the note is always an accord built by the perfumer."
+    },
+    {
+     "q": "Which perfumes contain pineapple?",
+     "a": "In our database, pineapple sits in the top of Lancôme's Trésor, Calvin Klein's CK One, Chanel's Chance, Creed's Aventus, Nishane's Hacivat and Coach Floral. Azzaro's Chrome uses it in the heart to reinforce its freshness. Its uses range from sparkling florals to smoky chypres."
+    }
+   ]
+  }
+ },
+ "Raspberry": {
+  "slug_fr": "framboise",
+  "slug_en": "raspberry",
+  "name_fr": "Framboise",
+  "name_en": "Raspberry",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à la framboise : odeur, accord et icônes",
+   "meta": "La framboise apporte aux parfums un fruit rouge acidulé, sucré et un peu poudré. Sa construction à base d'ionones, ses accords et les parfums qui l'osent.",
+   "h1": "La framboise, fruit rouge acidulé et poudré",
+   "intro": "La note de framboise est un accord de synthèse qui évoque le fruit rouge frais : sucré, acidulé, juteux et légèrement poudré. Elle apporte aux parfums une touche gourmande et vive, souvent associée à la rose ou au patchouli.",
+   "smell": "La framboise parfumée est d'abord juteuse et acidulée, puis révèle une facette poudrée proche de la violette, car les deux partagent certaines molécules. Elle peut évoquer le bonbon, la confiture ou le fruit cueilli selon le dosage. Sur la peau, elle éclaire les premières minutes d'un parfum puis se fond dans les fleurs et les bois ; sa facette violette et boisée persiste plus longtemps que son côté sucré.",
+   "origin": "La framboise ne donne pas d'essence exploitable. Son odeur est reconstituée à partir de la cétone de framboise, ou frambinone, aux accents sucrés de confiture, et des ionones, alpha et bêta, qui lui donnent son côté poudré et violet. On y ajoute souvent des esters fruités et des notes vertes. Les ionones, découvertes à la fin du XIXe siècle, sont aussi à l'origine des notes de violette : d'où la parenté olfactive entre ces deux notes.",
+   "craft": "Généralement en tête, la framboise apporte une couleur rouge et gourmande. Elle se marie à la rose, au cassis, au patchouli, au cuir et à la vanille. Portrait of a Lady de Frédéric Malle l'associe à une rose sombre et au patchouli ; Tuscan Leather de Tom Ford crée un contraste saisissant entre la framboise et le cuir, et Mon Paris d'Yves Saint Laurent l'associe à la fraise et à la poire pour un chypre fruité.",
+   "wear": "La framboise se porte toute l'année, surtout au printemps et à l'automne. Elle plaît à ceux qui aiment les parfums fruités, colorés et un peu gourmands.",
+   "faq": [
+    {
+     "q": "Pourquoi la framboise rappelle-t-elle la violette ?",
+     "a": "Parce que la framboise contient naturellement des ionones, les mêmes molécules qui donnent son odeur poudrée à la violette. En parfumerie, les deux notes sont donc construites avec des matériaux proches. C'est pourquoi un accord framboise peut sembler poudré, et un accord violette légèrement fruité."
+    },
+    {
+     "q": "Un parfum à la framboise est-il forcément sucré ?",
+     "a": "Non. Associée au cuir, au patchouli ou à l'encens, la framboise devient plus sombre et sophistiquée. Tuscan Leather de Tom Ford en est un bon exemple : le fruit rouge y adoucit un cuir fumé sans le rendre gourmand. Tout dépend du dosage et des notes qui l'entourent."
+    },
+    {
+     "q": "Quels parfums contiennent de la framboise ?",
+     "a": "Dans notre base, la framboise figure en tête de Mon Paris d'Yves Saint Laurent, de Lady Million de Paco Rabanne, de Portrait of a Lady de Frédéric Malle, de Her de Burberry, de Tuscan Leather de Tom Ford et d'Ombre Nomade de Louis Vuitton."
+    }
+   ]
+  },
+  "en": {
+   "title": "Raspberry Perfumes: Scent, Accord and Iconic Scents",
+   "meta": "Raspberry gives perfume a tangy, sweet, slightly powdery red fruit. How perfumers build it with ionones, its best pairings and the fragrances that dare it.",
+   "h1": "Raspberry: a tangy, powdery red fruit",
+   "intro": "Raspberry is a synthetic accord that evokes fresh red fruit: sweet, tangy, juicy and slightly powdery. It adds a lively, gourmand touch to fragrances and is often paired with rose or patchouli.",
+   "smell": "Perfumed raspberry is juicy and tart at first, then reveals a powdery facet close to violet, since the two share certain molecules. Depending on the dose it can suggest candy, jam or freshly picked fruit. On skin it brightens the first minutes of a fragrance before blending into flowers and woods; its violet, woody facet outlasts its sugary side. It adds instant colour.",
+   "origin": "Raspberry yields no usable essence. Its smell is rebuilt from raspberry ketone, or frambinone, with sweet jammy tones, and from alpha and beta ionones, which give the powdery, violet side. Fruity esters and green notes are often added. Ionones, discovered in the late nineteenth century, are also the basis of violet notes, which explains the olfactory kinship between the two notes in perfumery.",
+   "craft": "Usually in the top, raspberry adds a red, gourmand colour. It pairs with rose, blackcurrant, patchouli, leather and vanilla. Frédéric Malle's Portrait of a Lady sets it beside a dark rose and patchouli; Tom Ford's Tuscan Leather creates a striking contrast between raspberry and leather, and Yves Saint Laurent's Mon Paris pairs it with strawberry and pear in a fruity chypre.",
+   "wear": "Raspberry works all year, especially in spring and autumn. It appeals to people who like colourful, fruity, slightly gourmand fragrances.",
+   "faq": [
+    {
+     "q": "Why does raspberry smell a bit like violet?",
+     "a": "Because raspberries naturally contain ionones, the same molecules that give violet its powdery scent. In perfumery both notes are built with similar materials. That is why a raspberry accord can feel powdery, and a violet accord slightly fruity. The kinship is chemical, not accidental."
+    },
+    {
+     "q": "Is a raspberry perfume always sweet?",
+     "a": "No. Paired with leather, patchouli or incense, raspberry becomes darker and more sophisticated. Tom Ford's Tuscan Leather is a good example: the red fruit softens a smoky leather without making it gourmand. It all depends on the dose and the notes surrounding it."
+    },
+    {
+     "q": "Which perfumes contain raspberry?",
+     "a": "In our database, raspberry sits in the top of Yves Saint Laurent's Mon Paris, Paco Rabanne's Lady Million, Frédéric Malle's Portrait of a Lady, Burberry's Her, Tom Ford's Tuscan Leather and Louis Vuitton's Ombre Nomade, each with a different mood."
+    }
+   ]
+  }
+ },
+ "Rum": {
+  "slug_fr": "rhum",
+  "slug_en": "rum",
+  "name_fr": "Rhum",
+  "name_en": "Rum",
+  "category": "gourmand",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au rhum : odeur, accord et parfums boisés",
+   "meta": "Le rhum apporte aux parfums une chaleur boisée, sucrée et un peu alcoolisée, entre mélasse et fruits secs. Son accord, ses usages et ses parfums phares.",
+   "h1": "Le rhum, chaleur ambrée et spiritueuse",
+   "intro": "La note de rhum est un accord qui évoque l'alcool ambré vieilli en fût : sucré, boisé, légèrement épicé, avec une facette de mélasse et de fruits secs. Elle donne aux parfums une chaleur conviviale et un côté bar feutré.",
+   "smell": "Le rhum parfumé s'ouvre sur une impression éthylique chaude, presque piquante, puis révèle la mélasse, le sucre brun, la vanille, le bois de fût et les raisins secs. Il peut aussi avoir une facette fruitée de banane ou de prune. Sur la peau, l'effet alcoolisé s'estompe assez vite, laissant une chaleur ronde et boisée qui se fond dans la vanille, le tabac ou le santal.",
+   "origin": "Le rhum lui-même n'est pas une matière première de parfumerie. Les parfumeurs recréent son odeur avec des esters et des molécules à facette alcoolisée, comme le formiate ou le butyrate d'éthyle, associés à des notes vanillées, boisées et à des absolus comme l'essence de cognac ou le fénugrec pour la mélasse. Des extraits de rhum existent chez certains fournisseurs, mais la note reste avant tout une construction. Elle a gagné en popularité avec la vogue des parfums boozy des années 2010.",
+   "craft": "Présent en tête ou en cœur, le rhum apporte chaleur et convivialité. Il se marie au tabac, à la vanille, à la cannelle, au cuir, au café et aux fruits secs. Jazz Club de Maison Margiela l'associe au tabac et à la vanille pour évoquer un club enfumé ; Side Effect d'Initio l'entoure de cannelle et de safran, et Bitter Peach de Tom Ford le combine au cognac et à la pêche.",
+   "wear": "Le rhum se porte en automne et en hiver, surtout le soir. Il plaît aux amateurs de parfums chaleureux, gourmands et un peu audacieux.",
+   "faq": [
+    {
+     "q": "Un parfum au rhum sent-il l'alcool ?",
+     "a": "Légèrement, surtout en ouverture. L'accord évoque la chaleur ambrée d'un rhum vieilli plutôt que l'alcool pur : mélasse, sucre brun, bois de fût, vanille. Sur la peau, l'impression éthylique s'estompe rapidement pour laisser une chaleur douce et boisée. On parle souvent de parfums boozy pour ce style."
+    },
+    {
+     "q": "Comment recrée-t-on l'odeur du rhum en parfumerie ?",
+     "a": "Par un accord : esters fruités et alcoolisés, vanilline, notes boisées et parfois des matières comme l'essence de cognac ou le fénugrec pour la facette mélasse. Quelques fournisseurs proposent des extraits de rhum, mais la plupart des notes de rhum des parfums sont des reconstructions."
+    },
+    {
+     "q": "Quels parfums contiennent une note de rhum ?",
+     "a": "Dans notre base, le rhum figure en cœur de Replica Jazz Club de Maison Margiela et de Bitter Peach de Tom Ford, et en tête de Side Effect d'Initio Parfums Privés et de Devotion de Dolce & Gabbana, qui l'associe à l'orange confite et à la vanille."
+    }
+   ]
+  },
+  "en": {
+   "title": "Rum Perfumes: Scent, Accord and Boozy Fragrances",
+   "meta": "Rum brings a woody, sweet, slightly boozy warmth to perfume, between molasses and dried fruit. Learn how the accord is built and the fragrances using it.",
+   "h1": "Rum: ambery, boozy warmth",
+   "intro": "Rum is an accord that evokes a cask-aged amber spirit: sweet, woody and lightly spiced, with a facet of molasses and dried fruit. It gives fragrances a convivial warmth and the mood of a dimly lit bar.",
+   "smell": "Perfumed rum opens with a warm, almost prickly boozy impression, then reveals molasses, brown sugar, vanilla, barrel wood and raisins. It can also carry a fruity banana or plum facet. On skin the alcoholic effect fades fairly quickly, leaving a round, woody warmth that melts into vanilla, tobacco or sandalwood. The result feels festive and intimate at the same time.",
+   "origin": "Rum itself is not a perfumery raw material. Perfumers recreate its smell with esters and molecules with a spirit-like facet, such as ethyl formate or ethyl butyrate, combined with vanilla and woody notes and materials such as cognac oil or fenugreek for molasses. Some suppliers offer rum extracts, but the note remains primarily a construction. It grew popular with the fashion for boozy fragrances in the 2010s.",
+   "craft": "Found in the top or heart, rum brings warmth and conviviality. It pairs with tobacco, vanilla, cinnamon, leather, coffee and dried fruit. Maison Margiela's Jazz Club combines it with tobacco and vanilla to evoke a smoky club; Initio's Side Effect surrounds it with cinnamon and saffron, and Tom Ford's Bitter Peach pairs it with cognac and peach. A little goes a long way: the note is warming and very recognisable.",
+   "wear": "Rum is an autumn and winter note, best in the evening. It appeals to fans of warm, gourmand, slightly daring fragrances.",
+   "faq": [
+    {
+     "q": "Does a rum perfume smell like alcohol?",
+     "a": "Slightly, mostly in the opening. The accord evokes the ambery warmth of aged rum rather than pure alcohol: molasses, brown sugar, barrel wood and vanilla. On skin the boozy impression fades quickly into a soft, woody warmth. This style is often described as boozy."
+    },
+    {
+     "q": "How do perfumers recreate the smell of rum?",
+     "a": "Through an accord of fruity, spirit-like esters, vanillin, woody notes and sometimes materials such as cognac oil or fenugreek for the molasses facet. A few suppliers offer rum extracts, but most rum notes in perfume are reconstructions rather than a distillate of the drink."
+    },
+    {
+     "q": "Which perfumes feature rum?",
+     "a": "In our database, rum sits in the heart of Maison Margiela's Replica Jazz Club and Tom Ford's Bitter Peach, and in the top of Initio's Side Effect and Dolce & Gabbana's Devotion, which pairs it with candied orange and vanilla."
+    }
+   ]
+  }
+ },
+ "Star Anise": {
+  "slug_fr": "anis-etoile",
+  "slug_en": "star-anise",
+  "name_fr": "Anis étoilé",
+  "name_en": "Star Anise",
+  "category": "spicy",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à l'anis étoilé : odeur, badiane et parfums",
+   "meta": "L'anis étoilé, ou badiane, apporte aux parfums une épice douce, réglissée et fraîche. Son odeur, son origine en Chine et au Vietnam, et ses parfums phares.",
+   "h1": "L'anis étoilé, épice réglissée et lumineuse",
+   "intro": "L'anis étoilé, ou badiane, est le fruit en forme d'étoile d'un arbre d'Asie. Il sent la réglisse, l'anis et le fenouil, avec une douceur fraîche et légèrement épicée qui apporte aux parfums une touche originale et lumineuse.",
+   "smell": "L'anis étoilé offre une odeur franche de réglisse et d'anis, à la fois douce et fraîche, presque sucrée. On y perçoit une facette épicée, légèrement boisée, et une rondeur qui évoque le pastis ou les bonbons anisés. Sur la peau, il apporte d'abord une vivacité aromatique, puis se fond dans les fleurs, les bois et la vanille, où il laisse une nuance réglissée discrète.",
+   "origin": "La badiane, Illicium verum, est un arbre originaire du sud de la Chine et du nord du Vietnam, principaux producteurs. On distille à la vapeur ses fruits séchés en forme d'étoile. L'huile essentielle est très riche en anéthol, la même molécule qui domine l'odeur de l'anis vert et du fenouil. Utilisée depuis longtemps en cuisine et en liqueur, elle apporte en parfumerie une facette anisée plus ronde que l'anis vert.",
+   "craft": "L'anis étoilé se place en tête ou en cœur, où il apporte fraîcheur et originalité. Il se marie à la fleur d'oranger, au magnolia, à la rose, à la fève tonka, au cuir et au tabac. L'Instant de Guerlain l'associe à la bergamote et au magnolia ; Code de Giorgio Armani l'intègre à un cœur de fleur d'olivier avant un fond de tonka, de cuir et de tabac, et Very Irrésistible de Givenchy l'utilise pour dynamiser une rose.",
+   "wear": "L'anis étoilé se porte toute l'année, notamment en automne. Il plaît à ceux qui recherchent des parfums originaux, aromatiques et légèrement gourmands.",
+   "faq": [
+    {
+     "q": "Quelle différence entre anis étoilé et anis vert ?",
+     "a": "Ce sont deux plantes différentes qui partagent la même molécule odorante principale, l'anéthol. L'anis vert est une graine d'ombellifère méditerranéenne ; l'anis étoilé, ou badiane, est le fruit d'un arbre asiatique. En parfumerie, la badiane est souvent perçue comme plus ronde, plus épicée et plus boisée."
+    },
+    {
+     "q": "Pourquoi l'anis étoilé sent-il la réglisse ?",
+     "a": "Parce que son huile essentielle est composée en grande partie d'anéthol, une molécule dont l'odeur rappelle la réglisse et l'anis. Elle est également présente dans le fenouil. En parfum, elle apporte une douceur fraîche qui se marie bien aux fleurs blanches, à la vanille et aux notes cuirées."
+    },
+    {
+     "q": "Quels parfums contiennent de l'anis étoilé ?",
+     "a": "Dans notre base, l'anis étoilé figure en tête de Very Irrésistible de Givenchy et de L'Instant de Guerlain, et en cœur de Code de Giorgio Armani et de Clementine California d'Atelier Cologne, où il accompagne le basilic et le poivre."
+    }
+   ]
+  },
+  "en": {
+   "title": "Star Anise Perfumes: Scent, Origin and Fragrances",
+   "meta": "Star anise brings a soft, liquorice-like, fresh spice to perfume. Discover how it smells, its origin in China and Vietnam, and the fragrances featuring it.",
+   "h1": "Star anise: a bright, liquorice-tinged spice",
+   "intro": "Star anise is the star-shaped fruit of an Asian tree. It smells of liquorice, aniseed and fennel, with a fresh, gently spicy sweetness that gives fragrances an original, luminous touch.",
+   "smell": "Star anise has a frank liquorice and aniseed smell, both soft and fresh, almost sugary. There is a spicy, slightly woody facet and a roundness reminiscent of pastis or aniseed sweets. On skin it first adds aromatic liveliness, then melts into flowers, woods and vanilla, leaving a discreet liquorice nuance that lingers in the background. Its effect is both comforting and slightly unexpected, a spice that feels bright rather than hot.",
+   "origin": "Star anise, Illicium verum, is a tree native to southern China and northern Vietnam, which remain the main producers. Its dried star-shaped fruits are steam-distilled. The essential oil is very rich in anethole, the same molecule that dominates the smell of green anise and fennel. Long used in cooking and liqueurs, it gives perfumery an anisic facet that feels rounder than green anise.",
+   "craft": "Star anise sits in the top or heart, where it brings freshness and originality. It pairs with orange blossom, magnolia, rose, tonka bean, leather and tobacco. Guerlain's L'Instant de Guerlain combines it with bergamot and magnolia; Giorgio Armani's Code weaves it into an olive blossom heart before a tonka, leather and tobacco base, and Givenchy's Very Irrésistible uses it to energise a rose.",
+   "wear": "Star anise works year round, particularly in autumn. It appeals to people looking for original, aromatic, slightly gourmand fragrances.",
+   "faq": [
+    {
+     "q": "What is the difference between star anise and anise?",
+     "a": "They are two different plants that share the same main odorant molecule, anethole. Green anise is the seed of a Mediterranean umbellifer; star anise is the fruit of an Asian tree. In perfumery, star anise is often perceived as rounder, spicier and woodier than green anise."
+    },
+    {
+     "q": "Why does star anise smell like liquorice?",
+     "a": "Because its essential oil consists largely of anethole, a molecule whose smell recalls liquorice and aniseed. It is also found in fennel. In perfume it brings a fresh sweetness that pairs beautifully with white flowers, vanilla and leathery notes. A small dose goes a long way."
+    },
+    {
+     "q": "Which perfumes contain star anise?",
+     "a": "In our database, star anise sits in the top of Givenchy's Very Irrésistible and Guerlain's L'Instant de Guerlain, and in the heart of Giorgio Armani's Code and Atelier Cologne's Clementine California, where it accompanies basil and pepper. It is a discreet but distinctive signature."
+    }
+   ]
+  }
+ },
+ "Tobacco": {
+  "slug_fr": "tabac",
+  "slug_en": "tobacco",
+  "name_fr": "Tabac",
+  "name_en": "Tobacco",
+  "category": "woody",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au tabac : odeur, absolu et grands classiques",
+   "meta": "Le tabac en parfum sent la feuille séchée, le miel, le foin et les fruits secs, pas la cendre. Son absolu, ses accords et les parfums qui le subliment.",
+   "h1": "Le tabac, feuille blonde, miel et fruits secs",
+   "intro": "En parfumerie, la note de tabac évoque la feuille séchée et non la fumée de cigarette. Elle sent le miel, le foin, les fruits secs et le bois, avec une chaleur douce et enveloppante très appréciée dans les parfums d'hiver.",
+   "smell": "Le tabac parfumé est chaud, miellé et légèrement fumé, avec des facettes de foin coupé, de pruneau, de figue sèche, de cacao et parfois de cuir. Il rappelle davantage une cave à cigares ou un paquet de tabac à rouler que la cendre. Sur la peau, il évolue lentement : ses notes sucrées s'affirment, puis se fondent dans la vanille, les bois et les résines pour un fond rond et tenace.",
+   "origin": "La note peut provenir de l'absolu de tabac, obtenu par extraction aux solvants des feuilles séchées et fermentées de Nicotiana tabacum. Mais elle est souvent reconstituée ou renforcée par un accord : coumarine, pour le foin, notes miellées, fruits secs, bois et molécules spécifiques. Le tabac est présent en parfumerie depuis le début du XXe siècle, notamment dans des classiques à l'accord cuir-tabac, destinés à évoquer la cigarette élégante des années folles.",
+   "craft": "Le tabac se place plutôt en cœur ou en fond. Il se marie à la vanille, au miel, au cacao, au cuir, au rhum, aux épices et aux fruits secs. Tobacco Vanille de Tom Ford l'associe à la vanille, au cacao et aux fruits secs ; Replica Jazz Club de Maison Margiela le marie au rhum, et Spicebomb de Viktor & Rolf le place en fond sous la cannelle et le safran.",
+   "wear": "Le tabac se porte en automne et en hiver, surtout le soir. Il plaît aux amateurs de parfums chauds, confortables et sophistiqués, quel que soit le genre.",
+   "faq": [
+    {
+     "q": "Un parfum au tabac sent-il la cigarette ?",
+     "a": "Non. La note de tabac évoque la feuille séchée : miel, foin, fruits secs, bois, parfois cuir. Elle rappelle une cave à cigares ou un paquet de tabac blond, pas la cendre ni la fumée froide. C'est une note chaude, douce et plutôt réconfortante."
+    },
+    {
+     "q": "Comment obtient-on la note de tabac en parfumerie ?",
+     "a": "Par un absolu extrait des feuilles séchées de tabac aux solvants, ou par un accord recréé. Celui-ci associe généralement la coumarine, au parfum de foin, à des notes miellées, fruitées et boisées. De nombreux parfums combinent les deux approches pour obtenir une note plus riche."
+    },
+    {
+     "q": "Quels parfums contiennent du tabac ?",
+     "a": "Dans notre base, le tabac figure notamment dans Tobacco Vanille et Tobacco Oud de Tom Ford, Replica Jazz Club de Maison Margiela, Spicebomb de Viktor & Rolf, Code de Giorgio Armani, Polo de Ralph Lauren et Side Effect d'Initio Parfums Privés."
+    }
+   ]
+  },
+  "en": {
+   "title": "Tobacco Perfumes: Scent, Absolute and Great Classics",
+   "meta": "Tobacco in perfume smells of dried leaf, honey, hay and dried fruit, not ash. Learn about tobacco absolute, its classic accords and the scents built on it.",
+   "h1": "Tobacco: golden leaf, honey and dried fruit",
+   "intro": "In perfumery, tobacco evokes the dried leaf, not cigarette smoke. It smells of honey, hay, dried fruit and wood, with a soft, enveloping warmth that makes it a favourite in winter fragrances.",
+   "smell": "Perfumed tobacco is warm, honeyed and lightly smoky, with facets of cut hay, prune, dried fig, cocoa and sometimes leather. It recalls a cigar humidor or a pouch of rolling tobacco far more than an ashtray. On skin it evolves slowly: its sweet notes grow stronger, then blend into vanilla, woods and resins for a round, tenacious base that lasts well into the evening.",
+   "origin": "The note can come from tobacco absolute, obtained by solvent extraction of the dried, cured leaves of Nicotiana tabacum. More often it is rebuilt or reinforced with an accord: coumarin for hay, honeyed notes, dried fruit, woods and specialised molecules. Tobacco has featured in perfumery since the early twentieth century, notably in leather-tobacco classics designed to evoke the elegant cigarette of the interwar years.",
+   "craft": "Tobacco usually sits in the heart or base. It pairs with vanilla, honey, cocoa, leather, rum, spices and dried fruit. Tom Ford's Tobacco Vanille combines it with vanilla, cocoa and dried fruit; Maison Margiela's Replica Jazz Club marries it to rum, and Viktor & Rolf's Spicebomb places it in the base beneath cinnamon and saffron. A touch of tobacco adds depth and a cosy, lived-in character to any composition.",
+   "wear": "Tobacco suits autumn and winter, especially evenings. It appeals to lovers of warm, cosy, sophisticated fragrances, regardless of gender.",
+   "faq": [
+    {
+     "q": "Does a tobacco perfume smell like cigarettes?",
+     "a": "No. The tobacco note evokes the dried leaf: honey, hay, dried fruit, wood and sometimes leather. It recalls a cigar humidor or a pouch of blond tobacco, not ash or stale smoke. It is a warm, soft and rather comforting note that many people find cosy."
+    },
+    {
+     "q": "How is the tobacco note made in perfumery?",
+     "a": "Either from an absolute solvent-extracted from dried tobacco leaves, or from a recreated accord. The accord typically combines coumarin, with its hay-like smell, with honeyed, fruity and woody notes. Many fragrances blend both approaches for a richer result. The absolute itself is used in small doses."
+    },
+    {
+     "q": "Which perfumes contain tobacco?",
+     "a": "In our database, tobacco appears in Tom Ford's Tobacco Vanille and Tobacco Oud, Maison Margiela's Replica Jazz Club, Viktor & Rolf's Spicebomb, Giorgio Armani's Code, Ralph Lauren's Polo and Initio's Side Effect. Each explores a different facet, from gourmand to leathery and spicy."
+    }
+   ]
+  }
+ },
+ "Vetiver": {
+  "slug_fr": "vetiver",
+  "slug_en": "vetiver",
+  "name_fr": "Vétiver",
+  "name_en": "Vetiver",
+  "category": "woody",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au vétiver : odeur, origine et grands parfums",
+   "meta": "Le vétiver sent la racine terreuse, le bois fumé et le pamplemousse. Son odeur, sa distillation en Haïti, à Java et à La Réunion, et ses parfums phares.",
+   "h1": "Le vétiver, la racine qui sent le bois",
+   "intro": "Le vétiver est une graminée tropicale dont on distille les racines pour obtenir une essence boisée, terreuse et légèrement fumée. Il sent la terre humide, le bois sec, la noisette et parfois le pamplemousse, et apporte aux parfums une élégance sobre et profonde.",
+   "smell": "Le vétiver est une matière aux multiples facettes : terreux et humide comme une racine fraîchement arrachée, boisé et sec, fumé, avec une note de noisette grillée et une fraîcheur verte proche du pamplemousse. Selon l'origine, il est plus propre et lumineux ou plus sombre et fumé. Sur la peau, il est très tenace ; il s'arrondit au fil des heures pour laisser un fond boisé, net et raffiné.",
+   "origin": "Le vétiver, Chrysopogon zizanioides, est une graminée originaire d'Inde dont les racines profondes sont séchées puis distillées à la vapeur. Haïti est aujourd'hui le premier producteur, avec un vétiver propre et lumineux ; Java donne une qualité plus fumée, et La Réunion un vétiver Bourbon historiquement très réputé. On en tire aussi l'acétate de vétivéryle, plus doux. Présent dans de nombreux classiques, il est devenu un pilier de la parfumerie masculine et boisée.",
+   "craft": "Surtout placé en fond, le vétiver structure et sèche une composition. Il se marie aux agrumes, au cèdre, à l'iris, au poivre, au patchouli et à la mousse de chêne. Terre d'Hermès l'associe à l'orange et au cèdre pour un boisé minéral ; Eau Sauvage de Dior le place sous une fraîcheur hespéridée, et Chanel N°5 l'utilise discrètement en fond aux côtés du santal et de la vanille.",
+   "wear": "Le vétiver se porte toute l'année, au bureau comme le soir. Il plaît aux amateurs de parfums élégants, boisés et naturels, sans excès de sucre.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le vétiver ?",
+     "a": "Il sent la racine terreuse, le bois sec et fumé, avec des nuances de noisette grillée et une fraîcheur verte proche du pamplemousse. C'est une odeur à la fois naturelle et raffinée. Selon son origine, il peut être plus lumineux, comme celui d'Haïti, ou plus sombre et fumé, comme celui de Java."
+    },
+    {
+     "q": "Le vétiver est-il réservé aux parfums masculins ?",
+     "a": "Non. Il est très présent dans les parfums masculins, mais on le trouve aussi dans le fond de nombreux féminins, comme Chanel N°5, Coco Mademoiselle de Chanel ou Mitsouko de Guerlain. Il y apporte de la tenue, de la sécheresse et une élégance boisée qui équilibre les fleurs."
+    },
+    {
+     "q": "D'où vient le vétiver utilisé en parfumerie ?",
+     "a": "Haïti est le premier producteur mondial de vétiver pour la parfumerie. Java, en Indonésie, donne une qualité plus fumée, et La Réunion produit le vétiver Bourbon, historiquement très réputé mais aujourd'hui rare. L'Inde, berceau de la plante, produit aussi un vétiver appelé khus, plus sombre et terreux."
+    }
+   ]
+  },
+  "en": {
+   "title": "Vetiver Perfumes: Scent, Origin and Great Fragrances",
+   "meta": "Vetiver smells of earthy roots, smoky wood and grapefruit. Discover how it smells, how it's distilled in Haiti, Java and Réunion, and the scents using it.",
+   "h1": "Vetiver, the root that smells of wood",
+   "intro": "Vetiver is a tropical grass whose roots are distilled into a woody, earthy, slightly smoky essence. It smells of damp soil, dry wood, hazelnut and sometimes grapefruit, giving fragrances a sober, deep elegance.",
+   "smell": "Vetiver is a many-faceted material: earthy and damp like a freshly pulled root, woody and dry, smoky, with a roasted-hazelnut note and a green freshness close to grapefruit. Depending on the origin it is cleaner and brighter or darker and smokier. On skin it is highly tenacious, rounding out over the hours into a clean, refined woody base that stays close yet persistent.",
+   "origin": "Vetiver, Chrysopogon zizanioides, is a grass native to India whose deep roots are dried and then steam-distilled. Haiti is now the leading producer, with a clean, bright vetiver; Java gives a smokier grade, and Réunion a historically prized Bourbon vetiver. Vetiveryl acetate, a softer derivative, is also made from it. Present in many classics, vetiver has become a pillar of masculine and woody perfumery.",
+   "craft": "Mostly placed in the base, vetiver structures and dries a composition. It pairs with citrus, cedar, iris, pepper, patchouli and oakmoss. Terre d'Hermès combines it with orange and cedar for a mineral woodiness; Dior's Eau Sauvage sets it beneath a citrus freshness, and Chanel N°5 uses it discreetly in the base beside sandalwood and vanilla. It is one of the most versatile base notes, as comfortable in fresh colognes as in dark chypres.",
+   "wear": "Vetiver works all year round, at the office or at night. It appeals to lovers of elegant, woody, natural-feeling fragrances without excess sweetness.",
+   "faq": [
+    {
+     "q": "What does vetiver smell like?",
+     "a": "It smells of earthy roots and dry, smoky wood, with nuances of roasted hazelnut and a green freshness close to grapefruit. It is at once natural and refined. Depending on origin it can be brighter, like Haitian vetiver, or darker and smokier, like vetiver from Java."
+    },
+    {
+     "q": "Is vetiver only for men's fragrances?",
+     "a": "No. It is very common in men's perfumes, but it also sits in the base of many feminine fragrances, such as Chanel N°5, Chanel's Coco Mademoiselle and Guerlain's Mitsouko. There it adds longevity, dryness and a woody elegance that balances the flowers."
+    },
+    {
+     "q": "Where does perfumery vetiver come from?",
+     "a": "Haiti is the world's leading producer of vetiver for perfumery. Java in Indonesia gives a smokier quality, and Réunion produces Bourbon vetiver, historically prized but now rare. India, the plant's homeland, also produces a darker, earthier vetiver known as khus."
+    }
+   ]
+  }
+ },
+ "Ylang-Ylang": {
+  "slug_fr": "ylang-ylang",
+  "slug_en": "ylang-ylang",
+  "name_fr": "Ylang-ylang",
+  "name_en": "Ylang-Ylang",
+  "category": "floral",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à l'ylang-ylang : odeur, origine et icônes",
+   "meta": "L'ylang-ylang sent la fleur solaire, crémeuse et fruitée, entre jasmin, banane et crème anglaise. Son origine aux Comores et ses grands parfums phares.",
+   "h1": "L'ylang-ylang, fleur solaire et crémeuse",
+   "intro": "L'ylang-ylang est une fleur tropicale dont on distille les pétales pour obtenir une essence florale, crémeuse et légèrement fruitée. Elle sent la fleur jaune gorgée de soleil, entre jasmin, banane mûre et crème vanillée, et apporte aux parfums une sensualité lumineuse.",
+   "smell": "L'ylang-ylang est riche et solaire : florale et épicée, avec des facettes de jasmin, de banane, de crème anglaise et parfois une touche médicinale ou de peau. Les premières fractions de distillation sont plus fraîches et éclatantes, les dernières plus lourdes et boisées. Sur la peau, la fleur s'épanouit en douceur, crémeuse et ronde, puis se fond dans la vanille, le santal et les muscs pour une chaleur sensuelle.",
+   "origin": "L'ylang-ylang provient de Cananga odorata, arbre originaire d'Asie du Sud-Est, cultivé aujourd'hui surtout aux Comores, à Mayotte et à Madagascar, notamment à Nosy Be. Les fleurs, cueillies tôt le matin, sont distillées à la vapeur de façon fractionnée : on obtient successivement les qualités extra, I, II et III, ou une essence complète. Présent dans de nombreux floraux classiques, il est l'une des grandes fleurs de la parfumerie française.",
+   "craft": "Placé en tête ou en cœur, l'ylang-ylang apporte rondeur, éclat solaire et sensualité. Il se marie au jasmin, à la tubéreuse, à la rose, au néroli, à la vanille et au santal. Chanel N°5 l'utilise en tête pour arrondir ses aldéhydes ; Joy de Patou l'intègre à son bouquet floral opulent, et Carnal Flower de Frédéric Malle l'associe à la tubéreuse pour souligner sa facette crémeuse.",
+   "wear": "L'ylang-ylang se porte au printemps et en été, et le soir en toute saison. Il plaît à ceux qui aiment les floraux sensuels, solaires et généreux.",
+   "faq": [
+    {
+     "q": "Quelle odeur a l'ylang-ylang ?",
+     "a": "Il sent la fleur jaune tropicale : riche, crémeuse, légèrement fruitée, avec des nuances de jasmin, de banane mûre et de crème vanillée. Certaines qualités ont une facette épicée ou médicinale. C'est une odeur solaire et sensuelle, souvent décrite comme exotique, qui apporte rondeur et chaleur aux bouquets floraux."
+    },
+    {
+     "q": "Que signifient ylang-ylang extra, I, II et III ?",
+     "a": "Ce sont les fractions successives d'une même distillation. L'extra, recueillie en premier, est la plus fraîche, florale et raffinée, utilisée en parfumerie fine. Les fractions suivantes sont plus lourdes et boisées. L'ylang-ylang dit complète correspond à une distillation sans fractionnement."
+    },
+    {
+     "q": "Quels parfums contiennent de l'ylang-ylang ?",
+     "a": "Dans notre base, l'ylang-ylang figure en tête de Chanel N°5 et de Joy de Patou, et en cœur de Mitsouko de Guerlain, Youth Dew d'Estée Lauder, Black Orchid de Tom Ford, L'Instant de Guerlain et Carnal Flower de Frédéric Malle."
+    }
+   ]
+  },
+  "en": {
+   "title": "Ylang-Ylang Perfumes: Scent, Origin and Icons",
+   "meta": "Ylang-ylang smells of a sunny, creamy, fruity flower, between jasmine, banana and custard. Learn about its origin in the Comoros and its iconic perfumes.",
+   "h1": "Ylang-ylang, the sunny, creamy flower",
+   "intro": "Ylang-ylang is a tropical flower whose petals are distilled into a floral, creamy, slightly fruity essence. It smells of a sun-soaked yellow bloom, somewhere between jasmine, ripe banana and vanilla custard, and gives fragrances a luminous sensuality.",
+   "smell": "Ylang-ylang is rich and solar: floral and spicy, with facets of jasmine, banana, custard and sometimes a medicinal or skin-like touch. The first distillation fractions are fresher and more radiant, the last heavier and woodier. On skin the flower unfolds gently, creamy and round, then melts into vanilla, sandalwood and musks for a sensual warmth that lingers softly. A little goes a long way.",
+   "origin": "Ylang-ylang comes from Cananga odorata, a tree native to Southeast Asia and now grown mainly in the Comoros, Mayotte and Madagascar, especially on Nosy Be. The flowers, picked early in the morning, undergo fractional steam distillation, yielding successive grades known as extra, I, II and III, or a complete oil. Present in many classic florals, it is one of the great flowers of French perfumery.",
+   "craft": "Placed in the top or heart, ylang-ylang brings roundness, solar radiance and sensuality. It pairs with jasmine, tuberose, rose, neroli, vanilla and sandalwood. Chanel N°5 uses it in the top to round out its aldehydes; Patou's Joy weaves it into an opulent floral bouquet, and Frédéric Malle's Carnal Flower pairs it with tuberose to underline its creamy facet. Used in excess, it can feel heady.",
+   "wear": "Ylang-ylang suits spring and summer, and evenings in any season. It appeals to people who love sensual, sunny, generous florals.",
+   "faq": [
+    {
+     "q": "What does ylang-ylang smell like?",
+     "a": "It smells like a tropical yellow flower: rich, creamy and slightly fruity, with nuances of jasmine, ripe banana and vanilla custard. Some grades have a spicy or medicinal facet. It is a sunny, sensual scent often described as exotic, bringing roundness and warmth to floral bouquets."
+    },
+    {
+     "q": "What do ylang-ylang extra, I, II and III mean?",
+     "a": "They are successive fractions of the same distillation. Extra, collected first, is the freshest, most floral and refined, and is favoured in fine fragrance. The following fractions are heavier and woodier. Ylang-ylang complete corresponds to a distillation run without fractionation."
+    },
+    {
+     "q": "Which perfumes contain ylang-ylang?",
+     "a": "In our database, ylang-ylang sits in the top of Chanel N°5 and Patou's Joy, and in the heart of Guerlain's Mitsouko, Estée Lauder's Youth Dew, Tom Ford's Black Orchid, Guerlain's L'Instant de Guerlain and Frédéric Malle's Carnal Flower. It is a classic building block."
+    }
+   ]
+  }
+ }
+}

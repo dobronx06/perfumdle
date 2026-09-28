@@ -1,0 +1,11 @@
+---
+import CollectionView from '../../../views/CollectionView.astro';
+import { brands, brandPage } from '../../../lib/pages';
+
+export function getStaticPaths() {
+  return brands.map((b) => ({ params: { slug: b.slug }, props: { b } }));
+}
+const props = brandPage(Astro.props.b, 'fr');
+---
+
+<CollectionView {...props} />

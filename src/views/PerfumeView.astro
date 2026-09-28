@@ -1,0 +1,242 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import {
+  url, perfumeEditorial, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName,
+  similarPerfumes, tintFor, hasFamilyPage, GENDER_LABEL, SEASON_LABEL, OCCASION_LABEL, type Perfume, type Faq as FaqT,
+} from '../lib/catalog';
+import { breadcrumbLd, faqLd, compact } from '../lib/seo';
+import { isPublished } from '../lib/schedule';
+
+interface Props { p: Perfume; locale: Locale }
+const { p, locale: l } = Astro.props;
+const fr = l === 'fr';
+const ed = perfumeEditorial(p.slug);
+const txt = ed?.[l];
+const brand = brandByName.get(p.brand)!;
+const sameHouse = brand.perfumes.filter((o) => o.slug !== p.slug).slice(0, 8);
+const similar = similarPerfumes(p, 8);
+const list = (xs: string[]) => {
+  const names = xs.map((n) => noteName(n, l));
+  if (names.length < 2) return names.join('');
+  return `${names.slice(0, -1).join(', ')} ${fr ? 'et' : 'and'} ${names.at(-1)}`;
+};
+const lc = (s: string) => (fr ? s.toLowerCase() : s);
+const gender = GENDER_LABEL[l][p.gender];
+const decade = decadeOf(p.year);
+const hasSimilarPage = isPublished('similar', p.slug);
+
+const tiers = [
+  { key: 'top', title: fr ? 'Notes de tête' : 'Top notes', hint: fr ? 'Les premières minutes' : 'The first minutes', notes: p.notes.top },
+  { key: 'heart', title: fr ? 'Notes de cœur' : 'Heart notes', hint: fr ? 'Le caractère, pendant des heures' : 'The character, for hours', notes: p.notes.heart },
+  { key: 'base', title: fr ? 'Notes de fond' : 'Base notes', hint: fr ? 'Le sillage qui reste' : 'The lingering trail', notes: p.notes.base },
+];
+
+/* ---------- SEO ---------- */
+const longTitle = fr ? `${p.name} de ${p.brand} : notes, avis et odeur` : `${p.name} by ${p.brand}: notes, review & smell`;
+const title = longTitle.length <= 65 ? longTitle : fr ? `${p.name} (${p.brand}) : notes et avis` : `${p.name} (${p.brand}): notes & review`;
+const topThree = allNotes(p).slice(0, 3).map((n) => lc(noteName(n, l)));
+const rawDescription = fr
+  ? `${p.name} (${p.brand}, ${p.year}) : pyramide olfactive (${topThree.join(', ')}…), avis, tenue, saisons idéales et parfums qui lui ressemblent.`
+  : `${p.name} (${p.brand}, ${p.year}): notes pyramid (${topThree.join(', ')}…), review, longevity, best seasons and perfumes that smell similar.`;
+const description = rawDescription.length <= 160 ? rawDescription : fr
+  ? `${p.name} (${p.brand}, ${p.year}) : notes (${topThree.join(', ')}…), avis, saisons et parfums similaires.`
+  : `${p.name} (${p.brand}, ${p.year}): notes (${topThree.join(', ')}…), review, seasons and similar perfumes.`;
+
+const crumbs = [
+  { name: fr ? 'Accueil' : 'Home', href: url.home(l) },
+  { name: fr ? 'Maisons' : 'Houses', href: url.brands(l) },
+  { name: p.brand, href: url.brand(l, p.brand) },
+  { name: p.name },
+];
+
+const faqs: FaqT[] = compact([
+  {
+    q: fr ? `Quelles sont les notes de ${p.name} ?` : `What are the notes of ${p.name}?`,
+    a: fr
+      ? `${p.name} de ${p.brand} s'ouvre sur ${lc(list(p.notes.top))}. Son cœur associe ${lc(list(p.notes.heart))}, avant un fond de ${lc(list(p.notes.base))}.`
+      : `${p.name} by ${p.brand} opens with ${list(p.notes.top)}. Its heart combines ${list(p.notes.heart)}, over a base of ${list(p.notes.base)}.`,
+  },
+  {
+    q: fr ? `${p.name} est-il un parfum pour homme ou pour femme ?` : `Is ${p.name} for men or women?`,
+    a: fr
+      ? `${p.brand} présente ${p.name} comme un parfum ${p.gender === 'Unisex' ? 'mixte, pensé pour être porté par tous' : lc(gender)}. Rien n'empêche de le porter autrement : la parfumerie contemporaine brouille volontiers ces frontières.`
+      : `${p.brand} presents ${p.name} as ${p.gender === 'Unisex' ? 'a unisex fragrance meant for everyone' : `a ${lc(gender)} fragrance`}. Nothing stops anyone from wearing it: modern perfumery happily blurs these lines.`,
+  },
+  {
+    q: fr ? `Quand ${p.name} est-il sorti ?` : `When was ${p.name} released?`,
+    a: fr
+      ? `${p.name} a été lancé en ${p.year} par ${p.brand}${ed?.perfumer ? `, sur une composition de ${ed.perfumer}` : ''}. Il est proposé en ${p.concentration}.`
+      : `${p.name} was launched in ${p.year} by ${p.brand}${ed?.perfumer ? `, composed by ${ed.perfumer}` : ''}. It comes as an ${p.concentration}.`,
+  },
+  ed?.seasons?.length
+    ? {
+        q: fr ? `En quelle saison porter ${p.name} ?` : `When should you wear ${p.name}?`,
+        a: `${fr ? 'Idéalement en' : 'Ideally in'} ${ed.seasons.map((s) => lc(SEASON_LABEL[l][s as keyof typeof SEASON_LABEL.fr])).join(fr ? ' et ' : ' and ')}. ${txt?.wear ?? ''}`.trim(),
+      }
+    : null,
+  {
+    q: fr ? `Quels parfums ressemblent à ${p.name} ?` : `Which perfumes smell like ${p.name}?`,
+    a: fr
+      ? `D'après leurs notes communes, les plus proches sont ${similar.slice(0, 3).map((s) => `${s.perfume.name} (${s.perfume.brand})`).join(', ')}.`
+      : `Based on shared notes, the closest are ${similar.slice(0, 3).map((s) => `${s.perfume.name} (${s.perfume.brand})`).join(', ')}.`,
+  },
+]);
+
+const jsonLd = compact([
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: `${p.name} ${p.brand}`,
+    brand: { '@type': 'Brand', name: p.brand },
+    category: fr ? 'Parfum' : 'Perfume',
+    ...(p.image ? { image: `https://perfumdle.com${p.image}` } : {}),
+    description: txt?.tagline ?? description,
+    releaseDate: String(p.year),
+    additionalProperty: [
+      { '@type': 'PropertyValue', name: fr ? 'Famille olfactive' : 'Olfactory family', value: familyLabel(p.family, l) },
+      { '@type': 'PropertyValue', name: 'Concentration', value: p.concentration },
+      ...(ed?.perfumer ? [{ '@type': 'PropertyValue', name: fr ? 'Parfumeur' : 'Perfumer', value: ed.perfumer }] : []),
+    ],
+  },
+  breadcrumbLd(crumbs),
+  faqLd(faqs),
+]);
+---
+
+<Layout title={title} description={description} locale={l} jsonLd={jsonLd} image={p.image ?? undefined} ogType="article">
+  <div class="page">
+    <Header locale={l} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={crumbs} />
+
+        <section class="entity-hero">
+          <div class="entity-hero__media reveal" style={`background:${tintFor(p)}`}>
+            {p.image ? <img src={p.image} alt={`${fr ? 'Flacon de' : 'Bottle of'} ${p.name} ${p.brand}`} width="600" height="600" loading="eager" fetchpriority="high" /> : <span class="card__initials">{p.name.slice(0, 2)}</span>}
+          </div>
+          <div class="entity-hero__copy">
+            <p class="eyebrow reveal"><a href={url.brand(l, p.brand)}>{p.brand}</a> · <a href={url.era(l, decade)}>{p.year}</a></p>
+            <h1 class="h1 reveal reveal-2">{p.name}</h1>
+            {txt?.tagline && <p class="tagline reveal reveal-3">{txt.tagline}</p>}
+            <dl class="facts reveal reveal-4">
+              <div><dt>{fr ? 'Maison' : 'House'}</dt><dd><a href={url.brand(l, p.brand)}>{p.brand}</a></dd></div>
+              <div><dt>{fr ? 'Lancement' : 'Launched'}</dt><dd><a href={url.era(l, decade)}>{p.year}</a></dd></div>
+              <div><dt>{fr ? 'Pour' : 'For'}</dt><dd><a href={url.gender(l, p.gender)}>{gender}</a></dd></div>
+              <div><dt>{fr ? 'Famille' : 'Family'}</dt><dd>{p.families[0] && hasFamilyPage(p.families[0]) ? <a href={url.family(l, p.families[0])}>{familyLabel(p.family, l)}</a> : familyLabel(p.family, l)}</dd></div>
+              <div><dt>Concentration</dt><dd>{p.concentration}</dd></div>
+              {ed?.perfumer && <div><dt>{fr ? 'Parfumeur' : 'Perfumer'}</dt><dd>{ed.perfumer}</dd></div>}
+            </dl>
+          </div>
+        </section>
+      </div>
+
+      <section class="section--tight section--paper2">
+        <div class="wrap">
+          <p class="eyebrow">{fr ? 'Pyramide olfactive' : 'Fragrance pyramid'}</p>
+          <h2 class="h2" style="margin:0.4rem 0 1.5rem">{fr ? `Les notes de ${p.name}` : `${p.name} notes`}</h2>
+          <div class="pyramid">
+            {tiers.filter((t) => t.notes.length).map((t) => (
+              <div class="pyramid__tier">
+                <h3>{t.title}</h3>
+                <p class="muted">{t.hint}</p>
+                <ul>
+                  {t.notes.map((n) => (
+                    <li>{hasNotePage(n) ? <a class="chip" href={url.note(l, n)}>{noteName(n, l)}</a> : <span class="chip">{noteName(n, l)}</span>}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap section">
+        <div class="article">
+          <article class="prose">
+            <p class="eyebrow">{fr ? 'Notre lecture' : 'Our take'}</p>
+            <h2 style="margin-top:0.4rem">{fr ? `Comment sent ${p.name} ?` : `What does ${p.name} smell like?`}</h2>
+            {txt ? (
+              <>
+                <p class="dropcap">{txt.story}</p>
+                <h3>{fr ? 'Quand le porter' : 'When to wear it'}</h3>
+                <p>{txt.wear}</p>
+                <div class="verdict"><span>{fr ? 'Verdict' : 'Verdict'}</span>{txt.verdict}</div>
+              </>
+            ) : (
+              <p class="dropcap">{faqs[0].a}</p>
+            )}
+            <p style="margin-top:1.6rem">
+              {fr ? 'Classé dans la famille ' : 'It belongs to the '}
+              {p.families.map((f, i) => <>{i > 0 && ', '}{hasFamilyPage(f) ? <a href={url.family(l, f)}>{lc(familyName(f, l))}</a> : lc(familyName(f, l))}</>)}
+              {fr ? `, ${p.name} fait partie des ${brand.perfumes.length} créations de ` : ` family. ${p.name} is one of ${brand.perfumes.length} creations by `}
+              <a href={url.brand(l, p.brand)}>{p.brand}</a>
+              {fr ? ' présentées dans notre encyclopédie.' : ' in our encyclopedia.'}
+            </p>
+          </article>
+
+          <aside class="aside">
+            {ed && (
+              <div class="aside-card">
+                <h2>{fr ? 'En bref' : 'At a glance'}</h2>
+                <p class="eyebrow" style="color:var(--muted)">{fr ? 'Sillage' : 'Projection'}</p>
+                <div class="meter" aria-label={`${ed.intensity}/5`}>{[1, 2, 3, 4, 5].map((i) => <i class={i <= ed.intensity ? 'on' : ''}></i>)}</div>
+                <p class="eyebrow" style="color:var(--muted);margin-top:1.1rem">{fr ? 'Saisons' : 'Seasons'}</p>
+                <div class="tags" style="margin-top:0.4rem">{ed.seasons.map((s) => <a class="tag" href={url.season(l, s)}>{SEASON_LABEL[l][s as keyof typeof SEASON_LABEL.fr]}</a>)}</div>
+                <p class="eyebrow" style="color:var(--muted);margin-top:1.1rem">{fr ? 'Occasions' : 'Occasions'}</p>
+                <div class="tags" style="margin-top:0.4rem">{ed.occasions.map((o) => <span class="tag">{OCCASION_LABEL[l][o as keyof typeof OCCASION_LABEL.fr] ?? o}</span>)}</div>
+              </div>
+            )}
+            <div class="aside-card" style="background:var(--ink);color:var(--paper);border-color:var(--ink)">
+              <h2>{fr ? 'Le reconnaîtriez-vous ?' : 'Would you recognise it?'}</h2>
+              <p style="font-size:0.9rem;opacity:.75;margin-bottom:1rem">{fr ? `${p.name} fait partie des parfums mystères du jeu quotidien Perfumdle.` : `${p.name} is one of the mystery perfumes in the Perfumdle daily game.`}</p>
+              <a href={url.game(l)} class="btn btn--gold">{fr ? 'Jouer' : 'Play'}</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <section class="section--tight">
+        <div class="wrap">
+          <div class="section__head">
+            <div>
+              <p class="eyebrow">{fr ? 'Même esprit' : 'Same spirit'}</p>
+              <h2 class="h2">{fr ? `Parfums similaires à ${p.name}` : `Perfumes similar to ${p.name}`}</h2>
+            </div>
+            {hasSimilarPage && <a class="link-arrow" href={url.similar(l, p.slug)}>{fr ? 'Voir le comparatif détaillé' : 'See the detailed comparison'}</a>}
+          </div>
+          <div class="cards">
+            {similar.map((s) => (
+              <PerfumeCard p={s.perfume} locale={l} note={`${fr ? 'En commun' : 'Shared'} : ${s.shared.slice(0, 3).map((n) => noteName(n, l)).join(', ')}`} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {sameHouse.length > 0 && (
+        <section class="section--tight">
+          <div class="wrap">
+            <div class="section__head">
+              <div>
+                <p class="eyebrow">{fr ? 'La maison' : 'The house'}</p>
+                <h2 class="h2">{fr ? `Autres parfums ${p.brand}` : `More from ${p.brand}`}</h2>
+              </div>
+              <a class="link-arrow" href={url.brand(l, p.brand)}>{fr ? `Tout sur ${p.brand}` : `All about ${p.brand}`}</a>
+            </div>
+            <div class="cards">{sameHouse.map((o) => <PerfumeCard p={o} locale={l} />)}</div>
+          </div>
+        </section>
+      )}
+
+      <div class="wrap wrap--text">
+        <Faq items={faqs} title={fr ? `Questions sur ${p.name}` : `${p.name}: FAQ`} />
+      </div>
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>

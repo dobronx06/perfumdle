@@ -1,0 +1,37 @@
+---
+import Shell from '../components/Shell.astro';
+import type { Locale } from '../i18n';
+import { url, notes, noteName } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const CAT: Record<string, [string, string]> = {
+  citrus: ['Agrumes', 'Citrus'], floral: ['Fleurs', 'Florals'], fruity: ['Fruits', 'Fruits'], green: ['Notes vertes', 'Green notes'],
+  aromatic: ['Aromatiques', 'Aromatics'], spicy: ['Épices', 'Spices'], woody: ['Bois', 'Woods'], resinous: ['Résines et baumes', 'Resins & balsams'],
+  gourmand: ['Gourmandises', 'Gourmands'], musky: ['Muscs', 'Musks'], animalic: ['Notes animales', 'Animalic notes'],
+  aquatic: ['Notes aquatiques', 'Aquatic notes'], synthetic: ['Molécules', 'Molecules'], other: ['Autres', 'Other'],
+};
+const order = Object.keys(CAT);
+const groups = order.map((c) => ({ c, list: notes.filter((n) => (CAT[n.category] ? n.category : 'other') === c) })).filter((g) => g.list.length);
+---
+
+<Shell
+  locale={l}
+  title={fr ? `Notes de parfum : ${notes.length} matières olfactives expliquées` : `Perfume notes: ${notes.length} fragrance materials explained`}
+  description={fr ? `Vanille, bergamote, patchouli, oud, iris… L'odeur, l'origine et les parfums iconiques de ${notes.length} notes olfactives, classées par famille.` : `Vanilla, bergamot, patchouli, oud, iris… The smell, origin and iconic perfumes of ${notes.length} fragrance notes, grouped by family.`}
+  alternates={{ fr: url.notes('fr'), en: url.notes('en') }}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: 'Notes' }]}
+  eyebrow={fr ? 'Le vocabulaire du parfum' : 'The vocabulary of perfume'}
+  h1={fr ? 'Les notes olfactives, de A à Z' : 'Fragrance notes, from A to Z'}
+  lede={fr ? "Une note, c'est une matière — naturelle ou de synthèse — que l'on reconnaît dans un parfum. Choisissez-en une pour découvrir son odeur, son histoire et les parfums qui la subliment." : "A note is a material — natural or synthetic — that you can recognise in a perfume. Pick one to learn how it smells, where it comes from and which perfumes do it justice."}
+  jsonLd={[itemListLd(fr ? 'Notes olfactives' : 'Fragrance notes', notes.map((n) => ({ name: noteName(n.key, l), href: url.note(l, n.key) })))]}
+>
+  {groups.map((g) => (
+    <section class="az-group" style="grid-template-columns:1fr;gap:1rem">
+      <h2 class="h2" style="color:var(--ink)">{CAT[g.c][fr ? 0 : 1]}</h2>
+      <div class="chips">{g.list.map((n) => <a class="chip chip--lg" href={url.note(l, n.key)}>{noteName(n.key, l)}<small>{n.perfumes.length}</small></a>)}</div>
+    </section>
+  ))}
+</Shell>

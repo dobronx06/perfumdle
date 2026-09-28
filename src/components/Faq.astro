@@ -1,0 +1,19 @@
+---
+import type { Faq } from '../lib/catalog';
+interface Props { items: Faq[]; title: string; open?: boolean }
+const { items, title, open = true } = Astro.props;
+---
+
+{items.length > 0 && (
+  <section class="section--tight">
+    <h2 class="h2" style="margin-bottom:1.2rem">{title}</h2>
+    <div class="faq">
+      {items.map((f, i) => (
+        <details open={open && i === 0}>
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+)}

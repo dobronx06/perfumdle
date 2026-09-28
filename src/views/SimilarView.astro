@@ -1,0 +1,139 @@
+---
+/**
+ * "Perfumes similar to X" — answers the high-intent query "parfum qui ressemble à X".
+ * Fully data-driven: ranking by weighted shared notes (rare notes weigh more), family, gender.
+ */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import type { Locale } from '../i18n';
+import {
+  url, similarPerfumes, allNotes, noteName, hasNotePage, familyLabel, tintFor, perfumeEditorial, GENDER_LABEL, type Perfume,
+} from '../lib/catalog';
+import { breadcrumbLd, faqLd, itemListLd, articleLd } from '../lib/seo';
+
+interface Props { p: Perfume; locale: Locale }
+const { p, locale: l } = Astro.props;
+const fr = l === 'fr';
+const other: Locale = fr ? 'en' : 'fr';
+const list = similarPerfumes(p, 10);
+const own = allNotes(p);
+const ed = perfumeEditorial(p.slug)?.[l];
+const lc = (s: string) => (fr ? s.toLowerCase() : s);
+const names = (xs: string[]) => xs.map((n) => lc(noteName(n, l))).join(', ');
+const max = list[0]?.score || 1;
+const sameHouse = list.find((s) => s.perfume.brand === p.brand);
+const otherHouse = list.find((s) => s.perfume.brand !== p.brand);
+
+const title = fr ? `Parfums similaires à ${p.name} (${p.brand}) : 10 alternatives` : `Perfumes similar to ${p.name} (${p.brand}): 10 alternatives`;
+const description = fr
+  ? `Vous aimez ${p.name} de ${p.brand} ? Voici les 10 parfums qui lui ressemblent le plus, classés selon leurs notes communes (${names(own.slice(0, 3))}…).`
+  : `Love ${p.name} by ${p.brand}? Here are the 10 perfumes that smell most like it, ranked by shared notes (${names(own.slice(0, 3))}…).`;
+const path = url.similar(l, p.slug);
+const crumbs = [
+  { name: fr ? 'Accueil' : 'Home', href: url.home(l) },
+  { name: p.brand, href: url.brand(l, p.brand) },
+  { name: p.name, href: url.perfume(l, p.slug) },
+  { name: fr ? 'Parfums similaires' : 'Similar perfumes' },
+];
+
+const why = (s: (typeof list)[number]) => {
+  const q = s.perfume;
+  const diff = allNotes(q).filter((n) => !own.includes(n)).slice(0, 3);
+  const parts: string[] = [];
+  parts.push(fr ? `Notes en commun : ${names(s.shared.slice(0, 5))}.` : `Shared notes: ${names(s.shared.slice(0, 5))}.`);
+  if (diff.length) parts.push(fr ? `Ce qui change : ${names(diff)}.` : `What differs: ${names(diff)}.`);
+  if (q.family === p.family) parts.push(fr ? `Même famille (${lc(familyLabel(p.family, l))}).` : `Same family (${familyLabel(p.family, l)}).`);
+  if (q.gender !== p.gender) parts.push(fr ? `Pensé ${q.gender === 'Unisex' ? 'mixte' : `au ${lc(GENDER_LABEL.fr[q.gender])}`}.` : `Positioned as ${lc(GENDER_LABEL.en[q.gender])}.`);
+  return parts.join(' ');
+};
+
+const faqs = [
+  list[0] && {
+    q: fr ? `Quel parfum ressemble le plus à ${p.name} ?` : `Which perfume smells most like ${p.name}?`,
+    a: fr
+      ? `D'après notre analyse des pyramides olfactives, ${list[0].perfume.name} de ${list[0].perfume.brand} est le plus proche : il partage ${list[0].shared.length} notes avec ${p.name}, dont ${names(list[0].shared.slice(0, 3))}.`
+      : `Based on our analysis of fragrance pyramids, ${list[0].perfume.name} by ${list[0].perfume.brand} is the closest: it shares ${list[0].shared.length} notes with ${p.name}, including ${names(list[0].shared.slice(0, 3))}.`,
+  },
+  otherHouse && {
+    q: fr ? `Quelle alternative à ${p.name} chez une autre maison ?` : `What is an alternative to ${p.name} from another house?`,
+    a: fr
+      ? `${otherHouse.perfume.name} (${otherHouse.perfume.brand}, ${otherHouse.perfume.year}) reprend ${names(otherHouse.shared.slice(0, 3))} dans une interprétation différente.`
+      : `${otherHouse.perfume.name} (${otherHouse.perfume.brand}, ${otherHouse.perfume.year}) picks up ${names(otherHouse.shared.slice(0, 3))} in a different interpretation.`,
+  },
+  sameHouse && {
+    q: fr ? `Quel autre parfum ${p.brand} ressemble à ${p.name} ?` : `Which other ${p.brand} perfume is similar to ${p.name}?`,
+    a: fr
+      ? `Chez ${p.brand}, ${sameHouse.perfume.name} (${sameHouse.perfume.year}) est le plus proche, avec ${names(sameHouse.shared.slice(0, 3))} en commun.`
+      : `At ${p.brand}, ${sameHouse.perfume.name} (${sameHouse.perfume.year}) is the closest, sharing ${names(sameHouse.shared.slice(0, 3))}.`,
+  },
+  {
+    q: fr ? 'Comment ce classement est-il établi ?' : 'How is this ranking built?',
+    a: fr
+      ? "Nous comparons les notes de tête, de cœur et de fond de chaque parfum. Les notes rares pèsent plus lourd que les notes très courantes comme le musc ou la bergamote ; la famille olfactive et le genre affinent le score. Rien ne remplace un essai sur peau."
+      : 'We compare the top, heart and base notes of every perfume. Rare notes weigh more than very common ones like musk or bergamot; olfactory family and gender refine the score. Nothing replaces trying it on skin.',
+  },
+].filter(Boolean) as { q: string; a: string }[];
+
+const jsonLd = [
+  articleLd({ headline: title, description, path, lang: l, image: p.image ?? undefined, about: `${p.name} ${p.brand}` }),
+  breadcrumbLd(crumbs),
+  itemListLd(title, list.map((s) => ({ name: `${s.perfume.name} — ${s.perfume.brand}`, href: url.perfume(l, s.perfume.slug) }))),
+  faqLd(faqs)!,
+];
+---
+
+<Layout title={title} description={description} locale={l} alternates={{ [l]: path, [other]: url.similar(other, p.slug) } as Record<Locale, string>} jsonLd={jsonLd} image={p.image ?? undefined} ogType="article">
+  <div class="page">
+    <Header locale={l} altHref={url.similar(other, p.slug)} />
+    <main>
+      <div class="wrap">
+        <Crumbs items={crumbs} />
+        <section class="entity-hero">
+          <div class="entity-hero__copy">
+            <p class="eyebrow reveal">{fr ? 'Alternatives' : 'Alternatives'}</p>
+            <h1 class="h1 reveal reveal-2">{fr ? <>Parfums qui ressemblent à <em>{p.name}</em></> : <>Perfumes that smell like <em>{p.name}</em></>}</h1>
+            <p class="lede reveal reveal-3">
+              {fr
+                ? `${p.name} de ${p.brand} (${p.year}) s'articule autour de ${names(own.slice(0, 4))}. Voici les dix parfums de notre encyclopédie qui s'en rapprochent le plus, avec pour chacun ce qu'ils partagent et ce qui les distingue.`
+                : `${p.name} by ${p.brand} (${p.year}) is built around ${names(own.slice(0, 4))}. Here are the ten perfumes in our encyclopedia that come closest, with what each one shares and what sets it apart.`}
+            </p>
+            {ed?.tagline && <p class="tagline reveal reveal-4">« {ed.tagline} »</p>}
+            <p style="margin-top:1.4rem"><a class="link-arrow" href={url.perfume(l, p.slug)}>{fr ? `La fiche complète de ${p.name}` : `Full ${p.name} profile`}</a></p>
+          </div>
+          <div class="entity-hero__media reveal" style={`background:${tintFor(p)}`}>
+            {p.image && <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading="eager" />}
+          </div>
+        </section>
+      </div>
+
+      <section class="section--tight">
+        <div class="wrap wrap--text" style="max-width:56rem">
+          <ol style="list-style:none;display:grid;gap:1rem">
+            {list.map((s, i) => (
+              <li style="display:grid;grid-template-columns:auto 7rem 1fr;gap:1.2rem;align-items:center;padding:1.2rem;border:1px solid var(--line);border-radius:20px;background:#fff">
+                <span style="font-family:var(--serif);font-size:2.4rem;color:var(--wine);width:2.2rem;text-align:center">{i + 1}</span>
+                <a href={url.perfume(l, s.perfume.slug)} class="card__media" style={`background:${tintFor(s.perfume)};aspect-ratio:1`}>
+                  {s.perfume.image && <img src={s.perfume.image} alt={`${s.perfume.name} ${s.perfume.brand}`} width="600" height="600" loading="lazy" />}
+                </a>
+                <div>
+                  <p class="card__house">{s.perfume.brand} · {s.perfume.year}</p>
+                  <h2 class="h3" style="margin:0.15rem 0 0.4rem"><a href={url.perfume(l, s.perfume.slug)}>{s.perfume.name}</a></h2>
+                  <p style="font-size:0.92rem;color:var(--ink-2)">{why(s)}</p>
+                  <div class="meter" style="max-width:12rem" aria-label={`${Math.round((s.score / max) * 100)}%`}>{[1, 2, 3, 4, 5].map((k) => <i class={k <= Math.round((s.score / max) * 5) ? 'on' : ''}></i>)}</div>
+                  <div class="tags" style="margin-top:0.6rem">
+                    {s.shared.filter(hasNotePage).slice(0, 4).map((n) => <a class="tag" href={url.note(l, n)}>{noteName(n, l)}</a>)}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <Faq items={faqs} title={fr ? 'Questions fréquentes' : 'Frequently asked questions'} />
+        </div>
+      </section>
+    </main>
+    <Footer locale={l} />
+  </div>
+</Layout>

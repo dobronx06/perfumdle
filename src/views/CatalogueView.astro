@@ -1,0 +1,62 @@
+---
+import Shell from '../components/Shell.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import type { Locale } from '../i18n';
+import { url, perfumes, families, familyName } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const list = perfumes.slice().sort((a, b) => a.id - b.id);
+---
+
+<Shell
+  locale={l}
+  title={fr ? `Encyclopédie des parfums : ${perfumes.length} parfums iconiques` : `Perfume encyclopedia: ${perfumes.length} iconic perfumes`}
+  description={fr ? `Les ${perfumes.length} parfums iconiques de Perfumdle : notes, maison, année, famille olfactive. Filtrez par genre et famille pour trouver votre prochain parfum.` : `All ${perfumes.length} iconic perfumes on Perfumdle: notes, house, year, olfactory family. Filter by gender and family to find your next scent.`}
+  alternates={{ fr: url.perfumes('fr'), en: url.perfumes('en') }}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Parfums' : 'Perfumes' }]}
+  eyebrow={fr ? 'Encyclopédie' : 'Encyclopedia'}
+  h1={fr ? `${perfumes.length} parfums iconiques` : `${perfumes.length} iconic perfumes`}
+  lede={fr ? 'Des grands classiques aux phénomènes récents, chaque fiche détaille la pyramide olfactive, le contexte de création et les parfums qui lui ressemblent.' : 'From timeless classics to recent phenomena, each profile details the notes pyramid, the story behind it and the perfumes that smell similar.'}
+  jsonLd={[itemListLd(fr ? 'Parfums' : 'Perfumes', list.map((p) => ({ name: `${p.name} — ${p.brand}`, href: url.perfume(l, p.slug) })))]}
+>
+  <div class="filters" id="cat-filters">
+    <input type="search" placeholder={fr ? 'Filtrer par nom ou maison…' : 'Filter by name or house…'} aria-label={fr ? 'Filtrer' : 'Filter'} data-q />
+    <button type="button" data-g="" aria-pressed="true">{fr ? 'Tous' : 'All'}</button>
+    <button type="button" data-g="Feminine" aria-pressed="false">{fr ? 'Femme' : 'Women'}</button>
+    <button type="button" data-g="Masculine" aria-pressed="false">{fr ? 'Homme' : 'Men'}</button>
+    <button type="button" data-g="Unisex" aria-pressed="false">{fr ? 'Mixte' : 'Unisex'}</button>
+  </div>
+  <div class="chips" style="margin:-0.6rem 0 2rem">
+    {families.map((f) => <a class="chip" href={url.family(l, f.key)}>{familyName(f.key, l)}<small>{f.perfumes.length}</small></a>)}
+  </div>
+  <div class="cards" id="cat-cards">{list.map((p, i) => <PerfumeCard p={p} locale={l} eager={i < 8} />)}</div>
+  <p id="cat-empty" class="muted" hidden style="padding:3rem 0;text-align:center">{fr ? 'Aucun parfum ne correspond.' : 'No perfume matches.'}</p>
+</Shell>
+
+<script>
+  const bar = document.getElementById('cat-filters')!;
+  const cards = [...document.querySelectorAll<HTMLElement>('#cat-cards [data-card]')];
+  const input = bar.querySelector<HTMLInputElement>('[data-q]')!;
+  let g = '';
+  const apply = () => {
+    const q = input.value.trim().toLowerCase();
+    let shown = 0;
+    for (const c of cards) {
+      const ok = (!g || c.dataset.gender === g) && (!q || c.dataset.search!.includes(q));
+      ok ? c.removeAttribute('data-hidden') : c.setAttribute('data-hidden', '');
+      if (ok) shown++;
+    }
+    document.getElementById('cat-empty')!.hidden = shown > 0;
+  };
+  input.addEventListener('input', apply);
+  bar.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button');
+    if (!b) return;
+    g = b.dataset.g ?? '';
+    bar.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    apply();
+  });
+</script>

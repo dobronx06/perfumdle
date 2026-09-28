@@ -1,37 +1,59 @@
 ---
-import data from '../data/data.json';
-import LanguageSwitcher from './LanguageSwitcher.astro';
-import { t, localePath, type Locale } from '../i18n';
+import { type Locale } from '../i18n';
+import { url } from '../lib/catalog';
 
 interface Props {
   locale: Locale;
+  /** Path of the same page in the other language. */
+  altHref?: string;
+  showStreak?: boolean;
 }
 
-const { locale } = Astro.props;
+const { locale, showStreak = false } = Astro.props;
+const fr = locale === 'fr';
+const other: Locale = fr ? 'en' : 'fr';
+const altHref = Astro.props.altHref ?? Astro.url.pathname.replace(`/${locale}/`, `/${other}/`);
+const current = Astro.url.pathname;
+
+const links = [
+  { href: url.perfumes(locale), label: fr ? 'Parfums' : 'Perfumes' },
+  { href: url.brands(locale), label: fr ? 'Maisons' : 'Houses' },
+  { href: url.notes(locale), label: 'Notes' },
+  { href: url.families(locale), label: fr ? 'Familles' : 'Families' },
+  { href: url.eras(locale), label: fr ? 'Époques' : 'Eras' },
+];
 ---
 
-<header class="site-header">
-  <a href={localePath(locale)} class="site-logo">{data.titre}</a>
-  <nav>
-    <a
-      href={localePath(locale, '/liste-150-parfums-perfumdle/')}
-      class="header-nav-link"
-      title={t(locale, 'nav.all_perfumes')}
-    >
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
-        <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
-      </svg>
-    </a>
-    <span
-      id="streak-display"
-      class="streak-display"
-      style="padding: 0.25rem 0.5rem; margin: 0;"
-      aria-label={t(locale, 'game.streak_label')}
-    >
-      <span aria-hidden="true">&#x1F525;</span>
-      <span class="streak-count" id="streak-count">0</span>
-    </span>
-    <LanguageSwitcher locale={locale} />
-  </nav>
+<header class="masthead">
+  <div class="masthead__inner">
+    <a href={url.home(locale)} class="wordmark" aria-label="Perfumdle — accueil">Perfumdle</a>
+
+    <nav class="masthead__nav" aria-label={fr ? 'Navigation principale' : 'Main navigation'}>
+      {links.map((l) => (
+        <a href={l.href} aria-current={current.startsWith(l.href) ? 'page' : undefined}>{l.label}</a>
+      ))}
+    </nav>
+
+    <div class="masthead__actions">
+      {showStreak && (
+        <span id="streak-display" class="streak-display" aria-label={fr ? 'Série en cours' : 'Current streak'}>
+          <span aria-hidden="true">&#x1F525;</span>
+          <span class="streak-count" id="streak-count">0</span>
+        </span>
+      )}
+      {!showStreak && (
+        <a href={url.game(locale)} class="pill pill--game">
+          <span class="pill__dot" aria-hidden="true"></span>{fr ? 'Jeu du jour' : 'Daily game'}
+        </a>
+      )}
+      <a href={altHref} class="lang" hreflang={other} lang={other} aria-label={fr ? 'English version' : 'Version française'}>{other.toUpperCase()}</a>
+      <details class="burger">
+        <summary aria-label="Menu"><span></span><span></span></summary>
+        <nav class="burger__panel">
+          {links.map((l) => <a href={l.href}>{l.label}</a>)}
+          <a href={url.game(locale)}>{fr ? 'Jeu du jour' : 'Daily game'}</a>
+        </nav>
+      </details>
+    </div>
+  </div>
 </header>

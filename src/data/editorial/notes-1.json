@@ -1,0 +1,1403 @@
+{
+ "_data_issues": [],
+ "Aldehydes": {
+  "slug_fr": "aldehydes",
+  "slug_en": "aldehydes",
+  "name_fr": "Aldéhydes",
+  "name_en": "Aldehydes",
+  "category": "synthetic",
+  "source": "synthetic",
+  "fr": {
+   "title": "Parfums aux aldéhydes : odeur, histoire et icônes",
+   "meta": "Savon, cire, drap propre, bulles de champagne : découvrez l’odeur des aldéhydes en parfum, leur histoire depuis N°5 et les créations qui les subliment.",
+   "h1": "Les aldéhydes en parfumerie : l’éclat du propre et du pétillant",
+   "intro": "Les aldéhydes sont des molécules de synthèse qui donnent au parfum un effet pétillant, savonneux et lumineux. Leur odeur évoque le linge propre, la cire, la peau fraîchement lavée ou l’écorce d’agrume. Rarement sentis seuls, ils agissent comme un projecteur qui fait rayonner les fleurs.",
+   "smell": "À forte dose, les aldéhydes aliphatiques sentent le métal chaud, la bougie éteinte, le fer à repasser sur un drap amidonné. Dilués, ils deviennent une mousse fine, presque effervescente, entre savon de Marseille et zeste d’orange. Le C-10 tire vers l’agrume, le C-11 vers le linge frais, le C-12 vers la cire et l’ambre gris. Sur la peau, leur éclat domine les premières minutes, puis se fond en une aura poudrée qui soulève le cœur floral sans jamais disparaître tout à fait.",
+   "origin": "Les aldéhydes utilisés en parfumerie sont des composés organiques, présents en traces dans les agrumes ou la rose, mais produits industriellement par synthèse depuis la fin du XIXe siècle. On les désigne souvent par leur nombre d’atomes de carbone : C-10, C-11, C-12, ou aldéhyde C-12 MNA. Leur entrée spectaculaire date de 1921 avec N°5 de Chanel, composé par Ernest Beaux, qui en utilisa une dose inédite. Toute la famille des floraux aldéhydés, très en vogue jusqu’aux années 1960, découle de ce geste.",
+   "craft": "Placés en note de tête, les aldéhydes servent d’amplificateur : ils ouvrent la composition, donnent du volume au jasmin, à la rose et à l’ylang-ylang, et confèrent une élégance abstraite. On les associe classiquement à l’iris, au santal et à la vanille pour former l’accord floral aldéhydé. N°5 de Chanel en reste le modèle, prolongé par Arpège de Lanvin. Plus tard, ils trouvent une lecture masculine dans Kouros d’Yves Saint Laurent et une version très propre, façon linge blanc, dans Blanche de Byredo.",
+   "wear": "Parfaits en hiver comme au printemps pour un style soigné, un peu rétro, les parfums aldéhydés séduisent les amateurs d’élégance classique et d’odeurs de propre.",
+   "faq": [
+    {
+     "q": "Que sentent les aldéhydes dans un parfum ?",
+     "a": "Les aldéhydes sentent le propre avant tout : savon, linge repassé, cire de bougie, avec une pointe d’agrume ou de métal selon la molécule. En parfum, ils créent une sensation pétillante, presque champagne, qui éclaire les notes florales. On les reconnaît à cette ouverture scintillante et légèrement poudrée qu’on associe souvent aux grands classiques."
+    },
+    {
+     "q": "Quel est le parfum aux aldéhydes le plus célèbre ?",
+     "a": "N°5 de Chanel, lancé en 1921, est le parfum aldéhydé de référence. Ernest Beaux y a utilisé les aldéhydes en quantité inhabituelle pour sublimer un bouquet de jasmin, de rose et d’ylang-ylang. D’autres classiques jouent la même carte, comme Arpège de Lanvin, N°22 de Chanel ou White Diamonds d’Elizabeth Taylor."
+    },
+    {
+     "q": "Les aldéhydes sont-ils naturels ou synthétiques ?",
+     "a": "Certains aldéhydes existent dans la nature, en petites quantités, dans l’écorce des agrumes, la rose ou la coriandre. Mais ceux qu’emploient les parfumeurs sont obtenus par synthèse, ce qui garantit pureté et stabilité. C’est d’ailleurs cette origine chimique qui a permis leur usage massif à partir des années 1920 et l’émergence d’une parfumerie plus abstraite."
+    }
+   ]
+  },
+  "en": {
+   "title": "Aldehyde Perfumes: Scent, History and Icons",
+   "meta": "Soap, wax, crisp linen and champagne fizz: learn what aldehydes smell like in perfume, how N°5 made them famous, and which classics still use them.",
+   "h1": "Aldehydes in Perfume: the Sparkle of Clean",
+   "intro": "Aldehydes are synthetic molecules that give a perfume a fizzy, soapy, radiant lift. They smell of clean laundry, candle wax, freshly washed skin and citrus peel. Rarely noticed on their own, they act like a spotlight that makes the flowers glow.",
+   "smell": "Neat and concentrated, aliphatic aldehydes smell of hot metal, a snuffed candle, an iron pressed onto starched cotton. Diluted, they become a fine, almost effervescent froth somewhere between bar soap and orange zest. C-10 leans citrus, C-11 smells of fresh sheets, C-12 of wax with an ambergris shimmer. On skin their brightness rules the first minutes, then softens into a powdery halo that keeps lifting the floral heart long after the fizz has settled.",
+   "origin": "The aldehydes used in perfumery are organic compounds found in trace amounts in citrus peel and rose, but produced synthetically since the late nineteenth century. Perfumers name them by carbon count: C-10, C-11, C-12, or C-12 MNA. Their breakthrough came in 1921 with Chanel N°5, composed by Ernest Beaux, who dosed them at an unprecedented level. The entire floral aldehyde family, fashionable well into the 1960s, grew out of that single bold decision.",
+   "craft": "Used in the top notes, aldehydes work as an amplifier: they open a formula, add volume to jasmine, rose and ylang-ylang, and bring a polished, abstract elegance. The classic floral aldehyde accord pairs them with iris, sandalwood and vanilla, as in Chanel N°5 and Lanvin Arpège. They took a masculine turn in Yves Saint Laurent Kouros, and a squeaky-clean white-linen reading in Byredo Blanche, proving they are far more versatile than their vintage reputation suggests.",
+   "wear": "Aldehydic perfumes suit winter and spring and a polished, slightly retro style; they appeal to lovers of classic elegance and the scent of clean.",
+   "faq": [
+    {
+     "q": "What do aldehydes smell like in perfume?",
+     "a": "Aldehydes smell above all of clean: soap, ironed linen, candle wax, with a hint of citrus or metal depending on the molecule. In a fragrance they create a sparkling, almost champagne-like effect that brightens the florals. You can spot them in that glittering, slightly powdery opening typical of the great classics."
+    },
+    {
+     "q": "What is the most famous aldehyde perfume?",
+     "a": "Chanel N°5, launched in 1921, is the benchmark aldehydic fragrance. Ernest Beaux used aldehydes at an unusually high dose to lift a bouquet of jasmine, rose and ylang-ylang. Other classics play the same card, including Lanvin Arpège, Chanel N°22 and Elizabeth Taylor White Diamonds."
+    },
+    {
+     "q": "Are aldehydes natural or synthetic?",
+     "a": "Some aldehydes occur naturally in small amounts in citrus peel, rose or coriander. The ones perfumers actually use are made synthetically, which guarantees purity and stability. That chemical origin is exactly what allowed their generous use from the 1920s onward, and with it the rise of a more abstract, less literal style of perfumery."
+    }
+   ]
+  }
+ },
+ "Amberwood": {
+  "slug_fr": "bois-ambre",
+  "slug_en": "amberwood",
+  "name_fr": "Bois ambré",
+  "name_en": "Amberwood",
+  "category": "woody",
+  "source": "synthetic",
+  "fr": {
+   "title": "Parfums au bois ambré : odeur et créations phares",
+   "meta": "Sec, minéral, radieux : le bois ambré est la signature boisée des parfums modernes. Son odeur, les molécules derrière la note et les créations clés.",
+   "h1": "Bois ambré : la note boisée qui a redessiné la parfumerie moderne",
+   "intro": "Le bois ambré, ou amberwood, désigne un accord boisé de synthèse à la fois sec, chaud et diffusif. Il sent le bois blond, l’ambre minéral et une peau tiède, avec une vibration presque électrique. C’est l’une des signatures les plus reconnaissables des parfums des années 2010-2020.",
+   "smell": "Le bois ambré attaque d’un rayonnement sec, un peu poivré, qui rappelle le bois flotté chauffé au soleil et la pierre tiède. Selon les molécules employées, il penche vers l’ambre gris salé, le cèdre crayeux ou une facette plus râpeuse, légèrement animale. Sa grande qualité est la diffusion : il forme un halo qui se détache de la peau et persiste des heures, jusqu’au lendemain sur un vêtement, en gardant une netteté presque abstraite.",
+   "origin": "Le bois ambré n’existe pas dans la nature : c’est un accord construit par les parfumeurs à partir de molécules de synthèse ambrées et boisées. On y trouve des matériaux de la famille de l’ambrox, dérivés d’un travail sur la chimie de l’ambre gris, et des bois ambrés très puissants mis au point par les grandes maisons de composition à partir des années 1990. Leur montée en puissance accompagne la mode des sillages intenses, devenue dominante dans la parfumerie masculine et unisexe récente.",
+   "craft": "Placé en fond ou au cœur, le bois ambré sert d’ossature : il allonge la tenue, accentue la projection et donne une impression de modernité propre. Il se marie aux agrumes et à la lavande dans les fougères actuelles, à la sauge et à la pomme dans Y d’Yves Saint Laurent, ou au safran et au jasmin dans Baccarat Rouge 540 de Maison Francis Kurkdjian, où il apparaît dès le cœur. Wanted d’Azzaro l’associe à des épices chaudes pour un effet plus nerveux.",
+   "wear": "Le bois ambré brille en toutes saisons, surtout en soirée et en automne ; il plaît à ceux qui cherchent un sillage net, puissant et contemporain.",
+   "faq": [
+    {
+     "q": "Que sent le bois ambré dans un parfum ?",
+     "a": "Le bois ambré sent le bois sec et blond, réchauffé par une facette ambrée légèrement salée, avec un rayonnement très diffusif. On le décrit souvent comme minéral, propre et un peu électrique. Il ne ressemble à aucun bois naturel précis : c’est une abstraction boisée, conçue pour durer et se faire remarquer à distance."
+    },
+    {
+     "q": "Le bois ambré est-il naturel ?",
+     "a": "Non. Le bois ambré est un accord entièrement ou majoritairement synthétique, construit avec des molécules ambrées et boisées créées en laboratoire. Il ne provient d’aucun arbre ni de l’ambre fossile. Cette origine explique sa régularité, sa puissance et sa tenue, bien supérieures à celles de la plupart des bois naturels utilisés en parfumerie."
+    },
+    {
+     "q": "Pourquoi le bois ambré tient-il si longtemps ?",
+     "a": "Les molécules qui composent le bois ambré sont lourdes, peu volatiles et perçues à des concentrations infimes. Elles s’évaporent lentement et restent détectables longtemps, surtout sur les tissus. C’est pour cette raison que des parfums comme Baccarat Rouge 540 ou Y d’Yves Saint Laurent laissent une trace durable, parfois encore perceptible le lendemain."
+    }
+   ]
+  },
+  "en": {
+   "title": "Amberwood Perfumes: Scent, Molecules and Icons",
+   "meta": "Dry, mineral and radiant, amberwood is the woody signature of modern fragrance. What it smells like, what it is made of and the perfumes that use it.",
+   "h1": "Amberwood: the Woody Note That Reshaped Modern Perfume",
+   "intro": "Amberwood is a synthetic woody-amber accord that is dry, warm and highly diffusive. It smells of pale wood, mineral amber and warm skin, with an almost electric hum. It is one of the most recognisable signatures of fragrances released in the 2010s and 2020s.",
+   "smell": "Amberwood opens with a dry, slightly peppery radiance reminiscent of sun-baked driftwood and warm stone. Depending on the molecules involved, it leans towards salty ambergris, chalky cedar or a rougher, faintly animalic rasp. Its great strength is diffusion: it forms a halo that lifts away from the skin and lingers for hours, often until the next day on clothing, while keeping a crisp, almost abstract clarity throughout.",
+   "origin": "Amberwood does not exist in nature. It is an accord built by perfumers from synthetic amber and woody molecules, including materials related to ambrox, which came out of research into the chemistry of ambergris, and very powerful ambery woods developed by the major fragrance houses from the 1990s onward. Their rise tracks the taste for bold projection that now dominates much of contemporary masculine and unisex perfumery.",
+   "craft": "Used in the base or heart, amberwood acts as a backbone: it extends longevity, boosts projection and gives a clean, modern feel. It pairs with citrus and lavender in today's fougères, with sage and apple in Yves Saint Laurent Y, or with saffron and jasmine in Maison Francis Kurkdjian Baccarat Rouge 540, where it sits right in the heart. Azzaro Wanted sets it against warm spices for a sharper, edgier effect.",
+   "wear": "Amberwood works year-round, especially in the evening and in autumn, for anyone who wants a clean, powerful and contemporary trail.",
+   "faq": [
+    {
+     "q": "What does amberwood smell like?",
+     "a": "Amberwood smells of dry, pale wood warmed by a slightly salty amber facet, with very strong diffusion. People often describe it as mineral, clean and a little electric. It does not resemble any specific natural wood; it is a woody abstraction, designed to last and to be noticed from a distance."
+    },
+    {
+     "q": "Is amberwood a natural ingredient?",
+     "a": "No. Amberwood is an accord made entirely or mostly from synthetic amber and woody molecules created in the lab. It comes from neither a tree nor fossil amber. That origin explains its consistency, strength and staying power, which far exceed those of most natural woods used in perfumery."
+    },
+    {
+     "q": "Why does amberwood last so long?",
+     "a": "The molecules behind amberwood are heavy, slow to evaporate and noticeable at tiny concentrations. They linger on skin and cling especially well to fabric. That is why fragrances such as Baccarat Rouge 540 or Yves Saint Laurent Y leave such a durable trace, sometimes still detectable on a scarf the following day."
+    }
+   ]
+  }
+ },
+ "Basil": {
+  "slug_fr": "basilic",
+  "slug_en": "basil",
+  "name_fr": "Basilic",
+  "name_en": "Basil",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au basilic : odeur, origine et créations",
+   "meta": "Vert, anisé, légèrement poivré : le basilic apporte fraîcheur et caractère aux parfums. Son odeur, son origine et les créations qui le mettent en avant.",
+   "h1": "Le basilic en parfum : une fraîcheur aromatique et anisée",
+   "intro": "Le basilic est une plante aromatique dont l’huile essentielle apporte au parfum une fraîcheur verte, anisée et légèrement poivrée. Il sent la feuille froissée entre les doigts, avec une pointe de réglisse et de clou de girofle. On le trouve surtout en tête et en cœur des eaux fraîches et des fougères.",
+   "smell": "Froissé, le basilic libère d’abord une verdeur juteuse, presque mentholée, puis une facette anisée qui rappelle l’estragon et le fenouil. Selon le chimiotype, il se montre plus doux et floral, grâce au linalol, ou plus épicé, avec une touche de girofle. Sur la peau, sa vivacité s’estompe assez vite et laisse une trace herbacée, légèrement savonneuse, qui se fond dans les agrumes et les bois. C’est une note d’élan plutôt que de fond.",
+   "origin": "Le basilic (Ocimum basilicum), originaire d’Asie tropicale, est cultivé pour la parfumerie notamment en Égypte, en Inde et dans l’océan Indien. Son huile essentielle s’obtient par distillation à la vapeur des feuilles et sommités fleuries. Il existe plusieurs types : riche en linalol, plus fin, ou riche en estragole, plus anisé. Présent dans les eaux aromatiques dès le XIXe siècle, il devient un pilier des masculins frais à partir des années 1960-1970.",
+   "craft": "Le parfumeur l’utilise en tête ou au cœur pour donner du relief vert à un accord d’agrumes. Il se marie à la citronnelle, au citron vert, à la mandarine, à la lavande et à la menthe, et gagne en profondeur face à la mousse de chêne ou au vétiver. Eau Sauvage de Dior l’intègre à son cœur aromatique, Lime Basil & Mandarin de Jo Malone en fait un protagoniste, et Aqua Allegoria Mandarine Basilic de Guerlain l’associe aux zestes pour un effet solaire.",
+   "wear": "Le basilic se porte surtout au printemps et en été, dans un style décontracté ou sportif ; il plaît aux amateurs de fraîcheur naturelle et de notes culinaires.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le basilic en parfumerie ?",
+     "a": "En parfum, le basilic sent la feuille fraîchement froissée : vert, légèrement anisé, un peu poivré, avec une nuance de girofle selon la variété. Il apporte une fraîcheur plus aromatique et plus vivante que les agrumes seuls. Sa tenue est modérée, car il appartient surtout aux notes de tête et de cœur."
+    },
+    {
+     "q": "Quel parfum au basilic pour homme ?",
+     "a": "Les grands masculins frais utilisent souvent le basilic. Eau Sauvage de Dior l’intègre à son cœur aromatique, Polo de Ralph Lauren l’emploie en tête dans un accord vert et boisé, et Azzaro Pour Homme le place au cœur d’une fougère anisée. Plus récent, The One for Men de Dolce & Gabbana l’associe au pamplemousse et à la coriandre."
+    },
+    {
+     "q": "Le basilic convient-il aux parfums féminins ?",
+     "a": "Oui. Le basilic n’a pas de genre : il éclaire aussi des créations féminines ou mixtes. Aqua Allegoria Mandarine Basilic de Guerlain l’allie aux agrumes pour une fraîcheur lumineuse, et Lime Basil & Mandarin de Jo Malone, pensé pour tous, en fait sa signature. Il donne une touche verte et naturelle, jamais austère."
+    }
+   ]
+  },
+  "en": {
+   "title": "Basil Perfumes: Scent, Origin and Best Examples",
+   "meta": "Green, aniseed-tinged and gently peppery, basil brings bite to fresh fragrances. Discover how basil smells in perfume, where it comes from and who uses it.",
+   "h1": "Basil in Perfume: Green, Aniseed Freshness",
+   "intro": "Basil is an aromatic herb whose essential oil gives perfume a green, aniseed-tinged, slightly peppery freshness. It smells like a leaf crushed between the fingers, with a hint of liquorice and clove. It mostly appears in the top and heart of fresh colognes and fougères.",
+   "smell": "Crushed basil first releases a juicy, almost minty greenness, then an aniseed facet close to tarragon and fennel. Depending on the chemotype it can be softer and more floral, thanks to linalool, or spicier, with a clove edge. On skin its liveliness fades fairly quickly, leaving a herbal, faintly soapy trace that blends into citrus and woods. Think of it as a note of momentum rather than foundation.",
+   "origin": "Basil (Ocimum basilicum), native to tropical Asia, is grown for perfumery in places such as Egypt, India and the Indian Ocean islands. Its essential oil is steam-distilled from the leaves and flowering tops. Several types exist: linalool-rich oils are finer and more floral, estragole-rich ones more anisic. Found in aromatic waters by the nineteenth century, basil became a pillar of fresh masculine fragrances from the 1960s and 1970s.",
+   "craft": "Perfumers use basil in the top or heart to add green relief to a citrus accord. It pairs well with lemongrass, lime, mandarin, lavender and mint, and gains depth against oakmoss or vetiver. Dior Eau Sauvage folds it into its aromatic heart, Jo Malone Lime Basil & Mandarin puts it centre stage, and Guerlain Aqua Allegoria Mandarine Basilic sets it against sunny peel for a bright, summery effect.",
+   "wear": "Basil is best in spring and summer for casual or sporty wear, and appeals to anyone who likes natural freshness and culinary herbs.",
+   "faq": [
+    {
+     "q": "What does basil smell like in perfume?",
+     "a": "In perfume, basil smells like a freshly crushed leaf: green, slightly aniseed-like and a little peppery, with a touch of clove depending on the variety. It brings a livelier, more aromatic freshness than citrus alone. Its longevity is moderate, since it mainly sits in the top and heart notes."
+    },
+    {
+     "q": "What are good basil fragrances for men?",
+     "a": "Many landmark fresh masculines use basil. Dior Eau Sauvage folds it into its aromatic heart, Ralph Lauren Polo uses it up top in a green, woody accord, and Azzaro Pour Homme places it at the centre of an aniseed fougère. More recently, Dolce & Gabbana The One for Men pairs it with grapefruit and coriander."
+    },
+    {
+     "q": "Can basil work in women's perfume?",
+     "a": "Absolutely. Basil has no gender and brightens feminine and unisex creations too. Guerlain Aqua Allegoria Mandarine Basilic teams it with citrus for a luminous freshness, while Jo Malone Lime Basil & Mandarin, designed for everyone, makes it its signature. It adds a green, natural touch without ever feeling austere."
+    }
+   ]
+  }
+ },
+ "Black Currant": {
+  "slug_fr": "cassis",
+  "slug_en": "black-currant",
+  "name_fr": "Cassis",
+  "name_en": "Black Currant",
+  "category": "fruity",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au cassis : odeur, origine et icônes",
+   "meta": "Acidulé, juteux, un brin sauvage : le cassis donne du mordant aux parfums fruités et floraux. Son odeur, le bourgeon de cassis et les créations phares.",
+   "h1": "Le cassis en parfum : un fruit noir acidulé et un bourgeon sauvage",
+   "intro": "En parfumerie, le cassis évoque à la fois la baie noire, juteuse et acidulée, et le bourgeon du cassissier, vert et légèrement soufré. Il apporte une note fruitée pleine de mordant, qui réveille les fleurs et les bois. On le rencontre surtout en tête des parfums floraux-fruités contemporains.",
+   "smell": "La facette fruit est sombre, sucrée-acide, proche de la confiture de baies noires et du sirop. Le bourgeon, lui, ajoute une verdeur piquante et une nuance animale que certains comparent à la feuille froissée, d’autres à une note plus sauvage, presque féline. Sur la peau, le cassis éclate en ouverture, puis se patine au contact des fleurs et du patchouli, laissant une trace fruitée légèrement ombrée. Cette ambivalence entre gourmandise et verdeur fait tout son charme.",
+   "origin": "Le fruit du cassis (Ribes nigrum) ne livre pas d’extrait exploitable en parfumerie. On utilise en revanche l’absolue de bourgeon de cassis, obtenue par extraction aux solvants des bourgeons récoltés en hiver, notamment en Bourgogne, région historique du cassis. Cette matière rare est complétée par des molécules de synthèse, dont des composés soufrés très puissants qui reproduisent sa facette sauvage. Le cassis s’est imposé dans les floraux fruités à partir des années 1980-1990.",
+   "craft": "Posé en tête, le cassis réveille un bouquet de rose ou de jasmin et contraste avec les bases sombres. Il forme un accord classique avec la rose, et se marie au patchouli, à la vanille et aux bois. La Vie Est Belle de Lancôme l’ouvre avec la poire, Libre d’Yves Saint Laurent l’associe à la lavande et à la fleur d’oranger, tandis que Black Orchid de Tom Ford l’utilise pour ajouter une noirceur fruitée à sa composition opulente.",
+   "wear": "Le cassis se porte en toute saison, particulièrement à l’automne ; il séduit les amateurs de fruités élégants plutôt que sucrés.",
+   "faq": [
+    {
+     "q": "Quelle est l’odeur du cassis en parfumerie ?",
+     "a": "Le cassis sent la baie noire juteuse et acidulée, avec une facette verte et piquante apportée par le bourgeon. Certains y perçoivent aussi une nuance légèrement soufrée ou animale, typique de cette matière. En parfum, il donne du relief aux fleurs et un côté fruité sombre, plus adulte que les fruits rouges sucrés."
+    },
+    {
+     "q": "Qu’est-ce que le bourgeon de cassis ?",
+     "a": "Le bourgeon de cassis est une matière naturelle obtenue par extraction des bourgeons du cassissier, cueillis pendant l’hiver avant l’éclosion des feuilles. Son absolue, rare et puissante, sent à la fois le fruit, la feuille verte et une note soufrée caractéristique. La Bourgogne est l’une des régions historiques de production de cette matière."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent du cassis ?",
+     "a": "Le cassis figure dans de nombreux floraux fruités modernes : La Vie Est Belle de Lancôme, Sì de Giorgio Armani, Libre d’Yves Saint Laurent ou Portrait of a Lady de Frédéric Malle, où il accompagne la rose. Côté mixte, Silver Mountain Water de Creed l’utilise pour donner du mordant à un accord frais et thé."
+    }
+   ]
+  },
+  "en": {
+   "title": "Black Currant Perfumes: Scent, Buds and Icons",
+   "meta": "Tart, juicy and a little wild, black currant gives bite to fruity florals. Learn how cassis smells in perfume, what blackcurrant bud is and the key scents.",
+   "h1": "Black Currant in Perfume: Dark Fruit with a Wild Edge",
+   "intro": "In perfumery, black currant, or cassis, evokes both the dark, juicy, tart berry and the green, slightly sulphurous bud of the bush. It adds a biting fruity note that wakes up flowers and woods. It appears most often in the top notes of contemporary fruity florals.",
+   "smell": "The fruit facet is dark and sweet-sour, close to black-berry jam or cordial. The bud adds a sharp greenness and an animalic undertone that some liken to a crushed leaf, others to something wilder, almost feline. On skin, cassis bursts through the opening, then mellows against florals and patchouli, leaving a fruity, gently shaded trail. That tension between the edible and the green is its whole appeal.",
+   "origin": "The black currant berry (Ribes nigrum) yields no usable perfume extract. Perfumers instead rely on blackcurrant bud absolute, solvent-extracted from buds harvested in winter, notably in Burgundy, France's historic cassis region. This rare material is supported by synthetic molecules, including extremely potent sulphur compounds that recreate its wild facet. Cassis became a fixture of fruity florals during the 1980s and 1990s.",
+   "craft": "Placed in the top, cassis livens up a rose or jasmine bouquet and contrasts with dark bases. Rose and cassis form a classic pairing, and the note also sits well with patchouli, vanilla and woods. Lancôme La Vie Est Belle opens with it alongside pear, Yves Saint Laurent Libre pairs it with lavender and orange blossom, and Tom Ford Black Orchid uses it to add a dark fruity tint to its opulent composition.",
+   "wear": "Black currant works in any season and shines in autumn; it suits people who like elegant rather than sugary fruit.",
+   "faq": [
+    {
+     "q": "What does black currant smell like in perfume?",
+     "a": "Black currant smells of a juicy, tart dark berry, with a green, prickly facet coming from the bud. Some people also notice a slightly sulphurous or animalic nuance, typical of the material. In perfume it gives florals relief and a darker, more grown-up fruitiness than sweet red berries."
+    },
+    {
+     "q": "What is blackcurrant bud in perfumery?",
+     "a": "Blackcurrant bud is a natural material obtained by extracting the buds of the currant bush, picked in winter before the leaves open. Its absolute is rare and powerful, smelling at once of fruit, green leaf and a distinctive sulphurous note. Burgundy in France is one of the historic regions producing it."
+    },
+    {
+     "q": "Which famous perfumes contain black currant?",
+     "a": "Black currant features in many modern fruity florals: Lancôme La Vie Est Belle, Giorgio Armani Sì, Yves Saint Laurent Libre and Frédéric Malle Portrait of a Lady, where it partners the rose. On the unisex side, Creed Silver Mountain Water uses it to add bite to a fresh, tea-like accord."
+    }
+   ]
+  }
+ },
+ "Carnation": {
+  "slug_fr": "oeillet",
+  "slug_en": "carnation",
+  "name_fr": "Œillet",
+  "name_en": "Carnation",
+  "category": "floral",
+  "source": "both",
+  "fr": {
+   "title": "Parfums à l’œillet : odeur, histoire et classiques",
+   "meta": "Fleur épicée au parfum de clou de girofle, l’œillet a marqué les grands classiques. Son odeur, sa reconstitution et les parfums qui le font vibrer.",
+   "h1": "L’œillet en parfum : une fleur au cœur de girofle",
+   "intro": "L’œillet est une fleur dont l’odeur mêle pétale poivré, clou de girofle et une touche de rose. En parfumerie, il apporte un floral épicé, chaud et légèrement vintage. Son absolue étant rare, il est le plus souvent recréé par un accord.",
+   "smell": "L’œillet sent d’abord l’épice : un clou de girofle net, presque piquant, adouci par une douceur rosée et une nuance de miel. Dans les compositions anciennes, il prend un tour poudré, un peu fané, évoquant la boutonnière et les salons d’autrefois. Sur la peau, sa facette épicée tient bien et se lie aux bois et aux résines pour former une chaleur sèche. Dosé avec légèreté, il donne simplement du piquant à un bouquet floral.",
+   "origin": "L’œillet (Dianthus caryophyllus), cultivé autour de la Méditerranée, a longtemps été associé à Grasse et à la Côte d’Azur. Son absolue, obtenue par extraction aux solvants, est très coûteuse et peu utilisée. Les parfumeurs le reconstituent avec de l’eugénol et de l’isoeugénol, molécules présentes dans le clou de girofle, associées à la rose et à l’ylang-ylang. L’œillet a connu son apogée dans la première moitié du XXe siècle, avant de devenir une note plus discrète.",
+   "craft": "Placé au cœur, l’œillet réchauffe les floraux et fait le lien avec les bases orientales ou boisées. Il s’accorde avec la rose, le jasmin, la cannelle, le poivre, le patchouli et les résines. Opium d’Yves Saint Laurent l’intègre à son cœur épicé, Pour Monsieur de Chanel s’en sert pour relever une construction masculine classique, et Tabac Blond de Caron l’allie au cuir et à l’iris dans un esprit Années folles.",
+   "wear": "L’œillet se porte surtout en automne et en hiver ; il plaît aux amateurs de floraux épicés au charme rétro, hommes comme femmes.",
+   "faq": [
+    {
+     "q": "Quelle odeur a l’œillet ?",
+     "a": "L’œillet sent la fleur épicée : clou de girofle, poivre doux et une nuance de rose. C’est un floral chaud, moins sucré que la rose ou le jasmin, avec un caractère un peu rétro. En parfum, il apporte du piquant et de la profondeur au cœur de la composition, souvent en lien avec des bois ou des résines."
+    },
+    {
+     "q": "L’œillet est-il un parfum masculin ou féminin ?",
+     "a": "Les deux. L’œillet a marqué des féminins comme Opium d’Yves Saint Laurent ou Beautiful d’Estée Lauder, mais aussi des masculins comme Pour Monsieur de Chanel, Habit Rouge de Guerlain ou Kouros d’Yves Saint Laurent. Sa facette épicée de girofle s’accorde naturellement aux bois et aux cuirs des parfums pour homme."
+    },
+    {
+     "q": "Pourquoi l’œillet est-il rare dans les parfums actuels ?",
+     "a": "L’absolue naturelle d’œillet est coûteuse, et les molécules qui servent à le recréer, comme l’isoeugénol, sont encadrées par la réglementation sur les allergènes. Le goût a aussi évolué vers des floraux plus sucrés ou plus transparents. L’œillet revient toutefois dans certaines créations de niche qui recherchent son caractère épicé."
+    }
+   ]
+  },
+  "en": {
+   "title": "Carnation Perfumes: Scent, History and Classics",
+   "meta": "A spicy flower with a clove heart, carnation shaped many classic fragrances. Discover what carnation smells like, how it is recreated and where to find it.",
+   "h1": "Carnation in Perfume: a Flower with a Clove Heart",
+   "intro": "Carnation is a flower whose scent blends peppery petals, clove and a touch of rose. In perfumery it brings a warm, spicy and slightly vintage floral note. Because its absolute is rare, it is usually recreated as an accord.",
+   "smell": "Carnation smells first of spice: a clean, almost prickly clove, softened by rosy sweetness and a hint of honey. In older compositions it takes on a powdery, slightly faded character that recalls buttonholes and formal drawing rooms. On skin the spicy facet lasts well, binding with woods and resins into a dry warmth. Used lightly, it simply adds a spark to a floral bouquet.",
+   "origin": "Carnation (Dianthus caryophyllus) grows around the Mediterranean and was long associated with Grasse and the French Riviera. Its absolute, obtained by solvent extraction, is very expensive and rarely used. Perfumers rebuild it with eugenol and isoeugenol, molecules found in clove, together with rose and ylang-ylang. Carnation peaked in the first half of the twentieth century before becoming a more discreet note.",
+   "craft": "Placed in the heart, carnation warms up florals and bridges them to oriental or woody bases. It works with rose, jasmine, cinnamon, pepper, patchouli and resins. Yves Saint Laurent Opium folds it into its spicy heart, Chanel Pour Monsieur uses it to lift a classic masculine structure, and Caron Tabac Blond pairs it with leather and iris in a distinctly Roaring Twenties spirit.",
+   "wear": "Carnation suits autumn and winter and appeals to men and women who enjoy spicy florals with a retro charm.",
+   "faq": [
+    {
+     "q": "What does carnation smell like?",
+     "a": "Carnation smells like a spicy flower: clove, soft pepper and a hint of rose. It is a warm floral, less sweet than rose or jasmine, with a slightly retro character. In perfume it adds bite and depth to the heart of a composition, often in dialogue with woods or resins."
+    },
+    {
+     "q": "Is carnation a masculine or feminine note?",
+     "a": "Both. Carnation shaped feminine fragrances such as Yves Saint Laurent Opium and Estée Lauder Beautiful, but also masculine ones like Chanel Pour Monsieur, Guerlain Habit Rouge and Yves Saint Laurent Kouros. Its clove facet blends naturally with the woods and leathers typical of men's perfumery."
+    },
+    {
+     "q": "Why is carnation rare in modern perfumes?",
+     "a": "Natural carnation absolute is costly, and the molecules used to recreate it, such as isoeugenol, are restricted under allergen regulations. Taste has also shifted towards sweeter or more transparent florals. Carnation is making a quiet comeback in some niche creations that value its spicy character."
+    }
+   ]
+  }
+ },
+ "Citrus": {
+  "slug_fr": "agrumes",
+  "slug_en": "citrus",
+  "name_fr": "Agrumes",
+  "name_en": "Citrus",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums aux agrumes : odeur, origine et classiques",
+   "meta": "Citron, bergamote, orange : les agrumes donnent aux parfums leur éclat pétillant. Leur odeur, leur extraction et les parfums qui les mettent en valeur.",
+   "h1": "Les agrumes en parfum : l’éclat du zeste",
+   "intro": "La note agrumes regroupe les essences tirées de l’écorce du citron, de la bergamote, de l’orange, du pamplemousse ou de la mandarine. Elle sent le zeste frais, juteux et pétillant, avec une pointe d’amertume. C’est la note de tête par excellence, lumineuse mais fugace.",
+   "smell": "Un accord d’agrumes, c’est d’abord une giclée de zeste : acide, sucrée, légèrement amère, avec l’huile parfumée qui perle quand on plie l’écorce. Le citron apporte la vivacité, la bergamote une nuance florale et thé, l’orange une rondeur solaire. Sur la peau, cette fraîcheur est brillante mais brève : quelques dizaines de minutes au plus. Elle laisse ensuite place aux fleurs et aux bois, tout en colorant durablement la première impression du parfum.",
+   "origin": "Les essences d’agrumes s’obtiennent par expression à froid : l’écorce du fruit est pressée mécaniquement pour libérer ses poches d’huile, sans chauffage. L’Italie, notamment la Calabre et la Sicile pour la bergamote et le citron, reste une référence, aux côtés de l’Espagne, du Brésil ou des États-Unis. Les agrumes sont au cœur de l’eau de Cologne, née au XVIIIe siècle à Cologne, et de toute la tradition des eaux fraîches qui en découle.",
+   "craft": "En tête, les agrumes donnent l’élan initial et l’envie de revenir au flacon. Le parfumeur les associe au néroli, au petit-grain, aux herbes aromatiques comme le romarin, puis les ancre dans le vétiver, les muscs ou la mousse de chêne pour prolonger leur fraîcheur. Boss Bottled d’Hugo Boss les ouvre sur la pomme, Gucci Flora les pose sur un floral pétillant, et Galloway de Parfums de Marly les combine au poivre.",
+   "wear": "Les agrumes se portent au printemps et en été, au bureau comme en vacances ; ils plaisent à tous ceux qui recherchent une fraîcheur nette et facile.",
+   "faq": [
+    {
+     "q": "Pourquoi les notes d’agrumes ne tiennent-elles pas ?",
+     "a": "Les essences d’agrumes sont principalement composées de terpènes, des molécules légères qui s’évaporent très vite. C’est pourquoi elles brillent en ouverture puis disparaissent après quelques dizaines de minutes. Pour prolonger leur effet, les parfumeurs les associent à des muscs, du vétiver ou des molécules de synthèse plus tenaces qui imitent leur fraîcheur."
+    },
+    {
+     "q": "Quel parfum aux agrumes pour homme ?",
+     "a": "Les agrumes structurent de nombreux masculins frais. Boss Bottled d’Hugo Boss les associe à la pomme et aux bois, tandis que Galloway de Parfums de Marly, mixte, les allie au poivre. Plus largement, la plupart des eaux fraîches masculines s’ouvrent sur la bergamote, le citron ou le pamplemousse pour donner un départ net et énergique."
+    },
+    {
+     "q": "Les agrumes peuvent-ils être féminins ?",
+     "a": "Bien sûr. Les agrumes n’ont pas de genre et éclairent de nombreux parfums féminins. Gucci Flora les pose en tête d’un floral lumineux, Coach Floral les utilise pour ouvrir un bouquet pétillant. Dans ces compositions, les zestes apportent une fraîcheur souriante avant que les fleurs et les muscs ne prennent le relais."
+    }
+   ]
+  },
+  "en": {
+   "title": "Citrus Perfumes: Scent, Origin and Classics",
+   "meta": "Lemon, bergamot and orange give fragrances their bright sparkle. Learn how citrus smells in perfume, how it is extracted and which scents showcase it.",
+   "h1": "Citrus in Perfume: the Spark of Zest",
+   "intro": "The citrus note covers essences taken from the peel of lemon, bergamot, orange, grapefruit and mandarin. It smells of fresh, juicy, sparkling zest with a hint of bitterness. It is the quintessential top note: radiant, but fleeting.",
+   "smell": "A citrus accord is, first of all, a spray of zest: tart, sweet and faintly bitter, like the fragrant oil that beads when you fold a peel. Lemon brings liveliness, bergamot a floral, tea-like nuance, orange a sunny roundness. On skin this freshness is brilliant but brief, lasting a few dozen minutes at most. It then hands over to flowers and woods, while colouring the entire first impression of the perfume.",
+   "origin": "Citrus oils are obtained by cold expression: the peel is pressed mechanically to burst its oil glands, without heat. Italy, especially Calabria and Sicily for bergamot and lemon, remains a benchmark, alongside Spain, Brazil and the United States. Citrus lies at the heart of eau de Cologne, born in eighteenth-century Cologne, and of the whole tradition of fresh colognes that followed.",
+   "craft": "Up top, citrus provides the initial lift and the urge to reach for the bottle again. Perfumers pair it with neroli, petitgrain and aromatic herbs such as rosemary, then anchor it in vetiver, musks or oakmoss to extend its freshness. Hugo Boss Boss Bottled opens it onto apple, Gucci Flora sets it over a sparkling floral, and Parfums de Marly Galloway pairs it with pepper.",
+   "wear": "Citrus is ideal for spring and summer, at the office or on holiday, and suits anyone after an easy, clean freshness.",
+   "faq": [
+    {
+     "q": "Why don't citrus notes last long?",
+     "a": "Citrus oils are mostly made of terpenes, light molecules that evaporate very quickly. That is why they shine in the opening and fade after a few dozen minutes. To stretch the effect, perfumers pair them with musks, vetiver or longer-lasting synthetic molecules that mimic their freshness."
+    },
+    {
+     "q": "What are good citrus fragrances for men?",
+     "a": "Citrus is the backbone of countless fresh masculines. Hugo Boss Boss Bottled pairs it with apple and woods, while the unisex Parfums de Marly Galloway teams it with pepper. More broadly, most fresh men's fragrances open with bergamot, lemon or grapefruit to create a clean, energetic start."
+    },
+    {
+     "q": "Can citrus perfumes be feminine?",
+     "a": "Of course. Citrus has no gender and brightens many feminine fragrances. Gucci Flora places it at the top of a luminous floral, and Coach Floral uses it to open a sparkling bouquet. In such compositions the zest brings a cheerful freshness before the flowers and musks take over."
+    }
+   ]
+  }
+ },
+ "Coriander": {
+  "slug_fr": "coriandre",
+  "slug_en": "coriander",
+  "name_fr": "Coriandre",
+  "name_en": "Coriander",
+  "category": "spicy",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la coriandre : odeur, origine et classiques",
+   "meta": "Épicée, boisée et légèrement citronnée, la graine de coriandre apporte une fraîcheur originale aux parfums. Son odeur, son origine et ses grands usages.",
+   "h1": "La coriandre en parfum : une épice fraîche et lumineuse",
+   "intro": "En parfumerie, la coriandre désigne l’huile essentielle tirée de ses graines, et non de ses feuilles. Elle sent l’épice douce, boisée et légèrement citronnée, avec une facette florale due au linalol. C’est une épice fraîche, qui éclaire plutôt qu’elle ne réchauffe.",
+   "smell": "La graine de coriandre évoque le poivre doux, le bois clair et une écorce de citron, le tout enveloppé d’une nuance florale proche de la lavande ou du bois de rose. Rien à voir avec l’odeur verte et savonneuse de la feuille fraîche utilisée en cuisine. Sur la peau, elle démarre vive, puis se fond en une chaleur sèche et aromatique qui relie les agrumes aux notes de cœur. Discrète isolément, elle donne du grain à tout un accord.",
+   "origin": "La coriandre (Coriandrum sativum) est une ombellifère cultivée depuis l’Antiquité autour de la Méditerranée. Son huile essentielle s’obtient par distillation à la vapeur des graines broyées, très riches en linalol. Les principales zones de production se situent en Europe de l’Est, en Russie, au Maroc et en Inde. Employée de longue date dans les eaux aromatiques et les liqueurs, elle devient une signature des chypres et des fougères à partir des années 1960.",
+   "craft": "Le parfumeur place la coriandre en tête ou au cœur pour faire le lien entre agrumes et fleurs, ou pour épicer légèrement une fougère. Elle s’allie à la bergamote, au basilic, à la lavande, au jasmin et aux bois. Eau Sauvage de Dior l’intègre à son cœur aromatique, Coco de Chanel l’utilise en ouverture d’un oriental épicé, et Poison de Dior la place en tête aux côtés de la prune.",
+   "wear": "La coriandre se porte en toute saison, en particulier au printemps et à l’automne ; elle plaît à ceux qui aiment les fraîcheurs épicées et élégantes.",
+   "faq": [
+    {
+     "q": "Quelle odeur a la coriandre dans un parfum ?",
+     "a": "En parfum, la coriandre sent la graine, pas la feuille : une épice douce et sèche, légèrement poivrée, avec des accents de citron et une facette florale. Elle apporte une fraîcheur épicée très différente de la cannelle ou du clou de girofle, plus aérienne et lumineuse. On la perçoit surtout en ouverture et au cœur."
+    },
+    {
+     "q": "La coriandre sent-elle le savon en parfum ?",
+     "a": "Non, ou très peu. L’odeur savonneuse que certains détestent vient de la feuille fraîche, riche en aldéhydes. Les parfumeurs utilisent l’huile de graines, dominée par le linalol, qui sent plutôt l’épice douce, le bois clair et l’agrume. Elle n’a donc rien de la note verte et clivante qu’on associe à l’herbe de cuisine."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent de la coriandre ?",
+     "a": "La coriandre apparaît dans de nombreux classiques : Eau Sauvage de Dior, Coco et d’autres créations épicées de Chanel, Poison de Dior, Aromatics Elixir de Clinique, ou encore Cool Water de Davidoff et Acqua di Gio de Giorgio Armani côté masculin. Elle y joue souvent un rôle de liant entre la fraîcheur et le cœur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Coriander Perfumes: Scent, Origin and Classics",
+   "meta": "Spicy, woody and lightly lemony, coriander seed brings an unusual freshness to fragrance. How it smells in perfume, where it comes from and who uses it.",
+   "h1": "Coriander in Perfume: a Fresh, Luminous Spice",
+   "intro": "In perfumery, coriander means the essential oil distilled from its seeds, not its leaves. It smells of a soft, woody, lightly lemony spice with a floral facet from linalool. It is a fresh spice that brightens rather than warms.",
+   "smell": "Coriander seed recalls soft pepper, pale wood and lemon peel, all wrapped in a floral nuance close to lavender or rosewood. It has nothing to do with the green, soapy smell of the fresh herb used in cooking. On skin it starts lively, then melts into a dry, aromatic warmth that links citrus top notes to the heart. Quiet on its own, it adds texture to an entire accord.",
+   "origin": "Coriander (Coriandrum sativum) is an umbellifer grown around the Mediterranean since antiquity, prized in the kitchen long before the perfume lab. Its essential oil is steam-distilled from crushed, dried seeds that are exceptionally rich in linalool. Major producing areas include Eastern Europe, Russia, Morocco and India. Long used in aromatic waters and liqueurs, it became a quiet signature of chypres and fougères from the 1960s onward.",
+   "craft": "Perfumers place coriander in the top or heart to bridge citrus and florals, or to add a subtle, dry spice to a fougère without weighing it down. It pairs with bergamot, basil, lavender, jasmine and woods. Dior Eau Sauvage folds it into its aromatic heart, Chanel Coco uses it to open a spicy oriental, and Dior Poison sets it in the top alongside plum.",
+   "wear": "Coriander works in any season, especially spring and autumn, and appeals to lovers of elegant, spicy freshness.",
+   "faq": [
+    {
+     "q": "What does coriander smell like in perfume?",
+     "a": "In perfume, coriander smells of the seed, not the leaf: a soft, dry spice, lightly peppery, with lemony accents and a floral facet. It brings a spicy freshness quite unlike cinnamon or clove, airier and brighter. You notice it mainly in the opening and the heart of a fragrance."
+    },
+    {
+     "q": "Does coriander smell soapy in perfume?",
+     "a": "No, or barely. The soapy smell some people dislike comes from the fresh leaf, which is rich in aldehydes. Perfumers use seed oil, dominated by linalool, which smells of soft spice, pale wood and citrus. It has none of the green, divisive character associated with the kitchen herb."
+    },
+    {
+     "q": "Which famous perfumes contain coriander?",
+     "a": "Coriander appears in many classics: Dior Eau Sauvage, Chanel Coco, Dior Poison and Clinique Aromatics Elixir, as well as masculine favourites such as Davidoff Cool Water and Giorgio Armani Acqua di Gio. In these compositions it often acts as a link between freshness and the heart."
+    }
+   ]
+  }
+ },
+ "Galbanum": {
+  "slug_fr": "galbanum",
+  "slug_en": "galbanum",
+  "name_fr": "Galbanum",
+  "name_en": "Galbanum",
+  "category": "green",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au galbanum : odeur, origine et classiques",
+   "meta": "Vert intense, amer, résineux : le galbanum est la note verte la plus radicale de la parfumerie. Son odeur, son origine iranienne et ses grands classiques.",
+   "h1": "Le galbanum : le vert le plus intense de la parfumerie",
+   "intro": "Le galbanum est une gomme-résine tirée d’une plante d’Iran, qui donne au parfum une note verte intense, amère et résineuse. Il sent la tige coupée, le poivron vert et la sève. C’est la signature des grands floraux verts et des chypres.",
+   "smell": "Ouvrir un flacon de galbanum, c’est recevoir une gifle de vert : tige de jacinthe écrasée, poivron cru, petits pois écossés, avec une amertume presque terreuse. Derrière cette verdeur percent une facette balsamique et une nuance de pin. Sur la peau, l’attaque s’adoucit en quelques minutes et laisse un vert résineux, sec et élégant, qui structure les fleurs. Une goutte suffit : c’est l’une des matières les plus puissantes de la palette naturelle.",
+   "origin": "Le galbanum provient de Ferula gummosa, une grande ombellifère qui pousse principalement en Iran. On incise la racine et la base de la tige pour recueillir une gomme-résine, qui est ensuite distillée en huile essentielle ou traitée en résinoïde. Connu dès l’Antiquité comme encens, il entre dans la parfumerie moderne avec les chypres verts. Sa facette de poivron vert est liée à des pyrazines, molécules perçues à des doses infimes.",
+   "craft": "Le galbanum se place en tête pour donner une ouverture verte et tranchante, ou au cœur pour aérer un bouquet. Il se marie à l’iris, à la jacinthe, à la rose, à la mousse de chêne et au vétiver. Miss Dior de Dior, en 1947, l’utilise pour ouvrir un chypre vert, N°19 de Chanel l’associe à l’iris dans un floral vert devenu culte, et Vol de Nuit de Guerlain le pose en tête de sa composition.",
+   "wear": "Le galbanum se porte surtout au printemps ; il séduit les amateurs de parfums verts, élégants et un peu austères, loin des sucrés.",
+   "faq": [
+    {
+     "q": "Que sent le galbanum ?",
+     "a": "Le galbanum sent le vert à l’état pur : tige coupée, poivron cru, feuille écrasée, avec une amertume résineuse et une nuance de pin. C’est une odeur très puissante, presque piquante à l’ouverture, qui devient plus douce et balsamique sur la peau. Il donne aux parfums une élégance fraîche et un peu distante."
+    },
+    {
+     "q": "D’où vient le galbanum ?",
+     "a": "Le galbanum est une gomme-résine produite par Ferula gummosa, une plante de la famille des ombellifères qui pousse surtout en Iran. On la récolte en incisant la racine et la base de la tige. La résine est ensuite distillée pour obtenir une huile essentielle, ou transformée en résinoïde plus riche et plus tenace."
+    },
+    {
+     "q": "Quel est le parfum au galbanum le plus célèbre ?",
+     "a": "N°19 de Chanel, lancé en 1971, est souvent cité comme l’archétype du floral vert au galbanum, associé à l’iris. Miss Dior de 1947 l’employait déjà pour ouvrir un chypre vert. D’autres classiques comme Vol de Nuit de Guerlain, Tabac Blond de Caron ou Anaïs Anaïs de Cacharel l’utilisent également en tête."
+    }
+   ]
+  },
+  "en": {
+   "title": "Galbanum Perfumes: Scent, Origin and Classics",
+   "meta": "Intensely green, bitter and resinous, galbanum is perfumery's most radical green. What it smells like, where it comes from and the classics built on it.",
+   "h1": "Galbanum: Perfumery's Most Intense Green",
+   "intro": "Galbanum is a gum resin from an Iranian plant that gives perfume an intense, bitter, resinous green note. It smells of snapped stems, green bell pepper and sap. It is the signature of great green florals and chypres.",
+   "smell": "Opening a vial of galbanum feels like a slap of green: crushed hyacinth stem, raw bell pepper, freshly shelled peas, with an almost earthy bitterness. Behind that greenness lie a balsamic facet and a hint of pine. On skin the attack softens within minutes, leaving a dry, resinous, elegant green that gives structure to florals. A single drop is enough; it is one of the most powerful materials in the natural palette.",
+   "origin": "Galbanum comes from Ferula gummosa, a tall umbellifer that grows mainly in Iran. The root and lower stem are incised to collect a gum resin, which is then distilled into an essential oil or processed into a resinoid. Known in antiquity as an incense, it entered modern perfumery with the green chypres. Its green-pepper facet comes from pyrazines, molecules detectable at vanishingly small doses.",
+   "craft": "Galbanum sits in the top for a sharp green opening, or in the heart to air out a bouquet. It pairs with iris, hyacinth, rose, oakmoss and vetiver. Dior Miss Dior, in 1947, used it to open a green chypre, Chanel N°19 matched it with iris in a now-cult green floral, and Guerlain Vol de Nuit places it at the top of its composition.",
+   "wear": "Galbanum is at its best in spring and suits lovers of green, elegant, slightly austere fragrances far from sweetness.",
+   "faq": [
+    {
+     "q": "What does galbanum smell like?",
+     "a": "Galbanum smells of pure green: snapped stems, raw bell pepper and crushed leaves, with a resinous bitterness and a touch of pine. It is very powerful, almost sharp in the opening, and becomes softer and more balsamic on skin. It gives perfumes a cool, slightly aloof elegance."
+    },
+    {
+     "q": "Where does galbanum come from?",
+     "a": "Galbanum is a gum resin produced by Ferula gummosa, a plant in the umbellifer family that grows mostly in Iran. It is harvested by incising the root and the base of the stem. The resin is then distilled into an essential oil, or turned into a richer, longer-lasting resinoid."
+    },
+    {
+     "q": "What is the most famous galbanum perfume?",
+     "a": "Chanel N°19, launched in 1971, is often cited as the archetypal green floral built on galbanum and iris. Dior Miss Dior used it back in 1947 to open a green chypre. Other classics such as Guerlain Vol de Nuit, Caron Tabac Blond and Cacharel Anaïs Anaïs also feature it in their top notes."
+    }
+   ]
+  }
+ },
+ "Grapefruit": {
+  "slug_fr": "pamplemousse",
+  "slug_en": "grapefruit",
+  "name_fr": "Pamplemousse",
+  "name_en": "Grapefruit",
+  "category": "citrus",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au pamplemousse : odeur, origine et icônes",
+   "meta": "Acidulé, amer et juteux, le pamplemousse apporte une fraîcheur tonique aux parfums. Son odeur, ce qui la rend unique et les créations qui l’utilisent.",
+   "h1": "Le pamplemousse en parfum : une fraîcheur amère et pétillante",
+   "intro": "Le pamplemousse apporte au parfum une fraîcheur acidulée, amère et juteuse, plus tonique que celle du citron. Son odeur évoque le zeste rosé, la pulpe pressée et une nuance légèrement soufrée. On le trouve surtout en tête des parfums frais et des boisés modernes.",
+   "smell": "Le pamplemousse sent la pulpe rose pressée, avec une amertume qui pique le nez et une vivacité presque pétillante. Une facette légèrement soufrée, qu’on retrouve dans le fruit coupé, lui donne un réalisme saisissant. Sur la peau, il se montre éclatant puis se patine en une fraîcheur boisée, un peu minérale, surtout lorsqu’il est soutenu par des molécules comme la nootkatone. C’est un agrume adulte, moins sucré que l’orange et plus mordant que la bergamote.",
+   "origin": "Le pamplemousse (Citrus paradisi), né aux Caraïbes au XVIIIe siècle d’un croisement naturel, est cultivé notamment aux États-Unis, en Floride, ainsi qu’en Israël et en Afrique du Sud. Son essence s’obtient par expression à froid des écorces. Sa signature olfactive tient à la nootkatone, molécule boisée et hespéridée, et à un thiol soufré extrêmement puissant ; toutes deux sont aussi produites par synthèse ou biotechnologie, ce qui permet d’intensifier la note.",
+   "craft": "En tête, le pamplemousse donne une attaque nette et moderne. Il se lie au vétiver, au poivre, au gingembre, à la menthe et aux bois ambrés, qui prolongent sa fraîcheur. Terre d’Hermès, créé par Jean-Claude Ellena en 2006, l’associe à une facette minérale et au vétiver ; Bleu de Chanel l’utilise dans une ouverture boisée aromatique, et Coco Mademoiselle de Chanel le pose en tête d’un chypre floral.",
+   "wear": "Le pamplemousse se porte surtout au printemps et en été, en journée ; il plaît aux amateurs de fraîcheur tonique, hommes comme femmes.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le pamplemousse en parfum ?",
+     "a": "Le pamplemousse sent la pulpe rose fraîchement pressée : acidulé, juteux, avec une amertume nette et une facette légèrement soufrée qui le rend très réaliste. Il est plus tonique que le citron et moins sucré que l’orange. En parfum, il donne une ouverture pétillante qui évolue vers une fraîcheur boisée et minérale."
+    },
+    {
+     "q": "Quel parfum au pamplemousse pour homme ?",
+     "a": "Le pamplemousse est une note clé des masculins modernes. Terre d’Hermès l’associe au vétiver et à une facette minérale, Bleu de Chanel l’utilise en ouverture boisée, tandis qu’Invictus et 1 Million de Paco Rabanne le placent en tête pour un départ éclatant. Wood Sage & Sea Salt de Jo Malone en propose une version mixte."
+    },
+    {
+     "q": "Pourquoi le pamplemousse tient-il mieux que les autres agrumes ?",
+     "a": "L’essence naturelle reste volatile, comme tous les agrumes. Mais la nootkatone, molécule caractéristique du pamplemousse, est plus lourde et plus tenace que les terpènes du citron. Les parfumeurs l’utilisent souvent, naturelle ou de synthèse, pour prolonger l’effet pamplemousse bien au-delà des premières minutes, jusque dans le cœur boisé."
+    }
+   ]
+  },
+  "en": {
+   "title": "Grapefruit Perfumes: Scent, Origin and Icons",
+   "meta": "Tart, bitter and juicy, grapefruit brings a bracing freshness to fragrance. Learn what makes its scent unique and discover the perfumes that showcase it.",
+   "h1": "Grapefruit in Perfume: Bitter, Sparkling Freshness",
+   "intro": "Grapefruit gives perfume a tart, bitter, juicy freshness that feels more bracing than lemon. It smells of pink zest, pressed pulp and a faint sulphurous nuance. It appears mostly in the top notes of fresh and modern woody fragrances.",
+   "smell": "Grapefruit smells of freshly squeezed pink pulp, with a bitterness that tingles the nose and an almost fizzy liveliness. A slightly sulphurous facet, the same one you notice in a cut fruit, gives it striking realism. On skin it starts bright, then settles into a woody, faintly mineral freshness, especially when supported by molecules such as nootkatone. It is a grown-up citrus: less sweet than orange, sharper than bergamot.",
+   "origin": "Grapefruit (Citrus paradisi) arose in the Caribbean in the eighteenth century from a natural cross and is grown notably in Florida, as well as Israel and South Africa. Its oil is obtained by cold-pressing the peel. Its olfactory signature comes from nootkatone, a woody-citrus molecule, and from an extremely potent sulphur thiol; both are also produced by synthesis or biotechnology, allowing perfumers to amplify the note.",
+   "craft": "In the top, grapefruit delivers a clean, modern attack. It bonds with vetiver, pepper, ginger, mint and ambery woods, which extend its freshness. Hermès Terre d'Hermès, created by Jean-Claude Ellena in 2006, pairs it with a mineral facet and vetiver; Bleu de Chanel uses it in a woody aromatic opening, and Chanel Coco Mademoiselle sets it at the top of a floral chypre.",
+   "wear": "Grapefruit is best in spring and summer, for daytime, and suits men and women who love a bracing, tonic freshness.",
+   "faq": [
+    {
+     "q": "What does grapefruit smell like in perfume?",
+     "a": "Grapefruit smells of freshly squeezed pink pulp: tart and juicy, with a clear bitterness and a slightly sulphurous facet that makes it very realistic. It is more bracing than lemon and less sweet than orange. In perfume it gives a sparkling opening that drifts into a woody, mineral freshness."
+    },
+    {
+     "q": "What are good grapefruit fragrances for men?",
+     "a": "Grapefruit is a key note in modern masculines. Terre d'Hermès pairs it with vetiver and a mineral facet, Bleu de Chanel uses it in a woody opening, while Paco Rabanne Invictus and 1 Million place it up top for a bright start. Jo Malone Wood Sage & Sea Salt offers a unisex take."
+    },
+    {
+     "q": "Why does grapefruit last longer than other citrus?",
+     "a": "The natural oil is volatile, like all citrus. But nootkatone, the molecule most characteristic of grapefruit, is heavier and more tenacious than the terpenes in lemon. Perfumers often use it, natural or synthetic, to stretch the grapefruit effect well beyond the first minutes and into the woody heart."
+    }
+   ]
+  }
+ },
+ "Heliotrope": {
+  "slug_fr": "heliotrope",
+  "slug_en": "heliotrope",
+  "name_fr": "Héliotrope",
+  "name_en": "Heliotrope",
+  "category": "floral",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à l’héliotrope : odeur d’amande et de poudre",
+   "meta": "Amande, pâte à modeler, poudre de riz : l’héliotrope est la fleur la plus gourmande de la parfumerie. Son odeur, sa reconstitution et les parfums clés.",
+   "h1": "L’héliotrope en parfum : une fleur poudrée aux accents d’amande",
+   "intro": "L’héliotrope est une petite fleur mauve dont l’odeur évoque l’amande, la vanille et la poudre de riz. En parfumerie, il est recréé par un accord, car la fleur ne donne pas d’extrait exploitable. Il apporte une douceur poudrée, un peu rétro, à la frontière du gourmand.",
+   "smell": "L’héliotrope sent l’amande amère adoucie de vanille, la pâte à modeler, la poudre de maquillage et la cerise confite. Sa texture est cotonneuse, presque crémeuse, avec une légère facette florale mauve. Sur la peau, il gagne en rondeur et se rapproche d’une vanille poudrée, douce et câline, qui tient bien grâce aux molécules qui le composent. Il évoque volontiers la boîte à poudre d’une grand-mère ou une pâtisserie aux amandes.",
+   "origin": "L’héliotrope (Heliotropium arborescens), originaire du Pérou, était cultivé dans les jardins européens dès le XVIIIe siècle pour son parfum. Mais son extraction est trop peu rentable : les parfumeurs le reconstituent depuis la fin du XIXe siècle grâce à l’héliotropine, aussi appelée pipéronal, molécule de synthèse à l’odeur d’amande poudrée, associée à la coumarine, à la vanilline et à des notes florales. C’est l’une des premières fleurs rendues possibles par la chimie.",
+   "craft": "Au cœur ou en fond, l’héliotrope adoucit une composition et lui donne une texture poudrée. Il se marie à l’iris, à la violette, à la vanille, à la fève tonka et aux muscs. Pegasus de Parfums de Marly l’associe à l’amande et à la vanille dans une signature gourmande, Kirke de Tiziana Terenzi le place en fond d’un fruité musqué, et Alien Goddess de Mugler l’utilise pour arrondir son cœur floral.",
+   "wear": "L’héliotrope se porte surtout en automne et en hiver ; il plaît aux amateurs de douceur poudrée et de gourmands élégants.",
+   "faq": [
+    {
+     "q": "Quelle odeur a l’héliotrope ?",
+     "a": "L’héliotrope sent l’amande poudrée : un mélange de pâte d’amande, de vanille, de poudre de riz et de pâte à modeler, avec une discrète nuance florale. C’est une note douce, réconfortante et un peu nostalgique. En parfum, elle adoucit les compositions et fait le lien entre les floraux poudrés et les gourmands."
+    },
+    {
+     "q": "L’héliotrope est-il naturel en parfumerie ?",
+     "a": "Presque jamais. La fleur existe bien, mais son extraction n’est pas rentable. Les parfumeurs reconstituent son odeur par un accord, principalement autour de l’héliotropine, une molécule de synthèse aussi appelée pipéronal, complétée par la coumarine et la vanilline. C’est ce qui permet d’obtenir une note régulière et tenace."
+    },
+    {
+     "q": "Quel parfum à l’héliotrope pour homme ?",
+     "a": "Pegasus de Parfums de Marly est l’exemple le plus connu : un masculin gourmand où l’héliotrope, placé en tête, s’allie à l’amande, à la vanille et au santal. Sa version Pegasus Exclusif reprend cette idée. L’héliotrope apporte aux parfums masculins une douceur poudrée qui tranche avec les boisés classiques."
+    }
+   ]
+  },
+  "en": {
+   "title": "Heliotrope Perfumes: Almond and Powder Notes",
+   "meta": "Almond, play-dough and face powder: heliotrope is perfumery's most gourmand flower. Discover its scent, how it is recreated and the key fragrances.",
+   "h1": "Heliotrope in Perfume: a Powdery Flower with Almond Accents",
+   "intro": "Heliotrope is a small purple flower whose scent recalls almond, vanilla and face powder. In perfumery it is recreated as an accord, since the flower yields no usable extract. It brings a soft, powdery, slightly retro sweetness that borders on gourmand.",
+   "smell": "Heliotrope smells of bitter almond softened by vanilla, play-dough, cosmetic powder and candied cherry. Its texture is cottony, almost creamy, with a faint mauve floral facet. On skin it grows rounder and moves towards a powdery, cuddly vanilla that lasts well thanks to the molecules behind it. It easily conjures a grandmother's powder compact or an almond pastry fresh from the oven.",
+   "origin": "Heliotrope (Heliotropium arborescens), native to Peru, was grown in European gardens from the eighteenth century for its fragrance. Extraction is not commercially viable, so since the late nineteenth century perfumers have rebuilt it using heliotropin, also called piperonal, a synthetic molecule with a powdery almond scent, combined with coumarin, vanillin and floral notes. It was one of the first flowers made possible by chemistry.",
+   "craft": "In the heart or base, heliotrope softens a composition and gives it a powdery texture. It pairs with iris, violet, vanilla, tonka bean and musks. Parfums de Marly Pegasus pairs it with almond and vanilla in a gourmand signature, Tiziana Terenzi Kirke places it in the base of a musky fruity, and Mugler Alien Goddess uses it to round out its floral heart.",
+   "wear": "Heliotrope is best in autumn and winter and appeals to lovers of powdery softness and elegant gourmands.",
+   "faq": [
+    {
+     "q": "What does heliotrope smell like?",
+     "a": "Heliotrope smells of powdery almond: a blend of marzipan, vanilla, face powder and play-dough, with a discreet floral nuance. It is soft, comforting and a little nostalgic. In perfume it smooths out compositions and gently bridges powdery florals and gourmands."
+    },
+    {
+     "q": "Is heliotrope natural in perfume?",
+     "a": "Almost never. The flower exists, but extracting its scent is not viable. Perfumers recreate it as an accord built mainly around heliotropin, a synthetic molecule also known as piperonal, supported by coumarin and vanillin. That approach gives a consistent, long-lasting note."
+    },
+    {
+     "q": "What is a good heliotrope fragrance for men?",
+     "a": "Parfums de Marly Pegasus is the best-known example: a gourmand masculine where heliotrope, in the top notes, meets almond, vanilla and sandalwood. Its Pegasus Exclusif version follows the same idea. Heliotrope brings a powdery softness to men's fragrances that stands apart from classic woody scents."
+    }
+   ]
+  }
+ },
+ "Jasmine": {
+  "slug_fr": "jasmin",
+  "slug_en": "jasmine",
+  "name_fr": "Jasmin",
+  "name_en": "Jasmine",
+  "category": "floral",
+  "source": "both",
+  "fr": {
+   "title": "Parfums au jasmin : odeur, origine et grands classiques",
+   "meta": "Solaire, fruité, parfois animal : le jasmin est le cœur de nombreux grands parfums. Son odeur, sa récolte à Grasse et en Inde, et les créations phares.",
+   "h1": "Le jasmin en parfum : la fleur blanche au cœur des grands classiques",
+   "intro": "Le jasmin est une fleur blanche dont l’odeur mêle douceur fruitée, notes de thé, de miel et une facette animale due à l’indole. En parfumerie, il est l’une des matières florales les plus utilisées, au cœur d’innombrables compositions. Son absolue, extraite des fleurs cueillies à l’aube, est précieuse et intense.",
+   "smell": "Le jasmin grandiflorum sent la fleur blanche épanouie, fruitée comme une poire mûre, avec des accents de thé vert et de miel. Le sambac, plus vert et plus exotique, rappelle l’orange et le thé au jasmin. Tous deux cachent une nuance charnelle, presque animale, liée à l’indole. Sur la peau, le jasmin s’épanouit lentement, rayonne dans le cœur du parfum puis se fond dans les bois et les muscs, laissant une trace solaire et sensuelle.",
+   "origin": "Le Jasminum grandiflorum est cultivé en Égypte, en Inde et, en petite quantité, à Grasse, où il a fait la réputation de la ville ; le Jasminum sambac vient surtout d’Inde. Les fleurs, cueillies à la main au lever du jour, sont traitées par extraction aux solvants pour donner une concrète puis une absolue ; l’enfleurage était utilisé autrefois. La synthèse a apporté l’hédione, molécule jasminée lumineuse, que Dior utilisa de façon marquante dans Eau Sauvage en 1966.",
+   "craft": "Le jasmin occupe le plus souvent le cœur, où il donne corps, rondeur et sensualité. Il forme avec la rose l’accord floral classique, et se marie à la tubéreuse, à l’ylang-ylang, au santal, au patchouli et à la vanille. N°5 de Chanel en fait l’un des piliers de son bouquet, Joy de Patou l’associe à la rose dans une opulence florale, et Eau Sauvage de Dior l’utilise pour adoucir sa fraîcheur hespéridée.",
+   "wear": "Le jasmin se porte en toute saison, surtout au printemps et les soirs d’été ; il séduit les amateurs de floraux sensuels et lumineux.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le jasmin en parfum ?",
+     "a": "Le jasmin sent la fleur blanche solaire : douce, fruitée, légèrement miellée, avec des accents de thé et une facette plus charnelle apportée par l’indole. Selon l’espèce, il peut être plus vert et exotique, comme le sambac, ou plus rond et fruité, comme le grandiflorum. En parfum, il donne volume et sensualité au cœur de la composition."
+    },
+    {
+     "q": "Le jasmin est-il réservé aux parfums féminins ?",
+     "a": "Non. Le jasmin est très présent dans les féminins, mais il joue aussi un rôle discret dans de nombreux masculins. Eau Sauvage de Dior l’intègre à son cœur aromatique, et Acqua di Gio de Giorgio Armani l’utilise pour arrondir sa fraîcheur. Dosé légèrement, il apporte de la douceur et de l’éclat sans rendre le parfum floral."
+    },
+    {
+     "q": "Pourquoi le jasmin de Grasse est-il si réputé ?",
+     "a": "Le jasmin grandiflorum cultivé à Grasse est réputé pour sa finesse et sa richesse aromatique, fruit d’un terroir et d’un savoir-faire de cueillette transmis depuis des générations. Sa production est aujourd’hui très limitée et coûteuse, ce qui en fait une matière d’exception. Chanel, par exemple, cultive du jasmin dans la région pour ses parfums."
+    }
+   ]
+  },
+  "en": {
+   "title": "Jasmine Perfumes: Scent, Origin and Great Classics",
+   "meta": "Radiant, fruity and faintly animalic, jasmine sits at the heart of countless great perfumes. Its scent, its harvest in Grasse and India, and key scents.",
+   "h1": "Jasmine in Perfume: the White Flower at the Heart of the Classics",
+   "intro": "Jasmine is a white flower whose scent blends fruity sweetness, notes of tea and honey, and an animalic facet from indole. It is one of the most widely used floral materials in perfumery, at the heart of countless compositions. Its absolute, extracted from blossoms picked at dawn, is precious and intense.",
+   "smell": "Jasminum grandiflorum smells of a white flower in full bloom, fruity like ripe pear, with hints of green tea and honey. Sambac is greener and more exotic, closer to orange and jasmine tea. Both hide a carnal, almost animalic undertone linked to indole. On skin jasmine opens slowly, radiates through the heart of the perfume and then melts into woods and musks, leaving a sunny, sensual trail.",
+   "origin": "Jasminum grandiflorum is grown in Egypt, India and, in small quantities, Grasse, where it built the town's reputation; Jasminum sambac comes mostly from India. Blossoms are hand-picked at daybreak and solvent-extracted into a concrete, then an absolute; enfleurage was used in the past. Chemistry later added hedione, a luminous, airy jasmine-like molecule that Dior famously used in Eau Sauvage in 1966.",
+   "craft": "Jasmine usually sits in the heart, where it adds body, roundness and sensuality. With rose it forms the classic floral accord, and it pairs with tuberose, ylang-ylang, sandalwood, patchouli and vanilla. Chanel N°5 makes it a pillar of its bouquet, Patou Joy pairs it with rose in lavish floral abundance, and Dior Eau Sauvage uses it to soften a crisp citrus freshness.",
+   "wear": "Jasmine works in every season, especially spring and summer evenings, and appeals to lovers of sensual, luminous florals.",
+   "faq": [
+    {
+     "q": "What does jasmine smell like in perfume?",
+     "a": "Jasmine smells like a sunny white flower: sweet, fruity and lightly honeyed, with tea accents and a more carnal facet from indole. Depending on the species it can be greener and more exotic, like sambac, or rounder and fruitier, like grandiflorum. In perfume it gives volume and sensuality to the heart of a composition."
+    },
+    {
+     "q": "Is jasmine only for women's perfume?",
+     "a": "No. Jasmine is everywhere in feminine fragrances, but it also plays a discreet role in many masculines. Dior Eau Sauvage folds it into its aromatic heart, and Giorgio Armani Acqua di Gio uses it to round out its freshness. Used lightly, it adds softness and radiance without making a scent overtly floral."
+    },
+    {
+     "q": "Why is Grasse jasmine so highly prized?",
+     "a": "Grandiflorum jasmine grown in Grasse is prized for its finesse and aromatic richness, the product of a particular terroir and picking know-how handed down over generations. Production today is very limited and costly, making it an exceptional material. Chanel, for instance, grows jasmine in the area for its perfumes."
+    }
+   ]
+  }
+ },
+ "Leather": {
+  "slug_fr": "cuir",
+  "slug_en": "leather",
+  "name_fr": "Cuir",
+  "name_en": "Leather",
+  "category": "animalic",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au cuir : odeur, histoire et créations cultes",
+   "meta": "Fumé, animal, doux comme un gant ou brut comme une selle : la note cuir traverse l’histoire du parfum. Son odeur, sa fabrication et les créations cultes.",
+   "h1": "Le cuir en parfum : de la tannerie de Grasse aux créations modernes",
+   "intro": "La note cuir est un accord qui recrée l’odeur d’une peau tannée : fumée, légèrement animale, parfois douce comme un daim. Elle ne provient pas du cuir lui-même mais d’un assemblage de matières naturelles et synthétiques. C’est l’une des familles les plus sensuelles et les plus anciennes de la parfumerie.",
+   "smell": "Selon sa construction, le cuir peut sentir la selle patinée, le goudron de bouleau et la fumée, ou au contraire le gant souple, poudré, presque floral. On y perçoit souvent une amertume, une facette animale un peu sale et une chaleur de peau. Sur la peau, l’accord cuir gagne en rondeur avec le temps, s’adoucit au contact des muscs et de l’ambre, et tient longtemps. C’est une note de fond, qui imprime son caractère à l’ensemble.",
+   "origin": "L’histoire du parfum cuir commence avec les gantiers-parfumeurs de Grasse, qui parfumaient les peaux pour masquer l’odeur du tannage. Au début du XXe siècle, l’accord « cuir de Russie » s’inspire des peaux tannées au goudron de bouleau. Aujourd’hui, les parfumeurs le construisent avec du goudron de bouleau rectifié, du castoréum de synthèse, du styrax, des quinoléines à l’odeur fumée, ainsi que des molécules plus modernes aux accents de safran et de daim.",
+   "craft": "Le cuir s’installe en fond ou au cœur, où il donne du caractère et de la tenue. Il s’accorde avec l’iris, la violette, le safran, le tabac, la vanille, les bois et le patchouli. Tabac Blond de Caron, en 1919, en fait un parfum féminin audacieux ; Fahrenheit de Dior le pose en fond sous la violette et les bois ; Ombre Leather de Tom Ford le met au cœur d’une composition sombre et contemporaine.",
+   "wear": "Le cuir se porte surtout en automne et en hiver, en soirée ; il plaît à ceux qui aiment les parfums de caractère, sensuels et affirmés.",
+   "faq": [
+    {
+     "q": "Que sent une note cuir en parfum ?",
+     "a": "Une note cuir sent la peau tannée : fumée, légèrement amère, animale et chaude. Selon l’accord, elle peut évoquer une selle, une veste en cuir ou un gant de daim plus doux et poudré. Ce n’est pas une matière unique, mais une construction du parfumeur, souvent associée à l’iris, à la violette ou aux bois."
+    },
+    {
+     "q": "Le parfum cuir est-il masculin ?",
+     "a": "Pas forcément. Si le cuir marque de nombreux masculins comme Fahrenheit de Dior ou Drakkar Noir de Guy Laroche, il a aussi inspiré des féminins audacieux, à commencer par Tabac Blond de Caron en 1919 ou N°19 de Chanel. Des créations mixtes comme Ombre Leather de Tom Ford montrent que la note n’a pas de genre."
+    },
+    {
+     "q": "Les parfums cuir contiennent-ils du vrai cuir ?",
+     "a": "Non. Le cuir en parfum est un accord : il n’est pas extrait de peaux animales. Les parfumeurs le reconstituent avec des matières comme le goudron de bouleau, le styrax, des quinoléines et diverses molécules de synthèse qui imitent la fumée, la peau et le daim. Le résultat évoque le cuir sans en contenir."
+    }
+   ]
+  },
+  "en": {
+   "title": "Leather Perfumes: Scent, History and Cult Scents",
+   "meta": "Smoky, animalic, soft as a glove or raw as a saddle: leather runs through perfume history. What it smells like, how it is made and the scents to know.",
+   "h1": "Leather in Perfume: from Grasse Tanneries to Modern Icons",
+   "intro": "Leather in perfume is an accord that recreates the scent of tanned hide: smoky, slightly animalic, sometimes soft as suede. It does not come from leather itself but from a blend of natural and synthetic materials. It is one of the most sensual and oldest families in perfumery.",
+   "smell": "Depending on its construction, leather can smell of a worn saddle, birch tar and smoke, or of a supple, powdery, almost floral glove. There is often a bitterness, a faintly dirty animalic facet and the warmth of skin. On the body the accord grows rounder over time, softening against musks and amber, and it lasts for hours. It is a base note that stamps its character on the whole fragrance.",
+   "origin": "Leather perfumery began with the glovers-perfumers of Grasse, who scented hides to mask the smell of tanning. In the early twentieth century the Cuir de Russie accord took inspiration from hides tanned with birch tar. Today perfumers build it from rectified birch tar, synthetic castoreum, styrax and smoky quinolines, along with more recent molecules that bring saffron and suede nuances.",
+   "craft": "Leather sits in the base or heart, adding character and staying power. It works with iris, violet, saffron, tobacco, vanilla, woods and patchouli. Caron Tabac Blond, in 1919, turned it into a daring feminine perfume; Dior Fahrenheit sets it in the base beneath violet and woods; Tom Ford Ombre Leather places it at the heart of a dark, contemporary composition.",
+   "wear": "Leather is best in autumn and winter and for evenings, for anyone who enjoys bold, sensual fragrances with character.",
+   "faq": [
+    {
+     "q": "What does leather smell like in perfume?",
+     "a": "A leather note smells of tanned hide: smoky, slightly bitter, animalic and warm. Depending on the accord it can recall a saddle, a leather jacket or a softer, powdery suede glove. It is not a single material but a perfumer's construction, often paired with iris, violet or woods."
+    },
+    {
+     "q": "Is leather a masculine fragrance note?",
+     "a": "Not necessarily. Leather defines many masculines such as Dior Fahrenheit and Guy Laroche Drakkar Noir, but it also inspired daring feminine fragrances, starting with Caron Tabac Blond in 1919 and later Chanel N°19. Unisex creations like Tom Ford Ombre Leather prove the note has no gender."
+    },
+    {
+     "q": "Do leather perfumes contain real leather?",
+     "a": "No. Leather in perfume is an accord and is not extracted from animal hides. Perfumers rebuild it with materials such as birch tar, styrax, quinolines and various synthetic molecules that imitate smoke, skin and suede. The result evokes leather without containing any."
+    }
+   ]
+  }
+ },
+ "Lily of the Valley": {
+  "slug_fr": "muguet",
+  "slug_en": "lily-of-the-valley",
+  "name_fr": "Muguet",
+  "name_en": "Lily of the Valley",
+  "category": "floral",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au muguet : odeur, reconstitution et classiques",
+   "meta": "Frais, vert, cristallin : le muguet est une fleur muette que les parfumeurs recréent de toutes pièces. Son odeur, les molécules clés et les parfums phares.",
+   "h1": "Le muguet en parfum : une fleur muette recréée par la chimie",
+   "intro": "Le muguet est une petite fleur printanière dont l’odeur est fraîche, verte, légèrement citronnée et très lumineuse. Il fait partie des fleurs dites muettes : aucun extrait naturel exploitable n’en est tiré. Les parfumeurs le recréent donc entièrement par un accord de synthèse.",
+   "smell": "Le muguet sent la rosée et la tige verte, avec une douceur florale transparente, presque aqueuse, et une pointe citronnée. Il évoque le propre, le printemps, le linge frais sans la dimension savonneuse des aldéhydes. Sur la peau, l’accord muguet apporte de l’air et de la légèreté au cœur d’un parfum, puis se fond dans les muscs. C’est une fleur blanche sans lourdeur, cristalline, l’opposé des floraux capiteux comme la tubéreuse.",
+   "origin": "Le muguet (Convallaria majalis) pousse dans les sous-bois d’Europe. Ses fleurs ne livrent pas d’extrait utilisable, si bien que sa note repose sur des molécules de synthèse comme l’hydroxycitronellal, historiquement central. Deux autres piliers, le Lilial et le Lyral, ont été interdits dans les cosmétiques de l’Union européenne au début des années 2020, obligeant les parfumeurs à réinventer leurs accords. En France, la fleur est associée au 1er mai.",
+   "craft": "Le muguet se place au cœur, souvent en association avec la rose, le jasmin, le lilas ou la pivoine, pour donner de la transparence et de la fraîcheur. Il aère les bouquets et adoucit les compositions boisées. Arpège de Lanvin l’intègre à son cœur floral aldéhydé, Paris d’Yves Saint Laurent l’accompagne de rose et d’iris, et Chloé Eau de Parfum l’associe à la rose et au magnolia pour un floral poudré.",
+   "wear": "Le muguet se porte au printemps et en été, en journée ; il plaît aux amateurs de floraux frais, propres et délicats.",
+   "faq": [
+    {
+     "q": "Que sent le muguet en parfum ?",
+     "a": "Le muguet sent la fleur fraîche et verte, avec une douceur transparente, presque aqueuse, et une touche citronnée. C’est un floral lumineux et léger, qui évoque le printemps et le propre. En parfum, il apporte de l’air au cœur de la composition, loin des fleurs blanches capiteuses comme la tubéreuse ou le jasmin."
+    },
+    {
+     "q": "Pourquoi le muguet est-il synthétique en parfumerie ?",
+     "a": "Le muguet est une fleur muette : ses fleurs ne permettent pas d’obtenir un extrait naturel exploitable par distillation ou extraction. Pour capter son odeur, les parfumeurs utilisent des molécules de synthèse comme l’hydroxycitronellal, complétées par d’autres notes florales et vertes. Tous les parfums au muguet reposent donc sur un accord reconstitué."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent du muguet ?",
+     "a": "Le muguet figure au cœur de nombreux classiques : Arpège de Lanvin, Paris d’Yves Saint Laurent, Chloé Eau de Parfum ou N°22 de Chanel. On le retrouve aussi dans des créations masculines, comme L’Eau d’Issey Pour Homme d’Issey Miyake, et dans des mixtes comme Replica Lazy Sunday Morning de Maison Margiela."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lily of the Valley Perfumes: Scent and Classics",
+   "meta": "Fresh, green and crystalline, lily of the valley is a mute flower perfumers must recreate. Its scent, the key molecules behind it and the classic perfumes.",
+   "h1": "Lily of the Valley in Perfume: a Mute Flower Rebuilt by Chemistry",
+   "intro": "Lily of the valley is a small spring flower with a fresh, green, slightly lemony and very luminous scent. It belongs to the so-called mute flowers: no usable natural extract can be obtained from it. Perfumers therefore recreate it entirely through a synthetic accord.",
+   "smell": "Lily of the valley smells of dew and green stems, with a transparent, almost watery floral sweetness and a lemony touch. It evokes cleanliness, springtime and fresh linen, without the soapiness of aldehydes. On skin the accord brings air and lightness to the heart of a perfume before melting into musks. It is a white flower with no heaviness, crystalline, the very opposite of heady florals like tuberose.",
+   "origin": "Lily of the valley (Convallaria majalis) grows in European woodlands. Its blossoms yield no usable extract, so the note relies on synthetic molecules such as hydroxycitronellal, historically central. Two other mainstays, Lilial and Lyral, were banned from cosmetics in the European Union in the early 2020s, forcing perfumers to reinvent their accords. In France the flower is traditionally offered on the first of May.",
+   "craft": "Lily of the valley sits in the heart, often alongside rose, jasmine, lilac or peony, to add transparency and freshness. It airs out bouquets and softens woody compositions. Lanvin Arpège folds it into its aldehydic floral heart, Yves Saint Laurent Paris surrounds it with rose and iris, and Chloé Eau de Parfum pairs it with rose and magnolia for a powdery floral.",
+   "wear": "Lily of the valley suits spring and summer daytime wear, for lovers of fresh, clean and delicate florals.",
+   "faq": [
+    {
+     "q": "What does lily of the valley smell like?",
+     "a": "Lily of the valley smells of a fresh, green flower with a transparent, almost watery sweetness and a lemony touch. It is a light, luminous floral that evokes springtime and cleanliness. In perfume it brings air to the heart of a composition, far from heady white flowers like tuberose or jasmine."
+    },
+    {
+     "q": "Why is lily of the valley synthetic in perfume?",
+     "a": "Lily of the valley is a mute flower: its blossoms cannot yield a usable natural extract through distillation or solvent extraction. To capture its scent, perfumers use synthetic molecules such as hydroxycitronellal, supported by other floral and green notes. Every lily of the valley perfume therefore relies on a reconstructed accord."
+    },
+    {
+     "q": "Which famous perfumes feature lily of the valley?",
+     "a": "Lily of the valley sits at the heart of many classics: Lanvin Arpège, Yves Saint Laurent Paris, Chloé Eau de Parfum and Chanel N°22. It also appears in masculine creations such as Issey Miyake L'Eau d'Issey Pour Homme, and in unisex scents like Maison Margiela Replica Lazy Sunday Morning."
+    }
+   ]
+  }
+ },
+ "Mandarin": {
+  "slug_fr": "mandarine",
+  "slug_en": "mandarin",
+  "name_fr": "Mandarine",
+  "name_en": "Mandarin",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la mandarine : odeur, origine et icônes",
+   "meta": "Sucrée, juteuse, plus ronde que le citron : la mandarine apporte une fraîcheur souriante aux parfums. Son odeur, son origine et les créations phares.",
+   "h1": "La mandarine en parfum : l’agrume le plus doux",
+   "intro": "La mandarine est un agrume dont l’essence apporte au parfum une fraîcheur sucrée, juteuse et ronde, moins acide que le citron. Son odeur évoque le quartier de fruit pelé, avec une nuance florale et légèrement épicée. On la trouve surtout en note de tête, dans tous les styles de parfums.",
+   "smell": "La mandarine sent le fruit fraîchement pelé, avec une douceur presque confite et une petite amertume de zeste. La mandarine verte est plus acidulée et pétillante, la rouge plus sucrée et ronde. Une facette florale, proche du néroli, et une nuance légèrement épicée la rendent plus chaleureuse que les autres agrumes. Sur la peau, elle s’évapore assez vite mais laisse une impression lumineuse et souriante, qui adoucit l’entrée en matière du parfum.",
+   "origin": "La mandarine (Citrus reticulata), originaire de Chine, est cultivée en Italie, notamment en Sicile et en Calabre, ainsi qu’au Brésil et en Espagne. Son essence s’obtient par expression à froid des écorces. Selon le moment de la récolte, on distingue les essences verte, jaune et rouge, de plus en plus sucrées. Sa signature tient en partie au N-méthylanthranilate de méthyle, qui lui donne sa facette florale et légèrement fumée.",
+   "craft": "En tête, la mandarine apporte une fraîcheur ronde qui adoucit les compositions. Elle se marie au néroli, à la bergamote, au basilic, aux épices chaudes, à la rose et à la vanille. Lime Basil & Mandarin de Jo Malone en fait l’une de ses vedettes, 1 Million de Paco Rabanne l’associe au pamplemousse et à la menthe, et Allure de Chanel l’utilise pour éclairer un floral oriental.",
+   "wear": "La mandarine se porte en toutes saisons, particulièrement au printemps et en été ; elle plaît à ceux qui aiment une fraîcheur douce, jamais agressive.",
+   "faq": [
+    {
+     "q": "Quelle odeur a la mandarine en parfum ?",
+     "a": "La mandarine sent le fruit pelé, juteux et sucré, avec une légère amertume de zeste et une facette florale. Elle est plus douce et ronde que le citron ou le pamplemousse. En parfum, elle donne une ouverture lumineuse et chaleureuse, qui s’accorde aussi bien avec les fleurs qu’avec les épices et les bois."
+    },
+    {
+     "q": "Quelle différence entre mandarine et orange en parfum ?",
+     "a": "L’orange douce est plus simple, plus solaire et légèrement plus acide. La mandarine possède une nuance florale et presque épicée, due notamment au N-méthylanthranilate de méthyle, qui la rend plus complexe et plus sucrée. Les parfumeurs choisissent la mandarine pour une fraîcheur plus veloutée, et l’orange pour un éclat plus direct."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent de la mandarine ?",
+     "a": "La mandarine est très répandue : Shalimar de Guerlain, Opium d’Yves Saint Laurent, Allure de Chanel, Alien de Mugler ou Fahrenheit de Dior l’utilisent en tête. Côté masculins modernes, 1 Million et Invictus de Paco Rabanne s’ouvrent également sur la mandarine, souvent associée au pamplemousse."
+    }
+   ]
+  },
+  "en": {
+   "title": "Mandarin Perfumes: Scent, Origin and Icons",
+   "meta": "Sweet, juicy and rounder than lemon, mandarin brings a smiling freshness to fragrance. Its scent, where it comes from and the perfumes that feature it.",
+   "h1": "Mandarin in Perfume: the Sweetest Citrus",
+   "intro": "Mandarin is a citrus fruit whose oil gives perfume a sweet, juicy, rounded freshness that is less sharp than lemon. It smells of a freshly peeled segment, with floral and slightly spicy nuances. It mostly appears in the top notes, across every style of fragrance.",
+   "smell": "Mandarin smells of freshly peeled fruit, with an almost candied sweetness and a touch of zesty bitterness. Green mandarin is tarter and fizzier, red mandarin sweeter and rounder. A floral facet close to neroli and a faintly spicy nuance make it warmer than other citrus notes. On skin it evaporates fairly quickly but leaves a luminous, cheerful impression that softens the opening of a perfume.",
+   "origin": "Mandarin (Citrus reticulata), native to China, is grown in Italy, notably Sicily and Calabria, as well as Brazil and Spain. Its oil is obtained by cold-pressing the peel. Depending on harvest time, perfumers distinguish green, yellow and red oils, each sweeter than the last. Part of its signature comes from methyl N-methylanthranilate, which gives it a floral, slightly smoky facet.",
+   "craft": "In the top notes mandarin brings a rounded freshness that softens a composition and makes its opening more inviting. It pairs with neroli, bergamot, basil, warm spices, rose and vanilla. Jo Malone Lime Basil & Mandarin makes it one of its stars, Paco Rabanne 1 Million pairs it with grapefruit and mint, and Chanel Allure uses it to brighten a floral oriental.",
+   "wear": "Mandarin works year-round, especially in spring and summer, for anyone who likes a gentle, never harsh freshness.",
+   "faq": [
+    {
+     "q": "What does mandarin smell like in perfume?",
+     "a": "Mandarin smells of peeled fruit, juicy and sweet, with a light zesty bitterness and a floral facet. It is softer and rounder than lemon or grapefruit. In perfume it gives a bright, warm opening that works equally well with florals, spices and woods."
+    },
+    {
+     "q": "What is the difference between mandarin and orange in perfume?",
+     "a": "Sweet orange is simpler, sunnier and slightly sharper. Mandarin has a floral, almost spicy nuance, largely due to methyl N-methylanthranilate, which makes it more complex and sweeter. Perfumers choose mandarin for a velvety freshness and orange for a more direct burst of brightness."
+    },
+    {
+     "q": "Which famous perfumes contain mandarin?",
+     "a": "Mandarin is everywhere: Guerlain Shalimar, Yves Saint Laurent Opium, Chanel Allure, Mugler Alien and Dior Fahrenheit all use it in their top notes. Among modern masculines, Paco Rabanne 1 Million and Invictus also open with mandarin, often paired with grapefruit."
+    }
+   ]
+  }
+ },
+ "Myrrh": {
+  "slug_fr": "myrrhe",
+  "slug_en": "myrrh",
+  "name_fr": "Myrrhe",
+  "name_en": "Myrrh",
+  "category": "resinous",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la myrrhe : odeur, origine et créations",
+   "meta": "Résineuse, amère, légèrement anisée : la myrrhe est l’une des plus anciennes matières du parfum. Son odeur, son origine et les créations qui l’honorent.",
+   "h1": "La myrrhe en parfum : une résine millénaire, sombre et mystique",
+   "intro": "La myrrhe est une gomme-résine issue d’arbustes d’Afrique de l’Est et d’Arabie, utilisée depuis l’Antiquité comme encens. En parfum, elle sent la résine chaude et amère, avec des facettes balsamiques, anisées et légèrement champignon. Elle apporte une profondeur mystique aux orientaux et aux boisés.",
+   "smell": "La myrrhe s’ouvre sur une amertume résineuse, presque médicinale, puis révèle une chaleur balsamique, des accents de réglisse et d’anis, et une étonnante nuance de champignon et de sous-bois. Plus sombre que l’encens, moins sucrée que le benjoin, elle a quelque chose de sacré et de terreux à la fois. Sur la peau, elle évolue lentement vers un fond chaud, un peu fumé, qui persiste des heures et donne une texture veloutée à la composition.",
+   "origin": "La myrrhe provient principalement de Commiphora myrrha, arbuste épineux des zones arides de Somalie, d’Éthiopie, du Kenya et de la péninsule arabique. On incise l’écorce pour faire perler une résine qui durcit en larmes rougeâtres. Celles-ci sont distillées en huile essentielle ou traitées en résinoïde. Brûlée dans les temples d’Égypte et citée dans la Bible, elle compte parmi les plus anciennes matières aromatiques connues. L’opoponax, ou myrrhe douce, est une espèce voisine.",
+   "craft": "La myrrhe s’utilise surtout en fond ou au cœur, où elle ancre la composition et prolonge sa tenue. Elle forme avec l’encens un duo liturgique classique et se marie au labdanum, à l’oud, à la rose, à la vanille et au cuir. Epic Man d’Amouage l’associe au géranium et à l’encens, Jubilation XXV Man l’unit à l’opoponax et à l’oud, et Pure XS de Paco Rabanne l’utilise pour réchauffer un fond sucré.",
+   "wear": "La myrrhe se porte en automne et en hiver, en soirée ; elle séduit les amateurs de parfums profonds, résineux et contemplatifs.",
+   "faq": [
+    {
+     "q": "Que sent la myrrhe en parfum ?",
+     "a": "La myrrhe sent la résine chaude et amère, avec des accents balsamiques, une touche d’anis ou de réglisse et une nuance terreuse, presque champignon. Plus sombre que l’encens et moins sucrée que le benjoin, elle évoque les lieux de culte et les boiseries anciennes. En parfum, elle apporte profondeur, chaleur et une grande tenue."
+    },
+    {
+     "q": "Quelle différence entre myrrhe et encens ?",
+     "a": "L’encens, ou oliban, est plus frais, citronné et poivré, avec une fumée claire. La myrrhe est plus sombre, amère et balsamique, avec une facette terreuse. Les deux résines viennent de régions proches d’Afrique de l’Est et d’Arabie, et sont souvent associées dans les parfums pour leur complémentarité, comme dans Epic Man d’Amouage."
+    },
+    {
+     "q": "Quel parfum à la myrrhe pour homme ?",
+     "a": "Amouage propose plusieurs masculins à la myrrhe, comme Epic Man et Jubilation XXV Man, riches et résineux. Gucci Pour Homme II l’utilise en fond d’une composition plus légère autour du thé, et Pure XS de Paco Rabanne la place en fond d’un accord épicé et sucré. La myrrhe donne aux masculins une profondeur sombre et élégante."
+    }
+   ]
+  },
+  "en": {
+   "title": "Myrrh Perfumes: Scent, Origin and Fragrances",
+   "meta": "Resinous, bitter and faintly aniseed-like, myrrh is one of perfume's oldest materials. What it smells like, where it comes from and the scents that use it.",
+   "h1": "Myrrh in Perfume: an Ancient, Dark and Mystical Resin",
+   "intro": "Myrrh is a gum resin from shrubs in East Africa and Arabia, used as incense since antiquity. In perfume it smells of warm, bitter resin with balsamic, aniseed and slightly mushroomy facets. It brings a mystical depth to orientals and woody fragrances.",
+   "smell": "Myrrh opens with a resinous, almost medicinal bitterness, then reveals balsamic warmth, liquorice and aniseed accents, and a surprising hint of mushroom and forest floor. Darker than frankincense and less sweet than benzoin, it feels both sacred and earthy. On skin it slowly settles into a warm, slightly smoky base that lasts for hours and gives the composition a velvety texture.",
+   "origin": "Myrrh comes mainly from Commiphora myrrha, a thorny shrub of the arid lands of Somalia, Ethiopia, Kenya and the Arabian Peninsula. The bark is cut so that resin beads out and hardens into reddish tears, which are distilled into an essential oil or processed into a resinoid. Burned in Egyptian temples and mentioned in the Bible, it is among the oldest known aromatic materials. Opoponax, or sweet myrrh, is a close relative.",
+   "craft": "Myrrh is mainly used in the base or heart, where it anchors a composition and extends its longevity. It forms a classic liturgical pairing with frankincense and works with labdanum, oud, rose, vanilla and leather. Amouage Epic Man pairs it with geranium and incense, Amouage Jubilation XXV Man combines it with opoponax and oud, and Paco Rabanne Pure XS uses it to warm a sweet base.",
+   "wear": "Myrrh suits autumn and winter evenings and appeals to lovers of deep, resinous, contemplative fragrances.",
+   "faq": [
+    {
+     "q": "What does myrrh smell like in perfume?",
+     "a": "Myrrh smells of warm, bitter resin with balsamic accents, a touch of aniseed or liquorice and an earthy, almost mushroomy nuance. Darker than frankincense and less sweet than benzoin, it evokes places of worship and old wood panelling. In perfume it adds depth, warmth and excellent longevity."
+    },
+    {
+     "q": "What is the difference between myrrh and frankincense?",
+     "a": "Frankincense, or olibanum, is fresher, lemony and peppery, with a pale smoke. Myrrh is darker, bitter and balsamic, with an earthy facet. Both resins come from neighbouring regions of East Africa and Arabia and are often paired in perfumes because they complement each other, as in Amouage Epic Man."
+    },
+    {
+     "q": "What are good myrrh fragrances for men?",
+     "a": "Amouage offers several rich, resinous masculines featuring myrrh, including Epic Man and Jubilation XXV Man. Gucci Pour Homme II uses it in the base of a lighter, tea-centred composition, and Paco Rabanne Pure XS places it in the base of a spicy, sweet accord. Myrrh gives men's fragrances a dark, elegant depth."
+    }
+   ]
+  }
+ },
+ "Oakmoss": {
+  "slug_fr": "mousse-de-chene",
+  "slug_en": "oakmoss",
+  "name_fr": "Mousse de chêne",
+  "name_en": "Oakmoss",
+  "category": "green",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la mousse de chêne : odeur et chypres",
+   "meta": "Sous-bois humide, encre, cuir : la mousse de chêne est l’âme des chypres. Son odeur, son origine, sa réglementation et les grands parfums qui l’utilisent.",
+   "h1": "La mousse de chêne : l’âme du chypre",
+   "intro": "La mousse de chêne est un lichen qui pousse sur l’écorce des chênes et dont l’absolue sent le sous-bois humide, l’encre et le cuir. En parfumerie, elle est le pilier des chypres et des fougères. Sa présence donne au parfum une profondeur sombre, élégante et un peu austère.",
+   "smell": "La mousse de chêne sent la forêt après la pluie : écorce mouillée, terre, fougère, avec une nuance d’encre, de cuir et une légère salinité marine. Il y a aussi quelque chose de doux, presque sucré et poudré, qui la rend enveloppante. Sur la peau, elle se développe lentement et forme un fond vert sombre, très tenace, qui lie les agrumes et les fleurs dans une harmonie à la fois fraîche et profonde. C’est l’odeur du chypre classique.",
+   "origin": "La mousse de chêne (Evernia prunastri) est un lichen récolté principalement dans les Balkans, au Maroc et en France. On en tire une concrète puis une absolue par extraction aux solvants. Elle devient la base de l’accord chypre avec Chypre de Coty en 1917. Contenant des allergènes, l’atranol et le chloroatranol, elle fait l’objet de restrictions strictes : les parfumeurs utilisent désormais des qualités à faible teneur en atranol et des substituts de synthèse comme l’Evernyl.",
+   "craft": "La mousse de chêne se place en fond, où elle structure et prolonge la composition. Avec la bergamote et le labdanum, elle forme l’accord chypre ; avec la lavande et la coumarine, l’accord fougère. Mitsouko de Guerlain, en 1919, en fait l’une des bases de son chypre fruité à la pêche ; Miss Dior de Dior l’allie au galbanum et au patchouli ; Eau Sauvage de Dior l’utilise pour ancrer sa fraîcheur hespéridée.",
+   "wear": "La mousse de chêne se porte en automne et au printemps ; elle séduit les amateurs de parfums classiques, élégants et un peu sophistiqués.",
+   "faq": [
+    {
+     "q": "Que sent la mousse de chêne ?",
+     "a": "La mousse de chêne sent le sous-bois humide : écorce mouillée, terre, fougère, avec des nuances d’encre, de cuir et une douceur légèrement poudrée. C’est une odeur verte et sombre, très tenace, qui donne aux parfums une profondeur élégante. Elle est l’ingrédient signature des chypres et de nombreuses fougères classiques."
+    },
+    {
+     "q": "Pourquoi la mousse de chêne est-elle réglementée ?",
+     "a": "La mousse de chêne naturelle contient de l’atranol et du chloroatranol, deux substances allergisantes. La réglementation européenne et les normes de l’IFRA limitent donc fortement leur présence. Les parfumeurs utilisent aujourd’hui des mousses de chêne traitées pour en réduire la teneur, ainsi que des substituts de synthèse, ce qui a conduit à reformuler de nombreux classiques."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent de la mousse de chêne ?",
+     "a": "La mousse de chêne est au cœur des grands chypres : Mitsouko de Guerlain, Miss Dior de Dior, Femme de Rochas ou N°19 de Chanel. Côté masculin, elle structure Eau Sauvage de Dior, Pour Monsieur de Chanel, Azzaro Pour Homme et Aventus de Creed, où elle apporte une profondeur boisée et moussue en fond."
+    }
+   ]
+  },
+  "en": {
+   "title": "Oakmoss Perfumes: Scent, Origin and Chypres",
+   "meta": "Damp forest floor, ink and leather: oakmoss is the soul of the chypre. Its scent, its origin, the rules around it and the great perfumes that feature it.",
+   "h1": "Oakmoss: the Soul of the Chypre",
+   "intro": "Oakmoss is a lichen that grows on oak bark, and its absolute smells of damp forest floor, ink and leather. In perfumery it is the backbone of chypres and fougères. It gives a fragrance a dark, elegant and slightly austere depth.",
+   "smell": "Oakmoss smells like a forest after rain: wet bark, earth and fern, with shades of ink, leather and a faint marine saltiness. There is also something soft, almost sweet and powdery, that makes it enveloping. On skin it unfolds slowly into a dark green, very tenacious base that binds citrus and florals into a harmony both fresh and deep. This is the smell of the classic chypre.",
+   "origin": "Oakmoss (Evernia prunastri) is a lichen harvested mainly in the Balkans, Morocco and France. It is solvent-extracted into a concrete and then an absolute. It became the foundation of the chypre accord with Coty Chypre in 1917. Because it contains the allergens atranol and chloroatranol, it is strictly restricted: perfumers now use low-atranol grades and synthetic substitutes such as Evernyl.",
+   "craft": "Oakmoss sits in the base, structuring and extending a composition while lending it a shadowy, velvety depth. With bergamot and labdanum it forms the chypre accord; with lavender and coumarin, the fougère. Guerlain Mitsouko, in 1919, made it a foundation of its peachy fruity chypre; Dior Miss Dior pairs it with galbanum and patchouli; Dior Eau Sauvage uses it to anchor a crisp citrus freshness.",
+   "wear": "Oakmoss suits autumn and spring and appeals to lovers of classic, elegant and somewhat sophisticated fragrances.",
+   "faq": [
+    {
+     "q": "What does oakmoss smell like?",
+     "a": "Oakmoss smells of damp forest floor: wet bark, earth and fern, with shades of ink and leather and a slightly powdery sweetness. It is a dark, green and very long-lasting scent that gives perfumes an elegant depth. It is the signature ingredient of chypres and of many classic fougères."
+    },
+    {
+     "q": "Why is oakmoss restricted in perfume?",
+     "a": "Natural oakmoss contains atranol and chloroatranol, two sensitising substances. European regulations and IFRA standards therefore strictly limit their presence. Perfumers now use treated oakmoss with reduced levels of these compounds, along with synthetic substitutes, which has led to the reformulation of many classic fragrances."
+    },
+    {
+     "q": "Which famous perfumes contain oakmoss?",
+     "a": "Oakmoss is at the heart of the great chypres: Guerlain Mitsouko, Dior Miss Dior, Rochas Femme and Chanel N°19. On the masculine side it structures Dior Eau Sauvage, Chanel Pour Monsieur, Azzaro Pour Homme and Creed Aventus, where it adds a mossy, woody depth to the base."
+    }
+   ]
+  }
+ },
+ "Orchid": {
+  "slug_fr": "orchidee",
+  "slug_en": "orchid",
+  "name_fr": "Orchidée",
+  "name_en": "Orchid",
+  "category": "floral",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à l’orchidée : odeur, accord et icônes",
+   "meta": "Crémeuse, vanillée, un brin exotique : l’orchidée est une fleur fantasmée que les parfumeurs imaginent. Son odeur, sa construction et les parfums phares.",
+   "h1": "L’orchidée en parfum : une fleur rêvée plutôt que cueillie",
+   "intro": "En parfumerie, l’orchidée est une note imaginaire : la plupart des orchidées ne livrent aucun extrait exploitable. Les parfumeurs composent donc un accord qui évoque une fleur crémeuse, vanillée, légèrement épicée et exotique. Elle apporte douceur, rondeur et une touche de luxe au cœur d’un parfum.",
+   "smell": "L’accord orchidée sent la fleur blanche crémeuse, avec une douceur vanillée, une touche poudrée et parfois une nuance épicée ou fruitée. Selon l’interprétation, il peut être lumineux et lacté, ou sombre et presque charnel. Sur la peau, il se fond au cœur du parfum en un velours floral qui arrondit la composition et fait le lien avec les bases gourmandes. C’est moins une odeur précise qu’une impression de sophistication florale.",
+   "origin": "La famille des orchidées compte des dizaines de milliers d’espèces, mais très peu sont parfumées et aucune n’est cultivée pour un extrait de parfum courant. Seule exception notable : la vanille, qui est le fruit d’une orchidée, Vanilla planifolia. La note orchidée est donc un accord de fantaisie, construit avec des muscs, des notes vanillées, des facettes de fleurs blanches et des épices. Elle s’est popularisée dans les années 2000 avec les floraux orientaux.",
+   "craft": "L’orchidée se place au cœur, où elle adoucit et enrichit les fleurs. Elle se marie au jasmin, à la rose, au patchouli, à la vanille et aux fruits sombres. Black Orchid de Tom Ford en fait l’héroïne d’une composition opulente, avec la truffe et le patchouli ; Flowerbomb de Viktor & Rolf l’associe au jasmin et à la rose ; Libre d’Yves Saint Laurent l’utilise au cœur, aux côtés de la fleur d’oranger.",
+   "wear": "L’orchidée se porte surtout en automne et en hiver, en soirée ; elle plaît aux amateurs de floraux ronds, sensuels et un peu opulents.",
+   "faq": [
+    {
+     "q": "Que sent l’orchidée en parfum ?",
+     "a": "L’orchidée en parfum sent la fleur crémeuse et vanillée, avec une touche poudrée et parfois épicée. Comme la plupart des orchidées ne sont pas exploitables en parfumerie, il s’agit d’un accord imaginé par le parfumeur. Il apporte au cœur du parfum une douceur luxueuse et une rondeur qui relie les fleurs aux bases gourmandes."
+    },
+    {
+     "q": "L’orchidée est-elle une note naturelle ?",
+     "a": "Non, dans la grande majorité des cas. Il n’existe pas d’extrait d’orchidée utilisé couramment en parfumerie. La note est recréée par un accord de muscs, de notes vanillées, de fleurs blanches et d’épices. Petite curiosité : la vanille, elle, est bien le fruit d’une orchidée, ce qui explique la parenté entre les deux notes."
+    },
+    {
+     "q": "Quel est le parfum à l’orchidée le plus connu ?",
+     "a": "Black Orchid de Tom Ford, lancé en 2006, est le parfum le plus associé à cette note. Il la place au cœur d’une composition sombre, avec la truffe, le cassis et le patchouli. D’autres créations populaires, comme Flowerbomb de Viktor & Rolf ou Libre d’Yves Saint Laurent, l’utilisent également dans leur cœur floral."
+    }
+   ]
+  },
+  "en": {
+   "title": "Orchid Perfumes: Scent, Accord and Icons",
+   "meta": "Creamy, vanilla-like and a touch exotic, orchid is a fantasy flower that perfumers imagine. What it smells like, how it is built and the key perfumes.",
+   "h1": "Orchid in Perfume: a Flower Dreamed Rather Than Picked",
+   "intro": "In perfumery, orchid is an imaginary note: most orchids yield no usable extract. Perfumers compose an accord that suggests a creamy, vanilla-like, slightly spicy and exotic flower. It brings softness, roundness and a touch of luxury to the heart of a perfume.",
+   "smell": "The orchid accord smells of a creamy white flower, with vanilla softness, a powdery touch and sometimes a spicy or fruity nuance. Depending on the interpretation it can be bright and milky, or dark and almost carnal. On skin it melts into the heart of a perfume as a floral velvet that rounds out the composition and links it to gourmand bases. It is less a precise smell than an impression of floral sophistication.",
+   "origin": "The orchid family counts tens of thousands of species, yet very few are fragrant and none is grown for a mainstream perfume extract. The notable exception is vanilla, the fruit of an orchid, Vanilla planifolia. The orchid note is therefore a fantasy accord built with musks, vanilla-like notes, white-flower facets and spices. It became popular in the 2000s alongside the rise of floral orientals.",
+   "craft": "Orchid sits in the heart, where it softens and enriches other florals. It pairs with jasmine, rose, patchouli, vanilla and dark fruit. Tom Ford Black Orchid makes it the heroine of an opulent composition with truffle and patchouli; Viktor & Rolf Flowerbomb pairs it with jasmine and rose; Yves Saint Laurent Libre uses it in the heart alongside orange blossom.",
+   "wear": "Orchid suits autumn and winter evenings and appeals to lovers of round, sensual and slightly opulent florals.",
+   "faq": [
+    {
+     "q": "What does orchid smell like in perfume?",
+     "a": "Orchid in perfume smells of a creamy, vanilla-like flower with a powdery and sometimes spicy touch. Since most orchids cannot be used in perfumery, it is an accord imagined by the perfumer. It brings a luxurious softness to the heart of a fragrance and a roundness that links florals to gourmand bases."
+    },
+    {
+     "q": "Is orchid a natural perfume note?",
+     "a": "In the vast majority of cases, no. There is no orchid extract in common perfumery use. The note is recreated with an accord of musks, vanilla-like notes, white flowers and spices. A fun fact: vanilla really is the fruit of an orchid, which explains the kinship between the two notes."
+    },
+    {
+     "q": "What is the most famous orchid perfume?",
+     "a": "Tom Ford Black Orchid, launched in 2006, is the fragrance most associated with this note. It places orchid at the heart of a dark composition with truffle, black currant and patchouli. Other popular creations, such as Viktor & Rolf Flowerbomb and Yves Saint Laurent Libre, also use it in their floral heart."
+    }
+   ]
+  }
+ },
+ "Patchouli": {
+  "slug_fr": "patchouli",
+  "slug_en": "patchouli",
+  "name_fr": "Patchouli",
+  "name_en": "Patchouli",
+  "category": "woody",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au patchouli : odeur, origine et icônes",
+   "meta": "Terreux, camphré, chocolaté : le patchouli est l’une des matières phares du parfum. Son odeur, sa distillation et les créations qui l’ont rendu culte.",
+   "h1": "Le patchouli en parfum : de la terre humide au chypre moderne",
+   "intro": "Le patchouli est une plante d’Asie tropicale dont l’huile essentielle sent la terre humide, le bois, le camphre et le cacao. C’est l’une des matières les plus utilisées en parfumerie, pilier des chypres et des orientaux. Il apporte profondeur, tenue et un caractère sombre et sensuel.",
+   "smell": "Le patchouli s’ouvre sur une note camphrée, presque mentholée, puis dévoile une odeur de terre mouillée, de cave et de racines. En séchant, il devient plus boisé, ambré, avec des accents de cacao amer et de feuilles sèches. Sur la peau, il tient des heures et évolue vers une chaleur veloutée, un peu vineuse. Les qualités fractionnées, plus propres, perdent le côté terreux pour garder une facette boisée lumineuse, très présente dans les parfums modernes.",
+   "origin": "Le patchouli (Pogostemon cablin) est cultivé surtout en Indonésie, notamment à Sulawesi et Sumatra, qui assure la majeure partie de la production mondiale. Les feuilles sont séchées et légèrement fermentées avant d’être distillées à la vapeur. Au XIXe siècle, on glissait des feuilles de patchouli dans les châles venus d’Inde pour éloigner les mites, ce qui fit connaître son odeur en Europe. Sa molécule principale est le patchoulol.",
+   "craft": "Le patchouli s’utilise en fond, où il ancre et prolonge la composition. Il forme avec la bergamote et la mousse de chêne l’ossature du chypre, et s’allie à la rose, à la vanille, au chocolat et aux épices. Angel de Mugler, en 1992, en fait le contrepoint d’un accord gourmand ; Coco Mademoiselle de Chanel l’associe à la rose et au vétiver dans un chypre moderne ; Black Orchid de Tom Ford l’utilise pour assombrir sa base.",
+   "wear": "Le patchouli se porte surtout en automne et en hiver ; il séduit les amateurs de parfums profonds, sensuels et affirmés.",
+   "faq": [
+    {
+     "q": "Que sent le patchouli ?",
+     "a": "Le patchouli sent la terre humide, le bois et les racines, avec des accents camphrés, une nuance de cacao amer et une chaleur ambrée. Son odeur est sombre, dense et très tenace. Les versions fractionnées, utilisées dans les parfums modernes, sont plus propres et boisées, sans le côté terreux associé à l’image hippie des années 1970."
+    },
+    {
+     "q": "Le patchouli est-il masculin ou féminin ?",
+     "a": "Le patchouli n’a pas de genre. Il structure des féminins comme Coco Mademoiselle de Chanel, Angel de Mugler ou La Vie Est Belle de Lancôme, et des masculins comme A*Men de Mugler ou 1 Million de Paco Rabanne. C’est l’un des ingrédients les plus répandus en parfumerie, toutes catégories confondues."
+    },
+    {
+     "q": "Pourquoi le patchouli tient-il si longtemps ?",
+     "a": "Le patchouli contient des molécules lourdes, comme le patchoulol, qui s’évaporent très lentement. C’est pourquoi il sert de note de fond et de fixateur, prolongeant la tenue des autres ingrédients. Son huile essentielle a d’ailleurs la particularité de s’améliorer en vieillissant, gagnant en rondeur et en douceur."
+    }
+   ]
+  },
+  "en": {
+   "title": "Patchouli Perfumes: Scent, Origin and Icons",
+   "meta": "Earthy, camphorous and cocoa-like, patchouli is one of perfumery's key materials. Its scent, how it is distilled and the fragrances that made it cult.",
+   "h1": "Patchouli in Perfume: from Damp Earth to the Modern Chypre",
+   "intro": "Patchouli is a tropical Asian plant whose essential oil smells of damp earth, wood, camphor and cocoa. It is one of the most widely used materials in perfumery and a pillar of chypres and orientals. It brings depth, longevity and a dark, sensual character.",
+   "smell": "Patchouli opens with a camphorous, almost minty note, then reveals the smell of wet soil, cellars and roots. As it dries down it turns woodier and more ambery, with hints of bitter cocoa and dry leaves. On skin it lasts for hours and evolves into a velvety, slightly winey warmth. Fractionated grades are cleaner, losing the earthiness while keeping a bright woody facet that dominates many modern fragrances.",
+   "origin": "Patchouli (Pogostemon cablin) is grown mainly in Indonesia, especially Sulawesi and Sumatra, which supply most of the world's production. The leaves are dried and lightly fermented before steam distillation. In the nineteenth century patchouli leaves were packed with shawls shipped from India to keep moths away, which is how Europe first came to know its scent. Its main molecule is patchoulol.",
+   "craft": "Patchouli is used in the base, anchoring and extending a composition. With bergamot and oakmoss it forms the backbone of the chypre, and it pairs with rose, vanilla, chocolate and spices. Mugler Angel, in 1992, used it as the counterpoint to a gourmand accord; Chanel Coco Mademoiselle pairs it with rose and vetiver in a modern chypre; Tom Ford Black Orchid uses it to darken its base.",
+   "wear": "Patchouli is at its best in autumn and winter and appeals to lovers of deep, sensual and assertive fragrances.",
+   "faq": [
+    {
+     "q": "What does patchouli smell like?",
+     "a": "Patchouli smells of damp earth, wood and roots, with camphorous accents, a hint of bitter cocoa and an ambery warmth. It is dark, dense and very long-lasting. The fractionated versions used in modern perfumes are cleaner and woodier, without the earthy side associated with the 1970s hippie image."
+    },
+    {
+     "q": "Is patchouli masculine or feminine?",
+     "a": "Patchouli has no gender. It structures feminine fragrances such as Chanel Coco Mademoiselle, Mugler Angel and Lancôme La Vie Est Belle, and masculines such as Mugler A*Men and Paco Rabanne 1 Million. It is one of the most widespread ingredients in perfumery across every category."
+    },
+    {
+     "q": "Why does patchouli last so long?",
+     "a": "Patchouli contains heavy molecules, such as patchoulol, that evaporate very slowly. That is why it works as a base note and a fixative, extending the life of other ingredients. Its essential oil is also unusual in that it improves with age, becoming rounder and smoother over time."
+    }
+   ]
+  }
+ },
+ "Pepper": {
+  "slug_fr": "poivre",
+  "slug_en": "pepper",
+  "name_fr": "Poivre",
+  "name_en": "Pepper",
+  "category": "spicy",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au poivre : odeur, origine et créations",
+   "meta": "Sec, piquant, boisé : le poivre noir apporte énergie et relief aux parfums. Son odeur, son extraction, sa différence avec le poivre rose, les parfums clés.",
+   "h1": "Le poivre en parfum : une épice sèche qui électrise",
+   "intro": "Le poivre noir apporte au parfum une note épicée sèche, piquante et boisée, avec une fraîcheur presque citronnée. Il ne pique pas le nez comme en cuisine : il électrise la composition. On le trouve en tête ou au cœur de nombreux parfums masculins et mixtes.",
+   "smell": "Le poivre noir sent le grain fraîchement moulu : sec, boisé, légèrement résineux, avec une vivacité citronnée et une petite chaleur. Il n’a pas l’effet brûlant du poivre en bouche, mais une sensation de crépitement, d’énergie. Sur la peau, il ouvre la composition avec du mordant, puis se fond dans les bois et l’ambre, laissant une trace sèche et élégante. Associé aux agrumes, il donne un effet frais ; avec les bois, une impression plus sombre.",
+   "origin": "Le poivre noir (Piper nigrum) est une liane originaire de la côte de Malabar, en Inde. Il est cultivé en Inde, au Vietnam, en Indonésie, au Sri Lanka et à Madagascar. Les baies séchées sont distillées à la vapeur ou extraites au CO2, procédé qui restitue une odeur plus fidèle au grain frais. Le poivre rose, souvent cité en parfumerie, provient d’un arbre différent, le Schinus, et offre une note plus fruitée et rosée.",
+   "craft": "Le poivre se place en tête ou au cœur pour apporter du relief et de l’énergie. Il se marie aux agrumes, à la lavande, au vétiver, à l’encens, à la rose et aux bois ambrés. Sauvage de Dior l’associe à la bergamote dès l’ouverture, Terre d’Hermès le pose au cœur avec le géranium et le patchouli, et Rose 31 du Labo l’utilise avec le cumin pour donner une rose sèche et épicée.",
+   "wear": "Le poivre se porte en toutes saisons, surtout en automne ; il plaît à ceux qui recherchent des parfums nerveux, élégants et modernes.",
+   "faq": [
+    {
+     "q": "Que sent le poivre en parfum ?",
+     "a": "En parfum, le poivre noir sent le grain fraîchement moulu : sec, boisé, légèrement citronné et chaud. Il ne pique pas comme en cuisine, il apporte plutôt une sensation d’énergie et de crépitement. Selon les notes qui l’entourent, il peut donner un effet frais avec les agrumes ou plus sombre avec les bois et l’encens."
+    },
+    {
+     "q": "Quelle différence entre poivre noir et poivre rose en parfum ?",
+     "a": "Le poivre noir vient de la liane Piper nigrum et sent sec, boisé et épicé. Le poivre rose provient d’un arbre différent, le Schinus, et offre une odeur plus fruitée, rosée et pétillante. En parfum, le poivre noir structure les compositions boisées, tandis que le poivre rose apporte une fraîcheur légère aux floraux et aux fruités."
+    },
+    {
+     "q": "Quel parfum au poivre pour homme ?",
+     "a": "Sauvage de Dior est l’un des parfums poivrés les plus connus, avec son ouverture bergamote et poivre. Terre d’Hermès l’utilise au cœur d’un boisé minéral, Allure Homme Sport de Chanel dans une composition fraîche, et Nuit d’Issey d’Issey Miyake dans un accord plus sombre. Le poivre donne aux masculins du relief et de la modernité."
+    }
+   ]
+  },
+  "en": {
+   "title": "Pepper Perfumes: Scent, Origin and Fragrances",
+   "meta": "Dry, crackling and woody, black pepper brings energy to fragrance. What it smells like, how it is extracted, how it differs from pink pepper, key scents.",
+   "h1": "Pepper in Perfume: a Dry Spice That Electrifies",
+   "intro": "Black pepper gives perfume a dry, crackling, woody spice with an almost lemony freshness. It does not sting like pepper in food: it electrifies the composition. It features in the top or heart of many masculine and unisex fragrances.",
+   "smell": "Black pepper smells of freshly ground peppercorns: dry, woody, slightly resinous, with a lemony liveliness and a gentle warmth. It lacks the burn of pepper on the tongue, offering instead a sense of crackle and energy. On skin it opens the composition with bite, then melts into woods and amber, leaving a dry, elegant trail. With citrus it feels fresh; with woods, darker and more brooding.",
+   "origin": "Black pepper (Piper nigrum) is a vine native to the Malabar Coast of India. It is grown in India, Vietnam, Indonesia, Sri Lanka and Madagascar. The dried berries are steam-distilled or CO2-extracted, a process that captures a scent closer to the freshly ground spice. Pink pepper, also common in perfumery, comes from an entirely different tree, Schinus, and offers a fruitier, rosier note.",
+   "craft": "Pepper sits in the top or heart to add relief and energy. It pairs with citrus, lavender, vetiver, incense, rose and ambery woods. Dior Sauvage teams it with bergamot right from the opening, Hermès Terre d'Hermès sets it in the heart with geranium and patchouli, and Le Labo Rose 31 uses it with cumin to create a dry, spicy rose.",
+   "wear": "Pepper works year-round, especially in autumn, for anyone who wants a nervy, elegant and modern fragrance.",
+   "faq": [
+    {
+     "q": "What does pepper smell like in perfume?",
+     "a": "In perfume, black pepper smells of freshly ground peppercorns: dry, woody, slightly lemony and warm. It does not sting like pepper in food; instead it brings a sense of energy and crackle. Depending on its neighbours it can feel fresh alongside citrus or darker with woods and incense."
+    },
+    {
+     "q": "What is the difference between black and pink pepper in perfume?",
+     "a": "Black pepper comes from the Piper nigrum vine and smells dry, woody and spicy. Pink pepper comes from a different tree, Schinus, and has a fruitier, rosier, fizzier scent. In perfume black pepper structures woody compositions, while pink pepper brings a light freshness to florals and fruity scents."
+    },
+    {
+     "q": "What are good pepper fragrances for men?",
+     "a": "Dior Sauvage is one of the best-known peppery fragrances, opening with bergamot and pepper. Terre d'Hermès uses it at the heart of a mineral woody scent, Chanel Allure Homme Sport in a fresh composition, and Issey Miyake Nuit d'Issey in a darker accord. Pepper gives masculines relief and modernity."
+    }
+   ]
+  }
+ },
+ "Plum": {
+  "slug_fr": "prune",
+  "slug_en": "plum",
+  "name_fr": "Prune",
+  "name_en": "Plum",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums à la prune : odeur, accord et classiques",
+   "meta": "Juteuse, confite, légèrement liquoreuse : la prune apporte une sensualité fruitée aux chypres et orientaux. Son odeur, son accord et les grands classiques.",
+   "h1": "La prune en parfum : un fruit sombre et sensuel",
+   "intro": "En parfumerie, la prune évoque un fruit mûr, juteux, parfois confit ou liquoreux, avec une douceur sombre. Elle ne provient pas d’un extrait naturel mais d’un accord de synthèse. Elle apporte une sensualité fruitée aux chypres et aux orientaux.",
+   "smell": "La prune sent le fruit violet bien mûr, sa peau légèrement acidulée et sa chair sucrée, parfois jusqu’au pruneau et à l’eau-de-vie. Elle a une texture veloutée, presque charnue, avec des nuances de confiture et de liqueur. Sur la peau, elle ajoute de la rondeur et une profondeur fruitée qui se lie aux épices, aux fleurs et aux résines. Plus sombre que la pêche, moins acidulée que le cassis, elle donne un caractère adulte et opulent.",
+   "origin": "La prune ne donne pas d’huile essentielle utilisable en parfumerie. Sa note est reconstituée par des accords réunissant des lactones fruitées, des notes de pêche, des damascones et des facettes confites. Un jalon historique est Femme de Rochas, composé par Edmond Roudnitska et lancé en 1944, qui a popularisé cette facette fruitée dans un chypre. La prune a ensuite marqué les grands orientaux des années 1970 et 1980.",
+   "craft": "La prune se place en tête ou au cœur, où elle arrondit la composition et apporte une douceur fruitée sombre. Elle s’associe à la rose, au jasmin, à la mousse de chêne, aux épices, à la vanille et aux bois. Femme de Rochas l’associe à la pêche dans un chypre fruité, Opium d’Yves Saint Laurent l’utilise en tête avec la mandarine et le clou de girofle, et Poison de Dior l’allie à la coriandre et à l’anis.",
+   "wear": "La prune se porte surtout en automne et en hiver, en soirée ; elle séduit les amateurs de parfums opulents, fruités et sensuels.",
+   "faq": [
+    {
+     "q": "Que sent la prune en parfum ?",
+     "a": "En parfum, la prune sent le fruit violet bien mûr, juteux et sucré, avec parfois des accents confits, de pruneau ou de liqueur. C’est une note fruitée sombre et veloutée, plus profonde que la pêche et moins acidulée que le cassis. Elle apporte rondeur et sensualité aux chypres et aux orientaux."
+    },
+    {
+     "q": "La note de prune est-elle naturelle ?",
+     "a": "Non. La prune ne donne pas d’extrait exploitable en parfumerie. Sa note est reconstituée par des accords de synthèse, avec des lactones fruitées, des damascones et des notes de fruits confits. Ce travail permet de restituer la chair veloutée et la douceur du fruit, avec une bonne tenue sur la peau."
+    },
+    {
+     "q": "Quels parfums célèbres contiennent de la prune ?",
+     "a": "La prune marque plusieurs grands classiques : Femme de Rochas, Opium d’Yves Saint Laurent, Poison et Hypnotic Poison de Dior. Plus récemment, Lost Cherry de Tom Ford l’utilise au cœur d’une composition gourmande, et Boss Bottled d’Hugo Boss l’associe à la pomme en tête pour une version masculine."
+    }
+   ]
+  },
+  "en": {
+   "title": "Plum Perfumes: Scent, Accord and Classics",
+   "meta": "Juicy, jammy and lightly boozy, plum brings fruity sensuality to chypres and orientals. What it smells like in perfume, how it is built and the classics.",
+   "h1": "Plum in Perfume: a Dark, Sensual Fruit",
+   "intro": "In perfumery, plum evokes a ripe, juicy fruit, sometimes jammy or boozy, with a dark sweetness. It does not come from a natural extract but from a synthetic accord. It brings fruity sensuality to chypres and orientals.",
+   "smell": "Plum smells of ripe purple fruit, its slightly tart skin and sweet flesh, sometimes veering towards prunes and fruit brandy. Its texture is velvety, almost fleshy, with nuances of jam and liqueur. On skin it adds roundness and fruity depth that binds with spices, florals and resins. Darker than peach and less tart than black currant, it gives a grown-up, opulent character.",
+   "origin": "Plum yields no essential oil usable in perfumery. Its note is rebuilt through accords combining fruity lactones, peach notes, damascones and candied, jammy facets. A historic milestone is Rochas Femme, composed by Edmond Roudnitska and launched in 1944, which popularised this fruity facet within a chypre. Plum went on to shape many of the great orientals of the 1970s and 1980s.",
+   "craft": "Plum sits in the top or heart, rounding out a composition with a dark, fruity sweetness that makes florals feel riper and spices warmer. It pairs with rose, jasmine, oakmoss, spices, vanilla and woods. Rochas Femme pairs it with peach in a fruity chypre, Yves Saint Laurent Opium uses it up top with mandarin and clove, and Dior Poison combines it with coriander and anise.",
+   "wear": "Plum is best in autumn and winter evenings and appeals to lovers of opulent, fruity and sensual fragrances.",
+   "faq": [
+    {
+     "q": "What does plum smell like in perfume?",
+     "a": "In perfume, plum smells of ripe purple fruit, juicy and sweet, sometimes with jammy, prune-like or liqueur accents. It is a dark, velvety fruity note, deeper than peach and less tart than black currant. It brings roundness and sensuality to chypres and orientals."
+    },
+    {
+     "q": "Is plum a natural perfume note?",
+     "a": "No. Plum yields no usable extract for perfumery. Its note is rebuilt with synthetic accords using fruity lactones, damascones and candied fruit notes. This approach captures the velvety flesh and sweetness of the fruit while giving it good staying power on skin."
+    },
+    {
+     "q": "Which famous perfumes contain plum?",
+     "a": "Plum defines several great classics: Rochas Femme, Yves Saint Laurent Opium, and Dior Poison and Hypnotic Poison. More recently, Tom Ford Lost Cherry uses it at the heart of a gourmand composition, and Hugo Boss Boss Bottled pairs it with apple up top for a masculine take."
+    }
+   ]
+  }
+ },
+ "Rosemary": {
+  "slug_fr": "romarin",
+  "slug_en": "rosemary",
+  "name_fr": "Romarin",
+  "name_en": "Rosemary",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums au romarin : odeur, origine et classiques",
+   "meta": "Camphré, résineux, ensoleillé : le romarin est l’herbe des eaux de Cologne et des masculins frais. Son odeur, son origine et les parfums qui l’utilisent.",
+   "h1": "Le romarin en parfum : la fraîcheur des garrigues",
+   "intro": "Le romarin est un arbuste méditerranéen dont l’huile essentielle apporte au parfum une fraîcheur aromatique, camphrée et résineuse. Il sent la garrigue au soleil, avec des accents d’eucalyptus et de pin. C’est une note historique des eaux de Cologne et des masculins frais.",
+   "smell": "Le romarin s’ouvre sur une bouffée camphrée, presque médicinale, proche de l’eucalyptus, puis révèle une facette résineuse de pin et une chaleur herbacée ensoleillée. On y sent la pierre chaude et les collines sèches du Midi. Sur la peau, sa vivacité s’estompe assez vite, laissant une trace aromatique propre et tonique qui se lie aux agrumes et aux bois. Il donne une impression de netteté, d’énergie et de propreté aux compositions fraîches.",
+   "origin": "Le romarin (Salvia rosmarinus, longtemps nommé Rosmarinus officinalis) pousse spontanément autour de la Méditerranée. Son huile essentielle est distillée à la vapeur à partir des sommités fleuries, principalement au Maroc, en Tunisie et en Espagne. Riche en cinéole et en camphre, il entre dans la légendaire Eau de la reine de Hongrie, souvent citée comme l’une des premières eaux parfumées alcooliques, puis dans les eaux de Cologne du XVIIIe siècle.",
+   "craft": "Le romarin se place en tête ou au cœur pour apporter une fraîcheur aromatique et tonique. Il se marie aux agrumes, à la lavande, au basilic, au néroli, au vétiver et à la mousse de chêne. Eau Sauvage de Dior l’utilise en tête avec le citron et la bergamote, Colonia d’Acqua di Parma l’inscrit dans la tradition des eaux de Cologne italiennes, et Acqua di Gio de Giorgio Armani l’intègre à son cœur aquatique.",
+   "wear": "Le romarin se porte au printemps et en été, en journée ; il plaît aux amateurs de fraîcheur aromatique, nette et classique.",
+   "faq": [
+    {
+     "q": "Que sent le romarin en parfum ?",
+     "a": "Le romarin sent l’herbe méditerranéenne chauffée au soleil : camphré, résineux, avec des accents d’eucalyptus et de pin. Il apporte une fraîcheur aromatique tonique et propre. En parfum, il est surtout présent en tête et au cœur, et se marie naturellement aux agrumes et à la lavande dans les eaux de Cologne et les fougères."
+    },
+    {
+     "q": "Quel parfum au romarin pour homme ?",
+     "a": "Le romarin est une note clé des masculins frais. Eau Sauvage de Dior l’utilise en tête, Azzaro Chrome l’associe au citron et au néroli, et Acqua di Gio de Giorgio Armani l’intègre à son cœur. L’Homme Ideal de Guerlain l’allie à l’amande pour une version plus gourmande et originale."
+    },
+    {
+     "q": "Le romarin est-il une note ancienne en parfumerie ?",
+     "a": "Oui, c’est l’une des plus anciennes. Le romarin entre dans la légendaire Eau de la reine de Hongrie, souvent présentée comme l’une des premières eaux parfumées à base d’alcool en Europe. Il a ensuite accompagné les agrumes dans les eaux de Cologne dès le XVIIIe siècle, avant de devenir un pilier des masculins aromatiques."
+    }
+   ]
+  },
+  "en": {
+   "title": "Rosemary Perfumes: Scent, Origin and Classics",
+   "meta": "Camphorous, resinous and sun-warmed, rosemary is the herb of colognes and fresh masculines. What it smells like, where it comes from and who uses it well.",
+   "h1": "Rosemary in Perfume: the Freshness of Mediterranean Scrubland",
+   "intro": "Rosemary is a Mediterranean shrub whose essential oil gives perfume an aromatic, camphorous and resinous freshness. It smells of sun-baked scrubland, with hints of eucalyptus and pine. It is a historic note of eaux de Cologne and fresh masculine fragrances.",
+   "smell": "Rosemary opens with a camphorous, almost medicinal rush close to eucalyptus, then reveals a resinous pine facet and a sunny herbal warmth. You can sense hot stones and the dry hills of southern France. On skin its liveliness fades fairly quickly, leaving a clean, tonic aromatic trail that binds with citrus and woods. It lends fresh compositions a sense of crispness, energy and cleanliness.",
+   "origin": "Rosemary (Salvia rosmarinus, long known as Rosmarinus officinalis) grows wild around the Mediterranean. Its essential oil is steam-distilled from the flowering tops, mainly in Morocco, Tunisia and Spain. Rich in cineole and camphor, it features in the legendary Hungary Water, often cited as one of the first alcohol-based perfumed waters, and later in the eaux de Cologne of the eighteenth century.",
+   "craft": "Rosemary sits in the top or heart to add an aromatic, tonic freshness that makes a citrus accord feel sharper and more structured. It pairs with citrus, lavender, basil, neroli, vetiver and oakmoss. Dior Eau Sauvage uses it up top with lemon and bergamot, Acqua di Parma Colonia places it within the Italian cologne tradition, and Giorgio Armani Acqua di Gio folds it into its aquatic heart.",
+   "wear": "Rosemary suits spring and summer daytime wear and appeals to lovers of crisp, classic aromatic freshness.",
+   "faq": [
+    {
+     "q": "What does rosemary smell like in perfume?",
+     "a": "Rosemary smells of a Mediterranean herb warmed by the sun: camphorous and resinous, with hints of eucalyptus and pine. It brings a clean, tonic aromatic freshness. In perfume it mostly appears in the top and heart notes and blends naturally with citrus and lavender in colognes and fougères."
+    },
+    {
+     "q": "What are good rosemary fragrances for men?",
+     "a": "Rosemary is a key note in fresh masculines. Dior Eau Sauvage uses it up top, Azzaro Chrome pairs it with lemon and neroli, and Giorgio Armani Acqua di Gio places it in the heart. Guerlain L'Homme Ideal matches it with almond for a more gourmand, unexpected twist."
+    },
+    {
+     "q": "Is rosemary an old perfume ingredient?",
+     "a": "Yes, one of the oldest. Rosemary features in the legendary Hungary Water, often described as one of Europe's first alcohol-based perfumed waters. It then accompanied citrus in eaux de Cologne from the eighteenth century before becoming a pillar of aromatic masculine fragrances."
+    }
+   ]
+  }
+ },
+ "Sage": {
+  "slug_fr": "sauge",
+  "slug_en": "sage",
+  "name_fr": "Sauge",
+  "name_en": "Sage",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la sauge : odeur, origine et créations",
+   "meta": "Herbacée, ambrée, légèrement musquée : la sauge apporte une fraîcheur aromatique élégante aux parfums. Son odeur, ses variétés et les créations phares.",
+   "h1": "La sauge en parfum : une fraîcheur aromatique et ambrée",
+   "intro": "La sauge apporte au parfum une note aromatique herbacée, légèrement camphrée, avec une chaleur ambrée et musquée. En parfumerie, on utilise surtout la sauge sclarée, plus douce, et parfois la sauge officinale, plus médicinale. Elle est devenue une signature des masculins aromatiques contemporains.",
+   "smell": "La sauge sclarée sent l’herbe sèche et le foin, avec une douceur ambrée, une nuance de tabac blond et une facette musquée presque animale. La sauge officinale, elle, est plus camphrée et médicinale, proche du thym. Sur la peau, la sauge apporte d’abord une fraîcheur aromatique, puis se fond dans les bois et l’ambre en une chaleur feutrée. Elle donne aux compositions une élégance naturelle, entre propreté et sensualité.",
+   "origin": "La sauge sclarée (Salvia sclarea) est cultivée en France, en Russie, en Bulgarie et en Hongrie ; son huile essentielle est distillée à partir des sommités fleuries. Elle fournit aussi le sclaréol, point de départ de la synthèse de l’ambrox, molécule ambrée majeure de la parfumerie moderne. La sauge officinale (Salvia officinalis), originaire des Balkans et de la Méditerranée, est surtout utilisée en petites touches pour sa facette aromatique.",
+   "craft": "La sauge se place au cœur pour apporter une fraîcheur aromatique qui fait le lien avec les bases ambrées. Elle se marie à la lavande, aux agrumes, au géranium, aux bois ambrés et à la vanille. Wood Sage & Sea Salt de Jo Malone l’associe au sel marin, Y d’Yves Saint Laurent l’allie au genièvre et au bois ambré, et Stronger With You de Giorgio Armani l’adoucit avec la vanille et la châtaigne.",
+   "wear": "La sauge se porte en toutes saisons, surtout au printemps et à l’automne ; elle plaît à ceux qui aiment les parfums aromatiques, propres et modernes.",
+   "faq": [
+    {
+     "q": "Que sent la sauge en parfum ?",
+     "a": "En parfum, la sauge sent l’herbe aromatique sèche, avec une fraîcheur légèrement camphrée et une chaleur ambrée et musquée. La sauge sclarée, la plus utilisée, évoque aussi le foin et le tabac blond. Elle apporte une élégance naturelle aux compositions et fait le lien entre fraîcheur aromatique et base boisée ou ambrée."
+    },
+    {
+     "q": "Quelle différence entre sauge sclarée et sauge officinale ?",
+     "a": "La sauge sclarée est plus douce, ambrée et musquée, avec des accents de foin et de tabac ; c’est la plus employée en parfumerie. La sauge officinale, celle de la cuisine, est plus camphrée, médicinale et proche du thym. Les parfumeurs utilisent l’une ou l’autre selon qu’ils recherchent chaleur ou vivacité aromatique."
+    },
+    {
+     "q": "Quel parfum à la sauge pour homme ?",
+     "a": "La sauge est très présente dans les masculins récents : Y d’Yves Saint Laurent, Stronger With You de Giorgio Armani, Luna Rossa de Prada ou Dior Homme, où elle ouvre la composition avant l’iris. Côté mixte, Wood Sage & Sea Salt de Jo Malone l’associe au sel marin pour un effet frais et minéral."
+    }
+   ]
+  },
+  "en": {
+   "title": "Sage Perfumes: Scent, Origin and Fragrances",
+   "meta": "Herbal, ambery and slightly musky, sage brings an elegant aromatic freshness to fragrance. What it smells like, its main varieties and the key perfumes.",
+   "h1": "Sage in Perfume: an Aromatic, Ambery Freshness",
+   "intro": "Sage gives perfume a herbal, slightly camphorous aromatic note with an ambery, musky warmth. Perfumers mainly use clary sage, which is softer, and sometimes common sage, which is more medicinal. It has become a signature of contemporary aromatic masculines.",
+   "smell": "Clary sage smells of dry herbs and hay, with an ambery sweetness, a nuance of blond tobacco and a musky, almost animalic facet. Common sage is more camphorous and medicinal, closer to thyme. On skin sage first brings an aromatic freshness, then melts into woods and amber as a muted warmth. It gives compositions a natural elegance somewhere between clean and sensual.",
+   "origin": "Clary sage (Salvia sclarea) is grown in France, Russia, Bulgaria and Hungary; its essential oil is distilled from the flowering tops. It also provides sclareol, the natural starting point for synthesising ambrox, a major amber molecule in modern perfumery. Common sage (Salvia officinalis), native to the Balkans and the Mediterranean, is mostly used in small touches for its sharper aromatic facet.",
+   "craft": "Sage sits in the heart, adding an aromatic freshness that bridges bright top notes to ambery, woody bases. It pairs with lavender, citrus, geranium, ambery woods and vanilla. Jo Malone Wood Sage & Sea Salt pairs it with sea salt, Yves Saint Laurent Y combines it with juniper and amberwood, and Giorgio Armani Stronger With You softens it with vanilla and chestnut.",
+   "wear": "Sage works year-round, especially in spring and autumn, for anyone who likes clean, modern aromatic fragrances.",
+   "faq": [
+    {
+     "q": "What does sage smell like in perfume?",
+     "a": "In perfume, sage smells of dry aromatic herbs, with a slightly camphorous freshness and an ambery, musky warmth. Clary sage, the most widely used, also evokes hay and blond tobacco. It gives compositions a natural elegance and bridges aromatic freshness to a woody or ambery base."
+    },
+    {
+     "q": "What is the difference between clary sage and common sage?",
+     "a": "Clary sage is softer, ambery and musky, with hints of hay and tobacco; it is the one perfumers use most. Common sage, the kitchen herb, is more camphorous and medicinal, close to thyme. Perfumers choose one or the other depending on whether they want warmth or aromatic sharpness."
+    },
+    {
+     "q": "What are good sage fragrances for men?",
+     "a": "Sage is everywhere in recent masculines: Yves Saint Laurent Y, Giorgio Armani Stronger With You, Prada Luna Rossa and Dior Homme, where it opens the composition before the iris. On the unisex side, Jo Malone Wood Sage & Sea Salt pairs it with sea salt for a fresh, mineral effect."
+    }
+   ]
+  }
+ },
+ "Suede": {
+  "slug_fr": "daim",
+  "slug_en": "suede",
+  "name_fr": "Daim",
+  "name_en": "Suede",
+  "category": "animalic",
+  "source": "accord",
+  "fr": {
+   "title": "Parfums au daim : odeur, accord et créations",
+   "meta": "Doux, poudré, velouté : le daim est la version la plus tendre de la note cuir. Son odeur, sa construction par les parfumeurs et les créations phares.",
+   "h1": "Le daim en parfum : un cuir tout en douceur",
+   "intro": "La note daim est un accord qui évoque un cuir doux, velouté et poudré, bien moins fumé que le cuir classique. Elle sent la peau souple, le gant neuf et une légère chaleur musquée. Elle apporte aux parfums une sensualité feutrée et confortable.",
+   "smell": "Le daim sent le cuir retourné, doux au toucher : une odeur de peau tiède, légèrement poudrée, avec des nuances d’abricot sec, d’iris et de musc. Il n’a presque pas l’amertume fumée du goudron de bouleau que l’on trouve dans les cuirs plus sombres. Sur la peau, l’accord daim se fond en une texture veloutée, presque tactile, qui prolonge la chaleur du fond. C’est une note de confort, sensuelle mais jamais agressive.",
+   "origin": "Le daim n’est pas une matière première : c’est un accord de synthèse, construit par le parfumeur. Il associe généralement des muscs, des notes d’iris et de violette, des molécules aux accents de safran et, à très faible dose, des composés qui rappellent la peau tannée. Il s’est développé avec l’essor des muscs et des cuirs doux, en réaction aux cuirs fumés plus traditionnels, et connaît un vif succès dans la parfumerie contemporaine.",
+   "craft": "Le daim se place en fond, où il adoucit et enveloppe la composition. Il se marie à l’iris, à la pivoine, au safran, à la framboise, à la vanille et au tabac. Tuscan Leather de Tom Ford l’associe au cuir et à la framboise, Tobacco Vanille de Tom Ford le pose sous le tabac et la vanille, et Peony & Blush Suede de Jo Malone l’allie à la pivoine et à la pomme rouge pour un floral tendre.",
+   "wear": "Le daim se porte en automne et en hiver ; il plaît à ceux qui aiment les parfums doux, enveloppants et sensuels.",
+   "faq": [
+    {
+     "q": "Que sent le daim en parfum ?",
+     "a": "Le daim sent le cuir doux et velouté : une peau tiède, légèrement poudrée, avec des nuances d’iris, de musc et parfois de fruits secs. Il est bien moins fumé et animal que le cuir classique. En parfum, il apporte au fond de la composition une texture enveloppante et une sensualité discrète, très appréciée aujourd’hui."
+    },
+    {
+     "q": "Quelle différence entre cuir et daim en parfum ?",
+     "a": "Le cuir classique est souvent fumé, amer et animal, construit autour du goudron de bouleau ou de notes goudronnées. Le daim est plus doux, poudré et musqué, évoquant une peau souple plutôt qu’une selle. Les parfumeurs utilisent le daim pour apporter une chaleur feutrée sans la dureté des cuirs plus sombres."
+    },
+    {
+     "q": "Quels parfums contiennent une note daim ?",
+     "a": "Plusieurs créations mettent le daim en avant : Tuscan Leather et Tobacco Vanille de Tom Ford, Peony & Blush Suede de Jo Malone, qui l’associe à la pivoine, ainsi que Polo Blue de Ralph Lauren et Stronger With You Intensely de Giorgio Armani, qui l’utilisent en fond pour adoucir leur composition."
+    }
+   ]
+  },
+  "en": {
+   "title": "Suede Perfumes: Scent, Accord and Fragrances",
+   "meta": "Soft, powdery and velvety, suede is the gentlest face of the leather note. What it smells like, how perfumers build it and the fragrances that feature it.",
+   "h1": "Suede in Perfume: Leather at Its Softest",
+   "intro": "Suede in perfume is an accord that evokes soft, velvety, powdery leather, far less smoky than classic leather. It smells of supple skin, a new glove and a light musky warmth. It brings a muted, comforting sensuality to fragrances.",
+   "smell": "Suede smells of brushed leather, soft to the touch: warm skin, slightly powdery, with hints of dried apricot, iris and musk. It has almost none of the smoky bitterness of birch tar found in darker leathers. On skin the suede accord melts into a velvety, almost tactile texture that extends the warmth of the base. It is a comfort note, sensual but never aggressive.",
+   "origin": "Suede is not a raw material but a synthetic accord built by the perfumer. It usually combines musks, iris and violet notes, molecules with saffron-like accents and, in tiny doses, compounds that recall tanned hide. It developed alongside the rise of musks and soft leathers, as a counterpoint to more traditional smoky leathers, and is highly popular in contemporary perfumery.",
+   "craft": "Suede sits in the base, where it softens and wraps the composition. It pairs with iris, peony, saffron, raspberry, vanilla and tobacco. Tom Ford Tuscan Leather combines it with leather and raspberry, Tom Ford Tobacco Vanille sets it beneath tobacco and vanilla, and Jo Malone Peony & Blush Suede pairs it with peony and red apple for a tender floral.",
+   "wear": "Suede suits autumn and winter and appeals to anyone who loves soft, enveloping and sensual fragrances.",
+   "faq": [
+    {
+     "q": "What does suede smell like in perfume?",
+     "a": "Suede smells of soft, velvety leather: warm skin, slightly powdery, with hints of iris, musk and sometimes dried fruit. It is far less smoky and animalic than classic leather. In perfume it gives the base an enveloping texture and a discreet sensuality that is very popular today."
+    },
+    {
+     "q": "What is the difference between leather and suede in perfume?",
+     "a": "Classic leather is often smoky, bitter and animalic, built around birch tar or tarry notes. Suede is softer, powdery and musky, evoking supple skin rather than a saddle. Perfumers use suede to add a muted warmth without the harshness of darker leathers."
+    },
+    {
+     "q": "Which perfumes have a suede note?",
+     "a": "Several fragrances put suede forward: Tom Ford Tuscan Leather and Tobacco Vanille, Jo Malone Peony & Blush Suede, which pairs it with peony, as well as Ralph Lauren Polo Blue and Giorgio Armani Stronger With You Intensely, which use it in the base to soften their compositions."
+    }
+   ]
+  }
+ },
+ "Tuberose": {
+  "slug_fr": "tubereuse",
+  "slug_en": "tuberose",
+  "name_fr": "Tubéreuse",
+  "name_en": "Tuberose",
+  "category": "floral",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la tubéreuse : odeur, origine et icônes",
+   "meta": "Crémeuse, capiteuse, beurrée : la tubéreuse est la reine des fleurs blanches opulentes. Son odeur, sa culture en Inde et les grands parfums qui l’honorent.",
+   "h1": "La tubéreuse en parfum : la plus capiteuse des fleurs blanches",
+   "intro": "La tubéreuse est une fleur blanche dont l’odeur est crémeuse, capiteuse et sensuelle, avec des accents de noix de coco, de beurre et de camphre. C’est l’une des fleurs les plus puissantes de la parfumerie. Son absolue, très coûteuse, apporte une opulence immédiatement reconnaissable.",
+   "smell": "La tubéreuse sent la fleur blanche épanouie, à la fois crémeuse et verte : lait de coco, beurre, pêche blanche, avec une étonnante fraîcheur camphrée, presque mentholée. Il y a aussi une facette charnelle, légèrement caoutchouteuse, qui lui donne sa sensualité. Sur la peau, elle rayonne longtemps et laisse un sillage généreux, crémeux, qui s’adoucit progressivement dans les muscs et les bois. C’est une fleur de présence, qui ne passe pas inaperçue.",
+   "origin": "La tubéreuse (Polianthes tuberosa), originaire du Mexique, est aujourd’hui cultivée surtout en Inde, notamment dans le sud du pays, et autrefois à Grasse. Ses fleurs sont traitées par extraction aux solvants pour donner une absolue très coûteuse ; l’enfleurage était jadis la méthode privilégiée. Son odeur associe salicylate et benzoate de méthyle, indole et lactones. Fracas de Robert Piguet, créé par Germaine Cellier en 1948, en a fait une icône.",
+   "craft": "La tubéreuse se place au cœur, où elle domine souvent la composition. Elle s’allie au jasmin, à la fleur d’oranger, à l’ylang-ylang, à la noix de coco, à la vanille et au santal. Carnal Flower de Frédéric Malle en offre une lecture fraîche et verte avec l’eucalyptus et le melon, Poison de Dior la place au cœur d’un oriental ambré, et Good Girl de Carolina Herrera l’associe au café et au cacao.",
+   "wear": "La tubéreuse se porte surtout le soir, au printemps comme en été ; elle séduit les amateurs de floraux opulents et affirmés.",
+   "faq": [
+    {
+     "q": "Que sent la tubéreuse ?",
+     "a": "La tubéreuse sent la fleur blanche crémeuse et capiteuse, avec des accents de noix de coco, de beurre, de pêche et une fraîcheur camphrée surprenante. Elle a aussi une facette charnelle, presque caoutchouteuse, qui la rend très sensuelle. C’est l’une des fleurs les plus puissantes de la parfumerie, au sillage généreux et durable."
+    },
+    {
+     "q": "La tubéreuse est-elle une note féminine ?",
+     "a": "Elle est surtout associée aux parfums féminins, comme Poison de Dior, Good Girl de Carolina Herrera ou Twilly d’Hermès. Mais certaines créations mixtes, comme Carnal Flower de Frédéric Malle ou Soleil Blanc de Tom Ford, montrent qu’elle peut aussi être portée par tous, notamment dans des interprétations plus vertes ou solaires."
+    },
+    {
+     "q": "Pourquoi la tubéreuse est-elle si chère ?",
+     "a": "Il faut une très grande quantité de fleurs, cueillies à la main, pour obtenir une petite quantité d’absolue de tubéreuse. Cette matière est donc parmi les plus coûteuses de la parfumerie. C’est pourquoi de nombreux parfums complètent l’extrait naturel par des molécules de synthèse qui reproduisent ses facettes crémeuses et florales."
+    }
+   ]
+  },
+  "en": {
+   "title": "Tuberose Perfumes: Scent, Origin and Icons",
+   "meta": "Creamy, heady and buttery, tuberose is the queen of opulent white flowers. What it smells like, where it is grown and the great fragrances built around it.",
+   "h1": "Tuberose in Perfume: the Headiest White Flower",
+   "intro": "Tuberose is a white flower with a creamy, heady and sensual scent, carrying hints of coconut, butter and camphor. It is one of the most powerful flowers in perfumery. Its very costly absolute brings an instantly recognisable opulence.",
+   "smell": "Tuberose smells of a white flower in full bloom, both creamy and green: coconut milk, butter and white peach, with a surprising camphorous, almost minty freshness. There is also a carnal, slightly rubbery facet that gives it sensuality. On skin it radiates for hours and leaves a generous, creamy trail that softens gradually into musks and woods. It is a flower of presence that never goes unnoticed.",
+   "origin": "Tuberose (Polianthes tuberosa), native to Mexico, is now grown mainly in India, especially in the south, and was formerly cultivated around Grasse. Its flowers are solvent-extracted into a very costly absolute; enfleurage was once the preferred method. Its scent combines methyl salicylate, methyl benzoate, indole and lactones. Robert Piguet Fracas, created by Germaine Cellier in 1948, made it an icon.",
+   "craft": "Tuberose sits in the heart, where it often dominates the composition and sets the tone for everything around it. It pairs with jasmine, orange blossom, ylang-ylang, coconut, vanilla and sandalwood. Frédéric Malle Carnal Flower offers a fresh, green reading with eucalyptus and melon, Dior Poison places it in the heart of an ambery oriental, and Carolina Herrera Good Girl pairs it with coffee and cocoa.",
+   "wear": "Tuberose is best for evenings, in spring or summer, and appeals to lovers of opulent, confident florals.",
+   "faq": [
+    {
+     "q": "What does tuberose smell like?",
+     "a": "Tuberose smells of a creamy, heady white flower, with hints of coconut, butter and peach and a surprising camphorous freshness. It also has a carnal, almost rubbery facet that makes it very sensual. It is one of the most powerful flowers in perfumery, with a generous and long-lasting trail."
+    },
+    {
+     "q": "Is tuberose a feminine note?",
+     "a": "It is mostly associated with feminine fragrances such as Dior Poison, Carolina Herrera Good Girl and Hermès Twilly d'Hermès. But some unisex creations, such as Frédéric Malle Carnal Flower and Tom Ford Soleil Blanc, show it can be worn by anyone, especially in greener or sunnier interpretations."
+    },
+    {
+     "q": "Why is tuberose so expensive?",
+     "a": "It takes a very large quantity of hand-picked flowers to obtain a small amount of tuberose absolute. The material is therefore among the most expensive in perfumery. That is why many fragrances supplement the natural extract with synthetic molecules that reproduce its creamy, floral facets."
+    }
+   ]
+  }
+ },
+ "Violet Leaf": {
+  "slug_fr": "feuille-de-violette",
+  "slug_en": "violet-leaf",
+  "name_fr": "Feuille de violette",
+  "name_en": "Violet Leaf",
+  "category": "green",
+  "source": "natural",
+  "fr": {
+   "title": "Parfums à la feuille de violette : odeur et créations",
+   "meta": "Verte, aqueuse, aux accents de concombre et d’herbe coupée : la feuille de violette apporte une fraîcheur unique. Son odeur, son origine, ses usages.",
+   "h1": "La feuille de violette : un vert frais aux accents de concombre",
+   "intro": "La feuille de violette apporte au parfum une note verte, fraîche et aqueuse, avec des accents de concombre et d’herbe coupée. Elle ne sent pas la fleur de violette, poudrée et sucrée, mais la feuille froissée. C’est une note clé des parfums verts et de nombreux masculins modernes.",
+   "smell": "La feuille de violette sent le concombre fraîchement coupé, l’herbe humide et la terre mouillée, avec une nuance légèrement métallique et une touche de melon vert. Son absolue naturelle est aussi un peu poivrée et terreuse. Sur la peau, elle apporte une fraîcheur verte et aqueuse qui s’estompe progressivement, laissant une impression de nature et de propreté. Elle donne aux compositions une modernité fraîche, presque aquatique, très différente des agrumes.",
+   "origin": "L’absolue de feuille de violette provient de Viola odorata. Les feuilles sont traitées par extraction aux solvants, surtout en Égypte et, historiquement, dans la région de Grasse. Son odeur caractéristique tient notamment au 2,6-nonadiénal, parfois appelé aldéhyde de feuille de violette, à l’odeur de concombre. Cette matière naturelle, puissante et coûteuse, est souvent complétée par des molécules de synthèse. Elle a pris son essor dans les masculins frais à partir des années 1980.",
+   "craft": "La feuille de violette se place en tête ou au cœur pour apporter une fraîcheur verte et moderne. Elle se marie à l’iris, à la bergamote, au cuir, au bois ambré, au santal et aux notes aquatiques. Green Irish Tweed de Creed l’associe à l’iris et à la verveine, Ombre Leather de Tom Ford l’utilise pour éclairer un accord cuir, et Daisy de Marc Jacobs l’allie à la fraise et au pamplemousse.",
+   "wear": "La feuille de violette se porte au printemps et en été ; elle plaît aux amateurs de parfums verts, frais et naturels.",
+   "faq": [
+    {
+     "q": "Que sent la feuille de violette ?",
+     "a": "La feuille de violette sent le vert frais et aqueux : concombre, herbe coupée, terre humide, avec une légère nuance métallique. Elle ne ressemble pas du tout à la fleur de violette, qui est poudrée et sucrée. En parfum, elle apporte une fraîcheur verte et moderne, souvent utilisée dans les masculins et les parfums frais."
+    },
+    {
+     "q": "Quelle différence entre violette et feuille de violette ?",
+     "a": "La fleur de violette sent la poudre, le bonbon et l’iris, grâce aux ionones. La feuille de violette est verte, aqueuse et évoque le concombre, grâce à des molécules comme le 2,6-nonadiénal. Les deux proviennent de la même plante, mais les parfumeurs les utilisent pour des effets complètement différents."
+    },
+    {
+     "q": "Quels parfums contiennent de la feuille de violette ?",
+     "a": "La feuille de violette est présente dans Green Irish Tweed de Creed, Ombre Leather de Tom Ford, Daisy de Marc Jacobs ou Kuhuyan de Parfums de Marly. Côté masculins modernes, on la trouve dans Dylan Blue de Versace, Uomo Born in Roma de Valentino et Gucci Pour Homme II."
+    }
+   ]
+  },
+  "en": {
+   "title": "Violet Leaf Perfumes: Scent, Origin and Icons",
+   "meta": "Green, watery and reminiscent of cucumber and cut grass, violet leaf gives fragrance a unique freshness. Its scent, origin and the perfumes that use it.",
+   "h1": "Violet Leaf: a Fresh Green with Cucumber Accents",
+   "intro": "Violet leaf gives perfume a green, fresh and watery note with hints of cucumber and cut grass. It does not smell like the powdery, sweet violet flower but like a crushed leaf. It is a key note in green fragrances and many modern masculines.",
+   "smell": "Violet leaf smells of freshly sliced cucumber, damp grass and wet soil, with a faintly metallic nuance and a touch of green melon. The natural absolute is also slightly peppery and earthy. On skin it brings a green, watery freshness that gradually fades, leaving an impression of nature and cleanliness. It gives compositions a fresh, almost aquatic modernity quite unlike citrus.",
+   "origin": "Violet leaf absolute comes from Viola odorata. The leaves are solvent-extracted, mainly in Egypt and historically in the Grasse region. Its characteristic scent comes largely from 2,6-nonadienal, sometimes called violet leaf aldehyde, which smells strikingly of cucumber. This powerful, costly natural material is often supported by synthetic molecules. The note rose to real prominence in fresh masculines from the 1980s onward.",
+   "craft": "Violet leaf sits in the top or heart to add a green, modern freshness, often with a slightly aquatic, metallic sheen. It pairs with iris, bergamot, leather, amberwood, sandalwood and aquatic notes. Creed Green Irish Tweed matches it with iris and verbena, Tom Ford Ombre Leather uses it to brighten a leather accord, and Marc Jacobs Daisy pairs it with strawberry and grapefruit.",
+   "wear": "Violet leaf suits spring and summer and appeals to lovers of green, fresh and natural-feeling fragrances.",
+   "faq": [
+    {
+     "q": "What does violet leaf smell like?",
+     "a": "Violet leaf smells green, fresh and watery: cucumber, cut grass and damp earth, with a slight metallic nuance. It is nothing like the violet flower, which is powdery and sweet. In perfume it adds a modern green freshness, often used in masculines and fresh fragrances."
+    },
+    {
+     "q": "What is the difference between violet and violet leaf?",
+     "a": "The violet flower smells powdery, candy-like and close to iris, thanks to molecules called ionones. Violet leaf is green, watery and cucumber-like thanks to molecules such as 2,6-nonadienal. Both come from the same plant, but perfumers use them for entirely different effects."
+    },
+    {
+     "q": "Which perfumes contain violet leaf?",
+     "a": "Violet leaf features in Creed Green Irish Tweed, Tom Ford Ombre Leather, Marc Jacobs Daisy and Parfums de Marly Kuhuyan. Among modern masculines, you will find it in Versace Dylan Blue, Valentino Uomo Born in Roma and Gucci Pour Homme II."
+    }
+   ]
+  }
+ }
+}

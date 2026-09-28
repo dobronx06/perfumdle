@@ -106,7 +106,7 @@ const jsonLd = {
 
       <h3>{fr ? "Comment ça marche ?" : "How does it work?"}</h3>
       <ol>
-        <li>{fr ? "Cherchez un parfum dans la liste des 150 parfums disponibles" : "Search for a perfume in the list of 150 available perfumes"}</li>
+        <li>{fr ? "Cherchez un parfum dans la liste des 300 parfums disponibles" : "Search for a perfume in the list of 300 available perfumes"}</li>
         <li>{fr ? "Après chaque tentative, 5 attributs sont comparés :" : "After each attempt, 5 attributes are compared:"}</li>
         <ul>
           <li><strong>{fr ? "Maison" : "House"}</strong> : {fr ? "La marque (Dior, Chanel, Guerlain...)" : "The brand (Dior, Chanel, Guerlain...)"}</li>
@@ -329,8 +329,8 @@ const jsonLd = {
 
       <h2>{fr ? "Pour aller plus loin" : "Learn more"}</h2>
       <div class="content-links">
-        <a href={localePath(locale, '/liste-150-parfums-perfumdle/')} class="content-link-card">
-          <div class="content-link-card__title">{fr ? "Liste des 150 parfums" : "List of 150 perfumes"}</div>
+        <a href={(locale === 'fr' ? '/fr/parfums/' : '/en/perfumes/')} class="content-link-card">
+          <div class="content-link-card__title">{fr ? "Tous les parfums" : "All perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Étudiez la liste complète" : "Study the complete list"}</div>
         </a>
         <a href={localePath(locale, '/guide-familles-olfactives/')} class="content-link-card">
