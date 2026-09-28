@@ -15,12 +15,12 @@ BANNED_FR = [
     'en conclusion', 'il est important de noter', 'il convient de', 'un must', 'intemporel', 'voyage olfactif',
     'sillage inoubliable', 'ode à', 'invitation à', 'symphonie', 'explosion de', 'bien plus qu', 'tout simplement',
     'résolument', 'audacieu', 'témoigne de', 'marque un tournant', "incarne l'essence", 'incarne l’essence',
-    'les experts', 'selon les amateurs',
+    'les experts', 'selon les amateurs', 'pas seulement', "n'est pas un défaut",
 ]
 BANNED_EN = [
     'delve', 'tapestry', 'testament to', 'a true ', 'timeless', 'must-have', 'elevate', 'captivating', "whether you're",
     'whether you are', "it's not just", 'more than just', 'olfactory journey', 'symphony', 'nestled', 'in the world of',
-    'boasts', 'seamlessly', 'vibrant', 'embark', 'unleash', 'game-changer', 'game changer',
+    'boasts', 'seamlessly', 'vibrant', 'embark', 'unleash', 'game-changer', 'game changer', 'not just',
 ]
 MAX_PER_FILE = {'iconique': 3, 'iconic': 3, 'au fil des heures': 1, 'jus': 2}
 

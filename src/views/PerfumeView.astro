@@ -43,7 +43,11 @@ const tiers = [
 ];
 
 /* ---------- SEO ---------- */
-const longTitle = fr ? `${p.name} de ${p.brand} : notes, avis et odeur` : `${p.name} by ${p.brand}: notes, review & smell`;
+// « Bleu de Chanel de Chanel » reads badly: drop the house when the name already contains it.
+const nameHasBrand = p.name.toLowerCase().includes(p.brand.toLowerCase());
+const longTitle = nameHasBrand
+  ? (fr ? `${p.name} : notes, avis, odeur et histoire` : `${p.name}: notes, review, smell & story`)
+  : fr ? `${p.name} de ${p.brand} : notes, avis et odeur` : `${p.name} by ${p.brand}: notes, review & smell`;
 const title = longTitle.length <= 65 ? longTitle : fr ? `${p.name} (${p.brand}) : notes et avis` : `${p.name} (${p.brand}): notes & review`;
 const topThree = allNotes(p).slice(0, 3).map((n) => lc(noteName(n, l)));
 const rawDescription = fr
