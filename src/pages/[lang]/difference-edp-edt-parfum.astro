@@ -24,21 +24,21 @@ const concentrationCounts = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: fr ? 'Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?' : 'Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?',
+  headline: fr ? 'Différence entre eau de parfum et eau de toilette (et parfum)' : 'Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?',
   description: fr
-    ? 'Découvrez les différences entre Parfum, Eau de Parfum, Eau de Toilette et Eau de Cologne : concentration, tenue, prix. Guide complet pour choisir la bonne concentration.'
-    : 'Discover the differences between Perfume, Eau de Parfum, Eau de Toilette and Eau de Cologne: concentration, longevity, price. Complete guide to choosing the right concentration.',
+    ? 'Différence entre eau de parfum et eau de toilette : concentration, tenue, sillage, prix. Et l’extrait, l’eau de Cologne : comment bien choisir ?'
+    : 'Eau de Parfum vs Eau de Toilette vs Perfume and Cologne: concentration, longevity, projection and price. How to choose the right one.',
   author: { '@type': 'Organization', name: 'Perfumdle' },
   datePublished: '2026-06-05',
-  dateModified: '2026-06-05',
+  dateModified: '2026-09-28',
 };
 ---
 
 <Layout
-  title={fr ? "Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?" : "Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?"}
+  title={fr ? "Différence entre eau de parfum et eau de toilette (et parfum)" : "Eau de Parfum vs Eau de Toilette vs Perfume: what are the differences?"}
   description={fr
-    ? "Découvrez les différences entre Parfum, Eau de Parfum, Eau de Toilette et Eau de Cologne : concentration, tenue, prix. Guide complet pour choisir la bonne concentration."
-    : "Discover the differences between Perfume, Eau de Parfum, Eau de Toilette and Eau de Cologne: concentration, longevity, price. Complete guide to choosing the right concentration."
+    ? "Différence entre eau de parfum et eau de toilette : concentration, tenue, sillage, prix. Et l’extrait, l’eau de Cologne : comment bien choisir ?"
+    : "Eau de Parfum vs Eau de Toilette vs Perfume and Cologne: concentration, longevity, projection and price. How to choose the right one."
   }
   locale={locale}
   canonical={canonical}
@@ -54,7 +54,7 @@ const jsonLd = {
         </a>
       </nav>
 
-      <h1>{fr ? "Eau de Parfum, Eau de Toilette, Parfum : quelles différences ?" : "EDP, EDT, Perfume: what are the differences?"}</h1>
+      <h1>{fr ? "Eau de parfum ou eau de toilette : quelle différence ?" : "EDP, EDT, Perfume: what are the differences?"}</h1>
       <p class="content-subtitle">
         {fr
           ? "Tout comprendre sur les concentrations de parfum pour faire le bon choix"

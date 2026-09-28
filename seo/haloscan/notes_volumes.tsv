@@ -1,0 +1,433 @@
+cluster	entity	keyword	volume	cpc	kgr
+note	Agrumes	parfum agrumes homme	100	0.7	NA
+note	Agrumes	parfum agrumes femme	30	0.66	NA
+note	Agrumes	parfum aux agrumes	20	0.7768	NA
+note	Aldéhydes	aldéhydes parfum	260	NA	NA
+note	Amande	parfum amande	260	0.75	23.5769
+note	Amande	parfum amande femme	20	2.085	NA
+note	Amande	amande parfum	10	2.3219	NA
+note	Ambre	ambre parfum	1000	0.67	37.4
+note	Ambre	parfum ambre femme	655	0.72	NA
+note	Ambre	parfum ambre homme	291	0.78	NA
+note	Ambre	parfum ambré	100	0.88	14.4
+note	Ambre	parfum ambre	100	0.9	380
+note	Ambre	parfum ambre vanille	70	1.09	NA
+note	Ambre	parfum ambré femme	65	0.72	NA
+note	Ambre	parfum ambré homme	29	0.78	NA
+note	Ambre	meilleur parfum ambre	10	1.2695	NA
+note	Ambre gris	ambre gris parfum	260	1.1	NA
+note	Ambre gris	parfum ambre gris	140	1.21	NA
+note	Ambre gris	parfum ambre gris femme	50	0.51	NA
+note	Ambre gris	parfum ambre gris homme	10	0.8083	NA
+note	Ambrette	ambrette parfum	30	0.8927	NA
+note	Ambroxan	ambroxan parfum	20	0.6713	NA
+note	Ambroxan	parfum ambroxan	10	0.4981	NA
+note	Ananas	parfum ananas	70	1.33	NA
+note	Basilic	parfum basilic	100	1.24	NA
+note	Benjoin	benjoin parfum	70	0.7453	NA
+note	Benjoin	parfum benjoin	50	0.84	NA
+note	Bergamote	parfum bergamote	1100	0.67	4.9909
+note	Bergamote	bergamote parfum	140	1.91	NA
+note	Bergamote	parfum bergamote femme	90	1.26	NA
+note	Bergamote	parfum bergamote homme	70	1.21	NA
+note	Bois ambré	bois ambré parfum	10	NA	NA
+note	Bois de gaïac	bois de gaïac parfum	20	0.8458	NA
+note	Bois de rose	bois de rose parfum	30	0.6266	NA
+note	Café	parfum café	260	0.66	NA
+note	Café	parfum cafe	140	0.63	NA
+note	Café	parfum café homme	20	0.2964	NA
+note	Café	parfum café femme	20	1.9298	NA
+note	Café	parfum odeur café	10	0.6523	NA
+note	Cannelle	cannelle parfum	320	0.74	NA
+note	Cannelle	parfum cannelle	300	0.28	NA
+note	Cannelle	parfum cannelle femme	70	1.24	NA
+note	Cannelle	parfum cannelle homme	70	0.97	NA
+note	Cannelle	parfum à la cannelle	20	1.0776	NA
+note	Caramel	parfum au caramel	590	0.27	NA
+note	Caramel	parfum caramel	300	0.46	NA
+note	Caramel	parfum caramel femme	50	0.75	NA
+note	Caramel	parfum caramel homme	40	0.74	NA
+note	Caramel	caramel parfum	20	0.35	NA
+note	Cardamome	cardamome parfum	50	0.3281	NA
+note	Cardamome	parfum cardamome	40	0.9081	NA
+note	Cashmeran	cashmeran parfum	10	0.4903	NA
+note	Cassis	parfum cassis	140	0.76	NA
+note	Citron	parfum citron	480	0.53	NA
+note	Citron	parfum citron femme	210	0.86	NA
+note	Citron	parfum citron homme	140	0.62	NA
+note	Citron	parfum au citron	40	1.0778	NA
+note	Citron	citron parfum	10	1.3631	NA
+note	Coriandre	parfum coriandre	170	0.27	NA
+note	Coriandre	coriandre parfum	110	0.32	NA
+note	Coriandre	parfum coriandre femme	20	0.3237	NA
+note	Cuir	parfum cuir	400	0.77	52.5
+note	Cuir	parfum cuir homme	90	0.82	NA
+note	Cuir	parfum cuiré	50	0.9	NA
+note	Cuir	parfum cuir femme	40	1.242	NA
+note	Cuir	cuir parfum	30	1.5727	NA
+note	Cèdre	parfum cèdre	110	0.9341	NA
+note	Cèdre	parfum bois de cèdre	90	0.94	NA
+note	Cèdre	parfum cèdre homme	70	1.37	NA
+note	Cèdre	cèdre parfum	70	2.52	NA
+note	Cèdre	parfum cèdre femme	50	1.39	NA
+note	Encens	parfum encens	320	0.67	NA
+note	Encens	encens parfum	210	0.52	NA
+note	Encens	parfum encens femme	50	0.74	NA
+note	Encens	meilleur parfum encens	50	0.41	0.04
+note	Encens	parfum encens homme	20	0.5385	NA
+note	Figue	parfum figue	400	1.44	12.475
+note	Figue	parfum figue femme	90	0.48	NA
+note	Figue	parfum à la figue	50	1.23	NA
+note	Figue	parfum figue homme	20	0.5143	NA
+note	Fleur d'oranger	fleur d oranger parfum	390	0.61	NA
+note	Fleur d'oranger	meilleur parfum fleur d oranger	260	0.67	NA
+note	Fleur d'oranger	parfum fleur d oranger	200	0.59	36.45
+note	Fleur d'oranger	parfum à la fleur d oranger	100	0.59	NA
+note	Fleurs blanches	parfum fleuri	320	0.79	7.0312
+note	Fleurs blanches	parfum fleurs blanches	140	1.29	NA
+note	Fleurs blanches	fleurs blanches parfum	40	0.964	NA
+note	Fleurs blanches	parfum fleurs blanches femme	10	0.5771	NA
+note	Fraise	parfum fraise	390	0.46	NA
+note	Framboise	parfum framboise	260	0.38	NA
+note	Framboise	parfum à la framboise	10	0.3966	NA
+note	Framboise	framboise parfum	10	NA	NA
+note	Freesia	parfum freesia	90	1.67	2.8667
+note	Freesia	freesia parfum	50	0.681	NA
+note	Fève tonka	parfum tonka	170	0.67	NA
+note	Fève tonka	fève tonka parfum	110	0.89	NA
+note	Fève tonka	parfum tonka femme	20	1.2072	NA
+note	Fève tonka	parfum fève tonka	19	0.59	NA
+note	Fève tonka	parfum fève tonka femme	13	0.68	NA
+note	Fève tonka	parfum tonka homme	10	0.8832	NA
+note	Galbanum	galbanum parfum	50	NA	NA
+note	Galbanum	parfum galbanum	10	NA	NA
+note	Gardénia	parfum gardénia	260	0.96	NA
+note	Gingembre	parfum gingembre	110	1.22	NA
+note	Gingembre	parfum gingembre homme	20	0.7785	NA
+note	Gingembre	gingembre parfum	20	1.1796	NA
+note	Gingembre	parfum gingembre femme	20	1.1769	NA
+note	Géranium	parfum géranium	30	0.4736	NA
+note	Géranium	parfum géranium femme	20	0.4821	NA
+note	Héliotrope	héliotrope parfum	260	0.78	2.4154
+note	Héliotrope	parfum héliotrope	19	0.62	NA
+note	Iris	parfum iris	260	1.35	153.8462
+note	Iris	iris parfum	170	1.17	NA
+note	Iris	parfum iris femme	170	1.11	NA
+note	Iris	parfum iris homme	20	0.6811	NA
+note	Iris	parfum iris poudré	20	3.9931	NA
+note	Jasmin	parfum jasmin	1300	0.59	27.3846
+note	Jasmin	jasmin parfum	390	1.1	100.2564
+note	Jasmin	parfum au jasmin	260	1.06	NA
+note	Jasmin	parfum jasmin femme	210	1	NA
+note	Jasmin	parfum au jasmin femme	70	0.75	NA
+note	Jasmin	parfum jasmin homme	50	1.63	NA
+note	Jasmin	parfum jasmin pas cher	20	0.58	NA
+note	Labdanum	labdanum parfum	20	1.3387	NA
+note	Lavande	parfum lavande	720	0.75	17.5
+note	Lavande	parfum lavande femme	90	0.96	NA
+note	Lavande	parfum lavande homme	70	1.29	NA
+note	Lavande	lavande parfum	70	1.3	NA
+note	Lavande	parfum à la lavande	70	0.75	NA
+note	Lilas	parfum lilas	260	0.75	15.5385
+note	Lilas	parfum au lilas	70	1.15	NA
+note	Lilas	odeur de lilas	10	NA	NA
+note	Lotus	parfum lotus	70	0.87	NA
+note	Lotus	lotus parfum	20	NA	NA
+note	Lys	parfum lys	170	0.52	NA
+note	Lys	parfum au lys	140	0.6	NA
+note	Lys	lys parfum	70	NA	NA
+note	Lys	parfum fleur de lys	50	1.19	NA
+note	Lys	odeur de lys	20	NA	NA
+note	Magnolia	parfum magnolia	720	0.55	33.3333
+note	Magnolia	magnolia parfum	720	0.72	NA
+note	Magnolia	parfum au magnolia	10	1.0848	NA
+note	Mandarine	parfum mandarine	260	0.9	NA
+note	Melon	parfum melon	30	0.9126	NA
+note	Menthe	parfum menthe	70	1.61	NA
+note	Menthe	parfum menthe homme	30	0.6663	NA
+note	Menthe	parfum menthe femme	30	0.7747	NA
+note	Menthe	parfum à la menthe	20	0.7984	NA
+note	Miel	parfum miel	140	0.64	NA
+note	Muguet	parfum muguet	400	1.46	12.35
+note	Muguet	parfum muguet femme	200	1.31	NA
+note	Muguet	parfum au muguet	140	1.15	0.7857
+note	Muguet	muguet parfum	70	1.2	NA
+note	Muguet	parfum muguet homme	10	0.8494	NA
+note	Muguet	odeur de muguet	10	NA	NA
+note	Musc	parfum musc blanc	3300	0.59	1.0455
+note	Musc	parfum musc	3100	0.85	20.7742
+note	Musc	parfum musc blanc femme	720	0.48	NA
+note	Musc	musc parfum	386	0.54	170.4663
+note	Musc	parfum musc homme	300	0.54	3.12
+note	Musc	musc blanc parfum	264	0.51	12.5
+note	Musc	parfum musc vanille	260	0.37	NA
+note	Musc	parfum au musc	210	0.63	NA
+note	Musc	parfum musc femme	200	0.94	7
+note	Musc	parfum musqué	110	0.67	NA
+note	Musc	odeur de musc	110	NA	NA
+note	Musc	meilleur parfum musc	30	1.1	NA
+note	Musc	parfum musc pas cher	10	0.35	NA
+note	Myrrhe	myrrhe parfum	64	NA	NA
+note	Myrrhe	parfum à la myrrhe	10	0.877	NA
+note	Narcisse	narcisse parfum	90	0.49	NA
+note	Narcisse	parfum narcisse	90	0.43	NA
+note	Noix de coco	parfum monoi	1600	0.82	1.8688
+note	Noix de coco	parfum noix de coco	655	0.54	3.2519
+note	Noix de coco	parfum coco	590	1.19	128.3051
+note	Noix de coco	parfum noix de coco femme	210	0.64	NA
+note	Noix de coco	parfum noix de coco homme	170	0.87	NA
+note	Noix de coco	parfum à la noix de coco	65	0.57	NA
+note	Noix de coco	noix de coco parfum	30	0.44	92.3333
+note	Noix de coco	meilleur parfum noix de coco	10	1.0258	NA
+note	Noix de coco	parfum noix de coco pas cher	10	1.19	NA
+note	Néroli	néroli parfum	1600	0.69	NA
+note	Néroli	parfum néroli femme	110	0.86	NA
+note	Néroli	parfum néroli	70	0.66	NA
+note	Opoponax	opoponax parfum	110	NA	NA
+note	Orange	parfum orange	300	2.5	166.6667
+note	Orange	parfum orange homme	110	0.38	NA
+note	Orange	parfum orange femme	90	1.2	NA
+note	Orange	orange parfum	50	1.01	NA
+note	Orange sanguine	parfum orange sanguine	20	0.5007	NA
+note	Orange sanguine	orange sanguine parfum	10	NA	NA
+note	Orchidée	parfum orchidée	170	0.84	NA
+note	Orchidée	orchidée parfum	50	NA	NA
+note	Osmanthus	osmanthus parfum	200	0.7	NA
+note	Osmanthus	parfum osmanthus	70	0.91	NA
+note	Oud	parfum oud femme	909	0.75	4.3454
+note	Oud	oud parfum	223	0.75	1524.6637
+note	Oud	parfum oud	200	0.79	1360
+note	Oud	parfum oud homme	145	0.84	43.8621
+note	Oud	parfum bois de oud	140	0.69	NA
+note	Oud	meilleur parfum oud	70	0.91	NA
+note	Oud	parfum au oud	33	0.6	NA
+note	Pamplemousse	parfum pamplemousse	110	1.75	NA
+note	Pamplemousse	parfum pamplemousse femme	30	0.8093	NA
+note	Pamplemousse	pamplemousse parfum	10	0.503	NA
+note	Papyrus	papyrus parfum	10	0.5821	NA
+note	Patchouli	parfum patchouli	2200	0.71	22.7727
+note	Patchouli	parfum au patchouli femme	1900	0.57	0.0026
+note	Patchouli	parfum patchouli homme	390	0.76	1.3897
+note	Patchouli	parfum patchouli femme	264	0.56	6.0606
+note	Patchouli	patchouli parfum	218	0.51	236.6972
+note	Patchouli	parfum au patchouli	210	0.74	NA
+note	Patchouli	parfum patchouli pas cher	140	0.65	NA
+note	Patchouli	parfum patchouli vanille	40	0.5544	NA
+note	Patchouli	meilleur parfum patchouli	30	0.8	NA
+note	Pivoine	parfum pivoine	600	0.9	5.9333
+note	Pivoine	pivoine parfum	110	1.59	NA
+note	Poire	parfum poire	110	1.09	NA
+note	Poire	poire parfum	40	NA	NA
+note	Poire	parfum à la poire	20	1.0947	NA
+note	Poivre	parfum poivre	1727	0.96	1.8356
+note	Poivre	parfum poivre femme	191	0.66	NA
+note	Poivre	parfum poivre homme	155	0.7	NA
+note	Pomme	parfum pomme	600	1.39	10.0167
+note	Pomme	pomme parfum	110	NA	NA
+note	Pomme	parfum pomme femme	30	0.8873	NA
+note	Praline	parfum praline	20	0.5264	NA
+note	Pêche	parfum peche	480	0.42	NA
+note	Pêche	parfum pêche	170	1.37	NA
+note	Rhum	parfum rhum	20	NA	NA
+note	Rose	parfum rose	3100	0.46	90.3226
+note	Rose	parfum à la rose	390	1.06	5.2821
+note	Rose	parfums à la rose	390	1.06	0.3538
+note	Rose	parfum rose femme	210	1.42	NA
+note	Rose	rose parfum	170	1.18	NA
+note	Rose	parfum rose homme	127	0.5	NA
+note	Rose	parfum rose oud	110	0.58	NA
+note	Rose	meilleur parfum à la rose	50	0.84	NA
+note	Rose	odeur de rose	20	NA	NA
+note	Safran	parfum safran	210	0.42	NA
+note	Safran	safran parfum	20	3.6594	NA
+note	Santal	parfum bois de santal	880	0.8	NA
+note	Santal	parfum santal	320	1.59	133.4375
+note	Santal	santal parfum	170	2.13	NA
+note	Santal	parfum santal femme	110	1.31	NA
+note	Santal	parfum santal homme	70	0.97	NA
+note	Santal	parfum au bois de santal	30	1.2208	NA
+note	Santal	parfum au santal	20	0.7488	NA
+note	Sauge	sauge parfum	20	NA	NA
+note	Sauge	parfum sauge homme	10	0.5	NA
+note	Tubéreuse	tubéreuse parfum	320	0.69	NA
+note	Tubéreuse	meilleur parfum tubéreuse	70	2.31	NA
+note	Tubéreuse	parfum tubéreuse	29	1.08	NA
+note	Vanille	parfum vanille	3400	0.51	20.7059
+note	Vanille	parfum vanille femme	909	0.78	NA
+note	Vanille	parfum vanille homme	800	0.67	0.6162
+note	Vanille	meilleur parfum à la vanille	260	1.23	NA
+note	Vanille	vanille parfum	210	0.8	NA
+note	Vanille	parfum vanille coco	140	0.77	NA
+note	Vanille	parfum à la vanille	140	0.9	NA
+note	Vanille	parfum vanille pas cher	140	0.38	NA
+note	Vanille	parfum vanillé	100	0.9	10.2
+note	Vanille	parfum vanillé femme	91	0.78	0.0659
+note	Vanille	parfum vanillé homme	80	0.67	0.0875
+note	Vanille	meilleur parfum vanille	50	1.92	NA
+note	Vanille	odeur de vanille	20	NA	NA
+note	Vanille	parfum vanille tonka	10	2.3249	NA
+note	Violette	violette parfum	1300	0.52	NA
+note	Violette	parfum violette	720	1.16	14.4444
+note	Violette	parfum violette femme	590	0.46	NA
+note	Violette	parfum à la violette femme	70	1.16	NA
+note	Violette	odeur de violette	40	NA	NA
+note	Vétiver	vétiver parfum	118	0.59	36.0169
+note	Vétiver	parfum vétiver	70	0.9	49
+note	Vétiver	parfum vétiver homme	35	0.89	NA
+note	Ylang-ylang	ylang ylang parfum	260	0.71	NA
+note	Ylang-ylang	parfum ylang ylang	260	0.79	36.9231
+note	Ylang-ylang	parfum ylang ylang femme	50	1.22	NA
+note	Ylang-ylang	parfum ylang ylang homme	20	0.8579	NA
+famille	Aquatique/Marin	parfum frais	480	0.48	NA
+famille	Aquatique/Marin	parfums frais	480	0.61	1.9312
+famille	Aquatique/Marin	parfum marin	170	0.42	NA
+famille	Aquatique/Marin	parfum frais femme	73	0.7	10.274
+famille	Aquatique/Marin	parfum marin femme	70	1.22	NA
+famille	Aquatique/Marin	parfum aquatique	70	0.5	NA
+famille	Aquatique/Marin	parfum marin homme	70	1.59	NA
+famille	Aquatique/Marin	parfums marins	50	0.28	NA
+famille	Aquatique/Marin	parfum frais homme	35	0.83	38.8571
+famille	Aquatique/Marin	parfum aquatique femme	30	0.5938	NA
+famille	Aquatique/Marin	parfum aquatique homme	20	0.679	NA
+famille	Aquatique/Marin	note marine	10	NA	NA
+famille	Aromatique	parfum aromatique	90	0.56	NA
+famille	Aromatique	parfum aromatique femme	30	1.1178	NA
+famille	Aromatique	parfum aromatique homme	20	1.4802	NA
+famille	Aromatique	parfums aromatiques	20	0.24	NA
+famille	Boisé	parfum boisé	880	0.5	5.3636
+famille	Boisé	parfum boisé homme	500	0.66	1.074
+famille	Boisé	parfum boisé femme	390	1.49	0.4564
+famille	Boisé	parfums boisés	140	0.46	NA
+famille	Boisé	meilleur parfum boisé	10	NA	NA
+famille	Boisé	note boisée	10	NA	NA
+famille	Chypré	parfums chyprés	1600	0.59	0.1388
+famille	Chypré	parfum chypré	720	0.52	1.0583
+famille	Chypré	parfum chypré femme	400	1.21	0.23
+famille	Chypré	parfum chypré homme	44	0.66	2.2045
+famille	Chypré	famille olfactive chypré	20	NA	NA
+famille	Chypré	note chyprée	10	NA	NA
+famille	Cuir	parfum cuir	400	0.77	52.5
+famille	Cuir	parfum cuir homme	90	0.82	NA
+famille	Cuir	parfum cuiré	50	0.9	NA
+famille	Cuir	parfum cuir femme	40	1.242	NA
+famille	Cuir	famille olfactive cuir	10	NA	NA
+famille	Floral	parfum floral	800	0.64	87.875
+famille	Floral	parfum floral femme	536	0.69	4.8507
+famille	Floral	parfum fleuri femme	390	0.9	NA
+famille	Floral	parfums fleuris	390	1.1	NA
+famille	Floral	parfum fleuri	320	0.79	7.0312
+famille	Floral	parfum floral homme	50	NA	NA
+famille	Floral	eau de parfum florale	30	0.9916	NA
+famille	Floral	parfum fleuri homme	20	1.2979	NA
+famille	Floral	famille olfactive floral	10	NA	NA
+famille	Fougère	parfum fougère	90	1.62	NA
+famille	Fougère	parfums fougères	90	1.62	4.8
+famille	Fougère	parfum fougère homme	50	1.44	NA
+famille	Fougère	parfum fougère femme	30	0.8983	NA
+famille	Fougère	famille olfactive fougère	10	NA	NA
+famille	Fruité	parfum fruité femme	800	0.55	2.0625
+famille	Fruité	parfum fruité	480	0.38	6.8958
+famille	Fruité	parfums fruités	480	0.8	1.1271
+famille	Fruité	parfum fruité homme	260	0.52	0.2885
+famille	Gourmand	parfum gourmand	390	0.34	NA
+famille	Gourmand	parfums gourmands	390	0.82	NA
+famille	Gourmand	parfum gourmand femme	200	0.88	NA
+famille	Gourmand	parfum gourmand homme	140	1.08	NA
+famille	Gourmand	note gourmande	140	NA	NA
+famille	Hespéridé	parfum hespéridé	390	0.98	NA
+famille	Hespéridé	parfums hespéridés	82	0.59	NA
+famille	Hespéridé	parfum hespéridé homme	70	1.3	NA
+famille	Hespéridé	parfum hespéridé femme	19	0.57	NA
+famille	Hespéridé	famille olfactive hespéridée	10	NA	NA
+famille	Musqué	parfum musqué	110	0.67	NA
+famille	Musqué	parfum musqué homme	70	0.61	NA
+famille	Musqué	parfum musqué femme	40	0.9264	NA
+famille	Musqué	parfums musqués	10	0.42	NA
+famille	Oriental/Ambré	parfum oriental homme	390	1.66	NA
+famille	Oriental/Ambré	parfum ambré	100	0.88	14.4
+famille	Oriental/Ambré	parfum oriental	100	0.45	465
+famille	Oriental/Ambré	parfum oriental femme	87	0.44	26.4368
+famille	Oriental/Ambré	parfum ambré femme	65	0.72	NA
+famille	Oriental/Ambré	parfum ambré homme	29	0.78	NA
+famille	Oriental/Ambré	famille olfactive oriental	20	NA	NA
+famille	Oriental/Ambré	note orientale	10	NA	NA
+famille	Oriental/Ambré	meilleur parfum oriental	10	0.418	NA
+famille	Poudré	parfum poudré	600	0.54	3.1167
+famille	Poudré	parfum poudré femme	500	0.54	0.516
+famille	Poudré	parfum poudré homme	70	0.59	NA
+famille	Poudré	parfums poudrés	50	0.83	0.78
+famille	Poudré	eau de parfum poudrée	10	1.51	NA
+famille	général	note olfactive	343	4.14	0.3353
+famille	général	famille olfactive	320	0.25	3.3438
+famille	général	pyramide olfactive	80	0.62	11.1625
+famille	général	notes olfactives	34	0.66	NA
+famille	général	les familles olfactives	30	0.4236	NA
+famille	général	famille olfactive parfum	14	0.72	NA
+famille	Épicé	parfum épicé femme	260	1.03	NA
+famille	Épicé	parfum épicé homme	170	0.59	NA
+famille	Épicé	parfum épicé	170	0.81	NA
+famille	Épicé	parfums épicés	30	1.51	NA
+saison	automne	parfum automne	140	0.42	NA
+saison	automne	parfum automne homme	10	NA	NA
+saison	hiver	parfum hiver femme	291	0.64	NA
+saison	hiver	parfum hiver homme	236	0.63	NA
+saison	hiver	parfum hiver	210	0.32	NA
+saison	hiver	parfum d hiver femme	170	0.65	NA
+saison	hiver	parfum d hiver	155	0.63	NA
+saison	hiver	parfum d hiver homme	110	0.59	NA
+saison	hiver	meilleur parfum hiver homme	40	0.38	NA
+saison	hiver	meilleur parfum hiver femme	10	NA	0.5
+saison	printemps	parfum printemps	1000	0.37	NA
+saison	printemps	parfum de printemps	70	NA	NA
+saison	printemps	parfum printemps femme	50	1.23	NA
+saison	printemps	parfum printemps homme	30	NA	NA
+saison	été	parfum d été	1000	0.59	NA
+saison	été	parfum été femme	536	0.89	0.2761
+saison	été	parfum été homme	480	0.82	NA
+saison	été	parfum d été homme	355	0.69	NA
+saison	été	meilleur parfum été homme	170	0.98	NA
+saison	été	parfum ete	55	1.2	131.0909
+saison	été	parfum d été femme	55	0.9	2.2364
+saison	été	parfum frais été	20	0.943	NA
+genre	meilleur parfum femme	meilleur parfum femme	2400	0.71	1.3625
+genre	meilleur parfum homme	meilleur parfum homme	4900	0.7	0.9408
+genre	meilleur parfum mixte	meilleur parfum mixte	20	0.7252	NA
+genre	parfum femme	parfum femme	52900	0.86	0.1509
+genre	parfum femme le plus vendu	parfum femme le plus vendu	100	0.41	NA
+genre	parfum homme	parfum homme	64600	0.95	15.356
+genre	parfum homme le plus vendu	parfum homme le plus vendu	210	0.94	NA
+genre	parfum le plus vendu	parfum le plus vendu	110	0.47	NA
+genre	parfum le plus vendu au monde	parfum le plus vendu au monde	480	0.49	0.0688
+genre	parfum mixte	parfum mixte	700	0.65	13.5714
+genre	parfum pour femme	parfum pour femme	200	0.81	1210
+genre	parfum pour homme	parfum pour homme	3385	0.61	64.1064
+genre	parfum unisex	parfum unisex	210	0.88	NA
+genre	parfum unisexe	parfum unisexe	320	0.53	0.5375
+genre	parfums femme	parfums femme	5286	0.78	0.5543
+genre	parfums homme	parfums homme	6500	0.78	12.8615
+genre	top parfum femme	top parfum femme	27	0.79	50.3704
+genre	top parfum homme	top parfum homme	800	0.75	1.6125
+epoque	ancien parfum	ancien parfum	210	0.24	NA
+epoque	parfum ancien	parfum ancien	260	0.3972	43.4615
+epoque	parfum ancien femme	parfum ancien femme	70	NA	NA
+epoque	parfum année 2000	parfum année 2000	90	NA	NA
+epoque	parfum année 80	parfum année 80	29	0.33	1.3448
+epoque	parfum année 90	parfum année 90	24	0.46	0.2083
+epoque	parfum années 50	parfum années 50	20	NA	NA
+epoque	parfum années 70	parfum des années 70	127	0.4309	NA
+epoque	parfum années 70	parfum année 70	20	0.1448	NA
+epoque	parfum années 80	parfum années 80	210	0.2813	1.4476
+epoque	parfum années 90	parfum années 90	260	0.6909	NA
+epoque	parfum culte	parfum culte	10	NA	NA
+epoque	parfum des années 80	parfum des années 80	10	0.5817	NA
+epoque	parfum des années 90	parfum des années 90	50	1.4956	NA
+epoque	parfum discontinué	parfum discontinué	20	NA	NA
+epoque	parfum iconique	parfum iconique	50	0.5	NA
+epoque	parfum mythique	parfum mythique	40	NA	NA
+epoque	parfum rétro	parfum rétro	10	NA	NA
+epoque	parfum vintage	parfum vintage	170	1.3	NA
+epoque	parfum vintage	parfums vintage	170	1.3	NA
+epoque	parfum vintage femme	parfum vintage femme	40	0.2974	NA
+epoque	parfums iconiques	parfums iconiques	50	0.43	NA
+epoque	parfums mythiques	parfums mythiques	40	NA	NA
+epoque	vieux parfum	vieux parfum	110	NA	NA

@@ -1,0 +1,101 @@
+key	name_fr	best_keyword	best_volume	total_volume_cluster	title_formulation
+Musk	Musc	parfum musc blanc	3300	9000	parfum musc (3100) ≈ parfum musc blanc (3300) → garder « parfum musc »
+Vanilla	Vanille	parfum vanille	3400	6350	parfum vanille
+Patchouli	Patchouli	parfum patchouli	2200	5392	parfum patchouli
+Rose	Rose	parfum rose	3100	4567	parfum rose
+Coconut	Noix de coco	parfum monoi	1600	3340	parfum monoi (1600) > parfum noix de coco (655) → title « Parfum noix de coco » + variante « parfum monoi » dans H1/intro
+Violet	Violette	violette parfum	1300	2720	parfum violette (720) ≈ violette parfum (1300) → garder « parfum violette »
+Amber	Ambre	ambre parfum	1000	2320	ambre parfum (1000) > parfum ambre (100) → title « Parfum ambre » + variante « ambre parfum » dans H1/intro
+Jasmine	Jasmin	parfum jasmin	1300	2300	parfum jasmin
+Pepper	Poivre	parfum poivre	1727	2073	parfum poivre
+Neroli	Néroli	néroli parfum	1600	1780	néroli parfum (1600) > parfum néroli (70) → title « Parfum néroli » + variante « néroli parfum » dans H1/intro
+Oud	Oud	parfum oud femme	909	1720	parfum oud (200) ≈ oud parfum (223) → garder « parfum oud »
+Sandalwood	Santal	parfum bois de santal	880	1600	parfum bois de santal (880) > parfum santal (320) → title « Parfum santal » + variante « parfum bois de santal » dans H1/intro
+Magnolia	Magnolia	parfum magnolia	720	1450	parfum magnolia
+Bergamot	Bergamote	parfum bergamote	1100	1400	parfum bergamote
+Lavender	Lavande	parfum lavande	720	1020	parfum lavande
+Caramel	Caramel	parfum au caramel	590	1000	parfum caramel (300) ≈ parfum au caramel (590) → garder « parfum caramel »
+Orange Blossom	Fleur d'oranger	fleur d oranger parfum	390	950	parfum fleur d'oranger (200) ≈ fleur d oranger parfum (390) → garder « parfum fleur d'oranger »
+Lemon	Citron	parfum citron	480	880	parfum citron
+Lily of the Valley	Muguet	parfum muguet	400	830	parfum muguet
+Cinnamon	Cannelle	cannelle parfum	320	780	parfum cannelle (300) ≈ cannelle parfum (320) → garder « parfum cannelle »
+Apple	Pomme	parfum pomme	600	740	parfum pomme
+Peony	Pivoine	parfum pivoine	600	710	parfum pivoine
+Incense	Encens	parfum encens	320	650	parfum encens
+Peach	Pêche	parfum peche	480	650	parfum peche (480) > parfum pêche (170) → title « Parfum pêche » + variante « parfum peche » dans H1/intro
+Iris	Iris	parfum iris	260	640	parfum iris
+Leather	Cuir	parfum cuir	400	610	parfum cuir
+Ylang-Ylang	Ylang-ylang	ylang ylang parfum	260	590	parfum ylang-ylang (260) ≈ ylang ylang parfum (260) → garder « parfum ylang-ylang »
+Fig	Figue	parfum figue	400	560	parfum figue
+Orange	Orange	parfum orange	300	550	parfum orange
+White Flowers	Fleurs blanches	parfum fleuri	320	510	parfum fleuri (320) > parfum fleurs blanches (140) → title « Parfum fleurs blanches » + variante « parfum fleuri » dans H1/intro
+Ambergris	Ambre gris	ambre gris parfum	260	460	parfum ambre gris (140) ≈ ambre gris parfum (260) → garder « parfum ambre gris »
+Coffee	Café	parfum café	260	450	parfum café
+Lily	Lys	parfum lys	170	450	parfum lys
+Tuberose	Tubéreuse	tubéreuse parfum	320	419	tubéreuse parfum (320) > parfum tubéreuse (29) → title « Parfum tubéreuse » + variante « tubéreuse parfum » dans H1/intro
+Strawberry	Fraise	parfum fraise	390	390	parfum fraise
+Cedar	Cèdre	parfum cèdre	110	390	parfum cèdre
+Tonka Bean	Fève tonka	parfum tonka	170	342	parfum tonka (170) > parfum fève tonka (19) → title « Parfum fève tonka » + variante « parfum tonka » dans H1/intro
+Lilac	Lilas	parfum lilas	260	340	parfum lilas
+Coriander	Coriandre	parfum coriandre	170	300	parfum coriandre
+Almond	Amande	parfum amande	260	290	parfum amande
+Raspberry	Framboise	parfum framboise	260	280	parfum framboise
+Heliotrope	Héliotrope	héliotrope parfum	260	279	héliotrope parfum (260) > parfum héliotrope (19) → title « Parfum héliotrope » + variante « héliotrope parfum » dans H1/intro
+Osmanthus	Osmanthus	osmanthus parfum	200	270	osmanthus parfum (200) > parfum osmanthus (70) → title « Parfum osmanthus » + variante « osmanthus parfum » dans H1/intro
+Aldehydes	Aldéhydes	aldéhydes parfum	260	260	aldéhydes parfum (260) > parfum aldéhydes (0) → title « Parfum aldéhydes » + variante « aldéhydes parfum » dans H1/intro
+Mandarin	Mandarine	parfum mandarine	260	260	parfum mandarine
+Gardenia	Gardénia	parfum gardénia	260	260	parfum gardénia
+Saffron	Safran	parfum safran	210	230	parfum safran
+Vetiver	Vétiver	vétiver parfum	118	223	parfum vétiver (70) ≈ vétiver parfum (118) → garder « parfum vétiver »
+Orchid	Orchidée	parfum orchidée	170	220	parfum orchidée
+Narcissus	Narcisse	narcisse parfum	90	180	parfum narcisse (90) ≈ narcisse parfum (90) → garder « parfum narcisse »
+Ginger	Gingembre	parfum gingembre	110	170	parfum gingembre
+Pear	Poire	parfum poire	110	170	parfum poire
+Citrus	Agrumes	parfum agrumes homme	100	150	parfum aux agrumes (20) > parfum agrumes (0)
+Grapefruit	Pamplemousse	parfum pamplemousse	110	150	parfum pamplemousse
+Mint	Menthe	parfum menthe	70	150	parfum menthe
+Black Currant	Cassis	parfum cassis	140	140	parfum cassis
+Freesia	Freesia	parfum freesia	90	140	parfum freesia
+Honey	Miel	parfum miel	140	140	parfum miel
+Benzoin	Benjoin	benjoin parfum	70	120	parfum benjoin (50) ≈ benjoin parfum (70) → garder « parfum benjoin »
+Opoponax	Opoponax	opoponax parfum	110	110	opoponax parfum (110) > parfum opoponax (0) → title « Parfum opoponax » + variante « opoponax parfum » dans H1/intro
+Basil	Basilic	parfum basilic	100	100	parfum basilic
+Cardamom	Cardamome	cardamome parfum	50	90	parfum cardamome (40) ≈ cardamome parfum (50) → garder « parfum cardamome »
+Lotus	Lotus	parfum lotus	70	90	parfum lotus
+Myrrh	Myrrhe	myrrhe parfum	64	74	myrrhe parfum (64) > parfum myrrhe (0) → title « Parfum myrrhe » + variante « myrrhe parfum » dans H1/intro
+Pineapple	Ananas	parfum ananas	70	70	parfum ananas
+Galbanum	Galbanum	galbanum parfum	50	60	galbanum parfum (50) > parfum galbanum (10) → title « Parfum galbanum » + variante « galbanum parfum » dans H1/intro
+Geranium	Géranium	parfum géranium	30	50	parfum géranium
+Sage	Sauge	sauge parfum	20	30	sauge parfum (20) > parfum sauge (0) → title « Parfum sauge » + variante « sauge parfum » dans H1/intro
+Ambroxan	Ambroxan	ambroxan parfum	20	30	parfum ambroxan (10) ≈ ambroxan parfum (20) → garder « parfum ambroxan »
+Ambrette	Ambrette	ambrette parfum	30	30	ambrette parfum (30) > parfum ambrette (0) → title « Parfum ambrette » + variante « ambrette parfum » dans H1/intro
+Blood Orange	Orange sanguine	parfum orange sanguine	20	30	parfum orange sanguine
+Melon	Melon	parfum melon	30	30	parfum melon
+Rosewood	Bois de rose	bois de rose parfum	30	30	bois de rose parfum (30) > parfum bois de rose (0) → title « Parfum bois de rose » + variante « bois de rose parfum » dans H1/intro
+Guaiac Wood	Bois de gaïac	bois de gaïac parfum	20	20	bois de gaïac parfum (20) > parfum bois de gaïac (0) → title « Parfum bois de gaïac » + variante « bois de gaïac parfum » dans H1/intro
+Labdanum	Labdanum	labdanum parfum	20	20	labdanum parfum (20) > parfum labdanum (0) → title « Parfum labdanum » + variante « labdanum parfum » dans H1/intro
+Rum	Rhum	parfum rhum	20	20	parfum rhum
+Praline	Praline	parfum praline	20	20	parfum praline
+Amberwood	Bois ambré	bois ambré parfum	10	10	bois ambré parfum (10) > parfum bois ambré (0) → title « Parfum bois ambré » + variante « bois ambré parfum » dans H1/intro
+Papyrus	Papyrus	papyrus parfum	10	10	papyrus parfum (10) > parfum papyrus (0) → title « Parfum papyrus » + variante « papyrus parfum » dans H1/intro
+Cashmeran	Cashmeran	cashmeran parfum	10	10	cashmeran parfum (10) > parfum cashmeran (0) → title « Parfum cashmeran » + variante « cashmeran parfum » dans H1/intro
+Carnation	Œillet		0	0	parfum œillet (aucun volume mesuré)
+Oakmoss	Mousse de chêne		0	0	parfum mousse de chêne (aucun volume mesuré)
+Plum	Prune		0	0	parfum prune (aucun volume mesuré)
+Rosemary	Romarin		0	0	parfum romarin (aucun volume mesuré)
+Suede	Daim		0	0	parfum daim (aucun volume mesuré)
+Violet Leaf	Feuille de violette		0	0	parfum feuille de violette (aucun volume mesuré)
+Bitter Orange	Orange amère		0	0	parfum orange amère (aucun volume mesuré)
+Nutmeg	Noix de muscade		0	0	parfum noix de muscade (aucun volume mesuré)
+Pink Pepper	Baies roses		0	0	parfum baies roses (aucun volume mesuré)
+Cypress	Cyprès		0	0	parfum cyprès (aucun volume mesuré)
+Green Notes	Notes vertes		0	0	parfum notes vertes (aucun volume mesuré)
+Star Anise	Anis étoilé		0	0	parfum anis étoilé (aucun volume mesuré)
+Tobacco	Tabac		0	0	parfum tabac (aucun volume mesuré)
+Clary Sage	Sauge sclarée		0	0	parfum sauge sclarée (aucun volume mesuré)
+Cumin	Cumin		0	0	parfum cumin (aucun volume mesuré)
+Green Mandarin	Mandarine verte		0	0	parfum mandarine verte (aucun volume mesuré)
+Juniper	Genièvre		0	0	parfum genièvre (aucun volume mesuré)
+Lime	Citron vert		0	0	parfum citron vert (aucun volume mesuré)
+Petitgrain	Petitgrain		0	0	parfum petitgrain (aucun volume mesuré)
+Thyme	Thym		0	0	parfum thym (aucun volume mesuré)
