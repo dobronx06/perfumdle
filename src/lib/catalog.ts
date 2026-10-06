@@ -389,15 +389,22 @@ export const CONCENTRATION_FR: Record<string, string> = {
 
 /** Existing long-form guides (hand-written .astro pages under src/pages/[lang]/). */
 export const GUIDES = [
-  { slug: 'guide-familles-olfactives', fr: 'Les familles olfactives, le guide complet', en: 'The olfactory families: a complete guide' },
-  { slug: 'difference-edp-edt-parfum', fr: 'Eau de parfum, eau de toilette : les différences', en: 'Eau de parfum vs eau de toilette' },
-  { slug: 'histoire-parfums-par-decennie', fr: "Un siècle de parfums, décennie par décennie", en: 'A century of perfume, decade by decade' },
-  { slug: 'parfums-maisons-niche-vs-designer', fr: 'Parfums de niche ou de créateur ?', en: 'Niche vs designer perfumes' },
-  { slug: 'parfums-iconiques-chanel', fr: 'Les parfums iconiques de Chanel', en: 'Iconic Chanel perfumes' },
-  { slug: 'parfums-iconiques-dior', fr: 'Les parfums iconiques de Dior', en: 'Iconic Dior perfumes' },
-  { slug: 'parfums-orientaux-iconiques', fr: 'Les grands parfums orientaux', en: 'The great oriental perfumes' },
-  { slug: 'parfums-chypres-histoire', fr: 'Le chypre, histoire d’une famille', en: 'The chypre: a family history' },
-  { slug: 'parfums-gourmands-guide', fr: 'Le guide des parfums gourmands', en: 'The gourmand perfume guide' },
-  { slug: 'parfums-unisexes-tendance', fr: 'Les parfums unisexes', en: 'Unisex perfumes' },
-  { slug: 'guide-strategie-perfumdle', fr: 'Perfumdle : stratégie et astuces', en: 'Perfumdle strategy & tips' },
+  { slug: 'guide-familles-olfactives', en_slug: 'olfactory-families-guide', fr: 'Les familles olfactives, le guide complet', en: 'The olfactory families: a complete guide' },
+  { slug: 'difference-edp-edt-parfum', en_slug: 'edp-vs-edt-difference', fr: 'Eau de parfum, eau de toilette : les différences', en: 'Eau de parfum vs eau de toilette' },
+  { slug: 'histoire-parfums-par-decennie', en_slug: 'perfume-history-by-decade', fr: "Un siècle de parfums, décennie par décennie", en: 'A century of perfume, decade by decade' },
+  { slug: 'parfums-maisons-niche-vs-designer', en_slug: 'niche-vs-designer-perfumes', fr: 'Parfums de niche ou de créateur ?', en: 'Niche vs designer perfumes' },
+  { slug: 'parfums-iconiques-chanel', en_slug: 'iconic-chanel-perfumes', fr: 'Les parfums iconiques de Chanel', en: 'Iconic Chanel perfumes' },
+  { slug: 'parfums-iconiques-dior', en_slug: 'iconic-dior-perfumes', fr: 'Les parfums iconiques de Dior', en: 'Iconic Dior perfumes' },
+  { slug: 'parfums-orientaux-iconiques', en_slug: 'iconic-oriental-perfumes', fr: 'Les grands parfums orientaux', en: 'The great oriental perfumes' },
+  { slug: 'parfums-chypres-histoire', en_slug: 'chypre-perfumes-history', fr: 'Le chypre, histoire d’une famille', en: 'The chypre: a family history' },
+  { slug: 'parfums-gourmands-guide', en_slug: 'gourmand-perfumes-guide', fr: 'Le guide des parfums gourmands', en: 'The gourmand perfume guide' },
+  { slug: 'parfums-unisexes-tendance', en_slug: 'unisex-perfumes-trend', fr: 'Les parfums unisexes', en: 'Unisex perfumes' },
+  { slug: 'guide-strategie-perfumdle', en_slug: 'perfumdle-strategy-guide', fr: 'Perfumdle : stratégie et astuces', en: 'Perfumdle strategy & tips' },
 ];
+
+/** Localized URL of a long-form guide: FR keeps the French slug, EN uses `en_slug`. */
+export function guideUrl(slug_fr: string, l: Locale): string {
+  if (l === 'fr') return `/fr/${slug_fr}/`;
+  const g = GUIDES.find((x) => x.slug === slug_fr);
+  return `/en/${g ? g.en_slug : slug_fr}/`;
+}

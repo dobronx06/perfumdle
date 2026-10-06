@@ -20,3 +20,7 @@ jobs:
         run: |
           if [ -z "$DEPLOY_HOOK_URL" ]; then echo "DEPLOY_HOOK_URL secret not set"; exit 1; fi
           curl -fsS -X POST "$DEPLOY_HOOK_URL"
+      - name: Checkout (IndexNow script)
+        uses: actions/checkout@v4
+      - name: Ping IndexNow with today's new URLs
+        run: python3 scripts/indexnow.py new

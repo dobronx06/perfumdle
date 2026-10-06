@@ -25,7 +25,7 @@ const groups = order.map((c) => ({ c, list: notes.filter((n) => (CAT[n.category]
   crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: 'Notes' }]}
   eyebrow={fr ? 'Le vocabulaire du parfum' : 'The vocabulary of perfume'}
   h1={fr ? 'Les notes olfactives, de A à Z' : 'Fragrance notes, from A to Z'}
-  lede={fr ? "Une note, c'est une matière — naturelle ou de synthèse — que l'on reconnaît dans un parfum. Choisissez-en une pour découvrir son odeur, son histoire et les parfums qui la subliment." : "A note is a material — natural or synthetic — that you can recognise in a perfume. Pick one to learn how it smells, where it comes from and which perfumes do it justice."}
+  lede={fr ? "Une note, c'est une matière (naturelle ou de synthèse) que l'on reconnaît dans un parfum. Choisissez-en une pour découvrir son odeur, son histoire et les parfums qui la subliment." : "A note is a material (natural or synthetic) that you can recognise in a perfume. Pick one to learn how it smells, where it comes from and which perfumes do it justice."}
   jsonLd={[itemListLd(fr ? 'Notes olfactives' : 'Fragrance notes', notes.map((n) => ({ name: noteName(n.key, l), href: url.note(l, n.key) })))]}
 >
   {groups.map((g) => (

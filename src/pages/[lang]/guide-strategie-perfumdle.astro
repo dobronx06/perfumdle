@@ -4,15 +4,17 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import pool from '../../data/game-pool.json';
 import { perfumes, perfumeBySlug, noteName, familyName, allNotes, type Perfume } from '../../lib/catalog';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/perfumdle-strategy-guide.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/guide-strategie-perfumdle/`;
+const canonical = `https://perfumdle.com${guideUrl('guide-strategie-perfumdle', locale)}`;
 
 // The daily draw: the 100 most searched perfumes, in popularity order (same list as the game).
 const drawn = (pool as string[]).map((s) => perfumeBySlug.get(s)).filter((p): p is Perfume => !!p);
@@ -141,10 +143,11 @@ const jsonLd = {
   description={description}
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('guide-strategie-perfumdle', 'fr'), en: guideUrl('guide-strategie-perfumdle', 'en') }}
   jsonLd={jsonLd}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('guide-strategie-perfumdle', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -463,11 +466,11 @@ const jsonLd = {
           <div class="content-link-card__title">{fr ? "Tous les parfums" : "All perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Révisez les notes et les années" : "Brush up on notes and years"}</div>
         </a>
-        <a href={localePath(locale, '/guide-familles-olfactives/')} class="content-link-card">
+        <a href={guideUrl('guide-familles-olfactives', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "Les familles olfactives" : "Olfactory families"}</div>
           <div class="content-link-card__desc">{fr ? "Comprendre l'indice de départ" : "Make sense of the starting clue"}</div>
         </a>
-        <a href={localePath(locale, '/difference-edp-edt-parfum/')} class="content-link-card">
+        <a href={guideUrl('difference-edp-edt-parfum', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "EDP vs EDT vs Parfum" : "EDP vs EDT vs Perfume"}</div>
           <div class="content-link-card__desc">{fr ? "Les concentrations expliquées" : "Concentrations explained"}</div>
         </a>

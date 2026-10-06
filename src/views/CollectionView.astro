@@ -46,7 +46,7 @@ const path = P.alternates[l];
 const jsonLd = compact([
   articleLd({ headline: P.h1, description: P.description, path, lang: l, image: P.heroImage ?? P.perfumes[0]?.image ?? undefined, about: P.h1 }),
   breadcrumbLd(P.crumbs),
-  itemListLd(P.perfumesTitle, P.perfumes.slice(0, 50).map((p) => ({ name: `${p.name} — ${p.brand}`, href: `/${l}/parfum/${p.slug}/` }))),
+  itemListLd(P.perfumesTitle, P.perfumes.slice(0, 50).map((p) => ({ name: `${p.name} (${p.brand})`, href: `/${l}/parfum/${p.slug}/` }))),
   P.faq ? faqLd(P.faq) : null,
 ]);
 const mosaic = P.perfumes.filter((p) => p.image).slice(0, 3);

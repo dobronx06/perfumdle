@@ -184,6 +184,24 @@ contrôlées par `scripts/lint_copy.py` : zéro tiret cadratin, pas de virgules 
 - Images : 44 des 66 visuels manquants récupérés (URL du CDN reconstruites, `scripts/guess_cdn_images.py`), chacun vérifié à l'œil,
   enregistrés dans `scripts/image-fixes.json` (appliqué par `prepare_data.py`). Restent 22 parfums sans visuel (surtout Parfums de Marly rares).
 
+### 8.7 Essentiels techniques et Bing / IA (06/10/2026)
+
+Constat (Search Console, Bing Webmaster, Plausible sur 28 jours) : ~5 à 9 visiteurs/jour, d'abord ChatGPT (21) puis Google (12) et Bing (7) ;
+les moteurs alimentés par l'index Bing (DuckDuckGo, Yahoo, Ecosia, Qwant) + ChatGPT pèsent ~3× Google. Copilot a cité le site 109 fois en 2 jours
+(fiches EN Bleu de Chanel, J'adore, Alien). Google : 632 impressions, position moyenne 27, `www.` indexé en doublon, « Extraits de produits » invalide.
+
+Corrigé (branche `seo-essentials`) :
+- `functions/_middleware.js` : 301 `www` → apex, 301 des anciennes URL EN des guides, 302 `/` → `/fr/` ou `/en/` selon la langue.
+- Guides EN avec slugs anglais (`/en/perfume-history-by-decade/`…), hreflang/canonical/liens cohérents, `public/_redirects` en doublon de sécurité.
+- IndexNow : clé `public/54084590cdfd93d0fe91759676f0b452.txt`, `/new-urls.json` (pages publiées le jour du build), `scripts/indexnow.py`,
+  étape ajoutée à `daily-rebuild.yml`. Après le premier déploiement : `python3 scripts/indexnow.py sitemap` (soumission complète, une fois).
+- Sitemap soumis dans Bing Webmaster (06/10).
+- Fiches : JSON-LD `Product` (refusé sans prix ni note) remplacé par `Article` + `about` ; phrase de réponse directe sous le H1 (FR + EN).
+- Titles EN alignés sur les requêtes réelles : notes « X in Perfume: What It Smells Like & Best Fragrances » + H1 « What does X smell like in perfume? »,
+  familles « Famous Chypre Perfumes… », « Oriental and Floral Oriental Perfumes… ».
+- Audit `check_seo.py` à zéro anomalie (6 metas > 165 car. raccourcies, index des familles étoffé), plus aucun tiret cadratin visible.
+- Plausible : événements `Game start`, `Game end` (mode, result, guesses), `Share result` (à déclarer comme objectifs dans Plausible).
+
 ## 9. Ce qui a volontairement été écarté
 
 Le deuxième thread partagé décrit un SEO « black hat » (churn & burn, PBN, domaines expirés, parasite SEO).

@@ -18,3 +18,11 @@ export function isPublished(kind: Kind, slug: string): boolean {
 export function publishedSlugs(kind: Kind): string[] {
   return Object.entries(schedule[kind] as Record<string, string>).filter(([, d]) => d <= today).map(([s]) => s);
 }
+
+/** The build's publishing day (YYYY-MM-DD). */
+export const buildDay = today;
+
+/** Slugs whose publish date is exactly the build day: the URLs that appear in this build. */
+export function publishedToday(kind: Kind): string[] {
+  return Object.entries(schedule[kind] as Record<string, string>).filter(([, d]) => d === today).map(([s]) => s);
+}

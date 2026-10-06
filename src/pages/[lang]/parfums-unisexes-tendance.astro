@@ -3,15 +3,17 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import data from '../../data/data.json';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/unisex-perfumes-trend.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/parfums-unisexes-tendance/`;
+const canonical = `https://perfumdle.com${guideUrl('parfums-unisexes-tendance', locale)}`;
 
 // Filter unisex perfumes
 const unisexPerfumes = data.entites.filter(p =>
@@ -33,12 +35,13 @@ const niche = unisexPerfumes.filter(p => p.attributs.annee >= 2000 && (
 
 <Layout
   title={fr ? "Parfums unisexes : la tendance qui redéfinit la parfumerie" : "Unisex perfumes: the trend redefining perfumery"}
-  description={fr ? "L'histoire des parfums unisexes, de CK One (1994) à Santal 33. Découvrez pourquoi la génération Z rejette les frontières de genre et comment les maisons de niche dominent cette catégorie." : "The history of unisex perfumes, from CK One (1994) to Santal 33. Discover why Gen Z rejects gender boundaries and how niche houses dominate this category."}
+  description={fr ? "Les parfums unisexes, de CK One (1994) à Santal 33 : pourquoi le genre s'efface en parfumerie et comment les maisons de niche ont pris la main." : "The history of unisex perfumes, from CK One (1994) to Santal 33. Discover why Gen Z rejects gender boundaries and how niche houses dominate this category."}
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('parfums-unisexes-tendance', 'fr'), en: guideUrl('parfums-unisexes-tendance', 'en') }}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('parfums-unisexes-tendance', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -190,15 +193,15 @@ const niche = unisexPerfumes.filter(p => p.attributs.annee >= 2000 && (
       <div class="content-links">
         <h2>{fr ? "À lire aussi" : "Read also"}</h2>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/parfums-maisons-niche-vs-designer/')}>{fr ? "Parfums de niche vs designer : quelle différence ?" : "Niche vs designer perfumes: what's the difference?"}</a></h3>
+          <h3><a href={guideUrl('parfums-maisons-niche-vs-designer', locale)}>{fr ? "Parfums de niche vs designer : quelle différence ?" : "Niche vs designer perfumes: what's the difference?"}</a></h3>
           <p>{fr ? "Comprenez les différences entre parfumerie de niche et designer." : "Understand the differences between niche and designer perfumery."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <h3><a href={guideUrl('guide-familles-olfactives', locale)}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
           <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/parfums-gourmands-guide/')}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
+          <h3><a href={guideUrl('parfums-gourmands-guide', locale)}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
           <p>{fr ? "L'histoire des parfums gourmands depuis 1992." : "The history of gourmand perfumes since 1992."}</p>
         </div>
       </div>

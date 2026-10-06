@@ -88,7 +88,7 @@ const faqs = [
 const jsonLd = [
   articleLd({ headline: title, description, path, lang: l, image: p.image ?? undefined, about: `${p.name} ${p.brand}` }),
   breadcrumbLd(crumbs),
-  itemListLd(title, list.map((s) => ({ name: `${s.perfume.name} — ${s.perfume.brand}`, href: url.perfume(l, s.perfume.slug) }))),
+  itemListLd(title, list.map((s) => ({ name: `${s.perfume.name} (${s.perfume.brand})`, href: url.perfume(l, s.perfume.slug) }))),
   faqLd(faqs)!,
 ];
 ---
@@ -112,7 +112,7 @@ const jsonLd = [
             <p style="margin-top:1.4rem"><a class="link-arrow" href={url.perfume(l, p.slug)}>{fr ? `La fiche complète de ${p.name}` : `Full ${p.name} profile`}</a></p>
           </div>
           <div class="entity-hero__media reveal" style={`background:${tintFor(p)}`}>
-            {p.image && <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading="eager" />}
+            {p.image && <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading="eager" fetchpriority="high" />}
           </div>
         </section>
       </div>

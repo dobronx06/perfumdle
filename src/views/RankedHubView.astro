@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import Crumbs from '../components/Crumbs.astro';
 import Faq from '../components/Faq.astro';
 import type { Locale } from '../i18n';
-import { url, GUIDES } from '../lib/catalog';
+import { url, GUIDES, guideUrl } from '../lib/catalog';
 import { hubCopy, liveOfKind, rankedUrl, rankedCopy, rankedBase, picksOf } from '../lib/ranked';
 import { breadcrumbLd, faqLd, itemListLd, articleLd, compact } from '../lib/seo';
 
@@ -46,7 +46,7 @@ const jsonLd = compact([
         <div class="wrap">
           <div class="guides">
             {items.map((it) => <a href={it.href}><strong>{it.title}</strong><span>{it.sub}</span></a>)}
-            {kind === 'guide' && GUIDES.map((g) => <a href={`/${l}/${g.slug}/`}><strong>{fr ? g.fr : g.en}</strong></a>)}
+            {kind === 'guide' && GUIDES.map((g) => <a href={guideUrl(g.slug, l)}><strong>{fr ? g.fr : g.en}</strong></a>)}
           </div>
         </div>
       </section>

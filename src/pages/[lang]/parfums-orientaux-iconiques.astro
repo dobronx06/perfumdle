@@ -3,15 +3,17 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import data from '../../data/data.json';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/iconic-oriental-perfumes.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/parfums-orientaux-iconiques/`;
+const canonical = `https://perfumdle.com${guideUrl('parfums-orientaux-iconiques', locale)}`;
 
 // Filter all oriental perfumes
 const orientalPerfumes = data.entites.filter(p =>
@@ -27,12 +29,13 @@ const orientalWoody = orientalPerfumes.filter(p => p.attributs.famille.includes(
 
 <Layout
   title={fr ? "Les parfums orientaux iconiques : de Shalimar à Baccarat Rouge 540" : "Iconic oriental perfumes: from Shalimar to Baccarat Rouge 540"}
-  description={fr ? "Découvrez l'histoire des parfums orientaux, de Shalimar (1925) à Baccarat Rouge 540. Guide complet des fragrances ambrées, vanillées et épicées qui ont révolutionné la parfumerie." : "Discover the history of oriental perfumes, from Shalimar (1925) to Baccarat Rouge 540. Complete guide to amber, vanilla and spicy fragrances that revolutionized perfumery."}
+  description={fr ? "Les grands parfums orientaux et ambrés, de Shalimar (1925) à Baccarat Rouge 540 : histoire, matières (vanille, résines, épices) et icônes à connaître." : "Oriental and amber perfumes from Shalimar (1925) to Baccarat Rouge 540: their history, key materials (vanilla, resins, spice) and the icons to know."}
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('parfums-orientaux-iconiques', 'fr'), en: guideUrl('parfums-orientaux-iconiques', 'en') }}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('parfums-orientaux-iconiques', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -152,15 +155,15 @@ const orientalWoody = orientalPerfumes.filter(p => p.attributs.famille.includes(
       <div class="content-links">
         <h2>{fr ? "À lire aussi" : "Read also"}</h2>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <h3><a href={guideUrl('guide-familles-olfactives', locale)}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
           <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/parfums-gourmands-guide/')}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
+          <h3><a href={guideUrl('parfums-gourmands-guide', locale)}>{fr ? "Parfums gourmands : la révolution Angel" : "Gourmand perfumes: the Angel revolution"}</a></h3>
           <p>{fr ? "L'histoire des parfums gourmands depuis 1992." : "The history of gourmand perfumes since 1992."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/parfums-chypres-histoire/')}>{fr ? "Parfums chypres : histoire d'une famille menacée" : "Chypre perfumes: history of an endangered family"}</a></h3>
+          <h3><a href={guideUrl('parfums-chypres-histoire', locale)}>{fr ? "Parfums chypres : histoire d'une famille menacée" : "Chypre perfumes: history of an endangered family"}</a></h3>
           <p>{fr ? "L'impact des régulations IFRA sur les parfums chypres." : "The impact of IFRA regulations on chypre perfumes."}</p>
         </div>
       </div>

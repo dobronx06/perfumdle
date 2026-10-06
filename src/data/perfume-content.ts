@@ -1,4 +1,5 @@
 import type { Locale } from '../i18n';
+import { guideUrl } from '../lib/catalog';
 
 /* ---- Root family extraction ---- */
 export function getFamilyRoot(family: string): string {
@@ -212,58 +213,58 @@ export function getRelevantGuides(
   const fl = family.toLowerCase();
 
   if (fl.includes('chypre')) guides.push({
-    href: `/${locale}/parfums-chypres-histoire/`,
+    href: guideUrl('parfums-chypres-histoire', locale),
     label: locale === 'fr' ? 'Parfums chypres : histoire et icones' : 'Chypre perfumes: history & icons',
     desc: locale === 'fr' ? "L'histoire de la famille chypree en parfumerie" : 'The history of the chypre family in perfumery'
   });
   if (fl.includes('gourmand')) guides.push({
-    href: `/${locale}/parfums-gourmands-guide/`,
+    href: guideUrl('parfums-gourmands-guide', locale),
     label: locale === 'fr' ? 'Guide des parfums gourmands' : 'Gourmand perfumes guide',
     desc: locale === 'fr' ? 'Tout sur les fragrances sucrees et addictives' : 'All about sweet, addictive fragrances'
   });
   if (fl.includes('oriental')) guides.push({
-    href: `/${locale}/parfums-orientaux-iconiques/`,
+    href: guideUrl('parfums-orientaux-iconiques', locale),
     label: locale === 'fr' ? 'Parfums orientaux iconiques' : 'Iconic oriental perfumes',
     desc: locale === 'fr' ? 'Les grands parfums orientaux de l\'histoire' : 'The greatest oriental perfumes in history'
   });
   if (house === 'Chanel') guides.push({
-    href: `/${locale}/parfums-iconiques-chanel/`,
+    href: guideUrl('parfums-iconiques-chanel', locale),
     label: locale === 'fr' ? 'Parfums iconiques Chanel' : 'Iconic Chanel perfumes',
     desc: locale === 'fr' ? "L'heritage olfactif de la maison Chanel" : 'The olfactory heritage of Chanel'
   });
   if (house === 'Dior') guides.push({
-    href: `/${locale}/parfums-iconiques-dior/`,
+    href: guideUrl('parfums-iconiques-dior', locale),
     label: locale === 'fr' ? 'Parfums iconiques Dior' : 'Iconic Dior perfumes',
     desc: locale === 'fr' ? "L'univers parfume de la maison Dior" : 'The fragrant universe of Dior'
   });
   if (genre === 'Unisex') guides.push({
-    href: `/${locale}/parfums-unisexes-tendance/`,
+    href: guideUrl('parfums-unisexes-tendance', locale),
     label: locale === 'fr' ? 'Parfums unisexes tendance' : 'Trending unisex perfumes',
     desc: locale === 'fr' ? 'La tendance des parfums sans genre' : 'The genderless perfume trend'
   });
 
   guides.push({
-    href: `/${locale}/difference-edp-edt-parfum/`,
+    href: guideUrl('difference-edp-edt-parfum', locale),
     label: locale === 'fr' ? 'EDP, EDT, Parfum : les differences' : 'EDP, EDT, Parfum: the differences',
     desc: locale === 'fr' ? 'Comprendre les concentrations de parfum' : 'Understanding perfume concentrations'
   });
   guides.push({
-    href: `/${locale}/guide-familles-olfactives/`,
+    href: guideUrl('guide-familles-olfactives', locale),
     label: locale === 'fr' ? 'Guide des familles olfactives' : 'Olfactory families guide',
     desc: locale === 'fr' ? 'Les grandes familles de parfums expliquees' : 'Major perfume families explained'
   });
   guides.push({
-    href: `/${locale}/histoire-parfums-par-decennie/`,
+    href: guideUrl('histoire-parfums-par-decennie', locale),
     label: locale === 'fr' ? 'Histoire des parfums par decennie' : 'Perfume history by decade',
     desc: locale === 'fr' ? "L'evolution de la parfumerie au fil du temps" : 'The evolution of perfumery over time'
   });
   guides.push({
-    href: `/${locale}/parfums-maisons-niche-vs-designer/`,
+    href: guideUrl('parfums-maisons-niche-vs-designer', locale),
     label: locale === 'fr' ? 'Niche vs. Designer' : 'Niche vs. Designer',
     desc: locale === 'fr' ? 'Ce qui distingue la parfumerie de niche' : 'What sets niche perfumery apart'
   });
   guides.push({
-    href: `/${locale}/guide-strategie-perfumdle/`,
+    href: guideUrl('guide-strategie-perfumdle', locale),
     label: locale === 'fr' ? 'Strategie Perfumdle' : 'Perfumdle strategy',
     desc: locale === 'fr' ? 'Astuces pour deviner le parfum du jour' : 'Tips to guess the daily perfume'
   });

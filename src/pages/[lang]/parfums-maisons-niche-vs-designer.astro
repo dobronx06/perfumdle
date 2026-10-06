@@ -3,15 +3,17 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import data from '../../data/data.json';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/niche-vs-designer-perfumes.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/parfums-maisons-niche-vs-designer/`;
+const canonical = `https://perfumdle.com${guideUrl('parfums-maisons-niche-vs-designer', locale)}`;
 
 const nicheHouses = ['Tom Ford', 'Le Labo', 'Byredo', 'Maison Francis Kurkdjian', 'Editions de Parfums Frédéric Malle', 'Escentric Molecules', 'Juliette Has a Gun', 'Creed', 'Maison Margiela', 'Acqua di Parma'];
 
@@ -27,9 +29,10 @@ const designerHousesList = [...new Set(designerPerfumes.map(p => p.attributs.mai
   description={fr ? "Quelle est la différence entre parfums de niche et designer ? Découvrez 300 fragrances iconiques classées par type de maison." : "What's the difference between niche and designer perfumes? Discover 300 iconic fragrances sorted by house type."}
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('parfums-maisons-niche-vs-designer', 'fr'), en: guideUrl('parfums-maisons-niche-vs-designer', 'en') }}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('parfums-maisons-niche-vs-designer', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -152,15 +155,15 @@ const designerHousesList = [...new Set(designerPerfumes.map(p => p.attributs.mai
 
       <h2>{fr ? "Articles connexes" : "Related articles"}</h2>
       <div class="content-links">
-        <a href={localePath(locale, '/parfums-iconiques-dior/')} class="content-link-card">
+        <a href={guideUrl('parfums-iconiques-dior', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "Les parfums Dior" : "Dior perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Guide des 12 fragrances iconiques" : "Guide to 12 iconic fragrances"}</div>
         </a>
-        <a href={localePath(locale, '/parfums-iconiques-chanel/')} class="content-link-card">
+        <a href={guideUrl('parfums-iconiques-chanel', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "Les parfums Chanel" : "Chanel perfumes"}</div>
           <div class="content-link-card__desc">{fr ? "Du N°5 à Bleu de Chanel" : "From N°5 to Bleu de Chanel"}</div>
         </a>
-        <a href={localePath(locale, '/histoire-parfums-par-decennie/')} class="content-link-card">
+        <a href={guideUrl('histoire-parfums-par-decennie', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "Histoire par décennie" : "History by decade"}</div>
           <div class="content-link-card__desc">{fr ? "De 1889 à aujourd'hui" : "From 1889 to today"}</div>
         </a>

@@ -1,6 +1,6 @@
 /** llms.txt — a plain map of the site for AI assistants and answer engines (GEO). */
 import type { APIRoute } from 'astro';
-import { SITE, url, brands, notes, families, eras, noteName, familyName, eraName, perfumes, GUIDES } from '../lib/catalog';
+import { SITE, url, brands, notes, families, eras, noteName, familyName, eraName, perfumes, GUIDES, guideUrl } from '../lib/catalog';
 import { livePages, rankedUrl, rankedCopy } from '../lib/ranked';
 
 export const GET: APIRoute = () => {
@@ -36,6 +36,16 @@ export const GET: APIRoute = () => {
     ...GUIDES.map((g) => `- [${g.fr}](${SITE}/fr/${g.slug}/)`),
     '',
     ...(livePages.length ? ['## Sélections commentées', ...livePages.map((d) => `- [${rankedCopy(d.id)!.fr.h1}](${SITE}${rankedUrl(d, l)})`), ''] : []),
+    '## English',
+    `- [Home](${SITE}/en/)`,
+    `- [All perfumes](${SITE}${url.perfumes('en')})`,
+    `- [Perfume houses](${SITE}${url.brands('en')})`,
+    `- [Fragrance notes](${SITE}${url.notes('en')})`,
+    `- [Olfactory families](${SITE}${url.families('en')})`,
+    `- [Eras](${SITE}${url.eras('en')})`,
+    `- [Daily perfume guessing game](${SITE}${url.game('en')})`,
+    ...GUIDES.map((g) => `- [${g.en}](${SITE}${guideUrl(g.slug, 'en')})`),
+    '',
   ];
   return new Response(lines.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 };

@@ -3,15 +3,17 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import data from '../../data/data.json';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/olfactory-families-guide.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/guide-familles-olfactives/`;
+const canonical = `https://perfumdle.com${guideUrl('guide-familles-olfactives', locale)}`;
 
 // Count perfumes by family type
 const familyCounts = {
@@ -29,7 +31,7 @@ const jsonLd = {
   '@type': 'Article',
   headline: fr ? 'Les 7 familles olfactives en parfumerie : guide complet' : 'The 7 olfactory families in perfumery: complete guide',
   description: fr
-    ? 'Découvrez les 7 grandes familles olfactives de la parfumerie : florale, orientale, boisée, chyprée, fougère, hespéridée et aromatique. Guide complet avec exemples de parfums iconiques.'
+    ? 'Les familles olfactives expliquées : florale, orientale, boisée, chyprée, fougère, hespéridée, aromatique. Définitions et parfums emblématiques de chacune.'
     : 'Discover the 7 main olfactory families in perfumery: floral, oriental, woody, chypre, fougère, citrus and aromatic. Complete guide with examples of iconic perfumes.',
   author: { '@type': 'Organization', name: 'Perfumdle' },
   datePublished: '2026-06-05',
@@ -40,15 +42,16 @@ const jsonLd = {
 <Layout
   title={fr ? "Les 7 familles olfactives en parfumerie : guide complet" : "The 7 olfactory families in perfumery: complete guide"}
   description={fr
-    ? "Découvrez les 7 grandes familles olfactives de la parfumerie : florale, orientale, boisée, chyprée, fougère, hespéridée et aromatique. Guide complet avec exemples de parfums iconiques."
+    ? "Les familles olfactives expliquées : florale, orientale, boisée, chyprée, fougère, hespéridée, aromatique. Définitions et parfums emblématiques de chacune."
     : "Discover the 7 main olfactory families in perfumery: floral, oriental, woody, chypre, fougère, citrus and aromatic. Complete guide with examples of iconic perfumes."
   }
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('guide-familles-olfactives', 'fr'), en: guideUrl('guide-familles-olfactives', 'en') }}
   jsonLd={jsonLd}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('guide-familles-olfactives', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -254,11 +257,11 @@ const jsonLd = {
 
       <h2>{fr ? "Pour aller plus loin" : "Learn more"}</h2>
       <div class="content-links">
-        <a href={localePath(locale, '/difference-edp-edt-parfum/')} class="content-link-card">
+        <a href={guideUrl('difference-edp-edt-parfum', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "EDP vs EDT vs Parfum" : "EDP vs EDT vs Perfume"}</div>
           <div class="content-link-card__desc">{fr ? "Comprendre les concentrations" : "Understanding concentrations"}</div>
         </a>
-        <a href={localePath(locale, '/guide-strategie-perfumdle/')} class="content-link-card">
+        <a href={guideUrl('guide-strategie-perfumdle', locale)} class="content-link-card">
           <div class="content-link-card__title">{fr ? "Guide stratégie" : "Strategy guide"}</div>
           <div class="content-link-card__desc">{fr ? "Astuces pour gagner" : "Tips to win"}</div>
         </a>

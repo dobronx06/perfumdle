@@ -10,7 +10,7 @@ import {
   url, perfumeEditorial, perfumeDeep, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName,
   similarPerfumes, tintFor, hasFamilyPage, GENDER_LABEL, SEASON_LABEL, OCCASION_LABEL, type Perfume, type Faq as FaqT,
 } from '../lib/catalog';
-import { breadcrumbLd, faqLd, compact } from '../lib/seo';
+import { breadcrumbLd, faqLd, articleLd, compact } from '../lib/seo';
 import { isPublished } from '../lib/schedule';
 import { rankedLinks, rankedCopy, liveOfKind, rankedUrl } from '../lib/ranked';
 
@@ -78,6 +78,18 @@ const seasonList = (xs: string[]) => {
   return names.length < 2 ? names.join('') : `${names.slice(0, -1).join(', ')} ${fr ? 'et' : 'and'} ${names.at(-1)}`;
 };
 
+/* One-sentence direct answer under the H1: what search snippets and AI answers quote first. */
+const GENDER_WORD = fr ? { Feminine: 'féminin', Masculine: 'masculin', Unisex: 'mixte' } : { Feminine: "women's", Masculine: "men's", Unisex: 'unisex' };
+const famWord = familyLabel(p.family, l).toLowerCase();
+const top3 = (xs: string[]) => noteList(xs.slice(0, 3));
+const answer = fr
+  ? `${p.name} de ${p.brand} (${p.year}) est un parfum ${GENDER_WORD[p.gender]} de la famille ${famWord}.` +
+    `${p.notes.top.length ? ` Il s'ouvre sur ${top3(p.notes.top)}` : ''}${p.notes.heart.length ? `, son cœur associe ${top3(p.notes.heart)}` : ''}${p.notes.base.length ? ` et son fond repose sur ${top3(p.notes.base)}` : ''}.` +
+    `${ed?.seasons?.length ? ` À porter de préférence ${seasonList(ed.seasons)}.` : ''}`
+  : `${p.name} by ${p.brand} (${p.year}) is a ${GENDER_WORD[p.gender]} ${famWord} fragrance.` +
+    `${p.notes.top.length ? ` It opens with ${top3(p.notes.top)}` : ''}${p.notes.heart.length ? `, has a heart of ${top3(p.notes.heart)}` : ''}${p.notes.base.length ? ` and dries down to ${top3(p.notes.base)}` : ''}.` +
+    `${ed?.seasons?.length ? ` Best worn in ${seasonList(ed.seasons)}.` : ''}`;
+
 const faqs: FaqT[] = compact([
   {
     q: fr ? `Quelles sont les notes de ${p.name} ?` : `What are the notes of ${p.name}?`,
@@ -111,21 +123,12 @@ const faqs: FaqT[] = compact([
   },
 ]);
 
+/* Product rich results need a price or a rated review, which an encyclopedia cannot honestly give
+   (Search Console flagged it). The page is described as an Article about the perfume instead. */
 const jsonLd = compact([
   {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: `${p.name} ${p.brand}`,
-    brand: { '@type': 'Brand', name: p.brand },
-    category: fr ? 'Parfum' : 'Perfume',
-    ...(p.image ? { image: `https://perfumdle.com${p.image}` } : {}),
-    description: txt?.tagline ?? description,
-    releaseDate: String(p.year),
-    additionalProperty: [
-      { '@type': 'PropertyValue', name: fr ? 'Famille olfactive' : 'Olfactory family', value: familyLabel(p.family, l) },
-      { '@type': 'PropertyValue', name: 'Concentration', value: p.concentration },
-      ...(ed?.perfumer ? [{ '@type': 'PropertyValue', name: fr ? 'Parfumeur' : 'Perfumer', value: ed.perfumer }] : []),
-    ],
+    ...articleLd({ headline: title, description, path: url.perfume(l, p.slug), lang: l, image: p.image ?? undefined, about: `${p.name} ${p.brand}` }),
+    keywords: [p.name, p.brand, familyLabel(p.family, l), ...allNotes(p).slice(0, 8).map((n) => noteName(n, l))].join(', '),
   },
   breadcrumbLd(crumbs),
   faqLd(faqs),
@@ -147,6 +150,7 @@ const jsonLd = compact([
             <p class="eyebrow reveal"><a href={url.brand(l, p.brand)}>{p.brand}</a> · <a href={url.era(l, decade)}>{p.year}</a></p>
             <h1 class="h1 reveal reveal-2">{p.name}</h1>
             {txt?.tagline && <p class="tagline reveal reveal-3">{txt.tagline}</p>}
+            <p class="answer reveal reveal-3">{answer}</p>
             <dl class="facts reveal reveal-4">
               <div><dt>{fr ? 'Maison' : 'House'}</dt><dd><a href={url.brand(l, p.brand)}>{p.brand}</a></dd></div>
               <div><dt>{fr ? 'Lancement' : 'Launched'}</dt><dd><a href={url.era(l, decade)}>{p.year}</a></dd></div>

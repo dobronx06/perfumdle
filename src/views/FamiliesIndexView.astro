@@ -17,7 +17,7 @@ const fr = l === 'fr';
   crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Familles' : 'Families' }]}
   eyebrow={fr ? 'Classification' : 'Classification'}
   h1={fr ? 'Les familles olfactives' : 'The olfactory families'}
-  lede={fr ? "Les parfumeurs rangent les parfums en grandes familles selon leur accord dominant. Un même parfum peut appartenir à plusieurs d'entre elles : c'est ce qui fait sa nuance." : 'Perfumers sort fragrances into families according to their dominant accord. A single perfume can belong to several — that is where its nuance comes from.'}
+  lede={fr ? "Les parfumeurs rangent les parfums en grandes familles selon leur accord dominant. Un même parfum peut appartenir à plusieurs d'entre elles : c'est ce qui fait sa nuance." : 'Perfumers sort fragrances into families according to their dominant accord. A single perfume can belong to several, and that is where its nuance comes from.'}
   jsonLd={[itemListLd(fr ? 'Familles olfactives' : 'Olfactory families', families.map((f) => ({ name: familyName(f.key, l), href: url.family(l, f.key) })))]}
 >
   <div class="tiles">
@@ -32,6 +32,15 @@ const fr = l === 'fr';
       );
     })}
   </div>
+  <section class="section prose" style="max-width:46rem">
+    <h2>{fr ? 'Comment lire une famille olfactive' : 'How to read an olfactory family'}</h2>
+    <p>{fr
+      ? "Une famille olfactive décrit l'accord qui domine un parfum, pas la liste de ses notes. Un floral peut contenir de la vanille et un boisé de la rose. Ce qui compte, c'est ce que le nez retient après une heure sur la peau. Les classifications professionnelles, comme celle de la Société française des parfumeurs, en comptent sept grandes. Nous en utilisons quatorze, plus proches des mots que l'on emploie en parfumerie : gourmand, poudré, musqué ou aquatique parlent davantage que des sous-familles techniques."
+      : "An olfactory family describes the accord that dominates a perfume, not its list of notes. A floral can contain vanilla and a woody scent can hold a rose. What matters is what your nose remembers after an hour on skin. Professional classifications, such as the one from the French Society of Perfumers, count seven main families. We use fourteen, closer to the words people actually use when shopping: gourmand, powdery, musky or aquatic say more than technical sub-families."}</p>
+    <p>{fr
+      ? "Chaque page de famille réunit les parfums de notre encyclopédie qui en relèvent, avec leurs notes les plus fréquentes et les maisons qui la travaillent le mieux. Un parfum apparaît dans plusieurs familles quand son accord est double : N°5 est floral et poudré, Angel oriental et gourmand, Terre d'Hermès boisé et épicé. Pour choisir, partez d'un parfum que vous aimez déjà, regardez ses familles, puis explorez les autres parfums qui les partagent."
+      : "Each family page gathers the perfumes from our encyclopedia that belong to it, with their most frequent notes and the houses that handle it best. A perfume sits in several families when its accord is double: N°5 is floral and powdery, Angel oriental and gourmand, Terre d'Hermès woody and spicy. To choose, start from a perfume you already like, look at its families, then explore the others that share them."}</p>
+  </section>
   <section class="section">
     <p class="eyebrow">{fr ? 'Autres sélections' : 'Other edits'}</p>
     <div class="chips" style="margin-top:1rem">

@@ -20,7 +20,7 @@ const list = perfumes.slice().sort((a, b) => a.id - b.id);
   eyebrow={fr ? 'Encyclopédie' : 'Encyclopedia'}
   h1={fr ? `${perfumes.length} parfums iconiques` : `${perfumes.length} iconic perfumes`}
   lede={fr ? 'Des grands classiques aux phénomènes récents, chaque fiche détaille la pyramide olfactive, le contexte de création et les parfums qui lui ressemblent.' : 'From timeless classics to recent phenomena, each profile details the notes pyramid, the story behind it and the perfumes that smell similar.'}
-  jsonLd={[itemListLd(fr ? 'Parfums' : 'Perfumes', list.map((p) => ({ name: `${p.name} — ${p.brand}`, href: url.perfume(l, p.slug) })))]}
+  jsonLd={[itemListLd(fr ? 'Parfums' : 'Perfumes', list.map((p) => ({ name: `${p.name} (${p.brand})`, href: url.perfume(l, p.slug) })))]}
 >
   <div class="filters" id="cat-filters">
     <input type="search" placeholder={fr ? 'Filtrer par nom ou maison…' : 'Filter by name or house…'} aria-label={fr ? 'Filtrer' : 'Filter'} data-q />

@@ -3,15 +3,17 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import data from '../../data/data.json';
-import { t, locales, localePath, type Locale } from '../../i18n';
+import { t, localePath, type Locale } from '../../i18n';
+import { guideUrl } from '../../lib/catalog';
 
+/** FR only here; the EN version is rendered by src/pages/en/chypre-perfumes-history.astro (English slug). */
 export function getStaticPaths() {
-  return locales.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+  return [{ params: { lang: 'fr' }, props: { locale: 'fr' as Locale } }];
 }
 
-const { locale } = Astro.props as { locale: Locale };
+const locale = (Astro.props.locale ?? Astro.params.lang) as Locale;
 const fr = locale === 'fr';
-const canonical = `https://perfumdle.com/${locale}/parfums-chypres-histoire/`;
+const canonical = `https://perfumdle.com${guideUrl('parfums-chypres-histoire', locale)}`;
 
 // Filter chypre perfumes (case insensitive)
 const chyprePerfumes = data.entites.filter(p =>
@@ -21,12 +23,13 @@ const chyprePerfumes = data.entites.filter(p =>
 
 <Layout
   title={fr ? "Parfums chypres : histoire d'une famille menacée" : "Chypre perfumes: history of an endangered family"}
-  description={fr ? "L'histoire des parfums chypres, de Coty (1917) aux régulations IFRA. Découvrez pourquoi les chypres modernes diffèrent des vintages et quels sont les grands chypres iconiques." : "The history of chypre perfumes, from Coty (1917) to IFRA regulations. Discover why modern chypres differ from vintages and what are the great iconic chypres."}
+  description={fr ? "Les parfums chyprés, de Chypre de Coty (1917) aux règles IFRA : pourquoi les chypres modernes diffèrent des vintages, et les grands classiques à connaître." : "The history of chypre perfumes, from Coty (1917) to IFRA regulations. Discover why modern chypres differ from vintages and what are the great iconic chypres."}
   locale={locale}
   canonical={canonical}
+  alternates={{ fr: guideUrl('parfums-chypres-histoire', 'fr'), en: guideUrl('parfums-chypres-histoire', 'en') }}
 >
   <div style="display:flex;flex-direction:column;min-height:100dvh;">
-    <Header locale={locale} />
+    <Header locale={locale} altHref={guideUrl('parfums-chypres-histoire', fr ? 'en' : 'fr')} />
     <main class="container content-page" style="flex:1;">
       <nav class="content-nav">
         <a href={localePath(locale)}>
@@ -173,15 +176,15 @@ const chyprePerfumes = data.entites.filter(p =>
       <div class="content-links">
         <h2>{fr ? "À lire aussi" : "Read also"}</h2>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/guide-familles-olfactives/')}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
+          <h3><a href={guideUrl('guide-familles-olfactives', locale)}>{fr ? "Guide complet des familles olfactives" : "Complete guide to olfactory families"}</a></h3>
           <p>{fr ? "Découvrez toutes les familles de parfums et leurs caractéristiques." : "Discover all perfume families and their characteristics."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/parfums-orientaux-iconiques/')}>{fr ? "Les parfums orientaux iconiques" : "Iconic oriental perfumes"}</a></h3>
+          <h3><a href={guideUrl('parfums-orientaux-iconiques', locale)}>{fr ? "Les parfums orientaux iconiques" : "Iconic oriental perfumes"}</a></h3>
           <p>{fr ? "De Shalimar à Baccarat Rouge 540, l'histoire des orientaux." : "From Shalimar to Baccarat Rouge 540, the history of orientals."}</p>
         </div>
         <div class="content-link-card">
-          <h3><a href={localePath(locale, '/histoire-parfums-par-decennie/')}>{fr ? "Histoire des parfums par décennie" : "History of perfumes by decade"}</a></h3>
+          <h3><a href={guideUrl('histoire-parfums-par-decennie', locale)}>{fr ? "Histoire des parfums par décennie" : "History of perfumes by decade"}</a></h3>
           <p>{fr ? "L'évolution de la parfumerie du XXe siècle à nos jours." : "The evolution of perfumery from the twentieth century to today."}</p>
         </div>
       </div>

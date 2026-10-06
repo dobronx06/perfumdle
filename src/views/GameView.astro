@@ -319,6 +319,7 @@ const gameLd = [
         </div>`;
       $('share-btn').onclick = async () => {
         const text = shareText(s);
+        track('Share result', { mode });
         try { if (navigator.share) { await navigator.share({ text }); return; } } catch { /* cancelled */ }
         try { await navigator.clipboard.writeText(text); $('copied').hidden = false; } catch { /* no clipboard */ }
       };
@@ -336,14 +337,21 @@ const gameLd = [
     }
     setInterval(tick, 30000);
 
+    /* ---------- analytics (Plausible custom events; no-op if the script is blocked) ---------- */
+    const track = (name: string, props: Record<string, string>) => {
+      try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.(name, { props }); } catch { /* ignore */ }
+    };
+
     /* ---------- guessing ---------- */
     function guess(slug: string) {
       const s = st();
       if (s.done || s.guesses.includes(slug)) return;
+      if (!s.guesses.length) track('Game start', { mode });
       s.guesses.push(slug);
       if (slug === s.target) { s.done = true; s.won = true; }
       else if (s.guesses.length >= MAX) { s.done = true; }
       if (s.done && mode === 'daily') recordStreak(s.won);
+      if (s.done) track('Game end', { mode, result: s.won ? 'win' : 'loss', guesses: String(s.guesses.length) });
       save();
       render();
       if (s.done) $('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
