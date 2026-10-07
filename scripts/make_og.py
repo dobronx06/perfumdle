@@ -22,7 +22,7 @@ def font(names, size):
 serif = font(['Didot.ttc', 'Georgia.ttf'], 96); it = font(['Georgia Italic.ttf', 'Georgia.ttf'], 36); sans = font(['Helvetica.ttc', 'Arial.ttf'], 21)
 d.text((70, 100), 'ENCYCLOPÉDIE DES PARFUMS', font=sans, fill='#7A1F2B')
 d.text((64, 150), 'Perfumdle', font=serif, fill='#1A1411')
-for j, line in enumerate(['Notes, maisons, familles,', 'époques — et un parfum', 'mystère chaque jour.']):
+for j, line in enumerate(['Notes, maisons, familles,', 'époques, et un parfum', 'mystère chaque jour.']):
     d.text((70, 300 + j * 48), line, font=it, fill='#4A3F39')
 d.text((70, 530), 'perfumdle.com', font=sans, fill='#6B605A')
 im.save(ROOT / 'public/og-default.jpg', quality=88)
