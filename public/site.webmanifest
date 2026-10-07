@@ -1,0 +1,26 @@
+{
+ "name": "Perfumdle",
+ "short_name": "Perfumdle",
+ "description": "L'encyclopédie des parfums iconiques et le jeu du parfum du jour.",
+ "start_url": "/fr/",
+ "display": "standalone",
+ "background_color": "#F7F3EE",
+ "theme_color": "#7A1F2B",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

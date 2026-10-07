@@ -46,7 +46,7 @@ export function articleLd(opts: { headline: string; description: string; path: s
     ...(opts.image ? { image: abs(opts.image) } : {}),
     ...(opts.about ? { about: { '@type': 'Thing', name: opts.about } } : {}),
     author: { '@type': 'Organization', name: 'Perfumdle', url: SITE },
-    publisher: { '@type': 'Organization', name: 'Perfumdle', url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/favicon.svg` } },
+    publisher: { '@type': 'Organization', name: 'Perfumdle', url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/icon-512.png` } },
     dateModified: BUILD_DATE,
   };
 }
