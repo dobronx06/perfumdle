@@ -55,7 +55,7 @@ Et pour le plaisir, un jeu où l'on devine un parfum par ses notes : https://per
 Si l'une de ces pages peut servir à vos lectrices, vous pouvez la citer librement. Sinon, merci de m'avoir lu.
 Tom
 
-### 6. Parfum-masculin.fr : https://parfum-masculin.fr/nous-contacter/
+### 6. Parfum-masculin.fr : https://parfum-masculin.fr/nous-contacter/ (envoyer après le 28 oct., date de mise en ligne de la page Layton)
 Objet : Un test pour aider à offrir un parfum à un homme
 Bonjour Thibault,
 Ton guide « Offrir un parfum à un homme » m'a donné une idée : beaucoup de gens arrivent sans savoir par où commencer.
