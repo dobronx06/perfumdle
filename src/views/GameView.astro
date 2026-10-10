@@ -46,6 +46,7 @@ const gameData = {
   locale: l, pool, entities, noteNames, famNames,
   perfumeBase: `/${l}/parfum/`, similarBase: `/${l}/${fr ? 'parfums-similaires' : 'similar-perfumes'}/`,
   gameUrl: `https://perfumdle.com${url.game(l)}`,
+  quizUrl: url.quiz(l),
 };
 
 const gameTitle = fr ? 'Perfumdle, le jeu : devinez le parfum du jour' : 'Perfumdle game: guess the perfume of the day';
@@ -132,7 +133,8 @@ const gameLd = [
         <p class="game-seo__links">
           <a href={url.perfumes(l)}>{fr ? 'Réviser les parfums' : 'Study the perfumes'}</a> ·
           <a href={url.notes(l)}>{fr ? 'Les notes olfactives' : 'Fragrance notes'}</a> ·
-          <a href={url.families(l)}>{fr ? 'Les familles olfactives' : 'Olfactory families'}</a>
+          <a href={url.families(l)}>{fr ? 'Les familles olfactives' : 'Olfactory families'}</a> ·
+          <a href={url.quiz(l)}>{fr ? 'Test parfum : trouver son parfum' : 'Perfume quiz: find your scent'}</a>
         </p>
       </section>
     </main>
@@ -144,7 +146,7 @@ const gameLd = [
   <script>
     type G = 'Feminine' | 'Masculine' | 'Unisex';
     interface E { s: string; n: string; b: string; y: number; g: G; m: string; f: string[]; t: string[]; h: string[]; d: string[]; i: string; sim: number }
-    interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string }
+    interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string; quizUrl: string }
     type Status = 'ok' | 'near' | 'no';
 
     const D: Data = JSON.parse(document.getElementById('game-data')!.textContent!);
@@ -313,6 +315,7 @@ const gameLd = [
             <button type="button" class="btn btn--gold" id="share-btn">${T('Partager mon résultat', 'Share my result')}</button>
             <a class="btn" href="${D.perfumeBase}${t.s}/">${T('Voir la fiche', 'Read the profile')}</a>
             ${t.sim ? `<a class="btn" href="${D.similarBase}${t.s}/">${T('Parfums similaires', 'Similar perfumes')}</a>` : ''}
+            <a class="btn" href="${D.quizUrl}">${T('Trouver mon parfum (test)', 'Find my perfume (quiz)')}</a>
             <button type="button" class="btn" id="train-btn">${mode === 'daily' ? T('Jouer en entraînement', 'Play practice') : T('Nouvelle partie', 'New game')}</button>
           </div>
           <p class="result__copied" id="copied" hidden>${T('Résultat copié', 'Result copied')}</p>

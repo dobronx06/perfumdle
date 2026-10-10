@@ -469,3 +469,10 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
   .ranked__media { grid-column: 2; max-width: 7rem; }
   .ranked__body { grid-column: 1 / -1; }
 }
+
+/* ------------------------------------------------- quiz call-to-action (home) */
+.quiz-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: clamp(1.2rem, 3vw, 1.8rem) clamp(1.2rem, 3vw, 2.2rem); box-shadow: var(--shadow); margin-block: clamp(1.5rem, 4vw, 2.5rem); transition: border-color 0.2s; }
+.quiz-cta:hover { border-color: var(--wine); }
+.quiz-cta__copy { display: flex; flex-direction: column; gap: 0.35rem; max-width: 36rem; }
+.quiz-cta__copy strong { font-family: var(--serif); font-weight: 600; font-size: clamp(1.5rem, 3.5vw, 2rem); line-height: 1.1; color: var(--ink); }
+.quiz-cta__copy > span:last-child { color: var(--ink-2); }

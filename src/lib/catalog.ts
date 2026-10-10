@@ -119,6 +119,7 @@ export const url = {
   gender: (l: Locale, g: string) => `/${l}/${genderInfo(g)[l === 'fr' ? 'slug_fr' : 'slug_en']}/`,
   season: (l: Locale, s: string) => `/${l}/${seasonInfo(s)[l === 'fr' ? 'slug_fr' : 'slug_en']}/`,
   similar: (l: Locale, slug: string) => `/${l}/${l === 'fr' ? 'parfums-similaires' : 'similar-perfumes'}/${slug}/`,
+  quiz: (l: Locale) => (l === 'fr' ? '/fr/test-parfum/' : '/en/perfume-quiz/'),
 };
 
 /* ------------------------------------------------------------------ brands */

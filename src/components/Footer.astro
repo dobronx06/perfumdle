@@ -22,7 +22,10 @@ const hubs = (['best', 'nose', 'guide'] as const)
       <p>{fr
         ? "Encyclopédie indépendante des parfums iconiques : notes, maisons, familles olfactives et époques. Et, chaque jour, un parfum mystère à deviner."
         : 'An independent encyclopedia of iconic perfumes: notes, houses, olfactory families and eras. And, every day, a mystery perfume to guess.'}</p>
-      <a href={url.game(locale)} class="link-arrow">{fr ? 'Jouer au parfum du jour' : "Play today's perfume"}</a>
+      <div style="display:flex;flex-wrap:wrap;gap:0.6rem 1.6rem">
+        <a href={url.game(locale)} class="link-arrow">{fr ? 'Jouer au parfum du jour' : "Play today's perfume"}</a>
+        <a href={url.quiz(locale)} class="link-arrow">{fr ? 'Faire le test parfum' : 'Take the perfume quiz'}</a>
+      </div>
     </div>
     <nav aria-label={fr ? 'Maisons' : 'Houses'}>
       <h2>{fr ? 'Maisons' : 'Houses'}</h2>

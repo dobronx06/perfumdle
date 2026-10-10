@@ -1,0 +1,539 @@
+---
+/**
+ * Perfume quiz (/fr/test-parfum/, /en/perfume-quiz/).
+ * 7 one-tap questions rendered server-side (each step is a hidden <section>, no layout shift),
+ * scored in the browser against src/data/quiz-pool.json (built by scripts/quiz_pool.py).
+ * Result = 3 perfumes from 3 different houses, each with a "why it matches" line.
+ * The answers live in the URL hash (#r=...), so a result can be shared and reopened.
+ * Copy: src/data/editorial/quiz.json (linted with scripts/lint_copy.py).
+ */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Faq from '../components/Faq.astro';
+import poolRaw from '../data/quiz-pool.json';
+import copyRaw from '../data/editorial/quiz.json';
+import type { Locale } from '../i18n';
+import {
+  url, SITE, noteName, familyName, hasFamilyPage, hasNotePage, perfumeBySlug, guideUrl, FAMILY_TINT,
+} from '../lib/catalog';
+import { isPublished } from '../lib/schedule';
+import { isLive, rankedById, rankedUrl } from '../lib/ranked';
+import { breadcrumbLd, faqLd, compact } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+
+interface Q { s: string; n: string; b: string; i: string; g: 'F' | 'M' | 'U'; m: string; f: string[]; t: string[]; h: string[]; d: string[]; se: string[]; o: string[]; x: number; p: number }
+const pool = poolRaw as Q[];
+const N = String(pool.length);
+const C = (copyRaw as any)['hub:quiz'][l];
+const fill = (s: string) => s.replaceAll('{n}', N);
+/** French typography: no line break before « ? : ; ». */
+const nb = (s: string) => s.replace(/ ([?:;])/g, '\u00a0$1');
+
+/* ---------- chips: one quiz choice = a group of dataset notes ---------- */
+const CHIP_RE: Record<string, RegExp> = {
+  vanilla: /vanill|tonka/i,
+  rose: /\brose\b/i,
+  citrus: /bergamot|lemon|mandarin|grapefruit|^orange$|bitter orange|blood orange|sicilian orange|\blime\b|citron|citrus|yuzu|tangerine|clementine/i,
+  jasmine: /jasmin|sambac/i,
+  orangeblossom: /orange blossom|neroli/i,
+  iris: /\biris\b|orris/i,
+  lavender: /lavend|lavandin/i,
+  musk: /musk/i,
+  sandalwood: /sandal/i,
+  patchouli: /patchouli/i,
+  amber: /^amber$|white amber|labdanum|benzoin/i,
+  oud: /\boud\b|agarwood/i,
+  leather: /leather|suede/i,
+  coffee: /coffee|espresso/i,
+};
+const CHIPS = Object.keys(CHIP_RE);
+
+/* ---------- compact the pool: notes become indexes into one shared list ---------- */
+const noteList: string[] = [];
+const noteIdx = new Map<string, number>();
+const ix = (n: string) => {
+  if (!noteIdx.has(n)) { noteIdx.set(n, noteList.length); noteList.push(n); }
+  return noteIdx.get(n)!;
+};
+/** Name aliases so "Black Aoud" or "Coffee Break" count as oud- or coffee-forward. */
+const NAME_RE: Record<string, RegExp> = { ...CHIP_RE, oud: /\b(oud|aoud)\b/i, rose: /\brose\b/i };
+const entities = pool.map((e) => ({
+  ...e, t: e.t.map(ix), h: e.h.map(ix), d: e.d.map(ix), sim: isPublished('similar', e.s) ? 1 : 0,
+  nc: CHIPS.filter((c) => NAME_RE[c].test(e.n)),
+}));
+const chipNotes = Object.fromEntries(CHIPS.map((c) => [c, noteList.map((n, i) => (CHIP_RE[c].test(n) ? i : -1)).filter((i) => i >= 0)]));
+/** Rarer notes weigh more: liking oud says more about you than liking musk (in half the pool). */
+const chipCount = Object.fromEntries(CHIPS.map((c) => [c, pool.filter((e) => [...e.t, ...e.h, ...e.d].some((n) => CHIP_RE[c].test(n))).length]));
+const maxCount = Math.max(...Object.values(chipCount));
+const chipW = Object.fromEntries(CHIPS.map((c) => [c, Math.round((1 + 0.6 * (1 - chipCount[c] / maxCount)) * 100) / 100]));
+const lcFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
+/** Display names only for notes a chip can match (the only ones quoted in the "why" line). */
+const chipNoteSet = new Set(Object.values(chipNotes).flat());
+const noteNames = Object.fromEntries([...chipNoteSet].map((i) => [i, lcFirst(noteName(noteList[i], l))]));
+
+const usedFams = [...new Set(pool.flatMap((e) => [e.m, ...e.f]))];
+const famShort = Object.fromEntries(usedFams.map((k) => [k, k === 'oriental' ? (fr ? 'oriental ambré' : 'amber') : familyName(k, l).toLowerCase()]));
+const famNames = Object.fromEntries(usedFams.map((k) => [k, familyName(k, l)]));
+const famUrls = Object.fromEntries(usedFams.filter(hasFamilyPage).map((k) => [k, url.family(l, k)]));
+const famTint = Object.fromEntries(usedFams.map((k) => [k, FAMILY_TINT[k] ?? '#E9E3DA']));
+
+const Qs = C.questions;
+const answerLabels = {
+  gender: Qs.gender.opts, season: Qs.season.opts, occasion: Qs.occasion.opts, mood: Qs.mood.opts, power: Qs.power.opts,
+  chips: C.chips, none: Qs.hate.none,
+};
+
+const quizData = {
+  locale: l, entities, chipNotes, chipW, noteNames, famShort, famNames, famUrls, famTint,
+  ui: C.ui, labels: answerLabels,
+  perfumeBase: `/${l}/parfum/`, similarBase: `/${l}/${fr ? 'parfums-similaires' : 'similar-perfumes'}/`,
+  pageUrl: `${SITE}${url.quiz(l)}`,
+};
+
+/* ---------- server-rendered copy with [label](kind:key) links ---------- */
+const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+function linkFor(kind: string, key: string): string | null {
+  switch (kind) {
+    case 'family': return hasFamilyPage(key) ? url.family(l, key) : null;
+    case 'note': return hasNotePage(key) ? url.note(l, key) : null;
+    case 'season': return url.season(l, key);
+    case 'gender': return url.gender(l, key);
+    case 'guide': return guideUrl(key, l);
+    case 'game': return url.game(l);
+    case 'perfumes': return url.perfumes(l);
+    case 'perfume': return perfumeBySlug.has(key) ? url.perfume(l, key) : null;
+    case 'ranked': { const d = rankedById.get(key); return d && isLive(key) ? rankedUrl(d, l) : null; }
+    default: return null;
+  }
+}
+const rich = (text: string) => fill(text).split('\n\n').map((para) => `<p>${esc(para).replace(/\[([^\]]+)\]\(([a-z]+):([^)]*)\)/g, (_m, label, kind, key) => {
+  const href = linkFor(kind, key);
+  return href ? `<a href="${href}">${label}</a>` : label;
+})}</p>`).join('');
+
+const faq = (C.faq as { q: string; a: string }[]).map((f) => ({ q: fill(f.q), a: fill(f.a) }));
+const title = fill(C.title);
+const description = fill(C.meta);
+const crumbs = [{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: C.crumb, href: url.quiz(l) }];
+const jsonLd = compact([
+  breadcrumbLd(crumbs),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: C.h1,
+    url: quizData.pageUrl,
+    description,
+    inLanguage: l,
+    applicationCategory: 'LifestyleApplication',
+    operatingSystem: 'All',
+    browserRequirements: 'Requires JavaScript',
+    isAccessibleForFree: true,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+    publisher: { '@type': 'Organization', name: 'Perfumdle', url: SITE },
+  },
+  faqLd(faq),
+]);
+
+const STEPS = ['gender', 'season', 'occasion', 'mood', 'love', 'hate', 'power'] as const;
+const stepLabel = (i: number) => C.ui.step.replace('{n}', String(i + 1)).replace('{t}', String(STEPS.length));
+---
+
+<Layout locale={l} title={title} description={description} alternates={{ fr: url.quiz('fr'), en: url.quiz('en') }} jsonLd={jsonLd}>
+  <div class="page">
+    <Header locale={l} altHref={url.quiz(fr ? 'en' : 'fr')} />
+    <main>
+      <div class="wrap quiz">
+        <Crumbs items={crumbs} />
+        <header class="quiz__head">
+          <p class="eyebrow">{C.eyebrow}</p>
+          <h1 class="h1 quiz__title">{nb(C.h1)}</h1>
+          <p class="quiz__lede">{fill(C.lede)}</p>
+        </header>
+
+        <div class="quiz__card" id="quiz-card">
+          <div class="quiz__top">
+            <button type="button" class="quiz__back" id="quiz-back" hidden>
+              <span aria-hidden="true">←</span> {C.ui.back}
+            </button>
+            <p class="quiz__count" id="quiz-count" aria-live="polite">{stepLabel(0)}</p>
+          </div>
+          <div class="quiz__bar" role="progressbar" aria-valuemin="1" aria-valuemax={STEPS.length} aria-valuenow="1" id="quiz-bar">
+            <span style={`width:${100 / STEPS.length}%`}></span>
+          </div>
+
+          <section class="quiz__step" data-step="gender">
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.gender.q)}</h2>
+            <div class="quiz__opts">
+              {Object.entries(Qs.gender.opts).map(([v, label]) => <button type="button" class="quiz__opt" data-v={v}>{label as string}</button>)}
+            </div>
+          </section>
+
+          <section class="quiz__step" data-step="season" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.season.q)}</h2>
+            <div class="quiz__opts quiz__opts--grid">
+              {Object.entries(Qs.season.opts).map(([v, label]) => <button type="button" class="quiz__opt" data-v={v}>{label as string}</button>)}
+            </div>
+          </section>
+
+          <section class="quiz__step" data-step="occasion" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.occasion.q)}</h2>
+            <div class="quiz__opts">
+              {Object.entries(Qs.occasion.opts).map(([v, label]) => <button type="button" class="quiz__opt" data-v={v}>{label as string}</button>)}
+            </div>
+          </section>
+
+          <section class="quiz__step" data-step="mood" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.mood.q)}</h2>
+            <div class="quiz__opts">
+              {Object.entries(Qs.mood.opts).map(([v, label]) => (
+                <button type="button" class="quiz__opt" data-v={v}>{label as string}<small>{Qs.mood.subs[v]}</small></button>
+              ))}
+            </div>
+          </section>
+
+          <section class="quiz__step" data-step="love" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.love.q)}</h2>
+            <p class="quiz__hint">{Qs.love.hint}</p>
+            <div class="quiz__chips" role="group" aria-label={Qs.love.q}>
+              {CHIPS.map((c) => <button type="button" class="quiz__chip" data-chip={c} aria-pressed="false">{C.chips[c]}</button>)}
+            </div>
+            <p class="quiz__max" id="quiz-max" aria-live="polite"></p>
+            <button type="button" class="btn quiz__next" id="quiz-next">{C.ui.skip}</button>
+          </section>
+
+          <section class="quiz__step" data-step="hate" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.hate.q)}</h2>
+            <p class="quiz__hint">{Qs.hate.hint}</p>
+            <div class="quiz__chips">
+              <button type="button" class="quiz__chip quiz__chip--none" data-v="none">{Qs.hate.none}</button>
+              {CHIPS.map((c) => <button type="button" class="quiz__chip" data-v={c}>{C.chips[c]}</button>)}
+            </div>
+          </section>
+
+          <section class="quiz__step" data-step="power" hidden>
+            <h2 class="quiz__q" tabindex="-1">{nb(Qs.power.q)}</h2>
+            <div class="quiz__opts">
+              {Object.entries(Qs.power.opts).map(([v, label]) => (
+                <button type="button" class="quiz__opt" data-v={v}>{label as string}<small>{Qs.power.subs[v]}</small></button>
+              ))}
+            </div>
+          </section>
+          <noscript><p class="quiz__hint">{C.ui.noscript}</p></noscript>
+        </div>
+
+        <section class="quiz__results" id="quiz-results" hidden aria-live="polite" tabindex="-1"></section>
+      </div>
+
+      <article class="wrap wrap--text quiz-seo prose">
+        {(C.sections as { title: string; body: string }[]).map((s) => (
+          <Fragment>
+            <h2>{nb(s.title)}</h2>
+            <Fragment set:html={rich(s.body)} />
+          </Fragment>
+        ))}
+      </article>
+      <div class="wrap wrap--text">
+        <Faq items={faq} title={fr ? 'Questions fréquentes' : 'FAQ'} />
+      </div>
+    </main>
+    <Footer locale={l} />
+  </div>
+
+  <script type="application/json" id="quiz-data" set:html={JSON.stringify(quizData)} />
+
+  <script>
+    type G = 'F' | 'M' | 'U';
+    interface E { s: string; n: string; b: string; i: string; g: G; m: string; f: string[]; t: number[]; h: number[]; d: number[]; se: string[]; o: string[]; x: number; p: number; sim: number; nc: string[] }
+    interface Data {
+      locale: 'fr' | 'en'; entities: E[]; chipNotes: Record<string, number[]>; chipW: Record<string, number>; noteNames: Record<string, string>;
+      famShort: Record<string, string>; famNames: Record<string, string>; famUrls: Record<string, string>; famTint: Record<string, string>;
+      ui: Record<string, any>; labels: Record<string, Record<string, string> | string>;
+      perfumeBase: string; similarBase: string; pageUrl: string;
+    }
+    interface Answers { gender: string; season: string; occasion: string; mood: string; love: string[]; hate: string; power: string }
+
+    const D: Data = JSON.parse(document.getElementById('quiz-data')!.textContent!);
+    const U = D.ui;
+    const STEPS = ['gender', 'season', 'occasion', 'mood', 'love', 'hate', 'power'] as const;
+    const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+    const steps = [...document.querySelectorAll<HTMLElement>('.quiz__step')];
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+    const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+    const track = (name: string, props?: Record<string, string>) => {
+      try { (window as unknown as { plausible?: (n: string, o?: { props: Record<string, string> }) => void }).plausible?.(name, props ? { props } : undefined); } catch { /* blocked */ }
+    };
+
+    let step = 0;
+    let started = false;
+    const A: Answers = { gender: '', season: '', occasion: '', mood: '', love: [], hate: '', power: '' };
+
+    /* ---------- scoring ---------- */
+    const MOOD: Record<string, string[]> = {
+      fresh: ['citrus', 'aquatic', 'aromatic', 'green', 'fougere'],
+      floral: ['floral', 'fruity', 'powdery'],
+      warm: ['gourmand', 'oriental'],
+      woody: ['woody', 'chypre', 'leather'],
+      spicy: ['spicy', 'oriental', 'leather'],
+    };
+    const OPPOSITE: Record<string, string[]> = {
+      fresh: ['gourmand', 'oriental', 'leather'],
+      floral: ['leather', 'fougere'],
+      warm: ['citrus', 'aquatic', 'aromatic'],
+      woody: ['gourmand', 'fruity'],
+      spicy: ['aquatic', 'citrus', 'fruity'],
+    };
+    const MOOD_FAMILY: Record<string, string> = { fresh: 'citrus', floral: 'floral', warm: 'gourmand', woody: 'woody', spicy: 'spicy' };
+    const POWER: Record<string, number> = { soft: 2, mid: 3, strong: 4.5 };
+    const OCC: Record<string, string[]> = { office: ['office', 'day'], evening: ['evening', 'date'], daily: ['casual', 'day'] };
+    const sets = Object.fromEntries(Object.entries(D.chipNotes).map(([k, v]) => [k, new Set(v)]));
+    const where = (e: E, chip: string): 'deep' | 'top' | '' => {
+      const s = sets[chip];
+      if (!s) return '';
+      if (e.h.some((n) => s.has(n)) || e.d.some((n) => s.has(n))) return 'deep';
+      return e.t.some((n) => s.has(n)) ? 'top' : '';
+    };
+
+    function score(e: E, a: Answers): number {
+      if (a.gender === 'F' && e.g === 'M') return -Infinity;
+      if (a.gender === 'M' && e.g === 'F') return -Infinity;
+      let s = 0;
+      s += a.gender === 'A' ? (e.g === 'U' ? 1 : 0) : e.g === 'U' ? 1.5 : 2;
+      const fams = MOOD[a.mood] ?? [];
+      if (e.m === fams[0]) s += 6;
+      else if (fams.includes(e.m)) s += 5;
+      else s += Math.min(2, e.f.filter((f) => fams.includes(f)).length) * 2;
+      if (fams.includes(e.m)) s += Math.min(2, e.f.filter((f) => f !== e.m && fams.includes(f)).length);
+      if ((OPPOSITE[a.mood] ?? []).includes(e.m)) s -= 3;
+      if (a.season === 'all') s += e.se.length >= 3 ? 1.5 : 0;
+      else if (e.se.includes(a.season)) s += 2.5;
+      else if (e.se.length) s -= 1;
+      if ((OCC[a.occasion] ?? []).some((o) => e.o.includes(o))) s += 2;
+      if (a.occasion === 'office' && e.x >= 5) s -= 1.5;
+      for (const c of a.love) {
+        const w = where(e, c);
+        s += (D.chipW[c] ?? 1) * (w === 'deep' ? 4 : w === 'top' ? 2.5 : 0) + (e.nc.includes(c) ? 1.5 : 0);
+      }
+      if (a.hate && a.hate !== 'none') { const w = where(e, a.hate); s -= w === 'deep' ? 9 : w === 'top' ? 3 : 0; }
+      if (a.power in POWER) s += 2 - Math.abs(e.x - POWER[a.power]) * 1.2;
+      return s + 1.5 * e.p;
+    }
+
+    /** Best 3, never two from the same house (no flanker trio). */
+    function recommend(a: Answers): E[] {
+      const ranked = D.entities.map((e) => ({ e, s: score(e, a) })).filter((x) => x.s > -Infinity).sort((x, y) => y.s - x.s);
+      const out: E[] = [];
+      for (const { e } of ranked) {
+        if (out.some((o) => o.b === e.b)) continue;
+        out.push(e);
+        if (out.length === 3) break;
+      }
+      return out;
+    }
+
+    function why(e: E, a: Answers): string {
+      const names: string[] = [];
+      for (const c of a.love) {
+        const s = sets[c];
+        const hit = [...e.h, ...e.d, ...e.t].find((n) => s?.has(n));
+        if (hit !== undefined && D.noteNames[hit] && !names.includes(D.noteNames[hit])) names.push(D.noteNames[hit]);
+      }
+      const reg = U.registre.replace('{fam}', D.famShort[e.m] ?? e.m);
+      const first = names.length
+        ? `${cap(names.length > 1 ? `${names.slice(0, -1).join(', ')}${U.and}${names[names.length - 1]}` : names[0])}, ${reg}.`
+        : `${cap(reg)}.`;
+      const power = U.power[Math.max(0, Math.min(4, e.x - 1))];
+      const season = a.season === 'all' ? (e.se.length >= 3 ? U.season.all : '') : e.se.includes(a.season) ? U.season[a.season] : '';
+      return `${first} ${cap(power)}${season ? `, ${season}` : ''}.`;
+    }
+
+    /* ---------- URL hash: #r=gender.season.occasion.mood.love+love.hate.power ---------- */
+    const encode = (a: Answers) => `r=${[a.gender, a.season, a.occasion, a.mood, a.love.join('+') || '-', a.hate || 'none', a.power].join('.')}`;
+    function decode(h: string): Answers | null {
+      const m = h.match(/r=([a-zA-Z.+-]+)/);
+      if (!m) return null;
+      const [gender, season, occasion, mood, love, hate, power] = m[1].split('.');
+      const L = D.labels as Record<string, Record<string, string>>;
+      if (!L.gender[gender] || !L.season[season] || !L.occasion[occasion] || !L.mood[mood] || !L.power[power]) return null;
+      return {
+        gender, season, occasion, mood, power,
+        love: love === '-' ? [] : love.split('+').filter((c) => c in sets).slice(0, 3),
+        hate: hate in sets ? hate : 'none',
+      };
+    }
+
+    /* ---------- navigation ---------- */
+    function show(i: number, focus = true) {
+      step = i;
+      steps.forEach((s, j) => (s.hidden = j !== i));
+      $('quiz-back').hidden = i === 0;
+      $('quiz-count').textContent = U.step.replace('{n}', String(i + 1)).replace('{t}', String(STEPS.length));
+      const bar = $('quiz-bar');
+      bar.setAttribute('aria-valuenow', String(i + 1));
+      (bar.firstElementChild as HTMLElement).style.width = `${((i + 1) / STEPS.length) * 100}%`;
+      const name = STEPS[i];
+      steps[i].querySelectorAll<HTMLButtonElement>('[data-v]').forEach((b) => b.classList.toggle('is-on', (A as any)[name] === b.dataset.v));
+      if (focus) steps[i].querySelector<HTMLElement>('.quiz__q')?.focus({ preventScroll: true });
+    }
+
+    function answer(name: string, v: string) {
+      if (!started) { started = true; track('Quiz start'); }
+      (A as any)[name] = v;
+      if (step < STEPS.length - 1) show(step + 1);
+      else finish(true);
+    }
+
+    steps.forEach((sec) => {
+      const name = sec.dataset.step!;
+      sec.querySelectorAll<HTMLButtonElement>('[data-v]').forEach((b) => b.addEventListener('click', () => answer(name, b.dataset.v!)));
+    });
+
+    const chipBtns = [...document.querySelectorAll<HTMLButtonElement>('[data-chip]')];
+    function drawChips() {
+      chipBtns.forEach((b) => b.setAttribute('aria-pressed', String(A.love.includes(b.dataset.chip!))));
+      $('quiz-next').textContent = A.love.length ? U.next : U.skip;
+      $('quiz-max').textContent = A.love.length >= 3 ? U.max : '';
+    }
+    chipBtns.forEach((b) => b.addEventListener('click', () => {
+      const c = b.dataset.chip!;
+      if (A.love.includes(c)) A.love = A.love.filter((x) => x !== c);
+      else if (A.love.length < 3) A.love.push(c);
+      drawChips();
+    }));
+    $('quiz-next').addEventListener('click', () => {
+      if (!started) { started = true; track('Quiz start'); }
+      show(step + 1);
+    });
+    $('quiz-back').addEventListener('click', () => { if (step > 0) show(step - 1); });
+
+    /* ---------- results ---------- */
+    function finish(fresh: boolean) {
+      const picks = recommend(A);
+      const L = D.labels as Record<string, Record<string, string>>;
+      const profile = [
+        L.gender[A.gender], L.season[A.season], L.occasion[A.occasion], L.mood[A.mood],
+        ...A.love.map((c) => L.chips[c]), L.power[A.power],
+      ].filter(Boolean);
+      const fam = MOOD_FAMILY[A.mood];
+      const box = $('quiz-results');
+      box.innerHTML = `
+        <p class="eyebrow">${esc(U.resultsEyebrow)}</p>
+        <h2 class="h2 quiz__rtitle">${esc(U.resultsTitle)}</h2>
+        <p class="quiz__profile"><span>${esc(U.profile)}</span> ${profile.map((p) => `<em>${esc(p)}</em>`).join('')}</p>
+        <ol class="quiz__picks">${picks.map((e, i) => `
+          <li class="quiz__pick">
+            <a class="quiz__media" href="${D.perfumeBase}${e.s}/" style="background:${D.famTint[e.f[0]] ?? '#E9E3DA'}" tabindex="-1" aria-hidden="true">
+              <img src="${e.i}" alt="" width="300" height="300" loading="${i ? 'lazy' : 'eager'}" decoding="async" />
+            </a>
+            <div class="quiz__pbody">
+              <p class="quiz__rank">${esc(U.ranks[i])}</p>
+              <h3 class="quiz__pname"><a href="${D.perfumeBase}${e.s}/">${esc(e.n)}</a></h3>
+              <p class="quiz__house">${esc(e.b)}</p>
+              <p class="quiz__why">${esc(why(e, A))}</p>
+              <p class="quiz__links"><a class="link-arrow" href="${D.perfumeBase}${e.s}/">${esc(U.see)}</a>${e.sim ? ` <a class="link-arrow" href="${D.similarBase}${e.s}/">${esc(U.similar)}</a>` : ''}</p>
+            </div>
+          </li>`).join('')}
+        </ol>
+        <p class="quiz__tip">${esc(U.tip)}</p>
+        <div class="quiz__actions">
+          <button type="button" class="btn" id="quiz-share">${esc(U.share)}</button>
+          <button type="button" class="btn btn--ghost" id="quiz-restart">${esc(U.restart)}</button>
+          ${D.famUrls[fam] ? `<a class="link-arrow" href="${D.famUrls[fam]}">${esc(U.family.replace('{fam}', D.famNames[fam]))}</a>` : ''}
+        </div>
+        <p class="quiz__copied" id="quiz-copied" hidden>${esc(U.copied)}</p>`;
+      $('quiz-card').hidden = true;
+      box.hidden = false;
+      const hash = encode(A);
+      try { history.replaceState(null, '', `#${hash}`); } catch { /* sandboxed */ }
+      $('quiz-share').onclick = async () => {
+        const link = `${D.pageUrl}#${hash}`;
+        const text = U.shareText.replace('{a}', picks[0]?.n ?? '').replace('{b}', picks[1]?.n ?? '').replace('{c}', picks[2]?.n ?? '');
+        track('Quiz share');
+        try { if (navigator.share) { await navigator.share({ text, url: link }); return; } } catch { /* cancelled */ }
+        try { await navigator.clipboard.writeText(`${text} ${link}`); $('quiz-copied').hidden = false; } catch { /* no clipboard */ }
+      };
+      $('quiz-restart').onclick = restart;
+      if (fresh) {
+        track('Quiz end', { family: A.mood, gender: A.gender, season: A.season });
+        box.focus({ preventScroll: true });
+        box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function restart() {
+      Object.assign(A, { gender: '', season: '', occasion: '', mood: '', love: [], hate: '', power: '' });
+      started = false;
+      drawChips();
+      try { history.replaceState(null, '', location.pathname); } catch { /* sandboxed */ }
+      $('quiz-results').hidden = true;
+      $('quiz-card').hidden = false;
+      show(0);
+      $('quiz-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    /* ---------- shared link: open straight on the result ---------- */
+    const shared = decode(location.hash);
+    if (shared) { Object.assign(A, shared); drawChips(); finish(false); }
+  </script>
+</Layout>
+
+<style is:global>
+  .quiz [hidden] { display: none !important; }
+  .quiz { max-width: 48rem; padding-bottom: 1rem; }
+  .quiz__head { text-align: center; padding-block: 1rem 1.4rem; }
+  .quiz__title { margin: 0.5rem auto 0.6rem; font-size: clamp(2rem, 6vw, 3.1rem); max-width: 20ch; }
+  .quiz__lede { color: var(--ink-2); margin: 0 auto; max-width: 34rem; font-size: 1.02rem; }
+  .quiz__card { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 1.1rem 1.1rem 1.4rem; box-shadow: var(--shadow); min-height: 35rem; }
+  .quiz__top { display: flex; align-items: center; justify-content: space-between; min-height: 2.4rem; gap: 1rem; }
+  .quiz__back { font: 500 0.88rem var(--sans); background: none; border: 0; color: var(--ink-2); cursor: pointer; padding: 0.5rem 0.2rem; }
+  .quiz__back:hover { color: var(--wine); }
+  .quiz__count { margin-left: auto; font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .quiz__bar { height: 4px; background: var(--paper-2); border-radius: 4px; overflow: hidden; margin: 0.3rem 0 1.4rem; }
+  .quiz__bar span { display: block; height: 100%; background: var(--wine); transition: width 0.3s ease; }
+  .quiz__q { font-family: var(--serif); font-weight: 600; font-size: clamp(1.6rem, 4.5vw, 2.1rem); line-height: 1.15; color: var(--ink); margin: 0 0 1.1rem; outline: none; }
+  .quiz__hint { color: var(--muted); font-size: 0.92rem; margin: -0.5rem 0 1rem; }
+  .quiz__opts { display: grid; gap: 0.6rem; }
+  .quiz__opt { display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem; width: 100%; text-align: left; font: 500 1.02rem var(--sans); color: var(--ink); background: var(--paper); border: 1.5px solid var(--line); border-radius: 14px; padding: 0.95rem 1.1rem; min-height: 3.3rem; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+  .quiz__opt small { font-size: 0.84rem; font-weight: 400; color: var(--muted); }
+  .quiz__opt:hover, .quiz__opt.is-on { border-color: var(--wine); background: #fbf4f2; }
+  .quiz__opt:focus-visible, .quiz__chip:focus-visible, .quiz__back:focus-visible { outline: 3px solid rgba(122, 31, 43, 0.3); outline-offset: 2px; }
+  .quiz__chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .quiz__chip { font: 500 0.95rem var(--sans); color: var(--ink); background: var(--paper); border: 1.5px solid var(--line); border-radius: 999px; padding: 0.6rem 1rem; min-height: 2.75rem; cursor: pointer; }
+  .quiz__chip:hover, .quiz__chip.is-on { border-color: var(--wine); }
+  .quiz__chip[aria-pressed='true'] { background: var(--wine); border-color: var(--wine); color: #fff; }
+  .quiz__chip--none { background: #fff; border-style: dashed; }
+  .quiz__max { min-height: 1.3rem; font-size: 0.85rem; color: var(--wine); margin: 0.6rem 0 0.2rem; }
+  .quiz__next { margin-top: 0.4rem; }
+  .quiz__results { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 1.3rem 1.1rem 1.5rem; box-shadow: var(--shadow); outline: none; scroll-margin-top: 5rem; }
+  .quiz__rtitle { margin: 0.4rem 0 0.8rem; }
+  .quiz__profile { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; font-size: 0.82rem; color: var(--muted); margin-bottom: 1.2rem; }
+  .quiz__profile span { margin-right: 0.2rem; }
+  .quiz__profile em { font-style: normal; background: var(--paper-2); color: var(--ink-2); border-radius: 999px; padding: 0.2rem 0.65rem; }
+  .quiz__picks { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+  .quiz__pick { display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem; align-items: start; align-content: start; border-top: 1px solid var(--line); padding-top: 1rem; }
+  .quiz__media { display: grid; place-items: center; aspect-ratio: 1; border-radius: 14px; overflow: hidden; }
+  .quiz__media img { width: 84%; height: 84%; object-fit: contain; mix-blend-mode: multiply; }
+  .quiz__rank { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--wine); }
+  .quiz__pname { font-family: var(--serif); font-size: 1.5rem; font-weight: 600; line-height: 1.1; margin: 0.2rem 0 0.1rem; }
+  .quiz__house { font-size: 0.85rem; color: var(--muted); }
+  .quiz__why { color: var(--ink-2); font-size: 0.95rem; margin-top: 0.45rem; }
+  .quiz__links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 0.5rem; font-size: 0.9rem; }
+  .quiz__tip { font-size: 0.88rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 1.2rem; }
+  .quiz__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem; margin-top: 1rem; }
+  .quiz__copied { font-size: 0.85rem; color: #3F6B3A; margin-top: 0.5rem; }
+  .quiz-seo { padding-top: clamp(2rem, 5vw, 3.5rem); }
+  @media (min-width: 640px) {
+    .quiz__card, .quiz__results { padding: 1.6rem 2rem 2rem; }
+    .quiz__opts--grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .quiz__picks { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+    .quiz__pick { grid-template-columns: 1fr; border-top: 0; padding-top: 0; }
+    .quiz__card { min-height: 36rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .quiz__bar span { transition: none; }
+  }
+</style>

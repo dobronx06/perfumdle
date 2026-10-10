@@ -18,6 +18,7 @@ export const GET: APIRoute = () => {
     `- [Notes olfactives](${SITE}${url.notes(l)})`,
     `- [Familles olfactives](${SITE}${url.families(l)})`,
     `- [Époques](${SITE}${url.eras(l)})`,
+    `- [Test parfum : quel parfum est fait pour moi ? (quiz en 7 questions, 3 parfums conseillés)](${SITE}${url.quiz(l)})`,
     `- [English version](${SITE}/en/)`,
     '',
     '## Familles olfactives',
@@ -44,6 +45,7 @@ export const GET: APIRoute = () => {
     `- [Olfactory families](${SITE}${url.families('en')})`,
     `- [Eras](${SITE}${url.eras('en')})`,
     `- [Daily perfume guessing game](${SITE}${url.game('en')})`,
+    `- [Perfume quiz: 7 questions, 3 recommended perfumes](${SITE}${url.quiz('en')})`,
     ...GUIDES.map((g) => `- [${g.en}](${SITE}${guideUrl(g.slug, 'en')})`),
     '',
   ];

@@ -1,0 +1,179 @@
+{
+ "_doc": "Copy of the perfume quiz (/fr/test-parfum/, /en/perfume-quiz/). {n} = size of the quiz pool. Links in bodies: [label](kind:key) with kind = family, note, season, gender, guide, game, perfume, perfumes, ranked. Lint: python3 scripts/lint_copy.py src/data/editorial/quiz.json",
+ "hub:quiz": {
+  "fr": {
+   "title": "Test parfum : quel parfum est fait pour moi ? (quiz gratuit)",
+   "meta": "Test parfum gratuit en 7 questions sur vos goûts et vos habitudes. Trois parfums à essayer parmi {n} grands classiques, avec la raison de chaque choix.",
+   "eyebrow": "Quiz gratuit · 7 questions",
+   "h1": "Test parfum : trouver son parfum en 7 questions",
+   "lede": "Sept questions rapides, une réponse par écran. Le test compare vos goûts aux pyramides de {n} parfums connus et vous donne trois parfums à essayer, avec la raison de chaque choix.",
+   "crumb": "Test parfum",
+   "ui": {
+    "step": "Question {n} sur {t}",
+    "back": "Retour",
+    "next": "Continuer",
+    "skip": "Passer, je ne sais pas",
+    "max": "3 notes maximum",
+    "resultsEyebrow": "Votre résultat",
+    "resultsTitle": "Trois parfums à essayer en premier",
+    "ranks": ["Premier choix", "Deuxième choix", "Troisième choix"],
+    "profile": "Vos réponses",
+    "see": "Voir la fiche",
+    "similar": "Parfums similaires",
+    "family": "Famille olfactive : {fam}",
+    "restart": "Refaire le test",
+    "share": "Partager mon résultat",
+    "copied": "Lien copié",
+    "shareText": "Mon test parfum sur Perfumdle me conseille {a}, {b} et {c}.",
+    "tip": "Avant d’acheter, demandez un échantillon et portez-le une journée : un parfum change beaucoup entre la mouillette et la peau.",
+    "noscript": "Le test a besoin de JavaScript. Sans lui, les conseils ci-dessous et les familles olfactives vous aideront à choisir.",
+    "and": " et ",
+    "registre": "registre {fam}",
+    "power": ["sillage discret", "sillage discret", "sillage modéré", "sillage marqué", "sillage puissant"],
+    "season": { "spring": "bien au printemps", "summer": "bien en été", "autumn": "bien en automne", "winter": "bien en hiver", "all": "se porte toute l’année" }
+   },
+   "questions": {
+    "gender": { "q": "Pour qui est ce parfum ?", "opts": { "F": "Pour une femme", "M": "Pour un homme", "A": "Peu importe, mixte bienvenu" } },
+    "season": { "q": "Quand le porterez-vous surtout ?", "opts": { "spring": "Au printemps", "summer": "En été", "autumn": "En automne", "winter": "En hiver", "all": "Toute l’année" } },
+    "occasion": { "q": "Pour quelles occasions ?", "opts": { "office": "La journée, au bureau", "evening": "Le soir, un rendez-vous", "daily": "Tous les jours, sans y penser" } },
+    "mood": {
+     "q": "Quelle ambiance vous attire ?",
+     "opts": { "fresh": "Frais et propre", "floral": "Floral et romantique", "warm": "Chaud et sucré", "woody": "Boisé et élégant", "spicy": "Épicé et intense" },
+     "subs": { "fresh": "Agrumes, linge propre, air marin", "floral": "Rose, jasmin, pivoine", "warm": "Vanille, caramel, ambre", "woody": "Santal, cèdre, vétiver", "spicy": "Poivre, cannelle, encens" }
+    },
+    "love": { "q": "Quelles notes aimez-vous ?", "hint": "Jusqu’à trois. Pensez aussi aux odeurs du quotidien : un dessert, un savon, un café." },
+    "hate": { "q": "Une note que vous ne supportez pas ?", "hint": "Le test écarte les parfums où elle est au cœur ou au fond.", "none": "Aucune" },
+    "power": {
+     "q": "Quel sillage voulez-vous ?",
+     "opts": { "soft": "Discret", "mid": "Modéré", "strong": "Marqué" },
+     "subs": { "soft": "Il reste près de la peau", "mid": "On le sent quand on s’approche", "strong": "Il laisse une trace dans la pièce" }
+    }
+   },
+   "chips": {
+    "vanilla": "Vanille", "rose": "Rose", "citrus": "Agrumes", "jasmine": "Jasmin", "orangeblossom": "Fleur d’oranger", "iris": "Iris", "lavender": "Lavande",
+    "musk": "Musc", "sandalwood": "Santal", "patchouli": "Patchouli", "amber": "Ambre", "oud": "Oud", "leather": "Cuir", "coffee": "Café"
+   },
+   "sections": [
+    {
+     "title": "Comment fonctionne ce test parfum",
+     "body": "Le test croise vos réponses avec la fiche de {n} parfums connus : famille olfactive, pyramide de notes, saisons et sillage. Chaque réponse ajoute ou retire des points.\n\nUne note que vous aimez pèse plus lourd quand elle se trouve au cœur ou au fond, parce que c’est elle que vous sentirez encore au bout d’une heure. Une note détestée fait chuter le score. Si elle ne passe qu’en tête, la pénalité reste légère, car elle disparaît vite. Les trois suggestions viennent de trois maisons différentes : vous n’aurez pas trois déclinaisons du même flacon."
+    },
+    {
+     "title": "Partir d’une famille olfactive",
+     "body": "Le plus sûr est de partir d’un parfum que vous aimez déjà et de regarder sa famille. Un amateur de [Sauvage](perfume:dior-sauvage) se plaît souvent dans la famille [aromatique](family:aromatic) et les fougères. Une fan de [La Vie est Belle](perfume:lancome-la-vie-est-belle) cherchera plutôt du côté [gourmand](family:gourmand). Notre [guide des familles olfactives](guide:guide-familles-olfactives) présente chaque famille avec ses classiques.\n\nVous ne connaissez aucune famille ? Partez des notes. La [vanille](note:Vanilla), la [rose](note:Rose) ou le [santal](note:Sandalwood) suffisent pour orienter un premier choix, et chaque page de note liste les parfums qui la mettent en avant."
+    },
+    {
+     "title": "Eau de toilette ou eau de parfum",
+     "body": "La concentration change la tenue davantage que l’odeur. Une eau de toilette contient en général 8 à 12 % de concentré, une eau de parfum 15 à 20 %, un extrait plus encore. Pour le bureau ou l’été, une eau de toilette suffit souvent. L’hiver et le soir, l’eau de parfum tient mieux sur une peau froide. Tout le détail est dans notre article sur la [différence entre eau de parfum et eau de toilette](guide:difference-edp-edt-parfum)."
+    },
+    {
+     "title": "Tester sur la peau, pas sur la mouillette",
+     "body": "La mouillette en papier montre la tête du parfum. Votre peau montre le reste. Vaporisez une seule fois à l’intérieur du poignet ou au creux du coude, sans frotter. Le cœur s’installe au bout de 20 à 30 minutes et le fond après deux heures environ : c’est là qu’il faut décider.\n\nNe testez pas plus de trois parfums dans la même séance. Au-delà, le nez sature et tout finit par se ressembler. Les grains de café proposés en boutique servent peu. Sentir un pull en laine ou votre propre avant-bras repose mieux le nez."
+    },
+    {
+     "title": "Choisir selon la saison",
+     "body": "La chaleur amplifie le parfum. En été, un [hespéridé](family:citrus) ou un [aquatique](family:aquatic) reste agréable là où un ambré devient lourd. En hiver, c’est l’inverse : l’[oriental ambré](family:oriental) et le [boisé](family:woody) prennent de l’ampleur sous un manteau. Nos sélections de [parfums d’été](season:summer) et de [parfums d’hiver](season:winter) rangent les meilleurs choix par saison."
+    },
+    {
+     "title": "Après le test",
+     "body": "Ouvrez la fiche de chaque suggestion pour lire sa pyramide et notre avis, puis comparez avec ses parfums similaires. Pour une liste plus large, nos classements des [meilleurs parfums femme](ranked:best:femme), des [meilleurs parfums homme](ranked:best:homme) et des [meilleurs parfums de niche](ranked:best:niche) sont un bon point de départ. Et pour entraîner votre nez, le [jeu du parfum du jour](game:) fait deviner chaque jour un grand parfum à partir de ses notes."
+    }
+   ],
+   "faq": [
+    { "q": "Quel parfum est fait pour moi ?", "a": "Celui qui vous plaît encore deux heures après l’avoir vaporisé. Le test vous donne trois pistes à partir de vos goûts. Essayez-les sur la peau avant d’acheter : la même formule ne sent pas pareil sur deux personnes." },
+    { "q": "Ce test parfum est-il gratuit ?", "a": "Oui. Pas d’inscription ni d’adresse e-mail. Vos réponses restent dans votre navigateur et le résultat tient dans un lien que vous pouvez partager." },
+    { "q": "Comment trouver son parfum sans pouvoir le sentir ?", "a": "Partez des odeurs que vous aimez au quotidien : la vanille d’un dessert, la lavande du linge, le café du matin. Repérez ensuite la famille de vos parfums préférés et cherchez dans la même. Aucun test en ligne ne remplace pourtant un échantillon porté toute une journée." },
+    { "q": "Quelle différence entre parfum femme, homme et mixte ?", "a": "Elle est surtout commerciale. Les parfums vendus pour homme utilisent plus de notes aromatiques et boisées, ceux pour femme plus de fleurs et de notes sucrées. Rien n’empêche une femme de porter Terre d’Hermès ou un homme de porter Shalimar. Répondez « Peu importe » à la première question pour garder tout le catalogue." },
+    { "q": "Combien de temps doit tenir un bon parfum ?", "a": "Comptez 3 à 5 heures pour une eau de toilette et 6 à 8 heures pour une eau de parfum. Une peau sèche retient moins bien le parfum. Une crème sans odeur appliquée juste avant aide à le fixer." },
+    { "q": "Pourquoi ces trois parfums et pas d’autres ?", "a": "Le test puise dans les {n} parfums de notre encyclopédie, les plus connus et les plus recherchés. Aucune marque ne paie pour y figurer. Si le résultat vous surprend, changez une réponse : l’ambiance et les notes aimées pèsent le plus." }
+   ]
+  },
+  "en": {
+   "title": "Perfume quiz: find your signature scent (free)",
+   "meta": "A free 7-question perfume quiz about your taste and habits. Get three perfumes to try from {n} well-known classics, with the reason behind each pick.",
+   "eyebrow": "Free quiz · 7 questions",
+   "h1": "Perfume quiz: find your scent in 7 questions",
+   "lede": "Seven quick questions, one tap each. The quiz matches your taste against the pyramids of {n} well-known perfumes and gives you three to try, with the reason for each pick.",
+   "crumb": "Perfume quiz",
+   "ui": {
+    "step": "Question {n} of {t}",
+    "back": "Back",
+    "next": "Continue",
+    "skip": "Skip, I don’t know",
+    "max": "3 notes max",
+    "resultsEyebrow": "Your result",
+    "resultsTitle": "Three perfumes to try first",
+    "ranks": ["First pick", "Second pick", "Third pick"],
+    "profile": "Your answers",
+    "see": "Read the profile",
+    "similar": "Similar perfumes",
+    "family": "Olfactory family: {fam}",
+    "restart": "Take the quiz again",
+    "share": "Share my result",
+    "copied": "Link copied",
+    "shareText": "My Perfumdle perfume quiz says {a}, {b} and {c}.",
+    "tip": "Before you buy, get a sample and wear it for a full day. A perfume changes a lot between the paper strip and your skin.",
+    "noscript": "The quiz needs JavaScript. Without it, the advice below and the olfactory families will still help you choose.",
+    "and": " and ",
+    "registre": "{fam} profile",
+    "power": ["soft trail", "soft trail", "moderate trail", "strong trail", "very strong trail"],
+    "season": { "spring": "good in spring", "summer": "good in summer", "autumn": "good in autumn", "winter": "good in winter", "all": "works all year" }
+   },
+   "questions": {
+    "gender": { "q": "Who is this perfume for?", "opts": { "F": "For a woman", "M": "For a man", "A": "No preference, unisex welcome" } },
+    "season": { "q": "When will you wear it most?", "opts": { "spring": "Spring", "summer": "Summer", "autumn": "Autumn", "winter": "Winter", "all": "All year" } },
+    "occasion": { "q": "What for?", "opts": { "office": "Daytime and the office", "evening": "Evenings and dates", "daily": "Every day, no fuss" } },
+    "mood": {
+     "q": "Which mood draws you in?",
+     "opts": { "fresh": "Fresh and clean", "floral": "Floral and romantic", "warm": "Warm and sweet", "woody": "Woody and refined", "spicy": "Spicy and bold" },
+     "subs": { "fresh": "Citrus, clean laundry, sea air", "floral": "Rose, jasmine, peony", "warm": "Vanilla, caramel, amber", "woody": "Sandalwood, cedar, vetiver", "spicy": "Pepper, cinnamon, incense" }
+    },
+    "love": { "q": "Which notes do you like?", "hint": "Up to three. Everyday smells count too: a dessert, a soap, your morning coffee." },
+    "hate": { "q": "A note you can’t stand?", "hint": "The quiz drops perfumes where it sits in the heart or the base.", "none": "None" },
+    "power": {
+     "q": "How much trail do you want?",
+     "opts": { "soft": "Soft", "mid": "Moderate", "strong": "Strong" },
+     "subs": { "soft": "Stays close to the skin", "mid": "Noticed when someone leans in", "strong": "Leaves a trace in the room" }
+    }
+   },
+   "chips": {
+    "vanilla": "Vanilla", "rose": "Rose", "citrus": "Citrus", "jasmine": "Jasmine", "orangeblossom": "Orange blossom", "iris": "Iris", "lavender": "Lavender",
+    "musk": "Musk", "sandalwood": "Sandalwood", "patchouli": "Patchouli", "amber": "Amber", "oud": "Oud", "leather": "Leather", "coffee": "Coffee"
+   },
+   "sections": [
+    {
+     "title": "How this perfume quiz works",
+     "body": "The quiz checks your answers against the profile of {n} well-known perfumes: olfactory family, note pyramid, best seasons and trail. Each answer adds or removes points.\n\nA note you like counts for more when it sits in the heart or the base, because that is what you will still smell an hour later. A note you dislike sinks the score. If it only appears in the top notes, the penalty is small, since it fades fast. The three picks always come from three different houses, so you never get three versions of the same bottle."
+    },
+    {
+     "title": "Start from an olfactory family",
+     "body": "The safest route is a perfume you already love. Look at its family. Fans of [Sauvage](perfume:dior-sauvage) usually feel at home in the [aromatic](family:aromatic) family and fougères. If [La Vie est Belle](perfume:lancome-la-vie-est-belle) is your favourite, look at [gourmand](family:gourmand) perfumes next. Our [guide to the olfactory families](guide:guide-familles-olfactives) covers each family and its classics.\n\nNo idea which family you like? Start with notes. [Vanilla](note:Vanilla), [rose](note:Rose) or [sandalwood](note:Sandalwood) are enough to point you somewhere, and each note page lists the perfumes built around it."
+    },
+    {
+     "title": "Eau de toilette or eau de parfum",
+     "body": "Concentration changes longevity far more than the smell. An eau de toilette usually holds 8 to 12% perfume oil and an eau de parfum 15 to 20%. An extrait goes higher. For the office or summer, an eau de toilette is often enough. In winter and at night, an eau de parfum lasts better on cold skin. More in our piece on [eau de parfum vs eau de toilette](guide:difference-edp-edt-parfum)."
+    },
+    {
+     "title": "Test on skin, not on paper",
+     "body": "A paper strip shows you the opening. Your skin shows the rest. Spray once on the inside of your wrist or elbow and don’t rub. The heart settles after 20 to 30 minutes and the base after about two hours. That is when you decide.\n\nTry three perfumes at most in one session. Past that, your nose gets tired and everything starts to smell the same. The coffee beans in shops don’t do much. Sniffing a wool jumper or your own forearm resets your nose better."
+    },
+    {
+     "title": "Pick for the season",
+     "body": "Heat makes perfume louder. In summer, a [citrus](family:citrus) or [aquatic](family:aquatic) scent stays pleasant where an amber one turns heavy. Winter is the reverse: [amber](family:oriental) and [woody](family:woody) perfumes open up under a coat. Our [summer perfumes](season:summer) and [winter perfumes](season:winter) edits rank the best picks for each season."
+    },
+    {
+     "title": "After the quiz",
+     "body": "Open each pick to read its pyramid and our verdict, then compare it with its similar perfumes. For a wider list, start with our rankings of the [best perfumes for women](ranked:best:femme), the [best perfumes for men](ranked:best:homme) and the [best niche perfumes](ranked:best:niche). To train your nose, the [daily perfume game](game:) asks you to guess a famous perfume from its notes every day."
+    }
+   ],
+   "faq": [
+    { "q": "Which perfume is right for me?", "a": "The one you still like two hours after spraying it. The quiz gives you three leads based on your taste. Try them on skin before buying, because the same formula smells different on two people." },
+    { "q": "Is this perfume quiz free?", "a": "Yes. No sign-up and no email address. Your answers stay in your browser and the result fits in a link you can share." },
+    { "q": "How do I find my perfume without smelling it?", "a": "Start from smells you already like: vanilla in a dessert, lavender on fresh sheets, morning coffee. Then check the family of the perfumes you love and look within it. No online quiz replaces a sample worn for a whole day, though." },
+    { "q": "What is the difference between women’s, men’s and unisex perfume?", "a": "Mostly marketing. Perfumes sold to men lean on aromatic and woody notes, those sold to women on flowers and sweet notes. Nothing stops a woman from wearing Terre d’Hermès or a man from wearing Shalimar. Answer “No preference” to the first question to keep the whole catalogue." },
+    { "q": "How long should a good perfume last?", "a": "Expect 3 to 5 hours from an eau de toilette and 6 to 8 hours from an eau de parfum. Dry skin holds scent less well. An unscented moisturiser applied just before helps it last." },
+    { "q": "Why these three perfumes and not others?", "a": "The quiz draws from the {n} perfumes in our encyclopedia, the best known and most searched. No brand pays to be included. If the result surprises you, change one answer: mood and liked notes weigh the most." }
+   ]
+  }
+ }
+}

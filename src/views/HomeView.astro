@@ -97,6 +97,18 @@ const jsonLd = compact([
         </div>
       </section>
 
+      <!-- QUIZ -->
+      <section class="wrap">
+        <a class="quiz-cta" href={url.quiz(l)}>
+          <span class="quiz-cta__copy">
+            <span class="eyebrow">{fr ? 'Test parfum gratuit' : 'Free perfume quiz'}</span>
+            <strong>{fr ? 'Quel parfum est fait pour vous\u00a0?' : 'Which perfume suits you?'}</strong>
+            <span>{fr ? 'Sept questions sur vos goûts, trois parfums à essayer, avec la raison de chaque choix.' : 'Seven questions about your taste, three perfumes to try, with the reason for each pick.'}</span>
+          </span>
+          <span class="btn quiz-cta__btn">{fr ? 'Faire le test' : 'Take the quiz'}</span>
+        </a>
+      </section>
+
       <!-- FAMILIES -->
       <section class="section section--paper2">
         <div class="wrap">
