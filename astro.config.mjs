@@ -15,7 +15,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('liste-150-parfums-perfumdle'),
+      filter: (page) => !page.includes('liste-150-parfums-perfumdle') && !page.includes('/embed/'),
       serialize(item) {
         item.lastmod = today;
         const path = new URL(item.url).pathname;

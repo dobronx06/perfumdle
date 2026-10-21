@@ -1,0 +1,28 @@
+---
+/** Slim "play today's perfume" banner shown right under the hero of content pages, where most visitors land. */
+import type { Locale } from '../i18n';
+import { url } from '../lib/catalog';
+
+interface Props { locale: Locale; from: string }
+const { locale: l, from } = Astro.props;
+const fr = l === 'fr';
+---
+
+<div class="wrap">
+  <a class="game-strip" href={url.game(l)} data-game-cta={from}>
+    <span class="game-strip__copy">
+      <span class="game-strip__eyebrow">{fr ? 'Jeu quotidien gratuit' : 'Free daily game'}</span>
+      <strong>{fr ? 'Saurez-vous trouver le parfum du jour ?' : "Can you guess today's perfume?"}</strong>
+      <span>{fr ? 'Six essais, un indice à chaque erreur. Une partie dure deux minutes.' : 'Six guesses, one clue after each miss. A game takes two minutes.'}</span>
+    </span>
+    <span class="btn btn--gold game-strip__btn">{fr ? 'Jouer' : 'Play'}</span>
+  </a>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('[data-game-cta]').forEach((a) => {
+    a.addEventListener('click', () => {
+      try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.('Game CTA', { props: { from: a.dataset.gameCta ?? '' } }); } catch { /* blocked */ }
+    });
+  });
+</script>

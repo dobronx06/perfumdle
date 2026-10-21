@@ -11,21 +11,12 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import pool from '../data/game-pool.json';
 import type { Locale } from '../i18n';
-import { url, perfumes, noteName, familyName, allNotes } from '../lib/catalog';
+import { url, perfumes, noteName, familyName, allNotes, mainFamily } from '../lib/catalog';
 import { isPublished } from '../lib/schedule';
 
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
 const fr = l === 'fr';
-
-/* Main family = the facet named by the first word of the dataset label ("Oriental Woody" -> oriental). */
-const FIRST_WORD: Record<string, string> = {
-  floral: 'floral', oriental: 'oriental', amber: 'oriental', ambery: 'oriental', woody: 'woody', chypre: 'chypre',
-  fougère: 'fougere', fougere: 'fougere', citrus: 'citrus', gourmand: 'gourmand', leather: 'leather', aquatic: 'aquatic',
-  marine: 'aquatic', aromatic: 'aromatic', fruity: 'fruity', spicy: 'spicy', musk: 'musky', musky: 'musky',
-  green: 'green', powdery: 'powdery', aldehyde: 'powdery',
-};
-const mainFamily = (p: (typeof perfumes)[number]) => FIRST_WORD[p.family.split(' ')[0].toLowerCase()] ?? p.families[0] ?? 'floral';
 
 const usedNotes = new Set<string>();
 const usedFams = new Set<string>();
@@ -144,6 +135,7 @@ const gameLd = [
   <script type="application/json" id="game-data" set:html={JSON.stringify(gameData)} />
 
   <script>
+    import { dayStr, dailySlug as drawDaily } from '../lib/daily';
     type G = 'Feminine' | 'Masculine' | 'Unisex';
     interface E { s: string; n: string; b: string; y: number; g: G; m: string; f: string[]; t: string[]; h: string[]; d: string[]; i: string; sim: number }
     interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string; quizUrl: string }
@@ -169,24 +161,10 @@ const gameLd = [
 
     /* ---------- dates: local calendar day ---------- */
     const pad = (n: number) => String(n).padStart(2, '0');
-    const dayStr = (d = new Date()) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
     const today = dayStr();
     const yesterday = (() => { const d = new Date(); d.setDate(d.getDate() - 1); return dayStr(d); })();
-
-    function mulberry32(a: number) {
-      return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
-    }
-    /** Same perfume for everyone on a given day; no repeat until the whole pool has been played. */
-    function dailySlug(): string {
-      const [y, m, d] = today.split('-').map(Number);
-      const idx = Math.floor((Date.UTC(y, m - 1, d) - Date.UTC(2026, 8, 1)) / 86400000);
-      const n = D.pool.length;
-      const cycle = Math.floor(idx / n);
-      const order = D.pool.slice();
-      const rnd = mulberry32(cycle * 7919 + 17);
-      for (let i = n - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
-      return order[((idx % n) + n) % n];
-    }
+    /** Same draw as the embeddable widget (src/lib/daily.ts). */
+    const dailySlug = () => drawDaily(D.pool, today);
 
     /* ---------- state ---------- */
     interface State { target: string; guesses: string[]; done: boolean; won: boolean }

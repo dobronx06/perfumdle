@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import GameCta from '../components/GameCta.astro';
 import Crumbs from '../components/Crumbs.astro';
 import Faq from '../components/Faq.astro';
 import PerfumeCard from '../components/PerfumeCard.astro';
@@ -162,6 +163,7 @@ const jsonLd = compact([
           </div>
         </section>
       </div>
+      <GameCta locale={l} from="perfume" />
 
       <section class="section--tight section--paper2">
         <div class="wrap">

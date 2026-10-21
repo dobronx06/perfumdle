@@ -1,0 +1,88 @@
+{
+  "fr": {
+    "title": "Les notes de parfum qui ont dominé chaque décennie : étude sur {n} parfums",
+    "description": "De la mousse de chêne à l'ambroxan : ce que racontent les notes de {n} parfums célèbres, de {first} à {last}. Chiffres libres de réutilisation.",
+    "eyebrow": "Étude Perfumdle",
+    "h1": "Les notes qui ont dominé chaque décennie",
+    "lede": "Nous avons compté les notes de {n} parfums célèbres, de {first} à {last}. La mousse de chêne a presque disparu. L'ambroxan s'est installé, et un parfum sur trois sorti dans les années 2010 se dit mixte.",
+    "sections": [
+      {
+        "title": "La méthode",
+        "body": "La base compte {n} parfums qu'on cherche encore aujourd'hui. Ce n'est donc pas un recensement de toutes les sorties : c'est le portrait des parfums qui ont duré. Chaque parfum compte une fois par note, qu'elle soit en tête, en cœur ou en fond. Avant 1970, la base ne contient que {pre} parfums. Nous les regroupons, et ces pourcentages anciens se lisent avec prudence."
+      },
+      {
+        "title": "La mousse de chêne, grande perdante",
+        "body": "Avant 1990, {oakOld} % des parfums de la base contiennent de la mousse de chêne. Depuis 2010, ils ne sont plus que {oakNew} %. C'est la note des chypres, de Mitsouko (1919) à Eau Sauvage (1966). Sa chute vient surtout de la réglementation. L'IFRA a d'abord limité son dosage. Un règlement européen de 2017 a ensuite interdit deux de ses allergènes : l'atranol et le chloroatranol. Les chypres récents comme Aventus (2010) utilisent une mousse de chêne débarrassée de ces molécules."
+      },
+      {
+        "title": "Les aldéhydes, une affaire d'avant-guerre",
+        "body": "{aldOld} % des parfums d'avant 1970 contiennent des aldéhydes. Depuis 2000, la note est devenue rare ({aldNew} %). N°5 (1921) les a rendus célèbres et Arpège (1927) a suivi la même piste. Aujourd'hui, on les croise surtout dans des parfums qui veulent sentir le linge propre, comme Blanche de Byredo (2009)."
+      },
+      {
+        "title": "L'ambroxan, la note de notre époque",
+        "body": "Aucun parfum de la base n'en contient avant 2008. Cette année-là, Molecule 02 d'Escentric Molecules le met seul en flacon. Il passe ensuite à {amb2010} % des parfums des années 2010, puis {amb2020} % depuis 2020. L'ambroxan sent l'ambre gris de synthèse : boisé, salé, un peu minéral. Il donne à beaucoup de masculins récents cette trace propre qui tient sur les vêtements le lendemain."
+      },
+      {
+        "title": "La vanille a connu un creux",
+        "body": "Elle est dans {vanOld} % des parfums d'avant 1970, portée par Shalimar et les orientaux. Elle tombe à {vanLow} % entre 1970 et 1989, l'époque des fougères et des chypres puissants. Puis elle remonte à {van2020} % depuis 2020. La fève tonka suit la même courbe en plus marqué : {tonkaOld} % avant 1990, {tonka2020} % aujourd'hui. La praline, absente avant La Vie Est Belle (2012), entre dans {pral2020} % des parfums des années 2020."
+      },
+      {
+        "title": "Le poivre rose et l'oud, deux nouveaux venus",
+        "body": "Le poivre rose n'apparaît pas dans la base avant Pleasures d'Estée Lauder (1995). Depuis 2000, il est dans {pp} % des parfums, souvent en tête pour donner un départ pétillant. L'oud arrive en 2006 avec Black Aoud de Montale, et Tom Ford le fait entrer chez les créateurs l'année suivante avec Oud Wood. Il plafonne pourtant à {oud} % des parfums sortis depuis 2000. C'est une note forte qui reste une spécialité."
+      },
+      {
+        "title": "Moins de parfums pour homme ou pour femme",
+        "body": "Avant 1970, {uniOld} % des parfums de la base sont mixtes. Dans les années 2010, la part monte à {uni2010} %. La niche a poussé dans ce sens : Le Labo, Byredo et Maison Francis Kurkdjian donnent rarement un genre à leurs parfums. Les grandes maisons de mode, elles, continuent de vendre leurs best-sellers en version homme et femme."
+      },
+      {
+        "title": "Ce que ça change pour jouer à Perfumdle",
+        "body": "Dans le jeu du jour, la note de fond donnée au départ trahit souvent l'époque. Une mousse de chêne oriente vers un parfum d'avant 1990. Un ambroxan ou une praline désignent presque toujours un parfum sorti après 2010."
+      }
+    ],
+    "cite_title": "Reprendre ces chiffres",
+    "cite_body": "Les chiffres de cette page sont libres de réutilisation, dans un article, une vidéo ou une newsletter. Merci simplement de citer la source avec un lien vers cette page."
+  },
+  "en": {
+    "title": "The fragrance notes that defined each decade: a study of {n} perfumes",
+    "description": "From oakmoss to ambroxan: what the notes of {n} famous perfumes from {first} to {last} reveal. Free to reuse with a link.",
+    "eyebrow": "Perfumdle study",
+    "h1": "The notes that defined each decade",
+    "lede": "We counted the notes of {n} famous perfumes, from {first} to {last}. Oakmoss has almost vanished. Ambroxan has moved in, and one in three perfumes launched in the 2010s is sold as unisex.",
+    "sections": [
+      {
+        "title": "How we counted",
+        "body": "The dataset holds {n} perfumes people still search for today. So this is not a census of every launch. It is a portrait of the perfumes that lasted. Each perfume counts once per note, whether the note sits in the top, heart or base. Before 1970 the dataset only has {pre} perfumes, so we group them together and read those older figures with care."
+      },
+      {
+        "title": "Oakmoss, the big loser",
+        "body": "Before 1990, {oakOld}% of the perfumes in the dataset contain oakmoss. Since 2010 the figure is {oakNew}%. Oakmoss is the backbone of the chypre, from Mitsouko (1919) to Eau Sauvage (1966). Its fall is mostly about regulation. IFRA first capped how much could be used. Then a 2017 EU regulation banned two of its allergens, atranol and chloroatranol. Recent chypres such as Aventus (2010) use oakmoss with those molecules removed."
+      },
+      {
+        "title": "Aldehydes belong to the pre-war years",
+        "body": "{aldOld}% of the perfumes made before 1970 contain aldehydes. Since 2000 they show up in only {aldNew}%. N°5 (1921) made them famous and Arpège (1927) followed. Today you mostly find them in perfumes built to smell like clean laundry, such as Byredo Blanche (2009)."
+      },
+      {
+        "title": "Ambroxan, the note of our time",
+        "body": "No perfume in the dataset contains it before 2008, when Escentric Molecules bottled it on its own as Molecule 02. It then appears in {amb2010}% of 2010s perfumes and {amb2020}% of those launched since 2020. Ambroxan smells like synthetic ambergris: woody, salty, a little mineral. It is the reason so many recent men's perfumes leave a clean trail that is still on your jacket the next morning."
+      },
+      {
+        "title": "Vanilla went out and came back",
+        "body": "It sits in {vanOld}% of pre-1970 perfumes, thanks to Shalimar and the orientals. It drops to {vanLow}% between 1970 and 1989, the era of fougères and loud chypres. Since 2020 it is back to {van2020}%. Tonka bean follows the same curve, more sharply: {tonkaOld}% before 1990, {tonka2020}% today. Praline did not exist in the dataset before La Vie Est Belle (2012) and now appears in {pral2020}% of 2020s perfumes."
+      },
+      {
+        "title": "Pink pepper and oud, the newcomers",
+        "body": "Pink pepper first shows up with Estée Lauder Pleasures (1995). Since 2000 it is in {pp}% of perfumes, usually in the top notes for a fizzy opening. Oud arrives in 2006 with Montale Black Aoud, and Tom Ford takes it to designer counters a year later with Oud Wood. Still, it tops out at {oud}% of perfumes launched since 2000. It is a loud note and it stays a specialty."
+      },
+      {
+        "title": "Fewer perfumes for men or for women",
+        "body": "Before 1970, {uniOld}% of the perfumes in the dataset are unisex. In the 2010s the share climbs to {uni2010}%. Niche houses drove this: Le Labo, Byredo and Maison Francis Kurkdjian rarely assign a gender. The big fashion houses still sell their best-sellers in a men's and a women's version."
+      },
+      {
+        "title": "What it means when you play Perfumdle",
+        "body": "In the daily game, the base note you get at the start often gives away the era. Oakmoss points to a perfume from before 1990. Ambroxan or praline almost always means a launch after 2010."
+      }
+    ],
+    "cite_title": "Reuse these numbers",
+    "cite_body": "The figures on this page are free to reuse in an article, a video or a newsletter. All we ask is a link back to this page as the source."
+  }
+}

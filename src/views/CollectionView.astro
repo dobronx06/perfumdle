@@ -6,6 +6,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import GameCta from '../components/GameCta.astro';
 import Crumbs from '../components/Crumbs.astro';
 import Faq from '../components/Faq.astro';
 import PerfumeCard from '../components/PerfumeCard.astro';
@@ -85,6 +86,7 @@ const mosaic = P.perfumes.filter((p) => p.image).slice(0, 3);
           </div>
         </section>
       </div>
+      <GameCta locale={l} from="hub" />
 
       {P.sections && P.sections.filter((s) => s.body).length > 0 && (
         <div class="wrap section--tight">

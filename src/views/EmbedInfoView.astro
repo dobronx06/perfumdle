@@ -1,0 +1,64 @@
+---
+/** "Put the game on your site" page: preview of the /embed/ card and the copy-paste snippet for bloggers. */
+import Shell from '../components/Shell.astro';
+import type { Locale } from '../i18n';
+import { url } from '../lib/catalog';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const EMBED_INFO = { fr: '/fr/integrer-le-jeu/', en: '/en/embed-the-game/' };
+
+const snippet = fr
+  ? `<iframe src="https://perfumdle.com/embed/fr/" width="360" height="230" style="border:0;border-radius:18px;max-width:100%" title="Perfumdle, le parfum du jour" loading="lazy"></iframe>
+<p style="font-size:13px;margin:6px 0 0">Jeu quotidien proposé par <a href="https://perfumdle.com/fr/jeu/">Perfumdle, le jeu du parfum</a></p>`
+  : `<iframe src="https://perfumdle.com/embed/en/" width="360" height="230" style="border:0;border-radius:18px;max-width:100%" title="Perfumdle, today's perfume" loading="lazy"></iframe>
+<p style="font-size:13px;margin:6px 0 0">Daily game by <a href="https://perfumdle.com/en/game/">Perfumdle, the perfume guessing game</a></p>`;
+---
+
+<Shell
+  locale={l}
+  title={fr ? 'Intégrer le jeu Perfumdle sur votre blog ou site' : 'Embed the Perfumdle game on your blog or site'}
+  description={fr
+    ? 'Un encart gratuit qui affiche chaque jour le parfum mystère de Perfumdle et ses deux premiers indices. Un copier-coller suffit.'
+    : "A free card that shows Perfumdle's mystery perfume and its first two clues every day. One copy and paste is all it takes."}
+  alternates={EMBED_INFO}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Intégrer le jeu' : 'Embed the game' }]}
+  eyebrow={fr ? 'Pour les blogs et newsletters' : 'For blogs and newsletters'}
+  h1={fr ? 'Mettez le parfum du jour sur votre site' : "Put today's perfume on your site"}
+  lede={fr
+    ? "Cet encart change tout seul à minuit. Il montre la famille et une note de fond du parfum mystère, et vos lecteurs cliquent pour jouer. C'est gratuit et sans compte, et l'encart ne contient aucune publicité."
+    : 'The card updates itself at midnight. It shows the family and one base note of the mystery perfume, and your readers click through to play. It is free, needs no account and the card carries no ads.'}
+>
+  <div class="article">
+    <div class="prose">
+      <h2 style="margin-top:0">{fr ? 'Le code à copier' : 'The code to copy'}</h2>
+      <p>{fr
+        ? "Collez ce code dans un bloc HTML de votre article ou de votre barre latérale. Sur WordPress, c'est le bloc « HTML personnalisé ». Sur Substack, une newsletter ne peut pas afficher d'iframe : mettez plutôt un lien vers le jeu."
+        : 'Paste this code into an HTML block in your post or sidebar. On WordPress, use the "Custom HTML" block. Substack newsletters cannot show iframes, so link to the game instead.'}</p>
+      <textarea id="embed-code" readonly rows="7" style="width:100%;font-family:ui-monospace,monospace;font-size:0.82rem;padding:0.8rem;border-radius:12px;border:1px solid var(--line);background:#fff">{snippet}</textarea>
+      <p><button type="button" class="btn btn--gold" id="copy-embed">{fr ? 'Copier le code' : 'Copy the code'}</button> <span id="copied-embed" class="muted" hidden>{fr ? 'Copié' : 'Copied'}</span></p>
+      <h2>{fr ? 'Questions fréquentes' : 'FAQ'}</h2>
+      <h3>{fr ? 'Est-ce que ça ralentit ma page ?' : 'Will it slow my page down?'}</h3>
+      <p>{fr ? "Très peu. L'encart pèse quelques kilo-octets et se charge seulement quand le lecteur arrive à sa hauteur." : 'Barely. The card weighs a few kilobytes and only loads when the reader scrolls to it.'}</p>
+      <h3>{fr ? 'Puis-je changer la taille ?' : 'Can I change the size?'}</h3>
+      <p>{fr ? "Oui. Gardez au moins 300 pixels de large et 220 de haut pour que les indices restent lisibles." : 'Yes. Keep at least 300 pixels wide and 220 high so the clues stay readable.'}</p>
+      <h3>{fr ? "Et en anglais ?" : 'Is there a French version?'}</h3>
+      <p>{fr
+        ? <>Remplacez <code>/embed/fr/</code> par <code>/embed/en/</code> et le lien du jeu par <code>https://perfumdle.com/en/game/</code>.</>
+        : <>Yes. Replace <code>/embed/en/</code> with <code>/embed/fr/</code> and the game link with <code>https://perfumdle.com/fr/jeu/</code>.</>}</p>
+    </div>
+    <aside class="aside">
+      <p class="eyebrow">{fr ? 'Aperçu' : 'Preview'}</p>
+      <div style="margin-top:0.6rem" set:html={snippet} />
+    </aside>
+  </div>
+</Shell>
+
+<script>
+  const btn = document.getElementById('copy-embed');
+  btn?.addEventListener('click', async () => {
+    const code = (document.getElementById('embed-code') as HTMLTextAreaElement).value;
+    try { await navigator.clipboard.writeText(code); document.getElementById('copied-embed')!.hidden = false; } catch { (document.getElementById('embed-code') as HTMLTextAreaElement).select(); }
+  });
+</script>

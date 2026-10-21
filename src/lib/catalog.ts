@@ -95,6 +95,15 @@ export function allNotes(p: Perfume): string[] {
   return [...new Set([...p.notes.top, ...p.notes.heart, ...p.notes.base])];
 }
 
+/** The game's main family: the facet named by the first word of the dataset label ("Oriental Woody" -> oriental). */
+const GAME_FAMILY_WORD: Record<string, string> = {
+  floral: 'floral', oriental: 'oriental', amber: 'oriental', ambery: 'oriental', woody: 'woody', chypre: 'chypre',
+  fougère: 'fougere', fougere: 'fougere', citrus: 'citrus', gourmand: 'gourmand', leather: 'leather', aquatic: 'aquatic',
+  marine: 'aquatic', aromatic: 'aromatic', fruity: 'fruity', spicy: 'spicy', musk: 'musky', musky: 'musky',
+  green: 'green', powdery: 'powdery', aldehyde: 'powdery',
+};
+export const mainFamily = (p: Perfume): string => GAME_FAMILY_WORD[p.family.split(' ')[0].toLowerCase()] ?? p.families[0] ?? 'floral';
+
 /* ------------------------------------------------------------------ routes */
 
 /** Localized path segments. FR is the primary market. */
@@ -392,6 +401,7 @@ export const CONCENTRATION_FR: Record<string, string> = {
 export const GUIDES = [
   { slug: 'guide-familles-olfactives', en_slug: 'olfactory-families-guide', fr: 'Les familles olfactives, le guide complet', en: 'The olfactory families: a complete guide' },
   { slug: 'difference-edp-edt-parfum', en_slug: 'edp-vs-edt-difference', fr: 'Eau de parfum, eau de toilette : les différences', en: 'Eau de parfum vs eau de toilette' },
+  { slug: 'etude-notes-parfum-par-decennie', en_slug: 'fragrance-notes-by-decade', fr: 'Étude : les notes qui ont dominé chaque décennie', en: 'Study: the notes that defined each decade' },
   { slug: 'histoire-parfums-par-decennie', en_slug: 'perfume-history-by-decade', fr: "Un siècle de parfums, décennie par décennie", en: 'A century of perfume, decade by decade' },
   { slug: 'parfums-maisons-niche-vs-designer', en_slug: 'niche-vs-designer-perfumes', fr: 'Parfums de niche ou de créateur ?', en: 'Niche vs designer perfumes' },
   { slug: 'parfums-iconiques-chanel', en_slug: 'iconic-chanel-perfumes', fr: 'Les parfums iconiques de Chanel', en: 'Iconic Chanel perfumes' },

@@ -476,3 +476,15 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .quiz-cta__copy { display: flex; flex-direction: column; gap: 0.35rem; max-width: 36rem; }
 .quiz-cta__copy strong { font-family: var(--serif); font-weight: 600; font-size: clamp(1.5rem, 3.5vw, 2rem); line-height: 1.1; color: var(--ink); }
 .quiz-cta__copy > span:last-child { color: var(--ink-2); }
+
+/* Game banner under the hero of content pages (GameCta.astro) */
+.game-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.9rem 2rem; background: var(--ink); color: var(--paper); border-radius: 18px; padding: clamp(1rem, 2.5vw, 1.4rem) clamp(1.1rem, 3vw, 2rem); margin-block: 0 clamp(1.5rem, 4vw, 2.5rem); text-decoration: none; }
+.game-strip__copy { display: flex; flex-direction: column; gap: 0.25rem; max-width: 40rem; }
+.game-strip__eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: #E0B35A; }
+.game-strip__copy strong { font-family: var(--serif); font-weight: 600; font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.15; }
+.game-strip__copy > span:last-child { color: rgba(247, 243, 238, 0.72); font-size: 0.95rem; }
+.game-strip:hover .game-strip__btn { filter: brightness(1.08); }
+
+/* Study page trend bars (StudyView.astro) */
+.study-trends td { white-space: nowrap; }
+.study-bar { display: inline-block; min-width: 3.2rem; padding: 0.1rem 0.4rem; border-radius: 6px; background: linear-gradient(90deg, rgba(169, 132, 75, 0.35) var(--w), transparent var(--w)); font-variant-numeric: tabular-nums; }

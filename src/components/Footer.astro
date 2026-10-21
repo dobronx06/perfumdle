@@ -25,6 +25,7 @@ const hubs = (['best', 'nose', 'guide'] as const)
       <div style="display:flex;flex-wrap:wrap;gap:0.6rem 1.6rem">
         <a href={url.game(locale)} class="link-arrow">{fr ? 'Jouer au parfum du jour' : "Play today's perfume"}</a>
         <a href={url.quiz(locale)} class="link-arrow">{fr ? 'Faire le test parfum' : 'Take the perfume quiz'}</a>
+        <a href={fr ? '/fr/integrer-le-jeu/' : '/en/embed-the-game/'} class="link-arrow">{fr ? 'Mettre le jeu sur votre site' : 'Put the game on your site'}</a>
       </div>
     </div>
     <nav aria-label={fr ? 'Maisons' : 'Houses'}>

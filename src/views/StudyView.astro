@@ -1,0 +1,161 @@
+---
+/**
+ * Data study: which notes dominated each period. Every figure is computed at build time from src/data/perfumes.json,
+ * the copy (src/data/editorial/study-decades.json) only holds {placeholders}, so text and tables never disagree.
+ */
+import Shell from '../components/Shell.astro';
+import GameCta from '../components/GameCta.astro';
+import copy from '../data/editorial/study-decades.json';
+import type { Locale } from '../i18n';
+import { url, perfumes, allNotes, noteName, hasNotePage, guideUrl, type Perfume } from '../lib/catalog';
+import { articleLd } from '../lib/seo';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const c = copy[l];
+const path = guideUrl('etude-notes-parfum-par-decennie', l);
+
+const PERIODS = [
+  { key: 'pre1970', label: fr ? 'Avant 1970' : 'Before 1970', test: (y: number) => y < 1970 },
+  { key: '1970-89', label: '1970-1989', test: (y: number) => y >= 1970 && y < 1990 },
+  { key: '1990', label: fr ? 'Années 1990' : '1990s', test: (y: number) => y >= 1990 && y < 2000 },
+  { key: '2000', label: fr ? 'Années 2000' : '2000s', test: (y: number) => y >= 2000 && y < 2010 },
+  { key: '2010', label: fr ? 'Années 2010' : '2010s', test: (y: number) => y >= 2010 && y < 2020 },
+  { key: '2020', label: fr ? 'Depuis 2020' : 'Since 2020', test: (y: number) => y >= 2020 },
+];
+const group = (test: (y: number) => boolean) => perfumes.filter((p) => test(p.year));
+const pct = (list: Perfume[], pred: (p: Perfume) => boolean) => (list.length ? Math.round((100 * list.filter(pred).length) / list.length) : 0);
+const has = (note: string) => (p: Perfume) => allNotes(p).includes(note);
+const share = (note: string, test: (y: number) => boolean) => pct(group(test), has(note));
+
+const years = perfumes.map((p) => p.year);
+const vars: Record<string, number> = {
+  n: perfumes.length,
+  first: Math.min(...years),
+  last: Math.max(...years),
+  pre: group((y) => y < 1970).length,
+  oakOld: share('Oakmoss', (y) => y < 1990),
+  oakNew: share('Oakmoss', (y) => y >= 2010),
+  aldOld: share('Aldehydes', (y) => y < 1970),
+  aldNew: share('Aldehydes', (y) => y >= 2000),
+  amb2010: share('Ambroxan', (y) => y >= 2010 && y < 2020),
+  amb2020: share('Ambroxan', (y) => y >= 2020),
+  vanOld: share('Vanilla', (y) => y < 1970),
+  vanLow: share('Vanilla', (y) => y >= 1970 && y < 1990),
+  van2020: share('Vanilla', (y) => y >= 2020),
+  tonkaOld: share('Tonka Bean', (y) => y < 1990),
+  tonka2020: share('Tonka Bean', (y) => y >= 2020),
+  pral2020: share('Praline', (y) => y >= 2020),
+  pp: share('Pink Pepper', (y) => y >= 2000),
+  oud: share('Oud', (y) => y >= 2000),
+  uniOld: pct(group((y) => y < 1970), (p) => p.gender === 'Unisex'),
+  uni2010: pct(group((y) => y >= 2010 && y < 2020), (p) => p.gender === 'Unisex'),
+};
+const fill = (s: string) => s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? `{${k}}`));
+
+/* Table 1: the five most frequent notes of each period. */
+const topByPeriod = PERIODS.map((per) => {
+  const list = group(per.test);
+  const counts = new Map<string, number>();
+  for (const p of list) for (const n of allNotes(p)) counts.set(n, (counts.get(n) ?? 0) + 1);
+  const top = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([note, k]) => ({ note, share: Math.round((100 * k) / list.length) }));
+  return { ...per, count: list.length, top };
+});
+
+/* Table 2: how a handful of telling notes moved across periods. */
+const TRACKED = ['Oakmoss', 'Aldehydes', 'Iris', 'Vanilla', 'Tonka Bean', 'Ambroxan', 'Pink Pepper', 'Oud', 'Musk'];
+const trends = TRACKED.map((note) => ({ note, values: PERIODS.map((per) => share(note, per.test)) }));
+const maxShare = Math.max(...trends.flatMap((t) => t.values));
+
+const noteLink = (n: string) => (hasNotePage(n) ? url.note(l, n) : null);
+const title = fill(c.title);
+const description = fill(c.description);
+const citation = fr
+  ? `Source : Perfumdle, « ${c.h1} », https://perfumdle.com${path}`
+  : `Source: Perfumdle, "${c.h1}", https://perfumdle.com${path}`;
+---
+
+<Shell
+  locale={l}
+  title={title.length <= 70 ? title : c.h1}
+  description={description}
+  alternates={{ fr: guideUrl('etude-notes-parfum-par-decennie', 'fr'), en: guideUrl('etude-notes-parfum-par-decennie', 'en') }}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Époques' : 'Eras', href: url.eras(l) }, { name: c.h1 }]}
+  eyebrow={c.eyebrow}
+  h1={c.h1}
+  lede={fill(c.lede)}
+  jsonLd={[
+    articleLd({ headline: c.h1, description, path, lang: l, about: fr ? 'Notes de parfum par décennie' : 'Fragrance notes by decade' }),
+    {
+      '@context': 'https://schema.org', '@type': 'Dataset', name: c.h1, description, url: `https://perfumdle.com${path}`,
+      license: 'https://creativecommons.org/licenses/by/4.0/', creator: { '@type': 'Organization', name: 'Perfumdle', url: 'https://perfumdle.com' },
+      temporalCoverage: `${vars.first}/${vars.last}`, variableMeasured: fr ? 'Part des parfums contenant chaque note' : 'Share of perfumes containing each note',
+    },
+  ]}
+>
+  <div class="stat-row" style="margin-bottom:clamp(1.5rem,4vw,2.5rem)">
+    <div><strong>{vars.oakOld} % → {vars.oakNew} %</strong><span>{fr ? 'mousse de chêne, avant 1990 puis depuis 2010' : 'oakmoss, before 1990 vs since 2010'}</span></div>
+    <div><strong>0 → {vars.amb2020} %</strong><span>{fr ? 'ambroxan, avant 2008 puis depuis 2020' : 'ambroxan, before 2008 vs since 2020'}</span></div>
+    <div><strong>{vars.uniOld} % → {vars.uni2010} %</strong><span>{fr ? 'parfums mixtes, avant 1970 puis années 2010' : 'unisex perfumes, before 1970 vs the 2010s'}</span></div>
+  </div>
+
+  <h2 class="h2">{fr ? 'Les cinq notes les plus fréquentes par période' : 'The five most frequent notes in each period'}</h2>
+  <div class="content-table-wrap" style="margin-block:1rem 2.5rem">
+    <table class="content-table">
+      <thead><tr><th>{fr ? 'Période' : 'Period'}</th><th>{fr ? 'Parfums' : 'Perfumes'}</th><th>{fr ? 'Notes (part des parfums)' : 'Notes (share of perfumes)'}</th></tr></thead>
+      <tbody>
+        {topByPeriod.map((r) => (
+          <tr>
+            <td><strong>{r.label}</strong></td>
+            <td>{r.count}</td>
+            <td>{r.top.map((t, i) => <>{i > 0 && ', '}{noteLink(t.note) ? <a href={noteLink(t.note)!}>{noteName(t.note, l)}</a> : noteName(t.note, l)}{' '}{t.share}&nbsp;%</>)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="h2">{fr ? 'Neuf notes qui racontent l’évolution' : 'Nine notes that tell the story'}</h2>
+  <p class="muted" style="margin-top:0.4rem">{fr ? 'Part des parfums de chaque période qui contiennent la note.' : 'Share of perfumes in each period that contain the note.'}</p>
+  <div class="content-table-wrap" style="margin-block:1rem 2.5rem">
+    <table class="content-table study-trends">
+      <thead><tr><th>Note</th>{PERIODS.map((p) => <th>{p.label}</th>)}</tr></thead>
+      <tbody>
+        {trends.map((t) => (
+          <tr>
+            <td>{noteLink(t.note) ? <a href={noteLink(t.note)!}>{noteName(t.note, l)}</a> : noteName(t.note, l)}</td>
+            {t.values.map((v) => <td><span class="study-bar" style={`--w:${Math.round((100 * v) / maxShare)}%`}>{v} %</span></td>)}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="article">
+    <article class="prose">
+      {c.sections.map((s, i) => (
+        <>
+          <h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2>
+          <p class={i === 0 ? 'dropcap' : ''}>{fill(s.body)}</p>
+        </>
+      ))}
+      <h2>{c.cite_title}</h2>
+      <p>{c.cite_body}</p>
+      <p><code style="user-select:all;white-space:normal">{citation}</code></p>
+    </article>
+    <aside class="aside">
+      <div class="aside-card">
+        <p class="eyebrow">{fr ? 'Pour aller plus loin' : 'Read next'}</p>
+        <div class="chips" style="margin-top:0.6rem">
+          <a class="chip" href={url.eras(l)}>{fr ? 'Les époques' : 'Eras'}</a>
+          <a class="chip" href={guideUrl('parfums-chypres-histoire', l)}>{fr ? 'Le chypre' : 'The chypre'}</a>
+          <a class="chip" href={guideUrl('parfums-gourmands-guide', l)}>{fr ? 'Les gourmands' : 'Gourmands'}</a>
+          <a class="chip" href={guideUrl('parfums-unisexes-tendance', l)}>{fr ? 'Les mixtes' : 'Unisex'}</a>
+          <a class="chip" href={url.notes(l)}>{fr ? 'Toutes les notes' : 'All notes'}</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <div style="margin-top:clamp(2rem,5vw,3rem)"><GameCta locale={l} from="study" /></div>
+</Shell>

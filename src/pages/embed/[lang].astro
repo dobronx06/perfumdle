@@ -1,0 +1,65 @@
+---
+/**
+ * Embeddable "perfume of the day" card for blogs (/embed/fr/, /embed/en/), shown in an iframe.
+ * Gives today's number and the game's two opening clues, then sends the reader to the full game.
+ * Not indexed: the link that counts for SEO is the plain one placed next to the iframe (see EmbedInfoView).
+ */
+import Layout from '../../layouts/Layout.astro';
+import pool from '../../data/game-pool.json';
+import type { Locale } from '../../i18n';
+import { url, perfumeBySlug, mainFamily, familyName, noteName } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'fr' } }, { params: { lang: 'en' } }];
+}
+
+const l = Astro.params.lang as Locale;
+const fr = l === 'fr';
+const clues = Object.fromEntries(
+  (pool as string[]).map((s) => {
+    const p = perfumeBySlug.get(s)!;
+    return [s, [familyName(mainFamily(p), l), noteName(p.notes.base[0] ?? p.notes.heart[0] ?? p.notes.top[0], l)]];
+  }),
+);
+const data = { pool, clues, game: `https://perfumdle.com${url.game(l)}?ref=embed` };
+---
+
+<Layout locale={l} title={fr ? 'Perfumdle, le parfum du jour' : "Perfumdle, today's perfume"} noindex alternates={{ fr: '/embed/fr/', en: '/embed/en/' }}>
+  <a class="embed" id="embed" href={data.game} target="_blank" rel="noopener">
+    <span class="embed__top">
+      <span class="embed__brand">Perfumdle</span>
+      <span class="embed__num" id="num"></span>
+    </span>
+    <strong class="embed__title">{fr ? 'Saurez-vous trouver le parfum du jour ?' : "Can you guess today's perfume?"}</strong>
+    <span class="embed__clues">
+      <span><small>{fr ? 'Famille' : 'Family'}</small><b id="c1">…</b></span>
+      <span><small>{fr ? 'Note de fond' : 'Base note'}</small><b id="c2">…</b></span>
+    </span>
+    <span class="embed__cta">{fr ? 'Jouer, 6 essais' : 'Play, 6 guesses'} →</span>
+  </a>
+
+  <script type="application/json" id="embed-data" set:html={JSON.stringify(data)} />
+  <script>
+    import { dayStr, dayIndex, dailySlug } from '../../lib/daily';
+    const D = JSON.parse(document.getElementById('embed-data')!.textContent!) as { pool: string[]; clues: Record<string, [string, string]>; game: string };
+    const today = dayStr();
+    const [fam, base] = D.clues[dailySlug(D.pool, today)] ?? ['', ''];
+    document.getElementById('c1')!.textContent = fam;
+    document.getElementById('c2')!.textContent = base;
+    document.getElementById('num')!.textContent = `#${dayIndex(today) + 1}`;
+  </script>
+
+  <style is:global>
+    html, body { background: transparent; margin: 0; }
+    .embed { box-sizing: border-box; display: flex; flex-direction: column; gap: 0.7rem; height: 100vh; min-height: 220px; padding: 1.1rem 1.25rem; border-radius: 18px; background: #1A1411; color: #F7F3EE; text-decoration: none; font-family: var(--font-corps); }
+    .embed__top { display: flex; justify-content: space-between; align-items: baseline; }
+    .embed__brand { font-family: var(--font-titre); font-size: 1.25rem; font-weight: 600; }
+    .embed__num { font-size: 0.8rem; color: #E0B35A; letter-spacing: 0.08em; }
+    .embed__title { font-family: var(--font-titre); font-weight: 600; font-size: 1.35rem; line-height: 1.15; }
+    .embed__clues { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .embed__clues > span { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.5rem 0.65rem; border-radius: 10px; background: rgba(247, 243, 238, 0.08); }
+    .embed__clues small { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(247, 243, 238, 0.6); }
+    .embed__clues b { font-weight: 600; font-size: 0.95rem; }
+    .embed__cta { margin-top: auto; align-self: flex-start; padding: 0.5rem 1rem; border-radius: 999px; background: #A9844B; color: #1A1411; font-weight: 600; font-size: 0.9rem; }
+  </style>
+</Layout>
