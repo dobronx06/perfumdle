@@ -1,0 +1,29 @@
+---
+/**
+ * Without a 404 page, Cloudflare Pages serves the home page with a 200 for any unknown URL,
+ * which search engines read as soft 404s. This page is served with a real 404 status.
+ */
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { url } from '../lib/catalog';
+---
+
+<Layout locale="fr" title="Page introuvable · Perfumdle" description="Cette page n'existe pas ou plus." noindex alternates={{ fr: '/fr/', en: '/en/' }}>
+  <div class="page">
+    <Header locale="fr" altHref="/en/" />
+    <main>
+      <div class="wrap wrap--text" style="padding-block:clamp(3rem,8vw,6rem)">
+        <p class="eyebrow">Erreur 404</p>
+        <h1 class="h1" style="margin-top:0.6rem">Cette page s'est évaporée</h1>
+        <p class="lede" style="margin-top:1rem">L'adresse n'existe pas ou a changé. Page not found.</p>
+        <p style="display:flex;flex-wrap:wrap;gap:0.8rem;margin-top:1.6rem">
+          <a class="btn btn--gold" href={url.game('fr')}>Jouer au parfum du jour</a>
+          <a class="btn" href={url.perfumes('fr')}>Tous les parfums</a>
+          <a class="btn" href="/en/">English version</a>
+        </p>
+      </div>
+    </main>
+    <Footer locale="fr" />
+  </div>
+</Layout>
