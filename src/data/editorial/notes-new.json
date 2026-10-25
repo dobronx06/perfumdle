@@ -1,0 +1,674 @@
+{
+ "Clove": {
+  "slug_fr": "clou-de-girofle",
+  "slug_en": "clove",
+  "name_fr": "Clou de girofle",
+  "name_en": "Clove",
+  "category": "spicy",
+  "source": "natural",
+  "fr": {
+   "title": "Parfum clou de girofle : odeur, origine et classiques",
+   "meta": "Le clou de girofle, c’est l’odeur de l’œillet et des grands orientaux épicés. Ce qu’il sent vraiment, d’où il vient et les parfums qui l’emploient.",
+   "h1": "Le clou de girofle en parfum : la chaleur piquante des orientaux",
+   "intro": "Le clou de girofle est le bouton floral séché d’un arbre tropical. En parfumerie, son huile essentielle apporte une chaleur sèche et piquante, avec un fond presque médicinal. On le croise dans les orientaux épicés et derrière la plupart des accords d’œillet.",
+   "smell": "Approchez le nez d’un flacon d’essence de girofle et c’est le cabinet du dentiste qui revient : l’eugénol, sa molécule principale, sert depuis longtemps dans les pansements dentaires. Derrière cette impression clinique se cache une épice ronde et boisée, à peine fumée. Un soupçon de fruit sec aussi. Dosé finement, le girofle chauffe une composition sans la signer. Surdosé, il devient brûlant et écrase le reste. Sur la peau, il tient bien et s’adoucit en une tiédeur poudrée qui rappelle l’œillet.",
+   "origin": "Le giroflier (Syzygium aromaticum) est originaire des Moluques, en Indonésie, longtemps appelées les îles aux épices. Les Portugais puis les Hollandais se sont disputé ce commerce pendant des siècles. Aujourd’hui, Madagascar, Zanzibar et l’Indonésie dominent la production. On cueille les boutons floraux avant l’éclosion, puis on les fait sécher au soleil jusqu’à ce qu’ils brunissent. L’huile essentielle s’obtient par distillation à la vapeur des clous. Les feuilles et les tiges se distillent aussi et donnent une essence plus brute.",
+   "craft": "Le girofle est la colonne vertébrale de l’œillet : sans eugénol, pas d’accord œillet crédible. Il s’associe volontiers à la cannelle, à la muscade et à la rose, et donne du relief aux bois comme aux résines. Opium d’Yves Saint Laurent le pose dès la tête en 1977, au milieu d’un nuage d’épices. Coco de Chanel, composé par Jacques Polge en 1984, le glisse au cœur d’un oriental plus ambré. Chez Serge Lutens, Féminité du Bois l’enroule autour du cèdre avec une sécheresse qui reste rare.",
+   "wear": "Le girofle se porte d’octobre à février, sous un manteau de laine plutôt qu’en tee-shirt. Deux pulvérisations suffisent : au-delà, Opium comme Boss Bottled deviennent vite envahissants au bureau.",
+   "faq": [
+    {
+     "q": "Que sent le clou de girofle en parfum ?",
+     "a": "Il sent l’épice chaude et sèche, avec un côté médicinal qui rappelle le cabinet du dentiste. Cette facette vient de l’eugénol, sa molécule majeure. Bien dosé, il apporte une rondeur boisée et un peu poudrée. On le reconnaît facilement dans les orientaux épicés des années 1970 et 1980."
+    },
+    {
+     "q": "Quel lien entre le clou de girofle et l’œillet ?",
+     "a": "L’œillet et le girofle partagent l’eugénol. C’est pourquoi les parfumeurs reconstituent l’odeur de l’œillet en partant du girofle, puis en ajoutant de la rose et des notes poivrées. L’essence d’œillet naturelle est rare et chère. Le girofle reste donc la base de presque tous les accords œillet."
+    },
+    {
+     "q": "Quels parfums contiennent du clou de girofle ?",
+     "a": "Opium d’Yves Saint Laurent (1977) l’affiche en tête, Coco de Chanel (1984) au cœur. Côté masculin, Boss Bottled de Hugo Boss (1998) l’associe à la pomme et à la cannelle. Kenzo pour Homme (1991) le place dans un cœur aquatique. Féminité du Bois de Serge Lutens (1992) le marie au cèdre."
+    }
+   ]
+  },
+  "en": {
+   "title": "Clove in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Clove is the hidden engine of carnation and of the great spicy orientals. What it really smells like, where it comes from and the perfumes that use it.",
+   "h1": "What does clove smell like in perfume?",
+   "intro": "Clove is the dried flower bud of a tropical tree. In perfume, its essential oil gives a dry, prickly warmth with an almost medicinal edge. You'll find it in spicy orientals and behind nearly every carnation accord.",
+   "smell": "Sniff clove oil neat and you're back in the dentist's chair. Eugenol, its main molecule, has long been used in dental dressings. Under that clinical first impression sits a round, woody spice with a whisper of smoke and dried fruit. A small dose warms a formula without taking over. Too much and it burns. On skin clove lasts well, settling into a powdery heat that recalls carnation.",
+   "origin": "The clove tree (Syzygium aromaticum) comes from the Moluccas in Indonesia, the original Spice Islands. Portuguese and then Dutch traders fought over the trade for centuries. Today Madagascar, Zanzibar and Indonesia lead production. The buds are picked before they open and sun-dried until brown. The essential oil is steam-distilled from the buds. Leaves and stems are distilled too, giving a rougher oil.",
+   "craft": "Clove is the backbone of carnation. Without eugenol there is no convincing carnation accord. It pairs easily with cinnamon, nutmeg and rose, and gives lift to woods and resins. Yves Saint Laurent Opium (1977) sets it in the top among a cloud of spices. Chanel Coco, composed by Jacques Polge in 1984, tucks it into a warmer amber heart. Serge Lutens Féminité du Bois wraps it around cedar with a dryness that still feels unusual.",
+   "wear": "Wear clove from October to February, over wool rather than a T-shirt. Two sprays are plenty. Beyond that, Opium and Boss Bottled can fill an office fast.",
+   "faq": [
+    {
+     "q": "What does clove smell like in perfume?",
+     "a": "Clove smells of dry, hot spice with a medicinal side that many people link to the dentist. That comes from eugenol, its main component. Used with restraint it adds a woody, slightly powdery roundness. It is easy to spot in the spicy orientals of the 1970s and 1980s."
+    },
+    {
+     "q": "Why is clove linked to carnation?",
+     "a": "Carnation and clove share eugenol. Perfumers therefore rebuild the smell of carnation starting from clove, then add rose and peppery notes. Natural carnation absolute is rare and expensive. So clove sits at the base of almost every carnation accord you will smell."
+    },
+    {
+     "q": "Which perfumes feature clove?",
+     "a": "Yves Saint Laurent Opium (1977) puts it in the top, Chanel Coco (1984) in the heart. For men, Hugo Boss Boss Bottled (1998) pairs it with apple and cinnamon. Kenzo pour Homme (1991) places it in an aquatic heart. Serge Lutens Féminité du Bois (1992) matches it with cedar."
+    }
+   ]
+  }
+ },
+ "Artemisia": {
+  "slug_fr": "armoise",
+  "slug_en": "artemisia",
+  "name_fr": "Armoise",
+  "name_en": "Artemisia",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfum armoise : odeur, origine et fougères",
+   "meta": "L’armoise a donné leur amertume camphrée aux fougères des années 1980. Son odeur, les espèces distillées au Maroc et les parfums qui l’utilisent.",
+   "h1": "L’armoise en parfum : l’amertume verte des fougères",
+   "intro": "L’armoise désigne plusieurs plantes du genre Artemisia, cousines de l’absinthe et de l’estragon. Son huile essentielle apporte une amertume herbacée et camphrée. C’est l’une des clés des fougères masculines de la fin des années 1970 et des années 1980.",
+   "smell": "L’armoise sent la garrigue après la pluie, les feuilles grises qu’on froisse au bord d’un chemin. Son attaque est camphrée et franchement amère, proche de la sauge et du thym. Puis vient une facette plus ronde, un peu fruitée selon l’espèce. Elle n’a rien de doux. Sur la peau, elle s’efface en une heure environ et laisse un sillage sec qui durcit les lavandes et les mousses. C’est une note d’attaque, faite pour mordre.",
+   "origin": "Le genre Artemisia compte plusieurs centaines d’espèces. L’armoise commune (Artemisia vulgaris) pousse dans toute l’Europe, mais la parfumerie emploie surtout l’armoise blanche (Artemisia herba-alba), distillée au Maroc. Son huile essentielle s’obtient par distillation à la vapeur des parties aériennes. La famille est vaste : l’absinthe (Artemisia absinthium) a donné son nom à la liqueur, l’estragon est une armoise, et la davana indienne (Artemisia pallens) en est une autre.",
+   "craft": "Dans une fougère, l’armoise fait le lien entre les agrumes de tête et le duo lavande et mousse de chêne. Elle cohabite bien avec le basilic, la sauge et le cuir. Polo de Ralph Lauren, signé Carlos Benaïm en 1978, l’utilise dans une ouverture très verte. Trois ans plus tard, Kouros de Pierre Bourdon pour Yves Saint Laurent la mêle aux aldéhydes et à un miel animal. Jazz, toujours chez Saint Laurent, reprend la formule en 1988. Déclaration de Cartier, en 1998, l’associe au cumin et à l’orange amère.",
+   "wear": "L’armoise se porte au printemps et en automne, avec une chemise ouverte plutôt qu’un costume serré. Sur peau chaude, Kouros reste puissant : une pulvérisation dans le cou suffit largement.",
+   "faq": [
+    {
+     "q": "Que sent l’armoise en parfum ?",
+     "a": "L’armoise sent l’herbe amère et camphrée, quelque part entre la sauge, le thym et l’absinthe. Son ouverture est vive, presque médicinale, puis elle devient plus sèche. Elle ne sucre jamais une composition. Au contraire, elle lui donne du mordant et une allure un peu rustique."
+    },
+    {
+     "q": "Armoise et absinthe, est-ce la même chose ?",
+     "a": "Pas exactement. Les deux appartiennent au même genre botanique, Artemisia, mais l’absinthe (Artemisia absinthium) est une espèce précise. Ce que les parfumeurs appellent armoise est souvent l’armoise blanche du Maroc, Artemisia herba-alba. Leurs odeurs restent proches : amères et vertes."
+    },
+    {
+     "q": "Quels parfums contiennent de l’armoise ?",
+     "a": "Les grandes fougères masculines d’abord : Polo de Ralph Lauren (1978), puis Kouros (1981) et Jazz (1988) d’Yves Saint Laurent. Déclaration de Cartier (1998) l’associe au cumin dans un boisé épicé. Plus récent, Luna Rossa Ocean de Prada (2021) la place en ouverture d’une fougère plus fraîche."
+    }
+   ]
+  },
+  "en": {
+   "title": "Artemisia in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Artemisia gave 1980s fougères their camphor-sharp bite. What it smells like, which species perfumers distil and the classics that use it.",
+   "h1": "What does artemisia smell like in perfume?",
+   "intro": "Artemisia is a genus of bitter herbs that includes mugwort, wormwood and tarragon. Its essential oil brings a camphor-like herbal bitterness. It is one of the keys to the masculine fougères of the late 1970s and 1980s.",
+   "smell": "Artemisia smells like scrubland after rain, or grey leaves crushed at the side of a path. The opening is camphoraceous and openly bitter, close to sage and thyme. A rounder, faintly fruity side follows, depending on the species. There is nothing sweet about it. On skin it fades within an hour or so, leaving a dry trail that toughens lavender and moss. It is there to bite.",
+   "origin": "The Artemisia genus counts several hundred species. Common mugwort (Artemisia vulgaris) grows across Europe, but perfumery mostly relies on white wormwood (Artemisia herba-alba) distilled in Morocco. The oil is steam-distilled from the aerial parts of the plant. The family is wide. Wormwood (Artemisia absinthium) gave absinthe its name, tarragon belongs to the genus, and so does Indian davana (Artemisia pallens).",
+   "craft": "In a fougère, artemisia bridges the citrus top and the lavender and oakmoss core. It also gets along with basil, sage and leather. Ralph Lauren Polo, composed by Carlos Benaïm in 1978, uses it in a very green opening. Three years later Pierre Bourdon's Kouros for Yves Saint Laurent mixed it with aldehydes and animalic honey. Jazz, also from Saint Laurent, revisited the formula in 1988. Cartier Déclaration (1998) pairs it with cumin and bitter orange.",
+   "wear": "Artemisia suits spring and autumn and works better with an open-collar shirt than a sharp suit. Kouros stays loud on warm skin, so one spray on the neck is enough.",
+   "faq": [
+    {
+     "q": "What does artemisia smell like in perfume?",
+     "a": "Artemisia smells of bitter, camphor-sharp herbs somewhere between sage and wormwood. The opening is lively and almost medicinal, then it turns drier. It never sweetens a perfume. Instead it adds bite and a slightly rugged character."
+    },
+    {
+     "q": "Is artemisia the same as wormwood?",
+     "a": "Not quite. Both belong to the Artemisia genus, but wormwood (Artemisia absinthium) is one specific species. What perfumers list as artemisia is often Moroccan white wormwood, Artemisia herba-alba. The two smell close: bitter and green."
+    },
+    {
+     "q": "Which perfumes contain artemisia?",
+     "a": "The great masculine fougères come first: Ralph Lauren Polo (1978), then Kouros (1981) and Jazz (1988) from Yves Saint Laurent. Cartier Déclaration (1998) pairs it with cumin in a spicy woody scent. More recently, Prada Luna Rossa Ocean (2021) puts it in the opening of a fresher fougère."
+    }
+   ]
+  }
+ },
+ "Lychee": {
+  "slug_fr": "litchi",
+  "slug_en": "lychee",
+  "name_fr": "Litchi",
+  "name_en": "Lychee",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfum litchi : odeur, accord et parfums phares",
+   "meta": "Un fruit qui sent la rose : le litchi éclaire les floraux fruités depuis les années 2000. Son odeur, sa fabrication en accord et ses parfums phares.",
+   "h1": "Le litchi en parfum : un fruit qui sent la rose",
+   "intro": "Le litchi ne donne aucune huile essentielle exploitable. Sa note est donc un accord, recomposé par le parfumeur à partir de molécules de synthèse. Il sent le fruit pelé et rosé, et éclaire surtout les floraux fruités apparus au tournant des années 2000.",
+   "smell": "Pelez un litchi et l’odeur surprend : on attend un fruit, on reçoit une rose mouillée. La chair translucide sent le sirop léger et le raisin muscat, avec un rien de pamplemousse. En parfum, l’accord garde cette ambiguïté entre fruit et fleur. Il pétille dans les premières minutes puis se range derrière la rose ou la pivoine. Mal dosé, il vire au bonbon. Bien dosé, il donne un éclat humide que la pêche ou la framboise n’ont pas.",
+   "origin": "Le litchi (Litchi chinensis) est originaire du sud de la Chine, où on le cultive depuis plus de deux mille ans. Une anecdote de la dynastie Tang raconte que l’empereur faisait livrer des litchis frais à sa favorite Yang Guifei par relais de cavaliers. La pulpe ne se distille pas : le parfumeur reconstitue son odeur. Les chimistes y ont identifié l’oxyde de rose, une molécule qu’on retrouve aussi dans la rose et dans le gewurztraminer.",
+   "craft": "L’accord litchi se construit autour de notes rosées et fruitées, souvent appuyées par un peu de pamplemousse. Il se marie à la rose, à la pivoine, au poivre rose et aux muscs blancs. Coco Mademoiselle de Chanel, en 2001, le cache au cœur près de la rose. The One de Dolce & Gabbana le place en tête avec la mandarine. Delina de Parfums de Marly en fait l’un des moteurs de sa rose fruitée, et Fleur Narcotique d’Ex Nihilo l’utilise pour aérer un bouquet de fleurs blanches.",
+   "wear": "Le litchi se porte au printemps et par journées tièdes, plutôt de jour. Sur une peau sèche, Delina tient mieux vaporisé sur un pull que directement sur le poignet.",
+   "faq": [
+    {
+     "q": "Quelle odeur a le litchi en parfum ?",
+     "a": "Le litchi sent le fruit juteux avec une forte facette de rose. On y perçoit aussi un côté raisin muscat et un léger acidulé. En parfum, il donne de la fraîcheur à un bouquet floral sans l’alourdir de sucre, à condition d’être dosé avec retenue."
+    },
+    {
+     "q": "Le litchi en parfum est-il naturel ?",
+     "a": "Non. On ne sait pas extraire d’huile essentielle exploitable de la pulpe du litchi. Les parfumeurs recréent sa note avec des molécules de synthèse et des matières rosées. L’oxyde de rose, présent dans le fruit, explique d’ailleurs sa parenté avec la rose."
+    },
+    {
+     "q": "Quels parfums contiennent du litchi ?",
+     "a": "Coco Mademoiselle de Chanel (2001) et The One de Dolce & Gabbana (2006) en sont deux exemples connus, comme Miracle de Lancôme (2000). Chloé Eau de Parfum (2008) l’associe à la pivoine et à la rose. Côté niche, Delina de Parfums de Marly et Fleur Narcotique d’Ex Nihilo le placent en tête."
+    }
+   ]
+  },
+  "en": {
+   "title": "Lychee in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "A fruit that smells of rose, lychee has brightened fruity florals since the early 2000s. What it smells like, how perfumers build it and where to find it.",
+   "h1": "What does lychee smell like in perfume?",
+   "intro": "Lychee yields no usable essential oil, so the note in your perfume is an accord rebuilt from synthetic molecules. It smells of peeled fruit with a rosy twist. It mostly lights up the fruity florals that appeared around the turn of the millennium.",
+   "smell": "Peel a lychee and the smell is a surprise. You expect fruit and get wet rose. The translucent flesh smells of light syrup and muscat grape, with a touch of grapefruit. In perfume the accord keeps that fruit-or-flower ambiguity. It sparkles for the first minutes, then steps behind rose or peony. Overdosed it turns to candy. Handled well, it adds a dewy brightness that peach and raspberry can't.",
+   "origin": "The lychee (Litchi chinensis) is native to southern China, where it has been grown for more than two thousand years. A Tang dynasty story has the emperor sending fresh lychees to his consort Yang Guifei by relays of horsemen. The flesh can't be distilled, so perfumers rebuild its scent. Chemists have found rose oxide in the fruit, the same molecule that occurs in rose and in Gewürztraminer wine.",
+   "craft": "A lychee accord is built from rosy and fruity notes, often sharpened with a little grapefruit. It pairs with rose, peony, pink pepper and white musks. Chanel Coco Mademoiselle (2001) hides it in the heart next to rose. Dolce & Gabbana The One sets it up top with mandarin. Parfums de Marly Delina uses it as one of the engines of its fruity rose, and Ex Nihilo Fleur Narcotique uses it to air out white flowers.",
+   "wear": "Lychee belongs to spring and mild days, ideally worn in daytime. On dry skin Delina lasts longer sprayed on a sweater than on the wrist.",
+   "faq": [
+    {
+     "q": "What does lychee smell like in perfume?",
+     "a": "Lychee smells of juicy fruit with a strong rose facet. There is also a muscat-grape side and a light tartness. In perfume it freshens a floral bouquet without loading it with sugar, provided the dose stays modest."
+    },
+    {
+     "q": "Is lychee in perfume natural?",
+     "a": "No. There is no usable essential oil from lychee flesh. Perfumers recreate the note with synthetic molecules and rosy materials. Rose oxide, which occurs in the fruit itself, explains why lychee smells so close to rose."
+    },
+    {
+     "q": "Which perfumes contain lychee?",
+     "a": "Chanel Coco Mademoiselle (2001) and Dolce & Gabbana The One (2006) are well-known examples, as is Lancôme Miracle (2000). Chloé Eau de Parfum (2008) pairs it with peony and rose. On the niche side, Parfums de Marly Delina and Ex Nihilo Fleur Narcotique put it in the top."
+    }
+   ]
+  }
+ },
+ "Hyacinth": {
+  "slug_fr": "jacinthe",
+  "slug_en": "hyacinth",
+  "name_fr": "Jacinthe",
+  "name_en": "Hyacinth",
+  "category": "floral",
+  "source": "accord",
+  "fr": {
+   "title": "Parfum jacinthe : odeur, histoire et parfums phares",
+   "meta": "La jacinthe sent la tige coupée et la terre humide d’avril. Son odeur, son histoire et les parfums de Chanel ou Cacharel qui l’emploient.",
+   "h1": "La jacinthe en parfum : le vert humide du printemps",
+   "intro": "La jacinthe est une fleur à bulbe dont le parfum, très puissant au jardin, se laisse mal capturer. En parfumerie, sa note est presque toujours un accord. Elle sent la tige cassée et la terre mouillée, avec un floral frais légèrement poivré.",
+   "smell": "Une jacinthe en pot suffit à remplir une pièce. Son odeur mêle une verdeur aqueuse de tige cassée et un cœur floral plus capiteux, presque narcotique quand la fleur a bien ouvert. Un fond terreux rappelle le bulbe. En parfum, la jacinthe donne une sensation d’humidité fraîche, comme un matin d’avril. Elle tient peu seule et sert surtout à aérer le cœur d’un floral.",
+   "origin": "La jacinthe (Hyacinthus orientalis) vient de l’est de la Méditerranée et du Proche-Orient. Les Ottomans la cultivaient dans leurs jardins avant qu’elle ne gagne l’Europe. Au XVIIIe siècle, les horticulteurs hollandais en créent des centaines de variétés. Son nom renvoie au mythe grec d’Hyacinthe, le jeune homme tué par le disque d’Apollon. Un absolu de jacinthe a existé, obtenu par extraction aux solvants, mais sa production est restée confidentielle. Les parfumeurs recomposent donc la fleur, notamment avec l’aldéhyde phénylacétique et une touche de galbanum.",
+   "craft": "Dans un parfum, la jacinthe apporte un vert frais qui allège les fleurs blanches et la rose. On l’associe au galbanum, au muguet, à l’iris et aux notes d’agrumes. Chance de Chanel, composé par Jacques Polge en 2002, la place au cœur avec le jasmin et l’iris. Les déclinaisons Chance Eau Fraîche et Chance Eau Tendre reprennent cette jacinthe en plus léger. Bien avant, Anaïs Anaïs de Cacharel l’utilisait en ouverture dès 1978, dans un bouquet blanc et poudré.",
+   "wear": "La jacinthe se porte au printemps, de mars à mai, pour une allure nette. Les Chance se vaporisent volontiers sur les cheveux ou une écharpe, où le cœur vert dure plus longtemps.",
+   "faq": [
+    {
+     "q": "Que sent la jacinthe en parfum ?",
+     "a": "La jacinthe sent le vert humide : tige cassée, feuilles froissées, terre de printemps. Derrière, un floral plus dense et presque entêtant rappelle la fleur coupée oubliée dans un vase. En parfum, elle donne surtout une fraîcheur aqueuse aux bouquets floraux."
+    },
+    {
+     "q": "Existe-t-il une essence naturelle de jacinthe ?",
+     "a": "Un absolu de jacinthe a été produit, mais en quantités si faibles qu’il est resté une rareté. La fleur rend très peu de matière. Aujourd’hui, les parfumeurs reconstituent sa note avec des molécules comme l’aldéhyde phénylacétique, complétées par du galbanum pour l’effet de tige."
+    },
+    {
+     "q": "Quels parfums contiennent de la jacinthe ?",
+     "a": "Chance de Chanel (2002) et ses déclinaisons Eau Fraîche (2007) et Eau Tendre (2010) la placent au cœur. Anaïs Anaïs de Cacharel, lancé en 1978, l’utilise en ouverture. On y lit deux usages : un vert pétillant chez Chanel, un vert tendre et poudré chez Cacharel."
+    }
+   ]
+  },
+  "en": {
+   "title": "Hyacinth in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Hyacinth smells of snapped stems and damp April soil. What it smells like, its history and the Chanel and Cacharel perfumes built around it.",
+   "h1": "What does hyacinth smell like in perfume?",
+   "intro": "Hyacinth is a bulb flower with a huge scent in the garden and very little to give in the lab. In perfume its note is almost always an accord. It smells of snapped stems and wet soil, over a cool floral heart with a peppery edge.",
+   "smell": "One potted hyacinth can fill a room. Its scent mixes a watery green, like a stem snapped in half, with a heavier floral heart that turns almost narcotic once the bloom is fully open. An earthy undertone recalls the bulb. In perfume, hyacinth feels cool and damp, like an April morning. It doesn't last long on its own and mostly serves to air out a floral heart.",
+   "origin": "Hyacinth (Hyacinthus orientalis) comes from the eastern Mediterranean and the Near East. The Ottomans grew it in their gardens before it reached Europe. By the eighteenth century Dutch growers had bred hundreds of varieties. The name comes from the Greek myth of Hyacinthus, the youth killed by Apollo's discus. A solvent-extracted absolute did exist, but production stayed tiny. Perfumers rebuild the flower instead, notably with phenylacetaldehyde and a touch of galbanum.",
+   "craft": "In a formula, hyacinth brings a cool green that lightens white flowers and rose. It pairs with galbanum, lily of the valley, iris and citrus. Chanel Chance, composed by Jacques Polge in 2002, sets it in the heart with jasmine and iris. The Chance Eau Fraîche and Chance Eau Tendre flankers keep that hyacinth in a lighter register. Long before them, Cacharel Anaïs Anaïs opened with it in 1978, inside a white powdery bouquet.",
+   "wear": "Hyacinth belongs to spring, March to May, for a clean look. Try the Chance scents on hair or a scarf, where the green heart holds longer.",
+   "faq": [
+    {
+     "q": "What does hyacinth smell like in perfume?",
+     "a": "Hyacinth smells of damp green: snapped stems, crushed leaves and spring soil. Behind that sits a denser, almost heady floral, like a cut flower forgotten in a vase. In perfume it mostly adds a watery freshness to floral bouquets."
+    },
+    {
+     "q": "Is there a natural hyacinth oil?",
+     "a": "A hyacinth absolute has been produced, but in such small amounts that it stayed a rarity. The flower yields very little material. Today perfumers rebuild the note with molecules such as phenylacetaldehyde, plus a little galbanum for the stem effect."
+    },
+    {
+     "q": "Which perfumes contain hyacinth?",
+     "a": "Chanel Chance (2002) and its flankers Eau Fraîche (2007) and Eau Tendre (2010) place it in the heart. Cacharel Anaïs Anaïs, launched in 1978, uses it in the opening. Together they show two styles. Chanel goes for a sparkling green, Cacharel for a soft and powdery one."
+    }
+   ]
+  }
+ },
+ "Apricot": {
+  "slug_fr": "abricot",
+  "slug_en": "apricot",
+  "name_fr": "Abricot",
+  "name_en": "Apricot",
+  "category": "fruity",
+  "source": "accord",
+  "fr": {
+   "title": "Parfum abricot : odeur, accord et parfums phares",
+   "meta": "Plus dense que la pêche, l’abricot arrondit les floraux et les orientaux. Son odeur, la façon dont les parfumeurs le recréent et les parfums qui l’emploient.",
+   "h1": "L’abricot en parfum : un fruit velouté recréé par la chimie",
+   "intro": "L’abricot ne se distille pas. Sa note en parfum est un accord, bâti sur des lactones qui rappellent la peau veloutée du fruit mûr. Plus dense que la pêche, il apporte une gourmandise solaire aux floraux comme aux orientaux.",
+   "smell": "L’abricot de parfumerie sent le fruit gorgé de soleil, cueilli un jour trop tard. On y trouve une chair fondante et une rondeur crémeuse qui frôle la confiture, relevées d’un acidulé près du noyau. Comparé à la pêche, il est plus épais et plus orangé. Sur la peau, il se mêle vite aux fleurs blanches et aux muscs. Il peut aussi tirer vers le cuir doux, comme dans l’osmanthus, une fleur dont l’odeur rappelle naturellement l’abricot.",
+   "origin": "L’abricotier (Prunus armeniaca) doit son nom latin à l’Arménie, d’où les Romains croyaient qu’il venait. Il est en réalité originaire d’Asie centrale et de Chine. Le fruit ne fournit pas d’huile essentielle. Quant à l’huile de noyau, grasse et presque inodore, elle sert de base en cosmétique. Le parfumeur recompose donc l’abricot avec des gamma-lactones comme la gamma-décalactone. L’undécalactone, surnommée aldéhyde C-14, sert aussi bien à l’abricot qu’à la pêche.",
+   "craft": "Le parfumeur place l’abricot en tête pour une ouverture juteuse, ou au cœur pour arrondir les fleurs. Il s’accorde à l’osmanthus, à la fleur d’oranger, au jasmin et à la vanille. Giorgio Beverly Hills l’intègre en 1981 à une ouverture fruitée très chargée qui précède un bouquet de tubéreuse. Hypnotic Poison de Dior, signé Annick Menardo en 1998, l’utilise en tête avant l’amande et la vanille. Plus léger, Miss Dior Blooming Bouquet le glisse en tête avant la pivoine et la rose.",
+   "wear": "L’abricot se porte de la fin du printemps à l’automne, en journée surtout. Amor Amor de Cacharel reste plus juvénile qu’Hypnotic Poison, qu’on réserve aux soirées d’hiver.",
+   "faq": [
+    {
+     "q": "Que sent l’abricot en parfum ?",
+     "a": "L’abricot sent le fruit mûr et velouté, avec une rondeur crémeuse proche de la confiture. Il est plus dense et moins aqueux que la pêche. En parfum, il apporte une douceur solaire qui adoucit les fleurs blanches et réchauffe les accords vanillés."
+    },
+    {
+     "q": "L’abricot en parfum est-il naturel ?",
+     "a": "Non, il s’agit d’un accord. Le fruit ne donne pas d’huile essentielle et l’huile de noyau n’a presque pas d’odeur. Les parfumeurs utilisent des lactones de synthèse pour recréer sa chair. L’osmanthus, une matière naturelle tirée d’une fleur, possède en revanche une facette d’abricot très nette."
+    },
+    {
+     "q": "Quels parfums contiennent de l’abricot ?",
+     "a": "Hypnotic Poison de Dior (1998) l’ouvre avant un fond d’amande et de vanille. Giorgio Beverly Hills (1981) l’inclut dans son ouverture fruitée. Amor Amor de Cacharel (2003) le place au cœur, et Miss Dior Blooming Bouquet (2014) en tête."
+    }
+   ]
+  },
+  "en": {
+   "title": "Apricot in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Denser than peach and a little jammy, apricot rounds out florals and orientals. What it smells like, how perfumers recreate it and who uses it.",
+   "h1": "What does apricot smell like in perfume?",
+   "intro": "Apricot can't be distilled. In perfume it is an accord built on lactones that mimic the velvet skin of ripe fruit. Denser than peach, it adds a sunny, edible warmth to florals and orientals alike.",
+   "smell": "Perfumery apricot smells of fruit left on the tree a day too long. Think melting flesh and a creamy roundness that edges toward jam, cut by a tart note near the stone. Next to peach it feels thicker and more orange. On skin it blends quickly with white flowers and musks. It can also lean toward soft leather, as in osmanthus, a flower that smells naturally of apricot.",
+   "origin": "The apricot tree (Prunus armeniaca) owes its Latin name to Armenia, where the Romans thought it came from. It actually originates in Central Asia and China. The fruit gives no essential oil. Apricot kernel oil is fatty and almost odourless, used as a cosmetic base. So perfumers rebuild the fruit with gamma-lactones such as gamma-decalactone. Gamma-undecalactone, nicknamed aldehyde C-14, serves both apricot and peach.",
+   "craft": "Perfumers place apricot in the top for a juicy opening, or in the heart to round out flowers. It pairs with osmanthus, orange blossom, jasmine and vanilla. Giorgio Beverly Hills (1981) folds it into a loud fruity opening ahead of a tuberose bouquet. Dior Hypnotic Poison, composed by Annick Menardo in 1998, opens on it before almond and vanilla. Lighter, Miss Dior Blooming Bouquet sets it in the top ahead of peony and rose.",
+   "wear": "Apricot works from late spring into autumn, mostly by day. Cacharel Amor Amor feels younger than Hypnotic Poison, which we keep for winter evenings.",
+   "faq": [
+    {
+     "q": "What does apricot smell like in perfume?",
+     "a": "Apricot smells of ripe, velvety fruit with a creamy, jam-like roundness. It is denser and less watery than peach. In perfume it adds a sunny sweetness that softens white flowers and warms vanilla accords."
+    },
+    {
+     "q": "Is apricot in perfume natural?",
+     "a": "No, it is an accord. The fruit yields no essential oil and the kernel oil has almost no scent. Perfumers use synthetic lactones to recreate the flesh. Osmanthus, a natural flower material, does carry a clear apricot facet."
+    },
+    {
+     "q": "Which perfumes contain apricot?",
+     "a": "Dior Hypnotic Poison (1998) opens with it before an almond and vanilla base. Giorgio Beverly Hills (1981) includes it in its fruity top. Cacharel Amor Amor (2003) puts it in the heart, and Miss Dior Blooming Bouquet (2014) in the top."
+    }
+   ]
+  }
+ },
+ "Bay Leaf": {
+  "slug_fr": "laurier",
+  "slug_en": "bay-leaf",
+  "name_fr": "Feuille de laurier",
+  "name_en": "Bay Leaf",
+  "category": "aromatic",
+  "source": "natural",
+  "fr": {
+   "title": "Parfum laurier : odeur, origine et parfums phares",
+   "meta": "De la cuisine aux couronnes antiques, la feuille de laurier apporte une fraîcheur aromatique aux boisés et aux ambrés. Son odeur et ses parfums.",
+   "h1": "La feuille de laurier en parfum : l’aromatique de la victoire",
+   "intro": "La feuille de laurier vient du laurier noble, l’arbuste de la cuisine et des couronnes antiques. Son huile essentielle apporte une fraîcheur aromatique proche de l’eucalyptus, adoucie par une touche épicée. On la trouve surtout dans les boisés et les ambrés masculins.",
+   "smell": "Froissez une feuille de laurier et vous sentez d’abord une fraîcheur camphrée, presque mentholée. Puis arrive une note plus chaude, entre clou de girofle et muscade. L’ensemble reste sec et net, sans la sucrosité des épices de pâtisserie. En parfum, le laurier dure peu en tête mais laisse une trace aromatique qui s’accroche aux bois et à l’ambre. Il rappelle un bouquet garni plus qu’une boulangerie.",
+   "origin": "Le laurier noble (Laurus nobilis) pousse spontanément autour de la Méditerranée. Dans l’Antiquité grecque, il était consacré à Apollon, et l’on couronnait de laurier les vainqueurs des jeux Pythiques. Son huile essentielle s’obtient par distillation à la vapeur des feuilles. Elle contient surtout du cinéole (ou eucalyptol), à l’origine de son côté frais. On y trouve aussi du linalol et un peu d’eugénol. À ne pas confondre avec le bay des Antilles (Pimenta racemosa), plus riche en eugénol, qui a donné le bay rum des barbiers.",
+   "craft": "Le laurier se place en tête ou au cœur, là où il fait le lien entre les agrumes et les bois. Il s’entend avec le genièvre, la lavande, le poivre et le labdanum. Invictus de Paco Rabanne, en 2013, le loge au cœur d’un boisé marin dont le nom latin et le flacon en forme de trophée parlent de victoire. Dans Ambre Sultan, Serge Lutens et Christopher Sheldrake l’utilisent en 1993 pour rafraîchir un ambre très résineux. Le Labo l’associe au thé noir et à la bergamote dans Thé Noir 29.",
+   "wear": "Le laurier se porte toute l’année, avec un net avantage à l’automne. Ambre Sultan est dense : une pulvérisation suffit. Invictus Legend se porte plus généreusement, en plein air.",
+   "faq": [
+    {
+     "q": "Que sent la feuille de laurier en parfum ?",
+     "a": "Le laurier sent la feuille aromatique froissée : un départ frais proche de l’eucalyptus, puis une chaleur discrète entre girofle et muscade. C’est une odeur sèche, plus culinaire que florale. En parfum, il donne du nerf aux bois et aux ambres."
+    },
+    {
+     "q": "Laurier noble et bay rum, quelle différence ?",
+     "a": "Le laurier noble (Laurus nobilis) est l’arbuste méditerranéen dont on cuisine les feuilles. Le bay rum vient d’un autre arbre, Pimenta racemosa, cultivé aux Antilles. Son huile, plus riche en eugénol, sent davantage le clou de girofle. Elle a donné son nom aux lotions bay rum des barbiers."
+    },
+    {
+     "q": "Quels parfums contiennent du laurier ?",
+     "a": "Invictus de Paco Rabanne (2013) le place au cœur, Invictus Legend (2019) en tête. Ambre Sultan de Serge Lutens (1993) et Thé Noir 29 de Le Labo (2015) l’utilisent en ouverture. Ispazon de Parfums de Marly l’associe à des notes boisées et ambrées."
+    }
+   ]
+  },
+  "en": {
+   "title": "Bay Leaf in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "From the stock pot to ancient victory wreaths, bay leaf brings herbal freshness to woody and amber scents. What it smells like and who uses it.",
+   "h1": "What does bay leaf smell like in perfume?",
+   "intro": "Bay leaf comes from the bay laurel, the shrub behind both stock pots and ancient victory wreaths. Its essential oil brings a eucalyptus-like herbal freshness softened by a little spice. It turns up mostly in woody and amber scents for men.",
+   "smell": "Crush a bay leaf and the first thing you notice is a camphor-cool freshness, almost minty. A warmer note follows, somewhere between clove and nutmeg. It stays dry and clean, without the sweetness of baking spices. In perfume, bay doesn't last long in the top, but it leaves an herbal trace that clings to woods and amber. Think bouquet garni, not bakery.",
+   "origin": "Bay laurel (Laurus nobilis) grows wild around the Mediterranean. The ancient Greeks dedicated it to Apollo and crowned winners of the Pythian Games with it. The essential oil is steam-distilled from the leaves. Its main component is cineole, also called eucalyptol, which explains the fresh side. Linalool and a little eugenol complete it. Don't confuse it with West Indian bay (Pimenta racemosa), richer in eugenol, which gave barbershop bay rum its name.",
+   "craft": "Bay sits in the top or heart, where it bridges citrus and woods. It works with juniper, lavender, pepper and labdanum. Paco Rabanne Invictus (2013) puts it in the heart of a marine woody scent whose Latin name and trophy bottle are all about winning. In Ambre Sultan (1993), Serge Lutens and Christopher Sheldrake use it to cool a dense resinous amber. Le Labo pairs it with black tea and bergamot in Thé Noir 29.",
+   "wear": "Bay works year-round, with autumn its best season. Ambre Sultan is dense, so one spray will do. Invictus Legend can take a more generous hand outdoors.",
+   "faq": [
+    {
+     "q": "What does bay leaf smell like in perfume?",
+     "a": "Bay smells of a crushed herb leaf. It opens cool and close to eucalyptus, then shows a quiet warmth between clove and nutmeg. The overall effect is dry and more culinary than floral. In perfume it gives backbone to woods and ambers."
+    },
+    {
+     "q": "What is the difference between bay laurel and bay rum?",
+     "a": "Bay laurel (Laurus nobilis) is the Mediterranean shrub whose leaves go into cooking. Bay rum comes from another tree, Pimenta racemosa, grown in the Caribbean. Its oil is richer in eugenol and smells more of clove. It gave its name to the classic barbershop lotion."
+    },
+    {
+     "q": "Which perfumes contain bay leaf?",
+     "a": "Paco Rabanne Invictus (2013) puts it in the heart, Invictus Legend (2019) in the top. Serge Lutens Ambre Sultan (1993) and Le Labo Thé Noir 29 (2015) open with it. Parfums de Marly Ispazon pairs it with woody and amber notes."
+    }
+   ]
+  }
+ },
+ "Sea Salt": {
+  "slug_fr": "sel-marin",
+  "slug_en": "sea-salt",
+  "name_fr": "Sel marin",
+  "name_en": "Sea Salt",
+  "category": "synthetic",
+  "source": "accord",
+  "fr": {
+   "title": "Parfum sel marin : odeur, accord et parfums phares",
+   "meta": "Le sel n’a pas d’odeur, et pourtant les parfums en sentent. Comment les parfumeurs recréent l’effet peau après la baignade, et les parfums qui l’emploient.",
+   "h1": "Le sel marin en parfum : la peau après la plage",
+   "intro": "Le sel n’a pas d’odeur. Le sel marin des parfumeurs est donc une illusion : un accord qui évoque les embruns et la peau qui a séché au soleil après la baignade. Il apporte une fraîcheur minérale aux boisés comme aux floraux.",
+   "smell": "L’accord sel marin sent l’air du bord de mer plus que l’eau elle-même. On y perçoit une facette iodée et un côté minéral de galet chaud, avec une salinité presque gustative. Selon les matières employées, il tire vers l’algue, vers l’ambre gris ou vers le melon frais. Sur la peau, il crée un effet de seconde peau discret qui tient étonnamment bien. Seul, il manquerait de corps : il a besoin de bois ou de sauge pour tenir.",
+   "origin": "Le sel ne se distille pas et ne s’extrait pas : ses cristaux sont inodores. L’odeur de la mer vient surtout des algues, du plancton et de composés soufrés libérés à la surface de l’eau. Pour la recréer, les parfumeurs combinent des molécules de synthèse. La Calone, synthétisée par Pfizer en 1966, apporte la note aqueuse et melon. L’ambroxan donne un côté minéral et salé. Des absolus d’algues ou des notes ozoniques complètent parfois l’ensemble.",
+   "craft": "L’accord sel marin se marie bien à la sauge, au vétiver, au pamplemousse et aux bois ambrés. Il sert à rendre un parfum lumineux sans le sucrer. Wood Sage & Sea Salt de Jo Malone, créé par Christine Nagel en 2014, en a fait son sujet principal en l’adossant à la sauge et à l’ambrette. Millésime Impérial de Creed l’utilisait dès 1995 dans un hespéridé iodé. Plus récent, Gaultier Divine le pose sur une crème florale gourmande, contraste salé-sucré très actuel.",
+   "wear": "Le sel marin se porte d’avril à septembre, en journée, en vacances comme au bureau. Wood Sage & Sea Salt tient peu : comptez une nouvelle pulvérisation en début d’après-midi.",
+   "faq": [
+    {
+     "q": "Que sent le sel marin en parfum ?",
+     "a": "Il sent l’air marin et la peau qui a séché au soleil après la baignade. L’accord mêle une facette iodée et un côté minéral sur une légère chaleur ambrée. Il donne une fraîcheur lumineuse, moins aqueuse que celle des parfums marins des années 1990."
+    },
+    {
+     "q": "Le sel marin est-il une matière naturelle ?",
+     "a": "Non. Le sel est inodore, il n’y a donc rien à extraire. La note sel marin est un accord construit avec des molécules comme la Calone ou l’ambroxan, parfois complétées par des absolus d’algues. C’est le parfumeur qui recompose l’impression de bord de mer."
+    },
+    {
+     "q": "Quels parfums contiennent du sel marin ?",
+     "a": "Wood Sage & Sea Salt de Jo Malone (2014) est la référence. Millésime Impérial de Creed (1995) l’associe aux agrumes, Invictus Legend de Paco Rabanne (2019) à un boisé marin. Gaultier Divine (2023) le pose sur un floral gourmand pour un effet salé-sucré."
+    }
+   ]
+  },
+  "en": {
+   "title": "Sea Salt in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Salt has no smell, yet plenty of perfumes smell of it. How perfumers build the skin-after-a-swim accord, and the fragrances that wear it best.",
+   "h1": "What does sea salt smell like in perfume?",
+   "intro": "Salt has no smell. The sea salt in your perfume is an illusion, an accord built to suggest sea spray and sun-dried skin after a swim. It brings a mineral freshness to woody and floral scents alike.",
+   "smell": "A sea salt accord smells of seaside air more than of water itself. There is a briny facet and the mineral feel of a warm pebble, with a saltiness you can almost taste. Depending on the materials, it leans toward seaweed, ambergris or cool melon. On skin it creates a quiet second-skin effect that lasts better than you'd expect. On its own it lacks body. It needs wood or sage to hold.",
+   "origin": "Salt can't be distilled or extracted, and its crystals are odourless. The smell of the sea comes mostly from algae, plankton and sulphur compounds released at the water's surface. To recreate it, perfumers combine synthetic molecules. Calone, synthesised by Pfizer in 1966, supplies the watery melon note. Ambroxan adds a mineral, salty side. Seaweed absolutes or ozonic notes sometimes complete the picture.",
+   "craft": "A sea salt accord pairs well with sage, vetiver, grapefruit and ambery woods. Its job is to make a perfume bright without sweetening it. Christine Nagel made it the main subject of Jo Malone Wood Sage & Sea Salt in 2014, backed by sage and ambrette. Creed Millésime Impérial used it as early as 1995 in a briny citrus. More recently, Gaultier Divine sets it against a creamy gourmand floral for a very current sweet-salty contrast.",
+   "wear": "Sea salt is for April to September, by day, on holiday or at the office. Wood Sage & Sea Salt fades fast, so plan on another spray in the early afternoon.",
+   "faq": [
+    {
+     "q": "What does sea salt smell like in perfume?",
+     "a": "It smells of sea air and skin that has dried in the sun after a swim. The accord blends a briny facet and a mineral side over a light ambery warmth. It feels bright, and less watery than the marine scents of the 1990s."
+    },
+    {
+     "q": "Is sea salt a natural perfume ingredient?",
+     "a": "No. Salt is odourless, so there is nothing to extract. The sea salt note is an accord built with molecules such as Calone or Ambroxan, sometimes with seaweed absolutes. The perfumer rebuilds the impression of the seaside from scratch."
+    },
+    {
+     "q": "Which perfumes feature sea salt?",
+     "a": "Jo Malone Wood Sage & Sea Salt (2014) is the reference. Creed Millésime Impérial (1995) pairs it with citrus, Paco Rabanne Invictus Legend (2019) with a marine woody base. Gaultier Divine (2023) sets it on a gourmand floral for a sweet-salty effect."
+    }
+   ]
+  }
+ },
+ "Cocoa": {
+  "slug_fr": "cacao",
+  "slug_en": "cocoa",
+  "name_fr": "Cacao",
+  "name_en": "Cocoa",
+  "category": "gourmand",
+  "source": "both",
+  "fr": {
+   "title": "Parfum cacao : odeur, origine et parfums phares",
+   "meta": "Plus proche de la poudre amère que de la tablette au lait, le cacao donne aux parfums une gourmandise sèche. Son odeur, son origine et ses parfums phares.",
+   "h1": "Le cacao en parfum : une gourmandise amère et poudrée",
+   "intro": "Le cacao en parfumerie évoque la poudre de cacao pur plutôt que la tablette de chocolat au lait. Il apporte une note torréfiée et légèrement amère sur un fond poudré. On le trouve dans les gourmands, mais aussi dans des boisés masculins plus secs.",
+   "smell": "Ouvrez une boîte de cacao non sucré : c’est l’odeur visée. Une poussière sombre et amère, avec un rien de café et de fruit sec. L’absolu de cacao ajoute une rondeur grillée, presque fumée. En parfum, le cacao assèche le sucre de la vanille et donne de la profondeur à l’iris ou au patchouli. Il dure bien sur la peau et laisse une trace poudrée qui rappelle le fond d’une tasse de chocolat chaud.",
+   "origin": "Le cacaoyer (Theobroma cacao) est originaire du bassin amazonien et fut domestiqué en Mésoamérique, où les Olmèques puis les Mayas buvaient le cacao. Linné lui a donné le nom de Theobroma, « nourriture des dieux ». Les fèves sont fermentées, séchées puis torréfiées, et c’est la torréfaction qui fait naître l’arôme. On en tire un absolu par extraction aux solvants, ou un extrait au CO2. Les parfumeurs complètent souvent ces matières par des molécules de synthèse.",
+   "craft": "Le cacao se marie surtout à l’iris et au patchouli, mais aussi à la vanille et à la fève tonka. Dior Homme, composé par Olivier Polge en 2005, l’associe à l’iris dans un accord poudré devenu une référence masculine. Good Girl de Carolina Herrera le pose en fond sous la tubéreuse et le jasmin. Explorer de Montblanc l’utilise plus discrètement pour arrondir un boisé. Eilish, le parfum de Billie Eilish, le place au cœur d’un oriental gourmand.",
+   "wear": "Le cacao se porte de novembre à mars, plutôt le soir. Dior Homme reste assez sage pour le bureau. Plus sucré, Good Girl demande de la retenue : deux pulvérisations au maximum.",
+   "faq": [
+    {
+     "q": "Que sent le cacao en parfum ?",
+     "a": "Le cacao sent la poudre de cacao pur : amère et torréfiée, à peine terreuse. Il est moins sucré et moins lacté que le chocolat. En parfum, il apporte une gourmandise sèche et poudrée qui se marie très bien avec l’iris et le patchouli."
+    },
+    {
+     "q": "Le cacao en parfum est-il naturel ?",
+     "a": "Les deux existent. L’absolu de cacao, tiré des fèves torréfiées par extraction aux solvants, est une matière naturelle. Les parfumeurs le complètent ou le remplacent souvent par des molécules de synthèse, plus stables et moins colorées. Beaucoup de notes cacao sont donc des accords mixtes."
+    },
+    {
+     "q": "Quels parfums contiennent du cacao ?",
+     "a": "Dior Homme (2005) l’associe à l’iris dans un masculin poudré. Good Girl de Carolina Herrera (2016) le place en fond, comme Explorer de Montblanc (2019). Eilish (2021) le met au cœur. Bad Boy de Carolina Herrera et Tobacco Vanille de Tom Ford utilisent aussi le cacao."
+    }
+   ]
+  },
+  "en": {
+   "title": "Cocoa in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Think bitter cocoa powder, not a milk chocolate bar. How cocoa gives perfume a dry gourmand edge, where the material comes from and who uses it.",
+   "h1": "What does cocoa smell like in perfume?",
+   "intro": "In perfume, cocoa means pure cocoa powder rather than a bar of milk chocolate. It brings a roasted, slightly bitter note over a powdery base. You'll find it in gourmands, but also in drier woody scents for men.",
+   "smell": "Open a tin of unsweetened cocoa: that is the target. Dark, bitter dust with a hint of coffee and dried fruit. Cocoa absolute adds a toasted roundness, almost smoky. In a perfume, cocoa dries out the sugar of vanilla and gives depth to iris or patchouli. It lasts well on skin and leaves a powdery trace, like the bottom of a mug of hot chocolate.",
+   "origin": "The cacao tree (Theobroma cacao) comes from the Amazon basin and was domesticated in Mesoamerica, where the Olmecs and then the Maya drank cacao. Linnaeus named it Theobroma, food of the gods. The beans are fermented, dried and roasted, and roasting is what creates the aroma. Perfumers use a solvent-extracted absolute or a CO2 extract. Synthetic molecules often round out these materials.",
+   "craft": "Cocoa pairs best with iris and patchouli, and also with vanilla and tonka bean. Dior Homme, composed by Olivier Polge in 2005, matched it with iris in a powdery accord that became a benchmark for men. Carolina Herrera Good Girl sets it in the base under tuberose and jasmine. Montblanc Explorer uses it more quietly to round a woody structure. Billie Eilish's Eilish puts it at the heart of a gourmand oriental.",
+   "wear": "Cocoa is a November to March note, best in the evening. Dior Homme stays polite enough for the office. Good Girl is sweeter and calls for restraint: two sprays at most.",
+   "faq": [
+    {
+     "q": "What does cocoa smell like in perfume?",
+     "a": "Cocoa smells like pure cocoa powder: bitter and roasted, faintly earthy. It is less sweet and less milky than chocolate. In perfume it brings a dry, powdery gourmand quality that works beautifully with iris and patchouli."
+    },
+    {
+     "q": "Is cocoa in perfume natural?",
+     "a": "Both versions exist. Cocoa absolute, solvent-extracted from roasted beans, is a natural material. Perfumers often support or replace it with synthetic molecules, which are more stable and lighter in colour. Many cocoa notes are therefore mixed accords."
+    },
+    {
+     "q": "Which perfumes contain cocoa?",
+     "a": "Dior Homme (2005) pairs it with iris in a powdery masculine. Carolina Herrera Good Girl (2016) uses it in the base, as does Montblanc Explorer (2019). Billie Eilish's Eilish (2021) puts it in the heart. Carolina Herrera Bad Boy and Tom Ford Tobacco Vanille also feature cacao."
+    }
+   ]
+  }
+ },
+ "Akigalawood": {
+  "slug_fr": "akigalawood",
+  "slug_en": "akigalawood",
+  "name_fr": "Akigalawood",
+  "name_en": "Akigalawood",
+  "category": "woody",
+  "source": "synthetic",
+  "fr": {
+   "title": "Akigalawood en parfum : odeur, origine et parfums",
+   "meta": "Un bois poivré tiré du patchouli et réservé à Givaudan. Ce que sent l’Akigalawood, comment on l’obtient et les parfums récents qui l’ont adopté.",
+   "h1": "L’Akigalawood : le patchouli réinventé en bois poivré",
+   "intro": "L’Akigalawood est une matière exclusive de la maison de composition Givaudan, obtenue à partir du patchouli. Il sent le bois sec et poivré, avec une nuance qui rappelle l’oud. On le rencontre surtout en fond de parfums boisés ou ambrés lancés ces dernières années.",
+   "smell": "Là où le patchouli sent la cave et le camphre, l’Akigalawood garde le bois et retire presque toute la terre. Reste un boisé sec et poivré, à peine fumé, qu’on rapproche volontiers de l’oud. Il n’a pas l’animalité du bois d’agar. Sur la peau, il s’installe lentement et tient des heures en fond, comme un socle. Il apporte du relief aux accords gourmands sans les alourdir.",
+   "origin": "L’Akigalawood est ce que l’industrie appelle un captif : une matière réservée aux parfumeurs de la société qui l’a mise au point, ici Givaudan. Il est obtenu à partir de l’huile essentielle de patchouli, transformée par un procédé biotechnologique. Ce n’est donc ni une huile essentielle classique ni une molécule bâtie de toutes pièces par la chimie. Le patchouli dont il dérive vient de Pogostemon cablin, cultivé surtout en Indonésie.",
+   "craft": "L’Akigalawood se place en fond, où il prolonge les bois et les résines. On le marie au patchouli naturel, au cèdre et au labdanum, ou à des notes gourmandes comme la datte et la praline. Explorer de Montblanc, en 2019, l’emploie en fond d’un boisé aromatique. Khamrah de Lattafa s’en sert en 2022 pour sécher une base très sucrée. Oud Maracujá de Maison Crivelli et Guidance d’Amouage, tous deux de 2023, l’associent au ciste. La matière est devenue un marqueur de la niche récente.",
+   "wear": "L’Akigalawood se porte d’octobre à avril, et sa tenue permet de vaporiser les vêtements. Khamrah, très puissant, se contente d’une pulvérisation. Explorer, plus aéré, passe très bien au bureau.",
+   "faq": [
+    {
+     "q": "Qu’est-ce que l’Akigalawood ?",
+     "a": "C’est un ingrédient de parfumerie mis au point par Givaudan à partir de l’huile essentielle de patchouli, transformée par biotechnologie. Il s’agit d’un captif, réservé à cette maison de composition. Son odeur est boisée et poivrée, plus sèche et moins terreuse que celle du patchouli."
+    },
+    {
+     "q": "Que sent l’Akigalawood ?",
+     "a": "Il sent le bois sec avec une pointe de poivre et une légère fumée. Cette facette fumée évoque l’oud, sans l’aspect animal du bois d’agar. Il tient très longtemps et sert de socle aux boisés comme aux gourmands."
+    },
+    {
+     "q": "Quels parfums contiennent de l’Akigalawood ?",
+     "a": "Explorer de Montblanc (2019) et Khamrah de Lattafa (2022) l’utilisent en fond. Côté niche, Oud Maracujá de Maison Crivelli et Guidance d’Amouage l’associent au ciste en 2023. Dans tous ces parfums, il prolonge la base plutôt qu’il ne signe l’ouverture."
+    }
+   ]
+  },
+  "en": {
+   "title": "Akigalawood in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "A peppery wood made from patchouli and reserved for Givaudan. What Akigalawood smells like, how it is obtained and the recent perfumes built around it.",
+   "h1": "What does Akigalawood smell like in perfume?",
+   "intro": "Akigalawood is an exclusive ingredient from the fragrance house Givaudan, derived from patchouli. It smells of dry, peppery wood with a nuance that recalls oud. You'll mostly meet it in the base of recent woody and amber perfumes.",
+   "smell": "Where patchouli smells of cellars and camphor, Akigalawood keeps the wood and drops almost all the earth. What remains is a dry, peppery wood with a faint smoky edge close to oud. It has none of agarwood's animal side. On skin it settles slowly and lasts for hours at the base, like a foundation. It adds relief to gourmand accords without weighing them down.",
+   "origin": "Akigalawood is what the industry calls a captive: a material reserved for the perfumers of the company that developed it, here Givaudan. It is made from patchouli essential oil, transformed through a biotechnological process. So it is neither a classic essential oil nor a molecule built from scratch in a lab. The patchouli behind it comes from Pogostemon cablin, grown mainly in Indonesia.",
+   "craft": "Akigalawood belongs in the base, where it extends woods and resins. It pairs with natural patchouli, cedar and labdanum, or with gourmand notes such as date and praline. Montblanc Explorer (2019) uses it in the base of an aromatic woody scent. Lattafa Khamrah (2022) relies on it to dry out a very sweet base. Maison Crivelli Oud Maracujá and Amouage Guidance, both from 2023, pair it with cistus. It has become a marker of recent niche perfumery.",
+   "wear": "Akigalawood suits October to April, and its staying power means you can spray clothes. Khamrah is loud and needs only one spray. Explorer is airier and fine for the office.",
+   "faq": [
+    {
+     "q": "What is Akigalawood?",
+     "a": "It is a perfumery ingredient developed by Givaudan from patchouli essential oil, transformed through biotechnology. It is a captive, reserved for that fragrance house. It smells woody and peppery, drier and less earthy than patchouli."
+    },
+    {
+     "q": "What does Akigalawood smell like?",
+     "a": "It smells of dry wood with a touch of pepper and a light smokiness. That smoky facet recalls oud, without agarwood's animal side. It lasts a very long time and anchors both woody and gourmand perfumes."
+    },
+    {
+     "q": "Which perfumes contain Akigalawood?",
+     "a": "Montblanc Explorer (2019) and Lattafa Khamrah (2022) use it in the base. On the niche side, Maison Crivelli Oud Maracujá and Amouage Guidance paired it with cistus in 2023. In each case it extends the base rather than shaping the opening."
+    }
+   ]
+  }
+ },
+ "Cistus": {
+  "slug_fr": "ciste",
+  "slug_en": "cistus",
+  "name_fr": "Ciste",
+  "name_en": "Cistus",
+  "category": "resinous",
+  "source": "natural",
+  "fr": {
+   "title": "Parfum ciste : odeur, origine et parfums phares",
+   "meta": "Le ciste est l’arbuste des garrigues qui donne le labdanum. Son odeur ambrée et cuirée, sa récolte en Espagne et les parfums qui l’emploient.",
+   "h1": "Le ciste en parfum : la garrigue qui sent l’ambre",
+   "intro": "Le ciste est un arbuste méditerranéen dont les feuilles collantes produisent une gomme odorante. Il donne deux matières : une essence distillée et le labdanum, plus résineux. En parfum, il apporte une chaleur ambrée et cuirée au cœur des boisés et des orientaux.",
+   "smell": "Par une journée chaude en Andalousie, les buissons de ciste exhalent une odeur de résine qui colle presque à la peau. L’essence de ciste en garde l’esprit : ambrée, un peu miellée, avec une facette de cuir et de sous-bois sec. Elle est plus aérienne et plus herbacée que le labdanum, qui tire vers l’animal. Sur la peau, le ciste chauffe lentement et tient longtemps. Il donne aux parfums cette impression de peau dorée qu’on associe à l’ambre.",
+   "origin": "Le ciste ladanifère (Cistus ladanifer) pousse dans les garrigues et les maquis d’Espagne et du Portugal. Ses feuilles et ses jeunes rameaux sécrètent une gomme collante par temps chaud. Deux matières en sont tirées. L’essence de ciste s’obtient par distillation à la vapeur des rameaux feuillés. Le labdanum provient de la gomme recueillie en faisant bouillir les rameaux. On la traite ensuite en résinoïde ou en absolu. Les fleurs blanches, qui ne durent qu’un jour, ne servent pas en parfumerie.",
+   "craft": "Le ciste forme, avec la vanille et le benjoin, la base classique de l’accord ambré. Il s’entend aussi avec la rose, l’encens, le patchouli et le cuir. Rose 31 de Le Labo, composé par Daphné Bugey en 2006, s’en sert pour donner un fond sec à une rose épicée de cumin. Replica Under the Lemon Trees de Maison Margiela le cache en fond d’un hespéridé. Oud Maracujá de Maison Crivelli et Guidance d’Amouage le marient à l’Akigalawood.",
+   "wear": "Le ciste se porte en automne et en hiver, de préférence en soirée. Sur une écharpe en laine, l’ambre de Rose 31 peut durer jusqu’au lendemain.",
+   "faq": [
+    {
+     "q": "Que sent le ciste en parfum ?",
+     "a": "Le ciste sent l’ambre résineux, avec une touche de miel et de cuir sur des herbes sèches. Son odeur rappelle la garrigue chauffée par le soleil. Il est moins animal que le labdanum, qui vient pourtant de la même plante, et apporte une chaleur dorée aux compositions."
+    },
+    {
+     "q": "Ciste et labdanum, quelle différence ?",
+     "a": "Les deux viennent du même arbuste, Cistus ladanifer. L’essence de ciste est distillée à partir des rameaux feuillés : elle est plus légère et plus herbacée. Le labdanum est tiré de la gomme collante de la plante, puis travaillé en résinoïde ou en absolu. Il est plus dense et plus cuiré, avec un côté animal."
+    },
+    {
+     "q": "Quels parfums contiennent du ciste ?",
+     "a": "Rose 31 de Le Labo (2006) l’emploie au cœur d’une rose épicée. Replica Under the Lemon Trees de Maison Margiela (2018) le place en fond. En 2023, Oud Maracujá de Maison Crivelli et Guidance d’Amouage l’associent à l’Akigalawood."
+    }
+   ]
+  },
+  "en": {
+   "title": "Cistus in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Cistus is the scrubland shrub that gives labdanum. What its ambery, leathery oil smells like, how it is harvested in Spain and which perfumes use it.",
+   "h1": "What does cistus smell like in perfume?",
+   "intro": "Cistus, or rock rose, is a Mediterranean shrub whose sticky leaves give off a fragrant gum. It yields two materials: distilled cistus oil and the richer, resinous labdanum. In perfume it brings an ambery, leathery warmth to woody and oriental compositions.",
+   "smell": "On a hot day in Andalusia, cistus bushes give off a resinous smell that almost sticks to your skin. Cistus oil captures that mood. It is ambery and slightly honeyed, with a facet of leather and dry undergrowth. It is airier and more herbal than labdanum, which leans animalic. On skin cistus warms slowly and lasts a long time. It gives perfume that golden-skin feel we associate with amber.",
+   "origin": "Gum rockrose (Cistus ladanifer) grows in the scrubland of Spain and Portugal. In hot weather its leaves and young twigs secrete a sticky gum. Two materials come from it. Cistus oil is steam-distilled from the leafy twigs. Labdanum comes from the gum, collected by boiling the twigs, then processed into a resinoid or absolute. The white flowers last a single day, and perfumers don't use them.",
+   "craft": "Together with vanilla and benzoin, cistus forms the classic base of an amber accord. It also gets along with rose, incense, patchouli and leather. Le Labo Rose 31, composed by Daphné Bugey in 2006, uses it to give a dry backbone to a cumin-spiced rose. Maison Margiela Replica Under the Lemon Trees hides it in the base of a citrus scent. Maison Crivelli Oud Maracujá and Amouage Guidance both pair it with Akigalawood.",
+   "wear": "Cistus is for autumn and winter, ideally in the evening. On a wool scarf, the amber of Rose 31 can last until the next day.",
+   "faq": [
+    {
+     "q": "What does cistus smell like in perfume?",
+     "a": "Cistus smells of resinous amber with touches of honey and leather over dry herbs. It recalls sun-baked Mediterranean scrub. It is less animalic than labdanum, though both come from the same plant, and it adds a golden warmth to compositions."
+    },
+    {
+     "q": "What is the difference between cistus and labdanum?",
+     "a": "Both come from the same shrub, Cistus ladanifer. Cistus oil is distilled from the leafy twigs, so it is lighter and more herbal. Labdanum is taken from the plant's sticky gum, then worked into a resinoid or absolute. It is denser and more leathery, with an animalic edge."
+    },
+    {
+     "q": "Which perfumes contain cistus?",
+     "a": "Le Labo Rose 31 (2006) uses it in the heart of a spiced rose. Maison Margiela Replica Under the Lemon Trees (2018) puts it in the base. In 2023, Maison Crivelli Oud Maracujá and Amouage Guidance both paired it with Akigalawood."
+    }
+   ]
+  }
+ },
+ "Vanilla Orchid": {
+  "slug_fr": "orchidee-vanille",
+  "slug_en": "vanilla-orchid",
+  "name_fr": "Orchidée vanille",
+  "name_en": "Vanilla Orchid",
+  "category": "gourmand",
+  "source": "accord",
+  "fr": {
+   "title": "Parfum orchidée vanille : odeur, accord et parfums",
+   "meta": "La vanille vient d’une orchidée, et les parfumeurs en ont tiré un accord crémeux. Ce que sent l’orchidée vanille et les parfums gourmands qui l’emploient.",
+   "h1": "L’orchidée vanille : la fleur derrière la gousse",
+   "intro": "La vanille vient d’une orchidée, et c’est cette parenté que la note « orchidée vanille » met en scène. Il s’agit d’un accord : la vanille y est adoucie par une facette florale crémeuse. Elle signe surtout des parfums gourmands récents, très appréciés pour leur douceur.",
+   "smell": "L’orchidée vanille sent la vanille moins la pâtisserie. On garde la rondeur sucrée de la gousse, portée par une note florale laiteuse entre héliotrope et fleurs blanches. Le résultat évoque une crème légère plutôt qu’un gâteau. Sur la peau, l’accord devient plus poudré et plus musqué. Il tient bien, surtout quand il repose sur des muscs blancs et du santal.",
+   "origin": "Le vanillier (Vanilla planifolia) est une orchidée grimpante originaire du Mexique, où les Totonaques la cultivaient. Sa fleur ne s’ouvre qu’une journée et sent très peu. Toute l’odeur se développe dans la gousse, cueillie verte puis échaudée, étuvée et séchée pendant des mois. En 1841 à La Réunion, Edmond Albius met au point la pollinisation manuelle qui rend possible la culture hors du Mexique. Il était alors un esclave de douze ans. La note « orchidée vanille » est donc une construction du parfumeur.",
+   "craft": "L’accord associe une vanille, naturelle ou synthétique, à des notes florales douces comme l’héliotrope ou le jasmin. Les parfumeurs y ajoutent souvent des muscs et de la praline. Cloud d’Ariana Grande (2018) place l’orchidée vanille au cœur d’un gourmand aérien, entre crème fouettée et praliné. La Nuit Trésor de Lancôme la mêle en 2015 à la rose noire et au praliné. Vanilla 28 de Kayali la pose dès la tête, et Ari d’Ariana Grande l’entoure de guimauve.",
+   "wear": "L’orchidée vanille se porte d’octobre à mars, le jour comme le soir. Cloud reste léger pour l’école ou le bureau. La Nuit Trésor, plus dense, se garde pour un dîner.",
+   "faq": [
+    {
+     "q": "Que sent l’orchidée vanille en parfum ?",
+     "a": "Elle sent la vanille rendue plus florale et plus légère. On retrouve la douceur de la gousse, adoucie par une note laiteuse proche de l’héliotrope. L’effet est crémeux, moins pâtissier qu’une vanille pure, et devient poudré sur la peau."
+    },
+    {
+     "q": "La fleur de vanille a-t-elle une odeur ?",
+     "a": "Très peu. La fleur du vanillier, une orchidée, ne vit qu’une journée et son parfum est discret. L’odeur de vanille naît dans la gousse, pendant la préparation qui suit la récolte. La note « orchidée vanille » est donc un accord imaginé par les parfumeurs."
+    },
+    {
+     "q": "Quels parfums contiennent de l’orchidée vanille ?",
+     "a": "Cloud (2018) et Ari (2015) d’Ariana Grande l’utilisent au cœur. La Nuit Trésor de Lancôme (2015) l’associe à la rose et au praliné. Vanilla 28 de Kayali (2018) la place en tête d’un oriental vanillé assumé."
+    }
+   ]
+  },
+  "en": {
+   "title": "Vanilla Orchid in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "Vanilla comes from an orchid, and perfumers turned that fact into a creamy accord. What vanilla orchid smells like and the gourmand perfumes that use it.",
+   "h1": "What does vanilla orchid smell like in perfume?",
+   "intro": "Vanilla comes from an orchid, and the vanilla orchid note plays on that link. It is an accord in which vanilla is softened by a creamy floral facet. It defines a wave of recent gourmand perfumes loved for their softness.",
+   "smell": "Vanilla orchid smells like vanilla minus the bakery. The sugary roundness of the pod stays, carried by a milky floral note somewhere between heliotrope and white flowers. The result suggests light cream more than cake. On skin the accord turns more powdery and musky. It lasts well, especially when it rests on white musks and sandalwood.",
+   "origin": "The vanilla vine (Vanilla planifolia) is a climbing orchid native to Mexico, where the Totonac people grew it. Its flower opens for a single day and has very little scent. The aroma develops in the pod, picked green and then scalded, sweated and dried for months. In 1841, on Réunion island, a twelve-year-old enslaved boy named Edmond Albius devised the hand-pollination method that made cultivation possible outside Mexico. The vanilla orchid note is a perfumer's construction.",
+   "craft": "The accord pairs vanilla, natural or synthetic, with soft florals such as heliotrope or jasmine. Musks and praline often join in. Ariana Grande Cloud (2018) sets vanilla orchid at the heart of an airy gourmand, between whipped cream and praline. Lancôme La Nuit Trésor (2015) blends it with black rose and praline. Kayali Vanilla 28 puts it right in the top, and Ariana Grande Ari surrounds it with marshmallow.",
+   "wear": "Vanilla orchid suits October to March, day or night. Cloud stays light enough for school or work. La Nuit Trésor is denser and better kept for dinner.",
+   "faq": [
+    {
+     "q": "What does vanilla orchid smell like in perfume?",
+     "a": "It smells like vanilla made lighter and more floral. The sweetness of the pod is softened by a milky note close to heliotrope. The effect is creamy and less like pastry than pure vanilla. On skin it turns powdery."
+    },
+    {
+     "q": "Does the vanilla flower have a scent?",
+     "a": "Barely. The vanilla vine's flower is an orchid that lives a single day, and its scent is faint. The smell of vanilla appears in the pod, during the curing that follows harvest. The vanilla orchid note is therefore an accord imagined by perfumers."
+    },
+    {
+     "q": "Which perfumes contain vanilla orchid?",
+     "a": "Ariana Grande Cloud (2018) and Ari (2015) use it in the heart. Lancôme La Nuit Trésor (2015) pairs it with rose and praline. Kayali Vanilla 28 (2018) opens with it in an unapologetic vanilla oriental."
+    }
+   ]
+  }
+ },
+ "Citron": {
+  "slug_fr": "cedrat",
+  "slug_en": "citron",
+  "name_fr": "Cédrat",
+  "name_en": "Citron",
+  "category": "citrus",
+  "source": "natural",
+  "fr": {
+   "title": "Parfum cédrat : odeur, origine et parfums phares",
+   "meta": "Ancêtre du citron, le cédrat offre un zeste plus rond et moins acide. Son odeur, son histoire de la Corse à la Calabre et les parfums qui l’emploient.",
+   "h1": "Le cédrat en parfum : l’agrume ancestral à l’écorce épaisse",
+   "intro": "Le cédrat est un gros agrume à l’écorce épaisse et bosselée, presque sans pulpe. En parfumerie, il apporte une fraîcheur zestée plus ronde et moins acide que le citron. On le trouve en tête des eaux fraîches et des boisés aromatiques.",
+   "smell": "Râpez l’écorce d’un cédrat et l’odeur évoque un citron adouci, avec une note florale et l’amertume de la peau blanche. Il évoque moins le citron pressé que l’écorce confite. En parfum, il ouvre une composition avec netteté, sans l’aigreur du citron jaune. Sa tenue reste celle d’un agrume : vive pendant une demi-heure, puis il se fond dans le cœur. Il laisse une trace sèche, un peu amère.",
+   "origin": "Le cédratier (Citrus medica) fait partie des espèces ancestrales dont descendent la plupart des agrumes cultivés, citron compris. Il serait originaire des contreforts de l’Himalaya et du nord-est de l’Inde. Il gagne la Méditerranée dès l’Antiquité : les Grecs le connaissaient comme la pomme de Médie, d’où son nom latin. La Corse et la côte calabraise, surnommée Riviera dei Cedri, le cultivent encore. Le judaïsme l’emploie lors de la fête de Souccot sous le nom d’etrog. Son huile essentielle s’obtient par expression à froid de l’écorce, et la main de Bouddha en est une variété.",
+   "craft": "Le parfumeur utilise le cédrat en tête pour donner de l’éclat sans acidité. Il s’associe au gingembre, au poivre, au néroli et aux bois clairs comme le cèdre. L’Homme d’Yves Saint Laurent, en 2006, l’ouvre avec le gingembre et la bergamote. Fico di Amalfi d’Acqua di Parma, la même année, l’associe à la figue et au pamplemousse. Chance Eau Fraîche de Chanel l’utilise en 2007 pour aiguiser un chypre floral. Valero de Parfums de Marly le pose en tête d’un boisé aromatique.",
+   "wear": "Le cédrat se porte du printemps à la fin de l’été, en journée. Comme tout agrume, il s’évapore vite : on revaporise L’Homme ou Fico di Amalfi après le déjeuner plutôt que d’en mettre trop le matin.",
+   "faq": [
+    {
+     "q": "Que sent le cédrat ?",
+     "a": "Le cédrat sent le zeste d’agrume, plus rond et moins acide que le citron. On y perçoit une note légèrement florale et une amertume d’écorce. En parfum, il donne une fraîcheur nette qui convient aussi bien aux masculins qu’aux floraux."
+    },
+    {
+     "q": "Quelle différence entre cédrat et citron ?",
+     "a": "Le cédrat (Citrus medica) est une espèce ancestrale, et le citron en descend en partie. Son fruit est plus gros, avec une écorce très épaisse et peu de pulpe. Son odeur est plus douce et plus florale que celle du citron, qui reste plus acide et plus piquant."
+    },
+    {
+     "q": "Quels parfums contiennent du cédrat ?",
+     "a": "L’Homme d’Yves Saint Laurent (2006) et Fico di Amalfi d’Acqua di Parma (2006) l’utilisent en tête. Chance Eau Fraîche de Chanel (2007) s’en sert pour sa fraîcheur. Plus récent, Valero de Parfums de Marly (2025) l’ouvre dans un boisé aromatique."
+    }
+   ]
+  },
+  "en": {
+   "title": "Citron in Perfume: What It Smells Like & Best Fragrances",
+   "meta": "The ancestor of lemon, citron gives a rounder, less sour zest. What it smells like, where it grows from Corsica to Calabria and which perfumes use it.",
+   "h1": "What does citron smell like in perfume?",
+   "intro": "Citron is a large citrus fruit with a thick, bumpy rind and almost no flesh. In perfume it brings a zesty freshness that is rounder and less sour than lemon. It mostly turns up in the top of fresh colognes and aromatic woody scents.",
+   "smell": "Grate a citron and the smell is like a softened lemon, with a floral note and the bitterness of white pith. It evokes candied peel more than squeezed fruit. In a perfume it opens a composition cleanly, without the sharpness of lemon. Its staying power is that of any citrus. It stays bright for half an hour, then melts into the heart and leaves a dry, slightly bitter trace.",
+   "origin": "The citron tree (Citrus medica) is one of the ancestral species behind most cultivated citrus, lemon included. It probably originated in the Himalayan foothills and northeast India. It reached the Mediterranean in antiquity, where the Greeks knew it as the Median apple, hence its Latin name. Corsica and the Calabrian coast, nicknamed the Riviera dei Cedri, still grow it. In Judaism it is the etrog of the Sukkot festival. The essential oil is cold-pressed from the rind, and Buddha's hand is one of its varieties.",
+   "craft": "Perfumers use citron in the top for brightness without acidity. It pairs with ginger, pepper, neroli and pale woods such as cedar. Yves Saint Laurent L'Homme (2006) opens with it alongside ginger and bergamot. Acqua di Parma Fico di Amalfi, from the same year, pairs it with fig and grapefruit. Chanel Chance Eau Fraîche used it in 2007 to sharpen a floral chypre. Parfums de Marly Valero sets it at the top of an aromatic woody scent.",
+   "wear": "Citron works from spring to late summer, by day. Like any citrus it evaporates fast. Respray L'Homme or Fico di Amalfi after lunch rather than overdoing it in the morning.",
+   "faq": [
+    {
+     "q": "What does citron smell like?",
+     "a": "Citron smells of citrus zest, rounder and less sour than lemon. There is a slightly floral note and the bitterness of the rind. In perfume it gives a clean freshness that suits masculine scents and florals equally well."
+    },
+    {
+     "q": "What is the difference between citron and lemon?",
+     "a": "Citron (Citrus medica) is an ancestral species, and lemon partly descends from it. The fruit is larger, with a very thick rind and little flesh. Its scent is softer and more floral than lemon, which stays sharper and more acidic."
+    },
+    {
+     "q": "Which perfumes contain citron?",
+     "a": "Yves Saint Laurent L'Homme (2006) and Acqua di Parma Fico di Amalfi (2006) use it in the top. Chanel Chance Eau Fraîche (2007) relies on it for its sparkle. More recently, Parfums de Marly Valero (2025) opens with it in an aromatic woody scent."
+    }
+   ]
+  }
+ }
+}

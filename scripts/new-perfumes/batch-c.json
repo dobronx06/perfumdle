@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Coco Noir",
+    "brand": "Chanel",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jacques Polge",
+    "notes": {
+      "top": ["Grapefruit", "Bergamot"],
+      "heart": ["Rose", "Jasmine", "Narcissus", "Geranium"],
+      "base": ["Patchouli", "Tonka Bean", "Sandalwood", "Vanilla", "Musk", "Incense"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.chanel.com/us/fragrance/p/113660/coco-noir-eau-de-parfum-spray/",
+      "https://www.osmoz.com/perfumes/chanel/6596/coco-noir",
+      "https://nstperfume.com/2012/07/26/chanel-coco-noir-new-fragrance/",
+      "https://nstperfume.com/2012/08/20/chanel-coco-noir-fragrance-review/"
+    ],
+    "confidence": "high",
+    "remarks": "Chanel's current page names bergamot, May rose, rose geranium leaf, jasmine, Venezuelan tonka and Indonesian patchouli; grapefruit, sandalwood, vanilla, white musk and incense come from the 2012 press notes (NST) and Osmoz. Osmoz also lists vetiver and cedar. Geranium = rose geranium leaf. Osmoz family: Oriental Floral. Some reviews mention Christopher Sheldrake as co-author; credited officially to Jacques Polge."
+  },
+  {
+    "name": "Chance Eau Fraîche",
+    "brand": "Chanel",
+    "year": 2007,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jacques Polge",
+    "notes": {
+      "top": ["Citron", "Pink Pepper"],
+      "heart": ["Jasmine", "Iris", "Hyacinth"],
+      "base": ["Teak Wood", "Musk", "Patchouli", "Vetiver", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chanel_Chance",
+      "https://www.chanel.com/us/fragrance/p/136430/chance-eau-fraiche-eau-de-toilette-spray/",
+      "https://nstperfume.com/2007/02/23/chanel-chance-eau-fraiche-new-fragrance/"
+    ],
+    "confidence": "high",
+    "remarks": "Original 2007 version is the Eau de Toilette; an Eau de Parfum was added later. Chanel highlights citron, jasmine and teak wood. Wikipedia pyramid used; it lists 'amber patchouli' (split here into Patchouli and Amber). Some retailers put iris in the base and add cedar/lemon on top. New note name: Teak Wood."
+  },
+  {
+    "name": "Hypnôse",
+    "brand": "Lancôme",
+    "year": 2005,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Menardo, Thierry Wasser",
+    "notes": {
+      "top": ["Passion Flower"],
+      "heart": ["Jasmine", "Gardenia"],
+      "base": ["Vanilla", "Vetiver"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lancome/3610/hypnose",
+      "https://www.notino.fr/lancome/hypnose-eau-de-parfum-pour-femme/",
+      "https://boisdejasmin.com/2006/01/fragrance_revie_7.html"
+    ],
+    "confidence": "high",
+    "remarks": "The published pyramid is short: only one top note exists (passion flower), so fewer than 2 top notes is faithful to sources. Osmoz lists sambac jasmine and 'solar notes' in the heart; Notino and Tendance Parfums add gardenia. New note name: Passion Flower."
+  },
+  {
+    "name": "Miracle",
+    "brand": "Lancôme",
+    "year": 2000,
+    "gender": "Feminine",
+    "family": "Floral Spicy",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Harry Frémont, Alberto Morillas",
+    "notes": {
+      "top": ["Freesia", "Lychee"],
+      "heart": ["Magnolia", "Jasmine", "Pepper", "Ginger"],
+      "base": ["Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lancome/3579/miracle",
+      "https://www.notino.fr/lancome/miracle-eau-de-parfum-pour-femme/",
+      "https://theperfumeshop.com/lancome/miracle/eau-de-parfum-spray/p/26440EDPJU",
+      "https://www.sephora.co.uk/p/lancome-miracle-eau-de-parfum",
+      "https://mail.perfumeintelligence.co.uk/library/perfume/m/m4/m4p7.htm"
+    ],
+    "confidence": "high",
+    "remarks": "Notes and year consistent across Osmoz and retailers. Perfumer credit (Harry Frémont with Alberto Morillas) found only in Perfume Intelligence and retailer pages, not on Osmoz; treat perfumer as medium confidence. Notino also lists mandarin in the heart. Osmoz family: Floral Spicy (also described as modern oriental)."
+  },
+  {
+    "name": "Paradoxe",
+    "brand": "Prada",
+    "year": 2022,
+    "gender": "Feminine",
+    "family": "Floral Amber",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Nadège Le Garlantezec, Shyamala Maisondieu, Antoine Maisondieu",
+    "notes": {
+      "top": ["Pear", "Mandarin", "Bergamot"],
+      "heart": ["Neroli", "Orange Blossom", "Jasmine"],
+      "base": ["Amber", "Benzoin", "Vanilla", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.prada-beauty.com/fragrance/paradoxe/paradoxe-eau-de-parfum/MPL01610.html",
+      "https://www.sephora.com/product/paradoxe-eau-de-parfum-P501198",
+      "https://nstperfume.com/2022/08/08/prada-paradoxe-new-perfume/",
+      "https://www.notino.fr/prada/prada-paradoxe-eau-de-parfum-rechargeable-pour-femme/p-16143145/"
+    ],
+    "confidence": "high",
+    "remarks": "Prada's official three-tier structure is neroli bud (top), Ambrofix amber (heart), Serenolide musk (base), family 'floral ambery'. The fuller pyramid used here comes from Notino; some retailers place pear in the heart. Sephora names white musk and white amber as key notes."
+  },
+  {
+    "name": "Ange ou Démon",
+    "brand": "Givenchy",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jean-Pierre Béthouart, Olivier Cresp",
+    "notes": {
+      "top": ["Saffron", "Thyme", "Mandarin"],
+      "heart": ["Lily", "Ylang-Ylang", "Orchid"],
+      "base": ["Vanilla", "Tonka Bean", "Oakmoss", "Rosewood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/890/ange-ou-demon",
+      "https://www.notino.co.uk/givenchy/ange-ou-demon-eau-de-parfum-for-women/",
+      "https://www.superdrug.com/fragrance/perfume-for-women/womens-perfume/givenchy-ange-ou-demon-eau-de-parfum-30ml/p/mp-00027590"
+    ],
+    "confidence": "high",
+    "remarks": "Osmoz lists 'oak' in the base where retailers list oakmoss; Oakmoss kept. Rosewood is described as Brazilian rosewood. Perfumers per Osmoz (Firmenich); not Jacques Cavallier."
+  },
+  {
+    "name": "La Belle",
+    "brand": "Jean Paul Gaultier",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Gourmand Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Sonia Constant, Quentin Bisch",
+    "notes": {
+      "top": ["Pear", "Bergamot"],
+      "heart": ["Floral Notes"],
+      "base": ["Vanilla", "Vetiver", "Amber", "Musk"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://www.jeanpaulgaultier.com/uk/en/p/range-la-belle/la-belle-eau-de-parfum-000000000065132209",
+      "https://nstperfume.com/2019/06/12/jean-paul-gaultier-le-beau-la-belle-new-fragrances/",
+      "https://www.osmoz.com/perfumes/jean-paul-gaultier/8586/la-belle",
+      "https://www.sephora.com/ca/en/product/la-belle-eau-de-parfum-spray-P519301"
+    ],
+    "confidence": "medium",
+    "remarks": "The house publishes only key notes (pear, bergamot, vanilla); NST launch article gives pear, vetiver, vanilla. Osmoz puts bergamot in the heart. Amber, musk and 'floral notes' come from retailer listings only. Perfumer conflict: NST (2019) credits Sonia Constant alone; several retailers credit Sonia Constant and Quentin Bisch (Bisch did the companion Le Beau). Osmoz family: Oriental Gourmand."
+  },
+  {
+    "name": "Gaultier Divine",
+    "brand": "Jean Paul Gaultier",
+    "year": 2023,
+    "gender": "Feminine",
+    "family": "Floral Gourmand",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Bergamot", "Red Berries", "Sea Salt"],
+      "heart": ["Lily", "Ylang-Ylang", "Jasmine"],
+      "base": ["Meringue", "Musk", "Patchouli"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.jeanpaulgaultier.com/ww/en/p/range-gaultier-divine/gaultier-divine-eau-de-parfum-000000000065188916",
+      "https://www.sephora.com/product/jean-paul-gaultier-gaultier-divine-eau-de-parfum-P512893",
+      "https://nstperfume.com/2023/06/14/jean-paul-gaultier-divine-new-perfume/",
+      "https://www.formesdeluxe.com/article/gaultier-divine-jean-paul-gaultier-shines-with-latest-women-s-fragrance.64244",
+      "https://wwd.com/beauty-industry-news/fragrance/yara-shahidi-gaultier-divine-fragrance-1235753001/"
+    ],
+    "confidence": "medium",
+    "remarks": "Official site lists only salty note, lily and meringue, family 'Floral Gourmand Marine' (mapped to Floral Gourmand). Full pyramid from retailers; they also cite calypsone (aquatic molecule) on top, omitted. Brand describes meringue as the heart note while retailers put it in the base. Launch month varies (August/September 2023)."
+  },
+  {
+    "name": "Classique",
+    "brand": "Jean Paul Gaultier",
+    "year": 1993,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jacques Cavallier",
+    "notes": {
+      "top": ["Rose", "Orange Blossom", "Star Anise", "Mandarin"],
+      "heart": ["Ginger", "Orchid", "Iris", "Ylang-Ylang"],
+      "base": ["Vanilla", "Amber", "Sandalwood", "Tonka Bean", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Classique_(fragrance)",
+      "https://cafleurebon.com/cafleurebon-saturday-night-classic-jean-paul-gaultier-classique-edp-review-jacques-cavallier-belletrud-1993-the-subversive-vanilla/",
+      "https://nstperfume.com/2007/04/13/jean-paul-gaultier-classique-perfume-review/",
+      "https://thecandyperfumeboy.com/2019/02/15/perfume-icon-classique-by-jean-paul-gaultier/"
+    ],
+    "confidence": "medium",
+    "remarks": "Year, perfumer and original concentration agree (launched as 'JPGaultier Eau de Parfum', renamed Classique in 1995, per Wikipedia). Note pyramids conflict: Wikipedia gives rose, rum / narcissus, vanilla orchid / vanilla, amber, tonka, sandalwood; retailer/review pyramids give orange blossom, star anise, rose, mandarin, pear, bergamot / ginger, orchid, iris, tuberose, ylang-ylang, plum / amber, vanilla, musk, sandalwood, cinnamon. A consensus subset is used."
+  },
+  {
+    "name": "Goddess",
+    "brand": "Burberry",
+    "year": 2023,
+    "gender": "Feminine",
+    "family": "Gourmand",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Amandine Clerc-Marie",
+    "notes": {
+      "top": ["Lavender", "Ginger", "Cacao"],
+      "heart": ["Vanilla"],
+      "base": ["Vanilla", "Woody Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://us.burberry.com/burberry-goddess-eau-de-parfum-for-women-100ml-p40835981",
+      "https://www.sephora.com/product/burberry-goddess-eau-de-parfum-P507316",
+      "https://wwd.com/beauty-industry-news/fragrance/burberry-taps-barbie-actor-emma-mackey-new-refillable-fragrance-1235755378/",
+      "https://www.wonderlandmagazine.com/2023/09/13/burberry-goddess-eau-de-parfum/"
+    ],
+    "confidence": "high",
+    "remarks": "Built on three vanilla extractions: vanilla infusion (top), vanilla caviar (heart), vanilla absolute (base), with Provence lavender. Placement of lavender varies (top in most lists, base in Sephora). Cacao, ginger and 'woody vanilla' from Wonderland. Burberry describes it as an aromatic gourmand."
+  },
+  {
+    "name": "Nomade",
+    "brand": "Chloé",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Mirabelle Plum", "Bergamot", "Lemon", "Orange"],
+      "heart": ["Freesia", "Peach", "Rose", "Jasmine"],
+      "base": ["Oakmoss", "Amberwood", "Patchouli", "Musk", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.chloe.com/en-us/p/fragrances/eau-de-parfum/CHCA64994055.html",
+      "https://www.sephora.com/product/nomade-eau-de-parfum-P428451",
+      "https://www.gcimagazine.com/brands-products/fragrance-home/news/21881340/chloe-releases-new-fragrance-nomade",
+      "https://www.tendance-parfums.com/chloe-nomade-parfum.html"
+    ],
+    "confidence": "high",
+    "remarks": "Chloé publishes the core: mirabelle plum (top), freesia (heart), oakmoss (base). Extended pyramid from Tendance Parfums and retailer listings. GCI Magazine gives launch 8 February 2018, perfumer Quentin Bisch (Givaudan). Not to be confused with the later EDT (lychee top) or Nomade Naturelle. New note name: Mirabelle Plum."
+  },
+  {
+    "name": "La Panthère",
+    "brand": "Cartier",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Mathilde Laurent",
+    "notes": {
+      "top": ["Fresh Notes"],
+      "heart": ["Gardenia", "Floral Notes"],
+      "base": ["Oakmoss", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/cartier/7568/la-panthere",
+      "https://senatus.net/album/view/11774",
+      "https://www.notino.co.uk/cartier/la-panthere-eau-de-parfum-for-women/",
+      "https://www.tendance-parfums.com/la-panthere-cartier-parfum.html"
+    ],
+    "confidence": "high",
+    "remarks": "Pyramid is deliberately minimal (gardenia with a musky chypre accord). Only one top note published ('fresh notes'). EDP went on sale 15 March 2014 (Senatus). Not to be confused with Édition Soir (2016) or the 2020 version with osmanthus. New note name: Fresh Notes."
+  },
+  {
+    "name": "Omnia Crystalline",
+    "brand": "Bvlgari",
+    "year": 2005,
+    "gender": "Feminine",
+    "family": "Floral Aquatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": ["Bamboo", "Nashi Pear"],
+      "heart": ["Lotus", "Peony"],
+      "base": ["Balsa Wood", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/bulgari/439/omnia-crystalline",
+      "https://www.bulgari.com/fr-ch/parfums/omnia/42547.html",
+      "https://www.bulgari.com/en-us/fragrances/omnia/omnia-crystalline-eau-de-toilette-42644",
+      "https://www.notino.fr/bvlgari/omnia-crystalline-eau-de-toilette-pour-femme/"
+    ],
+    "confidence": "high",
+    "remarks": "Bulgari credits Alberto Morillas and names nashi pear, bamboo, lotus, white peony, balsa wood and crystal musk. Osmoz gives 2005; one retailer says 'created in 2004'. Some retailers put lotus and peony in the base. Later Eau de Parfum (different formula) exists. New note names: Nashi Pear, Balsa Wood."
+  },
+  {
+    "name": "Perfect",
+    "brand": "Marc Jacobs",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Domitille Michalon-Bertier",
+    "notes": {
+      "top": ["Rhubarb", "Narcissus"],
+      "heart": ["Almond Milk"],
+      "base": ["Cashmeran", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.marcjacobs.com/us-en/perfect-eau-de-parfum-100-ml/3614227086227.html",
+      "https://www.sephora.com/product/marc-jacobs-fragrances-perfect-eau-de-parfum-P460871",
+      "https://nstperfume.com/2020/07/15/marc-jacobs-perfect-new-perfume/"
+    ],
+    "confidence": "high",
+    "remarks": "Brand names daffodil (= Narcissus). Only one heart note published (almond milk). Perfumer credit from NST update and retailers; not shown on brand page. Some listings omit cedar."
+  },
+  {
+    "name": "Nina",
+    "brand": "Nina Ricci",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Olivier Cresp, Jacques Cavallier",
+    "notes": {
+      "top": ["Lime", "Lemon"],
+      "heart": ["Apple", "Praline", "Peony", "Moonflower"],
+      "base": ["Musk", "Cedar", "Apple Tree"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/nina-ricci/1223/nina",
+      "https://www.auparfum.com/nina,109",
+      "https://www.notino.fr/nina-ricci/nina-eau-de-toilette-pour-femme/p-61906/"
+    ],
+    "confidence": "high",
+    "remarks": "Apple = candy/caramelised apple; Apple Tree = apple-tree leaves/wood; Cedar = white cedar. Notino lists gardenia instead of peony/moonflower and omits praline. Apple-shaped bottle. New note names: Moonflower, Apple Tree."
+  }
+]

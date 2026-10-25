@@ -1,0 +1,533 @@
+[
+ {
+  "name": "Khamrah",
+  "brand": "Lattafa",
+  "year": 2022,
+  "gender": "Unisex",
+  "family": "Gourmand Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cinnamon",
+    "Nutmeg",
+    "Bergamot"
+   ],
+   "heart": [
+    "Dates",
+    "Praline",
+    "Tuberose",
+    "Mahonial"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Amberwood",
+    "Myrrh",
+    "Benzoin",
+    "Akigalawood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://lattafa-usa.com/products/khamrah",
+   "https://www.notino.co.uk/lattafa/khamrah-eau-de-parfum-unisex/",
+   "https://www.notino.fr/lattafa/khamrah-eau-de-parfum-mixte/p-16146533/",
+   "https://www.proshop.nl/Parfum-en-geuren/Lattafa-Khamrah-Eau-de-Parfum-100-ml-100-ml/3326478"
+  ],
+  "confidence": "high",
+  "remarks": "Pyramid and 2022 year from Lattafa USA (official distributor store). Notino lists 'Mahonia' and Amber instead of Amberwood in the base; Proshop adds Lily of the Valley in the heart. No perfumer credited. New note names: Dates, Mahonial."
+ },
+ {
+  "name": "Asad",
+  "brand": "Lattafa",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pepper",
+    "Pineapple",
+    "Tobacco"
+   ],
+   "heart": [
+    "Coffee",
+    "Iris",
+    "Patchouli"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Woods",
+    "Benzoin",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://lattafa-usa.com/products/asad",
+   "https://www.notino.fr/lattafa/asad-eau-de-parfum-pour-homme/p-16145677/",
+   "https://www.jumia.ma/lattafa-asad-eau-de-parfum-100ml-68282530.html"
+  ],
+  "confidence": "high",
+  "remarks": "Lattafa USA gives 2021, men's, amber fragrance. 'Pepper' = black pepper; 'Woods' = dry woods. Some retailers (Anabis) market it as unisex; official page says men. Notino's summary line lists different notes (clove, sandalwood) but its pyramid matches. No perfumer credited."
+ },
+ {
+  "name": "Yara",
+  "brand": "Lattafa",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Orchid",
+    "Heliotrope",
+    "Mandarin"
+   ],
+   "heart": [
+    "Gourmand Accord",
+    "Tropical Fruits"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://lattafa-usa.com/products/yara",
+   "https://www.notino.fr/lattafa/yara-eau-de-parfum-pour-femme/p-16146716/",
+   "https://fragrancerackshop.com/products/yara-by-lattafa-eau-de-parfum-spray-3-4oz-for-women",
+   "https://jifragrance.com/products/lattafa-yara-for-women-eau-de-parfum-spray-3-40-ounce-100-ml"
+  ],
+  "confidence": "medium",
+  "remarks": "Notes from Lattafa USA, confirmed by Notino. Official page gives 'Tangerine' (Notino: mandarine), mapped to Mandarin. Launch year 2020 only from retailer listings (official page has no year; one listing shows a 2023 catalog date). New note names: Gourmand Accord, Tropical Fruits. Do not confuse with Yara Moi / Yara Tous."
+ },
+ {
+  "name": "Club de Nuit Intense Man",
+  "brand": "Armaf",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Pineapple",
+    "Bergamot",
+    "Black Currant",
+    "Apple"
+   ],
+   "heart": [
+    "Birch",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Ambergris",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.fr/armaf/club-de-nuit-man-intense-parfum-pour-homme/",
+   "https://www.anabis.com/fr/Armaf-Club-De-Nuit-Intense-Man-Edt-105ml.html",
+   "https://vanitystock.com/en-gb/products/armaf-club-de-nuit-intense-man-eau-de-toilette-spray-105-ml",
+   "https://fragrancehub.co.uk/products/armaf-club-de-nuit-intense-man-eau-de-toilette-105ml"
+  ],
+  "confidence": "medium",
+  "remarks": "No official Armaf page found (armaf.com product URL 404). Notes consistent across retailers; Anabis lists Amber instead of Ambergris in the base. Original 2015 version is the 105 ml EDT; later EDP/Parfum/Limited editions exist. Family label is editorial: retailers describe it as woody-spicy; Chypre Fruity chosen for its Aventus-style structure. Marketed by Sterling Parfums."
+ },
+ {
+  "name": "9pm",
+  "brand": "Afnan",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Apple",
+    "Cinnamon",
+    "Lavender",
+    "Bergamot"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Amber",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.fr/afnan/9-pm-eau-de-parfum-pour-homme/p-16093454/",
+   "https://www.justmylook.com/products/afnan-9pm-pour-homme-eau-de-parfum-100ml",
+   "https://www.anabis.com/uk/Afnan-9PM-for-Men.html",
+   "https://perfumes.la/en-us/products/9pm-by-afnan-for-men-3-4-oz-edp-spray",
+   "https://vipfragrances.net/products/afnan-9pm"
+  ],
+  "confidence": "medium",
+  "remarks": "No official Afnan page found. Notes identical across retailers (lavender sometimes 'wild lavender' or 'lavandin'). Year 2020 per most retailers, but some databases give 2015: year is medium confidence. Retailers class it Amber Vanilla / Oriental Vanilla. Official spelling on bottle is '9PM' (also '9pm pour Homme')."
+ },
+ {
+  "name": "Hawas for Him",
+  "brand": "Rasasi",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Apple",
+    "Bergamot",
+    "Lemon",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Cardamom",
+    "Plum"
+   ],
+   "base": [
+    "Patchouli",
+    "Ambergris",
+    "Driftwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://www.rasasi.com/product/hawas-him",
+   "https://www.notino.co.uk/rasasi/hawas-for-men-eau-de-parfum-for-men/",
+   "https://www.fragrancenet.com/cologne/rasasi/rasasi-hawas-for-him/eau-de-parfum",
+   "https://rasasistore.com/products/hawas-for-him"
+  ],
+  "confidence": "high",
+  "remarks": "Pyramid from the official Rasasi product page ('Grey Amber' = Ambergris; 'Dift Wood' typo = Driftwood). Rasasi prose also mentions aquatic accents, melon, violet, cedar; some retailers add Watery Notes to the heart. One outlier listing (Silloria) gives a different pyramid. Year 2015 from retailers, official page has no year. rasasi.com returned server errors on fetch; content confirmed via search index."
+ },
+ {
+  "name": "Amber Oud Gold Edition",
+  "brand": "Al Haramain",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Amber Sweet",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Green Notes"
+   ],
+   "heart": [
+    "Melon",
+    "Pineapple",
+    "Gourmand Accord",
+    "Amber"
+   ],
+   "base": [
+    "Woody Notes",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://shop.alharamainperfumes.com/default/amber-oud-gold-edition-120-ml.html",
+   "https://us.alharamainperfumes.com/en/amber-oud-gold-edition-100ml.html",
+   "https://www.notino.co.uk/al-haramain/amber-oud-gold-edition-eau-de-parfum-unisex/",
+   "https://theperfumespot.com/amber-oud-gold-edition-by-al-haramain-6-7-oz-edp-spray-unisex/"
+  ],
+  "confidence": "medium",
+  "remarks": "Pyramid from Al Haramain's official e-shop (unisex EDP). Notino and Anabis list Watermelon instead of Melon. Year: 2018 per several retailers, one retailer says 2024 (likely a restock/new size); official site gives no year. Distinct from the Extreme (extrait) and 999.9 Dubai Edition flankers. New note name: Gourmand Accord."
+ },
+ {
+  "name": "Égoïste",
+  "brand": "Chanel",
+  "year": 1990,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Coriander",
+    "Rosewood"
+   ],
+   "heart": [
+    "Rose",
+    "Cinnamon",
+    "Carnation"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.chanel.com/us/fragrance/p/114460/egoiste-eau-de-toilette-spray/",
+   "https://en.wikipedia.org/wiki/%C3%89go%C3%AFste",
+   "https://www.journalduluxe.fr/fr/beaute/egoiste-le-parfum-masculin-sulfureux-de-chanel",
+   "https://www.perfumeintelligence.co.uk/library/perfume/c/houses/Chanel2.htm"
+  ],
+  "confidence": "high",
+  "remarks": "Chanel describes the notes in prose (mandarin, coriander, Turkish/damask rose, New Caledonian sandalwood, Madagascar vanilla, ambrette seed); tiers assembled with Wikipedia and Journal du Luxe (rosewood top, cinnamon and carnation heart). Wikipedia also lists mahogany, tobacco and dried fruits. Égoïste (1990) is a relaunch of Polge's 1988 'Bois Noir'. Chanel.com returned 403 on fetch; content confirmed via search index."
+ },
+ {
+  "name": "Allure Homme",
+  "brand": "Chanel",
+  "year": 1999,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Vetiver",
+    "Cedar",
+    "Pepper"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Labdanum",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.chanel.com/us/fragrance/p/121460/allure-homme-eau-de-toilette-spray/",
+   "https://www.olfastory.com/en/perfume/allure-homme",
+   "https://www.osmoz.com/perfumes/chanel/1658/allure-pour-homme",
+   "https://australianperfumejunkies.com/2012/07/13/allure-homme-by-jacques-polge-for-chanel-1999/"
+  ],
+  "confidence": "medium",
+  "remarks": "Year, perfumer and EDT are well supported. Notes conflict: Chanel today describes bergamot, vetiver, tonka bean, cistus labdanum and Madagascar black pepper ('Pepper'); Olfastory adds mandarin, cedar, white musks. Osmoz and older databases publish a different pyramid (peach, lemon, mandarin, bergamot / freesia, geranium, rose, jasmine / benzoin, vanilla, sandalwood, tonka). Pyramid here follows the official Chanel description, tiers inferred."
+ },
+ {
+  "name": "Allure Homme Édition Blanche",
+  "brand": "Chanel",
+  "year": 2008,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Pink Pepper",
+    "Pepper",
+    "Ginger",
+    "Cedar"
+   ],
+   "base": [
+    "Vetiver",
+    "Sandalwood",
+    "Vanilla",
+    "Tonka Bean",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/chanel/1634/allure-pour-homme-edition-blanche",
+   "https://nstperfume.com/2008/03/21/chanel-allure-homme-edition-blanche-fragrance-review/",
+   "https://www.chanel.com/us/fragrance/p/127470/allure-homme-edition-blanche-eau-de-parfum-spray/"
+  ],
+  "confidence": "high",
+  "remarks": "Launched 2008 as 'Eau de Toilette Concentrée' (mapped to Eau de Toilette); reissued as Eau de Parfum in 2014, which is the version Chanel sells today (lemon, bergamot, New Caledonian sandalwood, Haitian vetiver, Madagascar vanilla). 'Pepper' = white pepper (NST). Osmoz adds 'rose-bay' in the heart; amber only cited by NST."
+ },
+ {
+  "name": "L'Homme",
+  "brand": "Yves Saint Laurent",
+  "year": 2006,
+  "gender": "Masculine",
+  "family": "Woody Fresh Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Pierre Wargnye, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Ginger",
+    "Citron"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Basil",
+    "Pepper"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Tonka Bean",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2006/07/06/lhomme-yves-saint-laurent-lancome-miracle-forever-new-fragrances/",
+   "https://www.yslbeauty.co.uk/fragrances/fragrances-for-him/l-homme/l-homme-eau-de-toilette-spray/284YSL.html",
+   "https://www.yslbeauty.com/int/fragrance/fragrance-for-him/l-homme/l-homme-eau-de-toilette/284YSL.html",
+   "https://nstperfume.com/2009/04/22/yves-saint-laurent-lhomme-la-nuit-de-lhomme-fragrance-reviews/"
+  ],
+  "confidence": "high",
+  "remarks": "YSL UK: bergamot and cedrat zest top, Chinese ginger; violet leaf, basil flower, white pepper heart; sandalwood, Virginia cedar, Haitian vetiver base; tonka per YSL international. 'Pepper' = white pepper; 'Citron' = cedrat (YSL UK text renders it 'Cedar wood' zest). NST 2006 launch note also lists amber. Some sources add other perfumers (Béatrice Piquet, Juliette Karagueuzoglou); the three named here are the consistent credit. YSL classifies it Fresh Woody - Vetiver."
+ },
+ {
+  "name": "Legend",
+  "brand": "Montblanc",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lavender",
+    "Pineapple",
+    "Verbena"
+   ],
+   "heart": [
+    "Oakmoss",
+    "Geranium",
+    "Coumarin",
+    "Apple",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.montblanc.com/en-us/fragrances/collection/legend",
+   "https://nstperfume.com/2011/02/25/montblanc-legend-new-fragrance/",
+   "https://www.montblanc.com/en-us/legend-eau-de-toilette-50-ml-MB107459VG.html"
+  ],
+  "confidence": "high",
+  "remarks": "Pyramid from Montblanc's 'Classic Montblanc Legend' entry, matching NST's 2011 launch list (lavender, bergamot, pineapple leaves, litsea cubeba, coumarin, geranium, apple, rose, Pomarose, tonka, evernyl, sandalwood). 'Pineapple' = pineapple leaf; 'Verbena' = exotic verbena / litsea cubeba; evernyl (oakmoss accord) folded into Oakmoss. Current Montblanc EDT product pages show a different pyramid (lavender, citrus, bergamot / white cedar, rose, jasmine / evernyl, sandalwood, tonka). Some sources co-credit Céline Perdriel."
+ },
+ {
+  "name": "Aqva Pour Homme",
+  "brand": "Bvlgari",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Santolina",
+    "Posidonia"
+   ],
+   "base": [
+    "Mineral Notes",
+    "Amber",
+    "Clary Sage"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.bulgari.com/en-us/91156.html",
+   "https://www.bulgari.com/en-gb/91122.html",
+   "https://nstperfume.com/2008/03/06/bvlgari-aqva-pour-homme-aqva-pour-homme-marine-fragrance-reviews/"
+  ],
+  "confidence": "high",
+  "remarks": "Official Bvlgari pyramid: mandarin, petitgrain / santolina, posidonia / mineral amber, clary sage (family aromatic aquatic woody), matching NST. 'Mineral amber' split into Mineral Notes + Amber. Many retailers publish a different list (orange, seaweed, lavender, cotton flower, cedar, patchouli). New note names: Santolina, Posidonia (a Mediterranean seagrass)."
+ },
+ {
+  "name": "Man in Black",
+  "brand": "Bvlgari",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Spices",
+    "Rum",
+    "Amber"
+   ],
+   "heart": [
+    "Tuberose",
+    "Leather",
+    "Iris"
+   ],
+   "base": [
+    "Benzoin",
+    "Guaiac Wood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.bulgari.com/en-us/product/MAN-IN-BLACK-EDP",
+   "https://www.bulgari.com/en-sa/fragrances/mens/bvlgari-man/41385.html",
+   "https://nstperfume.com/2016/06/29/bvlgari-man-black-orient-new-fragrance",
+   "https://www.notino.co.uk/bvlgari/man-in-black-eau-de-parfum-for-men/"
+  ],
+  "confidence": "high",
+  "remarks": "Official Bvlgari pyramid: vibrant spices accord + ambery (rum) accord / tuberose absolute + leather accord / Siam benzoin + guaiac wood; Bvlgari collection text adds tonka bean. Iris (heart) and tobacco (top) come from retailers only. Bvlgari calls it ambery spicy. 2014 date confirmed by NST (2016 article) and retailers. Notino lists the 100 ml as discontinued."
+ },
+ {
+  "name": "H24",
+  "brand": "Hermès",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Clary Sage"
+   ],
+   "heart": [
+    "Narcissus",
+    "Rosewood"
+   ],
+   "base": [
+    "Metallic Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.hermes.com/us/en/product/h24-eau-de-toilette-V101561V0/",
+   "https://nstperfume.com/2021/03/15/hermes-h24-fragrance-review/",
+   "https://www.olfastory.com/en/perfume/h24/composition",
+   "https://thecandyperfumeboy.com/2021/03/23/perfume-review-h24-by-hermes/"
+  ],
+  "confidence": "medium",
+  "remarks": "Hermès publishes only a flat list of four materials: clary sage, narcissus, rosewood, sclarene (a warm metallic molecule, mapped to Metallic Notes). Tiers inferred by volatility; a reviewer places sclarene in the drydown, another hears it early. Oakmoss added from the official ingredient list (oakmoss extract), not from Hermès' note list: drop it if only house-named notes are wanted. Top has a single note because the house list is that short. Hermès presents it as a 'high-tech fougère'. Year, perfumer and EDT are high confidence; only the pyramid is medium."
+ }
+]

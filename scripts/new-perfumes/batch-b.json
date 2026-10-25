@@ -1,0 +1,529 @@
+[
+ {
+  "name": "Bad Boy",
+  "brand": "Carolina Herrera",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Quentin Bisch, Louise Turner",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Cedar",
+    "Clary Sage"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Cacao",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfume.com/carolina-herrera/bad-boy/men-cologne",
+   "https://www.nst.com.my/amp/lifestyle/flair/2019/11/543478/carolina-herrera-makes-scent-%C2%A0-rebel",
+   "https://vivir.com/article/carolina-herrera-bad-boy-edt-review"
+  ],
+  "confidence": "high",
+  "remarks": "Top 'Pepper' = white pepper. One German retailer (easycosmetic.de) lists vetiver in the heart instead of cedar; majority of sources give cedar + clary sage. Some sources list amberwood in base, others only tonka + cacao."
+ },
+ {
+  "name": "212 Men",
+  "brand": "Carolina Herrera",
+  "year": 1999,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas, Rosendo Mateu",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Bergamot",
+    "Green Notes",
+    "Grapefruit",
+    "Petitgrain",
+    "Spices"
+   ],
+   "heart": [
+    "Gardenia",
+    "Ginger",
+    "Violet",
+    "Sage",
+    "Pepper"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Incense",
+    "Musk",
+    "Guaiac Wood",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/carolina-herrera/1602/212-men",
+   "https://www.woolworths.com.au/shop/productdetails/1112754889",
+   "https://well.co.uk/carolina-herrera-212-m-100ml-edt-spray",
+   "https://fragplace.com/en/fragrances/25068/carolina-herrera/212-men"
+  ],
+  "confidence": "high",
+  "remarks": "Osmoz gives a shorter pyramid (top Lavender, Bergamot, Green Notes; heart Gardenia, Pepper, Ginger; base Sandalwood, Vetiver, Oliban, White Musks); retailers add Grapefruit, Petitgrain, Spices, Violet, Sage, Guaiac Wood, Labdanum. Retailers also credit Ann Gottlieb (fragrance developer/evaluator, not a perfumer) so she was left out of the perfumer field. Perfumer credit not on Osmoz; comes from retailer pages only."
+ },
+ {
+  "name": "Le Beau",
+  "brand": "Jean Paul Gaultier",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sonia Constant, Quentin Bisch",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Coconut"
+   ],
+   "base": [
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sephora.com/product/P513768",
+   "https://www.tendance-parfums.com/en/le-beau-jean-paul-gaultier.html",
+   "https://www.escentual.com/jean-paul-gaultier/jpglebeaumale009/",
+   "https://www.kohls.com/product/prd-7472410/jean-paul-gaultier-le-beau-eau-de-toilette-with-coconut-bergamot.jsp"
+  ],
+  "confidence": "high",
+  "remarks": "The house publishes only one note per tier (bergamot / coconut wood / tonka bean), so fewer than 2 notes per tier is intentional. Heart is described as 'coconut wood' by the brand; mapped to vocab 'Coconut'. Some retailers label the family Oriental; brand wording is aromatic woody."
+ },
+ {
+  "name": "Le Male Elixir",
+  "brand": "Jean Paul Gaultier",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Parfum",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Mint"
+   ],
+   "heart": [
+    "Vanilla",
+    "Benzoin"
+   ],
+   "base": [
+    "Honey",
+    "Tonka Bean",
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://escentual.com/products/jean-paul-gaultier-le-male-elixir-parfum-spray",
+   "https://www.sephora.de/p/le-male-elixir---eau-de-parfum-P10051068.html",
+   "https://www.tendance-parfums.com/le-male-elixir.html",
+   "https://www.fragrancesamplesuk.com/jean-paul-gaultier-le-male-elixir-parfum"
+  ],
+  "confidence": "high",
+  "remarks": "Sold as 'Parfum' by the brand, though some retailers (proshop, Sephora DE URL) label it Eau de Parfum. One retailer (ozhairandbeauty) gives a different tier placement (mint top; lavender + benzoin heart; tonka + vanilla base)."
+ },
+ {
+  "name": "Invictus Victory Elixir",
+  "brand": "Rabanne",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavandin",
+    "Cardamom",
+    "Pepper"
+   ],
+   "heart": [
+    "Incense",
+    "Patchouli"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/paco-rabanne/invictus-victory-elixir-perfume-for-men/p-16168428/",
+   "https://lookfantastic.fr/paco-rabanne-invictus-victory-elixir-parfum-intense-200ml/14198999.html",
+   "https://zalora.com.ph/blog/beauty/fragrance/paco-rabannes-invictus-victory-elixir/",
+   "https://www.johnlewis.com/rabanne-invictus-victory-elixir-parfum-intense/p110027546"
+  ],
+  "confidence": "medium",
+  "remarks": "Brand now spelled 'Rabanne' (formerly Paco Rabanne); adjust to the site's existing brand label if needed. Marketed as 'Parfum Intense'; some retailers (Sephora ME) call it Eau de Parfum. One retailer dates it 2022, most give 2023. Perfumer not found in any clean source, left null. Top cardamom = green cardamom, pepper = black pepper. Family per retailers 'amber woody spicy'."
+ },
+ {
+  "name": "The Most Wanted Intense",
+  "brand": "Azzaro",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cardamom"
+   ],
+   "heart": [
+    "Toffee"
+   ],
+   "base": [
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sephora.fr/p/azzaro-the-most-wanted---eau-de-parfum-intense-P10015274.html",
+   "https://www.maxaroma.com/fragrance/men-fragrances/azzaro-the-most-wanted/pid/34928/3",
+   "https://www.dischem.co.za/azzaro-the-most-wanted-intense-edp-50ml-846",
+   "https://www.sephora.co.uk/p/azzaro-the-most-wanted-eau-de-parfum-intense"
+  ],
+  "confidence": "medium",
+  "remarks": "House publishes a 3-note pyramid (red cardamom / toffee accord / amberwood), so one note per tier. Perfumer could not be confirmed from a clean source (left null). Family not stated by a clean source; 'Amber Woody' chosen from the published notes, treat as editorial. A Perfumania listing describes a different composition (likely mislabeled)."
+ },
+ {
+  "name": "L.12.12 Blanc",
+  "brand": "Lacoste",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Cardamom",
+    "Rosemary"
+   ],
+   "heart": [
+    "Tuberose",
+    "Ylang-Ylang",
+    "Incense"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Leather",
+    "Suede"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lacoste/44/l-12-12-blanc",
+   "https://www.kmart.com.au/product/lacoste-l.12.12.-blanc-175ml-eau-de-toilette-110161367/"
+  ],
+  "confidence": "medium",
+  "remarks": "Pyramid from Osmoz (which also puts Atlas cedar in the heart; kept only in base to avoid duplication). Retailer summary (grapefruit + cardamom / tuberose + ylang-ylang / vetiver + suede) is consistent. Perfumer not named by any clean source, left null. Incense = oliban."
+ },
+ {
+  "name": "Eros Flame",
+  "brand": "Versace",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Chinotto",
+    "Pepper",
+    "Mandarin"
+   ],
+   "heart": [
+    "Rosemary",
+    "Pepperwood",
+    "Geranium",
+    "Rose"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Cedar",
+    "Sandalwood",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/10/16/versace-eros-flame-new-fragrance",
+   "https://www.lyko.com/en/versace/versace-eros-flame-pour-homme-edp-30ml",
+   "https://www.notino.co.uk/versace/versace-eros-flame-eau-de-parfum-for-men-100-ml/"
+  ],
+  "confidence": "high",
+  "remarks": "New note name introduced: 'Chinotto' (no vocab match). 'Pepper' = black pepper. Lyko puts rosemary in the top; Notino and the Versace-sourced press list put it in the heart. Family label chosen from 'woody spicy' description; some sources say woody oriental."
+ },
+ {
+  "name": "Acqua di Giò Parfum",
+  "brand": "Giorgio Armani",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Bergamot",
+    "Ginger"
+   ],
+   "heart": [
+    "Geranium",
+    "Rosemary",
+    "Clary Sage"
+   ],
+   "base": [
+    "Incense",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.theperfumeshop.com/armani/acqua-di-gio-parfum/parfum-spray/p/70010PRFJU",
+   "https://www.notino.co.uk/armani/acqua-di-gio-parfum-perfume-for-men/",
+   "https://www.decantx.com/products/giorgio-armani-acqua-di-gio-parfum-for-men",
+   "https://scentadvice.com/acqua-di-gio-parfum-2023-armani/"
+  ],
+  "confidence": "high",
+  "remarks": "Not to be confused with Acqua di Giò Profumo (2014). Ginger extract appears only on The Perfume Shop listing. Incense = olibanum. Brand page not reached directly; notes consistent across retailers."
+ },
+ {
+  "name": "Luna Rossa Ocean",
+  "brand": "Prada",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Carlos Benaïm",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper",
+    "Artemisia"
+   ],
+   "heart": [
+    "Lavender",
+    "Iris",
+    "Sage",
+    "Suede",
+    "Saffron"
+   ],
+   "base": [
+    "Musk",
+    "Haitian Vetiver",
+    "Patchouli",
+    "Caramel"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/07/30/prada-luna-rossa-ocean-new-fragrance",
+   "https://www.decantx.com/products/prada-luna-rossa-ocean-eau-de-toilette-for-men",
+   "https://www.notino.co.uk/prada/luna-rossa-ocean-eau-de-toilette-for-men/",
+   "https://www.giftexpress.com/luna-rossa-ocean-prada-gxp-12548.html"
+  ],
+  "confidence": "high",
+  "remarks": "Notino gives a simplified pyramid (bergamot / iris / vetiver) and calls it a leather fougère. First Prada fragrance under the L'Oréal license."
+ },
+ {
+  "name": "Gentleman Réserve Privée",
+  "brand": "Givenchy",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson, Olivier Cresp",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Whiskey"
+   ],
+   "heart": [
+    "Chestnut",
+    "Iris",
+    "Benzoin"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://harrods.com/en-gb/p/givenchy-gentleman-reserve-privee-eau-de-parfum-60ml-000000000007155945",
+   "https://www.notino.co.uk/givenchy/gentleman-givenchy-reserve-privee-eau-de-parfum-for-men/",
+   "https://everfumed.com/gentleman-givenchy-reserve-privee-edp/",
+   "https://www.parfumdreams.ie/GIVENCHY/Mens-fragrances/GENTLEMAN-GIVENCHY/Eau-de-Parfum-Spray/index_110379.aspx"
+  ],
+  "confidence": "high",
+  "remarks": "Brand pyramid (via Harrods): Italian bergamot essence, Scotch whisky absolute / chestnut, orris concrete, Siam benzoin / Virginia cedar, Haitian vetiver, Indonesian patchouli. Decantx gives a looser base (whiskey, amber, woods). Full official name 'Gentleman Eau de Parfum Réserve Privée'. Family 'Woody Floral' chosen from iris + woods profile (not stated by a clean source)."
+ },
+ {
+  "name": "Hero",
+  "brand": "Burberry",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Juniper",
+    "Pepper"
+   ],
+   "base": [
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.moodiedavittreport.com/burberry-hero-coty-reveals-new-masculine-fragrance-from-burberry/",
+   "https://www.cosmeticsbusiness.com/burberry-reveals-new-male-fragrance-name-and-teases-campaign--178228",
+   "https://vmagazine.com/article/burberry-reveals-new-fragrance-for-men-burberry-hero-starring-adam-driver/",
+   "https://www.sephora.fr/p/hero---eau-de-toilette-for-men-720626.html",
+   "https://exclusivelines.lk/hero"
+  ],
+  "confidence": "medium",
+  "remarks": "House communicates juniper + black pepper (+ bergamot) over a trio of cedarwood oils (Virginia, Atlas, Himalaya), not a classic 3-tier pyramid. Tiers follow the retailer pyramid (bergamot / juniper, black pepper / three cedars). Sephora FR presents juniper and pepper as top notes; Notino FR lists a different, longer pyramid (bergamot, lemon, cardamom / lavender, pepper, juniper, nutmeg / cedar). Year and perfumer confirmed by trade press (Moodie Davitt, Cosmetics Business); launched in travel retail 1 Aug 2021."
+ },
+ {
+  "name": "Kenzo pour Homme",
+  "brand": "Kenzo",
+  "year": 1991,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christian Mathieu",
+  "notes": {
+   "top": [
+    "Clary Sage",
+    "Rosewood",
+    "Bergamot",
+    "Lemon",
+    "Sea Notes"
+   ],
+   "heart": [
+    "Ozonic Notes",
+    "Thyme",
+    "Clove",
+    "Nutmeg",
+    "Pine"
+   ],
+   "base": [
+    "Cedar",
+    "Fir",
+    "Sandalwood",
+    "Musk",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/1045/kenzo-for-men",
+   "https://www.sephora.fr/p/kenzo-homme---eau-de-toilette-P10023077.html",
+   "https://www.notino.fr/kenzo/homme-eau-de-toilette-pour-homme/",
+   "https://bespokeunit.com/articles/fragrance/kenzo-pour-homme-edt-review/"
+  ],
+  "confidence": "medium",
+  "remarks": "Currently sold as 'Kenzo Homme' Eau de Toilette (reissued in 2022 with new bottle). Core pyramid from Osmoz (1991 entry: clary sage, rosewood, bergamot, lemon / ozone, thyme, cloves, nutmeg / cedar, balsam fir, sandalwood, white musks). Sephora FR (pine, sandalwood) and Notino FR (marine notes + nutmeg / pine + cedar / sandalwood + labdanum) describe the current version; Sea Notes, Pine and Labdanum added from those. Several reformulations since 1991. Perfumer spelled 'Christian Matthieu' in some sources."
+ },
+ {
+  "name": "Déclaration",
+  "brand": "Cartier",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Birch",
+    "Artemisia",
+    "Coriander",
+    "Mandarin",
+    "Neroli"
+   ],
+   "heart": [
+    "Cardamom",
+    "Pepper",
+    "Ginger",
+    "Iris",
+    "Jasmine",
+    "Juniper"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Leather",
+    "Amber",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/cartier/511/declaration",
+   "https://www.decantx.com/products/cartier-declaration-eau-de-toilette-for-men-1",
+   "https://www.tendance-parfums.com/declaration.html",
+   "https://cafleurebon.com/cafleurebon-modern-masterpieces-cartier-declaration-jean-claude-ellena-1998/"
+  ],
+  "confidence": "high",
+  "remarks": "Osmoz classifies it as Woody - Floral Musk; 'Woody Spicy' chosen because cardamom is the documented signature (tendance-parfums). Switch to 'Woody Floral Musk' if strict source adherence is preferred. Caraway is also listed in the top by retailers (omitted to stay within 6 notes). Cumin mentioned by one blog review only; not included. Tea also listed in base by some retailers."
+ },
+ {
+  "name": "Viking",
+  "brand": "Creed",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Creed",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Peppermint"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ZGOperfumery.com/collections/mens/products/creed-viking-eau-de-parfum",
+   "https://www.notino.co.uk/creed/viking-eau-de-parfum-for-men/p-11626505/",
+   "https://scentgrail.com/perfume-reviews/creed-viking-review/"
+  ],
+  "confidence": "medium",
+  "remarks": "Creed brand copy: Calabrian bergamot, Sicilian lemon with pink peppercorn, Bulgarian rose and peppermint; woody base of Indian sandalwood and Haitian vetiver. Patchouli from ZGO note list. Notino UK and Scentgrail give a different base (Haitian vetiver, cedarwood, tonka bean, white musk). Pink pepper sits between top and heart depending on source. Some sources credit Olivier and Erwin Creed; kept Olivier Creed per retailer. Family not stated by a clean source."
+ }
+]

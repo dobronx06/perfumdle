@@ -14,7 +14,7 @@ BRAND_ALIASES = {
     'Thierry Mugler': 'Mugler', 'Jean Patou': 'Patou',
 }
 NOTE_ALIASES = {
-    'Blackcurrant': 'Black Currant', 'Agarwood': 'Oud', 'Orris': 'Iris',
+    'Blackcurrant': 'Black Currant', 'Litchi': 'Lychee', 'Cacao': 'Cocoa', 'Agarwood': 'Oud', 'Orris': 'Iris',
     'Olibanum': 'Incense', 'Frankincense': 'Incense', 'Tobacco Leaf': 'Tobacco',
     'Jasmine Sambac': 'Jasmine', 'Turkish Rose': 'Rose', 'Bulgarian Rose': 'Rose',
     'May Rose': 'Rose', 'Damask Rose': 'Rose', 'Rose de Mai': 'Rose',

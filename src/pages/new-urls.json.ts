@@ -14,6 +14,10 @@ export const GET: APIRoute = () => {
     urls.add(url.similar('fr', slug)); urls.add(url.similar('en', slug));
     urls.add(url.perfume('fr', slug)); urls.add(url.perfume('en', slug)); // now links to its similar page
   }
+  for (const slug of publishedToday('perfume')) {
+    urls.add(url.perfume('fr', slug)); urls.add(url.perfume('en', slug));
+    urls.add(url.perfumes('fr')); urls.add(url.perfumes('en'));
+  }
   for (const id of publishedToday('ranked')) {
     const d = rankedById.get(id) as RankedDef | undefined;
     if (!d) continue;

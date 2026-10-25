@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Amor Amor",
+    "brand": "Cacharel",
+    "year": 2003,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Dominique Ropion, Laurent Bruyère",
+    "notes": {
+      "top": ["Black Currant", "Blood Orange", "Grapefruit", "Mandarin", "Bergamot"],
+      "heart": ["Jasmine", "Lily of the Valley", "Rose", "Apricot", "Lily"],
+      "base": ["Vanilla", "Tonka Bean", "Musk", "Amber", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/cacharel/1519/amor-amor",
+      "https://auparfum.bynez.com/amor-amor-cacharel-0013",
+      "https://galaxus.ch/en/s6/product/cacharel-fragrance-amor-amor-eau-de-toilette-30-ml-fragrances-5962810",
+      "https://www.notino.fr/cacharel/amor-amor-eau-de-toilette-pour-femme/"
+    ],
+    "confidence": "high",
+    "remarks": "Year 2003 and perfumers (Ropion + Bruyère) per Auparfum; Osmoz also gives 2003. Pyramid merges Osmoz (grapefruit, blackcurrant, blood orange / jasmine, lily of the valley / ambergris, vanilla, white musk, tonka) with retailer lists (Galaxus, Notino: mandarin, bergamot, cassia / apricot, lily, rose / amber, Virginia cedar). Family: Osmoz says Floral-Fruity, Auparfum classes it Ambrée (oriental gourmand); Floral Fruity chosen. No official Cacharel note page found. Do not confuse with the later Amor Amor Eau de Parfum (pear, pink pepper, iris)."
+  },
+  {
+    "name": "Vanilla 28",
+    "brand": "Kayali",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Vanilla Orchid", "Jasmine"],
+      "heart": ["Vanilla", "Tonka Bean"],
+      "base": ["Brown Sugar", "Musk", "Patchouli", "Amberwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://us.kayali.com/products/vanilla-28",
+      "https://www.thezoereport.com/beauty/kayali-vanilla-28-popular-vanilla-fragrance",
+      "https://en.wikipedia.org/wiki/Kayali_(company)",
+      "https://www.sephora.me/bh-en/p/vanilla-28/471787"
+    ],
+    "confidence": "high",
+    "remarks": "Official spelling on bottle is 'Vanilla | 28'. Launched 16 Nov 2018 with the brand (Wikipedia). Official pyramid: top Vanilla Orchid, Creamy Jasmine; middle Vanilla Infusion, Vanilla Surabsolute (+ Tonka in some official listings); dry Brown Sugar, Musk, Patchouli; key-notes list adds Amber Woods. Developed with Firmenich; no individual perfumer named by clean sources (a Vivir.com article credits Gabriela Chelariu, not verifiable, so left null). 'Brown Sugar' is a new note name. Family: Kayali/Sephora say Warm & Spicy, gourmand."
+  },
+  {
+    "name": "Ari",
+    "brand": "Ariana Grande",
+    "year": 2015,
+    "gender": "Feminine",
+    "family": "Floral Fruity Gourmand",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Pear", "Grapefruit", "Raspberry"],
+      "heart": ["Lily of the Valley", "Rose", "Vanilla Orchid"],
+      "base": ["Marshmallow", "Musk", "Blonde Woods"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://cosmeticsbusiness.com/ariana-grande-debut-scent-expected-to-be-huge-success-111351",
+      "https://drugstorenews.com/beauty/ariana-grande-launch-first-scent-shoppers-drug-mart",
+      "https://www.lookfantastic.com/p/ariana-grande-ari-eau-de-parfum-100ml/14589679/",
+      "https://www.notino.fr/ariana-grande/ari-by-ariana-grande-eau-de-parfum-pour-femme/"
+    ],
+    "confidence": "medium",
+    "remarks": "Full name often 'Ari by Ariana Grande'. Announced 20 Aug 2015, in stores Sept 2015 (Cosmetics Business), made with Luxe Brands. Pyramid from trade press release as reported by Drug Store News (pear, pink grapefruit, raspberry / muguet, rose buds, vanilla orchid / marshmallow, creamy musk, blonde woods); Lookfantastic matches. Drug Store News page could not be fetched directly (403), notes taken from search extract. Perfumer not named in any clean source."
+  },
+  {
+    "name": "Glossier You",
+    "brand": "Glossier",
+    "year": 2017,
+    "gender": "Unisex",
+    "family": "Woody Floral Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Pink Pepper"],
+      "heart": ["Iris"],
+      "base": ["Ambrette", "Ambroxan", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.glossier.com/products/glossier-you",
+      "https://nylon.com/articles/glossier-you-fragrance",
+      "https://ca.fashionnetwork.com/news/Glossier-will-launch-a-fragrance,880045.html",
+      "https://www.sephora.com/product/glossier-glossier-you-eau-de-parfum-P504364"
+    ],
+    "confidence": "medium",
+    "remarks": "Official pyramid only has one top note (Pink Pepper) and one heart note (Iris); base Ambrette + Ambrox; Musk added from Nylon ('ambrette, ambrox, iris and musk' plus pink peppercorn). Below the 2-note minimum for top/heart because the house publishes no more; nothing added. Launch: FashionNetwork 13 Oct 2017 reports the brand's first fragrance launching then. Perfumer not disclosed. Gender: marketed as a genderless skin scent; Unisex chosen. Family is an editorial choice (Sephora: Warm & Spicy / Warm & Sheer)."
+  },
+  {
+    "name": "Eilish",
+    "brand": "Billie Eilish",
+    "year": 2021,
+    "gender": "Feminine",
+    "family": "Gourmand Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Steve DeMercado",
+    "notes": {
+      "top": ["Sugar", "Mandarin", "Red Berries"],
+      "heart": ["Spices", "Cocoa", "Vanilla"],
+      "base": ["Musk", "Tonka Bean", "Woods"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.happi.com/contents/view_breaking-news/2021-10-20/billie-eilish-debuts-eponymous-fragrance-/",
+      "https://www.iconvsicon.com/2021/11/10/pop-icon-billie-eilish-launches-her-first-signature-fragrance/",
+      "https://fashionunited.uk/news/people/singer-billie-eilish-to-launch-debut-fragrance/2021102158605",
+      "https://www.theperfumeshop.com/ie/billie-eilish/eilish-fragrance/eau-de-parfum-spray/p/10020EDPJU"
+    ],
+    "confidence": "medium",
+    "remarks": "Launched 10 Nov 2021 direct-to-consumer via Parlux (Icon vs Icon, Happi); The Perfume Shop lists 2022, which is its UK retail date. Official pyramid: sugared petals, mandarin, red berries / creamy vanilla, soft spices, cocoa / warm musks, tonka bean, sleek woods; marketed as amber gourmand. 'Sugared petals' mapped to Sugar. Some retailers add rose to the heart. Perfumer Steve DeMercado only cited by retailer pages, not by press release; treat as unconfirmed. Brand markets it to everyone; retailers class it feminine."
+  },
+  {
+    "name": "Cheirosa 68 Beija Flor",
+    "brand": "Sol de Janeiro",
+    "year": 2022,
+    "gender": "Unisex",
+    "family": "Floral Fruity",
+    "concentration": "Perfume Mist",
+    "perfumer": null,
+    "notes": {
+      "top": ["Pink Dragonfruit", "Lychee"],
+      "heart": ["Jasmine", "Ozonic Notes", "Hibiscus"],
+      "base": ["Vanilla", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://soldejaneiro.com/products/cheirosa-68-perfume-mist",
+      "https://soldejaneiro.com/blogs/fragrance/meet-our-new-cheirosa-68-perfume-mist",
+      "https://sephora.me/sa-en/p/cheirosa-68-perfume-mist/P10026082",
+      "https://www.spacenk.com/fr/parfum/parfum-personnel/parfum/cheirosa-68-perfume-mist-UK200034799.html"
+    ],
+    "confidence": "medium",
+    "remarks": "Official pyramid: pink dragonfruit, lychee essence / Brazilian jasmine, ocean air, hibiscus / sheer vanilla, sun musk. 'Ocean air' mapped to Ozonic Notes; 'Pink Dragonfruit' is a new note name. Year from the brand blog post 'Meet our NEW Cheirosa 68 Perfume Mist' dated 25 Apr 2022 (scent first existed as the Beija Flor Elasti-Cream fragrance); no second independent launch-date source. Reference product is a body perfume mist, not EDT/EDP: 'Perfume Mist' is a new concentration label. Brand does not gender the scent."
+  },
+  {
+    "name": "Good Girl Gone Bad",
+    "brand": "By Kilian",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": ["Osmanthus", "Jasmine", "Rose"],
+      "heart": ["Tuberose", "Narcissus", "Orange Blossom"],
+      "base": ["Cedar", "Vetiver", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.bykilian.com/product/19797/52759/perfume/good-girl-gone-bad-by-kilian/the-narcotics",
+      "https://www.osmoz.com/perfumes/by-kilian/6913/good-girl-gone-bad",
+      "https://www.osmoz.com/inspiration/osmoz-magazine/595/best-kilian-perfume",
+      "https://www.selfridges.com/AU/en/cat/kilian-good-girl-gone-bad-refillable-eau-de-parfum-100ml_R04228898/"
+    ],
+    "confidence": "high",
+    "remarks": "Year conflict: Osmoz product page says 2013, Osmoz magazine article says launched 2012 (original 'In the Garden of Good and Evil' collection, late 2012); 2012 kept. Perfumer Alberto Morillas (Firmenich) per Osmoz and Kilian gift-set page. Official Kilian page (Narcotics collection) leads with orange blossom, osmanthus, tuberose, plus May rose, jasmine and narcissus; Osmoz pyramid: jasmine, osmanthus / narcissus, rose, tuberose / cedar, vetiver; Osmoz magazine adds amber in base. Official page returned 403 on fetch, notes taken from search extract."
+  },
+  {
+    "name": "Replica Under the Lemon Trees",
+    "brand": "Maison Margiela",
+    "year": 2018,
+    "gender": "Unisex",
+    "family": "Citrus",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Violaine Collas",
+    "notes": {
+      "top": ["Lime", "Petitgrain", "Cardamom"],
+      "heart": ["Coriander", "Mate", "Green Tea"],
+      "base": ["Cedar", "Cistus", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.maisonmargiela-fragrances.us/fragrances/replica-eau-de-toilette/replica-under-the-lemon-trees/MM013.html",
+      "https://nstperfume.com/2018/12/05/maison-martin-margiela-under-the-lemon-trees-new-fragrance",
+      "https://thezoereport.com/p/maison-margielas-replica-under-the-lemon-trees-fragrance-has-arrived-heres-where-to-buy-it-15949960",
+      "https://www.gcimagazine.com/brands-products/fragrance-home/news/21882895/under-the-lemon-trees-with-maison-margielas-latest-scent"
+    ],
+    "confidence": "medium",
+    "remarks": "Year: NST announced pre-order (Barneys) on 5 Dec 2018; The Zoe Report 'has arrived' article dated 13 Feb 2019; Perfume.com says 2019. 2018 kept, wide release early 2019. Official pyramid: kalamansi lime accord, petit grain, cardamom / coriander, mate absolute, green tea / cedarwood, cistus absolute, (white) musks. Kalamansi lime mapped to Lime; 'Mate' is a new note name. Perfumer Violaine Collas (Mane) per GCI Magazine and Zoe Report. Sephora.fr classes it Hespéridée Florale."
+  },
+  {
+    "name": "Fleur Narcotique",
+    "brand": "Ex Nihilo",
+    "year": 2014,
+    "gender": "Unisex",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Bergamot", "Lychee", "Peach"],
+      "heart": ["Peony", "Orange Blossom", "Jasmine"],
+      "base": ["Musk", "Woody Notes", "Oakmoss"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://us.ex-nihilo-paris.com/products/fleur-narcotique-eau-de-parfum",
+      "https://www.osmoz.com/perfumes/ex-nihilo/7563/fleur-narcotique",
+      "https://www.decantx.com/products/ex-nihilo-fleur-narcotique-eau-de-parfum-unisex"
+    ],
+    "confidence": "high",
+    "remarks": "Official EDP pyramid: bergamot, lychee, peach / Petalia (a peony-type captive), orange blossom, jasmine / musk, transparent wood, moss. Osmoz lists peony in the heart and oakmoss, white musks, woody notes in base; Petalia mapped to Peony. Year 2014 and perfumer Quentin Bisch (Givaudan) per Osmoz; official site confirms Bisch. Brand spelling is EX NIHILO (all caps on site). The later Extrait version has a different note list (osmanthus, freesia, sandalwood)."
+  },
+  {
+    "name": "Oud Maracujá",
+    "brand": "Maison Crivelli",
+    "year": 2023,
+    "gender": "Unisex",
+    "family": "Woody",
+    "concentration": "Extrait de Parfum",
+    "perfumer": "Jordi Fernandez",
+    "notes": {
+      "top": ["Passion Fruit", "Saffron", "Rose"],
+      "heart": ["Oud", "Benzoin", "Patchouli", "Cistus"],
+      "base": ["Leather", "Vanilla", "Akigalawood"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://maisoncrivelli.com/en-fr/products/oud-maracuja",
+      "https://ministryofscent.com/products/oud-maracuja-extrait",
+      "https://www.harrods.com/en-gb/p/maison-crivelli-oud-maracuja-extrait-de-parfum-50ml-000000000007397306",
+      "https://venbafragrance.com/collections/women/products/maison-crivelli-oud-maracuja-extrait-1-7-oz"
+    ],
+    "confidence": "medium",
+    "remarks": "House publishes a flat list of key materials (passion fruit accord, saffron, Turkish rose absolute, oud accord, Laos benzoin, Spanish cistus absolute, leather accord, Indonesian patchouli, vanilla, akigalawood) at 32% concentration; split by volatility, consistent with retailer pyramids (passion fruit, saffron, Turkish rose on top; leather, vanilla, akigalawood in base). Brand says created 'in collaboration with' Jordi Fernandez; Ministry of Scent and Selfridges name him as perfumer. Year 2023 only from retailers (Venba, Scentverdict), no official date; brand says voted Fragrantica Best Niche 2024. Brand describes the family as woody fruity."
+  },
+  {
+    "name": "Hundred Silent Ways",
+    "brand": "Nishane",
+    "year": 2016,
+    "gender": "Unisex",
+    "family": "Floral",
+    "concentration": "Extrait de Parfum",
+    "perfumer": "Jorge Lee",
+    "notes": {
+      "top": ["Tuberose", "Mandarin", "Peach"],
+      "heart": ["Jasmine", "Gardenia", "Iris"],
+      "base": ["Vanilla", "Sandalwood", "Vetiver"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.nishane.com/hundred-silent-ways",
+      "https://www.lamaisonduparfum.com/collections/nishane/products/hundred-silent-ways",
+      "https://surrendertochance.com/nishane-hundred-silent-ways/",
+      "https://www.decantx.com/products/nishane-hundred-silent-way-extrait-de-parfum-unisex-box"
+    ],
+    "confidence": "medium",
+    "remarks": "Notes are the official Nishane pyramid (tuberose, mandarin, peach / white jasmine, gardenia, orris / vanilla, sandalwood, vetiver), matched by retailers. Year 2016 from retailers only (Surrender to Chance, Decantx), not stated by the brand. Perfumer Jorge Lee from a single retailer blog (Surrender to Chance); not confirmed by a second clean source. Do not confuse with Hundred Silent Ways X (2023, Anne Flipo)."
+  },
+  {
+    "name": "Thé Noir 29",
+    "brand": "Le Labo",
+    "year": 2015,
+    "gender": "Unisex",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Frank Voelkl",
+    "notes": {
+      "top": ["Bergamot", "Fig", "Bay Leaf"],
+      "heart": ["Cedar", "Vetiver", "Musk"],
+      "base": ["Black Tea", "Tobacco", "Hay"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.lelabofragrances.com/th-noir-29.html",
+      "https://nstperfume.com/2015/10/12/le-labo-the-noir-29-new-fragrance",
+      "https://cafleurebon.com/?p=75770"
+    ],
+    "confidence": "high",
+    "remarks": "Press release (NST, 12 Oct 2015; CaFleureBon) says it debuted November 2015, composed by Frank Voelkl (Firmenich). Notes: bergamot, fig, bay leaves; cedarwood, vetiver, musk; a black tea extraction giving dry, leafy, hay, tobacco facets in the drydown. Le Labo itself lists notes without tiers; tiering follows the press release and retailers. 'Hay' is a new note name."
+  },
+  {
+    "name": "Ambre Sultan",
+    "brand": "Serge Lutens",
+    "year": 1993,
+    "gender": "Unisex",
+    "family": "Amber",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Christopher Sheldrake",
+    "notes": {
+      "top": ["Bay Leaf", "Oregano", "Coriander"],
+      "heart": ["Myrtle", "Angelica", "Benzoin"],
+      "base": ["Amber", "Labdanum", "Patchouli", "Sandalwood", "Styrax", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://sergelutens.com/collections/resineux-ambres/products/ambre-sultan-eau-de-parfum-spray",
+      "https://auparfum.bynez.com/ambre-sultan,717",
+      "https://fr.wikipedia.org/wiki/Ambre_Sultan",
+      "https://www.osmoz.fr/parfums/serge-lutens/4052/ambre-sultan",
+      "https://www.perfume.com/serge-lutens/ambre-sultan/men-cologne"
+    ],
+    "confidence": "high",
+    "remarks": "House only lists Amber, Vanilla, Patchouli (family Résineux/Ambrés). Pyramid from Osmoz (bay leaf, coriander / angelica, myrtle / tolu balsam, patchouli, sandalwood, styrax) and Perfume.com (oregano, bay leaf, coriander, myrtle / myrrh, benzoin, resins / amber, sandalwood, patchouli, vanilla, labdanum); Auparfum review confirms laurel, oregano, myrtle, styrax, cistus-labdanum. Year 1993 (Auparfum, Wikipedia FR); first sold at the Palais Royal boutique, entered the wider Lutens line in 2000 (Osmoz). Perfumer: Auparfum credits Sheldrake; Wikipedia FR credits Lutens and Sheldrake. Wikipedia FR classes it oriental boisé, Auparfum ambrée."
+  },
+  {
+    "name": "Féminité du Bois",
+    "brand": "Serge Lutens",
+    "year": 1992,
+    "gender": "Unisex",
+    "family": "Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Pierre Bourdon, Christopher Sheldrake",
+    "notes": {
+      "top": ["Cinnamon", "Cardamom", "Clove", "Orange"],
+      "heart": ["Plum", "Peach", "Violet", "Rose", "Orange Blossom"],
+      "base": ["Cedar", "Honey", "Beeswax", "Musk", "Sandalwood", "Benzoin"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://sergelutens.com/products/feminite-du-bois-eau-de-parfum-spray",
+      "https://auparfum.bynez.com/feminite-du-bois,163",
+      "https://osmoz.com/perfumes/serge-lutens/6613/feminite-du-bois",
+      "https://boisdejasmin.com/?p=436"
+    ],
+    "confidence": "high",
+    "remarks": "Launched 1992 under Shiseido (Lutens creative direction), moved into the Serge Lutens line in 2009; Osmoz header says 2011 but its history section says 1992. House lists only Cedarwood, Floral notes, Plum and calls it its first unisex EDP; Auparfum lists the gender as feminine. Perfumers Pierre Bourdon and Christopher Sheldrake per Auparfum. Pyramid built from Osmoz tiers (cinnamon, spices / orange blossom, peach, plum, violet leaves / benzoin, vanilla, cedar, sandalwood) plus Auparfum's untiered list (orange, rose, cardamom, clove, honey, wax, musk), so marked inferred. 'Beeswax' is a new note name. Family: Auparfum Boisée, Osmoz Oriental-Woody."
+  },
+  {
+    "name": "Guidance",
+    "brand": "Amouage",
+    "year": 2023,
+    "gender": "Feminine",
+    "family": "Floral Amber",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Pear", "Incense", "Hazelnut"],
+      "heart": ["Saffron", "Rose", "Jasmine", "Osmanthus"],
+      "base": ["Cistus", "Sandalwood", "Akigalawood", "Ambergris", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://amouage.com/products/100ml-guidance",
+      "https://amouage.com/pages/the-guidance-collection",
+      "https://www.harpersbazaararabia.com/beauty/amouages-guidance-46",
+      "https://zgoperfumery.com/products/amouage-guidance-eau-de-parfum"
+    ],
+    "confidence": "high",
+    "remarks": "Official pyramid: pear, frankincense, hazelnut / saffron, rose, jasmine sambac, osmanthus / cistus, sandalwood, akigalawood, ambergris, vanilla; 25% oil EDP; family 'Floral | Amber'. Frankincense mapped to Incense. Amouage Guidance Collection page: released 2023, composed by Quentin Bisch under Renaud Salmon. Amouage files it in its women's line (worn widely as unisex). An Amouage sampler-set page shows an unrelated pyramid (lily of the valley, mystikal, benzoin), apparently a page error; ignored. Not to be confused with Guidance 46 (2024 extrait)."
+  }
+]

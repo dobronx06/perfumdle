@@ -4,6 +4,8 @@
  * with the editorial JSON files in src/data/editorial/.
  */
 import perfumesRaw from '../data/perfumes.json';
+import schedule from '../data/publish-schedule.json';
+import { isPublished } from './schedule';
 import type { Locale } from '../i18n';
 
 export const SITE = 'https://perfumdle.com';
@@ -80,7 +82,10 @@ export function slugify(s: string): string {
   return s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-export const perfumes: Perfume[] = (perfumesRaw as Perfume[]).slice();
+/* Perfumes added after launch are drip-fed: a slug listed under "perfume" in publish-schedule.json only
+   exists in the build (pages, hubs, game, similar lists) once its date has passed. */
+const scheduledPerfumes = schedule.perfume as Record<string, string>;
+export const perfumes: Perfume[] = (perfumesRaw as Perfume[]).filter((p) => !(p.slug in scheduledPerfumes) || isPublished('perfume', p.slug));
 export const perfumeBySlug = new Map(perfumes.map((p) => [p.slug, p]));
 
 export function perfumeEditorial(slug: string): PerfumeEditorial | undefined {
@@ -157,8 +162,11 @@ export const NOTE_PAGE_MIN = 4;
 const noteCount = new Map<string, number>();
 for (const p of perfumes) for (const n of allNotes(p)) noteCount.set(n, (noteCount.get(n) ?? 0) + 1);
 
+/** Catch-all labels that cannot carry a page of their own. */
+const GENERIC_NOTES = new Set(['Woody Notes', 'Sea Notes', 'Spices', 'Red Berries', 'Sugar']);
+
 export function hasNotePage(note: string): boolean {
-  return (noteCount.get(note) ?? 0) >= NOTE_PAGE_MIN && note !== 'Woody Notes';
+  return (noteCount.get(note) ?? 0) >= NOTE_PAGE_MIN && !GENERIC_NOTES.has(note);
 }
 
 export function noteName(note: string, l: Locale): string {
