@@ -1,0 +1,20 @@
+---
+/** /fr/pub-parfum/ (guide), /homme/, /femme/ and one page per perfume, generated once their copy exists in src/data/ads.json. */
+import AdView from '../../../views/AdView.astro';
+import data from '../../../data/ads.json';
+import { perfumeBySlug } from '../../../lib/catalog';
+import { isPublished } from '../../../lib/schedule';
+export function getStaticPaths() {
+  const d = data as { hub: unknown; men: unknown; women: unknown; pages: Record<string, unknown> };
+  const pages = Object.keys(d.pages).filter((s) => perfumeBySlug.has(s) && isPublished('ad', s));
+  if (!pages.length) return []; // the hubs go live with the first perfume page
+  return [
+    ...(d.hub ? [{ params: { slug: undefined }, props: { kind: 'hub' as const } }] : []),
+    ...(d.men ? [{ params: { slug: 'homme' }, props: { kind: 'men' as const } }] : []),
+    ...(d.women ? [{ params: { slug: 'femme' }, props: { kind: 'women' as const } }] : []),
+    ...pages.map((s) => ({ params: { slug: s }, props: { kind: 'page' as const, slug: s } })),
+  ];
+}
+const { kind, slug } = Astro.props;
+---
+<AdView kind={kind} slug={slug} />

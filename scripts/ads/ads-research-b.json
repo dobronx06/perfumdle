@@ -1,0 +1,2169 @@
+{
+  "paco-rabanne-1-million": {
+    "name": "1 Million",
+    "brand": "Rabanne (Paco Rabanne)",
+    "campaigns": [
+      {
+        "year": 2015,
+        "title": "Fabulous Life",
+        "faces": [
+          "Sean O'Pry"
+        ],
+        "director": "Alexandre Courtès",
+        "music": {
+          "title": "Wonderland",
+          "artist": "Denis Naidanow feat. Tyree Cooper",
+          "note": null
+        },
+        "photographer": null,
+        "agency": "Mazarine",
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.journalduluxe.fr/fr/beaute/fabulous-life-le-nouveau-film-de-paco-rabanne",
+          "https://lareclame.fr/120304-musique-paco-rabanne-one-million-2015"
+        ],
+        "single_source": [
+          "agency"
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "Million Nation (shared 1 Million / Lady Million film)",
+        "faces": [
+          "Joey Bada$$",
+          "Alton Mason",
+          "Londone Myers",
+          "Simona Kust",
+          "Dree Hemingway",
+          "Levi Dylan"
+        ],
+        "director": null,
+        "music": {
+          "title": "Rapper's Delight",
+          "artist": "The Sugarhill Gang",
+          "note": "original 1979 recording"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Black-and-white party scene, finger snaps, gold and wealth symbols",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/mannequins-et-musique-de-la-pub-1-million-de-paco-rabanne-2019/",
+          "https://www.too-young.com/?p=14957"
+        ],
+        "single_source": [
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "Director of the 2019 film conflicts: BuzzWebzine names Oliver Hadlee Pearch, too-young.com names Paul Gore (Standard/Iconoclast); left blank. The finger snap is the recurring signature of the 1 Million / Lady Million films. No reliable credits found for the 2008 launch film or a 2021-2026 1 Million film. Million Gold For Her (2024, Gigi Hadid, 'Pure/Honey' by Beyonce) is a separate women's line, recorded under Lady Million as related context."
+  },
+  "paco-rabanne-invictus": {
+    "name": "Invictus",
+    "brand": "Rabanne (Paco Rabanne)",
+    "campaigns": [
+      {
+        "year": 2013,
+        "title": null,
+        "faces": [
+          "Nick Youngquest"
+        ],
+        "director": "Alexandre Courtès",
+        "music": {
+          "title": "POWER",
+          "artist": "Kanye West",
+          "note": "original"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Stadium; athletes worshipped as modern gods, mythology references",
+        "video_url": null,
+        "sources": [
+          "https://hypebeast.com/2013/9/invictus-by-paco-rabanne",
+          "https://moodiedavittreport.com/?p=366001",
+          "https://www.buzzwebzine.fr/power-de-kanye-west-musique-de-la-pub-ford-puma/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2019,
+        "title": "Invictus Legend",
+        "faces": [
+          "Nick Youngquest",
+          "Luma Grothe"
+        ],
+        "director": "François Rousselet",
+        "music": null,
+        "photographer": "Simon Eeles",
+        "agency": null,
+        "setting": "Desert (Namibia), Mad Max-style",
+        "video_url": null,
+        "sources": [
+          "https://www.thefashionisto.com/paco-rabanne-2019-invictus-fragrance-campaign/",
+          "https://fashiongonerogue.com/luma-grothe-paco-rabanne-fragrance-campaign",
+          "https://react.magzter.com/stories/Fashion/GQ-South-Africa/The-Making-Of-A-Legend"
+        ],
+        "single_source": [
+          "photographer",
+          "setting"
+        ]
+      },
+      {
+        "year": 2022,
+        "title": "Invictus Platinum",
+        "faces": [
+          "Jalen Green"
+        ],
+        "director": null,
+        "music": {
+          "title": "Greatness",
+          "artist": "Vo Williams",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/pub-invictus-platinium-paco-rabanne-2022-mannequin-musique/"
+        ],
+        "single_source": [
+          "faces",
+          "music"
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "Invictus / Invictus Elixir",
+        "faces": [
+          "Giacomo Cavalli"
+        ],
+        "director": null,
+        "music": {
+          "title": "We Are the Champions",
+          "artist": "Queen",
+          "note": "La Reclame calls it a reinterpretation of the Queen song"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-rabanne-2026-336618",
+          "https://www.buzzwebzine.fr/musique-pub-invictus-paco-rabanne-2026/"
+        ],
+        "single_source": [
+          "faces"
+        ]
+      }
+    ],
+    "remarks": "Current campaign (2026) director not found. Kanye West 'POWER' is the music most associated with Invictus in France."
+  },
+  "paco-rabanne-lady-million": {
+    "name": "Lady Million",
+    "brand": "Rabanne (Paco Rabanne)",
+    "campaigns": [
+      {
+        "year": 2010,
+        "title": null,
+        "faces": [
+          "Dree Hemingway"
+        ],
+        "director": null,
+        "music": {
+          "title": "Do It Again",
+          "artist": "The Chemical Brothers",
+          "note": "2011 airing credited as a cover by Alexandre Geindre; 2012 airing credited to the original"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://fr.fashionnetwork.com/news/Paco-rabanne-avec-dree-hemingway,89862.html",
+          "https://lareclame.fr/musique+lady+million+paco+rabanne",
+          "https://lareclame.fr/37639+lady+million+paco+rabanne"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2015,
+        "title": null,
+        "faces": [
+          "Hana Jirickova"
+        ],
+        "director": "Alexandre Courtès",
+        "music": {
+          "title": "Wonderland",
+          "artist": "Denis Naidanow feat. Tyree Cooper",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/132188-musique-paco-rabanne-lady-million-2015",
+          "https://lareclame.fr/musique-pub-pacorabanne-2016-165851"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2019,
+        "title": "Million Nation (shared with 1 Million)",
+        "faces": [
+          "Simona Kust",
+          "Dree Hemingway",
+          "Joey Bada$$",
+          "Alton Mason",
+          "Londone Myers",
+          "Levi Dylan"
+        ],
+        "director": null,
+        "music": {
+          "title": "Rapper's Delight",
+          "artist": "The Sugarhill Gang",
+          "note": "original"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/mannequins-et-musique-de-la-pub-1-million-de-paco-rabanne-2019/",
+          "https://www.too-young.com/?p=14957"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2024,
+        "title": "Million Gold For Her",
+        "faces": [
+          "Gigi Hadid"
+        ],
+        "director": "Manu Cossu and Mert Alas",
+        "music": {
+          "title": "Pure/Honey",
+          "artist": "Beyoncé",
+          "note": "from the album Renaissance (2022)"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.journalduluxe.fr/fr/beaute/rabanne-gigi-hadid-nouveau-parfum-million-gold/amp",
+          "https://www.buzzwebzine.fr/musique-pub-million-gold-for-her-paco-rabanne-2024/",
+          "https://www.thezoereport.com/beauty/rabanne-million-gold-for-her-fragrance-gigi-hadid"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "2024 entry is Million Gold For Her, the successor women's line, not Lady Million itself; include as context. Lady Million films share the finger-snap signature with 1 Million."
+  },
+  "paco-rabanne-phantom": {
+    "name": "Phantom",
+    "brand": "Rabanne (Paco Rabanne)",
+    "campaigns": [
+      {
+        "year": 2021,
+        "title": null,
+        "faces": [
+          "David Trulik",
+          "Issa Lish",
+          "Kristina Grikaite",
+          "Petra Koubkova"
+        ],
+        "director": "Antoine Bardou-Jacquet",
+        "music": {
+          "title": "You Make Me Feel (Mighty Real)",
+          "artist": "Sylvester",
+          "note": "original 1978 recording"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Retro-futuristic 'Paco Galaxy', Palm Springs-like setting; robot-shaped bottle",
+        "video_url": null,
+        "sources": [
+          "https://themill.com/the-mill/vfx/paco-rabannes-clash-between-craftsmanship-new-tech/",
+          "https://www.buzzwebzine.fr/pub-paco-pabanne-phantom-2021-musique-mannequins/",
+          "https://www.defense-92.fr/?p=70246"
+        ],
+        "single_source": [
+          "director",
+          "faces"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": null,
+        "faces": [
+          "Charlie Heaton"
+        ],
+        "director": "Matt Lambert",
+        "music": {
+          "title": "Let's Dance",
+          "artist": "David Bowie",
+          "note": "original 1983"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Futuristic city at night, rooftop",
+        "video_url": null,
+        "sources": [
+          "https://themill.com/the-mill/finishing-and-beauty/rabanne-phantom-starring-charlie-r-heaton",
+          "https://www.buzzwebzine.fr/musique-pub-phantom-parfum-paco-rabanne-2023/"
+        ],
+        "single_source": [
+          "director",
+          "music",
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "2021 production company Partizan, VFX The Mill Paris (The Mill). 2023 production company Division per The Mill."
+  },
+  "paco-rabanne-fame": {
+    "name": "Fame",
+    "brand": "Rabanne (Paco Rabanne)",
+    "campaigns": [
+      {
+        "year": 2022,
+        "title": null,
+        "faces": [
+          "Elle Fanning"
+        ],
+        "director": null,
+        "music": {
+          "title": "Fame",
+          "artist": "David Bowie",
+          "note": "original 1975"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Paris, 7th arrondissement at night, Seine and Pegasus statue",
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-paco-rabanne-2022-fame-269114",
+          "https://www.buzzwebzine.fr/musique-pub-fame-paco-rabanne/",
+          "https://www.premiumbeautynews.com/fr/elle-fanning-egerie-de-fame-la,20551"
+        ],
+        "single_source": [
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "Thin: director not confirmed (one magazine names Solal Micenmacher for visuals, not recorded). Only one film campaign found; later Fame flanker films reuse Elle Fanning."
+  },
+  "jean-paul-gaultier-le-male": {
+    "name": "Le Male",
+    "brand": "Jean Paul Gaultier",
+    "campaigns": [
+      {
+        "year": 1995,
+        "title": "Mondino era sailor films (Le Male / Classique)",
+        "faces": [],
+        "director": "Jean-Baptiste Mondino",
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": "aria sung by Angela Gheorghiu per BuzzWebzine; signature music of the line"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://highsnobiety.com/p/jean-paul-gaultier-le-male-fragrance",
+          "https://attitude.co.uk/article/a-picture-based-history-of-jean-paul-gaultiers-le-male-1/23553/",
+          "https://en.wikipedia.org/wiki/Le_Male"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2013,
+        "title": "On the Docks",
+        "faces": [
+          "Jarrod Scott",
+          "Rianne ten Haken"
+        ],
+        "director": "Johnny Green",
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": null
+        },
+        "photographer": null,
+        "agency": "Ogilvy & Mather Paris",
+        "setting": "Docks; shot in Barcelona",
+        "video_url": null,
+        "sources": [
+          "https://www.screenglobalproduction.com/news/2013/10/01/Stunning-Jean-Paul-Gaultier-ad-shot-in-Barcelona",
+          "https://www.horizont.net/marketing/nachrichten/Spot-Premiere-Jean-Paul-Gaultier-und-Ogilvy-inszenieren-Parfuemromanze-als-Seemanns-Epos-116978",
+          "https://www.buzzwebzine.fr/sur-les-quais-pub-2013-jean-paul-gaultier-parfums-jpgonthedocks/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2016,
+        "title": "Le Male / Classique relaunch",
+        "faces": [
+          "Chris Bunn",
+          "Daphne Groeneveld"
+        ],
+        "director": null,
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": "reorchestration by Alexandre Geindre"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Le_Male",
+          "https://en.wikipedia.org/wiki/Classique_(fragrance)",
+          "https://www.buzzwebzine.fr/jean-paul-gaultier-pub-2016-realite-virtuelle-360/"
+        ],
+        "single_source": [
+          "music.note"
+        ]
+      },
+      {
+        "year": 2020,
+        "title": null,
+        "faces": [
+          "Mitchell Slaggert",
+          "Hailey Clauson",
+          "Jacob Bixenman"
+        ],
+        "director": "Daniel Peddle",
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": "Angela Gheorghiu"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Harbour of Hvar island, Croatia",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/mannequins-pub-2020-2021-parfum-le-male-jean-paul-gaultier/",
+          "https://www.papermag.com/jacob-bixenman-jean-paul-gaultier"
+        ],
+        "single_source": [
+          "director",
+          "setting"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "Le Male Elixir",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Ship at sea, engine room",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/musique-pub-male-elixir-jean-paul-gaultier-2023/"
+        ],
+        "single_source": [
+          "music",
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "Year of first Mondino film is not firmly dated by sources (the fragrance launched 1995; Mondino 'helmed' the early joint Le Male/Classique films). On the Docks dated 2013 by trade press, 2016 by Adland. 'Casta Diva' is constant across campaigns."
+  },
+  "jean-paul-gaultier-scandal": {
+    "name": "Scandal",
+    "brand": "Jean Paul Gaultier",
+    "campaigns": [
+      {
+        "year": 2017,
+        "title": null,
+        "faces": [
+          "Vanessa Axente"
+        ],
+        "director": null,
+        "music": {
+          "title": "Bad Girls",
+          "artist": "Donna Summer",
+          "note": null
+        },
+        "photographer": null,
+        "agency": "Mazarine",
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/jean-paul-gaultier-scandal-pub-parfum-feminin-2017/",
+          "https://lareclame.fr/musique-jeanpaulgaultier-scandal-218705"
+        ],
+        "single_source": [
+          "agency"
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "Scandal à Paris",
+        "faces": [
+          "Irina Shayk"
+        ],
+        "director": "Johan Renck",
+        "music": {
+          "title": "Waltz (Masquerade)",
+          "artist": "Aram Khachaturian",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Black-and-white Paris society party",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/irina-shayk-scandal-a-paris-pub-2019-parfum-jean-paul-gaultier/",
+          "https://www.too-young.com/?p=14234",
+          "https://fashiongonerogue.com/?p=576189"
+        ],
+        "single_source": [
+          "director"
+        ]
+      },
+      {
+        "year": 2021,
+        "title": "Scandal pour Homme",
+        "faces": [
+          "Parker van Noord",
+          "Imaan Hammam"
+        ],
+        "director": null,
+        "music": {
+          "title": "It's Like That",
+          "artist": "Run-DMC vs. Jason Nevins",
+          "note": "Jason Nevins remix of the 1983/84 Run-DMC track"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Boxing match",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/musique-mannequins-pub-parfum-jean-paul-gaultier-scandal-homme/"
+        ],
+        "single_source": [
+          "faces",
+          "music",
+          "setting"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "Scandal Intense",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Requiem (Scandal Techno Mix)",
+          "artist": "Lascinski",
+          "note": "custom techno mix"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Retro luxury train",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/musique-pub-scandal-intense-jean-paul-gaultier-2025/"
+        ],
+        "single_source": [
+          "music",
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "2021 entry is the men's flanker Scandal pour Homme; 2025 is Scandal Intense."
+  },
+  "jean-paul-gaultier-la-belle": {
+    "name": "La Belle",
+    "brand": "Jean Paul Gaultier",
+    "campaigns": [
+      {
+        "year": 2019,
+        "title": null,
+        "faces": [],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": "Garden of Eden theme with La Belle and Le Beau",
+        "video_url": null,
+        "sources": [
+          "https://scentadvice.com/la-belle-2019-jean-paul-gaultier/"
+        ],
+        "single_source": [
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "THIN: no reliable source found for the face, director or music of the La Belle films. Only the Eden / La Belle and Le Beau concept is documented. Needs manual check on the official JPG YouTube channel."
+  },
+  "jean-paul-gaultier-classique": {
+    "name": "Classique",
+    "brand": "Jean Paul Gaultier",
+    "campaigns": [
+      {
+        "year": 1995,
+        "title": "Mondino era joint films (Classique / Le Male)",
+        "faces": [],
+        "director": "Jean-Baptiste Mondino",
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://highsnobiety.com/p/jean-paul-gaultier-le-male-fragrance",
+          "https://en.wikipedia.org/wiki/Classique_(fragrance)"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2004,
+        "title": null,
+        "faces": [],
+        "director": null,
+        "music": null,
+        "photographer": "Jean-Baptiste Mondino",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://cafleurebon.com/?p=191671"
+        ],
+        "single_source": [
+          "photographer"
+        ]
+      },
+      {
+        "year": 2013,
+        "title": "On the Docks",
+        "faces": [
+          "Rianne ten Haken",
+          "Jarrod Scott"
+        ],
+        "director": "Johnny Green",
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": null
+        },
+        "photographer": null,
+        "agency": "Ogilvy & Mather Paris",
+        "setting": "Docks; shot in Barcelona",
+        "video_url": null,
+        "sources": [
+          "https://www.screenglobalproduction.com/news/2013/10/01/Stunning-Jean-Paul-Gaultier-ad-shot-in-Barcelona",
+          "https://www.buzzwebzine.fr/sur-les-quais-pub-2013-jean-paul-gaultier-parfums-jpgonthedocks/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2016,
+        "title": "Classique / Le Male relaunch",
+        "faces": [
+          "Daphne Groeneveld",
+          "Chris Bunn"
+        ],
+        "director": null,
+        "music": {
+          "title": "Casta Diva (Norma)",
+          "artist": "Vincenzo Bellini",
+          "note": "reorchestration by Alexandre Geindre"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Classique_(fragrance)",
+          "https://www.buzzwebzine.fr/jean-paul-gaultier-pub-2016-realite-virtuelle-360/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Classique shares its films with Le Male (sailor + corseted woman). 1993 launch film not documented; 1995 is the start of the joint Mondino films (approximate)."
+  },
+  "thierry-mugler-alien": {
+    "name": "Alien",
+    "brand": "Mugler",
+    "campaigns": [
+      {
+        "year": 2014,
+        "title": null,
+        "faces": [],
+        "director": "Floria Sigismondi",
+        "music": {
+          "title": "unspecified track",
+          "artist": "Sigur Rós",
+          "note": "credited only by Lürzer's Archive"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Castello di Sammezzano, Tuscany",
+        "video_url": null,
+        "sources": [
+          "https://shots.net/news/view/83319-thierry-mugler-alien",
+          "https://www.luerzersarchive.com/work/thierry-mugler/",
+          "https://www.osmoz.com/inspiration/osmoz-magazine/165/alien-de-mugler-a-new-mystical-ad"
+        ],
+        "single_source": [
+          "music",
+          "year"
+        ]
+      },
+      {
+        "year": 2021,
+        "title": "Alien Goddess",
+        "faces": [
+          "Willow Smith"
+        ],
+        "director": null,
+        "music": {
+          "title": "All Is Full of Love",
+          "artist": "Björk",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/pub-parfum-mugler-alien-goddess-2021/",
+          "https://www.ispot.tv/ad/qwcR/thierry-mugler-alien-goddess-diosa-con-willow-smith-cancin-de-bjrk-spanish",
+          "https://businessreport.co.za/lifestyle/style-beauty/beauty/2021-07-14-willow-smith-is-the-face-of-muglers-new-fragrance-alien-goddess/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2024,
+        "title": "Alien Hypersense",
+        "faces": [
+          "Anok Yai"
+        ],
+        "director": "Daniel Sannwald",
+        "music": {
+          "title": "Satisfaction",
+          "artist": "Benny Benassi",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/mugler-alien-hypersense-parfum-musique-pub-294979",
+          "https://www.adsoftheworld.com/campaigns/alien-hypersense-starring-anok-yai",
+          "https://www.buzzwebzine.fr/musique-pub-alien-hypersense-mugler/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Sigismondi film year from a 2014 OSMOZ article (approximate). Production for Sigismondi film: Believe Media."
+  },
+  "thierry-mugler-angel": {
+    "name": "Angel",
+    "brand": "Mugler",
+    "campaigns": [
+      {
+        "year": 1992,
+        "title": "Launch",
+        "faces": [
+          "Estelle Lefébure"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://nstperfume.com/2014/06/24/faces-of-angel/",
+          "https://www.synonyme-du-mot.com/les-articles/qui-porte-angel"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 1995,
+        "title": null,
+        "faces": [
+          "Jerry Hall"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://nstperfume.com/2014/06/24/faces-of-angel/",
+          "https://www.synonyme-du-mot.com/les-articles/qui-porte-angel"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2008,
+        "title": null,
+        "faces": [
+          "Naomi Watts"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://nstperfume.com/2014/06/24/faces-of-angel/",
+          "https://www.synonyme-du-mot.com/les-articles/qui-porte-angel"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2014,
+        "title": null,
+        "faces": [
+          "Georgia May Jagger"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.purepeople.com/article/georgia-may-jagger-et-jerry-hall-angels-glamour-devant-la-sublime-elodie-frege_a154376/1",
+          "https://www.synonyme-du-mot.com/les-articles/qui-porte-angel"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2023,
+        "title": "Angel Elixir",
+        "faces": [
+          "Hunter Schafer"
+        ],
+        "director": "Quentin Deronzier",
+        "music": {
+          "title": "Dreamer",
+          "artist": "Charli XCX",
+          "note": null
+        },
+        "photographer": "Harley Weir",
+        "agency": "Publicis Luxe",
+        "setting": "Top of a New York skyscraper",
+        "video_url": null,
+        "sources": [
+          "https://www.mugler.co.uk/articles/angel-elixir-campaign.html",
+          "https://www.marketingdive.com/news/mugler-angel-elixir-hunter-schafer-campaign-trail/647596/",
+          "https://www.buzzwebzine.fr/musique-pub-mugler-2023-parfum-angel-elixir/"
+        ],
+        "single_source": [
+          "music"
+        ]
+      }
+    ],
+    "remarks": "Faces timeline also includes Bianca Balti (2006) and Eva Mendes (2011). Music/director for 1990s-2010s films not found. 2022 'We Are All Angel' 30th anniversary film used an original track by Asma Maroof (BuzzWebzine, single source)."
+  },
+  "dolce-gabbana-light-blue": {
+    "name": "Light Blue",
+    "brand": "Dolce & Gabbana",
+    "campaigns": [
+      {
+        "year": 2007,
+        "title": null,
+        "faces": [
+          "David Gandy"
+        ],
+        "director": "Mario Testino",
+        "music": null,
+        "photographer": "Mario Testino",
+        "agency": null,
+        "setting": "Capri, near the Faraglioni",
+        "video_url": null,
+        "sources": [
+          "https://mariotestino.com/mt-world/twenty-years-later-we-still-see-light-blue-inside-mario-testino-s-dolce-and-gabbana-classic",
+          "https://en.wikipedia.org/wiki/David_Gandy"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2013,
+        "title": null,
+        "faces": [
+          "David Gandy",
+          "Bianca Balti"
+        ],
+        "director": "Mario Testino",
+        "music": null,
+        "photographer": "Mario Testino",
+        "agency": null,
+        "setting": "Capri",
+        "video_url": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/David_Gandy",
+          "https://www.thefashionisto.com/mario-testino-directs-david-gandy-for-dolce-gabbana-light-blue-video-campaign/dolce_light_blue001/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2025,
+        "title": "Capri in Love",
+        "faces": [
+          "Vittoria Ceretti",
+          "Theo James"
+        ],
+        "director": "Gordon von Steiner",
+        "music": null,
+        "photographer": "Gordon von Steiner",
+        "agency": null,
+        "setting": "Capri",
+        "video_url": null,
+        "sources": [
+          "https://world.dolcegabbana.com/beauty/dolce-gabbana-light-blue-vittoria-ceretti-theo-james-fragrances-man-woman-2025",
+          "https://theimpression.com/?p=11660695",
+          "https://moodiedavittreport.com/?p=452486"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Year of first Testino film approximate (Testino shot the original Capri campaign from 2006/2007; launch was 2001). Cinematographer John Mathieson on Testino films. Music for Light Blue films not found in clean sources."
+  },
+  "dolce-gabbana-the-one": {
+    "name": "The One",
+    "brand": "Dolce & Gabbana",
+    "campaigns": [
+      {
+        "year": 2013,
+        "title": "Street of Dreams",
+        "faces": [
+          "Scarlett Johansson",
+          "Matthew McConaughey"
+        ],
+        "director": "Martin Scorsese",
+        "music": {
+          "title": "Il cielo in una stanza",
+          "artist": "Mina",
+          "note": "Mental Floss instead cites 'She Said Yeah' (Rolling Stones)"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Black-and-white, New York style night",
+        "video_url": null,
+        "sources": [
+          "https://www.videostatic.com/node/22781",
+          "https://www.mentalfloss.com/article/66625/8-commercials-directed-martin-scorsese",
+          "https://www.panorama.it/attualita/economia/dolce-gabbana-profumo-spot-scarlett-johansson",
+          "https://lareclame.fr/66902+musique+dolce+gabbana+scarlett+johansson"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2017,
+        "title": null,
+        "faces": [
+          "Emilia Clarke",
+          "Kit Harington"
+        ],
+        "director": "Matteo Garrone",
+        "music": {
+          "title": "Quando quando quando (Clarke) / Tu vuò fa' l'americano (Harington)",
+          "artist": "Tony Renis (Quando)",
+          "note": "Clarke sings 'Quando'; Harington film uses the Neapolitan song with swing/jazz arrangement"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Naples, street market",
+        "video_url": null,
+        "sources": [
+          "https://www.christianpost.com/trends/game-of-thrones-stars-emilia-clarke-and-kit-harington-dance-in-dolce-gabbana-videos.html",
+          "https://eg.fashionnetwork.com/news/Kit-Harington-and-Emilia-Clarke-star-in-D-G-s-The-One-perfume-ad,867715.html",
+          "https://www.buzzwebzine.fr/emilia-clarke-chante-quando-pub-dolce-gabbana-the-only-one/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2026,
+        "title": null,
+        "faces": [
+          "Madonna",
+          "Alberto Guerra"
+        ],
+        "director": "Mert Alas",
+        "music": {
+          "title": "La bambola",
+          "artist": "Madonna",
+          "note": "cover of Patty Pravo, sung in Italian, produced with Stuart Price"
+        },
+        "photographer": "Mert Alas",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://shots.net/news/view/madonna-is-the-one-for-dolce-and-gabbana",
+          "https://www.journalduluxe.fr/fr/beaute/madonna-dolce-gabbana-the-one-bambola-nouvelle-chanson",
+          "https://www.modaes.com/look/madonna-sigue-siendo-the-one"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "2017 Clarke film is for The Only One/The One women; Harington film for The One for Men. Music of 2013 film conflicts between sources."
+  },
+  "hugo-boss-boss-bottled": {
+    "name": "Boss Bottled",
+    "brand": "Hugo Boss",
+    "campaigns": [
+      {
+        "year": 2017,
+        "title": "Man of Today",
+        "faces": [],
+        "director": "Nicolas Winding Refn",
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.trbusiness.com/regional-news/international/boss-bottled-ltd-edition-to-arrive-in-asia-americas-df/130406"
+        ],
+        "single_source": [
+          "director",
+          "title"
+        ]
+      },
+      {
+        "year": 2019,
+        "title": "Boss Bottled Infinite 'Surf'",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Free Animal",
+          "artist": "Foreign Air",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/acteur-musique-pub-boss-bottled-infinite-2019-surf/"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2020,
+        "title": "Be Your Own Man",
+        "faces": [
+          "Chris Hemsworth"
+        ],
+        "director": "James Gray",
+        "music": {
+          "title": "Believer",
+          "artist": "Imagine Dragons",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "New York City",
+        "video_url": null,
+        "sources": [
+          "https://www.umusicpub.com/us/FilmAndTv/2020/Imagine-Dragons-Believer-for-Hugo-Boss.aspx",
+          "https://moodiedavittreport.com/be-your-own-man-coty-introduces-boss-bottled-eau-de-parfum",
+          "https://www.buzzwebzine.fr/believer-musique-rock-de-la-pub-boss-bottled-avec-chris-hemsworth/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2021,
+        "title": "Boss Bottled United",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Bring That Fire",
+          "artist": "War*Hall",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/pub-hugo-boss-2021-musique-footballeurs/",
+          "https://lareclame.fr/musique-hugo-boss-bottled-united-2021-251113"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2025,
+        "title": "Boss Bottled Beyond",
+        "faces": [
+          "Bradley Cooper",
+          "Maluma",
+          "Vinícius Júnior"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://moodiedavittreport.com/?p=454241"
+        ],
+        "single_source": [
+          "faces"
+        ]
+      }
+    ],
+    "remarks": "Boss Bottled Parfum 'La nouvelle intensité' film uses an electro version of 'Let's Go Go Go' by Tigerblood Jewel (BuzzWebzine, single source, year not stated). Hemsworth also fronted Bottled Absolu (2024)."
+  },
+  "hugo-boss-boss-alive": {
+    "name": "Boss Alive",
+    "brand": "Hugo Boss",
+    "campaigns": [
+      {
+        "year": 2020,
+        "title": null,
+        "faces": [
+          "Emma Roberts",
+          "Laura Harrier",
+          "Bruna Marquezine",
+          "Chloe Bennet"
+        ],
+        "director": "Rebecca Zlotowski",
+        "music": {
+          "title": "What's Up",
+          "artist": "4 Non Blondes",
+          "note": "original 1992/1993 recording"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Apartment, terrace, street, car; ends with the four women in the street at night",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/mannequins-musique-pub-boss-alive/",
+          "https://lareclame.fr/musique-rebeccazlottowski-bossalive-hugoboss-252223",
+          "https://cosmeticsbusiness.com/a-list-actresses-emma-roberts-laura-harrier-bruna-marquezine-and-chloe-bennet-step-out-for-boss-campaign--162011"
+        ],
+        "single_source": [
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "Aired 2020 and again 2021 in France. No later Boss Alive film found. 'musique pub parfum alive' = 'What's Up' by 4 Non Blondes."
+  },
+  "montblanc-explorer": {
+    "name": "Explorer",
+    "brand": "Montblanc",
+    "campaigns": [
+      {
+        "year": 2019,
+        "title": "Launch",
+        "faces": [
+          "Rein Langeveld"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/pub-montblanc-explorer-platinum-2023/"
+        ],
+        "single_source": [
+          "faces"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "Explorer Platinum",
+        "faces": [
+          "Rein Langeveld"
+        ],
+        "director": null,
+        "music": {
+          "title": "original composition",
+          "artist": null,
+          "note": "made for the campaign, not commercially released"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Italian Dolomites",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/pub-montblanc-explorer-platinum-2023/"
+        ],
+        "single_source": [
+          "music",
+          "setting",
+          "faces"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "Explorer Extrême",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Music for Meditation and Sleep, Vol. 3",
+          "artist": "Matt Borghi",
+          "note": "ambient, no dialogue in the film"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Extreme nature",
+        "video_url": null,
+        "sources": [
+          "https://www.buzzwebzine.fr/musique-de-la-pub-parfum-explorer-extreme-de-montblanc-2025/",
+          "https://lareclame.fr/musique-montblanc-318030"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "THIN: no director or agency found for any Explorer film; 2019 launch film music not found."
+  },
+  "montblanc-legend": {
+    "name": "Legend",
+    "brand": "Montblanc",
+    "campaigns": [
+      {
+        "year": 2013,
+        "title": null,
+        "faces": [
+          "Simon Clark"
+        ],
+        "director": null,
+        "music": {
+          "title": "original composition",
+          "artist": "Gaspar Claus",
+          "note": "unreleased"
+        },
+        "photographer": null,
+        "agency": "Fred & Farid",
+        "setting": "Black and white",
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/59894+musique+parfum+mont+blanc"
+        ],
+        "single_source": [
+          "faces",
+          "music",
+          "agency"
+        ]
+      },
+      {
+        "year": 2022,
+        "title": null,
+        "faces": [
+          "Zinédine Zidane"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.optionfinance.fr/info-financiere-en-continu/d/2022-09-14-interparfums-zinedine-zidane-devient-le-visage-de-montblanc-legend.html",
+          "https://au.fashionnetwork.com/news/Zinedine-Zidane-is-new-face-of-Montblanc,1437751.html"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2024,
+        "title": "Legend Blue",
+        "faces": [
+          "John Legend"
+        ],
+        "director": "Guy Aroch",
+        "music": {
+          "title": "original music",
+          "artist": "John Legend",
+          "note": "composed for Montblanc"
+        },
+        "photographer": "Guy Aroch",
+        "agency": "Fred & Farid New York",
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://cosmeticsbusiness.com/montblanc-signs-john-legend-to-front-legend-fragance-line",
+          "https://shots.net/news/view/montblanc-legend-and-john-legend-share-much-more-than-a-name",
+          "https://flaunt.com/post/montblanc-x-john-legend-the-legend-fragrance-line"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "2011 launch film not documented. Zidane 2022 director/music not found."
+  },
+  "carolina-herrera-good-girl": {
+    "name": "Good Girl",
+    "brand": "Carolina Herrera",
+    "campaigns": [
+      {
+        "year": 2016,
+        "title": "It's so good to be bad",
+        "faces": [
+          "Karlie Kloss"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": "Mario Testino",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://moodiedavittreport.com/puig-announces-major-fragrance-launch-from-carolina-herrera/",
+          "https://rpp.pe/famosos/celebridades/carolina-herrera-conoce-a-su-nueva-musa-noticia-979707"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2019,
+        "title": "Good Girl / Bad Boy",
+        "faces": [
+          "Karlie Kloss",
+          "Ed Skrein"
+        ],
+        "director": null,
+        "music": {
+          "title": "Baby Did a Bad Bad Thing",
+          "artist": "Chris Isaak",
+          "note": "original 1995"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "New York",
+        "video_url": null,
+        "sources": [
+          "https://www.ispot.tv/ad/tboh/carolina-herrera-fragrances-good-to-be-bad-featuring-karlie-kloss-ed-skrein",
+          "https://fashiongonerogue.com/karlie-kloss-carolina-herrera-bad-boy",
+          "https://www.buzzwebzine.fr/musique-pub-good-girl-carolina-herrera-sephora/"
+        ],
+        "single_source": [
+          "setting"
+        ]
+      },
+      {
+        "year": 2024,
+        "title": "Good Girl Blush Elixir",
+        "faces": [
+          "Karlie Kloss"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://fashiongonerogue.com/carolina-herrera-good-girl-blush-elixir",
+          "https://wfc.tv/en/articles/about-fashion/carolina-herrera-have-unveiled-good-girl-blush-elixir-the-continuation-of-their-iconic-fragrance/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "'Baby Did a Bad Bad Thing' is reused across many Good Girl spots (2019-2021). Very Good Girl Glam (2022) used 'I'm Every Woman' by Chaka Khan (BuzzWebzine). Directors not found."
+  },
+  "carolina-herrera-bad-boy": {
+    "name": "Bad Boy",
+    "brand": "Carolina Herrera",
+    "campaigns": [
+      {
+        "year": 2019,
+        "title": "Launch",
+        "faces": [
+          "Ed Skrein",
+          "Karlie Kloss"
+        ],
+        "director": null,
+        "music": {
+          "title": "Baby Did a Bad Bad Thing",
+          "artist": "Chris Isaak",
+          "note": null
+        },
+        "photographer": "Billy Kidd",
+        "agency": null,
+        "setting": "New York",
+        "video_url": null,
+        "sources": [
+          "https://thefashionisto.com/ed-skrein-2019-carolina-herrera-bad-boy-campaign",
+          "https://cosmeticsbusiness.com/ed-skrein-plays-the-bad-boy-in-carolina-herrera-s-campaign-with-karlie-kloss--162167",
+          "https://models.com/work/carolina-herrera-bad-boy"
+        ],
+        "single_source": [
+          "photographer",
+          "setting"
+        ]
+      },
+      {
+        "year": 2021,
+        "title": "Lightning (Bad Boy Le Parfum)",
+        "faces": [
+          "Ed Skrein",
+          "Karlie Kloss"
+        ],
+        "director": null,
+        "music": {
+          "title": "Baby Did a Bad Bad Thing",
+          "artist": "Chris Isaak",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.ispot.tv/ad/qryH/carolina-herrera-bad-boy-lightning-ft-karlie-kloss-ed-skrein-song-by-chris-isaak",
+          "https://www.fashiongonerogue.com/?p=748667"
+        ],
+        "single_source": []
+      },
+      {
+        "year": null,
+        "title": "Bad Boy Cobalt",
+        "faces": [
+          "Josh Upshaw"
+        ],
+        "director": "Charlotte Wales",
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://themill.com/the-mill/work/carolina-herrera-bad-boy-cobalt"
+        ],
+        "single_source": [
+          "director",
+          "faces"
+        ]
+      }
+    ],
+    "remarks": "Directors of the main Bad Boy films not found."
+  },
+  "givenchy-linterdit": {
+    "name": "L'Interdit",
+    "brand": "Givenchy",
+    "campaigns": [
+      {
+        "year": 2018,
+        "title": null,
+        "faces": [
+          "Rooney Mara"
+        ],
+        "director": "Todd Haynes",
+        "music": {
+          "title": "Deceive",
+          "artist": "Trentemøller feat. Sune Rose Wagner",
+          "note": "film opens with Max Richter 'Berlin by Overnight'"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Paris party, then underground party in a Paris metro station (Porte des Lilas)",
+        "video_url": null,
+        "sources": [
+          "https://travelmarketsinsider.net/?p=4874",
+          "https://www.buzzwebzine.fr/actrice-musique-pub-parfum-givenchy-l-interdit/",
+          "https://lareclame.fr/musique-givenchy-linterdit-207406",
+          "https://cosmeticsbusiness.com/givenchy-reboots-audrey-hepburn-fragrance-l-interdit-with-rooney-mara-as-muse-147273"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2024,
+        "title": "L'Interdit Absolu",
+        "faces": [
+          "Rooney Mara"
+        ],
+        "director": "Joe Wright",
+        "music": {
+          "title": "Pinky's Dream",
+          "artist": "David Lynch feat. Karen O",
+          "note": "Trentemøller remix"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-givenchy-interdit-absolu-david-lynch-2024-303568",
+          "https://www.buzzwebzine.fr/musique-pub-linterdit-absolu-givenchy-2024/",
+          "https://www.elle.be/nl/?p=385105"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Original L'Interdit (1957) was created for Audrey Hepburn; the 2018 relaunch is the reference campaign. Cinematographer Philippe Le Sourd on 2024 film (Elle Belgium, single source)."
+  },
+  "prada-paradoxe": {
+    "name": "Paradoxe",
+    "brand": "Prada",
+    "campaigns": [
+      {
+        "year": 2022,
+        "title": null,
+        "faces": [
+          "Emma Watson"
+        ],
+        "director": "Emma Watson",
+        "music": {
+          "title": "Lord It's a Feeling",
+          "artist": "London Grammar",
+          "note": null
+        },
+        "photographer": "Harley Weir",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.aap.com.au/aapreleases/cision20220821ae36511",
+          "https://cosmeticsbusiness.com/emma-watson-directs-and-fronts-prada-s-latest-fragrance-campaign--202979",
+          "https://www.buzzwebzine.fr/musique-pub-paradoxe-prada-emma-watson/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Watson's directorial debut. Creative directors Miuccia Prada and Raf Simons. No later Paradoxe film credits found."
+  },
+  "prada-luna-rossa-carbon": {
+    "name": "Luna Rossa Carbon",
+    "brand": "Prada",
+    "campaigns": [
+      {
+        "year": 2012,
+        "title": "Luna Rossa (original line)",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Das Rheingold, Prelude",
+          "artist": "Richard Wagner",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/46133+musique+parfum+prada"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2021,
+        "title": "Luna Rossa Ocean",
+        "faces": [
+          "Jake Gyllenhaal"
+        ],
+        "director": "Johan Renck",
+        "music": {
+          "title": "Supernova Explosion",
+          "artist": "Sébastien and Emmanuel Lipszyc",
+          "note": null
+        },
+        "photographer": "Sølve Sundsbø",
+        "agency": null,
+        "setting": "Dark sea, futuristic sailing vessel",
+        "video_url": null,
+        "sources": [
+          "https://theimpression.com/prada-luna-rossa-ocean-fall-2021-ad-campaign/",
+          "https://www.buzzwebzine.fr/musique-pub-prada-luna-rossa-ocean-2021/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "THIN: no source found for a Luna Rossa Carbon-specific film (2017 launch). Entries are for the Luna Rossa line (2012) and Luna Rossa Ocean (2021) as context only."
+  },
+  "chloe-chloe-eau-de-parfum": {
+    "name": "Chloé Eau de Parfum",
+    "brand": "Chloé",
+    "campaigns": [
+      {
+        "year": 2008,
+        "title": "Launch",
+        "faces": [
+          "Clémence Poésy",
+          "Chloë Sevigny",
+          "Anja Rubik"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://moodiedavittreport.com/coty-confirms-clemence-poesy-as-face-of-new-chloe-feminine-fragrance",
+          "https://cosmeticsbusiness.com/clemence-poesy-returns-to-chloe-as-face-of-fragrance--97213"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2012,
+        "title": null,
+        "faces": [
+          "Camille Rowe"
+        ],
+        "director": "Mario Sorrenti",
+        "music": {
+          "title": "Ready for the Floor",
+          "artist": "Lissy Trullie",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/36194+chole"
+        ],
+        "single_source": [
+          "faces",
+          "director",
+          "music"
+        ]
+      },
+      {
+        "year": 2017,
+        "title": "10th anniversary",
+        "faces": [
+          "Haley Bennett"
+        ],
+        "director": null,
+        "music": {
+          "title": "Gimme All Your Love",
+          "artist": "Alabama Shakes",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Black-and-white road trip",
+        "video_url": null,
+        "sources": [
+          "https://fashiongonerogue.com/haley-bennett-chloe-perfume-campaign",
+          "https://www.buzzwebzine.fr/haley-bennett-road-trip-pub-parfum-chloe/"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2020,
+        "title": null,
+        "faces": [
+          "Lucy Boynton"
+        ],
+        "director": null,
+        "music": {
+          "title": "Breath",
+          "artist": "The Blaze",
+          "note": "from album Dancehall (2018)"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Black and white",
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-pub-chloe-lucy-boynton-240107",
+          "https://www.buzzwebzine.fr/musique-et-mannequin-de-la-pub-parfum-chloe/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Love Story (2014, Mélanie Laurent, 'Mi Amor' by Vanessa Paradis) is a separate Chloé fragrance, not recorded."
+  },
+  "burberry-her": {
+    "name": "Burberry Her",
+    "brand": "Burberry",
+    "campaigns": [
+      {
+        "year": 2018,
+        "title": null,
+        "faces": [
+          "Cara Delevingne"
+        ],
+        "director": "Juergen Teller",
+        "music": {
+          "title": "Maybe It's Because I'm a Londoner",
+          "artist": "Cara Delevingne",
+          "note": "cover of the Hubert Gregg song, sung by Delevingne"
+        },
+        "photographer": "Juergen Teller",
+        "agency": null,
+        "setting": "London",
+        "video_url": null,
+        "sources": [
+          "https://theimpression.com/burberry-her-fragrance-campaign-by-juergen-teller/",
+          "https://www.buzzwebzine.fr/pub-burberry-her-quelle-est-la-chanson-interpretee-par-cara-delevingne/",
+          "https://prnewswire.co.uk/news-releases/burberry-introduces-her-the-new-fragrance-for-women-695250561.html"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2026,
+        "title": "Her Parfum",
+        "faces": [
+          "Olivia Dean"
+        ],
+        "director": null,
+        "music": {
+          "title": "original soundtrack",
+          "artist": "Olivia Dean",
+          "note": "written for the campaign"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "London",
+        "video_url": null,
+        "sources": [
+          "https://news.designrush.com/burberry-her-parfum-olivia-dean-campaign-marketing"
+        ],
+        "single_source": [
+          "faces",
+          "music",
+          "setting"
+        ]
+      }
+    ],
+    "remarks": "2026 director not found. Creative director at launch: Riccardo Tisci."
+  },
+  "burberry-hero": {
+    "name": "Burberry Hero",
+    "brand": "Burberry",
+    "campaigns": [
+      {
+        "year": 2021,
+        "title": null,
+        "faces": [
+          "Adam Driver"
+        ],
+        "director": "Jonathan Glazer",
+        "music": {
+          "title": "Two Weeks",
+          "artist": "FKA twigs",
+          "note": "from LP1 (2014)"
+        },
+        "photographer": "Mario Sorrenti",
+        "agency": null,
+        "setting": "Beach at sunrise; horse, sea; centaur image",
+        "video_url": null,
+        "sources": [
+          "https://theimpression.com/burberry-hero-fragrance-fall-2021-ad-campaign",
+          "https://www.anothermag.com/fashion-beauty/13724/adam-driver-on-filmmaking-horses-and-his-iconic-burberry-hero-campaign",
+          "https://looper.com/472189/whats-the-song-in-the-adam-driver-centaur-commercial"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2022,
+        "title": "Hero Eau de Parfum",
+        "faces": [
+          "Adam Driver"
+        ],
+        "director": null,
+        "music": {
+          "title": "Two Weeks",
+          "artist": "FKA twigs",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://looper.com/472189/whats-the-song-in-the-adam-driver-centaur-commercial",
+          "https://theimpression.com/?p=10515089"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Year of the EDP follow-up approximate ('almost a year after')."
+  },
+  "versace-eros": {
+    "name": "Eros",
+    "brand": "Versace",
+    "campaigns": [
+      {
+        "year": 2012,
+        "title": null,
+        "faces": [
+          "Brian Shimansky"
+        ],
+        "director": "Mert Alas and Marcus Piggott",
+        "music": {
+          "title": "original composition",
+          "artist": "Street Furniture Music",
+          "note": "unreleased"
+        },
+        "photographer": "Mert Alas and Marcus Piggott",
+        "agency": null,
+        "setting": "Greek temple, storm, bow and arrow",
+        "video_url": null,
+        "sources": [
+          "https://thefashionisto.com/a-divine-brian-shimasky-stars-in-versaces-eros-fragrance-commercial",
+          "https://lareclame.fr/133326-musique-versace-eros",
+          "https://www.buzzwebzine.fr/musique-pub-versace-parfum-homme/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2024,
+        "title": "Eros Energy",
+        "faces": [
+          "Channing Tatum"
+        ],
+        "director": "Mert Alas and Marcus Piggott",
+        "music": null,
+        "photographer": "Mert Alas and Marcus Piggott",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://theimpression.com/versace-eros-energy-fall-2024-ad-campaign-review/",
+          "https://thefashionisto.com/channing-tatum-versace-eros-energy-ad",
+          "https://vmagazine.com/article/channing-tatum-is-versaces-newest-eros-fragrance-muse/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "2024 music not found. Creative direction Donatella Versace for both."
+  },
+  "kenzo-flower-by-kenzo": {
+    "name": "Flower by Kenzo",
+    "brand": "Kenzo",
+    "campaigns": [
+      {
+        "year": 2009,
+        "title": null,
+        "faces": [
+          "Lika Minamoto"
+        ],
+        "director": "Patrick Guedj",
+        "music": {
+          "title": "The Wanderer",
+          "artist": "Jil Is Lucky",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": "Paris rooftops",
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/kenzo+flower+parfum+lika+minamoto",
+          "https://www.premiumbeautynews.com/en/kenzo-puts-its-poppies-on-paris,1501",
+          "https://fashionunited.es/v1/columns/kenzo-de-amapola-en-amapola/2009122112201"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2011,
+        "title": "Flower Tag",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Cross to Bear",
+          "artist": "Tricky",
+          "note": "excerpts"
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.fashion.at/music/2011/kenzo6-2011.htm"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2018,
+        "title": null,
+        "faces": [
+          "Kim Tae-ri"
+        ],
+        "director": null,
+        "music": {
+          "title": "What a Way to Win a War",
+          "artist": "Tom McRae",
+          "note": "remix"
+        },
+        "photographer": null,
+        "agency": "High Noon",
+        "setting": "San Francisco",
+        "video_url": null,
+        "sources": [
+          "https://epica.adforum.com/talent/24980-thierry-hoss/work/34564901",
+          "https://lareclame.fr/musique-kenzo-flowerbykenzo2018-197511",
+          "https://www.parismatch.be/lifestyle/beaute/2018/08/07/fleur-militante-quand-flower-by-kenzo-fait-son-cinema-EU44FOKI2REYJAWNXOREBLZA2E/"
+        ],
+        "single_source": [
+          "agency"
+        ]
+      },
+      {
+        "year": 2022,
+        "title": "Flower by Kenzo L'Absolue / Ikebana",
+        "faces": [
+          "Masami Charlotte Lavault"
+        ],
+        "director": null,
+        "music": {
+          "title": "Beautiful Life",
+          "artist": "Michael Kiwanuka",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-kenzo-flower-by-kenzo-labsolue-2022-266622",
+          "https://www.buzzwebzine.fr/musique-pub-flower-kenzo-absolue-2022/"
+        ],
+        "single_source": []
+      }
+    ],
+    "remarks": "Patrick Guedj (Kenzo Parfums creative director) directed most films of the saga per Paris Match. Year for Lavault film: 2022 per BuzzWebzine, described as 2023 campaign elsewhere."
+  },
+  "gucci-bloom": {
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "campaigns": [
+      {
+        "year": 2017,
+        "title": null,
+        "faces": [
+          "Dakota Johnson",
+          "Hari Nef",
+          "Petra Collins"
+        ],
+        "director": "Glen Luchford",
+        "music": {
+          "title": "The Rip",
+          "artist": "Portishead",
+          "note": null
+        },
+        "photographer": "Glen Luchford",
+        "agency": null,
+        "setting": "Gardens, flower-filled house, pond",
+        "video_url": null,
+        "sources": [
+          "https://yatzer.com/node/4729",
+          "https://out.com/fashion/2017/8/16/hari-nef-serves-tea-guccis-bloom-film",
+          "https://www.buzzwebzine.fr/mannequins-musique-pub-gucci-bloom-2018/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2020,
+        "title": "Bloom Profumo di Fiori",
+        "faces": [
+          "Anjelica Huston",
+          "Florence Welch",
+          "Jodie Turner-Smith",
+          "Susie Cave"
+        ],
+        "director": "Floria Sigismondi",
+        "music": {
+          "title": "Fade Into You",
+          "artist": "Mazzy Star",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://magazine.shots.net/news/view/floria-sigismondi-creates-a-garden-of-dreams-for-gucci",
+          "https://cosmeticsbusiness.com/anjelica-huston-florence-welch-jodie-turner-smith-and-susie-cave-step-out-for-gucci-beauty-168156",
+          "https://ashadedviewonfashion.com/2020/08/07/anjelica-huston-and-the-new-gucci-bloom-campaign-with-the-stop-motion-flower-sequence-by-the-brothers-quai/"
+        ],
+        "single_source": [
+          "music"
+        ]
+      },
+      {
+        "year": 2022,
+        "title": "The Awakening (chapter 2, with Vogue)",
+        "faces": [
+          "Jodie Turner-Smith"
+        ],
+        "director": "Yumna Al-Arashi",
+        "music": null,
+        "photographer": "Annie Lai",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://theimpression.com/gucci-bloom-fragrance-campaign/"
+        ],
+        "single_source": [
+          "director",
+          "photographer"
+        ]
+      }
+    ],
+    "remarks": "2020 film includes stop-motion flower sequence by the Brothers Quay. Concept by Alessandro Michele."
+  },
+  "narciso-rodriguez-narciso-rodriguez-for-her": {
+    "name": "For Her",
+    "brand": "Narciso Rodriguez",
+    "campaigns": [
+      {
+        "year": 2003,
+        "title": "Launch",
+        "faces": [
+          "Carmen Kass"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": "Inez van Lamsweerde and Vinoodh Matadin",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.anothermag.com/fashion-beauty/2139/narciso-rodriguez-on-carmen-kass",
+          "https://en.wikipedia.org/wiki/Carmen_Kass",
+          "https://www.tendance-parfums.com/narciso-rodriguez-for-her-pub"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2021,
+        "title": null,
+        "faces": [
+          "Lola Nicon"
+        ],
+        "director": null,
+        "music": null,
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://narcisorodriguezparfums.com/en/muse-story.html"
+        ],
+        "single_source": [
+          "faces"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "For Her Eau de Parfum Intense",
+        "faces": [
+          "Angelina Kendall"
+        ],
+        "director": null,
+        "music": {
+          "title": "Glory Box",
+          "artist": "Portishead",
+          "note": null
+        },
+        "photographer": "Mario Sorrenti",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://fashiongonerogue.com/narciso-rodriguez-for-her-intense-ad"
+        ],
+        "single_source": [
+          "faces",
+          "music",
+          "photographer"
+        ]
+      }
+    ],
+    "remarks": "THIN: no director or music found for the main For Her films. Carmen Kass was the face for about 17 years."
+  },
+  "viktor-rolf-flowerbomb": {
+    "name": "Flowerbomb",
+    "brand": "Viktor&Rolf",
+    "campaigns": [
+      {
+        "year": 2017,
+        "title": "Flowerbomb Bloom",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "Bangarang",
+          "artist": "Skrillex feat. Sirah",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://lareclame.fr/musique-pub-viktorrolf-flowerbombbloom-172459",
+          "https://www.tendance-parfums.com/flowerbomb-bloom-pub"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2020,
+        "title": null,
+        "faces": [
+          "Anya Taylor-Joy"
+        ],
+        "director": "Inez van Lamsweerde and Vinoodh Matadin",
+        "music": null,
+        "photographer": "Inez van Lamsweerde and Vinoodh Matadin",
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.cosmeticsbusiness.com/viktor-rolf-casts-ambassador-anya-taylor-joy-in-new-campaign--161517",
+          "https://kyodonewsprwire.jp/release/202001155697",
+          "https://www.beautypackaging.com/contents/view_breaking-news/2020-01-14/flowerbomb-debuts-new-print-digital-campaign-today/"
+        ],
+        "single_source": []
+      },
+      {
+        "year": 2023,
+        "title": "Flowerbomb Ruby Orchid",
+        "faces": [],
+        "director": null,
+        "music": {
+          "title": "ICON",
+          "artist": "COBRAH",
+          "note": null
+        },
+        "photographer": null,
+        "agency": null,
+        "setting": null,
+        "video_url": null,
+        "sources": [
+          "https://www.ispot.tv/ad/1pcv/viktor-and-rolf-fragrances-flowerbomb-and-flowerbomb-ruby-orchid-iconic-song-by-cobrah"
+        ],
+        "single_source": [
+          "music"
+        ]
+      }
+    ],
+    "remarks": "Earlier face Andreea Diaconu (10th anniversary, Inez & Vinoodh). Emily Ratajkowski film directed by Torso Solutions (date not stated). Current campaign not found."
+  }
+}

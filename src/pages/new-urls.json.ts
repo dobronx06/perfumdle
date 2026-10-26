@@ -18,6 +18,9 @@ export const GET: APIRoute = () => {
     urls.add(url.perfume('fr', slug)); urls.add(url.perfume('en', slug));
     urls.add(url.perfumes('fr')); urls.add(url.perfumes('en'));
   }
+  for (const slug of publishedToday('ad')) {
+    urls.add(`/fr/pub-parfum/${slug}/`); urls.add('/fr/pub-parfum/'); urls.add('/fr/pub-parfum/homme/'); urls.add('/fr/pub-parfum/femme/'); urls.add(url.perfume('fr', slug));
+  }
   for (const id of publishedToday('ranked')) {
     const d = rankedById.get(id) as RankedDef | undefined;
     if (!d) continue;

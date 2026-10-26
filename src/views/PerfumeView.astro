@@ -13,6 +13,7 @@ import {
 } from '../lib/catalog';
 import { breadcrumbLd, faqLd, articleLd, compact } from '../lib/seo';
 import { isPublished } from '../lib/schedule';
+import adsData from '../data/ads.json';
 import { rankedLinks, rankedCopy, liveOfKind, rankedUrl } from '../lib/ranked';
 
 interface Props { p: Perfume; locale: Locale }
@@ -33,6 +34,7 @@ const lc = (s: string) => (fr ? s.toLowerCase() : s);
 const gender = GENDER_LABEL[l][p.gender];
 const decade = decadeOf(p.year);
 const hasSimilarPage = isPublished('similar', p.slug);
+const ad = fr && p.slug in (adsData as { pages: Record<string, unknown> }).pages && isPublished('ad', p.slug) ? `/fr/pub-parfum/${p.slug}/` : null;
 const selections = rankedLinks(l, (d) => d.kind !== 'nose' && !!rankedCopy(d.id)?.picks?.includes(p.slug)).slice(0, 8);
 const perfumerNames = (ed?.perfumer ?? '').split(/,| et | and |&/).map((s) => s.trim()).filter(Boolean);
 const noseHref = (n: string) => { const d = liveOfKind('nose').find((x) => x.perfumer === n); return d ? rankedUrl(d, l) : null; };
@@ -211,6 +213,7 @@ const jsonLd = compact([
                     <p>{deep.performance}</p>
                   </>
                 )}
+                {ad && <p><a class="link-arrow" href={ad}>{`La publicité ${p.name} : égérie, musique et réalisateur`}</a></p>}
                 <div class="verdict"><span>{fr ? 'Verdict' : 'Verdict'}</span>{txt.verdict}</div>
               </>
             ) : (

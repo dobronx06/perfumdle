@@ -1,0 +1,140 @@
+---
+/**
+ * Perfume advertising section (French only): the guide /fr/pub-parfum/, the men's and women's lists
+ * (/fr/pub-parfum/homme/, /fr/pub-parfum/femme/) and one page per perfume (/fr/pub-parfum/<slug>/).
+ * Data: src/data/ads.json, built from scripts/ads/ads-research-*.json (facts with sources) plus the copy.
+ * Facts only (faces, director, music, year), links to the brand's official film, no embedded video.
+ * Perfume pages go live on their date in publish-schedule.json ("ad").
+ */
+import Shell from '../components/Shell.astro';
+import data from '../data/ads.json';
+import { url, perfumeBySlug, noteName, allNotes } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+import { isPublished } from '../lib/schedule';
+
+interface Music { title?: string | null; artist?: string | null; note?: string | null }
+interface Campaign { year?: number | null; title?: string | null; faces?: string[]; director?: string | null; music?: Music | null; setting?: string | null; video_url?: string | null; sources?: string[]; text?: string }
+interface Copy { title: string; meta: string; h1: string; intro: string; sections?: { title: string; body: string }[]; faq: { q: string; a: string }[] }
+interface AdPage { copy: Copy; campaigns: Campaign[] }
+interface Props { kind: 'hub' | 'men' | 'women' | 'page'; slug?: string }
+
+const D = data as unknown as { hub: Copy | null; men: Copy | null; women: Copy | null; pages: Record<string, AdPage> };
+const { kind, slug } = Astro.props;
+const BASE = '/fr/pub-parfum/';
+const live = (s: string) => perfumeBySlug.has(s) && isPublished('ad', s);
+const all = Object.entries(D.pages).filter(([s]) => live(s));
+const isMen = (s: string) => ['Male', 'Men', 'Masculine'].includes(perfumeBySlug.get(s)?.gender ?? '');
+const isWomen = (s: string) => ['Female', 'Women', 'Feminine'].includes(perfumeBySlug.get(s)?.gender ?? '');
+const latest = (a: AdPage) => [...a.campaigns].sort((x, y) => (y.year ?? 0) - (x.year ?? 0))[0];
+
+const page = kind === 'page' ? D.pages[slug!] : null;
+const p = slug ? perfumeBySlug.get(slug) : undefined;
+const copy = (page ? page.copy : kind === 'men' ? D.men : kind === 'women' ? D.women : D.hub)!;
+const listed = kind === 'men' ? all.filter(([s]) => isMen(s)) : kind === 'women' ? all.filter(([s]) => isWomen(s)) : all;
+const path = kind === 'page' ? `${BASE}${slug}/` : kind === 'men' ? `${BASE}homme/` : kind === 'women' ? `${BASE}femme/` : BASE;
+const crumbs = [
+  { name: 'Accueil', href: url.home('fr') },
+  ...(kind === 'hub' ? [{ name: 'Pub parfum' }] : [{ name: 'Pub parfum', href: BASE }, { name: kind === 'men' ? 'Homme' : kind === 'women' ? 'Femme' : p?.name ?? '' }]),
+];
+const faces = (c: Campaign) => (c.faces ?? []).join(', ');
+const music = (m?: Music | null) => (m && m.title ? `${m.title}${m.artist ? ` (${m.artist})` : ''}` : null);
+const sources = page ? [...new Set(page.campaigns.flatMap((c) => c.sources ?? []))] : [];
+const host = (u: string) => { try { return new URL(u).hostname.replace('www.', ''); } catch { return u; } };
+const others = all.filter(([s]) => s !== slug && (!p || perfumeBySlug.get(s)?.brand === p.brand || perfumeBySlug.get(s)?.gender === p.gender)).slice(0, 8);
+---
+
+<Shell
+  locale="fr"
+  frOnly
+  title={copy.title}
+  description={copy.meta}
+  alternates={{ fr: path, en: p ? url.perfume('en', p.slug) : '/en/' }}
+  crumbs={crumbs}
+  eyebrow={p ? `Publicité ${p.brand}` : 'Publicités de parfum'}
+  h1={copy.h1}
+  lede={copy.intro}
+  jsonLd={[
+    ...(kind !== 'page' ? [itemListLd(copy.h1, listed.map(([s, a]) => ({ name: `Publicité ${perfumeBySlug.get(s)!.name} (${perfumeBySlug.get(s)!.brand})`, href: `${BASE}${s}/` })))] : []),
+    { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: copy.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  ]}
+>
+  {kind !== 'page' && (
+    <>
+      {kind === 'hub' && (
+        <div class="chips" style="margin-bottom:1.5rem">
+          <a class="chip chip--lg" href={`${BASE}homme/`}>Pubs parfum homme<small>{all.filter(([s]) => isMen(s)).length}</small></a>
+          <a class="chip chip--lg" href={`${BASE}femme/`}>Pubs parfum femme<small>{all.filter(([s]) => isWomen(s)).length}</small></a>
+        </div>
+      )}
+      <div class="tbl ads-table" style="margin-bottom:2.5rem">
+        <table>
+          <thead><tr><th>Parfum</th><th>Dernière campagne</th><th>Égérie</th><th>Musique</th></tr></thead>
+          <tbody>
+            {listed.map(([s, a]) => { const c = latest(a); const q = perfumeBySlug.get(s)!; return (
+              <tr>
+                <td><a href={`${BASE}${s}/`}><strong>{q.name}</strong></a><br /><small>{q.brand}</small></td>
+                <td>{c?.year ?? '·'}{c?.title && <><br /><small>{c.title}</small></>}</td>
+                <td>{c ? faces(c) || '·' : '·'}</td>
+                <td>{music(c?.music) ?? '·'}</td>
+              </tr>
+            ); })}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+
+  {page && p && (
+    <div class="ads-campaigns" style="margin-bottom:2.5rem">
+      {[...page.campaigns].sort((x, y) => (y.year ?? 0) - (x.year ?? 0)).map((c) => (
+        <section class="aside-card ad-card">
+          <p class="eyebrow">{c.year ?? ''}{c.title && ` · ${c.title}`}</p>
+          <dl>
+            {faces(c) && <><dt>Égérie</dt><dd>{faces(c)}</dd></>}
+            {c.director && <><dt>Réalisation</dt><dd>{c.director}</dd></>}
+            {music(c.music) && <><dt>Musique</dt><dd>{music(c.music)}</dd></>}
+          </dl>
+          {c.text && <p>{c.text}</p>}
+          {c.video_url && <p><a class="link-arrow" href={c.video_url} rel="nofollow noopener" target="_blank">Voir le film sur la chaîne officielle</a></p>}
+        </section>
+      ))}
+    </div>
+  )}
+
+  <div class="article">
+    <article class="prose">
+      {(copy.sections ?? []).map((s, i) => (<><h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2><p>{s.body}</p></>))}
+      {p && (
+        <>
+          <h2>Le parfum de la publicité</h2>
+          <p>{p.name} de {p.brand}, sorti en {p.year} : {allNotes(p).slice(0, 5).map((n) => noteName(n, 'fr')).join(', ')}. <a href={url.perfume('fr', p.slug)}>Notes, avis et parfums similaires</a>.</p>
+        </>
+      )}
+      <h2>Questions fréquentes</h2>
+      {copy.faq.map((f) => <><h3>{f.q}</h3><p>{f.a}</p></>)}
+      {sources.length > 0 && (
+        <p class="muted" style="font-size:.85rem">Sources : {sources.map((u, i) => <>{i > 0 && ', '}<a href={u} rel="nofollow noopener" target="_blank">{host(u)}</a></>)}.</p>
+      )}
+    </article>
+    <aside class="aside">
+      <div class="aside-card">
+        <p class="eyebrow">{p ? 'Autres publicités' : 'Par genre'}</p>
+        <div class="chips" style="margin-top:.6rem">
+          {p ? others.map(([s]) => <a class="chip" href={`${BASE}${s}/`}>{perfumeBySlug.get(s)!.name}</a>)
+             : [<a class="chip" href={`${BASE}homme/`}>Homme</a>, <a class="chip" href={`${BASE}femme/`}>Femme</a>]}
+        </div>
+        <p style="margin-top:1rem"><a class="link-arrow" href={BASE}>Toutes les pubs de parfum</a></p>
+      </div>
+    </aside>
+  </div>
+</Shell>
+
+<style>
+  .ads-table table { font-size: 0.92rem; }
+  .ads-table td { vertical-align: top; }
+  .ads-table small, .ad-card small { color: var(--muted, #6b605a); }
+  .ads-campaigns { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+  .ad-card dl { display: grid; grid-template-columns: auto 1fr; gap: .3rem .9rem; margin: .8rem 0; font-size: .95rem; }
+  .ad-card dt { color: var(--muted, #6b605a); }
+  .ad-card dd { margin: 0; }
+</style>
