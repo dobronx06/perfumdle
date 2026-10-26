@@ -18,12 +18,13 @@ interface Props {
   h1: string;
   lede?: string;
   jsonLd?: Record<string, unknown>[];
+  frOnly?: boolean;
 }
 const P = Astro.props;
 const other = P.locale === 'fr' ? 'en' : 'fr';
 ---
 
-<Layout title={P.title} description={P.description} locale={P.locale} alternates={P.alternates} jsonLd={compact([breadcrumbLd(P.crumbs), ...(P.jsonLd ?? [])])}>
+<Layout title={P.title} description={P.description} locale={P.locale} alternates={P.alternates} frOnly={P.frOnly} jsonLd={compact([breadcrumbLd(P.crumbs), ...(P.jsonLd ?? [])])}>
   <div class="page">
     <Header locale={P.locale} altHref={P.alternates[other]} />
     <main>

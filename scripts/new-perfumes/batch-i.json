@@ -1,0 +1,703 @@
+[
+  {
+    "name": "La Colle Noire",
+    "brand": "Dior",
+    "year": 2016,
+    "gender": "Unisex",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Lemon"],
+      "heart": ["Centifolia Rose", "Peony", "Lily of the Valley"],
+      "base": ["Musk", "Sandalwood", "Amber", "Oud", "Patchouli"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2016/04/19/christian-dior-la-colle-noire-new-fragrance/",
+      "https://www.olfastory.com/en/perfume/la-colle-noire",
+      "https://www.dior.com/en_us/products/beauty-y0767550-la-collection-privee-christian-dior-la-colle-noire",
+      "https://australianperfumejunkies.com/2016/05/19/la-colle-noire-dior-review-giveaway/"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "La Collection Privée Christian Dior, named after Christian Dior's Château de la Colle Noire. At launch Dior named only three materials (May rose / centifolia rose absolute, Sri Lankan sandalwood, white musks); the fuller pyramid is Olfastory's. Patchouli appears in the current ingredient list and was reportedly added later, so the formula may have been adjusted. Still sold on dior.com."
+  },
+  {
+    "name": "For Her Musc Noir Rose",
+    "brand": "Narciso Rodriguez",
+    "year": 2022,
+    "gender": "Feminine",
+    "family": "Amber Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Sonia Constant",
+    "notes": {
+      "top": ["Bergamot", "Plum", "Pink Pepper"],
+      "heart": ["Musk", "Tuberose", "Rose"],
+      "base": ["Vanilla", "Patchouli", "Suede"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.narcisorodriguezparfums.com/en/narciso-rodriguez-for-her-musc-noir-rose/for-her-MUSC-NOIR-ROSE.html",
+      "https://www.theperfumeshop.com/narciso-rodriguez/for-her-musc-noir-rose/eau-de-parfum-spray/p/23742EDPJU?varSel=1271886",
+      "https://www.walmart.com/ip/Narciso-Rodriguez-Musc-Noir-Rose-Eau-De-Parfum-Spray-50ml-1-6oz/495095087",
+      "https://nichecorner.com/products/musc-noir-rose-for-her-narciso-rodriguez"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Flanker of For Her (2003). Brand site calls it amber floral and names bergamot, tuberose, musc heart and vanilla, plus plum, pink pepper, suede leather and Indonesian patchouli. Year 2022 from retailers; perfumer Sonia Constant from a single retailer listing (not confirmed by the brand). Rose placed in the heart per retailer pyramids."
+  },
+  {
+    "name": "L'Homme Ultime",
+    "brand": "Yves Saint Laurent",
+    "year": 2016,
+    "gender": "Masculine",
+    "family": "Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo, Dominique Ropion, Juliette Karagueuzoglou",
+    "notes": {
+      "top": ["Grapefruit", "Bergamot", "Ginger", "Cardamom"],
+      "heart": ["Apple", "Geranium", "Clary Sage", "Rose"],
+      "base": ["Vetiver", "Cedar", "Cashmeran", "Amberwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2016/02/12/yves-saint-laurent-lhomme-ultime-new-fragrance/",
+      "https://www.olfastory.com/en/perfume/lhomme-ultime",
+      "https://www.masculin.com/beaute/12257-parfum-homme-ultime-yves-saint-laurent/",
+      "https://www.wikiparfum.com/en/fragrances/lhomme-yves-saint-laurent-ultime-1"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of L'Homme (2006), released for its 10th anniversary. Year, perfumers and EDP concentration are consistent across sources; note placement varies (Olfastory: grapefruit, bergamot / apple, cardamom, geranium, clary sage / vetiver, amber woods, cashmeran; NST flat list: ginger, cardamom, grapefruit, rose, geranium, clary sage, cedar, vetiver). Pyramid merges both. No current retail offer on Olfastory; likely discontinued but not confirmed by an official source."
+  },
+  {
+    "name": "Promesse",
+    "brand": "Cacharel",
+    "year": 2005,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Carlos Benaïm, Sophie Labbé",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Blackberry"],
+      "heart": ["Jasmine", "Orchid", "Violet"],
+      "base": ["Amber", "Cedar", "Musk", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/promesse",
+      "https://www.olfastory.com/parfum/promesse/composition",
+      "https://www.profumomania.com/en/Promesse-Cacharel",
+      "https://www.skincarisma.com/fragrances/cacharel-promesse",
+      "https://wwd.com/beauty-industry-news/beauty-features/feature/cacharel-s-promesse-a-priority-stateside-569540-1966430/",
+      "https://nostaligastore.com/products/cacharel-promesse-women-eau-de-toilette-100-ml-spray-discontinued"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Launched 2005 (not 1994; 1994 is Cacharel Eden). Olfastory places blackberry in the heart and lists ambergris instead of amber; retailer pyramids put blackberry on top. Listed as discontinued by a retailer; no longer in Cacharel's range as far as found, but no official discontinuation notice."
+  },
+  {
+    "name": "Coco Mademoiselle L'Eau Privée",
+    "brand": "Chanel",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral Musky",
+    "concentration": "Eau Pour la Nuit",
+    "perfumer": "Olivier Polge",
+    "notes": {
+      "top": ["Orange"],
+      "heart": ["Jasmine", "Rose"],
+      "base": ["Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.chanel.com/us/fragrance/p/116260/coco-mademoiselle-leau-privee-eau-pour-la-nuit-spray/",
+      "https://nstperfume.com/2020/07/31/chanel-coco-mademoiselle-leau-privee-new-fragrance/",
+      "https://www.olfastory.com/en/perfume/coco-mademoiselle-leau-privee",
+      "https://thecandyperfumeboy.com/2020/09/28/perfume-review-coco-mademoiselle-leau-privee-by-chanel/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Flanker of Coco Mademoiselle (2001), launched August 2020. Chanel sells it as an 'Eau Pour la Nuit' (night fragrance), not as EDT or EDP; this concentration is outside VOCAB, map as needed (NST called it EDP, contradicted by Chanel). Official notes: jasmine absolute, rose petal accord, white musk; Olfastory adds orange on top (The Candy Perfume Boy says mandarin). Still sold on chanel.com. Family label chosen from the jasmine/rose/white musk structure."
+  },
+  {
+    "name": "The Beat for Men",
+    "brand": "Burberry",
+    "year": 2008,
+    "gender": "Masculine",
+    "family": "Citrus Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Olivier Polge, Domitille Michalon-Bertier",
+    "notes": {
+      "top": ["Pepper", "Citron", "Violet Leaf"],
+      "heart": ["Geranium", "Thyme"],
+      "base": ["Vetiver", "Woody Notes"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://www.osmoz.com/perfumes/burberry/1465/the-beat-for-men",
+      "https://www.fragrancereview.com/perfume/burberry-the-beat-for-men-eau-de-toilette/",
+      "https://leparfumier.com/en/products/burberry-the-beat-for-men-eau-de-toilette"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Pyramid from FragranceReview's description (tiers inferred). Osmoz gives a different breakdown: citron / violet blossom, vetiver, pepper, fresh notes / white musks, leatherwood accord, and classifies it Citrus Aromatic. Year and perfumers (IFF) agree across sources. Hard to find at Burberry today; likely discontinued but not officially confirmed."
+  },
+  {
+    "name": "Boss Orange Woman",
+    "brand": "Hugo Boss",
+    "year": 2009,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Annick Ménardo",
+    "notes": {
+      "top": ["Apple", "Peach"],
+      "heart": ["Orange Blossom", "Jasmine", "Plum"],
+      "base": ["Sandalwood", "Cinnamon", "Olive Tree", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/hugo-boss/961/boss-orange",
+      "https://www.olfastory.com/en/perfume/boss-orange/composition",
+      "https://nstperfume.com/2009/04/30/boss-orange-by-hugo-boss-new-fragrance/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Official name 'BOSS Orange' (women's), launched summer 2009 under P&G licence, face Sienna Miller. Pyramid per Osmoz (olive wood mapped to Olive Tree, vanilla cream to Vanilla); Olfastory adds bergamot on top and moves cinnamon to the heart. Perfumer per Olfastory. Current availability not confirmed."
+  },
+  {
+    "name": "Encre Noire",
+    "brand": "Lalique",
+    "year": 2006,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Nathalie Lorson",
+    "notes": {
+      "top": ["Cypress"],
+      "heart": ["Vetiver", "Haitian Vetiver"],
+      "base": ["Cashmeran", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/encre-noire",
+      "https://parfumerienasreen.com/products/encre-noir-homme",
+      "https://vivir.com/article/lalique-encre-noire"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Pour homme EDT. Heart is a pairing of Bourbon (Réunion) vetiver and Haitian vetiver. Some retailers list cashmere wood instead of Cashmeran in the base. Still widely sold."
+  },
+  {
+    "name": "Flower in the Air",
+    "brand": "Kenzo",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": ["Raspberry", "Pink Pepper"],
+      "heart": ["Rose", "Gardenia", "Magnolia"],
+      "base": ["Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/kenzo/7251/flower-in-the-air",
+      "https://nstperfume.com/2013/06/25/kenzo-flower-in-the-air-new-fragrance/",
+      "https://www.dutyfreehunter.com/blog/first-look-kenzo-flower-air/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Flower by Kenzo (2000). Reference version is the 2013 EDP; a separate Flower in the Air EDT has a different pyramid (bergamot, pink pepper / rose essence, rose oxide, rose infusion / cedar, musks). Likely discontinued but not officially confirmed."
+  },
+  {
+    "name": "Scandal pour Homme",
+    "brand": "Jean Paul Gaultier",
+    "year": 2021,
+    "gender": "Masculine",
+    "family": "Woody Oriental",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Quentin Bisch, Christophe Raynaud, Nathalie Gracia-Cetto",
+    "notes": {
+      "top": ["Mandarin", "Clary Sage"],
+      "heart": ["Caramel", "Tonka Bean"],
+      "base": ["Vetiver"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2021/06/21/jean-paul-gaultier-scandal-pour-homme-new-fragrance/",
+      "https://decantboutique.com/product/jean-paul-gaultier-scandal-pour-homme-edt/",
+      "https://www.michael84.co.uk/jean-paul-gaultier-scandal-pour-homme-review/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Masculine counterpart of Scandal (2017). NST describes it as a woody oriental; refillable bottle. Still sold."
+  },
+  {
+    "name": "Cuir Beluga",
+    "brand": "Guerlain",
+    "year": 2005,
+    "gender": "Unisex",
+    "family": "Leather",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Polge",
+    "notes": {
+      "top": ["Mandarin", "Aldehydes"],
+      "heart": ["Immortelle", "Leather"],
+      "base": ["Amber", "Heliotrope", "Vanilla", "Suede"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://www.guerlain.com/us/en-us/p/l%E2%80%99art-la-matiere-cuir-beluga-eau-de-parfum-P017904.html",
+      "https://nstperfume.com/2005/12/13/cuir-beluga-rose-barbare-angelique-noire-guerlain-lart-et-la-matiere/",
+      "https://perfumeshrine.blogspot.com/2008/12/cuir-beluga-by-guerlain-fragrance.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "One of the first three L'Art et la Matière fragrances (with Rose Barbare and Angélique Noire), launched 2005 for the reopening of the Champs-Élysées boutique. Guerlain describes an aldehydic mandarin accord drawn into immortelle, wrapped in amber, heliotrope and vanilla; tiers inferred from that description. 'Immortelle' is a new note name (everlasting flower). Still sold as EDP."
+  },
+  {
+    "name": "Mademoiselle Rochas Eau de Parfum",
+    "brand": "Rochas",
+    "year": 2017,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo",
+    "notes": {
+      "top": ["Red Berries", "Apple", "Ivy"],
+      "heart": ["Rose", "Jasmine", "Violet"],
+      "base": ["Sandalwood", "Amber", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2017/02/24/rochas-mademoiselle-rochas-new-fragrance/",
+      "https://www.olfastory.com/parfum/mademoiselle-rochas",
+      "https://www.perfumesclub.us/en/rochas/mademoiselle-rochas-edp-vapo/p_81016/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Red fruits (redcurrant/blackcurrant), caramelized (toffee) apple and ivy leaf on top; Rochas specifies Egyptian jasmine and a Chantilly-type musk. 'Ivy' is a new note name. The later EDT version has different notes. Still sold."
+  },
+  {
+    "name": "Patchouli",
+    "brand": "Reminiscence",
+    "year": 1970,
+    "gender": "Unisex",
+    "family": "Amber Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": ["Patchouli", "Cedar"],
+      "heart": ["Sandalwood", "Vetiver"],
+      "base": ["Vanilla", "Tonka Bean", "Musk", "Labdanum", "Tolu Balsam"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.reminiscence-parfums.com/en/products/patchouli-eau-de-toilette-intense",
+      "https://kafkaesqueblog.com/2013/12/07/reminiscence-patchouli-elixir-de-patchouli/",
+      "https://www.strawberrynet.com/en-US/perfume/reminiscence/patchouli-eau-de-toilette-spray/131848"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "House signature since 1970 (brand says 'launched in the 1970s'; Kafkaesque gives 1970). Pyramid is the brand's current page, sold as 'Le Patchouli' Eau de Toilette Intense, family 'amber and woody'. Kafkaesque reports a reformulation (Mysore sandalwood replaced by Australian). No perfumer credited. 'Tolu Balsam' is a new note name. Still sold (reformulated/renamed)."
+  },
+  {
+    "name": "La Vie est Belle L'Éclat L'Eau de Toilette",
+    "brand": "Lancôme",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Anne Flipo, Dominique Ropion",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Grapefruit", "Pink Pepper"],
+      "heart": ["Jasmine", "Neroli", "Orange Blossom", "Rose"],
+      "base": ["Iris", "Patchouli", "Ambroxan", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/la-vie-est-belle-leclat-eau-de-toilette",
+      "https://avvenice.com/en/fragrances/24397-lancome-la-vie-est-belle-leclat-leau-de-toilette-eau-de-toilette-luxury-100-ml.html",
+      "https://surrendertochance.com/lancome-la-vie-est-belle-leclat/",
+      "https://nichecorner.com/products/la-vie-est-belle-eclat-edt"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of La Vie est Belle (2012). Launch year conflicts: Olfastory and Niche Corner give 2018, Surrender to Chance and some retailers 2017 (an L'Éclat EDP also exists, which may explain the 2017 date). Avvenice adds a tea accord on top; Niche Corner adds vanilla. No current offer on Olfastory; likely discontinued, not confirmed."
+  },
+  {
+    "name": "Boss Femme",
+    "brand": "Hugo Boss",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo, Harry Frémont",
+    "notes": {
+      "top": ["Freesia", "Mandarin", "Black Currant"],
+      "heart": ["Jasmine", "Rose", "Lily"],
+      "base": ["Apricot", "Lemongrass", "Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/hugo-boss/997/boss-femme",
+      "https://www.olfastory.com/en/perfume/femme-1/bottle",
+      "https://leparfumier.com/en/products/hugo-boss-boss-femme-for-women-eau-de-parfum"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Pyramid per Osmoz (oriental lily mapped to Lily; Bulgarian rose per Olfastory). Some retailers wrongly date it 2000. 'Lemongrass' is a new note name (Osmoz 'lemon grass'; other sources say lemon wood). Current availability not confirmed."
+  },
+  {
+    "name": "Kenzo Amour",
+    "brand": "Kenzo",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Daphné Bugey, Olivier Cresp",
+    "notes": {
+      "top": ["Rice", "White Tea"],
+      "heart": ["Frangipani", "Cherry Blossom", "Heliotrope"],
+      "base": ["Vanilla", "Musk", "Incense", "Thanaka Wood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/kenzo/1070/kenzo-amour",
+      "https://nstperfume.com/2006/08/22/kenzo-amour-fragrance-review/",
+      "https://boisdejasmin.com/2006/08/kenzo_amour_per.html"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Pyramid follows the most common listing (rice steam, white tea / frangipani, cherry blossom, heliotrope / vanilla, musk, incense, thanaka wood). Osmoz arranges it differently: frangipani / olibanum, white tea, cherry blossom / vanilla, rice, thanaka wood. New note names: Rice, White Tea, Cherry Blossom, Thanaka Wood. Year and perfumers consistent."
+  },
+  {
+    "name": "J'adore L'Or Essence de Parfum",
+    "brand": "Dior",
+    "year": 2010,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Jasmine", "Centifolia Rose"],
+      "heart": ["Patchouli", "Labdanum"],
+      "base": ["Tonka Bean", "Vanilla", "Amber"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://www.fashions-addict.com/J-adore-L-Or-plus-qu-un-parfum-une-oeuvre_461___633.html",
+      "https://www.olfastory.com/en/perfume/jadore-lor/composition",
+      "https://en.wikipedia.org/wiki/J'adore_(fragrance)"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Flanker of J'adore (1999). Sold as 'Essence de Parfum' (outside VOCAB; mapped to Parfum). Original 2010 version (Fashions-Addict, Nov 2010): May rose (centifolia) and Grasse jasmine absolutes over tonka and Tahitian vanilla absolutes, with patchouli, labdanum and amber notes; Dior published no pyramid, tiers inferred. Reformulated by Demachy in 2017 (new bottle) and recomposed by Francis Kurkdjian in 2023 as 'L'Or de J'adore' (orange blossom, jasmine grandiflorum, centifolia rose). Still sold in the 2023 form."
+  },
+  {
+    "name": "Hot Couture",
+    "brand": "Givenchy",
+    "year": 2000,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Alberto Morillas, Jacques Cavallier",
+    "notes": {
+      "top": ["Raspberry", "Bergamot", "Orange"],
+      "heart": ["Magnolia", "Vetiver", "Pepper"],
+      "base": ["Sandalwood", "Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/837/hot-couture",
+      "https://www.leparfumier.com/en/givenchy-hot-couture-for-women-eau-de-parfum.html",
+      "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/hot-couture-eau-de-parfum-by-givenchy-notes-longevity-review-complete-guide"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Osmoz family Oriental-Floral; pepper in the heart per Le Parfumier (Osmoz omits it). One source says a later Givenchy presentation uses a streamlined raspberry/jasmine/vetiver structure, suggesting reformulation; current status not officially confirmed."
+  },
+  {
+    "name": "Stronger With You Absolutely",
+    "brand": "Giorgio Armani",
+    "year": 2021,
+    "gender": "Masculine",
+    "family": "Amber Woody",
+    "concentration": "Parfum",
+    "perfumer": "Cécile Matton",
+    "notes": {
+      "top": ["Rum", "Bergamot", "Elemi"],
+      "heart": ["Lavender", "Davana"],
+      "base": ["Vanilla", "Chestnut", "Cedar", "Patchouli"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2021/01/13/giorgio-armani-stronger-with-you-absolutely-new-fragrance/",
+      "https://www.olfastory.com/en/perfume/stronger-you-absolutely/composition",
+      "https://www.giorgioarmanibeauty-usa.com/fragrances/mens-cologne/stronger-with-you-absolutely-parfum/ww-00424-arm.html",
+      "https://www.fragrancex.com/products/giorgio-armani/stronger-with-you-absolutely-cologne"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Emporio Armani flanker of Stronger With You (2017). Armani and NST give Parfum concentration (some retailers say EDP). Chestnut is a glazed chestnut accord; NST also mentions guaiac wood. Family label not officially published; chosen from the rum/vanilla/woods structure."
+  },
+  {
+    "name": "Sì Intense",
+    "brand": "Giorgio Armani",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Chypre Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Christine Nagel, Julie Massé",
+    "notes": {
+      "top": ["Black Currant", "Mandarin", "Bergamot", "Freesia"],
+      "heart": ["Rose", "Neroli", "Davana", "Osmanthus"],
+      "base": ["Patchouli", "Vanilla", "Ambroxan", "Woody Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2016/09/15/giorgio-armani-si-intense-fragrance-review/",
+      "https://www.fragrancenet.com/perfume/giorgio-armani/armani-si-intense/eau-de-parfum",
+      "https://www.giorgioarmanibeauty-usa.com/fragrances/womens-perfume/si-eau-de-parfum-intense/ww-00745-arm.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Eau de Parfum Intense (about 20% concentration per NST), flanker of Sì (2013). Launched 2014 (US in 2016). Some retailers credit Julie Massé alone. The product currently sold as 'Sì Eau de Parfum Intense' is a later relaunch described as ambery vanilla with damascena rose, black tea and smoky herbs, so the 2014 formula appears replaced. Family label follows the Sì line (chypre fruity) and is not separately published for this version."
+  },
+  {
+    "name": "Costa Azzurra",
+    "brand": "Tom Ford",
+    "year": 2014,
+    "gender": "Unisex",
+    "family": "Woody Aquatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Yann Vasnier",
+    "notes": {
+      "top": ["Seaweed", "Driftwood", "Oud", "Ambrette", "Celery Seed", "Cardamom"],
+      "heart": ["Juniper", "Myrtle", "Lavender", "Lemon", "Mandarin", "Artemisia"],
+      "base": ["Mastic", "Incense", "Vanilla", "Vetiver", "Oak"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://kafkaesqueblog.com/2014/06/25/tom-ford-costa-azzurra-neroli-portofino-collection/",
+      "https://chemistinthebottle.wordpress.com/2014/09/04/tom-ford-mandarino-di-amalfi-costa-azzurra/",
+      "https://thecandyperfumeboy.com/2014/08/01/the-big-splash-tom-ford-private-blend-costa-azzurra-mandarino-di-amalfi-perfume-reviews/",
+      "https://www.nordstrom.com/s/tom-ford-costa-azzurra-eau-de-parfum/3833095"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Private Blend, Neroli Portofino collection, July 2014 (with Mandarino di Amalfi). Notes from the press list; olibanum and incense merged as Incense. New note names: Seaweed, Celery Seed, Mastic. A separate Costa Azzurra Parfum (credited to Aurélien Guichard) came later."
+  },
+  {
+    "name": "Boss Nuit pour Femme",
+    "brand": "Hugo Boss",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo",
+    "notes": {
+      "top": ["Peach", "Aldehydes"],
+      "heart": ["Violet", "Jasmine", "White Flowers"],
+      "base": ["Sandalwood", "Moss"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/hugo-boss/6742/boss-nuit",
+      "https://nstperfume.com/2012/07/23/boss-nuit-pour-femme-by-hugo-boss-new-perfume/",
+      "https://www.olfastory.com/en/perfume/boss-nuit-pour-femme/composition",
+      "https://www.theperfumegirl.com/perfumes/fragrances/hugo-boss/boss-nuit-pour-femme/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Osmoz and a 2012 NST launch post agree on notes and year; Olfastory gives 2013 and adds tuberose and oakmoss. Perfumer credited only by Olfastory. Current availability not confirmed."
+  },
+  {
+    "name": "Alien Eau Extraordinaire",
+    "brand": "Mugler",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Dominique Ropion, Véronique Nyberg",
+    "notes": {
+      "top": ["Bergamot", "Orange", "Lemon"],
+      "heart": ["Orange Blossom", "Neroli", "Pepper", "Ylang-Ylang"],
+      "base": ["Amberwood", "Vanilla", "Musk", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/alien-eau-extraordinaire",
+      "https://thecandyperfumeboy.com/2014/03/04/solar-flare-thierry-mugler-alien-eau-extraordinaire-perfume-review/",
+      "https://www.fragrancenet.com/perfume/thierry-mugler/alien-eau-extraordinaire/edt"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Alien (2005), released under the Thierry Mugler name. Note lists vary: other sources mention tea, tiaré, heliotrope, white amber and cashmeran. Likely discontinued but not confirmed."
+  },
+  {
+    "name": "Gentlemen Only Intense",
+    "brand": "Givenchy",
+    "year": 2014,
+    "gender": "Masculine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean Jacques",
+    "notes": {
+      "top": ["Birch", "Pepper", "Mandarin"],
+      "heart": ["Cedar", "Patchouli", "Leather"],
+      "base": ["Tonka Bean", "Amber", "Incense"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/7667/gentlemen-only-intense",
+      "https://www.olfastory.com/en/perfume/gentlemen-only-intense",
+      "https://www.fragrancex.com/products/givenchy/gentlemen-only-intense-cologne"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Gentlemen Only (2013). Pyramid per Osmoz, matching Olfastory's description; Olfastory's own pyramid lists mint, pink pepper, lemon / violet leaf, coriander / vetiver, patchouli, vanilla, sandalwood. Perfumer credited only by Olfastory. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "La Petite Robe Noire Eau Fraîche",
+    "brand": "Guerlain",
+    "year": 2015,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Thierry Wasser",
+    "notes": {
+      "top": ["Bergamot", "Lemon", "Mandarin"],
+      "heart": ["Cherry", "Strawberry", "Raspberry", "Rose", "Peach", "Freesia"],
+      "base": ["Almond", "Tonka Bean", "Pistachio", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/la-petite-robe-noire-eau-fraiche/composition",
+      "https://scentsignal.com/fragrance/guerlain-la-petite-robe-noire-eau-fraiche",
+      "https://leparfumier.com/en/products/guerlain-la-petite-robe-noire-ptales-eau-fraiche-for-women-eau-de-toilette"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Spring flanker of La Petite Robe Noire, 2015 (not 2016). Olfastory base: bitter almond, amber woods, tonka; other listings add vanilla, patchouli and pistachio, and orange blossom on top. Concentration EDT per retailer listing (not stated by Olfastory). Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Booster",
+    "brand": "Lacoste",
+    "year": 1996,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean Kerléo",
+    "notes": {
+      "top": ["Mint", "Orange", "Grapefruit", "Eucalyptus"],
+      "heart": ["Lavender", "Basil", "Galbanum", "Tarragon", "Nutmeg"],
+      "base": ["Vetiver", "Cedar", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/lacoste-booster",
+      "https://www.le-parfum.fr/homme/edt/booster-lacoste-1996.html",
+      "https://leparfumier.com/en/products/lacoste-booster-for-men-eau-de-toilette"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Created by Jean Kerléo (Patou in-house perfumer, then composing for Lacoste). Lacoste's simplified current listing: mint, orange / lavender, basil / cedar, vetiver. Le-parfum.fr still shows 125 ml offers (Nocibé, Kalista), so it may still be in production; status not confirmed."
+  },
+  {
+    "name": "1 Million Privé",
+    "brand": "Paco Rabanne",
+    "year": 2016,
+    "gender": "Masculine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Christophe Raynaud",
+    "notes": {
+      "top": ["Blood Mandarin", "Cinnamon"],
+      "heart": ["Tobacco", "Myrrh"],
+      "base": ["Patchouli", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/1-million-prive/composition",
+      "https://decantboutique.com/product/paco-rabanne-1-million-prive-edp/",
+      "https://luxuryperfume.com/products/1-million-prive-by-paco-rabanne"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Flanker of 1 Million (2008). Heart is a hookah tobacco accord; base uses tonka bean absolute. 'Blood Mandarin' is a new note name (some retailers say blood orange). Listed as discontinued by retailers (not an official notice)."
+  },
+  {
+    "name": "Nina Rose",
+    "brand": "Nina Ricci",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Olivier Cresp",
+    "notes": {
+      "top": ["Pear", "Lemon", "Bergamot"],
+      "heart": ["Orange Blossom", "Neroli", "Jasmine"],
+      "base": ["Cedar", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/nina-rose/composition",
+      "https://www.caretobeauty.com/us/nina-ricci-nina-rose-eau-de-toilette-80ml/",
+      "https://www.wikiparfum.com/en/fragrances/nina-rose"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Flanker of Nina (2006), pink apple bottle. Wikiparfum adds amber. Cosmetify's grapefruit/peony/rose listing is an outlier and was not used. Still sold."
+  },
+  {
+    "name": "Eden",
+    "brand": "Cacharel",
+    "year": 1994,
+    "gender": "Feminine",
+    "family": "Floral Aquatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jean Guichard",
+    "notes": {
+      "top": ["Bergamot", "Lemon", "Mandarin", "Peach", "Tarragon", "Green Notes"],
+      "heart": ["Water Lily", "Lotus", "Tuberose", "Mimosa", "Melon", "Pineapple"],
+      "base": ["Patchouli", "Sandalwood", "Cedar", "Tonka Bean", "Vanilla", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/eden",
+      "https://www.yesterdaysperfume.com/yesterdays_perfume/2011/03/eden-by-cacharel-1994.html",
+      "https://perfumeshrine.blogspot.com/2011/03/cacharel-eden-fragrance-review.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Green aquatic floral; Olfastory attributes the watery effect mainly to Calone. Heart also includes jasmine, lily of the valley, rose and violet (trimmed to 6). Olfastory says it remains in Cacharel's catalogue, though availability is patchy."
+  },
+  {
+    "name": "Contre Moi",
+    "brand": "Louis Vuitton",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jacques Cavallier Belletrud",
+    "notes": {
+      "top": ["Bergamot", "Lemon", "Green Notes"],
+      "heart": ["Magnolia", "Orange Blossom", "Rose", "Pear"],
+      "base": ["Vanilla", "Cacao", "Ambrette"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/en/perfume/contre-moi",
+      "https://vivir.com/article/louis-vuitton-contre-moi-review",
+      "https://fragplace.com/en/fragrances/38438/louis-vuitton/contre-moi"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Part of Louis Vuitton's first collection of seven women's fragrances (2016). Base pairs Tahitian and Madagascar vanillas with dry cacao. A decant retailer labels it discontinued; not confirmed by Louis Vuitton."
+  }
+]

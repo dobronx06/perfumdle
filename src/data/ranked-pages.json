@@ -4053,5 +4053,393 @@
    "guerlain-vol-de-nuit"
   ],
   "perfumer": "Jacques Guerlain"
+ },
+ {
+  "id": "guide:coffret-femme",
+  "kind": "guide",
+  "slug_fr": "coffret-parfum-femme",
+  "slug_en": "womens-perfume-gift-sets",
+  "volume": 2455,
+  "keywords": [
+   {
+    "kw": "coffret parfum femme pas cher",
+    "volume": 1455
+   },
+   {
+    "kw": "coffret parfum femme",
+    "volume": 500
+   },
+   {
+    "kw": "coffret parfum",
+    "volume": 500
+   }
+  ],
+  "pool": [
+   "lancome-la-vie-est-belle",
+   "carolina-herrera-good-girl",
+   "yves-saint-laurent-black-opium",
+   "chanel-coco-mademoiselle",
+   "yves-saint-laurent-libre",
+   "kenzo-flower-by-kenzo",
+   "versace-bright-crystal",
+   "ariana-grande-cloud",
+   "guerlain-la-petite-robe-noire",
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "jo-malone-lime-basil-mandarin",
+   "dolce-gabbana-light-blue",
+   "chanel-chance",
+   "dior-hypnotic-poison",
+   "thierry-mugler-alien"
+  ]
+ },
+ {
+  "id": "guide:coffret-homme",
+  "kind": "guide",
+  "slug_fr": "coffret-parfum-homme",
+  "slug_en": "mens-fragrance-gift-sets",
+  "volume": 1477,
+  "keywords": [
+   {
+    "kw": "coffret parfum pas cher pour homme",
+    "volume": 769
+   },
+   {
+    "kw": "coffret parfum homme",
+    "volume": 600
+   },
+   {
+    "kw": "coffret cadeau parfum pour homme",
+    "volume": 108
+   }
+  ],
+  "pool": [
+   "chanel-bleu-de-chanel",
+   "dior-sauvage",
+   "hugo-boss-boss-bottled",
+   "paco-rabanne-invictus",
+   "azzaro-wanted",
+   "versace-eros",
+   "azzaro-chrome",
+   "dolce-gabbana-d-g-light-blue-pour-homme",
+   "davidoff-cool-water",
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "calvin-klein-ck-one",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "paco-rabanne-1-million",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "creed-aventus",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-terre-dhermes",
+   "hermes-un-jardin-sur-le-nil",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "azzaro-azzaro-pour-homme",
+   "guy-laroche-drakkar-noir",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme"
+  ]
+ },
+ {
+  "id": "guide:coffret-ado",
+  "kind": "guide",
+  "slug_fr": "coffret-parfum-ado",
+  "slug_en": "teen-perfume-gift-sets",
+  "volume": 980,
+  "keywords": [
+   {
+    "kw": "coffret parfum fille",
+    "volume": 590
+   },
+   {
+    "kw": "coffret parfum ado fille",
+    "volume": 390
+   }
+  ],
+  "pool": [
+   "ariana-grande-cloud",
+   "versace-bright-crystal",
+   "dolce-gabbana-light-blue",
+   "marc-jacobs-daisy",
+   "sol-de-janeiro-sol-cheirosa-62",
+   "kenzo-leau-par-kenzo",
+   "calvin-klein-ck-one",
+   "chanel-chance-eau-tendre",
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "dior-eau-sauvage",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "ralph-lauren-polo",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "estee-lauder-pleasures",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "azzaro-chrome",
+   "chanel-allure",
+   "dior-jadore"
+  ]
+ },
+ {
+  "id": "guide:coffret-miniature",
+  "kind": "guide",
+  "slug_fr": "coffret-parfum-miniature",
+  "slug_en": "perfume-discovery-sets",
+  "volume": 865,
+  "keywords": [
+   {
+    "kw": "coffret parfum miniature",
+    "volume": 590
+   },
+   {
+    "kw": "echantillon parfum",
+    "volume": 275
+   }
+  ],
+  "pool": [
+   "carolina-herrera-good-girl",
+   "lancome-idole",
+   "chanel-coco-mademoiselle",
+   "versace-bright-crystal",
+   "versace-yellow-diamond",
+   "montblanc-explorer",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "le-labo-santal-33",
+   "maison-margiela-replica-by-the-fireplace",
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "dior-eau-sauvage",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "ralph-lauren-polo",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "azzaro-chrome",
+   "chanel-allure"
+  ]
+ },
+ {
+  "id": "guide:pas-cher-femme",
+  "kind": "guide",
+  "slug_fr": "parfum-femme-pas-cher",
+  "slug_en": "affordable-perfumes-for-women",
+  "volume": 2500,
+  "keywords": [
+   {
+    "kw": "parfum femme pas cher",
+    "volume": 2500
+   }
+  ],
+  "pool": [
+   "calvin-klein-euphoria",
+   "elizabeth-taylor-white-diamonds",
+   "ariana-grande-cloud",
+   "jennifer-lopez-glow",
+   "cacharel-anais-anais",
+   "versace-bright-crystal",
+   "versace-yellow-diamond",
+   "giorgio-beverly-hills-giorgio",
+   "coach-coach",
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "chanel-allure",
+   "dior-jadore",
+   "jo-malone-lime-basil-mandarin",
+   "chanel-coco-mademoiselle",
+   "kenzo-flower-by-kenzo",
+   "dolce-gabbana-light-blue",
+   "chanel-chance"
+  ]
+ },
+ {
+  "id": "guide:pas-cher-homme",
+  "kind": "guide",
+  "slug_fr": "parfum-homme-pas-cher",
+  "slug_en": "affordable-mens-fragrances",
+  "volume": 1626,
+  "keywords": [
+   {
+    "kw": "parfum pas cher",
+    "volume": 1200
+   },
+   {
+    "kw": "parfum homme pas cher",
+    "volume": 426
+   }
+  ],
+  "pool": [
+   "cerruti-1881",
+   "guy-laroche-drakkar-noir",
+   "azzaro-azzaro-pour-homme",
+   "calvin-klein-ck-eternity-for-men",
+   "davidoff-cool-water",
+   "ralph-lauren-polo-blue",
+   "azzaro-chrome",
+   "calvin-klein-ck-one",
+   "dior-eau-sauvage",
+   "ralph-lauren-polo",
+   "jean-paul-gaultier-le-male",
+   "giorgio-armani-acqua-di-gio",
+   "thierry-mugler-amen",
+   "jo-malone-lime-basil-mandarin",
+   "tom-ford-black-orchid",
+   "paco-rabanne-1-million",
+   "chanel-bleu-de-chanel",
+   "paco-rabanne-invictus",
+   "dior-sauvage",
+   "maison-francis-kurkdjian-baccarat-rouge-540",
+   "jo-malone-wood-sage-sea-salt",
+   "creed-aventus",
+   "tom-ford-tobacco-vanille",
+   "tom-ford-oud-wood",
+   "le-labo-santal-33",
+   "byredo-gypsy-water",
+   "byredo-bal-dafrique",
+   "hermes-terre-dhermes",
+   "hermes-un-jardin-sur-le-nil",
+   "chanel-pour-monsieur",
+   "guerlain-habit-rouge",
+   "dior-fahrenheit",
+   "issey-miyake-leau-dissey-pour-homme",
+   "dior-dior-homme"
+  ]
+ },
+ {
+  "id": "guide:cadeau-noel",
+  "kind": "guide",
+  "slug_fr": "parfum-cadeau-noel",
+  "slug_en": "perfume-christmas-gift",
+  "volume": 522,
+  "keywords": [
+   {
+    "kw": "carte cadeau parfum",
+    "volume": 170
+   },
+   {
+    "kw": "cadeau parfum homme",
+    "volume": 142
+   },
+   {
+    "kw": "parfum noel",
+    "volume": 110
+   },
+   {
+    "kw": "cadeau parfum",
+    "volume": 100
+   }
+  ],
+  "pool": [
+   "chanel-bleu-de-chanel",
+   "lancome-la-vie-est-belle",
+   "giorgio-armani-acqua-di-gio",
+   "chanel-coco-mademoiselle",
+   "hermes-terre-dhermes",
+   "narciso-rodriguez-narciso-rodriguez-for-her",
+   "dior-sauvage",
+   "dolce-gabbana-light-blue",
+   "jo-malone-wood-sage-sea-salt",
+   "chanel-n-5",
+   "guerlain-shalimar",
+   "dior-miss-dior",
+   "nina-ricci-lair-du-temps",
+   "estee-lauder-youth-dew",
+   "dior-eau-sauvage",
+   "lanvin-arpege",
+   "jean-patou-joy",
+   "rochas-femme",
+   "guerlain-mitsouko",
+   "yves-saint-laurent-opium",
+   "ralph-lauren-polo",
+   "dior-poison",
+   "estee-lauder-beautiful",
+   "calvin-klein-obsession",
+   "calvin-klein-eternity",
+   "lancome-tresor",
+   "thierry-mugler-angel",
+   "issey-miyake-leau-dissey",
+   "calvin-klein-ck-one",
+   "estee-lauder-pleasures",
+   "jean-paul-gaultier-le-male",
+   "thierry-mugler-amen",
+   "azzaro-chrome",
+   "chanel-allure",
+   "dior-jadore"
+  ]
  }
 ]

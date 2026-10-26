@@ -1,0 +1,14 @@
+---
+/** /fr/dupes/ (guide) and /fr/dupes/<store>/ pages, generated only once their copy exists in src/data/dupes.json. */
+import DupeView from '../../../views/DupeView.astro';
+import data from '../../../data/dupes.json';
+export function getStaticPaths() {
+  const d = data as { hub: unknown; stores: Record<string, unknown> };
+  return [
+    ...(d.hub ? [{ params: { store: undefined } }] : []),
+    ...Object.keys(d.stores).map((store) => ({ params: { store } })),
+  ];
+}
+const { store } = Astro.params;
+---
+<DupeView store={store} />

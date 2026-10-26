@@ -1,0 +1,110 @@
+---
+/**
+ * Dupes section (French only): the guide /fr/dupes/ and one page per store (/fr/dupes/adopt/ ...).
+ * Data: src/data/dupes.json, built from scripts/dupes/dupes-research.json (each pair has at least two sources)
+ * plus the editorial copy. Wording stays "souvent comparé à": a store product is never called a copy.
+ * Each original links to its Perfumdle fiche when we have it, with its notes so the reader can compare.
+ */
+import Shell from '../components/Shell.astro';
+import data from '../data/dupes.json';
+import { url, perfumeBySlug, noteName, allNotes } from '../lib/catalog';
+import { itemListLd } from '../lib/seo';
+
+interface Item { product: string; line?: string | null; price?: string | null; original_brand: string; original_name: string; perfumdle_slug?: string | null; why: string }
+interface Copy { title: string; meta: string; h1: string; intro: string; sections: { title: string; body: string }[]; faq: { q: string; a: string }[] }
+interface Store { name: string; copy: Copy; items: Item[]; sources?: string[] }
+interface Props { store?: string }
+
+const D = data as unknown as { hub: Copy | null; stores: Record<string, Store> };
+const key = Astro.props.store;
+const store = key ? D.stores[key] : null;
+const copy = (store ? store.copy : D.hub)!;
+const path = key ? `/fr/dupes/${key}/` : '/fr/dupes/';
+const stores = Object.entries(D.stores);
+const crumbs = [{ name: 'Accueil', href: url.home('fr') }, ...(key ? [{ name: 'Dupes de parfum', href: '/fr/dupes/' }, { name: store!.name }] : [{ name: 'Dupes de parfum' }])];
+/* Scheduled perfumes are absent from the build until their date: link only fiches that exist. */
+const live = (slug?: string | null) => !!slug && perfumeBySlug.has(slug);
+const top3 = (slug?: string | null) => {
+  const p = slug ? perfumeBySlug.get(slug) : undefined;
+  return p ? allNotes(p).slice(0, 4).map((n) => noteName(n, 'fr')).join(', ') : null;
+};
+/* On the guide page, the first mention of each store in the text links to its page. */
+const linkify = (text: string): (string | { href: string; text: string })[] => {
+  if (key) return [text];
+  const out: (string | { href: string; text: string })[] = [];
+  let rest = text;
+  const done = new Set<string>();
+  for (;;) {
+    const hits = stores.map(([k, s]) => ({ k, name: s.name, i: done.has(k) ? -1 : rest.indexOf(s.name) })).filter((h) => h.i >= 0).sort((a, b) => a.i - b.i);
+    if (!hits.length) break;
+    const h = hits[0];
+    out.push(rest.slice(0, h.i), { href: `/fr/dupes/${h.k}/`, text: h.name });
+    rest = rest.slice(h.i + h.name.length);
+    done.add(h.k);
+  }
+  out.push(rest);
+  return out;
+};
+---
+
+<Shell
+  locale="fr"
+  frOnly
+  title={copy.title}
+  description={copy.meta}
+  alternates={{ fr: path, en: '/en/' }}
+  crumbs={crumbs}
+  eyebrow={key ? `Dupes ${store!.name}` : 'Dupes de parfum'}
+  h1={copy.h1}
+  lede={copy.intro}
+  jsonLd={[
+    ...(store ? [itemListLd(copy.h1, store.items.filter((i) => live(i.perfumdle_slug)).map((i) => ({ name: `${i.original_name} (${i.original_brand})`, href: url.perfume('fr', i.perfumdle_slug!) })))] : []),
+    { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: copy.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  ]}
+>
+  {store && (
+    <div class="tbl dupes-table" style="margin-bottom:2.5rem">
+      <table>
+        <thead><tr><th>Chez {store.name}</th><th>Souvent comparé à</th><th>Notes de l'original</th><th>Pourquoi on les compare</th></tr></thead>
+        <tbody>
+          {store.items.map((i) => (
+            <tr>
+              <td><strong>{i.product}</strong>{i.line && <><br /><small>{i.line}</small></>}{i.price && <><br /><small>{i.price}</small></>}</td>
+              <td>{live(i.perfumdle_slug) ? <a href={url.perfume('fr', i.perfumdle_slug!)}>{i.original_name}</a> : i.original_name}<br /><small>{i.original_brand}</small></td>
+              <td>{top3(i.perfumdle_slug) ?? '·'}</td>
+              <td>{i.why}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+  {!store && (
+    <div class="chips" style="margin-bottom:2.5rem">
+      {stores.map(([k, s]) => <a class="chip chip--lg" href={`/fr/dupes/${k}/`}>Dupes {s.name}<small>{s.items.length}</small></a>)}
+    </div>
+  )}
+  <div class="article">
+    <article class="prose">
+      {copy.sections.map((s, i) => (<><h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2><p>{linkify(s.body).map((part) => typeof part === 'string' ? part : <a href={part.href}>{part.text}</a>)}</p></>))}
+      <h2>Questions fréquentes</h2>
+      {copy.faq.map((f) => <><h3>{f.q}</h3><p>{f.a}</p></>)}
+      {store && store.sources && store.sources.length > 0 && (
+        <p class="muted" style="font-size:.85rem">Sources des comparaisons : {store.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} rel="nofollow noopener" target="_blank">{new URL(u).hostname.replace('www.', '')}</a></>)}.</p>
+      )}
+    </article>
+    <aside class="aside">
+      <div class="aside-card">
+        <p class="eyebrow">Autres enseignes</p>
+        <div class="chips" style="margin-top:.6rem">{stores.filter(([k]) => k !== key).map(([k, s]) => <a class="chip" href={`/fr/dupes/${k}/`}>{s.name}</a>)}</div>
+        <p style="margin-top:1rem"><a class="link-arrow" href="/fr/parfums/">Tous les parfums et leurs similaires</a></p>
+      </div>
+    </aside>
+  </div>
+</Shell>
+
+<style>
+  .dupes-table table { font-size: 0.92rem; }
+  .dupes-table td { vertical-align: top; }
+  .dupes-table small { color: var(--muted, #6b605a); }
+</style>

@@ -1,0 +1,2099 @@
+[
+  {
+    "brand": "Valentino",
+    "name": "Voce Viva",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "voce-viva",
+    "traffic_olfastory": 537,
+    "keywords": [
+      "lady gaga pub parfum",
+      "pub lady gaga",
+      "pub valentino voce viva"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Miss Dior Chérie",
+    "version_note": "original Miss Dior Chérie (2005), renamed Miss Dior in 2012",
+    "slug_hint": "miss-dior-cherie",
+    "traffic_olfastory": 532,
+    "keywords": [
+      "miss dior chérie",
+      "miss dior cherie",
+      "parfum miss dior chérie"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Van Cleef & Arpels",
+    "name": "Féerie",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "feerie",
+    "traffic_olfastory": 495,
+    "keywords": [
+      "feerie van cleef",
+      "van cleef féerie",
+      "parfum van cleef feerie"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Manifesto L'Élixir",
+    "version_note": "flanker of Manifesto",
+    "slug_hint": "manifesto-lelixir",
+    "traffic_olfastory": 467,
+    "keywords": [
+      "manifesto elixir",
+      "manifesto parfum",
+      "yves saint laurent manifesto elixir"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dana",
+    "name": "Canoë",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "canoe",
+    "traffic_olfastory": 400,
+    "keywords": [
+      "ou trouver canoe de dana femme",
+      "parfum canoe femme",
+      "canoë parfum"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Mugler",
+    "name": "Aura",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "mugler-aura",
+    "traffic_olfastory": 398,
+    "keywords": [
+      "aura parfum",
+      "aura thierry mugler",
+      "mugler aura"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Bois d'Argent",
+    "version_note": "La Collection Privée",
+    "slug_hint": "bois-dargent",
+    "traffic_olfastory": 376,
+    "keywords": [
+      "boi d'argent",
+      "bois d argent dior",
+      "parfum dior bois d'argent"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Burberry",
+    "name": "The Beat",
+    "version_note": "for women",
+    "slug_hint": "beat",
+    "traffic_olfastory": 373,
+    "keywords": [
+      "burberry the beat",
+      "burberry the beat femme",
+      "beat burberry"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Jean Paul Gaultier",
+    "name": "Fleur du Mâle",
+    "version_note": "flanker of Le Mâle",
+    "slug_hint": "fleur-du-male",
+    "traffic_olfastory": 330,
+    "keywords": [
+      "la fleur du mâle",
+      "fleur du mal",
+      "fleur du male jean paul gaultier"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Dune",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "dune",
+    "traffic_olfastory": 329,
+    "keywords": [
+      "dune parfum",
+      "parfum dune",
+      "dune parfum dior"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "L'Extase",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "lextase",
+    "traffic_olfastory": 328,
+    "keywords": [
+      "l extase nina ricci",
+      "nina ricci l extase",
+      "extase nina ricci"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Acqua di Gioia",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "acqua-di-gioia",
+    "traffic_olfastory": 328,
+    "keywords": [
+      "agua di gioia",
+      "parfum acqua di gioia",
+      "acqua di gioia armani"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "Trésor in Love",
+    "version_note": "flanker of Trésor",
+    "slug_hint": "tresor-love",
+    "traffic_olfastory": 328,
+    "keywords": [
+      "trésor love",
+      "lancome trésor in love",
+      "tresor in love lancome"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Chloé",
+    "name": "Love, Chloé",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "love-chloe",
+    "traffic_olfastory": 323,
+    "keywords": [
+      "love chloe",
+      "chloe love",
+      "love chloé parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Insolence",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "insolence",
+    "traffic_olfastory": 316,
+    "keywords": [
+      "parfums insolence",
+      "insolence by guerlain",
+      "guerlain insolence notes"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Van Cleef & Arpels",
+    "name": "Van Cleef",
+    "version_note": "pour femme, Eau de Parfum (1993)",
+    "slug_hint": "van-cleef-pour-femme",
+    "traffic_olfastory": 292,
+    "keywords": [
+      "parfum vancleef",
+      "eau de parfum van cleef de van cleef & arpels pour femme 100 ml",
+      "eau de parfum van cleef de van cleef arpels pour femme 100 ml"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Ambre Nuit",
+    "version_note": "La Collection Privée",
+    "slug_hint": "ambre-nuit",
+    "traffic_olfastory": 288,
+    "keywords": [
+      "ambre nuit",
+      "dior ambre nuit",
+      "parfum dior ambre nuit"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Manifesto",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "manifesto-0",
+    "traffic_olfastory": 287,
+    "keywords": [
+      "parfum manifesto",
+      "manifesto yves saint laurent",
+      "yves saint laurent manifesto"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "J'adore L'Absolu",
+    "version_note": "flanker of J'adore",
+    "slug_hint": "jadore-labsolu",
+    "traffic_olfastory": 275,
+    "keywords": [
+      "dior pub",
+      "charlize theron j adore dior",
+      "j'adore dior pub"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Miss Dior Absolutely Blooming",
+    "version_note": "flanker of Miss Dior",
+    "slug_hint": "miss-dior-absolutely-blooming",
+    "traffic_olfastory": 272,
+    "keywords": [
+      "dior miss dior absolutely blooming",
+      "absolutely blooming",
+      "miss dior absolutely blooming"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Bella",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "bella",
+    "traffic_olfastory": 272,
+    "keywords": [
+      "parfum bella nina ricci",
+      "nina ricci bella",
+      "bella de nina ricci"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Hugo Boss",
+    "name": "Boss Alive",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "alive",
+    "traffic_olfastory": 264,
+    "keywords": [
+      "parfum alive",
+      "alive parfum",
+      "alive hugo boss"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Paco Rabanne",
+    "name": "Pure XS for Her",
+    "version_note": "women's version of Pure XS",
+    "slug_hint": "pure-xs-her",
+    "traffic_olfastory": 262,
+    "keywords": [
+      "parfums pure xs",
+      "pure xs",
+      "pure xs paco rabanne"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Dahlia Noir",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "dahlia-noir",
+    "traffic_olfastory": 248,
+    "keywords": [
+      "dahlia noir by givenchy",
+      "dahlia noir parfum",
+      "dahlia noir givenchy"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Cinéma",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "cinema",
+    "traffic_olfastory": 246,
+    "keywords": [
+      "cinema yves saint laurent",
+      "cinéma ysl",
+      "cinéma yves saint laurent parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Oud Ispahan",
+    "version_note": "La Collection Privée",
+    "slug_hint": "oud-ispahan",
+    "traffic_olfastory": 241,
+    "keywords": [
+      "oud ispahan",
+      "dior oud ispahan",
+      "oud dior"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Van Cleef & Arpels",
+    "name": "Midnight in Paris",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "midnight-paris",
+    "traffic_olfastory": 239,
+    "keywords": [
+      "midnight in paris van cleef",
+      "midnight in paris parfum",
+      "van cleef midnight in paris"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Samsara",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "samsara",
+    "traffic_olfastory": 235,
+    "keywords": [
+      "samsara by guerlain",
+      "samsara guerlain",
+      "samsara parfum"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cartier",
+    "name": "Eau de Cartier",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "eau-de-cartier",
+    "traffic_olfastory": 226,
+    "keywords": [
+      "eau de cartier",
+      "eau de cartier pour femme",
+      "parfum eau de cartier"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Hugo Boss",
+    "name": "Boss Bottled Infinite",
+    "version_note": "Eau de Parfum, flanker of Boss Bottled",
+    "slug_hint": "boss-bottled-infinite",
+    "traffic_olfastory": 224,
+    "keywords": [
+      "chris hemsworth pub parfum",
+      "chris hemsworth pub hugo boss",
+      "pub hugo boss"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Repetto",
+    "name": "Repetto",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "repetto-eau-de-parfum",
+    "traffic_olfastory": 221,
+    "keywords": [
+      "parfum repetto femme",
+      "repetto eau de parfum",
+      "eau de parfum repetto"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Gris Dior",
+    "version_note": "La Collection Privée, formerly Gris Montaigne",
+    "slug_hint": "gris-dior",
+    "traffic_olfastory": 220,
+    "keywords": [
+      "gris dior parfum",
+      "dior gris",
+      "gris montaigne dior"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "La Nuit Trésor Musc Diamant",
+    "version_note": "flanker of La Nuit Trésor",
+    "slug_hint": "la-nuit-tresor-diamant-blanc",
+    "traffic_olfastory": 219,
+    "keywords": [
+      "la nuit tresor musc diamant",
+      "musc diamant lancome",
+      "lancôme musc diamant"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Viktor & Rolf",
+    "name": "Bonbon",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "bonbon",
+    "traffic_olfastory": 217,
+    "keywords": [
+      "parfum bonbon",
+      "parfum bonbon viktor and rolf",
+      "bonbon viktor and rolf"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "Hypnôse Homme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "hypnose-homme",
+    "traffic_olfastory": 216,
+    "keywords": [
+      "parfum hypnose pour homme",
+      "parfum homme hypnose",
+      "parfum hypnôse homme"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Molinard",
+    "name": "Habanita",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "habanita",
+    "traffic_olfastory": 206,
+    "keywords": [
+      "habanita molinard",
+      "parfum habanita",
+      "habanita ancienne version"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "J'adore Infinissime",
+    "version_note": "flanker of J'adore",
+    "slug_hint": "jadore-infinissime",
+    "traffic_olfastory": 199,
+    "keywords": [
+      "dior infinissime",
+      "j'adore infinissime",
+      "j'adore eau de parfum infinissime"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Diesel",
+    "name": "Loverdose Tattoo",
+    "version_note": "flanker of Loverdose",
+    "slug_hint": "loverdose-tattoo",
+    "traffic_olfastory": 199,
+    "keywords": [
+      "loverdose tattoo",
+      "loverdose tattoo diesel",
+      "diesel loverdose tattoo"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Fahrenheit 32",
+    "version_note": "flanker of Fahrenheit",
+    "slug_hint": "fahrenheit-32",
+    "traffic_olfastory": 198,
+    "keywords": [
+      "fahrenheit 32",
+      "32 fahrenheit",
+      "dior fahrenheit 32"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Diesel",
+    "name": "Loverdose",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "loverdose",
+    "traffic_olfastory": 190,
+    "keywords": [
+      "loverdose diesel",
+      "loverdose",
+      "diesel loverdose"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Sisley",
+    "name": "Eau du Soir",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "eau-du-soir",
+    "traffic_olfastory": 186,
+    "keywords": [
+      "eau du soir sisley",
+      "qui porte eau du soir sisley",
+      "eau du soir"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Zadig & Voltaire",
+    "name": "This is Her!",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "her-0",
+    "traffic_olfastory": 179,
+    "keywords": [
+      "this is her zadig et voltaire",
+      "zadig et voltaire this is her",
+      "parfum zadig et voltaire this is her"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Montblanc",
+    "name": "Signature",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "montblanc-signature",
+    "traffic_olfastory": 177,
+    "keywords": [
+      "montblanc signature",
+      "montblanc femme parfum",
+      "signature mont blanc"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Midnight Poison",
+    "version_note": "flanker of Poison",
+    "slug_hint": "midnight-poison",
+    "traffic_olfastory": 175,
+    "keywords": [
+      "midnight poison dior",
+      "midnight poison",
+      "dior midnight poison"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Calvin Klein",
+    "name": "Women",
+    "version_note": "Eau de Parfum (2018)",
+    "slug_hint": "women",
+    "traffic_olfastory": 175,
+    "keywords": [
+      "calvin klein parfum pour femme",
+      "parfum calvin klein femme",
+      "parfums femme calvin klein"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Play Intense",
+    "version_note": "for men, flanker of Play",
+    "slug_hint": "play-intense",
+    "traffic_olfastory": 172,
+    "keywords": [
+      "givenchy play intense",
+      "play intense givenchy homme",
+      "parfum play givenchy"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Baby Doll",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "baby-doll",
+    "traffic_olfastory": 172,
+    "keywords": [
+      "parfum baby doll",
+      "baby doll yves saint laurent",
+      "baby doll parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "L'Interdit Eau de Parfum Intense",
+    "version_note": "intense version of L'Interdit",
+    "slug_hint": "linterdit-eau-de-parfum-intense",
+    "traffic_olfastory": 172,
+    "keywords": [
+      "linterdit givenchy avis",
+      "l'interdit givenchy avis",
+      "parfum l'interdit avis"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Balmain",
+    "name": "Ivoire de Balmain",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "ivoire-0",
+    "traffic_olfastory": 171,
+    "keywords": [
+      "ivoire de balmain",
+      "balmain ivoire",
+      "ivoire de balmain ancienne version"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Chloé",
+    "name": "See by Chloé",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "see-chloe",
+    "traffic_olfastory": 167,
+    "keywords": [
+      "seebychloé parfum",
+      "see by chloé parfum",
+      "chloe by see"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Jungle L'Éléphant",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "kenzo-jungle",
+    "traffic_olfastory": 167,
+    "keywords": [
+      "kenzo jungle",
+      "parfum jungle femme",
+      "kenzo jungle avis"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lacoste",
+    "name": "Lacoste pour Femme",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "lacoste-pour-femme",
+    "traffic_olfastory": 166,
+    "keywords": [
+      "lacoste parfum femme",
+      "parfum lacoste femme",
+      "parfums lacoste femme"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Nina Soleil",
+    "version_note": "flanker of Nina",
+    "slug_hint": "nina-soleil",
+    "traffic_olfastory": 164,
+    "keywords": [
+      "nina soleil",
+      "nina soleil parfum",
+      "nina ricci jaune"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Opium pour Homme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "opium-pour-homme",
+    "traffic_olfastory": 163,
+    "keywords": [
+      "parfum opium pour homme",
+      "black opiume homme",
+      "opium homme eau de parfum"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Live Irrésistible",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "live-irresistible",
+    "traffic_olfastory": 156,
+    "keywords": [
+      "live irrésistible givenchy",
+      "givenchy live irrésistible",
+      "givenchy irresistible live"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Body Kouros",
+    "version_note": "flanker of Kouros",
+    "slug_hint": "body-kouros",
+    "traffic_olfastory": 155,
+    "keywords": [
+      "parfums kouros",
+      "yves saint laurent kouros body",
+      "kouros body 100ml"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Noir",
+    "version_note": "Eau de Parfum (2012)",
+    "slug_hint": "tom-ford-noir",
+    "traffic_olfastory": 152,
+    "keywords": [
+      "tom ford noir",
+      "parfum noir",
+      "tom ford noir noir"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cacharel",
+    "name": "Loulou",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "loulou",
+    "traffic_olfastory": 150,
+    "keywords": [
+      "loulou parfum",
+      "loulou de cacharel",
+      "parfum loulou cacharel"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Caron",
+    "name": "Pour un Homme de Caron",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "pour-un-homme-de-caron",
+    "traffic_olfastory": 148,
+    "keywords": [
+      "caron parfum homme",
+      "pour un homme de caron",
+      "parfum caron homme"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Clarins",
+    "name": "Eau Ensoleillante",
+    "version_note": "eau de soins",
+    "slug_hint": "eau-ensoleillante",
+    "traffic_olfastory": 148,
+    "keywords": [
+      "eau clarins ensoleillante",
+      "eau ensoleillante clarins",
+      "ensoleillante"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Paco Rabanne",
+    "name": "Lady Million Empire",
+    "version_note": "flanker of Lady Million",
+    "slug_hint": "lady-million-empire",
+    "traffic_olfastory": 147,
+    "keywords": [
+      "lady million empire",
+      "parfum lady million empire",
+      "lady million empire parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Fève Délicieuse",
+    "version_note": "La Collection Privée",
+    "slug_hint": "feve-delicieuse",
+    "traffic_olfastory": 144,
+    "keywords": [
+      "feve delicieuse dior",
+      "dior feve delicieuse",
+      "feve delicieuse"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Azzaro",
+    "name": "Eau Belle",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "eau-belle",
+    "traffic_olfastory": 140,
+    "keywords": [
+      "eau belle azzaro",
+      "azzaro eau belle",
+      "eau belle azzaro nocibe"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Diorissimo",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "diorissimo",
+    "traffic_olfastory": 139,
+    "keywords": [
+      "diorissimo",
+      "diorissimo parfum",
+      "diorissimo eau de parfum"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Courrèges",
+    "name": "In Blue",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "courreges-blue",
+    "traffic_olfastory": 138,
+    "keywords": [
+      "courrege in blue",
+      "courreges in blue",
+      "in blue courreges"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Kenzo World Power",
+    "version_note": "flanker of Kenzo World",
+    "slug_hint": "kenzo-world-power",
+    "traffic_olfastory": 137,
+    "keywords": [
+      "kenzo world power",
+      "parfum kenzo world",
+      "oeil kenzo"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Jean Paul Gaultier",
+    "name": "So Scandal!",
+    "version_note": "flanker of Scandal",
+    "slug_hint": "so-scandal",
+    "traffic_olfastory": 134,
+    "keywords": [
+      "parfum scandale femme",
+      "parfum so scandal",
+      "so scandal 80 ml"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Mugler",
+    "name": "Angel Muse",
+    "version_note": "flanker of Angel",
+    "slug_hint": "angel-muse",
+    "traffic_olfastory": 132,
+    "keywords": [
+      "muse angel",
+      "angel muse parfum",
+      "muse thierry mugler"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Paco Rabanne",
+    "name": "Black XS L'Excès for Him",
+    "version_note": "flanker of Black XS",
+    "slug_hint": "black-xs-lexces-pour-lui",
+    "traffic_olfastory": 132,
+    "keywords": [
+      "black xs l'exces homme",
+      "black xs l excès homme",
+      "black xs excess homme"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Luna",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "luna",
+    "traffic_olfastory": 132,
+    "keywords": [
+      "nina ricci luna",
+      "luna by nina ricci",
+      "luna ricci"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Santal Royal",
+    "version_note": "L'Art et la Matière",
+    "slug_hint": "santal-royal",
+    "traffic_olfastory": 132,
+    "keywords": [
+      "guerlain santal royal",
+      "santal royal",
+      "santal royal guerlain"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "L'Homme Libre",
+    "version_note": "flanker of L'Homme",
+    "slug_hint": "lhomme-libre",
+    "traffic_olfastory": 132,
+    "keywords": [
+      "yves saint laurent libre homme",
+      "l'homme libre yves saint laurent",
+      "yves st laurent lhomme libre"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Reminiscence",
+    "name": "Patchouli Blanc",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "patchouli-blanc",
+    "traffic_olfastory": 130,
+    "keywords": [
+      "patchouli blanc reminiscence",
+      "reminiscence parfum patchouli blanc",
+      "reminiscence patchouli blanc"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Courrèges",
+    "name": "Empreinte",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "empreinte",
+    "traffic_olfastory": 129,
+    "keywords": [
+      "empreinte de courrèges",
+      "parfums courreges empreinte",
+      "empreinte de courreges"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Burberry",
+    "name": "Burberry Body",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "burberry-body",
+    "traffic_olfastory": 125,
+    "keywords": [
+      "body burberry",
+      "burberry body parfum",
+      "parfum body burberry"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Oud Essentiel",
+    "version_note": "L'Art et la Matière",
+    "slug_hint": "oud-essentiel",
+    "traffic_olfastory": 124,
+    "keywords": [
+      "guerlain oud",
+      "oud essentiel guerlain",
+      "guerlain oud essentiel"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cerruti",
+    "name": "1881 pour Femme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "cerruti-1881-pour-femme",
+    "traffic_olfastory": 123,
+    "keywords": [
+      "cerruti 1881 femme",
+      "parfum cerruti 1881",
+      "1881 cerruti"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "In Love Again",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "love-again",
+    "traffic_olfastory": 123,
+    "keywords": [
+      "yves saint laurent in love again",
+      "ysl in love again",
+      "in love again"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guy Laroche",
+    "name": "Fidji",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "fidji",
+    "traffic_olfastory": 123,
+    "keywords": [
+      "fidji parfum",
+      "parfum fidji",
+      "fidji avant"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Mugler",
+    "name": "Alien Essence Absolue",
+    "version_note": "flanker of Alien",
+    "slug_hint": "alien-essence-absolue",
+    "traffic_olfastory": 121,
+    "keywords": [
+      "alien essence absolue",
+      "alien essence absolue mugler",
+      "parfum alien essence absolue"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Diesel",
+    "name": "Fuel for Life Homme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "fuel-life-pour-lui",
+    "traffic_olfastory": 120,
+    "keywords": [
+      "fuel for life diesel",
+      "diesel fuel for life",
+      "fuel for life"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "π (Pi)",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "pi",
+    "traffic_olfastory": 119,
+    "keywords": [
+      "pi givenchy",
+      "givenchy pí",
+      "parfum pi"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Armani Code Profumo",
+    "version_note": "Parfum, flanker of Code",
+    "slug_hint": "code-profumo",
+    "traffic_olfastory": 119,
+    "keywords": [
+      "armani code profumo",
+      "armani code profumo 60ml",
+      "armani code profumo parfum"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Reminiscence",
+    "name": "Rem",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "rem",
+    "traffic_olfastory": 119,
+    "keywords": [
+      "parfum rem",
+      "rem reminiscence",
+      "rem parfum"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Ysatis",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "ysatis",
+    "traffic_olfastory": 118,
+    "keywords": [
+      "ysatis givenchy",
+      "ysatis",
+      "ysatis parfum"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Jean Paul Gaultier",
+    "name": "Kokorico",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "kokorico",
+    "traffic_olfastory": 117,
+    "keywords": [
+      "kokorico parfum",
+      "parfum kokorico",
+      "jean paul gaultier kokorico"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lanvin",
+    "name": "Rumeur",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "rumeur-lanvin",
+    "traffic_olfastory": 117,
+    "keywords": [
+      "parfum rumeur",
+      "rumeur de lanvin",
+      "rumeur parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Parisienne",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "parisienne",
+    "traffic_olfastory": 117,
+    "keywords": [
+      "parfum la parisienne",
+      "la parisienne yves saint laurent",
+      "parfum parisien"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Champs-Élysées",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "champs-elysees",
+    "traffic_olfastory": 115,
+    "keywords": [
+      "champs-élysées guerlain",
+      "guerlain champs-élysées",
+      "champs elysees guerlain"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Deci Delà",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "deci-dela",
+    "traffic_olfastory": 115,
+    "keywords": [
+      "deci dela nina ricci",
+      "deci dela",
+      "nina ricci deci dela"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Rochas",
+    "name": "Mademoiselle Rochas Couture",
+    "version_note": "flanker of Mademoiselle Rochas",
+    "slug_hint": "mademoiselle-rochas-couture",
+    "traffic_olfastory": 114,
+    "keywords": [
+      "mademoiselle rochas couture",
+      "rochas couture",
+      "parfum couture rochas"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Kenzo World Intense",
+    "version_note": "flanker of Kenzo World",
+    "slug_hint": "kenzo-wolrd-intense",
+    "traffic_olfastory": 114,
+    "keywords": [
+      "pub kenzo",
+      "margaret qualley pub kenzo",
+      "pub kenzo margaret qualley"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Diesel",
+    "name": "Only The Brave",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "only-brave",
+    "traffic_olfastory": 113,
+    "keywords": [
+      "diesel only the brave",
+      "only the brave diesel",
+      "parfum diesel only the brave"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Reminiscence",
+    "name": "Tonka",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "tonka-0",
+    "traffic_olfastory": 111,
+    "keywords": [
+      "reminiscence tonka",
+      "tonka reminiscence",
+      "parfum tonka reminiscence"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Café Rose",
+    "version_note": "Private Blend",
+    "slug_hint": "cafe-rose-0",
+    "traffic_olfastory": 111,
+    "keywords": [
+      "tom ford cafe rose",
+      "cafe rose",
+      "café rose tom ford"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Balenciaga",
+    "name": "Florabotanica",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "florabotanica",
+    "traffic_olfastory": 110,
+    "keywords": [
+      "florabotanica balenciaga",
+      "balenciaga flora botanica",
+      "flora botanica"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Burberry",
+    "name": "Brit for Her",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "brit-woman",
+    "traffic_olfastory": 110,
+    "keywords": [
+      "brit burberry",
+      "burberry brit",
+      "burberry brit composition"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Armani Code pour Femme",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "armani-code-femme",
+    "traffic_olfastory": 110,
+    "keywords": [
+      "armani code pour femme",
+      "armani code femme",
+      "code armani femme"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Jean Paul Gaultier",
+    "name": "Scandal by Night",
+    "version_note": "flanker of Scandal",
+    "slug_hint": "scandal-night",
+    "traffic_olfastory": 108,
+    "keywords": [
+      "scandal by night",
+      "scandale by night",
+      "parfum scandal by night"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Sisley",
+    "name": "Soir de Lune",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "soir-de-lune",
+    "traffic_olfastory": 107,
+    "keywords": [
+      "soir de lune sisley",
+      "soir de lune sisley composition",
+      "parfum soir de lune"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Louis Vuitton",
+    "name": "Matière Noire",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "matiere-noire",
+    "traffic_olfastory": 107,
+    "keywords": [
+      "matiere noir louis vuitton",
+      "matière noir louis vuitton",
+      "matière noire louis vuitton"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Reminiscence",
+    "name": "Patchouli N'Roses",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "patchouli-nroses",
+    "traffic_olfastory": 106,
+    "keywords": [
+      "patchouli n roses",
+      "patchouli rose reminiscence",
+      "reminiscence patchouli rose"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "Ô de Lancôme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "o-de-lancome",
+    "traffic_olfastory": 105,
+    "keywords": [
+      "lancome o de lancome",
+      "o de lancome parfum",
+      "ô de lancôme prix"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Supreme Bouquet",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "supreme-bouquet-0",
+    "traffic_olfastory": 105,
+    "keywords": [
+      "supreme bouquet",
+      "supreme bouquet ysl",
+      "bouquet parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Kenzo World",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "kenzo-world",
+    "traffic_olfastory": 104,
+    "keywords": [
+      "kenzo world parfum",
+      "kenzo world eau de parfum",
+      "kenzo world"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Aqua Allegoria Coconut Fizz",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "aqua-allegoria-coconut-fizz",
+    "traffic_olfastory": 101,
+    "keywords": [
+      "aqua allegoria coconut fizz",
+      "guerlain coconut fizz",
+      "coconut fizz"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Gentleman Society",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "gentleman-society-de-givenchy",
+    "traffic_olfastory": 101,
+    "keywords": [
+      "gentleman society givenchy",
+      "givenchy gentleman society",
+      "gentleman society"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lacoste",
+    "name": "L.12.12 Rouge",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "eau-de-lacoste-l1212-rouge",
+    "traffic_olfastory": 101,
+    "keywords": [
+      "parfum lacoste rouge",
+      "lacoste rouge",
+      "lacoste rouge homme"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "Nu",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "nu",
+    "traffic_olfastory": 99,
+    "keywords": [
+      "nu yves saint laurent",
+      "nu ysl",
+      "ysl nu"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cacharel",
+    "name": "Yes I Am",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "yes-i-am",
+    "traffic_olfastory": 99,
+    "keywords": [
+      "yes i am cacharel",
+      "parfum cacharel yes i am",
+      "cacharel yes i am"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Gentleman Eau de Parfum",
+    "version_note": "Eau de Parfum (2018)",
+    "slug_hint": "gentleman-eau-de-parfum",
+    "traffic_olfastory": 98,
+    "keywords": [
+      "givenchy gentleman",
+      "gentleman givenchy eau de parfum",
+      "gentleman parfum"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Mugler",
+    "name": "Angel Nova",
+    "version_note": "flanker of Angel",
+    "slug_hint": "angel-nova",
+    "traffic_olfastory": 98,
+    "keywords": [
+      "angel nova parfum",
+      "nova parfum",
+      "thierry mugler nova"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Emporio Armani Because It's You",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "because-its-you",
+    "traffic_olfastory": 97,
+    "keywords": [
+      "because it's you",
+      "because it's you armani",
+      "parfum you femme"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Bois d'Arménie",
+    "version_note": "L'Art et la Matière",
+    "slug_hint": "bois-darmenie",
+    "traffic_olfastory": 97,
+    "keywords": [
+      "guerlain bois d'arménie",
+      "bois d'arménie",
+      "bois d arménie guerlain"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Guerlain Homme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "guerlain-homme-0",
+    "traffic_olfastory": 96,
+    "keywords": [
+      "guerlain parfums homme",
+      "guerlain homme",
+      "parfums guerlain homme"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cacharel",
+    "name": "Noa",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "noa",
+    "traffic_olfastory": 95,
+    "keywords": [
+      "noa cacharel",
+      "noa parfum",
+      "noa de cacharel"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Tendre Poison",
+    "version_note": "flanker of Poison",
+    "slug_hint": "tendre-poison",
+    "traffic_olfastory": 95,
+    "keywords": [
+      "tendre poison dior",
+      "tendre poison",
+      "tendre poison dior sephora"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Nina Extra Rouge",
+    "version_note": "flanker of Nina",
+    "slug_hint": "nina-extra-rouge",
+    "traffic_olfastory": 95,
+    "keywords": [
+      "nina ricci extra rouge",
+      "nina ricci rouge",
+      "extra rouge nina ricci"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "Poison Girl",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "poison-girl-eau-de-toilette",
+    "traffic_olfastory": 94,
+    "keywords": [
+      "poison girl dior"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "Poême",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "poeme",
+    "traffic_olfastory": 94,
+    "keywords": [
+      "poeme de lancome",
+      "poeme lancome",
+      "poeme parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "La Colle Noire",
+    "version_note": "La Collection Privée",
+    "slug_hint": "la-colle-noire",
+    "traffic_olfastory": 94,
+    "keywords": [
+      "la colle noire dior",
+      "la colle noire",
+      "la colle noir"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Narciso Rodriguez",
+    "name": "For Her Musc Noir Rose",
+    "version_note": "flanker of For Her",
+    "slug_hint": "her-musc-noir-rose",
+    "traffic_olfastory": 93,
+    "keywords": [
+      "narciso rodriguez musc noir",
+      "musc noir rose narciso rodriguez",
+      "narciso rodriguez musc noir rose"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "name": "L'Homme Ultime",
+    "version_note": "flanker of L'Homme",
+    "slug_hint": "lhomme-ultime",
+    "traffic_olfastory": 92,
+    "keywords": [
+      "l'homme ultime yves saint laurent",
+      "yves saint laurent lhomme ultime",
+      "yves saint laurent ultime"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cacharel",
+    "name": "Promesse",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "promesse",
+    "traffic_olfastory": 92,
+    "keywords": [
+      "promesse cacharel",
+      "promesse de cacharel",
+      "promesse cacharel ou le trouver"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Chanel",
+    "name": "Coco Mademoiselle L'Eau Privée",
+    "version_note": "flanker of Coco Mademoiselle",
+    "slug_hint": "coco-mademoiselle-leau-privee",
+    "traffic_olfastory": 91,
+    "keywords": [
+      "publicité coco mademoiselle",
+      "pub coco mademoiselle 2020",
+      "égérie de coco chanel"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Burberry",
+    "name": "The Beat for Men",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "beat-men",
+    "traffic_olfastory": 91,
+    "keywords": [
+      "beat burberry",
+      "burberry beat homme"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Hugo Boss",
+    "name": "Boss Orange",
+    "version_note": "Woman, Eau de Toilette",
+    "slug_hint": "boss-orange",
+    "traffic_olfastory": 91,
+    "keywords": [
+      "boss orange",
+      "hugo boss orange",
+      "orange by hugo boss"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lalique",
+    "name": "Encre Noire",
+    "version_note": "pour homme, Eau de Toilette",
+    "slug_hint": "encre-noire",
+    "traffic_olfastory": 91,
+    "keywords": [
+      "encre noir",
+      "encre noire",
+      "encre noire lalique"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Flower in the Air",
+    "version_note": "flanker of Flower by Kenzo",
+    "slug_hint": "flower-air",
+    "traffic_olfastory": 90,
+    "keywords": [
+      "flower in the air kenzo",
+      "flower in the air",
+      "kenzo flower in the air"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Jean Paul Gaultier",
+    "name": "Scandal pour Homme",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "scandal-pour-homme",
+    "traffic_olfastory": 90,
+    "keywords": [
+      "parfum scandal homme",
+      "parfum scandale homme",
+      "scandal parfum"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Cuir Beluga",
+    "version_note": "L'Art et la Matière",
+    "slug_hint": "cuir-beluga",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "cuir beluga guerlain",
+      "cuir beluga",
+      "guerlain cuir beluga"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Rochas",
+    "name": "Mademoiselle Rochas",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "mademoiselle-rochas",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "mademoiselle rochas",
+      "mademoiselle de rochas",
+      "rochas mademoiselle"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Reminiscence",
+    "name": "Patchouli",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "patchouli-0",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "patchouli reminiscence",
+      "famille olfactive patchouli",
+      "patchouli famille olfactive"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lancôme",
+    "name": "La Vie est Belle L'Éclat",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "la-vie-est-belle-leclat-eau-de-toilette",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "la vie est belle leclat",
+      "la vie est belle eclat",
+      "la vie est belle l éclat eau de toilette"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Hugo Boss",
+    "name": "Boss Femme",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "femme-1",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "hugo boss femme parfum",
+      "parfum boss femme",
+      "parfum hugo boss femme"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Kenzo",
+    "name": "Kenzo Amour",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "kenzo-amour",
+    "traffic_olfastory": 86,
+    "keywords": [
+      "kenzo amour",
+      "amour kenzo",
+      "parfum amour kenzo"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Dior",
+    "name": "J'adore L'Or",
+    "version_note": "Essence de Parfum, flanker of J'adore",
+    "slug_hint": "jadore-lor",
+    "traffic_olfastory": 85,
+    "keywords": [
+      "j adore l or",
+      "j adore l or dior",
+      "dior j adore l or"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Hot Couture",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "hot-couture",
+    "traffic_olfastory": 85,
+    "keywords": [
+      "hot couture givenchy",
+      "hot couture by givenchy",
+      "givenchy hot couture"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Stronger With You Absolutely",
+    "version_note": "flanker of Stronger With You",
+    "slug_hint": "stronger-you-absolutely",
+    "traffic_olfastory": 85,
+    "keywords": [
+      "stronger with you absolutely",
+      "stronger with you absolutely 100ml",
+      "absolutely"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Giorgio Armani",
+    "name": "Sì Intense",
+    "version_note": "Eau de Parfum Intense, flanker of Sì",
+    "slug_hint": "si-eau-de-parfum-intense-0",
+    "traffic_olfastory": 84,
+    "keywords": [
+      "si intense",
+      "armani intense",
+      "parfum si intense"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Costa Azzurra",
+    "version_note": "Private Blend",
+    "slug_hint": "costa-azzura",
+    "traffic_olfastory": 84,
+    "keywords": [
+      "costa azzurra tom ford",
+      "tom ford costa azzurra",
+      "tom ford azzurra"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Hugo Boss",
+    "name": "Boss Nuit pour Femme",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "boss-nuit-pour-femme",
+    "traffic_olfastory": 83,
+    "keywords": [
+      "hugo boss nuit",
+      "nuit pour femme hugo boss",
+      "hugo boss la nuit"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Mugler",
+    "name": "Alien Eau Extraordinaire",
+    "version_note": "flanker of Alien",
+    "slug_hint": "alien-eau-extraordinaire",
+    "traffic_olfastory": 83,
+    "keywords": [
+      "alien eau extraordinaire",
+      "eau extraordinaire mugler",
+      "eau extraordinaire alien"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Givenchy",
+    "name": "Gentlemen Only Intense",
+    "version_note": "flanker of Gentlemen Only",
+    "slug_hint": "gentlemen-only-intense",
+    "traffic_olfastory": 83,
+    "keywords": [
+      "gentleman only",
+      "gentlemen only",
+      "gentlemen only givenchy intense"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "La Petite Robe Noire Eau Fraîche",
+    "version_note": "flanker of La Petite Robe Noire",
+    "slug_hint": "la-petite-robe-noire-eau-fraiche",
+    "traffic_olfastory": 81,
+    "keywords": [
+      "la petite robe noire eau fraiche",
+      "la petite robe noire verte",
+      "la petite robe noire vert"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Lacoste",
+    "name": "Booster",
+    "version_note": "Eau de Toilette",
+    "slug_hint": "lacoste-booster",
+    "traffic_olfastory": 80,
+    "keywords": [
+      "lacoste booster",
+      "parfum lacoste booster",
+      "booster lacoste"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Paco Rabanne",
+    "name": "1 Million Privé",
+    "version_note": "flanker of 1 Million",
+    "slug_hint": "1-million-prive",
+    "traffic_olfastory": 80,
+    "keywords": [
+      "one million privé",
+      "1 million privé",
+      "one million prive"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Nina Ricci",
+    "name": "Nina Rose",
+    "version_note": "flanker of Nina",
+    "slug_hint": "nina-rose",
+    "traffic_olfastory": 79,
+    "keywords": [
+      "parfum nina ricci rose",
+      "parfum nina rose",
+      "nina rose nina ricci"
+    ],
+    "discontinued": "unknown",
+    "source": "olfastory"
+  },
+  {
+    "brand": "Cacharel",
+    "name": "Eden",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "eden",
+    "traffic_olfastory": 78,
+    "keywords": [
+      "eden cacharel",
+      "eden de cacharel",
+      "eden parfum"
+    ],
+    "discontinued": true,
+    "source": "olfastory"
+  },
+  {
+    "brand": "Louis Vuitton",
+    "name": "Contre Moi",
+    "version_note": "Eau de Parfum",
+    "slug_hint": "contre-moi",
+    "traffic_olfastory": 78,
+    "keywords": [
+      "contre moi louis vuitton",
+      "parfum vuitton femme",
+      "louis vuitton contre moi"
+    ],
+    "discontinued": false,
+    "source": "olfastory"
+  }
+]

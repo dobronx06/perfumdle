@@ -1,0 +1,684 @@
+[
+  {
+    "name": "Lady Million Empire",
+    "brand": "Paco Rabanne",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo, Jean-Christophe Hérault",
+    "notes": {
+      "top": ["Orange", "Neroli", "Red Currant"],
+      "heart": ["Magnolia", "Orange Blossom", "Osmanthus", "Mirabelle Plum"],
+      "base": ["Cognac", "Patchouli", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/lady-million-empire",
+      "https://www.lookfantastic.fr/p/paco-rabanne-lady-million-empire-eau-de-parfum-80ml/12237770/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Lady Million. Lookfantastic lists bitter orange and candied redcurrant on top, white patchouli and white musk in base; same structure. Some retailers show a simplified pyramid (orange blossom, mirabelle / magnolia / cognac, vanilla). Current availability not verified; perfumer credited by Olfastory only. New note: Mirabelle Plum."
+  },
+  {
+    "name": "Fève Délicieuse",
+    "brand": "Dior",
+    "year": 2015,
+    "gender": "Unisex",
+    "family": "Gourmand Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Bergamot"],
+      "heart": ["Rose"],
+      "base": ["Tonka Bean", "Vanilla", "Caramel"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/feve-delicieuse",
+      "https://dior.com/en_ch/beauty/products/Y0768550-",
+      "https://kafkaesqueblog.com/tag/dior-feve-delicieuse/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "La Collection Privée Christian Dior. Dior describes it around Venezuelan tonka bean absolute and Madagascar vanilla, with bergamot and rose; caramel comes from Olfastory and retailers, not from Dior's own list. Still listed on dior.com (page seen via search, direct fetch blocked)."
+  },
+  {
+    "name": "Eau Belle",
+    "brand": "Azzaro",
+    "year": 1995,
+    "gender": "Feminine",
+    "family": "Citrus Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Nathalie Feisthauer",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Yuzu", "Peach"],
+      "heart": ["Jasmine", "Cyclamen", "Freesia", "Peony"],
+      "base": ["Ambergris", "Honey", "Cedar", "Cypress"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/azzaro/727/eau-belle",
+      "https://www.olfastory.com/parfum/eau-belle",
+      "https://jadof.com/en/news/eau-belle-the-bubble-of-gaiety-from-the-azzaro-perfume-house"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Pyramid from Osmoz (peach skin listed as Peach). Olfastory gives a different split (top mandarin, bergamot, lemon, coriander; heart yuzu, neroli, cyclamen, freesia; base white musk, cypress). Jadof also lists seringa in the heart. Perfumer only from Olfastory. Likely discontinued but not confirmed."
+  },
+  {
+    "name": "Diorissimo Eau de Toilette",
+    "brand": "Dior",
+    "year": 1956,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Edmond Roudnitska",
+    "notes": {
+      "top": ["Bergamot", "Green Notes"],
+      "heart": ["Lily of the Valley", "Jasmine", "Lily", "Amaryllis"],
+      "base": ["Sandalwood", "Civet"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1401/diorissimo",
+      "https://www.olfastory.com/parfum/diorissimo",
+      "https://en.wikipedia.org/wiki/Diorissimo"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Pyramid from Osmoz. Olfastory adds rosewood (top), orange blossom and ylang-ylang (heart); Wikipedia mentions ylang-ylang, boronia, amaryllis and jasmine. Reformulated for IFRA (Wikipedia). 1956 is the original launch; EDT is the reference version. Current EDT availability not directly confirmed. New note: Amaryllis."
+  },
+  {
+    "name": "Courrèges in Blue",
+    "brand": "Courrèges",
+    "year": 1983,
+    "gender": "Feminine",
+    "family": "Floral Aldehyde",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Edouard Fléchier",
+    "notes": {
+      "top": ["Aldehydes", "Coriander", "Mandarin", "Basil", "Bergamot"],
+      "heart": ["Peony", "Tuberose", "Violet", "Peach", "Jasmine", "Orange Blossom"],
+      "base": ["Sandalwood", "Amber", "Patchouli", "Musk", "Oakmoss", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.luxsure.fr/en/2014/09/02/in-blue-by-courreges-is-back/",
+      "https://auparfum.bynez.com/in-blue-courreges-3928",
+      "https://www.osmoz.fr/parfums/courreges/7879/courreges-in-blue"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Original 1983 pyramid (Luxsure). Relaunched in 2014 as Eau de Parfum, reformulated by Nadège Le Garlantezec (Givaudan); Osmoz lists the 2014 version as floral aldehydic with ginger, galbanum / lavender, floral notes / patchouli, sandalwood. Auparfum credits Edouard Fléchier for the original and classes it chypre. Current availability not verified."
+  },
+  {
+    "name": "Kenzo World Power",
+    "brand": "Kenzo",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jérôme Di Marino",
+    "notes": {
+      "top": ["Cypress"],
+      "heart": ["Sea Salt"],
+      "base": ["Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/kenzo-world-power",
+      "https://nstperfume.com/2019/06/03/kenzo-world-power-new-fragrance/",
+      "https://perfumeshrine.blogspot.com/2020/03/kenzo-world-power-fragrance-review.html"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Kenzo World (2016), unrelated to Kenzo Power (2008). Described as a salty-sweet oriental; official pyramid has one note per tier. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "So Scandal!",
+    "brand": "Jean Paul Gaultier",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Fabrice Pellegrin, Daphné Bugey",
+    "notes": {
+      "top": ["Orange Blossom", "Raspberry"],
+      "heart": ["Tuberose", "Jasmine"],
+      "base": ["Milk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/so-scandal",
+      "https://www.olfastory.com/en/perfume/so-scandal/composition",
+      "https://en.wikipedia.org/wiki/Jean_Paul_Gaultier",
+      "https://divinparfum.fr/jean-paul-gaultier-so-scandal/"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Scandal. Jasmine is sambac. Brand lists only a milky accord in the base (no specific material); raspberry appears on Olfastory but not in the brand's short list. Year confirmed by Wikipedia. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Angel Muse",
+    "brand": "Mugler",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Grapefruit", "Pink Pepper"],
+      "heart": ["Hazelnut", "Red Berries"],
+      "base": ["Vetiver", "Patchouli", "Vanilla", "Cocoa"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/angel-muse",
+      "https://www.osmoz.com/perfumes/thierry-mugler/8236/angel-muse",
+      "https://www.wikiparfum.com/en/fragrances/angel-muse-eau-de-toilette"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Angel. Olfastory gives top grapefruit, pink pepper / heart hazelnut / base vetiver, patchouli, vanilla; Osmoz gives heart red fruits and base cocoa, vanilla, patchouli, vetiver, hazelnut (no top). Merged here. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Black XS L'Excès for Him",
+    "brand": "Paco Rabanne",
+    "year": 2012,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Fabrice Pellegrin",
+    "notes": {
+      "top": ["Lavender", "Lemon", "Fruity Notes"],
+      "heart": ["Ozonic Notes", "Cypriol"],
+      "base": ["Patchouli", "Amber", "Woody Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/paco-rabanne/1331/black-xs-l-exces-pour-lui-for-him",
+      "https://bestmenscolognes.com/black-xs-lexces-rabanne-review/",
+      "https://www.fragrancereview.com/perfume/paco-rabanne-black-xs-l-exces/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Black XS. Osmoz lists it as Eau de Parfum; some retailers sell it as eau de toilette, so concentration is slightly uncertain. Ozonic accord with smoky-woody cypriol (nagarmotha) heart. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Luna",
+    "brand": "Nina Ricci",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Christophe Raynaud, Marie Salamagne",
+    "notes": {
+      "top": ["Forest Fruits", "Orange Blossom", "Mandarin", "Lime"],
+      "heart": ["Caramel", "Immortelle", "Pear", "Jasmine"],
+      "base": ["Vanilla", "Licorice", "Sandalwood", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.leparfumier.com/en/nina-ricci-luna-for-women-eau-de-toilette.html",
+      "https://www.olfastory.com/parfum/luna",
+      "https://glamzeee.com/2016/10/09/fragrance-review-les-belles-de-nina-nina-luna/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Part of Les Belles de Nina. Pyramid from retailer (wild berries mapped to Forest Fruits, tangerine to Mandarin). Olfastory lists top lemon, orange blossom and no pear, and tags it unisex, while it is marketed for women. Likely discontinued, not confirmed. New note: Immortelle."
+  },
+  {
+    "name": "Santal Royal",
+    "brand": "Guerlain",
+    "year": 2014,
+    "gender": "Unisex",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Thierry Wasser",
+    "notes": {
+      "top": ["Neroli", "Jasmine"],
+      "heart": ["Peach", "Rose", "Cinnamon"],
+      "base": ["Sandalwood", "Leather", "Amber", "Oud", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.guerlain.com/ca/en-ca/p/absolus-allegoria-santal-royal---eau-de-parfum-P014824.html",
+      "https://www.olfastory.com/parfum/santal-royal",
+      "https://www.wikiparfum.com/en/fragrances/santal-royal"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Not L'Art et la Matière: it belongs to Les Absolus d'Orient, now sold as Absolus Allegoria. Pyramid from Guerlain's official page (seen via search, direct fetch blocked). Still sold."
+  },
+  {
+    "name": "L'Homme Libre",
+    "brand": "Yves Saint Laurent",
+    "year": 2011,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Olivier Polge, Carlos Benaïm",
+    "notes": {
+      "top": ["Bergamot", "Basil", "Star Anise"],
+      "heart": ["Nutmeg", "Violet Leaf", "Pink Pepper"],
+      "base": ["Vetiver", "Patchouli", "Leather"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2350/l-homme-libre",
+      "https://www.olfastory.com/en/perfume/lhomme-libre",
+      "https://www.foreverlux.com/libre-lhomme-34-men/"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of L'Homme. Note placement varies: Osmoz puts nutmeg, rose-bay, bergamot on top and violet, star anise, basil in heart, base patchouli, vetiver, leather; Olfastory and retailers put bergamot, basil, star anise on top and nutmeg, violet leaf (plus pink pepper) in heart, base vetiver, amber woods, patchouli. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Patchouli Blanc",
+    "brand": "Reminiscence",
+    "year": 2015,
+    "gender": "Feminine",
+    "family": "Woody Amber",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Fabrice Pellegrin",
+    "notes": {
+      "top": ["Aldehydes", "Star Anise"],
+      "heart": ["Sandalwood", "Hawthorn"],
+      "base": ["Patchouli", "Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/patchouli-blanc",
+      "https://www.wikiparfum.com/en/fragrances/patchouli-blanc-2",
+      "https://www.nocibe.fr/fr/p/5011394179"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Olfastory classes it oriental/chypre, Wikiparfum woody/ambery. Amber added from Wikiparfum's flat list. Wikiparfum marks it discontinued while Nocibé still lists a 'Dolce Riviera - Patchouli Blanc' EDP page; status unclear. Perfumer only from Olfastory."
+  },
+  {
+    "name": "Empreinte",
+    "brand": "Courrèges",
+    "year": 1971,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Robert Gonnon",
+    "notes": {
+      "top": ["Aldehydes", "Bergamot", "Mandarin"],
+      "heart": ["Rose", "Jasmine"],
+      "base": ["Oakmoss", "Patchouli", "Castoreum", "Sandalwood", "Vetiver", "Leather"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/empreinte",
+      "https://www.le-parfum.fr/femme/edp/empreinte-courreges-1971.html",
+      "http://parfums-flacons.blogspot.com/2007/09/empreinte-oubli.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Courrèges' first perfume (Firmenich). Olfastory pyramid (aldehydes, bergamot / rose / oakmoss, patchouli, castoreum) completed with notes from the 2012 relaunch listing (mandarin, jasmine, sandalwood, vetiver, leather). Reformulated for the 2012 relaunch (animal materials) and again reissued in 2021 with a simpler bergamot/patchouli/ambroxan structure. Olfastory tags it unisex; originally marketed for women. One source dates it 1970."
+  },
+  {
+    "name": "Burberry Body",
+    "brand": "Burberry",
+    "year": 2011,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Michel Almairac",
+    "notes": {
+      "top": ["Absinthe", "Peach", "Freesia"],
+      "heart": ["Rose", "Iris", "Sandalwood"],
+      "base": ["Cashmeran", "Vanilla", "Amber", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/burberry/1478/burberry-body",
+      "https://www.olfastory.com/parfum/burberry-body",
+      "https://essencedenord.com/product/body/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Osmoz and Olfastory pyramids match. Osmoz family Chypre Floral. Likely discontinued, not confirmed. New note: Absinthe (wormwood)."
+  },
+  {
+    "name": "Oud Essentiel",
+    "brand": "Guerlain",
+    "year": 2017,
+    "gender": "Unisex",
+    "family": "Leather Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Thierry Wasser",
+    "notes": {
+      "top": ["Saffron", "Geranium"],
+      "heart": ["Oud", "Rose", "Cedar"],
+      "base": ["Leather", "Incense", "Guaiac Wood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.guerlain.com/int/en-int/p/les-absolus-dorient-oud-essentiel---eau-de-parfum-P013224.html",
+      "https://www.olfastory.com/parfum/oud-essentiel",
+      "https://www.wikiparfum.com/en/fragrances/oud-essentiel-32406"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Not L'Art et la Matière: part of Les Absolus d'Orient, now Absolus Allegoria. Guerlain's pyramid (pelargonium = Geranium, Atlas cedarwood) matches Olfastory. Launch year 2017 from Olfastory only (Guerlain page gives none). Still sold."
+  },
+  {
+    "name": "Cerruti 1881 pour Femme",
+    "brand": "Cerruti",
+    "year": 1995,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Claire Cain",
+    "notes": {
+      "top": ["Bergamot", "Green Notes", "Mimosa", "Freesia"],
+      "heart": ["Violet", "Narcissus", "Rose", "Tuberose", "Jasmine"],
+      "base": ["Sandalwood", "Vanilla", "Flax Blossom", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/cerruti/921/1881-pour-femme",
+      "https://www.olfastory.com/parfum/cerruti-1881-pour-femme",
+      "https://www.olfastory.com/en/perfume/cerruti-1881-pour-femme/composition"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Core from Osmoz (rose-violet floral) plus mimosa, freesia, jasmine and musk from Olfastory's longer pyramid; the two pyramids place notes differently. Signature flax-flower accord. Still widely sold (current availability not formally verified). New note: Flax Blossom."
+  },
+  {
+    "name": "In Love Again",
+    "brand": "Yves Saint Laurent",
+    "year": 1998,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Claude Ellena",
+    "notes": {
+      "top": ["Black Currant", "Mandarin", "Grape"],
+      "heart": ["Rose", "Peony"],
+      "base": ["Musk", "Blackberry"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.selfridges.com/US/en/product/yves-saint-laurent-in-love-again-eau-de-toilette-80ml_456-84033258-L2598100/",
+      "https://www.olfastory.com/en/perfume/love-again",
+      "https://en.wikipedia.org/wiki/Jean-Claude_Ellena"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Created for YSL's 40th anniversary. Pyramid from Selfridges (muscat grape as Grape). Olfastory gives a different list: grapefruit, plum, grape / rose, green notes, black currant, raspberry / white musks, sandalwood, cedar. Perfumer and year confirmed by Wikipedia. Likely discontinued, not confirmed. New note: Grape."
+  },
+  {
+    "name": "Fidji",
+    "brand": "Guy Laroche",
+    "year": 1966,
+    "gender": "Feminine",
+    "family": "Floral Green",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Joséphine Catapano",
+    "notes": {
+      "top": ["Galbanum", "Ylang-Ylang"],
+      "heart": ["Carnation", "Rose", "Clove", "Jasmine", "Tuberose", "Iris"],
+      "base": ["Musk", "Patchouli", "Sandalwood", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/fidji",
+      "https://fr.wikipedia.org/wiki/Fidji_(parfum)"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Green floral chypre. Year and perfumer confirmed by Wikipedia (which also mentions a 1973 date in its text). Notes from Olfastory only (heart also lists spices). Believed still sold, availability not formally verified; has been reformulated over time."
+  },
+  {
+    "name": "Alien Essence Absolue",
+    "brand": "Mugler",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion",
+    "notes": {
+      "top": ["Jasmine", "Heliotrope", "Iris"],
+      "heart": ["Myrrh", "Cashmeran"],
+      "base": ["Ambergris", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/thierry-mugler/2197/alien-essence-absolue",
+      "https://www.olfastory.com/parfum/alien-essence-absolue"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Alien, sold as Eau de Parfum Intense. Pyramid from Osmoz. Olfastory gives a different pyramid: orange blossom, anise / jasmine / amber woods, vanilla, amber, heliotrope. Perfumer agreed by both. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Fuel for Life Homme",
+    "brand": "Diesel",
+    "year": 2007,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Annick Ménardo, Jacques Cavallier",
+    "notes": {
+      "top": ["Anise", "Grapefruit"],
+      "heart": ["Raspberry", "Lavender"],
+      "base": ["Heliotrope", "Woody Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/fuel-for-life-homme-by-diesel-notes-longevity-review-complete-guide",
+      "https://beautyhouse.com/products/diesel-fuel-for-life-eau-de-toilette-for-men",
+      "https://en.wikipedia.org/wiki/Diesel_(brand)"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Diesel's first fragrance with L'Oréal (Wikipedia). Some retailers class it oriental woody. Still listed by retailers; Diesel US site lists a 50 ml format."
+  },
+  {
+    "name": "Pi",
+    "brand": "Givenchy",
+    "year": 1998,
+    "gender": "Masculine",
+    "family": "Woody Oriental",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": ["Mandarin", "Pine"],
+      "heart": [],
+      "base": ["Guaiac Wood", "Benzoin"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/pi",
+      "https://en.wikipedia.org/wiki/Alberto_Morillas"
+    ],
+    "confidence": "low",
+    "discontinued": false,
+    "remarks": "Stylized π. Year and perfumer confirmed by Wikipedia; notes from Olfastory only, which gives no heart notes (mentions an 'Infinium' accord). Second note source not found (search budget exhausted, retailer pages blocked). Believed still sold, not verified."
+  },
+  {
+    "name": "Armani Code Profumo",
+    "brand": "Giorgio Armani",
+    "year": 2016,
+    "gender": "Masculine",
+    "family": "Oriental Fougère",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Antoine Maisondieu",
+    "notes": {
+      "top": ["Cardamom", "Green Apple", "Green Mandarin"],
+      "heart": ["Lavender", "Nutmeg", "Orange Blossom"],
+      "base": ["Styrax", "Tonka Bean", "Amberwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/armani/8246/armani-code-profumo",
+      "https://www.olfastory.com/en/perfume/code-profumo",
+      "https://www.scentsamples.com/products/armani-code-profumo-eau-de-parfum"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Armani Code. Despite the 'Profumo' name, Osmoz and Olfastory list it as Eau de Parfum (not Parfum). Olfastory top: mandarin, apple, bergamot. Some retailers list leather in the base. Possibly replaced by later Code flankers; availability not verified."
+  },
+  {
+    "name": "Rem",
+    "brand": "Reminiscence",
+    "year": 1996,
+    "gender": "Unisex",
+    "family": "Floral Aquatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Francis Camail",
+    "notes": {
+      "top": ["Sea Notes", "Lilac", "Jasmine"],
+      "heart": ["Patchouli", "Rose"],
+      "base": ["Vanilla", "Tonka Bean", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/rem"
+    ],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "Single source only (Olfastory); description also mentions calone and fenugreek. Could not find an independent second source (search budget exhausted, Osmoz has no page). Believed still sold, not verified."
+  },
+  {
+    "name": "Ysatis",
+    "brand": "Givenchy",
+    "year": 1984,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Dominique Ropion",
+    "notes": {
+      "top": ["Mandarin", "Aldehydes", "Bergamot", "Galbanum"],
+      "heart": ["Rose", "Clove", "Tuberose"],
+      "base": ["Oakmoss", "Patchouli", "Vanilla", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/ysatis",
+      "https://en.wikipedia.org/wiki/Dominique_Ropion"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Year and perfumer confirmed by Wikipedia; notes from Olfastory only. Availability and reformulation status not verified."
+  },
+  {
+    "name": "Kokorico",
+    "brand": "Jean Paul Gaultier",
+    "year": 2011,
+    "gender": "Masculine",
+    "family": "Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Annick Ménardo, Olivier Cresp",
+    "notes": {
+      "top": ["Fig Leaf"],
+      "heart": ["Cocoa"],
+      "base": ["Vetiver", "Patchouli", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/kokorico",
+      "https://en.wikipedia.org/wiki/Jean_Paul_Gaultier"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Year confirmed by Wikipedia (Kokorico by Night followed in 2012); notes and perfumers from Olfastory only (listed as 'figuier'). Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Rumeur",
+    "brand": "Lanvin",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": ["Magnolia", "Aldehydes", "Fruity Notes"],
+      "heart": ["Jasmine", "Mock Orange", "White Rose", "Lily of the Valley"],
+      "base": ["Ambroxan", "Patchouli", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lanvin/913/rumeur",
+      "https://nstperfume.com/2008/02/27/lanvin-rumeur-perfume-review/",
+      "https://www.wikiparfum.com/en/fragrances/rumeur-2006",
+      "https://en.wikipedia.org/wiki/Francis_Kurkdjian"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "2006 Rumeur, not the 1934 Lanvin Rumeur. Pyramid from Osmoz (seringa/mock orange; ambroxol read as Ambroxan) plus lily of the valley from retailers. Wikiparfum classes it chypre floral and marks it discontinued. New note: Mock Orange."
+  },
+  {
+    "name": "Parisienne",
+    "brand": "Yves Saint Laurent",
+    "year": 2009,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Sophia Grojsman, Sophie Labbé",
+    "notes": {
+      "top": ["Cranberry", "Blackberry"],
+      "heart": ["Rose", "Violet", "Peony"],
+      "base": ["Patchouli", "Vetiver", "Musk", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/parisienne",
+      "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(brand)",
+      "https://fr.wikipedia.org/wiki/Sophia_Grojsman"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Year and Grojsman credit confirmed by Wikipedia; notes and co-perfumer Sophie Labbé from Olfastory only. Likely discontinued, not confirmed."
+  },
+  {
+    "name": "Champs-Élysées",
+    "brand": "Guerlain",
+    "year": 1996,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jean-Paul Guerlain",
+    "notes": {
+      "top": ["Peach", "Melon"],
+      "heart": ["Rose", "Lily of the Valley", "Lilac", "Black Currant"],
+      "base": ["Benzoin", "Vanilla", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/champs-elysees",
+      "https://fr.wikipedia.org/wiki/Guerlain",
+      "https://en.wikipedia.org/wiki/Guerlain"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Perfumer conflict: French Wikipedia and Olfastory credit Jean-Paul Guerlain, English Wikipedia credits Olivier Cresp and calls it a mimosa floral. French Wikipedia says a new composition was created in 2021 (reformulated/relaunched). Notes from Olfastory only."
+  },
+  {
+    "name": "Deci Delà",
+    "brand": "Nina Ricci",
+    "year": 1994,
+    "gender": "Feminine",
+    "family": "Chypre Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean Guichard",
+    "notes": {
+      "top": ["Raspberry", "Peach", "Apricot", "Red Currant"],
+      "heart": ["Rose", "Sweet Pea", "Jasmine", "Freesia"],
+      "base": ["Oakmoss", "Sandalwood", "Patchouli", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.olfastory.com/parfum/deci-dela"
+    ],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "Single source (Olfastory), which lists Eau de Toilette, not the Eau de Parfum named in the batch list; EDP existence not verified. No independent confirmation of year, perfumer or notes found (search budget exhausted). Likely discontinued, not confirmed."
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "name": "Voce Viva",
+    "brand": "Valentino",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Honorine Blanc, Amandine Clerc-Marie",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Ginger"],
+      "heart": ["Orange Blossom", "Gardenia", "Jasmine"],
+      "base": ["Moss", "Vanilla", "Tonka Bean", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://moodiedavittreport.com/voce-viva-loreal-reveals-new-valentino-fragrance-with-lady-gaga-as-the-face/",
+      "https://en.parfumdreams.de/Valentino/Damenduefte/Voce-Viva/Eau-de-Parfum-Spray/index_93997.aspx",
+      "https://www.tendance-parfums.com/voce-viva-valentino.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "L'Oréal launch, September 2020, face Lady Gaga. Press release describes it as floral woody. 'Moss' stands for the brand's 'crystal moss accord'. Retailers list base as crystal moss, vanilla, tonka; the press release adds sandalwood. Still sold, flankers include Voce Viva Intensa (2021)."
+  },
+  {
+    "name": "Miss Dior Chérie",
+    "brand": "Dior",
+    "year": 2005,
+    "gender": "Feminine",
+    "family": "Chypre Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Christine Nagel",
+    "notes": {
+      "top": ["Violet Leaf", "Strawberry Leaf", "Green Mandarin"],
+      "heart": ["Strawberry", "Jasmine", "Popcorn"],
+      "base": ["Patchouli", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1454/miss-dior-cherie",
+      "https://en.wikipedia.org/wiki/Miss_Dior",
+      "https://nstperfume.com/2005/09/13/perfume-review-miss-dior-cherie-by-christian-dior"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Original 2005 formula (caramelised popcorn and wild strawberry sorbet accord). Reformulated by François Demachy in 2011 and renamed simply 'Miss Dior' (Wikipedia says 2011, often cited as 2012); the original 1947 Miss Dior became 'Miss Dior Originale'. The 2005 Nagel version is no longer produced."
+  },
+  {
+    "name": "Féerie",
+    "brand": "Van Cleef & Arpels",
+    "year": 2008,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Antoine Maisondieu",
+    "notes": {
+      "top": ["Mandarin", "Orange", "Black Currant", "Green Notes"],
+      "heart": ["Violet", "Jasmine", "Rose"],
+      "base": ["Iris", "Vetiver", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/van-cleef-arpels/541/feerie",
+      "https://nstperfume.com/2008/07/10/van-cleef-arpels-feerie-john-galliano-new-fragrances/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Launched August 2008 (Givaudan). Launch press lists red berries instead of blackcurrant/orange. Current availability of the original EDP not confirmed; later flankers include Féerie Rose des Neiges and Féerie Rubis (2015)."
+  },
+  {
+    "name": "Manifesto L'Élixir",
+    "brand": "Yves Saint Laurent",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Bergamot", "Mandarin"],
+      "heart": ["Jasmine", "Tuberose", "Heliotrope"],
+      "base": ["Vanilla", "Ambroxan", "Cashmeran"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/7313/manifesto-l-elixir",
+      "https://sandrascloset.com/?p=100899"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Sold as 'Eau de Parfum Intense' (fall 2013). Perfumer not credited in the sources consulted. Reseller listings mark it as discontinued ('eingestellt'), not confirmed on YSL's site; it no longer appears in current YSL ranges as far as the sources show."
+  },
+  {
+    "name": "Canoë",
+    "brand": "Dana",
+    "year": 1935,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean Carles",
+    "notes": {
+      "top": ["Lavender", "Bergamot", "Petitgrain"],
+      "heart": ["Geranium", "Clove", "Cedar"],
+      "base": ["Oakmoss", "Vanilla", "Musk", "Heliotrope", "Patchouli"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://danaclassics.com/pages/canoe",
+      "https://www.perfumeintelligence.co.uk/library/perfume/d/houses/dana.htm"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Created in Paris in 1935 by Jean Carles (Roure); US launch 1936, which is the year often quoted. The two sources place lavender differently (top vs heart) and the current Dana pyramid is shorter (bergamot, petitgrain / lavender, geranium / patchouli, musk); the merged pyramid follows the original description. Still sold by Dana Classic Fragrances, reorchestrated (2000 re-orchestration noted by Perfume Intelligence)."
+  },
+  {
+    "name": "Aura",
+    "brand": "Mugler",
+    "year": 2017,
+    "gender": "Feminine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Daphné Bugey, Amandine Clerc-Marie, Christophe Raynaud, Marie Salamagne",
+    "notes": {
+      "top": ["Tiger Liana"],
+      "heart": ["Orange Blossom", "Rhubarb"],
+      "base": ["Vanilla", "Wolfwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://cafleurebon.com/mugler-aura-daphne-bugey-amandine-clerc-marie-christophe-raynaud-and-marie-salamagne-2017-wild-at-heart-draw/",
+      "https://nstperfume.com/2017/06/12/thierry-mugler-aura-new-fragrance",
+      "https://www.escentual.com/thierry-mugler/mugleraura005/",
+      "https://www.faces.ae/en/p/thierry-mugler-aura-eau-de-parfum-031214015182.html"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Launched June 2017 (UK/France), 'botanical meets animal' concept; Tiger Liana and Wolfwood are Firmenich captives. Pyramid as listed by Escentual/Lookfantastic (Faces puts rhubarb on top). Family label from Osmoz editorial ('woody and aromatic'), no brand family found. Retailer (Faces) lists the EDP as discontinued; a later Aura Eau de Toilette is a different juice."
+  },
+  {
+    "name": "Bois d'Argent",
+    "brand": "Dior",
+    "year": 2004,
+    "gender": "Unisex",
+    "family": "Woody Chypre",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo",
+    "notes": {
+      "top": ["Incense", "Iris"],
+      "heart": ["Patchouli", "Myrrh"],
+      "base": ["Honey", "Leather"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1447/bois-d-argent",
+      "https://dior.com/en_us/beauty/products/bois-dargent-Y0959160.html",
+      "https://scentadvice.com/bois-dargent-cologne-2004-dior/"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Created 2004 for the Dior Homme collection (Hedi Slimane), originally an eau de cologne marketed to men; now an Eau de Parfum in La Collection Privée, sold as unisex. Dior credits the founding trio to Hedi Slimane with Francis Kurkdjian and Annick Ménardo; Ménardo is the usual credit for Bois d'Argent. Reformulated (EDP 2010, then Demachy 2018 and Kurkdjian 2022 according to one source). Still sold."
+  },
+  {
+    "name": "The Beat",
+    "brand": "Burberry",
+    "year": 2008,
+    "gender": "Feminine",
+    "family": "Floral Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion, Olivier Polge, Béatrice Piquet",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Cardamom", "Pink Pepper"],
+      "heart": ["Tea", "Iris", "Bluebell"],
+      "base": ["Cedar", "Vetiver", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.fr/parfums/burberry/1462/the-beat",
+      "https://nstperfume.com/2008/02/04/burberry-the-beat-fragrance-review",
+      "https://perfumania.com/products/burberry-the-beat-women-eau-de-parfum-spray",
+      "https://cosmeticsbusiness.com/-burberry-moves-to-the-beat-48191"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Women's version (a men's The Beat followed in 2008). Built around a Ceylon tea accord and an iris accord (IFF). Family label assigned from the published notes, no brand family found. Still listed by US discount retailers; production status not confirmed by Burberry."
+  },
+  {
+    "name": "Fleur du Mâle",
+    "brand": "Jean Paul Gaultier",
+    "year": 2007,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": ["Petitgrain"],
+      "heart": ["Orange Blossom", "Fern Accord"],
+      "base": ["Coumarin"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/gaultier/1903/fleur-du-male",
+      "https://moodiedavittreport.com/?p=348470",
+      "https://www.parisselectbook.com/?p=246289"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Le Mâle, unveiled February 2007 by BPI. Official pyramid is minimal (orange blossom over petitgrain and coumarin in a fern accord). Discontinued for several years; Jean Paul Gaultier announced its return in 2026 (Paris Select Book), formula of the relaunch not confirmed."
+  },
+  {
+    "name": "Dune",
+    "brand": "Dior",
+    "year": 1991,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Louis Sieuzac, Dominique Ropion, Nejla Barbir",
+    "notes": {
+      "top": ["Rosewood", "Bergamot", "Mandarin", "Aldehydes"],
+      "heart": ["Broom", "Lily", "Peony", "Jasmine", "Rose", "Ylang-Ylang"],
+      "base": ["Sandalwood", "Benzoin", "Vanilla", "Patchouli", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1405/dune",
+      "https://boisdejasmin.com/2012/01/christian-dior-dune-perfume-review.html",
+      "https://www.sephora.co.uk/p/dior-dune-eau-de-toilette-floral-amber-notes"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched spring 1991. Dior/Sephora classify it as floral amber. Some sources add wallflower, lichen/oakmoss and amber. Still sold as Eau de Toilette (reformulated over the years)."
+  },
+  {
+    "name": "L'Extase",
+    "brand": "Nina Ricci",
+    "year": 2015,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": ["Pink Pepper"],
+      "heart": ["Rose", "White Flowers"],
+      "base": ["Benzoin", "Amber", "Musk", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/nina-ricci/8074/l-extase",
+      "https://moodiedavittreport.com/?p=371467",
+      "https://www.journalduluxe.fr/fr/beaute/l-extase-nouvelle-fragrance-sensuelle-de-nina-ricci"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Unveiled January 2015, on sale March 2015 at Galeries Lafayette (Osmoz gives 2014 as creation year). Kurkdjian's first Nina Ricci; face Laetitia Casta. Brand describes a 'Barely Rose' accord (white petals, Turkish and Bulgarian rose, pink pepper) and a 'Musky Shadow' accord (benzoin, cedar, musk, amber). Flanker Caresse de Roses (2016). Likely no longer produced, not confirmed."
+  },
+  {
+    "name": "Acqua di Gioia",
+    "brand": "Giorgio Armani",
+    "year": 2010,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Loc Dong, Anne Flipo, Dominique Ropion",
+    "notes": {
+      "top": ["Mint", "Lemon"],
+      "heart": ["Jasmine", "Aquatic Notes", "Green Notes", "Peony", "Pink Pepper"],
+      "base": ["Labdanum", "Cedar", "Sugar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/armani/666/acqua-di-gioia",
+      "https://nstperfume.com/2010/03/10/giorgio-armani-acqua-di-gioia-new-fragrance/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched June 2010 (IFF). 'Sugar' is a brown sugar accord. Osmoz lists the EDP as the main version; flankers Eau Fraîche (2013), Eau de Toilette (2014), Essenza. Still sold."
+  },
+  {
+    "name": "Trésor in Love",
+    "brand": "Lancôme",
+    "year": 2010,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Véronique Nyberg, Dominique Ropion",
+    "notes": {
+      "top": ["Pear", "Bergamot", "Nectarine", "Pink Pepper"],
+      "heart": ["Violet", "Jasmine", "Rose", "Peach"],
+      "base": ["Cedar", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lancome/3577/tresor-in-love",
+      "https://perfumania.com/products/tresor-in-love-by-lancome-for-women-eau-de-parfum-spray",
+      "https://www.notino.co.uk/lancome/tresor-in-love-eau-de-parfum-for-women/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Trésor (1990), IFF, face Elettra Wiedemann. Osmoz's 'rose-bay' is a translation of 'baies roses' (pink pepper), confirmed by Notino. Production status not confirmed."
+  },
+  {
+    "name": "Love, Chloé",
+    "brand": "Chloé",
+    "year": 2010,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Louise Turner, Nathalie Gracia-Cetto",
+    "notes": {
+      "top": ["Orange Blossom", "Pink Pepper"],
+      "heart": ["Lilac", "Heliotrope", "Hyacinth", "Wisteria"],
+      "base": ["Iris", "Musk", "Rice Powder", "Powdery Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/chloe/2433/love-chloe",
+      "https://nstperfume.com/2010/06/18/love-chloe-new-perfume/",
+      "https://www.cosmeticsbusiness.com/all-you-need-is-love-56114"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Launched September 2010 (Givaudan). 'Powdery Notes' stands for the talc accord; heliotrope listed as heliotropine. Flankers Eau Intense (2011) and L'Eau Florale (2013). Production status not confirmed."
+  },
+  {
+    "name": "Insolence",
+    "brand": "Guerlain",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Maurice Roucel, Sylvaine Delacourte",
+    "notes": {
+      "top": ["Violet", "Raspberry", "Red Berries"],
+      "heart": ["Violet", "Orange Blossom", "Rose"],
+      "base": ["Iris", "Tonka Bean", "Resin"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/guerlain/3562/insolence",
+      "https://thecandyperfumeboy.com/2012/04/13/candy-perfume-girl-guerlain-insolence-eau-de-toilette-perfume-review/",
+      "https://en.wikipedia.org/wiki/Samsara_(perfume)"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Original EDT (2006), face Hilary Swank, bottle by Serge Mansau. Wikipedia (Guerlain article reached via the Samsara URL) credits Maurice Roucel; Sylvaine Delacourte co-credited by Osmoz. An EDP (2008) is a different composition. Still sold."
+  },
+  {
+    "name": "Van Cleef",
+    "brand": "Van Cleef & Arpels",
+    "year": 1993,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Strawberry", "Bergamot", "Galbanum", "Neroli"],
+      "heart": ["Orange Blossom", "Jasmine", "Ylang-Ylang", "Heliotrope"],
+      "base": ["Vanilla", "Cedar", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/van-cleef-arpels/557/van-cleef",
+      "https://www.perfumeintelligence.co.uk/library/perfume/u/houses/VanC.htm"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Women's 'Van Cleef' (1993), Osmoz family 'Floral - Orange Tuberose'; Perfume Intelligence calls it fruity floral with an oriental character. Note lists differ: Perfume Intelligence gives raspberry, tagetes, rose, lily of the valley, hyacinth, vetiver, sandalwood, amber. Perfume Intelligence credits André Girodroux, not corroborated, so perfumer left null. Existed as EDP and EDT. Not in the current Van Cleef & Arpels range as far as seen; discontinuation not formally confirmed."
+  },
+  {
+    "name": "Ambre Nuit",
+    "brand": "Dior",
+    "year": 2009,
+    "gender": "Unisex",
+    "family": "Amber Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Bergamot", "Pink Pepper"],
+      "heart": ["Rose", "Spices"],
+      "base": ["Ambergris", "Cedar", "Guaiac Wood", "Patchouli", "Resin"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1384/ambre-nuit",
+      "https://kafkaesqueblog.com/2013/07/13/perfume-review-dior-ambre-nuit-la-collection-privee/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "La Collection Privée (now La Collection Privée Christian Dior). Dior's official notes: Calabrian bergamot, Turkish Damask rose essence, ambergris, guaiac wood, cedar, patchouli; Dior classifies it 'amber woody floral'. Osmoz lists an early Eau de Cologne range and files it under men, but it is sold as unisex EDP. Still sold."
+  },
+  {
+    "name": "Manifesto",
+    "brand": "Yves Saint Laurent",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo, Loc Dong",
+    "notes": {
+      "top": ["Black Currant", "Green Notes", "Bergamot"],
+      "heart": ["Jasmine", "Lily of the Valley"],
+      "base": ["Vanilla", "Sandalwood", "Cedar", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2362/manifesto",
+      "https://boisdejasmin.com/2012/08/yves-saint-laurent-manifesto-fragrance-review.html",
+      "https://hintmag.com/2012/08/03/post-a-new-read-on-ysls-manifesto-fragrance-august-03-2012-1146/"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "IFF, Europe launch September 2012, US early 2013. Reported as discontinued by review/reseller sites, not confirmed by YSL."
+  },
+  {
+    "name": "J'adore L'Absolu",
+    "brand": "Dior",
+    "year": 2007,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Green Notes", "Floral Notes"],
+      "heart": ["Tuberose", "Ylang-Ylang", "Rose", "Jasmine"],
+      "base": ["Musk", "Woody Notes", "Fruity Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.fr/parfums/dior/1373/j-adore-l-absolu"
+    ],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz FR, via search summary; page itself blocked). Reworking of J'adore (1999) around four absolutes: ylang-ylang, Turkish rose, jasmine sambac, tuberose. An Osmoz magazine page mentions 2018, likely confusing it with a later J'adore release; 2007 is the creation year on the product page. Production status not confirmed; needs a second source for year and notes."
+  },
+  {
+    "name": "Miss Dior Absolutely Blooming",
+    "brand": "Dior",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Pomegranate", "Raspberry", "Black Currant", "Pink Pepper"],
+      "heart": ["Peony", "Centifolia Rose"],
+      "base": ["Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.decantx.com/products/dior-miss-dior-absolutely-blooming-eau-de-parfum-for-women",
+      "https://www.escentual.com/missdior016/",
+      "https://www.scento.com/fr/perfumes/miss-dior-absolutely-blooming-dior"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Miss Dior (2012 Miss Dior line). 'Centifolia Rose' = May rose (Grasse rose absolute / Damask rose per some listings). Do not confuse with Miss Dior Blooming Bouquet (2014, EDT). Sources are retailer listings only; one review site says it was later discontinued, not confirmed by Dior."
+  },
+  {
+    "name": "Bella",
+    "brand": "Nina Ricci",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Fruity Gourmand",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Sonia Constant, Louise Turner",
+    "notes": {
+      "top": ["Green Mandarin", "Rhubarb"],
+      "heart": ["Rose", "Freesia"],
+      "base": ["Vanilla", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.trbusiness.com/regional-news/international/bella-joins-nina-ricci-les-belles-de-nina-range/146429",
+      "https://www.notino.fr/nina-ricci/bella-eau-de-toilette-pour-femme/",
+      "https://eu.lookfantastic.com/p/nina-ricci-bella-eau-de-toilette-50ml/11813318"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Third 'princess' of Les Belles de Nina (July 2018, travel retail first). Heart is a rose jelly accord (Turkish rose oil and rose absolute). Flanker Bella Sorbet exists. Production status not confirmed."
+  },
+  {
+    "name": "Boss Alive",
+    "brand": "Hugo Boss",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo",
+    "notes": {
+      "top": ["Apple", "Plum", "Black Currant", "Cinnamon"],
+      "heart": ["Jasmine", "Thyme"],
+      "base": ["Vanilla", "Sandalwood", "Cedar", "Olive Tree"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/hugo-boss/8627/boss-alive",
+      "https://escentual.com/hugo-boss/boss/boss-alive/bossalive001",
+      "https://that-something.shopstar.co.za/products/hugo-boss-alive-eau-de-parfum"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched February 2020. Osmoz places Bourbon vanilla in the top; Escentual and most retailers put vanilla in the base, followed here. Olive Tree = olive wood. Still sold."
+  },
+  {
+    "name": "Pure XS for Her",
+    "brand": "Paco Rabanne",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": ["Ylang-Ylang", "Jasmine", "Vanilla"],
+      "heart": ["Popcorn", "Musk", "Milkwood"],
+      "base": ["Sandalwood", "Ambrette"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.trbusiness.com/regional-news/international/puig-unveils-new-paco-rabanne-feminine-scent/149898",
+      "https://nstperfume.com/2018/09/11/paco-rabanne-pure-xs-for-her-new-fragrance/",
+      "https://www.escentual.com/purexsforher001",
+      "https://www.shop-apotheke.at/beauty/upmXX2PZ4/rabanne-pure-xs-pour-elle-eau-de-parfum-blumig-oriental.htm"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Feminine counterpart of Pure XS (2017), September 2018, Givaudan; face Emily Ratajkowski. Brand now 'Rabanne'. Retailers order the pyramid differently (some place vanilla in the base). Still sold."
+  },
+  {
+    "name": "Dahlia Noir",
+    "brand": "Givenchy",
+    "year": 2011,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Rose", "Mimosa"],
+      "heart": ["Iris", "Powdery Notes"],
+      "base": ["Patchouli", "Sandalwood", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/844/dahlia-noir"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz); second source not found before the search budget ran out. Flankers Dahlia Noir EDT (2012), L'Eau (2013); Dahlia Divin (2014) is a separate line. Production status not confirmed."
+  },
+  {
+    "name": "Cinéma",
+    "brand": "Yves Saint Laurent",
+    "year": 2004,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Cyclamen", "Clementine", "Almond"],
+      "heart": ["Peony", "White Amaryllis", "Jasmine"],
+      "base": ["Ambergris", "Benzoin", "Musk", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2388/cinema"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz). 'Almond' = almond blossom. Perfumer commonly credited to Jacques Cavallier but not verified in a clean source, so left null. Campaign with Michelle Alves by Jean-Baptiste Mondino. Flankers EDT (2006) and Scénario d'Été. Production status not confirmed."
+  },
+  {
+    "name": "Oud Ispahan",
+    "brand": "Dior",
+    "year": 2012,
+    "gender": "Unisex",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Rose"],
+      "heart": ["Patchouli", "Sandalwood", "Oud", "Cedar"],
+      "base": ["Labdanum", "Saffron"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1419/oud-ispahan",
+      "https://www.osmoz.com/inspiration/osmoz-magazine/581/dior-oud-ispahan-dupe"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "La Collection Privée. Both sources come from Osmoz (product page + magazine), so not fully independent. Still sold by Dior."
+  },
+  {
+    "name": "Midnight in Paris",
+    "brand": "Van Cleef & Arpels",
+    "year": 2010,
+    "gender": "Masculine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Domitille Bertier, Olivier Polge",
+    "notes": {
+      "top": ["Rosemary", "Bergamot", "Lemon", "Green Tea"],
+      "heart": ["Lily of the Valley", "Styrax", "Woody Notes", "Black Tea"],
+      "base": ["Benzoin", "Tonka Bean", "Leather"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/van-cleef-arpels/550/midnight-in-paris"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz, IFF). Named after a Van Cleef & Arpels watch. Sold as EDT and, in some countries, EDP. Production status not confirmed."
+  },
+  {
+    "name": "Samsara",
+    "brand": "Guerlain",
+    "year": 1989,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jean-Paul Guerlain",
+    "notes": {
+      "top": ["Tarragon", "Bergamot", "Lemon", "Green Notes"],
+      "heart": ["Jasmine", "Carnation", "Rose", "Ylang-Ylang"],
+      "base": ["Sandalwood", "Benzoin", "Vanilla", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/guerlain/3483/samsara",
+      "https://en.wikipedia.org/wiki/Samsara_(perfume)"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Built around Mysore sandalwood and jasmine; Wikipedia credits Jean-Paul Guerlain (with Anne-Marie Saget) and confirms jasmine, ylang-ylang, sandalwood. Still sold, reformulated (sandalwood sourcing changed)."
+  },
+  {
+    "name": "Eau de Cartier",
+    "brand": "Cartier",
+    "year": 2001,
+    "gender": "Unisex",
+    "family": "Citrus Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Christine Nagel",
+    "notes": {
+      "top": ["Bergamot", "Yuzu"],
+      "heart": ["Violet", "Lavender", "Violet Leaf"],
+      "base": ["Ambergris", "Patchouli", "Musk"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/cartier/516/eau-de-cartier"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz, Quest International). Many flankers (Essence d'Orange 2010, Essence de Bois 2012, Goutte de Rose 2013, an Eau de Parfum by Mathilde Laurent). Production status of the original EDT not confirmed."
+  },
+  {
+    "name": "Boss Bottled Infinite",
+    "brand": "Hugo Boss",
+    "year": 2019,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo",
+    "notes": {
+      "top": ["Mandarin", "Apple", "Cinnamon", "Sage"],
+      "heart": ["Patchouli", "Rosemary", "Lavender"],
+      "base": ["Olive Tree", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.moodiedavittreport.com/coty-launches-new-boss-bottled-infinite-fragrance-in-travel-retail/",
+      "https://nstperfume.com/2019/04/08/boss-bottled-infinite-by-hugo-boss-new-fragrance",
+      "https://www.bloomingdales.com/shop/product/p?ID=5741270"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Flanker of Boss Bottled (1998), April 2019, Coty; face Chris Hemsworth. Bloomingdale's classifies it aromatic woody. Olive Tree = olivewood. Still sold."
+  }
+]
