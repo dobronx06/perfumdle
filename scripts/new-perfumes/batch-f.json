@@ -493,11 +493,13 @@
     },
     "pyramid_inferred": false,
     "sources": [
-      "https://www.osmoz.com/perfumes/lacoste/57/lacoste-pour-femme"
+      "https://www.osmoz.com/perfumes/lacoste/57/lacoste-pour-femme",
+      "https://thescentaur.com/lacoste-pour-femme-eau-de-parfum-by-lacoste-review/",
+      "https://leparfumier.com/en/products/lacoste-pour-femme-for-women-eau-de-parfum"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Only one clean source reached (Osmoz) because the web-search quota ran out; second source missing. Notes read from the Osmoz description: Jamaican pepper (mapped to Pimento), purple freesia, white heliotrope, jasmine, hibiscus, Bulgarian rose, ambrette seed, Himalayan cedar, 'velvety skin' accord, Mysore sandalwood, incense."
+    "remarks": "Checked Oct 2026. EDP and perfumer Olivier Cresp confirmed by Osmoz, The Scentaur and Le Parfumier; year 2003 by Osmoz and Le Parfumier (The Scentaur says early 2000s). Core notes agree: pepper, freesia / heliotrope, jasmine, hibiscus, rose / cedar, sandalwood, incense. The other sources also list apple, violet, suede and labdanum; ambrette and the 'velvety skin' accord come from Osmoz only. Pimento = Osmoz's Jamaican pepper. The Scentaur notes a sharp, almost clinical opening and honeyed heliotrope."
   },
   {
     "name": "Nina Soleil",
@@ -558,19 +560,22 @@
     "gender": "Masculine",
     "family": "Oriental Spicy",
     "concentration": "Eau de Toilette",
-    "perfumer": null,
+    "perfumer": "Annick Ménardo",
     "notes": {
       "top": ["Eucalyptus", "Nutmeg", "Star Anise"],
       "heart": ["Carnation", "Lavender", "Cinnamon", "Incense"],
       "base": ["Benzoin", "Caramel", "Sandalwood", "Tonka Bean"]
     },
-    "pyramid_inferred": false,
+    "pyramid_inferred": true,
     "sources": [
-      "https://www.osmoz.com/perfumes/yves-saint-laurent/2363/body-kouros"
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2363/body-kouros",
+      "https://scentgrail.com/perfume-reviews/body-kouros-review/",
+      "https://bestmenscolognes.com/kouros-body-ysl-review/",
+      "https://shopandbeyondlb.com/products/body-kouros-by-yves-saint-laurent"
     ],
     "confidence": "medium",
     "discontinued": "unknown",
-    "remarks": "Flanker of Kouros (1981). Single clean source (Osmoz); second source missing because the search quota ran out. Concentration not stated by Osmoz (EDT assumed from the brief, to check). Perfumer not officially credited; an Osmoz user comment names Annick Ménardo (unverified)."
+    "remarks": "Checked Oct 2026. Year 2000 confirmed by Osmoz, Scent Grail and Shop and Beyond; EDT by Scent Grail and Best Men's Colognes; perfumer Annick Ménardo by Scent Grail and Shop and Beyond (Olfastory agrees). Pyramid kept from Osmoz but marked inferred: all sources agree on eucalyptus, incense and benzoin, while Scent Grail and the retailer list Chinese cedar and clary sage instead of Osmoz's anise, nutmeg, carnation, cinnamon, caramel and tonka. Flanker of Kouros (1981). Reviews mention a reformulation with a bottle redesign."
   },
   {
     "name": "Tom Ford Noir Eau de Parfum",

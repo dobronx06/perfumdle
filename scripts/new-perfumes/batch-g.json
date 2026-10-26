@@ -15,11 +15,14 @@
     "pyramid_inferred": false,
     "sources": [
       "https://www.olfastory.com/parfum/lady-million-empire",
-      "https://www.lookfantastic.fr/p/paco-rabanne-lady-million-empire-eau-de-parfum-80ml/12237770/"
+      "https://www.lookfantastic.fr/p/paco-rabanne-lady-million-empire-eau-de-parfum-80ml/12237770/",
+      "https://perfumeloftstore.com/products/paco-rabanne-lady-million-empire-eau-de-parfum-spray",
+      "https://www.hnak.com/en-sa/paco-rabanne-lady-million-empire",
+      "https://perfumania.com/products/lady-million-empire-by-paco-rabanne-for-women-eau-de-parfum-spray"
     ],
     "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Flanker of Lady Million. Lookfantastic lists bitter orange and candied redcurrant on top, white patchouli and white musk in base; same structure. Some retailers show a simplified pyramid (orange blossom, mirabelle / magnolia / cognac, vanilla). Current availability not verified; perfumer credited by Olfastory only. New note: Mirabelle Plum."
+    "remarks": "Checked Oct 2026. Pyramid confirmed by Lookfantastic, Perfume Loft, Hnak and Perfumania (orange, neroli, red currant / magnolia, orange blossom, osmanthus, mirabelle / cognac, patchouli, white musk). Year 2019 by Hnak and Perfumania; EDP by Lookfantastic, Perfume Loft and Hnak; perfumers Anne Flipo and Jean-Christophe Hérault (IFF) by Perfume Loft and Hnak. Flanker of Lady Million. Current availability not verified. New note: Mirabelle Plum."
   },
   {
     "name": "Fève Délicieuse",
@@ -380,15 +383,18 @@
       "heart": ["Violet", "Narcissus", "Rose", "Tuberose", "Jasmine"],
       "base": ["Sandalwood", "Vanilla", "Flax Blossom", "Musk"]
     },
-    "pyramid_inferred": false,
+    "pyramid_inferred": true,
     "sources": [
       "https://www.osmoz.com/perfumes/cerruti/921/1881-pour-femme",
       "https://www.olfastory.com/parfum/cerruti-1881-pour-femme",
-      "https://www.olfastory.com/en/perfume/cerruti-1881-pour-femme/composition"
+      "https://www.olfastory.com/en/perfume/cerruti-1881-pour-femme/composition",
+      "https://en.vesira.com/cerruti-1881-pour-femme-eau-de-toilette-100-ml-1037",
+      "https://www.fragazon.com/products/1881-for-women-by-cerruti-eau-de-toilette-spray-3-4-oz",
+      "https://www.cerruti.com/en-belux/pages/perfume"
     ],
     "confidence": "medium",
     "discontinued": false,
-    "remarks": "Core from Osmoz (rose-violet floral) plus mimosa, freesia, jasmine and musk from Olfastory's longer pyramid; the two pyramids place notes differently. Signature flax-flower accord. Still widely sold (current availability not formally verified). New note: Flax Blossom."
+    "remarks": "Checked Oct 2026. Year 1995 confirmed by Osmoz, Vesira and Fragazon; EDT by Vesira and Fragazon; Claire Cain credited by Fragazon (and Olfastory) only among sources reached. Cerruti's own page confirms the flax-flower signature with light woods. Pyramids differ: Osmoz gives bergamot, green notes / violet, narcissus, rose, tuberose / vanilla, sandalwood, flax; Vesira gives mimosa, freesia, bergamot, violet / orange blossom, chamomile, geranium, jasmine, rosewood, flax / sandalwood, amber, musk, cedar. Current pyramid merges them, so it is marked inferred. New note: Flax Blossom."
   },
   {
     "name": "In Love Again",
@@ -429,11 +435,13 @@
     "pyramid_inferred": false,
     "sources": [
       "https://www.olfastory.com/parfum/fidji",
-      "https://fr.wikipedia.org/wiki/Fidji_(parfum)"
+      "https://fr.wikipedia.org/wiki/Fidji_(parfum)",
+      "https://eaudetati.wordpress.com/2017/10/11/fidji-by-guy-laroche-1966/",
+      "https://australianperfumejunkies.com/2015/01/26/review-fidji-guy-laroche/"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": false,
-    "remarks": "Green floral chypre. Year and perfumer confirmed by Wikipedia (which also mentions a 1973 date in its text). Notes from Olfastory only (heart also lists spices). Believed still sold, availability not formally verified; has been reformulated over time."
+    "remarks": "Checked Oct 2026. Joséphine Catapano (IFF) confirmed by Wikipedia FR, Eau de Tati and Australian Perfume Junkies. 1966 is given by all three as the creation date; Wikipedia's infobox gives 1973 as the launch year, so 1966 means composition. Pyramid confirmed by Eau de Tati (galbanum, ylang / jasmine, rose, tuberose, clove, iris / ambergris, musk, patchouli, sandalwood); carnation from Australian Perfume Junkies. Green floral chypre. Reformulated over time (now L'Oréal); believed still sold, not formally verified."
   },
   {
     "name": "Alien Essence Absolue",
@@ -451,11 +459,13 @@
     "pyramid_inferred": false,
     "sources": [
       "https://www.osmoz.com/perfumes/thierry-mugler/2197/alien-essence-absolue",
-      "https://www.olfastory.com/parfum/alien-essence-absolue"
+      "https://www.olfastory.com/parfum/alien-essence-absolue",
+      "https://thecandyperfumeboy.com/2012/07/02/the-alien-queen-thierry-mugler-alien-essence-absolue-perfume-review/",
+      "https://nstperfume.com/2012/06/23/thierry-mugler-alien-essence-absolue-new-fragrance/"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Flanker of Alien, sold as Eau de Parfum Intense. Pyramid from Osmoz. Olfastory gives a different pyramid: orange blossom, anise / jasmine / amber woods, vanilla, amber, heliotrope. Perfumer agreed by both. Likely discontinued, not confirmed."
+    "remarks": "Checked Oct 2026. Year 2012 and Dominique Ropion confirmed by Osmoz, The Candy Perfume Boy and Now Smell This. Sold as Eau de Parfum Intense (refillable 30 and 60 ml per NST). Pyramid confirmed by all three: sambac jasmine, heliotrope, orris, cashmeran, myrrh, white amber, vanilla. Olfastory's different pyramid (orange blossom, anise) not followed. Candy Perfume Boy calls it softer and less diffusive than Alien, with dry vanilla and incense. Likely discontinued, not confirmed."
   },
   {
     "name": "Fuel for Life Homme",
@@ -562,11 +572,14 @@
     "pyramid_inferred": false,
     "sources": [
       "https://www.olfastory.com/parfum/ysatis",
-      "https://en.wikipedia.org/wiki/Dominique_Ropion"
+      "https://en.wikipedia.org/wiki/Dominique_Ropion",
+      "https://boisdejasmin.com/2014/05/givenchy-ysatis-fragrance-review.html",
+      "https://undina.com/2024/05/07/ysatis-givenchy-review/",
+      "https://perfumeshrine.blogspot.com/2013/11/givenchy-ysatis-fragrance-review.html"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Year and perfumer confirmed by Wikipedia; notes from Olfastory only. Availability and reformulation status not verified."
+    "remarks": "Checked Oct 2026. Year 1984 and Dominique Ropion confirmed by Wikipedia, Bois de Jasmin and Undina (Ropion also by Perfume Shrine; Undina says it was his first commercial fine fragrance). Bois de Jasmin lists citrus, galbanum, aldehydes, rose, tuberose, patchouli, vanilla, sandalwood and mentions moss; Perfume Shrine adds mandarin and clove. Sources also cite ylang-ylang, jasmine, narcissus, coconut and civet, absent from the current pyramid. Reformulated: modern version fresher on top with milder moss and less animalic base (Bois de Jasmin, Perfume Shrine)."
   },
   {
     "name": "Kokorico",
@@ -581,14 +594,17 @@
       "heart": ["Cocoa"],
       "base": ["Vetiver", "Patchouli", "Cedar"]
     },
-    "pyramid_inferred": false,
+    "pyramid_inferred": true,
     "sources": [
       "https://www.olfastory.com/parfum/kokorico",
-      "https://en.wikipedia.org/wiki/Jean_Paul_Gaultier"
+      "https://en.wikipedia.org/wiki/Jean_Paul_Gaultier",
+      "https://thecandyperfumeboy.com/2011/12/09/cock-a-doodle-doo-jean-paul-gaultier-kokorico-perfume-review/",
+      "https://cafleurebon.com/new-fragrance-review-jean-paul-gaultier-kokorico-cock-of-the-walk/",
+      "https://persolaise.com/2011/09/review-kokorico-from-jean-paul-gaultier.html"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Year confirmed by Wikipedia (Kokorico by Night followed in 2012); notes and perfumers from Olfastory only (listed as 'figuier'). Likely discontinued, not confirmed."
+    "remarks": "Checked Oct 2026. Year 2011 confirmed by Wikipedia, The Candy Perfume Boy, CaFleureBon and Persolaise; EDT by Candy Perfume Boy and Persolaise; Annick Ménardo and Olivier Cresp by Candy Perfume Boy and CaFleureBon. Notes agree (fig leaf, cocoa, patchouli, vetiver, cedar) but placement differs (Candy Perfume Boy puts cocoa in the base), so tiers are inferred. CaFleureBon and Candy Perfume Boy both say the late ambrox/woody drydown turns synthetic. Kokorico by Night followed in 2012. Likely discontinued, not confirmed."
   },
   {
     "name": "Rumeur",

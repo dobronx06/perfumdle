@@ -532,17 +532,19 @@
     "concentration": "Eau de Parfum",
     "perfumer": "François Demachy",
     "notes": {
-      "top": ["Rose", "Mimosa"],
-      "heart": ["Iris", "Powdery Notes"],
-      "base": ["Patchouli", "Sandalwood", "Tonka Bean"]
+      "top": ["Pink Pepper", "Mandarin", "Mimosa"],
+      "heart": ["Rose", "Iris", "Patchouli"],
+      "base": ["Sandalwood", "Vanilla", "Tonka Bean"]
     },
-    "pyramid_inferred": false,
+    "pyramid_inferred": true,
     "sources": [
-      "https://www.osmoz.com/perfumes/givenchy/844/dahlia-noir"
+      "https://www.osmoz.com/perfumes/givenchy/844/dahlia-noir",
+      "https://nstperfume.com/2011/08/18/givenchy-dahlia-noir-perfume-review/",
+      "https://www.scentsamples.com/products/givenchy-dahlia-noir-eau-de-parfum"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Only one clean source reached (Osmoz); second source not found before the search budget ran out. Flankers Dahlia Noir EDT (2012), L'Eau (2013); Dahlia Divin (2014) is a separate line. Production status not confirmed."
+    "remarks": "Checked Oct 2026. Year 2011 and EDP confirmed by Osmoz, Now Smell This and Scent Samples; François Demachy credited by Osmoz and Scent Samples (NST does not name the perfumer). Pyramid replaced with the version NST and Scent Samples agree on (pink pepper, mandarin, mimosa / rose, iris, patchouli / sandalwood, vanilla, tonka); Osmoz places rose and mimosa on top and iris with powdery notes in the heart, so tier placement is inferred. NST calls it a modern chypre with a clean powdery patchouli base. Several retailers mark the EDP as discontinued; not confirmed by the brand. Flankers Dahlia Noir EDT (2012), L'Eau (2013); Dahlia Divin (2014) is a separate line."
   },
   {
     "name": "Cinéma",
@@ -551,19 +553,21 @@
     "gender": "Feminine",
     "family": "Oriental Floral",
     "concentration": "Eau de Parfum",
-    "perfumer": null,
+    "perfumer": "Jacques Cavallier",
     "notes": {
       "top": ["Cyclamen", "Clementine", "Almond"],
       "heart": ["Peony", "White Amaryllis", "Jasmine"],
-      "base": ["Ambergris", "Benzoin", "Musk", "Vanilla"]
+      "base": ["Amber", "Benzoin", "Musk", "Vanilla"]
     },
     "pyramid_inferred": false,
     "sources": [
-      "https://www.osmoz.com/perfumes/yves-saint-laurent/2388/cinema"
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2388/cinema",
+      "https://www.thatseptembermuse.com/yves-saint-laurent-cinema/",
+      "https://www.scentsamples.com/products/ysl-cinema-eau-de-parfum"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Only one clean source reached (Osmoz). 'Almond' = almond blossom. Perfumer commonly credited to Jacques Cavallier but not verified in a clean source, so left null. Campaign with Michelle Alves by Jean-Baptiste Mondino. Flankers EDT (2006) and Scénario d'Été. Production status not confirmed."
+    "remarks": "Checked Oct 2026. Year 2004, EDP and pyramid confirmed by Osmoz, That September Muse and Scent Samples. Perfumer Jacques Cavallier now confirmed by That September Muse and Scent Samples (Osmoz names none). Base changed from Ambergris to Amber: Osmoz says ambergris, the two other sources say amber. 'Almond' = almond blossom. Campaign with Michelle Alves by Jean-Baptiste Mondino. Flankers EDT (2006) and Scénario d'Été. Production status not confirmed."
   },
   {
     "name": "Oud Ispahan",
@@ -602,11 +606,14 @@
     },
     "pyramid_inferred": false,
     "sources": [
-      "https://www.osmoz.com/perfumes/van-cleef-arpels/550/midnight-in-paris"
+      "https://www.osmoz.com/perfumes/van-cleef-arpels/550/midnight-in-paris",
+      "https://nstperfume.com/2010/11/11/van-cleef-arpels-midnight-in-paris-pour-homme-fragrance-review/",
+      "https://cafleurebon.com/van-cleef-arpels-midnight-in-paris-a-leather-embrace/",
+      "https://perfumeposse.com/2012/06/08/midnight-in-paris-by-van-cleef-and-arpels-2010-perfume-review/"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Only one clean source reached (Osmoz, IFF). Named after a Van Cleef & Arpels watch. Sold as EDT and, in some countries, EDP. Production status not confirmed."
+    "remarks": "Checked Oct 2026. Year 2010 and perfumers Olivier Polge and Domitille Bertier confirmed by Osmoz, Now Smell This, CaFleureBon and Perfume Posse. NST reviewed the EDT; an EDP also exists. Notes agree across sources: bergamot, lemon, rosemary, green tea, lily of the valley accord, black (Lapsang Souchong per CaFleureBon) tea, benzoin/styrax, tonka, leather; NST and Perfume Posse also mention incense. NST found the leather hard to detect and tonka dominant in the drydown. Named after a Van Cleef & Arpels watch. Reviewers say it is discontinued; not confirmed by the brand."
   },
   {
     "name": "Samsara",
@@ -645,11 +652,13 @@
     },
     "pyramid_inferred": false,
     "sources": [
-      "https://www.osmoz.com/perfumes/cartier/516/eau-de-cartier"
+      "https://www.osmoz.com/perfumes/cartier/516/eau-de-cartier",
+      "https://leavenocologneunturned.com/2024/05/23/review-cartier-eau-de-cartier-edt/",
+      "https://perfumania.com/products/eau-de-cartier-by-cartier-for-unisex-eau-de-toilette-spray"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "discontinued": "unknown",
-    "remarks": "Only one clean source reached (Osmoz, Quest International). Many flankers (Essence d'Orange 2010, Essence de Bois 2012, Goutte de Rose 2013, an Eau de Parfum by Mathilde Laurent). Production status of the original EDT not confirmed."
+    "remarks": "Checked Oct 2026. Year 2001 confirmed by Osmoz, Leave No Cologne Unturned and Perfumania; Christine Nagel (Quest International) by Osmoz and LNCU; unisex EDT by Osmoz and LNCU. Pyramid confirmed: yuzu, bergamot / violet, violet leaf, lavender / musk, patchouli, amber. LNCU and Perfumania add coriander on top and cedar in the base; Osmoz lists ambergris where the others say amber (kept as listed). LNCU singles out the green violet-leaf accord and a laundry-fresh feel. Many flankers (Essence d'Orange 2010, Essence de Bois 2012, Goutte de Rose 2013, an Eau de Parfum by Mathilde Laurent). Production status of the original EDT not confirmed."
   },
   {
     "name": "Boss Bottled Infinite",
