@@ -1,0 +1,649 @@
+[
+  {
+    "name": "Repetto Eau de Parfum",
+    "brand": "Repetto",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Polge",
+    "notes": {
+      "top": ["Plum"],
+      "heart": ["Orange Blossom", "Rose", "Cherry Blossom", "Almond"],
+      "base": ["Vanilla", "Patchouli", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.fr/parfums/repetto/7824/repetto-eau-de-parfum",
+      "https://www.tendance-parfums.com/es/repetto-eau-de-parfum-repetto.html",
+      "https://www.tendance-parfums.com/parfum-repetto-notes"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Distinct from the 2013 Repetto Eau de Toilette (pear, cherry blossom, rose, orange blossom, vanilla, woods), also by Olivier Polge (IFF). The EDP (2014) is the more intense, ambery version. Pyramid from Osmoz; retailer page lists the same notes."
+  },
+  {
+    "name": "Gris Dior",
+    "brand": "Dior",
+    "year": 2013,
+    "gender": "Unisex",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Bergamot"],
+      "heart": ["Rose", "Jasmine"],
+      "base": ["Patchouli", "Oakmoss", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/7085/gris-montaigne",
+      "https://www.2luxury2.com/?p=58723",
+      "https://persolaise.com/2013/05/persolaise-review-gris-montaigne-from.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched 2013 in La Collection Privée Christian Dior as Gris Montaigne, later renamed Gris Dior; still sold under the new name. Dior press material cites Calabrian bergamot, Turkish and Damask rose, jasmine sambac, Indonesian patchouli and Macedonian moss. Gender: the Collection Privée line is sold as unisex."
+  },
+  {
+    "name": "La Nuit Trésor Musc Diamant",
+    "brand": "Lancôme",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Floral Musky",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Raspberry", "Violet Leaf", "Musk"],
+      "heart": ["Rose", "Freesia", "Jasmine", "Musk"],
+      "base": ["Musk", "Sandalwood", "Almond", "Patchouli", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.lookfantastic.fr/p/lancome-la-nuit-tresor-musc-diamant-eau-de-parfum-50ml/12043623",
+      "https://www.osmoz.fr/inspiration/osmoz-magazine/808/parfum-forme-diamant",
+      "https://www.notino.fr/lancome/la-nuit-tresor-musc-diamant-eau-de-parfum-pour-femme/"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of La Nuit Trésor (2015). Osmoz says it launched in 2019 (face Penélope Cruz), built on freesia, Damascena rose and white musk. The rose is Damask rose. Perfumer not confirmed by a clean source. Family label inferred from the brand description (rose wrapped in a musk overdose), not stated by a source."
+  },
+  {
+    "name": "Bonbon",
+    "brand": "Viktor & Rolf",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Floral Fruity Gourmand",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Serge Majoullier, Cécile Matton",
+    "notes": {
+      "top": ["Mandarin", "Orange", "Peach"],
+      "heart": ["Caramel", "Jasmine", "Orange Blossom"],
+      "base": ["Cedar", "Guaiac Wood", "Sandalwood", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/viktor-rolf/7892/bonbon",
+      "https://cosmeticsbusiness.com/sweet-smell-of-viktor-rolf-95829",
+      "https://www.notino.fr/viktor-rolf/bonbon-eau-de-parfum-pour-femme/p-447452/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Perfumers from Mane. Revealed at the spring-summer 2014 haute couture show, launched March 2014. Osmoz files it as Floral Fruity and puts caramel in the base; Cosmetics Business (trade press) gives caramel as a heart note, used here. Caramel is the central accord."
+  },
+  {
+    "name": "Hypnôse Homme",
+    "brand": "Lancôme",
+    "year": 2007,
+    "gender": "Masculine",
+    "family": "Oriental Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Maurice Roucel",
+    "notes": {
+      "top": ["Cardamom", "Mint", "Bergamot", "Mandarin"],
+      "heart": ["Lavender"],
+      "base": ["Patchouli", "Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lancome/3567/hypnose-homme",
+      "https://www.notino.fr/lancome/hypnose-pour-homme-eau-de-toilette-pour-homme/",
+      "https://perfumeintelligence.co.uk/library/perfume/h/h3/h3p6.htm"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Maurice Roucel (Symrise). Only one heart note (Provençal lavender) is published. Perfume.com lists Hypnôse for men as unavailable; treated as discontinued, not confirmed by Lancôme."
+  },
+  {
+    "name": "Habanita",
+    "brand": "Molinard",
+    "year": 1921,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Geranium", "Ylang-Ylang", "Petitgrain", "Lentisk"],
+      "heart": ["Jasmine", "Rose", "Mimosa", "Heliotrope", "Vetiver", "Nutmeg"],
+      "base": ["Vanilla", "Patchouli", "Sandalwood", "Musk", "Amber", "Moss"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/molinard/3976/habanita-2012",
+      "https://www.osmoz.com/perfumes/molinard/3943/habanita",
+      "https://fr.wikipedia.org/wiki/Habanita",
+      "https://www.parfumdreams.ie/Molinard/Womens-fragrances/Habanita/Eau-de-Parfum-Spray/index_67870.aspx"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Created 1921 as an extrait to perfume cigarettes, in perfumeries from 1924 (Lalique bottle). Reformulated woodier in 1988 (Roure Bertrand Dupont) and relaunched as an Eau de Parfum in 2012, still sold. Notes are the 2012 EDP pyramid (Osmoz; Osmoz also lists cedar in the heart). The original listing gives orange blossom and lemon on top, ambergris, vanilla and vetiver at the base. House perfumer not named."
+  },
+  {
+    "name": "J'adore Infinissime",
+    "brand": "Dior",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Bergamot", "Blood Orange"],
+      "heart": ["Centifolia Rose", "Jasmine", "Ylang-Ylang", "Tuberose"],
+      "base": ["Sandalwood"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://nstperfume.com/2020/09/05/christian-dior-jadore-infinissime-new-fragrance",
+      "https://www.harpersbazaararabia.com/hbanews/diors-new-perfume-smells-as-divine-as-it-looks",
+      "https://beautysuccess.fr/parfum-dior-j-adore-eau-de-parfum-infinissime-femme-c064522"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of J'adore (1999), launched September 2020. Flat note list (bergamot, blood orange, Centifolia rose, jasmine sambac, ylang-ylang, Grasse tuberose, creamy sandalwood) split by volatility. Some press cites pink pepper instead of bergamot. A later 'Infinissime Intense' exists. Status of the original not verified."
+  },
+  {
+    "name": "Loverdose Tattoo",
+    "brand": "Diesel",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo, Pascal Gaurin",
+    "notes": {
+      "top": ["Bergamot", "Mandarin", "Black Currant"],
+      "heart": ["Orange Blossom", "Jasmine", "Rose"],
+      "base": ["Vanilla", "Tonka Bean", "Woody Notes", "Milk", "Rice"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/diesel/7325/loverdose-tattoo",
+      "https://www.escentual.com/blog/2013/10/21/diesel-loverdose-tattoo-review/",
+      "https://www.lookfantastic.com/p/diesel-loverdose-tattoo-eau-de-parfum/11210508"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Loverdose (2011), perfumers from IFF. An Eau de Toilette version followed in 2014 with different notes (rose, magnolia, tea, rice). Current availability not verified."
+  },
+  {
+    "name": "Fahrenheit 32",
+    "brand": "Dior",
+    "year": 2007,
+    "gender": "Masculine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": ["Fresh Notes"],
+      "heart": ["Orange Blossom", "Vetiver"],
+      "base": ["Vanilla", "Solar Notes"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1369/fahrenheit-32",
+      "https://scentverdict.com/perfume/dior-fahrenheit-32-eau-de-parfum"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Fahrenheit, linked to Hedi Slimane's Dior Homme; name refers to the freezing point of water. Some sources also credit Louise Turner. Osmoz mentions aldehydes and a salicylate solar note. Reported discontinued by a secondary source; not confirmed by Dior."
+  },
+  {
+    "name": "Loverdose",
+    "brand": "Diesel",
+    "year": 2011,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Cresp, Honorine Blanc",
+    "notes": {
+      "top": ["Lemon", "Mandarin"],
+      "heart": ["Jasmine", "Gardenia", "Licorice", "Star Anise"],
+      "base": ["Ambroxan", "Vanilla", "Cedar", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/diesel/3125/loverdose",
+      "https://nstperfume.com/2011/09/09/diesel-loverdose-perfume-review/",
+      "https://theperfumeshop.com/diesel/loverdose/eau-de-parfum-spray/p/19060EDPJU"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Perfumers from Firmenich. The Perfume Shop puts star anise on top and licorice in the heart; Osmoz pyramid used. Still listed by some retailers; production status not confirmed."
+  },
+  {
+    "name": "Eau du Soir",
+    "brand": "Sisley",
+    "year": 1990,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jeannine Mongin",
+    "notes": {
+      "top": ["Mandarin", "Grapefruit"],
+      "heart": ["Syringa", "Rose", "Jasmine", "Ylang-Ylang", "Carnation", "Iris"],
+      "base": ["Oakmoss", "Patchouli", "Labdanum", "Musk", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/en/sisley-eau-du-soir.html",
+      "https://vivir.com/article/sisley-eau-du-soir"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Created with Hubert and Isabelle d'Ornano around the Spanish seringa (syringa, mock orange). Tendance Parfums places oakmoss, patchouli and labdanum in a long heart list with only musk and amber in the base; other sources put patchouli, cistus and oakmoss in the base, used here. Still sold."
+  },
+  {
+    "name": "This is Her!",
+    "brand": "Zadig & Voltaire",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Michel Almairac, Sidonie Lancesseur",
+    "notes": {
+      "top": ["Pink Pepper", "Jasmine", "Silk Tree Blossom"],
+      "heart": ["Chantilly Cream", "Vanilla", "Chestnut"],
+      "base": ["Sandalwood", "Cashmere Wood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/this-is-her-parfum-zadig-voltaire.html",
+      "https://www.decantx.com/products/zadig-voltaire-this-is-her-eau-de-parfum-for-women",
+      "https://boots.com/zadig-voltaire-this-is-her!-eau-de-parfum-50ml-10347212"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched with the men's This is Him!. Heart is described as half chestnut, half vanilla; 'whipped cream' mapped to Chantilly Cream. Silk tree (bois de soie) blossom is a new note name. Still sold."
+  },
+  {
+    "name": "Signature",
+    "brand": "Montblanc",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Guillaume Flavigny, Natalie Gracia-Cetto",
+    "notes": {
+      "top": ["Clementine"],
+      "heart": ["Magnolia", "Ylang-Ylang", "Peony"],
+      "base": ["Vanilla", "Musk", "Benzoin"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/signature-montblanc.html",
+      "https://www.montblanc.com/fr-ch/montblanc-signature-eau-de-parfum-50-ml-MB127067VG.html",
+      "https://www.osmoz.fr/inspiration/osmoz-magazine/790/parfum-musc-blanc"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Montblanc presents it as a contrast of oriental vanilla and white musk. Some retailers add amber to the base and orchid to the top."
+  },
+  {
+    "name": "Midnight Poison",
+    "brand": "Dior",
+    "year": 2007,
+    "gender": "Feminine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy, Olivier Cresp, Jacques Cavallier",
+    "notes": {
+      "top": ["Bergamot", "Mandarin"],
+      "heart": ["Patchouli", "Rose Absolute"],
+      "base": ["Ambroxan", "Amber", "Vanilla"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1372/midnight-poison",
+      "https://www.cosmeticsbusiness.com/dior-signs-eva-green-47788"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Poison, face Eva Green, launched in Europe late August 2007. Cresp and Cavallier from Firmenich. Vanilla is Bourbon vanilla. Often described as discontinued (vivir.com) but not confirmed by Dior."
+  },
+  {
+    "name": "Calvin Klein Women Eau de Parfum",
+    "brand": "Calvin Klein",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Woody Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Annick Ménardo, Honorine Blanc",
+    "notes": {
+      "top": ["Eucalyptus", "Pepper", "Bergamot"],
+      "heart": ["Orange Blossom", "Magnolia", "Jasmine"],
+      "base": ["Cedar", "Incense", "Ambroxan"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://10magazine.com/calvin-klein-release-first-fragrance-under-the-vision-of-raf-simons/",
+      "https://lookfantastic.com/p/calvin-klein-women-s-eau-de-parfum-50ml/11832372",
+      "https://www.notino.fr/calvin-klein/women-eau-de-parfum-pour-femme/"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "First fragrance under Raf Simons, released 16 July 2018 (Harvey Nichols exclusive, then wide release). Official simplified pyramid: eucalyptus, orange flower, Alaskan cedarwood. Supporting notes vary by retailer (Notino lists black pepper, citrus, olibanum, ambroxan)."
+  },
+  {
+    "name": "Play Intense",
+    "brand": "Givenchy",
+    "year": 2008,
+    "gender": "Masculine",
+    "family": "Oriental Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Emilie Coppermann, Lucas Sieuzac",
+    "notes": {
+      "top": ["Bergamot", "Mandarin"],
+      "heart": ["Amyris", "Oleander", "Coffee Blossom"],
+      "base": ["Labdanum", "Patchouli", "Vetiver", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/813/play-eau-de-toilette-intense",
+      "https://nstperfume.com/2008/06/27/givenchy-play-new-fragrance/",
+      "https://www.decantx.com/products/givenchy-play-intense-eau-de-toilette-for-men"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Eau de Toilette Intense, men's flanker of Play (2008), launched September 2008, with Françoise Donche. Osmoz 'rose-bay' mapped to Oleander. Decantx adds pink pepper and coffee to the heart. Year in the brief may say 2007; sources say 2008. Status not verified."
+  },
+  {
+    "name": "Baby Doll",
+    "brand": "Yves Saint Laurent",
+    "year": 1999,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Cécile Matton, Ralf Schwieger",
+    "notes": {
+      "top": ["Pineapple", "Apple", "Orange", "Black Currant"],
+      "heart": ["Rose", "Lily of the Valley", "Freesia", "Heliotrope"],
+      "base": ["Vanilla", "Cedar", "Sandalwood", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2361/baby-doll",
+      "https://scentadvice.com/baby-doll-edt-1999-yves-saint-laurent/",
+      "https://thesnifftest.co.uk/discontinued-fragrances/yves-saint-laurent-baby-doll/"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Pyramid from Osmoz. Another source lists grapefruit, redcurrant, wild rose, grenadine, cedar and peach. Perfumer credit from a single secondary source. Original EDT reported discontinued around 2020 (The Sniff Test; Perfume.com shows it unavailable)."
+  },
+  {
+    "name": "L'Interdit Eau de Parfum Intense",
+    "brand": "Givenchy",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Floral Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion, Anne Flipo, Fanny Bal",
+    "notes": {
+      "top": ["Pepper"],
+      "heart": ["Orange Blossom", "Tuberose"],
+      "base": ["Vetiver", "Patchouli", "Vanilla", "Black Sesame"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://that-something.shopstar.co.za/products/givenchy-l-interdit-intense-eau-de-parfum",
+      "https://www.cosma-parfumeries.com/ir_en/givenchy-l-interdit-eau-de-parfum-intense.html"
+    ],
+    "confidence": "low",
+    "discontinued": false,
+    "remarks": "Intense version of L'Interdit (2018). Notes from brand copy reproduced by retailers: black pepper; orange blossom and tuberose; vetiver, patchouli, Madagascar vanilla and toasted black sesame. Perfumer credit from one retailer only. Family label inferred, not stated by a source. Year 2020 from retailers only."
+  },
+  {
+    "name": "Ivoire de Balmain",
+    "brand": "Balmain",
+    "year": 1979,
+    "gender": "Feminine",
+    "family": "Floral Green",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Francis Camail, Michel Hy",
+    "notes": {
+      "top": ["Violet", "Mandarin", "Citrus"],
+      "heart": ["Jasmine", "Rose", "Ylang-Ylang", "Galbanum"],
+      "base": ["Cedar", "Vetiver"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/balmain/6756/ivoire-2012",
+      "https://nstperfume.com/2012/07/09/balmain-ivoire-de-balmain-new-fragrance",
+      "https://cafleurebon.com/?p=42669"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Original 1979 by Francis Camail and Michel Hy. Reworked as an Eau de Parfum in 2012 by Michel Almairac and Jacques Flori (Robertet); notes here are the 2012 EDP pyramid (Osmoz). Other 2012 listings add iris, patchouli and vanilla. Reformulated; still sold. Original 1979 pyramid not verified from a clean source."
+  },
+  {
+    "name": "See by Chloé",
+    "brand": "Chloé",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Michel Almairac",
+    "notes": {
+      "top": ["Bergamot"],
+      "heart": ["Jasmine", "Apple Blossom"],
+      "base": ["Vanilla", "Sandalwood"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/chloe/6914/see-by-chloe",
+      "https://nstperfume.com/2012/12/07/chloe-see-by-chloe-new-fragrance"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Pillar fragrance for the See by Chloé diffusion line, launched February 2013 (Robertet). Osmoz lists tart notes on top and apple in the heart; press lists apple blossom. Eau Fraîche flanker 2014. Status not verified."
+  },
+  {
+    "name": "Kenzo Jungle L'Éléphant",
+    "brand": "Kenzo",
+    "year": 1996,
+    "gender": "Feminine",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion",
+    "notes": {
+      "top": ["Clove", "Cardamom", "Cumin", "Mandarin"],
+      "heart": ["Ylang-Ylang", "Heliotrope", "Licorice", "Mango"],
+      "base": ["Vanilla", "Patchouli", "Cashmeran", "Amber"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/kenzo/1036/kenzo-jungle-l-elephant",
+      "https://boisdejasmin.com/?p=10791",
+      "https://thesnifftest.co.uk/kenzo/kenzo-jungle-lelephant/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Elephant is the Kenzo good-luck animal. Some listings put cardamom in the heart and add caraway. Still sold as Kenzo Jungle EDP."
+  },
+  {
+    "name": "Lacoste pour Femme",
+    "brand": "Lacoste",
+    "year": 2003,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Cresp",
+    "notes": {
+      "top": ["Pimento", "Freesia"],
+      "heart": ["Heliotrope", "Jasmine", "Hibiscus", "Rose", "Ambrette"],
+      "base": ["Cedar", "Skin Accord", "Sandalwood", "Incense"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/lacoste/57/lacoste-pour-femme"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Only one clean source reached (Osmoz) because the web-search quota ran out; second source missing. Notes read from the Osmoz description: Jamaican pepper (mapped to Pimento), purple freesia, white heliotrope, jasmine, hibiscus, Bulgarian rose, ambrette seed, Himalayan cedar, 'velvety skin' accord, Mysore sandalwood, incense."
+  },
+  {
+    "name": "Nina Soleil",
+    "brand": "Nina Ricci",
+    "year": null,
+    "gender": "Feminine",
+    "family": null,
+    "concentration": null,
+    "perfumer": null,
+    "notes": { "top": [], "heart": [], "base": [] },
+    "pyramid_inferred": false,
+    "sources": [],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "NOT VERIFIED. Summer flanker of Nina; no clean source reached before the web-search quota ran out (not found in Osmoz's Nina Ricci ID range 1185-1222). Needs a follow-up pass."
+  },
+  {
+    "name": "Opium pour Homme",
+    "brand": "Yves Saint Laurent",
+    "year": 1995,
+    "gender": "Masculine",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jacques Cavallier",
+    "notes": {
+      "top": ["Lavender", "Star Anise", "Mandarin", "Black Currant"],
+      "heart": ["Geranium", "Pepper", "Ginger", "Galangal"],
+      "base": ["Myrrh", "Tolu Balsam", "Vanilla", "Patchouli", "Cedar"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2367/opium-pour-homme",
+      "https://en.wikipedia.org/wiki/Opium_(perfume)"
+    ],
+    "confidence": "high",
+    "discontinued": "unknown",
+    "remarks": "Men's companion to Opium (1977). Perfumer Jacques Cavallier (Firmenich) per Wikipedia. Wikipedia describes a vanilla accord with black currant, galangal, star anise, ginger, pepper, cedar and Tolu balsam. Atlas cedar. Status not verified."
+  },
+  {
+    "name": "Live Irrésistible Eau de Parfum",
+    "brand": "Givenchy",
+    "year": null,
+    "gender": "Feminine",
+    "family": null,
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": { "top": [], "heart": [], "base": [] },
+    "pyramid_inferred": false,
+    "sources": [],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "NOT VERIFIED. No clean source reached before the web-search quota ran out (not on the Osmoz Givenchy page; not on Perfume Intelligence's Givenchy page). Needs a follow-up pass."
+  },
+  {
+    "name": "Body Kouros",
+    "brand": "Yves Saint Laurent",
+    "year": 2000,
+    "gender": "Masculine",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": ["Eucalyptus", "Nutmeg", "Star Anise"],
+      "heart": ["Carnation", "Lavender", "Cinnamon", "Incense"],
+      "base": ["Benzoin", "Caramel", "Sandalwood", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/yves-saint-laurent/2363/body-kouros"
+    ],
+    "confidence": "medium",
+    "discontinued": "unknown",
+    "remarks": "Flanker of Kouros (1981). Single clean source (Osmoz); second source missing because the search quota ran out. Concentration not stated by Osmoz (EDT assumed from the brief, to check). Perfumer not officially credited; an Osmoz user comment names Annick Ménardo (unverified)."
+  },
+  {
+    "name": "Tom Ford Noir Eau de Parfum",
+    "brand": "Tom Ford",
+    "year": 2012,
+    "gender": "Masculine",
+    "family": null,
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": { "top": [], "heart": [], "base": [] },
+    "pyramid_inferred": false,
+    "sources": [],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "NOT VERIFIED. Year 2012 is from the brief only. No clean source reached before the web-search quota ran out; the tomfordbeauty.com URL tried returned Noir de Noir notes (a different product), so it was not used. Needs a follow-up pass."
+  },
+  {
+    "name": "Loulou",
+    "brand": "Cacharel",
+    "year": 1987,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": ["Violet", "Anise", "Plum", "Black Currant"],
+      "heart": ["Orange Blossom", "Tuberose", "Ylang-Ylang", "Iris"],
+      "base": ["Benzoin", "Vanilla", "Musk", "Tonka Bean"]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/cacharel/1506/loulou",
+      "https://fr.wikipedia.org/wiki/Cacharel_(parfums)"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Year confirmed by Osmoz and French Wikipedia (inspired by Louise Brooks). Notes from Osmoz only. Perfumer not named in the sources reached. Assumed still sold (Loulou Blue flanker also listed); not verified."
+  },
+  {
+    "name": "Pour un Homme de Caron",
+    "brand": "Caron",
+    "year": 1934,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Ernest Daltroff",
+    "notes": {
+      "top": ["Lavender"],
+      "heart": [],
+      "base": ["Vanilla", "Musk", "Amber"]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Pour_un_homme",
+      "https://en.wikipedia.org/wiki/Parfums_Caron"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Year from both Wikipedias. French Wikipedia names Ernest Daltroff as creator and lists lavender (absolute and essence), vanilla, musk and amber; split by volatility. Family label inferred (lavender-vanilla), not stated by a source. Still sold by Caron."
+  },
+  {
+    "name": "Eau Ensoleillante",
+    "brand": "Clarins",
+    "year": null,
+    "gender": null,
+    "family": null,
+    "concentration": null,
+    "perfumer": null,
+    "notes": { "top": [], "heart": [], "base": [] },
+    "pyramid_inferred": false,
+    "sources": [],
+    "confidence": "low",
+    "discontinued": "unknown",
+    "remarks": "NOT VERIFIED. Clarins 'eau de soins' (treatment fragrance); no clean source reached before the web-search quota ran out (absent from Perfume Intelligence's Clarins page). Concentration is not one of the vocabulary values. Needs a follow-up pass."
+  }
+]
