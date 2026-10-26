@@ -1,0 +1,120 @@
+---
+/** "How to play" page of the daily game: rules, the clue order, and one example game played with real data. */
+import Shell from '../components/Shell.astro';
+import type { Locale } from '../i18n';
+import { url } from '../lib/catalog';
+
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const fr = l === 'fr';
+const HOWTO = { fr: '/fr/jeu/comment-jouer/', en: '/en/game/how-to-play/' };
+
+const rules = fr
+  ? [
+      ['Un parfum par jour', "À minuit, un parfum mystère est tiré parmi les 100 parfums les plus recherchés. Tout le monde joue le même parfum le même jour."],
+      ['Six essais', 'Tapez un nom de parfum ou de maison, puis choisissez dans la liste. Vous avez six propositions pour trouver la bonne.'],
+      ['Quatre cases par essai', "Chaque essai est comparé au parfum mystère sur la maison, l'année, le genre et la famille olfactive. Vert veut dire exact, jaune veut dire proche. Une flèche indique si le parfum mystère est plus récent ou plus ancien."],
+      ['Les notes en commun', "Sous chaque essai, le nombre de notes partagées avec le parfum mystère. C'est souvent l'indice le plus utile : trois ou quatre notes en commun, et vous êtes dans la bonne famille."],
+      ['Un indice par erreur', "Vous commencez avec la famille et une note de fond. Chaque erreur ajoute un indice : une note de cœur, la décennie, le genre, une note de tête, puis l'initiale de la maison et le flacon flouté."],
+    ]
+  : [
+      ['One perfume a day', 'At midnight, a mystery perfume is drawn from the 100 most searched perfumes. Everyone plays the same one on the same day.'],
+      ['Six guesses', 'Type a perfume or a house, then pick from the list. You get six tries to find it.'],
+      ['Four cells per guess', 'Each guess is compared on the house, the year, the gender and the olfactory family. Green means exact and yellow means close. An arrow tells you whether the mystery perfume is newer or older.'],
+      ['Notes in common', 'Under each guess you see how many notes it shares with the mystery perfume. It is often the best clue: three or four shared notes means you are in the right family.'],
+      ['One clue per miss', 'You start with the family and one base note. Every miss adds a clue: a heart note, the decade, the gender, a top note, then the house initial and a blurred bottle.'],
+    ];
+
+/* Example game, computed from the real data: mystery Shalimar (Guerlain, 1925). */
+const example = fr
+  ? {
+      start: 'Indices de départ : famille Oriental / Ambré, note de fond Vanille.',
+      rows: [
+        { guess: 'Angel, Mugler (1992)', cells: ['Maison ✗', 'Année ✗ ↓', 'Genre ✓', 'Famille ≈'], notes: '2 notes en commun : vanille, fève tonka', next: 'Nouvel indice : note de cœur Jasmin.' },
+        { guess: 'Hypnotic Poison, Dior (1998)', cells: ['Maison ✗', 'Année ✗ ↓', 'Genre ✓', 'Famille ✓'], notes: '3 notes en commun : vanille, jasmin, rose', next: 'Nouvel indice : années 1920.' },
+        { guess: 'Shalimar, Guerlain (1925)', cells: ['Maison ✓', 'Année ✓', 'Genre ✓', 'Famille ✓'], notes: 'Trouvé en 3 essais', next: '' },
+      ],
+      lesson: "La flèche vers le bas dit deux fois que le parfum est plus ancien, et la famille passe de « proche » à « exacte ». Avec la vanille, le jasmin et les années 1920, Shalimar devient la réponse évidente.",
+    }
+  : {
+      start: 'Starting clues: family Oriental / Amber, base note Vanilla.',
+      rows: [
+        { guess: 'Angel, Mugler (1992)', cells: ['House ✗', 'Year ✗ ↓', 'Gender ✓', 'Family ≈'], notes: '2 notes in common: vanilla, tonka bean', next: 'New clue: heart note Jasmine.' },
+        { guess: 'Hypnotic Poison, Dior (1998)', cells: ['House ✗', 'Year ✗ ↓', 'Gender ✓', 'Family ✓'], notes: '3 notes in common: vanilla, jasmine, rose', next: 'New clue: the 1920s.' },
+        { guess: 'Shalimar, Guerlain (1925)', cells: ['House ✓', 'Year ✓', 'Gender ✓', 'Family ✓'], notes: 'Found in 3 guesses', next: '' },
+      ],
+      lesson: 'The down arrow says twice that the perfume is older, and the family goes from close to exact. With vanilla, jasmine and the 1920s, Shalimar becomes the obvious answer.',
+    };
+
+const tips = fr
+  ? [
+      "Commencez par un parfum très connu de la famille donnée : il couvre beaucoup de notes et vous en apprend plus qu'un parfum rare.",
+      "Regardez la flèche de l'année avant tout. Elle coupe la liste en deux dès le premier essai.",
+      "Si le genre est « proche », le parfum mystère ou votre essai est mixte.",
+      "En panne d'idées ? Les pages notes et époques du site listent tous les parfums du jeu.",
+    ]
+  : [
+      'Open with a well-known perfume from the given family: it covers many notes and teaches you more than a rare one.',
+      'Read the year arrow first. It cuts the list in half from the first guess.',
+      'If gender is "close", either the mystery perfume or your guess is unisex.',
+      'Out of ideas? The notes and eras pages of the site list every perfume in the game.',
+    ];
+
+const faq = fr
+  ? [
+      { q: 'Perfumdle est-il gratuit ?', a: 'Oui, sans inscription. La partie et la série de victoires sont enregistrées dans votre navigateur.' },
+      { q: "C'est un Wordle du parfum ?", a: "C'est le même principe : une énigme par jour, un nombre d'essais limité et un résultat à partager. Au lieu de lettres, on compare des maisons, des années, des familles et des notes." },
+      { q: 'Peut-on rejouer ?', a: "Le parfum du jour ne se joue qu'une fois. Le mode entraînement tire un nouveau parfum à chaque partie, autant de fois que vous voulez." },
+      { q: 'Faut-il être expert en parfum ?', a: "Non. Les parfums du jeu sont parmi les plus connus, et les indices guident jusqu'à la réponse. Les joueurs réguliers apprennent vite à reconnaître les familles." },
+    ]
+  : [
+      { q: 'Is Perfumdle free?', a: 'Yes, with no sign-up. Your game and your streak are saved in your browser.' },
+      { q: 'Is it a perfume Wordle?', a: 'Same idea: one puzzle a day, a limited number of guesses and a result to share. Instead of letters you compare houses, years, families and notes.' },
+      { q: 'Can I play again?', a: 'The daily perfume can be played once. Practice mode draws a new perfume every time, as often as you like.' },
+      { q: 'Do I need to know a lot about perfume?', a: 'No. The perfumes in the game are among the best known, and the clues lead you to the answer. Regular players quickly learn to tell the families apart.' },
+    ];
+---
+
+<Shell
+  locale={l}
+  title={fr ? 'Comment jouer à Perfumdle : le jeu pour deviner un parfum' : 'How to Play Perfumdle: the Daily Perfume Guessing Game'}
+  description={fr
+    ? 'Les règles de Perfumdle, le jeu quotidien où l’on devine un parfum en 6 essais : les cases, les notes en commun, les indices et une partie expliquée pas à pas.'
+    : 'How to play Perfumdle, the daily perfume wordle: guess the perfume in 6 tries with houses, years, families and shared notes. Rules and a full example game.'}
+  alternates={HOWTO}
+  crumbs={[{ name: fr ? 'Accueil' : 'Home', href: url.home(l) }, { name: fr ? 'Jeu' : 'Game', href: url.game(l) }, { name: fr ? 'Comment jouer' : 'How to play' }]}
+  eyebrow={fr ? 'Le jeu quotidien' : 'The daily game'}
+  h1={fr ? 'Comment jouer à Perfumdle' : 'How to play Perfumdle'}
+  lede={fr
+    ? 'Un parfum mystère par jour, six essais pour le trouver. Chaque proposition vous dit si vous chauffez, et chaque erreur débloque un indice.'
+    : 'One mystery perfume a day and six guesses to find it. Every guess tells you whether you are getting closer, and every miss unlocks a clue.'}
+  jsonLd={[{
+    '@context': 'https://schema.org', '@type': 'HowTo', name: fr ? 'Comment jouer à Perfumdle' : 'How to play Perfumdle',
+    step: rules.map(([n, t], i) => ({ '@type': 'HowToStep', position: i + 1, name: n, text: t })),
+  }, {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  }]}
+>
+  <p style="margin-bottom:2rem"><a class="btn btn--gold" href={url.game(l)}>{fr ? 'Jouer au parfum du jour' : "Play today's perfume"}</a></p>
+  <div class="article">
+    <article class="prose">
+      <h2 style="margin-top:0">{fr ? 'Les règles' : 'The rules'}</h2>
+      <ol>{rules.map(([n, t]) => <li><strong>{n}.</strong> {t}</li>)}</ol>
+      <h2>{fr ? 'Une partie expliquée' : 'An example game'}</h2>
+      <p>{example.start}</p>
+      <ol>
+        {example.rows.map((r) => (
+          <li>
+            <strong>{r.guess}</strong> : {r.cells.join(' · ')}. {r.notes}.{r.next && <> {r.next}</>}
+          </li>
+        ))}
+      </ol>
+      <p>{example.lesson}</p>
+      <h2>{fr ? 'Quatre conseils pour gagner' : 'Four tips to win'}</h2>
+      <ul>{tips.map((t) => <li>{t}</li>)}</ul>
+      <h2>{fr ? 'Questions fréquentes' : 'FAQ'}</h2>
+      {faq.map((f) => <><h3>{f.q}</h3><p>{f.a}</p></>)}
+    </article>
+  </div>
+</Shell>

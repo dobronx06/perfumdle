@@ -4,7 +4,6 @@
  * the copy (src/data/editorial/study-decades.json) only holds {placeholders}, so text and tables never disagree.
  */
 import Shell from '../components/Shell.astro';
-import GameCta from '../components/GameCta.astro';
 import copy from '../data/editorial/study-decades.json';
 import type { Locale } from '../i18n';
 import { url, perfumes, allNotes, noteName, hasNotePage, guideUrl, type Perfume } from '../lib/catalog';
@@ -157,5 +156,4 @@ const citation = fr
       </div>
     </aside>
   </div>
-  <div style="margin-top:clamp(2rem,5vw,3rem)"><GameCta locale={l} from="study" /></div>
 </Shell>

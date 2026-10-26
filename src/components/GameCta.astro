@@ -1,28 +1,55 @@
 ---
-/** Slim "play today's perfume" banner shown right under the hero of content pages, where most visitors land. */
+/**
+ * "Parfum du jour" block shown at the top and at the end of content pages. It shows today's game number
+ * and the two opening clues (family, base note) so the game is visible, not just described. The clues come
+ * from /daily-clues.json and today's draw from src/lib/daily.ts, the same as the game, so they always match.
+ * Without JavaScript the block still reads as a plain invitation with a working link.
+ */
 import type { Locale } from '../i18n';
 import { url } from '../lib/catalog';
 
-interface Props { locale: Locale; from: string }
-const { locale: l, from } = Astro.props;
+interface Props { locale: Locale; from: string; place?: 'top' | 'end' }
+const { locale: l, from, place = 'top' } = Astro.props;
 const fr = l === 'fr';
 ---
 
 <div class="wrap">
-  <a class="game-strip" href={url.game(l)} data-game-cta={from}>
-    <span class="game-strip__copy">
-      <span class="game-strip__eyebrow">{fr ? 'Jeu quotidien gratuit' : 'Free daily game'}</span>
-      <strong>{fr ? 'Saurez-vous trouver le parfum du jour ?' : "Can you guess today's perfume?"}</strong>
-      <span>{fr ? 'Six essais, un indice à chaque erreur. Une partie dure deux minutes.' : 'Six guesses, one clue after each miss. A game takes two minutes.'}</span>
+  <a class={`daily-card daily-card--${place}`} href={url.game(l)} data-game-cta={`${from}:${place}`} data-locale={l}>
+    <span class="daily-card__head">
+      <span class="daily-card__eyebrow">{fr ? 'Le parfum du jour' : "Today's perfume"} <span data-daily-num></span></span>
+      <strong>{fr ? 'Saurez-vous le trouver en 6 essais ?' : 'Can you find it in 6 guesses?'}</strong>
     </span>
-    <span class="btn btn--gold game-strip__btn">{fr ? 'Jouer' : 'Play'}</span>
+    <span class="daily-card__clues" data-daily-clues hidden>
+      <span><small>{fr ? 'Famille' : 'Family'}</small><b data-daily-c1></b></span>
+      <span><small>{fr ? 'Note de fond' : 'Base note'}</small><b data-daily-c2></b></span>
+    </span>
+    <span class="btn btn--gold daily-card__btn">{fr ? 'Jouer' : 'Play'}</span>
   </a>
 </div>
 
 <script>
-  document.querySelectorAll<HTMLAnchorElement>('[data-game-cta]').forEach((a) => {
-    a.addEventListener('click', () => {
+  import { dayStr, dayIndex, dailySlug } from '../lib/daily';
+  type Clues = { pool: string[]; clues: Record<string, Record<string, [string, string]>> };
+  const cards = document.querySelectorAll<HTMLAnchorElement>('[data-game-cta]');
+  if (cards.length) {
+    const today = dayStr();
+    fetch('/daily-clues.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d: Clues | null) => {
+        if (!d) return;
+        const slug = dailySlug(d.pool, today);
+        cards.forEach((a) => {
+          const c = d.clues[a.dataset.locale ?? 'fr']?.[slug];
+          if (!c) return;
+          a.querySelector('[data-daily-num]')!.textContent = `n°${dayIndex(today) + 1}`;
+          a.querySelector('[data-daily-c1]')!.textContent = c[0];
+          a.querySelector('[data-daily-c2]')!.textContent = c[1];
+          a.querySelector<HTMLElement>('[data-daily-clues]')!.hidden = false;
+        });
+      })
+      .catch(() => { /* the plain invitation stays */ });
+    cards.forEach((a) => a.addEventListener('click', () => {
       try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.('Game CTA', { props: { from: a.dataset.gameCta ?? '' } }); } catch { /* blocked */ }
-    });
-  });
+    }));
+  }
 </script>

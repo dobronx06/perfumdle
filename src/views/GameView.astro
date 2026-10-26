@@ -40,7 +40,7 @@ const gameData = {
   quizUrl: url.quiz(l),
 };
 
-const gameTitle = fr ? 'Perfumdle, le jeu : devinez le parfum du jour' : 'Perfumdle game: guess the perfume of the day';
+const gameTitle = fr ? 'Jeu parfum du jour : devinez le parfum (Perfumdle)' : 'Guess the Perfume: Perfumdle, the Daily Perfume Wordle';
 const gameDesc = fr
   ? 'Un parfum mystère par jour parmi les 100 plus connus. 6 essais, un indice de plus à chaque erreur. Gratuit, sans inscription.'
   : 'One mystery perfume a day among the 100 best known. 6 guesses, one more clue after each miss. Free, no sign-up.';
@@ -122,6 +122,7 @@ const gameLd = [
         <h2 class="h2">{fr ? 'Questions fréquentes' : 'FAQ'}</h2>
         {gameFaq.map((f) => <details class="faq-item"><summary>{f.q}</summary><p>{f.a}</p></details>)}
         <p class="game-seo__links">
+          <a href={fr ? '/fr/jeu/comment-jouer/' : '/en/game/how-to-play/'}>{fr ? 'Comment jouer' : 'How to play'}</a> ·
           <a href={url.perfumes(l)}>{fr ? 'Réviser les parfums' : 'Study the perfumes'}</a> ·
           <a href={url.notes(l)}>{fr ? 'Les notes olfactives' : 'Fragrance notes'}</a> ·
           <a href={url.families(l)}>{fr ? 'Les familles olfactives' : 'Olfactory families'}</a> ·

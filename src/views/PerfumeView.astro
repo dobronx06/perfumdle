@@ -46,10 +46,14 @@ const tiers = [
 /* ---------- SEO ---------- */
 // « Bleu de Chanel de Chanel » reads badly: drop the house when the name already contains it.
 const nameHasBrand = p.name.toLowerCase().includes(p.brand.toLowerCase());
+/* Titles promise what a retailer page does not: the notes, our review and the perfumes that smell alike
+   (the similar list is on every page). Search Console showed fiches on page one with no clicks under the
+   old "notes, avis et odeur" titles. */
 const longTitle = nameHasBrand
-  ? (fr ? `${p.name} : notes, avis, odeur et histoire` : `${p.name}: notes, review, smell & story`)
-  : fr ? `${p.name} de ${p.brand} : notes, avis et odeur` : `${p.name} by ${p.brand}: notes, review & smell`;
-const title = longTitle.length <= 65 ? longTitle : fr ? `${p.name} (${p.brand}) : notes et avis` : `${p.name} (${p.brand}): notes & review`;
+  ? (fr ? `${p.name} : notes, avis et parfums similaires` : `${p.name}: Notes, Review & Similar Perfumes`)
+  : fr ? `${p.name} de ${p.brand} : notes, avis et parfums similaires` : `${p.name} by ${p.brand}: Notes, Review & Similar Perfumes`;
+const midTitle = fr ? `${p.name} (${p.brand}) : notes et parfums similaires` : `${p.name} (${p.brand}): Notes & Similar Perfumes`;
+const title = longTitle.length <= 65 ? longTitle : midTitle.length <= 65 ? midTitle : fr ? `${p.name} (${p.brand}) : notes et avis` : `${p.name} (${p.brand}): notes & review`;
 const topThree = allNotes(p).slice(0, 3).map((n) => lc(noteName(n, l)));
 const rawDescription = fr
   ? `${p.name} (${p.brand}, ${p.year}) : pyramide olfactive (${topThree.join(', ')}…), avis, tenue, saisons idéales et parfums qui lui ressemblent.`
@@ -283,6 +287,7 @@ const jsonLd = compact([
       <div class="wrap wrap--text">
         <Faq items={faqs} title={fr ? `Questions sur ${p.name}` : `${p.name}: FAQ`} />
       </div>
+      <GameCta locale={l} from="perfume" place="end" />
     </main>
     <Footer locale={l} />
   </div>

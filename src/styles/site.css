@@ -488,3 +488,17 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 /* Study page trend bars (StudyView.astro) */
 .study-trends td { white-space: nowrap; }
 .study-bar { display: inline-block; min-width: 3.2rem; padding: 0.1rem 0.4rem; border-radius: 6px; background: linear-gradient(90deg, rgba(169, 132, 75, 0.35) var(--w), transparent var(--w)); font-variant-numeric: tabular-nums; }
+
+/* "Parfum du jour" block (GameCta.astro), replaces the plain game strip */
+.daily-card { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem 1.6rem; background: var(--ink); color: var(--paper); border-radius: 18px; padding: clamp(1.1rem, 2.6vw, 1.5rem) clamp(1.1rem, 3vw, 2rem); text-decoration: none; margin-block: 0 clamp(1.5rem, 4vw, 2.5rem); }
+.daily-card--end { margin-block: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2.5rem); }
+.daily-card__head { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.daily-card__eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: #E0B35A; }
+.daily-card__head strong { font-family: var(--serif); font-weight: 600; font-size: clamp(1.3rem, 2.8vw, 1.7rem); line-height: 1.15; }
+.daily-card__clues { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
+.daily-card__clues > span { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.55rem 0.75rem; border-radius: 10px; background: rgba(247, 243, 238, 0.08); }
+.daily-card__clues small { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(247, 243, 238, 0.6); }
+.daily-card__clues b { font-weight: 600; }
+.daily-card__btn { grid-row: 1; grid-column: 2; }
+.daily-card:hover .daily-card__btn { filter: brightness(1.08); }
+@media (max-width: 34rem) { .daily-card { grid-template-columns: 1fr; } .daily-card__btn { grid-row: auto; grid-column: 1; justify-self: start; } }

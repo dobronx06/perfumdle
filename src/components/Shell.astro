@@ -4,6 +4,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from './Header.astro';
 import Footer from './Footer.astro';
 import Crumbs from './Crumbs.astro';
+import GameCta from './GameCta.astro';
 import type { Locale } from '../i18n';
 import { breadcrumbLd, compact } from '../lib/seo';
 
@@ -35,6 +36,7 @@ const other = P.locale === 'fr' ? 'en' : 'fr';
         </header>
         <slot />
       </div>
+      <GameCta locale={P.locale} from="index" place="end" />
     </main>
     <Footer locale={P.locale} />
   </div>
