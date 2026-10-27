@@ -8,6 +8,7 @@ import {
   similarity, brandByName, noteByKey, decadeOf, perfumeEditorial, GENDER_LABEL, type Perfume, type Faq, type Brand,
 } from './catalog';
 import { rankedLinks } from './ranked';
+import { houseTitle, houseDescription } from './house-titles';
 
 const other = (l: Locale): Locale => (l === 'fr' ? 'en' : 'fr');
 const home = (l: Locale) => ({ name: l === 'fr' ? 'Accueil' : 'Home', href: url.home(l) });
@@ -67,8 +68,8 @@ export function brandPage(b: Brand, l: Locale) {
 
   return {
     locale: l,
-    title: ed?.title ?? (fr ? `Parfums ${b.name} : histoire, icônes et notes` : `${b.name} perfumes: history, icons and notes`),
-    description: ed?.meta ?? trim(intro),
+    title: houseTitle(b.name, b.perfumes, l),
+    description: houseDescription(b.name, b.perfumes, l),
     eyebrow: fr ? 'Maison de parfum' : 'Perfume house',
     h1: fr ? `Les parfums ${b.name}` : `${b.name} perfumes`,
     intro,

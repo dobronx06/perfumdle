@@ -4,6 +4,7 @@ import { url, tintFor, type Perfume } from '../lib/catalog';
 
 interface Props { p: Perfume; locale: Locale; note?: string; eager?: boolean }
 const { p, locale, note, eager = false } = Astro.props;
+const genderLabel = { Feminine: locale === 'fr' ? 'Femme' : 'Women', Masculine: locale === 'fr' ? 'Homme' : 'Men', Unisex: locale === 'fr' ? 'Mixte' : 'Unisex' }[p.gender];
 const initials = p.name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
 ---
 
@@ -15,6 +16,6 @@ const initials = p.name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).to
   </div>
   <span class="card__house">{p.brand}</span>
   <span class="card__name">{p.name}</span>
-  <span class="card__meta">{p.year} · {p.concentration}</span>
+  <span class="card__meta">{p.year} · {p.concentration} · {genderLabel}</span>
   {note && <span class="card__shared">{note}</span>}
 </a>
