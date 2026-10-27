@@ -1,0 +1,311 @@
+[
+ {
+  "name": "Gem",
+  "brand": "Van Cleef & Arpels",
+  "year": 1987,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peach",
+    "Plum",
+    "Cypress",
+    "Cardamom",
+    "Coriander",
+    "Rosewood"
+   ],
+   "heart": [
+    "Tuberose",
+    "Rose",
+    "Jasmine",
+    "Iris",
+    "Ylang-Ylang",
+    "Clove"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Oakmoss",
+    "Amber",
+    "Civet"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/femme/edp/gem-van-cleef-arpels-1987.html",
+   "https://www.fragrancex.com/products/van-cleef-and-arpels/gem-perfume",
+   "https://fragrancerevival.com/product/gem-by-van-cleef-arpels/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "1987 launch consistent across retailers. Perfumer often credited as Roger Pellegrino, but only via database-derived listings, so left null. Note lists vary on minor materials. Long discontinued, sold as vintage stock; le-parfum.fr mentions a reworked EDP."
+ },
+ {
+  "name": "M7",
+  "brand": "Yves Saint Laurent",
+  "year": 2002,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier, Alberto Morillas",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Rosemary"
+   ],
+   "heart": [
+    "Oud",
+    "Vetiver"
+   ],
+   "base": [
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://southbeachperfumes.com/products/m7-by-yves-saint-laurent",
+   "https://fragrancevault.net/products/yves-saint-laurent-m7-vintage-after-shave-copy",
+   "https://www.decantx.com/products/yves-saint-laurent-m7-eau-de-toilette-for-men"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Tom Ford era YSL, one of the first mainstream designer fragrances built around oud. Original discontinued; replaced in 2011 by M7 Oud Absolu with a different formula. Flanker M7 Fresh (2004)."
+ },
+ {
+  "name": "Baptême du Feu",
+  "brand": "Serge Lutens",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Ginger"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Osmanthus"
+   ],
+   "base": [
+    "Castoreum",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2016/08/03/serge-lutens-bapteme-du-feu/",
+   "https://persolaise.com/2016/07/persolaise-review-bapteme-du-feu-from.html",
+   "https://www.fashionbeans.com/2016/fotw-serge-lutens-bapteme-du-feu/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched July 2016 in France (chunk hint of 2014 was wrong). Lutens text only names gingerbread; inspired by the fun fairs of his youth, with a shooting-gallery gunpowder idea. Retailer lists: gingerbread, tangerine, ginger, cinnamon, castoreum, osmanthus, woods. Gingerbread rendered as ginger + cinnamon. Black label line."
+ },
+ {
+  "name": "Eau des Sens",
+  "brand": "Diptyque",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Aromatic Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Juniper Berries",
+    "Petitgrain"
+   ],
+   "base": [
+    "Angelica",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/new-perfume-review-diptyque-eau-des-sens-summer-orange-blossom-olivier-pescheux/",
+   "https://australianperfumejunkies.com/2016/05/17/eau-des-sens-diptyque-review/",
+   "https://www.spacenk.com/us/fragrance/personal-fragrance/fragrance/eau-des-sens-MUK200017015.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Core notes agreed: orange blossom, bitter orange, juniper berry, angelica, patchouli. Retailers disagree on tier placement. EDP version added later; EDT is the original."
+ },
+ {
+  "name": "Clair de Musc",
+  "brand": "Serge Lutens",
+  "year": 2003,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Neroli",
+    "Musk"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Iris",
+    "Sandalwood",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/serge-lutens/4059/clair-de-musc",
+   "https://www.le-parfum.fr/femme/edp/clair-de-musc-serge-lutens-2003.html",
+   "http://perfumeshrine.blogspot.com/2010/06/scented-musk-eteers-musks-review-series.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz pyramid: bergamot, vegetal musk, neroli / jasmine, rose, powdery musk / sandalwood, iris, ambrette seed. House text cites Debussy's Prélude à l'après-midi d'un faune, crystal-clear musk, Tuscan white iris."
+ },
+ {
+  "name": "The Dreamer",
+  "brand": "Versace",
+  "year": 1996,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Pierre Béthouart",
+  "notes": {
+   "top": [
+    "Juniper",
+    "Artemisia",
+    "Tarragon",
+    "Lavender"
+   ],
+   "heart": [
+    "Tobacco",
+    "Iris",
+    "Lily",
+    "Rose"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://scentgrail.com/perfume-reviews/versace-the-dreamer-review/",
+   "https://www.fragrancereview.com/perfume/versace-the-dreamer-eau-de-toilette/",
+   "https://www.edtedp.com/versace-the-dreamer-for-men-eau-de-toilette/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Tobacco here is tobacco flower, not leaf. Note lists differ between sources (some give lavender, sage, mandarin / tobacco, rose, carnation, geranium / tonka, fir, vetiver, cedar). Reformulated around 2010. Still sold."
+ },
+ {
+  "name": "Olympéa Aqua",
+  "brand": "Paco Rabanne",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Loc Dong, Fanny Bal",
+  "notes": {
+   "top": [
+    "Clementine",
+    "Lemon Blossom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Water Lily",
+    "Watery Notes"
+   ],
+   "base": [
+    "Salt",
+    "Vanilla",
+    "Ambergris",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://beautyhouse.com/products/paco-rabanne-olympea-aqua-legere-eau-de-parfum-for-women",
+   "https://perfumania.com/products/olympea-aqua-by-paco-rabanne-for-women-eau-de-parfum-legere-spray",
+   "https://www.amazon.com/Paco-Rabanne-Olympea-Fragrance-Women/dp/B07DSMP574"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes the 2018 Eau de Parfum Légère (chunk note: merged 2018 page). An earlier Olympéa Aqua EDT flanker (2016 per one listing) has different notes. 'Watery Notes' stands for the solar water jasmine accord."
+ },
+ {
+  "name": "Eau Ressourçante",
+  "brand": "Clarins",
+  "year": 2003,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Soin",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Basil",
+    "Cardamom"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Iris"
+   ],
+   "base": [
+    "Benzoin",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.fr/parfums/clarins/5158/l-eau-ressourcante",
+   "https://www.nocibe.fr/fr/p/5010954001",
+   "https://www.tendance-parfums.com/eau-ressourcante.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Treatment fragrance (eau de soins parfumée), relaxing positioning. Year 2003 per Osmoz and FragranceNet. Clarins describes it as floral and woody; Nocibé calls it fresh aromatic. Still sold."
+ },
+ {
+  "name": "Coco Mademoiselle Intense",
+  "brand": "Chanel",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Orange",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Tonka Bean",
+    "Vanilla",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Coco_Mademoiselle"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "EDP Intense, 2018 flanker of Coco Mademoiselle (2001). Wikipedia FR: more patchouli, vanilla and tonka, cistus added, mimosa and ylang dropped; it credits Jacques Polge, but the 2018 Intense is generally attributed to Olivier Polge (in-house since 2015). Year and perfumer from knowledge, only one source fetched."
+ }
+]

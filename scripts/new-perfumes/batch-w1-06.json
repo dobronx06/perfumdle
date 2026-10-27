@@ -1,0 +1,366 @@
+[
+ {
+  "name": "Le Parfum",
+  "brand": "Elie Saab",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Patchouli"
+   ],
+   "base": [
+    "Honey",
+    "Cedar",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/elie-saab/2741/le-parfum",
+   "https://thecandyperfumeboy.com/2011/08/25/graceful-light-elie-saab-le-parfum-perfume-review/",
+   "https://scentadvice.com/le-parfum-2011-elie-saab/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "First Elie Saab perfume, 2011, by Francis Kurkdjian. Osmoz classes it Floral (orange blossom/tuberose); the honey, cedar and patchouli base justifies Floral Woody. Only one top note is published (orange blossom). Osmoz also lists solar notes in the heart. Some retailers put patchouli in the base."
+ },
+ {
+  "name": "Pour Homme",
+  "brand": "Van Cleef & Arpels",
+  "year": 1978,
+  "gender": "Masculine",
+  "family": "Chypre Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lavender",
+    "Sage",
+    "Basil",
+    "Rosemary"
+   ],
+   "heart": [
+    "Rose",
+    "Clove",
+    "Iris"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Leather",
+    "Oakmoss",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.vancleefarpels.com/my/en/collections/fragrances/les-classiques/vcarpqo100---pour-homme.html",
+   "https://www.niche-beauty.com/en-gb/products/van-cleef-arpels-pour-homme/663-024",
+   "https://www.perfumeintelligence.co.uk/library/perfume/u/houses/VanC.htm"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1978, still sold in the brand's Les Classiques line. Brand copy: sage, basil, rosemary top; rose with spices heart; patchouli and vetiver drydown. Pyramid merged with Niche Beauty (lavender, bergamot, clove, iris, leather, oakmoss, musk). Niche Beauty credits Louis Monnet as perfumer, unconfirmed elsewhere, so left null. Chypre with leather facet."
+ },
+ {
+  "name": "Grey Flannel",
+  "brand": "Geoffrey Beene",
+  "year": 1975,
+  "gender": "Masculine",
+  "family": "Woody Chypre",
+  "concentration": "Eau de Toilette",
+  "perfumer": "André Fromentin",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Petitgrain",
+    "Neroli",
+    "Bergamot",
+    "Citron"
+   ],
+   "heart": [
+    "Violet",
+    "Iris",
+    "Geranium",
+    "Mimosa",
+    "Narcissus",
+    "Sage"
+   ],
+   "base": [
+    "Oakmoss",
+    "Vetiver",
+    "Cedar",
+    "Tonka Bean",
+    "Almond"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/grey-flannel-eau-de-toilette-geoffrey-beene.html",
+   "https://perfumeintelligence.co.uk/library/perfume/b/houses/Beene.htm",
+   "https://boisdejasmin.com/?p=18215"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1975, André Fromentin. Perfume Intelligence calls it a fresh masculine chypre with green top notes. Rose also listed in the heart (dropped to keep 6). Still sold at low price; reformulated over the years (less oakmoss)."
+ },
+ {
+  "name": "Balenciaga Paris",
+  "brand": "Balenciaga",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Violet",
+    "Carnation"
+   ],
+   "base": [
+    "Patchouli",
+    "Cedar",
+    "Vetiver",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/balenciaga-paris-edp-review",
+   "https://francetoday.com/culture/fashion/spring_scents_charlotte_gainsbourg_for_balenciaga/",
+   "https://www.osmoz.com/perfumes/balenciaga/752/balenciaga-paris",
+   "https://nstperfume.com/2009/10/30/balenciaga-paris-by-balenciaga-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "First Balenciaga perfume since Cristobal (1998), first under Coty licence and Nicolas Ghesquière. Face Charlotte Gainsbourg. Polge: violet leaf on a chypre structure turns leathery. Oakmoss from press profile. Availability today unclear, possibly discontinued (not confirmed)."
+ },
+ {
+  "name": "Jardins de Bagatelle",
+  "brand": "Guerlain",
+  "year": 1983,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Violet",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Tuberose",
+    "Narcissus",
+    "Gardenia",
+    "Lily of the Valley",
+    "Iris",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Civet",
+    "Cedar",
+    "Patchouli",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/guerlain/3482/jardins-de-bagatelle",
+   "https://surrendertochance.com/retro-guerlain-jardins-de-bagatelle-edp",
+   "https://www.notino.co.uk/guerlain/jardins-de-bagatelle-eau-de-toilette-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1983, Jean-Paul Guerlain, named after the Bagatelle park (Bois de Boulogne). Osmoz: tuberose dominates over neroli, rose, jasmine, gardenia, magnolia; pyramid from Osmoz plus tuberose/gardenia/orange blossom from its description. Original EDT; an EDP also exists."
+ },
+ {
+  "name": "Izia",
+  "brand": "Sisley",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Amandine Clerc-Marie",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Floral Notes",
+    "Angelica"
+   ],
+   "base": [
+    "Amber",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/sisley/izia-eau-de-parfum-for-women/",
+   "https://www.elle.be/fr/164354-izia-nouveau-feminin-de-sisley.html",
+   "https://nstperfume.com/2017/02/14/sisley-izia-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2017, Amandine Clerc-Marie. Built around the 'd'Ornano rose' per Sisley. One retailer also credits Isabelle d'Ornano. Notino mentions sandalwood. Some sizes marked discontinued at retailers; status unclear."
+ },
+ {
+  "name": "Saharienne",
+  "brand": "Yves Saint Laurent",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Neroli",
+    "Jasmine",
+    "Clary Sage"
+   ],
+   "base": [
+    "Musk",
+    "Vetiver",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.yslbeauty.com/int/fragrance/unisex-fragrances/le-vestiaire-des-parfums/saharienne-%E2%80%93-le-vestiaire-des-parfums/WW-41702YSL.html",
+   "https://www.premiumbeautynews.com/en/yves-saint-laurent-creates-a,8740"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of Le Vestiaire des Parfums, announced October 2015 (Premium Beauty News) with Tuxedo, Caban, Caftan, Trench. YSL credits Alberto Morillas. Jasmine is jasmine sambac per brand. Neroli and white musk lead."
+ },
+ {
+  "name": "Girls Can Do Anything",
+  "brand": "Zadig & Voltaire",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Pear",
+    "Mandarin",
+    "Bergamot",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Tonka Bean",
+    "Tuberose"
+   ],
+   "base": [
+    "Fern Accord",
+    "Vanilla",
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/girls-can-do-anything-eau-de-parfum-zadig-voltaire.html",
+   "https://that-something.shopstar.co.za/products/zadig-voltaire-girls-can-do-anything-eau-de-parfum",
+   "https://nstperfume.com/2018/07/24/zadig-voltaire-girls-can-do-anything-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018, Quentin Bisch, feminized fougère accord. Brand-aligned core: pear, orange blossom, tonka, fern, vanilla, musk. Mandarin, bergamot, tuberose, patchouli from an extended retailer list (also clove, ambroxan). New note: Fern Accord."
+ },
+ {
+  "name": "Cuir de Russie",
+  "brand": "Chanel",
+  "year": 1927,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Ernest Beaux",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Ylang-Ylang",
+    "Iris"
+   ],
+   "base": [
+    "Birch",
+    "Leather",
+    "Tobacco",
+    "Hay",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cuir_de_Russie",
+   "https://www.osmoz.com/perfumes/chanel/1646/cuir-de-russie",
+   "https://www.chanel.com/in/about-chanel/the-history/1920"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Chanel history page, Wikipedia and Osmoz give 1927; many blogs say 1924. Ernest Beaux. Birch tar reference to Russian soldiers' boots (Chanel). Biographer Justine Picardie links it to Grand Duke Dmitri Pavlovich. Les Exclusifs: was EDT, now sold as EDP (since c. 2016). Osmoz base: oliban (incense), hay, tobacco, leather, cade; birch per Chanel. Iris from other listings."
+ },
+ {
+  "name": "La Vierge de Fer",
+  "brand": "Serge Lutens",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Pear",
+    "Aldehydes"
+   ],
+   "heart": [
+    "Lily",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Amber",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2013/12/05/serge-lutens-la-vierge-de-fer/",
+   "https://surrendertochance.com/serge-lutens-la-vierge-de-fer",
+   "https://bloomperfume.com/blogs/best-similar-1/la-vierge-de-fer-by-serge-lutens"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released September 2013 as a Paris exclusive bell jar, Christopher Sheldrake. Lutens does not publish notes; pyramid inferred from reviews and retailer copy (Harrods: green and white florals, lily, pear, sandalwood; Bloom: pear, lily, metallic accord). Not 2011 and no pineapple."
+ }
+]

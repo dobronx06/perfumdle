@@ -1,0 +1,692 @@
+[
+ {
+  "name": "Marry Me!",
+  "brand": "Lanvin",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Peach",
+    "Freesia"
+   ],
+   "heart": [
+    "Jasmine",
+    "Magnolia",
+    "Rose"
+   ],
+   "base": [
+    "Cedar",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2010/06/23/lanvin-marry-me-new-perfume/",
+   "https://fragrancemarket.com/products/marry-me-eau-de-parfum-spray-for-women-by-lanvin"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched August 2010, fruity floral. Base cedar is listed as white or Virginia cedar. No official face found."
+ },
+ {
+  "name": "Boss The Scent Absolute",
+  "brand": "Hugo Boss",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Bruno Jovanovic",
+  "notes": {
+   "top": [
+    "Ginger"
+   ],
+   "heart": [
+    "Maninka Fruit",
+    "Mondia Root"
+   ],
+   "base": [
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragranceheaven.com.au/boss-the-scent-absolute-by-hugo-boss-mens-fragrance.html",
+   "https://bestmenscolognes.com/the-scent-absolute-him-boss/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Men's version (a For Her version by Louise Turner also exists). Only retailer sources, no Hugo Boss press page found. Short published pyramid: ginger / maninka, mondia root / vetiver. Some retailers label it discontinued, unconfirmed."
+ },
+ {
+  "name": "Repetto Eau Florale",
+  "brand": "Repetto",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Plum Blossom"
+   ],
+   "heart": [
+    "Rose",
+    "Violet"
+   ],
+   "base": [
+    "Cedar",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.news-parfums.com/fr/parfum-repetto/35427-l-eau-florale-eau-de-toilette-3386460071154.html",
+   "https://www.osmoz.com/perfumes/repetto/8105/eau-florale"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Interparfums license. Year 2015 per Osmoz (one retailer says 2014). Perfumers Juliette Karagueuzoglou and Nicolas Beaulieu cited by one retailer page that could not be read, left null. Osmoz adds peach, violet leaf, musk, patchouli."
+ },
+ {
+  "name": "Monsieur Balmain",
+  "brand": "Balmain",
+  "year": 1990,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Calice Becker",
+  "notes": {
+   "top": [
+    "Mint",
+    "Bergamot",
+    "Lemon",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Rosemary",
+    "Ginger",
+    "Pepper",
+    "Nutmeg",
+    "Rose",
+    "Thyme"
+   ],
+   "base": [
+    "Clary Sage",
+    "Vetiver",
+    "Sandalwood",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/monsieur-balmain-germaine-monsieur-balmain-germaine-cellier-1964-and-monsieur-balmain-calice-becker-1990-unsung-heroes/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes the 1990 Calice Becker version, the one sold since. An earlier Monsieur Balmain by Germaine Cellier dates from 1964 (different citrus-leather-moss formula). Caraway also listed in the 1990 heart."
+ },
+ {
+  "name": "Invictus Aqua",
+  "brand": "Paco Rabanne",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Aquatic Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Nicolas Beaulieu",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Yuzu",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Ambergris",
+    "Guaiac Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/paco-rabanne-invictus-aqua-2016/",
+   "https://bestcologneformen.com/invictus-aqua-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2016 flanker of Invictus (2013). A reworked Invictus Aqua was released in 2018 with a similar grapefruit, violet leaf, marine, woods profile; perfumer credits vary between sources."
+ },
+ {
+  "name": "Paris-Venise",
+  "brand": "Chanel",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Amber",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Orange",
+    "Neroli",
+    "Red Berries"
+   ],
+   "heart": [
+    "Iris",
+    "Geranium"
+   ],
+   "base": [
+    "Cedar",
+    "Amber",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/08/06/chanel-paris-venise-fragrance-review/",
+   "https://perfumesociety.org/olivier-polges-new-eaux-are-inspired-by-chanels-travels/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "One of the three first Les Eaux de Chanel (with Paris-Deauville and Paris-Biarritz), 2018. Chanel calls it a fresh oriental. Flat note list distributed into tiers."
+ },
+ {
+  "name": "Mon Guerlain Sparkling Bouquet",
+  "brand": "Guerlain",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Lavender",
+    "Jasmine",
+    "Peony"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.johnlewis.com/guerlain-mon-guerlain-sparkling-bouquet-eau-de-parfum/p5382079",
+   "https://www.wikiparfum.com/en/fragrances/mon-guerlain-sparkling-bouquet-1"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2021 flanker of Mon Guerlain (2017). Jelk describes it as a pear-lavender sorbet melting onto burnt vanilla. Jasmine is sambac. Retailer pyramid consistent; John Lewis confirms 2021, pear, sambac jasmine, lavender-vanilla."
+ },
+ {
+  "name": "Chrome United",
+  "brand": "Azzaro",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Richard Ibanez",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Coriander",
+    "Sichuan Pepper"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Black Tea"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2013/06/25/azzaro-chrome-united-new-fragrance/",
+   "https://www.tendance-parfums.com/en/chrome-united-eau-de-toilette-azzaro.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Chrome (1996), themed on male friendship. Black tea is Ceylon black tea, musk is white musk."
+ },
+ {
+  "name": "Lady Million Privé",
+  "brand": "Paco Rabanne",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Woody Notes"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Raspberry",
+    "Vanilla"
+   ],
+   "base": [
+    "Cacao",
+    "Honey",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2016/04/21/paco-rabanne-1-million-prive-lady-million-prive-new-fragrances/",
+   "https://perfumeparadiseusa.com/products/0afa8de1-14bc-11e9-edec-40ee20967793"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer 2016, launched alongside 1 Million Privé. Retailers sell it as Eau de Parfum 80 ml; the NST post summary was ambiguous on concentration. Cacao = cocoa bean."
+ },
+ {
+  "name": "Voce Viva Intensa",
+  "brand": "Valentino",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://everfumed.com/valentino-voce-viva-intensa/",
+   "https://www.perfumerflavorist.com/fragrance/fine-fragrance/news/21877761/valentino-debuts-voce-viva-intensa"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2021 intense flanker of Voce Viva (2020). Base is crystal moss accord and bourbon vanilla; jasmine is sambac. Perfumer credited by one retailer only (Carlos Benaim), left null. Some retailers add gardenia and sandalwood."
+ },
+ {
+  "name": "Soleil Neige",
+  "brand": "Tom Ford",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Guillotin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Carrot Seeds"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Rose",
+    "White Flowers"
+   ],
+   "base": [
+    "Benzoin",
+    "Vanilla",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.thelastspritz.com/fragrance/tom-ford-soleil-neige",
+   "https://www.dillards.com/p/tom-ford-soleil-neige-eau-de-parfum/521284727"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Private Blend, Soleil line (after Soleil Blanc 2016). Rose is Turkish rose. Perfumer from one source only. A Parfum version came later with a different base."
+ },
+ {
+  "name": "Ma Dame",
+  "brand": "Jean Paul Gaultier",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Orange",
+    "Grenadine"
+   ],
+   "heart": [
+    "Rose",
+    "Floral Notes"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2008/08/25/jean-paul-gaultier-ma-dame-perfume-review/",
+   "https://cafleurebon.com/unsung-heros-perfume-review-jean-paul-gaultier-madame-2008-by-francis-kurkdjian/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "2008, official notes orange zest, grenadine, velvet rose, cedar, musk. Bottle is a pink version of the Gaultier bust. Appears discontinued (hard to find new), not confirmed by brand."
+ },
+ {
+  "name": "Parfum de Peau",
+  "brand": "Montana",
+  "year": 1986,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean Guichard",
+  "notes": {
+   "top": [
+    "Marigold",
+    "Peach",
+    "Plum",
+    "Black Currant",
+    "Pepper",
+    "Cardamom"
+   ],
+   "heart": [
+    "Rose",
+    "Tuberose",
+    "Jasmine",
+    "Ylang-Ylang",
+    "Carnation"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli",
+    "Vetiver",
+    "Civet",
+    "Castoreum",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2014/12/01/parfums-montana-parfum-de-peau-fragrance-review/",
+   "https://www.yesterdaysperfume.com/yesterdays_perfume/2010/04/montana-parfum-de-peau-1986.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 1986 as Montana, later called Parfum de Peau. Composed by Jean Guichard, reformulated in the 1990s by Edouard Fléchier. Flat list distributed; amber, musk, ginger also listed."
+ },
+ {
+  "name": "Jules",
+  "brand": "Dior",
+  "year": 1980,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean Martel",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Tarragon",
+    "Cumin",
+    "Lavender",
+    "Basil"
+   ],
+   "heart": [
+    "Jasmine",
+    "Carnation",
+    "Rose",
+    "Cyclamen",
+    "Sandalwood"
+   ],
+   "base": [
+    "Cedar",
+    "Oakmoss",
+    "Leather",
+    "Amber",
+    "Musk",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/vintage-dior-jules-review-jean-martel-1980-game-changing-green-chypre-draw/",
+   "https://www.yesterdaysperfume.com/yesterdays_perfume/2014/06/jules-by-christian-dior-1980.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Dior's second men's fragrance after Eau Sauvage. Green fougère. Reformulated in 2016 by François Demachy with more galbanum. Ads illustrated by René Gruau."
+ },
+ {
+  "name": "Mon Guerlain Florale",
+  "brand": "Guerlain",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Carla Lavender",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peony",
+    "Neroli",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Sandalwood",
+    "Iris",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thevelvetlife.com/fragrance/mon-guerlain-eau-de-parfum-florale/",
+   "https://www.ambianceetfragrance.com/2019/06/mon-guerlain-eau-de-parfum-florale-avis.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018 flanker of Mon Guerlain (2017), more floral with peony and sambac jasmine. Quadrilobe bottle in rose gold."
+ },
+ {
+  "name": "Gentleman Eau de Parfum Boisée",
+  "brand": "Givenchy",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Cresp, Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Coriander",
+    "Geranium"
+   ],
+   "heart": [
+    "Iris",
+    "Cacao",
+    "Cedar"
+   ],
+   "base": [
+    "Sandalwood",
+    "Woody Notes",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/02/29/givenchy-gentleman-eau-de-parfum-boisee-new-fragrance/",
+   "https://www.ulta.com/p/gentleman-boisee-eau-de-parfum-pimprod2020145?sku=2601829"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020 flanker of Gentleman (2017). Pepper is black pepper, woody notes are burning woods."
+ },
+ {
+  "name": "La Petite Robe Noire Rose Rose Rose",
+  "brand": "Guerlain",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cherry",
+    "Almond"
+   ],
+   "heart": [
+    "Rose",
+    "Centifolia Rose",
+    "Turkish Rose Petals"
+   ],
+   "base": [
+    "Black Tea",
+    "Tonka Bean",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2022/01/20/guerlain-la-petite-robe-noire-rose-rose-rose-new-fragrance/",
+   "https://www.dutyfreehunter.com/blog/guerlain-set-to-bloom-with-new-la-petite-robe-noire-rose-rose-rose-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Early 2022 flanker of La Petite Robe Noire. Three roses: Bulgarian, Turkish and Grasse centifolia. Guerlain French listing (via search) gives rose water, bergamot, cherry / roses / black tea, tonka, patchouli; NST adds almond, vanilla, iris, anise. Perfumers credited by retailers. Possibly discontinued."
+ },
+ {
+  "name": "Polo Sport",
+  "brand": "Ralph Lauren",
+  "year": 1994,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Harry Fremont",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Mint",
+    "Lavender",
+    "Bergamot",
+    "Mandarin",
+    "Lemon"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Ginger",
+    "Geranium",
+    "Jasmine",
+    "Cyclamen",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Cedar",
+    "Guaiac Wood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thesmellofman.com/2024/08/09/before-you-buy-polo-sport-by-ralph-lauren/",
+   "https://www.perfume.com/ralph-lauren/polo-sport/men-cologne"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1994. 'Sea Notes' stands for seagrass. Perfumer Harry Fremont (Firmenich) per several retailers; one retailer wrongly credits Carlos Benaim (Polo 1978). Still sold, likely reformulated."
+ },
+ {
+  "name": "Spicebomb Night Vision",
+  "brand": "Viktor & Rolf",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson, Pierre Negrin",
+  "notes": {
+   "top": [
+    "Granny Smith Apple",
+    "Green Mandarin",
+    "Cardamom",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Sage",
+    "Pepper",
+    "Nutmeg",
+    "Geranium",
+    "Clove"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Almond",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/viktor-rolf-spicebomb-night-vision-eau-de-toilette/",
+   "https://www.nordstrom.com/s/viktor-and-rolf-viktorrolf-spicebomb-night-vision-eau-de-toilette-fragrance/5234422"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes the 2019 Eau de Toilette; a different Eau de Parfum followed in 2020. Green grenade bottle. Almond is roasted almond, sage is clary sage."
+ },
+ {
+  "name": "Santal Noir",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Leather Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Ambrette",
+    "Sandalwood"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Leather",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfuum.com/products/christian-dior-santal-noir",
+   "https://leavenocologneunturned.com/2022/02/12/reviews-dior-santal-noir/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior. Dior lists only sandalwood, rose, ambrette, plus a leather accord. Rose is Turkish rose. Year 2018 per most sources (one review says 2008)."
+ }
+]

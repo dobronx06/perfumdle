@@ -1,0 +1,262 @@
+[
+ {
+  "name": "White Suede",
+  "brand": "Tom Ford",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Thyme",
+    "Tea"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Saffron",
+    "Rose"
+   ],
+   "base": [
+    "Suede",
+    "Musk",
+    "Sandalwood",
+    "Amber",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://www.mimifroufrou.com/scentedsalamander/2009/06/tom_ford_private_blend_white_m.html",
+   "https://www.nordstrom.com/s/tom-ford-private-blend-white-suede-eau-de-parfum/3147130",
+   "https://www.jomashop.com/tom-ford-private-blend-white-suede-eau-de-parfum-spray-100ml-3-4oz-888066060387.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2009 in the Private Blend White Musk Collection (with Jasmine Musk, Urban Musk, Musk Pure). Retailers sell it under women but the line is shared. Tier placement varies between retailers; the most common split is used. 'Incense' stands for olibanum; tea is described as maté in launch coverage. Perfumer not published."
+ },
+ {
+  "name": "Chrome Legend",
+  "brand": "Azzaro",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Apple",
+    "Bitter Orange",
+    "Tea"
+   ],
+   "heart": [
+    "Moss",
+    "Musk",
+    "Sea Notes"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vetiver",
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragranceoutlet.com/products/azzaro-chrome-legend-mens-eau-de-toilette-spray",
+   "https://leparfumier.com/en/products/azzaro-chrome-legend-for-men-eau-de-toilette",
+   "https://perfumecity.com/products/chrome-legend-cologne-by-azzaro"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Azzaro Chrome (1996), 2007. Retailers credit Christophe Raynaud, some add Olivier Pescheux; no official confirmation found, so perfumer left null. Notes from retailers only, no brand pyramid. Availability status unverified."
+ },
+ {
+  "name": "Jaïpur Homme",
+  "brand": "Boucheron",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Menardo",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Lemon",
+    "Lime",
+    "Bergamot"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Carnation",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Benzoin",
+    "Tonka Bean",
+    "Patchouli",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://pour-homme.cologne/boucheron-jaipur-homme-eau-de-parfum/",
+   "https://sillage.art/perfumes/boucheron-jaipur-homme-boucheron-1998-eau-de-parfum-1998",
+   "https://www.foreverbeaute.com/products/boucheron-jaipur-homme"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Most sources give 1998 and Annick Menardo; one listing says 1997. Bottle shaped like a bracelet, in the Jaïpur line started by the 1994 feminine. Notes from retailers and blogs, consistent across them."
+ },
+ {
+  "name": "Paco Rabanne Pour Homme",
+  "brand": "Paco Rabanne",
+  "year": 1973,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean Martel",
+  "notes": {
+   "top": [
+    "Rosemary",
+    "Clary Sage",
+    "Brazilian Rosewood"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium",
+    "Tonka Bean"
+   ],
+   "base": [
+    "Oakmoss",
+    "Honey",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/paco-rabanne-pour-homme-by-paco-rabanne-notes-longevity-review-complete-guide",
+   "https://decantboutique.com/product/paco-rabanne-pour-homme-edt/",
+   "https://oudandmusk.substack.com/p/paco-rabanne-paco-rabanne-pour-homme"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "First men's fragrance of the house, 1973, by Jean Martel. Some listings add tobacco in the base or laurel at the top. Brand renamed Rabanne in 2023; brand field kept as in chunk."
+ },
+ {
+  "name": "Hugo Man",
+  "brand": "Hugo Boss",
+  "year": 1995,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bob Aliano",
+  "notes": {
+   "top": [
+    "Green Apple",
+    "Lavender",
+    "Mint",
+    "Grapefruit",
+    "Basil"
+   ],
+   "heart": [
+    "Sage",
+    "Geranium",
+    "Carnation",
+    "Jasmine"
+   ],
+   "base": [
+    "Fir",
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfume-boutique.net/products/hugo-man-by-hugo-boss-eau-de-toilette",
+   "https://www.hugoboss.com/us/hugo-man-eau-de-toilette-125-ml/hbna58097774_999.html",
+   "https://www.ulta.com/p/hugo-man-eau-de-toilette-2261"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Original 1995 Hugo (green flask bottle) by Bob Aliano. Official page now describes green apple and smoky fir balsam, consistent with the classic pyramid. Note lists vary slightly between retailers (pine, spearmint, clove in some). Brand sells it under the HUGO label."
+ },
+ {
+  "name": "Girl",
+  "brand": "Rochas",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Neroli",
+    "Pink Pepper",
+    "Black Currant"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Orchid"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/01/28/rochas-girl-new-fragrance/",
+   "https://www.notino.fr/rochas/girl-eau-de-toilette-pour-femme/",
+   "https://www.meilleur-parfum.fr/blog/parfum-girl-rochas/",
+   "https://www.sephora.fr/p/girl---eau-de-toilette-P10014113.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched early 2021, perfumer Anne Flipo. Vegan formula with 90 percent ingredients of natural origin, bottle with 40 percent recycled glass. 'Black Currant' stands for blackcurrant bud. Some later flankers exist (Girl Life, Girl Blooming)."
+ },
+ {
+  "name": "Parfum d'Été",
+  "brand": "Kenzo",
+  "year": 1992,
+  "gender": "Feminine",
+  "family": "Green Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Violet Leaf",
+    "Galbanum"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine",
+    "Lily of the Valley",
+    "Rose",
+    "Hyacinth",
+    "Freesia"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.yesterdaysperfume.com/yesterdays_perfume/2011/08/parfum-d%C3%A9t%C3%A9-by-kenzo-1992.html",
+   "https://www.incenza.com/6-parfums/16-parfum-femme/632-kenzo-parfum-d-ete-/1406-kenzo-parfum-d-ete-eau-de-parfum.html",
+   "https://www.perfume.com/kenzo/parfum-d-ete/women-perfume",
+   "https://sillyage.wordpress.com/2015/05/24/kenzos-parfum-dete-1992/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1992 per most sources (some retailers say 1993). Perfumer conflicting: Christian Mathieu in several sources, Jean-Claude Delville in others, so left null. Green leafy floral; note lists differ, a consolidated pyramid was built. Leaf-shaped bottle. Some sources add oakmoss in the base. Current availability unclear."
+ }
+]

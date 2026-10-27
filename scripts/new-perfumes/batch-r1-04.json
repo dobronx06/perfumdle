@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Place Vendôme",
+    "brand": "Boucheron",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Oriental Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Cresp, Nathalie Lorson",
+    "notes": {
+      "top": [
+        "Orange Blossom",
+        "Mandarin",
+        "Pink Pepper",
+        "Rose"
+      ],
+      "heart": [
+        "Honey",
+        "Jasmine",
+        "Praline",
+        "Peony"
+      ],
+      "base": [
+        "Benzoin",
+        "Cedar"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/parfum-place-vendome-boucheron.html",
+      "https://www.perfumeintelligence.co.uk/library/perfume/2017/17005/Boucheron.htm"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched September 2013. Tendance Parfums pyramid used; other retailers put rose and honey in the heart. A separate EDT (2013) and an Elixir (2014) exist. Current availability unclear."
+  },
+  {
+    "name": "Beige",
+    "brand": "Chanel",
+    "year": 2008,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jacques Polge",
+    "notes": {
+      "top": [
+        "Hawthorn",
+        "Freesia"
+      ],
+      "heart": [
+        "Frangipani",
+        "Hawthorn"
+      ],
+      "base": [
+        "Honey"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://nstperfume.com/2008/09/12/chanel-beige-new-fragrance-and-new-chanel-olfactive-bar-at-saks-fifth-avenue/"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Les Exclusifs de Chanel, introduced September 2008 (first at Saks). Chanel only publishes a flat list: hawthorn, freesia, frangipani, honey; pyramid inferred. Originally EDT, later also sold as EDP in the Exclusifs line. Base has a single note because nothing else is published."
+  },
+  {
+    "name": "Shalimar Souffle de Parfum",
+    "brand": "Guerlain",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Floral Amber",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Thierry Wasser",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Mandarin"
+      ],
+      "heart": [
+        "Jasmine",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Vanilla",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2014/08/18/guerlain-shalimar-souffle-de-parfum-fragrance-review",
+      "https://thecandyperfumeboy.com/2015/01/26/shalimar-at-a-stretch-shalimar-souffle-de-parfum-perfume-review/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Shalimar flanker, 2014. Jasmine is jasmine sambac; orange blossom is an orange blossom water absolute Guerlain says it used for the first time; vanilla is Indian and Tahitian. Current availability unclear."
+  },
+  {
+    "name": "Hugo Dark Blue",
+    "brand": "Hugo Boss",
+    "year": 1999,
+    "gender": "Masculine",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Alain Astori, Béatrice Piquet",
+    "notes": {
+      "top": [
+        "Ginger",
+        "Grapefruit",
+        "Orange",
+        "Lime",
+        "Citron"
+      ],
+      "heart": [
+        "Cypress",
+        "Mahogany",
+        "Cardamom",
+        "Geranium",
+        "Sage"
+      ],
+      "base": [
+        "Vanilla",
+        "Cedar",
+        "Benzoin",
+        "Vetiver",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/hugo-dark-blue.html",
+      "https://www.marketingweek.com/hugo-boss-launches-new-mens-fragrance/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched 1999 (not 2002), roll-out to March 2000; cocktail-shaker shaped dark blue bottle. Perfumers credited by Tendance Parfums only."
+  },
+  {
+    "name": "Gabrielle Essence",
+    "brand": "Chanel",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Polge",
+    "notes": {
+      "top": [
+        "Peach",
+        "Petitgrain"
+      ],
+      "heart": [
+        "White Flowers",
+        "Tuberose",
+        "Ylang-Ylang",
+        "Jasmine",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Musk",
+        "Vanilla",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/gabrielle-chanel-essence.html",
+      "https://www.dailymaverick.co.za/article/2019-08-14-how-house-of-chanels-perfumer-creator-reimagined-the-brands-latest-scent/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Official name Gabrielle Chanel Essence, 2019 reworking of Gabrielle (2017) with more tuberose. Press copy mentions citrus and red berries on top; Tendance lists peach and petitgrain (and coconut in the heart)."
+  },
+  {
+    "name": "Coeur Battant",
+    "brand": "Louis Vuitton",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jacques Cavallier-Belletrud",
+    "notes": {
+      "top": [
+        "Pear",
+        "Ambrette"
+      ],
+      "heart": [
+        "Jasmine",
+        "Ylang-Ylang",
+        "Narcissus"
+      ],
+      "base": [
+        "Patchouli",
+        "Moss"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://montecristomagazine.com/magazine/volume-12/louis-vuitton-coeur-battant",
+      "https://uk.louisvuitton.com/eng-gb/products/coeur-battant-nvprod1780069v/LP0151"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Autumn 2019 addition to Les Parfums. LV lists key notes only (pear accord, sambac or Egyptian jasmine, ylang-ylang, patchouli, ambrette, narcissus); moss from press; tiers inferred. LV feminine line is eau de parfum."
+  },
+  {
+    "name": "Oui La Vie est Belle",
+    "brand": "Lancôme",
+    "year": 2022,
+    "gender": "Feminine",
+    "family": "Floral Gourmand",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Pink Pepper",
+        "Raspberry"
+      ],
+      "heart": [
+        "Rose",
+        "Ylang-Ylang"
+      ],
+      "base": [
+        "Patchouli",
+        "Iris",
+        "Vanilla"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2022/02/16/lancome-oui-la-vie-est-belle-new-fragrance",
+      "https://lookfantastic.com/p/lancome-la-vie-est-belle-oui-new-eau-de-parfum-100ml/13451153"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Limited edition flanker for La Vie est Belle's 10th anniversary, early 2022, 'Eau de Parfum d'Exception'. Rose is Damascena; base also has a gourmand accord. Perfumers not published. Some retailers mix up its notes with the 2012 original."
+  },
+  {
+    "name": "Mr. Burberry",
+    "brand": "Burberry",
+    "year": 2016,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": [
+        "Grapefruit",
+        "Cardamom",
+        "Tarragon"
+      ],
+      "heart": [
+        "Birch",
+        "Nutmeg",
+        "Cedar"
+      ],
+      "base": [
+        "Sandalwood",
+        "Vetiver",
+        "Guaiac Wood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2015/10/27/mr-burberry-new-fragrance",
+      "https://perfumania.com/products/mr-burberry-eau-de-toilette-spray-for-men-by-burberry"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Announced October 2015, launched April 2016 as the masculine counterpart of My Burberry. 'Birch' is birch leaf. Some retailers add mint, lavender, benzoin, oakmoss."
+  },
+  {
+    "name": "Blue Jeans",
+    "brand": "Versace",
+    "year": 1994,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Anise",
+        "Juniper Berries",
+        "Basil",
+        "Lavender"
+      ],
+      "heart": [
+        "Jasmine",
+        "Rose",
+        "Lily of the Valley",
+        "Carnation",
+        "Sage",
+        "Iris"
+      ],
+      "base": [
+        "Vanilla",
+        "Tonka Bean",
+        "Sandalwood",
+        "Cedar",
+        "Musk",
+        "Amber"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://theperfumespot.com/blue-jeans-by-versace-2-5-oz-edt-spray-for-men/",
+      "https://shop.rowlandspharmacy.co.uk/products/versace-blue-jeans-eau-de-toilette-for-men"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Versus line, 1994. Retailer note lists vary a lot; one retailer credits Jean-Pierre Bethouart but not confirmed, left null. Family given as aromatic fougere by one retailer, 'oriental woody' by another. Still sold cheaply."
+  },
+  {
+    "name": "Deci Delà",
+    "brand": "Nina Ricci",
+    "year": 1994,
+    "gender": "Feminine",
+    "family": "Chypre Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Raspberry",
+        "Peach",
+        "Apricot",
+        "Boronia"
+      ],
+      "heart": [
+        "Jasmine",
+        "Freesia",
+        "Iris",
+        "Hazelnut"
+      ],
+      "base": [
+        "Vanilla",
+        "Patchouli",
+        "Sandalwood",
+        "Styrax"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/nina-ricci/1203/deci-dela",
+      "https://www.fragrancex.com/products/nina-ricci/deci-dela-perfume"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "1994 fruity chypre. Osmoz pyramid used; other lists add blackcurrant, osmanthus, sweet pea, rose, cypress. Some retailers credit Jean Guichard, not confirmed by a primary source, left null. Discontinued, shown unavailable at retailers."
+  },
+  {
+    "name": "Météorites Le Parfum",
+    "brand": "Guerlain",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Thierry Wasser",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Apple",
+        "Green Notes"
+      ],
+      "heart": [
+        "Rose",
+        "Violet"
+      ],
+      "base": [
+        "Musk",
+        "Woody Notes"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.musingsofamuse.com/2018/06/guerlain-meteorites-le-parfum-review.html",
+      "https://www.guerlain.com/sg/en-sg/p/meteorites-le-parfum-eau-de-toilette-P042466.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "2018 eau de toilette inspired by the Météorites makeup pearls, distinct from the limited Météorites fragrance of 2000. Guerlain copy credits Thierry Wasser (seen in search excerpt; brand page returned 403)."
+  },
+  {
+    "name": "Bel Ami",
+    "brand": "Hermès",
+    "year": 1986,
+    "gender": "Masculine",
+    "family": "Leather",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Louis Sieuzac",
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Bergamot",
+        "Lemon",
+        "Cardamom",
+        "Sage"
+      ],
+      "heart": [
+        "Carnation",
+        "Patchouli",
+        "Orris Root",
+        "Basil",
+        "Jasmine",
+        "Cedar"
+      ],
+      "base": [
+        "Leather",
+        "Styrax",
+        "Oakmoss",
+        "Vetiver",
+        "Vanilla",
+        "Coconut"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://johnlewis.com/hermes-bel-ami-eau-de-toilette-100ml/p3185122",
+      "https://www.hermes.com/us/en/product/bel-ami-eau-de-toilette-V38274"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Hermès calls it a leather chypre inspired by Maupassant's novel, key notes patchouli, leather, cistus. Full pyramid from a retailer (also lists amber). Flanker Bel Ami Vétiver by Jean-Claude Ellena, 2013."
+  },
+  {
+    "name": "Gucci pour Homme",
+    "brand": "Gucci",
+    "year": 2003,
+    "gender": "Masculine",
+    "family": "Woody Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Michel Almairac",
+    "notes": {
+      "top": [
+        "Pepper",
+        "Pink Pepper",
+        "Ginger"
+      ],
+      "heart": [
+        "Papyrus",
+        "Orris Root",
+        "Incense"
+      ],
+      "base": [
+        "Vetiver",
+        "Amber",
+        "Leather"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://nstperfume.com/2007/04/02/gucci-pour-homme-fragrance-review",
+      "https://thesnifftest.co.uk/discontinued-fragrances/gucci-pour-homme/"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "The 2003 Pour Homme (often called 'I'), distinct from Pour Homme II (2007). Notes from NST flat list (white pepper, pink bay, ginger, papyrus, orris, vetiver, amber, olibanum, leather); 'Pink Pepper' stands for pink bay; tiers inferred. Discontinued around 2011, date not official."
+  },
+  {
+    "name": "Baiser Volé",
+    "brand": "Cartier",
+    "year": 2011,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Mathilde Laurent",
+    "notes": {
+      "top": [
+        "Galbanum",
+        "Green Notes"
+      ],
+      "heart": [
+        "Lily",
+        "Rose"
+      ],
+      "base": [
+        "Vanilla"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://osmoz.com/perfumes/cartier/508/baiser-vole",
+      "https://nstperfume.com/2011/06/28/cartier-baiser-vole-new-perfume"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Lily soliflore, EDP 2011; greener EDT in 2012. Osmoz pyramid: galbanum / rose, lily / vanilla; 'Green Notes' added from green lily descriptions."
+  },
+  {
+    "name": "Vent Vert",
+    "brand": "Balmain",
+    "year": 1947,
+    "gender": "Feminine",
+    "family": "Floral Green",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Germaine Cellier",
+    "notes": {
+      "top": [
+        "Citrus",
+        "Bergamot",
+        "Neroli",
+        "Violet Leaf"
+      ],
+      "heart": [
+        "Galbanum",
+        "Basil",
+        "Lily of the Valley",
+        "Hyacinth",
+        "Rose",
+        "Jasmine"
+      ],
+      "base": [
+        "Sage",
+        "Sandalwood",
+        "Oakmoss",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://en.wikipedia.org/wiki/Germaine_Cellier",
+      "https://perfumeintelligence.co.uk/library/perfume/b/houses/Balmain.htm"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Wikipedia: 1947, overdose of 8% galbanum. Perfume Intelligence says 1945 in France, 1947 in USA as 'Green Breeze'. Reformulated by Calice Becker in 1990, again in 1999. Original formula discontinued. Freesia also listed in heart."
+  },
+  {
+    "name": "Serpent Bohème",
+    "brand": "Boucheron",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Anne Flipo",
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Black Currant"
+      ],
+      "heart": [
+        "Rose",
+        "Jasmine",
+        "Floral Notes"
+      ],
+      "base": [
+        "Labdanum",
+        "Patchouli",
+        "Musk",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/en/serpent-boheme-eau-de-parfum-boucheron.html",
+      "https://nstperfume.com/2020/09/22/boucheron-serpent-boheme-new-perfume"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "September 2020, musky floral chypre. Rose is Turkish rose, jasmine is sambac, 'Floral Notes' stands for desert rose mallow; labdanum is cistus."
+  },
+  {
+    "name": "Un Jardin en Méditerranée",
+    "brand": "Hermès",
+    "year": 2003,
+    "gender": "Unisex",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Claude Ellena",
+    "notes": {
+      "top": [
+        "Orange Blossom",
+        "Bergamot"
+      ],
+      "heart": [
+        "Fig",
+        "Bay Leaf",
+        "Lentisk"
+      ],
+      "base": [
+        "Cedar",
+        "Fig Tree"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://osmoz.com/perfumes/hermes/2889/un-jardin-en-mediterranee",
+      "https://www.perfume.com/hermes/un-jardin-en-mediterranee/men-cologne"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "First of Hermès' garden series, inspired by Leïla Menchari's garden in Tunisia. Osmoz pyramid; laurel rendered as Bay Leaf. Other lists add oleander and cypress."
+  },
+  {
+    "name": "Kenzo Homme Intense",
+    "brand": "Kenzo",
+    "year": 2021,
+    "gender": "Masculine",
+    "family": "Woody Aquatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": [
+        "Pink Pepper",
+        "Sea Notes"
+      ],
+      "heart": [
+        "Fig Tree",
+        "Vetiver"
+      ],
+      "base": [
+        "Sandalwood",
+        "Akigalawood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.cosma-parfumeries.com/uk_en/kenzo-homme-intense-eau-de-toilette.html",
+      "https://www.notino.co.uk/-/pd/KZO04209"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Kenzo Homme Eau de Toilette Intense, part of the 2021 relaunch of Kenzo Homme (1991) in a bamboo-shaped bottle. Notino says 2021; some signals point to 2022, year uncertain by one. 'Fig Tree' stands for fig wood; sea accord includes calypsone."
+  },
+  {
+    "name": "Premier Jour",
+    "brand": "Nina Ricci",
+    "year": 2001,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Peony",
+        "Mandarin",
+        "Sweet Pea"
+      ],
+      "heart": [
+        "Orchid",
+        "Gardenia"
+      ],
+      "base": [
+        "Vanilla",
+        "Sandalwood",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/nina-ricci/1210/premier-jour",
+      "https://thescentbase.com/perfumes/nina-ricci/premier-jour"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "2001. Osmoz pyramid plus sweet pea from other listings. Perfumer credits conflict (Labbé/Mateu/Benaïm vs Jacques Cavallier), left null. Availability unclear."
+  },
+  {
+    "name": "My Burberry",
+    "brand": "Burberry",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Sweet Pea",
+        "Freesia"
+      ],
+      "heart": [
+        "Geranium",
+        "Quince",
+        "Rose",
+        "Watery Notes"
+      ],
+      "base": [
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/burberry/7896/my-burberry",
+      "https://www.tendance-parfums.com/burberry-my-burberry"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "2014, faces Cara Delevingne and Kate Moss. Inspired by the trench coat and a London garden after rain. Rose is Damask and centifolia; quince is 'golden quince'."
+  }
+]

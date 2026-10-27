@@ -1,0 +1,247 @@
+[
+ {
+  "name": "Downtown",
+  "brand": "Calvin Klein",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Plum",
+    "Lemon",
+    "Bergamot",
+    "Neroli"
+   ],
+   "heart": [
+    "Gardenia",
+    "Pink Pepper",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Musk",
+    "Cedar",
+    "Incense",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/calvin-klein/7224/downtown",
+   "https://nstperfume.com/2013/08/27/calvin-klein-downtown-perfume-review-and-quick-poll/",
+   "https://beautyhouse.com/products/calvin-klein-downtown-eau-de-parfum-for-women",
+   "https://www.sugapash.com.au/products/calvin-klein-downtown-women-eau-de-parfum-spray-100ml-discontinued-rare"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Launched 2013. Perfumer conflicting in sources (Caroline Sabas vs Ann Gottlieb, both Givaudan), so left null. Lemon is listed as Italian lemon (some say cedrat), neroli as Tunisian neroli, cedar as Texas cedar. Retailers flag it as discontinued. Rooney Mara was the campaign face (from memory, not re-verified)."
+ },
+ {
+  "name": "Miss Dior Rose N'Roses",
+  "brand": "Dior",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Geranium",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Grasse Rose",
+    "Damask Rose"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sephora.com/product/dior-miss-dior-rose-n-roses-eau-de-toilette-P454106",
+   "https://www.johnlewis.com/dior-miss-dior-rose-nroses-eau-de-toilette/p4845530",
+   "https://www.wikiparfum.com/en/fragrances/miss-dior-rose-nroses"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020 Miss Dior eau de toilette by François Demachy. Mandarin is Italian mandarin; base is white musk only (one tier note). Discontinuation status not verified."
+ },
+ {
+  "name": "CK Everyone",
+  "brand": "Calvin Klein",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Orange",
+    "Ginger"
+   ],
+   "heart": [
+    "Tea",
+    "Watery Notes"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.premiumbeautynews.com/en/ck-everyone-calvin-klein-s-new,16140",
+   "https://us.fashionnetwork.com/news/Calvin-klein-drops-unisex-eco-sustainable-perfume-ck-everyone,1178511.html",
+   "https://www.theperfumegirl.com/perfumes/fragrances/calvin-klein/ck-everyone/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched January 2020 as a vegan EDT, 79% ingredients of natural origin. Orange is organic orange oil, tea is a 'blue tea accord'. Musk appears only in some retailer lists. Chunk says merged EDP page: an Eau de Parfum was added later; this sheet describes the original EDT. EDP year not verified."
+ },
+ {
+  "name": "L'Homme Rochas",
+  "brand": "Rochas",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Fougère Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bruno Jovanovic",
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Pineapple",
+    "Cardamom"
+   ],
+   "heart": [
+    "Geranium",
+    "Basil",
+    "Juniper Berry"
+   ],
+   "base": [
+    "Patchouli",
+    "Tonka Bean",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesclub.us/en/rochas/lhomme-rochas-eau-de-toilette-spray/p_981444/",
+   "https://www.parfumdo.com/en/412919-l-homme-rochas-eau-de-toilette.html",
+   "https://www.notino.co.uk/rochas/lhomme-rochas-eau-de-toilette-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020 launch, not to be confused with L'Eau de Rochas Homme (Gilles Romey). Basil is listed as basil essence. Moss only in some listings."
+ },
+ {
+  "name": "Leather Oud",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Clove"
+   ],
+   "heart": [
+    "Leather",
+    "Oud",
+    "Honey"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.dior.com/en_us/products/beauty-Y0907160_F090728009-la-collection-privee-christian-dior-leather-oud",
+   "https://persolaise.com/2011/01/review-leather-oud-from-christian-dior.html",
+   "https://kafkaesqueblog.com/2013/07/03/perfume-review-dior-leather-oud-granville-la-collection-privee/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "La Collection Privée, 2010, one of seven new creations that year. Dior's note list is flat (cardamom, clove, Indonesian oud, leather, guaiac, cedar, sandalwood); honey added from Persolaise review. Demachy described saddle leather, wood fire and sand. Reported reformulations; some sources say it was later withdrawn, not confirmed."
+ },
+ {
+  "name": "Liu",
+  "brand": "Guerlain",
+  "year": 1929,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Guerlain",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Neroli"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Woody Notes",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.guerlain.com/us/en-us/exclusive-collections/les-parisiennes/liu-eau-de-parfum-bee-bottle",
+   "https://www.tendance-parfums.com/liu-guerlain.html",
+   "https://www.perfumemaster.com/guerlain/liu-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Created 1929 by Jacques Guerlain, named after Liù, the heroine of Puccini's Turandot. Currently sold as an EDP in the Les Parisiennes exclusive collection (bee bottle). Guerlain lists aldehydes top, rose and jasmine heart, vanilla, woods and iris base; bergamot and neroli come from retailers. Note lists vary by source."
+ },
+ {
+  "name": "Sublime",
+  "brand": "Patou",
+  "year": 1992,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean Kerléo",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Coriander"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Ylang-Ylang",
+    "Neroli"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Vanilla",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://australianperfumejunkies.com/2015/03/26/sublime-patou-review/",
+   "https://www.osmoz.com/perfumes/jean-patou/3847/sublime",
+   "https://www.perfumemaster.com/jean-patou/sublime-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Jean Patou, 1992, Jean Kerléo. Existed as EDT, EDP and parfum. Base lists vary widely (civet, musk, cedar, oakmoss, patchouli in some). Sold as discontinued by several retailers. FR copy avoids the perfume's name because the linter bans 'sublim'."
+ }
+]

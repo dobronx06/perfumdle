@@ -1,0 +1,363 @@
+[
+ {
+  "name": "Azzaro Sport",
+  "brand": "Azzaro",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Pineapple"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Lavandin"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sweetcare.com/us/azzaro-sport-eau-toilette-spray-p-016060aa",
+   "https://oleumperfumes.com/products/azzaro-sport-edt",
+   "https://beautyhouse.com/products/azzaro-sport-eau-de-toilette-for-men"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailers date it to 2022 (Azzaro Sport collection). Perfumer not found. Some listings give a shorter pyramid (grapefruit / clary sage / sandalwood, tonka)."
+ },
+ {
+  "name": "Dior Homme Sport",
+  "brand": "Dior",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Aldehydes"
+   ],
+   "heart": [
+    "Elemi",
+    "Pink Pepper"
+   ],
+   "base": [
+    "Incense",
+    "Woods",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://scentgrail.com/holy-grail-scents/dior-homme-sport-2021-review/",
+   "https://divinparfum.fr/dior-homme-sport-eau-de-toilette-pour-homme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes the current 2021 version, Demachy's last work for Dior. Name first used in 2008 (ginger, citron), reworked 2012 (iris) and 2017 (blood orange). Year 2021 refers to the formula on sale; puzzle data may prefer 2008."
+ },
+ {
+  "name": "Pi",
+  "brand": "Givenchy",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Tarragon",
+    "Rosemary",
+    "Basil"
+   ],
+   "heart": [
+    "Anise",
+    "Neroli",
+    "Geranium",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Vanilla",
+    "Almond",
+    "Tonka Bean",
+    "Benzoin",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/pi-by-givenchy-notes-longevity-review-complete-guide",
+   "https://www.sabina.com/en/mens-perfumes/391-pi-eau-de-toilette-de-givenchy.html",
+   "https://pour-homme.cologne/givenchy-pi/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1998 is the common date (one blog says 1999). Herbal opening, sweet vanilla almond base."
+ },
+ {
+  "name": "Cabochard",
+  "brand": "Grès",
+  "year": 1959,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bernard Chant",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Galbanum",
+    "Bergamot",
+    "Sage"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Rose",
+    "Jasmine",
+    "Iris"
+   ],
+   "base": [
+    "Leather",
+    "Oakmoss",
+    "Vetiver",
+    "Patchouli",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.thenonblonde.com/2009/10/parfums-gres-cabochard-vintage.html",
+   "https://varanisridari.home.blog/2019/11/17/cabochard-by-gres-1959/",
+   "https://versatileparis.com/en-world/blogs/les-essentiels/facette-cuiree"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Leather chypre by Bernard Chant, often described as a softened descendant of Bandit (Cellier, 1944). Note lists vary; modern versions are reformulated and tamer than vintage."
+ },
+ {
+  "name": "Eau de Rochas",
+  "brand": "Rochas",
+  "year": 1970,
+  "gender": "Feminine",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nicolas Mamounas",
+  "notes": {
+   "top": [
+    "Lime",
+    "Lemon",
+    "Bergamot",
+    "Grapefruit",
+    "Mandarin",
+    "Verbena"
+   ],
+   "heart": [
+    "Coriander",
+    "Carnation",
+    "Narcissus",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Oakmoss",
+    "Vetiver",
+    "Musk",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/eau-de-rochas,099",
+   "https://cafleurebon.com/cafleurebon-saturday-night-classics-eau-de-rochas-review-nicolas-mamounas-1970-50th-anniversary/",
+   "https://nstperfume.com/2008/07/23/rochas-eau-de-rochas-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Citrus with a chypre-like mossy base. Auparfum classifies it hesperidic. Basil sometimes listed in the top."
+ },
+ {
+  "name": "Imagination",
+  "brand": "Louis Vuitton",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier-Belletrud",
+  "notes": {
+   "top": [
+    "Citron",
+    "Bergamot",
+    "Sicilian Orange"
+   ],
+   "heart": [
+    "Neroli",
+    "Ginger",
+    "Cinnamon"
+   ],
+   "base": [
+    "Black Tea",
+    "Ambroxan",
+    "Guaiac Wood",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thefragranceworld.co.uk/blog/louis-vuitton-imagination-uk-guide/",
+   "https://scentapedia.com/perfumes/imagination",
+   "https://getscentcast.com/fragrance/louis-vuitton--imagination"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of the LV men's line, often worn as unisex. Black tea and ambroxan dominate the drydown."
+ },
+ {
+  "name": "Tocade",
+  "brand": "Rochas",
+  "year": 1994,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Maurice Roucel",
+  "notes": {
+   "top": [
+    "Geranium",
+    "Freesia",
+    "Bergamot",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Iris",
+    "Orchid",
+    "Magnolia",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Patchouli",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/rochas-tocade-review-maurice-roucel-1994-plus-game-changing-giveaway/",
+   "https://nstperfume.com/2011/03/12/rochas-tocade-perfume-review/",
+   "https://theblacknarcissus.com/2014/05/10/le-weekend-tocade-by-rochas-1994/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Rose and vanilla core. Some reviewers find the patchouli prominent."
+ },
+ {
+  "name": "Rem",
+  "brand": "Reminiscence",
+  "year": 1996,
+  "gender": "Unisex",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Lilac",
+    "Jasmine",
+    "Rose"
+   ],
+   "heart": [
+    "Patchouli",
+    "Fenugreek"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/reminiscence-rem-eau-toilette.html",
+   "https://www.le-parfum.fr/femme/edt/rem-reminiscence-1996.html",
+   "https://www.notino.fr/reminiscence/rem-eau-de-toilette-mixte/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Calone-type marine opening. One retailer credits founder Nino Amaddéo, unconfirmed so perfumer left null. House founded 1970 in Juan-les-Pins."
+ },
+ {
+  "name": "Live Irrésistible",
+  "brand": "Givenchy",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Fruity Notes"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Amber",
+    "Ambergris",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2016/02/givenchy-live-irresistible-perfume-review.html",
+   "https://www.fragrancenet.com/perfume/givenchy/live-irresistible/edt",
+   "https://leparfumier.com/en/products/givenchy-live-irresistible-for-women-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes the original EDP (pineapple, rose, amber). The EDT followed in 2015 or 2016 with a longer, sweeter pyramid that retailers list inconsistently. Discontinued status unclear."
+ },
+ {
+  "name": "Un Jardin sur le Toit",
+  "brand": "Hermès",
+  "year": 2011,
+  "gender": "Unisex",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Apple",
+    "Pear",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Magnolia"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/hermes-un-jardin-sur-le-toit.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Inspired by the rooftop garden of the Hermès building at 24 Faubourg. Retailer calls it fruity aromatic; grass and herbs feature. Fourth of Ellena's Jardin series."
+ }
+]

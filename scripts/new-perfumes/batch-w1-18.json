@@ -1,0 +1,357 @@
+[
+ {
+  "name": "Santal Majuscule",
+  "brand": "Serge Lutens",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Woody Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Rose"
+   ],
+   "heart": [
+    "Cacao"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2012/07/serge-lutens-santal-majuscule-perfume-review.html",
+   "https://nstperfume.com/2012/10/03/serge-lutens-santal-majuscule-fragrance-review/",
+   "https://www.fieldandflorist.com/fragrance/p/serge-lutens-santal-majuscule"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official notes are only sandalwood, cacao and damask rose; tonka is reported by reviewers. Tiers distributed by hand, so top and heart carry one note each."
+ },
+ {
+  "name": "Modern Princess",
+  "brand": "Lanvin",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Red Apple",
+    "Red Currant"
+   ],
+   "heart": [
+    "Jasmine",
+    "Freesia"
+   ],
+   "base": [
+    "Vanilla Orchid",
+    "Musk",
+    "White Woods"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumemaster.com/lanvin/modern-princess-womens-perfume",
+   "https://makeupstore.com/product/287575/",
+   "https://scentsamples.uk.com/products/lanvin-modern-princess-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Rolled out from July 2016. Perfumer Christophe Raynaud (Firmenich). Retailers agree on the pyramid; one outlier lists orange blossom."
+ },
+ {
+  "name": "Higher",
+  "brand": "Dior",
+  "year": 2001,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Gillotin, Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Pear",
+    "Basil",
+    "Lemon"
+   ],
+   "heart": [
+    "Rosemary",
+    "Cypress",
+    "Pepper",
+    "Cardamom"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dior.com/en_us/beauty/products/higher-Y0000285.html",
+   "https://www.osmoz.com/perfumes/dior/1430/higher"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Dior page credits Gillotin and Pescheux and lists citrus, basil accord, rosemary, pepper, cardamom, cedar and white musk. Osmoz adds pear and cypress. Long discontinued, now back in the Dioriginals line in a Francis Kurkdjian restoration."
+ },
+ {
+  "name": "Elixir pour Elle",
+  "brand": "Mauboussin",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Oud",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://mauboussinparfums.com/products/parfumsfemme-elixirpourelle",
+   "https://www.nocibe.fr/mauboussin-elixir-pour-elle-eau-de-parfum-100-ml-s255488"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand lists cassis, red rose, jasmine and oud accord. Vanilla appears in every retailer list. Year 2013 per most retailers (outliers say 2010 or 2015). One retailer names Olivier Cresp and Nathalie Lorson; not confirmed, left null."
+ },
+ {
+  "name": "Fuel for Life Unlimited",
+  "brand": "Diesel",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peach",
+    "Lemon",
+    "Guava",
+    "Mandarin"
+   ],
+   "heart": [
+    "Licorice",
+    "Jasmine",
+    "Tuberose",
+    "Lily"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.envie2parfum.fr/diesel/eau-de-parfum/fuel-for-life-unlimited",
+   "https://madmoisellejulie.wordpress.com/2008/08/29/diesel-fuel-for-life-unlimited/",
+   "https://www.lookfantastic.com/p/diesel-fuel-for-life-unlimited-eau-de-parfum/11210608/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Flanker of Fuel for Life femme (2007). Most cited pyramid kept (aloe vera dropped). Other retailers give divergent lists. Perfumer credits seen online are those of the original, left null. Appears discontinued."
+ },
+ {
+  "name": "Bois d'Amande",
+  "brand": "Van Cleef & Arpels",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sidonie Lancesseur",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Almond"
+   ],
+   "heart": [
+    "Cedar"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-bois-damande-2/",
+   "https://www.harrods.com/en-gb/p/van-cleef-and-arpels-collection-extraordinaire-bois-damande-eau-de-parfum-75ml-000000000006599273"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire. Interparfums lists lemon essence and almond accord, Virginia cedar, musks and vanilla."
+ },
+ {
+  "name": "Patchouli Impérial",
+  "brand": "Dior",
+  "year": 2011,
+  "gender": "Unisex",
+  "family": "Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Coriander",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Patchouli"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2013/12/13/dior-patchouli-imperial-la-collection-privee/",
+   "https://australianperfumejunkies.com/2012/08/22/patchouli-imperial-by-francois-demachy-for-dior-2011/",
+   "https://essencedenord.com/product/patchouli-imperial-edition-2011/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior, fall 2011. Dior's list: Russian coriander, Indonesian patchouli, Indian and New Caledonian sandalwood. Citrus and cedar/amber from retailer pyramids."
+ },
+ {
+  "name": "Beau de Jour",
+  "brand": "Tom Ford",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Lavandin"
+   ],
+   "heart": [
+    "Rosemary",
+    "Oakmoss",
+    "Mint",
+    "Basil",
+    "Geranium"
+   ],
+   "base": [
+    "Patchouli",
+    "Amber",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/beau-de-jour-tom-ford.html",
+   "https://www.michael84.co.uk/tom-ford-beau-de-jour-eau-de-parfum-review/",
+   "https://decantboutique.com/product/tom-ford-beau-de-jour-edp-private-belendn/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Perfumer credited by two French sources only. Pyramid broadly consistent across retailers."
+ },
+ {
+  "name": "Chrome Extreme",
+  "brand": "Azzaro",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Juniper Berries",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Amber",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.walmart.com/ip/Chrome-Extreme-by-Azzaro-Eau-De-Parfum-Spray-1-7-oz/421280022",
+   "https://www.nordstromrack.com/s/chrome-extreme-eau-de-parfum/7020442"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year conflict: 2019 in some sources, January 2020 US launch in others; 2019 kept. One retailer credits Philippe Romano (Drom), not confirmed, left null."
+ },
+ {
+  "name": "Le Jour se Lève",
+  "brand": "Louis Vuitton",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Black Currant"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peony",
+    "Osmanthus"
+   ],
+   "base": [
+    "Incense",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://ca.louisvuitton.com/eng-ca/products/le-jour-se-leve-nvprod880010v/LP0088",
+   "https://www.tatlerasia.com/style/beauty/louisvuittone-le-jour-se-leve"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Louis Vuitton key notes: Italian mandarin, blackcurrant accord, sambac jasmine, incense and musk accords, peony accord, osmanthus. Tiers inferred. Cavallier called it 'edgy yummy' (WWD)."
+ },
+ {
+  "name": "Flor del Sol",
+  "brand": "Escada",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Orange",
+    "Pomegranate",
+    "Tequila"
+   ],
+   "heart": [
+    "Dahlia"
+   ],
+   "base": [
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesclub.co.uk/en/escada/flor-del-sol-limited-edition-eau-de-toilette-spray/p_786933/",
+   "https://makeupstore.com/product/477194/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Summer limited edition built on a Tequila Sunrise idea. 'Pomegranate' stands for grenadine. Year 2020 per retailers, not from the brand."
+ }
+]

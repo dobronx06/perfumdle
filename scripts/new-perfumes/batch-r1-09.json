@@ -1,0 +1,354 @@
+[
+ {
+  "name": "Black Opium Neon",
+  "brand": "Yves Saint Laurent",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {"top": ["Pitahaya", "Mandarin", "Citron"], "heart": ["Orange Blossom", "Coffee", "Jasmine"], "base": ["Vanilla", "Musk"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/12/10/yves-saint-laurent-black-opium-neon-new-fragrance/",
+   "https://perfumania.com/products/black-opium-neon-by-yves-saint-laurent-for-women-eau-de-parfum-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Black Opium (2014), launched December 2019 at Sephora in 10, 30 and 75 ml EDP. Brand copy: coffee, orange blossom and a dragon fruit accord. Full pyramid (pitahaya, mandarin, citron / orange blossom, coffee, jasmine sambac / vanilla, musk) from retailer consensus. Perfumer credits conflict between retailers (Olivier Cresp alone or a team of four), so left null. Probably limited edition, availability unclear."
+ },
+ {
+  "name": "My Burberry Blush",
+  "brand": "Burberry",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {"top": ["Pomegranate", "Lemon"], "heart": ["Rose", "Green Apple", "Geranium"], "base": ["Jasmine", "Wisteria"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thenotice.net/2017/10/my-burberry-blush-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of My Burberry (2014), released August 2017. Notes as published: glazed pomegranate, lemon / geranium, crisp apple, rose petals / jasmine and wisteria accord. Reviewers describe it as fruity, clean and soapy."
+ },
+ {
+  "name": "Boss in Motion",
+  "brand": "Hugo Boss",
+  "year": 2002,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Domitille Michalon-Bertier",
+  "notes": {"top": ["Orange", "Bergamot", "Violet Leaf", "Basil"], "heart": ["Pink Pepper", "Cardamom", "Cinnamon", "Nutmeg"], "base": ["Musk", "Woody Notes", "Sandalwood", "Vetiver"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/hugo-boss-boss-in-motion-eau-de-toilette/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2002 men's EDT. Retailers class it as amber or oriental fougere. Some listings swap in mandarin or amber; the pyramid above is the most consistent one."
+ },
+ {
+  "name": "Ça Sent Beau",
+  "brand": "Kenzo",
+  "year": 1988,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {"top": ["Mandarin", "Bergamot", "Patchouli"], "heart": ["Tuberose", "Orange Blossom", "Ylang-Ylang", "Gardenia", "Jasmine", "Peach"], "base": ["Vetiver", "Amber", "Vanilla"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/kenzo-a-sent-beau.html",
+   "https://www.le-parfum.fr/femme/edt/kenzo-ca-sent-beau-kenzo-1988.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Kenzo's first perfume (1988), flower bottle set on a pebble-shaped glass base. Sold as a women's EDT (chunk hint said Unisex, sources say feminine). Heart also lists coriander. Perfumer conflicts: Françoise Caron on the product sheet, Christian Mathieu in the same retailer's text, so left null."
+ },
+ {
+  "name": "Black Opium Illicit Green",
+  "brand": "Yves Saint Laurent",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson",
+  "notes": {"top": ["Pear", "Green Mandarin", "Fig Leaf"], "heart": ["Orange Blossom", "Jasmine", "Fig"], "base": ["Coffee", "Vanilla", "Patchouli", "Cedar"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumestars.com/ysl-black-opium-illicit-green-a-vibrant-twist-on-an-iconic-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Black Opium flanker, spring 2022. Nathalie Lorson worked with Paris mixologist Margot Lecarpentier (not a perfumer). Neon green core inside the glitter Black Opium bottle. Some retailers also credit Olivier Cresp."
+ },
+ {
+  "name": "Forever and Ever",
+  "brand": "Dior",
+  "year": 2002,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Pierre Béthouart",
+  "notes": {"top": ["Freesia", "Jasmine", "Ivy"], "heart": ["Rose", "Almond Blossom", "Geranium"], "base": ["Nutmeg", "Musk", "Vanilla"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/dior-for-ever-and-ever.html",
+   "https://nstperfume.com/2006/05/29/forever-and-ever-dior-and-jadore-fragrances-by-christian-dior/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Dates conflict: retailer and Dior copy give 2002 (Jean-Pierre Béthouart); NST reports a 2006 travel retail relaunch said to match a 2001 juice; later placed in Les Créations de Monsieur Dior, now Dioriginals restored by Francis Kurkdjian. 'Jasmine' is 'water jasmine'. Dior's 2006 list ends on ambrette seeds instead of nutmeg."
+ },
+ {
+  "name": "L'Interdit Intense",
+  "brand": "Givenchy",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion, Anne Flipo, Fanny Bal",
+  "notes": {"top": ["Pepper", "Orange Blossom"], "heart": ["Tuberose", "Sesame"], "base": ["Vanilla", "Vetiver", "Patchouli"]},
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2020/08/13/givenchy-linterdit-intense-new-fragrance/",
+   "https://www.tendance-parfums.com/en/l-interdit-givenchy-intense.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of L'Interdit (2018), black bottle, 30/50/80 ml. NST note list: orange blossom, tuberose, leathered vanilla, roasted sesame, vetiver, patchouli, black pepper ('Pepper' = black pepper). Perfumer trio comes from several retailer listings, not from a page read directly. Tiers distributed by hand."
+ },
+ {
+  "name": "Young Man",
+  "brand": "IKKS",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {"top": ["Grape", "Black Currant", "Basil"], "heart": ["Lavender", "Coriander", "Licorice"], "base": ["Musk", "Cedar", "Sandalwood"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/young-man.html",
+   "https://www.sephora.fr/p/ikks-young-man---eau-de-toilette-P11835.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Boys/teen fragrance from the French kidswear brand IKKS, 2016, 50 ml EDT, box shaped like a milk carton. No perfumer published. Some listings add jasmine to the heart. Older English listings dated 2003/2004 describe something else."
+ },
+ {
+  "name": "Vetyver",
+  "brand": "Givenchy",
+  "year": 1959,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {"top": ["Bergamot", "Coriander"], "heart": ["Vetiver"], "base": ["Sandalwood", "Cedar", "Oakmoss"]},
+  "pyramid_inferred": true,
+  "sources": [
+   "https://varanisridari.home.blog/2022/03/19/eau-de-vetyver-vetyver-givenchy-by-givenchy-1959/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Born 1959 as Eau de Vetyver, first sold only in Givenchy boutiques in Paris and New York; reissued in the 1970s as Vetyver Givenchy, later back in reformulated form (Les Parfums Mythiques). 1959 copy lists rare vetivers, bergamot, coriander leaf, sandalwood, oakmoss; retailers add cedar. Perfumer unknown. Current availability unclear."
+ },
+ {
+  "name": "Spice Blend",
+  "brand": "Dior",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {"top": ["Rum", "Ginger"], "heart": ["Cinnamon", "Clove", "Pepper", "Pink Pepper", "Nutmeg", "Coriander"], "base": ["Bay Leaf", "Woody Notes"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://kafkaesqueblog.com/2022/02/05/dior-spice-blend-la-collection-privee/",
+   "https://vivir.com/article/dior-spice-blend-review"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior, 2019. Dior copy: fresh rum with a black pepper and ginger accord, ambery spicy. 'Pepper' = black pepper. Kafkaesque review compares it to Spicebomb and finds it derivative. One eBay seller calls it discontinued, unverified."
+ },
+ {
+  "name": "Eaudemoiselle",
+  "brand": "Givenchy",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {"top": ["Lemon", "Mandarin", "Shiso"], "heart": ["Orange Blossom", "Ylang-Ylang", "Rose"], "base": ["Ambrette", "Cedar", "Musk", "Tonka Bean"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/823/eaudemoiselle",
+   "https://nstperfume.com/2010/01/04/givenchy-eaudemoiselle-de-givenchy-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "2010 EDT aimed at young women, 'couture spirit' positioning. Osmoz credits François Demachy; NST does not name a perfumer. 'Shizu' on Osmoz = shiso. Rose is Turkish rose. Several retailers list it as discontinued."
+ },
+ {
+  "name": "Legend Night",
+  "brand": "Montblanc",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu, Olivier Pescheux",
+  "notes": {"top": ["Cardamom", "Mint", "Clary Sage", "Bergamot"], "heart": ["Apple", "Lavender", "Cedar", "Violet", "Fir Resin"], "base": ["Black Vanilla", "Akigalawood", "Musk", "Vetiver", "Patchouli"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2017/06/30/montblanc-legend-night-new-fragrance/",
+   "https://www.tendance-parfums.com/legend-night-montblanc.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Montblanc Legend (2011). Round copper-gradient bottle. 'Mint' = peppermint, 'Black Vanilla' = black vanilla husk."
+ },
+ {
+  "name": "Boss Orange Man",
+  "brand": "Hugo Boss",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {"top": ["Apple", "Coriander"], "heart": ["Sichuan Pepper", "Incense"], "base": ["Vanilla", "Bubinga Wood"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hugo-boss/965/boss-orange-man"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2011 men's EDT, face Orlando Bloom. Osmoz lists apple, coriander / pepper, olibanum / vanilla, bubinga wood; retailers specify red apple and Sichuan pepper. No perfumer published."
+ },
+ {
+  "name": "Eau Sensuelle",
+  "brand": "Rochas",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Michel Duriez",
+  "notes": {"top": ["Blood Orange", "Bergamot", "Mango"], "heart": ["Orange Blossom", "Jasmine", "Pink Pepper"], "base": ["Dried Fruits", "Iris", "Musk"]},
+  "pyramid_inferred": true,
+  "sources": [
+   "https://auparfum.bynez.com/l-eau-de-rochas-se-fait-sensuelle",
+   "https://www.interparfums.fr/en/rochas-eau-de-rochas-sensuelle-2/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Eau de Rochas, launched April 2009, Jean-Michel Duriez's first creation as Rochas house perfumer (ex Patou). Auparfum gives a flat list (blood orange, bergamot, mango, dried fruit, pink pepper, sambac jasmine, iris, white musk); Interparfums adds orange blossom. Not a 2022 launch."
+ },
+ {
+  "name": "Amazone",
+  "brand": "Hermès",
+  "year": 1974,
+  "gender": "Feminine",
+  "family": "Green Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Maurice Maurin",
+  "notes": {"top": ["Galbanum", "Bergamot", "Mandarin", "Violet Leaf", "Neroli"], "heart": ["Black Currant", "Hyacinth", "Narcissus", "Rose", "Iris", "Raspberry"], "base": ["Oakmoss", "Vetiver", "Cedar", "Sandalwood", "Amber"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/amazone-eau-de-toilette-hermes.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Hermès women's fragrance from 1974, inspired by legendary horsewomen; centred on blackcurrant bud. Now in Les Classiques d'Hermès, original bust-shaped bottle replaced by the house bottle. Retailer classes it floral aldehyde, Hermès copy says green floral. Reformulated over time (a 1989 Ellena rework is reported but unverified)."
+ },
+ {
+  "name": "J'adore Parfum d'eau",
+  "brand": "Dior",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {"top": ["Neroli"], "heart": ["Jasmine", "Magnolia", "Rose", "Honeysuckle"], "base": []},
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2022/08/16/christian-dior-jadore-parfum-deau-new-fragrance/",
+   "https://www.tendance-parfums.com/parfum-d-eau-j-adore.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Dior's first alcohol-free perfume (patented water-based formula), August 2022, milky white version of the J'adore amphora. Notes: neroli from Vallauris, jasmine sambac, Chinese magnolia, plus rose and honeysuckle. No base published. Perfumer conflicts (retailer says François Demachy, Dior page credits Francis Kurkdjian as creation director), so null."
+ },
+ {
+  "name": "L'Heure Bleue",
+  "brand": "Guerlain",
+  "year": 1912,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Guerlain",
+  "notes": {"top": ["Anise", "Bergamot", "Neroli", "Coriander"], "heart": ["Heliotrope", "Carnation", "Rose", "Violet", "Orange Blossom", "Jasmine"], "base": ["Iris", "Vanilla", "Tonka Bean", "Benzoin", "Musk"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://blog.delacourte.com/en/heure-bleue/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Jacques Guerlain, 1912, inspired by the blue hour between sunset and night. Inverted-heart Baccarat bottle by Raymond Guerlain, reused for Mitsouko in 1919. Pyramid combines the Delacourte list (bergamot, aromatic notes / carnation, rose, orange blossom, jasmine, violet, heliotrope / moss, labdanum, vanilla, musk) with the anise, iris and tonka widely reported by retailers. Search results mention a 2026 Guerlain reworking signed Delphine Jelk with the original renamed L'Heure Bleue 1912: not verified, editorial describes the 1912 composition."
+ },
+ {
+  "name": "Kelly Calèche",
+  "brand": "Hermès",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {"top": ["Grapefruit", "Narcissus", "Lily of the Valley"], "heart": ["Rose", "Mimosa", "Tuberose"], "base": ["Leather", "Iris"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/07/03/hermes-kelly-caleche-fragrance-review/",
+   "https://cafleurebon.com/hermes-kelly-caleche-eau-de-toilette-jean-claude-ellena-2007-sassy-rose/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Jean-Claude Ellena's first major feminine for Hermès, debuted at the Wall Street boutique in 2007, named after the Kelly bag and Calèche (1961). Inspired by Jean Giono's Jean le Bleu. EDP followed in 2009. Reviewers find the leather soft and discreet."
+ },
+ {
+  "name": "Sycomore",
+  "brand": "Chanel",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge, Christopher Sheldrake",
+  "notes": {"top": ["Aldehydes", "Pink Pepper", "Juniper"], "heart": ["Vetiver", "Violet", "Cypress"], "base": ["Sandalwood", "Tobacco"]},
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2008/04/sycomore-chanel.html",
+   "https://kafkaesqueblog.com/2013/01/17/perfume-review-chanel-les-exclusifs-sycomore-mighty-vetiver/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, 2008, inspired by a 1930 Chanel fragrance of the same name. Chanel copy: vetiver at the centre with sandalwood and touches of cypress, juniper and pink pepper. Aldehydes, violet and tobacco come from reviews and retailer lists. Originally EDT, the Exclusifs line moved to EDP in 2016. Tiers distributed by hand."
+ },
+ {
+  "name": "Narciso Poudrée",
+  "brand": "Narciso Rodriguez",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Aurélien Guichard",
+  "notes": {"top": ["Jasmine", "Rose", "Orange Blossom"], "heart": ["Musk"], "base": ["Coumarin", "Cedar", "Vetiver", "Patchouli"]},
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/narciso-rodriguez-narciso-poudree.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Narciso (2014), nude-toned cube bottle, campaign with Raquel Zimmermann. Rose is Bulgarian rose. The powdery effect comes from musk, not iris or violet."
+ }
+]

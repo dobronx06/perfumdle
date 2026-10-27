@@ -1,0 +1,271 @@
+[
+ {
+  "name": "Grey Vetiver",
+  "brand": "Tom Ford",
+  "year": 2009,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Harry Fremont",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Orange Blossom",
+    "Sage"
+   ],
+   "heart": [
+    "Nutmeg",
+    "Orris Root",
+    "Pimento"
+   ],
+   "base": [
+    "Vetiver",
+    "Woody Notes",
+    "Oakmoss",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tomfordbeauty.com/products/grey-vetiver-eau-de-parfum",
+   "https://www.nordstrom.com/s/tom-ford-grey-vetiver-eau-de-parfum/3058009",
+   "https://www.walmart.com/ip/Tom-Ford-Grey-Vetiver-Eau-de-Parfum-Cologne-for-Men-1-7-Oz/27055158"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Brand page lists orange flower, grapefruit, nutmeg, pimento, vetiver, oakmoss as key notes. Orris, sage and amber come from retailer pyramids. Harry Fremont credit from review sites, not the brand. Still sold; a Parfum version exists."
+ },
+ {
+  "name": "Galop d'Hermès",
+  "brand": "Hermès",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Quince",
+    "Saffron"
+   ],
+   "heart": [
+    "Rose",
+    "Osmanthus"
+   ],
+   "base": [
+    "Leather",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.hermes.com/us/en/product/galop-d-hermes-parfum-V36824/",
+   "https://boisdejasmin.com/2016/08/hermes-galop-dhermes-perfume-review.html",
+   "https://persolaise.com/2016/10/persolaise-review-galop-dhermes-from.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Hermès names rose, leather and saffron. Quince and osmanthus come from reviews and retailer lists. Stirrup-shaped bottle. Parfum (extrait) concentration. Hermès page returned 403 on fetch, notes taken from search snippets."
+ },
+ {
+  "name": "Chloé Naturelle",
+  "brand": "Chloé",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Citron",
+    "Black Currant"
+   ],
+   "heart": [
+    "Rose",
+    "Neroli"
+   ],
+   "base": [
+    "Cedar",
+    "Mimosa"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/chloe-signature-eau-de-parfum-naturelle.html",
+   "https://www.ulta.com/p/chloe-eau-de-parfum-naturelle-pimprod2026921?sku=2586791",
+   "https://www.sephora.fr/p/chloe---eau-de-parfum-naturelle-P10018442.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as 'Chloé Eau de Parfum Naturelle' or 'Chloé Rose Naturelle'. Vegan formula of natural origin, organic rose. Year 2021 and Almairac credit from one French site only. 'Black Currant' stands for blackcurrant bud absolute. A Rose Naturelle Intense flanker exists (credited to Alexis Dadier)."
+ },
+ {
+  "name": "Sound of the Brave",
+  "brand": "Diesel",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Granny Smith Apple",
+    "Juniper"
+   ],
+   "heart": [
+    "Lavandin",
+    "Bison Grass",
+    "Sage",
+    "Rosemary",
+    "Cardamom",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Musk",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://global.diesel.com/perfumes/sound%20of%20the%20brave%20125ml-blue/PL055800PRO01.html",
+   "https://nstperfume.com/2021/05/19/diesel-sound-of-the-brave-new-fragrance/",
+   "https://report-mag.com/2021/06/02/sound-of-the-brave-la-nouvelle-fragrance-de-diesel/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Diesel classifies it as Fougère Ambery; heart also lists elemi (dropped to keep 6). Launched mid 2021, face Skepta, fist bottle in blue. Perfumer credits conflict (Fabrice Pellegrin vs Antoine Maisondieu and Guillaume Flavigny), so null. 'Bison Grass' is a new note name."
+ },
+ {
+  "name": "Valentino Uomo Intense",
+  "brand": "Valentino",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Clary Sage"
+   ],
+   "heart": [
+    "Iris",
+    "Tonka Bean"
+   ],
+   "base": [
+    "Vanilla",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/valentino-valentino-uomo-intense-2016/",
+   "https://www.decantx.com/products/valentino-uomo-intense-eau-de-parfum-for-men",
+   "https://perfumeparadise.com/products/valentino-uomo-intense-edp-men"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Notes consistent across retailers. Perfumer sometimes given as Sophie Labbé but unconfirmed, so null. Flanker of Valentino Uomo (2014)."
+ },
+ {
+  "name": "Pleats Please",
+  "brand": "Issey Miyake",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear"
+   ],
+   "heart": [
+    "Peony",
+    "Sweet Pea"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2013/01/17/issey-miyake-pleats-please-fragrance-review/",
+   "https://www.fragrancenet.com/perfume/issey-miyake/pleats-please-by-issey-miyake/eau-de-parfum",
+   "https://www.scentbird.com/blog/perfume-day-pleats-please-issey-miyake/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Top note is nashi pear (mapped to Pear). Launched September 2012; the 2013 NST review describes an Eau de Toilette while retailers sell an EDP, concentration history unclear. Perfumer unconfirmed (one retailer says Aurélien Guichard). Named after Miyake's pleated clothing line."
+ },
+ {
+  "name": "Allure Homme Sport Eau Extrême",
+  "brand": "Chanel",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Mint",
+    "Cypress",
+    "Sage"
+   ],
+   "heart": [
+    "Pepper",
+    "Neroli"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Sandalwood",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/chanel-allure-homme-sport-eau-extreme/",
+   "https://perfumesample.com/blog/allure-homme-sport-eau-extreme/",
+   "https://www.fragrancex.com/products/chanel/allure-homme-sport-eau-extreme-cologne"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Heart notes vary between sources (black pepper constant, neroli and clary sage in some). Current retail versions are labelled Eau de Parfum; the 2012 launch may have been labelled differently. Still sold."
+ },
+ {
+  "name": "Twilly d'Hermès Eau Poivrée",
+  "brand": "Hermès",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.hermes.com/us/en/product/twilly-d-hermes-eau-poivree-eau-de-parfum-V107167V0/",
+   "https://thecandyperfumeboy.com/2019/09/30/perfume-review-twilly-dhermes-eau-poivree-by-hermes/",
+   "https://www.notino.co.uk/hermes/twilly-dhermes-eau-poivree-eau-de-parfum-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Hermès publishes only three notes (pink pepper, rose, patchouli), so each tier has one note. First flanker of Twilly d'Hermès (2017)."
+ }
+]

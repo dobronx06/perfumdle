@@ -1,0 +1,444 @@
+[
+ {
+  "name": "Dune pour Homme",
+  "brand": "Dior",
+  "year": 1997,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp, Jean-Pierre Bethouart",
+  "notes": {
+   "top": [
+    "Fig Leaf",
+    "Black Currant",
+    "Basil",
+    "Sage"
+   ],
+   "heart": [
+    "Fig Tree",
+    "Rose",
+    "Mignonette"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sephora.fr/p/dune-pour-homme---eau-de-toilette--notes-boisees-et-vertes-P1000216713.html",
+   "https://scentadvice.com/dune-pour-homme-edt-1997-dior/",
+   "https://thescentbase.com/perfumes/dior/dune-pour-homme"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sephora FR credits Olivier Cresp (1997); other sources add Jean-Pierre Bethouart. Sephora calls it woody and green. 'Fig Tree' stands for fig wood bark; mignonette = reseda. Some sources list blackcurrant leaf instead of blackcurrant. Availability status not verified."
+ },
+ {
+  "name": "Allure Sensuelle",
+  "brand": "Chanel",
+  "year": 2005,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Orange",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Iris",
+    "Dried Fruits"
+   ],
+   "base": [
+    "Patchouli",
+    "Incense",
+    "Amber",
+    "Vanilla",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/news/chanel-allure-sensuelle-review",
+   "https://larose.az/en/product/chanel-allure-sensuelle",
+   "https://thescentbase.com/perfumes/chanel/allure-sensuelle"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "EDP launched 2005 (some sources say 2006, likely the EDT). Retailer pyramids differ in the base; vetiver sits in the heart on some lists. No official Chanel pyramid found. Believed discontinued by Chanel, not verified."
+ },
+ {
+  "name": "Gentle Fluidity Gold",
+  "brand": "Maison Francis Kurkdjian",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Juniper Berries",
+    "Nutmeg"
+   ],
+   "heart": [
+    "Coriander"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://noseparis.com/en/gentle-fluidity-gold",
+   "https://www.mecca.com/en-au/maison-francis-kurkdjian/gentle-fluidity-gold-eau-de-parfum-35ml-I-065128"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2019 as a duo with Gentle Fluidity Silver: same materials, different dosages. Nose Paris calls Gold a musky oriental. Some resellers add caramel to the base; omitted. Heart has a single published note."
+ },
+ {
+  "name": "CK Be",
+  "brand": "Calvin Klein",
+  "year": 1996,
+  "gender": "Unisex",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "René Morgenthaler",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Bergamot",
+    "Mint",
+    "Juniper",
+    "Mandarin",
+    "Green Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peach",
+    "Freesia",
+    "Magnolia",
+    "Orchid"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Cedar",
+    "Vanilla",
+    "Amber",
+    "Opoponax"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/ck-be.html",
+   "https://www.scentsangel.com/products/calvin-klein-ck-be-eau-de-toilette"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Tendance Parfums lists René Morgenthaler and 1996. Marketed as unisex, still widely sold. Heart also lists green grass on some retailers."
+ },
+ {
+  "name": "Eau des Merveilles Bleue",
+  "brand": "Hermès",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Aquatic Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Sea Notes"
+   ],
+   "heart": [
+    "Salt",
+    "Mineral Notes"
+   ],
+   "base": [
+    "Woody Notes",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumeshop.com/hermes/eau-des-merveilles-bleue/eau-de-toilette-spray/p/24550EDTJU",
+   "https://numero.com/en/beauty/the-new-perfumes-by-hermes-and-miu-miu-are-a-celebration-of-blue-skies",
+   "https://thecandyperfumeboy.com/2017/03/03/perfume-review-eau-des-merveilles-bleue-by-hermes/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Christine Nagel, 2016 (The Perfume Shop says 2017). Pyramid from The Perfume Shop: marine accord; salt water and mineral accord; woody notes and patchouli. Other retailers list citrus, aldehydes, ambergris, white musk. Top tier has one note."
+ },
+ {
+  "name": "Gentlemen Only Absolute",
+  "brand": "Givenchy",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Nutmeg",
+    "Saffron"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/givenchy/gentlemen-only-absolute-eau-de-parfum-for-men/",
+   "https://www.decantx.com/products/givenchy-gentlemen-only-absolute-eau-de-parfum-for-men",
+   "https://mena.entrepreneur.com/lifestyle/the-executive-selection-givenchy/281882"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailers date it 2016, after Gentlemen Only Casual Chic (2015). No perfumer credit found. Top tier has only bergamot published. Patchouli mentioned in one retailer's drydown copy. Current availability not verified."
+ },
+ {
+  "name": "Spirit of the Brave",
+  "brand": "Diesel",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Galbanum",
+    "Artemisia"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Elemi",
+    "Cypress"
+   ],
+   "base": [
+    "Fir",
+    "Tonka Bean",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://eu.lookfantastic.com/p/diesel-spirit-of-the-brave-coffret/12650697/",
+   "https://www.chemistwarehouse.com.au/buy/91962/diesel-spirit-of-the-brave-eau-de-toilette-50ml",
+   "https://www.perfume.com/diesel/spirit-of-the-brave/men-cologne"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2019, created with Neymar Jr as ambassador. Lookfantastic labels it Green Fougere. 'Fir' = balsam fir. No perfumer found."
+ },
+ {
+  "name": "Invictus Platinum",
+  "brand": "Paco Rabanne",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Absinthe",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Mint",
+    "Lavender"
+   ],
+   "base": [
+    "Cypress",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumania.com/collections/paco-rabanne-perfumes-and-colognes/products/invictus-platinum-cologne-for-men",
+   "https://lookfantastic.com/paco-rabanne-invictus-platinum-eau-de-parfum-50ml/13656995.html",
+   "https://www.notino.fr/paco-rabanne/invictus-platinum-eau-de-parfum-pour-homme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2022 EDP. Pyramid per Perfumania; Lookfantastic puts oakmoss and lavender in the heart, mint and patchouli in base. No perfumer found. Family label is an editorial choice (aromatic, sweet-fresh)."
+ },
+ {
+  "name": "Idôle Aura",
+  "brand": "Lancôme",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Shyamala Maisondieu, Adriana Medina-Baez, Nadège Le Garlantezec",
+  "notes": {
+   "top": [
+    "Rose",
+    "Centifolia Rose"
+   ],
+   "heart": [
+    "Jasmine",
+    "Bergamot"
+   ],
+   "base": [
+    "Salted Vanilla",
+    "Musk",
+    "Heliotrope"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://sephora.ae/en/p/idôle-aura-P10017291.html",
+   "https://www.tendance-parfums.com/idole-aura-edp.html",
+   "https://www.bloomingdales.com/shop/product/p?ID=4067574",
+   "https://nstperfume.com/2021/06/18/lancome-idole-aura-new-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2021 (not 2020), flanker of Idôle (2019). Perfumers per Tendance Parfums; Lancôme says three female perfumers from three continents. Top roses are Damascena from Isparta and Centifolia from Grasse. Retailers disagree on where salt and vanilla sit."
+ },
+ {
+  "name": "La Belle Fleur Terrible",
+  "brand": "Jean Paul Gaultier",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Water Lily",
+    "Bergamot",
+    "Ginger"
+   ],
+   "heart": [
+    "Iris",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Heliotrope",
+    "Almond"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.decantx.com/products/jean-paul-gaultier-la-belle-fleur-terrible-eau-de-parfum-legere-for-women",
+   "https://scentverdict.com/perfume/jean-paul-gaultier-la-belle-fleur-terrible-eau-de-parfum",
+   "https://scentadvice.com/la-belle-fleur-terrible-2022-jean-paul-gaultier/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2022 (not 2023), Quentin Bisch. Core pyramid: water lily / iris / vanilla. Bergamot, ginger, ylang-ylang, heliotrope, almond come from an untiered list and were distributed. One user claims it was later reworked as Paradise Garden; unconfirmed."
+ },
+ {
+  "name": "Narciso Ambrée",
+  "brand": "Narciso Rodriguez",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Ylang-Ylang",
+    "Frangipani"
+   ],
+   "heart": [
+    "Musk",
+    "Amber"
+   ],
+   "base": [
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/narciso-ambree.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Tendance Parfums: 2020, Aurélien Guichard, oriental floral; top ylang-ylang and frangipani, heart musk and amber, base cedar. Its editorial also mentions vanilla and cashmeran in the drydown (not in pyramid)."
+ },
+ {
+  "name": "Boss Bottled Night",
+  "brand": "Hugo Boss",
+  "year": 2010,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Birch"
+   ],
+   "heart": [
+    "Violet"
+   ],
+   "base": [
+    "Woody Notes",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/boss-bottled-night.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Tendance Parfums: 2010, woody aromatic EDT; top lavender and birch (leaf), heart violet, base woody notes and musk. No perfumer named. Search budget ran out before a second source."
+ },
+ {
+  "name": "Chamade",
+  "brand": "Guerlain",
+  "year": 1969,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Hyacinth",
+    "Black Currant",
+    "Bergamot",
+    "Aldehydes"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Benzoin",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Guerlain"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "French Wikipedia: 1969, Jean-Paul Guerlain, green floral oriental tribute to Françoise Sagan's novel, first perfume to use blackcurrant bud. Rest of the pyramid from well-documented classic descriptions, not re-checked against a retailer (search budget exhausted). Black Currant = blackcurrant bud."
+ }
+]

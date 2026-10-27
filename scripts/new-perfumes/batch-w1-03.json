@@ -1,0 +1,258 @@
+[
+ {
+  "name": "Noir",
+  "brand": "Tom Ford",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Violet",
+    "Pink Pepper",
+    "Bergamot",
+    "Caraway",
+    "Verbena"
+   ],
+   "heart": [
+    "Iris",
+    "Rose",
+    "Pepper",
+    "Nutmeg",
+    "Geranium",
+    "Clary Sage"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Patchouli",
+    "Leather",
+    "Civet",
+    "Styrax"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.decantx.com/products/tom-ford-noir-eau-de-parfum-for-men",
+   "https://www.maxaroma.com/fragrance/men/noir-by-tom-ford/pid/8487/3",
+   "https://www.fragranceusa.com/products/noir-by-tom-ford"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Retailers agree on 2012 (one listing says 2009, likely an error). Presented as the men's counterpart to Violet Blonde. Heart iris is Tuscan iris, rose is Bulgarian rose, 'Pepper' is black pepper. Vetiver also listed in the base by some retailers. Perfumer not named by the brand."
+ },
+ {
+  "name": "Nina Rouge",
+  "brand": "Nina Ricci",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Citron",
+    "Raspberry"
+   ],
+   "heart": [
+    "Gardenia",
+    "Ginger Lily"
+   ],
+   "base": [
+    "Caramel",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ninaricci.com/en-us/fragrance/product/nina-rouge",
+   "https://nstperfume.com/2019/08/12/nina-ricci-nina-rouge-new-fragrance/",
+   "https://www.tendance-parfums.com/nina-rouge-eau-de-toilette.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2019 flanker of Nina (2006), red apple bottle. Notes from the brand site. 'Ginger Lily' renders the brand's ginger flower. One retailer (Cosmetify) lists a different pyramid, ignored. Followed by Nina Extra Rouge (2021)."
+ },
+ {
+  "name": "Voyage d'Hermès",
+  "brand": "Hermès",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Amalfi Lemon",
+    "Juniper Berries"
+   ],
+   "heart": [
+    "Tea",
+    "Green Notes",
+    "Floral Notes",
+    "Hedione"
+   ],
+   "base": [
+    "Woody Notes",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.decantx.com/products/hermes-voyage-dhermes-eau-de-toilette-unisex",
+   "https://fragmetics.com/en-us/products/voyage-dhermes-edt-unisex-by-hermes-35-ml-refillable",
+   "https://ambregris.blogspot.com/2010/03/avis-voyage-dhermes-hermes.html?m=1",
+   "https://cafleurebon.com/voyage-dhermes-is-a-voyage-dellena/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Describes the 2010 EDT. A later Parfum version adds amber and a richer heart, not mixed in here. Hedione mentioned by a 2010 review."
+ },
+ {
+  "name": "Le Lion",
+  "brand": "Chanel",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Labdanum",
+    "Amber"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.chanel.com/us/fragrance/p/122380/le-lion-de-chanel-les-exclusifs-de-chanel-eau-de-parfum/",
+   "https://thecandyperfumeboy.com/2021/01/13/perfume-review-le-lion-by-chanel/",
+   "https://www.ambianceetfragrance.com/2021/02/le-lion-de-chanel-eau-de-parfum.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel. Chanel describes ambery, woody, leathery labdanum and patchouli, brightened by citrus, softened by vanilla. One source names cistus instead of labdanum (same plant). Name refers to Gabrielle Chanel's star sign (Leo) and the lion of Venice."
+ },
+ {
+  "name": "Magie Noire",
+  "brand": "Lancôme",
+  "year": 1978,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Gérard Goupy",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Black Currant",
+    "Raspberry",
+    "Bergamot",
+    "Hyacinth"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Tuberose",
+    "Narcissus",
+    "Honey",
+    "Orris Root"
+   ],
+   "base": [
+    "Oakmoss",
+    "Patchouli",
+    "Sandalwood",
+    "Vetiver",
+    "Civet",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2011/01/lancome-magie-noire-perfume-review.html",
+   "https://www.isniffbeforeisleep.com/lancome-magie-noire/",
+   "https://www.fragrancex.com/products/lancome/magie-noire-perfume",
+   "https://www.tendance-parfums.com/magie-noire.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Credits vary: Gérard Goupy alone, or with Jean-Charles Niel (and Yves Tanguy per Bois de Jasmin). Classified chypre floral by most, green chypre / woody oriental by Bois de Jasmin. 'Black Currant' is blackcurrant bud. Heavily reformulated: modern base thinner, less moss and civet. Also castoreum, musk, incense in some lists."
+ },
+ {
+  "name": "Lacoste Original",
+  "brand": "Lacoste",
+  "year": 2024,
+  "gender": "Masculine",
+  "family": "Woody Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Lavender",
+    "Clary Sage"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lacoste.com/se/lacoste/men/accessories/fragrance/LC016A01.html",
+   "https://dmarge.com/grooming/lacoste-united-cup-original-fragrance-launch",
+   "https://www.theperfumeshop.com/lacoste/lacoste-original/eau-de-parfum-spray/p/75390EDPJU?varSel=1297359"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Brand lists family fougère woody ambery. Launched alongside Original Pour Femme. The Perfume Shop gives 2014, conflicting with other sources (2024). An Original Parfum (cardamom, ginger, lavender, incense, patchouli, tonka) followed. Perfumer not found."
+ },
+ {
+  "name": "Babycat",
+  "brand": "Yves Saint Laurent",
+  "year": 2022,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Pepper",
+    "Elemi"
+   ],
+   "heart": [
+    "Incense",
+    "Saffron"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Suede"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.yslbeautyus.com/fragrance/le-vestiaire-des-parfums/the-signature-collection/babycat---le-vestiaire-des-parfums/WW-50920YSL.html",
+   "https://www.yslbeauty.co.uk/fragrances/le-vestiaire-des-parfums/babycat--eau-de-parfum/WW-51376YSL.html",
+   "https://nstperfume.com/2022/04/07/yves-saint-laurent-babycat-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Le Vestiaire des Parfums. Launched 2022 (not 2019). Official pyramid: pink pepper, black pepper, elemi / olibanum, saffron / vanilla, cedarwood, suede accord. Ropion aimed to bring out the leathery side of vanilla."
+ }
+]

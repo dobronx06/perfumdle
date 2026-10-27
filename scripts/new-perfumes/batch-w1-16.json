@@ -1,0 +1,328 @@
+[
+ {
+  "name": "Mademoiselle Rochas in Black",
+  "brand": "Rochas",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blackberry",
+    "Black Tea",
+    "Bergamot"
+   ],
+   "heart": [
+    "Leather",
+    "Rose",
+    "Hawthorn"
+   ],
+   "base": [
+    "Ambroxan",
+    "Black Vanilla",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/mademoiselle-rochas-in-black.html",
+   "https://www.oia-parfums.fr/430800-mademoiselle-rochas-in-black-eau-de-parfum.html",
+   "https://www.superdrug.com/fragrance/perfume-for-women/womens-perfume/rochas-mademoiselle-rochas-in-black-eau-de-parfum-30ml/p/mp-00032207"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Mademoiselle Rochas. Retailers agree on 2020 and on the pyramid; 'Black Vanilla' stands for black vanilla pod. Perfumer not published in sources found. Heart described as a black leather accord."
+ },
+ {
+  "name": "Eau de Narcisse Bleu",
+  "brand": "Hermès",
+  "year": 2013,
+  "gender": "Unisex",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Galbanum",
+    "Bergamot"
+   ],
+   "heart": [
+    "Narcissus",
+    "Iris"
+   ],
+   "base": [
+    "Woody Notes",
+    "Powdery Notes",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hermes/7095/eau-de-narcisse-bleu",
+   "https://www.selfridges.com/US/en/product/hermes-eau-de-narcisse-bleu-eau-de-cologne-100ml_171-78031989-NARCISSEBLEUEDC/",
+   "https://boisdejasmin.com/2013/04/hermes-eau-de-narcisse-bleu-and-eau-de-mandarine-ambree-perfume-reviews.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of Hermès Les Colognes, launched 2013 alongside Eau de Mandarine Ambrée. Osmoz pyramid plus bergamot (Selfridges) and iris/musk (Bois de Jasmin review), so pyramid partly inferred."
+ },
+ {
+  "name": "Oud",
+  "brand": "Reminiscence",
+  "year": 2013,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Saffron",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Oud",
+    "Sandalwood",
+    "Cedar",
+    "Guaiac Wood",
+    "Labdanum",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/reminiscence/6908/oud",
+   "https://www.tendance-parfums.com/en/oud-eau-de-parfum-reminiscence.html",
+   "http://www.mimifroufrou.com/scentedsalamander/2012/11/reminiscence_oud_2013_new_perf.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year conflict: launch announced for February 2013 (Scented Salamander, Osmoz 2013) while retailers say 2012. Base also lists cashmere wood, fir balsam, cypriol. Not to be confused with Lattafa Oud Mood Reminiscence."
+ },
+ {
+  "name": "Pure XS Night",
+  "brand": "Paco Rabanne",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Caroline Dumur, Anne Flipo, Bruno Jovanovic",
+  "notes": {
+   "top": [
+    "Ginseng",
+    "Ginger"
+   ],
+   "heart": [
+    "Cacao",
+    "Vanilla",
+    "Cinnamon"
+   ],
+   "base": [
+    "Salted Caramel",
+    "Myrrh"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/28/paco-rabanne-pure-xs-night-new-fragrance/",
+   "https://www.jomashop.com/paco-rabanne-pure-xs-night-eau-de-parfum-spray-150ml-5-1oz-3349668578580.html",
+   "https://www.lookfantastic.com/p/paco-rabanne-pure-xs-night-eau-de-parfum-100ml/12034004/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Night flanker of Pure XS (2017). Launched early 2019 (some retailers say 2018). Lookfantastic gives a different pyramid order, treated as outlier."
+ },
+ {
+  "name": "Loverdose Red Kiss",
+  "brand": "Diesel",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Bergamot",
+    "Apple"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Hazelnut",
+    "Apricot"
+   ],
+   "base": [
+    "Patchouli",
+    "Cocoa",
+    "Vanilla",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://diesel.com/en-us/loverdose/loverdose-red-kiss-eau-de-parfum-50ml-red/PL038900PRO01.html",
+   "https://nstperfume.com/2015/02/03/diesel-loverdose-red-kiss-new-fragrance/",
+   "https://www.osmoz.com/perfumes/diesel/8338/loverdose-red-kiss--eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Loverdose (2011). Pyramid from Diesel's own page ('crispy nut' = hazelnut). Some retailers add sugar and cocoa pod in the heart."
+ },
+ {
+  "name": "Guilty Intense",
+  "brand": "Gucci",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Lilac",
+    "Violet",
+    "Heliotrope"
+   ],
+   "base": [
+    "Amber",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragplace.com/en-US/fragrances/17232/gucci/gucci-guilty-intense",
+   "https://www.fragrancex.com/products/gucci/gucci-guilty-intense-perfume",
+   "https://leparfumier.com/en/products/gucci-guilty-intense-for-women-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2011 flanker of Gucci Guilty (2010). Later 'Guilty Pour Femme Eau de Parfum Intense' listings (lychee, tuberose, plum) describe a different, newer product."
+ },
+ {
+  "name": "Madame Rochas",
+  "brand": "Rochas",
+  "year": 1960,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Guy Robert",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Lemon",
+    "Neroli"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Tuberose",
+    "Lily of the Valley",
+    "Iris",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Musk",
+    "Cedar",
+    "Oakmoss",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumeshrine.blogspot.com/2012/05/rochas-madame-rochas-fragrance-review.html",
+   "https://nstperfume.com/2007/08/02/madame-rochas-perfume-review/",
+   "https://yesterdaysperfume.typepad.com/yesterdays_perfume/2011/02/madame-rochas-1960.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Commissioned by Hélène Rochas as an easier-to-wear companion to Femme. Reorchestrated later (date given as 1982 or 1989, Jean-Louis Sieuzac per one source). Current EDT still sold."
+ },
+ {
+  "name": "Image",
+  "brand": "Cerruti",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Ursula Wandel",
+  "notes": {
+   "top": [
+    "Pear",
+    "Banana Leaf",
+    "Plum",
+    "Pepper"
+   ],
+   "heart": [
+    "Cypress",
+    "Fig Leaf",
+    "Jasmine",
+    "Guaiac Wood"
+   ],
+   "base": [
+    "Vetiver",
+    "Musk",
+    "Cedar",
+    "Sandalwood",
+    "Patchouli",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/cerruti-image-by-nino-cerruti-notes-longevity-review-complete-guide",
+   "https://fragrancelovers.com/products/cerruti-image-pour-homme-eau-de-toilette",
+   "https://luxuryperfume.com/products/image-pour-homme-by-nino-cerruti"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Men's EDT, 1998, described as aromatic green with fruity facets. 'Pepper' = black pepper, 'Vetiver' = Tahitian vetiver. Unrelated women's 'Image' listings exist."
+ },
+ {
+  "name": "Encens Mythique",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Saffron",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Patchouli",
+    "Vetiver"
+   ],
+   "base": [
+    "Incense",
+    "Ambergris",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeposse.com/2017/10/30/guerlain-encens-mythique-thrill-discovery-perfumista-style/",
+   "https://theperfumedcourt.com/products/guerlainencensmythique",
+   "https://www.perfumemaster.com/guerlain/encens-mythique-unisex-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Les Absolus d'Orient. First issued 2012 (as Encens Mythique d'Orient, in a trio of tall bottles), retooled reissue 2019; year set to 2019. Pyramid varies by source and is merged. Listed as discontinued by several retailers."
+ }
+]

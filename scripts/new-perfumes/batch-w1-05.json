@@ -1,0 +1,426 @@
+[
+ {
+  "name": "New Look 1947",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Tuberose",
+    "Ylang-Ylang",
+    "Jasmine",
+    "Rose",
+    "Peony",
+    "Iris"
+   ],
+   "base": [
+    "Benzoin",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dior.com/en_us/products/beauty-y0906160_f090655009-la-collection-privee-christian-dior-new-look-1947",
+   "https://www.osmoz.com/perfumes/dior/1390/new-look-1947",
+   "https://boisdejasmin.com/2011/05/christian-dior-new-look-1947-fragrance-review.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Collection Privée Christian Dior, launched 2010 (first as an eau de toilette), reissued 2018 in La Collection Privée as an eau de parfum. Tuberose centerpiece. Top tier has a single published note (pink pepper)."
+ },
+ {
+  "name": "Happy",
+  "brand": "Clinique",
+  "year": 1997,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Rodrigo Flores-Roux, Jean-Claude Delville",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit",
+    "Mandarin",
+    "Bay Leaf"
+   ],
+   "heart": [
+    "Orchid",
+    "Jasmine",
+    "Floral Notes"
+   ],
+   "base": [
+    "Mimosa",
+    "Magnolia",
+    "Lily",
+    "White Flowers"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/cafleurebon-saturday-night-classics-clinique-happy-rodrigo-flores-roux-jean-claude-delville-1997/",
+   "https://decantboutique.com/product/clinique-happy-edp/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1997 per Cafleurebon (some retailers say 1998). Pyramid from Cafleurebon: laurel = Bay Leaf, melati = jasmine, boysenberry blossom = Floral Notes, Hawaiian wedding flower = White Flowers, white crinum lily = Lily. Retailer lists differ (blood orange, freesia, musk). Delville cited a high dose of a methyl dihydrojasmonate isomer. Sold as 'Perfume Spray', treated as EDP."
+ },
+ {
+  "name": "Escale à Portofino",
+  "brand": "Dior",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Juniper Berries",
+    "Almond"
+   ],
+   "base": [
+    "Cypress",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/dior-escale-a-portofino.html",
+   "https://australianperfumejunkies.com/2013/04/30/escale-portafino-by-francois-demachy-for-dior-2008-perfume-review/",
+   "https://www.selfridges.com/US/en/product/dior-escale-portofino-eau-de-toilette-125ml_359-84011246-F065125800/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "First of Dior's Escales (cruise) line, followed by Escale à Pondicheri (2009), Escale aux Marquises (2010), Escale à Paraty (2012). Some lists add galbanum and caraway to the base. Now sold in La Collection Privée."
+ },
+ {
+  "name": "Minotaure",
+  "brand": "Paloma Picasso",
+  "year": 1992,
+  "gender": "Masculine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Galbanum",
+    "Tarragon",
+    "Coriander",
+    "Fruity Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Geranium",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean",
+    "Amber",
+    "Vanilla",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tousmesparfums.com/eau-de-toilette/8020-minotaure-eau-de-toilette-3360373007905.html",
+   "https://leparfumier.com/en/products/paloma-picasso-minotaure-for-men-eau-de-toilette",
+   "https://www.incenza.com/parfums/parfum-paloma-picasso/parfum-homme-paloma-picasso/minotaure/1785-minotaure-eau-de-toilette.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1992, retailer classification fougère orientale. A Michel Almairac credit appears in secondary sources but was not verified, so perfumer left null."
+ },
+ {
+  "name": "Eau Ensoleillante",
+  "brand": "Clarins",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Grapefruit",
+    "Bergamot",
+    "Watermelon"
+   ],
+   "heart": [
+    "Chamomile",
+    "Ylang-Ylang",
+    "Mimosa",
+    "Carnation"
+   ],
+   "base": [
+    "Osmanthus",
+    "Tonka Bean",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/03/01/clarins-eau-ensoleillante-aka-sunshine-fragrance-new-fragrance/",
+   "https://thefragrancewarehouse.co.uk/products/clarins-sunshine-eau-ensoleillante-100ml"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Also sold as Sunshine Fragrance. Third Clarins 'treatment fragrance' after Eau Dynamisante and Eau Ressourçante; sold as a treatment fragrance spray, mapped to Eau de Toilette. Watermelon and linden appear in some lists only. Perfumer not published."
+ },
+ {
+  "name": "First",
+  "brand": "Van Cleef & Arpels",
+  "year": 1976,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Black Currant",
+    "Mandarin",
+    "Peach",
+    "Raspberry"
+   ],
+   "heart": [
+    "Jasmine",
+    "Hedione",
+    "Rose",
+    "Narcissus",
+    "Ylang-Ylang",
+    "Clove"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Amber",
+    "Musk",
+    "Oakmoss",
+    "Civet"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/cafleurebon-saturday-night-classics-first-van-cleef-and-arpels-jean-claude-ellena-1976/",
+   "https://www.vancleefarpels.com/us/en/collections/fragrances/first.html",
+   "https://eaudetati.wordpress.com/2017/10/04/first-by-van-clef-arpels-1976/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First fragrance of Van Cleef & Arpels, often called the first perfume launched by a jeweler. Bottle by Jacques Llorente after a house pendant. Jasmine built on Hedione. Base tier partly from secondary sources."
+ },
+ {
+  "name": "Oud Minérale",
+  "brand": "Tom Ford",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Woody Marine",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Sea Salt",
+    "Seaweed"
+   ],
+   "heart": [
+    "Oud",
+    "Styrax"
+   ],
+   "base": [
+    "Ambergris",
+    "Fir Resin"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.sephora.com/product/tom-ford-oud-minerale-eau-de-parfum-P509793",
+   "https://www.selfridges.com/US/en/product/tom-ford-oud-minerale-eau-de-parfum-50ml_453-3001058-T5JL010000/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Private Blend, 2017. One retailer credits Shyamala Maisondieu, unverified, so null. Some lists add cedar or vetiver."
+ },
+ {
+  "name": "Mon Guerlain Bloom of Rose",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Lavender"
+   ],
+   "heart": [
+    "Rose",
+    "Neroli",
+    "Jasmine"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.news-parfums.com/en/mon-guerlain/39842-guerlain-mon-guerlain-bloom-of-rose-eau-de-toilett-3346470137318.html",
+   "https://theperfumehouse.com/products/mon-guerlain-bloom-of-rose",
+   "https://yakymour.wordpress.com/2019/01/22/mon-guerlain-bloom-of-rose/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Mon Guerlain (2017). EDT dated 2019 by retailers (an EDP version followed). Rose is Bulgarian, jasmine is sambac, vanilla is Tahitian. Some sheets add mandarin, black currant and green apple at the top."
+ },
+ {
+  "name": "Eau Extraordinaire",
+  "brand": "Clarins",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Ginger"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.boots.com/clarins-eau-extraordinaire-treatment-fragrance-100ml-10305531",
+   "https://escentual.com/products/clarins-eau-extraordinaire-natural-spray-100ml",
+   "https://www.johnlewis.com/clarins-eau-extraordinaire-100ml/p6189500"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2022 Clarins treatment fragrance, mapped to Eau de Toilette. Ginger is 'red ginger'. Flat list of key notes distributed. Perfumer credits conflict (Marypierre Julien vs Olivier Polge), left null."
+ },
+ {
+  "name": "Sì Fiori",
+  "brand": "Giorgio Armani",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Julie Massé",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Neroli",
+    "Rose",
+    "Patchouli",
+    "Oakmoss"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/21/giorgio-armani-si-fiori-new-fragrance/",
+   "https://www.decantx.com/products/giorgio-armani-si-fiori-eau-de-parfum-for-women"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Sì (2013), launched early 2019. Neroli-centered take on the Sì chypre. Musk is white musk."
+ },
+ {
+  "name": "Un Jardin sur la Lagune",
+  "brand": "Hermès",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Floral Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Sea Salt"
+   ],
+   "heart": [
+    "Magnolia",
+    "Pittosporum",
+    "White Lily"
+   ],
+   "base": [
+    "Driftwood",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.tendance-parfums.com/un-jardin-sur-la-lagune-hermes.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sixth Hermès Jardin, inspired by the Giardino Eden on the Giudecca in Venice. Core notes magnolia, pittosporum, Madonna lily (mapped to White Lily); top and base from the retailer's history text."
+ },
+ {
+  "name": "Nahéma",
+  "brand": "Guerlain",
+  "year": 1979,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Peach",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Ylang-Ylang",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Benzoin",
+    "Peru Balsam",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Guerlain"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1979, floral amber built on rose, early use of damascenones (Wikipedia). Wikipedia says Jean-Paul Guerlain composed it with Anne-Marie Saget. Named after a legend of a sultan's twin daughters. Not a sales success, EDP still available. Detailed pyramid partly recalled."
+ }
+]

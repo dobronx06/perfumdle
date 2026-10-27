@@ -1,0 +1,674 @@
+[
+ {
+  "name": "Nomade Absolu de Parfum",
+  "brand": "Chloé",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Plum"
+   ],
+   "heart": [
+    "Davana",
+    "Oakmoss"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/chloe-nomade-absolu-de-parfum/",
+   "https://www.nordstrom.com/s/chlo-nomade-absolu-de-parfum/5526938"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Givaudan, Quentin Bisch. Only five key notes published (mirabelle plum, davana, oakmoss, sandalwood, musk); tiers inferred, top has a single note. 'Plum' stands for mirabelle. Nordstrom gives a different tier order."
+ },
+ {
+  "name": "Miami Blossom",
+  "brand": "Escada",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Caroline Sabas",
+  "notes": {
+   "top": [
+    "Watermelon",
+    "Blueberry",
+    "Orange"
+   ],
+   "heart": [
+    "Pineapple",
+    "Tiare Flower",
+    "Jasmine",
+    "Tuberose"
+   ],
+   "base": [
+    "Ambroxan",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.scentbox.com/shop/details.cfm?id=129488",
+   "https://www.perfumemaster.com/escada/miami-blossom-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Escada summer limited edition 2019. Pyramid consistent across retailers. Sold out at several retailers."
+ },
+ {
+  "name": "Xeryus",
+  "brand": "Givenchy",
+  "year": 1986,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Mace",
+    "Lemon",
+    "Mandarin"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Coriander",
+    "Juniper Berry",
+    "Tarragon"
+   ],
+   "base": [
+    "Fir",
+    "Sandalwood",
+    "Vetiver",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/864/xeryus",
+   "https://en.wikipedia.org/wiki/Xeryus"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Pyramid from Osmoz ('Balsam Fir' mapped to Fir, 'Moss' to Oakmoss). Retailer note lists vary a lot. Several retailers credit Alberto Morillas but no source read confirms it, so perfumer left null. Flanker Xeryus Rouge (1996). Current availability unclear."
+ },
+ {
+  "name": "Eau Tropicale",
+  "brand": "Sisley",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Ginger",
+    "Hibiscus",
+    "Frangipani",
+    "Passion Fruit"
+   ],
+   "heart": [
+    "Violet",
+    "Rose",
+    "Tuberose"
+   ],
+   "base": [
+    "Patchouli",
+    "Cedar",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://beautygeekuk.com/2014/05/sisley-eau-tropicale.html",
+   "https://www.jomashop.com/sisley-eau-tropicale-eau-de-toilette-spray-30ml-1oz-3473311934307.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched spring 2014, inspired by a tropical forest after a storm. Perfumer credits conflict between retailers (Ellena, Michalon Bertier), left null. 'Rose' stands for Turkish rose."
+ },
+ {
+  "name": "Eau de Cologne",
+  "brand": "Chanel",
+  "year": 2007,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Neroli",
+    "Petitgrain"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://eauxsillage.com/les-exclusifs-de-chanel/",
+   "https://www.chanel.com/ww/fragrance/p/101565/eau-de-cologne-les-exclusifs-de-chanel-eau-de-parfum/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, 2007. Chanel names mandarin, bergamot, neroli; eauxSILLAGE adds petitgrain, cedar, herbs, musk. Chanel now labels the product as eau de parfum; hint says Eau de Cologne, kept."
+ },
+ {
+  "name": "Gucci Première",
+  "brand": "Gucci",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "White Flowers",
+    "Musk"
+   ],
+   "base": [
+    "Leather",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2012/09/11/gucci-premiere-perfume-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched mid 2012 under Frida Giannini, face Blake Lively. Flat list of six notes from the brand copy, tiers inferred. No perfumer credited."
+ },
+ {
+  "name": "Joy Intense",
+  "brand": "Dior",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Neroli"
+   ],
+   "heart": [
+    "Grasse Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thescentbase.com/gb/perfumes/dior/joy-by-dior-intense"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Joy by Dior Eau de Parfum Intense, 2019, flanker of Joy (2018). Some listings add patchouli. Face of the Joy line: Jennifer Lawrence."
+ },
+ {
+  "name": "Granville",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Rosemary",
+    "Thyme",
+    "Lemon"
+   ],
+   "heart": [
+    "Pine",
+    "Gorse"
+   ],
+   "base": [
+    "Sandalwood",
+    "Pepper",
+    "Woody Notes",
+    "Smoky Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/dior/1388/granville",
+   "https://persolaise.com/2011/03/review-mitzah-granville-vetiver-and-new.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Privée (Couturier Parfumeur) 2010, evokes Dior's childhood villa in Granville, Normandy. Concentration of the current Maison bottles; original concentration not confirmed. Some sources list it as discontinued."
+ },
+ {
+  "name": "Live Irrésistible Blossom Crush",
+  "brand": "Givenchy",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Apple",
+    "Black Currant",
+    "Raspberry",
+    "Rose"
+   ],
+   "base": [
+    "Cacao",
+    "Vanilla",
+    "Cashmeran",
+    "Musk",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/01/18/givenchy-live-irresistible-blossom-crush-new-fragrance/",
+   "https://www.fragrancex.com/products/givenchy/live-irresistible-blossom-crush-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched February 2018, flanker of Live Irrésistible (2015). Brand copy names rose, peony, cocoa bean, musk; fuller pyramid from retailers."
+ },
+ {
+  "name": "For Her Fleur Musc",
+  "brand": "Narciso Rodriguez",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Rose"
+   ],
+   "heart": [
+    "Peony",
+    "Musk"
+   ],
+   "base": [
+    "Patchouli",
+    "Violet",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/01/18/narciso-rodriguez-fleur-musc-for-her-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "January 2017, follows Amber Musc (2013) and Rose Musc (2016). Retailers credit Calice Becker and Sonia Constant but no page read confirms it, left null. Tier placement varies by retailer."
+ },
+ {
+  "name": "Explorer Ultra Blue",
+  "brand": "Montblanc",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jordi Fernández, Antoine Maisondieu, Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Ambergris"
+   ],
+   "base": [
+    "Patchouli",
+    "Woody Notes",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/05/04/montblanc-explorer-ultra-blue-new-fragrance/",
+   "https://www.montblanc.com/en-us/fragrances/collection/explorer"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2021 flanker of Explorer (2019). Montblanc lists Italian bergamot, pink pepper, marine accord, grey amber, patchouli, woods; NST adds leathery woods. Givaudan perfumers."
+ },
+ {
+  "name": "Parfum Sacré",
+  "brand": "Caron",
+  "year": 1990,
+  "gender": "Feminine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Pierre Béthouart",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Pepper",
+    "Mace",
+    "Cardamom"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Myrrh",
+    "Vanilla",
+    "Civet",
+    "Cedar",
+    "Rosewood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2005/06/caron-parfum-sacre-perfume-review.html",
+   "https://nstperfume.com/2010/07/26/caron-parfum-sacre-and-parfum-sacre-intense-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spicy oriental with a rose heart. Reformulated around 2011, Parfum Sacré Intense followed. Flat list from Bois de Jasmin, tiers distributed."
+ },
+ {
+  "name": "Calandre",
+  "brand": "Paco Rabanne",
+  "year": 1969,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Hy",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Lily of the Valley",
+    "Orris Root",
+    "Jasmine",
+    "Geranium"
+   ],
+   "base": [
+    "Oakmoss",
+    "Vetiver",
+    "Musk",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/02/12/paco-rabanne-calandre-fragrance-review/",
+   "https://www.tendance-parfums.com/calandre-toilette.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Name means radiator grille in French. Green metallic floral aldehyde; Rive Gauche (1971) often cited as a sister. Still produced as EDT at time of NST review."
+ },
+ {
+  "name": "Escale à Pondichéry",
+  "brand": "Dior",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Citrus"
+   ],
+   "heart": [
+    "Black Tea",
+    "Jasmine"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://auparfum.bynez.com/Escale-a-Pondichery-Dior-prend-la-route-des-Indes",
+   "https://www.osmoz.com/perfumes/dior/1382/escale-a-pondichery"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Second Escale after Escale à Portofino, on sale from 28 May 2009. Demachy: cardamom top, jasmine sambac heart, sandalwood base, black tea extract as common thread. Current availability unclear."
+ },
+ {
+  "name": "Anaïs Anaïs Premier Délice",
+  "brand": "Cacharel",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp, Dora Baghriche",
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot",
+    "Orange",
+    "Galbanum"
+   ],
+   "heart": [
+    "Hyacinth",
+    "Peony"
+   ],
+   "base": [
+    "Cocoa",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2014/12/cacharel-anais-anais-premier-delice-perfume-review.html",
+   "https://www.osmoz.com/perfumes/cacharel/7665/anais-anais-premier-delice"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Gourmand flanker of Anaïs Anaïs (1978), Firmenich perfumers. Chocolate over a muted hyacinth heart."
+ },
+ {
+  "name": "Hiris",
+  "brand": "Hermès",
+  "year": 1999,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivia Giacobetti",
+  "notes": {
+   "top": [
+    "Iris",
+    "Coriander",
+    "Carrot"
+   ],
+   "heart": [
+    "Neroli",
+    "Rose",
+    "Hay"
+   ],
+   "base": [
+    "Honey",
+    "Almond",
+    "Cedar",
+    "Vanilla",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2005/09/19/hermes-hiris-perfume-review/",
+   "https://boisdejasmin.com/2010/12/hermes-hiris-perfume-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Iris soliflore. NST lists iris at all tiers; 'Almond' stands for almond wood. Current availability unclear."
+ },
+ {
+  "name": "D by Diesel",
+  "brand": "Diesel",
+  "year": 2022,
+  "gender": "Unisex",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nisrine Grillié, Shyamala Maisondieu, Louise Turner",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Bergamot"
+   ],
+   "heart": [
+    "Lavender",
+    "Cotton Flower"
+   ],
+   "base": [
+    "Vanilla",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.highsnobiety.com/p/diesel-glenn-martens-fragrance-perfume/",
+   "https://pinkbeautyqueen.com/2022/09/02/diesel-has-launched-d-by-diesel-a-gender-fluid-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First Diesel scent under creative director Glenn Martens, L'Oréal licence, Givaudan perfumers. Denim cotton accord heart, Provence lavender, Madagascar bourbon vanilla. Refillable bottle with rivet cap. Bergamot and amberwood from retailer lists."
+ },
+ {
+  "name": "Patchouli Homme",
+  "brand": "Reminiscence",
+  "year": 2000,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lime",
+    "Mandarin"
+   ],
+   "heart": [
+    "Geranium",
+    "Cedar",
+    "Patchouli"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Labdanum",
+    "Tolu Balsam",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.parfumerie-burdin.com/1507-3271-reminiscence-patchouli-homme-eau-de-toilette.html",
+   "https://www.notino.fr/reminiscence-patchouli-homme-avis/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Men's version of the house's Patchouli (1970). Burdin: Mexican lime, Italian mandarin, Egyptian geranium, Virginia cedar, Java patchouli, Venezuelan tonka, labdanum, tolu, benzoin. Family given as fresh woody."
+ },
+ {
+  "name": "L'Orpheline",
+  "brand": "Serge Lutens",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Incense"
+   ],
+   "heart": [
+    "Cedar",
+    "Patchouli",
+    "Coumarin"
+   ],
+   "base": [
+    "Ambergris",
+    "Cashmeran",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://persolaise.com/2014/06/persolaise-review-lorpheline-from-serge.html",
+   "http://perfumeshrine.blogspot.com/2014/07/serge-lutens-lincidiaire-new-fragrance.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Black line, haute concentration, Paris summer 2014 then international 1 September 2014. Lutens disclosed few notes; list from launch coverage (aldehydes, cedar, fougère accord, coumarin, ambergris, patchouli, incense, Cashmeran). Musk from retailers."
+ },
+ {
+  "name": "Paris-Deauville",
+  "brand": "Chanel",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Bergamot",
+    "Lemon",
+    "Basil"
+   ],
+   "heart": [
+    "Green Notes",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Patchouli",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2018/07/chanel-paris-deauville-fragrance-review.html",
+   "https://cafleurebon.com/les-eaux-de-chanel-paris-deauville-paris-venise-and-paris-biarritz-olivier-polge-new-fragrances/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Eaux de Chanel, 2018, alongside Paris-Biarritz and Paris-Venise. Notes from reviews (bitter orange, green leaves, basil, rose, jasmine, soft patchouli woods); tiers inferred."
+ }
+]

@@ -1,0 +1,624 @@
+[
+ {
+  "name": "Luna Rossa Sport",
+  "brand": "Prada",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Juniper Berries",
+    "Ginger"
+   ],
+   "heart": [
+    "Lavender"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/03/28/prada-luna-rossa-sport-new-fragrance/",
+   "https://scentgrail.com/holy-grail-scents/prada-luna-rossa-sport-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2015 flanker of Luna Rossa (2012). Prada publishes a flat list of five notes, tiers assigned by volatility. Some retailers add heliotrope, musk and hay, not confirmed by the brand."
+ },
+ {
+  "name": "Quatre pour Homme",
+  "brand": "Boucheron",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Lime",
+    "Bergamot"
+   ],
+   "heart": [
+    "Artemisia",
+    "Geranium",
+    "Lavender"
+   ],
+   "base": [
+    "Labdanum",
+    "Driftwood",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/parfum-quatre-pour-homme.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Masculine counterpart to Quatre (2015), bottle shaped after the Quatre ring. Perfumer credit from Tendance Parfums only. Some retailers list a different pyramid (jasmine sambac, rose, cedar, cashmere wood)."
+ },
+ {
+  "name": "Pasha Édition Noire",
+  "brand": "Cartier",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Aquatic Notes",
+    "Pepper",
+    "Green Notes"
+   ],
+   "heart": [
+    "Iris",
+    "Violet",
+    "Clove"
+   ],
+   "base": [
+    "Cashmere Wood",
+    "Cedar",
+    "Heliotrope"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/pasha-de-cartier-edition-noir-eau-de-toilette/7344680",
+   "https://vivir.com/article/cartier-pasha-de-cartier-edition-noire-sport-review"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2013 reinterpretation of Pasha de Cartier (1992). Notes from Nordstrom: aquatic accord, black pepper, green notes / iris, violet accord, clove / cashmere accord, Chinese cedarwood, heliotropine. Most retailers credit Mathilde Laurent but one credits Nathalie Feisthauer, so perfumer left null."
+ },
+ {
+  "name": "Arabie",
+  "brand": "Serge Lutens",
+  "year": 2000,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Dried Fruits",
+    "Fig",
+    "Candied Orange",
+    "Bay Leaf"
+   ],
+   "heart": [
+    "Cumin",
+    "Nutmeg",
+    "Clove"
+   ],
+   "base": [
+    "Benzoin",
+    "Myrrh",
+    "Labdanum",
+    "Tonka Bean",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2016/07/24/serge-lutens-arabie-souks-spices-sweets/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Created by Serge Lutens with Christopher Sheldrake, export line EDP 50 ml. Lutens publishes no pyramid. Flat list (Luckyscent via Kafkaesque): cedar, sandalwood, candied mandarin peel, dried figs, dates, cumin, nutmeg, clove, balsams, tonka, Siam benzoin, myrrh. 'Dried Fruits' = dates, 'Candied Orange' = candied mandarin peel."
+ },
+ {
+  "name": "1932",
+  "brand": "Chanel",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Pear",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Jasmine",
+    "Iris"
+   ],
+   "base": [
+    "Vetiver",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2013/01/28/chanel-1932-fragrance-review/",
+   "https://www.selfridges.com/US/en/product/chanel-strong1932strong-les-exclusifs-de-chanel-eau-de-parfum-200ml_R04292728/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, launched early 2013 as an EDT (75 and 200 ml), later reissued as EDP with the range. Name refers to Bijoux de Diamants, Chanel's 1932 fine jewelry collection. Official copy: jasmine accord with pear and grapefruit, powdery and woody iris and vetiver."
+ },
+ {
+  "name": "Armani Eau de Nuit",
+  "brand": "Giorgio Armani",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Marie Salamagne",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Iris",
+    "Cardamom",
+    "Nutmeg",
+    "Heliotrope"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Amber",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/eau-de-nuit-eau-de-toilette-armani.html",
+   "https://www.michael84.co.uk/armani-eau-de-nuit-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2013. Top note given as Peruvian pepper (pink pepper). Classed oriental fougere by Tendance Parfums."
+ },
+ {
+  "name": "Belle de Jour",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Peach",
+    "Pear"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://essencedenord.com/product/belle-de-jour/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Maison Christian Dior (La Collection Privée), 2018, Demachy. Brand copy: velvety peach opening, rose heart, woody trail; Dior pages also highlight pear. No official pyramid. Positioned for men and women, chunk hint said Feminine."
+ },
+ {
+  "name": "Gentleman Eau de Toilette Intense",
+  "brand": "Givenchy",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Aromatic Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson, Olivier Cresp",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Basil"
+   ],
+   "heart": [
+    "Iris",
+    "Cypress"
+   ],
+   "base": [
+    "Cedar",
+    "Coumarin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thesmellofman.com/2023/11/21/gentleman-givenchy-review/",
+   "https://www.nordstrom.com/s/givenchy-gentleman-eau-de-toilette-intense/5900507"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2021 flanker of Gentleman Givenchy EDT (2017). Brand lists blue iris, Egyptian basil. Nordstrom calls it aromatic floral-woody."
+ },
+ {
+  "name": "HM",
+  "brand": "Hanae Mori",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Lavender",
+    "Mint"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Iris"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean",
+    "Vanilla",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/hanae-mori-hm-eau-de-parfum/",
+   "https://www.kalista-parfums.com/fr/hanae-mori/hanae-mori-hm-eau-de-toilette-14050.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "HM, first men's fragrance of Hanae Mori, 1998 (FragranceReview). Not to be confused with HiM (2012, different pyramid). Pyramid from Kalista; brand site variant for the EDT lists lemon, bergamot, lavender / jasmine, violet, sage, mint / tonka, musk, sandalwood. Perfumer not published."
+ },
+ {
+  "name": "Lady Million Lucky",
+  "brand": "Paco Rabanne",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Raspberry"
+   ],
+   "heart": [
+    "Hazelnut",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Honey",
+    "Cashmere Wood",
+    "Sandalwood",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://birdsfootpharmacy.co.uk/product/lady-million-paco-rabanne-lady-million-lucky-eau-de-parfum-spray/",
+   "https://www.lookfantastic.com/p/paco-rabanne-lady-million-lucky-eau-de-parfum-80ml/11733395/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2018 flanker of Lady Million (2010), paired with 1 Million Lucky. Lookfantastic lists orange blossom and vanilla instead of honey and cedar. Several retailers list it as discontinued. Perfumer not found in allowed sources."
+ },
+ {
+  "name": "Serge Noire",
+  "brand": "Serge Lutens",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Clove",
+    "Cinnamon",
+    "Spices"
+   ],
+   "heart": [
+    "Incense",
+    "Patchouli"
+   ],
+   "base": [
+    "Amber",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2012/12/20/perfume-review-serge-lutens-serge-noire-janus-the-cloven-beast/",
+   "https://theblacknarcissus.com/2013/12/18/lenigme-de-lencens-japonais-serge-noire-de-serge-lutens-2008/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Lutens with Christopher Sheldrake, 2008. No official pyramid. Commonly cited: cloves, cinnamon, patchouli, incense, amber, dark woods (ebony). Reviewers often detect a cumin-like sweaty facet, not an official note."
+ },
+ {
+  "name": "Escale aux Marquises",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Amalfi Lemon",
+    "Blood Orange",
+    "Pink Pepper",
+    "Cardamom",
+    "Coriander"
+   ],
+   "heart": [
+    "Tiare Flower",
+    "Ginger",
+    "Cinnamon",
+    "Clove",
+    "Nutmeg"
+   ],
+   "base": [
+    "Elemi",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeshrine.blogspot.com/2010/05/dior-escale-aux-marquises.html",
+   "https://nstperfume.com/2010/06/24/christian-dior-escale-aux-marquises-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Escales de Dior, launched June 2010, third Escale after Portofino and Pondichéry. Flat list published, tiers distributed. Marketed as feminine, chunk hint said Unisex. Current availability unclear."
+ },
+ {
+  "name": "Only The Brave Street",
+  "brand": "Diesel",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Basil",
+    "Apple"
+   ],
+   "heart": [
+    "Cardamom",
+    "Licorice",
+    "Sea Notes"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumelive.com/a2020111108-diesel-only-the-brave-street-bydieselformen.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Only The Brave (2009). Year 2016 per Perfumelive, some retailers say 2018. 'Sea Notes' = marine accord. Retailers credit Nelly Hachem-Ruiz, not verified, left null."
+ },
+ {
+  "name": "Cherry in Japan",
+  "brand": "Escada",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Honorine Blanc",
+  "notes": {
+   "top": [
+    "Cherry"
+   ],
+   "heart": [
+    "Jasmine"
+   ],
+   "base": [
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.news-parfums.com/en/escada/42293-escada-cherry-in-japan-eau-de-toilette-3616302023813.html",
+   "https://www.musingsofamuse.com/2022/08/escada-cherry-in-japan-perfume-review.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Escada summer limited edition, spring 2022 (a few retailers say 2021). Inspired by Cherry in the Air and Sumida Park cherry blossoms. Brand claims 86% natural ingredients. Notes: sparkling cherry accord, jasmine petals, tonka."
+ },
+ {
+  "name": "Ocean di Gioia",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Citrus",
+    "Green Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Lily of the Valley",
+    "Rose",
+    "Salt"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/04/15/giorgio-armani-ocean-di-gioia-new-perfume/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Spring 2020, marks 10 years of Acqua di Gioia, follows Light di Gioia (2019). 'Jasmine' = water jasmine. Retailers credit Marypierre Julien and Sonia Constant, not confirmed in a source read, left null."
+ },
+ {
+  "name": "Vanille Santal",
+  "brand": "Reminiscence",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Céline Ripert",
+  "notes": {
+   "top": [
+    "Spices",
+    "Caramel"
+   ],
+   "heart": [
+    "Sandalwood",
+    "Cashmere Wood"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/vanille-santal-reminiscence.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "2020 EDT. Tendance Parfums files it under women, US retailers as unisex. Vanilla from Madagascar. A Dutch retailer reports it discontinued after the Reminiscence range revamp."
+ },
+ {
+  "name": "Higher Energy",
+  "brand": "Dior",
+  "year": 2003,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Juniper Berry",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Nutmeg",
+    "Incense",
+    "Pear"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/dior/1440/higher-energy"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2003 flanker of Higher (2001). Osmoz pyramid; olibanum = Incense. Dior copy highlights grapefruit, pepper, vetiver. Retailers credit Nathalie Gracia-Cetto and Carlos Viñals, not verified, left null."
+ },
+ {
+  "name": "Emporio Armani Elle",
+  "brand": "Giorgio Armani",
+  "year": 1998,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Lime",
+    "Mandarin",
+    "Pear",
+    "Bergamot"
+   ],
+   "heart": [
+    "Orris Root",
+    "Jasmine",
+    "Heliotrope",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Tonka Bean",
+    "Amber",
+    "Musk",
+    "Vanilla",
+    "Almond"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.promofarma.com/en/giorgio-armani-emporio-armani-elle-eau-de-parfum-50ml/p-491407"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Emporio Armani Lei / Elle / She / Ella, 1998 per retailers. Promofarma top also lists tuberose, base cedar (trimmed to 6 per tier). Escentual gives a short version: mandarin, pear / heliotrope, almond / vanilla, cedar. Perfumer not confirmed."
+ },
+ {
+  "name": "Hyperbole",
+  "brand": "Courrèges",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Lie, Jean Jacques",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Tobacco",
+    "Tonka Bean"
+   ],
+   "base": [
+    "Cocoa",
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.needsandmoods.com/hyperbole-courreges/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched autumn 2016, Takasago perfumers. Top white pepper, heart tobacco flower. Name refers to a 1971 Courrèges sportswear line. Notino lists it as EDP."
+ }
+]

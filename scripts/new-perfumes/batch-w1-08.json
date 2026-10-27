@@ -1,0 +1,415 @@
+[
+ {
+  "name": "Azzaro pour Elle",
+  "brand": "Azzaro",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin, Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Champagne",
+    "Cardamom",
+    "Orange",
+    "Mandarin"
+   ],
+   "heart": [
+    "Rose",
+    "Lily",
+    "Peach"
+   ],
+   "base": [
+    "Cashmere Wood",
+    "Sandalwood",
+    "Incense",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancenet.com/perfume/azzaro/azzaro-pour-elle/eau-de-parfum",
+   "https://www.perfumemaster.com/azzaro/azzaro-pour-elle-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2015 feminine EDP. Retailers agree on pyramid and perfumers. Champagne accord on top; 'Tangerine' mapped to Mandarin, 'olibanum' to Incense. Not the 2004 Azzaro Pour Elle (different composition)."
+ },
+ {
+  "name": "1 Million Royal",
+  "brand": "Paco Rabanne",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Parfum",
+  "perfumer": "Quentin Bisch, Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Lavender",
+    "Sage",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Benzoin",
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumania.com/products/paco-rabanne-1-million-royal-cologne-for-men",
+   "https://www.decanthouse.com/paco-rabanne-1-million-royal-samples",
+   "https://colognecurators.com/products/paco-rabanne-1-million-royal-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2023 flanker of 1 Million. Retailers disagree between Parfum and EDP; product name and several listings say Parfum. Majority pyramid used."
+ },
+ {
+  "name": "Angel Innocent",
+  "brand": "Mugler",
+  "year": 1998,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Black Currant",
+    "Red Berries",
+    "Almond"
+   ],
+   "base": [
+    "Praline",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragplace.com/en-US/fragrances/4911/mugler/innocent",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/angel-innocent-by-mugler-notes-longevity-review-complete-guide"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 1998 as Innocent, later sold as Angel Innocent. Perfumer credits conflict (Laurent Bruyere, Dominique Ropion), left null. Some retailers list a different heart."
+ },
+ {
+  "name": "Rose des Vents",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Green Notes"
+   ],
+   "heart": [
+    "Centifolia Rose",
+    "Rose",
+    "Iris"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://us.louisvuitton.com/eng-us/products/flacon-dexception-rose-des-vents-nvprod3350001v/LP0183",
+   "https://www.fragrancefragrance.com/fragrances/louis-vuitton-rose-des-vents"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Part of the first LV women's collection (2016). LV names centifolia rose absolute, Turkish and Bulgarian rose, Italian iris, Virginia cedar. Retailers add pepper and green notes; pyramid arranged by us."
+ },
+ {
+  "name": "Lady Million Fabulous",
+  "brand": "Paco Rabanne",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Tuberose",
+    "Jasmine",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancex.com/products/paco-rabanne/lady-million-fabulous-perfume",
+   "https://fashionforlunch.net/2021/05/paco-rabanne-lady-million-fabulous-review/",
+   "https://www.caretobeauty.com/us/paco-rabanne-lady-million-fabulous-eau-de-parfum-intense-80ml/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Parfum Intense, 2021. Some listings add a hot sand accord on top and solar notes in the heart."
+ },
+ {
+  "name": "For Her Pure Musc",
+  "brand": "Narciso Rodriguez",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Musk"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Cashmeran",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/12/07/narciso-rodriguez-pure-musc-for-her-new-fragrance/",
+   "https://beautyhouse.com/products/narciso-rodriguez-pure-musc-eau-de-parfum-for-women",
+   "https://scentsamples.uk.com/products/narciso-rodriguez-pure-musc-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Announced December 2018, on sale 2019. Brand pyramid: musk, white flowers, cashmeran. Musk repeated in base to reflect the musc heart of the line."
+ },
+ {
+  "name": "Rocabar",
+  "brand": "Hermès",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Artemisia",
+    "Coriander",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Violet",
+    "Carnation",
+    "Cardamom",
+    "Iris"
+   ],
+   "base": [
+    "Benzoin",
+    "Vanilla",
+    "Patchouli",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hermes/2880/rocabar",
+   "https://varanisridari.home.blog/2019/11/23/rocabar-by-hermes-1998/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Name from 'rocabar', Hermes striped horse blanket. Perfumer credits vary (Gilles Romey alone or with Jean-Claude Ellena and Bernard Bourgeois), left null. Some listings add juniper, cypress, cedar."
+ },
+ {
+  "name": "Eau des Jardins",
+  "brand": "Clarins",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Lemon",
+    "Orange",
+    "Bergamot"
+   ],
+   "heart": [
+    "Spearmint",
+    "Bay Leaf",
+    "Rose",
+    "Black Currant"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2010/08/06/clarins-eau-des-jardins-fragrance-review/",
+   "https://www.clarins.com.au/eau-des-jardins-treatment-fragrance/CS00767547.html",
+   "https://www.tendance-parfums.com/eau-des-jardins.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Clarins 'treatment fragrance' (eau de soin), 2010, sibling of Eau Dynamisante. Concentration given as EDT equivalent. Perfumer possibly Sophie Labbe, not confirmed, left null."
+ },
+ {
+  "name": "Ultraviolet",
+  "brand": "Paco Rabanne",
+  "year": 1999,
+  "gender": "Feminine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Pimento",
+    "Almond",
+    "Coriander",
+    "Brazilian Rosewood"
+   ],
+   "heart": [
+    "Violet",
+    "Osmanthus",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Amber",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://beautyhouse.com/products/paco-rabanne-ultraviolet-eau-de-parfum-for-women",
+   "https://www.fragrancex.com/products/paco-rabanne/ultraviolet-perfume",
+   "https://www.caretobeauty.com/us/paco-rabanne-ultraviolet-for-women-eau-de-parfum-80ml/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1999, purple bottle. Base varies by retailer. Ultraviolet Man followed in 2000."
+ },
+ {
+  "name": "Emporio Armani In Love With You",
+  "brand": "Giorgio Armani",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cherry",
+    "Raspberry",
+    "Black Currant"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Artemisia"
+   ],
+   "base": [
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://yakymour.wordpress.com/2018/12/10/emporio-armani-in-love-with-you-stronger-with-you-intensely/",
+   "https://nardinum.com/fragrance/emporio-armani-in-love-with-you-giorgio-armani"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Announced late 2018 as feminine counterpart of Stronger With You; some retailers say 2019. Perfumer credited to Cecile Matton or Anne Flipo depending on source, left null. Wormwood mapped to Artemisia. Base is a single patchouli note (some add vanilla)."
+ },
+ {
+  "name": "Héritage",
+  "brand": "Guerlain",
+  "year": 1992,
+  "gender": "Masculine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Pepper",
+    "Coriander"
+   ],
+   "heart": [
+    "Lavender",
+    "Rose",
+    "Patchouli"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Sandalwood",
+    "Vetiver",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Guerlain"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year and perfumer from Wikipedia (Jean-Paul Guerlain, 1992). Pyramid from general knowledge, not verified against a fetched source because the search budget ran out; check before publishing."
+ },
+ {
+  "name": "My Burberry Black",
+  "brand": "Burberry",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Peach"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Amber",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Francis_Kurkdjian"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year and perfumer from Kurkdjian's Wikipedia list of creations (My Burberry 2014, My Burberry Black 2016). Parfum concentration and notes (jasmine, peach nectar, rose petals, amber, patchouli) from general knowledge of the brand pyramid, not verified against a fetched source."
+ }
+]

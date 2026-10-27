@@ -1,0 +1,333 @@
+[
+ {
+  "name": "Angélique Noire",
+  "brand": "Guerlain",
+  "year": 2005,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Angelica",
+    "Pear",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Jasmine",
+    "Caraway"
+   ],
+   "base": [
+    "Vanilla",
+    "Angelica Root",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2005/12/13/cuir-beluga-rose-barbare-angelique-noire-guerlain-lart-et-la-matiere/",
+   "https://www.neimanmarcus.com/p/guerlain-lart-la-matiere-angelique-noire-eau-de-parfum-3-3-oz-prod250494205",
+   "https://www.scento.com/perfumes/angelique-noire-by-guerlain"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "L'Art et la Matière collection, launched 2005 with the reopening of the Champs-Élysées flagship. One source adds Sylvaine Delacourte as contributor; kept Daniela Andrier only. Tier placement of pear and caraway varies across retailers."
+ },
+ {
+  "name": "Hugo Energise",
+  "brand": "Hugo Boss",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Mandarin",
+    "Kumquat",
+    "Mint",
+    "Pink Pepper",
+    "Cardamom"
+   ],
+   "heart": [
+    "Juniper",
+    "Clary Sage",
+    "Nutmeg",
+    "Coriander",
+    "Jasmine",
+    "Freesia"
+   ],
+   "base": [
+    "Leather",
+    "Vanilla",
+    "Teak"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.leparfumier.com/en/hugo-boss-hugo-energise-for-men-eau-de-toilette.html",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/hugo-energise-by-hugo-boss-notes-longevity-review-complete-guide",
+   "https://www.maxaroma.com/fragrance/men-fragrances/hugo-boss-hugo-energise-for-men/pid/7925/locale"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2005 per retailers. Some retailers credit Claude Dir; not confirmed by brand or press, so perfumer left null. Pineapple leaf also listed in top. Current availability unverified."
+ },
+ {
+  "name": "Yes I Am Delicious",
+  "brand": "Cacharel",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc, Alexis Grugeon",
+  "notes": {
+   "top": [
+    "Cacao",
+    "Hazelnut",
+    "Cardamom",
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Chocolate",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.macys.com/shop/product/yes-i-am-delicious-eau-de-parfum-fragrance-collection?ID=14266467",
+   "https://www.scentinthecity.com/products/yes-i-am-delicious-by-cacharel",
+   "https://www.caretobeauty.com/us/cacharel-yes-i-am-delicious-eau-de-parfum-30ml/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Yes I Am (2018). Retailers place chocolate/hazelnut in slightly different tiers; some add gardenia. 'Chocolate' stands for the dark chocolate accord."
+ },
+ {
+  "name": "Yes I Am Pink First",
+  "brand": "Cacharel",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Pear"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ginger Lily",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Milk",
+    "Cardamom",
+    "Ambroxan",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://leparfumier.com/en/products/cacharel-yes-i-am-pink-first-for-women-eau-de-parfum",
+   "https://www.perfume.com/cacharel/yes-i-am-pink-first/women-perfume",
+   "https://beautyhouse.com/products/cacharel-yes-i-am-pink-first-eau-de-parfum-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Yes I Am, 2019 (one listing says 2020). Perfumer not found. Note lists vary between retailers; 'Ginger Lily' stands for ginger flower. Some list pink pepper top and cedar base."
+ },
+ {
+  "name": "Lacoste pour Homme",
+  "brand": "Lacoste",
+  "year": 2002,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Plum",
+    "Apple",
+    "Grapefruit",
+    "Bergamot"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Pink Pepper",
+    "Cardamom",
+    "Juniper"
+   ],
+   "base": [
+    "Vanilla",
+    "Rum",
+    "Labdanum",
+    "Sandalwood",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://leparfumier.com/en/products/lacoste-pour-homme-for-men-eau-de-toilette",
+   "https://decantboutique.com/product/lacoste-pour-homme-edt/",
+   "https://www.caretobeauty.com/us/lacoste-pour-homme-eau-de-toilette-50ml/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2002 EDT, notes consistent across retailers. Several retailers credit Claude Dir; not confirmed by brand or press, so left null."
+ },
+ {
+  "name": "Eau de Givenchy",
+  "brand": "Givenchy",
+  "year": 1980,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit",
+    "Mandarin",
+    "Mint"
+   ],
+   "heart": [
+    "Honeysuckle",
+    "Jasmine",
+    "Rose",
+    "Lily of the Valley",
+    "Tuberose",
+    "Cyclamen"
+   ],
+   "base": [
+    "Sandalwood",
+    "Oakmoss",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/848/eau-de-givenchy",
+   "https://www.wikiparfum.com/en/fragrances/eau-de-givenchy-1",
+   "https://www.perfumemaster.com/givenchy/eau-de-givenchy-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1980 original feminine EDT. Databases credit Daniel Molière and Daniel Hoffmann; not confirmed by brand or press, so left null. Note lists vary (some add orris, narcissus, ylang-ylang, basil). Do not confuse with later citrus releases under the same name."
+ },
+ {
+  "name": "Olympéa Legend",
+  "brand": "Paco Rabanne",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Loc Dong",
+  "notes": {
+   "top": [
+    "Plum",
+    "Apricot",
+    "Sea Salt"
+   ],
+   "heart": [
+    "Floral Notes",
+    "Ginger Lily"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Sand",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumemaster.com/paco-rabanne/olympea-legend-womens-perfume",
+   "https://www.fragrancex.com/products/paco-rabanne/olympea-legend-perfume",
+   "https://theperfumedcourt.com/products/pacoolympealegend"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Olympéa (2015). Perfumer credit from retailers (consistent). 'Ginger Lily' stands for ginger flower; 'Sand' is the brand's warm sand accord."
+ },
+ {
+  "name": "Fever",
+  "brand": "Jimmy Choo",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson, Honorine Blanc",
+  "notes": {
+   "top": [
+    "Plum",
+    "Lychee",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Vanilla Orchid",
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Benzoin",
+    "Sandalwood",
+    "Coffee",
+    "Hazelnut"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/fever-eau-de-parfum/5064013",
+   "https://www.macys.com/shop/product/jimmy-choo-fever-eau-de-parfum-fragrance-collection?ID=6650637",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/jimmy-choo-fever-notes-longevity-review-complete-guide"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Plum is listed as black plum; tonka as roasted tonka. Some listings omit coffee and hazelnut."
+ },
+ {
+  "name": "Aqua Allegoria Pamplelune",
+  "brand": "Guerlain",
+  "year": 1999,
+  "gender": "Feminine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Bergamot"
+   ],
+   "heart": [
+    "Cassia",
+    "Petitgrain",
+    "Neroli"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2012/07/guerlain-aqua-allegoria-pamplelune-fragrance-review.html",
+   "https://cafleurebon.com/cafleurebon-modern-masterpieces-guerlain-aqua-allegoria-pamplelune-mathilde-laurent-1999th-inconstant-moon/",
+   "https://leparfumier.com/en/products/guerlain-aqua-allegoria-pamplelune-for-women-eau-de-toilette"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Mathilde Laurent's early work at Guerlain; one retailer also credits Jean-Paul Guerlain. Black currant bud facet mentioned by reviewers. Still sold."
+ }
+]

@@ -1,0 +1,676 @@
+[
+ {
+  "name": "Idôle L'Intense",
+  "brand": "Lancôme",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Shyamala Maisondieu, Adriana Medina-Baez, Nadège Le Garlantezec",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Sandalwood",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/lancome/idole-lintense-eau-de-parfum-for-women/p-16049376/",
+   "https://www.bloompharmacy.com/products/lancome-idole-lintense-edp-intense-for-women-25ml",
+   "https://scentverdict.com/perfume/lancome-idole-lintense-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Chunk name 'Idôle Intense' read as Idôle L'Intense (2020), the intense EDP of Idôle. Not to be confused with Idôle Power Eau de Parfum Intense (2024, Olivia Rodrigo campaign). Base lists vary between retailers (some add cashmere wood and acacia)."
+ },
+ {
+  "name": "Colonia Oud",
+  "brand": "Acqua di Parma",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Cologne",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Orange"
+   ],
+   "heart": [
+    "Oud",
+    "Coriander",
+    "Amyris"
+   ],
+   "base": [
+    "Cedar",
+    "Indonesian Patchouli",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.faces.sa/en/p/acqua-di-parma-colonia-oud-concentree-eau-de-cologne-PM_ACQUA_DI_PARMA_Colonia_Oud_EDC.html",
+   "https://nstperfume.com/2012/07/01/acqua-di-parma-colonia-intensa-oud-new-fragrance",
+   "https://osmoz.com/perfumes/acqua-di-parma/6816/colonia-intensa-oud"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Colonia Oud Eau de Cologne Concentrée, first named Colonia Intensa Oud (2012), flanker of Colonia Intensa. Marketed mostly to men; gender kept Unisex per dataset hint. Perfumer not confirmed."
+ },
+ {
+  "name": "Chergui",
+  "brand": "Serge Lutens",
+  "year": 2001,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Immortelle",
+    "Hay",
+    "Rose"
+   ],
+   "heart": [
+    "Honey",
+    "Tobacco",
+    "Incense",
+    "Musk"
+   ],
+   "base": [
+    "Amber",
+    "Sandalwood",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.notino.fr/serge-lutens/collection-noir-chergui-eau-de-parfum-mixte/",
+   "https://www.theperfumeshop.com/serge-lutens/chergui/eau-de-parfum-spray/p/15460EDPJU",
+   "https://kafkaesqueblog.com/2013/01/13/perfume-review-serge-lutens-chergui-the-desert-wind/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2001 as a Palais Royal exclusive, export range from 2005. House lists only immortelle, Russian leather and hay; Notino lists hay, pelargonium, rose, honey, musk, incense, tobacco, amber, sandalwood. Pyramid merged. Named after the hot desert wind of Morocco."
+ },
+ {
+  "name": "Apogée",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Orange"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Jasmine",
+    "Magnolia",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Guaiac Wood",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.buro247.my/?p=39605",
+   "https://thesnifftest.co.uk/louis-vuitton/louis-vuitton-apogee/",
+   "https://scentadvice.com/apogee-2016-louis-vuitton/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "One of the seven launch perfumes of Les Parfums Louis Vuitton (2016), composed in Grasse by Jacques Cavallier Belletrud. Léa Seydoux fronted the collection campaign. Lily of the valley soliflore style; top citrus less documented."
+ },
+ {
+  "name": "Terre d'Hermès Eau Givrée",
+  "brand": "Hermès",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Fresh Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Citron",
+    "Juniper Berries"
+   ],
+   "heart": [
+    "Timut Pepper"
+   ],
+   "base": [
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://sephora.ae/en/p/terre-d'hermès-eau-givrée-eau-de-parfum-refillable-spray-P10025990.html",
+   "https://www.sephora.com/product/P500469",
+   "https://www.wantedonline.co.za/fashion-and-grooming/2022-10-26-fragrance-a-redefinition-of-freshness/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Hermès publishes only three key notes: citron (cédrat), juniper berry, Timut pepper. Woody base inferred from the Terre d'Hermès line (Selfridges copy). Refillable bottle."
+ },
+ {
+  "name": "Chrome Pure",
+  "brand": "Azzaro",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Pescheux, Jacques Huclier",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Aquatic Notes",
+    "Orange Blossom",
+    "Akigalawood"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Mate",
+    "White Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/news/the-new-azzaro-composition-chrome-pure",
+   "https://www.notino.fr/azzaro/chrome-pure-eau-de-toilette-pour-homme/",
+   "https://www.maxaroma.com/fragrance/men-fragrances/azzaro-chrome-pure/pid/31945/3"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Notino and Parfumo date it 2017 (one retailer says 2016). Flanker of Chrome (1996). Notino lists the product as no longer sold in some sizes; availability unclear."
+ },
+ {
+  "name": "Narciso Rouge",
+  "brand": "Narciso Rodriguez",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Rose",
+    "Iris"
+   ],
+   "heart": [
+    "Musk"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vetiver",
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/02/20/narciso-rodriguez-narciso-rouge-new-fragrance/",
+   "https://hr.fashionnetwork.com/news/Narciso-Rodriguez-channels-fiery-sensuality-with-Narciso-Rouge-fragrance,981549.html",
+   "https://lookfantastic.fr/p/narciso-rodriguez-narciso-rouge-eau-de-parfum-50ml/12127914"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Narciso (2014) after Narciso Poudrée (2016). Bulgarian rose and iris top, musk heart. Perfumer attribution conflicting (one site names Sonia Constant and Nadège Le Garlantezec), left null. An EDT version followed; this sheet describes the EDP."
+ },
+ {
+  "name": "Diva",
+  "brand": "Ungaro",
+  "year": 1983,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Rosewood",
+    "Bergamot",
+    "Mandarin",
+    "Hyacinth"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Tuberose",
+    "Iris"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Patchouli",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/ungaro/2243/diva",
+   "https://perfumeintelligence.co.uk/library/perfume/u/houses/Ungaro.htm",
+   "https://nstperfume.com/2008/04/10/ungaro-diva-and-paloma-picasso-mon-parfum-two-1980s-rose-chypres/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First Ungaro perfume, rose chypre of the 1980s. Osmoz gives 1983 and the pyramid; Perfume Intelligence adds patchouli and oakmoss to the base. Perfumer attribution inconsistent across sources, left null. Later flanker Diva Rose (2011)."
+ },
+ {
+  "name": "Extatic",
+  "brand": "Balmain",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Émilie Coppermann",
+  "notes": {
+   "top": [
+    "Rose",
+    "Osmanthus",
+    "Pear"
+   ],
+   "heart": [
+    "Orchid",
+    "Iris",
+    "Jasmine"
+   ],
+   "base": [
+    "Amyris",
+    "Sandalwood",
+    "Leather",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/pierre-balmain/extatic-eau-de-parfum-for-women/",
+   "https://nstperfume.com/2013/11/28/balmain-extatic-new-perfume",
+   "https://www.perfumeintelligence.co.uk/library/perfume/2017/17011/e6p4.htm"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched January 2014. Announcement lists crystalline rose, nashi pear, osmanthus, Sharry Baby orchid, iris, jasmine, amyris, cashmere wood, leather."
+ },
+ {
+  "name": "Seductive",
+  "brand": "Guess",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Véronique Nyberg",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Black Currant",
+    "Pear"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "Orris Root"
+   ],
+   "base": [
+    "Incense",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/guess/seductive-eau-de-toilette-for-women/",
+   "https://www.notino.fr/guess/seductive-eau-de-toilette-pour-femme/p-75333/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailer pyramid only (Notino UK and FR agree). Base listed as frankincense and vanilla."
+ },
+ {
+  "name": "Ralph's Club",
+  "brand": "Ralph Lauren",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Clary Sage",
+    "Lavandin"
+   ],
+   "heart": [
+    "Cedar"
+   ],
+   "base": [
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/06/23/ralph-lauren-ralphs-club-new-fragrance",
+   "https://www.wantedonline.co.za/fashion-and-grooming/2021-08-18-come-together-have-the-best-night-of-your-life-wearing-ralphs-club/",
+   "https://www.robbreport.com.sg/?p=101905"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "EDP launched 2021, inspired by the Roaring Twenties nightclub. Core notes lavandin, clary sage, Virginia cedar, vetiver. Some sites add Claire Liégent as co-perfumer and extra notes (cashmeran, geranium); kept core. A Parfum version followed (dataset merged page)."
+ },
+ {
+  "name": "La Vie est Belle en Rose",
+  "brand": "Lancôme",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Red Berries"
+   ],
+   "heart": [
+    "Peony",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.theperfumeshop.com/ie/lancome/la-vie-est-belle-en-rose/eau-de-toilette-spray/p/26740EDTJU",
+   "https://www.lookfantastic.fr/p/lancome-la-vie-est-belle-en-rose-eau-de-toilette-50ml/12034204"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailers give 2019 launch, notes red fruits, peony accord, rose essence, sandalwood oil, musk. Perfumers described as 'two leading French perfumers', not named."
+ },
+ {
+  "name": "Guimauve",
+  "brand": "Reminiscence",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citron"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Neroli"
+   ],
+   "base": [
+    "Vanilla",
+    "Almond",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.perfume.com/reminiscence/reminiscence-guimauve/women-perfume",
+   "https://scentverdict.com/perfume/reminiscence-guimauve-eau-de-parfum"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Note lists conflict strongly between sources (one lists lavender, mint, rosemary, pepper) and one source gives 2008. Skipped."
+ },
+ {
+  "name": "Un Bois Vanille",
+  "brand": "Serge Lutens",
+  "year": 2003,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Coconut",
+    "Almond",
+    "Licorice"
+   ],
+   "heart": [
+    "Black Vanilla",
+    "Beeswax",
+    "Benzoin"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Tonka Bean",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeintelligence.co.uk/library/perfume/l/houses/Lutens.htm",
+   "https://www.tendance-parfums.com/un-bois-vanille.html",
+   "https://kafkaesqueblog.com/2014/06/17/serge-lutens-un-bois-vanille/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "House does not publish notes. Perfume Intelligence lists coconut milk, black vanilla absolute, beeswax, caramelised benzoin, bitter almond paste, liquorice, guaiac wood, tonka, sandalwood. Pyramid inferred."
+ },
+ {
+  "name": "Noir pour Femme",
+  "brand": "Tom Ford",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Bitter Orange",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Kulfi",
+    "Rose",
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Sandalwood",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://kafkaesqueblog.com/2015/09/22/tom-ford-noir-pour-femme/",
+   "https://thecandyperfumeboy.com/2015/09/09/cafe-glamour-tom-ford-noir-pour-femme-perfume-review/",
+   "https://perfumania.com/products/noir-pour-femme-eau-de-parfum-spray-for-women-by-tom-ford"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Feminine counterpart of Noir (2012). Brand list: bitter orange oil, ginger extract, rose absolute, Indian kulfi, Madagascar vanilla, amber. Perfumer attribution conflicting, left null."
+ },
+ {
+  "name": "Aqua Allegoria Nettare di Sole",
+  "brand": "Guerlain",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Watery Notes",
+    "Bergamot"
+   ],
+   "heart": [
+    "Magnolia",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Honey"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.scentsangel.com/products/guerlain-aqua-allegoria-nettare-di-sole-eau-de-toilette",
+   "https://scentadvice.com/aqua-allegoria-nettare-di-sole-2021-guerlain/",
+   "https://escentual.com/products/guerlain-aqua-allegoria-nettare-di-sole-eau-de-toilette-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2021 Aqua Allegoria. Heart also lists 'solar notes' and jasmine sambac; Escentual simplifies to aquatic, bergamot, floral honey accord, musk."
+ },
+ {
+  "name": "Oriental Dream",
+  "brand": "Reminiscence",
+  "year": 2021,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ylang-Ylang",
+    "Cashmere Wood"
+   ],
+   "heart": [
+    "Clove",
+    "Benzoin",
+    "Incense"
+   ],
+   "base": [
+    "Oud",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/oriental-dream-eau-de-parfum-reminiscence.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Tendance Parfums gives 2021 and the pyramid; Notino lists the same notes. Shown out of stock at both retailers."
+ },
+ {
+  "name": "This is Him!",
+  "brand": "Zadig & Voltaire",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson, Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Black Pepper",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Incense",
+    "Vanilla"
+   ],
+   "base": [
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumeshop.com/zadig-voltaire/this-is-him/eau-de-toilette-spray/p/71430EDTJU",
+   "https://www.scento.com/fr/perfumes/this-is-him-zadig-voltaire",
+   "https://www.notino.fr/zadig-voltaire/this-is-him-eau-de-toilette-pour-homme/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2016 with This is Her!. Sandalwood base described as milky."
+ },
+ {
+  "name": "Rose The One",
+  "brand": "Dolce & Gabbana",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Grapefruit",
+    "Mandarin",
+    "Black Currant",
+    "Lily of the Valley"
+   ],
+   "heart": [
+    "Rose",
+    "Litchi",
+    "Peony",
+    "Madonna Lily"
+   ],
+   "base": [
+    "Ambrette",
+    "Sandalwood",
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2009/06/24/dolce-gabbana-rose-the-one-new-perfume/",
+   "https://jadof.com/en/perfume/dolce-gabbana-rose-the-one-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Rose-centred flanker of The One (2006), EDP 30/50/75 ml. NST gives a flat list; pyramid inferred. Perfumer not confirmed."
+ },
+ {
+  "name": "Very Good Girl",
+  "brand": "Carolina Herrera",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Louise Turner",
+  "notes": {
+   "top": [
+    "Red Currant",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Vetiver",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/01/12/carolina-herrera-very-good-girl-new-perfume",
+   "https://www.lyko.com/en/fragrance/womens-perfume/eau-de-parfum/carolina-herrera-very-good-girl-eau-de-parfum-50-ml",
+   "https://lookfantastic.com/p/carolina-herrera-very-good-girl-eau-de-parfum-80ml/12852282"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Good Girl (2016), launched February 2021 in the red-lacquered stiletto bottle."
+ }
+]

@@ -1,0 +1,366 @@
+[
+ {
+  "name": "Jeux de Peau",
+  "brand": "Serge Lutens",
+  "year": 2011,
+  "gender": "Unisex",
+  "family": "Woody Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Milk",
+    "Licorice",
+    "Apricot"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Immortelle",
+    "Spices"
+   ],
+   "base": [
+    "Sandalwood",
+    "Labdanum",
+    "Incense",
+    "Toasted Notes",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/serge-lutens-jeux-de-peau-my-journey-from-the-center-of-the-earth-urge-for-serge-dali-draw/",
+   "https://scentadvice.com/jeux-de-peau-2011-serge-lutens/",
+   "https://boisdejasmin.com/?p=380"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Previewed at the Palais-Royal salons on 1 Feb 2011, general release March 2011. House concept: the smell of warm bread crust. Published notes are a flat list (milk, bread, licorice, apricot, osmanthus, immortelle, frankincense, sandalwood, labdanum, toasted notes, amber); pyramid distributed. One listing wrongly gives 2006."
+ },
+ {
+  "name": "Mini Jupe",
+  "brand": "Courrèges",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean Jacques, Antoine Lie",
+  "notes": {
+   "top": [
+    "Watermelon",
+    "Mandarin",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Hazelnut",
+    "Sandalwood",
+    "Musk",
+    "Violet",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.journalduluxe.fr/fr/beaute/courreges-lance-mini-jupe-son-nouveau-parfum",
+   "https://nstperfume.com/2018/03/21/courreges-mini-jupe-new-perfume",
+   "https://www.tendance-parfums.com/en/mini-jupe-eau-de-parfum-courreges.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2018 launch (April), three-month Nocibé exclusive in France, 20/50/100 ml. Mandarin is described as candied. One retailer shows it as unavailable; status unclear."
+ },
+ {
+  "name": "Idole d'Armani",
+  "brand": "Giorgio Armani",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Bruno Jovanovic",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Clementine",
+    "Ginger",
+    "Davana",
+    "Pear"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Saffron"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Styrax",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://osmoz.com/perfumes/armani/661/idole-d-armani",
+   "https://nstperfume.com/2009/09/21/giorgio-armani-idole-darmani-fragrance-review/",
+   "https://scentverdict.com/perfume/giorgio-armani-idole-darmani-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Osmoz: 2009, EDP, Bruno Jovanovic (IFF), floral spicy. Rose is described as a loukoum rose. Some retailers add benzoin in the base. Reported discontinued; date not confirmed."
+ },
+ {
+  "name": "Eau de Rochas Fraîche",
+  "brand": "Rochas",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Michel Duriez",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "White Flowers",
+    "Iris"
+   ],
+   "base": [
+    "Liatrix",
+    "Oakmoss",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/06/15/rochas-eau-de-rochas-fraiche-new-fragrance/",
+   "https://www.osmoz.com/perfumes/rochas/1075/eau-de-rochas-fraiche"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released for the 40th anniversary of Eau de Rochas (1970, Nicolas Mamounas). Osmoz gives bergamot, lemon top and oakmoss, liatrix base; NST adds fresh notes, white flowers, iris and musk. Heart placement inferred. Liatrix gives a hay facet. Current availability not checked."
+ },
+ {
+  "name": "Dragée",
+  "brand": "Reminiscence",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Cardamom",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Almond Blossom",
+    "Orange Blossom",
+    "Plum",
+    "Sugared Almond"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/dragee-reminiscence.html",
+   "https://www.tendance-parfums.com/dragee-eau-de-parfum-vaporisateur-reminiscence-032.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Part of the Les Notes Gourmandes collection. Only an Eau de Parfum is listed. Year from a single retailer. Availability mixed: one listing calls it discontinued, a French retailer still sells it."
+ },
+ {
+  "name": "Fuel for Life Spirit",
+  "brand": "Diesel",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Fougère Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Cinnamon",
+    "Bergamot",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Geranium",
+    "Iris"
+   ],
+   "base": [
+    "Myrrh",
+    "Incense",
+    "Labdanum",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/diesel/7092/fuel-for-life-spirit",
+   "https://jadof.com/en/perfume/fuel-for-life-spirit-diesel-eau-de-toilette"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2013, EDT, Fabrice Pellegrin (Firmenich), oriental fougère. Flanker of Fuel for Life Homme (2007, Annick Menardo and Jacques Cavallier). Some retailers add apple, cashmeran and coumarin. Availability not checked."
+ },
+ {
+  "name": "Brit Rhythm",
+  "brand": "Burberry",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Juniper",
+    "Basil",
+    "Cardamom",
+    "Verbena"
+   ],
+   "heart": [
+    "Leather",
+    "Patchouli",
+    "Styrax"
+   ],
+   "base": [
+    "Cedar",
+    "Incense",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/burberry/brit-rhythm-eau-de-toilette-for-men/",
+   "https://www.lookfantastic.fr/p/burberry-brit-rhythym-eau-de-toilette-90ml/12586205"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brit Rhythm for Him, launched September 2013. Perfumer of the original EDT not confirmed (Dominique Ropion is credited for the later Intense only). Leather is a leather accord. Availability not checked."
+ },
+ {
+  "name": "Prada Amber (pour Femme)",
+  "brand": "Prada",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Oriental Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Carlos Benaim, Max Gavarry, Clément Gavarry",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Bitter Orange",
+    "Mandarin",
+    "Mimosa"
+   ],
+   "heart": [
+    "Rose",
+    "Patchouli",
+    "Pink Pepper"
+   ],
+   "base": [
+    "Labdanum",
+    "Benzoin",
+    "Tonka Bean",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/tag/carlos-benaim/page/18",
+   "https://www.notino.fr/prada/prada-amber-eau-de-parfum-pour-femme/",
+   "https://www.lookfantastic.de/p/prada-amber-eau-de-parfum-50ml/12271437"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Prada's first mainstream fragrance, launched 2004 as 'Prada' Eau de Parfum and later renamed Amber. Perfumer credit from a secondary source. Retailers list pink pepper or Peruvian pepper in the heart."
+ },
+ {
+  "name": "Pour Homme",
+  "brand": "Yves Saint Laurent",
+  "year": 1971,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Raymond Chaillan",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Lavender",
+    "Lemon Verbena",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Rosemary",
+    "Geranium",
+    "Clary Sage",
+    "Carnation",
+    "Brazilian Rosewood"
+   ],
+   "base": [
+    "Vetiver",
+    "Patchouli",
+    "Cedar",
+    "Sandalwood",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://museeyslparis.com/en/biography/lancement-des-parfums-rive-gauche-et-pour-homme",
+   "https://persolaise.com/?p=5271",
+   "https://scentverdict.com/perfume/yves-saint-laurent-yves-saint-laurent-pour-homme-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First YSL masculine, launched 1971 alongside Rive Gauche. Perfumer Raymond Chaillan per several sources. Classified as aromatic citrus by some, woody aromatic by others. Marjoram also listed in the heart by one source. Current availability unclear."
+ },
+ {
+  "name": "Bois des Îles",
+  "brand": "Chanel",
+  "year": 1926,
+  "gender": "Feminine",
+  "family": "Woody Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Ernest Beaux",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Coriander"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Iris",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bois_des_%C3%8Eles",
+   "https://kafkaesqueblog.com/2013/04/20/perfume-review-chanel-bois-des-iles-les-exclusifs-out-of-africa/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1926, Coco Chanel with Ernest Beaux; Chanel calls it the first woody fragrance for women. Reissued in Les Exclusifs de Chanel in 2007 (Jacques Polge); concentration given for the current Les Exclusifs version, not verified against chanel.com. Notes from Wikipedia's flat list, pyramid inferred."
+ }
+]

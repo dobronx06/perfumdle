@@ -1,0 +1,725 @@
+[
+ {
+  "name": "Antaeus",
+  "brand": "Chanel",
+  "year": 1981,
+  "gender": "Masculine",
+  "family": "Leather",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Clary Sage",
+    "Coriander",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Thyme",
+    "Basil"
+   ],
+   "base": [
+    "Castoreum",
+    "Leather",
+    "Cistus",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Antaeus_(perfume)",
+   "https://fragplace.com/en/fragrances/35707/chanel/antaeus"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Wikipedia gives family leather chypre and the short pyramid used here. Retailers add oakmoss, labdanum, myrtle and lime. Still in Chanel's men's line."
+ },
+ {
+  "name": "Elle",
+  "brand": "Yves Saint Laurent",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier, Olivier Cresp",
+  "notes": {
+   "top": [
+    "Litchi",
+    "Peony",
+    "Amalfi Lemon"
+   ],
+   "heart": [
+    "Pink Pepper",
+    "Rose",
+    "Jasmine",
+    "Freesia"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Cedar",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumania.com/products/elle-by-yves-saint-laurent-for-women-eau-de-parfum-spray",
+   "https://www.decantx.com/products/yves-saint-laurent-elle-eau-de-parfum-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailer pyramids agree. One review page gives a different pyramid (ginger, raspberry), ignored. Availability limited in recent years."
+ },
+ {
+  "name": "La Petite Robe Noire Intense",
+  "brand": "Guerlain",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Blueberry",
+    "Raspberry"
+   ],
+   "heart": [
+    "Rose",
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Patchouli",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://guerlain.com/ca/en-ca/p/la-petite-robe-noire-eau-de-parfum-intense-P014565.html",
+   "https://www.selfridges.com/NL/en/cat/guerlain-la-petite-robe-noire-intense-eau-de-parfum_397-77002296-G013198/",
+   "https://jadof.com/en/news/guerlain-the-intense-little-black-dress"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Intense, 2016. Guerlain describes blueberry and raspberry around a rose, bergamot, white musk and a sandalwood patchouli accord. Perfumer credit varies (Wasser in some sources, Jelk quoted by Guerlain). Some retailers add candyfloss and strawberry."
+ },
+ {
+  "name": "Magnetism",
+  "brand": "Escada",
+  "year": 2003,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Black Currant",
+    "Melon",
+    "Red Berries",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Magnolia",
+    "Iris",
+    "Freesia",
+    "Heliotrope"
+   ],
+   "base": [
+    "Caramel",
+    "Vanilla",
+    "Amber",
+    "Sandalwood",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/escada/magnetism-eau-de-parfum-for-women/",
+   "https://fragrancecart.com/product/escada-magnetism-edp-for-women/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailer lists are long (almond blossom, basil, caraway, vetiver, coconut also cited); trimmed to the recurring notes. Perfumer credits not confirmed from an allowed source, left null. Classification varies (sweet oriental vs floral chypre)."
+ },
+ {
+  "name": "Boucheron pour Homme",
+  "brand": "Boucheron",
+  "year": 1991,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Deleamont, Jean-Pierre Bethouart, Raymond Chaillan",
+  "notes": {
+   "top": [
+    "Citron",
+    "Lemon Verbena",
+    "Bergamot",
+    "Lavender",
+    "Orange",
+    "Basil"
+   ],
+   "heart": [
+    "Carnation",
+    "Rose",
+    "Jasmine",
+    "Ylang-Ylang",
+    "Lily of the Valley",
+    "Orris Root"
+   ],
+   "base": [
+    "Oakmoss",
+    "Vetiver",
+    "Sandalwood",
+    "Incense",
+    "Benzoin",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/boucheron-pour-homme.html",
+   "https://www.notino.fr/boucheron/pour-homme-eau-de-parfum-pour-homme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Exists as EDT and EDP; EDP described here. Tendance Parfums: hesperide boise aromatique, bottle references the Reflet watch. Third perfumer (Chaillan) cited by one source only. Base also lists musk and amber."
+ },
+ {
+  "name": "Sakura",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Almond"
+   ],
+   "heart": [
+    "Cherry Blossom",
+    "Rose",
+    "Jasmine",
+    "Hedione"
+   ],
+   "base": [
+    "Mimosa",
+    "Violet",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://dior.com/en_int/products/beauty-Y0749427-product",
+   "https://www.decantx.com/products/christian-dior-sakura-eau-de-parfum-unisex",
+   "https://thefemin.com/2018/06/dior-la-collection-privee-perfume-collection/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privee Christian Dior. Dior sells it as unisex (chunk hint said feminine). Year 2018 from retailers and a June 2018 article; no Dior press release found. Almond comes from Dior's own description, added to top (pyramid partly inferred)."
+ },
+ {
+  "name": "Patchouli Elixir",
+  "brand": "Reminiscence",
+  "year": 2007,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Patchouli",
+    "Cedar"
+   ],
+   "heart": [
+    "Vetiver",
+    "Sandalwood"
+   ],
+   "base": [
+    "Labdanum",
+    "Vanilla",
+    "Tonka Bean",
+    "Tolu Balm",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2013/12/07/reminiscence-patchouli-elixir-de-patchouli/",
+   "https://www.sephora.fr/p/le-patchouli-elixir---eau-de-parfum-P1000203320.html",
+   "https://www.tendance-parfums.com/reminiscence-elixir-patchouli.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold today as Le Patchouli Elixir, earlier as Elixir de Patchouli. Kafkaesque gives 2007; Tendance Parfums lists 2015 (likely a repackaging). Brand says same notes as the Patchouli EDT, richer; notes taken from the EDT list, so pyramid inferred."
+ },
+ {
+  "name": "La Femme",
+  "brand": "Prada",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Magnolia",
+    "Bergamot",
+    "Carrot Seeds"
+   ],
+   "heart": [
+    "Frangipani",
+    "Tuberose",
+    "Ylang-Ylang",
+    "Iris"
+   ],
+   "base": [
+    "Beeswax",
+    "Vanilla",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nuvomagazine.com/magazine/winter-2016/lhomme-prada-and-la-femme-prada",
+   "https://www.fragrancesline.com/products/prada-la-femme-fragrance-sample",
+   "https://www.notino.co.uk/prada/la-femme-eau-de-parfum-for-women/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2016 with L'Homme Prada, Puig licence. Frangipani is the lead note. Some retailers place beeswax and vanilla in the heart."
+ },
+ {
+  "name": "Eau de Citron Noir",
+  "brand": "Hermès",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Lime"
+   ],
+   "heart": [
+    "Black Lime",
+    "Black Tea",
+    "Citron"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Cabreuva"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://thecandyperfumeboy.com/2018/05/07/perfume-review-eau-de-citron-noir-by-hermes/",
+   "https://nstperfume.com/2018/03/23/hermes-eau-de-citron-noir-new-fragrance",
+   "https://www.harveynichols.com/hermes/eau-de-citron-noir---eau-de-cologne-100ml-684214-153589"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Nagel's second cologne for Hermes after Eau de Rhubarbe Ecarlate (2016). Built on loomi (dried black lime). Hermes official copy: lemon, woody black tea, smoky guaiac wood. Cabreuva cited by one review."
+ },
+ {
+  "name": "Rochas Man",
+  "brand": "Rochas",
+  "year": 1999,
+  "gender": "Masculine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Maurice Roucel",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lavender"
+   ],
+   "heart": [
+    "Coffee",
+    "Jasmine",
+    "Cedar"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Patchouli",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/rochas-man-edt.html",
+   "https://www.notino.co.uk/rochas/rochas-man-eau-de-toilette-for-men/p-61005/",
+   "https://surrendertochance.com/rochas-man/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Built on a lavender versus coffee (mocha) contrast. Some sources add raspberry and lily of the valley in the heart."
+ },
+ {
+  "name": "Amarige",
+  "brand": "Givenchy",
+  "year": 1991,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Peach",
+    "Mandarin",
+    "Neroli",
+    "Violet",
+    "Plum",
+    "Rosewood"
+   ],
+   "heart": [
+    "Gardenia",
+    "Mimosa",
+    "Tuberose",
+    "Ylang-Ylang",
+    "Jasmine",
+    "Carnation"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Musk",
+    "Sandalwood",
+    "Amber",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumeposse.com/2018/06/14/amarige-givenchy-review/",
+   "https://www.superdrug.com/fragrance/perfume-for-women/womens-perfume/givenchy-amarige-eau-de-toilette-100ml/p/mp-00027520",
+   "https://www.parfumdreams.ie/GIVENCHY/Womens-fragrances/Amarige/Eau-de-Toilette-Spray/index_16258.aspx"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Name is an anagram of mariage. Some sources co-credit Jean-Louis Sieuzac. Heart also lists cassia and black locust (acacia)."
+ },
+ {
+  "name": "Invictus Victory",
+  "brand": "Paco Rabanne",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Lavender",
+    "Incense"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://eu.lookfantastic.com/p/paco-rabanne-invictus-victory-extreme-eau-de-parfum-200ml/13026064/",
+   "https://www.sephora.ch/fr/p/paco-rabanne---invictus-victory-541833.html",
+   "https://en.wikipedia.org/wiki/Rabanne_(fashion_house)"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as an Eau de Parfum Extreme. Distinct from Invictus Victory Elixir (2023). Perfumer credits not found in allowed sources."
+ },
+ {
+  "name": "La Fille de l'Air",
+  "brand": "Courrèges",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Neroli"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Neoprene Accord"
+   ],
+   "base": [
+    "White Musk",
+    "Ambroxan",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/03/27/courreges-la-fille-de-lair/",
+   "https://www.yonder.fr/news/autres/lancement-du-nouveau-parfum-courreges-en-partenariat-avec-airfrance-la-fille-de-lair",
+   "https://www.druni.es/eau-de-parfum-courreges-la-fille-de-lair-courreges-unisex"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched March 2015, first sold exclusively on Air France flights. Neoprene accord cited by NST. Reportedly reformulated for EU compliance around 2021. Flanker La Fille de l'Air Iris (2017)."
+ },
+ {
+  "name": "Legend Spirit",
+  "brand": "Montblanc",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Lavender",
+    "Cardamom",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Oakmoss",
+    "White Musk",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.journalduluxe.fr/fr/beaute/montblanc-devoile-son-nouveau-parfum-legend-spirit",
+   "https://www.decantx.com/products/montblanc-legend-spirit-eau-de-toilette-for-men",
+   "https://www.theperfumeshop.com/montblanc/legend-spirit/eau-de-toilette-spray/p/1172147"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Montblanc Legend (2011). Perfumer not credited in sources read. The Perfume Shop gives a divergent base (sandalwood, tonka)."
+ },
+ {
+  "name": "Dahlia Divin",
+  "brand": "Givenchy",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Mirabelle Plum",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Jasmine Sambac",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumania.com/products/givenchy-dahlia-divin-womens-eau-de-parfume",
+   "https://www.notino.co.uk/givenchy/dahlia-divin-eau-de-parfum-for-women/",
+   "https://larose.az/en/product/givenchy-dahlia-divin"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "EDP 2014, Demachy. An EDT followed. Retailers describe fruity floral woody; some add citrus on top."
+ },
+ {
+  "name": "Mémoire d'une Odeur",
+  "brand": "Gucci",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Aromatic Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Roman Chamomile",
+    "Bitter Almond"
+   ],
+   "heart": [
+    "Indian Coral Jasmine",
+    "Musk"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.culturewhisper.com/amp/beauty/gucci_memoire_dune_odeur/14063",
+   "https://buro247.me/?p=26025",
+   "https://www.bloomingdales.com/shop/product/gucci-memoire-dune-odeur-eau-de-parfum?ID=3528245"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Gucci presented it as a new 'mineral aromatic' family under Alessandro Michele. Morillas cites a musky mineral accord. Bitter almond appears in later retail listings."
+ },
+ {
+  "name": "Métallique",
+  "brand": "Tom Ford",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Hawthorn",
+    "Lily of the Valley",
+    "Heliotrope"
+   ],
+   "base": [
+    "Ambrette",
+    "Peru Balsam",
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thezoereport.com/p/tom-fords-new-metallique-fragrance-is-the-perfect-transition-scent-for-fall-heres-why-18214396",
+   "https://en.parfumdreams.de/Tom-Ford/Fragrance/Signature/Eau-de-Parfum-Spray/index_86832.aspx",
+   "https://www.notino.fr/tom-ford/metallique-eau-de-parfum-pour-femme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Signature line, described as Tom Ford's first floral aldehyde. Launched autumn 2018 (one retailer says 2019). Perfumer not credited in sources read. Often reported as discontinued in some markets; not confirmed."
+ },
+ {
+  "name": "Velvet Orchid",
+  "brand": "Tom Ford",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Honey",
+    "Rum",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Orchid",
+    "Jasmine",
+    "Rose",
+    "Magnolia",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Suede",
+    "Myrrh",
+    "Sandalwood",
+    "Labdanum",
+    "Peru Balsam",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sandrascloset.com/?p=102106",
+   "https://www.escentual.com/tom-ford/tomford008/",
+   "https://perfumania.com/products/velvet-orchid-eau-de-parfum-spray-for-women-and-men-by-tom-ford"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Signature line, conceived as a softer companion to Black Orchid (2006). Perfumer not credited in sources read."
+ },
+ {
+  "name": "Jungle pour Homme",
+  "brand": "Kenzo",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Lime",
+    "Mate"
+   ],
+   "heart": [
+    "Ambrette",
+    "Nutmeg",
+    "Cardamom"
+   ],
+   "base": [
+    "Benzoin",
+    "Guaiac Wood",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/1044/kenzo-jungle-pour-homme",
+   "https://www.tendance-parfums.com/kenzo-jungle-homme.html",
+   "https://scentverdict.com/perfume/kenzo-kenzo-jungle-homme-eau-de-toilette"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: woody spicy, 1998, lime and mate top, ambrette and nutmeg heart, benzoin guaiac and cedar base. Cardamom from other retailers. Companion to Jungle L'Elephant (1996). Bottle redesigned over time."
+ },
+ {
+  "name": "Starwalker",
+  "brand": "Montblanc",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Bamboo",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Elemi",
+    "Nutmeg",
+    "Ginger"
+   ],
+   "base": [
+    "Amber",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.notino.co.uk/mont-blanc/starwalker-eau-de-toilette-for-men/",
+   "https://lookfantastic.com/p/montblanc-starwalker-eau-de-toilette-spray-50ml/10546650",
+   "https://www.tendance-parfums.com/montblanc-starwalker.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Named after Montblanc's Starwalker pen line. Notino: 2005, Michel Almairac. Some lists add fir resin and cedar."
+ }
+]

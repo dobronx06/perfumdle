@@ -1,0 +1,231 @@
+[
+ {
+  "name": "31 Rue Cambon",
+  "brand": "Chanel",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Bergamot",
+    "Pepper"
+   ],
+   "heart": [
+    "Iris",
+    "Rose",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Patchouli",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2007/04/chanel-31-rue-cambon-perfume-review.html",
+   "https://www.harrods.com/en-us/p/chanel-31-rue-cambon-les-exclusifs-eau-de-parfum-200ml-000000000005408170",
+   "https://www.envie2parfum.fr/chanel/eau-de-parfum/31-rue-cambon-les-exclusifs-de-chanel"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, launched 2007 as an Eau de Toilette; the collection is now sold as Eau de Parfum (some retailers date the EDP 2016). 'Labdanum' covers cistus/labdanum. Pepper is black pepper. Some sources add vetiver or oakmoss."
+ },
+ {
+  "name": "Jeanne Lanvin",
+  "brand": "Lanvin",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blackberry",
+    "Pear",
+    "Lemon"
+   ],
+   "heart": [
+    "Peony",
+    "Raspberry",
+    "Freesia",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.leparfumier.com/en/lanvin-jeanne-lanvin-for-women-eau-de-parfum.html",
+   "https://www.theperfumegirl.com/perfumes/fragrances/lanvin/jeanne-lanvin-perfume/",
+   "https://perfumeposse.com/2008/10/12/jeanne-lanvin-fragrance-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched July 2008 in France, bottle under Alber Elbaz. Retailers credit Anne Flipo but this was not confirmed by press, so perfumer left null. Rose appears only in some listings. Reviews describe it as light for an EDP."
+ },
+ {
+  "name": "The Most Wanted",
+  "brand": "Azzaro",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger"
+   ],
+   "heart": [
+    "Woody Notes",
+    "Toffee"
+   ],
+   "base": [
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.ulta.com/p/most-wanted-parfum-pimprod2032753?sku=2595944",
+   "https://www.macys.com/shop/product/azzaro-mens-the-most-wanted-parfum-fragrance-collection?ID=13904895",
+   "https://www.sephora.com/product/the-most-wanted-parfum-P503815"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Describes The Most Wanted Parfum (2022), since the EDP Intense (2021) already exists in the dataset. Official key notes: red ginger, incandescent woods accord, bourbon vanilla; toffee comes from the marketing copy and is placed in the heart. Only three to four published notes, so tiers are thin. Perfumers credited only by one database, left null."
+ },
+ {
+  "name": "My Way Intense",
+  "brand": "Giorgio Armani",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Carlos Benaim",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Tuberose"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.macys.com/shop/product/armani-my-way-intense-eau-de-parfum-fragrance-collection?ID=12558899",
+   "https://www.fragrancex.com/products/giorgio-armani/giorgio-armani-my-way-intense-perfume",
+   "https://fragrancemarket.com/products/my-way-intense-eau-de-parfum-for-women-by-giorgio-armani"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of My Way (2020). Retailers credit Carlos Benaim only. Indian tuberose, New Caledonian sandalwood, Madagascar vanilla per Macy's copy. Heart has a single published note."
+ },
+ {
+  "name": "Yes I Am Glorious",
+  "brand": "Cacharel",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "White Peach",
+    "Mandarin"
+   ],
+   "heart": [
+    "Magnolia",
+    "White Flowers"
+   ],
+   "base": [
+    "Milk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.prnewswire.com/news-releases/yes-i-am-glorious-by-cacharel-the-new-fragrance-for-women-301372835.html",
+   "https://nstperfume.com/2021/01/26/cacharel-yes-i-am-glorious-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Fourth fragrance of the Yes I Am line. Europe launch early 2021, US press release September 2021. 'Milk' stands for the brand's milkshake accord. Some retailers list frangipani, tiare and white cedar instead. Perfumer not found."
+ },
+ {
+  "name": "Mademoiselle Azzaro",
+  "brand": "Azzaro",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Karine Dubreuil",
+  "notes": {
+   "top": [
+    "Peach",
+    "Mandarin"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Iris",
+    "Woody Notes",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/perfume/mademoiselle-azzaro-azzaro-eau-de-toilette",
+   "https://www.maxaroma.com/fragrance/women/azzaro-mademoiselle/pid/31931/5",
+   "https://perfume-boutique.net/products/mademoiselle-by-azzaro-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year conflict 2015 vs 2016 between sources; 2015 kept. 'Mandarin' is mandarin blossom; base is a 'woody ambery orris accord'. Perfumer Karine Dubreuil-Sereni."
+ },
+ {
+  "name": "Pure Poison",
+  "brand": "Dior",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Carlos Benaim, Dominique Ropion, Olivier Polge",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Orange"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "Gardenia"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Poison_(perfume)"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Wikipedia confirms year, the three perfumers and bergamot, jasmine, sandalwood, orange blossom, white musk, amber. Mandarin, orange and gardenia are added from widely published brand copy and not re-verified (search budget exhausted). Musk is white musk."
+ }
+]

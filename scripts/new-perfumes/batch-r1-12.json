@@ -1,0 +1,663 @@
+[
+ {
+  "name": "Catch Me",
+  "brand": "Cacharel",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Almond Milk",
+    "Jasmine"
+   ],
+   "base": [
+    "Amber",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/cacharel/1514/catch-me",
+   "https://atlasofscents.com/perfumes/cacharel-catchme/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official name styled 'Catch...Me'. Osmoz: 2012, Dominique Ropion (IFF), oriental woody, almond milk in heart. Some retailers add Italian jasmine. A later 'Catch Me L'Eau' EDT exists with a different profile. Current availability not verified."
+ },
+ {
+  "name": "Noir Anthracite",
+  "brand": "Tom Ford",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc",
+  "notes": {
+   "top": [
+    "Sichuan Pepper",
+    "Ginger",
+    "Bergamot"
+   ],
+   "heart": [
+    "Spices",
+    "Galbanum",
+    "Jasmine"
+   ],
+   "base": [
+    "Cedar",
+    "Ebony",
+    "Sandalwood",
+    "Birch",
+    "Leather",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://wwd.com/beauty-industry-news/fragrance/new-noir-tom-ford-touts-latest-fragrance-big-plans-for-beauty-10923613/",
+   "https://bestmenscolognes.com/tom-ford-noir-anthracite-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "WWD: unveiled in Milan June 2017 as the third fragrance of the men's Noir franchise (after Noir 2012, Noir Extreme 2015), described as a woody chypre, shelves September 2017. Chunk hint said Unisex; sources present it as men's. Some retailers say discontinued, not verified. Base also lists amberwood."
+ },
+ {
+  "name": "Sweet",
+  "brand": "Lolita Lempicka",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Cherry",
+    "Sugar"
+   ],
+   "heart": [
+    "Iris",
+    "Cacao",
+    "Angelica"
+   ],
+   "base": [
+    "Musk",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/sweet-de-lolita-lempicka-quand-la-pomme-vire-au-rouge-cerise",
+   "https://www.lolitalempicka.com/en/products/sweet",
+   "https://www.superdrug.com/fragrance/perfume-for-women/womens-perfume/lolita-lempicka-sweet-eau-de-parfum-100ml/p/mp-00032127"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Auparfum (8 Oct 2014): launch mid-October 2014, perfumer Anne Flipo, reinterpretation of the Premier Parfum (1997) around cherry and cocoa. Brand site: candy-apple cherry top; iris, cocoa absolute, angelica heart; musk and cashmeran base. Some retailers wrongly give 2017 (bottle redesign). Flanker So Sweet 2016."
+ },
+ {
+  "name": "Chloé Fleur de Parfum",
+  "brand": "Chloé",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Michel Almairac, Mylène Alran",
+  "notes": {
+   "top": [
+    "Verbena",
+    "Bergamot",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Rose",
+    "Cherry Blossom",
+    "Black Currant",
+    "Peach"
+   ],
+   "base": [
+    "Rice",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.needsandmoods.com/chloe-fleur-de-parfum-avis/",
+   "https://www.perfumeryandcompany.com/products/chlo-fleur-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Chloé EDP (2008). 2016, Almairac and Alran (Robertet). Key notes verbena, rose, cherry blossom, rice powder; fuller pyramid from Perfumery & Company. Current availability unclear."
+ },
+ {
+  "name": "Ombre des Merveilles",
+  "brand": "Hermès",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Black Tea"
+   ],
+   "heart": [
+    "Incense"
+   ],
+   "base": [
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragroom.com/2020/08/08/hermes-lombre-des-merveilles-review/",
+   "https://www.hermes.com/fi/en/product/l-ombre-des-merveilles-eau-de-parfum-refill-V107065V0/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official name L'Ombre des Merveilles. 2020 flanker of Eau des Merveilles (2004, Ralf Schwieger and Nathalie Feisthauer). Hermès lists only three raw materials: black tea, incense, tonka bean; tiering from most retailers."
+ },
+ {
+  "name": "Dioramour",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Powdery Notes"
+   ],
+   "heart": [
+    "Iris",
+    "Jasmine"
+   ],
+   "base": [
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.dior.com/en_int/beauty/products/dioramour-Y0743427.html",
+   "https://www.decantx.com/products/dior-dioramour-eau-de-parfum-unisex"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior, sold as unisex (chunk hint said Feminine). Dior describes iris and animalic jasmine. 2018 and Demachy from retailer listings; pyramid layering varies between retailers. Not to be confused with Miss Dioramour (Kurkdjian, limited bottle)."
+ },
+ {
+  "name": "Angel Iced Star",
+  "brand": "Mugler",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Gourmand Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Coconut Water"
+   ],
+   "heart": [
+    "Pineapple"
+   ],
+   "base": [
+    "Praline",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/04/06/mugler-angel-iced-star-new-perfume/",
+   "https://www.selfridges.com/US/en/product/mugler-angel-iced-star-eau-de-toilette-50ml_R03772802/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition 50 ml EDT, spring 2021. Perfumer credit (Quentin Bisch, Louise Turner) found on one source only, left null. Distinct from the 2018 Angel Iced Star Collector EDP 25 ml (Olivier Cresp, Yves de Chirin)."
+ },
+ {
+  "name": "Spicebomb Infrared",
+  "brand": "Viktor & Rolf",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Red Berries",
+    "Pink Pepper",
+    "Saffron"
+   ],
+   "heart": [
+    "Pimento",
+    "Cinnamon"
+   ],
+   "base": [
+    "Tobacco",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/03/19/viktor-rolf-spicebomb-infrared-new-fragrance/",
+   "https://us.viktor-rolf.com/discontinued-fragrances/spicebomb-infrared-eau-de-toilette-VKR_208.html",
+   "https://www.perfumerflavorist.com/fragrance/fine-fragrance/news/21877876/viktorrolf-launches-spicebomb-infrared-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "EDT launched March 2021, key accords habanero red pimento, red berry oil, tobacco. Listed under discontinued fragrances on Viktor & Rolf US. A separate EDP (red pepper, leather, resinous woods) is credited to Herault, Benaim, Beaulieu; EDT perfumer not confirmed."
+ },
+ {
+  "name": "Heures d'Absence",
+  "brand": "Louis Vuitton",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Rose"
+   ],
+   "heart": [
+    "Mimosa",
+    "Pittosporum",
+    "Raspberry"
+   ],
+   "base": [
+    "Peru Balsam",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.marieclaire.co.uk/news/louis-vuitton-heures-dabsence-688549",
+   "https://sg.louisvuitton.com/eng-sg/products/heures-dabsence-nvprod2140084v/LP0113",
+   "https://www.theperfumegirl.com/perfumes/fragrances/louis-vuitton/louis-vuitton-heures-d-absence/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released 2020 (March per The Perfume Girl). Reinvention of Louis Vuitton's first perfume of 1927 (formula lost), name from the Vuitton family house in Asnières. LV key notes: mimosa, jasmine, rose, Peru balsam, sandalwood, musk. Some retailers add vanilla."
+ },
+ {
+  "name": "Olympéa Intense",
+  "brand": "Paco Rabanne",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Loc Dong, Anne Flipo, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Pepper",
+    "Grapefruit Blossom"
+   ],
+   "heart": [
+    "Salted Vanilla",
+    "Cedar",
+    "Salt"
+   ],
+   "base": [
+    "White Amber",
+    "Ambergris",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.theperfumegirl.com/perfumes/fragrances/paco-rabanne/olympea-intense/",
+   "https://www.jomashop.com/paco-rabanne-perfume-olnes27.html",
+   "https://perfumesociety.org/paco-rabanne-olympea-oh-gods-simply-divine/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Olympéa (2015), launched December 2016. 'Pepper' is white pepper. Perfumer trio credited for the original and for the Intense by The Perfume Girl; one site credits Ropion alone. Stock limited at some retailers."
+ },
+ {
+  "name": "Pi Neo",
+  "brand": "Givenchy",
+  "year": 2008,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Bergamot",
+    "Anise"
+   ],
+   "heart": [
+    "Cedar",
+    "Myrtle",
+    "Saffron"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.silloria.com/en/perfumes/givenchy/pi-neo",
+   "https://www.wikiparfum.com/en/fragrances/pi-neo"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "September 2008 flanker of Pi (1998), Givaudan. Perfumer credit varies (Antoine Lie per Wikiparfum, Françoise Donche as olfactive director), left null. 'Saffron' stands for Safraleine. Launch communication referenced The Matrix universe per some sources. Status: reported discontinued by several retailers, not confirmed."
+ },
+ {
+  "name": "CK One Shock for Her",
+  "brand": "Calvin Klein",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Passionflower",
+    "Peony",
+    "Poppy"
+   ],
+   "heart": [
+    "Chocolate",
+    "Blackberry",
+    "Narcissus",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2011/10/21/calvin-klein-ck-one-shock-for-her-fragrance-review/",
+   "https://www.osmoz.com/perfumes/calvin-klein/1556/ck-one-shock-for-her"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2011 EDT, companion to CK One Shock for Him. Notes as quoted from Calvin Klein by Now Smell This. Perfumer credit conflicts (Laurent Le Guernec per Osmoz, Ann Gottlieb as evaluator elsewhere), left null."
+ },
+ {
+  "name": "Poison Girl Unexpected",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Blood Orange",
+    "Lemon"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumediary.com/perfumes/christian-dior-poison-girl-unexpected-perfume/",
+   "https://www.dior.com/en_us/products/beauty-Y0996070-poison-girl-unexpected",
+   "https://www.johnlewis.com/dior-poison-girl-unexpected-eau-de-toilette/p3476252"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Poison Girl (2016). Dior copy: double dose of Tanzanian ginger, Damascus rose, Venezuelan tonka with vanilla and musk. Sold as EDT (John Lewis, Dior); PerfumeDiary says EDP. Some retailers add hazelnut and cashmeran."
+ },
+ {
+  "name": "Wild Rose",
+  "brand": "Coach",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marie Salamagne",
+  "notes": {
+   "top": [
+    "Red Currant",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Moss",
+    "Ambroxan",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.caretobeauty.com/us/coach-wild-rose-eau-de-parfum-50ml/",
+   
+   "https://www.fragrancenet.com/perfume/coach/coach-wild-rose/eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2022 EDP, Marie Salamagne. Coach copy names a crystal moss accord and Ambroxan in the drydown; jasmine is jasmine sambac."
+ },
+ {
+  "name": "Monsieur de Givenchy",
+  "brand": "Givenchy",
+  "year": 1959,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Verbena"
+   ],
+   "heart": [
+    "Lavandin",
+    "Geranium"
+   ],
+   "base": [
+    "Vetiver",
+    "Oakmoss",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.givenchybeauty.com/en/nl/p/monsieur-de-givenchy-F10100182.html",
+   "https://www.news-parfums.com/en/1384-monsieur-de-givenchy"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1959, one of the first Givenchy men's fragrances (alongside Eau de Vetyver). Current official page: Italian lemon sfumato, French lavandin, Indonesian vetiver. Other tiers merged from retailer listings (verbena, geranium, oakmoss, sandalwood), hence pyramid_inferred. Currently sold in the reissued form."
+ },
+ {
+  "name": "Defy",
+  "brand": "Calvin Klein",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Pascal Gaurin, Loc Dong",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Cedar Leaf"
+   ],
+   "heart": [
+    "Lavender",
+    "Clary Sage",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Vetiver",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.calvinklein.us/en/men/fragrance/fragrance/defy-eau-de-toilette/YS99350D-000.html",
+   "https://www.caretobeauty.com/us/calvin-klein-defy-eau-de-toilette/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2021 EDT (Coty). Official pyramid from Calvin Klein US. Followed by Defy EDP and Defy Parfum."
+ },
+ {
+  "name": "Eau de Courrèges",
+  "brand": "Courrèges",
+  "year": 1977,
+  "gender": "Feminine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lime"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Mint",
+    "Star Anise"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.fr/parfums/courreges/6728/eau-de-courreges",
+   "https://www.perfumesclub.co.uk/en/courreges/eau-de-courreges-eau-de-toilette-spray-1451/p_1451/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1977, the house's second scent after Empreinte (1971). Relaunched by Courrèges around 2012 per one source. Heart sometimes listed with absinthe instead of star anise. Perfumer not documented."
+ },
+ {
+  "name": "Terre d'Hermès Eau Intense Vétiver",
+  "brand": "Hermès",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit",
+    "Lemon"
+   ],
+   "heart": [
+    "Sichuan Pepper",
+    "Geranium"
+   ],
+   "base": [
+    "Vetiver",
+    "Incense",
+    "Patchouli",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sabina.com/en/mens-perfumes/7171-terre-d-hermes-eau-intense-vetiver.html",
+   "https://www.fragrancex.com/products/hermes/terre-d-hermes-eau-intense-vetiver-cologne"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018 EDP flanker of Terre d'Hermès (2006, Jean-Claude Ellena). Incense is listed as olibanum."
+ },
+ {
+  "name": "Baby",
+  "brand": "IKKS",
+  "year": 2000,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Senteur",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Milk",
+    "Licorice"
+   ],
+   "heart": [
+    "Magnolia",
+    "Honey",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/baby.html",
+   "https://www.ikks.com/en/baby-fragrance-/XE99011-99.html"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Alcohol-free children's eau de senteur. Launch year conflicts (2000 vs 2003 on the same retailer page); formula reformulated. Skipped for low confidence on year."
+ },
+ {
+  "name": "Purple Oud",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Orange",
+    "Citrus"
+   ],
+   "heart": [
+    "Pink Pepper",
+    "Saffron"
+   ],
+   "base": [
+    "Oud",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.dior.com/en_us/beauty/products/purple-oud-Y0786427.html",
+   "https://perfuum.com/products/christian-dior-purple-oud",
+   "https://www.etirsah.com/en/product/340/purple-oud"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior. Dior copy (Demachy): sparkling oud, orange with pink pepper and saffron over polished wood. No official tiering, hence pyramid_inferred. 2018 from retailer listings. One retailer lists an unrelated rose pyramid, ignored."
+ }
+]

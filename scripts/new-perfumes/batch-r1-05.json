@@ -1,0 +1,704 @@
+[
+ {
+  "name": "Valentina",
+  "brand": "Valentino",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas, Olivier Cresp",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Truffle"
+   ],
+   "heart": [
+    "Strawberry",
+    "Jasmine",
+    "Tuberose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/femme/edp/valentina-valentino-2011.html",
+   "https://nstperfume.com/2012/02/23/valentino-valentina-perfume-review/",
+   "https://smileperfumes.com/products/valentino-valentina-eau-de-parfum-80ml"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2011. 'Truffle' is Alba white truffle, Calabrian bergamot. NST review finds truffle very subdued. One retailer blog claims the original EDP is discontinued (unconfirmed by brand)."
+ },
+ {
+  "name": "Mon Guerlain Intense",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Oriental Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Vanilla",
+    "Iris",
+    "Rose"
+   ],
+   "base": [
+    "Coumarin",
+    "Patchouli",
+    "Licorice",
+    "Benzoin",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.guerlain.com/us/en-us/p/mon-guerlain-eau-de-parfum-intense-P013781.html",
+   "https://parfumplusmag.com/fragrant-inspiration/mon-guerlain-eau-de-parfum-intense/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Released 2019, not 2017. Provence lavender, sambac jasmine, Tahitian and Madagascar vanilla, vanilla tincture made at Guerlain's Orphin factory. Original Mon Guerlain 2017."
+ },
+ {
+  "name": "Nina Soleil",
+  "brand": "Nina Ricci",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Chantilly Cream",
+    "Gardenia"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2022/01/17/nina-ricci-nina-soleil-new-fragrance/",
+   "https://www.perfume-click.co.uk/Nina-Ricci-Nina-Soleil-Eau-de-Toilette-50ml-Spray-Limited-Edition-s115084/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition flanker of Nina (2006), 50 ml only. Perfumer not published. Marked discontinued as a limited edition."
+ },
+ {
+  "name": "Dance with Repetto",
+  "brand": "Repetto",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Menardo, Nathalie Lorson, Olivier Cresp",
+  "notes": {
+   "top": [
+    "Macaron",
+    "Raspberry",
+    "Magnolia",
+    "Freesia",
+    "Bergamot"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Pineapple",
+    "Jasmine",
+    "Peony"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/dance-with-repetto.html",
+   "https://www.francenetinfos.com/dance-with-repetto-parfum-gourmand-177939/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018, three Firmenich perfumers. Madagascar vanilla. Not to be confused with Dance with Repetto Floral (EDT)."
+ },
+ {
+  "name": "Voyage",
+  "brand": "Nautica",
+  "year": 2006,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Maurice Roucel",
+  "notes": {
+   "top": [
+    "Green Apple",
+    "Green Notes"
+   ],
+   "heart": [
+    "Lotus",
+    "Mimosa"
+   ],
+   "base": [
+    "Musk",
+    "Cedar",
+    "Oakmoss",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nautica.com/nautica-voyage-3.4-oz.-eau-de-toilette/99350078119.html",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/nautica-voyage-notes-longevity-review-complete-guide"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2006, Maurice Roucel. Nautica's page also cites a sailcloth accord and puts mimosa and water lotus lower in the pyramid; retailer pyramid used."
+ },
+ {
+  "name": "Acqua di Giò Profondo",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Aquozone",
+    "Bergamot",
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Rosemary",
+    "Lavender",
+    "Cypress",
+    "Mastic"
+   ],
+   "base": [
+    "Mineral Notes",
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/02/20/giorgio-armani-aqua-di-gio-profondo-new-fragrance/",
+   "https://www.venbafragrance.com/products/giorgio-armani-acqua-di-gio-profondo-edp"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020 flanker of Acqua di Giò (1996). Patchouli from Guatemala per one retailer. A Parfum version followed later."
+ },
+ {
+  "name": "Touch of Pink",
+  "brand": "Lacoste",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Domitille Michalon",
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Coriander",
+    "Cardamom",
+    "Peach"
+   ],
+   "heart": [
+    "Jasmine",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.theperfumegirl.com/perfumes/fragrances/lacoste/lacoste-touch-of-pink/",
+   "https://perfumania.com/products/lacoste-touch-of-pink-womens-eau-de-toilette-spray",
+   "https://www.fragrancereview.com/perfume/lacoste-touch-of-pink-eau-de-toilette/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2004, Domitille Michalon (Bertier). Retailer pyramids vary (some add carrot seed, orange). No official Lacoste pyramid found."
+ },
+ {
+  "name": "Nirmala",
+  "brand": "Molinard",
+  "year": 1955,
+  "gender": "Feminine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mandarin",
+    "Passion Fruit",
+    "Mango"
+   ],
+   "heart": [
+    "Jasmine",
+    "Floral Notes"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Cedar",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.perfumemaster.com/molinard/nirmala-womens-perfume",
+   "https://theperfumeshoppe99.com/products/nirmala-1955-by-molinard",
+   "https://www.etsy.com/listing/547727913/molinard-nirmala-purity-15-ml-or-05-oz"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Created 1955 (name means purity). Reorchestrated several times (1990s, 2000, an EDP edition around 2017); notes describe the current tropical fruit version, not the vintage extrait. Pomelo and hibiscus also cited by some retailers."
+ },
+ {
+  "name": "Dreams",
+  "brand": "Coach",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu, Nathalie Gracia-Cetto, Olivier Pescheux, Shyamala Maisondieu",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Pear"
+   ],
+   "heart": [
+    "Gardenia",
+    "Cactus Flower"
+   ],
+   "base": [
+    "Joshua Tree Accord",
+    "Ambroxan"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.coach.com/products/dreams-eau-de-parfum-90-ml/B1085.html",
+   "https://escentual.com/blogs/editorial/coach-dreams-eau-de-parfum-review",
+   "https://makeupstore.com/product/499121/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020. Coach's page: bitter orange and juicy pear, gardenia and cactus flower, Joshua Tree accord and Ambroxan. Desert road trip theme."
+ },
+ {
+  "name": "For Him",
+  "brand": "Narciso Rodriguez",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Nutmeg"
+   ],
+   "heart": [
+    "Musk"
+   ],
+   "base": [
+    "Patchouli",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.michael84.co.uk/fragrances-revisited-narciso-rodriguez/",
+   "http://yeoldecivetcat.blogspot.com/2015/03/narciso-rodriguez-for-him-by-narciso.html",
+   "https://decantboutique.com/product/narciso-rodriguez-for-him-edt/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2007 EDT. Published as a short flat list (violet leaf, musk, patchouli, amber; nutmeg in one listing), pyramid inferred. Perfumer credited as Francis Kurkdjian by sources found."
+ },
+ {
+  "name": "Mademoiselle",
+  "brand": "Jacadi",
+  "year": null,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Raspberry",
+    "Mandarin"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Peach",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.oia-parfums.fr/419832-mademoiselleau-de-soin-s-a-50-ml.html"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Kids eau de toilette (from age 3). Notes from Jacadi listing on Oia Parfums, but launch year not found (2008 only in one unreliable attribute table) and other retailers list different pyramids. Skipped."
+ },
+ {
+  "name": "Match Point",
+  "brand": "Lacoste",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sophie Labbé",
+  "notes": {
+   "top": [
+    "Basil",
+    "Grapefruit",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Gentian",
+    "Clary Sage",
+    "Geranium"
+   ],
+   "base": [
+    "Cashmeran",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/07/28/lacoste-match-point-new-fragrance/",
+   "https://www.perfumesclub.us/en/blog/stories/match-point-is-an-exciting-fragrance/",
+   "https://www.fragrancenet.com/cologne/lacoste/lacoste-match-point/edt"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Original EDT 2020 described (an EDP followed). NST confirms basil, gentian, vetiver, pink pepper, clary sage, cashmeran; grapefruit and geranium from retailers; perfumer Sophie Labbé per retailers."
+ },
+ {
+  "name": "Pasha de Cartier",
+  "brand": "Cartier",
+  "year": 1992,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Mint",
+    "Caraway",
+    "Anise",
+    "Mandarin"
+   ],
+   "heart": [
+    "Coriander",
+    "Brazilian Rosewood"
+   ],
+   "base": [
+    "Oakmoss",
+    "Sandalwood",
+    "Patchouli",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.leparfumier.com/en/cartier-pasha-for-men-eau-de-toilette.html",
+   "https://vivir.com/article/cartier-pasha-de-cartier-parfum-review",
+   "https://affinez.fr/parfums/cartier-pasha-de-cartier-edt-878/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1992 EDT, Jacques Cavallier. Shares its name with the Cartier Pasha watch. Oakmoss reduced in modern versions under IFRA rules."
+ },
+ {
+  "name": "Coach Love",
+  "brand": "Coach",
+  "year": 2023,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Strawberry",
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://ifragranceofficial.com/perfumes/coach-love-eau-de-parfum/",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/coach-love-by-coach-notes-longevity-review-complete-guide",
+   "https://www.theperfumeshop.com/coach/love/eau-de-parfum-spray/p/35625EDPJU?varSel=1293642"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2023 EDP (wild strawberry, red rose, Indian sambac jasmine, grey amber). Not the older Coach Love (circa 2012) with a different pyramid."
+ },
+ {
+  "name": "Weekend",
+  "brand": "Burberry",
+  "year": 1997,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Reseda",
+    "Green Notes",
+    "Sage"
+   ],
+   "heart": [
+    "Rose",
+    "Peach Blossom",
+    "Hyacinth",
+    "Iris",
+    "Nectarine",
+    "Cyclamen"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancex.com/products/burberry/weekend-perfume",
+   "https://beautyhouse.com/products/burberry-weekend-eau-de-parfum-for-women",
+   "https://southbeachperfumes.com/products/burberry-weekend-by-burberry-edp-ladies"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1997 EDP for women. 'Green Notes' stands for tree sap. One listing credits Nathalie Lorson, not confirmed elsewhere so perfumer left null."
+ },
+ {
+  "name": "Beautiful Day",
+  "brand": "Castelbajac",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Maurice Roucel",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Almond",
+    "Green Notes"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Lily of the Valley",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2017/04/19/castelbajac-beautiful-day-new-perfume/",
+   "https://www.needsandmoods.com/castelbajac-beautiful-day/",
+   "https://www.jomashop.com/castelbajac-ladies-beautiful-day-loriginal-edp-spray-3-38-oz-fragrances-3516642142314.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched April 2017, Marionnaud exclusive, Maurice Roucel. Almond is green almond. Now sold as Beautiful Day L'Original; flankers Le Bonheur, In Love."
+ },
+ {
+  "name": "Boucheron (femme)",
+  "brand": "Boucheron",
+  "year": 1988,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Deleamont, Jean-Pierre Bethouart",
+  "notes": {
+   "top": [
+    "Marigold",
+    "Orange Blossom",
+    "Apricot",
+    "Galbanum",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Tuberose",
+    "Ylang-Ylang",
+    "Jasmine",
+    "Narcissus",
+    "Orris Root",
+    "Geranium"
+   ],
+   "base": [
+    "Amber",
+    "Sandalwood",
+    "Civet",
+    "Benzoin",
+    "Oakmoss",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://makeup.fr/product/8870/",
+   "https://parfumerienasreen.com/products/boucheron-pour-femme",
+   "https://leparfumier.com/en/products/boucheron-for-women-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1988, ring-shaped bottle. Base also lists tonka bean. EDT and parfum pyramids differ slightly (basil, pelargonium). Notes from retailers."
+ },
+ {
+  "name": "CK One Summer",
+  "brand": "Calvin Klein",
+  "year": 2004,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Kiwi"
+   ],
+   "heart": [
+    "Cactus",
+    "Blueberry Leaf",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Musk",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/calvin-klein-ck-one-summer-annual-editions-review",
+   "https://www.perfumemaster.com/calvin-klein/ck-one-summer-2004-unisex-fragrance",
+   "https://www.upcitemdb.com/upc/88300135929"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Annual limited edition since 2004, new formula each year (Harry Fremont signed 2007 and 2015, Clément Gavarry 2021). Notes are for the first 2004 edition. Each edition is discontinued after its summer."
+ },
+ {
+  "name": "Pour Elle",
+  "brand": "Mauboussin",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Cresp, Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Red Berries",
+    "Rhubarb",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Gardenia",
+    "Rose"
+   ],
+   "base": [
+    "Caramel",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumania.com/products/mauboussin-pour-elle-by-mauboussin-for-women-eau-de-parfum-spray",
+   "https://www.fragranceoutlet.com/products/mauboussin-pour-elle-by-mauboussin-for-women-eau-de-parfum-spray",
+   "https://theperfumespot.com/mauboussin-pour-elle-by-mouboussin-3-3oz-edp-spray-women-unboxed/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Most listings: 2011, Olivier Cresp and Nathalie Lorson. Some retailers give different pyramids (and 2000, the brand's first fragrance year). Flanker Rose Pour Elle exists."
+ },
+ {
+  "name": "Gardénia",
+  "brand": "Chanel",
+  "year": 1925,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Parfum",
+  "perfumer": "Ernest Beaux, Jacques Polge",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Green Notes"
+   ],
+   "heart": [
+    "Gardenia",
+    "Jasmine",
+    "Tuberose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "http://perfumeshrine.blogspot.com/2011/02/chanel-gardenia-vintage-vs-les.html",
+   "https://vivir.com/article/chanel-gardenia-les-exclusifs",
+   "https://www.chanel.com/us/fragrance/p/120900/gardenia-les-exclusifs-de-chanel-parfum-grand-extrait/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Created 1925 by Ernest Beaux; reworked by Jacques Polge for Les Exclusifs (2007, first as EDT). Current listing is Parfum Grand Extrait. Notes vary by source; Perfume Shrine says the modern version smells of jasmine/hedione and orange blossom with little gardenia."
+ }
+]
