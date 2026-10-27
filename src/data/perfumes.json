@@ -20985,42 +20985,6 @@
   "id": 657
  },
  {
-  "slug": "hanae-mori-hanae-mori-butterfly",
-  "name": "Hanae Mori (Butterfly)",
-  "brand": "Hanae Mori",
-  "year": 1995,
-  "gender": "Feminine",
-  "family": "Floral Fruity Gourmand",
-  "families": [
-   "floral",
-   "gourmand",
-   "fruity"
-  ],
-  "concentration": "Eau de Parfum",
-  "notes": {
-   "top": [
-    "Strawberry",
-    "Blackberry",
-    "Black Currant",
-    "Blueberry"
-   ],
-   "heart": [
-    "Rose",
-    "Ylang-Ylang",
-    "Jasmine",
-    "Peony"
-   ],
-   "base": [
-    "Rosewood",
-    "Almond",
-    "Sandalwood",
-    "Cedar"
-   ]
-  },
-  "image": null,
-  "id": 658
- },
- {
   "slug": "guerlain-vetiver",
   "name": "Vetiver",
   "brand": "Guerlain",
@@ -21707,39 +21671,6 @@
   },
   "image": null,
   "id": 679
- },
- {
-  "slug": "valentino-valentina-donna",
-  "name": "Valentina",
-  "brand": "Valentino",
-  "year": 2011,
-  "gender": "Feminine",
-  "family": "Oriental Floral",
-  "families": [
-   "floral",
-   "oriental"
-  ],
-  "concentration": "Eau de Parfum",
-  "notes": {
-   "top": [
-    "Bergamot",
-    "Truffle",
-    "Fruity Notes"
-   ],
-   "heart": [
-    "Orange Blossom",
-    "Jasmine",
-    "Tuberose",
-    "Strawberry"
-   ],
-   "base": [
-    "Cedar",
-    "Amber",
-    "Vanilla"
-   ]
-  },
-  "image": null,
-  "id": 680
  },
  {
   "slug": "hermes-elixir-des-merveilles",
