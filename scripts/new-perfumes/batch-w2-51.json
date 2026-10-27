@@ -1,0 +1,662 @@
+[
+ {
+  "name": "Rose Velours",
+  "brand": "Van Cleef & Arpels",
+  "year": 2013,
+  "gender": "Unisex",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Rose",
+    "Honey",
+    "Iris"
+   ],
+   "base": [
+    "Ambroxan",
+    "Benzoin",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/new-fragrance-review-van-cleef-arpels-collection-extraordinaire-rose-velours-a-fleeting-beauty/",
+   "https://www.notino.co.uk/van-cleef-arpels/collection-extraordinaire-rose-velours-eau-de-parfum-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, launched June 2013. CaFleurBon review (Sept 2013) gives a flat list and credits Antoine Maisondieu; tiers follow retailer listings. A Liberty listing with different notes looks erroneous."
+ },
+ {
+  "name": "Amber pour Homme Intense",
+  "brand": "Prada",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Saffron",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Geranium",
+    "Myrrh",
+    "Patchouli",
+    "Leather"
+   ],
+   "base": [
+    "Labdanum",
+    "Tonka Bean",
+    "Vanilla",
+    "Amber",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2011/03/18/prada-amber-pour-homme-intense-fragrance-review/",
+   "https://www.jomashop.com/prada-mens-amber-homme-intense-edp-spray-3-4-oz-fragrances-8435137725915-65042280.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Spring 2011 flanker of Amber pour Homme (2006). Box says Eau de Parfum Intense, Prada site said Eau de Toilette Intense. NST lists notes flat (also vetiver). Described as limited edition at launch; perfumer not published. Darker, less fougere than the original per NST."
+ },
+ {
+  "name": "Miracle Secret",
+  "brand": "Lancôme",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine",
+    "Rose Absolute"
+   ],
+   "base": [
+    "Amber",
+    "Musk",
+    "Vanilla",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumediary.com/perfumes/lancome-miracle-secret/",
+   "https://www.jomashop.com/miracle-secret-by-lancome-eau-de-parfum-spray-1-7-oz-3614271688071.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Miracle (2000). Jasmine = jasmine sambac; cedar = Virginia cedar. No perfumer credited in sources read."
+ },
+ {
+  "name": "Rêve Élixir",
+  "brand": "Van Cleef & Arpels",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Feisthauer",
+  "notes": {
+   "top": [
+    "Pear",
+    "Neroli"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Iris",
+    "Frangipani"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/van-cleef-arpels/7709/reve-elixir",
+   "https://www.envie2parfum.fr/van-cleef-arpels/eau-de-parfum/reve-elixir"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: creation 2014, Rêve line presented 2013, perfumer Nathalie Feisthauer, family floral fruity. Description also mentions peach blossom in the top."
+ },
+ {
+  "name": "L'Eau Froide",
+  "brand": "Serge Lutens",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Mint",
+    "Pepper"
+   ],
+   "heart": [
+    "Incense",
+    "Sea Notes",
+    "Ginger"
+   ],
+   "base": [
+    "Musk",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2012/03/serge-lutens-leau-froide-fragrance-review.html",
+   "https://perfumeshrine.blogspot.com/2011/11/serge-lutens-leau-froide-new-fragrance.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Companion to L'Eau Serge Lutens. Reviews dated early 2012, announced late 2011. Built around Somali frankincense with sea and mint. Notes given flat by the house; tiers inferred. Concentration per chunk hint, not confirmed by sources read."
+ },
+ {
+  "name": "Y Live Intense",
+  "brand": "Yves Saint Laurent",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Pear"
+   ],
+   "heart": [
+    "Juniper",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Amberwood",
+    "Cocoa",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://parfumplusmag.com/fragrant-inspiration/ysl-beaute-introduce-y-live-intense/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Retailers disagree on year (2019 vs 2020) and give three incompatible note lists; parfumplusmag article mixes Y Live and Y Live Intense. Not reliable enough."
+ },
+ {
+  "name": "Mon Premier Parfum",
+  "brand": "Lolita Lempicka",
+  "year": 1997,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Menardo",
+  "notes": {
+   "top": [
+    "Licorice",
+    "Star Anise",
+    "Cherry"
+   ],
+   "heart": [
+    "Violet",
+    "Iris"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Praline",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.parfumdo.com/en/422436-mon-premier-parfum-eau-de-parfum-spray.html"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Mon Premier Parfum is the 2017 renaming/redesign of the original 1997 Lolita Lempicka EDP, already in the dataset as lolita-lempicka-le-premier-parfum. Duplicate, skip."
+ },
+ {
+  "name": "Eau de Basilic Pourpre",
+  "brand": "Hermès",
+  "year": 2022,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Basil",
+    "Geranium"
+   ],
+   "base": [
+    "Spices",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://persolaise.com/2022/07/hermes-eau-de-basilic-pourpre-review-christine-nagel-2022.html",
+   "https://www.hermes.com/fi/en/product/eau-de-basilic-pourpre-eau-de-cologne-V105009V0/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Hermès Colognes line, 2022. Official pyramid has a single top note (bergamot); basil is purple basil. Persolaise: light and charming, quiet patchouli trail."
+ },
+ {
+  "name": "Coach Man Blue",
+  "brand": "Coach",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Juliette Karagueuzoglou",
+  "notes": {
+   "top": [
+    "Lime",
+    "Absinthe"
+   ],
+   "heart": [
+    "Ozonic Notes",
+    "Black Pepper"
+   ],
+   "base": [
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfuum.com/products/coach-blue-for-men",
+   "https://www.dillards.com/p/coach-blue-eau-de-toilette/511422238"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Coach Blue / Man Blue EDT. Year 2020 from perfuum and other retailers; perfumer credited by Escentual (not read directly, 429) and multiple listings. Dillard's classes it Fougere Watery."
+ },
+ {
+  "name": "Light Blue Sun pour Homme",
+  "brand": "Dolce & Gabbana",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Ozonic Notes",
+    "Bergamot",
+    "Ginger"
+   ],
+   "heart": [
+    "Coconut Water",
+    "Rosemary",
+    "Cedar",
+    "Osmanthus"
+   ],
+   "base": [
+    "Musk",
+    "Oakmoss",
+    "Vetiver",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://scentgrail.com/perfume-reviews/dolce-and-gabbana-light-blue-sun/",
+   "https://www.macys.com/shop/product/dolce-gabbana-mens-light-blue-sun-eau-de-toilette-fragrance-collection?ID=8741070"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer 2019 limited edition flanker of Light Blue pour Homme (2007). Macy's lists cypress in the heart; Scent Grail coconut nectar and osmanthus. Perfumer not officially credited (Morillas is only an assumption)."
+ },
+ {
+  "name": "Yuzu Fou",
+  "brand": "Parfum d'Empire",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Yuzu",
+    "Bitter Orange",
+    "Mint",
+    "Kumquat"
+   ],
+   "heart": [
+    "Lemon Verbena",
+    "Bamboo",
+    "Cedar"
+   ],
+   "base": [
+    "Neroli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/parfum-dempire-yuzu-fou-review-marc-antoine-corticchiato-manga-and-meditation-giveaway/",
+   "https://www.tendance-parfums.com/en/yuzu-fou-eau-de-parfum-parfum-d-empire.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Inspired by modern Japan (electro, manga, neon) per the perfumer. Year 2008 given by several retailers, reviewer says 'I believe 2008'."
+ },
+ {
+  "name": "Escale à Parati",
+  "brand": "Dior",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Lemon",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Pink Pepper",
+    "Rosewood",
+    "Mint",
+    "Cinnamon"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2012/06/christian-dior-escale-a-parati-perfume-review.html",
+   "https://www.osmoz.com/perfumes/dior/1415/escale-a-parati"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Fourth Escale (after Portofino, Pondichéry, Marquises), inspired by Paraty in Brazil. Bois de Jasmin: crisp, clean, a bit generic (3 stars). Woody Notes added from descriptions of the blond wood drydown."
+ },
+ {
+  "name": "La Panthère Édition Soir",
+  "brand": "Cartier",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Gardenia"
+   ],
+   "heart": [
+    "Musk",
+    "Animalic Notes"
+   ],
+   "base": [
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://vivir.com/article/cartier-la-panthere-edition-soir-review",
+   "https://www.wikiparfum.com/en/fragrances/la-panthere-edition-soir"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Evening version of La Panthère (2014): drops the fruity facets, more animalic musk. Only four notes published (gardenia, musk, oakmoss, animalic), tiers inferred."
+ },
+ {
+  "name": "Azzaro pour Homme Elixir",
+  "brand": "Azzaro",
+  "year": 2009,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Pear",
+    "Black Currant"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium"
+   ],
+   "base": [
+    "Coumarin",
+    "Oakmoss",
+    "Labdanum",
+    "Vanilla",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.yannparfumerie.com/product/azzaro-pour-homme-elixir-100ml/",
+   "https://www.vperfumes.com/ae-en/product/azzaro-pour-homme-elixir-edt-for-men-100ml"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Oriental reworking of Azzaro pour Homme (1978). Some retailers date it 2010. Some listings credit Michel Girard, not verified so left null. Note placement varies by retailer."
+ },
+ {
+  "name": "Eau de Cartier Goutte de Rose",
+  "brand": "Cartier",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Rhubarb",
+    "Bergamot",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Blackberry",
+    "Violet Leaf",
+    "Litchi"
+   ],
+   "base": [
+    "Musk",
+    "Violet"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://affinez.fr/parfums/cartier-eau-de-cartier-goutte-de-rose-edt-975/",
+   "https://www.nordstrom.com/s/cartier-eau-de-cartier-goutte-de-rose-eau-de-toilette/5366913"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Eau de Cartier (2001) after Essence d'Orange (2010) and Essence de Bois (2011). Nordstrom gives a simpler rose/wood/amber/vanilla pyramid."
+ },
+ {
+  "name": "Oud Al Sahraa",
+  "brand": "Berdoues",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christian Vermorel",
+  "notes": {
+   "top": [
+    "Mandarin"
+   ],
+   "heart": [
+    "Myrrh"
+   ],
+   "base": [
+    "Oud"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.com/p/berdoues-oud-al-sahraa-eau-de-parfum-100ml/12033951/",
+   "https://thefragrantjourney.blogspot.com/2016/09/berdoues-collection-cologne-grand-cru_16.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Grands Crus collection; first sold as a 'Cologne Grand Cru', later labelled Eau de Parfum 15%. Italian mandarin peel, Namibian myrrh, Malaysian agarwood. Name means 'oud of the desert'. Year 2015 from retailers."
+ },
+ {
+  "name": "Hoja de Cuba",
+  "brand": "Berdoues",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Ane Ayo",
+  "notes": {
+   "top": [
+    "Pimento"
+   ],
+   "heart": [
+    "Haitian Vetiver"
+   ],
+   "base": [
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://planarparfums.com/perfumes/berdoues/hoja-de-cuba",
+   "https://beautyencounter.com/products/berdoues-collection-grands-crus-hoja-de-cuba-3-38-oz-eau-de-parfum-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Grands Crus collection, 15% EDP. Jamaican allspice (Pimento), Haitian vetiver, Turkish tobacco. Wikiparfum may list it as discontinued; retailers still sell it."
+ },
+ {
+  "name": "La Petite Robe Noire So Frenchy",
+  "brand": "Guerlain",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Almond",
+    "Cherry",
+    "Red Berries"
+   ],
+   "heart": [
+    "Rose",
+    "Tea",
+    "Licorice"
+   ],
+   "base": [
+    "Patchouli",
+    "Iris",
+    "Anise",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfashiononline.com/guerlain-la-petite-robe-noire-so-frenchy-review/"
+  ],
+  "confidence": "low",
+  "discontinued": true,
+  "remarks": "Notes identical to the original La Petite Robe Noire EDP (already in dataset). Appears to be the 2020 'So Frenchy' collector bottle of the same juice; Wikiparfum even lists it as EDT. Not a distinct perfume, skip."
+ },
+ {
+  "name": "Fougère Bengale",
+  "brand": "Parfum d'Empire",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Tarragon"
+   ],
+   "heart": [
+    "Geranium",
+    "Patchouli",
+    "Tobacco"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2007/12/14/parfum-dempire-fougere-bengale-fragrance-review/",
+   "https://www.luckyscent.com/products/fougere-bengale-by-parfum-dempire"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "NST review Dec 2007 ('latest release'), flat note list. Other listings add hay, oakmoss, tea, honey, immortelle. Wears close to the skin, around 6 hours per NST."
+ },
+ {
+  "name": "Jimmy Choo Man Intense",
+  "brand": "Jimmy Choo",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Melon",
+    "Mandarin"
+   ],
+   "heart": [
+    "Black Pepper",
+    "Artemisia",
+    "Geranium"
+   ],
+   "base": [
+    "Davana",
+    "Amber",
+    "Patchouli",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.caretobeauty.com/us/jimmy-choo-man-intense-eau-de-toilette-100ml/",
+   "https://beautyhouse.com/products/jimmy-choo-man-intense-eau-de-toilette-for-men"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Jimmy Choo Man (2014). Caretobeauty: created 2016, family aromatic. Some listings give 2017. Perfumer not published in sources read."
+ }
+]

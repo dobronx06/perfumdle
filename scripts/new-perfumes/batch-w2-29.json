@@ -1,0 +1,664 @@
+[
+  {
+    "name": "Alien Flora Futura",
+    "brand": "Mugler",
+    "year": 2018,
+    "gender": "Feminine",
+    "family": "Floral Amber",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Dominique Ropion, Jean-Christophe Hérault",
+    "notes": {
+      "top": [
+        "Citron",
+        "Clover"
+      ],
+      "heart": [
+        "Night Queen Flower",
+        "Jasmine"
+      ],
+      "base": [
+        "White Amber",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://cafleurebon.com/mugler-alien-flora-futura-dominique-ropion-jean-christophe-heuralt-new-perfume-review-good-witch-draw/",
+      "https://thecandyperfumeboy.com/2018/02/12/perfume-review-alien-flora-futura-by-mugler/",
+      "https://www.mugler.com/fragrance/alien-flora-futura/M020604059.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Launched early 2018. Published notes: Buddha's hand citron, clover leaf, queen of the night cactus flower, white amber, sandalwood. Mugler site (via search) lists orange, jasmine, white amber and calls it floral green amber; jasmine kept in heart from that. Citron stands for Buddha's hand. Lightest Alien flanker per reviews."
+  },
+  {
+    "name": "Live Irrésistible Rosy Crush",
+    "brand": "Givenchy",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion",
+    "notes": {
+      "top": [
+        "Goji Berry",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Rose",
+        "Peony"
+      ],
+      "base": [
+        "Patchouli",
+        "Ambroxan",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://viaedm.com/parfum/givenchy-live-irresistible-rosy-crush-eau-de-parfum/",
+      "https://vancouverscape.com/all-the-roses-givenchy-launches-live-irresistible-rosy-crush-le-rose-perfecto/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched February 2019 for Valentine's Day as 'Eau de Parfum Florale'. Some retailers add citrus or vanilla."
+  },
+  {
+    "name": "Perles de Lalique",
+    "brand": "Lalique",
+    "year": 2006,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Nathalie Lorson",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Rose"
+      ],
+      "heart": [
+        "Iris",
+        "Pepper"
+      ],
+      "base": [
+        "Patchouli",
+        "Oakmoss",
+        "Vetiver",
+        "Cashmeran"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://boisdejasmin.com/2006/08/perles_lalique_.html",
+      "http://www.mimifroufrou.com/scentedsalamander/2006/06/new_perfume_perles_by_lalique.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched 2006 (some retailers say 2007, the year it won a Marie Claire award). Rose is Bulgarian rose, pepper is Bourbon pepper, patchouli Indonesian. Flat list distributed. Bois de Jasmin calls it a pretty but light modern chypre."
+  },
+  {
+    "name": "Chloé Absolu de Parfum",
+    "brand": "Chloé",
+    "year": 2017,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Michel Almairac",
+    "notes": {
+      "top": [
+        "Rose"
+      ],
+      "heart": [
+        "Centifolia Rose",
+        "Patchouli"
+      ],
+      "base": [
+        "Vanilla"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://bestmenscolognes.com/chloe-absolu-de-parfum/",
+      "https://www.nordstrom.com/s/chloe-absolu-de-parfum-limited-edition/4730650",
+      "https://www.fragrancenet.com/perfume/chloe/chloe-absolu-de-parfum/eau-de-parfum"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Limited edition released November 2017 for the 10th anniversary of Chloé eau de parfum. Top is Damask rose essence, heart centifolia rose absolute from Grasse and patchouli, base vanilla absolute. Perfumer Michel Almairac per retailer copy seen in search. Concentration sold as an intense EDP-style 'Absolu de Parfum'. Sold out at Nordstrom."
+  },
+  {
+    "name": "Rose Barbare",
+    "brand": "Guerlain",
+    "year": 2005,
+    "gender": "Unisex",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": [
+        "Aldehydes",
+        "Rose"
+      ],
+      "heart": [
+        "Rose",
+        "Fenugreek"
+      ],
+      "base": [
+        "Honey",
+        "Patchouli",
+        "Woody Notes"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://surrendertochance.com/guerlain-rose-barbare/",
+      "https://www.paris-avenues.com/Guerlain-Rose-Barbare-EDP-75-Ml"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "L'Art et la Matière collection, launched 2005 with the reopening of the Champs-Élysées boutique. Rose described as wild Ottoman rose."
+  },
+  {
+    "name": "Only The Brave Wild",
+    "brand": "Diesel",
+    "year": 2014,
+    "gender": "Masculine",
+    "family": "Aromatic Fougère",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Antoine Maisondieu, Shyamala Maisondieu",
+    "notes": {
+      "top": [
+        "Lemongrass",
+        "Grapefruit",
+        "Black Pepper"
+      ],
+      "heart": [
+        "Nutmeg",
+        "Lavender",
+        "Geranium"
+      ],
+      "base": [
+        "Cedar",
+        "Vetiver",
+        "Moss",
+        "Coconut Milk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2014/05/19/diesel-only-the-brave-wild-new-fragrance/",
+      "https://www.lookfantastic.com/p/diesel-only-the-brave-wild-eau-de-toilette/11210546/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched September 2014. NST lists coumarin and coconut water; Lookfantastic lists coconut milk and moss. Fist-shaped bottle."
+  },
+  {
+    "name": "Nina Rose Garden",
+    "brand": "Nina Ricci",
+    "year": 2021,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Olivier Cresp",
+    "notes": {
+      "top": [
+        "Grass",
+        "Pear",
+        "Lemon",
+        "Grapefruit"
+      ],
+      "heart": [
+        "Orange Blossom",
+        "Neroli"
+      ],
+      "base": [
+        "Vanilla",
+        "White Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2021/01/19/nina-ricci-nina-rose-garden-new-fragrance/",
+      "https://www.perfumemaster.com/nina-ricci/nina-rose-garden-womens-perfume"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Limited edition flanker of Nina, January 2021, 50 ml EDT. Grass is cut grass."
+  },
+  {
+    "name": "Fairy Love",
+    "brand": "Escada",
+    "year": 2021,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Nashi Pear",
+        "Raspberry",
+        "Orange"
+      ],
+      "heart": [
+        "Jasmine"
+      ],
+      "base": [
+        "Hazelnut"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.giftexpress.com/fairy-love-limited-edition-escada-gxp-13056.html",
+      "https://www.amazon.com/ESCADA-Fairy-Love-Limited-Toilette/dp/B09GSMCFSL"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "Escada summer limited edition, 2021, described as vegan. One retailer names Natalie Gracia-Cetto as perfumer, unconfirmed so left null. One outlier listing gives a different pyramid."
+  },
+  {
+    "name": "Touch for Men",
+    "brand": "Burberry",
+    "year": 2000,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Pierre Béthouart",
+    "notes": {
+      "top": [
+        "Violet Leaf",
+        "Artemisia",
+        "Mandarin"
+      ],
+      "heart": [
+        "Nutmeg",
+        "White Pepper",
+        "Cedar"
+      ],
+      "base": [
+        "Tonka Bean",
+        "White Musk",
+        "Vetiver"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://whatscent.app/perfume/burberry-touch-for-men-2000-eau-de-toilette",
+      "https://www.ulta.com/p/touch-men-eau-de-toilette-xlsImpprod640888"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched 2000. Most sources credit Jean-Pierre Béthouart (Firmenich); one credits Michel Almairac. Some lists add davana. Still sold."
+  },
+  {
+    "name": "Armani Mania pour Homme",
+    "brand": "Giorgio Armani",
+    "year": 2002,
+    "gender": "Masculine",
+    "family": "Woody Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Francis Kurkdjian",
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Saffron",
+        "Citrus Leaves"
+      ],
+      "heart": [
+        "Cedar",
+        "Vetiver"
+      ],
+      "base": [
+        "Amber",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.strawberrynet.com/en/giorgio-armani-mania-homme-eau-de-toilette-spray-100ml-3-3oz/29215",
+      "https://fragrancevault.net/products/giorgio-armani-mania-edp"
+    ],
+    "confidence": "medium",
+    "discontinued": true,
+    "remarks": "2002 woody spicy. Perfumer Francis Kurkdjian per Fragrance Vault listing (seen in search). Reported discontinued."
+  },
+  {
+    "name": "For a Kiss",
+    "brand": "IKKS",
+    "year": 2012,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Orange"
+      ],
+      "heart": [
+        "Candy Apple",
+        "Peony"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar",
+        "Apple Tree Wood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.news-parfums.com/en/ikks/6877-ikks-parfum-for-a-kiss-eau-de-toilette-3331841140264.html",
+      "https://www.ikks.com/en/girls/teens--clothes/fragrances/"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Teen line from the IKKS Girl range, 2012. IKKS describes citrus and toffee apple. Other retailers give conflicting pyramids."
+  },
+  {
+    "name": "Chrome Aqua",
+    "brand": "Azzaro",
+    "year": 2019,
+    "gender": "Masculine",
+    "family": "Aromatic Aquatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Christophe Hérault",
+    "notes": {
+      "top": [
+        "Grapefruit",
+        "Green Apple",
+        "Violet Leaf"
+      ],
+      "heart": [
+        "Sea Notes",
+        "Basil",
+        "Mint"
+      ],
+      "base": [
+        "Cypress",
+        "Vetiver"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.decanthouse.com/azzaro-parfums-chrome-aqua-samples",
+      "https://www.macys.com/shop/product/azzaro-mens-chrome-aqua-eau-de-toilette-spray-3.4-oz.?ID=8127272"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "2019 flanker of Chrome (1996). Some lists use spearmint. Availability patchy."
+  },
+  {
+    "name": "Turbulences",
+    "brand": "Louis Vuitton",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Jacques Cavallier",
+    "notes": {
+      "top": [
+        "Jasmine"
+      ],
+      "heart": [
+        "Tuberose",
+        "Magnolia",
+        "Rose"
+      ],
+      "base": [
+        "Leather",
+        "Musk",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.leparfumera.com/product/turbulences-louis-vuitton-for-women/",
+      "https://amaruparis.com/en/products/turbulences-louis-vuitton-for-women",
+      "https://www.scentsevent.com/product/turbulences"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "One of the seven launch perfumes of Les Parfums Louis Vuitton, 2016, by Jacques Cavallier Belletrud. Materials: Grasse jasmine, jasmine sambac, Chinese magnolia, May rose, tuberose, leather. One review says it is discontinued; not confirmed, left false."
+  },
+  {
+    "name": "Acqua di Giò Profondo Lights",
+    "brand": "Giorgio Armani",
+    "year": 2021,
+    "gender": "Masculine",
+    "family": "Aromatic Aquatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": [
+        "Green Mandarin",
+        "Sea Notes",
+        "Cardamom"
+      ],
+      "heart": [
+        "Rosemary",
+        "Fir",
+        "Cypress",
+        "Lavender"
+      ],
+      "base": [
+        "Vetiver",
+        "Cedar",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://varanisridari.home.blog/2021/09/02/acqua-di-gio-profondo-lights-by-giorgio-armani-2021/",
+      "https://www.decanthouse.com/giorgio-armani-acqua-di-gio-profondo-lights-samples",
+      "https://www.jomashop.com/giorgio-armani-mens-acqua-di-gio-profondo-lights-edp-2-5-oz-fragrances-3614273428644.html"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Chunk hint said Eau de Toilette but it was only released as an Eau de Parfum (2021 summer limited edition of Profondo). Heart also lists mastic (lentisque). Fir is balsam fir."
+  },
+  {
+    "name": "Guess Girl",
+    "brand": "Guess",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Raspberry",
+        "Melon",
+        "Bergamot"
+      ],
+      "heart": [
+        "Orchid",
+        "Acacia",
+        "Lily"
+      ],
+      "base": [
+        "Sandalwood",
+        "Vanilla",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://myhighestselfblog.com/guess-girl/",
+      "https://theperfumespot.com/guess-girl-by-guess-3-4-oz-edt-spray-for-women/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched February 2013 for the brand's 30th anniversary. Orchid is Brazilian paradise orchid, acacia from Provence, sandalwood Australian, vanilla Madagascar bourbon."
+  },
+  {
+    "name": "Guilty Black pour Femme",
+    "brand": "Gucci",
+    "year": 2013,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Aurélien Guichard",
+    "notes": {
+      "top": [
+        "Red Berries",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Raspberry",
+        "Lilac",
+        "Violet",
+        "Peach",
+        "Red Currant"
+      ],
+      "base": [
+        "Patchouli",
+        "Amber",
+        "Caramel"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://perfumative.com/en/gucci-guilty-black-pour-femme-en/",
+      "https://www.leparfumier.com/en/gucci-guilty-black-for-women-eau-de-toilette.html"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "2013, launched with Guilty Black pour Homme. Gucci lists it as discontinued. Caramel from retailer pyramids only."
+  },
+  {
+    "name": "Mitzah",
+    "brand": "Dior",
+    "year": 2010,
+    "gender": "Unisex",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Parfum",
+    "perfumer": "François Demachy",
+    "notes": {
+      "top": [
+        "Coriander"
+      ],
+      "heart": [
+        "Rose",
+        "Cinnamon"
+      ],
+      "base": [
+        "Labdanum",
+        "Vanilla",
+        "Honey",
+        "Patchouli",
+        "Incense"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/dior/1389/mitzah",
+      "https://australianperfumejunkies.com/2012/08/14/perfume-review-mitzah-dior/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "La Collection Privée Christian Dior (launched in the Couturier Parfumeur line), 2010. Homage to Mitzah Bricard, Christian Dior's muse. Rose is Damask rose, incense is olibanum."
+  },
+  {
+    "name": "Cabotine Rose",
+    "brand": "Grès",
+    "year": 2003,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Black Currant",
+        "Mandarin",
+        "Cherry Blossom",
+        "Pear"
+      ],
+      "heart": [
+        "Peony",
+        "Mimosa",
+        "Tuberose",
+        "Orange Blossom",
+        "Jasmine",
+        "Rose"
+      ],
+      "base": [
+        "Sandalwood",
+        "Musk",
+        "Vetiver",
+        "Frangipani"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.yannparfumerie.com/product/cabotine-rose-eau-de-toilette-100ml/",
+      "https://leparfumier.com/en/products/gres-cabotine-rose-for-women-eau-de-toilette"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "2003 flanker of Cabotine (1990). Full pyramid from retailer listings seen in search; Yann Parfumerie confirms mandarin, cherry blossom, pear, peony, mimosa."
+  },
+  {
+    "name": "Orchid Soleil",
+    "brand": "Tom Ford",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Floral Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Bitter Orange",
+        "Pink Pepper",
+        "Cypress"
+      ],
+      "heart": [
+        "Tuberose",
+        "Spider Lily",
+        "Orchid"
+      ],
+      "base": [
+        "Vanilla",
+        "Chestnut",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://reallyree.com/tom-ford-orchid-soleil-eau-de-parfum-review/",
+      "https://www.nordstrom.com/s/tom-ford-orchid-soleil-eau-de-parfum/4421258"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "2016 sunny flanker of Black Orchid. Chestnut stands for vanilla chestnut cream accord. Orchid placement varies (heart or base)."
+  },
+  {
+    "name": "Candy Kiss",
+    "brand": "Prada",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Floral Musky",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Daniela Andrier",
+    "notes": {
+      "top": [
+        "Musk"
+      ],
+      "heart": [
+        "Orange Blossom",
+        "Musk"
+      ],
+      "base": [
+        "Vanilla",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://vivir.com/article/prada-candy-kiss-review",
+      "https://www.perfume.com/prada/prada-candy-kiss/women-perfume"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Launched early 2016 as a flanker of Candy (2011). Retailers give musk/orange blossom/vanilla; some add white cotton, bergamot or lily of the valley."
+  }
+]

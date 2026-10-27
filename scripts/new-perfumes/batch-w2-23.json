@@ -1,0 +1,647 @@
+[
+ {
+  "name": "Cuir Intense",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Osmanthus",
+    "Ylang-Ylang"
+   ],
+   "heart": [
+    "Leather",
+    "Musk"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.jetsetmagazine.net/FR.1.magazine.beaute_et_mode.le_nouveau_parfum_guerlain_-_cuir_intense.1200",
+   "https://www.tendance-parfums.com/cuir-intense-guerlain.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sixth release of Les Absolus d'Orient (Jet Set). Year 2019 per several retailer listings (The Perfumed Court 'best of 2019'); Tendance Parfums shows 2024, likely its listing date. Wasser said he started from the leather of Cuir Beluga. Sandalwood and tobacco are accords."
+ },
+ {
+  "name": "Un Jardin après la Mousson",
+  "brand": "Hermès",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Lime",
+    "Green Notes"
+   ],
+   "heart": [
+    "Pepper",
+    "Coriander",
+    "Cardamom",
+    "Watery Notes"
+   ],
+   "base": [
+    "Vetiver",
+    "Ginger Lily"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hermes/2860/un-jardin-apres-la-mousson",
+   "https://persolaise.com/2023/08/hermes-un-jardin-apres-la-mousson-review-jean-claude-ellena-2008.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Third of the Hermès Jardin series. Osmoz pyramid; 'Ginger Lily' stands for longoza (ginger flower). Persolaise reported it discontinued in Aug 2023 (unconfirmed by Hermès). Melon-like watery effect noted by reviewers."
+ },
+ {
+  "name": "CK Free",
+  "brand": "Calvin Klein",
+  "year": 2009,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Rodrigo Flores-Roux, Ellen Molner",
+  "notes": {
+   "top": [
+    "Artemisia",
+    "Star Anise",
+    "Juniper Berries",
+    "Jackfruit"
+   ],
+   "heart": [
+    "Tobacco",
+    "Coffee",
+    "Suede"
+   ],
+   "base": [
+    "Cedar",
+    "Oak",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/ck-free-calvin-klein-2009.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Absinthe mapped to Artemisia. Base sources vary between oak and oakmoss; Texan cedarwood. Some listings add ironwood."
+ },
+ {
+  "name": "Vanille",
+  "brand": "Reminiscence",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Osmanthus"
+   ],
+   "heart": [
+    "Jasmine",
+    "Heliotrope",
+    "Strawberry"
+   ],
+   "base": [
+    "Vanilla",
+    "Benzoin",
+    "Tonka Bean",
+    "Praline",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.le-parfum.fr/femme/edt/vanille-reminiscence-2012.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "le-parfum.fr gives 2012 and Fabrice Pellegrin but no top notes; top notes (Calabrian bergamot, osmanthus) from retailer listings (Cosma). Heart differs between sources (heliotrope vs strawberry). Not to be confused with Vanille Santal."
+ },
+ {
+  "name": "Boss The Scent for Her",
+  "brand": "Hugo Boss",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peach",
+    "Freesia"
+   ],
+   "heart": [
+    "Osmanthus"
+   ],
+   "base": [
+    "Cocoa",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.eclair-parfumeries.com/fr/parfums/9946-l-eau-de-parfum-scent-for-women.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official description: honeyed peach, freesia, osmanthus, intensely roasted cacao. Year 2016 per retailers and Wikiparfum listing. Musk from Sephora key notes. Heart has a single note in all sources. Perfumer not confirmed."
+ },
+ {
+  "name": "Armani Eau pour Homme",
+  "brand": "Giorgio Armani",
+  "year": 1984,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Roger Pellegrino",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Mandarin",
+    "Basil"
+   ],
+   "heart": [
+    "Clove",
+    "Nutmeg",
+    "Lily",
+    "Lavender"
+   ],
+   "base": [
+    "Oakmoss",
+    "Sandalwood",
+    "Patchouli",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesclub.co.uk/en/armani/armani-eau-pour-homme-eau-de-toilette-spray/p_31390/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Perfumesclub: 1984, Roger Pellegrino, citrus woody. Lemon, lavender, vetiver from wider retailer consensus. Some databases class it citrus chypre. Vivir credits Demachy, outlier ignored."
+ },
+ {
+  "name": "La Nuit Trésor Intense",
+  "brand": "Lancôme",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Amandine Clerc-Marie, Honorine Blanc",
+  "notes": {
+   "top": [
+    "Rose"
+   ],
+   "heart": [
+    "Cherry"
+   ],
+   "base": [
+    "Almond Milk",
+    "Vanilla",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ambianceetfragrance.com/2022/01/lancome-la-nuit-tresor-intense.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched Jan 2022, Nocibé exclusive from 17 Jan then wide from 31 Jan. Damascena rose top, black cherry heart, almond milk and Madagascar vanilla base. Lancôme calls it floral amber. Ruby red diamond bottle."
+ },
+ {
+  "name": "Chance Eau Vive",
+  "brand": "Chanel",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Blood Orange"
+   ],
+   "heart": [
+    "Jasmine",
+    "Musk"
+   ],
+   "base": [
+    "Vetiver",
+    "Cedar",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chanel_Chance"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Wikipedia: 2015, EDT, Olivier Polge; ad by Jean-Paul Goude (models bowling with bottles)."
+ },
+ {
+  "name": "Le Beau Mâle",
+  "brand": "Jean Paul Gaultier",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Mint",
+    "Artemisia"
+   ],
+   "heart": [
+    "Lavender",
+    "Orange Blossom",
+    "Sage"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lemondemarketing.com/nouveau-parfum-le-beau-male-par-jean-paul-gaultier/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "On sale 18 March 2013. Kurkdjian (author of Le Mâle 1995). Campaign: model Kaylan Falgoust shot by Sølve Sundsbø, BBDO. Wormwood mapped to Artemisia. Heart and base from retailers. Distinct from Le Beau (2019). Current status unverified."
+ },
+ {
+  "name": "Aqua Allegoria Flora Salvaggia",
+  "brand": "Guerlain",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Watery Notes",
+    "Violet",
+    "Melon"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Iris",
+    "Violet",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.chattychums.com/articles/beauty/a-review:-guerlain-aqua-allegoria-flora-salvaggia-and-nettare-di-sole"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Review dated Aug 2021, EDT 75 ml; Wasser and Jelk. Retailers list solar notes in heart and white musk in base; 2021 per several retailers."
+ },
+ {
+  "name": "Little Woman",
+  "brand": "IKKS",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Lavender"
+   ],
+   "heart": [
+    "Violet",
+    "Peach",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Amber",
+    "Jasmine",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/little-woman.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Children's/preteen fragrance. Creation year 2000 from Tendance Parfums only. Some listings add sandalwood. Perfumer unknown."
+ },
+ {
+  "name": "Déclaration d'un Soir",
+  "brand": "Cartier",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Cumin",
+    "Cardamom",
+    "Citrus"
+   ],
+   "heart": [
+    "Rose",
+    "Nutmeg"
+   ],
+   "base": [
+    "Sandalwood",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/cartier/6599/declaration-d-un-soir"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2012, Mathilde Laurent, woody floral musk. Cardamom and caraway listed by retailers. Night version of Déclaration (1998, Ellena). Wikiparfum flags EDT as discontinued, unconfirmed."
+ },
+ {
+  "name": "Shalimar Souffle Intense",
+  "brand": "Guerlain",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Green Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "White Flowers"
+   ],
+   "base": [
+    "Vanilla",
+    "Benzoin",
+    "Tolu Balsam",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/guerlain-shalimar-souffle-intense-thierry-wasser-2017-new-perfume-review-its-that-good-draw/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official list: green notes, white flowers, jasmine sambac, orange blossom water accord, Tahitian and Madagascar vanilla, musk, tolu balsam (mapped to Peru Balsam, closest vocab), benzoin. Cobalt blue bottle. Flanker of Shalimar Souffle de Parfum (2014)."
+ },
+ {
+  "name": "Terra di Gioia",
+  "brand": "Giorgio Armani",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot",
+    "Mandarin",
+    "Almond"
+   ],
+   "heart": [
+    "Jasmine",
+    "Heliotrope"
+   ],
+   "base": [
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://report-mag.com/2021/05/31/giorgio-armani-nous-propose-terra-di-gioia-sa-nouvelle-fragrance-ardente%E2%80%A8/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 3 April 2021, face Barbara Palvin. Almond = almond blossom accord; heliotrope accord. Perfumers (Pellegrin, Lorson, Blanc) only from search snippets, left null. news-parfums lists it under old products, may be discontinued."
+ },
+ {
+  "name": "Legend Red",
+  "brand": "Montblanc",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Grapefruit",
+    "Cardamom"
+   ],
+   "heart": [
+    "Cedar",
+    "Clary Sage",
+    "Juniper Berries"
+   ],
+   "base": [
+    "Cedar",
+    "Mahogany",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://bestmenscolognes.com/legend-red-by-montblanc/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2022 EDP. Pyramid from retailer listings (heart cedar, base Atlas cedar). Perfumer not found. Montblanc calls it woody."
+ },
+ {
+  "name": "White Patchouli",
+  "brand": "Tom Ford",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peony",
+    "Coriander",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose Absolute",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Incense",
+    "Blonde Woods",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/tom-ford/2720/white-patchouli"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2008, floral woody musk, EDP; night jasmine in top on Osmoz, moved to heart per retailers. Perfumer attribution conflicting, left null. Current availability unverified."
+ },
+ {
+  "name": "Ambre Gris",
+  "brand": "Balmain",
+  "year": 2008,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Guillaume Flavigny",
+  "notes": {
+   "top": [
+    "Cinnamon",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Immortelle",
+    "Myrrh",
+    "Tuberose"
+   ],
+   "base": [
+    "Ambergris",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://tawsl.net/fragrance/balmain-ambre-gris-eau-de-parfum/",
+   "https://australianperfumejunkies.com/2013/03/29/ambre-gris-by-guillaume-flavigny-for-pierre-balmain-2008-perfume-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Note lists vary between sources (sage, frankincense, tonka in some). Discontinued per several retailers (Decant Boutique, FragranceX). Released under creative director Christophe Decarnin."
+ },
+ {
+  "name": "Guess 1981",
+  "brand": "Guess",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Stephen Nilsen",
+  "notes": {
+   "top": [
+    "Violet",
+    "Ambrette"
+   ],
+   "heart": [
+    "Jasmine",
+    "Pear",
+    "Sandalwood"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://beautyandlifestylehunter.blogspot.com/2017/06/product-review-guess-1981-eau-de.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Stephen Nilsen (Givaudan). Launch year 2017 per WWD launch event coverage and retailers. Name refers to the brand's founding year in Los Angeles."
+ },
+ {
+  "name": "Lady Emblem",
+  "brand": "Montblanc",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Sake",
+    "Pink Pepper",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Pomegranate"
+   ],
+   "base": [
+    "Sandalwood",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://scentsamples.uk.com/collections/mont-blanc/products/montblanc-lady-emblem-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official Montblanc pyramid (sake notes, pink grapefruit; Rose Essential; musk crystals). Feminine counterpart of Emblem (2014). Perfumer credit (Ropion, Beaulieu) unconfirmed, left null."
+ },
+ {
+  "name": "Ambre Impérial",
+  "brand": "Van Cleef & Arpels",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Benzoin"
+   ],
+   "base": [
+    "Amber",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-ambre-imperial-2/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire. Interparfums (licensee) pyramid: Laos cinnamon bark, benzoin heart. Year 2015 per retailers."
+ }
+]

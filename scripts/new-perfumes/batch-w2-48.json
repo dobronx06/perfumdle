@@ -1,0 +1,678 @@
+[
+ {
+  "name": "Tubéreuse de Madras",
+  "brand": "Boucheron",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Passion Fruit",
+    "Orange Blossom",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Tuberose",
+    "Ylang-Ylang",
+    "Frangipani"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.wikiscents.com/perfume/boucheron/tubreuse-de-madras/16394",
+   "https://www.interparfumsinc.com/products/la-collection-boucheron-tub%C3%A9reuse-de-madras",
+   "https://www.notino.co.uk/boucheron/tubereuse-de-madras-eau-de-parfum-unisex/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of La Collection Boucheron (Interparfums), sold as unisex although the chunk hint says Feminine. Official Interparfums pyramid: passion fruit, orange blossom / tuberose infusion, ylang-ylang / Sri Lankan sandalwood, Bourbon vanilla. Retailers add violet leaf and frangipani."
+ },
+ {
+  "name": "Romance",
+  "brand": "Ralph Lauren",
+  "year": 1998,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Harry Frémont",
+  "notes": {
+   "top": [
+    "Rose",
+    "Chamomile",
+    "Ginger",
+    "Freesia"
+   ],
+   "heart": [
+    "Lily",
+    "Violet",
+    "Lotus",
+    "Carnation"
+   ],
+   "base": [
+    "Musk",
+    "Oakmoss",
+    "Woods",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/ralph-lauren-romance-edp-review",
+   "https://www.nordstrom.com/s/ralph-lauren-romance-eau-de-parfum-spray/2834448",
+   "https://www.ralphlaurenfragrances.com/en_US/women/romance/romance-eau-de-parfum/RLFE009.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1998 and Harry Frémont given by several secondary sources. Classic pyramid used. The brand's current page lists a different pyramid (mandarin, pink pepper, violet leaf / Damask rose, jasmine, marigold, geranium / woods, oakmoss, musk) and calls it floral woody. Several flankers (Romance Intense, Romance Rosé)."
+ },
+ {
+  "name": "For Him Bleu Noir Parfum",
+  "brand": "Narciso Rodriguez",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Parfum",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Cypress",
+    "Cardamom"
+   ],
+   "heart": [
+    "Iris",
+    "Musk",
+    "Suede"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Cedar",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.narcisorodriguezparfums.com/en/narciso-rodriguez-for-him-bleu-noir/for-him-bleu-noir-parfum.html",
+   "https://www.sabina.com/en/mens-perfumes/13410-for-him-bleu-noir-parfum.html",
+   "https://www.decantx.com/products/narciso-rodriguez-bleu-noir-for-him-eau-de-parfum-for-men"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand page (read) gives notes and positions it as darker than the EDT (2015) and EDP (2018) with a musk core and suede leather. Year 2022 and Sonia Constant from several retailers, not from the brand. Cedar is 'blue cedar' on the brand page, 'Atlas cedar' at retailers."
+ },
+ {
+  "name": "L'Instant Magic",
+  "brand": "Guerlain",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Randa Hammami",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Freesia"
+   ],
+   "base": [
+    "Almond",
+    "Cedar",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/06/04/guerlain-linstant-magic-new-fragrance/",
+   "https://www.osmoz.com/perfumes/guerlain/3425/l-instant-magic"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched September 2007. Randa Hammami (Symrise) with Sylvaine Delacourte, who nicknamed the white musk accord 'Muscinade' and said it shares only its freshness with L'Instant de Guerlain (2003). Top tier has a single note. Later sold in the Les Légendaires line; some retailer pyramids differ and look unreliable."
+ },
+ {
+  "name": "Lalique de Lalique",
+  "brand": "Lalique",
+  "year": 1992,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Iris",
+    "Rose",
+    "Clove"
+   ],
+   "heart": [
+    "Pear",
+    "Blackberry",
+    "Black Currant Leaf"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.pigmentlabco.com/product/lalique-de-lalique-eau-de-parfum-100ml/",
+   "https://www.macys.com/shop/product/lalique-de-lalique-eau-de-parfum-3.4-oz?ID=10963882"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First Lalique fragrance (1992); a crystal collector's bottle is issued every year. Perfumer contested (Sophia Grojsman vs Max Gavarry and Béatrice Piquet), so left null. 'Clove' stands for clove flower; heart pear is listed as 'pear granita'."
+ },
+ {
+  "name": "Muguet",
+  "brand": "Molinard",
+  "year": 1994,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lily of the Valley"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Rose",
+    "Lotus"
+   ],
+   "base": [
+    "Watery Notes",
+    "Jasmine"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumespot.com/muguet-by-molinard-2-5-oz-edp-spray-for-women/",
+   "https://www.fragrancex.com/products/molinard/muguet-perfume",
+   "https://bloomperfume.co.uk/products/muguet"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Grasse house founded 1849. Most retailers date the EDT to 1994 (one says 1999); an EDP version came later (2015). Pyramid from retailer listings; the EDP listing read gives lily of the valley / jasmine, green and watery notes, lilac / sandalwood. Soliflore built on lily of the valley."
+ },
+ {
+  "name": "Ralph",
+  "brand": "Ralph Lauren",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Osmanthus",
+    "Mandarin",
+    "Loquat",
+    "Apple Leaf"
+   ],
+   "heart": [
+    "Freesia",
+    "Magnolia",
+    "Boronia",
+    "Linden Blossom"
+   ],
+   "base": [
+    "Iris",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/ralph-lauren/1243/ralph",
+   "https://theperfumespot.com/ralph-by-ralph-lauren-3-4-oz-edt-spray-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Floral fruity EDT from 2000 in the turquoise bottle. Osmoz pyramid plus apple leaf (cited by most retailers). Perfumer not confirmed."
+ },
+ {
+  "name": "So Pretty",
+  "brand": "Cartier",
+  "year": 1995,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean Guichard",
+  "notes": {
+   "top": [
+    "Peach",
+    "Bergamot",
+    "Mandarin",
+    "Neroli"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Lily of the Valley",
+    "Iris"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/cartier/506/so-pretty",
+   "http://ismellthereforeiam.blogspot.com/2009/02/cartier-so-pretty-review.html",
+   "https://www.profumomania.com/en/So-Pretty-de-Cartier"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "1995, floral green per Osmoz. Jean Guichard credited by several sources; one says Edouard Fléchier later reformulated it. Exists as EDT and EDP. Some lists add blackberry/dewberry, orchid and oakmoss. Hard to find today, sold mostly through discounters; treat discontinued as likely."
+ },
+ {
+  "name": "Thank U, Next",
+  "brand": "Ariana Grande",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Raspberry"
+   ],
+   "heart": [
+    "Coconut",
+    "Rose"
+   ],
+   "base": [
+    "Sugar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.elitedaily.com/p/what-does-ariana-grandes-thank-u-next-perfume-smell-like-it-goes-well-beyond-the-coconut-emoji-18683429",
+   "https://www.fragrancenet.com/perfume/ariana-grande/ariana-grande-thank-u-next/eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Online launch August 2019, Ulta exclusive in the US from September 2019. Official notes: white pear, white raspberry / crème de coconut, pink rose petals / macaroon sugar, velvet musk. Reissued as Thank U, Next 2.0 in 2021."
+ },
+ {
+  "name": "La Petite Robe Noire Légère",
+  "brand": "Guerlain",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cherry",
+    "Almond",
+    "Lemon"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Black Tea",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.guerlain.com/int/en-int/la-petite-robe-noire/la-petite-robe-noire-eau-de-parfum-legere-1",
+   "http://parfumista.net/2020/03/les-petites-robes-noires/",
+   "https://thatnenegirl.wordpress.com/2018/03/22/review-la-petite-robe-noire-eau-de-toilette-x-guerlain/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official name 'La Petite Robe Noire Eau de Parfum Légère', bottle nicknamed 'Ma Rose Hippie-Chic'. Guerlain: the most floral version, cherry and rose water opening, black tea and tonka base. Year 2018 from a retailer and a 2018 blog list; Delphine Jelk credited by a fan blog only, so left null. Rose is a rose water accord."
+ },
+ {
+  "name": "La Nuit de L'Homme L'Intense",
+  "brand": "Yves Saint Laurent",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Iris",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Vanilla",
+    "Sage"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Skipped. Year unresolved: retailers say 2015, one French page says 2013 and mixes it with L'Homme L'Intense; brand page returned 403. Perfumer credits also conflict."
+ },
+ {
+  "name": "Moonlight in Heaven",
+  "brand": "By Kilian",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Calice Becker",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Grapefruit",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Coconut",
+    "Mango",
+    "Rice"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2017/03/08/by-kilian-moonlight-in-heaven-fragrance-review/",
+   "https://www.lesecretdumarais.com/en/kilian-paris/moonlight-in-heaven.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of the 'An Escape' line. Mango sticky rice inspiration (coconut, mango, rice). NST reviewer found the drydown dull and vetiver-heavy."
+ },
+ {
+  "name": "Après l'Ondée",
+  "brand": "Guerlain",
+  "year": 1906,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Guerlain",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Neroli",
+    "Anise"
+   ],
+   "heart": [
+    "Carnation",
+    "Violet",
+    "Hawthorn",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Iris",
+    "Heliotrope",
+    "Vanilla",
+    "Benzoin",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://blog.delacourte.com/en/apres-l-ondee-1906-2/",
+   "https://nstperfume.com/2006/03/27/on-guerlain-apres-londee/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Jacques Guerlain, 1906, inspired by the smell of the countryside after a spring shower. Extrait discontinued (IFRA), EDT still sold. Delacourte calls it the mother of L'Heure Bleue (1912). Mimosa often listed but Guerlain says it is not in the formula, so omitted."
+ },
+ {
+  "name": "Emblem Absolu",
+  "brand": "Montblanc",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Mandarin",
+    "Cardamom"
+   ],
+   "heart": [
+    "Lavender",
+    "Pink Pepper",
+    "Fruity Notes",
+    "Honey"
+   ],
+   "base": [
+    "Vetiver",
+    "Patchouli",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumediary.com/perfumes/montblanc-emblem-absolu/",
+   "https://www.decantx.com/products/montblanc-emblem-absolu-eau-de-toilette-for-men"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Montblanc Emblem (2014). 'Moss' is a crystal moss accord. Perfumer not confirmed."
+ },
+ {
+  "name": "Viva La Juicy Sucré",
+  "brand": "Juicy Couture",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Gardenia",
+    "Mandarin",
+    "Red Currant"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Peach",
+    "Almond"
+   ],
+   "base": [
+    "Cocoa",
+    "Sandalwood",
+    "Whipped Cream",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.beautybridge.com/juicy-couture-viva-la-juicy-sucre-eau-de-parfum-3-4-oz/",
+   "https://www.macys.com/shop/product/juicy-couture-viva-la-juicy-sucre-eau-de-parfum-fragrance-collection?ID=16253515",
+   "https://www.theperfumegirl.com/perfumes/fragrances/juicy-couture/viva-la-juicy-sucre/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Gourmand flanker of Viva La Juicy (2008). Retailers date it November 2016. Brazilian gardenia, peach nectar and almond cream in the official-style pyramid; retailers call it amber fruity gourmand."
+ },
+ {
+  "name": "Hugo Now",
+  "brand": "Hugo Boss",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Lemon"
+   ],
+   "heart": [
+    "Lavender",
+    "Mint"
+   ],
+   "base": [
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/12/19/hugo-now-by-hugo-boss-new-fragrance/",
+   "https://www.hugoboss.com/us/hugo-now-eau-de-toilette-125ml/hbna58087379_999.html",
+   "https://www.perfumesclub.us/en/hugo-boss/hugo-now-eau-de-toilette-spray/p_83154/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Announced December 2019 as an upcoming flanker of Hugo (1995), on sale early 2020. Official notes: cardamom, lemon zest, lavender, mint, vetiver; pyramid split from Perfumes Club (which also lists an aquazone accord and credits Frank Voelkl, unconfirmed, so perfumer null). Base has a single note."
+ },
+ {
+  "name": "Candy L'Eau",
+  "brand": "Prada",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Mandarin"
+   ],
+   "heart": [
+    "Sweet Pea"
+   ],
+   "base": [
+    "Benzoin",
+    "Musk",
+    "Caramel"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2013/02/19/prada-candy-leau-new-perfume/",
+   "https://www.osmoz.com/perfumes/prada/7035/prada-candy-l-eau"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched April 2013, face Léa Seydoux, lighter flanker of Prada Candy (2011) by the same perfumer. Osmoz lists peony in the heart but its own description and most sources say sweet pea. Caramel listed as toffee by Osmoz."
+ },
+ {
+  "name": "B. Balenciaga Intense",
+  "brand": "Balenciaga",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Domitille Michalon-Bertier",
+  "notes": {
+   "top": [
+    "Green Tea",
+    "Blueberry",
+    "Edamame"
+   ],
+   "heart": [
+    "Night Queen Flower"
+   ],
+   "base": [
+    "Cedar",
+    "Mahogany"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfume.com/balenciaga/b-balenciaga-intense/women-perfume",
+   "https://fragrancevault.net/products/balenciaga-b-balenciaga-intense-vaulted-eau-de-parfum",
+   "https://smelltoimpress.com/products/balenciaga-b-eau-de-parfum"
+  ],
+  "confidence": "low",
+  "discontinued": true,
+  "remarks": "Launched October 2016 (Saks), flanker of B. Balenciaga (2014). Perfumer Domitille Bertier (Michalon-Bertier). Night Queen Flower = night-blooming cereus. Some retailers add iris, violet leaf, cashmeran, ambrette. Retailers describe it as discontinued."
+ },
+ {
+  "name": "Rose Goldea",
+  "brand": "Bvlgari",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Pomegranate",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Peony"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumespot.com/bvlgari-rose-goldea-by-bvlgari-3-oz-edp-spray-for-women-bulgari/",
+   "https://fraghab.com/landing/library/Bvlgari/Rose%20Goldea"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched July 2016, flanker of Goldea (2015). Damask rose absolute and jasmine grandiflorum heart; 'Incense' is olibanum. Some lists add peach and vanilla. Flanker Rose Goldea Blossom Delight (2019) has different notes."
+ },
+ {
+  "name": "Bergamote Soleil",
+  "brand": "Atelier Cologne",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Cologne Absolue",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Bitter Orange",
+    "Ambrette"
+   ],
+   "heart": [
+    "Jasmine",
+    "Lavender",
+    "Cardamom"
+   ],
+   "base": [
+    "Vetiver",
+    "Oakmoss",
+    "White Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2016/03/17/atelier-cologne-bergamote-soleil-fragrance-review/",
+   "https://www.myperfumeshop.com/products/atelier-cologne-bergamote-soleil-cologne-absolue"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Cologne Absolue (the house's concentrated cologne format, hint says Eau de Cologne). Calabrian bergamot, Guatemalan cardamom, Egyptian jasmine, Haitian vetiver. Perfumer not found. NST reviewer praised its staying power for a citrus."
+ }
+]

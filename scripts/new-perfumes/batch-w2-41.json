@@ -1,0 +1,691 @@
+[
+ {
+  "name": "N°5 L'Eau",
+  "brand": "Chanel",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Mandarin",
+    "Orange",
+    "Aldehydes"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vetiver",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumesociety.org/chanel-leau-film/",
+   "https://persolaise.com/2016/08/persolaise-review-chanel-no-5-leau-from.html",
+   "https://cafleurebon.com/new-fragrance-review-chanel-no-5-leau-olivier-polge-2016-scent-diaryfive-days-and-five-faces-of-chanel-no-5/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched September 2016, face Lily-Rose Depp. Fractionated ylang-ylang in the heart. Some reviewers mention sandalwood in the base; most lists give vetiver, cedar, white musks."
+ },
+ {
+  "name": "Deep Euphoria",
+  "brand": "Calvin Klein",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Mandarin Leaf",
+    "White Pepper"
+   ],
+   "heart": [
+    "Black Rose",
+    "Peony",
+    "Geranium",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2017/02/09/calvin-klein-deep-euphoria-fragrance-review/",
+   "https://www.theperfumegirl.com/perfumes/fragrances/calvin-klein/deep-euphoria/",
+   "https://perfumania.com/products/deep-euphoria-by-calvin-klein-for-women-eau-de-parfum-spray"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "August 2016 launch. 'Sea Notes' stands for Cascalone (marine molecule). Ann Gottlieb consulted. Jasmine is jasmine sambac. Some listings add a mineral wood accord."
+ },
+ {
+  "name": "Ella Ella",
+  "brand": "Cacharel",
+  "year": 2025,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Coconut",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2025/01/17/cacharel-ella-ella-new-fragrance/",
+   "https://www.cosma-parfumeries.com/cacharel-cacharel-ella-ella-eau-de-parfum.html",
+   "https://www.macys.com/shop/product/cacharel-ella-ella-eau-de-parfum-3.4-oz.?ID=21511977"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Announced January 2025, aimed at young women. Jasmine sambac, Bourbon vanilla. Cosma classifies it as floral chypre."
+ },
+ {
+  "name": "Jean-Louis Scherrer",
+  "brand": "Jean-Louis Scherrer",
+  "year": 1979,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Green Notes",
+    "Violet",
+    "Hyacinth",
+    "Galbanum"
+   ],
+   "heart": [
+    "Carnation",
+    "Tuberose",
+    "Orris Root",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Oakmoss",
+    "Vetiver",
+    "Sandalwood",
+    "Civet",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://en.vesira.com/jean-louis-scherrer-jean-louis-scherrer-eau-de-toilette-100-ml-1034",
+   "https://www.yesterdaysperfume.com/yesterdays_perfume/2009/06/jeanlouis-scherrers-scherrer-1.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Note lists vary between sources: some give citrus, blackcurrant bud and galbanum on top, others aldehydes, green notes, violet, cassia, hyacinth. Kept the common chypre floral core. Perfumer not documented in allowed sources. Still sold online."
+ },
+ {
+  "name": "Givenchy pour Homme",
+  "brand": "Givenchy",
+  "year": 2002,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas, Ilias Ermenidis",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mandarin",
+    "Coriander",
+    "Violet"
+   ],
+   "heart": [
+    "Lavender",
+    "Vetiver"
+   ],
+   "base": [
+    "Cedar",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.mensfragrance.co.uk/product/givenchy-pour-homme-by-givenchy/",
+   "https://www.givenchybeauty.com/gb/p/givenchy-pour-homme-F10100031.html",
+   "https://www.jomashop.com/givenchy-fragrances-givmts33-a-3-3oz.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2002 original. Givenchy's current page (new packaging) describes a woody fresh EDT with cardamom, davana and cedar, so the formula may have been reworked. Notes above follow retailer lists of the original."
+ },
+ {
+  "name": "Mademoiselle Guerlain",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Iris",
+    "Orange Blossom",
+    "Marshmallow"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.guerlain.com/us/en-us/p/mademoiselle-guerlain-eau-de-parfum-P017289.html",
+   "https://australianperfumejunkies.com/2014/10/25/mademoiselle-guerlain-review/",
+   "https://perfumeshrine.blogspot.com/2014/07/guerlains-mademoiselle-guerlain.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2014, sold in Guerlain boutiques (Les Parisiennes). Several blogs say it reuses the formula of La Petite Robe Noire Modèle 2 (2011). Musk = white musks. Reported discontinued and rare."
+ },
+ {
+  "name": "Balmain Homme",
+  "brand": "Balmain",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Nutmeg",
+    "Saffron"
+   ],
+   "heart": [
+    "Leather",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Cedar",
+    "Tonka Bean",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/05/26/balmain-homme-new-fragrance/",
+   "https://www.michael84.co.uk/balmain-homme-fragrance-review/",
+   "https://www.wikiparfum.com/en/fragrances/balmain-homme-1"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Launched June 2015. Bottle inspired by the Balmain military jacket. Presented as woody oriental. Marked discontinued by some retailers (Notino)."
+ },
+ {
+  "name": "Kenzo Homme Sport",
+  "brand": "Kenzo",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Lemon",
+    "Mint"
+   ],
+   "heart": [
+    "Geranium",
+    "Ginger",
+    "Spices"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/1041/kenzo-homme-sport",
+   "https://nstperfume.com/2012/03/26/kenzo-homme-sport-new-fragrance/",
+   "https://www.envie2parfum.fr/kenzo/eau-de-toilette/kenzo-homme-sport"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2012 flanker of Kenzo pour Homme. Ginger listed as ginger flower in French retail. Followed by Homme Sport Extrême (2013)."
+ },
+ {
+  "name": "Eau de Givenchy Rosée",
+  "brand": "Givenchy",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Osmanthus",
+    "Mandarin"
+   ],
+   "heart": [
+    "Rose",
+    "Hyacinth",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/04/30/givenchy-eau-de-givenchy-rosee-new-fragrance/",
+   "https://www.oboudoirparfume.com/2019/09/eau-de-givenchy-rosee-avis-revue.html",
+   "https://www.perfumemaster.com/givenchy/eau-de-givenchy-rosee-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2019 flanker of the 2018 Eau de Givenchy (itself a reinterpretation of the 1980 original). Osmanthus as osmanthus tea, water hyacinth, jasmine sambac, white musks. Some retailers credit François Demachy; not confirmed, left null."
+ },
+ {
+  "name": "Vanille Patchouli",
+  "brand": "Molinard",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Patchouli",
+    "Sandalwood"
+   ],
+   "heart": [
+    "Vanilla",
+    "Benzoin"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancenet.com/perfume/molinard/molinard-vanille-patchouli/eau-de-parfum",
+   "https://leparfumier.com/en/products/molinard-vanille-patchouli-for-women-eau-de-toilette",
+   "https://www.strawberrynet.com/en-US/molinard-vanille-patchouli-eau-de-parfum-spray-75ml-2-5oz/269099"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retailers give 2015 and a consistent pyramid (patchouli and sandalwood top, vanilla and benzoin heart, white musk base); a few listings differ. Sold mostly as 75 ml EDP. Official Molinard page not found."
+ },
+ {
+  "name": "Narciso Eau de Parfum Cristal",
+  "brand": "Narciso Rodriguez",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Gracia-Cetto",
+  "notes": {
+   "top": [
+    "Freesia",
+    "Orange Blossom",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "White Flowers",
+    "Musk"
+   ],
+   "base": [
+    "Cashmeran",
+    "Cedar",
+    "Amber",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2022/03/24/narciso-rodriguez-narciso-cristal-new-fragrance/",
+   "https://www.boots.com/narciso-rodriguez-narciso-cristal-eau-de-parfum-50ml--10313735",
+   "https://www.fragrancenet.com/perfume/narciso-rodriguez/narciso-rodriguez-narciso-cristal/eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2022 flanker of Narciso (2014). Upcycled rose, over 85% natural-origin ingredients per launch coverage. Some retailers omit amber."
+ },
+ {
+  "name": "Cèdre",
+  "brand": "Serge Lutens",
+  "year": 2005,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Clove",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Tuberose",
+    "Honey"
+   ],
+   "base": [
+    "Cedar",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2005/10/18/perfume-review-serge-lutens-cedre/",
+   "https://sergelutens.com/products/cedre-eau-de-parfum-without-spray",
+   "https://kafkaesqueblog.com/2013/07/23/perfume-review-serge-lutens-cedre/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Released 2005 alongside Bornéo 1834. Flat list: tuberose, cloves, cinnamon, amber, musk, cedar. Lutens' copy says honey is the key to the cedar and tuberose is barely perceptible. Reviewers find the cedar subdued."
+ },
+ {
+  "name": "Divine Decadence",
+  "brand": "Marc Jacobs",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annie Buzantian",
+  "notes": {
+   "top": [
+    "Champagne Accord",
+    "Orange Blossom",
+    "Bergamot"
+   ],
+   "heart": [
+    "Gardenia",
+    "Hydrangea",
+    "Honeysuckle"
+   ],
+   "base": [
+    "Saffron",
+    "Vanilla",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/marc-jacobs-divine-decadence-eau-de-parfum/4423016",
+   "http://www.thehappysloths.com/2016/11/marc-jacobs-divine-decadence-review.html",
+   "https://www.jomashop.com/marc-jacobs-perfume-mvdes34es.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2016 flanker of Decadence (2015). Perfumer credit from Nordstrom only. Amber listed as liquid amber. Reported discontinued."
+ },
+ {
+  "name": "L.12.12 Bleu",
+  "brand": "Lacoste",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mint",
+    "Watery Notes"
+   ],
+   "heart": [
+    "Sage",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.michael84.co.uk/lacoste-l-12-12-blue-fragrance-review/",
+   "https://www.fragrancenet.com/cologne/lacoste/lacoste-eau-de-lacoste-l.12.12-bleu/edt",
+   "https://www.jomashop.com/lacoste-perfume-l12bmts1.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Eau de Lacoste L.12.12 Bleu EDT. Most sources give 2011 (one gives 2010). Notes vary: fern accord, ambergris, vetiver appear in some lists. Distinct from the 2026 L.12.12 Bleu Eau de Parfum (yuzu, ginger, lavandin)."
+ },
+ {
+  "name": "Homme Exceptionnel",
+  "brand": "Montblanc",
+  "year": 2008,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Coffee",
+    "Lavender"
+   ],
+   "heart": [
+    "Ginger",
+    "Mint",
+    "Sage"
+   ],
+   "base": [
+    "Amber",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragrancevault.net/products/montblanc-homme-exceptionnel-edt",
+   "https://www.leparfumier.com/en/mont-blanc-homme-exceptionnel-for-men-eau-de-toile.html",
+   "https://www.snapperfumes.in/products/montblanc-homme-exceptionnel-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2008. Perfumer credited only on a forbidden source, left null. Listed as discontinued by Fragrance Vault. One retailer gives an outlier pyramid."
+ },
+ {
+  "name": "L'Homme Sport",
+  "brand": "Lanvin",
+  "year": 2009,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Lavender",
+    "Sage"
+   ],
+   "base": [
+    "Patchouli",
+    "Musk",
+    "Woody Notes",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lanvin/894/lanvin-l-homme-sport",
+   "https://www.theperfumegirl.com/perfumes/fragrances/lanvin/lanvin-l-homme-sport/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "April 2009, campaign with Rafael Nadal. Some lists add pepper on top and oakmoss in the base. Perfumer not documented."
+ },
+ {
+  "name": "Twilly d'Hermès Eau Ginger",
+  "brand": "Hermès",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Peony"
+   ],
+   "heart": [
+    "Ginger"
+   ],
+   "base": [
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2021/06/01/hermes-twilly-dhermes-eau-ginger-new-fragrance/",
+   "https://www.hermes.com/us/en/product/twilly-d-hermes-eau-ginger-eau-de-parfum-V103951V0/",
+   "https://thecandyperfumeboy.com/2021/07/13/perfume-review-twilly-dhermes-eau-ginger-by-hermes/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "June 2021 flanker of Twilly d'Hermès (2017), after Eau Poivrée (2019). Hermès gives only three key materials: candied ginger, peony, cedar; tiers follow retailer placement."
+ },
+ {
+  "name": "Flowerbomb Extreme",
+  "brand": "Viktor & Rolf",
+  "year": 2025,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Tea",
+    "Bergamot",
+    "Raspberry"
+   ],
+   "heart": [
+    "Freesia",
+    "Rose Absolute",
+    "Jasmine",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Peru Balsam"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ulta.com/p/flowerbomb-extreme-eau-de-parfum-pimprod2050571?sku=2636428",
+   "https://www.luxsb.com/fragrance/flowerbomb-extreme",
+   "https://www.sephora.com/product/flowerbomb-extreme-eau-de-parfum-intense-P514876"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Current Flowerbomb Extreme (sold as Eau de Parfum Intense at Sephora), year 2025 from one source. Brand summary: sweet raspberry, rose, jasmine, orange blossom, red vanilla. Not to be confused with the 2005 limited Eau de Parfum Extrême (bergamot, jasmine sambac, osmanthus, patchouli, vanilla)."
+ },
+ {
+  "name": "Violet Blonde",
+  "brand": "Tom Ford",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Lie",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Mandarin",
+    "Lime",
+    "Aldehydes",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Violet",
+    "Jasmine",
+    "Iris"
+   ],
+   "base": [
+    "Suede",
+    "Benzoin",
+    "Cedar",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/tom-ford/2732/violet-blonde",
+   "http://www.mimifroufrou.com/scentedsalamander/2011/09/tom_ford_violet_blonde_2011_fr.html",
+   "https://kafkaesqueblog.com/2014/03/06/tom-ford-violet-blonde/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "2011, Signature Collection, perfumer Antoine Lie (Givaudan). Lime = sweet lime; iris as Tuscan orris butter. Reported discontinued."
+ },
+ {
+  "name": "Les Sorbets de Luna",
+  "brand": "Nina Ricci",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Magnolia",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://prime-beaute.com/nina-ricci-nouveau-sorbets-de-luna/2019",
+   "https://www.strawberrynet.com/en-US/nina-ricci-les-sorbets-de-luna-eau-de-toilette-spray-50ml-1-7oz/249535",
+   "https://www.perfumemaster.com/nina-ricci/les-sorbets-de-luna-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited summer 2019 edition of Luna, part of a Sorbets trio, available from February 2019. Pear = nashi pear. Some lists put gardenia instead of magnolia."
+ }
+]

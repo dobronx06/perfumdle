@@ -1,0 +1,655 @@
+[
+ {
+  "name": "Azzaro pour Homme Intense",
+  "brand": "Azzaro",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Fougère",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cinnamon",
+    "Cognac"
+   ],
+   "heart": [
+    "Vetiver",
+    "Sandalwood"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/azzaro/8365/azzaro-pour-homme-intense-eau-de-parfum",
+   "https://vivir.com/article/azzaro-pour-homme-intense-2015-review"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Osmoz: 2015 EDP, fern-woody, cinnamon / vetiver, sandalwood / tonka. Vivir adds brandy and amber ('Cognac' used for brandy). Perfumer credits conflict across retailers (Pescheux, Pellegrin, Bisch), left null. Current availability unclear, often sold as vintage."
+ },
+ {
+  "name": "Aromatics in Black",
+  "brand": "Clinique",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Chypre",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Plum",
+    "Pink Grapefruit",
+    "Bergamot"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Jasmine",
+    "Neroli"
+   ],
+   "base": [
+    "Myrrh",
+    "Vetiver",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fashionforlunch.net/2015/09/perfume-clinique-aromatics-in-black/",
+   "https://reallyree.com/clinique-aromatics-in-black-eau-de-parfum-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2015 as a darker take on Aromatics Elixir (1971). 'Plum' stands for the plum leaf accord; 'Pink Grapefruit' kept as listed. Perfumer not published. Family label inferred from the Aromatics line, not officially stated."
+ },
+ {
+  "name": "Bois Mystérieux",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Leather Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Neroli",
+    "Bay Leaf"
+   ],
+   "heart": [
+    "Cedar",
+    "Patchouli",
+    "Saffron",
+    "Jasmine"
+   ],
+   "base": [
+    "Leather",
+    "Myrrh"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.decantx.com/products/guerlain-bois-mysterieux-eau-de-parfum-unisex",
+   "https://trendymagazine.net/les-absolus-dorient-de-guerlain-une-collection-qui-met-en-avant-les-plus-belles-matieres-de-lorient/",
+   "https://www.cultbeauty.com/p/guerlain-les-absolus-d-orient-bois-mysterieux-eau-de-parfum-125ml/13904148/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Belongs to Les Absolus d'Orient (not L'Art & La Matière as the chunk note says). Collection by Thierry Wasser, started 2014 with Santal Royal. Year 2019 from retailers (Amazon first listing Feb 2019); not confirmed by Guerlain. Cedar is Atlas cedar; bay leaf = laurel."
+ },
+ {
+  "name": "Patchouli N'Roses",
+  "brand": "Reminiscence",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Rose Oxide",
+    "Damask Rose"
+   ],
+   "heart": [
+    "Centifolia Rose",
+    "Musk"
+   ],
+   "base": [
+    "Patchouli",
+    "Cedar",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.strawberrynet.com/en-US/reminiscence-patchouli-n-roses-eau-de-parfum-spray-50ml-1-7oz/221402",
+   "http://www.mimifroufrou.com/scentedsalamander/2017/01/reminiscence_patchouli_n_roses_review.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Strawberrynet: 2016, chypre floral, Damascus rose, rose oxide, musk, white patchouli. Mimifroufrou review credits Fabrice Pellegrin, adds centifolia rose and cedar, says the brand places musk in the heart and notes an apricot-like nuance. Vanilla from secondary listings. Pyramid distributed."
+ },
+ {
+  "name": "L'Eau de Chloé",
+  "brand": "Chloé",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Peach",
+    "Aldehydes",
+    "Bergamot",
+    "Grapefruit",
+    "Lemon"
+   ],
+   "heart": [
+    "Rose",
+    "Violet",
+    "Peony",
+    "Magnolia",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Cedar",
+    "Oakmoss",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://affinez.fr/parfums/chloe-leau-de-chloe-edt-1081/",
+   "https://www.le-parfum.fr/femme/edt/l-eau-de-chloe-chloe-2012.html",
+   "http://perfumeshrine.blogspot.com/2012/03/chloe-leau-de-chloe-fragrance-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "2012 by Michel Almairac, chypre with a rose water effect. Affinez gives a long pyramid, trimmed here. Replaced in the range by the different Chloé L'Eau (2019); considered discontinued."
+ },
+ {
+  "name": "Roses de Chloé",
+  "brand": "Chloé",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac, Mylène Alran",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Litchi"
+   ],
+   "heart": [
+    "Rose",
+    "Magnolia"
+   ],
+   "base": [
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2014/02/28/roses-de-chloe-fragrance-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched September 2013, EDT in 30/50/75 ml. NST lists bergamot, magnolia, rose, white musk, amber; reviewer perceives lychee, which several retailers list as a top note. Damask rose per retailers."
+ },
+ {
+  "name": "Oud Glacial",
+  "brand": "Reminiscence",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mint",
+    "Almond",
+    "Saffron"
+   ],
+   "heart": [
+    "Rose",
+    "Violet",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Cypriol",
+    "Patchouli",
+    "Musk",
+    "Oud"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/oud-glacial-reminiscence.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Tendance Parfums: 2019, aromatic woody, frosted mint also listed in the heart. Notino sells it as unisex. Perfumer not published."
+ },
+ {
+  "name": "Fusion d'Issey",
+  "brand": "Issey Miyake",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Coconut",
+    "Fig Nectar",
+    "Lemon"
+   ],
+   "heart": [
+    "Sandalwood",
+    "Rosemary",
+    "Cardamom",
+    "Geranium"
+   ],
+   "base": [
+    "Ambroxan",
+    "Woody Notes",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/fusion-d-issey-eau-de-toilette-issey-miyake.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2020, aromatic fougère by Nathalie Lorson. 'Coconut' stands for coconut milk. Brand copy speaks of solar and mineral facets."
+ },
+ {
+  "name": "Sky di Gioia",
+  "brand": "Giorgio Armani",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Litchi",
+    "Pear"
+   ],
+   "heart": [
+    "Rose",
+    "Peony"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Blackberry"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.strawberrynet.com/en-US/giorgio-armani-sky-di-gioia-eau-de-parfum-spray-30ml-1oz/211101"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Acqua di Gioia. Strawberrynet gives 2016; some retailers say 2017. Perfumer not published."
+ },
+ {
+  "name": "Un Air de Bretagne",
+  "brand": "L'Artisan Parfumeur",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Aquatic Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Juliette Karagueuzoglou",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Neroli"
+   ],
+   "heart": [
+    "Seaweed",
+    "Cypress"
+   ],
+   "base": [
+    "Cedar",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/08/08/lartisan-parfumeur-un-air-de-bretagne-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Second Les Paysages scent after Bucoliques de Provence (2016). NST: sea water accord, neroli, cedar leaf, cypress, ambergris; brand mentions seaweed absolute. 'Cedar' is cedar leaf. Pyramid distributed."
+ },
+ {
+  "name": "Boss Selection",
+  "brand": "Hugo Boss",
+  "year": 2006,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Grapefruit",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Geranium",
+    "Cedar",
+    "Star Anise"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.michael84.co.uk/hugo-boss-selection-eau-de-toilette-fragrance-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2006. Review says not discontinued but hard to find. Retailers call it an aromatic fougère; cedar in the heart is cedar needles. Perfumer not published."
+ },
+ {
+  "name": "Polo Black",
+  "brand": "Ralph Lauren",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Ellen Molner, Pierre Negrin",
+  "notes": {
+   "top": [
+    "Mango",
+    "Sage",
+    "Mandarin",
+    "Lemon"
+   ],
+   "heart": [
+    "Artemisia",
+    "Hedione",
+    "Watery Notes"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2005/04/22/ralph-lauren-polo-black-new-limited-edition-bottles-from-serge-lutens/",
+   "https://www.osmoz.com/perfumes/ralph-lauren/1266/polo-black"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched September 2005, Givaudan perfumers. Iced mango, silver armoise, patchouli noir. Osmoz: woody aromatic."
+ },
+ {
+  "name": "Jersey",
+  "brand": "Chanel",
+  "year": 2011,
+  "gender": "Unisex",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge, Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Tonka Bean"
+   ],
+   "heart": [
+    "Green Notes",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2011/11/chanel-jersey-les-exclusifs-perfume-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, 2011, launched as EDT (the line later moved to EDP). Official accords: lavender, vanilla, white musk. Bois de Jasmin compares it to fabric softener and Hermès Brin de Réglisse. Family label is an editorial choice."
+ },
+ {
+  "name": "Miracle Homme",
+  "brand": "Lancôme",
+  "year": 2001,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Oakmoss",
+    "Pepper"
+   ],
+   "heart": [
+    "Coffee",
+    "Cedar"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Vetiver",
+    "Rosewood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lancome/3594/miracle-homme",
+   "https://en.wikipedia.org/wiki/Francis_Kurkdjian"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Osmoz: 2001, woody spicy; top also lists maple leaves, heart rossitol; 'Pepper' is red pepper. Wikipedia lists it among Kurkdjian's creations. Reported discontinued (no longer sold in France by 2015)."
+ },
+ {
+  "name": "Flower by Kenzo Eau de Lumière",
+  "brand": "Kenzo",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas, Amandine Clerc-Marie",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pear"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Honey"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/kenzo-flower-by-kenzo-eau-de-lumiere/",
+   "https://nstperfume.com/2017/01/23/kenzo-flower-by-kenzo-eau-de-lumiere-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Flower by Kenzo (2000), launched 2017 as EDT 30/50/100 ml. Jasmine sambac, Bulgarian rose, white musk. Some retailers add cassis and heliotrope."
+ },
+ {
+  "name": "Eau de Gentiane Blanche",
+  "brand": "Hermès",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Gentian"
+   ],
+   "heart": [
+    "Iris",
+    "Incense"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/unsung-perfume-heroes-hermes-eau-de-gentiane-blanche-2009-by-jean-claude-ellena-fragrance-review/",
+   "https://nstperfume.com/2009/05/19/hermes-eau-de-pamplemousse-rose-eau-de-gentiane-blanche-fragrance-reviews/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2009 with Eau de Pamplemousse Rose for the 30th anniversary of Eau d'Orange Verte. Official notes gentian root, iris, white musk; incense cited by reviewers. Hermès calls it a musky citrus. Sold as Eau de Cologne."
+ },
+ {
+  "name": "Hugo Iced",
+  "brand": "Hugo Boss",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mint",
+    "Tea"
+   ],
+   "heart": [
+    "Bitter Orange",
+    "Juniper"
+   ],
+   "base": [
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/hugo-iced-hugo-boss-vaporisateur-2017.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched early 2017, aromatic with a marine facet, canteen bottle. Hugo Boss copy (seen in search snippets) cites iced mint leaves, wild tea and Indian vetiver. Perfumer not published."
+ },
+ {
+  "name": "Dolce Garden",
+  "brand": "Dolce & Gabbana",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Violaine Collas",
+  "notes": {
+   "top": [
+    "Magnolia",
+    "Neroli",
+    "Mandarin"
+   ],
+   "heart": [
+    "Coconut",
+    "Frangipani",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Almond Milk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/dolce-garden-dolce-gabbana.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018, by Violaine Collas (Mane). Inspired by Sicilian gardens. Vanilla absolute."
+ },
+ {
+  "name": "Wonderlust",
+  "brand": "Michael Kors",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc, Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Almond Milk",
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Carnation",
+    "Jasmine"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cashmere Wood",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2016/06/23/michael-kors-wonderlust-new-fragrance/",
+   "https://www.tendance-parfums.com/wonderlust-parfum.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched August 2016. NST credits Blanc and Guichard; Tendance Parfums also lists Alexis Grugeon. Flankers: Eau Fresh (2018), Sublime (2019), Eau de Voyage (2020)."
+ },
+ {
+  "name": "Eau Relax",
+  "brand": "Biotherm",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion, Fanny Bal",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Tea",
+    "Bergamot"
+   ],
+   "heart": [
+    "Cardamom",
+    "Lily of the Valley",
+    "Jasmine"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/biotherm-eau-relax.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2017, part of Biotherm's Les Eaux body care fragrances. Tendance Parfums: hesperidic family, 50 ml spray. Brand pitches it as a relaxing mist."
+ }
+]

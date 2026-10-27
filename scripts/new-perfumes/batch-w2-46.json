@@ -1,0 +1,683 @@
+[
+ {
+  "name": "L'Homme Sport",
+  "brand": "Yves Saint Laurent",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Juliette Karagueuzoglou",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Verbena"
+   ],
+   "heart": [
+    "Cardamom",
+    "Elemi"
+   ],
+   "base": [
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/03/20/yves-saint-laurent-lhomme-sport-new-fragrance/",
+   "https://larose.az/en/product/yves-saint-laurent-lhomme-sport"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of L'Homme (2006), launched May 2014 in a 60 ml EDT. House copy: woody fresh with citrus and an ambery cedar trail. Current availability unclear."
+ },
+ {
+  "name": "L'Envol de Cartier",
+  "brand": "Cartier",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Iris",
+    "Honey"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/07/12/cartier-lenvol-new-fragrance",
+   "https://thecandyperfumeboy.com/2016/11/01/back-and-forth-cartier-lenvol-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Summer 2016. Cartier calls it a 'transparent' woody oriental built on honey. Removable inner capsule bottle, refillable. Official list is short (honey, guaiac/lignum vitae, iris, patchouli, musk); violet leaf opening per review. Only one top note documented."
+ },
+ {
+  "name": "Le De",
+  "brand": "Givenchy",
+  "year": 1957,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lily of the Valley",
+    "Coriander"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/803/le-de",
+   "https://nstperfume.com/2007/08/05/givenchy-les-parfums-mythiques-new-fragrances/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Created 1957 (same year as L'Interdit), reissued 2007 as EDT in Les Parfums Mythiques for the house's 50th anniversary. Notes are those of the 2007 version. Original perfumer sometimes given as Francis Fabron, not confirmed. Availability of the Mythiques reissue unclear."
+ },
+ {
+  "name": "Fleur de Cristal",
+  "brand": "Lalique",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Raphaël Haury",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Jasmine",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Stephanotis",
+    "Floral Notes"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cashmeran",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lalique/467/fleur-de-cristal",
+   "https://nstperfume.com/2010/10/08/lalique-fleur-de-cristal-demeter-naturals-sage-new-perfumes/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2010 for the 150th anniversary of René Lalique's birth. Lily of the valley is the key note; Osmoz also lists rose-bay and 'solar notes' (rendered here as floral notes). Also exists in crystal and cire perdue extrait editions."
+ },
+ {
+  "name": "Le Parfum Intense",
+  "brand": "Elie Saab",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Rose",
+    "Honey"
+   ],
+   "base": [
+    "Patchouli",
+    "Amber",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/elie-saab/7284/le-parfum-eau-de-parfum-intense",
+   "https://thecandyperfumeboy.com/2013/10/14/when-vanilla-glows-elie-saab-le-parfum-intense-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Autumn 2013 flanker of Le Parfum (2011). Official pyramid: orange blossom / ylang-ylang, rose honey accord / patchouli, amber. Vanilla added from review (key difference vs original). Only one official top note."
+ },
+ {
+  "name": "Eau de Rochas Citron Soleil",
+  "brand": "Rochas",
+  "year": 2023,
+  "gender": "Feminine",
+  "family": "Citrus Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Guillaume Flavigny",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Neroli",
+    "Fig Leaf"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rose",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Musk",
+    "Amber",
+    "Woods"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2023/03/06/rochas-eau-de-rochas-citron-soleil-new-fragrance",
+   "https://www.tendance-parfums.com/en/eau-de-rochas-citron-soleil-eau-de-toilette-rochas.html",
+   "https://www.interparfumsinc.com/products/eau-de-rochas-citron-soleil"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer flanker of Eau de Rochas, spring 2023, 100 ml EDT. Brand family: citrus floral musky. Perfumer credit comes from the Interparfums product page (seen via search excerpt, page itself blocked). Retailers sell it as women's; chunk hint said unisex."
+ },
+ {
+  "name": "Aqua Kenzo pour Homme",
+  "brand": "Kenzo",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Ane Ayo, Philippe Romano",
+  "notes": {
+   "top": [
+    "Apple",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Hazelnut",
+    "Aquatic Notes",
+    "Sesame"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Amber",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/04/09/aqua-kenzo-new-fragrances/",
+   "https://www.notino.fr/kenzo/aqua-kenzo-pour-homme-eau-de-toilette-pour-homme/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2018 duo with Aqua Kenzo pour Femme, reworking the L'Eau Kenzo pour Homme idea. Brand copy names 'pink berries' and 'walnut leaves'; retailers list hazelnut. A 'new generation sandalwood' in the base."
+ },
+ {
+  "name": "Alien Man Fusion",
+  "brand": "Mugler",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Leather"
+   ],
+   "base": [
+    "Green Coffee",
+    "Smoked Beech"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/29/mugler-alien-fusion-alien-man-fusion-new-fragrances/",
+   "https://lookfantastic.com/p/mugler-alien-man-fusion-eau-de-toilette-100ml/12737299"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Identity verified: limited-edition 2019 EDT flanker of Alien Man (2018), launched with Alien Fusion for women. Press: 'a woody, leathery and spicy Eau de Toilette'. Persolaise credits Jean-Christophe Hérault (single source, not read), left null. Marked discontinued as a limited edition."
+ },
+ {
+  "name": "Quatre Iconic",
+  "brand": "Boucheron",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Ane Ayo, Pierre Negrin",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pink Pepper",
+    "Ginger"
+   ],
+   "heart": [
+    "Tuberose",
+    "Peru Balsam",
+    "Black Currant"
+   ],
+   "base": [
+    "Patchouli",
+    "Ambroxan",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2022/06/02/boucheron-quatre-iconic-new-perfume",
+   "https://www.cosma-parfumeries.com/uk_en/boucheron-quatre-iconic-eau-de-parfum.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Early 2022 flanker of Quatre (2015), inspired by the Quatre jewellery line, gold bottle. Amber floral built on tuberose absolute."
+ },
+ {
+  "name": "L'Homme Cologne Bleue",
+  "brand": "Yves Saint Laurent",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Juliette Karagueuzoglou",
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Grapefruit",
+    "Mandarin",
+    "Bergamot",
+    "Sea Notes"
+   ],
+   "heart": [
+    "Black Pepper",
+    "Cardamom",
+    "Lavender",
+    "Thyme"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/01/05/yves-saint-laurent-lhomme-cologne-bleue-new-fragrance/",
+   "https://perfumania.com/products/l-homme-cologne-bleue-by-yves-saint-laurent-for-men-eau-de-toilette-spray"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "February 2018 flanker of L'Homme (2006), 100 ml EDT, campaign with Vinnie Woolston. Pyramid assembled from the press list (citrus, marine, pepper, cardamom) and retailer additions. Widely listed as unavailable, likely discontinued."
+ },
+ {
+  "name": "Sì Rose Signature",
+  "brand": "Giorgio Armani",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Julie Massé",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Black Currant"
+   ],
+   "heart": [
+    "Rose",
+    "Turkish Rose",
+    "Freesia"
+   ],
+   "base": [
+    "Osmanthus",
+    "Ambrette",
+    "Vanilla",
+    "Patchouli",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/armani/8245/si-rose-signature",
+   "https://www.perfumeintelligence.co.uk/library/perfume/s/s4/s4p2.htm"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2016 collector edition of Sì (2013). Rose de Mai paired with Turkish rose over the Sì chypre base. Perfumer credit from Perfume Intelligence only."
+ },
+ {
+  "name": "Classique Cabaret",
+  "brand": "Jean Paul Gaultier",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citron",
+    "Ginger"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Marshmallow"
+   ],
+   "base": [
+    "Amber",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/22/jean-paul-gaultier-classique-cabaret-new-fragrance",
+   "https://moodiedavittreport.com/?p=384674",
+   "https://thecandyperfumeboy.com/2019/02/11/perfume-review-classique-cabaret-by-jean-paul-gaultier/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition, early 2019 (travel retail first). Bust bottle in a glittery red dress, red tin with gold stars. Official notes: ginger, orange blossom, amber, vanilla; citron and marshmallow from retailer pyramids. Perfumer not documented (one site claims Fabrice Pellegrin)."
+ },
+ {
+  "name": "L'Eau Kenzo pour Homme",
+  "brand": "Kenzo",
+  "year": 1999,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Yuzu",
+    "Lime",
+    "Pepper"
+   ],
+   "heart": [
+    "Lotus",
+    "Mint",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/perfume/leau-kenzo-eau-de-toilette-for-men-kenzo",
+   "https://arabicparfums.com/en/products/leau-par-kenzo-pour-homme-kenzo"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Originally L'Eau par Kenzo pour Homme, renamed L'Eau Kenzo pour Homme later. This is the men's version (catalog L'Eau par Kenzo may be the 1996 women's). Sources split 1999 vs 2000; 1999 kept. Bottle redesigned 2003 with wave shape. Pepper listed as green/black pepper."
+ },
+ {
+  "name": "Eau d'Ivoire",
+  "brand": "Balmain",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sophie Labbé",
+  "notes": {
+   "top": [
+    "Red Currant",
+    "Bergamot"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Magnolia"
+   ],
+   "base": [
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://osmoz.com/perfumes/balmain/7182/eau-d-ivoire",
+   "https://nstperfume.com/2013/04/20/balmain-eau-divoire-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "June 2013 flanker of Ivoire (2012 reformulation of the 1980 Ivoire). Osmoz classes it floral spicy; notes read floral fruity. Brand story: Miami South Beach. Unrelated to a 2000 Eau d'Ivoire."
+ },
+ {
+  "name": "Courrèges Homme",
+  "brand": "Courrèges",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alexandra Monet",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mint",
+    "Sage"
+   ],
+   "heart": [
+    "Lavender",
+    "Ambroxan",
+    "Tonka Bean",
+    "Geranium"
+   ],
+   "base": [
+    "Benzoin",
+    "Vanilla",
+    "Moss",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://scentadvice.com/homme-2018-courreges/",
+   "https://jadof.com/en/perfume/courreges-homme-courreges-eau-de-toilette",
+   "https://www.tendance-parfums.com/courreges-homme-parfum.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018 relaunch of Courrèges men's fragrance alongside Homme Sport, after the house's return to menswear. Brand copy: 'icy lavender', benzoin, vanilla, tonka. Moss = 'crystallized moss'. Tiering inferred from list order. Not the 1970s Courrèges Homme."
+ },
+ {
+  "name": "Bois d'Iris",
+  "brand": "Van Cleef & Arpels",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Emilie Coppermann",
+  "notes": {
+   "top": [
+    "Incense",
+    "Salt"
+   ],
+   "heart": [
+    "Iris",
+    "Vetiver",
+    "Driftwood"
+   ],
+   "base": [
+    "Ambergris",
+    "Labdanum",
+    "Myrrh",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/van-cleef-arpels/543/bois-d-iris",
+   "https://www.tendance-parfums.com/c-e-bois-iris-edp.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, 2009. Osmoz: woody iris warmed with ambergris and a touch of frankincense; lists 'sweet notes' on top, Tendance Parfums lists salt. Sold as EDP (Osmoz page says EDT)."
+ },
+ {
+  "name": "Joy Forever",
+  "brand": "Patou",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thomas Fontaine",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Galbanum"
+   ],
+   "heart": [
+    "Marigold",
+    "Rose",
+    "Jasmine",
+    "Iris",
+    "Orange Blossom",
+    "Peach"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.premiumbeautynews.com/en/jean-patou-reinvents-itself,5938",
+   "https://www.osmoz.com/perfumes/jean-patou/7344/joy-forever"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Autumn 2013, first launch under Designer Parfums (owner since 2011), a modern entry point to Joy (1930). Bottle by Verreries Brosse. Peach from Osmoz, absent from the press release. Availability after the 2018-2019 LVMH relaunch of Patou unclear."
+ },
+ {
+  "name": "Ungaro pour l'Homme III",
+  "brand": "Ungaro",
+  "year": 1993,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Orange",
+    "Coriander",
+    "Lavender",
+    "Sage",
+    "Mahogany"
+   ],
+   "heart": [
+    "Rose",
+    "Geranium",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli",
+    "Vetiver",
+    "Oakmoss",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.achatmoinscher.com/comparateur-de-prix-Parfum-homme/emanuel-ungaro-ungaro-pour-l-homme-iii-eau-de-toilette-vaporisateur.html",
+   "https://www.notino.co.uk/emanuel-ungaro/homme-iii-eau-de-toilette-for-men/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1993, aromatic green / fougère. Lists also include a 'vodka' accord in the top. Black bottle. Perfumer not documented (a user review suggests Polge and Demachy, unverified). Vintage vs reformulated versions differ."
+ },
+ {
+  "name": "Eau de Cartier Vétiver Bleu",
+  "brand": "Cartier",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Mint"
+   ],
+   "heart": [
+    "Licorice"
+   ],
+   "base": [
+    "Vetiver",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/01/16/cartier-eau-de-cartier-vetiver-bleu-new-fragrance",
+   "https://gush.com/f/cartier-eau-de-cartier-vetiver-bleu",
+   "https://scentadvice.com/eau-de-cartier-vetiver-bleu-2015-cartier/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "January 2015 flanker of Eau de Cartier (2001), sold as a unisex Eau (chunk hint masculine). Official text: multi-faceted vetiver with smoky facets, mint freshness, licorice and menthol accents. No official pyramid. Reported as no longer produced."
+ },
+ {
+  "name": "Promenade des Anglais",
+  "brand": "Guerlain",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Fig",
+    "Violet",
+    "Iris"
+   ],
+   "base": [
+    "Vetiver",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/guerlain/8225/promenade-des-anglais",
+   "https://jadof.com/en/perfume/guerlain-promenade-des-anglais-perfume",
+   "https://nstperfume.com/2016/01/06/guerlain-promenade-des-anglais-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "January 2016, Les Parisiennes collection, 125 ml bee bottle, blue-tinted juice nodding to the blue chairs of Nice. Osmoz lists EDT and women; Jadof unisex; some retailers say EDP. Fig-iris accord."
+ }
+]

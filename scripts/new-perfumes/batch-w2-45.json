@@ -1,0 +1,684 @@
+[
+ {
+  "name": "Fleurs d'Oranger",
+  "brand": "Serge Lutens",
+  "year": 1995,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Neroli",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tuberose",
+    "White Rose"
+   ],
+   "base": [
+    "Cumin",
+    "Woods",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2011/03/serge-lutens-fleurs-doranger-fragrance-review.html",
+   "https://www.wikiparfum.com/en/fragrances/fleurs-doranger-1"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Bois de Jasmin: created 1995 by Christopher Sheldrake, export range; official notes neroli, orange blossom, white jasmine, Indian tuberose, white rose, cumin, wood, musk (flat list, pyramid inferred). Reformulated around 2010/2011: fresher, more vanilla in drydown. Some retailers give 2003, likely the export-range re-release. Concentration EDP per hint and export range."
+ },
+ {
+  "name": "Velvet Orchid Lumière",
+  "brand": "Tom Ford",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Rum",
+    "Honey"
+   ],
+   "heart": [
+    "Black Orchid",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Myrrh",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.chicprofile.com/tom-ford-velvet-orchid-lumiere-fragrance-2016",
+   "https://www.nordstrom.com/s/tom-ford-velvet-orchid-lumiere-eau-de-parfum/4524477"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "US launch November 2016, EDP 50/100 ml. Presented as a new, brighter edition of Velvet Orchid (2014), itself from the Black Orchid line (2006). Perfumer not disclosed."
+ },
+ {
+  "name": "Individuel",
+  "brand": "Montblanc",
+  "year": 2003,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Pierre Bourdon",
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Coriander",
+    "Lavender",
+    "Cinnamon",
+    "Rosemary",
+    "Bergamot"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Violet",
+    "Jasmine",
+    "Geranium"
+   ],
+   "base": [
+    "Raspberry",
+    "Vanilla",
+    "Chocolate",
+    "Sandalwood",
+    "Amber",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://surrendertochance.com/montblanc-individuel/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2003, Pierre Bourdon, oriental woody per retailer page. Full top list also includes juniper, mint, cardamom; base also musk, oakmoss, vetiver (trimmed to 6 per tier). Dark chocolate = Chocolate. Still sold."
+ },
+ {
+  "name": "The One Grey",
+  "brand": "Dolce & Gabbana",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Cardamom"
+   ],
+   "heart": [
+    "Lavender"
+   ],
+   "base": [
+    "Vetiver",
+    "Tobacco",
+    "Amber",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/07/13/dolce-gabbana-the-one-grey-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of The One for Men (2008), announced July 2018 for a September 2018 debut. NST lists Eau de Toilette (hint said EDP; labelled 'Eau de Toilette Intense' by some retailers). Flat note list incl. 'gray woods accord' mapped to Woody Notes. Retailers credit Jean-Christophe Hérault but not confirmed in a read source, so perfumer null. Not 2017."
+ },
+ {
+  "name": "Songe d'un Bois d'Été",
+  "brand": "Guerlain",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bay Leaf",
+    "Neroli"
+   ],
+   "heart": [
+    "Saffron",
+    "Cardamom",
+    "Jasmine",
+    "Patchouli",
+    "Cedar"
+   ],
+   "base": [
+    "Oud",
+    "Leather",
+    "Myrrh"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://australianperfumejunkies.com/2013/08/11/songe-dun-bois-dete-guerlain-perfume-review/",
+   "https://cafleurebon.com/new-fragrance-review-guerlain-songe-dun-boie-dete-thierry-wasser-as-sheherazade/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2012, Thierry Wasser, one of three scents in Les Déserts d'Orient. Laurel = Bay Leaf. Cardamom and oud placement varies by source."
+ },
+ {
+  "name": "Extravagance d'Amarige",
+  "brand": "Givenchy",
+  "year": 1998,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Rosebay",
+    "Mandarin",
+    "Violet Leaf",
+    "Marigold"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Wisteria"
+   ],
+   "base": [
+    "Cedar",
+    "Sandalwood",
+    "Iris",
+    "Strawberry"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/853/extravagance-d-amarige"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Osmoz: 1998, Floral Green. Tagete mapped to Marigold; wild strawberry listed in base by Osmoz, in heart by others. Flanker of Amarige (1991). Retailers credit Michel Girard, not in read source, so null. Hard to find now, possibly discontinued (resellers list it as vintage)."
+ },
+ {
+  "name": "Chant d'Arômes",
+  "brand": "Guerlain",
+  "year": 1962,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Gardenia",
+    "Aldehydes",
+    "Mirabelle Plum"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ylang-Ylang",
+    "Honeysuckle",
+    "Clove"
+   ],
+   "base": [
+    "Heliotrope",
+    "Benzoin",
+    "Vetiver",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/guerlain/3478/chant-d-aromes",
+   "https://perfumeshrine.blogspot.com/2008/07/chant-daromes-by-guerlain-fragrance.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1962, Jean-Paul Guerlain's first creation for the house, made for his fiancée who wore Carven Ma Griffe. Name means 'Song of Aromas'. Reformulated early 1990s (greener), peachy character largely back by 2007. Oliban = Incense."
+ },
+ {
+  "name": "Les Cascades de Rochas Éclat d'Agrumes",
+  "brand": "Rochas",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Michel Duriez",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Sichuan Pepper"
+   ],
+   "heart": [
+    "Pineapple",
+    "Mango",
+    "White Flowers"
+   ],
+   "base": [
+    "Musk",
+    "Green Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://en.vesira.com/rochas-les-cascades-de-rochas-eclat-dagrumes-eau-de-toilette-50-ml-2742",
+   "https://www.le-parfum.fr/femme/edt/les-cascades-de-rochas-eclat-d-agrumes-rochas-2012.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2012 women's EDT (hint said Unisex; retailers market it for women). In-house perfumer Jean-Michel Duriez. Inspired by Parisian summer fountains and Sicily. Base: musk + vegetal accord (Green Notes) per le-parfum.fr."
+ },
+ {
+  "name": "Miracle So Magic!",
+  "brand": "Lancôme",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Violet",
+    "Hazelnut",
+    "Rose"
+   ],
+   "heart": [
+    "Clover",
+    "Jasmine",
+    "Lily",
+    "Narcissus"
+   ],
+   "base": [
+    "Amber",
+    "Musk",
+    "Vanilla",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.beautyontrial.co.uk/fragrances/eaux-de-parfum/lancome-miracle-so-magic-eau-de-parfum-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2004 flanker of Miracle (2000). Dog rose mapped to Rose, woodland lily to Lily. Annick Menardo credited by a user review and some retailers, not confirmed, so null. Hard to find, likely discontinued."
+ },
+ {
+  "name": "Light Blue Italian Zest",
+  "brand": "Dolce & Gabbana",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Citron",
+    "Granny Smith Apple"
+   ],
+   "heart": [
+    "White Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://moodiedavittreport.com/dolce-gabbana-adds-fresh-twist-to-light-blue-and-light-blue-pour-homme/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition, travel retail launch spring 2018 (not 2022). Perfumer Olivier Cresp per Moodie Davitt. Calabrian lemon = Lemon, Sicilian cedar (cedrat) = Citron. Pour Homme version by Alberto Morillas."
+ },
+ {
+  "name": "Soir d'Orient",
+  "brand": "Sisley",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Chypre",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Galbanum",
+    "Saffron"
+   ],
+   "heart": [
+    "Rose",
+    "Pepper",
+    "Geranium"
+   ],
+   "base": [
+    "Sandalwood",
+    "Incense",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://auparfum.bynez.com/sisley-voyage-en-orient,2390"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Released 1 September 2015. Olivier Pescheux with Isabelle d'Ornano. Auparfum: a free variation of Eau du Soir, chypre with a floral spicy heart on a woody trail. Flat list distributed; Sisley lists saffron top, Turkish rose heart, Somali incense base."
+ },
+ {
+  "name": "Dolce Shine",
+  "brand": "Dolce & Gabbana",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mango",
+    "Grapefruit",
+    "Quince"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "Salt"
+   ],
+   "base": [
+    "Blonde Woods",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumespot.com/dolce-shine-by-dolce-gabbana-2-5-oz-edp-spray-for-women/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Notes read on retailer page (salty accord = Salt). Year 2020 from several retailer listings. Retailers credit Marie Salamagne, not confirmed in a read source, so null. Part of the Dolce line (Dolce, 2014)."
+ },
+ {
+  "name": "Image Homme",
+  "brand": "Cerruti",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Aromatic Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Plum",
+    "Pepper",
+    "Banana Leaf"
+   ],
+   "heart": [
+    "Guaiac Wood",
+    "Fig Leaf",
+    "Cypress",
+    "Jasmine"
+   ],
+   "base": [
+    "Vetiver",
+    "Cedar",
+    "Musk",
+    "Patchouli",
+    "Amber",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrances4ever.com/cerruti-image-eau-de-toilette-2-5-oz-75-ml-spray-for-men/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1998 per retailer page with full pyramid. Retailers credit Ursula Wandel, not in the read page, so perfumer null. Sold as Cerruti Image (pour homme). Tahitian vetiver = Vetiver."
+ },
+ {
+  "name": "Luna Blossom",
+  "brand": "Nina Ricci",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Pear",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine",
+    "Magnolia"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thescentbase.com/perfumes/nina-ricci/luna-blossom"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2017 and Fabrice Pellegrin per scentbase; some retailers say 2016. Flanker of Luna (2016), apple-shaped Nina Ricci bottle. Floral fruity EDT, 50/80 ml."
+ },
+ {
+  "name": "Butterfly",
+  "brand": "Hanae Mori",
+  "year": 1995,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bernard Ellena",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Strawberry",
+    "Blackberry",
+    "Blueberry"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ylang-Ylang",
+    "Rose",
+    "Peony"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Brazilian Rosewood",
+    "Almond"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2014/08/hanae-mori-butterfly-perfume-review.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Bois de Jasmin: created by Bernard Ellena in 1995, fruit-over-caramel early gourmand, no patchouli. Flat list distributed. Packaging colours mark concentrations (pink = EDT). Some retailers give 1996. 'Almond tree' mapped to Almond."
+ },
+ {
+  "name": "Bel Respiro",
+  "brand": "Chanel",
+  "year": 2007,
+  "gender": "Unisex",
+  "family": "Green Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Rosemary",
+    "Thyme",
+    "Basil"
+   ],
+   "heart": [
+    "Narcissus",
+    "Green Notes",
+    "Floral Notes"
+   ],
+   "base": [
+    "Leather",
+    "Garrigue"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/chanel/1643/bel-respiro",
+   "https://nstperfume.com/2007/02/19/les-exclusifs-de-chanel-bel-respiro-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, 2007, Jacques Polge. Launched as Eau de Toilette, now sold as Eau de Parfum (described here per hint). Named after Gabrielle Chanel's country house outside Paris (Garches), 1920s. Daffodil = Narcissus, cut grass = Green Notes. Chanel does not publish a full pyramid."
+ },
+ {
+  "name": "L'Air du Paradis",
+  "brand": "Nina Ricci",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Calice Becker",
+  "notes": {
+   "top": [
+    "Passionfruit",
+    "Kaffir Lime"
+   ],
+   "heart": [
+    "Frangipani",
+    "Jasmine"
+   ],
+   "base": [
+    "Driftwood",
+    "Solar Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/04/07/nina-ricci-lair-du-paradis-new-perfume/",
+   "https://cafleurebon.com/nina-ricci-lair-du-paradis-review-calice-becker-passionate-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition EDT 50 ml, spring 2018, Calice Becker. Sunset orange bottle, case illustrated by Martyna Zoltaszek."
+ },
+ {
+  "name": "Living Lalique",
+  "brand": "Lalique",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Richard Ibañez",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pepper",
+    "Nutmeg"
+   ],
+   "heart": [
+    "Iris",
+    "Tonka Bean",
+    "Vanilla"
+   ],
+   "base": [
+    "Vetiver",
+    "Cashmeran",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/06/30/living-lalique-perfume-review/",
+   "https://thecandyperfumeboy.com/2015/03/04/living-the-lalique-life-or-feeding-that-inner-perfume-demon-lalique-living-lalique-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "UK launch April 2015, women's pillar, Richard Ibañez (Robertet). Orris butter centrepiece (Iris). EDP 50/100 ml plus an extrait. Resellers list it as discontinued. Some retailers give 2013, not supported."
+ },
+ {
+  "name": "L'Homme Lacoste Timeless",
+  "brand": "Lacoste",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Rhubarb"
+   ],
+   "heart": [
+    "Ginger",
+    "Pepper",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2019/07/16/lacoste-lhomme-timeless-new-fragrance/",
+   "https://www.beautybridge.com/lacoste-l-homme-lacoste-timeless-eau-de-toilette-3-3-oz/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched July 2019 (Coty licence), flanker of L'Homme Lacoste (2017), EDT 50/100 ml, aromatic spicy woods. Retailers also list tea, almond, Akigalawood and credit Michel Girard; not confirmed in read sources, so perfumer null."
+ },
+ {
+  "name": "L'Eau Serge Lutens",
+  "brand": "Serge Lutens",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Citrus",
+    "Aquatic Notes"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Magnolia",
+    "Mint"
+   ],
+   "base": [
+    "Musk",
+    "Soap"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/03/12/serge-lutens-leau-serge-lutens-fragrance-review/",
+   "https://www.osmoz.com/perfumes/serge-lutens/4044/l-eau-serge-lutens"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2010, Lutens's 'anti-perfume', meant to recall the smell of ironing, distributed widely by Shiseido. NST lists Eau de Parfum 100 ml (hint said EDT). Sheldrake attribution from NST tag and retailers (medium). Osmoz adds paraffin and 'oxygen'."
+ }
+]

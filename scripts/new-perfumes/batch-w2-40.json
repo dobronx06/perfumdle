@@ -1,0 +1,667 @@
+[
+ {
+  "name": "This Is Her! Vibes of Freedom",
+  "brand": "Zadig & Voltaire",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sidonie Lancesseur",
+  "notes": {
+   "top": [
+    "Pear",
+    "Peony"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Whipped Cream",
+    "Chestnut"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sabina.com/en/women-s-perfumes/14555-zadig-voltaire-this-is-her-vibes-of-freedom-eau-de-parfum.html",
+   "https://www.wikiparfum.com/en/fragrances/this-is-her-vibes-of-freedom-1",
+   "https://sokilondon.com/zadig-voltaire-fragrance-range-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of This Is Her! (2016), keeps the whipped cream and chestnut base. Perfumer per retailers (Sabina). Year 2022 per retailers. One database marks it discontinued but retailers still sell it."
+ },
+ {
+  "name": "Satine",
+  "brand": "Lalique",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Gardenia",
+    "Heliotrope"
+   ],
+   "heart": [
+    "Vanilla",
+    "Tonka Bean",
+    "Pink Pepper"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lalique/7038/satine",
+   "https://www.macys.com/shop/product/lalique-satine-eau-de-perfume-100ml?ID=11600441"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2013, Nathalie Lorson (Firmenich), Oriental Vanilla. Tagline 'Radiant tonka sun'. Some retailers vary slightly (black pepper, orris, cedar)."
+ },
+ {
+  "name": "L'Homme Intense",
+  "brand": "Prada",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Iris",
+    "Amber"
+   ],
+   "heart": [
+    "Patchouli",
+    "Leather"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.nordstrom.com/s/prada-lhomme-prada-intense-eau-de-parfum/4688586",
+   "https://thecollectionperfumes.com/products/prada-lhomme-intense-3-3-oz-edp"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official name L'Homme Prada Intense. Retailers disagree on tiers (Nordstrom: amber top, patchouli heart, sandalwood and roasted tonka base; others: iris top, amber and patchouli heart, tonka, leather, sandalwood base). Pyramid redistributed. Perfumer per retailer listings. Nordstrom mentions Allure Best Men's Fragrance 2017."
+ },
+ {
+  "name": "Mon Parfum",
+  "brand": "Paloma Picasso",
+  "year": 1984,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Bocris",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Hyacinth",
+    "Angelica",
+    "Ylang-Ylang",
+    "Clove"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Lily of the Valley",
+    "Iris"
+   ],
+   "base": [
+    "Oakmoss",
+    "Patchouli",
+    "Vetiver",
+    "Castoreum",
+    "Civet",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumeshrine.blogspot.com/2007/10/paloma-picasso-mon-parfum-fragrance.html",
+   "https://cafleurebon.com/vintage-perfume-review-paloma-picasso-mon-parfum-1984-chic-chypre-draw/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Usually sold as 'Paloma Picasso' (Mon Parfum). Composed 1984 by Francis Bocris; some sources give 1985. Base also lists amber, musk, tobacco, cedar. Animalic notes lightened in later reformulations. Black egg-shaped bottle in the 1980s; ads shot by Richard Avedon for the Saks launch."
+ },
+ {
+  "name": "Le Parfum in White",
+  "brand": "Elie Saab",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian, Jérôme Di Marino",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Red Berries",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peach"
+   ],
+   "base": [
+    "White Amber",
+    "Musk",
+    "Patchouli",
+    "Benzoin",
+    "Vanilla",
+    "Tolu Balsam"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.alhawaj.com/elie-saab-le-parfum-white-edp-90ml",
+   "https://www.beirutdutyfree.com/product/elie-saab-le-parfum-in-white-90ml-1442"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Le Parfum (2011). 'Musk' = white musk. Lookfantastic gives a different list (blackcurrant, pear, peony, raspberry); ignored."
+ },
+ {
+  "name": "Nina Pop",
+  "brand": "Nina Ricci",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Lime"
+   ],
+   "heart": [
+    "Peony",
+    "Praline",
+    "Vanilla",
+    "Datura",
+    "Apple"
+   ],
+   "base": [
+    "Cedar",
+    "Apple Tree",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/nina-ricci/8342/nina-pop--eau-de-toilette",
+   "https://www.amazon.com/Nina-Ricci-Toilette-Spray-Birthday/dp/B01C8P7YP8"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Released for the 10th birthday of Nina (2006). Osmoz: Calabrian lemon and caipirinha lemon (rendered Lemon, Lime), peony, praline, vanilla infusion, moon flower (Datura), love apple; white cedar, apple tree leaves, cotton musk. Perfumer credit only on one retailer, left null."
+ },
+ {
+  "name": "Versace L'Homme",
+  "brand": "Versace",
+  "year": 1986,
+  "gender": "Masculine",
+  "family": "Woody Chypre",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Basil",
+    "Petitgrain",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Carnation",
+    "Cinnamon",
+    "Jasmine",
+    "Rose",
+    "Patchouli",
+    "Cedar"
+   ],
+   "base": [
+    "Leather",
+    "Labdanum",
+    "Oakmoss",
+    "Tonka Bean",
+    "Amber",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesclub.co.uk/en/versace/versace-lhomme-eau-de-toilette-spray/p_43220/",
+   "https://fragrancevault.net/products/versace-lhomme-vintage-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Perfumes Club: 1986 release, some sources say 1984. Listing puts sandalwood in the heart; moved to base to stay within 6 notes. Musk and vanilla also listed in base. Family labels vary (spicy citrus, woody chypre). Perfumer unknown. Reformulated over time."
+ },
+ {
+  "name": "Only The Brave Tattoo",
+  "brand": "Diesel",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Granny Smith Apple",
+    "Mandarin"
+   ],
+   "heart": [
+    "Pepper",
+    "Sage"
+   ],
+   "base": [
+    "Benzoin",
+    "Patchouli",
+    "Tobacco",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://diesel.com/en-us/only-the-brave/only-the-brave-tattoo-50-ml-black/PL025000PRO01.html",
+   "https://leparfumier.com/en/products/diesel-only-the-brave-tattoo-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Diesel site: Woody Oriental; Granny Smith; bourbon pepper, sage; benzoin, patchouli, tobacco leaf, amber wood. Mandarin from other retailers. Year 2012 per retailers. Perfumer not found."
+ },
+ {
+  "name": "Habit Rouge Dress Code",
+  "brand": "Guerlain",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Neroli",
+    "Rose"
+   ],
+   "heart": [
+    "Patchouli",
+    "Cedar",
+    "Spices"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Praline",
+    "Vanilla",
+    "Vetiver",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://trucsdemec.fr/2015/10/23/habit-rouge-dress-code-guerlain/",
+   "https://www.nordstrom.com/s/guerlain-habit-rouge-dresscode-eau-de-parfum/4142875"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Reinterpretation of Habit Rouge (1965) by Thierry Wasser, reviewed as new in October 2015. Guerlain lists bergamot, neroli, rose, spices, woody leather, tonka, praline, vanilla. Same bottle shape, red honeycomb-pattern box."
+ },
+ {
+  "name": "Le Male in the Navy",
+  "brand": "Jean Paul Gaultier",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Quentin Bisch, Natalie Gracia-Cetto",
+  "notes": {
+   "top": [
+    "Peppermint",
+    "Watery Notes"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Salt"
+   ],
+   "base": [
+    "Vanilla",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.trbusiness.com/regional-news/international/jean-paul-gaultier-le-male-joins-the-navy/158791",
+   "https://www.decantx.com/products/jean-paul-gaultier-le-male-in-the-navy-eau-de-toilette-for-men"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition from Puig, described as an aquatic aromatic oriental fougere: peppermint, salty oceanic accord, vanilla, ambergris. TRBusiness (Feb 2019) says already in travel retail; retailers say 2018. Dark blue torso bottle with navy stripes. Perfumers per retailer listings."
+ },
+ {
+  "name": "Encens Mythique d'Orient",
+  "brand": "Guerlain",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Rose",
+    "Saffron"
+   ],
+   "heart": [
+    "Patchouli",
+    "Vetiver"
+   ],
+   "base": [
+    "Ambergris",
+    "Moss",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "http://www.thenonblonde.com/2012/07/guerlain-encens-mythique-dorient-les.html",
+   "https://thescentedhound.com/2013/08/07/encens-mythique-dorient-by-guerlain/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Déserts d'Orient collection (2012), 75 ml EDP. Official flat list: aldehydes, rose, saffron, patchouli, vetiver, ambergris, moss, frankincense. Perfumer Thierry Wasser per several sources. A later 'Encens Mythique' (2019, Les Absolus d'Orient) may have replaced it; status unclear."
+ },
+ {
+  "name": "Concentré de Pamplemousse Rose",
+  "brand": "Hermès",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Grapefruit"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.nordstrom.com/s/hermes-eau-de-pamplemousse-rose-concentre-de-pamplemousse-rose-eau-de-toilette/3225062",
+   "https://www.flannels.com/hermes-concentre-de-pamplemousse-rose-eau-de-toilette-755237"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Hermès lists grapefruit, rose petals, vetiver only. Intense version of Eau de Pamplemousse Rose (Colognes Hermès). Year 2009 and Ellena per retailer copy; one retailer gives 2011. Wikiparfum also mentions orange and rhubarb (not verified)."
+ },
+ {
+  "name": "L'Ange Noir",
+  "brand": "Givenchy",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper",
+    "Almond"
+   ],
+   "heart": [
+    "Iris",
+    "Black Sesame"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Ambrette",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2016/08/09/givenchy-lange-noir-new-perfume/",
+   "http://www.achat-parfums.fr/ange-noir-givenchy/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Ange ou Démon (2006), launched autumn 2016 in 30/50/75 ml. White iris and salty black sesame heart. Strawberrynet lists a different pyramid (pear, peony, sandalwood, cedar). Perfumer credit (Demachy, Coppermann) not verified, left null. Reported as discontinued by some sources while Givenchy still listed it."
+ },
+ {
+  "name": "Bucoliques de Provence",
+  "brand": "L'Artisan Parfumeur",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Aromatic Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Juniper Berries",
+    "Citrus"
+   ],
+   "heart": [
+    "Iris",
+    "Spices"
+   ],
+   "base": [
+    "Leather",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/12/21/lartisan-parfumeur-bucoliques-de-provence-fragrance-review/",
+   "https://thescentedhound.com/2016/11/14/bucoliques-de-provence-by-lartisan-parfumeur/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Parfum (chunk hint said EDT). Spring 2016, first of a planned series of French regional scents, described as limited edition. Brand names lavender, leather, iris, spices; retailers add juniper berries and white musk. Status today unclear."
+ },
+ {
+  "name": "Light di Gioia",
+  "brand": "Giorgio Armani",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Gardenia"
+   ],
+   "base": [
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.strawberrynet.com/en/giorgio-armani-light-di-gioia-eau-de-parfum-spray-30ml-1oz/237530",
+   "https://scentsgift.com/products/light-di-gioia"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Strawberrynet: 2019, floral woody musk, bergamot; jasmine, gardenia; white musk, woody accord. Perfumer conflict (Olivier Cresp vs Antoine Maisondieu), left null. Flanker of Acqua di Gioia (2010)."
+ },
+ {
+  "name": "So Repetto",
+  "brand": "Repetto",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Iris"
+   ],
+   "base": [
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.envie2parfum.fr/repetto/eau-de-toilette/so-repetto",
+   "https://www.incenza.com/fins-de-collection/107834-so-repetto-eau-de-toilette.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Official name So' Repetto. Limited edition (envie2parfum: 'nouvelle édition limitée', 2020, ambré floral): pink berries, iris, cashmere wood. Listed under 'fins de collection' at Incenza. Perfumer unknown."
+ },
+ {
+  "name": "24 Rue de l'Université",
+  "brand": "Yves Saint Laurent",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Incense",
+    "Cypriol"
+   ],
+   "heart": [
+    "Cedar",
+    "Suede"
+   ],
+   "base": [
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/yves-saint-laurent-le-vestiaire-24-rue-de-l-universite/",
+   "https://www.yslbeauty.co.uk/fragrances/le-vestiaire-des-parfums/24-rue-de-l--universite/WW-51385YSL.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Le Vestiaire des Parfums (couture collection). YSL official: incense, cypriol; cedarwood, suede accord; sandalwood. Address of the YSL ateliers."
+ },
+ {
+  "name": "Musc",
+  "brand": "Molinard",
+  "year": null,
+  "gender": "Unisex",
+  "family": "Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Neroli"
+   ],
+   "heart": [
+    "Patchouli",
+    "Vanilla",
+    "Amber"
+   ],
+   "base": [
+    "Musk",
+    "Benzoin",
+    "Opoponax"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.news-parfums.com/fr/molinard-parfum/38197-musc-eau-de-parfum-3305400180084.html"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Skip. Several products named Musc (Les Orientaux EDT 1995, EDP of unknown year) with conflicting note lists; molinard.com EDP page lists nutmeg, bergamot, juniper / incense, patchouli, teak / musk, amber, labdanum. Year not pinned."
+ },
+ {
+  "name": "Nilang",
+  "brand": "Lalique",
+  "year": 1995,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Gérard Anthony",
+  "notes": {
+   "top": [
+    "Melon",
+    "Peach",
+    "Mandarin",
+    "Orange"
+   ],
+   "heart": [
+    "Jasmine",
+    "Freesia",
+    "Lotus",
+    "Cranberry",
+    "Gillyflower"
+   ],
+   "base": [
+    "Vanilla",
+    "Praline",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lalique/469/nilang-2011",
+   "https://www.news-parfums.com/en/lalique/6046-lalique-nilang-eau-de-parfum-3454960026261.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Original 1995, relaunched in 2011 in a new EDP presentation; notes from the Osmoz 2011 listing (wild cranberry rendered Cranberry). Perfumer Gérard Anthony per Osmoz; one retailer names Christiane Plos. One retailer lists the 2011 EDP as discontinued."
+ },
+ {
+  "name": "Laine de Verre",
+  "brand": "Serge Lutens",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Citrus"
+   ],
+   "heart": [
+    "Aldehydes"
+   ],
+   "base": [
+    "Cashmeran",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2014/03/serge-lutens-laine-de-verre-perfume-review.html",
+   "https://www.envie2parfum.fr/serge-lutens/eau-de-parfum/laine-de-verre"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Third scent of the L'Eau Serge Lutens line after L'Eau (2010) and L'Eau Froide (2011). Notes: citrus, aldehydes, white musks, cashmeran. Reviewers note a metallic, soapy aldehydic opening and a tenacious musky drydown."
+ }
+]

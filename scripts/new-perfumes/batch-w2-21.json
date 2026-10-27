@@ -1,0 +1,688 @@
+[
+ {
+  "name": "Woman",
+  "brand": "Ralph Lauren",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Pear",
+    "Rhubarb",
+    "Black Currant"
+   ],
+   "heart": [
+    "Tuberose",
+    "Orange Blossom",
+    "Rose"
+   ],
+   "base": [
+    "Hazelnut",
+    "Sandalwood",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://glossnglitters.com/woman-by-ralph-lauren-eau-de-parfum-review/",
+   "https://www.fragazon.com/products/woman-by-ralph-lauren-eau-de-parfum-spray-1-7-oz"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "L'Oreal licence. 'Rose' stands for Turkish rose. Launched 2017, perfumer Anne Flipo per several retailers and a review."
+ },
+ {
+  "name": "Eau de Rhubarbe Écarlate",
+  "brand": "Hermès",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Rhubarb"
+   ],
+   "heart": [
+    "Red Berries",
+    "Lantana"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/eau-de-rhubarbe-ecarlate.html",
+   "https://www.hermes.com/us/en/product/eau-de-rhubarbe-ecarlate-eau-de-cologne-V107157V0/",
+   "https://boisdejasmin.com/2016/05/hermes-eau-de-rhubarbe-ecarlate-perfume-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of the Hermes Colognes line. Published pyramid is short: rhubarb top, red berries and lantana heart, white musk base. Single-note tiers kept as published."
+ },
+ {
+  "name": "Eau de Campagne",
+  "brand": "Sisley",
+  "year": 1976,
+  "gender": "Unisex",
+  "family": "Floral Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Basil",
+    "Bergamot",
+    "Lemon",
+    "Galbanum"
+   ],
+   "heart": [
+    "Tomato Leaf",
+    "Geranium",
+    "Jasmine",
+    "Lily of the Valley",
+    "Plum"
+   ],
+   "base": [
+    "Oakmoss",
+    "Patchouli",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/sisley/5142/eau-de-campagne",
+   "https://luxuryactivist.com/luxury/eau-de-campagne-45-years-of-sublime-nature/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Created 1976 by Jean-Claude Ellena. Tomato leaf is the signature note per the brand. Osmoz classes it Floral Green."
+ },
+ {
+  "name": "Zadig",
+  "brand": "Zadig & Voltaire",
+  "year": 2025,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Amandine Clerc-Marie, Florian Gallo",
+  "notes": {
+   "top": [
+    "Sesame",
+    "Ginger"
+   ],
+   "heart": [
+    "Neroli",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Chantilly Cream"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://saywhomedia.com/events/zadigvoltaire-parfums-spreads-the-wings-of-freedom-with-zadig/",
+   "https://www.news-parfums.com/en/zadigvoltaire/45365-zadig-eau-de-parfum-3423222119102.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched March 2025 at the start of Paris Fashion Week, face Louise Robert. Black and white sesame top; brand says roasted vanilla and sandalwood; news-parfums adds a chantilly accord. Refillable wing bottle. Brand describes it as floral amber woody."
+ },
+ {
+  "name": "Alaïa",
+  "brand": "Alaïa",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marie Salamagne",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Mineral Notes"
+   ],
+   "heart": [
+    "Peony",
+    "Freesia"
+   ],
+   "base": [
+    "Musk",
+    "Animalic Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2015/09/alaia-paris-by-azzedine-alaia-perfume-review.html",
+   "https://nstperfume.com/2015/05/25/alaia-paris-by-azzedine-alaia-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Alaia Paris. Flat published list (pink pepper, freesia, peony, animalic notes, musk) plus a mineral/chalky accord described by the perfumer; tiers inferred."
+ },
+ {
+  "name": "Eau de Sisley 3",
+  "brand": "Sisley",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Grapefruit",
+    "Lemon"
+   ],
+   "heart": [
+    "Ginger",
+    "Osmanthus"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Benzoin",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2009/05/07/sisley-eau-de-sisley-1-2-3-fragrance-reviews/",
+   "https://www.sisley-paris.com/en-SA/eau-de-sisley-3-100150.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched May 2009 as a trio with Eau de Sisley 1 and 2. Ginger is red/purple ginger; brand adds hints of peach and apricot in the heart. Perfumer not reliably credited, left null."
+ },
+ {
+  "name": "Love in Paris",
+  "brand": "Nina Ricci",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Star Anise",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Peony",
+    "Apricot",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Woody Notes",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/nina-ricci/1219/love-in-paris",
+   "https://www.perfumemaster.com/nina-ricci/love-in-paris-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz classes it Floral (rose violet). Availability today unclear; some listings call it limited."
+ },
+ {
+  "name": "À la Nuit",
+  "brand": "Serge Lutens",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Clove"
+   ],
+   "heart": [
+    "Jasmine",
+    "Honey"
+   ],
+   "base": [
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://thescentbase.com/perfumes/serge-lutens/a-la-nuit",
+   "https://nstperfume.com/2007/05/14/serge-lutens-a-la-nuit-perfume-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Jasmine soliflore using Egyptian, Indian and Moroccan jasmine. Flat list (green notes, cloves, white honey, benzoin, musk); tiers inferred. One blog gives 2007, most sources 2000."
+ },
+ {
+  "name": "Scandal à Paris",
+  "brand": "Jean Paul Gaultier",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daphné Bugey",
+  "notes": {
+   "top": [
+    "Pear"
+   ],
+   "heart": [
+    "Jasmine"
+   ],
+   "base": [
+    "Honey"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/03/21/jean-paul-gaultier-scandal-a-paris-new-perfume/",
+   "https://www.lookfantastic.com/p/jean-paul-gaultier-scandal-a-paris-eau-de-toilette-spray-80ml/12040232/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Scandal (2017). Three-note pyramid as published. Moodie Davitt also credits Fabrice Pellegrin; kept Bugey only (named by NST and retailer)."
+ },
+ {
+  "name": "Aqua Allegoria Orange Soleia",
+  "brand": "Guerlain",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Petitgrain",
+    "Mint"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ferwer.com/aqua-allegoria-orange-soleia-refillable-eau-de-toilette-unisex",
+   "https://www.theperfumegirl.com/perfumes/fragrances/guerlain/granada-salvia-orange-soleia/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched spring 2020 alongside Granada Salvia. Some sources add Delphine Jelk as co-perfumer and woods in the base."
+ },
+ {
+  "name": "1 Million Elixir",
+  "brand": "Paco Rabanne",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Gourmand",
+  "concentration": "Parfum",
+  "perfumer": "Christophe Raynaud, Quentin Bisch",
+  "notes": {
+   "top": [
+    "Apple",
+    "Davana"
+   ],
+   "heart": [
+    "Rose",
+    "Osmanthus",
+    "Cedar"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/paco-rabanne-paco-rabanne-1-million-elixir",
+   "https://www.fragrancenet.com/cologne/paco-rabanne/paco-rabanne-1-million-elixir/parfum-intense"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sold as Parfum Intense. Rose is Damask rose, vanilla is vanilla absolute. Launched 2022, not 2020."
+ },
+ {
+  "name": "Eau Sauvage Extrême",
+  "brand": "Dior",
+  "year": 1984,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Patchouli",
+    "Basil",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Jasmine",
+    "Sandalwood",
+    "Bay Leaf",
+    "Coriander"
+   ],
+   "base": [
+    "Patchouli",
+    "Oakmoss",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/dior/1422/eau-sauvage-extreme",
+   "https://boisdejasmin.com/2011/11/christian-dior-eau-sauvage-fragrance-review.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "1984 Eau de Toilette Concentree. Perfumer not firmly documented (one French source says Roudnitska); left null. Original discontinued; name reused for a different 2010 version (reportedly by Francois Demachy). Sheet describes 1984 version."
+ },
+ {
+  "name": "Héliotrope",
+  "brand": "Reminiscence",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Flori",
+  "notes": {
+   "top": [
+    "Fig",
+    "Green Notes"
+   ],
+   "heart": [
+    "Heliotrope",
+    "Almond",
+    "Sandalwood",
+    "Cedar",
+    "Patchouli"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/Do-Re,335",
+   "https://www.notino.fr/reminiscence/heliotrope-eau-de-parfum-pour-femme/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Originally sold as Do Re, Les Notes Gourmandes collection. Auparfum/Osmoz give 2008 (retailers say 2013). Renamed Histoire d'Orgeat - Heliotrope in 2024 with revised notes."
+ },
+ {
+  "name": "Jaïpur Bracelet",
+  "brand": "Boucheron",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Carlos Benaim",
+  "notes": {
+   "top": [
+    "Basil",
+    "Lemon",
+    "Violet Leaf",
+    "Petitgrain",
+    "Verbena"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Hyacinth",
+    "Marigold"
+   ],
+   "base": [
+    "Cashmeran",
+    "Cypress",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/boucheron/393/jaipur-bracelet",
+   "https://www.perfumemaster.com/boucheron/jaipur-bracelet-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Marigold stands for tagetes. Osmoz also lists lemongrass and 'oriental notes' in base. Bracelet-shaped bottle, part of the Jaipur line."
+ },
+ {
+  "name": "Escape",
+  "brand": "Calvin Klein",
+  "year": 1991,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Claude Dir",
+  "notes": {
+   "top": [
+    "Chamomile",
+    "Coriander",
+    "Lychee",
+    "Apple"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Lily of the Valley",
+    "Peach"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/calvin-klein/1553/escape",
+   "https://www.perfumemaster.com/calvin-klein/escape-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Chamomile is blue chamomile. Perfumer Claude Dir per retailers and Wikipedia's FiFi list. Won a FiFi award in 1992."
+ },
+ {
+  "name": "Rive Gauche pour Homme",
+  "brand": "Yves Saint Laurent",
+  "year": 2003,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Rosemary",
+    "Star Anise"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium",
+    "Clove"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Patchouli",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/yves-saint-laurent-rive-gauche-pour-homme-2003-eau-de-toilette/",
+   "https://www.jomashop.com/ysl-rivmts16.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Perfumer often written Jacques Cavallier-Belletrud. Retailer tiers vary slightly (coumarin, oakmoss sometimes listed). Described as discontinued and scarce by resellers."
+ },
+ {
+  "name": "La Petite Robe Noire Velours",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Cherry",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Rose",
+    "Violet",
+    "Almond"
+   ],
+   "base": [
+    "Black Tea",
+    "Tonka Bean",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/08/guerlain-la-petite-robe-noire-velours-new-fragrance/",
+   "https://www.envie2parfum.fr/guerlain/eau-de-parfum/la-petite-robe-noire-velours",
+   "http://parfumista.net/2020/03/les-petites-robes-noires/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Also sold as 'Ma Robe Velours'. Launched early 2019 (not 2016). Cherry is black/morello cherry. Wasser and Jelk credited for the LPRN line."
+ },
+ {
+  "name": "Armani Mania (femme)",
+  "brand": "Giorgio Armani",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Bay Leaf",
+    "Green Mandarin",
+    "Black Currant",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Magnolia",
+    "Lily of the Valley",
+    "Iris",
+    "Peony"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Vanilla",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/giorgio-armani-armani-mania-for-women/",
+   "https://theperfumeshoppe99.com/products/armani-mania-1"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Not to be confused with the earlier Mania (2002, men). Now sold mostly as vintage stock."
+ },
+ {
+  "name": "Mon Paris Couture",
+  "brand": "Yves Saint Laurent",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Cresp, Dora Baghriche, Harry Fremont",
+  "notes": {
+   "top": [
+    "Lychee",
+    "Raspberry",
+    "Bergamot",
+    "Mandarin",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Peony",
+    "Rose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Ambroxan",
+    "Musk",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/02/08/yves-saint-laurent-mon-paris-couture-new-fragrance/",
+   "https://www.theperfumegirl.com/perfumes/fragrances/yves-saint-laurent/mon-paris-couture/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Mon Paris (2016), launched early 2018. Perfumers credited by retailers, not by NST. Bottle with silver lavaliere ribbon."
+ },
+ {
+  "name": "Bad",
+  "brand": "Diesel",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Carlos Benaim",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Violet Leaf",
+    "Lavender"
+   ],
+   "heart": [
+    "Caviar Accord",
+    "Orris Root",
+    "Sage",
+    "Salt"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Ambroxan",
+    "Tobacco",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://diesel.com/en-us/bad/bad-50ml-black/PL040300PRO01.html",
+   "https://nstperfume.com/2016/07/07/diesel-bad-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "L'Oreal licence, launched August 2016, face Boyd Holbrook. 'Salt' stands for the brand's saline accord."
+ }
+]

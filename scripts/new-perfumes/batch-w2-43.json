@@ -1,0 +1,671 @@
+[
+ {
+  "name": "L'Eau d'Issey Pure Nectar de Parfum",
+  "brand": "Issey Miyake",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion, Fanny Bal",
+  "notes": {
+   "top": [
+    "Pear",
+    "Honey"
+   ],
+   "heart": [
+    "Rose",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Cashmeran",
+    "Amber",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/12/06/issey-miyake-leau-dissey-pure-nectar-de-parfum-new-fragrance/",
+   "https://www.fragrancereview.com/perfume/issey-miyake-l-eau-d-issey-pure-nectar-de-parfum/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Announced Dec 2017 for early 2018 (Now Smell This): pear, rose, aquatic accord, cashmeran, amber, sandalwood. Honey from retailer lists. Flanker of L'Eau d'Issey Pure (2016)."
+ },
+ {
+  "name": "Rose Gipsy",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Green",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Pepper"
+   ],
+   "heart": [
+    "Centifolia Rose",
+    "Watery Notes"
+   ],
+   "base": [
+    "Rose",
+    "Spicy Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://prime-beaute.com/parfum-rose-gipsy-dior/2018",
+   "https://www.dior.com/en_int/beauty/products/rose-gipsy-Y0745427.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Collection Privée Christian Dior, early 2018. Built on Grasse rose de mai with vegetal notes, spicy accents and a dewdrop accord (Prime Beauté). No official pyramid or base published; tiers inferred. Perfumer credited by retailers only (Demachy). 'Centifolia Rose' = rose de mai."
+ },
+ {
+  "name": "Le Bouquet de la Mariée",
+  "brand": "Guerlain",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Angelica",
+    "Citrus"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rose",
+    "Almond"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Patchouli",
+    "Incense"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.labeauteparisienne.com/nouveaute-beaute/le-bouquet-de-la-mariee-le-plus-beau-jour-de-ma-vie-les-nouvelles-fragrances-de-guerlain.html",
+   "https://theblacknarcissus.com/2015/04/09/on-marriage-and-guerlains-new-wedding-fragrances-le-plus-beau-jour-de-ma-vie-le-bouquet-de-la-mariee-20i5/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Les Exclusifs, 2015. It is an extrait (125 ml, 750 EUR), not an EDP as the hint says; the EDP companion is Le Plus Beau Jour de ma Vie. Almond = dragée (sugared almond). Several retailers list it as discontinued; status not officially confirmed."
+ },
+ {
+  "name": "Quatre en Bleu",
+  "brand": "Boucheron",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Mandarin"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tuberose",
+    "Rose"
+   ],
+   "base": [
+    "Akigalawood",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.chemimartgroup.com/product/quatre-en-bleu/",
+   "https://www.perfumemaster.com/boucheron/quatre-en-bleu-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "HINT MISMATCH: hint says EDT Masculine, but every source describes Quatre en Bleu as a women's EDP (no men's EDT found). Described as the real product. Year 2021 from retailer listings; perfumer Sonia Constant (Givaudan) per retailers. Jasmine is Egyptian jasmine."
+ },
+ {
+  "name": "L'Homme Lacoste Intense",
+  "brand": "Lacoste",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Girard",
+  "notes": {
+   "top": [
+    "Rhubarb",
+    "Mandarin",
+    "Quince"
+   ],
+   "heart": [
+    "Pepper",
+    "Ginger"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver",
+    "Cypriol",
+    "Akigalawood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumespot.com/l-homme-lacoste-intense-by-lacoste-3-3-oz-edt-spray-for-men/",
+   "https://www.lacoste.com/us/lacoste/men/accessories/fragrance/l-homme-lacoste-intense-eau-de-toilette-100ml/99240012134.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018 flanker of L'Homme Lacoste (2017). Lacoste store lists rhubarb, mandarin / black pepper, ginger / cedar, vetiver, cypriol, Akigalawood, family Woody Spicy. Quince from retailer lists. Perfumer Michel Girard per retailers only."
+ },
+ {
+  "name": "Code A-List",
+  "brand": "Giorgio Armani",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Green Mandarin",
+    "Cedar"
+   ],
+   "heart": [
+    "Lavender",
+    "Lavandin"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Guaiac Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.com/p/giorgio-armani-code-a-list/11918921/",
+   "https://www.perfumelive.com/a2019091502-armani-code-a-listbygiorgio-armaniformen.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition EDT presented as a fresher take on Armani Code, with the notes of the original Code aftershave; tuxedo-cut bottle. Year 2018 (one retailer says 2019). Perfumer not published."
+ },
+ {
+  "name": "Luna Rossa Black",
+  "brand": "Prada",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Angelica"
+   ],
+   "heart": [
+    "Patchouli",
+    "Coumarin"
+   ],
+   "base": [
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fregranzo.com/fragrance/prada/luna-rossa-black/",
+   "https://www.nordstrom.com/s/prada-luna-rossa-prada-black-eau-de-parfum/4992713",
+   "https://www.prada-beauty.com/fragrance/luna-rossa/luna-rossa-black-eau-de-parfum/MPL01369.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018. Prada copy: opens on bergamot and angelica, passes through coumarin and patchouli to amber wood; key notes patchouli, coumarin, wild musk. Retailers place angelica in the heart."
+ },
+ {
+  "name": "Les Gourmandises de Nina",
+  "brand": "Nina Ricci",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Citrus"
+   ],
+   "heart": [
+    "Passion Fruit",
+    "Pineapple",
+    "Coconut"
+   ],
+   "base": [
+    "Praline",
+    "Caramel",
+    "Gardenia"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.dutyfreehunter.com/blog/sweet-nina-ricci-debuts-les-gourmandises-limited-edition/",
+   "https://www.parfumsetmoi.fr/nina-ricci-les-gourmandises-de-nina-eau-de-toilette-femme-80-ml_z715775/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Spring 2017 limited edition of Nina (2006), first in travel retail, 50 ml EDT; acid-pink apple bottle with candy toppings. Official notes: lemon / passion fruit, pina colada / caramelised praline, gardenia. Pineapple and Coconut stand for the pina colada accord."
+ },
+ {
+  "name": "To Be",
+  "brand": "Police",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Pepper"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Apple Blossom"
+   ],
+   "base": [
+    "Amber",
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumebox.com/products/mc-police",
+   "https://leparfumier.com/en/products/police-to-be-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2011, skull-shaped bottle that defined the To Be line. Heart differs by retailer (violet leaf vs apple blossom), both kept. Base amber, Virginia cedar, patchouli from retailer lists."
+ },
+ {
+  "name": "Baiser Fou",
+  "brand": "Cartier",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Fruity Notes"
+   ],
+   "heart": [
+    "Orchid",
+    "Floral Notes"
+   ],
+   "base": [
+    "White Chocolate",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/03/22/cartier-baiser-fou-perfume-review/",
+   "https://www.leparfumier.com/en/le-parfumier-cartier-baiser-fou-for-women-eau-de-p.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "March 2017, Mathilde Laurent. Brand copy: orchid and white chocolate; retailers add raspberry and vanilla. Sold by some retailers as 'Baiser Volé Fou'. Reported discontinued by a database; still on some retailers."
+ },
+ {
+  "name": "Embruns d'Ylang",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Sea Salt",
+    "Bergamot"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Jasmine",
+    "Clove",
+    "Honey"
+   ],
+   "base": [
+    "Iris",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://persolaise.com/2021/02/guerlain-embruns-dylang-review-thierry-wasser-2019.html",
+   "https://www.guerlain.com/us/en-us/p/lart-la-matiere-embruns-dylang-eau-de-parfum-G017916.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "L'Art & La Matière, 2019, Thierry Wasser. Guerlain: a solar flower with salt-coated petals, honeyed heart. Jasmine is jasmine sambac. Persolaise finds the drydown shrill, compares it to Tom Ford Black Orchid."
+ },
+ {
+  "name": "Corsica Furiosa",
+  "brand": "Parfum d'Empire",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Lentisk",
+    "Brandy",
+    "Mint"
+   ],
+   "heart": [
+    "Tomato Leaf",
+    "Pepper"
+   ],
+   "base": [
+    "Cistus",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/parfum-d-empire/7745/corsica-furiosa",
+   "https://boisdejasmin.com/2014/08/parfum-dempire-corsica-furiosa-perfume-review.html",
+   "https://kafkaesqueblog.com/2014/08/05/parfum-dempire-corsica-furiosa/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2014. Lentisk (mastic) used as essence, absolute and extract, presented as a first. Mint = nepita, Corsican wild mint; brandy = eau-de-vie. Reviews mixed (polished but linear)."
+ },
+ {
+  "name": "Not a Perfume Superdose",
+  "brand": "Juliette Has a Gun",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Woody Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ambroxan",
+    "Ambergris"
+   ],
+   "heart": [
+    "Musk",
+    "Amber"
+   ],
+   "base": [
+    "Cedar",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.skins.nl/en/juliette-has-a-gun/not-a-perfume-superdose-eau-de-parfum/112123/",
+   "https://noseparis.com/en/not-a-perfume-superdose"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2019 intensified flanker of Not a Perfume, near mono-ingredient built on Cetalox (ambroxan), about 20 percent concentration per Nose Paris. No real pyramid: tiers spread from flat note lists (amber, ambergris, ambrox, cedar, white musk)."
+ },
+ {
+  "name": "Precious Oud",
+  "brand": "Van Cleef & Arpels",
+  "year": 2011,
+  "gender": "Unisex",
+  "family": "Woody Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Amandine Clerc-Marie",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Iris",
+    "Tuberose",
+    "Jasmine",
+    "Incense"
+   ],
+   "base": [
+    "Oud",
+    "Sandalwood",
+    "Vetiver",
+    "Patchouli",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-precious-oud-2/",
+   "https://nstperfume.com/2011/07/26/van-cleef-arpels-precious-oud-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, July 2011, 75 ml EDP. Perfumer credited as Amandine Marie at the time (now Amandine Clerc-Marie). White flowers carry the oud into a floral style per Interparfums."
+ },
+ {
+  "name": "La Nuit Trésor Dentelle de Roses",
+  "brand": "Lancôme",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Amandine Clerc-Marie, Alexis Grugeon",
+  "notes": {
+   "top": [
+    "Red Berries",
+    "Raspberry",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose",
+    "Rose Absolute"
+   ],
+   "base": [
+    "Patchouli",
+    "Velvet Accord"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dutyfreehunter.com/blog/lancome-reveals-la-nuit-tresor-dentelle-de-roses-limited-edition-scent/",
+   "https://scentadvice.com/la-nuit-tresor-dentelle-de-roses-2021-lancome/",
+   "https://www.lancome.co.uk/perfume/women-s-perfume/la-nuit-tresor/la-nuit-tresor-dentelle-de-roses/A02220-LAC.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Early 2021 limited edition of La Nuit Trésor, 30/50 ml EDP; black lace by Sophie Hallette on the diamond bottle. Rose is Rosa damascena essence and absolute; raspberry is a 'raspberry syrup'. Wikiparfum adds Honorine Blanc as co-perfumer."
+ },
+ {
+  "name": "Truth",
+  "brand": "Calvin Klein",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas, Jacques Cavallier, Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bamboo",
+    "Clover",
+    "Green Notes"
+   ],
+   "heart": [
+    "Peony",
+    "Silk Tree Flower",
+    "Acacia"
+   ],
+   "base": [
+    "Vetiver",
+    "Vanilla",
+    "White Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.perfume-click.co.uk/Calvin-Klein-Truth-Eau-de-Parfum-100ml-Spray-s1940/",
+   "https://www.perfumemaster.com/calvin-klein/truth-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2000. perfume-click: Woody Oriental, flat list bamboo, vetiver, white peony, white clover, sapling, vanilla, white amber, silk tree flower, acacia, musk; tiers inferred. 'Green Notes' = sapling. Availability today patchy."
+ },
+ {
+  "name": "Rose Milano",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daphné Bugey, Marie Salamagne",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Elemi"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Moss",
+    "Ambrette"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/giorgio-armani-rose-milano-review",
+   "https://www.armanibeauty.co.uk/perfume/armani-prive/les-eaux/rose-milano-eau-de-toilette/ww-00284-arm.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Armani Privé Les Eaux, 2020. Official: bergamot accord, primofiore lemon / damascena rose absolute, grandiflorum jasmine absolute / patchouli. Les Eaux later relabelled 'Eau de Parfum' with formula unchanged per Armani."
+ },
+ {
+  "name": "Le Frenchy",
+  "brand": "Guerlain",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Verbena",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Sage",
+    "Neroli",
+    "Lavender"
+   ],
+   "base": [
+    "Vetiver",
+    "Tonka Bean",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/le-frenchy-heros-2-0-selon-guerlain,3796",
+   "https://thecandyperfumeboy.com/2018/09/03/candy-crush-le-frenchy-by-guerlain/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Les Parisiens (Les Exclusifs), 2017, 100 ml EDP at 210 EUR; the hint says EDT but it was sold as EDP. Remake of Aimé Guerlain's Verveine (1872) and Eau de Verveine (1983). Later renamed Frenchy Lavande in L'Art & La Matière."
+ },
+ {
+  "name": "Le Participe Passé",
+  "brand": "Serge Lutens",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Artemisia",
+    "Bergamot"
+   ],
+   "heart": [
+    "Fruity Notes",
+    "Pepper"
+   ],
+   "base": [
+    "Balsam",
+    "Resin",
+    "Caramel",
+    "Cumin",
+    "Leather",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/le-participe-passe-serge-lutens-4940",
+   "https://nstperfume.com/2018/07/26/serge-lutens-le-participe-passe-new-fragrance/",
+   "https://www.fieldandflorist.com/fragrance/p/serge-lutens-le-participe-passe"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018, Sheldrake, Auparfum family Amber. Official list per retailers: artemisia, bergamot / fruity notes, pepper / Egyptian balsam, resins, caramel, cumin, leather, patchouli. Auparfum review centres on immortelle (not on official list), smoky birch, dried fruits. One 2026 review calls it discontinued; unconfirmed."
+ },
+ {
+  "name": "L'Eau Super Majeure d'Issey",
+  "brand": "Issey Miyake",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Aurélien Guichard, Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit",
+    "Clary Sage",
+    "Rosemary"
+   ],
+   "heart": [
+    "Sea Salt",
+    "Cashmeran",
+    "Patchouli"
+   ],
+   "base": [
+    "Amberwood",
+    "Vanilla",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumediary.com/perfumes/issey-miyake-leau-super-majeure-dissey-perfume/",
+   "https://www.decantx.com/products/issey-miyake-leau-super-majeure-dissey-eau-de-toilette-for-men"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018 flanker of L'Eau Majeure d'Issey, EDT 50/100 ml (some retailers say EDT Intense). Perfumediary: cashmeran, clary sage, patchouli, rosemary, sea salt, vanilla, woods; bergamot and grapefruit in the opening. Amberwood and tonka from other retailer lists."
+ }
+]

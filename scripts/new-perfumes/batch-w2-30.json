@@ -1,0 +1,670 @@
+[
+ {
+  "name": "Souffle de Soie",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Elemi"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Tuberose",
+    "Violet"
+   ],
+   "base": [
+    "White Musk",
+    "Patchouli",
+    "Vanilla",
+    "Cinnamon"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2022/02/04/dior-souffle-de-soie-rouge-trafalgar-la-collection-privee/",
+   "https://surrendertochance.com/dior-souffle-de-soie-maison-christian-dior/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée / Maison Christian Dior, 2018, François Demachy. Dior publishes no pyramid; flat list from retailers and reviews, distributed by us. One retailer lists it as discontinued (not verified). Reviewers describe a sheer silky floral musk."
+ },
+ {
+  "name": "Éclat d'Arpège",
+  "brand": "Lanvin",
+  "year": 2002,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Karine Dubreuil",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Lilac"
+   ],
+   "heart": [
+    "Wisteria",
+    "Peach Blossom",
+    "Peony",
+    "Osmanthus",
+    "Green Tea"
+   ],
+   "base": [
+    "Cedar",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/lanvin-eclat-darpege-eau-de-parfum-spray/2828130",
+   "https://yakymour.wordpress.com/tag/lanvin-eclat-darpege/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2002, perfumer Karine Dubreuil (Mane). Bottle by Alber Elbaz era Lanvin, refers to Arpège (1927). Top is listed as lemon leaves; 'Lemon' used. Green tea placed in heart as most sources do."
+ },
+ {
+  "name": "Black XS for Her",
+  "brand": "Paco Rabanne",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Emilie Coppermann, Mark Buxton",
+  "notes": {
+   "top": [
+    "Cranberry",
+    "Pink Pepper",
+    "Tamarind"
+   ],
+   "heart": [
+    "Rose",
+    "Black Violet",
+    "Cacao"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Massoia Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/12/13/paco-rabanne-black-xs-for-her-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Original 2007 EDT. Rose is a hellebore rose accord, cacao is cacao flower, tamarind is tamarind blossom. Later relaunched under the same name (2018 EDP) with a different formula; this entry is the 2007 one."
+ },
+ {
+  "name": "L'Ambre des Merveilles",
+  "brand": "Hermès",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Ambergris",
+    "Amber"
+   ],
+   "heart": [
+    "Labdanum",
+    "Patchouli"
+   ],
+   "base": [
+    "Vanilla",
+    "Peru Balsam"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/new-fragrance-review-hermes-lambre-des-merveilles-jean-claude-ellenas-cocoon-of-golden-scent/",
+   "https://www.harveynichols.com/hermes/lambre-des-merveilles---eau-de-parfum-100ml-427933-153623/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2012 flanker of Eau des Merveilles (2004) by Jean-Claude Ellena. Published notes are a flat list (amber, labdanum, patchouli, vanilla; Harvey Nichols adds Peru balsam). Ambergris placed at top because reviews note a salty ambergris facet carried over from the original."
+ },
+ {
+  "name": "Total Rock",
+  "brand": "IKKS",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Cardamom",
+    "Pepper"
+   ],
+   "heart": [
+    "Cedar",
+    "Cinnamon"
+   ],
+   "base": [
+    "Vetiver",
+    "Musk",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/total-rock-ikks-2011.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Men's EDT, 2011. Heart is Virginia cedar and cinnamon; one retailer adds gingerbread spice. IKKS also sells a boys' version under the same name."
+ },
+ {
+  "name": "Patchouli Intense",
+  "brand": "Molinard",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Praline",
+    "Neroli",
+    "Jasmine"
+   ],
+   "heart": [
+    "Patchouli",
+    "Cashmeran",
+    "Tonka Bean"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragrancehouse.co.uk/product/molinard-patchouli-intense-eau-de-parfum-75ml/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Prestiges collection, 2015 per retailer. A blog also reviewed a Molinard 'Patchouli Intense' in 2010, so the name may predate the 2015 formula; notes here are the current EDP. Gender listed as unisex."
+ },
+ {
+  "name": "Rose pour Elle",
+  "brand": "Mauboussin",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Pitaya",
+    "Orange"
+   ],
+   "heart": [
+    "Rose",
+    "Magnolia",
+    "Jasmine"
+   ],
+   "base": [
+    "Caramel",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://www.beautylicieuse.com/rose-pour-elle-le-nouveau-parfum-signe/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched January 2012 (Nocibé exclusive at launch). Brand summary: pitaya-cassis accord, Turkish rose, musks. Fuller pyramid from launch article. Perfumer not confirmed."
+ },
+ {
+  "name": "Ultraviolet Man",
+  "brand": "Paco Rabanne",
+  "year": 2001,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Mint",
+    "Coriander"
+   ],
+   "heart": [
+    "Ambergris",
+    "Pepper"
+   ],
+   "base": [
+    "Moss",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/paco-rabanne-ultraviolet-man-eau-de-toilette/",
+   "https://www.michael84.co.uk/paco-rabanne-ultraviolet-man-fragrance-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Men's companion to Ultraviolet (1999). Notes: Italian mint, Russian coriander, ambergris, black pepper, crystallised moss, patchouli; vanilla per another retailer. Some retailers wrongly give 1999. Availability unclear."
+ },
+ {
+  "name": "Bad Intense",
+  "brand": "Diesel",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Fougère Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Pepper"
+   ],
+   "heart": [
+    "Caviar Accord",
+    "Nutmeg",
+    "Cinnamon",
+    "Saffron"
+   ],
+   "base": [
+    "Tobacco",
+    "Benzoin",
+    "Labdanum",
+    "Vanilla",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://diesel.com/en-us/bad/bad-intense-125ml-black/PL043500PRO01.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official Diesel pyramid; Diesel lists the family as fougère spicy oriental. Flanker of Bad (2016). Most retailers give 2017; one says mid-2016. Perfumer credit (Anne Flipo, Carlos Benaïm) found on one retailer only, left null."
+ },
+ {
+  "name": "Bloom Nettare di Fiori",
+  "brand": "Gucci",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Rose"
+   ],
+   "heart": [
+    "Tuberose",
+    "Jasmine",
+    "Honeysuckle",
+    "Rangoon Creeper"
+   ],
+   "base": [
+    "Osmanthus",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/07/20/gucci-bloom-nettare-di-fiori-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Labelled Eau de Parfum Intense. Third Bloom launch of 2018 after Acqua di Fiori. Press list is flat (rose, osmanthus, ginger, tuberose, honeysuckle, jasmine, patchouli, musk); rangoon creeper carried over from Bloom. Tiering ours."
+ },
+ {
+  "name": "Reveal",
+  "brand": "Calvin Klein",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Woody Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Salt",
+    "Pepper",
+    "Pink Pepper",
+    "White Pepper"
+   ],
+   "heart": [
+    "Ambergris",
+    "Iris"
+   ],
+   "base": [
+    "Cashmeran",
+    "Sandalwood",
+    "Musk",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.beautyliv.com/product/calvin-klein-reveal-eau-de-parfum-women",
+   "https://www.chicprofile.com/calvin-klein-reveal-fragrance-for-fall-2014"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched September 2014, face Doutzen Kroes (campaign with Charlie Hunnam). Flat note list read; tiering follows common retailer pyramid. Perfumers often given as Jean-Marc Chaillan and Bruno Jovanovic but not read in a source, left null."
+ },
+ {
+  "name": "Quatre en Rose",
+  "brand": "Boucheron",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Davana",
+    "Black Currant",
+    "Mandarin"
+   ],
+   "heart": [
+    "Rose Absolute",
+    "Jasmine",
+    "Peach Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.news-parfums.com/fr/parfums-boucheron/38526-quatre-en-rose-eau-de-parfum-3386460098472.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Quatre en Rose (Florale). 2018 per several retailers and a French blog. Some listings add bergamot and vanilla, and use artemisia for davana. Perfumer often credited to Quentin Bisch, not read in a source, left null."
+ },
+ {
+  "name": "Un Dimanche à la Campagne",
+  "brand": "Guerlain",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Herbs"
+   ],
+   "heart": [
+    "Herbs",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Orange Blossom",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/11/18/guerlain-un-dimanche-a-la-campagne-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Eau de Cologne launched late 2016 in a 250 ml bottle. Only four notes published (bergamot, aromatic herbs, orange blossom, white musk); spread across tiers by us. Guerlain later renamed it Herbes Troublantes (L'Art & La Matière, EDP) per Guerlain's site in search results. Perfumer not confirmed."
+ },
+ {
+  "name": "CK IN2U Him",
+  "brand": "Calvin Klein",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bruno Jovanovic, Carlos Benaïm, Jean-Marc Chaillan, Loc Dong",
+  "notes": {
+   "top": [
+    "Tangelo",
+    "Lime"
+   ],
+   "heart": [
+    "Shiso",
+    "Cocoa",
+    "Pimento"
+   ],
+   "base": [
+    "Musk",
+    "Vetiver",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/calvin-klein-ck-in2u-for-him-eau-de-toilette/",
+   "https://theperfumemag.com/review/calvin-klein-in2u-him-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2007. Top is minneola tangelo and a gin fizz accord ('Lime' used for the fizz). Base white cedar. Some retailers give a different list (lemon, tomato leaf, cactus), probably confusion."
+ },
+ {
+  "name": "Coach Dreams Sunset",
+  "brand": "Coach",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear Sorbet",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Magnolia"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dillards.com/p/coach-coach-dreams-sunset-eau-de-parfum/513404746"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Coach Dreams (2020). Heart is jasmine sambac. 2021 and perfumer Nathalie Lorson come from secondary sites only; perfumer left null."
+ },
+ {
+  "name": "1 Million Intense",
+  "brand": "Paco Rabanne",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blood Mandarin",
+    "Cardamom",
+    "Pepper",
+    "Saffron"
+   ],
+   "heart": [
+    "Rose Absolute",
+    "Neroli",
+    "Cinnamon"
+   ],
+   "base": [
+    "Leather",
+    "Orris Root",
+    "Patchouli",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://luxatic.com/the-new-paco-rabanne-1-million-intense/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Eau de Toilette Intense, 2013 (Wikipedia list of Rabanne fragrances). Leather is 'white leather'. Campaign with Matt Gordon, shot by Nathaniel Goldberg. Retailers report it discontinued."
+ },
+ {
+  "name": "Quatre en Rouge",
+  "brand": "Boucheron",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Mylène Alran, Michel Almairac",
+  "notes": {
+   "top": [
+    "Red Apple",
+    "Bergamot",
+    "Pear",
+    "Mandarin"
+   ],
+   "heart": [
+    "Black Currant",
+    "Rose",
+    "Orris Root"
+   ],
+   "base": [
+    "Raspberry",
+    "Marshmallow",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://moodiedavittreport.com/interparfums-extends-boucheron-quatre-line-with-new-fragrance-for-women/",
+   "https://www.interparfums.fr/en/boucheron-quatre-en-rouge-2/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "April 2019, Interparfums, perfumers of Robertet. Interparfums lists the family as oriental floral fruity; Moodie Davitt says fruity chypre. Red bottle echoes the red ceramic Quatre ring."
+ },
+ {
+  "name": "Stronger With You Freeze",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Lime",
+    "Mandarin",
+    "Apple"
+   ],
+   "heart": [
+    "Lavender",
+    "Cardamom",
+    "Geranium",
+    "Sage"
+   ],
+   "base": [
+    "Vanilla",
+    "Amberwood",
+    "Guaiac Wood",
+    "Chestnut"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/01/07/giorgio-armani-in-love-with-you-freeze-stronger-with-you-freeze-new-fragrances/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Emporio Armani line, January 2020, launched with In Love With You Freeze. Chestnut stands for marron glacé, Geranium for bourbon geranium. Tiering from retailers. Perfumer not published."
+ },
+ {
+  "name": "CK One Gold",
+  "brand": "Calvin Klein",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Fig",
+    "Bergamot",
+    "Sage"
+   ],
+   "heart": [
+    "Neroli",
+    "Jasmine",
+    "Violet"
+   ],
+   "base": [
+    "Vetiver",
+    "Patchouli",
+    "Guaiac Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.giftexpress.com/ck-one-gold-gxp-9750.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2016 flanker of CK One with a gold-dipped bottle. Perfumer not published."
+ },
+ {
+  "name": "La Couche du Diable",
+  "brand": "Serge Lutens",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Orange",
+    "Mandarin",
+    "Cinnamon",
+    "Saffron"
+   ],
+   "heart": [
+    "Rose",
+    "Labdanum"
+   ],
+   "base": [
+    "Oud",
+    "Amber",
+    "Woody Notes",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fieldandflorist.com/fragrance/p/serge-lutens-la-couche-du-diable"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2019, Christopher Sheldrake. Flat official list (labdanum, wood accord, agarwood, amber, cinnamon, saffron, orange, tangerine, rose, musk) tiered by us. Name translates roughly as the devil's bed."
+ }
+]

@@ -1,0 +1,681 @@
+[
+ {
+  "name": "Infusion de Rhubarbe",
+  "brand": "Prada",
+  "year": 2025,
+  "gender": "Unisex",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Green Mandarin",
+    "Bergamot",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Rhubarb",
+    "Rose"
+   ],
+   "base": [
+    "White Musk",
+    "Ambroxan"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2024/12/17/prada-infusion-de-rhubarbe-new-fragrance/",
+   "https://www.prada-beauty.com/fragrance/les-infusions/infusion-de-rhubarbe-eau-de-parfum/MPL01742.html",
+   "https://highxtar.com/en/?p=510633",
+   "https://www.adorebeauty.com.au/p/prada/prada-infusion-rhubarbe-eau-de-parfum-100ml.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Infusions de Prada, January 2025, EDP 10 and 100 ml. Not a tea scent despite the name: a fruity floral rhubarb. Prada credits Daniela Andrier for the Les Infusions line under Miuccia Prada and Raf Simons. Highxtar names bergamot, bitter orange and Ambrofix (mapped to Ambroxan); tiers inferred from retailer breakdown (green mandarin top, rhubarb and rose heart, white musk base)."
+ },
+ {
+  "name": "Illicit Flower",
+  "brand": "Jimmy Choo",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Apricot",
+    "Mandarin",
+    "Freesia"
+   ],
+   "heart": [
+    "Rose",
+    "Grapefruit Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.com/jimmy-choo-illicit-flower-eau-de-toilette-spray-100ml/11998227.html",
+   "https://www.escentual.com/jimmychooillicit_006/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Jimmy Choo Illicit (2015). Year 2016 from a retailer listing. One retailer credits Alienor Massenet, unconfirmed, so perfumer left null."
+ },
+ {
+  "name": "A*Men Kryptomint",
+  "brand": "Mugler",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peppermint",
+    "Sage"
+   ],
+   "heart": [
+    "Geranium",
+    "Patchouli"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Coffee",
+    "Chocolate",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/01/02/thierry-mugler-amen-kryptomint-new-fragrance",
+   "https://www.notino.co.uk/mugler/amen-kryptomint-eau-de-toilette-for-men/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition flanker of A*Men (1997), announced January 2017, EDT 100 ml. Brand names frozen peppermint, geranium, patchouli; Notino adds sage and the classic A*Men base (tonka, coffee, chocolate, vanilla). Notino marks it discontinued. Tiers partly inferred."
+ },
+ {
+  "name": "A Girl in Capri",
+  "brand": "Lanvin",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sophie Labbé",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Grapefruit Blossom",
+    "Sea Notes"
+   ],
+   "base": [
+    "Driftwood",
+    "White Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/05/06/lanvin-a-girl-in-capri-new-fragrance",
+   "https://bd.fashionnetwork.com/news/Lanvin-channels-Italian-aromas-with-A-Girl-in-Capri-fragrance,1110984.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched June 2019 (AFP-Relaxnews), EDT 30/50/90 ml. Brand calls it a floral citrus musk; lemon is Primofiore lemon essence. Some listings add amber to the base."
+ },
+ {
+  "name": "Chrome Intense",
+  "brand": "Azzaro",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit",
+    "Ginger",
+    "Hedione"
+   ],
+   "heart": [
+    "Ozonic Notes",
+    "Moss",
+    "Jasmine"
+   ],
+   "base": [
+    "Mate",
+    "Woody Notes",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.thefashionisto.com/azzaro-chrome-intense-fragrance-launches/",
+   "https://perfumania.com/products/chrome-intense-eau-de-toilette-spray-for-men-by-azzaro",
+   "https://scentadvice.com/chrome-intense-2015-azzaro/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Chrome (1996), launched September 2015. 'Moss' stands for lichen, 'Jasmine' for water jasmine. Perfumer credits conflict (Mylène Alran vs Fabrice Pellegrin), left null."
+ },
+ {
+  "name": "La Femme Prada Intense",
+  "brand": "Prada",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Frangipani",
+    "Ylang-Ylang"
+   ],
+   "heart": [
+    "Tuberose",
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Vetiver",
+    "Vanilla",
+    "Patchouli",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.escentual.com/blog/2017/09/21/prada-la-femme-intense-lhomme-intense-review/",
+   "https://www.decantx.com/products/prada-la-femme-intense-eau-de-parfum-for-women",
+   "https://www.topfarmacia.it/p-prada-la-femme-intense-eau-de-parfum-spray-vapo-donna-50ml"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of La Femme Prada (2016), launched 2017 alongside L'Homme Prada Intense. Jasmine is jasmine sambac, tuberose absolute."
+ },
+ {
+  "name": "Rose Rouge",
+  "brand": "Van Cleef & Arpels",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Julien Rasquinet",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Black Currant"
+   ],
+   "heart": [
+    "Rose",
+    "Cacao"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/08/03/van-cleef-arpels-rose-rouge-new-fragrance",
+   "https://www.interparfumsinc.com/products/rose-rouge",
+   "https://www.escentual.com/vancleefce016/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, 2018, EDP 75 ml. Interparfums credits Julien Rasquinet; notes: pink peppercorn, Burgundy blackcurrant absolute, Turkish rose essence, cocoa absolute, vetiver, patchouli. Musk from Escentual. Harrods describes it as a rich chypre."
+ },
+ {
+  "name": "L'Homme Idéal Sport",
+  "brand": "Guerlain",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Aquatic Notes",
+    "Spices"
+   ],
+   "heart": [
+    "Almond",
+    "Neroli"
+   ],
+   "base": [
+    "Vetiver",
+    "Patchouli",
+    "Coumarin"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/03/21/guerlain-lhomme-ideal-sport-new-fragrance",
+   "https://www.decantx.com/products/guerlain-lhomme-ideal-sport-eau-de-toilette-for-men-box"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of L'Homme Idéal (2014), launched May 2017, EDT 50/100 ml. Almond moved to heart for tier balance (retailer lists it top)."
+ },
+ {
+  "name": "L'Homme",
+  "brand": "Lanvin",
+  "year": 1997,
+  "gender": "Masculine",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Neroli"
+   ],
+   "heart": [
+    "Lavender",
+    "Mint",
+    "Sage",
+    "Pepper",
+    "Cardamom"
+   ],
+   "base": [
+    "Sandalwood",
+    "Amber",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.de/p/lanvin-l-homme-eau-de-toilette-100ml/12611997/",
+   "https://www.notino.co.uk/lanvin/lhomme-eau-de-toilette-for-men/",
+   "https://jadof.com/en/perfume/lanvin-lhomme-lanvin-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1997 men's EDT. Perfumer credits conflict (Alberto Morillas on two retailer pages, Jacques Cavallier on Jadof), left null. Lookfantastic also lists violet wood in the base."
+ },
+ {
+  "name": "Quercia",
+  "brand": "Acqua di Parma",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Petitgrain",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Cardamom",
+    "Geranium",
+    "Cedar"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Patchouli",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.acquadiparma.com/default/en/fragrances/signatures-of-the-sun/quercia",
+   "https://www.out.com/fashion/2019/12/10/your-favorite-fragrance-just-got-major-upgrade",
+   "https://www.escentual.com/acqua-di-parma/signature-collection/adpquercia001"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Signatures of the Sun EDP, unveiled autumn 2019 (Out.com, retailer gives 2019). Distinct from Colonia Quercia (2016 Ingredient Collection cologne). Notes and family from official page. Perfumer not published."
+ },
+ {
+  "name": "Mauboussin (femme)",
+  "brand": "Mauboussin",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Plum",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Ylang-Ylang",
+    "White Peach"
+   ],
+   "base": [
+    "Patchouli",
+    "Amber",
+    "Vanilla",
+    "Sandalwood",
+    "Benzoin",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://that-something.shopstar.co.za/products/mauboussin-mauboussin-eau-de-parfum",
+   "https://www.cosma-parfumeries.com/uk_en/mauboussin-eau-de-parfum-pour-femme.html",
+   "https://www.notino.fr/mauboussin/pour-elle-eau-de-parfum-pour-femme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "The jeweller's first perfume, 2000, pyramid-shaped bottle. Christine Nagel credited by one retailer. Family varies: chypre fruity (Notino) or oriental fruity. Rose is Turkish rose, plum golden plum, top also includes mirabelle."
+ },
+ {
+  "name": "Audace",
+  "brand": "Rochas",
+  "year": 2025,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pink Pepper",
+    "Raspberry"
+   ],
+   "heart": [
+    "Rose",
+    "Tuberose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2025/01/29/rochas-audace-2025-new-perfume/",
+   "https://www.notino.fr/rochas/audace-eau-de-parfum-pour-homme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Women's EDP launched January 2025 (60/90 ml), described by Rochas as an ambery floral gourmand. Unrelated to the 1936 Rochas Audace chypre. Perfumer of the EDP not published (Le Parfum flanker 2026 is by Louise Turner and Quentin Bisch)."
+ },
+ {
+  "name": "Thé Cachemire",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Green Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Petitgrain",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Tea",
+    "Honeysuckle",
+    "Magnolia",
+    "Rose"
+   ],
+   "base": [
+    "Mate",
+    "Musk",
+    "Smoke"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfuum.com/products/christian-dior-the-cachemire",
+   "https://www.dior.com/en_us/beauty/products/the-cachemire-Y0744427.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée. 2018 per most retailers (Parfumo says 2017). Dior describes it as floral and green with bergamot essence, black tea and musk, inspired by Japanese tea ceremony and a cashmere sweater; a retailer lists white tea and mate, so tea is kept generic."
+ },
+ {
+  "name": "Rose",
+  "brand": "Molinard",
+  "year": null,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Rose"
+   ],
+   "heart": [
+    "Aldehydes",
+    "Clove",
+    "Geranium"
+   ],
+   "base": [
+    "Musk",
+    "Almond",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://hamptonct.com/products/molinard-rose-eau-de-parfum"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Could not pin down year or concentration; note lists conflict between retailers (one gives blackcurrant/magnolia/sandalwood). Skipped."
+ },
+ {
+  "name": "Soleil",
+  "brand": "Lalique",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alexandra Monet, Benoist Lapouza",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Cardamom",
+    "Almond"
+   ],
+   "heart": [
+    "Pear",
+    "Coffee",
+    "Milk",
+    "Jasmine",
+    "Caramel"
+   ],
+   "base": [
+    "White Musk",
+    "Sandalwood",
+    "Praline"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/05/22/lalique-soleil-new-perfume",
+   "https://www.tendance-parfums.com/marque/lalique/parfum-femme/soleil-lalique"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched June 2019, EDP 30/50/100 ml. Almond is bitter almond, pear is pear granita, coffee and milk stand for a caffè latte accord, caramel for caramelized sugar, praline is pink praline. Some retailers add Barbara Zoebelein as co-perfumer."
+ },
+ {
+  "name": "Me",
+  "brand": "Lanvin",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Domitille Bertier",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Blueberry"
+   ],
+   "heart": [
+    "Rose",
+    "Tuberose"
+   ],
+   "base": [
+    "Licorice",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2013/05/23/lanvin-me-fragrance-review",
+   "https://www.osmoz.com/perfumes/lanvin/7018/me",
+   "https://www.notino.co.uk/lanvin/me-eau-de-parfum-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2013 EDP (30/50/80 ml) by Domitille Bertier (IFF). Licorice placed in heart by some sources, with sandalwood by Osmoz; put in base for balance."
+ },
+ {
+  "name": "Hugo Urban Journey",
+  "brand": "Hugo Boss",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Green Notes"
+   ],
+   "heart": [
+    "Black Tea"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/01/22/hugo-urban-journey-by-hugo-boss-new-fragrance",
+   "https://jadof.com/en/perfume/hugo-urban-journey-eau-de-toilette-hugo-boss"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Hugo (1995), launched January 2018, EDT 75/125 ml. Brand names Himalayan whorlflower (mapped to Green Notes), black tea, guaiac wood; sandalwood from Jadof. Flask bottle with concrete-effect finish. Heart has a single published note."
+ },
+ {
+  "name": "Dans la Peau",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Apricot",
+    "Watery Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Narcissus",
+    "Magnolia"
+   ],
+   "base": [
+    "Leather",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://fq.co.nz/meet-the-master-perfumer-behind-louis-vuittons-new-fragrance/",
+   "https://scentadvice.com/dans-la-peau-2016-louis-vuitton/",
+   "https://thesnifftest.co.uk/louis-vuitton/louis-vuitton-dans-la-peau/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of the first Louis Vuitton women's collection (2016). Leather infusion inspired by the house's workshops; Grasse jasmine exclusive to the house. Today sold as genderless; chunk hint said Unisex, original launch was women's."
+ },
+ {
+  "name": "Assam of India",
+  "brand": "Berdoues",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Black Tea",
+    "Cardamom"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.flaconi.be/parfum/berdoues/collection-grands-crus/berdoues-collection-grands-crus-assam-of-india-eau-de-parfum.html",
+   "https://www.fragrancex.com/products/berdoues/assam-of-india-perfume",
+   "https://www.perfume.com/berdoues/assam-of-india/women-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Collection Grands Crus, 2015. Core notes from retailers: Assam black tea, Menton lemon peel, Mysore sandalwood. Bergamot, cardamom, musk from Perfume.com only. Sold mainly as EDP (15%), an EDT tester also listed; chunk hint said EDT."
+ },
+ {
+  "name": "This Is Her! No Rules",
+  "brand": "Zadig & Voltaire",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pear"
+   ],
+   "heart": [
+    "Chestnut",
+    "Whipped Cream",
+    "Vanilla"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/news/zadig-voltaire-last-this-is-her-no-rules",
+   "https://jadof.com/en/perfume/this-is-her-eau-de-parfum-no-rules-zadig-voltaire"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Variation of This Is Her! (2016), announced March 2022, in a transparent version of the cube bottle with a trellis decoration. Single source family (Jadof); Jadof snapshot also lists jasmine and orange blossom. Perfumer not published."
+ }
+]

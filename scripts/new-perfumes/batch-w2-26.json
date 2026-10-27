@@ -1,0 +1,672 @@
+[
+  {
+    "name": "Candy Love",
+    "brand": "Escada",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Fruity Gourmand",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Amandine Clerc-Marie, Nicolas Bonneville",
+    "notes": {
+      "top": [
+        "Apple",
+        "Green Mandarin"
+      ],
+      "heart": [
+        "Centifolia Rose"
+      ],
+      "base": [
+        "Vanilla",
+        "Chantilly Cream"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://moodiedavittreport.com/coty-unveils-limited-edition-escada-candy-love-fragrance/",
+      "https://www.news-parfums.com/en/escada/41250-escada-candy-love-eau-de-toilette-3614229396843.html",
+      "https://www.musingsofamuse.com/2021/02/escada-candy-love-review.html"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Coty limited edition, launched 1 November 2020 in travel retail (Moodie Davitt). Official pyramid: candy apple accord / rose centifolia / vanilla whipped cream; green mandarin added by Perfumer & Flavorist coverage. Heart-shaped pink and red bottle. 'Chantilly Cream' stands for the whipped cream note. Limited edition, now hard to find."
+  },
+  {
+    "name": "Acqua di Giò Essenza",
+    "brand": "Giorgio Armani",
+    "year": 2012,
+    "gender": "Masculine",
+    "family": "Woody Aquatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Alberto Morillas",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Grapefruit",
+        "Aquatic Notes"
+      ],
+      "heart": [
+        "Jasmine",
+        "Sage",
+        "Basil"
+      ],
+      "base": [
+        "Ambroxan",
+        "Patchouli",
+        "Vetiver",
+        "Cedar"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/armani/678/acqua-di-gio-essenza",
+      "https://nstperfume.com/2013/04/17/giorgio-armani-acqua-di-gio-acqua-di-gio-essenza-fragrance-reviews/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Osmoz: 2012, Alberto Morillas (Firmenich), EDP. 'Aquatic Notes' stands for Cascalone; heart also lists Paradisone. Osmoz classes it woody aromatic, retailers woody aquatic. Current availability unclear, often reported discontinued; kept false."
+  },
+  {
+    "name": "Bel Ami Vétiver",
+    "brand": "Hermès",
+    "year": 2013,
+    "gender": "Masculine",
+    "family": "Leather Woody",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Jean-Claude Ellena",
+    "notes": {
+      "top": [
+        "Bitter Orange",
+        "Cardamom"
+      ],
+      "heart": [
+        "Vetiver"
+      ],
+      "base": [
+        "Leather",
+        "Labdanum"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "http://graindemusc.blogspot.com/2014/04/the-ellena-variations-bel-ami-vetiver.html",
+      "https://www.hermes.com/us/en/product/bel-ami-vetiver-eau-de-toilette-V107386V0/"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Ellena's reworking of Bel Ami (1986, Jean-Louis Sieuzac). Hermès names vetiver, leather and cistus labdanum as the core. Grain de Musc (April 2014) describes it as more orange-y on top and less burnt at the base than the original. Full note lists vary a lot across retailers, so only the confirmed materials are kept."
+  },
+  {
+    "name": "Néroli Outrenoir",
+    "brand": "Guerlain",
+    "year": 2016,
+    "gender": "Unisex",
+    "family": "Citrus Woody",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Thierry Wasser, Delphine Jelk",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Petitgrain",
+        "Grapefruit",
+        "Lemon",
+        "Mandarin"
+      ],
+      "heart": [
+        "Neroli",
+        "Orange Blossom",
+        "Black Tea",
+        "Smoke"
+      ],
+      "base": [
+        "Oakmoss",
+        "Myrrh",
+        "Benzoin",
+        "Vanilla",
+        "Ambrette"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://australianperfumejunkies.com/2018/01/11/neroli-outrenoir-guerlain-review/",
+      "https://www.guerlain.com/us/en-us/p/l%E2%80%99art-la-matiere-neroli-outrenoir-eau-de-parfum-G017911.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "L'Art & La Matière collection, EDP. Guerlain pairs neroli with smoked tea. 'Black Tea' stands for the smoked tea accord; heart also lists earthy notes."
+  },
+  {
+    "name": "Histoire d'Orangers",
+    "brand": "L'Artisan Parfumeur",
+    "year": 2017,
+    "gender": "Unisex",
+    "family": "Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Marie Salamagne",
+    "notes": {
+      "top": [
+        "Neroli",
+        "Tea"
+      ],
+      "heart": [
+        "Orange Blossom",
+        "Musk"
+      ],
+      "base": [
+        "Ambroxan",
+        "Tonka Bean"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://boisdejasmin.com/2017/08/lartisan-parfumeur-histoire-dorangers-perfume-review.html",
+      "https://www.sephora.fr/p/histoire-d-orangers---eau-de-parfum-P10049167.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Flat list from Bois de Jasmin: neroli, white tea, orange blossom, musk, tonka, ambroxan. Tiering differs across retailers, so pyramid is inferred. 'Tea' stands for white tea. Inspired by a sunset on the walls of Taroudant, Morocco. An Extrême version exists."
+  },
+  {
+    "name": "Tornade Blonde",
+    "brand": "Christian Louboutin",
+    "year": 2016,
+    "gender": "Feminine",
+    "family": "Chypre Floral",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Olivier Cresp",
+    "notes": {
+      "top": [
+        "Rhubarb",
+        "Violet Leaf",
+        "Ambrette",
+        "Black Currant"
+      ],
+      "heart": [
+        "Rose",
+        "Jasmine",
+        "Orange Blossom",
+        "Gardenia"
+      ],
+      "base": [
+        "Amber",
+        "Cedar",
+        "Sandalwood",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2016/07/22/christian-louboutin-bikini-questa-sera-tornade-blonde-trouble-in-heaven-new-fragrances/",
+      "https://www.perfume.com/christian-louboutin/tornade-blonde/women-perfume"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "One of Louboutin's three debut perfumes (July 2016), alongside Bikini Questa Sera and Trouble in Heaven (both Pierre Negrin). EDP 80 ml, $275 at launch, twisted looped glass bottle. Rose is Bulgarian rose, jasmine is sambac; base amber or ambergris depending on source. Reported discontinued by Wikiparfum and sold out at retailers."
+  },
+  {
+    "name": "1881 Signature",
+    "brand": "Cerruti",
+    "year": 2017,
+    "gender": "Masculine",
+    "family": "Leather",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Nadège Le Garlantezec",
+    "notes": {
+      "top": [
+        "Pepper",
+        "Grapefruit",
+        "Nutmeg"
+      ],
+      "heart": [
+        "Leather",
+        "Cardamom",
+        "Labdanum"
+      ],
+      "base": [
+        "Amber",
+        "Patchouli",
+        "Vetiver"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.news-parfums.com/fr/cerruti/43902-1881-signature-eau-de-toilette-5050456523726.html",
+      "https://trucsdemec.fr/2017/06/12/cerruti-1881-signature/",
+      "https://prime-beaute.com/cerruti-1881-signature/2017"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Spring 2017 (Prime Beauté, Feb 2017). Family given as 'Oriental Cuiré Épicé'. news-parfums sells an EDT; Trucs de Mec and other retailers list an EDP, so concentration follows the hint. Labdanum = cistus. news-parfums also lists false pepper tree in the base. Black-tinted version of the 1881 bottle."
+  },
+  {
+    "name": "Hugo Red",
+    "brand": "Hugo Boss",
+    "year": 2013,
+    "gender": "Masculine",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Grapefruit",
+        "Pink Pepper",
+        "Galbanum"
+      ],
+      "heart": [
+        "Rhubarb",
+        "Pineapple",
+        "Cedar"
+      ],
+      "base": [
+        "Tonka Bean",
+        "Amber"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.fragrancereview.com/perfume/hugo-boss-hugo-red-eau-de-toilette/",
+      "https://www.hugoboss.com/us/4.2-fl.-oz.-125-ml-eau-de-toilette-hugo-red/hbna58034771_999.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Pyramid from the Hugo Boss listing (via search) and FragranceReview, which also mentions metallic notes. Released 2013. Perfumer credited to Michel Girard on Wikiparfum only, left null. This is Hugo Red, not Hugo Deep Red (2001, feminine)."
+  },
+  {
+    "name": "Le Parfum",
+    "brand": "Lalique",
+    "year": 2005,
+    "gender": "Feminine",
+    "family": "Oriental Vanilla",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Dominique Ropion",
+    "notes": {
+      "top": [
+        "Bay Leaf",
+        "Pink Pepper",
+        "Bergamot"
+      ],
+      "heart": [
+        "Heliotrope",
+        "Almond",
+        "Jasmine"
+      ],
+      "base": [
+        "Vanilla",
+        "Tonka Bean",
+        "Sandalwood",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/en/le-parfum-eau-de-parfum-lalique.html",
+      "https://boisdejasmin.com/2005/12/fragrance_revie_6-2.html"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Tendance Parfums: 2005, Dominique Ropion, EDP, oriental family. 'Bay Leaf' stands for West Indian bay. Bois de Jasmin calls it the first oriental of the Lalique range."
+  },
+  {
+    "name": "Coach for Men",
+    "brand": "Coach",
+    "year": 2017,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Anne Flipo, Bruno Jovanovic",
+    "notes": {
+      "top": [
+        "Pear",
+        "Bergamot",
+        "Kumquat"
+      ],
+      "heart": [
+        "Cardamom",
+        "Coriander",
+        "Geranium"
+      ],
+      "base": [
+        "Vetiver",
+        "Suede",
+        "Ambergris"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://nstperfume.com/2017/06/05/coach-for-men-new-fragrance-2/",
+      "https://www.dillards.com/p/coach-for-men-eau-de-toilette-spray/507366239"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched September 2017, IFF perfumers, face James Franco. Masculine counterpart to Coach The Fragrance (2016). NST gives a flat list, tiering follows retailers. 'Pear' is green nashi pear; Kumquat not in vocab."
+  },
+  {
+    "name": "Moncler pour Homme",
+    "brand": "Moncler",
+    "year": 2021,
+    "gender": "Masculine",
+    "family": "Woody Aromatic",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Antoine Maisondieu, Christophe Raynaud",
+    "notes": {
+      "top": [
+        "Green Notes",
+        "Clary Sage"
+      ],
+      "heart": [
+        "Cypress",
+        "Cedar",
+        "Pine"
+      ],
+      "base": [
+        "Vetiver",
+        "Amber",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/moncler-pour-homme-eau-de-parfum.html",
+      "https://www.interparfumsinc.com/products/moncler-pour-homme"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Moncler's first fragrances with Interparfums, launched with Moncler pour Femme. Official pyramid: Alpine Green accord, clary sage / cypress, cedarwood / vetiver, Mountain Woods accord (amber, cedar, sandalwood, per WWD). Tendance Parfums puts pine in the heart. Flask bottle with silver quilted shell; 150 ml has a customisable LED screen."
+  },
+  {
+    "name": "Play for Her",
+    "brand": "Givenchy",
+    "year": 2010,
+    "gender": "Feminine",
+    "family": "Floral Woody Musk",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Emilie Coppermann, Lucas Sieuzac",
+    "notes": {
+      "top": [
+        "Peony",
+        "Bergamot",
+        "White Peach",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Tiare Flower",
+        "Magnolia",
+        "Amyris"
+      ],
+      "base": [
+        "Sandalwood",
+        "Musk"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.osmoz.com/perfumes/givenchy/830/play-for-her",
+      "https://nstperfume.com/2010/06/16/givenchy-play-for-her-new-perfume/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Launched August 2010 (NST), Symrise perfumers with Françoise Donche. Counterpart to Play for Him (2008), both built on amyris wood. Osmoz top also lists rose-bay; NST lists sweet pea. Amyris not in vocab. Line widely reported as discontinued, status not confirmed."
+  },
+  {
+    "name": "Girls Can Say Anything",
+    "brand": "Zadig & Voltaire",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Amber Fougère",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Quentin Bisch",
+    "notes": {
+      "top": [
+        "Iris",
+        "Peony"
+      ],
+      "heart": [
+        "Tonka Bean",
+        "Fern"
+      ],
+      "base": [
+        "Vanilla",
+        "Musk",
+        "Amber"
+      ]
+    },
+    "pyramid_inferred": true,
+    "sources": [
+      "https://nstperfume.com/2019/04/25/zadig-voltaire-girls-can-say-anything-new-fragrance/",
+      "https://perfumediary.com/perfumes/zadig-and-voltaire-girls-can-say-anything-perfume/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Follow-up to Girls Can Do Anything (2018). Launched spring 2019 (NST, April 2019); some retailers say 2018. Retailers give a single heart note (tonka); the fern accord listed in the base was moved to the heart to fill the tier. Fern not in vocab."
+  },
+  {
+    "name": "Ptisenbon",
+    "brand": "Tartine et Chocolat",
+    "year": 1988,
+    "gender": "Unisex",
+    "family": "Floral Green",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Michèle Saramito",
+    "notes": {
+      "top": [
+        "Citron",
+        "Orange",
+        "Galbanum"
+      ],
+      "heart": [
+        "Honeysuckle",
+        "Lily of the Valley",
+        "Jasmine"
+      ],
+      "base": [
+        "Musk",
+        "Oakmoss",
+        "Brazilian Rosewood",
+        "Amber"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://www.tendance-parfums.com/ptisenbon-toilette.html",
+      "https://www.tartine-et-chocolat.com/en/products/eau-de-toilette-ptisenbon-1"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Children's eau de toilette made with Givenchy. Tendance Parfums: 1988, Michèle Saramito, floral green, contains alcohol. Some sources say 1987 for the start of the brand's perfume line."
+  },
+  {
+    "name": "Spirit of the Brave Intense",
+    "brand": "Diesel",
+    "year": 2020,
+    "gender": "Masculine",
+    "family": "Fougère Oriental",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Apple",
+        "Bergamot"
+      ],
+      "heart": [
+        "Cypress",
+        "Clary Sage"
+      ],
+      "base": [
+        "Amber",
+        "Vanilla",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://diesel.com/en-us/only-the-brave/spirit-of-the-brave-intense-50ml-gold/PL050500PRO01.html"
+    ],
+    "confidence": "medium",
+    "discontinued": false,
+    "remarks": "Official Diesel page: EDP, Fougère Oriental, apple accord, bergamot / cypress, clary sage / dry amber accord, vanilla, patchouli. 2020 from retailer listings. Carlos Benaïm (IFF) credited by two retailer sites only, left null. Note: the Diesel page contained text aimed at AI assistants, ignored."
+  },
+  {
+    "name": "B. Balenciaga",
+    "brand": "Balenciaga",
+    "year": 2014,
+    "gender": "Feminine",
+    "family": "Floral Green",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Domitille Michalon-Bertier",
+    "notes": {
+      "top": [
+        "Lily of the Valley",
+        "Violet Leaf",
+        "Green Notes"
+      ],
+      "heart": [
+        "Iris",
+        "Cedar"
+      ],
+      "base": [
+        "Ambrette",
+        "Cashmeran"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2014/06/06/b-balenciaga-new-fragrance/",
+      "https://www.fragrancex.com/products/balenciaga/b-balenciaga-perfume"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "First women's fragrance under Alexander Wang, launched October 2014, EDP 50/75 ml. 'Green Notes' covers the green leaves and edamame accords. Perfumer credited as Domitille Bertier (now Michalon-Bertier). Discontinued."
+  },
+  {
+    "name": "Sì Passione Éclat",
+    "brand": "Giorgio Armani",
+    "year": 2022,
+    "gender": "Feminine",
+    "family": "Floral Fruity",
+    "concentration": "Eau de Parfum",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Black Currant",
+        "Bergamot"
+      ],
+      "heart": [
+        "Centifolia Rose",
+        "Rose"
+      ],
+      "base": [
+        "Musk",
+        "Vanilla"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2022/01/18/giorgio-armani-si-passione-eclat-new-fragrance/",
+      "https://www.lookfantastic.com/p/armani-si-passione-eclat-eau-de-parfum-50ml/13328552/"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Flanker to Sì Passione (2017), itself a flanker to Sì (2013). Launched January 2022. 'Rose' is damask rose; Calabrian bergamot, Madagascar vanilla, white musks. Perfumer Julie Masse per retailers only, left null. Armani US lists it under 'discontinued'."
+  },
+  {
+    "name": "Five O'Clock au Gingembre",
+    "brand": "Serge Lutens",
+    "year": 2008,
+    "gender": "Unisex",
+    "family": "Oriental Spicy",
+    "concentration": "Eau de Parfum",
+    "perfumer": "Christopher Sheldrake",
+    "notes": {
+      "top": [
+        "Tea",
+        "Bergamot"
+      ],
+      "heart": [
+        "Ginger",
+        "Cinnamon",
+        "Woody Notes"
+      ],
+      "base": [
+        "Pepper",
+        "Honey",
+        "Amber",
+        "Cacao",
+        "Patchouli"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://kafkaesqueblog.com/2013/03/22/perfume-review-serge-lutens-five-o-clock-au-gingembre/",
+      "https://australianperfumejunkies.com/2017/07/13/five-oclock-au-gingembre-serge-lutens-review/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Christopher Sheldrake, 2008, EDP 50 ml. Lutens frames it as tea at Buckingham Palace centred on candied ginger. 'Ginger' is candied ginger."
+  },
+  {
+    "name": "Alien Mirage",
+    "brand": "Mugler",
+    "year": 2020,
+    "gender": "Feminine",
+    "family": "Aquatic Floral",
+    "concentration": "Eau de Toilette",
+    "perfumer": null,
+    "notes": {
+      "top": [
+        "Aquatic Notes",
+        "Mineral Notes",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Seringa",
+        "Lotus"
+      ],
+      "base": [
+        "White Amber",
+        "Hinoki Wood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2020/02/01/mugler-alien-mirage-alien-man-mirage-new-fragrances/",
+      "https://inter.mugler.com/default/alien-mirage/M020604172.html"
+    ],
+    "confidence": "high",
+    "discontinued": true,
+    "remarks": "Limited edition EDT 60 ml, early 2020, with Alien Man Mirage. Floral aquatic amber. Seringa = mock orange; Seringa and Hinoki Wood not in vocab. Perfumers not officially credited, left null."
+  },
+  {
+    "name": "Bonbon Pastel",
+    "brand": "Viktor & Rolf",
+    "year": 2019,
+    "gender": "Feminine",
+    "family": "Floral Gourmand",
+    "concentration": "Eau de Toilette",
+    "perfumer": "Cécile Matton, Serge Majoullier",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Mandarin",
+        "Cardamom",
+        "Sea Notes"
+      ],
+      "heart": [
+        "Orange Blossom",
+        "Neroli"
+      ],
+      "base": [
+        "Caramel",
+        "Amber",
+        "Musk",
+        "Sandalwood"
+      ]
+    },
+    "pyramid_inferred": false,
+    "sources": [
+      "https://nstperfume.com/2019/06/24/viktor-rolf-bonbon-pastel-new-perfume/",
+      "https://www.notino.co.uk/viktor-rolf/bonbon-pastel-eau-de-toilette-for-women/"
+    ],
+    "confidence": "high",
+    "discontinued": false,
+    "remarks": "Flanker to Bonbon (2014), June 2019, EDT 50 ml. 'Sea Notes' stands for the Aqual marine accord; 'Neroli' for Neroliwood. NST calls it the lightest and freshest of the series."
+  }
+]

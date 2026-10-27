@@ -1,0 +1,649 @@
+[
+ {
+  "name": "Hugo XY",
+  "brand": "Hugo Boss",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citron",
+    "Bergamot",
+    "Pear Leaf",
+    "Frosted Accord"
+   ],
+   "heart": [
+    "Mint",
+    "Basil"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2007/06/20/hugo-boss-essence-de-femme-boss-in-motion-iv-hugo-xx-xy-new-fragrances/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched August 2007 with its female twin Hugo XX, both built on the tension between the sexes. Flat note list from the launch post: cedrat, bergamot, pear tree leaf, crushed ice accord, mint, basil, cedar, patchouli, muskroot. 'Frosted Accord' = crushed ice accord, 'Musk' = muskroot. Perfumer not named in sources read (Osmoz credits P&G with Firmenich). Market status unclear."
+ },
+ {
+  "name": "Mimosa pour Moi",
+  "brand": "L'Artisan Parfumeur",
+  "year": 1992,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Black Currant"
+   ],
+   "heart": [
+    "Mimosa",
+    "Acacia",
+    "Jasmine",
+    "Lilac"
+   ],
+   "base": [
+    "Heliotrope",
+    "Cedar",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumeintelligence.co.uk/library/perfume/l/houses/Lartisan.htm",
+   "https://www.osmoz.com/perfumes/l-artisan-parfumeur/3863/mimosa-pour-moi"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1992 soliflore by Anne Flipo (Perfume Intelligence). Osmoz confirms 1992, family floral green, same pyramid minus acacia and heliotrope. 'Black Currant' = blackcurrant buds."
+ },
+ {
+  "name": "Guess Girl Belle",
+  "brand": "Guess",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Champagne",
+    "Red Berries"
+   ],
+   "heart": [
+    "Violet",
+    "Peony",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/guess-girl-belle.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Guess Girl. Tendance Parfums gives 2013, fruity floral, top wild berries and (pink) champagne, heart violet, peony, jasmine, base musk, Australian sandalwood, vanilla. Some retailers add apple on top. Year rests on one source."
+ },
+ {
+  "name": "Solarissimo Levanzo",
+  "brand": "Azzaro",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Passion Fruit",
+    "Citron"
+   ],
+   "heart": [
+    "Lavender",
+    "Basil"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/04/01/azzaro-solarissimo-levanzo-new-fragrance",
+   "https://www.elryan.com/en/solarissimo-levanzo-by-azzaro-for-men-eau-de-toilette-75-ml-1765698.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Announced April 2016 as the first of a Solarissimo trilogy for men, named after an island off Sicily. Brand page title says men's perfume, so gender set to Masculine although the chunk hint said Unisex. Notes: citron, passionfruit, basil, lavender, cedar, patchouli. Some retailers mark it discontinued; not verified."
+ },
+ {
+  "name": "Coach Open Road",
+  "brand": "Coach",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Christophe Hérault",
+  "notes": {
+   "top": [
+    "Red Apple",
+    "Lemon"
+   ],
+   "heart": [
+    "Sichuan Pepper",
+    "Clary Sage",
+    "Lavender"
+   ],
+   "base": [
+    "Vetiver",
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/coach-open-road-eau-de-toilette-coach.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2022 men's EDT inspired by a road trip along the American coasts. Perfumer Jean-Christophe Hérault. Some retailers place Sichuan pepper in the top. Official name 'Open Road'; brand repeated in chunk name."
+ },
+ {
+  "name": "Turquoise Summer",
+  "brand": "Escada",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Strawberry",
+    "Raspberry",
+    "Black Currant"
+   ],
+   "heart": [
+    "Violet",
+    "Orange Blossom",
+    "Peach"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://larose.az/en/product/escada-turquoise-summer",
+   "https://nearstore.com/products/fxp5120-p"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Escada summer limited edition 2015, 50 ml EDT. Retailer pyramids differ: one gives strawberry, raspberry, blackcurrant / violet, orange blossom, peach / vanilla, sandalwood, musk; another adds pineapple, rhubarb, melon, caramel. Combined the overlap. Limited edition, sold out."
+ },
+ {
+  "name": "N°5 Eau Première",
+  "brand": "Chanel",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Neroli",
+    "Ylang-Ylang"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Vanilla",
+    "Vetiver",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/chanel/1635/n-5-eau-premiere"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Lighter reading of N°5 by Jacques Polge. Osmoz gives 2008, floral aldehyde; ylang-ylang softened, aldehydes and neroli brighter, vanilla and woods more present. Some markets list late 2007."
+ },
+ {
+  "name": "Vanille Fruitée",
+  "brand": "Molinard",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Gourmand Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Carnation"
+   ],
+   "heart": [
+    "Raspberry",
+    "Heliotrope",
+    "Orchid"
+   ],
+   "base": [
+    "Vanilla",
+    "Sugar",
+    "Musk",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://theperfumespot.com/vanille-fruitee-by-molinard-2-5-oz-edp-spray-for-women/",
+   "https://jadof.com/en/perfume/molinard-fruity-vanilla-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Part of Molinard's Les Éléments line, sold as EDP and presented as unisex by several retailers (one sells it 'for women'). Year 2015 per Jadof only. Notes: bergamot, carnation / orchid, vanilla, heliotrope, raspberry, solar notes / vanilla pod, candy sugar, white musk, benzoin."
+ },
+ {
+  "name": "CK IN2U Her",
+  "brand": "Calvin Klein",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bruno Jovanovic, Jean-Marc Chaillan, Loc Dong, Carlos Benaïm",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Bergamot",
+    "Red Currant"
+   ],
+   "heart": [
+    "Orchid",
+    "Cactus",
+    "Sugar"
+   ],
+   "base": [
+    "Amber",
+    "Cedar",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/calvin-klein/1529/ckin2u-her"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2007, aimed at a young tech-savvy generation. Osmoz credits four perfumers on the ckIN2U duo. Notes: pink grapefruit, Sicilian bergamot, red currant leaf / sugar orchid, white cactus / amber, red cedar, vanilla souffle. 'Red Currant' stands for red currant leaf."
+ },
+ {
+  "name": "Le Parfum du 68",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Spices"
+   ],
+   "heart": [
+    "Rose",
+    "Immortelle"
+   ],
+   "base": [
+    "Heliotrope",
+    "Benzoin",
+    "Tonka Bean",
+    "Incense",
+    "Leather",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://osmoz.com/perfumes/guerlain/7566/l-eau-de-parfum-du-68",
+   "https://thecandyperfumeboy.com/2013/10/01/smelly-news-the-most-amazing-perfume-bottle-ever/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Made for the reopening of Guerlain's boutique at 68 Champs-Élysées (2013). A 30-bottle extrait in a gilded Baccarat turtle bottle came first; the Eau de Parfum sold at Maison Guerlain is dated 2014 by Osmoz (perfumer Thierry Wasser). Reworked from Cologne du 68 (2006). Osmoz top is just 'spicy notes' (warm and cool spices), hence a single top note. Osmoz lists it for women; hint Unisex kept."
+ },
+ {
+  "name": "Eau Soleil",
+  "brand": "Biotherm",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Orange",
+    "Black Currant"
+   ],
+   "heart": [
+    "Fig",
+    "Tiare Flower"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/02/23/biotherm-eau-soleil-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Perfumed body spray launched early 2016, 100 ml, presented as safe to wear in the sun. Flat note list: lemon, orange, fig, blackcurrant, tiare, musk, sandalwood. Parfumo files it as feminine; brand did not state gender. Appears discontinued (French Vidal listing marked deleted, seen in search only)."
+ },
+ {
+  "name": "Hugo Jeans",
+  "brand": "Hugo Boss",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Lime"
+   ],
+   "heart": [
+    "Peppermint",
+    "Juniper Berries"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vetiver",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2023/01/05/hugo-jeans-by-hugo-boss-new-fragrance/",
+   "https://www.lookfantastic.com/hugo-boss-hugo-jeans-for-men-eau-de-toilette-75ml/14231756.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Coty, January 2023. Flanker of Hugo (1995). Matte denim-blue flask with the red and black logo of the Hugo jeans line. Perfumer not named."
+ },
+ {
+  "name": "Boss The Scent Intense",
+  "brand": "Hugo Boss",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Cardamom"
+   ],
+   "heart": [
+    "Maninka Fruit",
+    "Lavender"
+   ],
+   "base": [
+    "Leather",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.moodiedavittreport.com/coty-turns-up-the-intensity-with-new-hugo-boss-fragrances/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "June 2017, first at Heinemann travel retail, face Theo James. Higher oil concentration than Boss The Scent (2015); vanilla is the new addition. Lavender in the heart comes from retailer listings seen in search, not from the press release. Perfumer not confirmed."
+ },
+ {
+  "name": "Ô d'Azur",
+  "brand": "Lancôme",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Domitille Bertier, Sophie Labbé",
+  "notes": {
+   "top": [
+    "Amalfi Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Rose",
+    "Pink Pepper"
+   ],
+   "base": [
+    "Musk",
+    "Ambrette",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/05/08/lancome-o-dazur-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "June 2010 variation on Ô de Lancôme (1969), 'fresh with floral and fruity accents'. Launch post notes: bergamot, lemon, rose, peony, ambrette seed, musk. Pink pepper and woody notes from retailer copy seen in search. Name plays on azure skies and the Côte d'Azur."
+ },
+ {
+  "name": "Étoile de Rem",
+  "brand": "Reminiscence",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Bergamot",
+    "Sea Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ylang-Ylang",
+    "Orange Blossom",
+    "Coconut"
+   ],
+   "base": [
+    "Vanilla",
+    "Coumarin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2008/06/24/reminiscence-etoile-de-rem-new-perfume/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Solar floral for women, 100 ml EDT, launched by June 2008. Flat list: citrus, bergamot, marine accord, jasmine, ylang ylang, orange blossom, coconut, vanilla, coumarin, musk. Flanker of Rem (1996)."
+ },
+ {
+  "name": "Just Rock! for Her",
+  "brand": "Zadig & Voltaire",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sidonie Lancesseur, Michel Almairac",
+  "notes": {
+   "top": [
+    "Patchouli",
+    "Incense"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tuberose"
+   ],
+   "base": [
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/07/18/zadig-voltaire-just-rock-new-fragrances/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "July 2017 duo with Just Rock! for Him. Brand copy: white patchouli touched with incense, gourmand heart lit by jasmine absolute, plus tuberose and vanilla. Only one base note is documented."
+ },
+ {
+  "name": "Neroli Portofino Forte",
+  "brand": "Tom Ford",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Cumin"
+   ],
+   "heart": [
+    "Neroli",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Leather",
+    "Woods",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://thecandyperfumeboy.com/2016/05/23/sartorial-splash-tom-ford-private-blend-neroli-portofino-forte-perfume-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Private Blend, 2016, launched with Neroli Portofino Acqua around the original. Listed notes neroli, leather, woods, musk; cumin and orange blossom come from the reviewer's description. 'Black tie' version of the original."
+ },
+ {
+  "name": "Ange ou Démon Le Secret Elixir",
+  "brand": "Givenchy",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Green Tea",
+    "Neroli"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Frangipani"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/6803/ange-ou-demon-le-secret-elixir"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2012, floral (orange blossom tuberose), more intense take on Ange ou Démon Le Secret (2009). Perfumer not named."
+ },
+ {
+  "name": "A*Men Pure Havane",
+  "brand": "Mugler",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Huclier",
+  "notes": {
+   "top": [
+    "Tobacco",
+    "Honey"
+   ],
+   "heart": [
+    "Cocoa",
+    "Patchouli",
+    "Vanilla"
+   ],
+   "base": [
+    "Amber",
+    "Styrax",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/thierry-mugler/2185/a-men-pure-havane",
+   "https://nstperfume.com/2011/02/03/thierry-mugler-amen-pure-havane-new-fragrance"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition 2011, after Pure Coffee (2008) and Pure Malt (2009). Perfumer Jacques Huclier (Givaudan) per Osmoz. Launch notes: tobacco honey accord, patchouli, cacao, amber, styrax, labdanum. Original limited run discontinued; retailers now list an Angel Men Pure Havane refill, not checked."
+ },
+ {
+  "name": "Miracle Blossom",
+  "brand": "Lancôme",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lychee",
+    "Mandarin",
+    "Apple"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/07/04/lancome-miracle-blossom-new-perfume/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "September 2016, 50 ml EDP, flanker of Miracle (2000). Flat list: lychee, mandarin, apple, rose, sandalwood, musk. Some retailers add peony and jasmine."
+ }
+]

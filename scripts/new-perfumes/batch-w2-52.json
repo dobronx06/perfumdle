@@ -1,0 +1,700 @@
+[
+ {
+  "name": "Nuit d'Amour",
+  "brand": "Guerlain",
+  "year": 2006,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Lychee",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Violet",
+    "Iris"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2006/10/nuit_guerlain_f.html",
+   "http://perfumeshrine.blogspot.com/2010/05/guerlain-arsene-lupin-nuit-damour.html",
+   "https://www.bergdorfgoodman.com/p/guerlain-nuit-damour-eau-de-parfum-prod72780113"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Limited edition by Jean-Paul Guerlain in 2006 (Baccarat flacon), reissued around 2010 in the Les Parisiennes boutique line in the bee bottle. Perfume Shrine mentions a hint of aldehydes at the top. Concentration of the 2006 edition not stated; EDP per hint and Bergdorf listing."
+ },
+ {
+  "name": "Mensonge",
+  "brand": "Fragonard",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Bergamot",
+    "Grapefruit",
+    "Cardamom"
+   ],
+   "heart": [
+    "Jasmine",
+    "Clove",
+    "Nutmeg",
+    "Cumin",
+    "Tea"
+   ],
+   "base": [
+    "Lavender",
+    "Cedar",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/mensonge-confidentiel-fragonard-2005.html"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Identity conflicts with the hint: sources describe a men's/unisex woody spicy scent from the Confidentiel line, dated 2005 by some and 2008 by others. Hint says Feminine. Not on Fragonard e-store. Skip."
+ },
+ {
+  "name": "Eau de Néroli Doré",
+  "brand": "Hermès",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Neroli"
+   ],
+   "base": [
+    "Saffron"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/eau-de-neroli-dore.html",
+   "https://www.hermes.com/us/en/product/eau-de-neroli-dore-eau-de-cologne-V37066/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Fifth Ellena cologne in the Colognes Hermès line. Hermès describes neroli, saffron and petitgrain bigaradier; retailer pyramid is bigarade / neroli / saffron. Only three materials published, so tiers have 1 to 2 notes."
+ },
+ {
+  "name": "Carbone de Balmain",
+  "brand": "Balmain",
+  "year": 2010,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pepper",
+    "Elemi",
+    "Ivy"
+   ],
+   "heart": [
+    "Fig",
+    "Incense",
+    "Vetiver",
+    "Woody Notes"
+   ],
+   "base": [
+    "Benzoin",
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/carbone-balmain-2010.html",
+   "https://www.fragrancereview.com/perfume/balmain-carbone-carbone-de-balmain/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "le-parfum.fr gives heart and base only; top (Madagascar pepper, elemi, ivy) from FragranceReview. Perfumer unconfirmed from allowed sources. Not the same as the later Balmain Beauty 'Carbone' (musk, rose, suede). Original likely discontinued."
+ },
+ {
+  "name": "Dioressence",
+  "brand": "Dior",
+  "year": 1969,
+  "gender": "Feminine",
+  "family": "Chypre",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Guy Robert",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Orange"
+   ],
+   "heart": [
+    "Jasmine",
+    "Violet",
+    "Rose",
+    "Ylang-Ylang",
+    "Geranium",
+    "Cinnamon"
+   ],
+   "base": [
+    "Patchouli",
+    "Orris Root",
+    "Ambergris",
+    "Oakmoss",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeshrine.blogspot.com/2012/06/christian-dior-dioressence-fragrance.html",
+   "https://boisdejasmin.com/2012/06/christian-dior-dioressence-perfume-review-vintage-modern.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Created 1969 by Guy Robert to go with Dior furs, slogan 'le parfum barbare'. Relaunched 1979 (Max Gavarry), reworked 2010 by François Demachy. Flat note list (also styrax) split into tiers. Vintage animalic chypre/amber; modern version much lighter."
+ },
+ {
+  "name": "Guess 1981 Indigo",
+  "brand": "Guess",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Fig",
+    "Lilac"
+   ],
+   "heart": [
+    "Iris",
+    "Lotus",
+    "Narcissus"
+   ],
+   "base": [
+    "Red Wine",
+    "Grape",
+    "Cedar",
+    "Haitian Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.directcosmetics.com/guess-1981-indigo-femme-eau-de-toilette-spray-50ml-guess-p12391",
+   "https://perfumania.com/products/guess-98-indigo-by-guess-for-women-eau-de-toilette-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand is Guess (selection note said a Lacoste guess was wrong). Launch 2018 per several retailer listings. Heart 'blue lotus', base 'Pinot Noir grapes' and 'Atlas cedar'. Some sellers give a different pyramid."
+ },
+ {
+  "name": "Vanille Fatale",
+  "brand": "Tom Ford",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Saffron",
+    "Coriander",
+    "Myrrh",
+    "Incense"
+   ],
+   "heart": [
+    "Barley",
+    "Roasted Coffee",
+    "Narcissus",
+    "Frangipani"
+   ],
+   "base": [
+    "Vanilla",
+    "Mahogany",
+    "Suede"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://reallyree.com/tom-ford-vanille-fatale-review/",
+   "https://www.tomfordbeauty.com/products/vanille-fatale-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Private Blend, late 2017 (reviews from January 2018). Top includes olibanum (Incense); heart roasted barley. Brand key notes: mahogany wood accord, roasted barley, vanilla resinoid. Perfumer not confirmed from allowed sources."
+ },
+ {
+  "name": "Aimez-Moi",
+  "brand": "Caron",
+  "year": 1996,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Star Anise",
+    "Mint",
+    "Violet",
+    "Cardamom",
+    "Bergamot"
+   ],
+   "heart": [
+    "Magnolia",
+    "Peach",
+    "Iris",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Amber",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2005/03/07/caron-aimez-moi-perfume-review/",
+   "https://www.parfumscaron.com/en/products/aimez-moi"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Inspired by Caron's 1916 urn parfum N'Aimez Que Moi. NST also lists freesia, caraway, heliotrope, tonka, clove. Caron site currently lists an EDP; EDT and parfum existed."
+ },
+ {
+  "name": "Chantal Thomass",
+  "brand": "Chantal Thomass",
+  "year": 2002,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Cherry",
+    "Tomato",
+    "Raspberry",
+    "Cranberry",
+    "Apple"
+   ],
+   "heart": [
+    "Black Violet",
+    "Iris",
+    "Heliotrope",
+    "Rose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Musk",
+    "Patchouli",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/ch-thomass-edp.html",
+   "https://www.osmoz.com/perfumes/chantal-thomass/16/a-perfume-by-chantal-thomass"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Top also raspberry leaf; heart also petitgrain. Not to be confused with the Pink flanker."
+ },
+ {
+  "name": "MMMM...",
+  "brand": "Juliette Has a Gun",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Geranium",
+    "Neroli"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Tuberose"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.johnlewis.com/juliette-has-a-gun-mmmm-eau-de-parfum/p4805094",
+   "https://www.spacenk.com/us/fragrance/personal-fragrance/fragrance/mmmm...eau-de-parfum-MUK200040433.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand describes a gourmand accord of vanilla and neroli; vanilla added to base on that basis (some retailers list it). Perfumer not named in allowed sources."
+ },
+ {
+  "name": "Ambre",
+  "brand": "Molinard",
+  "year": 2015,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Bergamot",
+    "Orange",
+    "Lemon"
+   ],
+   "heart": [
+    "Benzoin",
+    "Incense",
+    "Clove",
+    "Geranium"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.envie2parfum.fr/molinard/eau-de-parfum/ambre",
+   "https://www.fragrancenet.com/fragrances/molinard/molinard-ambre/eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Some retailers say an Ambre existed since 1993 and was reformulated/relaunched in 2015; current EDP dated 2015. One retailer gives an unrelated pyramid."
+ },
+ {
+  "name": "Mandorlo di Sicilia",
+  "brand": "Acqua di Parma",
+  "year": 1999,
+  "gender": "Unisex",
+  "family": "Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Orange",
+    "Star Anise"
+   ],
+   "heart": [
+    "Almond",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Cedar",
+    "Tolu Balsam"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/acqua-di-parma-blu-mediterraneo-mandorlo-di-sicilia/",
+   "https://www.acquadiparma.com/default/en/mandorlo-di-sicilia/MANDORLOEDTSPRAY.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Blu Mediterraneo line. Heart 'green almond'; base Bourbon vanilla, Lebanon cedar. Year 1999 per FragranceReview and Jomashop. Perfumer unconfirmed (one retailer names Bertrand Duchaufour)."
+ },
+ {
+  "name": "Osez-Moi",
+  "brand": "Chantal Thomass",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Rose",
+    "Frangipani",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Rhubarb",
+    "Peony",
+    "Vanilla"
+   ],
+   "base": [
+    "Musk",
+    "Amber",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.parfumerie-burdin.com/1774-chantal-thomass-osez-moi-eau-de-parfum.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2009 (FragranceX table says 2008). Top 'rose musquée'. A retailer notes the composition has changed since launch. Perfumer not named."
+ },
+ {
+  "name": "Lalique White",
+  "brand": "Lalique",
+  "year": 2008,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Tamarind",
+    "Elemi"
+   ],
+   "heart": [
+    "White Pepper",
+    "Nutmeg",
+    "Cardamom",
+    "Violet"
+   ],
+   "base": [
+    "Cedar",
+    "White Amber",
+    "Moss",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://trucsdemec.fr/2016/05/29/lalique-white/",
+   "https://www.perfumelive.com/1201264015075300-lalique-whitebylaliqueformen.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Two years after Encre Noire. Top 'lemon leaves' mapped to Lemon. One retailer wrongly dates it 1997. White flask."
+ },
+ {
+  "name": "Sweet Like Candy",
+  "brand": "Ariana Grande",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blackberry",
+    "Bergamot",
+    "Pear"
+   ],
+   "heart": [
+    "Jasmine",
+    "Frangipani",
+    "Honeysuckle"
+   ],
+   "base": [
+    "Black Currant",
+    "Marshmallow",
+    "Cashmere Wood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ulta.com/p/sweet-like-candy-eau-de-parfum-xlsImpprod14501028?sku=2306622",
+   "https://nstperfume.com/2016/07/20/ariana-grande-sweet-like-candy-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 20 July 2016 at Ulta, Luxe Brands licence, follows Ari (2015). Base 'crème de cassis'. Reported FiFi 2017 Fragrance of the Year Women's Popular (brand/fan sources)."
+ },
+ {
+  "name": "Ambre d'Alexandrie",
+  "brand": "Boucheron",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Christophe Hérault",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Tobacco"
+   ],
+   "heart": [
+    "Cistus",
+    "Vanilla"
+   ],
+   "base": [
+    "Ambergris",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/boucheron-la-collection-ambre-dalexandrie-2/",
+   "https://www.fragrancesline.com/products/ambre-dalexandrie-perfume-sample"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "La Collection Boucheron (Interparfums). Official top note is 'spirit of narguile' (hookah accord) mapped to Tobacco. Inspired by Alexandria."
+ },
+ {
+  "name": "Zino",
+  "brand": "Davidoff",
+  "year": 1986,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lavender",
+    "Clary Sage",
+    "Rosewood"
+   ],
+   "heart": [
+    "Rose",
+    "Geranium",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "Cedar",
+    "Amber",
+    "Vanilla",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/davidoff-zino-eau-de-toilette",
+   "https://www.silloria.com/en/perfumes/davidoff/davidoff-zino"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sold as Zino Davidoff, named after Zino Davidoff. Some databases add Pierre Bourdon and Jean-François Latty. Tier split inferred from descriptions."
+ },
+ {
+  "name": "Au Masculin Intense",
+  "brand": "Lolita Lempicka",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Menardo",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Star Anise"
+   ],
+   "heart": [
+    "Oud",
+    "Vetiver"
+   ],
+   "base": [
+    "Myrrh",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://sg.news.yahoo.com/intense-version-lolita-lempickas-au-masculin-perfume-165357866.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Hint said EDT, but the Intense is an Eau de Parfum Intense (AFP/Yahoo July 2015, in stores September 2015). Original Au Masculin dates from 2000, same perfumer."
+ },
+ {
+  "name": "Guess Night",
+  "brand": "Guess",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pepper",
+    "Grapefruit",
+    "Elemi"
+   ],
+   "heart": [
+    "Geranium",
+    "Cedar",
+    "Vetiver"
+   ],
+   "base": [
+    "Black Vanilla",
+    "Labdanum",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://bestmenscolognes.com/guess-night-mens-cologne-review/",
+   "https://perfumania.com/products/guess-night-cologne-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Fall 2013 launch. Top 'hot pepper'. Pyramid placement from retailer copy; review site gives flat list. One blog credits Francis Kurkdjian, unconfirmed so null."
+ },
+ {
+  "name": "Blossom",
+  "brand": "Jimmy Choo",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Louise Turner",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Raspberry",
+    "Red Berries"
+   ],
+   "heart": [
+    "Rose",
+    "Sweet Pea"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thescentbase.com/perfumes/jimmy-choo/jimmy-choo-blossom",
+   "https://www.lesparfumsspecialties.com/product/jimmy-choo-blossom-eau-de-parfum-jimmy-choo-for-women/6130"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Base 'white musk'. Perfumer credit from databases and retailers, no brand press read."
+ }
+]

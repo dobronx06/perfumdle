@@ -1,0 +1,668 @@
+[
+ {
+  "name": "Flowerbomb Midnight",
+  "brand": "Viktor & Rolf",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion, Domitille Michalon-Bertier, Carlos Benaïm, Fanny Bal",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Pomegranate"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peony"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.perfumelive.com/a2019041202-flowerbomb-midnightbyviktorrolfforwomen.html",
+   "https://www.fragrancex.com/products/viktor-and-rolf/flowerbomb-midnight-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2019 (retailer 'year introduced 2019'). Retailer read gives a flat list (blackcurrant, night-blooming jasmine, musk, pomegranate, peony, vanilla); tiers distributed. Four-perfumer credit comes from several retailer listings via search, not from the page read."
+ },
+ {
+  "name": "Cool Water Woman",
+  "brand": "Davidoff",
+  "year": 1996,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Pierre Bourdon",
+  "notes": {
+   "top": [
+    "Melon",
+    "Pineapple",
+    "Lemon",
+    "Quince"
+   ],
+   "heart": [
+    "Lotus",
+    "Water Lily",
+    "Jasmine",
+    "Rose",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Vanilla",
+    "Musk",
+    "Vetiver",
+    "Peach",
+    "Orris Root"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://surrendertochance.com/davidoff-cool-water-for-women/",
+   "https://leparfumier.com/en/products/davidoff-cool-water-woman"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1996, ten years after Cool Water for men; Pierre Bourdon. Source read gives a flat list; tiers follow the common retailer pyramid. Still sold."
+ },
+ {
+  "name": "Femme Individuelle",
+  "brand": "Montblanc",
+  "year": 2004,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Red Currant",
+    "Bay Leaf"
+   ],
+   "heart": [
+    "Rose",
+    "Lotus"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesclub.us/en/montblanc/individuelle-eau-de-toilette-spray/p_37600/",
+   "https://www.ferwer.com/montblanc-femme-individuelle-eau-de-toilette-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2004 EDT, oriental floral per Perfumes Club. Perfumer conflict (most retailers say Michel Almairac, Notino says Pierre Bourdon), left null. Notino lists the 75 ml as discontinued, other retailers still stock it."
+ },
+ {
+  "name": "Aqua Allegoria Ginger Piccante",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Delphine Jelk",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Rose",
+    "Pepper"
+   ],
+   "base": [
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thissideofperfume.com/2019/08/07/aqua-allegoria-ginger-piccante-by-guerlain/",
+   "https://teascentedlibrary.wordpress.com/2021/02/26/fragrance-review-guerlain-aqua-allegoria-ginger-piccante/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2019 Aqua Allegoria, Delphine Jelk. Sources differ on pink vs black pepper. Some retailers tag it discontinued; not confirmed."
+ },
+ {
+  "name": "1957",
+  "brand": "Chanel",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Aldehydes",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Neroli",
+    "Orange Blossom",
+    "Iris"
+   ],
+   "base": [
+    "Musk",
+    "Honey",
+    "Cedar",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://10magazine.com/chanel-1957-perfume-les-exclusifs-olivier-polge/",
+   "https://nstperfume.com/2019/08/26/chanel-1957-fragrance-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, released early 2019 (some sources say late 2018). Built on eight white musks. Name: 1957 is the year Gabrielle Chanel received the Neiman Marcus Fashion Award in Dallas. Pyramid assembled from flat lists."
+ },
+ {
+  "name": "Bella Vita",
+  "brand": "Guess",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christine Hassan, Valérie Garnuch-Mentzel",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Black Currant",
+    "Cherry"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tuberose",
+    "Vanilla Orchid"
+   ],
+   "base": [
+    "Praline",
+    "Tonka Bean",
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://retailbeauty.com.au/guess-bella-vita/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2020, perfumers from Drom. Lemon is Italian lemon, cherry is black cherry."
+ },
+ {
+  "name": "Mille Feux",
+  "brand": "Louis Vuitton",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Saffron"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Iris"
+   ],
+   "base": [
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2016/09/23/louis-vuitton-parfums-mille-feux-dans-la-peau/",
+   "https://www.wikiparfum.com/en/fragrances/mille-feux"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of the first Louis Vuitton perfume collection (2016). Official notes: leather infusion, raspberry, osmanthus, iris concrete, saffron. Inspired by raspberry-coloured leather seen in an LV workshop. Often compared with Tom Ford Tuscan Leather."
+ },
+ {
+  "name": "Legend Intense",
+  "brand": "Montblanc",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pineapple"
+   ],
+   "heart": [
+    "Cardamom",
+    "Jasmine",
+    "Pepperwood",
+    "Red Apple"
+   ],
+   "base": [
+    "Amber",
+    "Oakmoss",
+    "Tonka Bean",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://wynterflakes.blogspot.com/2014/06/mont-blanc-legend-intense-launch-review.html",
+   "https://leparfumier.com/en/products/mont-blanc-legend-intense-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Generally dated 2013; Singapore launch event in 2014. Oakmoss is the Evernyl molecule. Concentration EDT per most retailers (one blog says EDP)."
+ },
+ {
+  "name": "Hugo Just Different",
+  "brand": "Hugo Boss",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mint",
+    "Granny Smith Apple"
+   ],
+   "heart": [
+    "Freesia",
+    "Basil",
+    "Coriander"
+   ],
+   "base": [
+    "Patchouli",
+    "Cashmeran",
+    "Incense",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.theperfumaria.net/products/hugo-boss-just-different-edt-125ml",
+   "https://www.hugoboss.com/us/4.2-fl.-oz.-125-ml-eau-de-toilette-hugo-just-different/hbna58034770_999.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2011. Incense stands for olibanum. Brand page describes mint leaves, freesia-basil accord and a spicy base. Perfumer not confirmed."
+ },
+ {
+  "name": "Olympéa Blossom",
+  "brand": "Paco Rabanne",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Rose",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Pear",
+    "Black Currant"
+   ],
+   "base": [
+    "Salt",
+    "Vanilla",
+    "Patchouli",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lepetitmondedenatieak.com/2021/05/olympea-blossom-paco-rabanne.html",
+   "https://eaudebeaux.com/2021/01/03/paco-rabanne-olympea-blossom-el-aroma-de-una-diosa-que-se-viste-de-flores/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2021 (not 2019). Rose is Damask rose; pear and blackcurrant described as a sorbet. Perfumer credits inconsistent, left null."
+ },
+ {
+  "name": "Rose Kabuki",
+  "brand": "Dior",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Powdery Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fashion-headline.com/en/article/21247",
+   "https://www.icon-icon.com/en/rose-kabuki-when-dior-met-japan-2/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Privée Christian Dior, November 2018, first sold in Japan (Ginza Six, Omotesando). Damask rose essence and absolute wrapped in powdery musks, touch of cassis, green accent. Inspired by Kabuki make-up and a 1955 Kabuki troupe visit to Dior in Paris."
+ },
+ {
+  "name": "Bvlgari pour Homme",
+  "brand": "Bvlgari",
+  "year": 1995,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Lavender"
+   ],
+   "heart": [
+    "Tea",
+    "Iris",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Vetiver",
+    "Musk",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/bvlgari-bvlgari-pour-homme-review",
+   "https://www.bulgari.com/en-us/product/42539"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First Bvlgari men's fragrance, 1995 (some retailers say 1996). Darjeeling tea accord with musk is the signature per the brand. Retailer pyramids vary; this one follows the source read."
+ },
+ {
+  "name": "La Diva",
+  "brand": "Ungaro",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Raspberry",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Quince",
+    "Gardenia",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Honey",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.obsessionluxe.com/2016/01/29/la-diva/",
+   "https://www.fragrancex.com/products/ungaro/la-diva-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 26 January 2016 at the Petit Palais for Ungaro's 50th anniversary, with model Charlotte Free. Diamond-shaped bottle with draped glass. Distinct from Diva (1983). Perfumers not confirmed."
+ },
+ {
+  "name": "Scherrer 2",
+  "brand": "Jean-Louis Scherrer",
+  "year": 1986,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Star Anise",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tuberose",
+    "Honey",
+    "Iris"
+   ],
+   "base": [
+    "Heliotrope",
+    "Benzoin",
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/jean-louis-scherrer/1898/scherrer-2"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1986, oriental floral per Osmoz. Concentration on sale is EDT. Modern formula reported to differ from vintage. Perfumer not confirmed."
+ },
+ {
+  "name": "Eau de Sisley 1",
+  "brand": "Sisley",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Chypre Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Grapefruit",
+    "Pink Pepper",
+    "Spices"
+   ],
+   "heart": [
+    "Jasmine",
+    "Green Tea",
+    "Juniper Berries"
+   ],
+   "base": [
+    "Chypre Accord",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/Eau-de-Sisley-et-de-trois",
+   "https://www.osmoz.com/perfumes/sisley/5143/eau-de-sisley-1"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released April 2009 as part of a trio (Eau de Sisley 1, 2, 3), described as chypre colognes. Pink berries rendered as pink pepper. Gender marketing disputed (some say unisex)."
+ },
+ {
+  "name": "Climat",
+  "brand": "Lancôme",
+  "year": 1967,
+  "gender": "Feminine",
+  "family": "Floral Aldehyde",
+  "concentration": "Parfum",
+  "perfumer": "Gérard Goupy",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Peach",
+    "Violet",
+    "Rosemary"
+   ],
+   "heart": [
+    "Rose",
+    "Lily of the Valley",
+    "Narcissus",
+    "Tuberose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Amber",
+    "Tonka Bean",
+    "Musk",
+    "Civet",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://museinwoodenshoes.wordpress.com/2010/02/21/perfume-review-lancome-climat/",
+   "https://southbeachperfumes.com/blogs/the-fragrance-encyclopedia-by-south-beach-perfumes/climat-by-lancome-notes-longevity-review-complete-guide"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "1967. Perfumer Gérard Goupy per retailer guide. Reissued around 2005-2006 in Lancôme's La Collection (15 ml set), since withdrawn. Pyramid from the blog read."
+ },
+ {
+  "name": "Vanille",
+  "brand": "Molinard",
+  "year": null,
+  "gender": "Feminine",
+  "family": null,
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [],
+   "heart": [],
+   "base": []
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://fragrancehouse.co.uk/product/molinard-vanille-eau-de-parfum-75ml/",
+   "https://www.notino.co.uk/molinard/vanille-eau-de-parfum-for-women/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Retailers give contradictory years (1993 vs 2015) and at least five unrelated pyramids. No official page found. Skip."
+ },
+ {
+  "name": "Dylan Blue pour Femme",
+  "brand": "Versace",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Calice Becker",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Green Apple",
+    "Forget-Me-Not"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Peach"
+   ],
+   "base": [
+    "Styrax",
+    "Musk",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.beautyme.com/fragrance/2017/versace_dylan-blue_pour-femme_by_perfumer-calice-becker10-2017.htm"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2017, Calice Becker (Givaudan). Top also includes the Givaudan molecule Shisolia; heart uses Pétalia and Rosyfolia. Campaign by Bruce Weber with model Faretta."
+ },
+ {
+  "name": "Jeanne Lanvin Couture",
+  "brand": "Lanvin",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Domitille Bertier",
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Peony",
+    "Magnolia"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lanvin/902/jeanne-lanvin-couture"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2012 flanker of Jeanne Lanvin (2008). Domitille Bertier of IFF. Some retailers list it as discontinued."
+ },
+ {
+  "name": "Legend pour Femme",
+  "brand": "Montblanc",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Bernard Ellena, Nathalie Feisthauer",
+  "notes": {
+   "top": [
+    "Pear",
+    "Neroli",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumesthailand.com/brands/montblanc/montblanc-legend-pour-femme"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "End of 2012, women's counterpart to Legend (2011). Some retailers carry a different pyramid (red currant, litchi, peony) and credit Olivier Pescheux; consensus kept."
+ }
+]

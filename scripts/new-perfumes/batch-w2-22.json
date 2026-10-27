@@ -1,0 +1,666 @@
+[
+ {
+  "name": "Her Blossom",
+  "brand": "Burberry",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Peony",
+    "Plum Blossom"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.luxsb.com/fragrance/her-blossom",
+   "https://southbeachperfumes.com/products/burberry-her-blossom"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Floral fruity EDT flanker of Burberry Her, launched 2019. Perfumer Francis Kurkdjian per retailer pages only (not confirmed by brand material). Pyramid consistent across retailers."
+ },
+ {
+  "name": "La Fille de Berlin",
+  "brand": "Serge Lutens",
+  "year": 2013,
+  "gender": "Unisex",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Rose",
+    "Geranium"
+   ],
+   "heart": [
+    "Palmarosa",
+    "Violet"
+   ],
+   "base": [
+    "Honey",
+    "Moss",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://boisdejasmin.com/2013/02/serge-lutens-la-fille-de-berlin-perfume-review.html",
+   "https://www.fieldandflorist.com/fragrance/p/serge-lutens-la-fille-de-berlin"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched early 2013 (retail March 2013), Sheldrake with Serge Lutens. Retailer lists rose, geranium, palmarosa, honey, moss, patchouli (flat list); Bois de Jasmin classes it ambery rose and describes jammy rose, violet, then amber and musk. Pyramid distributed by us. Reviewer compares it to Muscs Koublai Khan and Sa Majeste la Rose."
+ },
+ {
+  "name": "Paco",
+  "brand": "Paco Rabanne",
+  "year": 1996,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Amalfi Lemon",
+    "Mandarin",
+    "Coriander",
+    "Pine"
+   ],
+   "heart": [
+    "Tea",
+    "Jasmine",
+    "Lavender",
+    "Cyclamen"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Cedar",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.ferwer.com/paco-rabanne-paco-eau-de-toilette-unisex"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Unisex citrus aromatic in a recyclable aluminium bottle. Most retailers give 1996, Ferwer says 1995. Perfumer not documented. Availability uneven, some sellers call it out of production."
+ },
+ {
+  "name": "Irresistible Rose Velvet",
+  "brand": "Givenchy",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo, Dominique Ropion, Fanny Bal",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Black Currant",
+    "Neroli"
+   ],
+   "heart": [
+    "Rose",
+    "Rose Water",
+    "Iris"
+   ],
+   "base": [
+    "Patchouli",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dillards.com/p/givenchy-irresistible-eau-de-parfum-rose-velvet/515998219",
+   "https://www.nextinbeautymag.com/en/releases/perfumery/givenchy-presents-his-new-perfume-irresistible-rose-velvet-eau-of-parfum_684_102.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Irresistible (2020). Brand page title calls it floral, chypre, musky. Perfumer trio named in Next In Beauty article (Jan 2023) and retailers. Launch year given as 2022 by most retailers, some say early 2023."
+ },
+ {
+  "name": "Rochas Man Intense",
+  "brand": "Rochas",
+  "year": 2023,
+  "gender": "Masculine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Citrus"
+   ],
+   "heart": [
+    "Coffee",
+    "Cedar"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/rochas-man-intense.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Intense version of Rochas Man (1999). 'Coffee' stands for the cappuccino accord. Tendance Parfums pyramid has only vanilla in base; its history section adds amber and musk. One review site credits Maurice Roucel, unconfirmed so left null."
+ },
+ {
+  "name": "Tonka Impériale",
+  "brand": "Guerlain",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Almond",
+    "Rosemary"
+   ],
+   "heart": [
+    "Tonka Bean",
+    "Honey",
+    "Tobacco",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Incense",
+    "Cedar",
+    "Pine"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/05/13/guerlain-tonka-imperiale-fragrance-review/",
+   "https://cafleurebon.com/la-guerlainade-is-back-guerlain-tonka-imperiale/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Seventh L'Art et la Matiere release, 2010, 75 ml EDP. Flat note list from Now Smell This (bergamot, rosemary, tonka, honey, spices, almond, jasmine, vanilla, cedar, pine, incense, tobacco, amber), distributed by us. Reportedly inspired partly by Jicky. Several retailers list it as discontinued."
+ },
+ {
+  "name": "Fleurs de Citronnier",
+  "brand": "Serge Lutens",
+  "year": 2004,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Lemon Blossom",
+    "Petitgrain",
+    "Nutmeg"
+   ],
+   "heart": [
+    "Neroli",
+    "Honey",
+    "Tuberose"
+   ],
+   "base": [
+    "Iris",
+    "Musk",
+    "Styrax"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2006/04/25/serge-lutens-fleurs-de-citronnier-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2004, 50 ml EDP. Flat note list from Now Smell This, distributed by us. Reviewers describe a soapy neroli opening, honeyed floral heart and dominant musk drydown; often compared with Clair de Musc."
+ },
+ {
+  "name": "Le Ballet Blanc",
+  "brand": "Repetto",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Juliette Karagueuzoglou, Nicolas Beaulieu, Sophie Labbé",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Blackberry"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.needsandmoods.com/repetto-ballet-blanc/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched at Sephora 30 January 2017, inspired by Swan Lake (swan-wing bottle). Jasmine is sambac jasmine, musk is white musk."
+ },
+ {
+  "name": "Nuit de Cellophane",
+  "brand": "Serge Lutens",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Almond",
+    "Carnation"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Jasmine",
+    "Lily",
+    "Honey"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2011/06/19/serge-lutens-nuit-de-cellophane-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Early 2009 export collection release, 50 ml EDP. Flat note list (jasmine, osmanthus, carnation, lily, almond, honey, sandalwood, musk) distributed by us. Osmanthus reads apricot-like; reviewers found it less dark than usual Lutens."
+ },
+ {
+  "name": "Chrome Sport",
+  "brand": "Azzaro",
+  "year": 2010,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Bergamot",
+    "Mandarin",
+    "Citron",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Ginger",
+    "Aquatic Notes",
+    "Green Notes"
+   ],
+   "base": [
+    "Musk",
+    "Amber",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/azzaro/721/chrome-sport"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Azzaro Chrome (1996), February 2010, Michel Almairac (Robertet). Osmoz classes it citrus aromatic; some retailers say woody aquatic. Musk is white musk."
+ },
+ {
+  "name": "Sheer Beauty",
+  "brand": "Calvin Klein",
+  "year": 2012,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peach",
+    "Red Berries",
+    "Bergamot"
+   ],
+   "heart": [
+    "Peony",
+    "Lily",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2011/10/25/calvin-klein-sheer-beauty-new-fragrance/",
+   "https://theperfumespot.com/sheer-beauty-by-calvin-klein-3-4-oz-edt-spray-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Calvin Klein Beauty (2010), announced October 2011 for a January 2012 launch. Peach stands for the peach bellini accord, lily for the pink lily accord, vanilla for vanilla blossom. Some retailers wrongly give 2010."
+ },
+ {
+  "name": "Bloom Acqua di Fiori",
+  "brand": "Gucci",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Green Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Black Currant"
+   ],
+   "heart": [
+    "Tuberose",
+    "Jasmine",
+    "Rangoon Creeper"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://abottledrose.com/2019/08/09/gucci-bloom-acqua-di-fiori-by-gucci/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Green flanker of Gucci Bloom (2017), 2018, Alberto Morillas. Black currant is blackcurrant bud. Selfridges listing (seen in search) gives the same pyramid with honeysuckle in the heart."
+ },
+ {
+  "name": "Eau de Sisley 2",
+  "brand": "Sisley",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Woody Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom",
+    "Basil"
+   ],
+   "heart": [
+    "Iris",
+    "Jasmine",
+    "Cyclamen",
+    "Rose"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2009/05/07/sisley-eau-de-sisley-1-2-3-fragrance-reviews/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched May 2009 with Eau de Sisley 1 and 3, 100 ml EDT. Flat note list from Now Smell This (cardamom, bergamot, basil, water iris, Egyptian jasmine, cyclamen, rose, patchouli, vetiver, cedar, sandalwood). Perfumer credit unclear (Bernard Ellena on one database), left null."
+ },
+ {
+  "name": "English Lavender",
+  "brand": "Yardley",
+  "year": 1913,
+  "gender": "Unisex",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Bergamot"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Geranium"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.yardleylondon.me/wpcproduct/english-lavender-eau-de-toilette/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Launch year conflicting across retailers (1801, 1873, 1913). Brand page gives only lavender, musk and floral notes. Classic vs modern formulas differ. Skip."
+ },
+ {
+  "name": "Black Opium Floral Shock",
+  "brand": "Yves Saint Laurent",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson, Marie Salamagne, Olivier Cresp, Honorine Blanc",
+  "notes": {
+   "top": [
+    "Pear",
+    "Freesia",
+    "Bergamot",
+    "Lemon"
+   ],
+   "heart": [
+    "Gardenia",
+    "Orange Blossom",
+    "Floral Notes"
+   ],
+   "base": [
+    "Coffee",
+    "Musk",
+    "Mineral Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fashionforlunch.net/2017/06/perfume-ysl-black-opium-floral-shock/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer flanker of Black Opium (2014), reviewed June 2017; most sources give 2017. Floral Notes stands for the solar floral accord, Musk for white musk, Coffee for iced coffee. Some retailers add woody amber and vanilla. Likely limited distribution today."
+ },
+ {
+  "name": "Le Monde est Beau",
+  "brand": "Kenzo",
+  "year": 1997,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cassie",
+    "Magnolia",
+    "Grapefruit",
+    "Aglaia"
+   ],
+   "heart": [
+    "Jasmine",
+    "Honeysuckle",
+    "Cherry Blossom",
+    "Albizia"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/1039/le-monde-est-beau",
+   "https://www.parfumerie-burdin.com/1128-kenzo-le-monde-est-beau-eau-de-toilette.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1997, bottle by Serge Mansau. Osmoz and Burdin both sell it as women's. Chunk hint said Unisex, sources say feminine. 'Vetiver' stands for Osmoz's 'Vetyrisia' accord. Burdin gives a different pyramid (blackcurrant, mandarin, basil / cherry blossom, magnolia, jasmine / cedar, tonka). Daniela Andrier credited by some retailers only, left null."
+ },
+ {
+  "name": "Armani Code Colonia",
+  "brand": "Giorgio Armani",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Clary Sage",
+    "Amyl Salicylate"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Heliotrope",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://kiokuscent.com/perfume/giorgio-armani-armani-code-colonia"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Fresh flanker of Armani Code (2004), 2017, Antoine Maisondieu (Givaudan). Sold as Eau de Toilette despite the Colonia name. Some lists add lavender in the heart."
+ },
+ {
+  "name": "Coriandre",
+  "brand": "Jean Couturier",
+  "year": 1973,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Coriander",
+    "Orange Blossom",
+    "Angelica",
+    "Aldehydes"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Geranium",
+    "Iris"
+   ],
+   "base": [
+    "Civet",
+    "Patchouli",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/jean-couturier/3828/coriandre"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Created 1973, Osmoz classes it Chypre Floral. Sold today as EDT and EDP (plus parfum). Some retailers add oakmoss, musk, ylang-ylang, violet root. Creator credited by the house to Jacqueline Couturier per search snippets only (brand site not readable), left null."
+ },
+ {
+  "name": "Alien Fusion",
+  "brand": "Mugler",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion, Fanny Bal",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Tuberose"
+   ],
+   "base": [
+    "White Amber",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/alien-fusion-eau-de-parfum-mugler.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Alien (2005), 2019, red version of the Alien bottle. Pyramid matches the official Mugler page seen in search."
+ },
+ {
+  "name": "Musc Tonkin",
+  "brand": "Parfum d'Empire",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Extrait de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Salt",
+    "Lemon"
+   ],
+   "heart": [
+    "White Flowers",
+    "African Stone"
+   ],
+   "base": [
+    "Musk",
+    "Leather",
+    "Amber",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeposse.com/2013/03/14/musc-tonkin-by-marc-antoine-corticchiato-for-parfum-dempire-2012/",
+   "https://www.luckyscent.com/products/musc-tonkin-by-parfum-dempire"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2012 as a limited edition extrait, Eau de Parfum added 2014. House published no official pyramid (Luckyscent lists African stone absolute and musk only). Pyramid built from read descriptions: brine and lemon, indolic white flowers, musk, leather, amber, moss. Animalic recreation of Tonkin musk."
+ }
+]

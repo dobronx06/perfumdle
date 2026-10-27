@@ -1,0 +1,681 @@
+[
+ {
+  "name": "Emporio Armani Lui",
+  "brand": "Giorgio Armani",
+  "year": 1998,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Yuzu",
+    "Sage",
+    "Bergamot",
+    "Cardamom",
+    "Apple"
+   ],
+   "heart": [
+    "Nutmeg",
+    "Orris Root",
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Oakmoss",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://leparfumier.com/en/products/armani-emporio-lui-for-men-eau-de-toilette",
+   "https://perfume-boutique.net/products/emporio-armani-lui-by-giorgio-armani-eau-de-toilette",
+   "https://vivir.com/article/giorgio-armani-emporio-armani-lui-review"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1998 is consistent across retailers. Sold as 'He' or 'Lui' depending on market. Perfumer credits conflict (Alain Astori and Carlos Benaim vs Daniela Andrier), left null. Retailer lists are long; trimmed to the recurring notes. A 2020 re-release changed the formula."
+ },
+ {
+  "name": "Eau de Cologne du Coq",
+  "brand": "Guerlain",
+  "year": 1894,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Aimé Guerlain",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Orange",
+    "Neroli"
+   ],
+   "heart": [
+    "Lavender",
+    "Rosemary",
+    "Jasmine"
+   ],
+   "base": [
+    "Sandalwood",
+    "Oakmoss",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.guerlain.com/ca/en-ca/p/les-colognes-eau-de-cologne-du-coq-P021746.html",
+   "http://www.thenonblonde.com/2011/06/guerlain-eau-de-cologne-du-coq.html",
+   "https://australianperfumejunkies.com/2015/01/04/perfume-review-du-coq-guerlain/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Created 1894 by Aimé Guerlain, still in the Les Colognes line. Guerlain copy stresses lemon, bergamot, orange, rosemary and lavender; retailers add neroli, jasmine, patchouli, sandalwood, oakmoss. Flat list distributed. Reviewers note an animalic honeyed touch and short longevity."
+ },
+ {
+  "name": "Boss Bottled Unlimited",
+  "brand": "Hugo Boss",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mint",
+    "Grapefruit",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Pineapple",
+    "Rose",
+    "Cinnamon"
+   ],
+   "base": [
+    "Labdanum",
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/hugo-boss-boss-bottled-unlimited/",
+   "https://www.fragrancex.com/products/hugo-boss/boss-bottled-unlimited-cologne"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2014 flanker of Boss Bottled. One retailer credits Alexandra Kosinski, unconfirmed, left null. 'Labdanum' stands for cistus/labdanum; base musk listed as white musk."
+ },
+ {
+  "name": "Aqua Allegoria Pera Granita",
+  "brand": "Guerlain",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Pear",
+    "Orange Blossom",
+    "Osmanthus"
+   ],
+   "base": [
+    "Cedar",
+    "Moss",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/guerlain-aqua-allegoria-pera-granita-fragrance/4296013",
+   "https://www.scentdecant.com/products/aqua-allegoria-pera-granita-guerlain-perfume",
+   "https://maddyloves.wordpress.com/2016/04/15/fragrance-feature-guerlain-aqua-allegoria-pera-granita/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Aqua Allegoria release of early 2016 by Thierry Wasser. Nordstrom adds apricot in the heart; some lists add Hedione. Base musk is white musk. Aqua Allegoria entries rotate, availability varies."
+ },
+ {
+  "name": "Ambre Élixir Précieux",
+  "brand": "Dior",
+  "year": null,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [],
+   "heart": [],
+   "base": []
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://parfumplusmag.com/uncategorised/dior-les-elixirs-precieux/"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Perfume oil from Les Élixirs Précieux by François Demachy. No launch year and no note pyramid found, Dior only describes an animalic amber accord. Skipped."
+ },
+ {
+  "name": "Agua del Sol",
+  "brand": "Escada",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pear",
+    "Raspberry",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Apricot",
+    "Fruity Notes"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/11/02/escada-agua-del-sol-new-fragrance/",
+   "https://www.goldenscent.com/en/p/escada-agua-del-sol-limited-edition-100-ml.html",
+   "https://www.kroger.com/p/escada-agua-del-sol-edt-spray-limited-edition-1-6-oz/0073087012820?fulfillment=PICKUP"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Escada limited summer edition announced November 2015 for summer 2016. Raspberry is a 'raspberry sorbet' accord, pear is nashi pear. Perfumer not published. Limited edition, discontinued."
+ },
+ {
+  "name": "Boss Bottled United",
+  "brand": "Hugo Boss",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Orange",
+    "Buchu"
+   ],
+   "heart": [
+    "Spearmint",
+    "Peppermint",
+    "Orris Root"
+   ],
+   "base": [
+    "Vetiver",
+    "Patchouli",
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cosmeticsbusiness.com/hugo-boss-releases-new-limited-edition-boss-bottled-united-fragrance--142915",
+   "https://vivir.com/article/hugo-boss-boss-bottled-united-eau-de-parfum-review",
+   "https://trucsdemec.fr/2021/06/30/boss-bottled-united-limited-edition-2021/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Limited edition launched May 2018 around the football World Cup, described by Coty as a reworking of Boss Bottled. A 2021 Eau de Parfum limited edition followed for Euro 2020 with blood orange. Perfumer unconfirmed (Ilias Ermenidis per one review), left null. 'Orris Root' stands for orris concrete."
+ },
+ {
+  "name": "Flowerbomb Nectar",
+  "brand": "Viktor & Rolf",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Domitille Michalon-Bertier, Olivier Polge, Dominique Ropion, Carlos Benaim",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Bergamot",
+    "Smoky Notes"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Benzoin",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thescentedclouds.blogspot.com/2018/08/viktor-rolf-flowerbomb-nectar-scented-review.html",
+   "https://us.viktor-rolf.com/fragrance/flowerbomb-nectar-eau-de-parfum-VKR_016.html",
+   "https://beautyhouse.com/products/viktor-rolf-flowerbomb-nectar-eau-de-parfum-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2018 flanker sold as Eau de Parfum Intense. 'Smoky Notes' = the gunpowder accord. Perfumer credits from retailer listings only. Grenade bottle in faceted 'diamond' shape."
+ },
+ {
+  "name": "Le Parfum Royal",
+  "brand": "Elie Saab",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Maïa Lernout",
+  "notes": {
+   "top": [
+    "Mandarin"
+   ],
+   "heart": [
+    "Rose",
+    "Neroli"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Sandalwood",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.com/p/elie-saab-le-parfum-royal-eau-de-parfum-50ml/12316026/",
+   "https://shopandbeyondlb.com/products/elie-saab-le-parfum-royal",
+   "https://beautyhouse.com/products/elie-saab-le-parfum-royal-eau-de-parfum-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2019 launch, brand copy calls it an ambery floral chypre. Rose = Turkish rose absolute plus Bulgarian rose. Top also has a 'radiant accord'. One Walmart listing gives unrelated notes, ignored."
+ },
+ {
+  "name": "Misia",
+  "brand": "Chanel",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Violet",
+    "Powdery Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Iris"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.premiumbeautynews.com/en/misia-the-first-chanel-fragrance,7827",
+   "https://persolaise.com/2015/03/persolaise-review-misia-from-chanel.html",
+   "https://nstperfume.com/2015/01/30/chanel-misia-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Exclusifs de Chanel, on sale 28 February 2015, Olivier Polge's first composition for Chanel. Rose = Grasse and Turkish rose, benzoin from Laos. Powder note inspired by Ballets Russes stage makeup, named after Misia Sert."
+ },
+ {
+  "name": "Moncler pour Femme",
+  "brand": "Moncler",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nisrine Grillié, Quentin Bisch",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Powdery Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "Heliotrope"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumerflavorist.com/fragrance/fine-fragrance/news/21877884/moncler-debuts-first-fragrance-line",
+   "https://beautyhouse.com/products/moncler-pour-femme-eau-de-parfum-for-women",
+   "https://www.interparfumsinc.com/products/moncler-pour-femme"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Moncler's first fragrances with Interparfums, October 2021, Bloomingdale's exclusive at launch. 'Powdery Notes' = powdery snow accord; cedar and sandalwood = 'Mountain Woods' accord; vanilla listed as vanillin by Interparfums. Perfumer & Flavorist credits Givaudan's Nisrine Grillié, Quentin Bisch, Antoine Maisondieu and Christophe Raynaud across the pair; retailers credit Grillié and Bisch for Femme. Refillable bottle."
+ },
+ {
+  "name": "Paris-Biarritz",
+  "brand": "Chanel",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Polge",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Grapefruit",
+    "Bergamot"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Green Notes"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cafleurebon.com/les-eaux-de-chanel-paris-deauville-paris-venise-and-paris-biarritz-olivier-polge-new-fragrances/",
+   "https://persolaise.com/2018/07/persolaise-review-les-eaux-de-chanel.html",
+   "https://perfumesociety.org/olivier-polges-new-eaux-are-inspired-by-chanels-travels/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Eaux de Chanel, June 2018, with Paris-Deauville and Paris-Venise. Press notes: Sicilian mandarin, citrus accord, lily of the valley accord, musk accord. Persolaise mentions grapefruit, green facets, iris and a marine effect. Biarritz is where Chanel opened a couture house in 1915."
+ },
+ {
+  "name": "Concentré d'Orange Verte",
+  "brand": "Hermès",
+  "year": 2004,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean Guichard",
+  "notes": {
+   "top": [
+    "Orange",
+    "Lemon",
+    "Mandarin",
+    "Basil"
+   ],
+   "heart": [
+    "Mint",
+    "Vetiver"
+   ],
+   "base": [
+    "Patchouli",
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.johnlewis.com/hermes-concentre-dorange-verte-eau-de-toilette-100ml/p1407153",
+   "https://varanisridari.home.blog/2019/11/24/concentre-dorange-verte-by-hermes-2004/",
+   "https://beautyhouse.com/collections/fragrances/products/hermes-concentre-dorange-verte-eau-de-toilette-for-everyone"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Designed in 2004 by Jean Guichard as a stronger take on Eau d'Orange Verte (1979). John Lewis lists orange, patchouli and cedar; heart and other tiers from retailer listings."
+ },
+ {
+  "name": "L'Homme Idéal Cool",
+  "brand": "Guerlain",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser, Delphine Jelk",
+  "notes": {
+   "top": [
+    "Mint",
+    "Bergamot",
+    "Orange",
+    "Anise"
+   ],
+   "heart": [
+    "Almond",
+    "Watery Notes",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vetiver",
+    "Ambroxan",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://yakymour.wordpress.com/2019/06/08/guerlain-lhomme-ideal-cool/",
+   "https://decantboutique.com/product/guerlain-lhomme-ideal-cool-edt/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer 2019 flanker of L'Homme Idéal (2014). Heart flower is listed as neroli or orange blossom water depending on source."
+ },
+ {
+  "name": "The Only One 2",
+  "brand": "Dolce & Gabbana",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Freesia",
+    "Red Berries",
+    "Blackberry"
+   ],
+   "heart": [
+    "Rose",
+    "Coffee",
+    "Violet"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Patchouli",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/01/26/dolce-gabbana-the-only-one-2-new-perfume/",
+   "https://www.fragrancex.com/products/dolce-and-gabbana/the-only-one-2-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "January 2019 flanker of The Only One (2018). Signature coffee and violet reworked around a 'powdery red rose'. Perfumer not published."
+ },
+ {
+  "name": "Cologne Royale",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Cologne",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Petitgrain",
+    "Mandarin"
+   ],
+   "heart": [
+    "Neroli"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/dior-maison-christian-dior-cologne-royale",
+   "https://cafleurebon.com/christian-dior-la-collection-couturier-parfumeur-francois-demachys-homage-to-dior-part-1/",
+   "https://www.wikiparfum.com/en/fragrances/cologne-royale/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "La Collection Couturier Parfumeur (later La Collection Privée), 2010, François Demachy. Citrus, neroli and white musk structure. Concentration labelling has changed over time; given as cologne by Vivir."
+ },
+ {
+  "name": "Aqua Allegoria Herba Fresca",
+  "brand": "Guerlain",
+  "year": 1999,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain, Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Clover"
+   ],
+   "heart": [
+    "Mint",
+    "Green Tea"
+   ],
+   "base": [
+    "Lily of the Valley",
+    "Cyclamen"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.libertylondon.com/us/aqua-allegoria-herba-fresca-eau-de-toilette-75ml-000811278.html",
+   "https://www.harrods.com/en-us/p/guerlain-aqua-allegoria-herba-fresca-eau-de-toilette-75ml-000000000007159315"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Aqua Allegoria from 1999, credited to Jean-Paul Guerlain and Mathilde Laurent. Pyramid from Liberty/Harrods listings, still sold."
+ },
+ {
+  "name": "Silences",
+  "brand": "Jacomo",
+  "year": 1978,
+  "gender": "Feminine",
+  "family": "Chypre Green",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Gérard Goupy, Jean-Claude Niel",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Green Notes",
+    "Bergamot",
+    "Lemon",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Iris",
+    "Rose",
+    "Lily of the Valley",
+    "Hyacinth",
+    "Jasmine"
+   ],
+   "base": [
+    "Moss",
+    "Cedar",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://perfumeshrine.blogspot.com/2009/01/silences-by-jacomo-fragrance-review.html",
+   "https://australianperfumejunkies.com/2012/11/14/silences-by-gerard-goupy-and-jean-claude-niel-for-jacomo-1978/",
+   "https://scentsandsensibilities.co/2020/08/02/scent-sample-sunday-silences/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1978 green chypre built around galbanum, often compared with Chanel No. 19. Pyramid is the original/vintage one; a later reformulation lists narcissus, blackcurrant and calendula. Second perfumer's first name varies (Jean-Claude / Jean-Charles Niel). Originally Parfum de Toilette in some markets."
+ },
+ {
+  "name": "Mouchoir de Monsieur",
+  "brand": "Guerlain",
+  "year": 1904,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Guerlain",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Bergamot",
+    "Lemon Verbena"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Neroli",
+    "Patchouli"
+   ],
+   "base": [
+    "Civet",
+    "Vanilla",
+    "Iris",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2009/03/05/guerlain-mouchoir-de-monsieur-fragrance-review/",
+   "http://perfumeshrine.blogspot.com/2009/10/guerlain-mouchoir-de-monsieur-fragrance.html",
+   "https://www.stefanegirard.fr/parfum-legende-mouchoir-monsieur-guerlain/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "1904, Jacques Guerlain, a close relative of Jicky (1889) with a pronounced civet; NST lists a fern harmony. Sold in the bee bottle. Flat list distributed, tonka placed in base (Jicky coumarin structure)."
+ },
+ {
+  "name": "Amor Amor Tentation",
+  "brand": "Cacharel",
+  "year": 2008,
+  "gender": "Feminine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Ivy"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tiare Flower"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Spicy Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/cacharel/1498/amor-amor-tentation",
+   "https://www.perfumemaster.com/cacharel/amor-amor-tentation-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2008 flanker of Amor Amor (2003), Honorine Blanc at Firmenich, launched alongside the men's Amor pour Homme Tentation. Amethyst version of the Amor Amor bottle. Hard to find today, likely discontinued (not confirmed)."
+ }
+]

@@ -1,0 +1,682 @@
+[
+ {
+  "name": "Angel Fruity Fair",
+  "brand": "Mugler",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Gourmand Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose",
+    "Red Berries"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla",
+    "Chantilly Cream"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/03/22/mugler-angel-fruity-fair-new-perfume/",
+   "https://thecandyperfumeboy.com/2018/04/10/perfume-review-angel-fruity-fair-by-mugler/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition EDT flanker of Angel, announced March 2018. Notes per Now Smell This: currant, lychee, rose thorn, patchouli, vanilla chantilly accord; Mugler copy adds red fruits and whipped cream. Some retailers credit Louise Turner, not verified, left null."
+ },
+ {
+  "name": "1881 Essentiel",
+  "brand": "Cerruti",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Citrus"
+   ],
+   "heart": [
+    "Basil",
+    "Pink Pepper",
+    "Artemisia"
+   ],
+   "base": [
+    "Vetiver",
+    "Cedar",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/1881-essentiel-eau-de-toilette-cerruti.html",
+   "https://us.fashionnetwork.com/news/Cerruti-1881-goes-back-to-its-roots-with-essentiel-men-s-fragrance,961764.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2018 men's flanker of Cerruti 1881 pour Homme (1990). Retailer lists Woody Spicy family. Some resellers mark it discontinued; status unclear."
+ },
+ {
+  "name": "Eros pour Femme",
+  "brand": "Versace",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas, Olivier Cresp, Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Pomegranate"
+   ],
+   "heart": [
+    "Lemon Blossom",
+    "Jasmine",
+    "Peony"
+   ],
+   "base": [
+    "Sandalwood",
+    "Ambroxan",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/01/29/versace-eros-pour-femme-perfume-review/",
+   "https://thecandyperfumeboy.com/2015/03/06/a-golden-opportunity-missed-versace-eros-pour-femme-perfume-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Feminine counterpart to Versace Eros (2012), gold bottle. Launched in Europe late 2014, US in 2015. Sicilian lemon, Calabrian bergamot, jasmine sambac in brand copy. Now Smell This review is negative (thin floral after 15 minutes). An EDT version also exists."
+ },
+ {
+  "name": "Moonlight Patchouli",
+  "brand": "Van Cleef & Arpels",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Woody Chypre",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Patchouli",
+    "Cacao",
+    "Woody Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Iris"
+   ],
+   "base": [
+    "Suede",
+    "Leather",
+    "Dried Fruits"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://chemistinthebottle.wordpress.com/2017/04/18/lunar-hug-van-cleef-arpels-moonlight-patchouli/",
+   "https://www.bloomingdales.com/shop/product/van-cleef-arpels-collection-extraordinaire-moonlight-patchouli-eau-de-parfum-2.5-oz.?ID=5437210"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire (line started 2009), this one 2016. Retailers split on top notes: patchouli leaf, cacao, woods vs bergamot and pink pepper. Heart Bulgarian rose and iris, base suede and fruity accents. Reviewer: suede and iris dominate, patchouli supporting."
+ },
+ {
+  "name": "Light Blue Sun",
+  "brand": "Dolce & Gabbana",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Granny Smith Apple",
+    "Coconut Water",
+    "Ozonic Notes"
+   ],
+   "heart": [
+    "Jasmine",
+    "White Rose",
+    "Frangipani"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Cedar",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.paris-avenues.com/Dolce-and-Gabbana-Light-Blue-Sun-Pour-Femme-Edt-100-Ml",
+   "https://www.perfumemaster.com/dolce-gabbana/light-blue-sun-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Summer limited edition of Light Blue (2001), 2019, with a men's counterpart. Coconut nectar/water, bourbon vanilla, white musk. Perfumer Olivier Cresp per one retailer only."
+ },
+ {
+  "name": "Hommage à l'Homme",
+  "brand": "Lalique",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel, Mathilde Bijaoui",
+  "notes": {
+   "top": [
+    "Violet Leaf",
+    "Saffron",
+    "Bergamot"
+   ],
+   "heart": [
+    "Violet",
+    "Black Pepper",
+    "Pimento"
+   ],
+   "base": [
+    "Oud",
+    "Musk",
+    "Cistus"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/lalique-hommage-l-homme-eau-de-toilette/",
+   "https://leparfumier.com/en/products/lalique-hommage-a-l-homme-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year given as 2011 by some sources and 2012 by others. Pimento stands for pimento (allspice) leaf, oud for agarwood. Theme of the Orient Express journey per retailer copy."
+ },
+ {
+  "name": "Versace pour Homme Oud Noir",
+  "brand": "Versace",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bitter Orange",
+    "Neroli",
+    "Black Pepper"
+   ],
+   "heart": [
+    "Cardamom",
+    "Saffron",
+    "Incense"
+   ],
+   "base": [
+    "Oud",
+    "Patchouli",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.nordstrom.com/s/versace-pour-homme-oud-noir-eau-de-parfum/4162984",
+   "https://theperfumespot.com/versace-pour-homme-oud-noir-by-versace-3-4-oz-edp-spray-for-men/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Versace pour Homme (2008). Olibanum listed as incense, leatherwood as leather. Perfumer not published."
+ },
+ {
+  "name": "Polo Red Extreme",
+  "brand": "Ralph Lauren",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Gourmand Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Gillotin",
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Ginger",
+    "Pineapple"
+   ],
+   "heart": [
+    "Coffee",
+    "Saffron",
+    "Sage"
+   ],
+   "base": [
+    "Woody Notes",
+    "Amberwood",
+    "Cacao"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://xojohn.com/introducing-polo-red-extreme-new-fragrance-ralph-lauren/",
+   "https://nstperfume.com/2017/01/13/ralph-lauren-polo-red-extreme-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "March 2017 EDP flanker of Polo Red (2013), all three by Olivier Gillotin. Press notes: blood orange accord, red ginger, red pineapple accord; black coffee essence, red saffron, red sage; black ebony wood accord, ambery woods, cocoa absolute. Later sold labelled Parfum. Ralph Lauren now sells a different 'Polo Red Eau de Parfum Extreme' (red ginger, vanilla, leather), not described here."
+ },
+ {
+  "name": "Les Cascades de Rochas Songe d'Iris",
+  "brand": "Rochas",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Michel Duriez",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Bergamot"
+   ],
+   "heart": [
+    "Fig",
+    "Iris",
+    "Water Lily",
+    "White Flowers"
+   ],
+   "base": [
+    "Chocolate",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.labeauteparisienne.com/nouveaute-beaute/voyage-des-sens-avec-les-cascades-de-rochas-songe-diris.html",
+   "https://www.le-parfum.fr/femme/edt/les-cascades-de-rochas-songe-d-iris-rochas-2013.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer 2013, second in Les Cascades de Rochas after Eclat d'Agrumes, inspired by water and a Greek landscape. Fig stands for a fig milk accord, chocolate for 'accents chocolatés'. Only a loose note list is published. Line seems no longer pushed; status unclear."
+ },
+ {
+  "name": "Brit Rhythm Floral for Her",
+  "brand": "Burberry",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Orange",
+    "Peach"
+   ],
+   "heart": [
+    "Jasmine",
+    "Lotus",
+    "Lilac"
+   ],
+   "base": [
+    "Woods",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.giftexpress.com/burberry-brit-rhythm-floral-gxp-8198.html",
+   "http://www.colormeloud.com/2015/02/burberry-brit-rhythm-floral-for-her-eau.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2015 floral flanker of Brit Rhythm for Her (2014). Sicilian lemon, Egyptian jasmine. Some lists add passionfruit, bergamot, lily of the valley, driftwood. Perfumer not published."
+ },
+ {
+  "name": "Nuit Noor",
+  "brand": "Elie Saab",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Black Pepper",
+    "Spices"
+   ],
+   "heart": [
+    "Rose",
+    "Ylang-Ylang",
+    "Honey"
+   ],
+   "base": [
+    "Incense",
+    "Patchouli",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://splashfragrance.in/nuit-noor-by-elie-saab-edp-perfume-decant-online-india/",
+   "https://www.selfridges.com/US/en/product/elie-saab-le-parfum-nuit-noor-eau-de-parfum_205-78031989-39945/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2016, inspired by Beirut's lights at dusk. Honeyed rose, Madagascar ylang-ylang, black pepper, incense, Indonesian patchouli, amber accord. Marketed to women although the chunk hint says unisex. Listed as unavailable or discontinued by several retailers."
+ },
+ {
+  "name": "Cuir Cannage",
+  "brand": "Dior",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Ylang-Ylang"
+   ],
+   "heart": [
+    "Jasmine",
+    "Iris",
+    "Rose"
+   ],
+   "base": [
+    "Leather",
+    "Birch",
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/2014/06/11/dior-cuir-cannage-la-collection-privee/",
+   "https://www.beautyscene.net/brands/dior/christian-dior-cuir-cannage/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "La Collection Privée, June 2014. Official notes only orange blossom, jasmine, leather accord; the rest (iris, rose, ylang, birch, cade, tobacco) comes from fuller retailer lists. Idea: the inside of a lady's Dior handbag, cannage quilting. Decant sellers list it as discontinued."
+ },
+ {
+  "name": "Cologne du Parfumeur",
+  "brand": "Guerlain",
+  "year": 2010,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Amalfi Lemon",
+    "Citrus",
+    "Mint"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rosemary",
+    "Lavender"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://perfumeshrine.blogspot.com/2010/06/guerlain-cologne-du-parfumeur-fragrance.html",
+   "https://www.guerlain.com/ca/en-ca/p/les-colognes-cologne-du-parfumeur---eau-de-cologne-P017053.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Official name is Cologne du Parfumeur (Les Colognes / Les Eaux). May 2010, Thierry Wasser. African orange blossom, white musk. Perfume Shrine finds it pleasant but pale."
+ },
+ {
+  "name": "Equus",
+  "brand": "Lalique",
+  "year": 2001,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Emilie Coppermann",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Citron",
+    "Juniper Berry"
+   ],
+   "heart": [
+    "Cardamom",
+    "Violet Leaf",
+    "Nutmeg"
+   ],
+   "base": [
+    "Vetiver",
+    "Woods",
+    "Leather",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://varanisridari.home.blog/2024/02/23/lalique-pour-homme-equus-by-lalique-2001/",
+   "https://www.tendance-parfums.com/en/equus-eau-de-parfum-lalique.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Lalique pour Homme Equus, 2001, horse head bottle. Reviewer says it came only as 75 ml EDP; some listings say EDT (chunk hint EDT). Flat note list: cedrat, juniper, cardamom, grains of paradise, bergamot, violet leaf, mace, sequoia, vetiver, amyris, benzoin, leather, musk. Perfumer per several retailers, not the reviewer. Was off the market for a while, then reissued."
+ },
+ {
+  "name": "Colonia Intensa",
+  "brand": "Acqua di Parma",
+  "year": 2007,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Alberto Morillas, François Demachy",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Cardamom",
+    "Ginger"
+   ],
+   "heart": [
+    "Artemisia",
+    "Neroli",
+    "Myrtle"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Benzoin",
+    "Patchouli",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/acqua-di-parma-colonia-intensa-eau-de-cologne/",
+   "https://www.acquadiparma.com/en/us/colonia-intensa/INTENSAEDCRP.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2007, darker take on Colonia (1916). Brand family: citrus leather woody. Calabrian bergamot, Sicilian lemon."
+ },
+ {
+  "name": "Acqua di Scandola",
+  "brand": "Parfum d'Empire",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Aldehydes",
+    "Basil",
+    "Artemisia"
+   ],
+   "heart": [
+    "Watery Notes",
+    "Seaweed",
+    "Juniper",
+    "Geranium"
+   ],
+   "base": [
+    "Oakmoss",
+    "Immortelle",
+    "Patchouli",
+    "Hyraceum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://50-ml.com/parfum-d-empire-acqua-di-scandola-eau-de-parfum",
+   "https://www.luckyscent.com/products/acqua-di-scandola-by-parfum-dempire",
+   "https://parfumdempire.com/en/nos-parfums/acqua-di-scandola/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "L'Heritage Corse collection, inspired by the Scandola peninsula (Corsica, UNESCO site reachable only by sea). Built on a natural algae extract instead of aquatic molecules. Year 2018 (Luckyscent); one retailer says 2019. Immortelle = helichrysum."
+ },
+ {
+  "name": "Solarissimo Marettimo",
+  "brand": "Azzaro",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Quentin Bisch",
+  "notes": {
+   "top": [
+    "Citron",
+    "Lemon"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Haitian Vetiver"
+   ],
+   "base": [
+    "Cedar",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://rperfumes.com/product/azzaro-solarissimo-marettimo-eau-de-toilette-spray-for-him-75-ml/",
+   "https://www.fragrancenet.com/cologne/azzaro/azzaro-solarissimo-marettimo/edt"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2017, Solarissimo line named after Mediterranean islands (Marettimo off Sicily). Marketed for men by retailers; chunk hint says unisex. Description credits Quentin Bisch; one page also shows a conflicting pyramid and Christophe Raynaud. Sea notes stand for 'sea water'."
+ },
+ {
+  "name": "French Kiss",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose",
+    "Violet"
+   ],
+   "base": [
+    "Vanilla",
+    "Heliotrope",
+    "Iris",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/08/12/guerlain-french-kiss-new-perfume/",
+   "https://nstperfume.com/2014/12/19/guerlain-french-kiss-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Elixirs Charnels, August 2014, 75 ml EDP, made for the 20th anniversary of KissKiss lipstick. Perfumer not named in the sources (likely Thierry Wasser, not verified)."
+ },
+ {
+  "name": "Rose Nacrée du Désert",
+  "brand": "Guerlain",
+  "year": 2012,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Saffron",
+    "Rose",
+    "Patchouli"
+   ],
+   "heart": [
+    "Cardamom",
+    "Turmeric",
+    "Cedar",
+    "Oud"
+   ],
+   "base": [
+    "Myrrh",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://kafkaesqueblog.com/2013/04/09/perfume-review-guerlain-rose-nacree-du-desert-les-deserts-dorient-collection/",
+   "https://blog.delacourte.com/en/deserts-dorient-by-guerlain-homage-to-the-arabian-nights/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Les Deserts d'Orient trio (with Encens Mythique d'Orient and Songe d'un Bois d'Ete), mid 2012, first Middle East only. Persian rose chosen by Wasser. Reviewer finds it sweet, almost candied chestnut. A French blog (2019) says it was not kept when the line was reworked."
+ },
+ {
+  "name": "Le Parfum Resort Collection",
+  "brand": "Elie Saab",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Orange Blossom",
+    "Fig"
+   ],
+   "heart": [
+    "Jasmine",
+    "Frangipani",
+    "Petitgrain"
+   ],
+   "base": [
+    "Cedar",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/02/23/elie-saab-le-parfum-resort-collection-fragrance-review/",
+   "https://luxuryperfume.com/products/le-parfum-resort-collection-by-elie-saab"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2015 limited summer edition of Le Parfum (2011). Orange leaf listed as petitgrain. Later Resort editions (2017 and after) use other notes (pomegranate, patchouli)."
+ }
+]

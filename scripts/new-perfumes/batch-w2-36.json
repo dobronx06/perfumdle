@@ -1,0 +1,678 @@
+[
+ {
+  "name": "Flowerbomb Dew",
+  "brand": "Viktor & Rolf",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pear",
+    "Ambrette",
+    "Bergamot",
+    "Watery Notes"
+   ],
+   "heart": [
+    "Iris",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Cashmeran",
+    "Heliotrope"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://beautyhouse.com/products/viktor-rolf-flowerbomb-dew-eau-de-parfum-for-women"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2020 flanker of Flowerbomb (2005). Retailers list a 'dew drop' accord, mapped to Watery Notes. One retailer credits Dominique Ropion and Fanny Bal but this was not confirmed, so perfumer left null."
+ },
+ {
+  "name": "Cristalle Eau Verte",
+  "brand": "Chanel",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Polge",
+  "notes": {
+   "top": [
+    "Amalfi Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Neroli",
+    "Magnolia",
+    "Jasmine",
+    "White Flowers"
+   ],
+   "base": [
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2009/05/08/chanel-cristalle-eau-verte-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Toilette Concentrée. Keeps the honeysuckle accord of Cristalle (1974) but drops the chypre/oakmoss base. Base notes are approximate (sources disagree), hence inferred."
+ },
+ {
+  "name": "Play for Her Intense",
+  "brand": "Givenchy",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Emilie Coppermann, Lucas Sieuzac",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Peach",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Orchid",
+    "Tiare Flower",
+    "Magnolia",
+    "Amyris"
+   ],
+   "base": [
+    "Benzoin",
+    "Patchouli",
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://biareview.com/givenchy-play-for-her-intense-womens-perfume/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched October 2010 as the feminine counterpart of Play Intense (men). Purple bottle shaped like a music player. Current availability unclear."
+ },
+ {
+  "name": "Orchidée Vanille",
+  "brand": "Van Cleef & Arpels",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Randa Hammami",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Litchi"
+   ],
+   "heart": [
+    "Almond",
+    "Rose",
+    "Violet",
+    "Chocolate"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://perfumeposse.com/2009/09/16/van-cleef-arpels-collection-extraordinaire/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "One of the six launch scents of the Collection Extraordinaire (2009). Almond = bitter almond, Rose = Bulgarian rose, Chocolate = dark chocolate."
+ },
+ {
+  "name": "Jour d'Hermès Gardenia",
+  "brand": "Hermès",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Green",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Rhubarb",
+    "Aldehydes",
+    "Sea Notes"
+   ],
+   "heart": [
+    "Gardenia",
+    "Tuberose",
+    "Rose",
+    "Ylang-Ylang",
+    "Jasmine",
+    "Hedione"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla",
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hermes/8124/jour-d-hermes-gardenia"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released May 2015, flanker of Jour d'Hermès (2012). Osmoz quotes Ellena; attribution to him consistent with his in-house tenure."
+ },
+ {
+  "name": "Eau d'Ikar",
+  "brand": "Sisley",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Bitter Orange",
+    "Galbanum",
+    "Carrot Seed"
+   ],
+   "heart": [
+    "Lentisk",
+    "Iris",
+    "Jasmine",
+    "Tea",
+    "Reed"
+   ],
+   "base": [
+    "Cistus",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/sisley/5145/eau-d-ikar"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Masculine eau de toilette from 2011. Tea = orange pekoe tea. Later sibling L'Eau Rêvée d'Ikar is a different composition. Perfumer credit unconfirmed, left null."
+ },
+ {
+  "name": "Decibel",
+  "brand": "Azzaro",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Aldehydes",
+    "Lemon"
+   ],
+   "heart": [
+    "Licorice",
+    "Violet",
+    "Incense"
+   ],
+   "base": [
+    "Vetiver",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.parfumdo.com/en/91247-decibel-vaporisateur-eau-de-toilette.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Microphone-shaped bottle, rock theme. Retailers give 2011 and Christophe Raynaud. Some list Amalfi lemon on top, parfumdo lists mandarin and C11 aldehyde. Availability unclear, some resellers say discontinued."
+ },
+ {
+  "name": "Ambre Russe",
+  "brand": "Parfum d'Empire",
+  "year": 2003,
+  "gender": "Unisex",
+  "family": "Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Vodka",
+    "Champagne",
+    "Coriander",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Tea",
+    "Cumin",
+    "Leather",
+    "Birch"
+   ],
+   "base": [
+    "Amber",
+    "Incense",
+    "Vanilla",
+    "Ambergris"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.luckyscent.com/products/ambre-russe-by-parfum-dempire"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Some sources give 2004. Notes published as a flat list; tiers distributed. Boozy spiced amber with tea and leather."
+ },
+ {
+  "name": "Only The Brave Extreme",
+  "brand": "Diesel",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Aliénor Massenet, Carlos Benaim",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Mandarin",
+    "Coriander"
+   ],
+   "heart": [
+    "Rose",
+    "Apple",
+    "Violet"
+   ],
+   "base": [
+    "Patchouli",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://sg.news.yahoo.com/diesel-takes-only-brave-fragrance-extreme-211808364.html",
+   "https://www.osmoz.com/perfumes/diesel/8240/only-the-brave-extreme"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Announced March 2016, darker blue fist bottle. Current diesel.com listing shows a revised pyramid (lemon, mandarin, apple / leather, rose, coriander / labdanum, styrax, tonka), likely a relaunch; launch pyramid kept."
+ },
+ {
+  "name": "Eau Hyper Fraîche",
+  "brand": "Courrèges",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Lemon"
+   ],
+   "heart": [
+    "Petitgrain",
+    "Jasmine",
+    "Mint"
+   ],
+   "base": [
+    "Moss",
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://auparfum.bynez.com/courreges-plongeon-dans-l-hyper-frais-eau-hyper-fraiche-3525"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Released March 2017. Auparfum places it between Eau de Rochas and Hermès Eau d'Orange Verte, with a light chypre base. Some listings say citron (cédrat) instead of lemon."
+ },
+ {
+  "name": "Lumière",
+  "brand": "Rochas",
+  "year": 1984,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nicolas Mamounas",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bergamot",
+    "Green Notes",
+    "Orange Blossom",
+    "Violet"
+   ],
+   "heart": [
+    "Honeysuckle",
+    "Tuberose",
+    "Hyacinth",
+    "Jasmine",
+    "Orris Root",
+    "Rose"
+   ],
+   "base": [
+    "Oakmoss",
+    "Sandalwood",
+    "Musk",
+    "Vetiver",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://theblacknarcissus.com/tag/rochas-lumiere-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Mamounas also composed Byzance and Mystère for Rochas. Note lists come from resellers and vary; core floral chypre structure consistent. Discontinued."
+ },
+ {
+  "name": "Dance with Repetto Floral",
+  "brand": "Repetto",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Black Currant"
+   ],
+   "heart": [
+    "Peony",
+    "Magnolia"
+   ],
+   "base": [
+    "Blonde Woods",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://dansmonsacdefille.com/2019/05/30/avis-eau-de-toilette-floral-dance-with-repetto/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Spring 2019 flanker of Dance with Repetto (2018), frosted pink bottle. Perfumer not published."
+ },
+ {
+  "name": "Vétiver Oriental",
+  "brand": "Serge Lutens",
+  "year": 2002,
+  "gender": "Unisex",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Green Notes",
+    "Iris"
+   ],
+   "heart": [
+    "Vetiver",
+    "Guaiac Wood",
+    "Cocoa"
+   ],
+   "base": [
+    "Labdanum",
+    "Amber",
+    "Sandalwood",
+    "Musk",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "http://perfumeshrine.blogspot.com/2008/10/vetiver-oriental-by-serge-lutens.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Created 2002 as a Palais Royal exclusive (bell jar), briefly in export in 2004. 'Sap' mapped to Green Notes, dark cocoa to Cocoa. Composed by Lutens with Sheldrake."
+ },
+ {
+  "name": "Gris Clair",
+  "brand": "Serge Lutens",
+  "year": 2006,
+  "gender": "Unisex",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Iris"
+   ],
+   "heart": [
+    "Amber",
+    "Tonka Bean"
+   ],
+   "base": [
+    "Incense",
+    "Woods",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "http://perfumesmellinthings.blogspot.com/2006/02/gris-clair-by-serge-lutens.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Export line, released March 2006. Lavender with burnt incense and dry wood; ash accord in some listings. Sheldrake credited by other reviews (the read source does not name him)."
+ },
+ {
+  "name": "Eau de Cèdre",
+  "brand": "Giorgio Armani",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Citrus",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Cumin",
+    "Sage",
+    "Cardamom"
+   ],
+   "base": [
+    "Black Tea",
+    "Suede",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://chhimmigurung.blogspot.com/2015/08/giorgio-armani-armani-eau-de-cedre.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched August 2015 at Harrods, green bottle. Cardamom = black cardamom. Perfumer not found."
+ },
+ {
+  "name": "Midnight Fantasy",
+  "brand": "Britney Spears",
+  "year": 2006,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cherry",
+    "Plum",
+    "Raspberry"
+   ],
+   "heart": [
+    "Orchid",
+    "Iris",
+    "Freesia"
+   ],
+   "base": [
+    "Vanilla",
+    "Amber",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumeheadquarters.com/products/britney-spears-midnight-fantasy-eau-de-parfum-fragrance-ladies.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Fantasy (2005), Released December 2006 in some stores, worldwide early 2007. Cherry = black/sour cherry. One retailer credits Caroline Sabas, not confirmed."
+ },
+ {
+  "name": "La Nuit de L'Homme Bleu Électrique",
+  "brand": "Yves Saint Laurent",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Cardamom",
+    "Ginger",
+    "Bergamot"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium"
+   ],
+   "base": [
+    "Cedar",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://essencedenord.com/product/la-nuit-de-lhomme-bleu-electrique/",
+   "https://bestcologneformen.com/la-nuit-de-lhomme-bleu-electrique-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Toilette Intense. Presented as a spicier, more intense reading of La Nuit de L'Homme (2009). Rumoured discontinued about a year after launch, unconfirmed."
+ },
+ {
+  "name": "Terracotta Le Parfum",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Coconut",
+    "Tiare Flower"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ylang-Ylang",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://boisdejasmin.com/2014/08/guerlain-terracotta-le-parfum-fragrance-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Summer limited edition tied to the Terracotta bronzer line, re-released in later summers. Despite the name it is an eau de toilette. Bois de Jasmin compares it to Estée Lauder Bronze Goddess."
+ },
+ {
+  "name": "Irresistible Eau de Toilette Fraîche",
+  "brand": "Givenchy",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Orange"
+   ],
+   "heart": [
+    "Rose",
+    "Iris"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.parfumdo.com/en/418386-irresistible-givenchy-eau-de-toilette-fresh.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Irresistible (2020). Rose is Isparta damask rose, iris concrete, Virginia cedar. Perfumer not found."
+ },
+ {
+  "name": "Mon Paris Intensément",
+  "brand": "Yves Saint Laurent",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Cresp, Harry Fremont, Dora Baghriche",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Raspberry",
+    "Pear",
+    "Orange",
+    "Bergamot"
+   ],
+   "heart": [
+    "Centifolia Rose",
+    "Rose",
+    "Peony",
+    "Freesia",
+    "Datura"
+   ],
+   "base": [
+    "Patchouli",
+    "Benzoin",
+    "Cashmeran",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/02/22/yves-saint-laurent-mon-paris-intensement-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Mon Paris (2016), launched early 2020. Brand describes it as floral woody chypre. Rose = Bulgarian rose, peony = white peony."
+ }
+]

@@ -1,0 +1,665 @@
+[
+ {
+  "name": "For Him Bleu Noir",
+  "brand": "Narciso Rodriguez",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Nutmeg",
+    "Cardamom"
+   ],
+   "heart": [
+    "Musk"
+   ],
+   "base": [
+    "Cedar",
+    "Ebony",
+    "Vetiver",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/06/11/narciso-rodriguez-for-him-bleu-noir-new-fragrance/",
+   "https://www.narcisorodriguezparfums.com/en/narciso-rodriguez-for-him-bleu-noir/for-him-bleu-noir-eau-de-parfum.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Original 2015 EDT, flanker of For Him (2007), described as aromatic fougere. NST gives a flat list; tiers distributed. The page also covers the later Eau de Parfum (brand site: bergamot, black pepper, musk, blue cedar, black ebony, vetiver, amber), whose launch year was not confirmed. Perfumer not confirmed."
+ },
+ {
+  "name": "Bois Doré",
+  "brand": "Van Cleef & Arpels",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Mineral Notes"
+   ],
+   "heart": [
+    "Cedar",
+    "Vanilla"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-bois-dore-2/",
+   "https://www.fragrancereview.com/perfume/van-cleef-arpels-collection-extraordinaire-bois-dore/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire. Interparfums (licensee) page gives perfumer, woody oriental family and pyramid. Year 2017 from FragranceReview and NST mentions."
+ },
+ {
+  "name": "Beauty",
+  "brand": "Calvin Klein",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sophie Labbé",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Fresh Notes"
+   ],
+   "heart": [
+    "Lily",
+    "Spicy Notes",
+    "White Flowers"
+   ],
+   "base": [
+    "Ambrette",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/calvin-klein/1549/beauty",
+   "https://nstperfume.com/2010/05/07/calvin-klein-beauty-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sophie Labbe (IFF). Face Diane Kruger. Launched autumn 2010, positioned for a mature audience. NST lists ambrette seed, jasmine, cedar; Osmoz gives the pyramid. Calla lily inspiration per retailers."
+ },
+ {
+  "name": "Aura Sensuelle",
+  "brand": "Mugler",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cinnamon",
+    "Green Notes"
+   ],
+   "heart": [
+    "Gardenia",
+    "Tiger Liana"
+   ],
+   "base": [
+    "Musk",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2019/05/01/mugler-aura-sensuelle-new-perfume/",
+   "https://www.tendance-parfums.com/en/aura-mugler-sensuelle.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Floral musk flanker of Aura (2017). NST: tiger liana, powerful white musk, gardenia accord, cinnamon, sandalwood. Retailers place gardenia and cinnamon leaf top, green notes heart. Perfumer not found."
+ },
+ {
+  "name": "Shalimar Philtre de Parfum",
+  "brand": "Guerlain",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Lavender"
+   ],
+   "heart": [
+    "Iris",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Vanilla",
+    "Tolu Balsam",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2020/08/27/guerlain-shalimar-philtre-de-parfum-new-fragrance/",
+   "https://persolaise.com/2023/03/guerlain-shalimar-philtre-de-parfum-review-thierry-wasser-2020.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched August 2020, powdery oriental flanker of Shalimar (1925) built around iris and vanilla. Persolaise credits Thierry Wasser and finds it close to Shalimar Eau Legere, softer florals, more iris."
+ },
+ {
+  "name": "Angel Eau Sucrée",
+  "brand": "Mugler",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dorothée Piot",
+  "notes": {
+   "top": [
+    "Frosted Accord",
+    "Red Berries",
+    "Citrus"
+   ],
+   "heart": [
+    "Caramel",
+    "Meringue"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/thierry-mugler/7748/angel-eau-sucree",
+   "https://www.secretsinbeauty.com/angel-eau-sucree-edt/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Limited edition EDT first released 2014 (Osmoz, NST review May 2014), re-released several springs (2015, 2016, 2017). Dorothee Piot (Robertet). Sorbet accord mapped to Frosted Accord. Seasonal limited edition, availability varies."
+ },
+ {
+  "name": "Oud de Carthage",
+  "brand": "Boucheron",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Incense",
+    "Honey"
+   ],
+   "heart": [
+    "Tonka Bean",
+    "Labdanum"
+   ],
+   "base": [
+    "Oud",
+    "Leather"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/boucheron-la-collection-oud-de-carthage-2/",
+   "https://www.interparfumsinc.com/products/la-collection-boucheron-oud-de-carthage"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "La Collection Boucheron, oriental leathery EDP. Top described as incense and royal honey; base oud accord and leather accord. Year 2017 per Interparfums Inc page."
+ },
+ {
+  "name": "Armani Code Sport",
+  "brand": "Giorgio Armani",
+  "year": 2011,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jacques Cavallier",
+  "notes": {
+   "top": [
+    "Mint",
+    "Peppermint",
+    "Spearmint",
+    "Mandarin"
+   ],
+   "heart": [
+    "Lemon",
+    "Ginger"
+   ],
+   "base": [
+    "Vetiver",
+    "Ambroxan",
+    "Aquatic Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/armani/671/armani-code-sport",
+   "https://nstperfume.com/2011/04/06/armani-code-sport-by-giorgio-armani-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Armani Code (2004), launched spring 2011. Three mints (wild mint, peppermint, spearmint), mandarin, lemon, ginger, high dose of ambrox, vetiver. Osmoz credits Jacques Cavallier. Tiers mix Osmoz and retailers. Current availability unclear, likely discontinued."
+ },
+ {
+  "name": "Ange ou Démon Le Secret",
+  "brand": "Givenchy",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Bernard Ellena",
+  "notes": {
+   "top": [
+    "Lemon",
+    "Green Tea",
+    "Cranberry"
+   ],
+   "heart": [
+    "Jasmine",
+    "Peony",
+    "Water Lily"
+   ],
+   "base": [
+    "Patchouli",
+    "Blonde Woods",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/822/ange-ou-demon-le-secret",
+   "https://www.jomashop.com/givenchy-adles33.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Bernard Ellena (Symrise). Flanker of Ange ou Demon (2006). Campaign with Uma Thurman per Osmoz."
+ },
+ {
+  "name": "Fils de Joie",
+  "brand": "Serge Lutens",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Night Queen Flower",
+    "Jasmine"
+   ],
+   "heart": [
+    "Honey",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2020/08/07/serge-lutens-fils-de-joie-new-fragrance/",
+   "https://persolaise.com/2020/09/serge-lutens-fils-de-joie-review-christopher-sheldrake-2020.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Released September 2020, built on night-blooming jasmine (possibly Cestrum nocturnum per NST), ylang-ylang, musk; honey from retailer lists. Name plays on 'fille de joie'. Perfumer credited by Persolaise review title."
+ },
+ {
+  "name": "Le Parfum Rose Couture",
+  "brand": "Elie Saab",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Peony"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Orange Blossom",
+    "Honey"
+   ],
+   "base": [
+    "Vanilla",
+    "Patchouli",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/elie-saab/8239/elie-saab-le-parfum-rose-couture",
+   "https://nstperfume.com/2015/11/25/elie-saab-le-parfum-rose-couture-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Announced late 2015, on sale February 2016, EDT only. Flanker of Le Parfum (2011). Osmoz gives heart and base; top from retailer listings."
+ },
+ {
+  "name": "Brit Sheer",
+  "brand": "Burberry",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Émilie Coppermann",
+  "notes": {
+   "top": [
+    "Yuzu",
+    "Mandarin",
+    "Pineapple Leaf",
+    "Lychee",
+    "Grape"
+   ],
+   "heart": [
+    "Peony",
+    "Peach Blossom",
+    "Sweet Pea",
+    "Nashi Pear"
+   ],
+   "base": [
+    "Musk",
+    "Amyris"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/08/23/burberry-brit-sheer-new-fragrance/",
+   "https://www.wikiparfum.com/en/fragrances/brit-sheer"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Lighter fruity floral flanker of Burberry Brit (2003). NST lists all notes and Emilie Coppermann; tiers from retailer listings."
+ },
+ {
+  "name": "Black Opium Nuit Blanche",
+  "brand": "Yves Saint Laurent",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Pepper",
+    "Rice",
+    "Anise"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Coffee"
+   ],
+   "base": [
+    "Vanilla",
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/yves-saint-laurent/8220/black-opium-nuit-blanche",
+   "https://thescentbase.com/perfumes/yves-saint-laurent/black-opium-nuit-blanche"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Black Opium (2014), named after the Paris all-night arts festival. Osmoz: pepper, rice / orange flower, coffee accord / vanilla, sandalwood, white musks. Anise from retailer lists. Some sources credit Olivier Cresp, not confirmed. Reported lighter than the original EDP."
+ },
+ {
+  "name": "Madly Kenzo",
+  "brand": "Kenzo",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Aurélien Guichard",
+  "notes": {
+   "top": [
+    "Orange Blossom",
+    "Oleander"
+   ],
+   "heart": [
+    "Rose",
+    "Heliotrope",
+    "Incense"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/1033/madly-kenzo",
+   "https://www.perfumemaster.com/kenzo/madly-kenzo-womens-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Aurelien Guichard (Givaudan) in collaboration with Francois Demachy. Bottle by Ron Arad, teardrop shading purple to clear. Original 2011 EDP; fruitier EDT followed in 2012. Rose-bay mapped to Oleander. Some retailers list pink pepper on top. Current status unverified."
+ },
+ {
+  "name": "Y",
+  "brand": "Yves Saint Laurent",
+  "year": 1964,
+  "gender": "Feminine",
+  "family": "Chypre Green",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Galbanum",
+    "Gardenia",
+    "Peach",
+    "Honeysuckle"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine",
+    "Orris Root",
+    "Hyacinth",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Oakmoss",
+    "Amber",
+    "Patchouli",
+    "Civet",
+    "Vetiver",
+    "Benzoin"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2007/05/03/yves-saint-laurent-y-perfume-review/",
+   "https://www.yesterdaysperfume.com/yesterdays_perfume/2009/10/y-by-yves-saint-laurent-1964.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "First Yves Saint Laurent fragrance, green chypre, distinct from the 2017 men's Y. NST credits Michel Hy and Jacques Bercia at Jean Amic; other listings credit Jean Amic or Michel Hy only, so perfumer left null. NST (2007) says still produced and cheap online; current status unverified, likely discontinued. Some lists add aldehydes and plum."
+ },
+ {
+  "name": "Boss Bottled Tonic",
+  "brand": "Hugo Boss",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Orange",
+    "Lemon",
+    "Apple"
+   ],
+   "heart": [
+    "Ginger",
+    "Cinnamon"
+   ],
+   "base": [
+    "Vetiver",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/02/17/boss-bottled-tonic-by-hugo-boss-new-fragrance/",
+   "https://www.hugoboss.com/boss-bottled-tonic-eau-de-toilette-100ml/hbeu58058068_999.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Boss Bottled (1998), early 2017. NST flat list: grapefruit, orange, lemon, apple, ginger, cinnamon, vetiver. Retailers say bitter orange, add clove and geranium. Brand describes citrus and woody. One retailer credits Annick Menardo, unconfirmed."
+ },
+ {
+  "name": "Un Jardin à Cythère",
+  "brand": "Hermès",
+  "year": 2023,
+  "gender": "Unisex",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Christine Nagel",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Grass"
+   ],
+   "heart": [
+    "Pistachio",
+    "Cereal Notes"
+   ],
+   "base": [
+    "Olive Tree",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.wallpaper.com/fashion-beauty/hermes-un-jardin-a-cythere-fragrance-is-a-cinematic-exploration-of-a-greek-garden",
+   "https://persolaise.com/2023/03/hermes-un-jardin-a-cythere-review-christine-nagel-2023.html",
+   "https://www.hermes.com/us/en/product/un-jardin-a-cythere-eau-de-toilette-V109288V0/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "March 2023, inspired by the Greek island of Kythira. Official materials: sun-dried grasses, olive wood, fresh pistachio; Wallpaper adds a toasted cereal note. Refillable EDT. Persolaise found it muted. Pyramid inferred from the descriptive list."
+ },
+ {
+  "name": "Rem Homme",
+  "brand": "Reminiscence",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Citrus",
+    "Grapefruit",
+    "Lime"
+   ],
+   "heart": [
+    "Sea Notes",
+    "Sand Accord",
+    "Pepper",
+    "Cardamom"
+   ],
+   "base": [
+    "Woody Notes",
+    "White Woods"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/rem-homme-reminiscence-2018.html",
+   "https://en.vesira.com/reminiscence-rem-homme-eau-de-toilette-100-ml-23348"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Men's counterpart to Rem (1996). Le-parfum.fr: hesperides, grapefruit, lime / marine accord, warm sand, spices, pepper, cardamom / woody notes, white woods. Perfumer not found."
+ },
+ {
+  "name": "Jeu d'Amour",
+  "brand": "Kenzo",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daphné Bugey, Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Pomegranate",
+    "Blood Mandarin",
+    "Tea"
+   ],
+   "heart": [
+    "Tuberose",
+    "Freesia"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/05/20/kenzo-jeu-damour-new-perfume/",
+   "https://www.parfumdo.com/en/150241-kenzo-jeu-d-amour-eau-de-parfum-vaporisateur-eau-de-parfum.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "August 2014, face Louise Bourgoin. NST: pomegranate, blood mandarin, tea accord, tuberose, freesia; base sandalwood, musk, cedar from retailers. A separate fruity-gourmand EDT came in 2015."
+ },
+ {
+  "name": "Aqua Allegoria Passiflora",
+  "brand": "Guerlain",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Grapefruit",
+    "Mandarin"
+   ],
+   "heart": [
+    "Passion Fruit",
+    "Aquatic Notes",
+    "Ylang-Ylang",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2018/02/20/guerlain-passiflora-new-fragrance/",
+   "https://www.perfumemaster.com/guerlain/aqua-allegoria-passiflora-womens-perfume"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2018 Aqua Allegoria addition, fresh fruity citrus EDT. Retailers credit Thierry Wasser, not confirmed in a read source. A Guerlain fan blog reports it discontinued around 2021. Gender per chunk hint (Feminine)."
+ }
+]

@@ -1,0 +1,657 @@
+[
+ {
+  "name": "Manifesto L'Éclat",
+  "brand": "Yves Saint Laurent",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Loc Dong",
+  "notes": {
+   "top": [
+    "Green Tea",
+    "Bergamot",
+    "Neroli",
+    "Black Currant"
+   ],
+   "heart": [
+    "Jasmine",
+    "Freesia",
+    "Rose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Sandalwood",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2013/12/27/yves-saint-laurent-manifesto-leclat-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "EDT flanker of Manifesto (2012), announced Dec 2013 for spring 2014. NST gives a flat list; tiers distributed. Availability today unclear, probably wound down with the Manifesto line."
+ },
+ {
+  "name": "Valentina Pink",
+  "brand": "Valentino",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daphné Bugey, Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Strawberry",
+    "Blackberry",
+    "Musk"
+   ],
+   "heart": [
+    "Rose",
+    "Centifolia Rose",
+    "Peony"
+   ],
+   "base": [
+    "Cashmeran",
+    "Ambroxan",
+    "Praline"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.journalduluxe.fr/fr/beaute/valentina-pink-edition-limitee-d-un-parfum-iconique",
+   "https://www.papercitymag.com/fashion/valentino-is-coming-up-roses/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition presented March 2015, opaque pink version of the Valentina bottle. Heart includes May rose and centifolia rose. Original Valentina (2011) is by Olivier Cresp and Alberto Morillas."
+ },
+ {
+  "name": "Jaïpur Bouquet",
+  "brand": "Boucheron",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Maurice Roucel",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mango Leaf",
+    "Citron"
+   ],
+   "heart": [
+    "Iris",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Cashmere Wood",
+    "Sandalwood",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/08/01/boucheron-jaipur-bouquet-new-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Jaïpur (1994), launched summer 2019 in a 100 ml EDP. Jasmine is sambac. Several retailers now list it as unavailable."
+ },
+ {
+  "name": "Amor Amor Forbidden Kiss",
+  "brand": "Cacharel",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mandarin",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Coffee",
+    "Frangipani",
+    "Peony"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2011/08/03/cacharel-amor-amor-forbidden-kiss-new-fragrance/",
+   "https://eu.lookfantastic.com/p/cacharel-amor-amor-forbidden-kiss-eau-de-toilette/11210515/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched September 2011 as a flanker to Amor Amor (2003); NST calls it a gourmand floriental. Perfumer not found in allowed sources."
+ },
+ {
+  "name": "Rumeur 2 Rose",
+  "brand": "Lanvin",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Honorine Blanc",
+  "notes": {
+   "top": [
+    "Citron",
+    "Bergamot",
+    "Grapefruit",
+    "Orange",
+    "Pear",
+    "Green Notes"
+   ],
+   "heart": [
+    "Rose",
+    "Magnolia",
+    "Jasmine",
+    "Honeysuckle",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Musk",
+    "Patchouli",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/lanvin-rumeur-2-rose.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Notino and Galaxus give 2007; Tendance Parfums gives 2006 and credits Honorine Blanc (single source for perfumer). Successor to Rumeur (2006, Francis Kurkdjian), fruitier and fresher."
+ },
+ {
+  "name": "Mon Paris Parfum Floral",
+  "brand": "Yves Saint Laurent",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pear",
+    "Raspberry",
+    "Peach"
+   ],
+   "heart": [
+    "Datura",
+    "Jasmine",
+    "Orange Blossom",
+    "Magnolia",
+    "Peony"
+   ],
+   "base": [
+    "Musk",
+    "Patchouli",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2019/03/11/yves-saint-laurent-mon-paris-floral-new-fragrance",
+   "https://www.faces.eg/en/p/ysl-mon-paris-floral-eau-de-parfum-034814573633.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Mon Paris Eau de Parfum Floral; announced March 2019 as a fruity floral flanker to Mon Paris (2016). Base tier assembled from retailer copy (white musk, patchouli, cashmere wood). Perfumers not found."
+ },
+ {
+  "name": "Organza Indécence",
+  "brand": "Givenchy",
+  "year": 1999,
+  "gender": "Feminine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Plum",
+    "Jacaranda Wood"
+   ],
+   "base": [
+    "Amber",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/givenchy/854/organza-indecence"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Givenchy official page (via search): cinnamon, mandarin / jacaranda wood, plum / amber, patchouli. Osmoz adds white musks and places patchouli and jacaranda on top. Still listed by Givenchy. Perfumer not confirmed."
+ },
+ {
+  "name": "Bloom Profumo di Fiori",
+  "brand": "Gucci",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Ylang-Ylang"
+   ],
+   "heart": [
+    "Tuberose"
+   ],
+   "base": [
+    "Sandalwood",
+    "Orris Root",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://moodiedavittreport.com/profumo-di-fiori-coty-reveals-the-latest-fragrance-chapter-from-gucci-bloom/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Coty, September 2020. Jasmine sambac absolute, natural tuberose, jasmine bud extract, sandalwood accord, orris concrete. Campaign with Anjelica Huston, Florence Welch, Jodie Turner-Smith, Susie Cave, directed by Floria Sigismondi. Honey-yellow lacquered bottle."
+ },
+ {
+  "name": "Cologne Come Together",
+  "brand": "Mugler",
+  "year": 2001,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Neroli",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2005/07/12/thierry-mugler-cologne-fragrance-review/",
+   "https://vivir.com/article/mugler-cologne-now-called-come-together",
+   "https://britishbeautyblogger.com/fragrance/mugler-cologne/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Mugler Cologne launched 2001 (Alberto Morillas), renamed Come Together in 2018 when the Mugler Cologne line expanded to five scents. Year given is the original formula. Also contains a trademarked secret 'S' note; base is white musk."
+ },
+ {
+  "name": "La Fille de l'Air Iris",
+  "brand": "Courrèges",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Powdery",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Neroli"
+   ],
+   "heart": [
+    "Iris",
+    "Heliotrope",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Cedar",
+    "Tonka Bean",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/08/22/courreges-la-fille-de-lair-iris-new-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Announced August 2017, EDP 50 and 90 ml, flanker of La Fille de l'Air (2015). Base musk is white musk. Retailers list it as unavailable; likely discontinued."
+ },
+ {
+  "name": "Boss Bottled Marine",
+  "brand": "Hugo Boss",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sophie Labbé, Honorine Blanc",
+  "notes": {
+   "top": [
+    "Apple",
+    "Spearmint"
+   ],
+   "heart": [
+    "Clary Sage",
+    "Cinnamon"
+   ],
+   "base": [
+    "Cashmere Wood",
+    "Patchouli",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://moodiedavittreport.com/?p=394587",
+   "https://nstperfume.com/2022/02/14/boss-bottled-marine-by-hugo-boss-new-fragrance"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited edition flanker of Boss Bottled (1998), 2022, Coty. Top is 'frozen apple'. Frosted blue bottle, campaign with Chris Hemsworth. Despite the name, no listed marine note."
+ },
+ {
+  "name": "Uomo Noir Absolu",
+  "brand": "Valentino",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sophie Labbé",
+  "notes": {
+   "top": [
+    "Black Pepper",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Incense"
+   ],
+   "base": [
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://aeworld.com/?p=55242",
+   "https://jadof.com/en/perfume/valentino-uomo-noir-absolu-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2017 with Donna Noir Absolu under Pierpaolo Piccioli. Jadof credits Sophie Labbé (IFF) but misdates to 2014. Note lists vary; pepper, cinnamon, incense and sandalwood are consistent. Escentual mentions a 2021 relaunch in a new bottle."
+ },
+ {
+  "name": "Code Ultimate",
+  "brand": "Giorgio Armani",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Mandarin",
+    "Star Anise"
+   ],
+   "heart": [
+    "Cedar",
+    "Cypress",
+    "Heliotrope",
+    "Olive Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Tonka Bean",
+    "Guaiac Wood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2012/08/27/armani-code-ultimate-by-giorgio-armani-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Sold as Armani Code Ultimate Eau de Toilette Intense, 50 and 75 ml, announced August 2012. Flat note list, tiers distributed. Likely discontinued but not confirmed."
+ },
+ {
+  "name": "Candy Night",
+  "brand": "Prada",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Neroli",
+    "Iris",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Tonka Bean",
+    "Caramel",
+    "Vanilla"
+   ],
+   "base": [
+    "Chocolate",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://sandrascloset.com/tag/prada-candy-florale"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Announced April 2019 as a darker version of Prada Candy (2011, Daniela Andrier). Perfumer of Candy Night not confirmed."
+ },
+ {
+  "name": "Boss Bottled Absolute",
+  "brand": "Hugo Boss",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Ménardo",
+  "notes": {
+   "top": [
+    "Apple",
+    "Bergamot",
+    "Plum"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Cashmere Wood",
+    "Cedar"
+   ],
+   "base": [
+    "Olive Tree",
+    "Sandalwood",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://jadof.com/en/perfume/boss-bottled-absolute-hugo-boss-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition released end of 2019. Not to be confused with Boss Bottled Absolu Parfum Intense (leather, incense). Base per Notino UK (olive tree, sandalwood, dry woods, vanilla, musk); Jadof gives musk and woods only."
+ },
+ {
+  "name": "Aqua Allegoria Limon Verde",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Lime",
+    "Cachaça"
+   ],
+   "heart": [
+    "Green Notes",
+    "Fig",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Sugar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.osmoz.com/perfumes/guerlain/7594/aqua-allegoria--limon-verde",
+   "https://nstperfume.com/2014/01/28/guerlain-aqua-allegoria-limon-verde-new-fragrance"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Caipirinha-inspired Aqua Allegoria, 2014: lime and key lime, cachaça, cane sugar, ice, fig, tonka. Guerlain's own page lists lime, green notes, tonka bean."
+ },
+ {
+  "name": "L'Eau d'Issey Pure",
+  "brand": "Issey Miyake",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Ambergris"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Orange Blossom",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Cashmeran"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://anothermag.com/fashion-beauty/8695/bottling-the-scent-of-water-for-issey-miyake",
+   "https://www.cosma-parfumeries.com/uk_en/l-eau-d-issey-pure-eau-de-parfum.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched May 2016. Marine note is IFF's Maritima; no Calone, unlike the 1992 original. Rose is Damascena. Followed by an EDT (2017) and Nectar de Parfum (2018)."
+ },
+ {
+  "name": "Cuir Ottoman",
+  "brand": "Parfum d'Empire",
+  "year": 2006,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Marc-Antoine Corticchiato",
+  "notes": {
+   "top": [
+    "Iris",
+    "Jasmine"
+   ],
+   "heart": [
+    "Leather",
+    "Benzoin",
+    "Styrax",
+    "Labdanum"
+   ],
+   "base": [
+    "Incense",
+    "Tonka Bean",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://kafkaesqueblog.com/category/all-other-perfume-houses/page/101"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official notes (Luckyscent via Kafkaesque): jasmine, leather, iris, benzoin, balsams, resins, incense. Retailers add tonka, styrax, labdanum, vanilla. Inspired by Ottoman leatherwork, iris used for its suede facet. Year 2006 from retailer listings."
+ },
+ {
+  "name": "Cool Water Intense",
+  "brand": "Davidoff",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Amber Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Annick Ménardo",
+  "notes": {
+   "top": [
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Coconut Water"
+   ],
+   "base": [
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://surrendertochance.com/davidoff-cool-water-intense-for-men/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2019 flanker of Cool Water (1988). Official pyramid is three notes only. Green mandarin sourced from Vale do Caí, Brazil. Reviewers note a strong ambroxan-type amber."
+ },
+ {
+  "name": "1881 Sport",
+  "brand": "Cerruti",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Amandine Clerc-Marie",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Hedione",
+    "Geranium",
+    "Lavender",
+    "Cardamom"
+   ],
+   "base": [
+    "Musk",
+    "Vetiver",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/1881-sport-cerruti.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition flanker of Cerruti 1881 pour Homme (1990), 2016. Fougère accord per Tendance Parfums. Family on source: woody aromatic."
+ }
+]

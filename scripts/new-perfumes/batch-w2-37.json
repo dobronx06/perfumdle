@@ -1,0 +1,632 @@
+[
+ {
+  "name": "Aqua Allegoria Forte Rosa Rossa",
+  "brand": "Guerlain",
+  "year": 2022,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Delphine Jelk",
+  "notes": {
+   "top": [
+    "Peach",
+    "Pink Pepper",
+    "Black Currant",
+    "Almond"
+   ],
+   "heart": [
+    "Rose",
+    "Damask Rose"
+   ],
+   "base": [
+    "Benzoin",
+    "Patchouli",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2022/06/17/guerlain-mandarine-basilic-forte-rosa-rossa-forte-new-fragrances/",
+   "https://www.libertylondon.com/us/aqua-allegoria-forte-rosa-rossa-eau-de-parfum-75ml-000811300.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Launched 2022 with Mandarine Basilic Forte as the first Aqua Allegoria Forte duo (Middle East in July, wider later). Stronger EDP take on Rosa Rossa (2018). Liberty lists Bulgarian rose and Damask rose in the heart; NST adds blackcurrant."
+ },
+ {
+  "name": "Lady Million Eau My Gold!",
+  "brand": "Paco Rabanne",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Mango",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Violet Leaf"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/04/18/paco-rabanne-lady-million-eau-my-gold-new-perfume/",
+   "https://www.osmoz.com/perfumes/paco-rabanne/7743/lady-million-eau-my-gold"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "First flanker of Lady Million (2010), launched June 2014. NST says green mango. Several retailers now list it as discontinued."
+ },
+ {
+  "name": "Le Parfum Essentiel",
+  "brand": "Elie Saab",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Maïa Lernout",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Orange Blossom"
+   ],
+   "heart": [
+    "Gardenia"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sabina.com/en/women-s-perfumes/33021-elie-saab-le-parfum-essentiel-eau-de-parfum.html",
+   "https://www.strawberrynet.com/en-US/elie-saab-le-parfum-essentiel-eau-de-parfum-spray-50ml-1-7oz/268060"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Chunk hint gave no year; sources agree on 2020. Short official pyramid (one heart note)."
+ },
+ {
+  "name": "Au Masculin",
+  "brand": "Lolita Lempicka",
+  "year": 2000,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Annick Ménardo",
+  "notes": {
+   "top": [
+    "Star Anise",
+    "Licorice",
+    "Violet",
+    "Basil"
+   ],
+   "heart": [
+    "Rum",
+    "Tonka Bean",
+    "Sandalwood"
+   ],
+   "base": [
+    "Cedar",
+    "Praline",
+    "Cistus",
+    "Vetiver",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://prime-beaute.com/lolita-lempicka-au-masculin/2000",
+   "https://auparfum.bynez.com/lolita-lempicka-au-masculin,423"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Perfumer and year from Auparfum. Prime Beauté also lists orgeat in the heart (omitted, no vocab match). Later renamed and reformulated as Lempicka Homme (2018), which adds ivy and absinthe; original considered gone."
+ },
+ {
+  "name": "La Dompteuse Encagée",
+  "brand": "Serge Lutens",
+  "year": 2021,
+  "gender": "Unisex",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Frangipani"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Jasmine"
+   ],
+   "base": [
+    "Almond",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://thecandyperfumeboy.com/2021/07/20/perfume-review-la-dompteuse-encagee-by-serge-lutens/",
+   "https://cafleurebon.com/serge-lutens-la-dompteuse-encagee-review-christopher-sheldrake-2021-joan-of-arc-draw/",
+   "https://persolaise.com/2021/03/serge-lutens-la-dompteuse-encagee-review-christopher-sheldrake-2021.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Official notes only frangipani, ylang-ylang, almond. Jasmine (CaFleureBon) and musk (Persolaise) are reviewer perceptions, pyramid inferred. Reviews from March 2021. Reviewers also mention camphor and a tuberose effect."
+ },
+ {
+  "name": "Météore",
+  "brand": "Louis Vuitton",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jacques Cavallier Belletrud",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Orange",
+    "Mandarin",
+    "Pepper",
+    "Pink Pepper",
+    "Sichuan Pepper"
+   ],
+   "heart": [
+    "Cardamom",
+    "Nutmeg",
+    "Neroli"
+   ],
+   "base": [
+    "Java Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.scento.com/perfumes/meteore-louis-vuitton"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Calabrian bergamot, Sicilian mandarin, Tunisian neroli, Guatemalan cardamom, Indonesian nutmeg. Sold in the LV men's line, scento labels it unisex. Concentration EDP per retailer titles."
+ },
+ {
+  "name": "Boss Bottled Sport",
+  "brand": "Hugo Boss",
+  "year": 2012,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Yuzu",
+    "Bay Leaf"
+   ],
+   "heart": [
+    "Aldehydes",
+    "Lavender",
+    "Cardamom"
+   ],
+   "base": [
+    "Patchouli",
+    "Vetiver",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hugo-boss/973/boss-bottled-sport"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Osmoz top note 'rose-bay' mapped loosely to Bay Leaf (uncertain, could be oleander). Some retailers credit Calice Becker, not verified so left null."
+ },
+ {
+  "name": "Amor Amor Electric Kiss",
+  "brand": "Cacharel",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Fanny Bal, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Rhubarb",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.scentbox.com/shop/details.cfm?id=129606",
+   "https://www.perfume-click.co.uk/Cacharel-Amor-Amor-Electric-Kiss-Eau-De-Toilette-100ml-Spray-s94439/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Jasmine is jasmine sambac. Bottle decor reacts to black light per one retailer. Described as a limited edition by some sellers; availability unclear."
+ },
+ {
+  "name": "Le Male On Board",
+  "brand": "Jean Paul Gaultier",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Tonka Bean",
+    "Geranium"
+   ],
+   "base": [
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.strawberrynet.com/en-US/jean-paul-gaultier-le-male-on-board-eau-de-toilette-spray-125ml-4-2oz/265477"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Short pyramid. Some retailers credit Christophe Raynaud, not verified so null. Sold as 125 ml EDT; some sellers call it limited edition."
+ },
+ {
+  "name": "Stronger With You Only",
+  "brand": "Giorgio Armani",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium"
+   ],
+   "base": [
+    "Chestnut",
+    "Vanilla",
+    "Labdanum"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://fragrancehouse.co.uk/product/emporio-armani-stronger-with-you-only-eau-de-toilette-50ml/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Emporio Armani line. Chestnut is a glazed chestnut accord. Perfumer not published."
+ },
+ {
+  "name": "Donna Noir Absolu",
+  "brand": "Valentino",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Pepper",
+    "Saffron"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Plum"
+   ],
+   "base": [
+    "Leather",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://scentadvice.com/valentino-donna-noir-absolu-2017-valentino/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "ScentAdvice lists three unlabeled note groups, mapped to tiers. Black pepper, jasmine sambac, plum liqueur. Part of the Noir Absolu collection (Oct 2017, UK first). Selfridges lists a different pyramid."
+ },
+ {
+  "name": "L'Homme L'Eau",
+  "brand": "Prada",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Chypre",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Ginger"
+   ],
+   "heart": [
+    "Iris",
+    "Neroli"
+   ],
+   "base": [
+    "Amber",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thecandyperfumeboy.com/2018/02/19/perfume-review-la-femme-lhomme-prada-leau-by-prada/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand list via Candy Perfume Boy: mandarin essence, ginger; iris, red ginger, neroli; amber, sandalwood. Retailers list neroli/ginger, iris/amber, sandalwood/cedar/powdery. Year 2017 from retailers; lighter take on L'Homme Prada (2016)."
+ },
+ {
+  "name": "Girl of Now Shine",
+  "brand": "Elie Saab",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion, Sophie Labbé",
+  "notes": {
+   "top": [
+    "Pear",
+    "Pineapple",
+    "Pistachio"
+   ],
+   "heart": [
+    "Almond",
+    "Orange Blossom",
+    "Ylang-Ylang",
+    "Jasmine"
+   ],
+   "base": [
+    "Iris",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/04/30/elie-saab-girl-of-now-shine-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker to Girl of Now (2017). NST gives a flat note list; tiers inferred. Pistachio is roasted."
+ },
+ {
+  "name": "Legend Blue",
+  "brand": "Montblanc",
+  "year": 2024,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Spearmint"
+   ],
+   "heart": [
+    "Woody Notes",
+    "Cedar",
+    "Sandalwood"
+   ],
+   "base": [
+    "Ambroxan"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.dillards.com/p/montblanc-legend-blue-for-men-eau-de-parfum/518498251",
+   "https://www.nordstrom.com/s/legend-blue-eau-de-parfum/7872497"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Year 2024 per most retailers (some say 2023). Other listings add lavender and moss. Perfumer credits conflict (Almairac vs Pescheux), left null."
+ },
+ {
+  "name": "Wild Ocean",
+  "brand": "Courrèges",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Benoist Lapouza",
+  "notes": {
+   "top": [
+    "Sea Notes"
+   ],
+   "heart": [
+    "Sand"
+   ],
+   "base": [
+    "Ambroxan"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/07/13/courreges-wild-ocean-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Three-accord pyramid: marine accord, warm sand accord, ambroxan. One retailer says it is no longer manufactured, unconfirmed."
+ },
+ {
+  "name": "Aromatics in White",
+  "brand": "Clinique",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nicolas Beaulieu",
+  "notes": {
+   "top": [
+    "Labdanum",
+    "Violet Leaf",
+    "Sichuan Pepper"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rose"
+   ],
+   "base": [
+    "Ambergris",
+    "Benzoin",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/clinique/8000/aromatics-in-white",
+   "https://nstperfume.com/2014/10/28/clinique-aromatics-in-white-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker to Aromatics Elixir (1971). Launched November 2014. NST also lists patchouli and vanilla; Osmoz rose is rose water."
+ },
+ {
+  "name": "Figue",
+  "brand": "Molinard",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Fig",
+    "Lemon",
+    "Black Currant"
+   ],
+   "heart": [
+    "Green Notes",
+    "Floral Notes",
+    "Jasmine"
+   ],
+   "base": [
+    "Cedar",
+    "Musk",
+    "Amberwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.envie2parfum.fr/molinard/eau-de-parfum/figue"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Part of Molinard Les Elements line, EDP 75 ml. Jasmine is sambac. Retailers credit Mathieu Nardin, not verified so null. Distinct from Fleur de Figuier (EDT)."
+ },
+ {
+  "name": "Emblem",
+  "brand": "Montblanc",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Clary Sage",
+    "Cardamom",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Cinnamon"
+   ],
+   "base": [
+    "Woods",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/03/14/montblanc-emblem-emblem-intense-new-fragrances/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2014 with Emblem Intense. 'Frozen violet leaves', 'intense woods'. Perfumer credits vary (Constant/Pescheux vs Almairac), left null."
+ },
+ {
+  "name": "Kouros Silver",
+  "brand": "Yves Saint Laurent",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Girard, Olivier Pescheux",
+  "notes": {
+   "top": [
+    "Apple"
+   ],
+   "heart": [
+    "Sage"
+   ],
+   "base": [
+    "Amber",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2015/03/08/yves-saint-laurent-kouros-silver-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Summer flanker of Kouros (1981), after Kouros Eau de Toilette Tonique (2014). Brand gives only apple accord, sage, woods and amber."
+ },
+ {
+  "name": "Les Sorbets de Bella",
+  "brand": "Nina Ricci",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Mandarin",
+    "Grapefruit",
+    "Rhubarb",
+    "Pomegranate"
+   ],
+   "heart": [
+    "Shiso",
+    "Violet",
+    "Rose"
+   ],
+   "base": [
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2019/04/08/nina-ricci-les-sorbets-new-perfumes/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited-edition gelato-themed flanker of Bella (2018), with Les Sorbets de Nina and de Luna. Rose stands for a rose-jelly effect. Some retailers credit Sonia Constant, not verified so null."
+ }
+]

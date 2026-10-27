@@ -1,0 +1,707 @@
+[
+ {
+  "name": "Gardénia Pétale",
+  "brand": "Van Cleef & Arpels",
+  "year": 2009,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Feisthauer",
+  "notes": {
+   "top": [
+    "Citrus",
+    "Green Notes"
+   ],
+   "heart": [
+    "Gardenia",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.libertylondon.com/us/gardenia-petale-eau-de-parfum-75ml-278820.html",
+   "https://surrendertochance.com/van-cleef-arpels-collection-extraordinaire-gardenia-petale/",
+   "https://www.perfume.com/van-cleef-arpels/gardenia-petale/women-perfume",
+   "https://fragrancevault.net/products/copy-of-van-cleef-arpels-bois-diris-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Part of the Collection Extraordinaire, which started in 2009. Liberty lists green, citrus, lily of the valley, jasmine, gardenia; sandalwood and white musk base from perfume.com listing. Perfumer credited by retailers only."
+ },
+ {
+  "name": "Sa Majesté la Rose",
+  "brand": "Serge Lutens",
+  "year": 2000,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christopher Sheldrake",
+  "notes": {
+   "top": [
+    "Rose",
+    "Chamomile",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose Absolute",
+    "Geranium",
+    "Clove"
+   ],
+   "base": [
+    "Guaiac Wood",
+    "Honey",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/femme/edp/sa-majeste-la-rose-serge-lutens-2000.html",
+   "https://www.lesplusbeauxparfums.com/spip.php?article82=",
+   "https://nstperfume.com/2006/09/05/serge-lutens-sa-majeste-la-rose-fragrance-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Moroccan rose absolute is the core. Musk is described as white musk, honey as white honey. Some retailers add vanilla or beeswax; left out."
+ },
+ {
+  "name": "Ambre Éternel",
+  "brand": "Guerlain",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Ambergris",
+    "Coriander",
+    "Cinnamon",
+    "Cardamom"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Ylang-Ylang",
+    "Peach"
+   ],
+   "base": [
+    "Woody Notes",
+    "Leather",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2016/01/13/guerlain-ambre-eternel-new-fragrance/",
+   "https://www.guerlain.com/int/en-int/ambre-eternel-eau-de-parfum"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Absolus d'Orient, follow-up to Santal Royal (2014), aimed at the Middle East, limited distribution. Guerlain describes an ambergris tincture made from a blend of blocks chosen by Wasser. 'Peach' stands for the official 'fruity notes'. Some retailers list it as discontinued."
+ },
+ {
+  "name": "Glam Jasmine",
+  "brand": "Michael Kors",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant"
+   ],
+   "heart": [
+    "Jasmine",
+    "White Flowers"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.walmart.com/ip/Michael-Kors-Glam-Jasmine-1-oz-EDP-Spray/146334861",
+   "https://www.perfume.com/michael-kors/michael-kors-glam-jasmine/women-perfume",
+   "https://www.amazon.com/Michael-Kors-Jasmine-Womens-1-7-ounce/dp/B00P80FP1G"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Retail copy: cassis, jasmine, white flowers, sandalwood. One listing credits Harry Fremont, unconfirmed, so null. Top tier has a single note in published lists."
+ },
+ {
+  "name": "Cartier de Lune",
+  "brand": "Cartier",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathilde Laurent",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Juniper Berries"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Honeysuckle",
+    "Cyclamen",
+    "Rose"
+   ],
+   "base": [
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.luxuo.com/style/beauty/fragrance-cartier-de-lune.html",
+   "https://www.osmoz.com/perfumes/cartier/501/cartier-de-lune",
+   "https://scents-gallery.com/product/cartier-cartier-de-lune-eau-de-toilette-75ml/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Launched mid 2011 (Luxuo, July 2011), not 2013. Moon-inspired, moonstone blue bottle. Now sold as 'rare' or vintage by resellers, so treated as discontinued."
+ },
+ {
+  "name": "Quartz",
+  "brand": "Molyneux",
+  "year": 1977,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Peach",
+    "Hyacinth",
+    "Cassia"
+   ],
+   "heart": [
+    "Orris Root",
+    "Melon",
+    "Carnation",
+    "Jasmine",
+    "Rose",
+    "Honeysuckle"
+   ],
+   "base": [
+    "Oakmoss",
+    "Sandalwood",
+    "Musk",
+    "Cedar",
+    "Benzoin",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "http://www.thenonblonde.com/2012/07/molyneux-quartz-vintage-perfume.html",
+   "https://perfumania.com/products/quartz-by-molyneux-for-women-eau-de-parfum-spray"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "1977 ads cited by The Non-Blonde, described as a green-ish floral chypre. 'Cassia' as listed by retailers (Jan Moran says cassie). Perfumer credited to Raymond Chaillan by one retailer only, unconfirmed. Current EDP is a reformulation."
+ },
+ {
+  "name": "Jeune Homme",
+  "brand": "Jacadi",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Citrus Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Tea",
+    "Clary Sage",
+    "Rhubarb"
+   ],
+   "base": [
+    "Amberwood",
+    "Ambrette",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.jacadi.fr/parfum/eaux-parfumees/Eau-de-toilette-Jeune-Homme-100-ml/p/2031502_109",
+   "https://prime-beaute.com/jeune-homme-jacadi-parfum/2018",
+   "https://www.envie2parfum.fr/jacadi/tous-les-parfums-par-annee"
+  ],
+  "confidence": "low",
+  "discontinued": false,
+  "remarks": "Notes from Jacadi official page. Launch year unclear: envie2parfum lists 2015 (alongside older lines, likely a default), makeupstore says 2000. Year not pinned down, so low."
+ },
+ {
+  "name": "Santal Blanc",
+  "brand": "Van Cleef & Arpels",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Woody Floral Musk",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Fig"
+   ],
+   "heart": [
+    "Violet",
+    "Sandalwood"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-santal-blanc-2/",
+   "https://nstperfume.com/2019/04/30/van-cleef-arpels-santal-blanc-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, April 2019. 'Fig' is the brand's fig milk. Interparfums lists the family as musky woody."
+ },
+ {
+  "name": "Eau de Cashmere",
+  "brand": "Guerlain",
+  "year": 2026,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Delphine Jelk",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Mandarin",
+    "Bergamot"
+   ],
+   "heart": [
+    "Iris",
+    "Lavender",
+    "Petitgrain"
+   ],
+   "base": [
+    "White Musk",
+    "Vanilla",
+    "Vetiver",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://scentadvice.com/eau-de-cashmere-2026-guerlain/",
+   "https://www.harrods.com/en-fr/p/guerlain-lart-and-la-matiere-eau-de-cashmere-eau-de-toilette-100ml-000000000000169726",
+   "https://boisdejasmin.com/2014/03/guerlain-eau-de-cashmere-new-perfume.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "2026 release in a series of musky 'eaux' (Eau de Coton, Eau de Lingerie, Eau de Popeline, Eau de Tulle) sold under L'Art & La Matière per Guerlain's product URL. Pyramid order per scentadvice; Harrods arranges tiers differently. A different Guerlain Eau de Cashmere existed in 2014."
+ },
+ {
+  "name": "Eau de Pamplemousse Rose",
+  "brand": "Hermès",
+  "year": 2009,
+  "gender": "Unisex",
+  "family": "Citrus",
+  "concentration": "Eau de Cologne",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Orange"
+   ],
+   "heart": [
+    "Rose",
+    "Rhubarb"
+   ],
+   "base": [
+    "Vetiver",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.hermes.com/us/en/product/eau-de-pamplemousse-rose-eau-de-cologne-V25602/",
+   "https://www.fragrancex.com/products/hermes/eau-de-pamplemousse-rose-perfume",
+   "https://varanisridari.home.blog/2019/11/24/eau-de-pamplemousse-rose-by-hermes-2009/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Colognes Hermès, 2009. Hermès: grapefruit with rose, oakmoss in ingredient list. 'Rhubarb' stands for Rhubofix cited by one retailer. Concentré de Pamplemousse Rose is a separate EDT."
+ },
+ {
+  "name": "London for Men",
+  "brand": "Burberry",
+  "year": 2006,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lavender",
+    "Cinnamon",
+    "Pepper"
+   ],
+   "heart": [
+    "Port Wine",
+    "Mimosa",
+    "Leather"
+   ],
+   "base": [
+    "Tobacco Leaf",
+    "Opoponax",
+    "Guaiac Wood",
+    "Oakmoss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://leparfumier.com/en/products/burberry-london-for-men-eau-de-toilette",
+   "https://bellisparfumes.com/products/burberry-london-for-men"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Pepper and port wine appear in some listings only. Tartan-wrapped bottle."
+ },
+ {
+  "name": "Obsession for Men",
+  "brand": "Calvin Klein",
+  "year": 1986,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bob Slattery",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Lavender",
+    "Bergamot",
+    "Lime",
+    "Grapefruit",
+    "Cinnamon"
+   ],
+   "heart": [
+    "Myrrh",
+    "Nutmeg",
+    "Carnation",
+    "Brazilian Rosewood",
+    "Pine",
+    "Sage"
+   ],
+   "base": [
+    "Amber",
+    "Vanilla",
+    "Sandalwood",
+    "Musk",
+    "Patchouli",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thescentbase.com/perfumes/calvin-klein/obsession-for-men",
+   "https://leparfumier.com/en/products/calvin-klein-obsession-for-men-eau-de-toilette"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Long published list trimmed to 6 per tier (coriander, jasmine, red berries left out). Perfumer also written Robert Slattery."
+ },
+ {
+  "name": "Eau d'Hermès",
+  "brand": "Hermès",
+  "year": 1951,
+  "gender": "Unisex",
+  "family": "Leather",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Edmond Roudnitska",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Petitgrain",
+    "Sage"
+   ],
+   "heart": [
+    "Cumin",
+    "Cinnamon",
+    "Cardamom",
+    "Clove",
+    "Geranium",
+    "Jasmine"
+   ],
+   "base": [
+    "Leather",
+    "Birch",
+    "Labdanum",
+    "Oakmoss",
+    "Sandalwood",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://cafleurebon.com/vintage-hermes-eau-dhermes-review-edmond-roudnitska1951-divinely-ribald-eau-de-toilette-giveaway/",
+   "https://culturedarm.com/eau-dhermes-by-edmond-roudnitska/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "First Hermès perfume. Roudnitska's brief: the inside of an Hermès bag. Cumin is the divisive note. Lavender, coriander and cedar also listed."
+ },
+ {
+  "name": "Eau de Rochas Escapade Exotique",
+  "brand": "Rochas",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Blood Orange",
+    "Black Currant",
+    "Apple"
+   ],
+   "heart": [
+    "Jasmine",
+    "Melon",
+    "Watermelon"
+   ],
+   "base": [
+    "White Cedar",
+    "Ambroxan",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.envie2parfum.fr/rochas/eau-de-toilette/escapade-exotique",
+   "https://www.coupsdecoeurdemumu.com/2019/07/eau-de-rochas-escapade-exotique.html"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Summer 2019 limited edition of Eau de Rochas. Wikiparfum reportedly credits Michel Almairac, not verified, so null. Not to be confused with L'Escapade (later, different notes)."
+ },
+ {
+  "name": "Le Musc et la Peau",
+  "brand": "Pierre Guillaume",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Floral Musky",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Pierre Guillaume",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Aldehydes",
+    "Rosemary"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Musk",
+    "Ambroxan"
+   ],
+   "base": [
+    "Sandalwood",
+    "Cedar",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.luckyscent.com/products/le-musc-la-peau-by-pierre-guillaume-paris-parfumerie-generale",
+   "https://www.scentsplit.com/products/pierre-guillaume-paris-4-1-le-musc-la-peau-sample-decants"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "PG 4.1, Collection Rework: rework of Musc Maori without the cocoa and hazelnut sweetness. Most retailers say 2016, Bloom says 2005. Flat note list distributed. Extrait version released 2024."
+ },
+ {
+  "name": "Amber pour Homme",
+  "brand": "Prada",
+  "year": 2006,
+  "gender": "Masculine",
+  "family": "Amber Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Neroli",
+    "Cardamom",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Myrrh",
+    "Geranium",
+    "Orange Blossom",
+    "Vetiver"
+   ],
+   "base": [
+    "Labdanum",
+    "Vanilla",
+    "Tonka Bean",
+    "Leather",
+    "Sandalwood",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://leparfumier.com/en/products/prada-amber-for-men-eau-de-toilette",
+   "https://oudandmusk.substack.com/p/prada-amber-pour-homme"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Also sold as Prada Man. Saffron and musk also listed. Tier placement varies by retailer."
+ },
+ {
+  "name": "Vetiver",
+  "brand": "Dior",
+  "year": 2010,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "François Demachy",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Green Notes"
+   ],
+   "heart": [
+    "Haitian Vetiver",
+    "Coffee"
+   ],
+   "base": [
+    "Woody Notes",
+    "Iso E Super"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/11/23/christian-dior-la-collection-christian-dior-new-fragrances/",
+   "https://www.osmoz.com/perfumes/dior/1393/vetiver",
+   "https://kafkaesqueblog.com/2013/05/17/perfume-review-dior-vetiver-la-collection-privee/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "One of seven new scents in La Collection Privée Christian Dior, November 2010. Vetiver over a third of the formula, paired with Robusta coffee. Concentration labelling of the early Collection Privée unclear; EDP per hint. Current availability uncertain."
+ },
+ {
+  "name": "Coach Floral Blush",
+  "brand": "Coach",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Juliette Karagueuzoglou",
+  "notes": {
+   "top": [
+    "Goji Berry",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Peony",
+    "Peach"
+   ],
+   "base": [
+    "Musk",
+    "White Woods"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.luxsb.com/fragrance/floral-blush",
+   "https://www.coach.com/products/floral-blush-eau-de-parfum-30-ml/B1061.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Coach Floral, inspired by the brand's leather tea rose."
+ },
+ {
+  "name": "Eau de Rochas Homme",
+  "brand": "Rochas",
+  "year": 1993,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Lime",
+    "Grapefruit",
+    "Mandarin",
+    "Lemon Verbena",
+    "Mint"
+   ],
+   "heart": [
+    "Pine Needle",
+    "Artemisia",
+    "Basil",
+    "Coriander"
+   ],
+   "base": [
+    "Ambergris",
+    "Cedar",
+    "Oakmoss",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.le-parfum.fr/homme/edt/eau-de-rochas-pour-homme-rochas-1993.html",
+   "https://www.osmoz.com/perfumes/rochas/1088/eau-de-rochas-pour-homme"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Masculine counterpart of Eau de Rochas (born Eau de Roche, 1970). Perfumer disputed: Nicolas Mamounas vs Gilles Romey, so null. Top notes from le-parfum.fr description."
+ },
+ {
+  "name": "Encre Noire Sport",
+  "brand": "Lalique",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Bergamot",
+    "Cypress",
+    "Lavender"
+   ],
+   "heart": [
+    "Aquatic Notes",
+    "Nutmeg",
+    "Vetiver"
+   ],
+   "base": [
+    "Cashmere Wood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2013/10/10/lalique-encre-noire-sport-new-fragrance/",
+   "https://us.lalique.com/products/encre-noire-sport-eau-de-toilette-m13201-s"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Encre Noire (2006), same perfumer. Tiers per Lalique official copy: Bourbon and Haitian vetiver in the heart."
+ }
+]

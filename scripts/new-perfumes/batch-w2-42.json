@@ -1,0 +1,670 @@
+[
+ {
+  "name": "L'Homme Idéal Extrême",
+  "brand": "Guerlain",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Woody Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Almond",
+    "Pink Pepper",
+    "Bergamot"
+   ],
+   "heart": [
+    "Plum",
+    "Cinnamon",
+    "Heliotrope"
+   ],
+   "base": [
+    "Tobacco",
+    "Leather",
+    "Patchouli",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/l-homme-ideal-extreme-eau-de-parfum-guerlain.html",
+   "https://www.harrods.com/en-us/p/guerlain-lhomme-ideal-extreme-eau-de-parfum-100ml-000000000006640734"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of L'Homme Idéal (2014). Retailer lists it as oriental woody; tobacco accord built around tonka per retailer copy."
+ },
+ {
+  "name": "Bonbon Couture",
+  "brand": "Viktor & Rolf",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Cécile Matton, Serge Majoullier",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Neroli",
+    "Peach"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Caramel"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli",
+    "Vanilla",
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/07/13/viktor-rolf-bonbon-couture-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Bonbon (2014), launched August 2016 in EDP 30/50 ml. NST gives a flat note list; tiers follow retailer listings. Tobacco is blond tobacco. Current availability unclear."
+ },
+ {
+  "name": "Présence d'une Femme",
+  "brand": "Montblanc",
+  "year": 2002,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Pepper",
+    "Pineapple"
+   ],
+   "heart": [
+    "Orchid",
+    "Cyclamen"
+   ],
+   "base": [
+    "Rosewood",
+    "Patchouli",
+    "Sandalwood",
+    "Vanilla Orchid"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/montblanc/582/presence-d-une-femme",
+   "https://www.tendance-parfums.com/en/montblanc-presence-d-une-femme.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Osmoz: 2002, oriental vanilla/oriental floral, bottle by Franzrudolph Lehnert. 'Pineapple' stands for pineapple leaves, 'Vanilla Orchid' for vanilla flower. Perfumer per Tendance Parfums. Wikiparfum lists it as discontinued (not confirmed by brand)."
+ },
+ {
+  "name": "Paradiso Azzurro",
+  "brand": "Roberto Cavalli",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Louise Turner",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Jasmine",
+    "Lavender"
+   ],
+   "base": [
+    "Cypress",
+    "Cashmere Wood",
+    "Sandalwood",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/12/24/roberto-cavalli-paradiso-azzurro-new-fragrance/",
+   "https://www.robertocavalli.com/en-us/women/fragrances/roberto-cavalli-paradiso-azzurro-eau-de-parfum-75-ml--SAW004-SA005-E0293.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "NST (Dec 2015): flanker of Paradiso (2015), notes bergamot, lavender, jasmine, cypress, cashmere; perfumer Louise Turner. Mandarin, sandalwood and vanilla come from retailer listings only. Some retailers date it 2016."
+ },
+ {
+  "name": "Amor Amor Absolu",
+  "brand": "Cacharel",
+  "year": 2010,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Pineapple",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Frangipani",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Praline",
+    "Vanilla",
+    "Benzoin",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2010/09/07/cacharel-amor-amor-absolu-new-perfume/",
+   "https://www.notino.co.uk/cacharel/amor-amor-absolu-eau-de-parfum-for-women/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Launched October 2010 as a more intense take on Amor Amor (2003). NST flat list; black currant and sandalwood from retailer pyramids. Notino lists it as discontinued."
+ },
+ {
+  "name": "Man Ice",
+  "brand": "Jimmy Choo",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Michel Almairac",
+  "notes": {
+   "top": [
+    "Citron",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "Apple",
+    "Vetiver",
+    "Cedar",
+    "Patchouli"
+   ],
+   "base": [
+    "Musk",
+    "Ambroxan",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/02/06/jimmy-choo-man-ice-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Jimmy Choo Man (2014), spring 2017, EDT 30/50/100 ml. NST flat list; tiers follow retailer pyramids."
+ },
+ {
+  "name": "Fusion d'Issey Extrême",
+  "brand": "Issey Miyake",
+  "year": 2021,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Cardamom"
+   ],
+   "heart": [
+    "Peppermint",
+    "Lavender",
+    "Coconut",
+    "Mineral Notes"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2021/06/03/issey-miyake-fusion-dissey-extreme-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Toilette Intense (50/100 ml). Flanker of Fusion d'Issey (2020). Described as spicy woods / solar fougère with the line's mineral solar accord. Lavender and coconut from retailer listings, not NST. Notino FR lists 50 ml as no longer sold."
+ },
+ {
+  "name": "Mr. Burberry Indigo",
+  "brand": "Burberry",
+  "year": 2018,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Rosemary",
+    "Lemon",
+    "Bergamot"
+   ],
+   "heart": [
+    "Mint",
+    "Aquatic Notes",
+    "Violet",
+    "Sage",
+    "Tea",
+    "Hedione"
+   ],
+   "base": [
+    "Oakmoss",
+    "Iso E Super",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/en/mr-burberry-indigo-eau-de-toilette-burberry.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Some US retailers (Belk) list brand-style notes: lemon oil, blackcurrant, rosemary / violet leaf, driftwood, spearmint / dry amber, white oakmoss, musk. Kept the Tendance Parfums pyramid."
+ },
+ {
+  "name": "Alien Eau Sublime",
+  "brand": "Mugler",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Orange",
+    "Galbanum"
+   ],
+   "heart": [
+    "Jasmine",
+    "Tiare Flower"
+   ],
+   "base": [
+    "Cashmeran",
+    "White Amber",
+    "Heliotrope"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thecandyperfumeboy.com/2017/02/07/perfume-review-mugler-alien-eau-sublime/"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "UK launch Feb 2017 (House of Fraser first), 60 ml EDT. Sold as a limited edition per several retailers, hence discontinued true. Some listings add lemon, cherry blossom, orange blossom, vanilla, vetiver."
+ },
+ {
+  "name": "Donna Born in Roma Yellow Dream",
+  "brand": "Valentino",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Bergamot",
+    "Lychee"
+   ],
+   "heart": [
+    "Rose",
+    "Peony",
+    "Rose Water"
+   ],
+   "base": [
+    "Musk",
+    "Vanilla",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.beautyliv.com/product/valentino-donna-born-in-roma-yellow-dream-eau-de-parfum-women",
+   "https://www.nordstrom.com/s/valentino-donna-born-in-roma-yellow-dream-eau-de-parfum/5809281",
+   "https://theperfumemag.com/review/valentino-donna-born-in-roma-yellow-dream/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Beautyliv flat list: Italian primofiore lemon, Calabrian bergamot, lychee, peony, rose water, Turkish rose, white musk, Bourbon vanilla, Virginia cedar. Nordstrom: peony accord / Turkish rose / white musk. Year 2021 per most retailers (one says 2020, one review 2022). Perfumer not confirmed. One review site gives a different pyramid (orange blossom, pear), ignored."
+ },
+ {
+  "name": "The Only One Intense",
+  "brand": "Dolce & Gabbana",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Amber",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Green Apple",
+    "Neroli"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Coconut"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Cashmere Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.johnlewis.com/dolce-gabbana-the-only-one-eau-de-parfum-intense/p4894782"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Brand family 'flAmber'. John Lewis notes: Italian mandarin, crispy green apple, neroli / orange blossom, jasmine, coconut / dark vanilla, cedarwood, cashmere. Year 2020 from retailers and a 2020 blog review. Some retailers credit Violaine Collas, not confirmed on a read page, left null."
+ },
+ {
+  "name": "Guilty Black pour Homme",
+  "brand": "Gucci",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lavender",
+    "Coriander"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Neroli",
+    "Green Notes"
+   ],
+   "base": [
+    "Cedar",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/gucci/6905/gucci-guilty-black-pour-homme",
+   "https://nstperfume.com/2012/12/03/gucci-guilty-black-new-fragrances/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Osmoz: 2013, aromatic fougère, also lists 'aromatic notes' in heart. Bottle in green glass sheathed in black. Perfumer unconfirmed (Wikiparfum may name Jacques Huclier, not verified). Availability unclear."
+ },
+ {
+  "name": "Neroli Portofino Acqua",
+  "brand": "Tom Ford",
+  "year": 2016,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Lemon",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Neroli",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thecandyperfumeboy.com/2016/05/09/dive-in-tom-ford-neroli-portofino-acqua-perfume-review/",
+   "https://www.maxaroma.com/fragrance/niche-fragrances/tom-ford-neroli-portofino-acqua-unisex/pid/14184/2"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Summer 2016 flanker of Neroli Portofino (2007), EDT 50/100 ml, cheaper than Private Blend. Review lists citrus, neroli, amber and stresses laundry musks. Detailed pyramid from retailer consensus. Some retailers credit Rodrigo Flores-Roux, unverified. Several UK retailers show it out of stock."
+ },
+ {
+  "name": "Féerie Rubis",
+  "brand": "Van Cleef & Arpels",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Red Currant",
+    "Raspberry",
+    "Lychee",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Peony",
+    "Magnolia",
+    "Freesia",
+    "Iris"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean",
+    "Cedar",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2015/04/08/van-cleef-arpels-feerie-rubis-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Féerie (2008). NST flat list, classified fruity floral; tiers follow retailer listings."
+ },
+ {
+  "name": "Miracle Forever",
+  "brand": "Lancôme",
+  "year": 2006,
+  "gender": "Feminine",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Olivier Polge, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Peony",
+    "Star Anise",
+    "Black Currant"
+   ],
+   "heart": [
+    "Lily of the Valley",
+    "Heliotrope",
+    "Almond",
+    "Mimosa"
+   ],
+   "base": [
+    "Vanilla",
+    "Cedar",
+    "Patchouli",
+    "Incense",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lancome/3614/miracle-forever"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Osmoz: oriental vanilla, campaign with Shalom Harlow, bottle reuses Miracle shape with plum juice. Almond = almond blossom accord, Incense = olibanum. Black Currant = blackcurrant buds. Discontinued per wide reseller-only availability (not brand-confirmed)."
+ },
+ {
+  "name": "L'Extase Rose Absolue",
+  "brand": "Nina Ricci",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Amber Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Francis Kurkdjian",
+  "notes": {
+   "top": [
+    "Pink Pepper",
+    "Pepper"
+   ],
+   "heart": [
+    "Rose",
+    "Cedar"
+   ],
+   "base": [
+    "Vanilla",
+    "Benzoin",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2017/01/11/nina-ricci-lextase-rose-absolue-new-fragrance/",
+   "https://www.silloria.com/en/perfumes/nina-ricci/l-extase-rose-absolue"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Night-time flanker of L'Extase (2015), after Caresse de Roses (2016). 80 ml EDP. Rose = Taif rose, Cedar = Atlas cedar, Pepper = black pepper. Many retailers show it sold out; treated as discontinued."
+ },
+ {
+  "name": "Boss The Scent Pure Accord",
+  "brand": "Hugo Boss",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Woody Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Bruno Jovanovic",
+  "notes": {
+   "top": [
+    "Ginger"
+   ],
+   "heart": [
+    "Maninka Fruit"
+   ],
+   "base": [
+    "Suede"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.perfumelive.com/a2021032502-boss-the-scent-pure-accordbyhugo-bossformen.html",
+   "https://www.maxaroma.com/fragrance/men-fragrances/hugo-boss-the-scent-pure-accord/pid/30442/3"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Only three notes are published (ginger / maninka / white suede), one per tier. Retailers label it aromatic fruity or fresh. Perfumer Bruno Jovanovic per several retailer listings found via search, not on the read pages. Not to be confused with the women's Pure Accord (Louise Turner)."
+ },
+ {
+  "name": "Le Male Aviator",
+  "brand": "Jean Paul Gaultier",
+  "year": 2020,
+  "gender": "Masculine",
+  "family": "Aromatic Fougère",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mint",
+    "Bergamot"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Geranium"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Sandalwood",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://vivir.com/article/jean-paul-gaultier-le-male-aviator-review"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition 2020, 125 ml, now discontinued and resold above retail. Vivir credits Christophe Raynaud, single source, left null. Some retailers add lavender, vanilla, amber."
+ },
+ {
+  "name": "Eau de Rochas Escapade Tropicale",
+  "brand": "Rochas",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Citrus",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Black Currant",
+    "Neroli"
+   ],
+   "heart": [
+    "Fruity Notes",
+    "Mango",
+    "Cedar"
+   ],
+   "base": [
+    "Ambroxan",
+    "Raspberry",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.le-parfum.fr/femme/edt/eau-de-rochas-escapade-tropicale-rochas-2018.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Summer limited edition of Eau de Rochas, hesperidic with floral chypre facet. 'Fruity Notes' stands for 'fruits d'eau' (water fruits). Pink wavy glass bottle with tropical plant label. Limited edition, treated as discontinued."
+ },
+ {
+  "name": "L.12.12 Noir",
+  "brand": "Lacoste",
+  "year": 2013,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Watermelon",
+    "Basil"
+   ],
+   "heart": [
+    "Lavender",
+    "Verbena",
+    "Magnolia"
+   ],
+   "base": [
+    "Chocolate",
+    "Cashmeran",
+    "Coumarin",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2013/04/17/lacoste-eau-de-lacoste-l-12-12-noir-new-fragrance/",
+   "https://www.maxaroma.com/fragrance/niche-fragrances/lacoste-l1212-noir/pid/35736/2"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Eau de Lacoste L.12.12 Noir, May 2013, for Lacoste's 80th anniversary. NST also lists absinthe. Chocolate is a dark chocolate accord. Tiers from Maxaroma/Osmoz."
+ }
+]

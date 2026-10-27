@@ -1,0 +1,666 @@
+[
+ {
+  "name": "Habit Rouge L'Instinct",
+  "brand": "Guerlain",
+  "year": 2022,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Delphine Jelk",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Sichuan Pepper"
+   ],
+   "heart": [
+    "Hemp",
+    "Rose",
+    "Mate"
+   ],
+   "base": [
+    "Patchouli",
+    "Tonka Bean",
+    "Vanilla",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2022/04/26/guerlain-habit-rouge-linstinct-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as Eau de Toilette Intense, launched May 2022. Flat note list from NST (hemp, rose, bergamot, mate absolute, patchouli, tonka, vanilla, Sichuan pepper, vetiver), tiers distributed by us. Some retailers add leather and grapefruit (not verified)."
+ },
+ {
+  "name": "Derby",
+  "brand": "Guerlain",
+  "year": 1985,
+  "gender": "Masculine",
+  "family": "Chypre",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Paul Guerlain",
+  "notes": {
+   "top": [
+    "Artemisia",
+    "Bergamot",
+    "Lemon",
+    "Peppermint"
+   ],
+   "heart": [
+    "Jasmine",
+    "Rose",
+    "Mace",
+    "Pimento",
+    "Pepper"
+   ],
+   "base": [
+    "Leather",
+    "Oakmoss",
+    "Patchouli",
+    "Sandalwood",
+    "Vetiver"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "http://perfumesmellinthings.blogspot.com/2006/04/perfume-review-guerlain-derby.html",
+   "https://vivir.com/article/guerlain-derby-edt-review"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Leather chypre by Jean-Paul Guerlain. Original 1985 version discontinued, later reissued in Guerlain's Paris boutique line (Les Parisiens) with a brighter citrus top. Flat note list from Perfume-Smellin' Things review, tiers distributed by us."
+ },
+ {
+  "name": "Éclat de Nuit",
+  "brand": "Lanvin",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Red Apple",
+    "Lemon",
+    "Black Currant"
+   ],
+   "heart": [
+    "Jasmine",
+    "Freesia",
+    "Orange Blossom",
+    "Night Queen Flower"
+   ],
+   "base": [
+    "Praline",
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/eclat-de-nuit-lanvin.html",
+   "https://www.cosmetify.com/lanvin-eclat-de-nuit-eau-de-parfum-spray/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Night version of Éclat d'Arpège. Year 2018 and perfumer Fabrice Pellegrin from Tendance Parfums only. Night Queen Flower stands for 'lady of the night'."
+ },
+ {
+  "name": "Daisy Dream",
+  "brand": "Marc Jacobs",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Alberto Morillas, Ann Gottlieb",
+  "notes": {
+   "top": [
+    "Blackberry",
+    "Pear",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Jasmine",
+    "Lychee",
+    "Wisteria"
+   ],
+   "base": [
+    "White Woods",
+    "Musk",
+    "Coconut Water"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://thecandyperfumeboy.com/2014/07/25/blue-skies-marc-jacobs-daisy-dream-perfume-review/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Daisy (2007, also Morillas). Blue wisteria in the heart. Reviewer found it lighter and fruitier than the original."
+ },
+ {
+  "name": "Lady Rem",
+  "brand": "Reminiscence",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Raspberry"
+   ],
+   "heart": [
+    "Orange Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Leather",
+    "Tobacco"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/lady-rem-reminiscence.html",
+   "https://cosma-parfumeries.com/uk_en/reminiscence-lady-rem-eau-de-parfum.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Feminine take on the house's Rem line. Pyramid and year from Tendance Parfums (Chypré Fruité). Other retailers give unrelated generic note lists (bergamot, jasmine, iris, vanilla), ignored. Thin pyramid, one note in top and heart."
+ },
+ {
+  "name": "La Petite Robe Noire Nectar",
+  "brand": "Guerlain",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Floral Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Almond"
+   ],
+   "heart": [
+    "Rose",
+    "Honey"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2021/01/06/guerlain-la-petite-robe-noire-nectar-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition flanker, January 2021, 30 and 50 ml. NST calls it a gourmand floriental. Perfumer not confirmed (one retailer says Thierry Wasser). Discontinued assumed from limited status."
+ },
+ {
+  "name": "Sì Passione Intense",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant"
+   ],
+   "heart": [
+    "Jasmine"
+   ],
+   "base": [
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2020/02/26/giorgio-armani-si-passione-intense-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Intense, flanker of Sì Passione (2017). Brand copy: blackcurrant nectar, jasmine duo, patchouli essence, vanilla extract. One retailer adds white musk and cedar and credits Julie Massé (not verified)."
+ },
+ {
+  "name": "Air di Gioia",
+  "brand": "Giorgio Armani",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Neroli",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Ylang-Ylang",
+    "Peony",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Patchouli",
+    "Musk",
+    "Moss"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/armani/8255/air-di-gioia",
+   "https://beautylish.com/p/giorgio-armani-air-di-gioia-1"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Floral sister of Acqua di Gioia. Beautylish names the Maritima molecule (ozonic, salty) as its core. Perfumer reported as Dominique Ropion in search snippets, not read, so left null."
+ },
+ {
+  "name": "La Vie Est Belle Florale",
+  "brand": "Lancôme",
+  "year": 2016,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Pink Pepper",
+    "Pear",
+    "Black Currant"
+   ],
+   "heart": [
+    "Osmanthus",
+    "Jasmine",
+    "Orange Blossom",
+    "Rose",
+    "Mimosa",
+    "Violet"
+   ],
+   "base": [
+    "Iris",
+    "Patchouli",
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2016/01/22/lancome-la-vie-est-belle-leau-de-toilette-florale-new-fragrance/",
+   "https://www.osmoz.com/perfumes/lancome/8241/la-vie-est-belle-eau-de-toilette-florale"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "L'Eau de Toilette Florale, flanker of La Vie Est Belle (2012), built on osmanthus. Flat list from NST, tiers distributed by us. Osmoz classes it Oriental Floral and adds vanilla."
+ },
+ {
+  "name": "La Petite Robe Noire Couture",
+  "brand": "Guerlain",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Chypre Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Bergamot"
+   ],
+   "heart": [
+    "Rose"
+   ],
+   "base": [
+    "Patchouli",
+    "Moss",
+    "Vetiver",
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2013/12/30/guerlain-la-petite-robe-noire-eau-de-parfum-couture-new-fragrance",
+   "https://www.osmoz.com/perfumes/guerlain/7627/la-petite-robe-noire-couture"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Couture, March 2014, flanker of La Petite Robe Noire (2012). Osmoz notes a more chypre structure than the original, still gourmand."
+ },
+ {
+  "name": "Ô de l'Orangerie",
+  "brand": "Lancôme",
+  "year": 2011,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Anne Flipo, Dominique Ropion",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Orange",
+    "Aquatic Notes"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Jasmine",
+    "Neroli"
+   ],
+   "base": [
+    "Benzoin",
+    "Cedar",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/lancome/3580/o-de-l-orangerie",
+   "https://nstperfume.com/2011/01/23/lancome-o-de-lorangerie-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2011 flanker of Ô de Lancôme (1969). Osmoz pyramid, cedar added from NST. Current availability not verified."
+ },
+ {
+  "name": "Boss Soul",
+  "brand": "Hugo Boss",
+  "year": 2005,
+  "gender": "Masculine",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Ursula Wandel",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Anise",
+    "Cardamom",
+    "Pepper",
+    "Mandarin"
+   ],
+   "heart": [
+    "Cinnamon",
+    "Mace",
+    "Coriander",
+    "Lavender"
+   ],
+   "base": [
+    "Musk",
+    "Tonka Bean",
+    "Vanilla",
+    "Vetiver",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://larose.az/en/product/hugo-boss-boss-soul"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Launched 2005. Perfumer from a single retailer. Base lists ambergris or amber depending on section, we use Amber. Availability not verified."
+ },
+ {
+  "name": "Boss Bottled Oud",
+  "brand": "Hugo Boss",
+  "year": 2015,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Apple",
+    "Citrus"
+   ],
+   "heart": [
+    "Saffron",
+    "Clove",
+    "Cinnamon",
+    "Labdanum"
+   ],
+   "base": [
+    "Oud",
+    "Sandalwood",
+    "Cypriol"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.beautyliv.com/Product/boss_bottled_oud_eau_de_parfum_22028"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "2015 flanker of Boss Bottled. Flat list from retailer (apple, citruses, cinnamon, saffron, clove, labdanum, agarwood, sandalwood, cypriol, nagarmotha), tiers distributed by us. Discontinued per Notino and Wikiparfum snippets. Not to be confused with Bottled Oud Saffron (2019)."
+ },
+ {
+  "name": "Valentino Donna Acqua",
+  "brand": "Valentino",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Sonia Constant",
+  "notes": {
+   "top": [
+    "Almond",
+    "Pear",
+    "Rice"
+   ],
+   "heart": [
+    "Frangipani",
+    "Jasmine",
+    "Hawthorn"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Benzoin",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/05/24/valentino-donna-acqua-new-perfume/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Valentino Donna (2015), same perfumer. NST notes: rice accord, almond, frosted pear, frangipani, jasmine, hawthorn, roasted tonka, benzoin, sandalwood. Tiers distributed by us. May be hard to find now."
+ },
+ {
+  "name": "Izia La Nuit",
+  "brand": "Sisley",
+  "year": 2021,
+  "gender": "Feminine",
+  "family": "Chypre Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Black Currant",
+    "Mandarin",
+    "Cardamom"
+   ],
+   "heart": [
+    "Rose",
+    "Freesia",
+    "Magnolia"
+   ],
+   "base": [
+    "Ambroxan",
+    "Patchouli",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.sisley-paris.com/en-ZA/izia-la-nuit-100163.html",
+   "https://nstperfume.com/2021/01/08/sisley-izia-la-nuit-new-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Night flanker of Izia (2017). Brand pyramid; rose is the d'Ornano rose. Brand describes a chypre woody floral trail. Bottle lacquer by artist Bronislaw Krzysztof. Perfumer not named."
+ },
+ {
+  "name": "Flower by Kenzo Eau de Vie",
+  "brand": "Kenzo",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas, Marie Salamagne, Fabrice Pellegrin",
+  "notes": {
+   "top": [
+    "Ginger",
+    "Neroli",
+    "Bergamot",
+    "Petitgrain"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rose"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Benzoin",
+    "Vanilla",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.cosmeticsbusiness.com/kenzo-parfums-is-using-this-flower-at-the-centre-of-its-new-fragrance--150950",
+   "https://nstperfume.com/2019/01/16/flower-by-kenzo-eau-de-vie-new-fragrance"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Légère, January 2019, flanker of Flower by Kenzo (2000). Face Kim Tae-ri, campaign shot in San Francisco. Rose is Bulgarian rose absolute. Tiers distributed by us."
+ },
+ {
+  "name": "Light Blue Eau Intense pour Homme",
+  "brand": "Dolce & Gabbana",
+  "year": 2017,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Mandarin",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Juniper",
+    "Sea Salt",
+    "Aquatic Notes"
+   ],
+   "base": [
+    "Amberwood",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://moodiedavittreport.com/?p=378390"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "2017 flanker of Light Blue pour Homme (2007). Frozen grapefruit on top, salty aquatic accord with juniper. Campaign with David Gandy and Bianca Balti by Mario Testino. Women's Eau Intense is by Olivier Cresp."
+ },
+ {
+  "name": "Bloom Ambrosia di Fiori",
+  "brand": "Gucci",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Alberto Morillas",
+  "notes": {
+   "top": [
+    "Jasmine",
+    "Rangoon Creeper"
+   ],
+   "heart": [
+    "Tuberose",
+    "Rose"
+   ],
+   "base": [
+    "Iris"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://cosmeticsbusiness.com/gucci-intensifies-bloom-scent-with-new-flanker--158884"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Eau de Parfum Intense, October 2019. Bloom's jasmine, tuberose and Rangoon creeper plus Damascena rose and orris. Tiers distributed by us; one retailer places rose and orris in the base."
+ },
+ {
+  "name": "Hugo Man Extreme",
+  "brand": "Hugo Boss",
+  "year": 2016,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Apple"
+   ],
+   "heart": [
+    "Lavender",
+    "Geranium",
+    "Sage"
+   ],
+   "base": [
+    "Fir",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.amcal.com.au/shop/product/mmc-o100027972/hugo-boss-man-extreme-75ml-edp-spray/",
+   "https://www.derstandard.at/story/2000040938622/parfumtestman-extreme-von-hugo-boss"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Also sold as Hugo Extreme. Intensified version of Hugo Man (1995). Retailer calls it aromatic green; Fir stands for balsam fir. Der Standard review headline: a bit too thickly applied."
+ },
+ {
+  "name": "Fiesta Carioca",
+  "brand": "Escada",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Passion Fruit",
+    "Raspberry",
+    "Violet Leaf"
+   ],
+   "heart": [
+    "Passionflower",
+    "Orange Blossom",
+    "Jasmine"
+   ],
+   "base": [
+    "Musk",
+    "Cedar"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.musingsofamuse.com/2017/01/escada-fiesta-carioca-review.html"
+  ],
+  "confidence": "high",
+  "discontinued": true,
+  "remarks": "Limited summer edition celebrating 25 years of Escada summer editions. Reviewer: fruit over flowers, about three hours of wear. Tiers distributed by us. Discontinued as a limited edition."
+ }
+]

@@ -1,0 +1,192 @@
+[
+ {
+  "name": "Dolce Peony",
+  "brand": "Dolce & Gabbana",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Christophe Raynaud",
+  "notes": {
+   "top": [
+    "Pear",
+    "Cyclamen",
+    "Bergamot",
+    "Pink Pepper"
+   ],
+   "heart": [
+    "Peony",
+    "Rose",
+    "Freesia"
+   ],
+   "base": [
+    "Plum",
+    "Sandalwood",
+    "Honey",
+    "Ambroxan",
+    "Patchouli"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://lookfantastic.com/p/dolceandgabbana-dolce-peony-eau-de-parfum-spray-75ml/14604578",
+   "https://nstperfume.com/2019/03/02/dolce-gabbana-dolce-peony-new-perfume"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Dolce (2014), after Dolce Garden (2018). Announced March 2019, EDP 50/75 ml. Brand page credits Christophe Raynaud. 'Plum' stands for mirabelle plum nectar, 'Rose' for Bulgarian rose, pear is nashi pear. Some listings say cedarwood instead of sandalwood in the base. Brand classifies it Floral Fruity Woody. Several retailers show it out of stock."
+ },
+ {
+  "name": "Azur Riviera",
+  "brand": "Berdoues",
+  "year": 2019,
+  "gender": "Unisex",
+  "family": "Floral Aquatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Jean-Marie Santantoni",
+  "notes": {
+   "top": [
+    "Sea Notes",
+    "Algae"
+   ],
+   "heart": [
+    "Jasmine"
+   ],
+   "base": [
+    "Orange Blossom"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/09/17/berdoues-azur-riviera-new-fragrance/",
+   "https://scentadvice.com/azur-riviera-berdoues/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Collection Grands Crus, announced September 2018 for early 2019 (February). Notes published as a flat list: fucus algae (France), Egyptian jasmine, Tunisian orange blossom, sea spray. Tier split follows a retailer listing (fucus top, jasmine heart, orange blossom base). The chunk hint said Eau de Toilette but every retailer found sells it as 100 ml Eau de Parfum. Availability looks patchy."
+ },
+ {
+  "name": "In Love With You Freeze",
+  "brand": "Giorgio Armani",
+  "year": 2020,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Cherry",
+    "Mandarin",
+    "Bergamot",
+    "Pear"
+   ],
+   "heart": [
+    "Peony",
+    "Jasmine",
+    "Lily of the Valley"
+   ],
+   "base": [
+    "Patchouli",
+    "Musk",
+    "Vetiver",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.maxaroma.com/fragrance/women/giorgio-armani-in-love-with-you-freeze/pid/31214/5",
+   "https://www.cosma-parfumeries.com/ir_en/catalog/product/view/id/23822/s/armani-emporio-armani-in-love-with-you-freeze-eau-de-parfum/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Emporio Armani line, companion of Stronger With You Freeze, flanker of In Love With You. Year 2020 from press search snippets (Grazia: duo on sale 29 January 2020, faces Nicholas Hoult and Alice Pagani) and retailer listings, not from a page read in full. Brand copy centres on cherry, peony, patchouli and white musk; the fuller pyramid comes from one retailer. Jasmine is jasmine sambac. Perfumer not found. Frosted bottle."
+ },
+ {
+  "name": "Infusion de Mandarine",
+  "brand": "Prada",
+  "year": 2018,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Green Mandarin",
+    "Bitter Orange",
+    "Mandarin Leaf"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Neroli"
+   ],
+   "base": [
+    "Opoponax"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.tendance-parfums.com/infusion-mandarine-prada.html"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Les Infusions de Prada line, first citrus of the series, launched July 2018. French retailer classifies it Hespéridé Aromatique and calls it unisex; some retailers file it as feminine. Some listings add citrus rind and orange peel in the top."
+ },
+ {
+  "name": "Shalimar Souffle de Lumière",
+  "brand": "Guerlain",
+  "year": 2018,
+  "gender": "Feminine",
+  "family": "Floral Oriental",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Thierry Wasser",
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Jasmine",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Benzoin",
+    "Musk",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2018/04/30/guerlain-shalimar-souffle-de-lumiere-new-fragrance",
+   "https://www.cafleurebon.com/?p=104558"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Spring 2018, Sephora France first, EDP 50 ml. Flanker of Shalimar Souffle de Parfum (2014), after Shalimar Souffle Intense (2017). Guerlain pitch: a celebration of light and of jasmine (jasmine grandiflorum). Flat note list, tiers inferred from review. Milky white ombré bottle. Current availability unclear, may be discontinued."
+ },
+ {
+  "name": "La Cuvée Secrète",
+  "brand": "Guerlain",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Cologne",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot"
+   ],
+   "heart": [
+    "Petitgrain"
+   ],
+   "base": [
+    "Lavender"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://nstperfume.com/2017/03/08/guerlain-la-cuvee-secrete-new-fragrance"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Les Eaux Exclusives collection, launched March 2017, 250 ml EDC at 160 euros, joining Un Dimanche à la Campagne (2016). Guerlain says it can be splashed generously or added to bath water. Only three notes published; no base given. Perfumer not confirmed (one site says Thierry Wasser). A 2021 limited edition of 11 one-liter Swarovski Bee Bottles exists. Short longevity per reviews. A 'Le 68 Cologne Fond de Cuve' listing may be related; not verified. Tiers are a guess: the three notes were spread so each tier has one."
+ }
+]

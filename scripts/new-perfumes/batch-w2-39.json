@@ -1,0 +1,658 @@
+[
+ {
+  "name": "Vanille de Zanzibar",
+  "brand": "Boucheron",
+  "year": 2017,
+  "gender": "Unisex",
+  "family": "Oriental Vanilla",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Pear",
+    "Mandarin",
+    "Jasmine"
+   ],
+   "heart": [
+    "Vanilla",
+    "Heliotrope",
+    "Peru Balsam"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.parfumla.com/unisex/1660-boucheron-vanille-de-zanzibar-eau-de-parfum-125ml.html",
+   "https://www.perfumemaster.com/boucheron/la-collection-vanille-de-zanzibar-unisex-fragrance"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of Boucheron's La Collection (2017), sold in 125 ml EDP. Several retailers credit Nathalie Lorson. Heart 'vanilla' is Bourbon vanilla per retailers."
+ },
+ {
+  "name": "Code Absolu Femme",
+  "brand": "Giorgio Armani",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Ginger",
+    "Neroli",
+    "Mandarin"
+   ],
+   "heart": [
+    "Jasmine",
+    "Orange Blossom",
+    "Tuberose"
+   ],
+   "base": [
+    "Tonka Bean",
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.eclair-parfumeries.com/en/perfumes/9660-giorgio-armani-code-femme-absolu-eau-de-parfum-for-women-75-ml-3614272544444.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Armani Code Femme. Perfumer not found in sources read. Some retailers mistakenly list notes of the men's Code Absolu (apple, nutmeg, suede)."
+ },
+ {
+  "name": "Nina L'Eau",
+  "brand": "Nina Ricci",
+  "year": 2013,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Olivier Cresp",
+  "notes": {
+   "top": [
+    "Fruity Notes",
+    "Neroli"
+   ],
+   "heart": [
+    "Apple Blossom",
+    "Gardenia"
+   ],
+   "base": [
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/nina-ricci/6948/nina-l-eau",
+   "https://www.notino.fr/nina-ricci/nina-leau-eau-fraiche-eau-de-toilette-pour-femme/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Sold as an 'Eau Fraîche', a lighter take on Nina (2006), also by Olivier Cresp (Firmenich). Osmoz pyramid used; base is white musk only. Retail listings also mention apple, cherry and peony. Availability today unclear."
+ },
+ {
+  "name": "Hugo Reversed",
+  "brand": "Hugo Boss",
+  "year": 2019,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Rosemary",
+    "Pamplewood"
+   ],
+   "base": [
+    "Haitian Vetiver"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2019/02/05/hugo-reversed-by-hugo-boss-new-fragrance/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Hugo (1995), announced February 2019 in 75 and 125 ml EDT. Some retailers give 2018. Perfumer not found."
+ },
+ {
+  "name": "Oud Blanc",
+  "brand": "Van Cleef & Arpels",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Anne Flipo",
+  "notes": {
+   "top": [
+    "Dried Fruits"
+   ],
+   "heart": [
+    "Oud",
+    "Turkish Rose Petals",
+    "Incense"
+   ],
+   "base": [
+    "Musk",
+    "Aldehydes",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.interparfums.fr/en/van-cleef-and-arpels-collection-extraordinaire-oud-blanc-2/",
+   "https://www.dillards.com/p/van-cleef--arpels-collection-extraordinaire-oud-blanc-eau-de-parfum/515591719"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Collection Extraordinaire, 2020, white lacquered bottle. Top is a date accord (mapped to Dried Fruits), heart oud accord + Turkish rose absolute + incense, base aldehydic white musks and vanilla pod. Flipo built it on the white smoke of burning oud. Interparfums says oriental woody, Dillard's woody amber."
+ },
+ {
+  "name": "Le Rêve Nirmala",
+  "brand": "Molinard",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Gourmand Oriental",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Mathieu Nardin",
+  "notes": {
+   "top": [
+    "Bergamot",
+    "Mandarin",
+    "Magnolia",
+    "Black Currant",
+    "Peach"
+   ],
+   "heart": [
+    "Fruity Notes",
+    "Orchid",
+    "Rose",
+    "Violet"
+   ],
+   "base": [
+    "Sandalwood",
+    "Patchouli",
+    "Praline",
+    "Chocolate",
+    "Vanilla"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.needsandmoods.com/molinard-le-reve-nirmala-avis/",
+   "https://www.beautysuccess.fr/parfum-molinard-le-reve-nirmala-eau-de-toilette-femme-c032961"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Gourmand flanker of Molinard's Nirmala line. Heart 'exotic fruits' mapped to Fruity Notes, 'peach nectar' to Peach. Reviewer compares it to Mugler Angel, warmer and rounder. One Molinard sample page lists a different pyramid."
+ },
+ {
+  "name": "Candy Gloss",
+  "brand": "Prada",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Daniela Andrier",
+  "notes": {
+   "top": [
+    "Cherry",
+    "Black Currant"
+   ],
+   "heart": [
+    "Peach",
+    "Rose",
+    "Orange Blossom"
+   ],
+   "base": [
+    "Vanilla",
+    "Almond",
+    "Benzoin",
+    "Heliotrope",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://perfumeloftstore.com/products/prada-candy-gloss-edt-spray",
+   "https://www.nordstrom.com/s/prada-candy-gloss-eau-de-toilette/4620996"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Spring 2017, part of the Prada Candy family. Top is sour cherry and cassis. Nordstrom lists it sold out and mentions benzoin from Laos; may be discontinued."
+ },
+ {
+  "name": "Brit Rhythm for Her",
+  "brand": "Burberry",
+  "year": 2014,
+  "gender": "Feminine",
+  "family": "Floral Woody Musk",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Gracia-Cetto, Antoine Maisondieu",
+  "notes": {
+   "top": [
+    "Lavender",
+    "Pink Pepper",
+    "Neroli"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Blackberry Leaf",
+    "Iris",
+    "Peony"
+   ],
+   "base": [
+    "Vetiver",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://nstperfume.com/2014/02/25/burberry-brit-rhythm-for-her-perfume-review/",
+   "https://www.osmoz.com/perfumes/burberry/7587/brit-rhythm-for-her"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Female counterpart of Brit Rhythm (2013). English lavender on top; 'Petalia' (Givaudan, peony-like) mapped to Peony. NST finds it powdery and close in mood to Baiser Volé and Infusion d'Iris. Floral flanker 2015 is a different scent."
+ },
+ {
+  "name": "Terre d'Hermès Eau Très Fraîche",
+  "brand": "Hermès",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Citrus Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Jean-Claude Ellena",
+  "notes": {
+   "top": [
+    "Aldehydes",
+    "Bitter Orange"
+   ],
+   "heart": [
+    "Spicy Notes",
+    "Mineral Notes"
+   ],
+   "base": [
+    "Oakmoss",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/hermes/7726/terre-d-hermes-eau-tres-fraiche",
+   "https://nstperfume.com/2014/02/27/hermes-terre-dhermes-eau-tres-fraiche-new-fragrance/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Terre d'Hermès (2006). Top uses Seville orange (mapped to Bitter Orange). Other listings add geranium, cedar and patchouli. Reportedly Ellena's last Terre d'Hermès flanker."
+ },
+ {
+  "name": "Mademoiselle Azzaro L'Eau Très Belle",
+  "brand": "Azzaro",
+  "year": 2017,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Karine Dubreuil",
+  "notes": {
+   "top": [
+    "Blueberry",
+    "Red Berries",
+    "Orange",
+    "Grapefruit"
+   ],
+   "heart": [
+    "Peach",
+    "Hawthorn",
+    "Jasmine",
+    "Rose"
+   ],
+   "base": [
+    "Macaron",
+    "Caramel",
+    "Violet",
+    "Vanilla",
+    "Sandalwood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://shouet.com/eau-de-toilette/1681-azzaro-mademoiselle-l-eau-tres-belle-eau-de-toilette-femme.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Mademoiselle Azzaro. Shouet credits 'Karin Dubreuil'; other listings spell Karine Dubreuil(-Sereni). Some retailer pages carry unrelated note lists."
+ },
+ {
+  "name": "Les Sorbets de Nina",
+  "brand": "Nina Ricci",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Lemon",
+    "Raspberry",
+    "Mandarin"
+   ],
+   "heart": [
+    "Gardenia",
+    "Jasmine"
+   ],
+   "base": [
+    "Praline"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.strawberrynet.com/en-US/nina-ricci-les-sorbets-de-nina-eau-de-toilette-spray-80ml-2-7oz/249538"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Limited edition 2019 inspired by Amorino ice cream; top mandarin is satsuma. Listed as limited/discontinued by several retailers. Perfumer not found."
+ },
+ {
+  "name": "Code Elixir",
+  "brand": "Giorgio Armani",
+  "year": 2025,
+  "gender": "Masculine",
+  "family": "Leather",
+  "concentration": "Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Green Mandarin"
+   ],
+   "heart": [
+    "Leather",
+    "Liquor"
+   ],
+   "base": [
+    "Tonka Bean"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.thebeautyinfluencers.com/2025/04/30/the-new-armani-code-elixir-for-men/"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Most concentrated Armani Code for men, spring 2025, 50 ml. Brand page (403) lists green mandarin, leather accord, grilled tonka; liquor accord per press/retail. Perfumer unconfirmed (one retailer says Antoine Maisondieu)."
+ },
+ {
+  "name": "The One Essence",
+  "brand": "Dolce & Gabbana",
+  "year": 2015,
+  "gender": "Feminine",
+  "family": "Oriental Floral",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Litchi",
+    "Bergamot",
+    "Mandarin"
+   ],
+   "heart": [
+    "White Lily"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Amber"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/dolce-gabbana/8457/the-one-essence-eau-de-parfum"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "More concentrated take on The One (2006). Osmoz pyramid used; retailers add peach on top and jasmine and lily of the valley in the heart. Reported as discontinued by one retailer."
+ },
+ {
+  "name": "Emblem Intense",
+  "brand": "Montblanc",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Woody Aromatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Grapefruit",
+    "Clary Sage",
+    "Coriander",
+    "Cardamom"
+   ],
+   "heart": [
+    "Violet Leaf",
+    "Nutmeg",
+    "Cinnamon",
+    "Rose",
+    "Apple"
+   ],
+   "base": [
+    "Suede",
+    "Tonka Bean",
+    "Patchouli",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.johnlewis.com/montblanc-emblem-intense-eau-de-toilette/p1921106"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Flanker of Emblem (2014). Brand describes a frosted violet leaf accord. Some retailers credit Sonia Constant; not confirmed in pages read."
+ },
+ {
+  "name": "Hugo Element",
+  "brand": "Hugo Boss",
+  "year": 2009,
+  "gender": "Masculine",
+  "family": "Aromatic Aquatic",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Nathalie Feisthauer",
+  "notes": {
+   "top": [
+    "Watery Notes",
+    "Citrus"
+   ],
+   "heart": [
+    "Ginger",
+    "Coriander"
+   ],
+   "base": [
+    "Cedar",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://maisonkv.com/perfume/hugo-boss-boss-element"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Some databases list it as 'Boss Element'. Read source gives a flat list (citrus, water notes, ginger, coriander, Virginia cedar, musk); retailer pyramids distribute it the same way. Hard to find today."
+ },
+ {
+  "name": "Rockin' Rio",
+  "brand": "Escada",
+  "year": 2005,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Philippe Romano",
+  "notes": {
+   "top": [
+    "Pineapple",
+    "Mandarin",
+    "Papaya"
+   ],
+   "heart": [
+    "Peach",
+    "Jasmine",
+    "Sugar",
+    "Coconut"
+   ],
+   "base": [
+    "Sandalwood",
+    "Musk",
+    "Driftwood",
+    "Sea Notes"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/escada/1147/rockin-rio",
+   "https://perfumecharm.wordpress.com/2016/02/29/rockin-rio-by-escada-review/"
+  ],
+  "confidence": "medium",
+  "discontinued": true,
+  "remarks": "Escada summer limited edition, first 2005, reissued 2011 (many retailers date it 2011). Heart piña colada accord mapped to Coconut, night jasmine to Jasmine; base also coconut milk and sea breeze."
+ },
+ {
+  "name": "Amethyst",
+  "brand": "Lalique",
+  "year": 2007,
+  "gender": "Feminine",
+  "family": "Floral Fruity",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Nathalie Lorson",
+  "notes": {
+   "top": [
+    "Blackberry",
+    "Black Currant",
+    "Mulberry",
+    "Strawberry"
+   ],
+   "heart": [
+    "Rose",
+    "Peony",
+    "Ylang-Ylang"
+   ],
+   "base": [
+    "Vanilla",
+    "Musk",
+    "Woody Notes"
+   ]
+  },
+  "pyramid_inferred": true,
+  "sources": [
+   "https://www.fragrancereview.com/perfume/lalique-amethyst/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Purple Lalique crystal-style bottle line. Source lists notes as a sequence; tiers inferred. Retailers add blueberry and pepper. Vanilla is Bourbon vanilla."
+ },
+ {
+  "name": "Kenzo Homme Night",
+  "brand": "Kenzo",
+  "year": 2014,
+  "gender": "Masculine",
+  "family": "Oriental Woody",
+  "concentration": "Eau de Toilette",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Coriander",
+    "Grapefruit",
+    "Cardamom"
+   ],
+   "heart": [
+    "Geranium",
+    "Artemisia",
+    "Mango"
+   ],
+   "base": [
+    "Vetiver",
+    "Tonka Bean",
+    "Guaiac Wood"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.osmoz.com/perfumes/kenzo/7601/kenzo-homme-night"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Night version of Kenzo pour Homme. Chunk hint said EDP; Osmoz and most retailers list it as Eau de Toilette, so EDT used."
+ },
+ {
+  "name": "Des Clous pour une Pelure",
+  "brand": "Serge Lutens",
+  "year": 2020,
+  "gender": "Unisex",
+  "family": "Oriental Spicy",
+  "concentration": "Eau de Parfum",
+  "perfumer": null,
+  "notes": {
+   "top": [
+    "Orange"
+   ],
+   "heart": [
+    "Clove"
+   ],
+   "base": [
+    "Nutmeg"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.lookfantastic.com/p/serge-lutens-des-clous-pour-une-pelure-eau-de-parfum-100ml/12673260/",
+   "https://theblacknarcissus.com/2021/03/18/les-eaux-de-politesse-des-clous-pour-une-pelure-by-serge-lutens-2020/"
+  ],
+  "confidence": "high",
+  "discontinued": false,
+  "remarks": "Part of Les Eaux de Politesse collection (2020). Name refers to a clove-studded orange pomander. Official list is just three notes. Perfumer not credited."
+ },
+ {
+  "name": "Girl of Now Forever",
+  "brand": "Elie Saab",
+  "year": 2019,
+  "gender": "Feminine",
+  "family": "Floral Fruity Gourmand",
+  "concentration": "Eau de Parfum",
+  "perfumer": "Dominique Ropion",
+  "notes": {
+   "top": [
+    "Raspberry",
+    "Lemon"
+   ],
+   "heart": [
+    "Orange Blossom",
+    "Rose",
+    "Almond",
+    "Black Currant"
+   ],
+   "base": [
+    "Vanilla",
+    "Cashmeran",
+    "Patchouli",
+    "Musk"
+   ]
+  },
+  "pyramid_inferred": false,
+  "sources": [
+   "https://www.giftexpress.com/girl-of-now-forever-gxp-10526.html"
+  ],
+  "confidence": "medium",
+  "discontinued": false,
+  "remarks": "Flanker of Girl of Now (2018). Most retailers credit Dominique Ropion; one adds Sophie Labbé."
+ }
+]
