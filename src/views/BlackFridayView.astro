@@ -1,0 +1,107 @@
+---
+/**
+ * Black Friday page (French only). Reference prices first, with their shop and the date we saw them, then the copy, the
+ * alternatives from our catalogue and links to the rest of the section. No discount is ever announced
+ * before the retailer publishes it.
+ */
+import Shell from '../components/Shell.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import { url, perfumeBySlug, brandByName } from '../lib/catalog';
+import { bfPage, bfUrl, bfOfKind, BF_HUB, isBfLive } from '../lib/blackfriday';
+import { faqLd, itemListLd } from '../lib/seo';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const c = bfPage(slug);
+const path = bfUrl(slug);
+const isHub = slug === BF_HUB;
+const perfume = c.perfume ? perfumeBySlug.get(c.perfume) : undefined;
+const picks = (c.picks ?? []).map((s) => perfumeBySlug.get(s)).filter(Boolean) as NonNullable<typeof perfume>[];
+const crumbs = [{ name: 'Accueil', href: url.home('fr') }, ...(isHub ? [{ name: 'Black Friday parfum' }] : [{ name: 'Black Friday parfum', href: bfUrl(BF_HUB) }, { name: c.h1 }])];
+const EYEBROW = { hub: 'Black Friday 2026', shop: 'Black Friday par enseigne', theme: 'Black Friday parfum', brand: 'Black Friday par maison', perfume: 'Black Friday par parfum' };
+const fmtDate = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const name = (s: string) => bfPage(s).h1;
+const shops = bfOfKind('shop').filter((s) => s !== slug);
+const themes = bfOfKind('theme').filter((s) => s !== slug);
+const brandName = c.brand ?? perfume?.brand;
+const brand = brandName ? brandByName.get(brandName) : undefined;
+const sameBrand = brandName ? [...bfOfKind('brand'), ...bfOfKind('perfume')].filter((s) => s !== slug && (bfPage(s).brand === brandName || (bfPage(s).perfume && perfumeBySlug.get(bfPage(s).perfume!)?.brand === brandName))).slice(0, 12) : [];
+const brandPages = isHub ? bfOfKind('brand') : [];
+const perfumePages = isHub ? bfOfKind('perfume') : [];
+---
+
+<Shell
+  locale="fr"
+  frOnly
+  title={c.title}
+  description={c.meta}
+  alternates={{ fr: path, en: '/en/' }}
+  crumbs={crumbs}
+  eyebrow={EYEBROW[c.kind]}
+  h1={c.h1}
+  lede={c.intro}
+  jsonLd={[
+    ...(picks.length ? [itemListLd(c.h1, picks.map((p) => ({ name: `${p.name} (${p.brand})`, href: url.perfume('fr', p.slug) })))] : []),
+    faqLd(c.faq),
+  ].filter(Boolean) as Record<string, unknown>[]}
+>
+  {c.prices && c.prices.length > 0 && (
+    <section style="margin-bottom:2.5rem">
+      <h2 class="h2" style="margin-bottom:1rem">Les prix de référence à comparer</h2>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Enseigne</th><th>Produit</th><th>Prix</th><th>Vu en ligne le</th></tr></thead>
+          <tbody>
+            {c.prices.map((r) => (
+              <tr>
+                <td><a href={r.url} rel="nofollow noopener" target="_blank">{r.shop}</a></td>
+                <td>{r.item}</td>
+                <td><strong>{r.price}</strong></td>
+                <td>{fmtDate(r.seen)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="muted" style="font-size:.85rem;margin-top:.6rem">Prix vus en ligne dans les résultats de recherche à la date indiquée, avant le Black Friday. Ce ne sont pas des promotions annoncées et certains peuvent inclure une offre en cours. Vérifiez le prix chez l’enseigne avant de comparer.</p>
+    </section>
+  )}
+  <div class="article">
+    <article class="prose">
+      {c.sections.map((s, i) => (<><h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2><p>{s.body}</p></>))}
+      {picks.some((p) => c.why?.[p.slug]) && (
+        <>
+          <h2>Les parfums à regarder</h2>
+          {picks.filter((p) => c.why?.[p.slug]).map((p) => (<><h3><a href={url.perfume('fr', p.slug)}>{p.name}</a> ({p.brand})</h3><p>{c.why![p.slug]}</p></>))}
+        </>
+      )}
+      <h2>Questions fréquentes</h2>
+      {c.faq.map((f) => <><h3>{f.q}</h3><p>{f.a}</p></>)}
+      {c.sources.length > 0 && (
+        <p class="muted" style="font-size:.85rem">Sources : {c.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} rel="nofollow noopener" target="_blank">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}.</p>
+      )}
+    </article>
+    <aside class="aside">
+      {perfume && (
+        <div class="aside-card">
+          {perfume.image && <img src={perfume.image} alt={`${perfume.name} ${perfume.brand}`} width="600" height="600" style="width:100%;height:auto;mix-blend-mode:multiply" />}
+          <p style="margin-top:.6rem"><a class="link-arrow" href={url.perfume('fr', perfume.slug)}>La fiche complète de {perfume.name}</a></p>
+        </div>
+      )}
+      <div class="aside-card">
+        {!isHub && <p style="margin-bottom:1rem"><a class="link-arrow" href={bfUrl(BF_HUB)}>Tout le Black Friday parfum</a></p>}
+        {brand && <p style="margin-bottom:1rem"><a class="link-arrow" href={url.brand('fr', brand.name)}>Tous les parfums {brand.name}</a></p>}
+        {shops.length > 0 && <><p class="eyebrow">Par enseigne</p><div class="chips" style="margin-top:.6rem">{shops.map((s) => <a class="chip" href={bfUrl(s)}>{name(s)}</a>)}</div></>}
+      </div>
+    </aside>
+  </div>
+  {picks.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1.4rem">Les fiches de cette sélection</h2><div class="cards">{picks.slice(0, 8).map((p) => <PerfumeCard p={p} locale="fr" />)}</div></section>}
+  {sameBrand.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1rem">Black Friday {brandName} : les autres pages</h2><div class="chips">{sameBrand.map((s) => <a class="chip" href={bfUrl(s)}>{name(s)}</a>)}</div></section>}
+  {themes.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1rem">Bien préparer le Black Friday</h2><div class="chips">{themes.map((s) => <a class="chip" href={bfUrl(s)}>{name(s)}</a>)}</div></section>}
+  {brandPages.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1rem">Par maison</h2><div class="chips">{brandPages.map((s) => <a class="chip" href={bfUrl(s)}>{bfPage(s).brand ?? name(s)}</a>)}</div></section>}
+  {perfumePages.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1rem">Par parfum</h2><div class="chips">{perfumePages.map((s) => <a class="chip" href={bfUrl(s)}>{perfumeBySlug.get(bfPage(s).perfume ?? '')?.name ?? name(s)}</a>)}</div></section>}
+</Shell>
+
+<style>
+  .tbl th, .tbl td { padding: 0.35rem 0.9rem 0.35rem 0; text-align: left; vertical-align: top; }
+</style>

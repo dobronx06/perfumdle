@@ -1,0 +1,10 @@
+---
+/** /fr/black-friday/ (hub) and /fr/black-friday/<slug>/ pages, generated once their copy and date are in. */
+import BlackFridayView from '../../../views/BlackFridayView.astro';
+import { bfLive, BF_HUB } from '../../../lib/blackfriday';
+export function getStaticPaths() {
+  return bfLive.map((s) => ({ params: { slug: s === BF_HUB ? undefined : s }, props: { page: s } }));
+}
+const { page } = Astro.props;
+---
+<BlackFridayView slug={page} />

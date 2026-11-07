@@ -6,6 +6,7 @@
 import type { APIRoute } from 'astro';
 import { SITE, url } from '../lib/catalog';
 import { buildDay, publishedToday } from '../lib/schedule';
+import { bfUrl, BF_HUB } from '../lib/blackfriday';
 import { rankedById, rankedUrl, parentOf, rankedBase, type RankedDef } from '../lib/ranked';
 
 export const GET: APIRoute = () => {
@@ -30,6 +31,7 @@ export const GET: APIRoute = () => {
       if (d.kind === 'best' || d.kind === 'nose' || d.kind === 'guide') urls.add(rankedBase[d.kind](l));
     }
   }
+  for (const s of publishedToday('bf')) { urls.add(bfUrl(s)); urls.add(bfUrl(BF_HUB)); }
   if (urls.size) { urls.add('/fr/'); urls.add('/en/'); urls.add('/llms.txt'); }
   const body = { date: buildDay, urls: [...urls].map((u) => `${SITE}${u}`) };
   return new Response(JSON.stringify(body, null, 1), { headers: { 'Content-Type': 'application/json; charset=utf-8' } });
