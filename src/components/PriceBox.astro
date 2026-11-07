@@ -1,7 +1,7 @@
 ---
 /**
- * "Voir le prix" box: one button per affiliate shop serving this locale, each opening the shop's search
- * for the perfume. Renders nothing when no shop serves the locale yet. Clicks are sent to Plausible as
+ * "Voir le prix" call to action in the perfume hero: one button per affiliate shop serving this locale,
+ * each opening the shop's search for the perfume. Renders nothing when no shop serves the locale yet. Clicks are sent to Plausible as
  * "Affiliate click" with the shop, the perfume and the page type.
  */
 import type { Locale } from '../i18n';
@@ -14,23 +14,16 @@ const shops = shopsFor(l);
 ---
 
 {shops.length > 0 && (
-  <div class="wrap">
-    <aside class="price-box">
-      <div class="price-box__head">
-        <p class="price-box__eyebrow">{fr ? 'Où l’acheter' : 'Where to buy'}</p>
-        <strong>{fr ? `Voir le prix de ${name}` : `Check the price of ${name}`}</strong>
-      </div>
-      <div class="price-box__shops">
-        {shops.map((s) => (
-          <a class="btn btn--gold" href={shopLink(s, `${brand} ${name}`)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume={slug} data-aff-from={from}>
-            {fr ? `Voir chez ${s.name}` : `See it at ${s.name}`}
-          </a>
-        ))}
-      </div>
-      <p class="price-box__note">{fr
-        ? 'Lien affilié : si vous achetez, Perfumdle peut toucher une commission, sans surcoût pour vous. Les prix et la disponibilité sont ceux de la boutique.'
-        : 'Affiliate link: if you buy, Perfumdle may earn a commission at no extra cost to you. Prices and availability are set by the shop.'}</p>
-    </aside>
+  <div class="buy">
+    {shops.map((s) => (
+      <a class="buy__btn" href={shopLink(s, `${brand} ${name}`)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume={slug} data-aff-from={from}>
+        <span class="buy__label">{fr ? `Voir le prix de ${name}` : `Check the price of ${name}`}</span>
+        <span class="buy__shop">{fr ? `chez ${s.name}` : `at ${s.name}`} <span aria-hidden="true">→</span></span>
+      </a>
+    ))}
+    <p class="buy__note">{fr
+      ? 'Lien affilié : Perfumdle peut toucher une commission, sans surcoût pour vous. Prix et stock fixés par la boutique.'
+      : 'Affiliate link: Perfumdle may earn a commission at no extra cost to you. Price and stock are set by the shop.'}</p>
   </div>
 )}
 
