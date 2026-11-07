@@ -1,0 +1,11 @@
+{
+  "shops": [
+    {
+      "id": "fragranceshop",
+      "name": "FragranceShop.com",
+      "locales": ["en"],
+      "click": "https://www.jdoqocy.com/click-101915272-16942179?url=",
+      "search": "https://www.fragranceshop.com/?s={q}&post_type=product"
+    }
+  ]
+}

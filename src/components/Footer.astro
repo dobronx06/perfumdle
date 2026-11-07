@@ -1,4 +1,5 @@
 ---
+import { shopsFor } from '../lib/affiliates';
 import { bfUrl, BF_HUB, isBfLive } from '../lib/blackfriday';
 import { type Locale } from '../i18n';
 import { url, families, notes, brands, familyName, noteName, GUIDES, guideUrl, genders, seasons } from '../lib/catalog';
@@ -55,7 +56,9 @@ const hubs = (['best', 'nose', 'guide'] as const)
   <div class="colophon__legal">
     <p>{fr
       ? 'Perfumdle est un site éditorial indépendant, sans lien avec les maisons citées. Les noms et marques appartiennent à leurs propriétaires respectifs.'
-      : 'Perfumdle is an independent editorial site, not affiliated with the houses mentioned. Names and trademarks belong to their respective owners.'}</p>
+      : 'Perfumdle is an independent editorial site, not affiliated with the houses mentioned. Names and trademarks belong to their respective owners.'}{shopsFor(locale).length > 0 && (fr
+      ? ' Certains liens vers des boutiques sont affiliés : Perfumdle peut toucher une commission sur un achat, sans surcoût pour vous.'
+      : ' Some links to shops are affiliate links: Perfumdle may earn a commission on a purchase, at no extra cost to you.')}</p>
     <p>&copy; {year} Perfumdle · <a href={fr ? '/en/' : '/fr/'}>{fr ? 'English' : 'Français'}</a></p>
   </div>
 </footer>

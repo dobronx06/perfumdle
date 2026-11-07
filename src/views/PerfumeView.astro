@@ -3,6 +3,7 @@ import { bfForPerfume, bfUrl } from '../lib/blackfriday';
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import PriceBox from '../components/PriceBox.astro';
 import GameCta from '../components/GameCta.astro';
 import Crumbs from '../components/Crumbs.astro';
 import Faq from '../components/Faq.astro';
@@ -170,6 +171,7 @@ const jsonLd = compact([
           </div>
         </section>
       </div>
+      <PriceBox locale={l} name={p.name} brand={p.brand} slug={p.slug} from="perfume" />
       <GameCta locale={l} from="perfume" />
 
       <section class="section--tight section--paper2">
