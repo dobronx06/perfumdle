@@ -63,7 +63,7 @@ def size_ml(title):
     return round(v * 29.57) if len(m.groups()) > 1 and m.group(2) == 'oz' else round(v)
 
 
-TITLE = re.compile(r'^(?P<name>.+?)\s+(?:perfume|cologne)?\s*for (?:women|men|unisex)\s+by\s+(?P<rest>.+)$', re.I)
+TITLE = re.compile(r'^(?P<name>.+?)\s+(?:perfume|cologne)?\s*for (?P<gender>women|men|unisex)\s+by\s+(?P<rest>.+)$', re.I)
 # Imitation oils ("Type Perfume Oil"), testers, unboxed bottles, sets and body products are never offered
 EXCLUDE = re.compile(r'\b(type perfume oil|roll ?on|tester|unboxed|set|gift|sample|vial|mini|deodorant|deo|lotion|shower|gel|balm|after ?shave|body|hair|candle|travel|refill)\b', re.I)
 
@@ -76,7 +76,7 @@ def parse(p):
     brand = norm(p.get('brand') or '')
     rest = norm(m.group('rest'))
     conc = rest[len(brand):] if brand and rest.startswith(brand) else rest
-    return {'name': norm(m.group('name')), 'brand': brand, 'conc': f' {conc} '}
+    return {'name': norm(m.group('name')), 'brand': brand, 'conc': f' {conc} ', 'gender': m.group('gender').lower()}
 
 
 def brand_words(b):
@@ -124,6 +124,9 @@ def match(products, perfumes):
             if pname != name:
                 continue
             if not same_concentration(pf.get('concentration') or '', x['conc']):
+                continue
+            # "Aventus for Women" is another perfume than Aventus
+            if {'Masculine': 'women', 'Feminine': 'men'}.get(pf.get('gender')) == x['gender']:
                 continue
             ml = size_ml(p['title'])
             if ml is not None and ml < 30:
