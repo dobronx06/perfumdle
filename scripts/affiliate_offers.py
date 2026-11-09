@@ -97,9 +97,15 @@ def same_concentration(conc, padded):
     return True
 
 
+def rank(o):
+    """The 100 ml bottle (90 to 125 ml) when the shop has one, else the cheapest bottle."""
+    hundred = o['ml'] is not None and 90 <= o['ml'] <= 125
+    return (0 if hundred else 1, abs((o['ml'] or 0) - 100) if hundred else 0, o['price'])
+
+
 def match(products, perfumes):
     """Best offer per perfume slug: same brand, same name once the brand is removed, same concentration,
-    a real bottle of 30 ml or more. The cheapest such bottle wins."""
+    a real bottle of 30 ml or more. The 100 ml bottle wins when there is one, else the cheapest."""
     rows = []
     for p in products:
         if not p.get('price') or (p.get('availability') or 'in stock').lower().replace('_', ' ') == 'out of stock':
@@ -132,9 +138,10 @@ def match(products, perfumes):
             if ml is not None and ml < 30:
                 continue
             price = float(p['price']['amount'])
-            if not best or price < best['price']:
-                best = {'price': price, 'currency': p['price']['currency'], 'ml': ml, 'title': p['title'],
-                        'url': (p.get('linkCode') or {}).get('clickUrl') or p['link']}
+            cand = {'price': price, 'currency': p['price']['currency'], 'ml': ml, 'title': p['title'],
+                    'url': (p.get('linkCode') or {}).get('clickUrl') or p['link']}
+            if not best or rank(cand) < rank(best):
+                best = cand
         if best:
             offers[pf['slug']] = best
     return offers
