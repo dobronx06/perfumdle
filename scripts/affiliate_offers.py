@@ -37,7 +37,7 @@ def norm(s):
 
 
 def cj_products(tok, advertiser):
-    fields = 'id title brand price { amount currency } link availability linkCode(pid: "%s") { clickUrl }' % CJ_PID
+    fields = 'id title brand price { amount currency } link ... on Shopping { availability } linkCode(pid: "%s") { clickUrl }' % CJ_PID
     out, offset = [], 0
     while True:
         q = '{ products(companyId: "%s", partnerIds: ["%s"], limit: 1000, offset: %d) { totalCount count resultList { %s } } }' % (
