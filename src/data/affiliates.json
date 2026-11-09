@@ -3,9 +3,14 @@
     {
       "id": "fragranceshop",
       "name": "FragranceShop.com",
-      "locales": ["en"],
+      "locales": [
+        "en"
+      ],
       "click": "https://www.jdoqocy.com/click-101915272-16942179?url=",
-      "search": "https://www.fragranceshop.com/?s={q}&post_type=product"
+      "search": "https://www.fragranceshop.com/?s={q}&post_type=product",
+      "network": "cj",
+      "cj_advertiser": "7287203",
+      "catalog": true
     }
   ]
 }

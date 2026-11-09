@@ -1,29 +1,33 @@
 ---
 /**
- * "Voir le prix" call to action in the perfume hero: one button per affiliate shop serving this locale,
- * each opening the shop's search for the perfume. Renders nothing when no shop serves the locale yet. Clicks are sent to Plausible as
+ * "Voir le prix" call to action in the perfume hero: one button per affiliate shop serving this locale.
+ * When the shop's catalogue has been fetched, only shops that sell this perfume appear, with their price,
+ * size and product link; otherwise the button opens the shop's search. Clicks are sent to Plausible as
  * "Affiliate click" with the shop, the perfume and the page type.
  */
 import type { Locale } from '../i18n';
-import { shopsFor, shopLink } from '../lib/affiliates';
+import { shopsForPerfume, shopLink, formatPrice, offersDate } from '../lib/affiliates';
 
 interface Props { locale: Locale; name: string; brand: string; slug: string; from: string }
 const { locale: l, name, brand, slug, from } = Astro.props;
 const fr = l === 'fr';
-const shops = shopsFor(l);
+const shops = shopsForPerfume(l, slug);
+const seen = offersDate ? new Date(`${offersDate}T12:00:00Z`).toLocaleDateString(fr ? 'fr-FR' : 'en-US', { day: 'numeric', month: 'long', timeZone: 'UTC' }) : '';
 ---
 
 {shops.length > 0 && (
   <div class="buy">
-    {shops.map((s) => (
-      <a class="buy__btn" href={shopLink(s, `${brand} ${name}`)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume={slug} data-aff-from={from}>
-        <span class="buy__label">{fr ? `Voir le prix de ${name}` : `Check the price of ${name}`}</span>
-        <span class="buy__shop">{fr ? `chez ${s.name}` : `at ${s.name}`} <span aria-hidden="true">→</span></span>
+    {shops.map(({ shop: s, offer: o }) => (
+      <a class="buy__btn" href={o ? o.url : shopLink(s, `${brand} ${name}`)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume={slug} data-aff-from={from}>
+        <span class="buy__label">{o
+          ? (fr ? `${name} dès ${formatPrice(o, l)}` : `${name} from ${formatPrice(o, l)}`)
+          : (fr ? `Voir le prix de ${name}` : `Check the price of ${name}`)}</span>
+        <span class="buy__shop">{fr ? `chez ${s.name}` : `at ${s.name}`}{o?.ml ? ` · ${o.ml} ml` : ''} <span aria-hidden="true">→</span></span>
       </a>
     ))}
     <p class="buy__note">{fr
-      ? 'Lien affilié : Perfumdle peut toucher une commission, sans surcoût pour vous. Prix et stock fixés par la boutique.'
-      : 'Affiliate link: Perfumdle may earn a commission at no extra cost to you. Price and stock are set by the shop.'}</p>
+      ? `Lien affilié : Perfumdle peut toucher une commission, sans surcoût pour vous.${shops.some((x) => x.offer) ? ` Prix relevé le ${seen}, il peut avoir changé.` : ' Prix et stock fixés par la boutique.'}`
+      : `Affiliate link: Perfumdle may earn a commission at no extra cost to you.${shops.some((x) => x.offer) ? ` Price checked ${seen}, it may have changed.` : ' Price and stock are set by the shop.'}`}</p>
   </div>
 )}
 

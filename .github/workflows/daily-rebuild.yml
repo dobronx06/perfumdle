@@ -13,14 +13,27 @@ on:
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Refresh affiliate shop catalogues (prices shown on perfume pages)
+        env:
+          CJ_TOKEN: ${{ secrets.CJ_TOKEN }}
+        run: |
+          if [ -z "$CJ_TOKEN" ]; then echo "CJ_TOKEN secret not set, catalogues not refreshed"; exit 0; fi
+          python3 scripts/affiliate_offers.py
+          if git diff --quiet src/data/affiliate-offers.json; then exit 0; fi
+          git config user.name "perfumdle-bot"
+          git config user.email "perfumdle-bot@users.noreply.github.com"
+          git commit -m "data: daily affiliate catalogue refresh" src/data/affiliate-offers.json
+          git push
       - name: Trigger deploy hook
         env:
           DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
         run: |
           if [ -z "$DEPLOY_HOOK_URL" ]; then echo "DEPLOY_HOOK_URL secret not set"; exit 1; fi
           curl -fsS -X POST "$DEPLOY_HOOK_URL"
-      - name: Checkout (IndexNow script)
-        uses: actions/checkout@v4
       - name: Ping IndexNow with today's new URLs
         run: python3 scripts/indexnow.py new
