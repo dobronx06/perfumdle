@@ -133,6 +133,9 @@ def main():
         offers = match(products, perfumes)
         data['shops'][s['id']] = offers
         print(f"{s['id']}: {len(products)} products, {len(offers)} perfumes matched")
+        if os.environ.get('CATALOG_SAMPLE'):
+            for p in products[:: max(1, len(products) // 60)][:60]:
+                print('SAMPLE', p.get('brand'), '|', p['title'], '|', (p.get('price') or {}).get('amount'), '|', p.get('availability'))
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + '\n')
 
 
