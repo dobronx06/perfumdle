@@ -15,9 +15,6 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CJ_CID = '8110171'      # CJ company (publisher) ID
 CJ_PID = '101915272'    # CJ website ID for perfumdle.com
 OUT = ROOT / 'src/data/affiliate-offers.json'
-OK_TAIL = {'eau', 'de', 'toilette', 'parfum', 'cologne', 'edt', 'edp', 'spray', 'vaporisateur', 'for', 'men', 'women', 'unisex',
-           'him', 'her', 'by', 'oz', 'ml', 'fl', 'new', 'packaging'}
-SKIP = re.compile(r'\b(tester|unboxed|sample|vial|mini|miniature|gift set|set|coffret|deodorant|deo|lotion|shower|gel|balm|after ?shave|body|hair|candle|travel|refill)\b')
 
 
 def token():
@@ -59,51 +56,74 @@ def cj_products(tok, advertiser):
 
 
 def size_ml(title):
-    m = re.search(r'(\d+(?:\.\d+)?)\s*(oz|ml)\b', title.lower())
+    m = re.search(r'\((\d+(?:\.\d+)?)\s*ml\)', title.lower()) or re.search(r'(\d+(?:\.\d+)?)\s*(oz|ml)\b', title.lower())
     if not m:
         return None
     v = float(m.group(1))
-    return round(v * 29.57) if m.group(2) == 'oz' else round(v)
+    return round(v * 29.57) if len(m.groups()) > 1 and m.group(2) == 'oz' else round(v)
+
+
+TITLE = re.compile(r'^(?P<name>.+?)\s+(?:perfume|cologne)?\s*for (?:women|men|unisex)\s+by\s+(?P<rest>.+)$', re.I)
+# Imitation oils ("Type Perfume Oil"), testers, unboxed bottles, sets and body products are never offered
+EXCLUDE = re.compile(r'\b(type perfume oil|roll ?on|tester|unboxed|set|gift|sample|vial|mini|deodorant|deo|lotion|shower|gel|balm|after ?shave|body|hair|candle|travel|refill)\b', re.I)
+
+
+def parse(p):
+    """FragranceShop titles: '<Name> Perfume for Women by <Brand> Eau de Parfum Spray 3.4 oz (100ml)'."""
+    m = TITLE.match(p['title'].strip())
+    if not m or EXCLUDE.search(p['title']):
+        return None
+    brand = norm(p.get('brand') or '')
+    rest = norm(m.group('rest'))
+    conc = rest[len(brand):] if brand and rest.startswith(brand) else rest
+    return {'name': norm(m.group('name')), 'brand': brand, 'conc': f' {conc} '}
+
+
+def brand_words(b):
+    return set(norm(b).replace('ysl', '').split()) - {'christian', 'thierry', 'parfums', 'paris', 'by', 'and'}
 
 
 def same_concentration(conc, padded):
-    """Reject an eau de parfum for an eau de toilette fiche and the reverse, when the title says which it is."""
+    """Reject an eau de parfum for an eau de toilette fiche and the reverse."""
     c = conc.lower()
     edt = ' toilette ' in padded or ' edt ' in padded
     edp = ' eau de parfum ' in padded or ' edp ' in padded
     if 'toilette' in c:
-        return not edp
+        return not edp and edt
     if 'eau de parfum' in c:
-        return not edt and ' cologne ' not in padded
+        return edp
+    if c.strip() == 'parfum' or 'extrait' in c:
+        return not edt and not edp
     return True
 
 
 def match(products, perfumes):
-    """Best (cheapest bottle of 30 ml or more) product per perfume slug: brand and the full name must appear."""
+    """Best offer per perfume slug: same brand, same name once the brand is removed, same concentration,
+    a real bottle of 30 ml or more. The cheapest such bottle wins."""
+    rows = []
+    for p in products:
+        if not p.get('price') or (p.get('availability') or 'in stock').lower().replace('_', ' ') == 'out of stock':
+            continue
+        x = parse(p)
+        if x:
+            rows.append((x, p))
     offers = {}
-    rows = [(norm(f"{p.get('brand') or ''} {p['title']}"), p) for p in products
-            if p.get('price') and (p.get('availability') or 'in stock').lower().replace('_', ' ') != 'out of stock']
     for pf in perfumes:
-        brand = norm(pf['brand']).replace('thierry ', '')
-        name = norm(pf['name'])
+        bw = brand_words(pf['brand'])
+        if not bw:
+            continue
+        name = ' '.join(w for w in norm(pf['name']).split() if w not in bw)
         if not name:
             continue
         best = None
-        for text, p in rows:
-            padded = f' {text} '
-            if f' {brand} ' not in padded or SKIP.search(text):
+        for x, p in rows:
+            pb = brand_words(x['brand'])
+            if not (bw <= pb or pb <= bw) or not pb:
                 continue
-            if f' {name} ' not in padded:
+            pname = ' '.join(w for w in x['name'].split() if w not in pb and w not in bw)
+            if pname != name:
                 continue
-            if not same_concentration(pf.get('concentration') or '', padded):
-                continue
-            # "Sauvage" must not catch "Eau Sauvage" or "Sauvage Elixir": around the name, only brand,
-            # concentration and size words are allowed
-            head, tail = padded.split(f' {name} ', 1)
-            house = set(brand.split()) | {'christian', 'thierry', 'paris', 'by'}
-            if any(w not in house for w in head.split()):
-                continue
-            if any(w not in OK_TAIL | house and not re.fullmatch(r'[\d.]+', w) for w in tail.split()):
+            if not same_concentration(pf.get('concentration') or '', x['conc']):
                 continue
             ml = size_ml(p['title'])
             if ml is not None and ml < 30:
