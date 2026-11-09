@@ -19,6 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Refresh affiliate shop catalogues (prices shown on perfume pages)
+        continue-on-error: true # a catalogue failure must never block the daily publish
         env:
           CJ_TOKEN: ${{ secrets.CJ_TOKEN }}
         run: |

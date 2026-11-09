@@ -9,7 +9,7 @@ or from ~/.config/perfumdle/affiliate.env (CJ_TOKEN=...). It is never printed.
 
 Usage: python3 scripts/affiliate_offers.py
 """
-import json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request
+import json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request, urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CJ_CID = '8110171'      # CJ company (publisher) ID
@@ -37,19 +37,17 @@ def norm(s):
 
 
 def cj_products(tok, advertiser):
-    q = '''query ($cid: ID!, $adv: [ID!], $offset: Int) {
-      products(companyId: $cid, partnerIds: $adv, limit: 1000, offset: $offset) {
-        totalCount count
-        resultList { id title brand price { amount currency } link availability
-          linkCode(pid: "%s") { clickUrl } }
-      }
-    }''' % CJ_PID
+    fields = 'id title brand price { amount currency } link availability linkCode(pid: "%s") { clickUrl }' % CJ_PID
     out, offset = [], 0
     while True:
-        body = json.dumps({'query': q, 'variables': {'cid': CJ_CID, 'adv': [advertiser], 'offset': offset}}).encode()
-        req = urllib.request.Request('https://ads.api.cj.com/query', data=body,
+        q = '{ products(companyId: "%s", partnerIds: ["%s"], limit: 1000, offset: %d) { totalCount count resultList { %s } } }' % (
+            CJ_CID, advertiser, offset, fields)
+        req = urllib.request.Request('https://ads.api.cj.com/query', data=json.dumps({'query': q}).encode(),
                                      headers={'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json'})
-        res = json.load(urllib.request.urlopen(req, timeout=60))
+        try:
+            res = json.load(urllib.request.urlopen(req, timeout=60))
+        except urllib.error.HTTPError as e:
+            sys.exit(f'CJ API HTTP {e.code}: {e.read().decode(errors="replace")[:800]}')
         if res.get('errors'):
             sys.exit(f'CJ API error: {res["errors"]}')
         p = res['data']['products']
