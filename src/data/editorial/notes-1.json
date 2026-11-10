@@ -736,50 +736,66 @@
   "category": "citrus",
   "source": "natural",
   "fr": {
-   "title": "Parfum mandarine : odeur, origine et icônes",
-   "meta": "Sucrée, juteuse, plus ronde que le citron : la mandarine apporte une fraîcheur souriante aux parfums. Son odeur, son origine et les créations phares.",
-   "h1": "La mandarine en parfum : l’agrume le plus doux",
-   "intro": "La mandarine est un agrume dont l’essence apporte au parfum une fraîcheur sucrée, juteuse et ronde, moins acide que le citron. Son odeur évoque le quartier de fruit pelé, avec une nuance florale et légèrement épicée. On la trouve surtout en note de tête, dans tous les styles de parfums.",
-   "smell": "La mandarine sent le fruit fraîchement pelé, avec une douceur presque confite et une petite amertume de zeste. La mandarine verte est plus acidulée et pétillante, la rouge plus sucrée et ronde. Une facette florale, proche du néroli, et une nuance légèrement épicée la rendent plus chaleureuse que les autres agrumes. Sur la peau, elle s’évapore assez vite mais laisse une impression lumineuse et souriante, qui adoucit l’entrée en matière du parfum.",
-   "origin": "La mandarine (Citrus reticulata), originaire de Chine, est cultivée en Italie, notamment en Sicile et en Calabre, ainsi qu’au Brésil et en Espagne. Son essence s’obtient par expression à froid des écorces. Selon le moment de la récolte, on distingue les essences verte, jaune et rouge, de plus en plus sucrées. Sa signature tient en partie au N-méthylanthranilate de méthyle, qui lui donne sa facette florale et légèrement fumée.",
-   "craft": "En tête, la mandarine apporte une fraîcheur ronde qui adoucit les compositions. Elle se marie au néroli, à la bergamote, au basilic, aux épices chaudes, à la rose et à la vanille. Lime Basil & Mandarin de Jo Malone en fait l’une de ses vedettes, 1 Million de Paco Rabanne l’associe au pamplemousse et à la menthe, et Allure de Chanel l’utilise pour éclairer un floral oriental.",
-   "wear": "La mandarine se porte en toutes saisons, particulièrement au printemps et en été ; elle plaît à ceux qui aiment une fraîcheur douce, jamais agressive.",
+   "title": "Parfum mandarine : odeur, origine et meilleurs parfums",
+   "meta": "Un parfum à la mandarine sent le fruit pelé, sucré et juteux, plus rond que le citron. Son odeur, son origine et les meilleurs parfums mandarine.",
+   "h1": "Parfum mandarine : l'agrume le plus doux de la parfumerie",
+   "intro": "Un parfum à la mandarine sent le quartier de fruit qu'on vient de peler : sucré, juteux, moins acide que le citron, avec une nuance florale. Pour sentir la mandarine au premier plan, essayez Lime Basil & Mandarin de Jo Malone, Aqua Allegoria Mandarine Basilic de Guerlain ou Afternoon Swim de Louis Vuitton. Ailleurs, elle sert surtout de note de tête, de Shalimar à Libre d'Yves Saint Laurent. C'est l'un des agrumes les plus utilisés : plus de trois cents parfums de notre base en contiennent. Voici son odeur, son origine et nos conseils pour la porter.",
+   "smell": "La mandarine sent le fruit fraîchement pelé, avec une douceur presque confite et une petite amertume de zeste. La mandarine verte est plus acidulée et pétillante. La rouge, cueillie mûre, est plus sucrée et ronde. Une facette florale, proche du néroli, la rend plus chaleureuse que les autres agrumes. On y sent parfois une pointe légèrement fumée. Sur la peau, elle s'évapore assez vite, comme tous les agrumes. Elle laisse pourtant une impression lumineuse qui adoucit l'entrée du parfum. Comparée à l'orange douce, elle paraît plus veloutée. Comparée à la bergamote, elle est moins verte et moins amère. C'est l'agrume qu'on choisit quand on veut de la fraîcheur sans rien de piquant.",
+   "origin": "La mandarine (Citrus reticulata) est originaire de Chine. Pour la parfumerie, les essences les plus réputées viennent d'Italie, surtout de Sicile et de Calabre, mais on en produit aussi au Brésil et en Espagne. L'essence s'obtient par expression à froid des écorces, sans chauffer. Selon la date de récolte, on distingue trois qualités : verte en début de saison, puis jaune, puis rouge sur le fruit bien mûr. Chacune est plus sucrée que la précédente. Le limonène forme environ 70 % de l'essence, suivi du gamma-terpinène. Le marqueur de la mandarine est pourtant une molécule présente à moins de 1 % : le N-méthylanthranilate de méthyle. C'est lui qui lui donne sa facette florale et un peu fumée, et qui la distingue de l'orange. Comme toutes les essences d'agrumes pressées, elle s'oxyde à l'air : un flacon ouvert depuis longtemps perd son éclat.",
+   "craft": "En tête, la mandarine apporte une fraîcheur ronde qui rend l'ouverture plus aimable. Elle s'accorde avec le néroli et la bergamote, le basilic, les épices chaudes, la rose et la vanille. Lime Basil & Mandarin de Jo Malone en fait l'une de ses vedettes, avec le citron vert et le basilic. Guerlain la pose au cœur de Mandarine Basilic, avec la pivoine et le thé vert. Afternoon Swim de Louis Vuitton l'associe à l'orange sanguine pour une cologne de piscine. Dans les orientaux, elle éclaire la vanille : c'est le cas dans Shalimar et dans Libre, où elle côtoie la lavande. Côté masculin, 1 Million et Invictus de Paco Rabanne l'associent au pamplemousse. Allure Homme de Chanel l'utilise avec la bergamote avant le vétiver et le cèdre. Comme elle dure peu, le parfumeur la soutient souvent par du néroli ou de la fleur d'oranger.",
+   "wear": "La mandarine se porte toute l'année, et surtout au printemps et en été. Seule, elle tient peu : renouvelez une cologne à la mandarine dans la journée, ou vaporisez-la sur un vêtement. Dans un parfum plus riche, elle sert d'ouverture souriante et convient à ceux qui trouvent le citron trop acide.",
    "faq": [
     {
      "q": "Quelle odeur a la mandarine en parfum ?",
-     "a": "La mandarine sent le fruit pelé, juteux et sucré, avec une légère amertume de zeste et une facette florale. Elle est plus douce et ronde que le citron ou le pamplemousse. En parfum, elle donne une ouverture lumineuse et chaleureuse, qui s’accorde aussi bien avec les fleurs qu’avec les épices et les bois."
+     "a": "La mandarine sent le fruit pelé, juteux et sucré, avec une légère amertume de zeste et une facette florale. Elle est plus douce et ronde que le citron ou le pamplemousse. En parfum, elle donne une ouverture lumineuse qui s'accorde avec les fleurs, les épices et les bois."
+    },
+    {
+     "q": "Quel est le meilleur parfum à la mandarine ?",
+     "a": "Pour une mandarine au premier plan, Lime Basil & Mandarin de Jo Malone est la référence, avec le citron vert et le basilic. Aqua Allegoria Mandarine Basilic de Guerlain est plus floral, avec la pivoine et le thé vert. Afternoon Swim de Louis Vuitton en fait une cologne d'été à l'orange sanguine."
     },
     {
      "q": "Quelle différence entre mandarine et orange en parfum ?",
-     "a": "L’orange douce est plus simple, plus solaire et légèrement plus acide. La mandarine possède une nuance florale et presque épicée, due notamment au N-méthylanthranilate de méthyle, qui la rend plus complexe et plus sucrée. Les parfumeurs choisissent la mandarine pour une fraîcheur plus veloutée, et l’orange pour un éclat plus direct."
+     "a": "L'orange douce est plus simple, plus solaire et légèrement plus acide. La mandarine a une nuance florale et presque fumée, due au N-méthylanthranilate de méthyle, qui la rend plus complexe. Les parfumeurs choisissent la mandarine pour une fraîcheur veloutée, l'orange pour un éclat plus direct."
+    },
+    {
+     "q": "Pourquoi une note de mandarine tient-elle peu ?",
+     "a": "Ses molécules principales, comme le limonène, sont très volatiles et s'évaporent en quelques dizaines de minutes. C'est le cas de tous les agrumes. Pour la prolonger, choisissez un parfum où elle est soutenue par du néroli, de la fleur d'oranger ou un musc."
     },
     {
      "q": "Quels parfums célèbres contiennent de la mandarine ?",
-     "a": "La mandarine est très répandue : Shalimar de Guerlain, Opium d’Yves Saint Laurent, Allure de Chanel, Alien de Mugler ou Fahrenheit de Dior l’utilisent en tête. Côté masculins modernes, 1 Million et Invictus de Paco Rabanne s’ouvrent également sur la mandarine, souvent associée au pamplemousse."
+     "a": "On la trouve en tête de Shalimar de Guerlain, d'Opium d'Yves Saint Laurent, d'Allure de Chanel et d'Alien de Mugler. Libre d'Yves Saint Laurent l'associe à la lavande. Côté masculin, 1 Million et Invictus de Paco Rabanne s'ouvrent aussi sur la mandarine."
     }
    ]
   },
   "en": {
-   "title": "Mandarin in Perfume: What It Smells Like & Best Fragrances",
-   "meta": "Sweet, juicy and rounder than lemon, mandarin brings a smiling freshness to fragrance. Its scent, where it comes from and the perfumes that feature it.",
-   "h1": "What does mandarin smell like in perfume?",
-   "intro": "Mandarin is a citrus fruit whose oil gives perfume a sweet, juicy, rounded freshness that is less sharp than lemon. It smells of a freshly peeled segment, with floral and slightly spicy nuances. It mostly appears in the top notes, across every style of fragrance.",
-   "smell": "Mandarin smells of freshly peeled fruit, with an almost candied sweetness and a touch of zesty bitterness. Green mandarin is tarter and fizzier, red mandarin sweeter and rounder. A floral facet close to neroli and a faintly spicy nuance make it warmer than other citrus notes. On skin it evaporates fairly quickly but leaves a luminous, cheerful impression that softens the opening of a perfume.",
-   "origin": "Mandarin (Citrus reticulata), native to China, is grown in Italy, notably Sicily and Calabria, as well as Brazil and Spain. Its oil is obtained by cold-pressing the peel. Depending on harvest time, perfumers distinguish green, yellow and red oils, each sweeter than the last. Part of its signature comes from methyl N-methylanthranilate, which gives it a floral, slightly smoky facet.",
-   "craft": "In the top notes mandarin brings a rounded freshness that softens a composition and makes its opening more inviting. It pairs with neroli, bergamot, basil, warm spices, rose and vanilla. Jo Malone Lime Basil & Mandarin makes it one of its stars, Paco Rabanne 1 Million pairs it with grapefruit and mint, and Chanel Allure uses it to brighten a floral oriental.",
-   "wear": "Mandarin works year-round, especially in spring and summer, for anyone who likes a gentle, never harsh freshness.",
+   "title": "Mandarin Perfume: What It Smells Like and the Best Picks",
+   "meta": "Mandarin in perfume smells of peeled fruit, sweet and juicy, rounder than lemon. Its scent, where it comes from and the best mandarin perfumes to try.",
+   "h1": "Mandarin in perfume: the sweetest citrus",
+   "intro": "A mandarin perfume smells of a freshly peeled segment: sweet, juicy and less sharp than lemon, with a floral nuance. To smell mandarin up front, try Jo Malone Lime Basil & Mandarin, Guerlain Aqua Allegoria Mandarine Basilic or Louis Vuitton Afternoon Swim. Elsewhere it mostly works as a top note, from Shalimar to Yves Saint Laurent Libre. It is one of the most used citrus notes, found in more than three hundred perfumes in our database. Here is its scent, its origin and how to wear it.",
+   "smell": "Mandarin smells of freshly peeled fruit, with an almost candied sweetness and a touch of bitter zest. Green mandarin is tarter and fizzier. Red mandarin, picked ripe, is sweeter and rounder. A floral facet close to neroli makes it warmer than other citrus notes. Some people pick up a faintly smoky hint. On skin it evaporates fairly fast, like all citrus. It still leaves a bright impression that softens the opening of a perfume. Next to sweet orange it feels more velvety. Next to bergamot it is less green and less bitter. It is the citrus to choose when you want freshness with no sharp edge.",
+   "origin": "Mandarin (Citrus reticulata) is native to China. For perfume, the most prized oils come from Italy, mainly Sicily and Calabria, though Brazil and Spain also produce it. The oil is cold-pressed from the peel, with no heat. Depending on harvest time there are three grades: green early in the season, then yellow, then red from fully ripe fruit. Each is sweeter than the last. Limonene makes up about 70% of the oil, followed by gamma-terpinene. The marker of mandarin, though, is a molecule present at under 1%: methyl N-methylanthranilate. It gives the floral, slightly smoky facet and sets mandarin apart from orange. Like every pressed citrus oil, it oxidises in air, so a bottle left open for a long time loses its sparkle.",
+   "craft": "In the top notes, mandarin brings a rounded freshness that makes an opening friendlier. It pairs with neroli and bergamot, basil, warm spices, rose and vanilla. Jo Malone Lime Basil & Mandarin makes it a star, with lime and basil. Guerlain places it at the heart of Mandarine Basilic, with peony and green tea. Louis Vuitton Afternoon Swim pairs it with blood orange for a poolside cologne. In orientals it brightens vanilla, as in Shalimar and in Libre, where it sits next to lavender. For men, Paco Rabanne 1 Million and Invictus pair it with grapefruit. Chanel Allure Homme uses it with bergamot before vetiver and cedar. Because it fades fast, perfumers often prop it up with neroli or orange blossom.",
+   "wear": "Mandarin works all year, especially in spring and summer. On its own it does not last, so top up a mandarin cologne during the day or spray it on clothing. In a richer perfume it acts as a cheerful opening and suits anyone who finds lemon too sharp.",
    "faq": [
     {
      "q": "What does mandarin smell like in perfume?",
-     "a": "Mandarin smells of peeled fruit, juicy and sweet, with a light zesty bitterness and a floral facet. It is softer and rounder than lemon or grapefruit. In perfume it gives a bright, warm opening that works equally well with florals, spices and woods."
+     "a": "Mandarin smells of peeled fruit, juicy and sweet, with a light zesty bitterness and a floral facet. It is softer and rounder than lemon or grapefruit. In perfume it gives a bright opening that works with florals, spices and woods."
+    },
+    {
+     "q": "What is the best mandarin perfume?",
+     "a": "For mandarin up front, Jo Malone Lime Basil & Mandarin is the benchmark, with lime and basil. Guerlain Aqua Allegoria Mandarine Basilic is more floral, with peony and green tea. Louis Vuitton Afternoon Swim turns it into a summer cologne with blood orange."
     },
     {
      "q": "What is the difference between mandarin and orange in perfume?",
-     "a": "Sweet orange is simpler, sunnier and slightly sharper. Mandarin has a floral, almost spicy nuance, largely due to methyl N-methylanthranilate, which makes it more complex and sweeter. Perfumers choose mandarin for a velvety freshness and orange for a more direct burst of brightness."
+     "a": "Sweet orange is simpler, sunnier and slightly sharper. Mandarin has a floral, almost smoky nuance from methyl N-methylanthranilate, which makes it more complex. Perfumers choose mandarin for a velvety freshness and orange for a more direct burst."
+    },
+    {
+     "q": "Why does a mandarin note fade so fast?",
+     "a": "Its main molecules, such as limonene, are very volatile and evaporate within tens of minutes. The same goes for all citrus. To make it last, choose a perfume where neroli, orange blossom or musk supports it."
     },
     {
      "q": "Which famous perfumes contain mandarin?",
-     "a": "Mandarin is everywhere: Guerlain Shalimar, Yves Saint Laurent Opium, Chanel Allure, Mugler Alien and Dior Fahrenheit all use it in their top notes. Among modern masculines, Paco Rabanne 1 Million and Invictus also open with mandarin, often paired with grapefruit."
+     "a": "It sits in the top notes of Guerlain Shalimar, Yves Saint Laurent Opium, Chanel Allure and Mugler Alien. Yves Saint Laurent Libre pairs it with lavender. For men, Paco Rabanne 1 Million and Invictus also open with mandarin."
     }
    ]
   }
@@ -1016,50 +1032,66 @@
   "category": "spicy",
   "source": "natural",
   "fr": {
-   "title": "Parfum poivre : odeur, origine et créations phares",
-   "meta": "Sec, piquant, boisé : le poivre noir apporte énergie et relief aux parfums. Son odeur, son extraction, sa différence avec le poivre rose, les parfums clés.",
-   "h1": "Parfum poivre : une épice sèche qui électrise",
-   "intro": "Le poivre noir apporte au parfum une note épicée sèche, piquante et boisée, avec une fraîcheur presque citronnée. Il ne pique pas le nez comme en cuisine : il électrise la composition. On le trouve en tête ou au cœur de nombreux parfums masculins et mixtes.",
-   "smell": "Le poivre noir sent le grain fraîchement moulu : sec, boisé, légèrement résineux, avec une vivacité citronnée et une petite chaleur. Il n’a pas l’effet brûlant du poivre en bouche, mais une sensation de crépitement, d’énergie. Sur la peau, il ouvre la composition avec du mordant, puis se fond dans les bois et l’ambre, laissant une trace sèche et élégante. Associé aux agrumes, il donne un effet frais ; avec les bois, une impression plus sombre.",
-   "origin": "Le poivre noir (Piper nigrum) est une liane originaire de la côte de Malabar, en Inde. Il est cultivé en Inde, au Vietnam, en Indonésie, au Sri Lanka et à Madagascar. Les baies séchées sont distillées à la vapeur ou extraites au CO2, procédé qui restitue une odeur plus fidèle au grain frais. Le poivre rose, souvent cité en parfumerie, provient d’un arbre différent, le Schinus, et offre une note plus fruitée et rosée.",
-   "craft": "Le poivre se place en tête ou au cœur pour apporter du relief et de l’énergie. Il se marie aux agrumes, à la lavande, au vétiver, à l’encens, à la rose et aux bois ambrés. Sauvage de Dior l’associe à la bergamote dès l’ouverture, Terre d’Hermès le pose au cœur avec le géranium et le patchouli, et Rose 31 du Labo l’utilise avec le cumin pour donner une rose sèche et épicée.",
-   "wear": "Le poivre se porte en toutes saisons, surtout en automne ; il plaît à ceux qui recherchent des parfums nerveux, élégants et modernes.",
+   "title": "Parfum poivre : odeur, poivre noir ou rose, meilleurs parfums",
+   "meta": "Un parfum au poivre sent le grain moulu, sec et boisé, sans piquer. Odeur et origine, poivre noir ou rose, et les meilleurs parfums poivrés homme et femme.",
+   "h1": "Parfum poivre : odeur, origine et parfums poivrés",
+   "intro": "Un parfum au poivre sent le grain fraîchement moulu : sec, boisé, un peu citronné, sans piquer le nez. Les plus connus sont Sauvage de Dior, Terre d'Hermès et Allure Homme de Chanel côté homme, Crystal Noir de Versace et 31 Rue Cambon de Chanel côté femme. Le poivre noir se place en tête ou au cœur, où il donne de l'énergie à une composition. Notre base compte plus de cent parfums qui en contiennent, majoritairement masculins. Voici ce que sent le poivre, d'où il vient et comment le choisir.",
+   "smell": "Le poivre noir sent le grain qu'on vient de moudre. L'odeur est sèche et boisée, légèrement résineuse, avec une vivacité citronnée et une petite chaleur. On n'a pas la brûlure du poivre en bouche, plutôt une sensation de crépitement. Sur la peau, il ouvre la composition avec du mordant, puis se fond dans les bois et l'ambre. Il laisse une trace sèche, élégante, un peu poussiéreuse. Associé aux agrumes, il paraît frais et nerveux. Avec l'encens, le cuir ou le vétiver, il devient plus sombre. Le poivre rose, qu'on croise aussi très souvent, n'a pas la même odeur. Il est plus fruité, presque rosé, et pétille comme une baie. Le poivre de Sichuan, présent dans Sauvage, ajoute lui une facette citronnée et légèrement anesthésiante.",
+   "origin": "Le poivre noir (Piper nigrum) est une liane originaire de la côte de Malabar, au sud-ouest de l'Inde, où il pousse encore à l'état sauvage dans les Ghâts occidentaux. Dans l'Antiquité, il partait du port de Muziris vers l'Égypte et Rome. Le Vietnam en est aujourd'hui le premier producteur, avec environ 30 % de la récolte mondiale, devant le Brésil, l'Indonésie et l'Inde. Le poivre noir vient du fruit vert, brièvement chauffé puis séché jusqu'à noircir. Le poivre blanc n'est que la graine, sans son enveloppe : il perd une grande partie des molécules odorantes. En parfumerie, on distille les grains à la vapeur ou on les extrait au CO2, ce qui donne une odeur plus proche du grain frais. Les terpènes (limonène, pinène, caryophyllène) apportent le côté citronné et boisé. La rotundone donne la note poivrée elle-même. La pipérine, qui fait piquer en bouche, n'est pas volatile. Elle ne passe donc pas dans l'huile essentielle, et c'est pour cela que le poivre ne pique pas en parfum. Le poivre rose vient d'un tout autre arbre, le Schinus.",
+   "craft": "Le poivre se place en tête ou au cœur pour donner du relief. Il s'accorde avec les agrumes et la lavande, le vétiver et l'encens, la rose ou les bois ambrés. Sauvage de Dior l'associe à la bergamote dès l'ouverture, sur un fond d'ambroxan. Terre d'Hermès le pose au cœur avec le géranium et le patchouli, pour un boisé minéral. Allure Homme de Chanel le glisse entre le vétiver et le cèdre. Côté femme, Chanel l'utilise dans 31 Rue Cambon, avec l'iris et le patchouli. Crystal Noir de Versace l'ouvre avec le gingembre et la cardamome, avant le gardénia et la noix de coco. L'Interdit Intense de Givenchy l'oppose à la tubéreuse. Rose 31 du Labo s'en sert pour une rose sèche et épicée. Le poivre est surtout un outil : on le remarque rarement seul, mais un parfum sans lui paraîtrait plus plat.",
+   "wear": "Le poivre se porte en toute saison, avec un faible pour l'automne. En été, choisissez-le associé aux agrumes, comme dans Sauvage ou Allure Homme Sport. Le soir et l'hiver, préférez-le avec l'encens, le cuir ou l'oud, comme dans Interlude Man d'Amouage. Il convient aux peaux qui font tourner les parfums sucrés, car il les assèche. Côté femme, c'est une bonne porte vers les floraux moins sages.",
    "faq": [
     {
      "q": "Que sent le poivre en parfum ?",
-     "a": "En parfum, le poivre noir sent le grain fraîchement moulu : sec, boisé, légèrement citronné et chaud. Il ne pique pas comme en cuisine, il apporte plutôt une sensation d’énergie et de crépitement. Selon les notes qui l’entourent, il peut donner un effet frais avec les agrumes ou plus sombre avec les bois et l’encens."
+     "a": "En parfum, le poivre noir sent le grain fraîchement moulu : sec, boisé, légèrement citronné et chaud. Il ne pique pas comme en cuisine, il apporte plutôt une sensation de crépitement. Avec les agrumes il paraît frais, avec les bois et l'encens plus sombre."
+    },
+    {
+     "q": "Pourquoi le poivre ne pique pas en parfum ?",
+     "a": "Le piquant du poivre vient de la pipérine, une molécule qui n'est pas volatile. Elle ne passe pas dans l'huile essentielle obtenue par distillation ou extraction. Le parfumeur ne garde que les molécules odorantes, comme la rotundone et les terpènes, qui sentent le poivre sans brûler."
     },
     {
      "q": "Quelle différence entre poivre noir et poivre rose en parfum ?",
-     "a": "Le poivre noir vient de la liane Piper nigrum et sent sec, boisé et épicé. Le poivre rose provient d’un arbre différent, le Schinus, et offre une odeur plus fruitée, rosée et pétillante. En parfum, le poivre noir structure les compositions boisées, tandis que le poivre rose apporte une fraîcheur légère aux floraux et aux fruités."
+     "a": "Le poivre noir vient de la liane Piper nigrum et sent sec, boisé et épicé. Le poivre rose provient d'un arbre différent, le Schinus, et offre une odeur plus fruitée et pétillante. Le poivre noir structure les compositions boisées. Le poivre rose apporte une fraîcheur légère aux floraux et aux fruités."
     },
     {
      "q": "Quel parfum au poivre pour homme ?",
-     "a": "Sauvage de Dior est l’un des parfums poivrés les plus connus, avec son ouverture bergamote et poivre. Terre d’Hermès l’utilise au cœur d’un boisé minéral, Allure Homme Sport de Chanel dans une composition fraîche, et Nuit d’Issey d’Issey Miyake dans un accord plus sombre. Le poivre donne aux masculins du relief et de la modernité."
+     "a": "Sauvage de Dior est le parfum poivré le plus connu, avec son ouverture bergamote et poivre. Terre d'Hermès l'utilise au cœur d'un boisé minéral, Allure Homme de Chanel avec le vétiver et le cèdre. Gentleman Eau de Parfum de Givenchy l'associe à l'iris et à la vanille noire, pour un style plus chaud."
+    },
+    {
+     "q": "Quel parfum au poivre pour femme ?",
+     "a": "31 Rue Cambon de Chanel pose le poivre sur l'iris et le patchouli, pour un chypre sec. Crystal Noir de Versace l'associe au gingembre, au gardénia et à la noix de coco. L'Interdit Intense de Givenchy l'oppose à la tubéreuse et à la vanille. Rose des Vents de Louis Vuitton en fait une rose verte et poivrée."
     }
    ]
   },
   "en": {
-   "title": "Pepper in Perfume: What It Smells Like & Best Fragrances",
-   "meta": "Dry, crackling and woody, black pepper brings energy to fragrance. What it smells like, how it is extracted, how it differs from pink pepper, key scents.",
-   "h1": "What does pepper smell like in perfume?",
-   "intro": "Black pepper gives perfume a dry, crackling, woody spice with an almost lemony freshness. It does not sting like pepper in food: it electrifies the composition. It features in the top or heart of many masculine and unisex fragrances.",
-   "smell": "Black pepper smells of freshly ground peppercorns: dry, woody, slightly resinous, with a lemony liveliness and a gentle warmth. It lacks the burn of pepper on the tongue, offering instead a sense of crackle and energy. On skin it opens the composition with bite, then melts into woods and amber, leaving a dry, elegant trail. With citrus it feels fresh; with woods, darker and more brooding.",
-   "origin": "Black pepper (Piper nigrum) is a vine native to the Malabar Coast of India. It is grown in India, Vietnam, Indonesia, Sri Lanka and Madagascar. The dried berries are steam-distilled or CO2-extracted, a process that captures a scent closer to the freshly ground spice. Pink pepper, also common in perfumery, comes from an entirely different tree, Schinus, and offers a fruitier, rosier note.",
-   "craft": "Pepper sits in the top or heart to add relief and energy. It pairs with citrus, lavender, vetiver, incense, rose and ambery woods. Dior Sauvage teams it with bergamot right from the opening, Hermès Terre d'Hermès sets it in the heart with geranium and patchouli, and Le Labo Rose 31 uses it with cumin to create a dry, spicy rose.",
-   "wear": "Pepper works year-round, especially in autumn, for anyone who wants a nervy, elegant and modern fragrance.",
+   "title": "Pepper Perfume: What It Smells Like and the Best Peppery Scents",
+   "meta": "Pepper in perfume smells of freshly ground peppercorns, dry and woody, with no sting. Its scent and origin, black vs pink pepper, and the best picks.",
+   "h1": "Pepper in perfume: smell, origin and the best peppery scents",
+   "intro": "A pepper perfume smells of freshly ground peppercorns: dry, woody and slightly lemony, with no sting. The best known are Dior Sauvage, Terre d'Hermès and Chanel Allure Homme for men, and Versace Crystal Noir and Chanel 31 Rue Cambon for women. Black pepper sits in the top or heart, where it adds energy. Our database lists more than a hundred perfumes that contain it, most of them masculine. Here is what pepper smells like, where it comes from and how to choose a peppery scent.",
+   "smell": "Black pepper smells of peppercorns that have just been ground. The scent is dry and woody, slightly resinous, with a lemony lift and a gentle warmth. There is none of the burn you get on the tongue, more a sense of crackle. On skin it opens a perfume with bite, then melts into woods and amber. It leaves a dry, elegant, slightly dusty trail. With citrus it feels fresh and nervy. With incense, leather or vetiver it turns darker. Pink pepper, which you will also see a lot, smells different. It is fruitier, almost rosy, and fizzes like a berry. Sichuan pepper, used in Sauvage, adds a lemony and faintly numbing edge.",
+   "origin": "Black pepper (Piper nigrum) is a vine native to the Malabar Coast of south-west India, where it still grows wild in the Western Ghats. In antiquity it was shipped from the port of Muziris to Egypt and Rome. Vietnam is now the largest producer, with about 30% of the world crop, ahead of Brazil, Indonesia and India. Black pepper is the unripe fruit, briefly heated and then dried until it turns black. White pepper is just the seed without its outer layer, so it loses much of the aroma. For perfume, the peppercorns are steam-distilled or CO2-extracted, which gives a scent closer to the fresh spice. Terpenes such as limonene, pinene and caryophyllene bring the lemony, woody side. Rotundone gives the peppery note itself. Piperine, the compound that makes pepper hot in the mouth, is not volatile. It does not end up in the oil, which is why pepper never stings in perfume. Pink pepper comes from a completely different tree, Schinus.",
+   "craft": "Pepper sits in the top or heart to add relief. It pairs with citrus and lavender, vetiver and incense, rose or ambery woods. Dior Sauvage teams it with bergamot from the first spray, over ambroxan. Terre d'Hermès sets it in the heart with geranium and patchouli for a mineral woody scent. Chanel Allure Homme slips it between vetiver and cedar. For women, Chanel uses it in 31 Rue Cambon with iris and patchouli. Versace Crystal Noir opens it with ginger and cardamom before gardenia and coconut. Givenchy L'Interdit Intense sets it against tuberose. Le Labo Rose 31 uses it for a dry, spicy rose. Pepper is mostly a tool: you rarely notice it alone, but a perfume without it would feel flatter.",
+   "wear": "Pepper works in every season, with a soft spot for autumn. In summer, pick it with citrus, as in Sauvage or Allure Homme Sport. For evenings and winter, choose it with incense, leather or oud, as in Amouage Interlude Man. It suits skin that turns sweet scents cloying, because it dries them out. For women, it is a good way into less polite florals.",
    "faq": [
     {
      "q": "What does pepper smell like in perfume?",
-     "a": "In perfume, black pepper smells of freshly ground peppercorns: dry, woody, slightly lemony and warm. It does not sting like pepper in food; instead it brings a sense of energy and crackle. Depending on its neighbours it can feel fresh alongside citrus or darker with woods and incense."
+     "a": "In perfume, black pepper smells of freshly ground peppercorns: dry, woody, slightly lemony and warm. It does not sting like pepper in food and brings a sense of crackle instead. With citrus it feels fresh, with woods and incense darker."
+    },
+    {
+     "q": "Why does pepper not sting in perfume?",
+     "a": "The heat of pepper comes from piperine, a compound that is not volatile. It does not pass into the essential oil made by distillation or extraction. Perfumers keep only the smelling molecules, such as rotundone and terpenes, which smell of pepper without burning."
     },
     {
      "q": "What is the difference between black and pink pepper in perfume?",
-     "a": "Black pepper comes from the Piper nigrum vine and smells dry, woody and spicy. Pink pepper comes from a different tree, Schinus, and has a fruitier, rosier, fizzier scent. In perfume black pepper structures woody compositions, while pink pepper brings a light freshness to florals and fruity scents."
+     "a": "Black pepper comes from the Piper nigrum vine and smells dry, woody and spicy. Pink pepper comes from a different tree, Schinus, and smells fruitier and fizzier. Black pepper structures woody compositions. Pink pepper brings a light freshness to florals and fruity scents."
     },
     {
-     "q": "What are good pepper fragrances for men?",
-     "a": "Dior Sauvage is one of the best-known peppery fragrances, opening with bergamot and pepper. Terre d'Hermès uses it at the heart of a mineral woody scent, Chanel Allure Homme Sport in a fresh composition, and Issey Miyake Nuit d'Issey in a darker accord. Pepper gives masculines relief and modernity."
+     "q": "What are the best pepper fragrances for men?",
+     "a": "Dior Sauvage is the best-known peppery scent, opening with bergamot and pepper. Terre d'Hermès uses it at the heart of a mineral woody scent, Chanel Allure Homme with vetiver and cedar. Givenchy Gentleman Eau de Parfum pairs it with orris and black vanilla for a warmer style."
+    },
+    {
+     "q": "What are the best pepper perfumes for women?",
+     "a": "Chanel 31 Rue Cambon sets pepper over iris and patchouli for a dry chypre. Versace Crystal Noir pairs it with ginger, gardenia and coconut. Givenchy L'Interdit Intense sets it against tuberose and vanilla. Louis Vuitton Rose des Vents turns it into a green, peppery rose."
     }
    ]
   }

@@ -45,6 +45,10 @@ const byFame = (a: Perfume, b: Perfume) => a.id - b.id; // dataset is ordered by
 
 /* ------------------------------------------------------------------ brand */
 
+// Guerlain and Givenchy keep the generic title: "parfum guerlain" / "parfum givenchy" weigh more than the
+// narrower queries their rewrite targets.
+const QUERY_TITLED_HOUSES = new Set(['Maison Francis Kurkdjian', 'Ex Nihilo', 'Amouage', 'Ariana Grande', 'Versace', 'Mancera', 'Byredo', 'Louis Vuitton']);
+
 export function brandPage(b: Brand, l: Locale) {
   const fr = l === 'fr';
   const ed = b.ed?.[l];
@@ -66,10 +70,14 @@ export function brandPage(b: Brand, l: Locale) {
     b.ed?.type && { label: fr ? 'Catégorie' : 'Type', value: typeName(b.ed.type, l) },
   ].filter(Boolean) as { label: string; value: string }[];
 
+  // Houses ranked on page 3 to 5 for a query the generic title misses ("baccarat rouge" lands on the
+  // Kurkdjian page, "ex nihilo", "amouage parfum"): their editorial title and meta answer that query.
+  const queryTitle = QUERY_TITLED_HOUSES.has(b.name) && ed?.title && ed?.meta;
+
   return {
     locale: l,
-    title: houseTitle(b.name, b.perfumes, l),
-    description: houseDescription(b.name, b.perfumes, l),
+    title: queryTitle ? ed.title : houseTitle(b.name, b.perfumes, l),
+    description: queryTitle ? ed.meta : houseDescription(b.name, b.perfumes, l),
     eyebrow: fr ? 'Maison de parfum' : 'Perfume house',
     h1: fr ? `Les parfums ${b.name}` : `${b.name} perfumes`,
     intro,
