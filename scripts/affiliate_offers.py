@@ -41,10 +41,19 @@ def cj_products(tok, advertiser):
             CJ_CID, advertiser, offset, fields)
         req = urllib.request.Request('https://ads.api.cj.com/query', data=json.dumps({'query': q}).encode(),
                                      headers={'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json'})
-        try:
-            res = json.load(urllib.request.urlopen(req, timeout=60))
-        except urllib.error.HTTPError as e:
-            sys.exit(f'CJ API HTTP {e.code}: {e.read().decode(errors="replace")[:800]}')
+        # CJ sometimes stalls for minutes: retry the page instead of losing the day's prices.
+        for attempt in range(4):
+            try:
+                res = json.load(urllib.request.urlopen(req, timeout=120))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code < 500 or attempt == 3:
+                    sys.exit(f'CJ API HTTP {e.code}: {e.read().decode(errors="replace")[:800]}')
+            except (TimeoutError, urllib.error.URLError) as e:
+                if attempt == 3:
+                    sys.exit(f'CJ API unreachable after 4 tries: {e}')
+            print(f'CJ API slow or failing (offset {offset}), retry {attempt + 1}/3', flush=True)
+            time.sleep(30 * (attempt + 1))
         if res.get('errors'):
             sys.exit(f'CJ API error: {res["errors"]}')
         p = res['data']['products']

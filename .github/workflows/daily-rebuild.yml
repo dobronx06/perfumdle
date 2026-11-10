@@ -7,7 +7,8 @@ name: Daily rebuild
 
 on:
   schedule:
-    - cron: '15 5 * * *' # 05:15 UTC every day
+    # GitHub queues jobs scheduled on the hour for hours; an off-peak minute starts closer to time.
+    - cron: '37 2 * * *' # 02:37 UTC every day
   workflow_dispatch:
 
 jobs:
