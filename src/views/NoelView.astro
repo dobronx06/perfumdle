@@ -1,0 +1,194 @@
+---
+/**
+ * Christmas gift page (French only). The hub carries the "Quel parfum offrir ?" quiz: four questions scored in the
+ * browser against a compact candidate list built here from the catalogue (gender, family facets, year, intensity,
+ * popularity). Other pages: intro, sections, opinionated picks from the catalogue with their fiche and buy button
+ * (when an affiliate offer exists for France), FAQ and sources.
+ */
+import Shell from '../components/Shell.astro';
+import PerfumeCard from '../components/PerfumeCard.astro';
+import PriceBox from '../components/PriceBox.astro';
+import popularity from '../data/perfume-popularity.json';
+import { url, perfumes, perfumeBySlug, perfumeEditorial, mainFamily, allNotes } from '../lib/catalog';
+import { shopsForPerfume, formatPrice } from '../lib/affiliates';
+import { isPublished } from '../lib/schedule';
+import { noelPage, noelUrl, noelOfGroup, NOEL_HUB, NOEL_GROUPS } from '../lib/noel';
+import { faqLd, itemListLd } from '../lib/seo';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const c = noelPage(slug);
+const path = noelUrl(slug);
+const isHub = slug === NOEL_HUB;
+const picks = (c.picks ?? []).map((s) => perfumeBySlug.get(s)).filter(Boolean) as NonNullable<ReturnType<typeof perfumeBySlug.get>>[];
+const crumbs = [{ name: 'Accueil', href: url.home('fr') }, ...(isHub ? [{ name: 'Cadeau parfum' }] : [{ name: 'Cadeau parfum', href: noelUrl(NOEL_HUB) }, { name: c.label }])];
+const EYEBROW = { hub: 'Noël 2026', profile: 'Idée cadeau parfum', guide: 'Offrir un parfum', coffret: 'Coffret parfum' };
+const groups = NOEL_GROUPS.map((g) => ({ ...g, pages: noelOfGroup(g.key).filter((s) => s !== slug) })).filter((g) => g.pages.length);
+const label = (s: string) => noelPage(s).label;
+const hasSimilar = (s: string) => isPublished('similar', s);
+
+/* ------------------------------------------------------------ quiz (hub only) */
+const pop = popularity as Record<string, number>;
+const STYLES = ['frais', 'floral', 'gourmand', 'boise', 'oriental'] as const;
+const MAIN: Record<string, string[]> = {
+  frais: ['citrus', 'aquatic', 'aromatic', 'green', 'fougere'], floral: ['floral', 'powdery'], gourmand: ['gourmand'],
+  boise: ['woody', 'chypre', 'leather'], oriental: ['oriental', 'spicy'],
+};
+const ANY: Record<string, string[]> = {
+  frais: ['citrus', 'aquatic', 'green'], floral: ['floral'], gourmand: ['gourmand'],
+  boise: ['woody', 'leather', 'chypre'], oriental: ['oriental', 'spicy'],
+};
+const SWEET = /vanill|tonka|praline|caramel|chocolate|cocoa|honey|sugar|cotton candy|toffee|almond/i;
+/** [slug, name, brand, year, gender, style scores (5 digits), intensity, buy url, buy label] */
+type Cand = [string, string, string, number, string, string, number, string, string];
+const cands: Cand[] = isHub
+  ? perfumes
+      .filter((p) => perfumeEditorial(p.slug))
+      .sort((a, b) => (pop[b.slug] ?? 0) - (pop[a.slug] ?? 0))
+      .slice(0, 360)
+      .map((p) => {
+        const m = mainFamily(p);
+        const sweet = allNotes(p).some((n) => SWEET.test(n));
+        const sc = STYLES.map((s) => Math.min(2, (MAIN[s].includes(m) ? 2 : 0) + (p.families.some((f) => ANY[s].includes(f)) ? 1 : 0) + (s === 'gourmand' && sweet ? 1 : 0))).join('');
+        const buy = shopsForPerfume('fr', p.slug).find((x) => x.offer);
+        return [p.slug, p.name, p.brand, p.year, p.gender[0], sc, perfumeEditorial(p.slug)!.intensity,
+          buy?.offer?.url ?? '', buy ? `${formatPrice(buy.offer!, 'fr')} chez ${buy.shop.name}` : ''] as Cand;
+      })
+  : [];
+const Q = [
+  { k: 'g', q: 'Pour qui ?', o: [['F', 'Une femme'], ['M', 'Un homme'], ['U', 'Peu importe, un parfum mixte']] },
+  { k: 's', q: 'Son style ?', o: [['frais', 'Frais, propre'], ['floral', 'Floral'], ['gourmand', 'Gourmand, sucré'], ['boise', 'Boisé'], ['oriental', 'Oriental, ambré, épicé']] },
+  { k: 'e', q: 'Plutôt classique ou récent ?', o: [['old', 'Un classique (avant 2005)'], ['new', 'Un parfum récent (depuis 2015)'], ['any', 'Peu importe']] },
+  { k: 'v', q: 'Discret ou qui se remarque ?', o: [['soft', 'Discret, près de la peau'], ['loud', 'Qui se remarque']] },
+];
+---
+
+<Shell
+  locale="fr"
+  frOnly
+  title={c.title}
+  description={c.meta}
+  alternates={{ fr: path, en: '/en/' }}
+  crumbs={crumbs}
+  eyebrow={EYEBROW[c.kind]}
+  h1={c.h1}
+  lede={c.intro}
+  jsonLd={[
+    ...(picks.length ? [itemListLd(c.h1, picks.map((p) => ({ name: `${p.name} (${p.brand})`, href: url.perfume('fr', p.slug) })))] : []),
+    ...(isHub ? [itemListLd('Idées cadeaux parfum par profil', NOEL_GROUPS.flatMap((g) => noelOfGroup(g.key)).map((s) => ({ name: noelPage(s).h1, href: noelUrl(s) })))] : []),
+    faqLd(c.faq),
+  ].filter(Boolean) as Record<string, unknown>[]}
+>
+  {isHub && (
+    <section class="nq" id="quiz" aria-labelledby="nq-title">
+      <h2 class="h2" id="nq-title">Quel parfum offrir ? Le test en 4 questions</h2>
+      <p class="muted nq__lede">Répondez aux quatre questions : les suggestions viennent de notre catalogue et s’affichent dès la dernière réponse.</p>
+      <form class="nq__form" id="nq-form">
+        {Q.map((x) => (
+          <fieldset class="nq__q">
+            <legend>{x.q}</legend>
+            <div class="nq__opts">
+              {x.o.map(([v, t]) => <label class="nq__opt"><input type="radio" name={x.k} value={v} /><span>{t}</span></label>)}
+            </div>
+          </fieldset>
+        ))}
+      </form>
+      <div id="nq-out" class="nq__out" aria-live="polite"><p class="muted">Les suggestions apparaîtront ici.</p></div>
+      <script is:inline type="application/json" id="nq-data" set:html={JSON.stringify(cands)} />
+    </section>
+  )}
+  <div class="article">
+    <article class="prose">
+      {c.sections.map((s, i) => (<><h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2><p>{s.body}</p></>))}
+      {picks.some((p) => c.why?.[p.slug]) && (
+        <>
+          <h2>{c.kind === 'coffret' ? 'Le parfum d’abord : nos choix' : 'Notre sélection'}</h2>
+          {picks.filter((p) => c.why?.[p.slug]).map((p) => (
+            <>
+              <h3><a href={url.perfume('fr', p.slug)}>{p.name}</a> ({p.brand}, {p.year})</h3>
+              <p>{c.why![p.slug]}</p>
+              {hasSimilar(p.slug) && <p class="muted" style="font-size:.88rem;margin-top:-.4rem"><a href={url.similar('fr', p.slug)}>Les parfums proches de {p.name}</a></p>}
+              <PriceBox locale="fr" name={p.name} brand={p.brand} slug={p.slug} from="noel" />
+            </>
+          ))}
+        </>
+      )}
+      <h2>Questions fréquentes</h2>
+      {c.faq.map((f) => <><h3>{f.q}</h3><p>{f.a}</p></>)}
+      <p class="muted" style="font-size:.85rem">Sources : notes, années et parfumeurs tirés de nos fiches parfum{c.sources.length > 0 && <>{', '}{c.sources.map((u, i) => <>{i > 0 && ', '}<a href={u} rel="nofollow noopener" target="_blank">{new URL(u).hostname.replace(/^www\./, '')}</a></>)}</>}. Nous n’annonçons aucune promotion sur cette page.</p>
+    </article>
+    <aside class="aside">
+      <div class="aside-card">
+        {!isHub && <p style="margin-bottom:1rem"><a class="link-arrow" href={`${noelUrl(NOEL_HUB)}#quiz`}>Le test : quel parfum offrir ?</a></p>}
+        <p style="margin-bottom:1rem"><a class="link-arrow" href={url.quiz('fr')}>Le test parfum complet (7 questions)</a></p>
+        {!isHub && <p><a class="link-arrow" href={noelUrl(NOEL_HUB)}>Toutes les idées cadeaux parfum</a></p>}
+      </div>
+    </aside>
+  </div>
+  {picks.length > 0 && <section class="section--tight"><h2 class="h2" style="margin-bottom:1.4rem">Les fiches de cette sélection</h2><div class="cards">{picks.slice(0, 10).map((p) => <PerfumeCard p={p} locale="fr" />)}</div></section>}
+  {groups.map((g) => <section class="section--tight"><h2 class="h2" style="margin-bottom:1rem">{g.title}</h2><div class="chips">{g.pages.map((s) => <a class="chip" href={noelUrl(s)}>{label(s)}</a>)}</div></section>)}
+</Shell>
+
+{isHub && (
+  <script>
+    type Cand = [string, string, string, number, string, string, number, string, string];
+    const data = JSON.parse(document.getElementById('nq-data')!.textContent || '[]') as Cand[];
+    const form = document.getElementById('nq-form') as HTMLFormElement;
+    const out = document.getElementById('nq-out')!;
+    const STYLES = ['frais', 'floral', 'gourmand', 'boise', 'oriental'];
+    const STYLE_FR: Record<string, string> = { frais: 'frais', floral: 'floral', gourmand: 'gourmand', boise: 'boisé', oriental: 'oriental' };
+    const G_FR: Record<string, string> = { F: 'féminin', M: 'masculin', U: 'mixte' };
+    const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]!));
+    function score(c: Cand, a: Record<string, string>, rank: number): number {
+      const [, , , year, g, sc, inten] = c;
+      if (a.g !== 'U' && g !== a.g && g !== 'U') return -1;
+      let s = a.g === 'U' ? (g === 'U' ? 3 : 0.5) : g === a.g ? 3 : 1.5;
+      const st = Number(sc[STYLES.indexOf(a.s)]);
+      if (!st) return -1;
+      s += st * 2.5;
+      if (a.e === 'old') s += year < 2005 ? 2 : year < 2015 ? 0.5 : -1;
+      if (a.e === 'new') s += year >= 2015 ? 2 : year >= 2005 ? 0.5 : -1;
+      if (a.v === 'soft') s += inten <= 3 ? 2 : inten === 4 ? 0 : -1;
+      if (a.v === 'loud') s += inten >= 4 ? 2 : inten === 3 ? 0.5 : -1;
+      return s + (1 - rank / data.length) * 1.5;
+    }
+    function render() {
+      const fd = new FormData(form);
+      const a = Object.fromEntries(['g', 's', 'e', 'v'].map((k) => [k, String(fd.get(k) ?? '')]));
+      if (Object.values(a).some((v) => !v)) return;
+      const ranked = data.map((c, i) => ({ c, s: score(c, a, i) })).filter((x) => x.s > 0).sort((x, y) => y.s - x.s);
+      const brands = new Set<string>();
+      const top: Cand[] = [];
+      for (const { c } of ranked) { if (brands.has(c[2]) && ranked.length > 12) continue; brands.add(c[2]); top.push(c); if (top.length === 6) break; }
+      if (top.length < 3) { out.innerHTML = '<p>Peu de parfums de notre catalogue cochent toutes les cases. Essayez « Peu importe » pour l’époque, ou un style voisin.</p>'; return; }
+      out.innerHTML = '<h3 class="nq__rtitle">Nos suggestions</h3><ol class="nq__list">' + top.map((c) => {
+        const [slug, name, brand, year, g, , inten, buy, buyLabel] = c;
+        const why = `${G_FR[g]}, ${STYLE_FR[a.s]}, ${year}, ${inten >= 4 ? 'se remarque' : 'plutôt discret'}`;
+        return `<li><a class="nq__name" href="/fr/parfum/${slug}/">${esc(name)}</a> <span class="muted">${esc(brand)}</span><br><span class="nq__why">${why}</span>`
+          + (buy ? `<br><a class="nq__buy" href="${esc(buy)}" rel="sponsored nofollow noopener" target="_blank" data-aff="noel-quiz" data-aff-perfume="${slug}">Voir l’offre : ${esc(buyLabel)}</a>` : '') + '</li>';
+      }).join('') + '</ol><p class="muted" style="font-size:.85rem">Cliquez sur un nom pour lire la fiche : notes, tenue, saison. Les liens marchands éventuels sont affiliés.</p>';
+      try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.('Noel quiz', { props: a }); } catch { /* analytics never blocks */ }
+    }
+    form.addEventListener('change', render);
+  </script>
+)}
+
+<style is:global>
+  .nq { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 1.3rem clamp(1rem, 3vw, 2rem) 1.6rem; margin-bottom: 2.5rem; box-shadow: var(--shadow); }
+  .nq__lede { margin: .4rem 0 1rem; font-size: .95rem; }
+  .nq__form { display: grid; gap: 1rem; }
+  .nq__q { border: 0; margin: 0; padding: 0; }
+  .nq__q legend { font-family: var(--serif); font-size: 1.15rem; margin-bottom: .5rem; padding: 0; }
+  .nq__opts { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .nq__opt { cursor: pointer; }
+  .nq__opt input { position: absolute; opacity: 0; pointer-events: none; }
+  .nq__opt span { display: inline-block; border: 1px solid var(--line-strong); border-radius: 999px; padding: .45rem .95rem; font-size: .93rem; background: var(--paper); }
+  .nq__opt input:checked + span { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .nq__opt input:focus-visible + span { outline: 2px solid var(--wine); outline-offset: 2px; }
+  .nq__out { margin-top: 1.4rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  .nq__rtitle { font-family: var(--serif); font-size: 1.3rem; margin-bottom: .6rem; }
+  .nq__list { display: grid; gap: .8rem; padding-left: 1.2rem; }
+  .nq__name { font-weight: 600; }
+  .nq__why { font-size: .88rem; color: var(--ink-2); }
+  .nq__buy { font-size: .88rem; }
+</style>

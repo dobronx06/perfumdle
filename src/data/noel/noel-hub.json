@@ -1,0 +1,46 @@
+{
+ "hub": {
+  "kind": "hub",
+  "label": "Idée cadeau parfum Noël",
+  "target": "idée cadeau parfum noël",
+  "title": "Idée cadeau parfum Noël 2026 : le test pour bien choisir",
+  "meta": "Quel parfum offrir à Noël ? Un test en 4 questions sur notre catalogue, puis nos sélections par profil et par goût, avec nos réserves.",
+  "h1": "Idée cadeau parfum pour Noël 2026",
+  "intro": "Offrir un parfum, c'est parier sur le goût de quelqu'un d'autre. On peut réduire le risque. Le test ci-dessous croise quatre réponses avec les 1 500 fiches de notre catalogue. Les pages plus bas prennent le problème par la personne ou par ses goûts. D'autres répondent aux questions pratiques : que demander, quel format, et que faire si c'est raté.",
+  "sections": [
+   {
+    "title": "Comment fonctionne le test",
+    "body": "Chaque parfum de notre catalogue porte une famille, un genre, une année et une note d'intensité que nous avons attribuée en rédigeant sa fiche. Le test garde les parfums qui collent au style choisi, favorise l'époque demandée et l'intensité voulue, puis départage par notoriété : un parfum connu se trouve plus facilement en boutique le 23 décembre. Nous évitons aussi de proposer deux parfums de la même maison quand le choix le permet. Le résultat n'est pas un verdict. C'est une liste courte à aller sentir."
+   },
+   {
+    "title": "Ce qui compte plus que la marque",
+    "body": "La famille olfactive passe avant tout le reste. Quelqu'un qui porte des parfums frais et citronnés depuis vingt ans ne se mettra pas à un gourmand vanillé parce que le flacon est beau. Viennent ensuite l'intensité, puis l'époque. Les classiques d'avant 2005 ont souvent plus de mousse de chêne et d'aldéhydes, deux matières qui sentent le savon ancien ou le sous-bois. Les sorties récentes misent plus volontiers sur l'ambroxan, la vanille et les fruits. Si vous hésitez, notre page méthode explique comment savoir ce que la personne porte sans lui demander."
+   },
+   {
+    "title": "Et les coffrets ?",
+    "body": "Un coffret de Noël associe en général le parfum à un format voyage, un lait pour le corps ou un gel douche. Ce n'est une bonne affaire que si le parfum est le bon. Nos deux pages coffret expliquent comment lire la composition et comparer le prix au millilitre avec le flacon seul. Nous n'y listons aucun coffret précis : les sites des maisons que nous avons tenté de consulter n'étaient pas lisibles par nos outils, et nous ne recopions pas des fiches revendeurs non vérifiées."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Quel parfum offrir quand on ne connaît pas ses goûts ?",
+    "a": "Visez un parfum frais ou floral d'intensité moyenne, plutôt en eau de toilette. Ce sont les familles qui déplaisent le moins. Évitez les gourmands très sucrés et les orientaux puissants, qui divisent. Gardez le ticket et demandez un ticket cadeau."
+   },
+   {
+    "q": "Quelle taille de flacon offrir ?",
+    "a": "Un 30 ou 50 ml pour un premier essai, un 100 ml seulement si la personne porte déjà ce parfum. Le petit flacon coûte plus cher au millilitre, mais un 100 ml qui reste sur l'étagère coûte bien plus."
+   },
+   {
+    "q": "Le test tient-il compte des prix ?",
+    "a": "Non. Il travaille sur l'odeur, l'époque et l'intensité. Quand une boutique partenaire vend le parfum en France, un lien vers son offre peut apparaître sous la suggestion, avec le prix relevé par la boutique."
+   },
+   {
+    "q": "Peut-on échanger un parfum offert ?",
+    "a": "Acheté en ligne, il bénéficie du délai de rétractation de 14 jours tant qu'il n'a pas été descellé. En magasin, aucun échange n'est obligatoire : tout dépend de la politique de l'enseigne. Demandez un ticket cadeau à l'achat."
+   }
+  ],
+  "sources": [
+   "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+---
+/** /fr/cadeau-parfum/ (hub with the gift quiz) and /fr/cadeau-parfum/<slug>/ pages, generated once their copy and date are in. */
+import NoelView from '../../../views/NoelView.astro';
+import { noelLive, NOEL_HUB } from '../../../lib/noel';
+export function getStaticPaths() {
+  return noelLive.map((s) => ({ params: { slug: s === NOEL_HUB ? undefined : s }, props: { page: s } }));
+}
+const { page } = Astro.props;
+---
+<NoelView slug={page} />

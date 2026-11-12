@@ -1,6 +1,7 @@
 ---
 import { shopsFor } from '../lib/affiliates';
 import { bfUrl, BF_HUB, isBfLive } from '../lib/blackfriday';
+import { noelUrl, NOEL_HUB, isNoelLive } from '../lib/noel';
 import { type Locale } from '../i18n';
 import { url, families, notes, brands, familyName, noteName, GUIDES, guideUrl, genders, seasons } from '../lib/catalog';
 import { liveOfKind, hubCopy, rankedBase } from '../lib/ranked';
@@ -49,6 +50,7 @@ const hubs = (['best', 'nose', 'guide'] as const)
     <nav aria-label="Guides">
       <h2>Guides</h2>
       {fr && isBfLive(BF_HUB) && <a href={bfUrl(BF_HUB)}><strong>Black Friday parfum</strong></a>}
+      {fr && isNoelLive(NOEL_HUB) && <a href={noelUrl(NOEL_HUB)}><strong>Idée cadeau parfum Noël</strong></a>}
       {hubs.map((h) => <a href={h.href}><strong>{h.label}</strong></a>)}
       {GUIDES.map((g) => <a href={guideUrl(g.slug, locale)}>{fr ? g.fr : g.en}</a>)}
     </nav>
