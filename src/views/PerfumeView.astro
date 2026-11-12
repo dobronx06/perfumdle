@@ -232,6 +232,14 @@ const jsonLd = compact([
           </article>
 
           <aside class="aside">
+            {fr && bfForPerfume(p.slug) && new Date() < new Date('2026-12-01') && (
+              <div class="aside-card" style="border-color:var(--gold)">
+                <p class="eyebrow">Black Friday · 27 novembre</p>
+                <h2>Le bon prix pour {p.name}</h2>
+                <p style="font-size:0.9rem;margin-bottom:1rem">Les prix relevés avant l'opération, enseigne par enseigne, pour savoir si la remise affichée est réelle.</p>
+                <a href={bfUrl(p.slug)} class="btn btn--gold">Voir les prix de référence</a>
+              </div>
+            )}
             {ed && (
               <div class="aside-card">
                 <h2>{fr ? 'En bref' : 'At a glance'}</h2>

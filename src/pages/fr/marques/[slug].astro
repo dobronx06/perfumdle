@@ -1,11 +1,17 @@
 ---
 import CollectionView from '../../../views/CollectionView.astro';
 import { brands, brandPage } from '../../../lib/pages';
+import { bfPage, bfUrl, isBfLive } from '../../../lib/blackfriday';
 
 export function getStaticPaths() {
   return brands.map((b) => ({ params: { slug: b.slug }, props: { b } }));
 }
 const props = brandPage(Astro.props.b, 'fr');
+// Until Black Friday is over, the house page points to its reference prices page when there is one.
+const bfSlug = Astro.props.b.slug;
+if (isBfLive(bfSlug) && bfPage(bfSlug).kind === 'brand' && new Date() < new Date('2026-12-01')) {
+  props.facts = [...(props.facts ?? []), { label: 'Black Friday', value: `Les prix ${Astro.props.b.name} à surveiller`, href: bfUrl(bfSlug) }];
+}
 ---
 
 <CollectionView {...props} />
