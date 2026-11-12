@@ -12,7 +12,7 @@ import popularity from '../data/perfume-popularity.json';
 import { url, perfumes, perfumeBySlug, perfumeEditorial, mainFamily, allNotes } from '../lib/catalog';
 import { shopsForPerfume, formatPrice } from '../lib/affiliates';
 import { isPublished } from '../lib/schedule';
-import { noelPage, noelUrl, noelOfGroup, NOEL_HUB, NOEL_GROUPS } from '../lib/noel';
+import { noelPage, noelUrl, noelOfGroup, isNoelLive, NOEL_HUB, NOEL_GROUPS } from '../lib/noel';
 import { faqLd, itemListLd } from '../lib/seo';
 
 interface Props { slug: string }
@@ -23,7 +23,12 @@ const isHub = slug === NOEL_HUB;
 const picks = (c.picks ?? []).map((s) => perfumeBySlug.get(s)).filter(Boolean) as NonNullable<ReturnType<typeof perfumeBySlug.get>>[];
 const crumbs = [{ name: 'Accueil', href: url.home('fr') }, ...(isHub ? [{ name: 'Cadeau parfum' }] : [{ name: 'Cadeau parfum', href: noelUrl(NOEL_HUB) }, { name: c.label }])];
 const EYEBROW = { hub: 'Noël 2026', profile: 'Idée cadeau parfum', guide: 'Offrir un parfum', coffret: 'Coffret parfum' };
-const groups = NOEL_GROUPS.map((g) => ({ ...g, pages: noelOfGroup(g.key).filter((s) => s !== slug) })).filter((g) => g.pages.length);
+// The page's own group comes first, so its closest siblings are the first links after the picks.
+const groups = NOEL_GROUPS.map((g) => ({ ...g, pages: noelOfGroup(g.key).filter((s) => s !== slug) }))
+  .filter((g) => g.pages.length)
+  .sort((a, b) => Number(b.key === c.group) - Number(a.key === c.group));
+const about = c.about ? perfumeBySlug.get(c.about) : undefined;
+const related = (c.related ?? []).filter((s) => s !== slug && isNoelLive(s));
 const label = (s: string) => noelPage(s).label;
 const hasSimilar = (s: string) => isPublished('similar', s);
 
@@ -99,6 +104,12 @@ const Q = [
   )}
   <div class="article">
     <article class="prose">
+      {about && (
+        <p class="noel-about">
+          Le parfum de départ : <a href={url.perfume('fr', about.slug)}>{about.name}</a> ({about.brand}, {about.year}).
+          {hasSimilar(about.slug) && <> Pour la liste complète de ses voisins, voyez <a href={url.similar('fr', about.slug)}>les parfums similaires à {about.name}</a>.</>}
+        </p>
+      )}
       {c.sections.map((s, i) => (<><h2 style={i === 0 ? 'margin-top:0' : ''}>{s.title}</h2><p>{s.body}</p></>))}
       {picks.some((p) => c.why?.[p.slug]) && (
         <>
@@ -111,6 +122,12 @@ const Q = [
               <PriceBox locale="fr" name={p.name} brand={p.brand} slug={p.slug} from="noel" />
             </>
           ))}
+        </>
+      )}
+      {related.length > 0 && (
+        <>
+          <h2>À lire aussi</h2>
+          <ul>{related.map((s) => <li><a href={noelUrl(s)}>{noelPage(s).h1}</a></li>)}</ul>
         </>
       )}
       <h2>Questions fréquentes</h2>
@@ -191,4 +208,5 @@ const Q = [
   .nq__name { font-weight: 600; }
   .nq__why { font-size: .88rem; color: var(--ink-2); }
   .nq__buy { font-size: .88rem; }
+  .noel-about { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: .8rem 1rem; font-size: .95rem; }
 </style>

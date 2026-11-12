@@ -9,13 +9,18 @@ import type { Faq } from './catalog';
 import { isPublished } from './schedule';
 
 export type NoelKind = 'hub' | 'profile' | 'guide' | 'coffret';
-/** Where the page sits in the section's navigation: by recipient, by taste, or buying advice. */
-export type NoelGroup = 'who' | 'taste' | 'advice';
+/** Where the page sits in the section's navigation: by recipient, by age, by a perfume the person already loves,
+ *  by taste, by style, or buying advice. */
+export type NoelGroup = 'who' | 'age' | 'like' | 'taste' | 'style' | 'advice';
 export interface NoelPage {
   kind: NoelKind; group?: NoelGroup; target: string; label: string;
   title: string; meta: string; h1: string; intro: string;
   sections: { title: string; body: string }[];
   picks?: string[]; why?: Record<string, string>; faq: Faq[]; sources: string[];
+  /** "like" pages: the perfume the person already wears (its fiche and similar page are linked at the top). */
+  about?: string;
+  /** Hand-picked neighbouring pages of the section, shown as "À lire aussi" (only those already live). */
+  related?: string[];
 }
 
 const files = import.meta.glob('../data/noel/*.json', { eager: true, import: 'default' }) as Record<string, Record<string, NoelPage>>;
@@ -31,6 +36,9 @@ export const isNoelLive = (slug: string) => noelLive.includes(slug);
 export const noelOfGroup = (g: NoelGroup) => noelLive.filter((s) => all[s].group === g);
 export const NOEL_GROUPS: { key: NoelGroup; title: string }[] = [
   { key: 'who', title: 'Un parfum pour qui ?' },
+  { key: 'age', title: 'Selon son âge' },
+  { key: 'like', title: 'Il ou elle aime déjà un parfum' },
   { key: 'taste', title: 'Selon ses goûts' },
+  { key: 'style', title: 'Selon son style' },
   { key: 'advice', title: 'Bien choisir et bien offrir' },
 ];

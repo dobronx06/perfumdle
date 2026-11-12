@@ -121,7 +121,7 @@
  },
  "parfum-ado-fille": {
   "kind": "profile",
-  "group": "who",
+  "group": "age",
   "label": "Pour une ado",
   "target": "parfum ado fille",
   "title": "Parfum ado fille : 7 idées à offrir pour Noël 2026",
@@ -178,7 +178,7 @@
  },
  "parfum-ado-garcon": {
   "kind": "profile",
-  "group": "who",
+  "group": "age",
   "label": "Pour un ado",
   "target": "parfum ado garçon",
   "title": "Parfum ado garçon : 8 idées cadeaux pour Noël 2026",
@@ -414,7 +414,7 @@
  },
  "parfum-femme-50-ans": {
   "kind": "profile",
-  "group": "who",
+  "group": "age",
   "label": "Femme de 50 ans et plus",
   "target": "parfum femme 50 ans",
   "title": "Parfum femme 50 ans et plus : 8 classiques à offrir",

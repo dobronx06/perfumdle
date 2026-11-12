@@ -1,11 +1,23 @@
 """Lint the Christmas gift pages (src/data/noel/*.json) against scripts/WRITING_RULES.md and the sourcing rules.
 
-Usage: python3 scripts/lint_noel.py src/data/noel/*.json
+Usage: python3 scripts/lint_noel.py [src/data/noel/*.json]   (no argument: every file in src/data/noel/)
 Exit 1 on any error. Warnings are printed but do not fail.
+Picks (and the "about" perfume of a "like" page) must have a live fiche on the page's own publish date.
+Two non-advice pages may not share 5 picks or more, so each page keeps its own angle.
 """
-import json, re, sys, pathlib, urllib.parse, collections
+import json, re, sys, pathlib, urllib.parse, collections, itertools
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PERFUMES = {p['slug']: p for p in json.load(open(ROOT / 'src/data/perfumes.json'))}
+SCHEDULE = json.load(open(ROOT / 'src/data/publish-schedule.json'))
+GROUPS = ('who', 'age', 'like', 'taste', 'style', 'advice')
+FILES = sys.argv[1:] or sorted(str(f) for f in (ROOT / 'src/data/noel').glob('*.json'))
+ALL = {}
+for fn in FILES: ALL.update(json.load(open(fn)))
+
+def live_on(slug, day):
+    """A perfume fiche exists on `day` unless it is drip-fed with a later date."""
+    d = SCHEDULE['perfume'].get(slug)
+    return slug in PERFUMES and (d is None or (day is not None and d <= day))
 BANNED = ['véritable', 'incontournable', 'envoûtant', 'sublim', 'subtil équilibre', 'alliance parfaite', 'mariage parfait',
           'que vous soyez', 'plongez', 'découvrez', 'laissez-vous', "n'hésitez pas", 'n’hésitez pas', 'en somme', 'en définitive',
           'en conclusion', 'il est important de noter', 'il convient de', 'un must', 'intemporel', 'voyage olfactif',
@@ -23,14 +35,24 @@ def strings(node, path=''):
     elif isinstance(node, list):
         for i, v in enumerate(node): yield from strings(v, f'{path}[{i}]')
 
-for fn in sys.argv[1:]:
+for fn in FILES:
     data = json.load(open(fn))
     for slug, c in data.items():
         tag = f'{pathlib.Path(fn).name}:{slug}'
         for k in ('kind', 'label', 'target', 'title', 'meta', 'h1', 'intro', 'sections', 'faq'):
             if not c.get(k): errors.append(f'{tag}: missing {k}')
         if 'sources' not in c: errors.append(f'{tag}: missing sources')
-        if c.get('kind') != 'hub' and c.get('group') not in ('who', 'taste', 'advice'): errors.append(f'{tag}: bad group')
+        if c.get('kind') != 'hub' and c.get('group') not in GROUPS: errors.append(f'{tag}: bad group')
+        day = SCHEDULE['noel'].get(slug)
+        if not day: errors.append(f'{tag}: no date in publish-schedule.json noel')
+        if c.get('group') == 'like':
+            a = c.get('about')
+            if not a or a not in PERFUMES: errors.append(f'{tag}: like page without a valid about')
+            elif not live_on(a, day): errors.append(f'{tag}: about {a} not live on {day}')
+            elif a in c.get('picks', []): errors.append(f'{tag}: about {a} is also a pick')
+        for r in c.get('related', []):
+            if r not in ALL or r == slug: errors.append(f'{tag}: bad related {r}')
+            elif SCHEDULE['noel'].get(r, '9999') > (day or ''): errors.append(f'{tag}: related {r} goes live after this page')
         if len(c.get('title', '')) > 60: errors.append(f'{tag}: title {len(c["title"])} chars')
         if len(c.get('meta', '')) > 155: errors.append(f'{tag}: meta {len(c["meta"])} chars')
         if len(c.get('meta', '')) < 110: warns.append(f'{tag}: meta {len(c.get("meta", ""))} chars')
@@ -40,7 +62,12 @@ for fn in sys.argv[1:]:
         if not 3 <= len(c.get('faq', [])) <= 4: errors.append(f'{tag}: {len(c.get("faq", []))} FAQ')
         for s in picks:
             if s not in PERFUMES: errors.append(f'{tag}: unknown pick {s}')
+            elif not live_on(s, day): errors.append(f'{tag}: pick {s} has no live fiche on {day}')
             elif not c.get('why', {}).get(s): errors.append(f'{tag}: pick without why {s}')
+            else:
+                for y in re.findall(r"(?<!années )\b(?:19|20)\d\d\b", c["why"][s]):
+                    if int(y) != PERFUMES[s]['year']: warns.append(f'{tag}: why {s} mentions {y}, fiche says {PERFUMES[s]["year"]}')
+        if len(set(picks)) != len(picks): errors.append(f'{tag}: duplicate pick')
         for s in c.get('why', {}):
             if s not in picks: errors.append(f'{tag}: why for non-pick {s}')
         if slug == 'parfum-pas-sucre':
@@ -66,6 +93,11 @@ for fn in sys.argv[1:]:
                 if n > 3: errors.append(f'{tag}{path}: {n} commas in "{sent[:60]}"')
                 elif n == 3: warns.append(f'{tag}{path}: 3 commas in "{sent[:60]}"')
         if words < 350: errors.append(f'{tag}: only {words} words')
+pages = {s: set(c.get('picks', [])) for s, c in ALL.items() if c.get('group') not in (None, 'advice')}
+for a, b in itertools.combinations(sorted(pages), 2):
+    n = len(pages[a] & pages[b])
+    if n >= 5: errors.append(f'{a} / {b}: {n} shared picks')
+    elif n == 4: warns.append(f'{a} / {b}: 4 shared picks')
 for k, n in h1s.items():
     if n > 1: errors.append(f'duplicate h1: {k}')
 for k, n in titles.items():
