@@ -63,7 +63,7 @@ const perfumePages = isHub ? bfOfKind('perfume') : [];
           </tbody>
         </table>
       </div>
-      <p class="muted" style="font-size:.85rem;margin-top:.6rem">Prix vus en ligne dans les résultats de recherche à la date indiquée, avant le Black Friday. Ce ne sont pas des promotions annoncées et certains peuvent inclure une offre en cours. Vérifiez le prix chez l’enseigne avant de comparer.</p>
+      <p class="muted" style="font-size:.85rem;margin-top:.6rem">{c.prices!.every((r) => !/sephora|nocibe|marionnaud|notino|dealabs|google/.test(r.url)) ? 'Prix relevés sur le site de la marque à la date indiquée, avant le Black Friday.' : 'Prix vus en ligne dans les résultats de recherche à la date indiquée, avant le Black Friday.'} Ce ne sont pas des promotions annoncées et certains peuvent inclure une offre en cours. Vérifiez le prix chez l’enseigne avant de comparer.</p>
     </section>
   )}
   <div class="article">
