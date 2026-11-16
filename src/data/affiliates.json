@@ -11,6 +11,28 @@
       "network": "cj",
       "cj_advertiser": "7287203",
       "catalog": true
+    },
+    {
+      "id": "perfumania",
+      "name": "Perfumania",
+      "locales": [
+        "en"
+      ],
+      "network": "cj",
+      "cj_advertiser": "904674",
+      "catalog": true,
+      "parser": "generic"
+    },
+    {
+      "id": "fragranceoutlet",
+      "name": "Fragrance Outlet",
+      "locales": [
+        "en"
+      ],
+      "network": "cj",
+      "cj_advertiser": "8022845",
+      "catalog": true,
+      "parser": "generic"
     }
   ]
 }
