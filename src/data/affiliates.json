@@ -10,7 +10,8 @@
       "search": "https://www.fragranceshop.com/?s={q}&post_type=product",
       "network": "cj",
       "cj_advertiser": "7287203",
-      "catalog": true
+      "catalog": true,
+      "home": "https://www.fragranceshop.com/"
     },
     {
       "id": "perfumania",
@@ -21,7 +22,8 @@
       "network": "cj",
       "cj_advertiser": "904674",
       "catalog": true,
-      "parser": "generic"
+      "parser": "generic",
+      "home": "https://www.perfumania.com/"
     },
     {
       "id": "fragranceoutlet",
@@ -32,7 +34,8 @@
       "network": "cj",
       "cj_advertiser": "8022845",
       "catalog": true,
-      "parser": "generic"
+      "parser": "generic",
+      "home": "https://www.fragranceoutlet.com/"
     }
   ]
 }

@@ -9,7 +9,7 @@ or from ~/.config/perfumdle/affiliate.env (CJ_TOKEN=...). It is never printed.
 
 Usage: python3 scripts/affiliate_offers.py
 """
-import json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request, urllib.error
+import json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request, urllib.error, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CJ_CID = '8110171'      # CJ company (publisher) ID
@@ -31,6 +31,34 @@ def token():
 def norm(s):
     s = unicodedata.normalize('NFD', s).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+', ' ', s).strip()
+
+
+def cj_deeplink_prefix(tok, advertiser):
+    """A tracked deep-link prefix for shops whose product feed gives no clickUrl (Perfumania, Fragrance Outlet):
+    one of the advertiser's evergreen text links from the CJ Link Search API, with the product URL appended.
+    Returns None if the shop has no usable link: its offers are then dropped, never published untracked."""
+    q = urllib.parse.urlencode({'website-id': CJ_PID, 'advertiser-ids': advertiser, 'link-type': 'Text Link', 'records-per-page': 100})
+    req = urllib.request.Request(f'https://link-search.api.cj.com/v2/link-search?{q}', headers={'Authorization': f'Bearer {tok}'})
+    try:
+        xml = urllib.request.urlopen(req, timeout=60).read().decode()
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f'CJ link search failed for {advertiser}: {e}')
+        return None
+    best = None
+    for link in re.findall(r'<link>(.*?)</link>', xml, re.S):
+        get = lambda t: (re.search(f'<{t}>(.*?)</{t}>', link, re.S) or [None, ''])[1].strip()
+        lid, end = get('link-id'), get('promotion-end-date')
+        if not lid.isdigit():
+            continue
+        # A link with no end date keeps tracking after the season; a dated promo link is a last resort
+        rank_ = (1 if end else 0, lid)
+        if not best or rank_ < best[0]:
+            best = (rank_, lid)
+    if not best:
+        print(f'CJ link search: no text link for {advertiser}')
+        return None
+    print(f'CJ deep links for {advertiser} via link {best[1]}')
+    return f'https://www.jdoqocy.com/click-{CJ_PID}-{best[1]}?url='
 
 
 def cj_products(tok, advertiser):
@@ -142,7 +170,12 @@ def rank(o):
     return (0 if hundred else 1, abs((o['ml'] or 0) - 100) if hundred else 0, o['price'])
 
 
-def match(products, perfumes, parser=parse):
+def tracked(url):
+    """Only CJ click URLs earn a commission: an offer without one is never shown."""
+    return bool(url) and re.match(r'^https://www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.com/click-', url) is not None
+
+
+def match(products, perfumes, parser=parse, deeplink=None):
     """Best offer per perfume slug: same brand, same name once the brand is removed, same concentration,
     a real bottle of 30 ml or more. The 100 ml bottle wins when there is one, else the cheapest."""
     rows = []
@@ -178,8 +211,10 @@ def match(products, perfumes, parser=parse):
             if ml is not None and ml < 30:
                 continue
             price = float(p['price']['amount'])
-            cand = {'price': price, 'currency': p['price']['currency'], 'ml': ml, 'title': p['title'],
-                    'url': (p.get('linkCode') or {}).get('clickUrl') or p['link']}
+            url = (p.get('linkCode') or {}).get('clickUrl') or (deeplink + urllib.parse.quote(p['link'], safe='') if deeplink and p.get('link') else None)
+            if not tracked(url):
+                continue
+            cand = {'price': price, 'currency': p['price']['currency'], 'ml': ml, 'title': p['title'], 'url': url}
             if not best or rank(cand) < rank(best):
                 best = cand
         if best:
@@ -204,11 +239,14 @@ def main():
             except SystemExit as e:
                 print(f"{s['id']}: {e}, previous offers kept")
                 if s['id'] in previous:
-                    data['shops'][s['id']] = previous[s['id']]
+                    data['shops'][s['id']] = {k: o for k, o in previous[s['id']].items() if tracked(o.get('url'))}
                 continue
         else:
             continue
-        offers = match(products, perfumes, PARSERS[s.get('parser', 'fragranceshop')])
+        deeplink = None
+        if s.get('network') == 'cj' and not any((p.get('linkCode') or {}).get('clickUrl') for p in products[:200]):
+            deeplink = cj_deeplink_prefix(tok, s['cj_advertiser'])
+        offers = match(products, perfumes, PARSERS[s.get('parser', 'fragranceshop')], deeplink)
         data['shops'][s['id']] = offers
         print(f"{s['id']}: {len(products)} products, {len(offers)} perfumes matched")
         if os.environ.get('CATALOG_SAMPLE'):
