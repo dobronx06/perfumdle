@@ -15,6 +15,8 @@ export interface Offer { price: number; currency: string; ml: number | null; tit
 
 const shops = data.shops as Shop[];
 const offers = offersData as { generated: string | null; shops: Record<string, Record<string, Offer>> };
+/** Only a CJ click URL earns a commission: an offer pointing straight at the shop is never shown. */
+const TRACKED = /^https:\/\/www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.com\/click-/;
 
 export const offersDate = offers.generated;
 export const shopsFor = (l: Locale) => shops.filter((s) => s.locales.includes(l));
@@ -27,7 +29,7 @@ export function shopsForPerfume(l: Locale, slug: string): { shop: Shop; offer?: 
   const list = shopsFor(l).flatMap((shop): { shop: Shop; offer?: Offer }[] => {
     const feed = shop.catalog ? offers.shops[shop.id] : undefined;
     if (!feed) return shop.click && shop.search ? [{ shop }] : [];
-    return feed[slug] ? [{ shop, offer: feed[slug] }] : [];
+    return feed[slug] && TRACKED.test(feed[slug].url) ? [{ shop, offer: feed[slug] }] : [];
   });
   return list.sort((a, b) => (a.offer?.price ?? Infinity) - (b.offer?.price ?? Infinity));
 }
