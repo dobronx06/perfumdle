@@ -88,6 +88,34 @@ def parse(p):
     return {'name': norm(m.group('name')), 'brand': brand, 'conc': f' {conc} ', 'gender': m.group('gender').lower()}
 
 
+# Generic titles ("Gucci Bloom Eau de Parfum Spray 3.3 oz", "Bloom by Gucci for Women - 3.3 oz EDP Spray"):
+# everything that is not the perfume's name is stripped, the brand words are removed later in match().
+CONC = re.compile(r'\b(eau de parfum|eau de toilette|eau de cologne|eau fraiche|extrait de parfum|parfum|edp|edt|edc)\b')
+SIZE = re.compile(r'\(.*?\)|\b\d+(?:[.,]\d+)?\s*(?:fl\.?\s*)?(?:oz|ml)\b', re.I)  # on the raw title, before norm() splits "3.4"
+NOISE = re.compile(r'\b(?:for|pour)\s+(?:women|men|unisex|her|him)\b'
+                   r'|\b(?:womens|mens|women|men|unisex|spray|natural|vaporisateur|vapo|perfume|cologne|fragrance|by|new packaging|refillable|splash)\b')
+GENDER = {'women': 'women', 'womens': 'women', 'her': 'women', 'men': 'men', 'mens': 'men', 'him': 'men', 'unisex': 'unisex'}
+
+
+def parse_generic(p):
+    title = p['title'].strip()
+    brand = norm(p.get('brand') or '')
+    if not brand or EXCLUDE.search(title):
+        return None
+    t = norm(SIZE.sub(' ', title).replace("'s ", 's '))
+    g = re.search(r'\b(?:for\s+)?(womens|mens|women|men|unisex|her|him)\b', t)
+    conc = ' '.join(CONC.findall(t))
+    # "Sauvage by Christian Dior": the whole "by ..." credit goes, not only the brand's own words
+    t = re.sub(rf'\bby\s+(?:\w+\s+){{0,3}}?{re.escape(brand.split()[-1])}\b', ' ', t)
+    name = ' '.join(NOISE.sub(' ', CONC.sub(' ', t)).split())
+    if not name:
+        return None
+    return {'name': name, 'brand': brand, 'conc': f' {conc} ', 'gender': GENDER.get(g.group(1)) if g else None}
+
+
+PARSERS = {'fragranceshop': parse, 'generic': parse_generic}
+
+
 def brand_words(b):
     return set(norm(b).replace('ysl', '').split()) - {'christian', 'thierry', 'parfums', 'paris', 'by', 'and'}
 
@@ -112,14 +140,14 @@ def rank(o):
     return (0 if hundred else 1, abs((o['ml'] or 0) - 100) if hundred else 0, o['price'])
 
 
-def match(products, perfumes):
+def match(products, perfumes, parser=parse):
     """Best offer per perfume slug: same brand, same name once the brand is removed, same concentration,
     a real bottle of 30 ml or more. The 100 ml bottle wins when there is one, else the cheapest."""
     rows = []
     for p in products:
         if not p.get('price') or (p.get('availability') or 'in stock').lower().replace('_', ' ') == 'out of stock':
             continue
-        x = parse(p)
+        x = parser(p)
         if x:
             rows.append((x, p))
     offers = {}
@@ -159,6 +187,7 @@ def match(products, perfumes):
 def main():
     shops = json.load(open(ROOT / 'src/data/affiliates.json'))['shops']
     perfumes = json.load(open(ROOT / 'src/data/perfumes.json'))
+    previous = json.load(open(OUT))['shops'] if OUT.exists() else {}
     data = {'generated': datetime.date.today().isoformat(), 'shops': {}}
     tok = None
     for s in shops:
@@ -166,10 +195,17 @@ def main():
             continue
         if s.get('network') == 'cj':
             tok = tok or token()
-            products = cj_products(tok, s['cj_advertiser'])
+            # One shop's feed failing must not lose the other shops' prices: keep its last offers.
+            try:
+                products = cj_products(tok, s['cj_advertiser'])
+            except SystemExit as e:
+                print(f"{s['id']}: {e}, previous offers kept")
+                if s['id'] in previous:
+                    data['shops'][s['id']] = previous[s['id']]
+                continue
         else:
             continue
-        offers = match(products, perfumes)
+        offers = match(products, perfumes, PARSERS[s.get('parser', 'fragranceshop')])
         data['shops'][s['id']] = offers
         print(f"{s['id']}: {len(products)} products, {len(offers)} perfumes matched")
         if os.environ.get('CATALOG_SAMPLE'):
