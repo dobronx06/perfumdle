@@ -110,7 +110,9 @@ def parse_generic(p):
     name = ' '.join(NOISE.sub(' ', CONC.sub(' ', t)).split())
     if not name:
         return None
-    return {'name': name, 'brand': brand, 'conc': f' {conc} ', 'gender': GENDER.get(g.group(1)) if g else None}
+    # Perfumania and Fragrance Outlet titles rarely say the concentration ("La Vie Est Belle Perfume - 2.5 oz."):
+    # None means unknown, and match() then skips the concentration check instead of rejecting the bottle.
+    return {'name': name, 'brand': brand, 'conc': f' {conc} ' if conc else None, 'gender': GENDER.get(g.group(1)) if g else None}
 
 
 PARSERS = {'fragranceshop': parse, 'generic': parse_generic}
@@ -164,12 +166,13 @@ def match(products, perfumes, parser=parse):
             if not (bw <= pb or pb <= bw) or not pb:
                 continue
             pname = ' '.join(w for w in x['name'].split() if w not in pb and w not in bw)
-            if pname != name:
+            # "Twilly Dhermes" is Twilly d'Hermès: the names are compared without their spaces
+            if pname.replace(' ', '') != name.replace(' ', ''):
                 continue
-            if not same_concentration(pf.get('concentration') or '', x['conc']):
+            if x['conc'] is not None and not same_concentration(pf.get('concentration') or '', x['conc']):
                 continue
             # "Aventus for Women" is another perfume than Aventus
-            if {'Masculine': 'women', 'Feminine': 'men'}.get(pf.get('gender')) == x['gender']:
+            if x['gender'] and {'Masculine': 'women', 'Feminine': 'men'}.get(pf.get('gender')) == x['gender']:
                 continue
             ml = size_ml(p['title'])
             if ml is not None and ml < 30:
