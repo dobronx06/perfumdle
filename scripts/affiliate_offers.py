@@ -172,7 +172,7 @@ def rank(o):
 
 def tracked(url):
     """Only CJ click URLs earn a commission: an offer without one is never shown."""
-    return bool(url) and re.match(r'^https://www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.com/click-', url) is not None
+    return bool(url) and re.match(r'^https://www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(com|net)/click-', url) is not None
 
 
 def match(products, perfumes, parser=parse, deeplink=None):
