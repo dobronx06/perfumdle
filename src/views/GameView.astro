@@ -13,6 +13,8 @@ import pool from '../data/game-pool.json';
 import type { Locale } from '../i18n';
 import { url, perfumes, noteName, familyName, allNotes, mainFamily } from '../lib/catalog';
 import { isPublished } from '../lib/schedule';
+import { bestOffer, goLink, formatPrice } from '../lib/affiliates';
+import { promosFor } from '../lib/promos';
 
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
@@ -38,6 +40,12 @@ const gameData = {
   perfumeBase: `/${l}/parfum/`, similarBase: `/${l}/${fr ? 'parfums-similaires' : 'similar-perfumes'}/`,
   gameUrl: `https://perfumdle.com${url.game(l)}`,
   quizUrl: url.quiz(l),
+  // Cheapest tracked bottle of each pool perfume (EN shops only), shown once the game is over
+  buy: Object.fromEntries((pool as string[]).flatMap((slug) => {
+    const b = bestOffer(l, slug);
+    return b ? [[slug, { go: goLink(b.shop, slug), shop: b.shop.name, shopId: b.shop.id, price: formatPrice(b.offer, l), ml: b.offer.ml }]] : [];
+  })),
+  promos: promosFor(l).map(({ promo: p, shop }) => ({ ...p, shopName: shop.name, go: goLink(shop) })),
 };
 
 const gameTitle = fr ? 'Jeu parfum du jour : devinez le parfum (Perfumdle)' : 'Guess the Perfume: Perfumdle, the Daily Perfume Wordle';
@@ -139,7 +147,9 @@ const gameLd = [
     import { dayStr, dailySlug as drawDaily } from '../lib/daily';
     type G = 'Feminine' | 'Masculine' | 'Unisex';
     interface E { s: string; n: string; b: string; y: number; g: G; m: string; f: string[]; t: string[]; h: string[]; d: string[]; i: string; sim: number }
-    interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string; quizUrl: string }
+    interface Buy { go: string; shop: string; shopId: string; price: string; ml: number | null }
+    interface Promo { shop: string; start: string; end: string; label: string; text: string; code?: string; dates: string; shopName: string; go: string }
+    interface Data { locale: 'fr' | 'en'; pool: string[]; entities: E[]; noteNames: Record<string, string>; famNames: Record<string, string>; perfumeBase: string; similarBase: string; gameUrl: string; quizUrl: string; buy: Record<string, Buy>; promos: Promo[] }
     type Status = 'ok' | 'near' | 'no';
 
     const D: Data = JSON.parse(document.getElementById('game-data')!.textContent!);
@@ -277,6 +287,22 @@ const gameLd = [
       return `Perfumdle ${mode === 'daily' ? date : T('entraînement', 'practice')} · ${s.won ? s.guesses.length : 'X'}/${MAX}\n${rows.join('\n')}\n${D.gameUrl}`;
     }
 
+    /** Buy button for the revealed perfume (cheapest tracked bottle), plus a running shop promo if any. */
+    function buyHtml(t: E): string {
+      const b = D.buy[t.s];
+      if (!b) return '';
+      const now = Date.now();
+      const promo = D.promos.find((p) => p.shop === b.shopId && now >= Date.parse(p.start) && now < Date.parse(p.end));
+      return `<div class="buy result__buy">
+        <a class="buy__btn" href="${b.go}" rel="sponsored nofollow noopener" target="_blank" data-aff="${b.shopId}" data-aff-perfume="${t.s}" data-aff-from="game">
+          <span class="buy__label">${T(`${esc(t.n)} dès ${b.price}`, `${esc(t.n)} from ${b.price}`)}</span>
+          <span class="buy__shop">${T('chez', 'at')} ${esc(b.shop)}${b.ml ? ` · ${b.ml} ml` : ''} <span aria-hidden="true">→</span></span>
+        </a>
+        ${promo ? `<p class="buy__promo"><strong>${esc(promo.label)} at ${esc(promo.shopName)}</strong>: ${esc(promo.text)}${promo.code ? ` <b class="buy__code">${esc(promo.code)}</b>` : ''} (${esc(promo.dates)}, online only).</p>` : ''}
+        <p class="buy__note">${T('Lien affilié : Perfumdle peut toucher une commission, sans surcoût pour vous.', 'Affiliate link: Perfumdle may earn a commission at no extra cost to you.')}</p>
+      </div>`;
+    }
+
     function renderResult() {
       const s = st();
       const box = $('result');
@@ -290,14 +316,19 @@ const gameLd = [
           <p class="eyebrow">${s.won ? T(`Trouvé en ${s.guesses.length} essai${s.guesses.length > 1 ? 's' : ''}`, `Found in ${s.guesses.length} guess${s.guesses.length > 1 ? 'es' : ''}`) : T('Perdu cette fois', 'Not this time')}</p>
           <h2 class="h2">${esc(t.n)} <small>${esc(t.b)} · ${t.y}</small></h2>
           ${mode === 'daily' ? `<p class="result__stats">${T('Série', 'Streak')} : <strong>${streak.current}</strong> · ${T('record', 'best')} : ${streak.max} · <span id="countdown"></span></p>` : ''}
+          ${buyHtml(t)}
+          <div class="result__share">
+            <p class="result__share-title">${T('Défiez vos amis', 'Challenge your friends')}</p>
+            <pre class="result__grid" aria-label="${T('Votre grille de résultat', 'Your result grid')}">${esc(shareText(s).split('\n').slice(0, -1).join('\n'))}</pre>
+            <button type="button" class="btn btn--gold" id="share-btn">${T('Partager ma grille', 'Share my grid')}</button>
+            <p class="result__copied" id="copied" hidden>${T('Grille copiée : collez-la dans vos messages', 'Grid copied: paste it in a message')}</p>
+          </div>
           <div class="result__actions">
-            <button type="button" class="btn btn--gold" id="share-btn">${T('Partager mon résultat', 'Share my result')}</button>
             <a class="btn" href="${D.perfumeBase}${t.s}/">${T('Voir la fiche', 'Read the profile')}</a>
             ${t.sim ? `<a class="btn" href="${D.similarBase}${t.s}/">${T('Parfums similaires', 'Similar perfumes')}</a>` : ''}
             <a class="btn" href="${D.quizUrl}">${T('Trouver mon parfum (test)', 'Find my perfume (quiz)')}</a>
             <button type="button" class="btn" id="train-btn">${mode === 'daily' ? T('Jouer en entraînement', 'Play practice') : T('Nouvelle partie', 'New game')}</button>
           </div>
-          <p class="result__copied" id="copied" hidden>${T('Résultat copié', 'Result copied')}</p>
         </div>`;
       $('share-btn').onclick = async () => {
         const text = shareText(s);
@@ -305,6 +336,7 @@ const gameLd = [
         try { if (navigator.share) { await navigator.share({ text }); return; } } catch { /* cancelled */ }
         try { await navigator.clipboard.writeText(text); $('copied').hidden = false; } catch { /* no clipboard */ }
       };
+      box.querySelectorAll<HTMLAnchorElement>('[data-aff]').forEach((a) => a.addEventListener('click', () => track('Affiliate click', { shop: a.dataset.aff ?? '', perfume: a.dataset.affPerfume ?? '', from: 'game' })));
       $('train-btn').onclick = () => { if (mode === 'train') train = fresh(randomTarget()); setMode('train'); save(); };
       tick();
     }
@@ -467,6 +499,10 @@ const gameLd = [
   .game .result h2 small { display: block; font: 400 0.95rem var(--sans); color: var(--muted); margin-top: 0.2rem; }
   .game .result__stats { font-size: 0.9rem; color: var(--ink-2); }
   .game .result__actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
+  .game .result__buy { margin-top: 0.6rem; }
+  .game .result__share { margin-top: 1rem; padding: 0.9rem 1rem; border-radius: 14px; background: var(--paper, #FBF8F3); border: 1px solid var(--line); }
+  .game .result__share-title { font-family: var(--serif); font-weight: 600; margin: 0 0 0.4rem; }
+  .game .result__grid { font: 1rem/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; margin: 0 0 0.6rem; white-space: pre; overflow-x: auto; }
   .game .result__copied { font-size: 0.85rem; color: #3F6B3A; margin-top: 0.4rem; }
   @media (min-width: 640px) {
   .game .result { grid-template-columns: 200px 1fr; }

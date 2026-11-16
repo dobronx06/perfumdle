@@ -511,3 +511,6 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .buy__shop { font-size: 0.85rem; opacity: 0.85; }
 .buy__shop span { margin-left: 0.3rem; }
 .buy__note { font-size: 0.75rem; color: var(--muted); }
+.buy__promo { font-size: 0.9rem; line-height: 1.45; padding: 0.7rem 0.9rem; border-radius: 12px; background: #FBF3E4; border: 1px dashed var(--gold, #B08D57); color: var(--ink); }
+.buy__promo a { font-weight: 600; white-space: nowrap; }
+.buy__code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.04em; padding: 0.05rem 0.35rem; border-radius: 6px; background: #fff; border: 1px solid var(--line); }

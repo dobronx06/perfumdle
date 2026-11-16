@@ -34,6 +34,15 @@ export function shopsForPerfume(l: Locale, slug: string): { shop: Shop; offer?: 
   return list.sort((a, b) => (a.offer?.price ?? Infinity) - (b.offer?.price ?? Infinity));
 }
 
+/** The on-site affiliate link (functions/go): crawlers are kept out by robots.txt, people get a 302 to CJ. */
+export const goLink = (s: Shop, slug?: string) => (slug ? `/go/${s.id}/${slug}/` : `/go/${s.id}/`);
+
+/** The cheapest tracked offer for a perfume in this locale, if any shop sells it. */
+export function bestOffer(l: Locale, slug: string): { shop: Shop; offer: Offer } | undefined {
+  const first = shopsForPerfume(l, slug)[0];
+  return first?.offer ? { shop: first.shop, offer: first.offer } : undefined;
+}
+
 export function shopLink(s: Shop, query: string): string {
   const target = (s.search ?? '').replace('{q}', encodeURIComponent(query).replace(/%20/g, '+'));
   return (s.click ?? '') + encodeURIComponent(target);
