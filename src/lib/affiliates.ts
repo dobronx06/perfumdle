@@ -16,7 +16,7 @@ export interface Offer { price: number; currency: string; ml: number | null; tit
 const shops = data.shops as Shop[];
 const offers = offersData as { generated: string | null; shops: Record<string, Record<string, Offer>> };
 /** Only a CJ click URL earns a commission: an offer pointing straight at the shop is never shown. */
-const TRACKED = /^https:\/\/www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.com\/click-/;
+const TRACKED = /^https:\/\/www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(com|net)\/click-/;
 
 export const offersDate = offers.generated;
 export const shopsFor = (l: Locale) => shops.filter((s) => s.locales.includes(l));
