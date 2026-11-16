@@ -1,0 +1,30 @@
+{
+  "_source": "CJ advertiser mails of 16 Nov 2026 (Perfumania, Fragrance Outlet). Dates are US Eastern; online only. Wording must match the shops' offers (programme terms).",
+  "promos": [
+    {
+      "shop": "perfumania",
+      "start": "2026-11-20T00:00:00-05:00",
+      "end": "2026-11-23T00:00:00-05:00",
+      "label": "Early Black Friday",
+      "text": "$10 off orders of $99 or more with code",
+      "code": "EARLYSAVINGS",
+      "dates": "Nov 20 to 22"
+    },
+    {
+      "shop": "perfumania",
+      "start": "2026-11-30T00:00:00-05:00",
+      "end": "2026-12-02T00:00:00-05:00",
+      "label": "Cyber Monday",
+      "text": "savings up to 20% off",
+      "dates": "Nov 30 to Dec 1"
+    },
+    {
+      "shop": "fragranceoutlet",
+      "start": "2026-11-30T00:00:00-05:00",
+      "end": "2026-12-02T00:00:00-05:00",
+      "label": "Cyber Monday",
+      "text": "buy one, get one 50% off, plus an extra 10% off",
+      "dates": "Nov 30 to Dec 1"
+    }
+  ]
+}
