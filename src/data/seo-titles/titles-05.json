@@ -1,0 +1,1838 @@
+{
+ "dior-sauvage": {
+  "angle": "homme + key notes of the EDT",
+  "evidence": "sauvage dior 23900; parfum sauvage dior 6000; sauvage dior homme 2400 (elixir 900, eau de parfum 720)",
+  "fr": {
+   "title": "Sauvage Dior homme : bergamote, poivre et ambroxan",
+   "meta": "L'eau de toilette Sauvage de Dior, signée François Demachy en 2015. Pyramide complète, notre avis, sa tenue et les parfums homme qui sentent pareil."
+  },
+  "en": {
+   "title": "Dior Sauvage EDT: Bergamot, Pepper and Ambroxan Notes",
+   "meta": "Dior Sauvage eau de toilette (2015) by François Demachy. The full note pyramid and our honest review, plus longevity, best seasons and close alternatives."
+  }
+ },
+ "yves-saint-laurent-la-nuit-de-lhomme": {
+  "angle": "key notes: cardamom, lavender, cedar",
+  "evidence": "la nuit de l homme 8200; la nuit de l homme parfum 1900; la nuit de l homme eau de parfum 909",
+  "fr": {
+   "title": "La Nuit de l'Homme YSL : cardamome, lavande et cèdre",
+   "meta": "La Nuit de l'Homme d'Yves Saint Laurent (2009) en eau de toilette. Pyramide olfactive et notre avis, puis la tenue, la saison idéale et ses sosies."
+  },
+  "en": {
+   "title": "YSL La Nuit de l'Homme: Cardamom, Lavender and Cedar",
+   "meta": "Yves Saint Laurent La Nuit de l'Homme (2009): the full note pyramid and our review. Also how long it lasts, when to wear it and similar fragrances."
+  }
+ },
+ "yves-saint-laurent-manifesto": {
+  "angle": "review + notes",
+  "evidence": "manifesto ysl 300; manifesto ysl elixir 64; elixir manifesto ysl 50 (avis 20)",
+  "fr": {
+   "title": "Manifesto YSL : avis et notes, du cassis à la vanille",
+   "meta": "Manifesto d'Yves Saint Laurent (2012) : un cassis vert, du jasmin puis une vanille boisée. Notre avis, la pyramide, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "YSL Manifesto Review: Blackcurrant, Jasmine, Vanilla",
+   "meta": "Our take on YSL Manifesto (2012), a green blackcurrant opening over jasmine and woody vanilla. Full notes, longevity, seasons and similar perfumes."
+  }
+ },
+ "givenchy-ange-ou-demon": {
+  "angle": "key notes: saffron, lily, vanilla",
+  "evidence": "ange ou demon givenchy 210; parfum ange ou demon givenchy 127; ange ou demon givenchy le secret 10",
+  "fr": {
+   "title": "Ange ou Démon Givenchy : safran, lys et vanille",
+   "meta": "Ange ou Démon de Givenchy (2006) : du safran et du thym sur un lys crémeux, puis la vanille. Pyramide, avis, tenue et parfums qui lui ressemblent."
+  },
+  "en": {
+   "title": "Givenchy Ange ou Démon (2006): Saffron, Lily, Vanilla",
+   "meta": "Givenchy Ange ou Démon (2006): saffron and thyme over a creamy lily, then vanilla and oakmoss. Full notes, our review, longevity and similar perfumes."
+  }
+ },
+ "mugler-aura": {
+  "angle": "avis + composition",
+  "evidence": "aura mugler 1500; aura mugler parfum 590; parfum aura mugler 480 (eau de parfum 90, avis 70, composition 40)",
+  "fr": {
+   "title": "Aura Mugler : avis et composition, rhubarbe et vanille",
+   "meta": "Aura de Mugler (2017) : une rhubarbe verte et amère, la liane de tigre et une vanille sombre. Notre avis, la composition, sa tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Mugler Aura Review: Rhubarb, Tiger Liana and Vanilla",
+   "meta": "Mugler Aura (2017) pairs bitter green rhubarb with a dark vanilla and wolfwood. Our review, the full composition, longevity and perfumes like it."
+  }
+ },
+ "kenzo-flower-by-kenzo": {
+  "angle": "eau de parfum + who it suits",
+  "evidence": "flower by kenzo 5500; flower by kenzo fragrance 1600; parfums flower by kenzo 1000 (eau de parfum 900, edp 590, pour quelle femme 90)",
+  "fr": {
+   "title": "Flower by Kenzo eau de parfum : notes, avis, pour qui ?",
+   "meta": "Flower by Kenzo (2000) d'Alberto Morillas : violette poudrée et rose sur vanille. Notre avis, la tenue, la saison et les parfums qui lui ressemblent."
+  },
+  "en": {
+   "title": "Flower by Kenzo Eau de Parfum: Notes and Review",
+   "meta": "Flower by Kenzo (2000) by Alberto Morillas: powdery violet, rose and blackcurrant over vanilla musk. Our review, longevity, seasons and similar picks."
+  }
+ },
+ "dior-ambre-nuit": {
+  "angle": "avis + homme ou femme",
+  "evidence": "ambre nuit dior 218; ambre nuit dior avis 110; parfum ambre nuit dior 50 (homme ou femme 30)",
+  "fr": {
+   "title": "Ambre Nuit Dior : avis, et pour homme ou femme ?",
+   "meta": "Ambre Nuit de Dior (2009) est un ambré boisé mixte de François Demachy. Rose et poivre rose sur ambre gris et gaïac. Notre avis, la tenue et ses voisins."
+  },
+  "en": {
+   "title": "Dior Ambre Nuit Review: Rose, Ambergris and Guaiac",
+   "meta": "Dior Ambre Nuit (2009), a unisex amber by François Demachy: rose and pink pepper over ambergris and guaiac wood. Our review, longevity and similar scents."
+  }
+ },
+ "molinard-habanita": {
+  "angle": "history: the 1921 perfume",
+  "evidence": "habanita molinard 1900; habanita 590; habanita ancienne version 590 (femme 110, avis 70, composition 40)",
+  "fr": {
+   "title": "Habanita de Molinard, le parfum de 1921 : notes et avis",
+   "meta": "Habanita (1921), le classique de Molinard : vanille poudrée et vétiver, adoucis de mimosa. Sa pyramide complète, notre avis, sa tenue et ses voisins."
+  },
+  "en": {
+   "title": "Molinard Habanita (1921): Notes, History and Review",
+   "meta": "Molinard Habanita, launched in 1921: powdery vanilla and smoky vetiver, softened by mimosa and moss. The full pyramid, our review and similar perfumes."
+  }
+ },
+ "creed-aventus": {
+  "angle": "homme + similar perfumes",
+  "evidence": "aventus creed 1200; aventus creed parfum 170; aventus creed for her 170 (homme 90, avis 20)",
+  "fr": {
+   "title": "Aventus Creed homme : ananas, bouleau et alternatives",
+   "meta": "Aventus de Creed (2010) : ananas, bouleau fumé et mousse de chêne. Notre avis, sa tenue et les parfums qui s'en approchent, dont Club de Nuit Intense."
+  },
+  "en": {
+   "title": "Creed Aventus: Pineapple, Birch and Similar Scents",
+   "meta": "Creed Aventus (2010): pineapple, smoky birch and oakmoss. Our review, how long it lasts and the fragrances that come close, Club de Nuit Intense included."
+  }
+ },
+ "jean-paul-gaultier-le-beau": {
+  "angle": "avis on the coconut",
+  "evidence": "le beau jean paul gaultier 1200; parfum le beau jean paul gaultier 140; le beau jean paul gaultier mannequin 90 (avis 50, eau de parfum 50)",
+  "fr": {
+   "title": "Le Beau Jean Paul Gaultier : avis sur la noix de coco",
+   "meta": "Le Beau de Jean Paul Gaultier (2019) tient en trois notes : bergamote, noix de coco et fève tonka. Notre avis, sa tenue, sa saison et des parfums voisins."
+  },
+  "en": {
+   "title": "Jean Paul Gaultier Le Beau Review: Coconut and Tonka",
+   "meta": "Jean Paul Gaultier Le Beau (2019) is built on three notes: bergamot, coconut and tonka. Our review, longevity, best season to wear it and similar scents."
+  }
+ },
+ "giorgio-armani-si-intense": {
+  "angle": "composition: cassis to patchouli",
+  "evidence": "armani si intense 536; si intense armani 170; giorgio armani si intense 127 (composition parfum si intense armani 30)",
+  "fr": {
+   "title": "Armani Sì Intense : composition, du cassis au patchouli",
+   "meta": "Sì Intense d'Armani, signé Christine Nagel en 2014 : cassis et rose sur patchouli. La pyramide avec l'osmanthus, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Armani Sì Intense: Blackcurrant, Rose, Patchouli Notes",
+   "meta": "Giorgio Armani Sì Intense (2014) by Christine Nagel: blackcurrant jam, rose and osmanthus on dark patchouli. Full notes, our review and similar perfumes."
+  }
+ },
+ "hermes-24-faubourg": {
+  "angle": "eau de toilette notes + perfumer",
+  "evidence": "24 faubourg hermes 500; hermes 24 faubourg 390; hermes 24 faubourg eau de toilette 320 (eau de parfum 82)",
+  "fr": {
+   "title": "24 Faubourg Hermès eau de toilette : notes et avis",
+   "meta": "24 Faubourg d'Hermès, composé par Maurice Roucel en 1995 : fleur d'oranger et gardénia sur ambre vanillé. Pyramide, avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Hermès 24 Faubourg by Maurice Roucel: Notes, Review",
+   "meta": "Hermès 24 Faubourg (1995) by Maurice Roucel: orange blossom, gardenia and iris over vanilla amber. Full pyramid, our review, longevity and similar scents."
+  }
+ },
+ "guerlain-la-petite-robe-noire": {
+  "angle": "perfumers + notes",
+  "evidence": "la petite robe noire 18500; parfums la petite robe noire 9000; la petite robe noire parfum 7500 (intense 900, parfumeur 170)",
+  "fr": {
+   "title": "La Petite Robe Noire Guerlain : parfumeurs, notes, avis",
+   "meta": "La Petite Robe Noire (2009) de Thierry Wasser et Delphine Jelk : cerise noire et amande, thé et réglisse. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Guerlain La Petite Robe Noire: Cherry, Almond and Tea",
+   "meta": "Guerlain La Petite Robe Noire (2009) by Thierry Wasser and Delphine Jelk: black cherry, almond, tea and licorice. Our review, longevity and similar scents."
+  }
+ },
+ "hermes-caleche": {
+  "angle": "history: first Hermès feminine, 1961",
+  "evidence": "caleche hermes 600; parfum caleche hermes 140; kelly caleche hermes 100 (eau de toilette 90, composition 20)",
+  "fr": {
+   "title": "Calèche Hermès (1961) : notes et avis sur un chypre",
+   "meta": "Calèche (1961) de Guy Robert, premier parfum féminin d'Hermès. Aldéhydes et bouquet blanc sur mousse de chêne. Pyramide, avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Hermès Calèche (1961): Aldehydes, Oakmoss and Review",
+   "meta": "Hermès Calèche (1961) by Guy Robert, the house's first feminine: soapy aldehydes, white flowers and oakmoss. Full notes, our review and similar chypres."
+  }
+ },
+ "tom-ford-lost-cherry": {
+  "angle": "avis + similar scents",
+  "evidence": "tom ford lost cherry 3000; lost cherry tom ford 1500; tom ford lost cherry avis 170 (homme 140, dupe 90)",
+  "fr": {
+   "title": "Lost Cherry Tom Ford : avis et parfums qui sentent pareil",
+   "meta": "Lost Cherry de Tom Ford (2018) : griotte, liqueur de cerise, amande et tonka. Notre avis, la tenue et des parfums proches, dont La Petite Robe Noire."
+  },
+  "en": {
+   "title": "Tom Ford Lost Cherry Review and Similar Fragrances",
+   "meta": "Tom Ford Lost Cherry (2018), a unisex cherry liqueur, almond and tonka scent. Our review, longevity and close cousins like La Petite Robe Noire."
+  }
+ },
+ "lalique-encre-noire": {
+  "angle": "what it smells like: vetiver, cypress",
+  "evidence": "encre noire lalique 800; parfum encre noire lalique 30; encre noire lalique homme 30 (avis 20, femme 20)",
+  "fr": {
+   "title": "Encre Noire Lalique : l'odeur du vétiver et du cyprès",
+   "meta": "Encre Noire de Lalique (2006) sent la terre mouillée et le crayon taillé : cyprès, vétiver, cashmeran. Notre avis, sa tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Lalique Encre Noire: What This Vetiver Smells Like",
+   "meta": "Lalique Encre Noire (2006) by Nathalie Lorson smells of wet earth and sharpened pencils: cypress, two vetivers, cashmeran. Our review and similar scents."
+  }
+ },
+ "calvin-klein-ck-one": {
+  "angle": "homme ou femme: unisex",
+  "evidence": "ck one 2600; ck one parfum 1000; ck one summer 720 (parfum homme ck one 260, ck one femme 140, ck one edt 140)",
+  "fr": {
+   "title": "CK One : parfum homme ou femme ? Notes et avis",
+   "meta": "CK One de Calvin Klein (1994), le parfum mixte des années 1990. Bergamote et ananas sur fond de musc. Notre avis, sa tenue, sa saison et ses voisins."
+  },
+  "en": {
+   "title": "CK One by Calvin Klein: Unisex Notes and Review",
+   "meta": "Calvin Klein CK One (1994) was the shared unisex scent of the nineties. Bergamot and pineapple over musk. Our review, longevity and similar fragrances."
+  }
+ },
+ "givenchy-organza": {
+  "angle": "key notes: gardenia, tuberose, nutmeg",
+  "evidence": "organza givenchy 720; parfum organza givenchy 70; organza givenchy avis 10",
+  "fr": {
+   "title": "Organza Givenchy : gardénia, tubéreuse et muscade",
+   "meta": "Organza de Givenchy, signé Sophie Labbé en 1996 : gardénia et tubéreuse sur un fond ambré vanillé. La pyramide, notre avis, sa tenue et ses voisins."
+  },
+  "en": {
+   "title": "Givenchy Organza (1996): Gardenia, Tuberose, Nutmeg",
+   "meta": "Givenchy Organza (1996) by Sophie Labbé: gardenia, tuberose and nutmeg on a vanilla amber base. The full note pyramid, our review and similar perfumes."
+  }
+ },
+ "cacharel-eden": {
+  "angle": "avis + composition",
+  "evidence": "eden cacharel 700; parfum eden cacharel 210; eau d'eden cacharel 170 (avis 70, composition 20)",
+  "fr": {
+   "title": "Eden Cacharel : avis et composition du parfum de 1994",
+   "meta": "Eden de Cacharel, créé par Jean Guichard en 1994 : nénuphar et melon, puis patchouli. Notre avis, la pyramide, sa tenue et les parfums qui lui ressemblent."
+  },
+  "en": {
+   "title": "Cacharel Eden (1994): Water Lily, Melon, Patchouli",
+   "meta": "Cacharel Eden (1994) by Jean Guichard: water lily, lotus and melon over a damp patchouli base. Full note pyramid, our review, longevity and similar scents."
+  }
+ },
+ "azzaro-wanted-girl": {
+  "angle": "avis on datura + dulce de leche",
+  "evidence": "azzaro wanted girl 1000; wanted girl azzaro 590; parfum wanted girl 320 (avis 70+70, eau de parfum 50)",
+  "fr": {
+   "title": "Wanted Girl Azzaro : avis, datura et confiture de lait",
+   "meta": "Wanted Girl d'Azzaro (2019) : un datura trempé dans la confiture de lait, sur tonka et vanille. Notre avis, la pyramide, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Azzaro Wanted Girl Review: Datura and Dulce de Leche",
+   "meta": "Azzaro Wanted Girl (2019): narcotic datura dipped in dulce de leche, on tonka and vanilla. Our review, the full pyramid, longevity and perfumes like it."
+  }
+ },
+ "kenzo-kenzo-world": {
+  "angle": "eau de parfum + key notes",
+  "evidence": "kenzo world intense 720; kenzo world eau de parfum 720; kenzo world power 590 (edt 170, femme 90)",
+  "fr": {
+   "title": "Kenzo World eau de parfum : pivoine, framboise, ambroxan",
+   "meta": "Kenzo World (2016), signé Francis Kurkdjian : une pivoine rose bonbon sur un fond salé d'ambroxan. Notre avis, la tenue, la saison et des parfums proches."
+  },
+  "en": {
+   "title": "Kenzo World by Francis Kurkdjian: Peony and Ambroxan",
+   "meta": "Kenzo World eau de parfum (2016) by Francis Kurkdjian: candy-pink peony and raspberry over salty ambroxan. Our review, longevity and similar perfumes."
+  }
+ },
+ "nina-ricci-nina-rouge": {
+  "angle": "avis + composition",
+  "evidence": "nina rouge 590; nina rouge parfum 260; parfum nina rouge 170 (avis 50, composition 10)",
+  "fr": {
+   "title": "Nina Rouge de Nina Ricci : avis et composition",
+   "meta": "Nina Rouge (2019) d'Olivier Cresp habille de rouge la pomme de Nina. Framboise et gardénia sur caramel. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Nina Ricci Nina Rouge: Raspberry, Gardenia, Caramel",
+   "meta": "Nina Ricci Nina Rouge (2019) by Olivier Cresp: tart raspberry and citron over gardenia, caramel and vanilla. Our review, longevity and similar perfumes."
+  }
+ },
+ "juliette-has-a-gun-not-a-perfume": {
+  "angle": "what a single-note ambroxan smells like",
+  "evidence": "juliette has a gun not a perfume 1800; not a perfume juliette has a gun 320; not a perfume 210 (avis 50, notes 10)",
+  "fr": {
+   "title": "Not a Perfume, Juliette Has a Gun : avis et odeur",
+   "meta": "Not a Perfume (2010) ne contient qu'une note : l'ambroxan. À quoi il sent sur la peau, notre avis, sa tenue et les parfums boisés qui lui ressemblent."
+  },
+  "en": {
+   "title": "Not a Perfume Review: What Pure Ambroxan Smells Like",
+   "meta": "Juliette Has a Gun Not a Perfume (2010) is a single note of ambroxan. What it smells like on skin, our review, longevity and woody scents that come close."
+  }
+ },
+ "lancome-la-vie-est-belle-intensement": {
+  "angle": "composition + avis of the flanker",
+  "evidence": "la vie est belle intensément 1300; la vie est belle intensément parfum 110; lancôme la vie est belle intensément 90 (avis 50, composition 40)",
+  "fr": {
+   "title": "La Vie est Belle Intensément : composition et avis",
+   "meta": "La Vie est Belle Intensément de Lancôme (2020) : framboise et fleur d'oranger sur benjoin résineux. Pyramide, avis et tenue, puis les parfums proches."
+  },
+  "en": {
+   "title": "La Vie est Belle Intensément: Raspberry and Benzoin",
+   "meta": "Lancôme La Vie est Belle Intensément (2020): raspberry and pink pepper, orange blossom, then resinous benzoin and vanilla. Our review and similar perfumes."
+  }
+ },
+ "chanel-antaeus": {
+  "angle": "history: the 1981 leather for men",
+  "evidence": "antaeus chanel 500; parfum antaeus chanel homme 50; antaeus chanel parfum 50 (homme 50, avis 30)",
+  "fr": {
+   "title": "Antaeus Chanel homme : le cuir de 1981, notes et avis",
+   "meta": "Antaeus (1981), le cuir chypré de Chanel pour homme signé Jacques Polge. Sauge sclarée et castoréum sur ciste. Notre avis, sa tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Chanel Antaeus (1981): Leather, Clary Sage, Castoreum",
+   "meta": "Chanel Antaeus (1981) by Jacques Polge is a dry animalic leather chypre. Clary sage and thyme over castoreum and cistus. Our review and similar scents."
+  }
+ },
+ "editions-de-parfums-frederic-malle-musc-ravageur": {
+  "angle": "perfumer Maurice Roucel + avis",
+  "evidence": "musc ravageur 1600; musc ravageur parfum 590; frédéric malle musc ravageur 210 (avis 70, maurice roucel 50)",
+  "fr": {
+   "title": "Musc Ravageur, Frédéric Malle : Maurice Roucel et avis",
+   "meta": "Musc Ravageur (2000), composé par Maurice Roucel pour Frédéric Malle. Cannelle et girofle sur vanille et santal. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Musc Ravageur by Maurice Roucel: Notes and Review",
+   "meta": "Frédéric Malle Musc Ravageur (2000) by Maurice Roucel: lavender, cinnamon and clove over vanilla, tonka and sandalwood. Our review and similar scents."
+  }
+ },
+ "lanvin-rumeur": {
+  "angle": "avis + notes olfactives",
+  "evidence": "rumeur lanvin 320; rumeur lanvin avis 50; rumeur lanvin notes olfactives 30",
+  "fr": {
+   "title": "Rumeur Lanvin : avis et notes olfactives",
+   "meta": "Rumeur de Lanvin (2006) est un floral musqué de Francis Kurkdjian. Magnolia et seringat sur un patchouli propre. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Lanvin Rumeur by Francis Kurkdjian: Magnolia and Musk",
+   "meta": "Lanvin Rumeur (2006) by Francis Kurkdjian: lemony magnolia and sparkling aldehydes over clean patchouli and silky musk. Our review and similar perfumes."
+  }
+ },
+ "dior-pure-poison": {
+  "angle": "key notes: white flowers",
+  "evidence": "pure poison dior 900; pure poison 400; dior pure poison 355 (elixir 30, eau de parfum 30, composition 20)",
+  "fr": {
+   "title": "Pure Poison Dior : jasmin, fleur d'oranger, gardénia",
+   "meta": "Pure Poison (2004), le Poison blanc de Dior : jasmin et fleur d'oranger sur santal musqué. La pyramide, notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Dior Pure Poison: Jasmine, Orange Blossom, Gardenia",
+   "meta": "Dior Pure Poison (2004) is the white Poison. Jasmine and orange blossom over musky sandalwood. The notes, our review, longevity and similar scents."
+  }
+ },
+ "versace-dylan-blue-pour-homme": {
+  "angle": "homme version vs femme",
+  "evidence": "versace dylan blue 1455; dylan blue versace 480; versace dylan blue homme 210 (femme 140, avis 40)",
+  "fr": {
+   "title": "Dylan Blue Pour Homme Versace : notes, avis, tenue",
+   "meta": "Dylan Blue Pour Homme (2016), la version masculine signée Alberto Morillas. Pamplemousse et figuier sur ambroxan. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Versace Dylan Blue Pour Homme: Notes and Review",
+   "meta": "Versace Dylan Blue Pour Homme (2016) by Alberto Morillas: grapefruit, fig leaf, ambroxan and incense. Our review, longevity, seasons and similar colognes."
+  }
+ },
+ "giorgio-armani-si-passione": {
+  "angle": "eau de parfum key notes",
+  "evidence": "si passione 1400; si passione giorgio armani 1182; si passione intense 720 (eau de parfum 100, avis 30)",
+  "fr": {
+   "title": "Sì Passione Armani eau de parfum : poire, cassis, rose",
+   "meta": "Sì Passione de Giorgio Armani (2017) est la version plus fruitée de Sì. Poire et cassis, puis rose et vanille. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Armani Sì Passione: Pear, Blackcurrant and Rose",
+   "meta": "Giorgio Armani Sì Passione (2017), the fruitier take on Sì: crisp pear, blackcurrant and pink pepper over rose and vanilla. Our review and similar scents."
+  }
+ },
+ "van-cleef-arpels-first": {
+  "angle": "perfumer Jean-Claude Ellena + 1976",
+  "evidence": "first van cleef 436; first van cleef and arpels eau de parfum 390; parfum first van cleef 300 (eau de toilette 50, avis 20)",
+  "fr": {
+   "title": "First de Van Cleef & Arpels : l'aldéhydé de 1976",
+   "meta": "First (1976), premier parfum de Van Cleef & Arpels, est signé Jean-Claude Ellena. Aldéhydes et jasmin sur cassis. Pyramide, avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Van Cleef & Arpels First (1976) by Jean-Claude Ellena",
+   "meta": "Van Cleef & Arpels First (1976) by Jean-Claude Ellena: aldehydes, blackcurrant, jasmine and narcissus. The full pyramid, our review and similar perfumes."
+  }
+ },
+ "tom-ford-velvet-orchid": {
+  "angle": "avis + gourmand notes",
+  "evidence": "tom ford velvet orchid 655; velvet orchid tom ford 390; velvet orchid 140 (avis 20, homme ou femme 10)",
+  "fr": {
+   "title": "Velvet Orchid Tom Ford : avis, miel, rhum et orchidée",
+   "meta": "Velvet Orchid de Tom Ford (2014) : miel, rhum, orchidée et rose sur un fond de daim et de myrrhe. Avis, pyramide, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Tom Ford Velvet Orchid Review: Honey, Rum, Orchid",
+   "meta": "Tom Ford Velvet Orchid (2014): honey and rum over orchid and rose. Suede, myrrh and vanilla follow. Our review, the pyramid, longevity and similar scents."
+  }
+ },
+ "versace-pour-homme": {
+  "angle": "key notes (disambiguate from fashion)",
+  "evidence": "versace pour homme 1200 (mixed with fashion); versace pour homme parfum 45; parfums versace pour homme 40",
+  "fr": {
+   "title": "Versace Pour Homme, le parfum : néroli, sauge et tonka",
+   "meta": "Versace Pour Homme (2008) d'Alberto Morillas, une fougère méditerranéenne propre. Citron et néroli sur fève tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Versace Pour Homme Cologne: Neroli, Sage and Tonka",
+   "meta": "Versace Pour Homme (2008) by Alberto Morillas: lemon, neroli and sage over tonka and amber, a clean Mediterranean fougère. Our review and similar colognes."
+  }
+ },
+ "tom-ford-noir-de-noir": {
+  "angle": "avis on rose, truffle, oud",
+  "evidence": "tom ford noir de noir 1182; noir de noir 170; tom ford noir de noir avis 40",
+  "fr": {
+   "title": "Tom Ford Noir de Noir : avis sur la rose, truffe et oud",
+   "meta": "Noir de Noir de Tom Ford (2007), une rose de velours sombre. Safran et rose noire sur truffe et oud. La pyramide, notre avis, la tenue et ses voisins."
+  },
+  "en": {
+   "title": "Tom Ford Noir de Noir Review: Rose, Truffle and Oud",
+   "meta": "Tom Ford Noir de Noir (2007): saffron and black rose over truffle, oud and patchouli. Our review, longevity and similar scents."
+  }
+ },
+ "chanel-cuir-de-russie": {
+  "angle": "history: 1927, Ernest Beaux",
+  "evidence": "cuir de russie 480; cuir de russie chanel 320; parfum cuir de russie 170 (cuir de russie origine 20)",
+  "fr": {
+   "title": "Cuir de Russie Chanel (1927) : histoire et notes",
+   "meta": "Cuir de Russie (1927), composé par Ernest Beaux pour Chanel. Bouleau fumé et tabac, adoucis par l'iris. Avis, pyramide, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Chanel Cuir de Russie (1927) by Ernest Beaux: Notes",
+   "meta": "Chanel Cuir de Russie (1927) by Ernest Beaux: smoky birch, leather and tobacco softened with iris and jasmine. Our review, longevity and similar leathers."
+  }
+ },
+ "cacharel-anais-anais": {
+  "angle": "the 1978 original: notes",
+  "evidence": "anais anais parfum 1900; anais anais cacharel 1100; parfum anais anais 1000 (l'original 320, eau de parfum 140, eau de toilette 90)",
+  "fr": {
+   "title": "Anaïs Anaïs Cacharel, l'original de 1978 : notes",
+   "meta": "L'eau de toilette Anaïs Anaïs de Cacharel (1978) : jacinthe et lys blanc sur mousse de chêne. La pyramide, notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Cacharel Anaïs Anaïs (1978): Hyacinth, Lily and Moss",
+   "meta": "Cacharel Anaïs Anaïs (1978): green hyacinth and galbanum, white lily, then oakmoss. The full note pyramid, our review, longevity and similar florals."
+  }
+ },
+ "burberry-my-burberry": {
+  "angle": "parfum femme: notes + perfumer",
+  "evidence": "burberry my burberry 1600; my burberry 1000; my burberry parfum 390 (parfum femme my burberry 390, eau de parfum 110)",
+  "fr": {
+   "title": "My Burberry parfum femme : notes, avis et tenue",
+   "meta": "My Burberry (2014) de Francis Kurkdjian sent le jardin londonien après la pluie. Pois de senteur et coing sur patchouli. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "My Burberry by Francis Kurkdjian: Sweet Pea and Quince",
+   "meta": "My Burberry (2014) by Francis Kurkdjian: sweet pea, quince and rose over patchouli, a London garden after rain. Our review, longevity and similar perfumes."
+  }
+ },
+ "narciso-rodriguez-for-him": {
+  "angle": "musk + violet leaf notes",
+  "evidence": "narciso rodriguez for him 720; for him bleu noir 191; for him musc 50 (eau de parfum 40)",
+  "fr": {
+   "title": "For Him Narciso Rodriguez : musc, violette et avis",
+   "meta": "For Him de Narciso Rodriguez, signé Francis Kurkdjian en 2007 : feuille de violette et muscade sur musc sec. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Narciso Rodriguez For Him: Violet Leaf and Musk",
+   "meta": "Narciso Rodriguez For Him (2007) by Francis Kurkdjian: bitter violet leaf and nutmeg over dry musk and amber patchouli. Our review and similar scents."
+  }
+ },
+ "paco-rabanne-1-million-royal": {
+  "angle": "what it smells like (recent launch)",
+  "evidence": "one million royal 1000; other variants (avis, odeur, homme, composition) listed without volume",
+  "fr": {
+   "title": "1 Million Royal (One Million) : odeur, notes et avis",
+   "meta": "1 Million Royal de Paco Rabanne (2023) en concentration parfum. Cardamome et lavande sur benjoin résineux. Son odeur, notre avis et ses parfums proches."
+  },
+  "en": {
+   "title": "Paco Rabanne 1 Million Royal: What It Smells Like",
+   "meta": "Paco Rabanne 1 Million Royal (2023): cardamom, lavender and sage over resinous benzoin and cedar. How it smells, our review and similar scents."
+  }
+ },
+ "hermes-rocabar": {
+  "angle": "homme + avis",
+  "evidence": "rocabar hermes 320; hermès rocabar 320; hermes rocabar 210 (avis 20, parfum homme 10)",
+  "fr": {
+   "title": "Rocabar Hermès homme : avis et notes boisées épicées",
+   "meta": "Rocabar d'Hermès (1998) : armoise et coriandre, puis violette et iris sur mousse de chêne et benjoin. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Hermès Rocabar (1998): Artemisia, Violet and Oakmoss",
+   "meta": "Hermès Rocabar (1998): bitter artemisia and coriander, a violet and iris heart, then oakmoss and benzoin. Our review, longevity and similar woody scents."
+  }
+ },
+ "mauboussin-pour-elle": {
+  "angle": "avis on a fruity gourmand",
+  "evidence": "mauboussin pour elle 300; parfum mauboussin pour elle 210; mauboussin pour elle avis 90 (elixir 50)",
+  "fr": {
+   "title": "Mauboussin Pour Elle : avis sur ce gourmand fruité",
+   "meta": "Pour Elle de Mauboussin (2011) : fruits rouges, rhubarbe, fleurs blanches et caramel ambré. Notre avis, sa tenue, sa saison et des parfums proches."
+  },
+  "en": {
+   "title": "Mauboussin Pour Elle: Red Berries, Rhubarb, Caramel",
+   "meta": "Mauboussin Pour Elle (2011): red berries and tart rhubarb, white flowers, then amber caramel. Our review, longevity, best season and similar perfumes."
+  }
+ },
+ "yves-saint-laurent-kouros": {
+  "angle": "parfum homme + 1981 history",
+  "evidence": "kouros 2200; kouros fragrance 1300; kouros yves saint laurent 900 (kouros parfum homme 400, parfum kouros homme 200)",
+  "fr": {
+   "title": "Kouros YSL, parfum homme de 1981 : notes et avis",
+   "meta": "Kouros d'Yves Saint Laurent (1981), la fougère animale de Pierre Bourdon. Aldéhydes et sauge, puis civette et cuir. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "YSL Kouros (1981): Civet, Honey and Aldehydes",
+   "meta": "Yves Saint Laurent Kouros (1981) by Pierre Bourdon is a loud animalic fougère. Clary sage and honey over civet and leather. Reviewed, plus similar picks."
+  }
+ },
+ "givenchy-gentlemen-only-absolute": {
+  "angle": "flanker: the spicy evening version",
+  "evidence": "gentlemen only absolute givenchy 260; givenchy gentlemen only absolute 210; gentlemen only absolute 110",
+  "fr": {
+   "title": "Gentlemen Only Absolute Givenchy : cannelle et safran",
+   "meta": "Gentlemen Only Absolute (2016), la version du soir de Gentlemen Only. Cannelle et safran sur santal crémeux. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Givenchy Gentlemen Only Absolute: Cinnamon, Saffron",
+   "meta": "Givenchy Gentlemen Only Absolute (2016), the evening take on Gentlemen Only: cinnamon, nutmeg and saffron on creamy sandalwood. Review, similar scents."
+  }
+ },
+ "lancome-idole-aura": {
+  "angle": "key notes: rose + salted vanilla",
+  "evidence": "idole aura 480; no other query with volume",
+  "fr": {
+   "title": "Idôle Aura Lancôme : deux roses et une vanille salée",
+   "meta": "Idôle Aura de Lancôme (2021) : rose et rose centifolia, jasmin, puis une vanille salée et l'héliotrope. Avis, tenue, saison et parfums proches."
+  },
+  "en": {
+   "title": "Lancôme Idôle Aura: Rose and Salted Vanilla Notes",
+   "meta": "Lancôme Idôle Aura (2021): two roses and jasmine settle on a salted vanilla, musk and heliotrope. Our review, longevity, best season and similar perfumes."
+  }
+ },
+ "chanel-boy": {
+  "angle": "unisex perfume (disambiguate from bag)",
+  "evidence": "boy chanel 4000 (mostly bag/watch); boy chanel parfum 90; parfum boy chanel 30 (homme 10, avis 10)",
+  "fr": {
+   "title": "Boy Chanel, le parfum mixte : lavande, rose, héliotrope",
+   "meta": "Boy de Chanel (2016) est une fougère lavandée d'Olivier Polge pour elle et lui. L'héliotrope et la vanille l'adoucissent. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Chanel Boy Perfume: A Unisex Lavender Fougère",
+   "meta": "Chanel Boy (2016) by Olivier Polge, a lavender fougère borrowed from the men's wardrobe and softened with heliotrope. Review, longevity, similar scents."
+  }
+ },
+ "paco-rabanne-phantom": {
+  "angle": "homme ou femme + avis",
+  "evidence": "phantom paco rabanne 800; phantom paco rabanne femme 390; parfum phantom paco rabanne 390 (homme ou femme 210, avis 140)",
+  "fr": {
+   "title": "Phantom Paco Rabanne : homme ou femme ? Avis et notes",
+   "meta": "Phantom de Paco Rabanne (2021) est un masculin : citron, lavande, pomme et fumée sur vanille. Notre avis, la tenue et les parfums qui lui ressemblent."
+  },
+  "en": {
+   "title": "Paco Rabanne Phantom Review: Lavender, Apple, Vanilla",
+   "meta": "Paco Rabanne Phantom (2021): lemon and lavender, apple and a wisp of smoke, then vanilla and cashmeran. Our review, longevity and similar scents."
+  }
+ },
+ "guerlain-aqua-allegoria-pamplelune": {
+  "angle": "grapefruit smell + perfumer",
+  "evidence": "pamplelune guerlain 480; aqua allegoria pamplelune 400; guerlain pamplelune 320 (avis 30, eau de toilette 20)",
+  "fr": {
+   "title": "Pamplelune Guerlain : pamplemousse, patchouli et avis",
+   "meta": "Aqua Allegoria Pamplelune (1999, Mathilde Laurent) : le pamplemousse rose avec son soufre, sur patchouli et vanille. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Guerlain Pamplelune by Mathilde Laurent: Grapefruit",
+   "meta": "Guerlain Aqua Allegoria Pamplelune (1999) by Mathilde Laurent: sulphurous pink grapefruit over patchouli and vanilla. Review, longevity, similar scents."
+  }
+ },
+ "narciso-rodriguez-for-her-musc-noir": {
+  "angle": "flanker: plum + suede over For Her musk",
+  "evidence": "narciso rodriguez musc noir 1900; musc noir rose 590; parfum narciso rodriguez musc noir 110",
+  "fr": {
+   "title": "For Her Musc Noir Narciso Rodriguez : prune et daim",
+   "meta": "For Her Musc Noir (2021, Sonia Constant) assombrit le musc de For Her avec une prune et un daim souple. Avis, tenue, saison et parfums proches."
+  },
+  "en": {
+   "title": "For Her Musc Noir: Plum, Musk and Suede Notes",
+   "meta": "Narciso Rodriguez For Her Musc Noir (2021) by Sonia Constant darkens the For Her musk with plum and soft suede. Our review, longevity and similar perfumes."
+  }
+ },
+ "versace-the-dreamer": {
+  "angle": "notes: tobacco flower + herbs",
+  "evidence": "the dreamer versace 655; the dreamer versace avis 10",
+  "fr": {
+   "title": "The Dreamer Versace : tabac, iris et herbes, avis",
+   "meta": "The Dreamer de Versace (1996), signé Jean-Pierre Béthouart : genièvre et armoise, puis fleur de tabac et tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Versace The Dreamer (1996): Tobacco Flower, Tarragon",
+   "meta": "Versace The Dreamer (1996) by Jean-Pierre Béthouart opens on juniper and tarragon. Then tobacco flower, iris and tonka. Our review and similar fougères."
+  }
+ },
+ "by-kilian-good-girl-gone-bad": {
+  "angle": "avis + white flower notes",
+  "evidence": "good girl gone bad kilian 390; good girl gone bad kilian avis 20; good girl gone bad kilian parfum 10",
+  "fr": {
+   "title": "Good Girl Gone Bad Kilian : avis, tubéreuse, osmanthus",
+   "meta": "Good Girl Gone Bad de Kilian (2012) d'Alberto Morillas : osmanthus et tubéreuse sur un fond de cèdre. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Kilian Good Girl Gone Bad Review: Tuberose, Osmanthus",
+   "meta": "By Kilian Good Girl Gone Bad (2012) by Alberto Morillas: osmanthus, tuberose, narcissus and orange blossom on cedar. Review and similar florals."
+  }
+ },
+ "nishane-hacivat": {
+  "angle": "what it smells like: pineapple + oakmoss",
+  "evidence": "nishane hacivat 700; hacivat nishane 320; hacivat 170 (avis 10)",
+  "fr": {
+   "title": "Hacivat Nishane : ananas et mousse de chêne, avis",
+   "meta": "Hacivat de Nishane (2017) est un extrait mixte. Ananas et pamplemousse sur patchouli et mousse de chêne. Son odeur, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Nishane Hacivat Extrait: Pineapple and Oakmoss",
+   "meta": "Nishane Hacivat (2017), a unisex extrait by Jorge Lee: pineapple and grapefruit over cedar, patchouli and oakmoss. How it smells and similar picks."
+  }
+ },
+ "diesel-sound-of-the-brave": {
+  "angle": "notes: sweet fougère with bison grass",
+  "evidence": "diesel sound of the brave 480; sound of the brave diesel 210; parfum diesel sound of the brave 90",
+  "fr": {
+   "title": "Sound of the Brave Diesel : notes et odeur, notre avis",
+   "meta": "Sound of the Brave de Diesel (2021) : pomme verte et genièvre, une herbe de bison, puis vanille et bois ambré. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Diesel Sound of the Brave: Lavandin and Bison Grass",
+   "meta": "Diesel Sound of the Brave (2021): green apple and juniper, lavandin and bison grass, then vanilla and amber woods. Review, longevity, similar scents."
+  }
+ },
+ "guerlain-aqua-allegoria-nettare-di-sole": {
+  "angle": "avis on a summer floral",
+  "evidence": "aqua allegoria nettare di sole 480; guerlain nettare di sole 210; guerlain aqua allegoria nettare di sole 170 (avis 20)",
+  "fr": {
+   "title": "Nettare di Sole Guerlain : avis, fleur d'oranger et miel",
+   "meta": "Aqua Allegoria Nettare di Sole (2021), une eau d'été de Guerlain. Fleur d'oranger et magnolia sur miel doré. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Guerlain Nettare di Sole: Orange Blossom and Honey",
+   "meta": "Guerlain Aqua Allegoria Nettare di Sole (2021): orange blossom, magnolia and jasmine with golden honey. Our review, longevity and similar picks."
+  }
+ },
+ "cacharel-yes-i-am-fabulous": {
+  "angle": "avis + composition",
+  "evidence": "yes i am fabulous 200; parfum yes i am fabulous 140; cacharel yes i am fabulous 82 (avis 30, composition 10)",
+  "fr": {
+   "title": "Yes I Am Fabulous Cacharel : avis et composition",
+   "meta": "Yes I Am Fabulous de Cacharel (2020), signé Honorine Blanc, sent le goûter sucré. Mûre et lait sur noisette. Avis, tenue, saison et parfums proches."
+  },
+  "en": {
+   "title": "Cacharel Yes I Am Fabulous: Blackberry and Milk",
+   "meta": "Cacharel Yes I Am Fabulous (2020) by Honorine Blanc smells like an after-school snack. Wild blackberry and milk over hazelnut. Review and similar scents."
+  }
+ },
+ "acqua-di-parma-fico-di-amalfi": {
+  "angle": "fig + citrus notes, avis",
+  "evidence": "acqua di parma fico di amalfi 600; fico di amalfi 170; acqua di parma fico di amalfi avis 20",
+  "fr": {
+   "title": "Fico di Amalfi Acqua di Parma : figue, agrumes et avis",
+   "meta": "Fico di Amalfi d'Acqua di Parma (2006) est un parfum mixte. Pamplemousse et cédrat sur nectar et bois de figuier. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Acqua di Parma Fico di Amalfi: Fig and Citrus Review",
+   "meta": "Acqua di Parma Fico di Amalfi (2006), a unisex cologne: grapefruit, citron and fig nectar over fig wood and cedar. Review, longevity, similar scents."
+  }
+ },
+ "issey-miyake-leau-dissey": {
+  "angle": "pour femme version (vs homme)",
+  "evidence": "issey miyake l eau d issey 590; l'eau d'issey pour femme 260; l eau d issey eau de parfum 260 (homme 170, femme 170, femme avis 110)",
+  "fr": {
+   "title": "L'Eau d'Issey pour femme : lotus, melon et avis",
+   "meta": "L'Eau d'Issey (1992) en version femme, signée Jacques Cavallier. Lotus et melon, puis pivoine sur fond musqué. Notre avis, la tenue et ses voisins."
+  },
+  "en": {
+   "title": "L'Eau d'Issey for Women (1992): Lotus, Melon, Musk",
+   "meta": "Issey Miyake L'Eau d'Issey (1992) by Jacques Cavallier is the women's original. Lotus and melon, then peony and musk. Our review and similar aquatics."
+  }
+ },
+ "kenzo-ca-sent-beau": {
+  "angle": "1988 classic: notes",
+  "evidence": "ça sent beau kenzo 110; ca sent beau kenzo 70; kenzo ca sent beau 50 (eau de parfum 40)",
+  "fr": {
+   "title": "Ça Sent Beau Kenzo (1988) : notes et avis",
+   "meta": "Ça Sent Beau de Kenzo (1988) : mandarine et tubéreuse avec une touche de pêche. Le fond mêle vétiver et vanille. Notre avis et les parfums proches."
+  },
+  "en": {
+   "title": "Kenzo Ça Sent Beau (1988): White Flowers and Peach",
+   "meta": "Kenzo Ça Sent Beau (1988): mandarin and tuberose with a touch of peach. The base is vetiver and vanilla. Our review of the full pyramid and similar scents."
+  }
+ },
+ "dior-tendre-poison": {
+  "angle": "similar perfumes (équivalent)",
+  "evidence": "tendre poison dior 320; tendre poison 100; ou trouver tendre poison dior 90 (équivalent 20, similaire 10, ressemble 10)",
+  "fr": {
+   "title": "Tendre Poison Dior : parfums qui lui ressemblent",
+   "meta": "Tendre Poison de Dior, signé Edouard Fléchier en 1994 : galbanum et freesia sur miel. Sa pyramide, notre avis et les parfums qui s'en approchent."
+  },
+  "en": {
+   "title": "Dior Tendre Poison (1994): Notes and Similar Perfumes",
+   "meta": "Dior Tendre Poison (1994) by Edouard Fléchier: snapped galbanum, freesia, honey and orange blossom. Full pyramid, review and perfumes that come close."
+  }
+ },
+ "tom-ford-white-suede": {
+  "angle": "notes: suede, musk, rose",
+  "evidence": "white suede tom ford 436; white suede tom ford avis 10; white suede tom ford notes 10",
+  "fr": {
+   "title": "White Suede Tom Ford : daim, musc et rose, avis",
+   "meta": "White Suede de Tom Ford (2009) est un parfum mixte. Thym et thé, puis rose et safran sur un daim clair et musqué. Avis, tenue, saison et parfums proches."
+  },
+  "en": {
+   "title": "Tom Ford White Suede: Suede, Musk and Rose Notes",
+   "meta": "Tom Ford White Suede (2009) is unisex. Thyme and tea, then rose and saffron over pale suede and musk. Our review, longevity and similar scents."
+  }
+ },
+ "kenzo-parfum-d-ete": {
+  "angle": "1992 green floral: notes",
+  "evidence": "parfum d ete kenzo 90; parfum d'ete kenzo fragrantica 10 (composition, femme, dupe listed without volume)",
+  "fr": {
+   "title": "Parfum d'Été Kenzo (1992) : notes vertes et avis",
+   "meta": "Parfum d'Été de Kenzo (1992) sent le jardin arrosé. Feuilles vertes et galbanum, puis jacinthe et muguet. La pyramide, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Kenzo Parfum d'Été (1992): Green Notes and Review",
+   "meta": "Kenzo Parfum d'Été (1992): crushed green leaves and galbanum, peony, hyacinth and lily of the valley. Full pyramid, review and similar green florals."
+  }
+ },
+ "chanel-allure-homme-edition-blanche": {
+  "angle": "notes: lemon, pepper, vetiver",
+  "evidence": "allure homme edition blanche 260; chanel allure homme edition blanche 90; parfum allure homme edition blanche 30 (avis 20)",
+  "fr": {
+   "title": "Allure Homme Édition Blanche : citron, poivre, vétiver",
+   "meta": "Allure Homme Édition Blanche de Chanel (2008, Jacques Polge) : un citron meringué, du poivre et du cèdre sur vétiver. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Chanel Allure Homme Édition Blanche: Lemon, Vetiver",
+   "meta": "Chanel Allure Homme Édition Blanche (2008) by Jacques Polge: lemon meringue, pink pepper and ginger over cedar and vetiver. Our review and similar scents."
+  }
+ },
+ "givenchy-gentleman-eau-de-parfum-boisee": {
+  "angle": "flanker: the woody Gentleman",
+  "evidence": "givenchy gentleman boisee 300; givenchy gentleman eau de parfum boisée 50",
+  "fr": {
+   "title": "Gentleman Eau de Parfum Boisée : iris, cacao, santal",
+   "meta": "Gentleman Eau de Parfum Boisée (2020) fait passer le Gentleman de Givenchy au bois : poivre, iris, cacao et santal fumé. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Givenchy Gentleman Eau de Parfum Boisée: Iris, Cocoa",
+   "meta": "Givenchy Gentleman Eau de Parfum Boisée (2020) takes Gentleman into the woods: black pepper, iris and cocoa over smoky sandalwood. Review, similar picks."
+  }
+ },
+ "ralph-lauren-polo-sport": {
+  "angle": "the 1994 sport fragrance: notes",
+  "evidence": "polo sport 4909 (mixed with clothing); polo sport by ralph lauren 1300; parfum polo sport ralph lauren 140",
+  "fr": {
+   "title": "Polo Sport Ralph Lauren, le parfum de 1994 : notes",
+   "meta": "Polo Sport (1994) de Harry Fremont, le frais sportif des années 1990. Menthe et lavande sur notes marines. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Ralph Lauren Polo Sport (1994): Mint and Marine Notes",
+   "meta": "Ralph Lauren Polo Sport (1994) by Harry Fremont is the sporty freshie of the nineties. Mint and lavender over marine notes. Our review and similar scents."
+  }
+ },
+ "abercrombie-fitch-fierce": {
+  "angle": "the store scent: what it smells like",
+  "evidence": "fierce abercrombie & fitch 170; parfum fierce abercrombie 110; fierce abercrombie 44 (parfum homme 30)",
+  "fr": {
+   "title": "Fierce Abercrombie & Fitch : l'odeur de la boutique",
+   "meta": "Fierce d'Abercrombie & Fitch (2002) a l'odeur des boutiques de la marque. Petitgrain et sapin sur musc boisé. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Abercrombie Fierce: The Notes Behind the Store Scent",
+   "meta": "Abercrombie & Fitch Fierce (2002): petitgrain, cardamom and fir over woody musk, the scent of the brand's stores. Review and similar colognes."
+  }
+ },
+ "dior-escale-a-pondichery": {
+  "angle": "similar perfumes (équivalent)",
+  "evidence": "escale a pondichery dior 140; escale a pondichery 40; ou trouver escale a pondichery 10 (ressemble, dupe, équivalent listed without volume)",
+  "fr": {
+   "title": "Escale à Pondichéry Dior : thé noir et parfums proches",
+   "meta": "Escale à Pondichéry de Dior (2009, François Demachy) : cardamome, thé noir et jasmin sur santal. Pyramide, avis et parfums proches."
+  },
+  "en": {
+   "title": "Dior Escale à Pondichéry: Black Tea and Similar Scents",
+   "meta": "Dior Escale à Pondichéry (2009) by François Demachy: cardamom and citrus, black tea and jasmine over sandalwood. Notes, our review and perfumes like it."
+  }
+ },
+ "lanvin-modern-princess": {
+  "angle": "avis",
+  "evidence": "modern princess lanvin 260; modern princess lanvin avis 20; modern princess lanvin eau sensuelle 10",
+  "fr": {
+   "title": "Modern Princess Lanvin : avis, pomme rouge et jasmin",
+   "meta": "Modern Princess de Lanvin, signé Christophe Raynaud en 2016 : pomme rouge et groseille sur orchidée vanille. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Lanvin Modern Princess Review: Red Apple, Jasmine",
+   "meta": "Lanvin Modern Princess (2016): crisp red apple and redcurrant, jasmine, then vanilla orchid and white musk. Review and similar scents."
+  }
+ },
+ "hermes-ombre-des-merveilles": {
+  "angle": "composition (3 notes) + unisex",
+  "evidence": "l'ombre des merveilles 480; ombre des merveilles 320; l'ombre des merveilles hermes 210 (homme 70, composition 50, avis 50, homme ou femme 40)",
+  "fr": {
+   "title": "L'Ombre des Merveilles Hermès : composition et avis",
+   "meta": "L'Ombre des Merveilles d'Hermès (2020) de Christine Nagel tient en trois notes. Thé noir et encens sur fève tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Hermès Ombre des Merveilles: Black Tea, Incense, Tonka",
+   "meta": "Hermès Ombre des Merveilles (2020) by Christine Nagel is unisex and built on three notes. Black tea and incense over tonka. Our review and similar scents."
+  }
+ },
+ "van-cleef-arpels-bois-d-amande": {
+  "angle": "notes: almond + cedar",
+  "evidence": "bois d'amande van cleef 390; van cleef bois d'amande 110; van cleef parfum bois d'amande 70",
+  "fr": {
+   "title": "Bois d'Amande Van Cleef & Arpels : amande et cèdre",
+   "meta": "Bois d'Amande de Van Cleef & Arpels (2020) est un parfum mixte. Amande poudrée et citron sur cèdre chaud et musc vanillé. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Van Cleef Bois d'Amande: Almond, Cedar and Musk",
+   "meta": "Van Cleef & Arpels Bois d'Amande (2020): lemon and powdery almond wrapped around warm cedar and vanilla musk. Review and similar scents."
+  }
+ },
+ "calvin-klein-downtown": {
+  "angle": "notes + avis",
+  "evidence": "downtown calvin klein 140; parfum downtown calvin klein 40; downtown calvin klein avis 10",
+  "fr": {
+   "title": "Downtown Calvin Klein : poire, gardénia et avis",
+   "meta": "Downtown de Calvin Klein (2013) : poire croquante, prune, gardénia poivré puis cèdre et encens très propres. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Calvin Klein Downtown (2013): Pear, Gardenia, Incense",
+   "meta": "Calvin Klein Downtown (2013): crisp pear and plum, a peppery gardenia, then clean cedar and incense. Review, longevity, similar scents."
+  }
+ },
+ "rochas-l-homme-rochas": {
+  "angle": "notes: blood orange, pineapple, basil",
+  "evidence": "l'homme rochas 320; parfum l'homme rochas 40; l'homme rochas parfum 30",
+  "fr": {
+   "title": "L'Homme Rochas : orange sanguine, ananas et basilic",
+   "meta": "L'Homme Rochas (2020) de Bruno Jovanovic : orange sanguine et ananas, puis basilic et genièvre sur tonka. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "L'Homme Rochas (2020): Blood Orange and Basil Notes",
+   "meta": "L'Homme Rochas (2020) by Bruno Jovanovic: blood orange and pineapple, basil and juniper, then tonka and patchouli. Review, longevity, similar scents."
+  }
+ },
+ "serge-lutens-arabie": {
+  "angle": "what it smells like: dates, fig, cumin",
+  "evidence": "arabie serge lutens 210; parfum arabie serge lutens 20; arabie serge lutens avis 10",
+  "fr": {
+   "title": "Arabie Serge Lutens : dattes, figue et cumin, avis",
+   "meta": "Arabie de Serge Lutens (2000), signé Christopher Sheldrake. Fruits secs et figue, puis cumin et girofle jusqu'à la myrrhe. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Serge Lutens Arabie: Dates, Fig and Cumin",
+   "meta": "Serge Lutens Arabie (2000) starts on dried fruit and fig with candied orange. Cumin and clove lead to myrrh and benzoin. Our review and similar scents."
+  }
+ },
+ "hanae-mori-hm-him": {
+  "angle": "homme: notes",
+  "evidence": "hanae mori homme 210; parfum hanae mori homme 110; hanae mori hm eau de parfum 10",
+  "fr": {
+   "title": "Hanae Mori homme (HM) : lavande, menthe et vanille",
+   "meta": "HM de Hanae Mori (1998), le parfum homme de la maison : citron, lavande et menthe sur vanille et tonka. Pyramide, avis et parfums proches."
+  },
+  "en": {
+   "title": "Hanae Mori HM for Him: Lavender, Mint and Vanilla",
+   "meta": "Hanae Mori HM (1998), the house's men's fragrance: lemon, lavender and fresh mint over soft vanilla and tonka. Pyramid, review, similar scents."
+  }
+ },
+ "paco-rabanne-lady-million-lucky": {
+  "angle": "avis + notes + odeur",
+  "evidence": "lady million lucky 260; paco rabanne lady million lucky 30; lady million lucky femme 20 (avis, composition, notes 10 each)",
+  "fr": {
+   "title": "Lady Million Lucky : avis, notes et odeur",
+   "meta": "Lady Million Lucky de Paco Rabanne (2018), la version gourmande. Framboise et noisette sur bois de cachemire. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Paco Rabanne Lady Million Lucky: Raspberry, Hazelnut",
+   "meta": "Paco Rabanne Lady Million Lucky (2018), the gourmand flanker: raspberry, hazelnut and rose with honey over cashmere wood. Our review and similar perfumes."
+  }
+ },
+ "ralph-lauren-woman": {
+  "angle": "the perfume (vs clothing): notes",
+  "evidence": "ralph lauren woman 140 (mixed with clothing); ralph lauren woman parfum 20; polo ralph lauren woman 20 (eau de parfum 10)",
+  "fr": {
+   "title": "Woman de Ralph Lauren, le parfum : tubéreuse, rhubarbe",
+   "meta": "Woman by Ralph Lauren (2017) d'Anne Flipo : poire et rhubarbe, une tubéreuse claire puis la noisette. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Ralph Lauren Woman Perfume: Tuberose and Rhubarb",
+   "meta": "Ralph Lauren Woman (2017) by Anne Flipo: pear and rhubarb, then a bright tuberose. Hazelnut and sandalwood in the base. Our review and similar perfumes."
+  }
+ },
+ "jean-paul-gaultier-scandal-a-paris": {
+  "angle": "composition + avis",
+  "evidence": "scandal a paris 170; scandal a paris jean paul gaultier 40; parfum scandal a paris 30 (eau de parfum 20, composition 10, avis 10)",
+  "fr": {
+   "title": "Scandal à Paris Gaultier : composition et avis",
+   "meta": "Scandal à Paris de Jean Paul Gaultier (2019), eau de toilette : poire juteuse, jasmin et le miel de la famille Scandal. Avis, tenue, parfums proches."
+  },
+  "en": {
+   "title": "Gaultier Scandal à Paris: Pear, Jasmine and Honey",
+   "meta": "Jean Paul Gaultier Scandal à Paris (2019) by Daphné Bugey: juicy pear, sunny jasmine and the honey of the Scandal line. Review, longevity, similar scents."
+  }
+ },
+ "guerlain-la-petite-robe-noire-velours": {
+  "angle": "flanker: violet-powdered cherry",
+  "evidence": "la petite robe noire velours 110; petite robe noire velours 50; la petite robe noire velours guerlain 20 (avis 10, notes olfactives 10)",
+  "fr": {
+   "title": "La Petite Robe Noire Velours : notes et avis",
+   "meta": "La Petite Robe Noire Velours (2019) poudre la cerise noire de Guerlain avec la violette et l'amande, sur thé noir et tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "La Petite Robe Noire Velours: Cherry and Violet",
+   "meta": "Guerlain La Petite Robe Noire Velours (2019) dusts the black cherry with violet and almond, over black tea and tonka. Review and sister scents."
+  }
+ },
+ "guerlain-tonka-imperiale": {
+  "angle": "notes: tonka, almond, tobacco",
+  "evidence": "guerlain tonka imperiale 90; tonka imperiale vs feve delicieuse 10; feve delicieuse vs tonka imperiale 10",
+  "fr": {
+   "title": "Tonka Impériale Guerlain : tonka, amande et tabac",
+   "meta": "Tonka Impériale de Guerlain (2010) est un parfum mixte de Thierry Wasser. Fève tonka et amande amère sur tabac blond. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Guerlain Tonka Impériale: Tonka, Almond and Tobacco",
+   "meta": "Guerlain Tonka Impériale (2010): tonka bean with bitter almond, blond tobacco and honey over vanilla and incense. Review and similar scents."
+  }
+ },
+ "jean-couturier-coriandre": {
+  "angle": "1973 floral chypre: history + notes",
+  "evidence": "coriandre jean couturier 170; parfum coriandre jean couturier 90; eau de coriandre jean couturier 20 (avis 10)",
+  "fr": {
+   "title": "Coriandre de Jean Couturier (1973) : notes et avis",
+   "meta": "Coriandre de Jean Couturier (1973) est un chypre floral. Coriandre épicée et rose sur civette et patchouli. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Jean Couturier Coriandre (1973): A Floral Chypre",
+   "meta": "Jean Couturier Coriandre (1973), a floral chypre: spicy coriander and angelica, rose and jasmine over civet and patchouli. Review and similar chypres."
+  }
+ },
+ "escentric-molecules-molecule-01": {
+  "angle": "what a single molecule smells like",
+  "evidence": "molecule 01 260; escentric molecule 01 210; escentric molecules molecule 01 127 (avis 10)",
+  "fr": {
+   "title": "Molecule 01 : l'odeur de l'Iso E Super, notre avis",
+   "meta": "Molecule 01 d'Escentric Molecules (2006, Geza Schoen) ne contient qu'une molécule, l'Iso E Super. Son odeur, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Molecule 01: What Iso E Super Smells Like",
+   "meta": "Escentric Molecules Molecule 01 (2006) by Geza Schoen is a single molecule, Iso E Super. What you smell, our review, similar scents."
+  }
+ },
+ "guerlain-aqua-allegoria-flora-salvaggia": {
+  "angle": "notes: violet, melon, iris",
+  "evidence": "aqua allegoria flora salvaggia 260; flora salvaggia 140; guerlain aqua allegoria flora salvaggia 90 (avis 10)",
+  "fr": {
+   "title": "Aqua Allegoria Flora Salvaggia : violette, melon, iris",
+   "meta": "Aqua Allegoria Flora Salvaggia (2021) de Guerlain : violette, melon, jasmin et fleur d'oranger sur iris et musc. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Aqua Allegoria Flora Salvaggia: Violet, Melon, Iris",
+   "meta": "Guerlain Aqua Allegoria Flora Salvaggia (2021): violet and melon, jasmine and orange blossom, then powdery iris and musk. Review and similar scents."
+  }
+ },
+ "van-cleef-arpels-ambre-imperial": {
+  "angle": "avis + unisex amber",
+  "evidence": "ambre imperial van cleef 170; van cleef ambre imperial 50; van cleef & arpels ambre imperial 50 (avis 10)",
+  "fr": {
+   "title": "Ambre Impérial Van Cleef : ambre, cannelle et avis",
+   "meta": "Ambre Impérial de Van Cleef & Arpels (2015), un parfum mixte de Quentin Bisch. Cannelle et benjoin sur ambre. Notre avis, sa tenue et ses voisins."
+  },
+  "en": {
+   "title": "Van Cleef Ambre Impérial: A Unisex Cinnamon Amber",
+   "meta": "Van Cleef & Arpels Ambre Impérial (2015): pink pepper and cinnamon over benzoin, amber and tonka. Our review, longevity and similar ambers."
+  }
+ },
+ "serge-lutens-fils-de-joie": {
+  "angle": "the perfume (vs the song): avis + notes",
+  "evidence": "stromae fils de joie 1000 (song); fils de joie serge lutens 100; serge lutens fils de joie 90 (avis 20, composition 10)",
+  "fr": {
+   "title": "Fils de Joie Serge Lutens, le parfum : avis et notes",
+   "meta": "Fils de Joie de Serge Lutens (2020) : fleur de la reine de la nuit, jasmin, miel et ylang-ylang sur musc. Notre avis, sa tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Serge Lutens Fils de Joie: Night Jasmine and Honey",
+   "meta": "Serge Lutens Fils de Joie (2020): night-blooming cereus and jasmine softened with honey and ylang-ylang on musk. Our review, longevity and similar florals."
+  }
+ },
+ "estee-lauder-pleasures": {
+  "angle": "1995 classic: notes",
+  "evidence": "pleasures estee lauder 236; pleasures estee lauder fragrantica 10 (homme, eau de parfum, abandonné listed without volume)",
+  "fr": {
+   "title": "Pleasures Estée Lauder (1995) : pivoine et notes",
+   "meta": "Pleasures d'Estée Lauder (1995) : feuille de violette et pivoine, puis rose et lys sur patchouli. La pyramide, notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Estée Lauder Pleasures (1995): Peony and Violet Leaf",
+   "meta": "Estée Lauder Pleasures (1995): violet leaf and pink pepper, wet peony, rose and lily over patchouli. Full pyramid, review and similar perfumes."
+  }
+ },
+ "moncler-moncler-pour-femme": {
+  "angle": "parfum femme: notes",
+  "evidence": "parfum moncler femme 140; moncler pour femme 40 (avis, notes, eau de parfum listed without volume)",
+  "fr": {
+   "title": "Moncler pour Femme, le parfum : notes et avis",
+   "meta": "Moncler pour Femme (2021) : bergamote et notes poudrées, puis jasmin et héliotrope sur vanille et cèdre. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Moncler pour Femme: Heliotrope, Vanilla and Cedar",
+   "meta": "Moncler pour Femme (2021): bergamot and powdery notes, jasmine and heliotrope, then vanilla over cedar and sandalwood. Review, longevity, similar scents."
+  }
+ },
+ "escada-candy-love": {
+  "angle": "what it smells like: candy apple",
+  "evidence": "escada candy love 170; candy love escada 90 (avis, dupe, notes listed without volume)",
+  "fr": {
+   "title": "Candy Love Escada : odeur de pomme d'amour, avis",
+   "meta": "Candy Love d'Escada (2020) sent la pomme d'amour de fête foraine. Pomme et rose centifolia sur crème chantilly. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Escada Candy Love: Candy Apple and Whipped Cream",
+   "meta": "Escada Candy Love (2020) smells like a funfair candy apple. Apple and centifolia rose, then vanilla and whipped cream. Our review and similar scents."
+  }
+ },
+ "hugo-boss-hugo-red": {
+  "angle": "homme + notes",
+  "evidence": "hugo boss red 210; hugo boss red homme 50; hugo red 40 (femme 30)",
+  "fr": {
+   "title": "Hugo Red de Hugo Boss, homme : ananas, rhubarbe, avis",
+   "meta": "Hugo Red de Hugo Boss (2013) est un oriental épicé pour homme. Pamplemousse et rhubarbe, avec ananas et tonka. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Hugo Boss Hugo Red: Pineapple, Rhubarb and Tonka",
+   "meta": "Hugo Boss Hugo Red (2013) for men: grapefruit and galbanum, rhubarb and pineapple, then tonka and amber. Our review, longevity and similar picks."
+  }
+ },
+ "serge-lutens-five-o-clock-au-gingembre": {
+  "angle": "composition + avis",
+  "evidence": "five o'clock au gingembre 390; five o clock au gingembre 210; serge lutens five o'clock au gingembre 50 (composition 10)",
+  "fr": {
+   "title": "Five O'Clock au Gingembre : composition et avis",
+   "meta": "Five O'Clock au Gingembre de Serge Lutens (2008) : thé et gingembre confit, puis miel et cacao. La composition, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Five O'Clock au Gingembre: Tea, Ginger and Cocoa",
+   "meta": "Serge Lutens Five O'Clock au Gingembre (2008): tea and bergamot, candied ginger and cinnamon, then honey and cocoa. Review and similar spicy scents."
+  }
+ },
+ "montblanc-legend-intense": {
+  "angle": "flanker: warmer Legend, key notes",
+  "evidence": "montblanc legend intense 140; mont blanc legend intense 70; parfum mont blanc legend intense 10",
+  "fr": {
+   "title": "Legend Intense Montblanc : ananas, cardamome, tonka",
+   "meta": "Legend Intense de Montblanc (2013) réchauffe la fougère de Legend : ananas, cardamome, pomme rouge et tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Montblanc Legend Intense: Pineapple, Cardamom, Tonka",
+   "meta": "Montblanc Legend Intense (2013) warms the Legend fougère with pineapple, cardamom, red apple and tonka. Our review and fragrances that smell close."
+  }
+ },
+ "lancome-climat": {
+  "angle": "1967 history: aldehydic floral",
+  "evidence": "climat lancome 90; climat lancome acheter 10; parfum climat lancome 10 (avis 10, eau de parfum 10)",
+  "fr": {
+   "title": "Climat Lancôme (1967) : histoire et notes",
+   "meta": "Climat de Lancôme (1967) est un floral aldéhydé. Aldéhydes et pêche, rose et muguet sur un santal légèrement animal. Pyramide, avis et parfums proches."
+  },
+  "en": {
+   "title": "Lancôme Climat (1967): Aldehydes, Rose and Notes",
+   "meta": "Lancôme Climat (1967): aldehydes and peach, rose and lily of the valley, a faintly animal sandalwood. Review and similar scents."
+  }
+ },
+ "parfums-de-marly-pegasus": {
+  "angle": "notes: almond + heliotrope",
+  "evidence": "pegasus parfums de marly 90; pegasus marly 24 (avis listed without volume)",
+  "fr": {
+   "title": "Pegasus Parfums de Marly : amande, héliotrope, avis",
+   "meta": "Pegasus de Parfums de Marly (2011) est une fougère crémeuse et gourmande. Héliotrope et amande sur vanille. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Parfums de Marly Pegasus: Almond and Heliotrope",
+   "meta": "Parfums de Marly Pegasus (2011) is a creamy gourmand fougère. Heliotrope and almond with lavender, then vanilla. Our review, longevity and similar scents."
+  }
+ },
+ "lancome-miracle-homme": {
+  "angle": "perfumer Francis Kurkdjian",
+  "evidence": "lancôme miracle homme 70; lancome miracle homme 64; parfum miracle homme 10",
+  "fr": {
+   "title": "Miracle Homme Lancôme : le boisé de Francis Kurkdjian",
+   "meta": "Miracle Homme de Lancôme (2001) de Francis Kurkdjian : mousse de chêne et poivre, puis café et cèdre sur vétiver. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Lancôme Miracle Homme by Francis Kurkdjian: Notes",
+   "meta": "Lancôme Miracle Homme (2001): oakmoss and pepper, coffee and cedar, then guaiac wood and vetiver. Our review, longevity and similar scents."
+  }
+ },
+ "estee-lauder-youth-dew": {
+  "angle": "1953 history + notes",
+  "evidence": "youth dew 170; estee lauder youth dew 140; youth dew estée lauder 140 (notes olfactives 10, composition 10, avis 10)",
+  "fr": {
+   "title": "Youth Dew Estée Lauder (1953) : notes et histoire",
+   "meta": "Youth Dew d'Estée Lauder (1953) : aldéhydes, pêche, rose et ylang-ylang sur vanille et patchouli. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Estée Lauder Youth Dew (1953): Notes and History",
+   "meta": "Estée Lauder Youth Dew (1953): aldehydes and peach, rose and ylang-ylang over vanilla and patchouli. Full pyramid, our review and similar orientals."
+  }
+ },
+ "diesel-only-the-brave-wild": {
+  "angle": "notes: lemongrass + coconut milk",
+  "evidence": "only the brave wild 70; diesel only the brave wild 50; only the brave wild diesel 30",
+  "fr": {
+   "title": "Only The Brave Wild Diesel : notes et avis",
+   "meta": "Only The Brave Wild de Diesel (2014) : citronnelle et poivre noir, puis lavande. Le fond mêle cèdre et lait de coco. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Diesel Only The Brave Wild: Lemongrass, Coconut Milk",
+   "meta": "Diesel Only The Brave Wild (2014): lemongrass and black pepper with lavender. Then cedar and coconut milk. Our review, longevity and similar fougères."
+  }
+ },
+ "gucci-guilty-black-pour-femme": {
+  "angle": "the femme version: notes",
+  "evidence": "gucci guilty black 170; gucci guilty black homme 50; gucci guilty black pour femme 10",
+  "fr": {
+   "title": "Gucci Guilty Black pour Femme : notes et avis",
+   "meta": "Guilty Black pour Femme de Gucci (2013) d'Aurélien Guichard : fruits rouges poivrés et lilas sur patchouli ambré. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Gucci Guilty Black pour Femme: Red Berries, Lilac",
+   "meta": "Gucci Guilty Black pour Femme (2013): peppery red berries, lilac and peach over amber patchouli. Our review, longevity and similar perfumes."
+  }
+ },
+ "molinard-patchouli-intense": {
+  "angle": "avis on a praline patchouli",
+  "evidence": "patchouli intense molinard 110; patchouli intense molinard avis 20; parfum patchouli intense molinard 10",
+  "fr": {
+   "title": "Patchouli Intense Molinard : avis, patchouli praliné",
+   "meta": "Patchouli Intense de Molinard (2015), mixte, rend le patchouli plus sociable que terreux. Praline et néroli sur tonka. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Molinard Patchouli Intense: Praline and Patchouli",
+   "meta": "Molinard Patchouli Intense (2015), unisex: praline and neroli over patchouli and tonka, friendly rather than earthy. Our review and similar picks."
+  }
+ },
+ "paco-rabanne-1-million-intense": {
+  "angle": "homme + notes of the flanker",
+  "evidence": "one million intense 90; 1 million intense 30; one million intense homme 30 (avis 10, eau de parfum 10)",
+  "fr": {
+   "title": "1 Million Intense Paco Rabanne homme : notes et avis",
+   "meta": "1 Million Intense (2013) passe la cannelle de 1 Million au safran. Mandarine sanguine et rose, puis cuir et iris. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Paco Rabanne 1 Million Intense: Saffron and Leather",
+   "meta": "Paco Rabanne 1 Million Intense (2013): blood mandarin and saffron, rose and cinnamon. Leather and orris close it. Our review, longevity and similar scents."
+  }
+ },
+ "molyneux-quartz": {
+  "angle": "1977 feminine chypre: notes",
+  "evidence": "quartz molyneux 200; parfum quartz molyneux 40; quartz molyneux avis 20 (parfum femme 20, composition 10)",
+  "fr": {
+   "title": "Quartz Molyneux (1977) : parfum femme, notes et avis",
+   "meta": "Quartz de Molyneux (1977) est un chypre floral. Pêche et jacinthe, puis iris sur mousse de chêne. La pyramide, notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Molyneux Quartz (1977): Peach, Iris and Oakmoss",
+   "meta": "Molyneux Quartz (1977) is a floral chypre. Peach and hyacinth, orris and carnation, then oakmoss. The full pyramid, our review and similar chypres."
+  }
+ },
+ "rochas-eau-de-rochas-escapade-exotique": {
+  "angle": "summer flanker: notes",
+  "evidence": "eau de rochas escapade au soleil 90 (sibling); eau de rochas escapade exotique 70; escapade exotique rochas 30 (avis 10)",
+  "fr": {
+   "title": "Escapade Exotique Rochas : pastèque, orange et avis",
+   "meta": "Eau de Rochas Escapade Exotique (2019) est une édition d'été. Orange sanguine et pastèque sur musc blanc. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Eau de Rochas Escapade Exotique: Watermelon Notes",
+   "meta": "Eau de Rochas Escapade Exotique (2019), a summer edition: blood orange and blackcurrant, melon and watermelon on musk. Review and similar scents."
+  }
+ },
+ "marc-jacobs-daisy-dream": {
+  "angle": "notes: blackberry, pear, wisteria",
+  "evidence": "daisy dream 70; marc jacob daisy dream 25; daisy dream marc jacobs 25 (notes 10, avis 10)",
+  "fr": {
+   "title": "Daisy Dream Marc Jacobs : mûre, poire et glycine",
+   "meta": "Daisy Dream de Marc Jacobs (2014) est une Daisy plus fruitée. Mûre et litchi, glycine sur bois blancs. Notre avis, la tenue, la saison et ses voisins."
+  },
+  "en": {
+   "title": "Marc Jacobs Daisy Dream: Blackberry, Pear, Wisteria",
+   "meta": "Marc Jacobs Daisy Dream (2014), a fruitier Daisy: blackberry and pear, lychee and wisteria over white woods and musk. Review, longevity, similar scents."
+  }
+ },
+ "hugo-boss-boss-bottled-oud": {
+  "angle": "flanker: Boss Bottled with oud",
+  "evidence": "boss bottled oud 110; hugo boss bottled oud 90; hugo boss bottled oud review 10 (avis 10, eau de parfum 10)",
+  "fr": {
+   "title": "Boss Bottled Oud : safran, girofle et oud, avis",
+   "meta": "Boss Bottled Oud de Hugo Boss (2015) emmène Boss Bottled vers l'oud. Pomme et safran sur labdanum et santal. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Hugo Boss Bottled Oud: Saffron, Clove and Oud",
+   "meta": "Hugo Boss Boss Bottled Oud (2015) takes Boss Bottled east: apple, saffron, clove and labdanum over oud and sandalwood. Review, longevity, similar scents."
+  }
+ },
+ "lacoste-l-homme-lacoste": {
+  "angle": "eau de toilette (vs Intense): notes",
+  "evidence": "l'homme lacoste intense 90; parfum l'homme lacoste 70; l homme lacoste 22 (eau de toilette 20)",
+  "fr": {
+   "title": "L'Homme Lacoste eau de toilette : coing, amande, avis",
+   "meta": "L'Homme Lacoste (2017), l'eau de toilette d'origine de Michel Girard. Coing et rhubarbe, puis amande poivrée et cèdre. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "L'Homme Lacoste: Quince, Almond and Cedar Notes",
+   "meta": "L'Homme Lacoste (2017) is Michel Girard's original eau de toilette. Quince and rhubarb, peppery almond, then vanilla cedar. Our review and similar scents."
+  }
+ },
+ "dior-sauvage-very-cool-spray": {
+  "angle": "flanker: the chilled Sauvage",
+  "evidence": "sauvage very cool spray 70; sauvage very cool spray avis 10; dior sauvage very cool spray eau de toilette 10",
+  "fr": {
+   "title": "Sauvage Very Cool Spray : le Sauvage frais, avis",
+   "meta": "Sauvage Very Cool Spray de Dior (2017) passe Sauvage au froid : pamplemousse, poivre du Sichuan, lavande et ambroxan. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Dior Sauvage Very Cool Spray: The Chilled Sauvage",
+   "meta": "Dior Sauvage Very Cool Spray (2017) chills the original: grapefruit and pink pepper, Sichuan pepper and lavender, then ambroxan. Review and similar scents."
+  }
+ },
+ "penhaligons-blenheim-bouquet": {
+  "angle": "1902 history: lemon, lavender, pine",
+  "evidence": "blenheim bouquet 110; blenheim bouquet penhaligon's 90; penhaligon's blenheim bouquet 90 (eau de toilette 10, avis 10)",
+  "fr": {
+   "title": "Blenheim Bouquet Penhaligon's (1902) : histoire et notes",
+   "meta": "Blenheim Bouquet, créé par Walter Penhaligon en 1902 : citron et lavande, aiguilles de pin sur poivre et musc. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Penhaligon's Blenheim Bouquet (1902): Lemon and Pine",
+   "meta": "Penhaligon's Blenheim Bouquet (1902): lemon and lime with lavender. Pine needles, pepper and musk follow. Our review, longevity and similar scents."
+  }
+ },
+ "yves-saint-laurent-mon-paris-parfum-floral": {
+  "angle": "flanker: floral Mon Paris",
+  "evidence": "mon paris parfum floral 70; yves saint laurent mon paris parfum floral 10; mon paris parfum floral avis 10",
+  "fr": {
+   "title": "Mon Paris Parfum Floral YSL : datura, pivoine et avis",
+   "meta": "Mon Paris Parfum Floral d'Yves Saint Laurent (2019) : poire et framboise, puis datura et pivoine sur musc. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "YSL Mon Paris Parfum Floral: Datura and Peony",
+   "meta": "Yves Saint Laurent Mon Paris Parfum Floral (2019): pear and raspberry, then datura, jasmine and peony over musk. Review and sister scents."
+  }
+ },
+ "guerlain-aqua-allegoria-limon-verde": {
+  "angle": "what it smells like: caipirinha",
+  "evidence": "aqua allegoria limon verde 70; limon verde 70; limon verde guerlain 70 (avis 10)",
+  "fr": {
+   "title": "Limon Verde Guerlain : l'odeur d'une caïpirinha",
+   "meta": "Aqua Allegoria Limon Verde (2014), un parfum mixte de Thierry Wasser. Citron vert et cachaça sur figue et tonka. Son odeur, notre avis et ses voisins."
+  },
+  "en": {
+   "title": "Aqua Allegoria Limon Verde: A Caipirinha in a Bottle",
+   "meta": "Guerlain Aqua Allegoria Limon Verde (2014): lime and cachaça, green fig, then cane sugar and tonka. What it smells like and similar scents."
+  }
+ },
+ "prada-la-femme-prada-intense": {
+  "angle": "avis + notes of the Intense",
+  "evidence": "la femme prada intense 70; la femme prada intense avis 10; parfum la femme prada intense 10",
+  "fr": {
+   "title": "La Femme Prada Intense : avis, frangipanier, tubéreuse",
+   "meta": "La Femme Prada Intense (2017) de Daniela Andrier est plus crémeuse que La Femme. Frangipanier et tubéreuse sur vanille. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "La Femme Prada Intense: Frangipani and Tuberose",
+   "meta": "Prada La Femme Intense (2017) by Daniela Andrier, creamier than La Femme: frangipani and tuberose over vanilla and iris. Our review and similar scents."
+  }
+ },
+ "lanvin-me": {
+  "angle": "notes: blueberry, tuberose, licorice",
+  "evidence": "lanvin me 82; lanvin me fragrantica 10; lanvin me l absolu 10 (avis 10, eau de parfum 10)",
+  "fr": {
+   "title": "Lanvin Me : myrtille, tubéreuse et réglisse, avis",
+   "meta": "Me de Lanvin, signé Domitille Bertier en 2013 : mandarine et myrtille, une tubéreuse sucrée sur réglisse noire. Avis, tenue, saison et parfums proches."
+  },
+  "en": {
+   "title": "Lanvin Me (2013): Blueberry, Tuberose, Licorice",
+   "meta": "Lanvin Me (2013): mandarin and blueberry, a sugared tuberose, then black licorice and sandalwood. Our review, longevity and similar scents."
+  }
+ },
+ "sisley-eau-d-ikar": {
+  "angle": "homme + notes",
+  "evidence": "eau d'ikar 70; eau d'ikar sisley 30; sisley eau d'ikar 20 (avis 10, pour homme 10)",
+  "fr": {
+   "title": "Eau d'Ikar Sisley homme : notes et avis",
+   "meta": "Eau d'Ikar de Sisley (2011) est un boisé aromatique pour homme. Orange amère et galbanum, puis thé et vétiver. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Sisley Eau d'Ikar: Mastic, Tea and Vetiver",
+   "meta": "Sisley Eau d'Ikar (2011) is a dry woody aromatic for men. Bitter orange and galbanum, mastic and tea, then cistus and vetiver. Review and similar scents."
+  }
+ },
+ "britney-spears-midnight-fantasy": {
+  "angle": "notes: cherry, plum + avis",
+  "evidence": "midnight fantasy britney spears 50; midnight fantasy 40; britney spears midnight fantasy 27 (avis 10)",
+  "fr": {
+   "title": "Midnight Fantasy Britney Spears : cerise, prune, avis",
+   "meta": "Midnight Fantasy de Britney Spears (2006) est la Fantasy du soir. Cerise noire et prune sur vanille musquée. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Britney Spears Midnight Fantasy: Cherry and Plum",
+   "meta": "Britney Spears Midnight Fantasy (2006), the night-time Fantasy: black cherry, plum and raspberry over orchid and musky vanilla. Review and similar scents."
+  }
+ },
+ "guerlain-aqua-allegoria-forte-rosa-rossa": {
+  "angle": "notes: rose, peach, blackcurrant",
+  "evidence": "aqua allegoria rosa rossa 390; guerlain aqua allegoria rosa rossa 110; guerlain rosa rossa parfum 110 (forte rosa rossa 90)",
+  "fr": {
+   "title": "Forte Rosa Rossa Guerlain : rose, pêche et cassis",
+   "meta": "Aqua Allegoria Forte Rosa Rossa (2022) de Delphine Jelk : rose de Damas et pêche, avec cassis sur benjoin. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Guerlain Forte Rosa Rossa: Rose, Peach, Blackcurrant",
+   "meta": "Guerlain Aqua Allegoria Forte Rosa Rossa (2022) by Delphine Jelk: Damask rose with peach and blackcurrant over warm benzoin. Our review and similar roses."
+  }
+ },
+ "valentino-donna-noir-absolu": {
+  "angle": "avis + notes",
+  "evidence": "valentino donna noir absolu 90; parfum valentino donna noir absolu 10; valentino donna noir absolu avis 10",
+  "fr": {
+   "title": "Donna Noir Absolu Valentino : avis, prune et cuir",
+   "meta": "Donna Noir Absolu de Valentino (2017) habille la Valentino Donna pour la nuit. Poivre et safran, puis prune et cuir. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Valentino Donna Noir Absolu: Plum, Pepper, Leather",
+   "meta": "Valentino Donna Noir Absolu (2017): black pepper and saffron, jasmine and plum liqueur, then leather. Our review, longevity and similar scents."
+  }
+ },
+ "nina-ricci-les-sorbets-de-bella": {
+  "angle": "limited edition: notes + avis",
+  "evidence": "les sorbets de bella 50; nina ricci les sorbets de bella 20; parfum nina ricci les sorbets de bella 10 (avis 10)",
+  "fr": {
+   "title": "Les Sorbets de Bella Nina Ricci : rhubarbe et avis",
+   "meta": "Les Sorbets de Bella (2019) est l'édition d'été de Nina Ricci. Mandarine verte et rhubarbe, puis shiso et violette. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Nina Ricci Les Sorbets de Bella: Rhubarb, Shiso",
+   "meta": "Nina Ricci Les Sorbets de Bella (2019) is a summer edition. Green mandarin and rhubarb with pomegranate, then shiso and violet. Review and similar scents."
+  }
+ },
+ "chanel-n18": {
+  "angle": "the perfume: ambrette notes",
+  "evidence": "chanel n18 40; chanel 18 40 (mixed with nail polish and bags)",
+  "fr": {
+   "title": "N°18 Chanel, le parfum : ambrette, poire et iris",
+   "meta": "N°18 de Chanel (2007), mixte : l'ambrette en vedette avec une poire, un iris et un santal très doux. Pyramide, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Chanel N°18: Ambrette, Pear and Iris Notes",
+   "meta": "Chanel N°18 (2007) by Jacques Polge is unisex. Ambrette seed leads, with pear and iris over a very soft sandalwood. Pyramid, review and similar scents."
+  }
+ },
+ "nina-ricci-nina-fleur": {
+  "angle": "flanker: how it differs (no data)",
+  "evidence": "no HaloScan data",
+  "fr": {
+   "title": "Nina Fleur de Nina Ricci : pomme verte, fleur d'oranger",
+   "meta": "Nina Fleur (2022) cueille la pomme de Nina encore verte : citron, pomme Granny Smith, fleur d'oranger et néroli. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Nina Ricci Nina Fleur: Green Apple, Orange Blossom",
+   "meta": "Nina Ricci Nina Fleur (2022) by Olivier Cresp picks the Nina apple green: lemon and Granny Smith over orange blossom and neroli. Review and similar scents."
+  }
+ },
+ "nina-ricci-nina-l-eau": {
+  "angle": "eau de toilette: light flanker notes",
+  "evidence": "nina l'eau 50; nina ricci nina l eau eau de toilette 10; nina ricci nina l eau 10",
+  "fr": {
+   "title": "Nina L'Eau, eau de toilette : néroli et fleur de pommier",
+   "meta": "Nina L'Eau de Nina Ricci (2013) met la pomme de Nina à l'eau claire. Néroli et fleur de pommier sur musc blanc. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Nina Ricci Nina L'Eau: Neroli and Apple Blossom",
+   "meta": "Nina Ricci Nina L'Eau (2013) by Olivier Cresp, the Nina apple in clear water: neroli, apple blossom and gardenia on white musk. Review and similar scents."
+  }
+ },
+ "dolce-gabbana-the-one-essence": {
+  "angle": "avis + notes of the flanker",
+  "evidence": "the one essence 40; dolce gabbana the one essence 30; dolce and gabbana the one essence 20 (avis 10)",
+  "fr": {
+   "title": "The One Essence Dolce & Gabbana : avis et notes",
+   "meta": "The One Essence de Dolce & Gabbana (2015) épaissit le litchi et le lys de The One avec l'ambre et la vanille. Pyramide, avis et parfums proches."
+  },
+  "en": {
+   "title": "D&G The One Essence: Lychee, Lily and Vanilla",
+   "meta": "Dolce & Gabbana The One Essence (2015) thickens The One's lychee and lily with amber and vanilla. The full pyramid, our review and similar scents."
+  }
+ },
+ "prada-l-homme-intense": {
+  "angle": "notes: iris, leather, amber",
+  "evidence": "l homme prada intense 12; l'homme prada intense eau de parfum avis 10; l homme prada intense avis 10",
+  "fr": {
+   "title": "L'Homme Intense Prada : iris, cuir et ambre, avis",
+   "meta": "L'Homme Intense de Prada (2017, Daniela Andrier) plonge l'iris poudré dans l'ambre, le cuir et la tonka grillée. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Prada L'Homme Intense: Iris, Leather and Amber",
+   "meta": "Prada L'Homme Intense (2017) by Daniela Andrier dips powdery iris into amber, leather and toasted tonka. Our review, longevity and similar scents."
+  }
+ },
+ "givenchy-l-ange-noir": {
+  "angle": "notes: iris + black sesame",
+  "evidence": "l'ange noir givenchy 20; l'ange noir givenchy avis 10",
+  "fr": {
+   "title": "L'Ange Noir Givenchy : iris et sésame noir, avis",
+   "meta": "L'Ange Noir de Givenchy (2016) : amande et baies roses, un iris blanc relevé de sésame noir salé, puis tonka et ambrette. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Givenchy L'Ange Noir: Iris and Black Sesame",
+   "meta": "Givenchy L'Ange Noir (2016): almond and pink pepper, a white iris salted with black sesame, then tonka and ambrette. Review, longevity, similar scents."
+  }
+ },
+ "parfums-de-marly-pegasus-exclusif": {
+  "angle": "difference vs Pegasus",
+  "evidence": "pegasus exclusif 50; pegasus exclusif parfums de marly 40; parfums de marly pegasus exclusif 10 (pegasus vs pegasus exclusif listed without volume)",
+  "fr": {
+   "title": "Pegasus Exclusif ou Pegasus : notes et différences",
+   "meta": "Pegasus Exclusif (2020) reprend l'amande et la vanille de Pegasus en concentration parfum. Oud et gaïac s'y ajoutent. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Pegasus Exclusif vs Pegasus: Notes and Differences",
+   "meta": "Parfums de Marly Pegasus Exclusif (2020) keeps the almond, heliotrope and vanilla of Pegasus, adding oud and guaiac at parfum strength. Our review."
+  }
+ },
+ "givenchy-eau-de-givenchy-rosee": {
+  "angle": "notes: rose, osmanthus + avis",
+  "evidence": "eau de givenchy rosée 50; eau de givenchy rosée avis 10",
+  "fr": {
+   "title": "Eau de Givenchy Rosée : rose, osmanthus et avis",
+   "meta": "Eau de Givenchy Rosée (2019) : osmanthus, mandarine, puis une rose et une jacinthe perlées de rosée sur musc. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Eau de Givenchy Rosée: Rose, Osmanthus, Hyacinth",
+   "meta": "Eau de Givenchy Rosée (2019): osmanthus and mandarin, then a dewy rose, hyacinth and jasmine over musk. Our review, longevity and similar florals."
+  }
+ },
+ "tom-ford-violet-blonde": {
+  "angle": "notes: violet, iris, suede",
+  "evidence": "tom ford violet blonde 50; violet blonde 10",
+  "fr": {
+   "title": "Violet Blonde de Tom Ford : un iris beurré sur daim",
+   "meta": "Violet Blonde de Tom Ford (2011) d'Antoine Lie : feuille de violette et iris sur daim et benjoin. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Tom Ford Violet Blonde: Violet, Iris and Suede",
+   "meta": "Tom Ford Violet Blonde (2011): violet leaf and aldehydes, buttery iris and jasmine over suede and benzoin. Our review, longevity and similar scents."
+  }
+ },
+ "mugler-alien-eau-sublime": {
+  "angle": "flanker: sunny Alien",
+  "evidence": "alien eau sublime 50; alien eau sublime fragrantica 10; alien eau sublime avis 10",
+  "fr": {
+   "title": "Alien Eau Sublime Mugler : en quoi il diffère d'Alien",
+   "meta": "Alien Eau Sublime (2017) de Dominique Ropion passe le jasmin d'Alien au soleil. Mandarine et tiaré sur ambre blanc. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Mugler Alien Eau Sublime: Alien Jasmine in the Sun",
+   "meta": "Mugler Alien Eau Sublime (2017) by Dominique Ropion takes the Alien jasmine into the sun: mandarin, tiaré flower and white amber. Review and similar."
+  }
+ },
+ "rochas-eau-de-rochas-escapade-tropicale": {
+  "angle": "summer flanker: notes",
+  "evidence": "escapade tropicale rochas 10; escapade tropicale rochas avis 10",
+  "fr": {
+   "title": "Escapade Tropicale Rochas : mangue, cassis et avis",
+   "meta": "Eau de Rochas Escapade Tropicale (2018) part sous les tropiques : citron, cassis, néroli et mangue sur ambroxan. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Eau de Rochas Escapade Tropicale: Mango and Cassis",
+   "meta": "Eau de Rochas Escapade Tropicale (2018) heads for the tropics. Lemon and blackcurrant with mango, then ambroxan and musk. Our review and similar scents."
+  }
+ },
+ "police-to-be": {
+  "angle": "parfum homme + notes",
+  "evidence": "police to be parfum 70; police to be 70; parfum police to be 50 (parfum homme 20, femme 10)",
+  "fr": {
+   "title": "Police To Be, parfum homme : notes et avis",
+   "meta": "To Be de Police (2011), le parfum homme au flacon crâne. Pamplemousse poivré et feuille de violette sur ambre et cèdre. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Police To Be (2011): Peppered Grapefruit Notes",
+   "meta": "Police To Be (2011), the skull-bottle men's scent: peppered grapefruit, violet leaf and apple blossom over amber and cedar. Review and similar picks."
+  }
+ },
+ "serge-lutens-le-participe-passe": {
+  "angle": "composition + avis",
+  "evidence": "participe passé serge lutens 30; le participe passé serge lutens 20; participe passé serge lutens composition 10 (avis 10)",
+  "fr": {
+   "title": "Le Participe Passé Serge Lutens : composition et avis",
+   "meta": "Le Participe Passé de Serge Lutens (2018) est un parfum mixte. Armoise et poivre, puis caramel et cuir. La composition, notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Serge Lutens Le Participe Passé: Caramel and Leather",
+   "meta": "Serge Lutens Le Participe Passé (2018) is unisex. Artemisia and pepper open it. Burnt caramel, cumin and leather follow. Our review and similar ambers."
+  }
+ },
+ "jennifer-lopez-glow": {
+  "angle": "what it smells like: clean skin",
+  "evidence": "glow jlo 45; miami glow jlo 20 (flanker); parfum glow jlo 10",
+  "fr": {
+   "title": "Glow de Jennifer Lopez : l'odeur de peau propre",
+   "meta": "Glow by JLo (2002) sent la peau fraîchement douchée. Néroli et pamplemousse, puis musc propre et santal. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Glow by JLo: The Clean-Skin Scent, Explained",
+   "meta": "Jennifer Lopez Glow (2002) smells like skin fresh out of the shower: neroli, orange blossom and grapefruit over clean musk. Our review and similar scents."
+  }
+ },
+ "lancome-o-d-azur": {
+  "angle": "notes: Amalfi lemon + peony",
+  "evidence": "o d'azur lancome 90; o d azur 10; lancome o d azur 10",
+  "fr": {
+   "title": "Ô d'Azur Lancôme : citron d'Amalfi et pivoine",
+   "meta": "Ô d'Azur de Lancôme (2010) : citron d'Amalfi et bergamote, puis pivoine et rose sur musc et ambrette. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Lancôme Ô d'Azur: Amalfi Lemon and Peony",
+   "meta": "Lancôme Ô d'Azur (2010): Amalfi lemon and bergamot, peony, rose and pink pepper over musk and ambrette. Our review, longevity and similar scents."
+  }
+ },
+ "dolce-gabbana-the-one-grey": {
+  "angle": "flanker: drier The One",
+  "evidence": "the one grey 30; dolce gabbana the one grey 30; the one grey dolce & gabbana 10 (eau de toilette 10, intense 10)",
+  "fr": {
+   "title": "The One Grey : la version moins sucrée de The One",
+   "meta": "The One Grey de Dolce & Gabbana (2018) remplace une partie du sucre de The One par la lavande et le vétiver, sur tabac et ambre. Avis et parfums proches."
+  },
+  "en": {
+   "title": "D&G The One Grey: Lavender, Vetiver and Tobacco",
+   "meta": "Dolce & Gabbana The One Grey (2018) swaps some of The One's sweetness for lavender and vetiver, over tobacco and amber. Review, longevity, similar scents."
+  }
+ },
+ "nina-ricci-luna-blossom": {
+  "angle": "notes: pear + peony",
+  "evidence": "luna blossom 90; nina ricci luna blossom 90; luna blossom nina ricci 30 (avis 10, eau de toilette 10)",
+  "fr": {
+   "title": "Luna Blossom Nina Ricci : poire, pivoine et avis",
+   "meta": "Luna Blossom de Nina Ricci (2017) de Fabrice Pellegrin : poire juteuse et pivoine, puis magnolia sur cèdre. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Nina Ricci Luna Blossom: Pear and Peony Notes",
+   "meta": "Nina Ricci Luna Blossom (2017): juicy pear and bergamot, then peony, jasmine and magnolia over cedar and musk. Our review and similar scents."
+  }
+ },
+ "parfums-de-marly-habdan": {
+  "angle": "what it smells like: incense vanilla",
+  "evidence": "habdan parfums de marly 30; pdm habdan 10; parfum de marly habdan 10",
+  "fr": {
+   "title": "Habdan Parfums de Marly : à quoi sent cette vanille ?",
+   "meta": "Habdan de Parfums de Marly (2013) est un parfum mixte. Safran et encens, pomme et rose, puis myrrhe et caramel. Son odeur, notre avis et ses voisins."
+  },
+  "en": {
+   "title": "Parfums de Marly Habdan: Incense, Saffron, Caramel",
+   "meta": "Parfums de Marly Habdan (2013) is unisex. Saffron and incense with apple and rose, then myrrh, caramel and ambergris. How it smells and similar vanillas."
+  }
+ },
+ "boucheron-quatre-iconic": {
+  "angle": "notes: amber tuberose",
+  "evidence": "parfum boucheron quatre iconic 30",
+  "fr": {
+   "title": "Quatre Iconic Boucheron : tubéreuse et gingembre",
+   "meta": "Quatre Iconic de Boucheron (2022) : mandarine et gingembre, une tubéreuse ambrée, puis cassis sur patchouli. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Boucheron Quatre Iconic: Tuberose and Ginger",
+   "meta": "Boucheron Quatre Iconic (2022): mandarin and ginger, an amber tuberose with Peru balsam and blackcurrant, then patchouli. Review and similar scents."
+  }
+ },
+ "cartier-eau-de-cartier-vetiver-bleu": {
+  "angle": "unisex vetiver: notes + perfumer",
+  "evidence": "eau de cartier vetiver bleu 30; cartier eau de cartier vetiver bleu 10; eau de cartier vetiver bleu avis 10",
+  "fr": {
+   "title": "Eau de Cartier Vétiver Bleu : vétiver, menthe, réglisse",
+   "meta": "Eau de Cartier Vétiver Bleu (2015, Mathilde Laurent), mixte : un vétiver terreux rafraîchi de menthe et adouci de réglisse. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Eau de Cartier Vétiver Bleu: Vetiver, Mint, Licorice",
+   "meta": "Eau de Cartier Vétiver Bleu (2015): an earthy vetiver cooled with mint and softened with licorice. Our review, longevity and similar scents."
+  }
+ },
+ "rochas-les-cascades-de-rochas-songe-d-iris": {
+  "angle": "notes: iris, fig, chocolate",
+  "evidence": "les cascades de rochas songe d'iris 30; parfum rochas songe d'iris 10",
+  "fr": {
+   "title": "Songe d'Iris Rochas : iris, figue et chocolat",
+   "meta": "Les Cascades de Rochas Songe d'Iris (2013) : agrumes, un iris aquatique adouci par la figue, une pointe de chocolat. Avis et parfums proches."
+  },
+  "en": {
+   "title": "Rochas Songe d'Iris: Iris, Fig and Chocolate",
+   "meta": "Les Cascades de Rochas Songe d'Iris (2013): citrus, then a watery iris softened with fig, and a touch of chocolate. Review and similar scents."
+  }
+ },
+ "guerlain-rose-nacree-du-desert": {
+  "angle": "avis on rose + oud",
+  "evidence": "rose nacrée du désert guerlain 30; rose nacrée du désert 20; rose nacrée du désert guerlain avis 10",
+  "fr": {
+   "title": "Rose Nacrée du Désert Guerlain : rose, oud et avis",
+   "meta": "Rose Nacrée du Désert (2012) est un parfum mixte de Thierry Wasser. Une rose safranée et cardamome sur oud et myrrhe. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Guerlain Rose Nacrée du Désert: Rose and Oud",
+   "meta": "Guerlain Rose Nacrée du Désert (2012): a saffron rose with cardamom and turmeric over oud, myrrh and benzoin. Review and similar scents."
+  }
+ },
+ "parfums-de-marly-athalia": {
+  "angle": "notes: iris + light incense",
+  "evidence": "parfum de marly athalia 20; parfums de marly athalia 20; athalia parfums de marly 10",
+  "fr": {
+   "title": "Athalia Parfums de Marly : iris, encens et avis",
+   "meta": "Athalia de Parfums de Marly (2016) : encens léger, orange amère, iris et fleur d'oranger sur musc et vanille. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Parfums de Marly Athalia: Iris and Light Incense",
+   "meta": "Parfums de Marly Athalia (2016): soft incense and bitter orange, iris and orange blossom over musk and vanilla. Our review and similar powdery florals."
+  }
+ },
+ "by-kilian-moonlight-in-heaven": {
+  "angle": "what it smells like: mango sticky rice",
+  "evidence": "moonlight in heaven by kilian 210; kilian moonlight in heaven 191; moonlight in heaven 140 (avis 10)",
+  "fr": {
+   "title": "Moonlight in Heaven Kilian, l'odeur du riz à la mangue",
+   "meta": "Moonlight in Heaven de Kilian (2016) sent le dessert thaï : noix de coco, mangue et riz sur tonka et vétiver. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Kilian Moonlight in Heaven: Coconut, Mango, Rice",
+   "meta": "By Kilian Moonlight in Heaven (2016) by Calice Becker smells like Thai mango sticky rice: coconut, mango and rice over tonka. Review and similar scents."
+  }
+ },
+ "guess-guess-1981-for-men": {
+  "angle": "homme version (vs femme)",
+  "evidence": "guess 1981 170; guess 1981 femme 70; guess 1981 homme 70 (avis 20)",
+  "fr": {
+   "title": "Guess 1981 for Men : notes boisées et avis",
+   "meta": "Guess 1981 for Men (2017), la version homme : bergamote et feuille de violette, puis cèdre sur cuir et encens. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Guess 1981 for Men: Violet Leaf, Cedar, Leather",
+   "meta": "Guess 1981 for Men (2017): bergamot and violet leaf, then cedar and oakmoss. Leather and incense in the base. Our review, longevity and similar woods."
+  }
+ },
+ "lanvin-modern-princess-eau-sensuelle": {
+  "angle": "flanker: notes",
+  "evidence": "lanvin modern princess eau sensuelle 20; parfum lanvin modern princess eau sensuelle 10; modern princess eau sensuelle 10",
+  "fr": {
+   "title": "Modern Princess Eau Sensuelle Lanvin : notes",
+   "meta": "Modern Princess Eau Sensuelle de Lanvin (2018) : pamplemousse rose et pêche, puis fleur d'oranger sur santal vanillé. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Lanvin Modern Princess Eau Sensuelle: Peach, Peony",
+   "meta": "Lanvin Modern Princess Eau Sensuelle (2018): pink grapefruit and peach, peony, pear and orange blossom over vanilla sandalwood. Review and similar."
+  }
+ },
+ "chanel-n19-poudre": {
+  "angle": "avis + composition vs N°19",
+  "evidence": "chanel 19 poudré 260; chanel 19 poudré avis 20; chanel 19 poudré composition 10",
+  "fr": {
+   "title": "Chanel N°19 Poudré : avis et composition",
+   "meta": "N°19 Poudré (2011) adoucit le N°19 de 1971 : galbanum plus discret, néroli, iris poudré et muscs blancs. Composition, avis et parfums proches."
+  },
+  "en": {
+   "title": "Chanel N°19 Poudré: The Softer N°19, Reviewed",
+   "meta": "Chanel N°19 Poudré (2011) softens the 1971 N°19: quieter galbanum, neroli, powdery iris and white musks. The composition, our review and similar perfumes."
+  }
+ },
+ "maison-francis-kurkdjian-petit-matin": {
+  "angle": "notes: lemon, orange blossom, lavandin",
+  "evidence": "petit matin francis kurkdjian 50; francis kurkdjian petit matin 20; parfum petit matin 10",
+  "fr": {
+   "title": "Petit Matin Kurkdjian : citron et fleur d'oranger",
+   "meta": "Petit Matin de Maison Francis Kurkdjian (2016) sent le matin sur draps propres. Citron et fleur d'oranger sur musc. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "MFK Petit Matin: Lemon, Orange Blossom, Lavandin",
+   "meta": "Maison Francis Kurkdjian Petit Matin (2016) is a summer morning on clean sheets. Lemon and orange blossom over musk, unisex. Our review and similar scents."
+  }
+ },
+ "cartier-la-panthere-legere": {
+  "angle": "flanker: notes + avis",
+  "evidence": "panthere legere cartier 10; la panthere legere cartier 10; la panthere legere cartier avis 10",
+  "fr": {
+   "title": "La Panthère Légère Cartier : gardénia, tiaré et avis",
+   "meta": "La Panthère Légère de Cartier (2015) éclaire le gardénia musqué de La Panthère avec la fleur de tiaré, sur un fond chypré. Avis et parfums proches."
+  },
+  "en": {
+   "title": "Cartier La Panthère Légère: Gardenia and Tiaré",
+   "meta": "Cartier La Panthère Légère (2015) by Mathilde Laurent lightens the musky gardenia of La Panthère with tiaré, over a chypre base. Review and similar."
+  }
+ },
+ "hermes-eau-de-basilic-pourpre": {
+  "angle": "unisex cologne: notes",
+  "evidence": "eau de basilic pourpre hermès 50 (avis, femme, homme listed without volume)",
+  "fr": {
+   "title": "Eau de Basilic Pourpre Hermès : pour homme ou femme ?",
+   "meta": "Eau de Basilic Pourpre d'Hermès (2022) est une cologne mixte. Bergamote et basilic pourpre, puis géranium sur patchouli. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Hermès Eau de Basilic Pourpre: Purple Basil Cologne",
+   "meta": "Hermès Eau de Basilic Pourpre (2022) puts an almost metallic purple basil next to bergamot. Geranium, spice and patchouli follow. Plus similar scents."
+  }
+ },
+ "parfum-d-empire-fougere-bengale": {
+  "angle": "perfumer + notes",
+  "evidence": "parfum d'empire fougère bengale 10; fougère bengale parfum d empire 10",
+  "fr": {
+   "title": "Fougère Bengale, Parfum d'Empire : lavande et tabac",
+   "meta": "Fougère Bengale (2007) est signée Marc-Antoine Corticchiato. Lavande et estragon, puis tabac blond et vanille. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Parfum d'Empire Fougère Bengale: Lavender, Tobacco",
+   "meta": "Parfum d'Empire Fougère Bengale (2007): lavender and tarragon sliding into blond tobacco, tonka and vanilla. Our review and similar."
+  }
+ },
+ "juliette-has-a-gun-mmmm": {
+  "angle": "avis + notes",
+  "evidence": "juliette has a gun mmmm 390; parfum juliette has a gun mmmm 70; juliette has a gun mmmm avis 20 (notes 10)",
+  "fr": {
+   "title": "MMMM... Juliette Has a Gun : avis et notes",
+   "meta": "MMMM... de Juliette Has a Gun (2016) : framboise, néroli, fleur d'oranger et tubéreuse fondus dans une vanille douce. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Juliette Has a Gun MMMM...: Raspberry and Vanilla",
+   "meta": "Juliette Has a Gun MMMM... (2016): raspberry and neroli melting into orange blossom, tuberose and soft vanilla. Our review and similar gourmand florals."
+  }
+ },
+ "jimmy-choo-blossom": {
+  "angle": "notes: raspberry + sweet pea",
+  "evidence": "jimmy choo blossom 355; parfum jimmy choo blossom 40; jimmy choo blossom eau de parfum 10",
+  "fr": {
+   "title": "Jimmy Choo Blossom : framboise, pois de senteur, avis",
+   "meta": "Blossom de Jimmy Choo (2015) : une framboise pétillante, des fruits rouges et un pois de senteur sur musc blanc. Notre avis et des parfums proches."
+  },
+  "en": {
+   "title": "Jimmy Choo Blossom: Raspberry and Sweet Pea",
+   "meta": "Jimmy Choo Blossom (2015): fizzy raspberry and red berries, rose and sweet pea over white musk. Our review, longevity and similar fruity florals."
+  }
+ },
+ "dior-dior-addict": {
+  "angle": "parfum femme, eau de parfum",
+  "evidence": "parfum dior addict 2417; dior addict 600; eau fraîche dior addict 590 (eau de parfum 480, parfum femme 140, avis 70)",
+  "fr": {
+   "title": "Parfum Dior Addict femme : notes de l'eau de parfum",
+   "meta": "L'eau de parfum Dior Addict (2002) : feuille de mandarinier et fleur de la reine de la nuit sur vanille ambrée. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Dior Addict Eau de Parfum: A Night-Blooming Floral",
+   "meta": "Dior Addict eau de parfum (2002): mandarin leaf and orange blossom, night-blooming cereus and jasmine over amber vanilla. Review and similar scents."
+  }
+ },
+ "parfums-de-marly-palatine": {
+  "angle": "new launch: notes (no data)",
+  "evidence": "no HaloScan data",
+  "fr": {
+   "title": "Palatine Parfums de Marly : poire, pêche et violette",
+   "meta": "Palatine de Parfums de Marly (2024) est un floral velouté. Poire et violette sur musc blanc et vanille. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Parfums de Marly Palatine: Pear, Peach and Violet",
+   "meta": "Parfums de Marly Palatine (2024) is a velvety floral. Pear and peach with violet, then white musk and vanilla. Our review, longevity and similar scents."
+  }
+ },
+ "burberry-her-elixir": {
+  "angle": "flanker: berry jam version of Her",
+  "evidence": "burberry her elixir 800 (avis, notes, composition listed without volume)",
+  "fr": {
+   "title": "Burberry Her Elixir : ce qui change par rapport à Her",
+   "meta": "Her Elixir de Burberry (2022) pousse Her vers la nuit : fraise écrasée, mûre, jasmin et vanille ambrée sur santal. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "Burberry Her Elixir: Strawberry, Blackberry, Vanilla",
+   "meta": "Burberry Her Elixir (2022) takes Her into the night: crushed strawberry and blackberry, jasmine, then amber vanilla. Our review and similar scents."
+  }
+ },
+ "yves-saint-laurent-l-homme": {
+  "angle": "eau de toilette notes + avis",
+  "evidence": "l homme yves saint laurent eau de parfum 355; l homme yves saint laurent 242; la nuit de l homme yves saint laurent 200 (avis 50, intense 40, eau de toilette 40)",
+  "fr": {
+   "title": "L'Homme Yves Saint Laurent : gingembre, violette, avis",
+   "meta": "L'Homme d'Yves Saint Laurent (2006), l'eau de toilette : gingembre, feuille de violette et basilic sur cèdre et tonka. Avis, tenue et parfums proches."
+  },
+  "en": {
+   "title": "YSL L'Homme: Ginger, Violet Leaf and Cedar",
+   "meta": "Yves Saint Laurent L'Homme (2006) eau de toilette: bergamot and ginger, violet leaf and basil, then cedar and tonka. Our review, longevity and similar."
+  }
+ },
+ "burberry-hero": {
+  "angle": "homme + 3 key notes",
+  "evidence": "burberry hero 3200; burberry hero parfum 500; burberry hero homme 400",
+  "fr": {
+   "title": "Burberry Hero homme : genièvre, poivre et cèdre",
+   "meta": "Hero de Burberry (2021) d'Aurélien Guichard tient en peu de notes. Genièvre et poivre noir sur cèdre. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "Burberry Hero: Juniper, Black Pepper and Cedar",
+   "meta": "Burberry Hero (2021): bergamot, crushed juniper berry, dry black pepper and cedar. Our review, longevity and similar scents."
+  }
+ },
+ "sol-de-janeiro-cheirosa-68-beija-flor": {
+  "angle": "what it smells like (no data)",
+  "evidence": "no HaloScan data",
+  "fr": {
+   "title": "Cheirosa 68 Beija Flor : son odeur et ses notes",
+   "meta": "Cheirosa 68 Beija Flor de Sol de Janeiro (2022) est une brume mixte. Pitaya rose et litchi glacé sur vanille. Son odeur, notre avis et la tenue."
+  },
+  "en": {
+   "title": "Cheirosa 68 Beija Flor: What It Smells Like",
+   "meta": "Sol de Janeiro Cheirosa 68 Beija Flor (2022) is a unisex mist. Pink dragon fruit and icy lychee over vanilla. How it smells and our honest review."
+  }
+ },
+ "courreges-courreges-in-blue": {
+  "angle": "1983 history: aldehydic floral",
+  "evidence": "courrèges in blue 140; parfum courrèges in blue 50; courrèges in blue parfum 30 (eau de toilette 10)",
+  "fr": {
+   "title": "Courrèges in Blue (1983) : aldéhydes, tubéreuse, notes",
+   "meta": "Courrèges in Blue (1983) est un floral aldéhydé d'Edouard Fléchier. Aldéhydes et coriandre, puis tubéreuse sur mousse de chêne. Avis et parfums proches."
+  },
+  "en": {
+   "title": "Courrèges in Blue (1983): Aldehydes and Tuberose",
+   "meta": "Courrèges in Blue (1983): starchy aldehydes and coriander, peony and tuberose over oakmoss. Review and similar perfumes."
+  }
+ },
+ "lancome-la-vie-est-belle-l-eclat-l-eau-de-toilette": {
+  "angle": "eau de toilette composition",
+  "evidence": "la vie est belle l éclat eau de toilette 70; la vie est belle l'éclat lancome 40; la vie est belle l éclat 27 (composition 20)",
+  "fr": {
+   "title": "La Vie est Belle L'Éclat L'Eau de Toilette : composition",
+   "meta": "La Vie est Belle L'Éclat L'Eau de Toilette (2018) : mandarine et néroli, fleur d'oranger puis un iris poudré. Notre avis, la tenue et des parfums proches."
+  },
+  "en": {
+   "title": "La Vie est Belle L'Éclat L'Eau de Toilette: Notes",
+   "meta": "Lancôme La Vie est Belle L'Éclat L'Eau de Toilette (2018): mandarin and grapefruit zest, neroli and orange blossom, then iris. Review and similar picks."
+  }
+ }
+}
