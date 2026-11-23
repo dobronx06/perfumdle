@@ -13,7 +13,7 @@ import pool from '../data/game-pool.json';
 import type { Locale } from '../i18n';
 import { url, perfumes, noteName, familyName, allNotes, mainFamily } from '../lib/catalog';
 import { isPublished } from '../lib/schedule';
-import { bestOffer, goLink, formatPrice } from '../lib/affiliates';
+import { bestOffer, goLink, formatPrice, bottleMl } from '../lib/affiliates';
 import { promosFor } from '../lib/promos';
 
 interface Props { locale: Locale }
@@ -43,7 +43,7 @@ const gameData = {
   // Cheapest tracked bottle of each pool perfume (EN shops only), shown once the game is over
   buy: Object.fromEntries((pool as string[]).flatMap((slug) => {
     const b = bestOffer(l, slug);
-    return b ? [[slug, { go: goLink(b.shop, slug), shop: b.shop.name, shopId: b.shop.id, price: formatPrice(b.offer, l), ml: b.offer.ml }]] : [];
+    return b ? [[slug, { go: goLink(b.shop, slug), shop: b.shop.name, shopId: b.shop.id, price: formatPrice(b.offer, l), ml: bottleMl(b.offer.ml) }]] : [];
   })),
   promos: promosFor(l).map(({ promo: p, shop }) => ({ ...p, shopName: shop.name, go: goLink(shop) })),
 };
@@ -294,7 +294,7 @@ const gameLd = [
       const now = Date.now();
       const promo = D.promos.find((p) => p.shop === b.shopId && now >= Date.parse(p.start) && now < Date.parse(p.end));
       return `<div class="buy result__buy">
-        <a class="buy__btn" href="${b.go}" rel="sponsored nofollow noopener" target="_blank" data-aff="${b.shopId}" data-aff-perfume="${t.s}" data-aff-from="game">
+        <a class="buy__btn" data-go="${b.go}" role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff="${b.shopId}" data-aff-perfume="${t.s}" data-aff-from="game">
           <span class="buy__label">${T(`${esc(t.n)} dès ${b.price}`, `${esc(t.n)} from ${b.price}`)}</span>
           <span class="buy__shop">${T('chez', 'at')} ${esc(b.shop)}${b.ml ? ` · ${b.ml} ml` : ''} <span aria-hidden="true">→</span></span>
         </a>
@@ -336,7 +336,6 @@ const gameLd = [
         try { if (navigator.share) { await navigator.share({ text }); return; } } catch { /* cancelled */ }
         try { await navigator.clipboard.writeText(text); $('copied').hidden = false; } catch { /* no clipboard */ }
       };
-      box.querySelectorAll<HTMLAnchorElement>('[data-aff]').forEach((a) => a.addEventListener('click', () => track('Affiliate click', { shop: a.dataset.aff ?? '', perfume: a.dataset.affPerfume ?? '', from: 'game' })));
       $('train-btn').onclick = () => { if (mode === 'train') train = fresh(randomTarget()); setMode('train'); save(); };
       tick();
     }

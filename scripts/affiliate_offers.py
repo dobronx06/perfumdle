@@ -97,7 +97,18 @@ def size_ml(title):
     if not m:
         return None
     v = float(m.group(1))
-    return round(v * 29.57) if len(m.groups()) > 1 and m.group(2) == 'oz' else round(v)
+    if len(m.groups()) > 1 and m.group(2) == 'oz':
+        return snap_ml(v * 29.57)
+    return round(v)
+
+
+# Bottles are sold in standard sizes: 3.4 oz is a 100 ml bottle, not 101 ml
+SIZES = (5, 7.5, 10, 15, 20, 30, 35, 40, 45, 50, 60, 65, 75, 80, 90, 100, 110, 120, 125, 150, 175, 180, 200)
+
+
+def snap_ml(ml):
+    near = min(SIZES, key=lambda x: abs(x - ml))
+    return near if abs(near - ml) <= ml * 0.06 else round(ml)
 
 
 TITLE = re.compile(r'^(?P<name>.+?)\s+(?:perfume|cologne)?\s*for (?P<gender>women|men|unisex)\s+by\s+(?P<rest>.+)$', re.I)
