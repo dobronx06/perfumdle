@@ -119,7 +119,7 @@ const Q = [
               <h3><a href={url.perfume('fr', p.slug)}>{p.name}</a> ({p.brand}, {p.year})</h3>
               <p>{c.why![p.slug]}</p>
               {hasSimilar(p.slug) && <p class="muted" style="font-size:.88rem;margin-top:-.4rem"><a href={url.similar('fr', p.slug)}>Les parfums proches de {p.name}</a></p>}
-              <PriceBox locale="fr" name={p.name} brand={p.brand} slug={p.slug} from="noel" />
+              <PriceBox locale="fr" name={p.name} brand={p.brand} slug={p.slug} from="noel" image={p.image} />
             </>
           ))}
         </>
