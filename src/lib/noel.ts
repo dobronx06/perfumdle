@@ -42,3 +42,14 @@ export const NOEL_GROUPS: { key: NoelGroup; title: string }[] = [
   { key: 'style', title: 'Selon son style' },
   { key: 'advice', title: 'Bien choisir et bien offrir' },
 ];
+
+/** Christmas pages a perfume fiche links to (FR, until Jan 1): the "il/elle aime X" page about this perfume first,
+ *  then up to two live pages that pick it. Gives every gift page links from indexed fiches, not only the sitemap. */
+export const noelForPerfume = (perfume: string): { slug: string; label: string; own: boolean }[] => {
+  const own = noelLive.filter((s) => all[s].about === perfume).map((s) => ({ slug: s, label: all[s].h1, own: true }));
+  const picked = noelLive
+    .filter((s) => all[s].about !== perfume && all[s].picks?.includes(perfume))
+    .slice(0, 3 - own.length)
+    .map((s) => ({ slug: s, label: all[s].h1, own: false }));
+  return [...own, ...picked];
+};
