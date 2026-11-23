@@ -102,7 +102,28 @@ const ld = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href={fontUrl} rel="stylesheet" />
     {ld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
-    <script defer data-domain="perfumdle.com" src="https://plausible.io/js/script.js"></script>
+    <script is:inline>
+      /* A/B test of the click buttons (buy card, share button): half the visitors see them green, half red.
+         The variant is drawn once per browser, kept in localStorage, set on <html data-btn> before the first paint
+         and sent to Plausible as the "btn" property on every pageview and event. */
+      (function () {
+        var v;
+        try { v = localStorage.getItem('pf_btn'); } catch (_) { /* storage blocked */ }
+        if (v !== 'green' && v !== 'red') {
+          v = Math.random() < 0.5 ? 'green' : 'red';
+          try { localStorage.setItem('pf_btn', v); } catch (_) { /* storage blocked */ }
+        }
+        document.documentElement.setAttribute('data-btn', v);
+        window.pfBtn = v;
+        window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments); };
+        var s = document.createElement('script');
+        s.defer = true;
+        s.setAttribute('data-domain', 'perfumdle.com');
+        s.setAttribute('event-btn', v);
+        s.src = 'https://plausible.io/js/script.pageview-props.js';
+        document.head.appendChild(s);
+      })();
+    </script>
     <meta name="google-adsense-account" content="ca-pub-3706554839100487" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3706554839100487" crossorigin="anonymous"></script>
   </head>
@@ -124,7 +145,7 @@ const ld = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
           var a = e.target && e.target.closest && e.target.closest('a[data-aff]');
           if (!a) return;
           if (!a.getAttribute('href') && a.getAttribute('data-go')) a.setAttribute('href', a.getAttribute('data-go'));
-          try { window.plausible && window.plausible('Affiliate click', { props: { shop: a.dataset.aff || '', perfume: a.dataset.affPerfume || '', from: a.dataset.affFrom || '' } }); } catch (_) { /* never blocks the link */ }
+          try { window.plausible && window.plausible('Affiliate click', { props: { shop: a.dataset.aff || '', perfume: a.dataset.affPerfume || '', from: a.dataset.affFrom || '', btn: window.pfBtn || '' } }); } catch (_) { /* never blocks the link */ }
         }, true);
       })();
     </script>

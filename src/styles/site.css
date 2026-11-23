@@ -531,3 +531,9 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .buy__more a:hover { background: #F1F6F0; }
 .buy__more-size { color: var(--muted); }
 .buy__more-price { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--buy-green); font-weight: 600; white-space: nowrap; }
+/* A/B test (Layout.astro sets html[data-btn]): the red variant swaps every green of the buy box for red. */
+html[data-btn='red'] .buy { --buy-green: #B8322A; }
+html[data-btn='red'] .buy__card { border-color: rgba(184, 50, 42, 0.35); box-shadow: 0 8px 24px -14px rgba(184, 50, 42, 0.45); }
+html[data-btn='red'] .buy__card:hover, html[data-btn='red'] .buy__card:focus-visible { border-color: var(--buy-green); box-shadow: 0 12px 28px -14px rgba(184, 50, 42, 0.6); }
+html[data-btn='red'] .buy__card:hover .buy__go { background: #962620; }
+html[data-btn='red'] .buy__more a:hover { background: #FBF0EF; }

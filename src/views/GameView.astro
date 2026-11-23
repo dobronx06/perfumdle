@@ -393,7 +393,7 @@ const gameLd = [
 
     /* ---------- analytics (Plausible custom events; no-op if the script is blocked) ---------- */
     const track = (name: string, props: Record<string, string>) => {
-      try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.(name, { props }); } catch { /* ignore */ }
+      try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.(name, { props: { ...props, btn: (window as unknown as { pfBtn?: string }).pfBtn || '' } }); } catch { /* ignore */ }
     };
 
     /* ---------- guessing ---------- */
@@ -559,6 +559,8 @@ const gameLd = [
   .game .share__sub { margin: 0; color: var(--ink-2); font-size: 0.92rem; }
   .game .share__btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.8rem 1.1rem; border: 0; border-radius: 999px; background: #2E6B3E; color: #fff; font: 600 0.98rem var(--sans); cursor: pointer; box-shadow: 0 8px 20px -10px rgba(46, 107, 62, 0.7); transition: background 0.2s, transform 0.2s; }
   .game .share__btn:hover { background: #245632; transform: translateY(-1px); }
+  :global(html[data-btn='red']) .game .share__btn { background: #B8322A; box-shadow: 0 8px 20px -10px rgba(184, 50, 42, 0.7); }
+  :global(html[data-btn='red']) .game .share__btn:hover { background: #962620; }
   .game .share__alt { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .game .share__wa, .game .share__copy { flex: 1 1 7rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; padding: 0.55rem 0.8rem; border-radius: 999px; border: 1px solid var(--line-strong); background: #fff; color: var(--ink); font: 500 0.88rem var(--sans); text-decoration: none; cursor: pointer; }
   .game .share__wa { color: #1E7A45; }
