@@ -520,3 +520,4 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .buy__more a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.55rem 0.9rem; font-size: 0.9rem; color: var(--ink); text-decoration: none; cursor: pointer; }
 .buy__more a:hover { background: #FBF3E4; }
 .buy__more-price { color: var(--wine); font-weight: 600; white-space: nowrap; }
+.buy__more-price span { margin-left: 0.35rem; }
