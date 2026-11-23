@@ -168,7 +168,7 @@ const jsonLd = compact([
               <div><dt>Concentration</dt><dd>{p.concentration}</dd></div>
               {ed?.perfumer && <div><dt>{fr ? 'Parfumeur' : 'Perfumer'}</dt><dd>{perfumerNames.map((n, i) => <>{i > 0 && ', '}{noseHref(n) ? <a href={noseHref(n)!}>{n}</a> : n}</>)}</dd></div>}
             </dl>
-            <PriceBox locale={l} name={p.name} brand={p.brand} slug={p.slug} from="perfume" />
+            <PriceBox locale={l} name={p.name} brand={p.brand} slug={p.slug} from="perfume" image={p.image} />
           </div>
         </section>
       </div>

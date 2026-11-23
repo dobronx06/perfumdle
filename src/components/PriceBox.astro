@@ -1,7 +1,7 @@
 ---
 /**
- * "Voir le prix" call to action in the perfume hero. The best offer (cheapest per ml) is one button; the other
- * shops selling the perfume follow as compact lines, so the box stays discreet. Promos show between their dates.
+ * "Voir le prix" call to action in the perfume hero. The best offer (cheapest per ml) is a card with the bottle,
+ * the price in green and a "view deal" arrow that says it opens the shop; the other shops follow as compact lines. Promos show between their dates.
  *
  * Bots: affiliate links carry no href in the HTML. The link is in data-go and the global script in
  * Layout.astro (data-go handler) turns it into a real href on the first pointer, touch, focus or key event,
@@ -11,9 +11,10 @@
 import type { Locale } from '../i18n';
 import { shopsForPerfume, shopLink, goLink, formatPrice, offersDate, bottleMl } from '../lib/affiliates';
 import { promosFor } from '../lib/promos';
+import { EXT_ICON as EXT } from '../lib/icons';
 
-interface Props { locale: Locale; name: string; brand: string; slug: string; from: string }
-const { locale: l, name, brand, slug, from } = Astro.props;
+interface Props { locale: Locale; name: string; brand: string; slug: string; from: string; image?: string | null }
+const { locale: l, name, brand, slug, from, image } = Astro.props;
 const fr = l === 'fr';
 const shops = shopsForPerfume(l, slug);
 const [first, ...others] = shops;
@@ -25,19 +26,24 @@ const size = (x: (typeof shops)[number]) => (bottleMl(x.offer?.ml) ? ` · ${bott
 
 {first && (
   <div class="buy">
-    <a class="buy__btn" data-go={link(first)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={first.shop.id} data-aff-perfume={slug} data-aff-from={from}>
-      <span class="buy__label">{first.offer
-        ? (fr ? `${name} dès ${formatPrice(first.offer, l)}` : `${name} from ${formatPrice(first.offer, l)}`)
-        : (fr ? `Voir le prix de ${name}` : `Check the price of ${name}`)}</span>
-      <span class="buy__shop">{fr ? `chez ${first.shop.name}` : `at ${first.shop.name}`}{size(first)} <span aria-hidden="true">→</span></span>
+    <a class="buy__card" data-go={link(first)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={first.shop.id} data-aff-perfume={slug} data-aff-from={from}>
+      {image && <img class="buy__img" src={image} alt="" width="64" height="64" loading="lazy" />}
+      <span class="buy__info">
+        <span class="buy__name">{name}</span>
+        <span class="buy__meta">{fr ? `chez ${first.shop.name}` : `at ${first.shop.name}`}{size(first)}</span>
+      </span>
+      <span class="buy__cta">
+        {first.offer && <span class="buy__price"><small>{fr ? 'dès' : 'from'}</small>{formatPrice(first.offer, l)}</span>}
+        <span class="buy__go">{first.offer ? (fr ? "Voir l'offre" : 'View deal') : (fr ? 'Voir le prix' : 'Check price')}<Fragment set:html={EXT} /></span>
+      </span>
     </a>
     {others.length > 0 && (
       <ul class="buy__more" aria-label={fr ? 'Autres boutiques' : 'Other shops'}>
         {others.map((x) => (
           <li>
             <a data-go={link(x)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={x.shop.id} data-aff-perfume={slug} data-aff-from={from}>
-              <span>{x.shop.name}</span>
-              <span class="buy__more-price">{x.offer ? formatPrice(x.offer, l) : (fr ? 'voir le prix' : 'see price')}{size(x)} <span aria-hidden="true">→</span></span>
+              <span>{x.shop.name}<span class="buy__more-size">{size(x)}</span></span>
+              <span class="buy__more-price">{x.offer ? formatPrice(x.offer, l) : (fr ? 'voir le prix' : 'see price')}<Fragment set:html={EXT} /></span>
             </a>
           </li>
         ))}

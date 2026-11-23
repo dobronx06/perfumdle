@@ -145,6 +145,7 @@ const gameLd = [
 
   <script>
     import { dayStr, dailySlug as drawDaily } from '../lib/daily';
+    import { EXT_ICON, SHARE_ICON, COPY_ICON, WA_ICON } from '../lib/icons';
     type G = 'Feminine' | 'Masculine' | 'Unisex';
     interface E { s: string; n: string; b: string; y: number; g: G; m: string; f: string[]; t: string[]; h: string[]; d: string[]; i: string; sim: number }
     interface Buy { go: string; shop: string; shopId: string; price: string; ml: number | null }
@@ -294,12 +295,49 @@ const gameLd = [
       const now = Date.now();
       const promo = D.promos.find((p) => p.shop === b.shopId && now >= Date.parse(p.start) && now < Date.parse(p.end));
       return `<div class="buy result__buy">
-        <a class="buy__btn" data-go="${b.go}" role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff="${b.shopId}" data-aff-perfume="${t.s}" data-aff-from="game">
-          <span class="buy__label">${T(`${esc(t.n)} dès ${b.price}`, `${esc(t.n)} from ${b.price}`)}</span>
-          <span class="buy__shop">${T('chez', 'at')} ${esc(b.shop)}${b.ml ? ` · ${b.ml} ml` : ''} <span aria-hidden="true">→</span></span>
+        <a class="buy__card" data-go="${b.go}" role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff="${b.shopId}" data-aff-perfume="${t.s}" data-aff-from="game">
+          ${t.i ? `<img class="buy__img" src="${t.i}" alt="" width="64" height="64" />` : ''}
+          <span class="buy__info">
+            <span class="buy__name">${esc(t.n)}</span>
+            <span class="buy__meta">${T('chez', 'at')} ${esc(b.shop)}${b.ml ? ` · ${b.ml} ml` : ''}</span>
+          </span>
+          <span class="buy__cta">
+            <span class="buy__price"><small>${T('dès', 'from')}</small>${b.price}</span>
+            <span class="buy__go">${T("Voir l'offre", 'View deal')}${EXT_ICON}</span>
+          </span>
         </a>
         ${promo ? `<p class="buy__promo"><strong>${esc(promo.label)} at ${esc(promo.shopName)}</strong>: ${esc(promo.text)}${promo.code ? ` <b class="buy__code">${esc(promo.code)}</b>` : ''} (${esc(promo.dates)}, online only).</p>` : ''}
         <p class="buy__note">${T('Lien affilié : Perfumdle peut toucher une commission, sans surcoût pour vous.', 'Affiliate link: Perfumdle may earn a commission at no extra cost to you.')}</p>
+      </div>`;
+    }
+
+    /** Result card to share: the score, one row of coloured squares per guess, then the share buttons. */
+    function shareHtml(s: State, t: E): string {
+      const score = s.won ? String(s.guesses.length) : 'X';
+      const rows = s.guesses.map((slug) => {
+        const c = compare(BY.get(slug)!, t);
+        return `<div class="share__row">${c.cells.map((x) => `<i class="sq ${x.status}"></i>`).join('')}<span class="share__notes">${c.shared.length} 🌸</span></div>`;
+      }).join('');
+      const date = new Date().toLocaleDateString(FR ? 'fr-FR' : 'en-GB', { day: 'numeric', month: 'short' });
+      const tease = s.won
+        ? T(`Feront-ils mieux que ${score}/${MAX} ?`, `Can they beat ${score}/${MAX}?`)
+        : T('Ce parfum m’a eu. À eux de tenter leur chance.', 'This one beat me. Let them try.');
+      return `<div class="share">
+        <div class="share__card" aria-label="${T('Votre grille de résultat', 'Your result grid')}">
+          <div class="share__top"><span class="share__brand">Perfumdle</span><span>${mode === 'daily' ? esc(date) : T('Entraînement', 'Practice')}</span></div>
+          <p class="share__score">${score}<span>/${MAX}</span></p>
+          <div class="share__rows">${rows}</div>
+        </div>
+        <div class="share__side">
+          <p class="share__title">${T('Défiez vos amis', 'Challenge your friends')}</p>
+          <p class="share__sub">${tease}</p>
+          <button type="button" class="share__btn" id="share-btn">${SHARE_ICON}${T('Partager ma grille', 'Share my grid')}</button>
+          <div class="share__alt">
+            <a class="share__wa" id="wa-btn" href="https://wa.me/?text=${encodeURIComponent(shareText(s))}" target="_blank" rel="noopener">${WA_ICON}WhatsApp</a>
+            <button type="button" class="share__copy" id="copy-btn">${COPY_ICON}${T('Copier', 'Copy')}</button>
+          </div>
+          <p class="result__copied" id="copied" hidden>${T('Grille copiée : collez-la dans vos messages', 'Grid copied: paste it in a message')}</p>
+        </div>
       </div>`;
     }
 
@@ -317,12 +355,7 @@ const gameLd = [
           <h2 class="h2">${esc(t.n)} <small>${esc(t.b)} · ${t.y}</small></h2>
           ${mode === 'daily' ? `<p class="result__stats">${T('Série', 'Streak')} : <strong>${streak.current}</strong> · ${T('record', 'best')} : ${streak.max} · <span id="countdown"></span></p>` : ''}
           ${buyHtml(t)}
-          <div class="result__share">
-            <p class="result__share-title">${T('Défiez vos amis', 'Challenge your friends')}</p>
-            <pre class="result__grid" aria-label="${T('Votre grille de résultat', 'Your result grid')}">${esc(shareText(s).split('\n').slice(0, -1).join('\n'))}</pre>
-            <button type="button" class="btn btn--gold" id="share-btn">${T('Partager ma grille', 'Share my grid')}</button>
-            <p class="result__copied" id="copied" hidden>${T('Grille copiée : collez-la dans vos messages', 'Grid copied: paste it in a message')}</p>
-          </div>
+          ${shareHtml(s, t)}
           <div class="result__actions">
             <a class="btn" href="${D.perfumeBase}${t.s}/">${T('Voir la fiche', 'Read the profile')}</a>
             ${t.sim ? `<a class="btn" href="${D.similarBase}${t.s}/">${T('Parfums similaires', 'Similar perfumes')}</a>` : ''}
@@ -330,12 +363,20 @@ const gameLd = [
             <button type="button" class="btn" id="train-btn">${mode === 'daily' ? T('Jouer en entraînement', 'Play practice') : T('Nouvelle partie', 'New game')}</button>
           </div>
         </div>`;
-      $('share-btn').onclick = async () => {
-        const text = shareText(s);
-        track('Share result', { mode });
-        try { if (navigator.share) { await navigator.share({ text }); return; } } catch { /* cancelled */ }
+      const text = shareText(s);
+      const copy = async (via: string) => {
+        track('Share result', { mode, via });
         try { await navigator.clipboard.writeText(text); $('copied').hidden = false; } catch { /* no clipboard */ }
       };
+      $('share-btn').onclick = async () => {
+        if (navigator.share) {
+          try { await navigator.share({ text }); track('Share result', { mode, via: 'native' }); } catch { /* cancelled */ }
+          return;
+        }
+        await copy('copy');
+      };
+      $('copy-btn').onclick = () => copy('copy');
+      $('wa-btn').onclick = () => track('Share result', { mode, via: 'whatsapp' });
       $('train-btn').onclick = () => { if (mode === 'train') train = fresh(randomTarget()); setMode('train'); save(); };
       tick();
     }
@@ -498,10 +539,30 @@ const gameLd = [
   .game .result h2 small { display: block; font: 400 0.95rem var(--sans); color: var(--muted); margin-top: 0.2rem; }
   .game .result__stats { font-size: 0.9rem; color: var(--ink-2); }
   .game .result__actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
-  .game .result__buy { margin-top: 0.6rem; }
-  .game .result__share { margin-top: 1rem; padding: 0.9rem 1rem; border-radius: 14px; background: var(--paper, #FBF8F3); border: 1px solid var(--line); }
-  .game .result__share-title { font-family: var(--serif); font-weight: 600; margin: 0 0 0.4rem; }
-  .game .result__grid { font: 1rem/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; margin: 0 0 0.6rem; white-space: pre; overflow-x: auto; }
+  .game .result__body { min-width: 0; }
+  .game .result__buy { margin-top: 0.6rem; max-width: none; }
+  .game .share { display: grid; gap: 1rem; margin-top: 1rem; padding: 1rem; border-radius: 18px; background: var(--paper, #F7F3EE); border: 1px solid var(--line); }
+  .game .share__card { display: grid; grid-template-columns: auto 1fr; grid-template-areas: 'top top' 'score rows'; align-items: center; column-gap: 1.4rem; background: linear-gradient(150deg, #33201C, #1A1411 70%); color: #F7F3EE; border-radius: 14px; padding: 0.9rem 1rem 1rem; box-shadow: 0 10px 24px -14px rgba(26, 20, 17, 0.6); }
+  .game .share__top { grid-area: top; margin-bottom: 0.6rem; display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem; white-space: nowrap; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(247, 243, 238, 0.65); }
+  .game .share__brand { font-family: var(--serif); font-size: 1.05rem; letter-spacing: 0.02em; text-transform: none; color: #E7C77C; }
+  .game .share__score { font-family: var(--serif); font-weight: 600; font-size: 3.4rem; line-height: 1; margin: 0; grid-area: score; }
+  .game .share__score span { font-size: 1.3rem; color: rgba(247, 243, 238, 0.55); }
+  .game .share__rows { grid-area: rows; display: grid; gap: 0.3rem; justify-content: start; }
+  .game .share__row { display: flex; align-items: center; gap: 0.3rem; }
+  .game .sq { width: 1.45rem; height: 1.45rem; border-radius: 5px; display: inline-block; }
+  .game .sq.ok { background: #5E9E55; }
+  .game .sq.near { background: #E7C77C; }
+  .game .sq.no { background: rgba(247, 243, 238, 0.16); }
+  .game .share__notes { white-space: nowrap; margin-left: 0.45rem; font-size: 0.82rem; color: rgba(247, 243, 238, 0.8); }
+  .game .share__side { display: flex; flex-direction: column; gap: 0.5rem; justify-content: center; }
+  .game .share__title { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; margin: 0; }
+  .game .share__sub { margin: 0; color: var(--ink-2); font-size: 0.92rem; }
+  .game .share__btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.8rem 1.1rem; border: 0; border-radius: 999px; background: #2E6B3E; color: #fff; font: 600 0.98rem var(--sans); cursor: pointer; box-shadow: 0 8px 20px -10px rgba(46, 107, 62, 0.7); transition: background 0.2s, transform 0.2s; }
+  .game .share__btn:hover { background: #245632; transform: translateY(-1px); }
+  .game .share__alt { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .game .share__wa, .game .share__copy { flex: 1 1 7rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; padding: 0.55rem 0.8rem; border-radius: 999px; border: 1px solid var(--line-strong); background: #fff; color: var(--ink); font: 500 0.88rem var(--sans); text-decoration: none; cursor: pointer; }
+  .game .share__wa { color: #1E7A45; }
+  .game .share__wa:hover, .game .share__copy:hover { border-color: var(--ink); }
   .game .result__copied { font-size: 0.85rem; color: #3F6B3A; margin-top: 0.4rem; }
   @media (min-width: 640px) {
   .game .result { grid-template-columns: 200px 1fr; }
