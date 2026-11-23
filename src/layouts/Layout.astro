@@ -108,5 +108,25 @@ const ld = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
   </head>
   <body>
     <slot />
+    <script is:inline>
+      /* Affiliate links have no href in the HTML (crawlers find nothing to follow): the target is in data-go,
+         copied to href on the first pointer, touch, focus or key event, before the click itself.
+         Each click is sent to Plausible as "Affiliate click" (shop, perfume, page type). */
+      (function () {
+        var arm = function (e) {
+          var a = e.target && e.target.closest && e.target.closest('a[data-go]');
+          if (a && !a.getAttribute('href')) a.setAttribute('href', a.getAttribute('data-go'));
+        };
+        ['pointerdown', 'touchstart', 'focusin', 'mouseover', 'keydown'].forEach(function (t) {
+          document.addEventListener(t, arm, { capture: true, passive: true });
+        });
+        document.addEventListener('click', function (e) {
+          var a = e.target && e.target.closest && e.target.closest('a[data-aff]');
+          if (!a) return;
+          if (!a.getAttribute('href') && a.getAttribute('data-go')) a.setAttribute('href', a.getAttribute('data-go'));
+          try { window.plausible && window.plausible('Affiliate click', { props: { shop: a.dataset.aff || '', perfume: a.dataset.affPerfume || '', from: a.dataset.affFrom || '' } }); } catch (_) { /* never blocks the link */ }
+        }, true);
+      })();
+    </script>
   </body>
 </html>

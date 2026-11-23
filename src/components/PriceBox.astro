@@ -1,36 +1,52 @@
 ---
 /**
- * "Voir le prix" call to action in the perfume hero: one button per affiliate shop serving this locale.
- * When the shop's catalogue has been fetched, only shops that sell this perfume appear, with their price,
- * size and product link; otherwise the button opens the shop's search. Clicks are sent to Plausible as
- * "Affiliate click" with the shop, the perfume and the page type.
+ * "Voir le prix" call to action in the perfume hero. The best offer (cheapest per ml) is one button; the other
+ * shops selling the perfume follow as compact lines, so the box stays discreet. Promos show between their dates.
+ *
+ * Bots: affiliate links carry no href in the HTML. The link is in data-go and the global script in
+ * Layout.astro (data-go handler) turns it into a real href on the first pointer, touch, focus or key event,
+ * so crawlers that read or prefetch the page find nothing to follow, while people click as usual.
+ * Clicks are sent to Plausible as "Affiliate click" with the shop, the perfume and the page type.
  */
 import type { Locale } from '../i18n';
-import { shopsForPerfume, shopLink, goLink, formatPrice, offersDate } from '../lib/affiliates';
+import { shopsForPerfume, shopLink, goLink, formatPrice, offersDate, bottleMl } from '../lib/affiliates';
 import { promosFor } from '../lib/promos';
 
 interface Props { locale: Locale; name: string; brand: string; slug: string; from: string }
 const { locale: l, name, brand, slug, from } = Astro.props;
 const fr = l === 'fr';
 const shops = shopsForPerfume(l, slug);
+const [first, ...others] = shops;
 const promos = promosFor(l, shops.map((x) => x.shop.id));
 const seen = offersDate ? new Date(`${offersDate}T12:00:00Z`).toLocaleDateString(fr ? 'fr-FR' : 'en-US', { day: 'numeric', month: 'long', timeZone: 'UTC' }) : '';
+const link = (x: (typeof shops)[number]) => (x.offer ? goLink(x.shop, slug) : shopLink(x.shop, `${brand} ${name}`));
+const size = (x: (typeof shops)[number]) => (bottleMl(x.offer?.ml) ? ` · ${bottleMl(x.offer?.ml)} ml` : '');
 ---
 
-{shops.length > 0 && (
+{first && (
   <div class="buy">
-    {shops.map(({ shop: s, offer: o }) => (
-      <a class="buy__btn" href={o ? goLink(s, slug) : shopLink(s, `${brand} ${name}`)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume={slug} data-aff-from={from}>
-        <span class="buy__label">{o
-          ? (fr ? `${name} dès ${formatPrice(o, l)}` : `${name} from ${formatPrice(o, l)}`)
-          : (fr ? `Voir le prix de ${name}` : `Check the price of ${name}`)}</span>
-        <span class="buy__shop">{fr ? `chez ${s.name}` : `at ${s.name}`}{o?.ml ? ` · ${o.ml} ml` : ''} <span aria-hidden="true">→</span></span>
-      </a>
-    ))}
+    <a class="buy__btn" data-go={link(first)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={first.shop.id} data-aff-perfume={slug} data-aff-from={from}>
+      <span class="buy__label">{first.offer
+        ? (fr ? `${name} dès ${formatPrice(first.offer, l)}` : `${name} from ${formatPrice(first.offer, l)}`)
+        : (fr ? `Voir le prix de ${name}` : `Check the price of ${name}`)}</span>
+      <span class="buy__shop">{fr ? `chez ${first.shop.name}` : `at ${first.shop.name}`}{size(first)} <span aria-hidden="true">→</span></span>
+    </a>
+    {others.length > 0 && (
+      <ul class="buy__more" aria-label={fr ? 'Autres boutiques' : 'Other shops'}>
+        {others.map((x) => (
+          <li>
+            <a data-go={link(x)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={x.shop.id} data-aff-perfume={slug} data-aff-from={from}>
+              <span>{x.shop.name}</span>
+              <span class="buy__more-price">{x.offer ? formatPrice(x.offer, l) : (fr ? 'voir le prix' : 'see price')}{size(x)} <span aria-hidden="true">→</span></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
     {promos.map(({ promo: p, shop: s }) => (
       <p class="buy__promo" data-promo-start={p.start} data-promo-end={p.end} hidden>
         <strong>{p.label} at {s.name}</strong>: {p.text}{p.code && <> <b class="buy__code">{p.code}</b></>} ({p.dates}, online only).{' '}
-        <a href={goLink(s)} rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume="promo" data-aff-from={`${from}:promo`}>Shop the sale <span aria-hidden="true">→</span></a>
+        <a data-go={goLink(s)} role="link" tabindex="0" rel="sponsored nofollow noopener" target="_blank" data-aff={s.id} data-aff-perfume="promo" data-aff-from={`${from}:promo`}>Shop the sale <span aria-hidden="true">→</span></a>
       </p>
     ))}
     <p class="buy__note">{fr
@@ -45,7 +61,4 @@ const seen = offersDate ? new Date(`${offersDate}T12:00:00Z`).toLocaleDateString
   document.querySelectorAll<HTMLElement>('[data-promo-start]').forEach((el) => {
     el.hidden = !(now >= Date.parse(el.dataset.promoStart ?? '') && now < Date.parse(el.dataset.promoEnd ?? ''));
   });
-  document.querySelectorAll<HTMLAnchorElement>('[data-aff]').forEach((a) => a.addEventListener('click', () => {
-    try { (window as unknown as { plausible?: (n: string, o: { props: Record<string, string> }) => void }).plausible?.('Affiliate click', { props: { shop: a.dataset.aff ?? '', perfume: a.dataset.affPerfume ?? '', from: a.dataset.affFrom ?? '' } }); } catch { /* analytics never blocks the link */ }
-  }));
 </script>

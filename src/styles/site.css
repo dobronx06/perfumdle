@@ -514,3 +514,10 @@ a.tag:hover { background: var(--ink); color: var(--paper); }
 .buy__promo { font-size: 0.9rem; line-height: 1.45; padding: 0.7rem 0.9rem; border-radius: 12px; background: #FBF3E4; border: 1px dashed var(--gold, #B08D57); color: var(--ink); }
 .buy__promo a { font-weight: 600; white-space: nowrap; }
 .buy__code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.04em; padding: 0.05rem 0.35rem; border-radius: 6px; background: #fff; border: 1px solid var(--line); }
+.buy__btn { cursor: pointer; }
+.buy__more { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.buy__more li + li { border-top: 1px solid var(--line); }
+.buy__more a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.55rem 0.9rem; font-size: 0.9rem; color: var(--ink); text-decoration: none; cursor: pointer; }
+.buy__more a:hover { background: #FBF3E4; }
+.buy__more-price { color: var(--wine); font-weight: 600; white-space: nowrap; }
+.buy__more-price span { margin-left: 0.35rem; }
