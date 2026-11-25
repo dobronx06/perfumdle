@@ -15,8 +15,8 @@ export interface Offer { price: number; currency: string; ml: number | null; tit
 
 const shops = data.shops as Shop[];
 const offers = offersData as { generated: string | null; shops: Record<string, Record<string, Offer>> };
-/** Only a CJ click URL earns a commission: an offer pointing straight at the shop is never shown. */
-const TRACKED = /^https:\/\/www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(com|net)\/click-/;
+/** Only a CJ or Awin click URL earns a commission: an offer pointing straight at the shop is never shown. */
+const TRACKED = /^https:\/\/www\.(?:(?:jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(?:com|net)\/click-|awin1\.com\/(?:pclick|cread)\.php\?)/;
 
 export const offersDate = offers.generated;
 export const shopsFor = (l: Locale) => shops.filter((s) => s.locales.includes(l));
@@ -33,7 +33,9 @@ export function shopsForPerfume(l: Locale, slug: string): { shop: Shop; offer?: 
   });
   // Cheapest per ml first, so a 60 ml bottle does not pass for cheaper than a 100 ml one
   const unit = (o?: Offer) => (o ? (o.ml ? o.price / o.ml : o.price / 100) : Infinity);
-  return list.sort((a, b) => unit(a.offer) - unit(b.offer));
+  // Prices in different currencies are not comparable: the locale's main currency comes first
+  const foreign = (o?: Offer) => (o && o.currency !== (l === 'fr' ? 'EUR' : 'USD') ? 1 : 0);
+  return list.sort((a, b) => foreign(a.offer) - foreign(b.offer) || unit(a.offer) - unit(b.offer));
 }
 
 const SIZES = [5, 7.5, 10, 15, 20, 30, 35, 40, 45, 50, 60, 65, 75, 80, 90, 100, 110, 120, 125, 150, 175, 180, 200];
