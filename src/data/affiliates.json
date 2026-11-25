@@ -36,6 +36,19 @@
       "catalog": true,
       "parser": "generic",
       "home": "https://www.fragranceoutlet.com/"
+    },
+    {
+      "id": "fragranceclick",
+      "name": "Fragrance Click UK",
+      "locales": [
+        "en"
+      ],
+      "network": "awin",
+      "awin_advertiser": "124166",
+      "awin_feed": "113894",
+      "catalog": true,
+      "parser": "generic",
+      "home": "https://www.fragranceclick.co.uk/"
     }
   ]
 }

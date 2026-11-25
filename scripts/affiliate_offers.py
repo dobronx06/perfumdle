@@ -9,7 +9,7 @@ or from ~/.config/perfumdle/affiliate.env (CJ_TOKEN=...). It is never printed.
 
 Usage: python3 scripts/affiliate_offers.py
 """
-import json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request, urllib.error, urllib.parse
+import csv, gzip, io, json, os, re, sys, time, unicodedata, datetime, pathlib, urllib.request, urllib.error, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CJ_CID = '8110171'      # CJ company (publisher) ID
@@ -17,15 +17,15 @@ CJ_PID = '101915272'    # CJ website ID for perfumdle.com
 OUT = ROOT / 'src/data/affiliate-offers.json'
 
 
-def token():
-    if os.environ.get('CJ_TOKEN'):
-        return os.environ['CJ_TOKEN']
+def token(name='CJ_TOKEN'):
+    if os.environ.get(name):
+        return os.environ[name]
     env = pathlib.Path.home() / '.config/perfumdle/affiliate.env'
     if env.exists():
         for line in env.read_text().splitlines():
-            if line.startswith('CJ_TOKEN='):
+            if line.startswith(f'{name}='):
                 return line.split('=', 1)[1].strip()
-    sys.exit('CJ_TOKEN missing (env var or ~/.config/perfumdle/affiliate.env)')
+    sys.exit(f'{name} missing (env var or ~/.config/perfumdle/affiliate.env)')
 
 
 def norm(s):
@@ -90,6 +90,36 @@ def cj_products(tok, advertiser):
         if not p['count'] or offset >= p['totalCount'] or offset >= 10000:
             return out
         time.sleep(1)
+
+
+
+def awin_products(key, feed):
+    """The shop's Awin product feed, in the same shape as CJ products. The key is in the URL: never print it."""
+    cols = 'aw_deep_link,product_name,brand_name,search_price,currency,in_stock'
+    url = (f'https://productdata.awin.com/datafeed/download/apikey/{key}/fid/{feed}/format/csv/language/en/delimiter/%2C'
+           f'/compression/gzip/columns/{urllib.parse.quote(cols, safe="")}/')
+    for attempt in range(3):
+        try:
+            raw = urllib.request.urlopen(url, timeout=120).read()
+            break
+        except urllib.error.HTTPError as e:
+            sys.exit(f'Awin feed HTTP {e.code}')
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == 2:
+                sys.exit('Awin feed unreachable after 3 tries')
+            time.sleep(30)
+    text = (gzip.decompress(raw) if raw[:2] == b'\x1f\x8b' else raw).decode('utf-8-sig', errors='replace')
+    out = []
+    for r in csv.DictReader(io.StringIO(text)):
+        if not r.get('search_price') or not r.get('currency'):
+            continue
+        out.append({'title': r['product_name'], 'brand': r['brand_name'], 'link': None,
+                    'price': {'amount': r['search_price'], 'currency': r['currency']},
+                    'availability': 'in stock' if (r.get('in_stock') or '').lower() in ('1', 'yes', 'true') else 'out of stock',
+                    'linkCode': {'clickUrl': r['aw_deep_link']}})
+    if not out:
+        sys.exit('Awin feed empty or without prices')
+    return out
 
 
 def size_ml(title):
@@ -182,8 +212,8 @@ def rank(o):
 
 
 def tracked(url):
-    """Only CJ click URLs earn a commission: an offer without one is never shown."""
-    return bool(url) and re.match(r'^https://www\.(jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(com|net)/click-', url) is not None
+    """Only CJ and Awin click URLs earn a commission: an offer without one is never shown."""
+    return bool(url) and re.match(r'^https://www\.(?:(?:jdoqocy|kqzyfj|dpbolvw|anrdoezrs|tkqlhce)\.(?:com|net)/click-|awin1\.com/(?:pclick|cread)\.php\?)', url) is not None
 
 
 def match(products, perfumes, parser=parse, deeplink=None):
@@ -242,11 +272,14 @@ def main():
     for s in shops:
         if not s.get('catalog'):
             continue
-        if s.get('network') == 'cj':
-            tok = tok or token()
+        if s.get('network') in ('cj', 'awin'):
             # One shop's feed failing must not lose the other shops' prices: keep its last offers.
             try:
-                products = cj_products(tok, s['cj_advertiser'])
+                if s['network'] == 'awin':
+                    products = awin_products(token('AWIN_FEED_KEY'), s['awin_feed'])
+                else:
+                    tok = tok or token()
+                    products = cj_products(tok, s['cj_advertiser'])
             except SystemExit as e:
                 print(f"{s['id']}: {e}, previous offers kept")
                 if s['id'] in previous:
