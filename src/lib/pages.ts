@@ -40,7 +40,7 @@ function selectionGroup(l: Locale, title: string, items: { label: string; href: 
   return items.length ? [{ eyebrow: l === 'fr' ? 'Sélections commentées' : 'Curated selections', title, items }] : [];
 }
 
-const byYear = (a: Perfume, b: Perfume) => a.year - b.year;
+const byYear = (a: Perfume, b: Perfume) => (a.year ?? 9999) - (b.year ?? 9999);
 const byFame = (a: Perfume, b: Perfume) => a.id - b.id; // dataset is ordered by notoriety
 
 /* ------------------------------------------------------------------ brand */
@@ -52,7 +52,7 @@ const QUERY_TITLED_HOUSES = new Set(['Maison Francis Kurkdjian', 'Ex Nihilo', 'A
 export function brandPage(b: Brand, l: Locale) {
   const fr = l === 'fr';
   const ed = b.ed?.[l];
-  const years = b.perfumes.map((p) => p.year);
+  const years = b.perfumes.map((p) => p.year).filter((y): y is number => !!y);
   const similarHouses = brands
     .filter((o) => o.name !== b.name)
     .map((o) => ({ o, s: avgSim(b.perfumes, o.perfumes) }))
@@ -205,7 +205,7 @@ export function familyPage(key: string, l: Locale) {
     stats: [
       { value: String(f.perfumes.length), label: fr ? 'parfums' : 'perfumes' },
       { value: String(new Set(f.perfumes.map((p) => p.brand)).size), label: fr ? 'maisons' : 'houses' },
-      { value: String(Math.min(...f.perfumes.map((p) => p.year))), label: fr ? 'le plus ancien' : 'oldest' },
+      { value: String(Math.min(...f.perfumes.map((p) => p.year ?? 9999))), label: fr ? 'le plus ancien' : 'oldest' },
     ],
     sections: [
       { title: fr ? 'Histoire de la famille' : 'A short history', body: ed?.history },
@@ -254,7 +254,7 @@ export function eraPage(decade: number, l: Locale) {
     sections: [{ title: fr ? "L'esprit d'une décennie" : 'The spirit of a decade', body: ed?.context }],
     perfumes: e.perfumes,
     perfumesTitle: fr ? `Les parfums lancés dans les ${lc(l, name)}` : `Perfumes launched in ${name.toLowerCase()}`,
-    perfumeNote: (p: Perfume) => String(p.year),
+    perfumeNote: (p: Perfume) => (p.year ? String(p.year) : ''),
     groups: [noteGroup(l, e.perfumes), houseGroup(l, e.perfumes)],
     faq: ed?.faq ?? [],
     filterable: e.perfumes.length > 12,

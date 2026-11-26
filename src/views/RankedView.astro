@@ -101,7 +101,7 @@ const jsonLd = compact([
                   {p.image && <img src={p.image} alt={`${p.name} ${p.brand}`} width="600" height="600" loading={i < 2 ? 'eager' : 'lazy'} />}
                 </a>
                 <div class="ranked__body">
-                  <p class="card__house">{p.brand} · {p.year} · {familyLabel(p.family, l)}</p>
+                  <p class="card__house">{p.brand} · {p.year ? `${p.year} · ` : ''}{familyLabel(p.family, l)}</p>
                   <h3 class="h3" style="margin:0.15rem 0 0.5rem"><a href={url.perfume(l, p.slug)}>{p.name}</a></h3>
                   <p>{c.why?.[p.slug]}</p>
                   <div class="tags" style="margin-top:0.7rem">

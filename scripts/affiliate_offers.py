@@ -263,6 +263,24 @@ def match(products, perfumes, parser=parse, deeplink=None):
     return offers
 
 
+def match_exact(products, perfumes, brand):
+    """House shops (Al Jazeera Perfumes): the feed title is the perfume's name alone, so a perfume of that
+    brand matches when the names are equal once normalised. Hair mists, sets, candles and samples never match."""
+    offers = {}
+    names = {norm(pf['name']): pf['slug'] for pf in perfumes if pf['brand'] == brand}
+    for p in products:
+        if not p.get('price') or (p.get('availability') or '').lower() == 'out of stock':
+            continue
+        slug = names.get(norm(p['title']))
+        url = (p.get('linkCode') or {}).get('clickUrl')
+        if not slug or not tracked(url):
+            continue
+        cand = {'price': float(p['price']['amount']), 'currency': p['price']['currency'], 'ml': size_ml(p['title']), 'title': p['title'], 'url': url}
+        if slug not in offers or cand['price'] < offers[slug]['price']:
+            offers[slug] = cand
+    return offers
+
+
 def main():
     shops = json.load(open(ROOT / 'src/data/affiliates.json'))['shops']
     perfumes = json.load(open(ROOT / 'src/data/perfumes.json'))
@@ -290,7 +308,8 @@ def main():
         deeplink = None
         if s.get('network') == 'cj' and not any((p.get('linkCode') or {}).get('clickUrl') for p in products[:200]):
             deeplink = cj_deeplink_prefix(tok, s['cj_advertiser'])
-        offers = match(products, perfumes, PARSERS[s.get('parser', 'fragranceshop')], deeplink)
+        offers = (match_exact(products, perfumes, s['brand']) if s.get('parser') == 'exact'
+                  else match(products, perfumes, PARSERS[s.get('parser', 'fragranceshop')], deeplink))
         data['shops'][s['id']] = offers
         print(f"{s['id']}: {len(products)} products, {len(offers)} perfumes matched")
         if os.environ.get('CATALOG_SAMPLE'):

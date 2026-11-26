@@ -12,7 +12,7 @@ import Faq from '../components/Faq.astro';
 import PerfumeCard from '../components/PerfumeCard.astro';
 import type { Locale } from '../i18n';
 import {
-  url, perfumeEditorial, perfumeDeep, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName,
+  url, perfumeEditorial, perfumeDeep, brandByName, allNotes, noteName, hasNotePage, familyName, familyLabel, decadeOf, eraName, brandYear, yearParen,
   similarPerfumes, tintFor, hasFamilyPage, GENDER_LABEL, SEASON_LABEL, OCCASION_LABEL, type Perfume, type Faq as FaqT,
 } from '../lib/catalog';
 import { breadcrumbLd, faqLd, articleLd, compact } from '../lib/seo';
@@ -36,7 +36,7 @@ const list = (xs: string[]) => {
 };
 const lc = (s: string) => (fr ? s.toLowerCase() : s);
 const gender = GENDER_LABEL[l][p.gender];
-const decade = decadeOf(p.year);
+const decade = p.year ? decadeOf(p.year) : null;
 const hasSimilarPage = isPublished('similar', p.slug);
 const ad = fr && p.slug in (adsData as { pages: Record<string, unknown> }).pages && isPublished('ad', p.slug) ? `/fr/pub-parfum/${p.slug}/` : null;
 const selections = rankedLinks(l, (d) => d.kind !== 'nose' && !!rankedCopy(d.id)?.picks?.includes(p.slug)).slice(0, 8);
@@ -63,11 +63,11 @@ const seo = perfumeSeo(p.slug, fr ? 'fr' : 'en');
 const title = seo?.title ?? (longTitle.length <= 65 ? longTitle : midTitle.length <= 65 ? midTitle : fr ? `${p.name} (${p.brand}) : notes et avis` : `${p.name} (${p.brand}): notes & review`);
 const topThree = allNotes(p).slice(0, 3).map((n) => lc(noteName(n, l)));
 const rawDescription = fr
-  ? `${p.name} (${p.brand}, ${p.year}) : pyramide olfactive (${topThree.join(', ')}…), avis, tenue, saisons idéales et parfums qui lui ressemblent.`
-  : `${p.name} (${p.brand}, ${p.year}): notes pyramid (${topThree.join(', ')}…), review, longevity, best seasons and perfumes that smell similar.`;
+  ? `${p.name} (${brandYear(p)}) : pyramide olfactive (${topThree.join(', ')}…), avis, tenue, saisons idéales et parfums qui lui ressemblent.`
+  : `${p.name} (${brandYear(p)}): notes pyramid (${topThree.join(', ')}…), review, longevity, best seasons and perfumes that smell similar.`;
 const description = seo?.meta ?? (rawDescription.length <= 160 ? rawDescription : fr
-  ? `${p.name} (${p.brand}, ${p.year}) : notes (${topThree.join(', ')}…), avis, saisons et parfums similaires.`
-  : `${p.name} (${p.brand}, ${p.year}): notes (${topThree.join(', ')}…), review, seasons and similar perfumes.`);
+  ? `${p.name} (${brandYear(p)}) : notes (${topThree.join(', ')}…), avis, saisons et parfums similaires.`
+  : `${p.name} (${brandYear(p)}): notes (${topThree.join(', ')}…), review, seasons and similar perfumes.`);
 
 const crumbs = [
   { name: fr ? 'Accueil' : 'Home', href: url.home(l) },
@@ -95,10 +95,10 @@ const GENDER_WORD = fr ? { Feminine: 'féminin', Masculine: 'masculin', Unisex: 
 const famWord = familyLabel(p.family, l).toLowerCase();
 const top3 = (xs: string[]) => noteList(xs.slice(0, 3));
 const answer = fr
-  ? `${p.name} de ${p.brand} (${p.year}) est un parfum ${GENDER_WORD[p.gender]} de la famille ${famWord}.` +
+  ? `${p.name} de ${p.brand}${yearParen(p)} est un parfum ${GENDER_WORD[p.gender]} de la famille ${famWord}.` +
     `${p.notes.top.length ? ` Il s'ouvre sur ${top3(p.notes.top)}` : ''}${p.notes.heart.length ? `, son cœur associe ${top3(p.notes.heart)}` : ''}${p.notes.base.length ? ` et son fond repose sur ${top3(p.notes.base)}` : ''}.` +
     `${ed?.seasons?.length ? ` À porter de préférence ${seasonList(ed.seasons)}.` : ''}`
-  : `${p.name} by ${p.brand} (${p.year}) is a ${GENDER_WORD[p.gender]} ${famWord} fragrance.` +
+  : `${p.name} by ${p.brand}${yearParen(p)} is a ${GENDER_WORD[p.gender]} ${famWord} fragrance.` +
     `${p.notes.top.length ? ` It opens with ${top3(p.notes.top)}` : ''}${p.notes.heart.length ? `, has a heart of ${top3(p.notes.heart)}` : ''}${p.notes.base.length ? ` and dries down to ${top3(p.notes.base)}` : ''}.` +
     `${ed?.seasons?.length ? ` Best worn in ${seasonList(ed.seasons)}.` : ''}`;
 
@@ -112,14 +112,14 @@ const faqs: FaqT[] = compact([
   {
     q: fr ? `${p.name} est-il un parfum pour homme ou pour femme ?` : `Is ${p.name} for men or women?`,
     a: fr
-      ? `${p.brand} présente ${p.name} comme un parfum ${p.gender === 'Unisex' ? 'mixte, pensé pour être porté par tous' : lc(gender)}. Rien n'empêche de le porter autrement : la parfumerie contemporaine brouille volontiers ces frontières.`
-      : `${p.brand} presents ${p.name} as ${p.gender === 'Unisex' ? 'a unisex fragrance meant for everyone' : `a ${lc(gender)} fragrance`}. Nothing stops anyone from wearing it: modern perfumery happily blurs these lines.`,
+      ? p.gender_unstated ? `${p.brand} vend ${p.name} sans l'adresser aux femmes ou aux hommes : c'est un parfum à porter par tous. Rien n'oblige à suivre une étiquette de toute façon.` : `${p.brand} présente ${p.name} comme un parfum ${p.gender === 'Unisex' ? 'mixte, pensé pour être porté par tous' : lc(gender)}. Rien n'empêche de le porter autrement : la parfumerie contemporaine brouille volontiers ces frontières.`
+      : p.gender_unstated ? `${p.brand} sells ${p.name} without aiming it at women or men, so it is a fragrance for anyone. Labels are optional anyway.` : `${p.brand} presents ${p.name} as ${p.gender === 'Unisex' ? 'a unisex fragrance meant for everyone' : `a ${lc(gender)} fragrance`}. Nothing stops anyone from wearing it: modern perfumery happily blurs these lines.`,
   },
   {
     q: fr ? `Quand ${p.name} est-il sorti ?` : `When was ${p.name} released?`,
     a: fr
-      ? `${p.name} a été lancé en ${p.year} par ${p.brand}${ed?.perfumer ? `, sur une composition ${de(ed.perfumer)}` : ''}. Il est proposé en ${p.concentration}.`
-      : `${p.name} was launched in ${p.year} by ${p.brand}${ed?.perfumer ? `, composed by ${ed.perfumer}` : ''}. It comes as an ${p.concentration}.`,
+      ? !p.year ? `${p.brand} ne communique pas l'année de sortie de ${p.name}${ed?.perfumer ? ` (parfumeur : ${ed.perfumer})` : ''}${p.concentration ? `. Il est proposé en ${p.concentration}` : ''}.` : `${p.name} a été lancé en ${p.year} par ${p.brand}${ed?.perfumer ? `, sur une composition ${de(ed.perfumer)}` : ''}. Il est proposé en ${p.concentration}.`
+      : !p.year ? `${p.brand} does not give a launch year for ${p.name}${ed?.perfumer ? `, composed by ${ed.perfumer}` : ''}${p.concentration ? `. It comes as an ${p.concentration}` : ''}.` : `${p.name} was launched in ${p.year} by ${p.brand}${ed?.perfumer ? `, composed by ${ed.perfumer}` : ''}. It comes as an ${p.concentration}.`,
   },
   ed?.seasons?.length
     ? {
@@ -159,16 +159,16 @@ const jsonLd = compact([
             {p.image ? <img src={p.image} alt={`${fr ? 'Flacon de' : 'Bottle of'} ${p.name} ${p.brand}`} width="600" height="600" loading="eager" fetchpriority="high" /> : <span class="card__initials">{p.name.slice(0, 2)}</span>}
           </div>
           <div class="entity-hero__copy">
-            <p class="eyebrow reveal"><a href={url.brand(l, p.brand)}>{p.brand}</a> · <a href={url.era(l, decade)}>{p.year}</a></p>
+            <p class="eyebrow reveal"><a href={url.brand(l, p.brand)}>{p.brand}</a>{decade !== null && <> · <a href={url.era(l, decade)}>{p.year}</a></>}</p>
             <h1 class="h1 reveal reveal-2">{p.name}</h1>
             {txt?.tagline && <p class="tagline reveal reveal-3">{txt.tagline}</p>}
             <p class="answer reveal reveal-3">{answer}</p>
             <dl class="facts reveal reveal-4">
               <div><dt>{fr ? 'Maison' : 'House'}</dt><dd><a href={url.brand(l, p.brand)}>{p.brand}</a></dd></div>
-              <div><dt>{fr ? 'Lancement' : 'Launched'}</dt><dd><a href={url.era(l, decade)}>{p.year}</a></dd></div>
+              <div><dt>{fr ? 'Lancement' : 'Launched'}</dt><dd>{decade !== null ? <a href={url.era(l, decade)}>{p.year}</a> : (fr ? 'Non communiqué' : 'Not disclosed')}</dd></div>
               <div><dt>{fr ? 'Pour' : 'For'}</dt><dd><a href={url.gender(l, p.gender)}>{gender}</a></dd></div>
               <div><dt>{fr ? 'Famille' : 'Family'}</dt><dd>{p.families[0] && hasFamilyPage(p.families[0]) ? <a href={url.family(l, p.families[0])}>{familyLabel(p.family, l)}</a> : familyLabel(p.family, l)}</dd></div>
-              <div><dt>Concentration</dt><dd>{p.concentration}</dd></div>
+              {p.concentration && <div><dt>Concentration</dt><dd>{p.concentration}</dd></div>}
               {ed?.perfumer && <div><dt>{fr ? 'Parfumeur' : 'Perfumer'}</dt><dd>{perfumerNames.map((n, i) => <>{i > 0 && ', '}{noseHref(n) ? <a href={noseHref(n)!}>{n}</a> : n}</>)}</dd></div>}
             </dl>
             <PriceBox locale={l} name={p.name} brand={p.brand} slug={p.slug} from="perfume" image={p.image} />
