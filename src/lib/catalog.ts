@@ -19,7 +19,10 @@ export interface Perfume {
   slug: string;
   name: string;
   brand: string;
-  year: number;
+  /** null when the house never published a launch year (shown as "year not given", kept out of eras and the game) */
+  year: number | null;
+  /** true when the house sells it without a gender: the page says so instead of "presented as unisex" */
+  gender_unstated?: boolean;
   gender: 'Feminine' | 'Masculine' | 'Unisex';
   family: string;
   families: string[];
@@ -148,7 +151,7 @@ export const brands: Brand[] = (() => {
   const map = new Map<string, Perfume[]>();
   for (const p of perfumes) map.set(p.brand, [...(map.get(p.brand) ?? []), p]);
   return [...map.entries()]
-    .map(([name, list]) => ({ name, slug: brandSlug(name), perfumes: list.sort((a, b) => a.year - b.year), ed: brandEd[name] }))
+    .map(([name, list]) => ({ name, slug: brandSlug(name), perfumes: list.sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999)), ed: brandEd[name] }))
     .sort((a, b) => a.name.localeCompare(b.name, 'fr'));
 })();
 
@@ -311,11 +314,16 @@ export function eraName(decade: number, l: Locale): string {
   return l === 'fr' ? `Années ${decade}` : `The ${decade}s`;
 }
 
-export const eras = [...new Set(perfumes.map((p) => decadeOf(p.year)))]
+/** "Brand, 1925", or just the brand when the year is unknown. */
+export const brandYear = (p: Perfume) => (p.year ? `${p.brand}, ${p.year}` : p.brand);
+/** " (1925)" or nothing. */
+export const yearParen = (p: Perfume) => (p.year ? ` (${p.year})` : '');
+
+export const eras = [...new Set(perfumes.filter((p) => p.year).map((p) => decadeOf(p.year!)))]
   .sort((a, b) => a - b)
   .map((decade) => ({
     decade,
-    perfumes: perfumes.filter((p) => decadeOf(p.year) === decade).sort((a, b) => a.year - b.year),
+    perfumes: perfumes.filter((p) => p.year && decadeOf(p.year) === decade).sort((a, b) => a.year! - b.year!),
     ed: hubs.decades?.[String(decade)] as HubEditorial | undefined,
   }));
 

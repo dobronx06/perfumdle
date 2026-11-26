@@ -49,6 +49,21 @@
       "catalog": true,
       "parser": "generic",
       "home": "https://www.fragranceclick.co.uk/"
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera Perfumes",
+      "locales": [
+        "fr",
+        "en"
+      ],
+      "network": "awin",
+      "awin_advertiser": "126135",
+      "awin_feed": "115328",
+      "catalog": true,
+      "parser": "exact",
+      "brand": "Al Jazeera Perfumes",
+      "home": "https://europe.aljazeeraperfumes.com/"
     }
   ]
 }

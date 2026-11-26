@@ -30,7 +30,7 @@ export const GET: APIRoute = ({ params }) => {
     const title = p.name.toLowerCase().includes(p.brand.toLowerCase())
       ? `${p.name} : notes, avis et parfums similaires`
       : `${p.name} de ${p.brand} : notes, avis et parfums similaires`;
-    const desc = `${ed?.tagline ?? ''} ${p.name} (${p.brand}, ${p.year}), parfum ${familyLabel(p.family, 'fr').toLowerCase()}. Notes : ${notes}. Pyramide olfactive, avis et parfums qui lui ressemblent sur Perfumdle.`.trim();
+    const desc = `${ed?.tagline ?? ''} ${p.name} (${p.year ? `${p.brand}, ${p.year}` : p.brand}), parfum ${familyLabel(p.family, 'fr').toLowerCase()}. Notes : ${notes}. Pyramide olfactive, avis et parfums qui lui ressemblent sur Perfumdle.`.trim();
     const size = fs.statSync(`public/pins/${p.slug}.jpg`).size;
     return `<item><title>${esc(title)}</title><link>${link}</link><guid isPermaLink="true">${link}</guid>` +
       `<pubDate>${new Date(now - i * 3600_000).toUTCString()}</pubDate><description>${esc(desc)}</description>` +

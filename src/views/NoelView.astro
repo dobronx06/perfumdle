@@ -9,7 +9,7 @@ import Shell from '../components/Shell.astro';
 import PerfumeCard from '../components/PerfumeCard.astro';
 import PriceBox from '../components/PriceBox.astro';
 import popularity from '../data/perfume-popularity.json';
-import { url, perfumes, perfumeBySlug, perfumeEditorial, mainFamily, allNotes } from '../lib/catalog';
+import { url, perfumes, perfumeBySlug, perfumeEditorial, mainFamily, allNotes, brandYear } from '../lib/catalog';
 import { shopsForPerfume, formatPrice } from '../lib/affiliates';
 import { isPublished } from '../lib/schedule';
 import { noelPage, noelUrl, noelOfGroup, isNoelLive, NOEL_HUB, NOEL_GROUPS } from '../lib/noel';
@@ -48,7 +48,7 @@ const SWEET = /vanill|tonka|praline|caramel|chocolate|cocoa|honey|sugar|cotton c
 type Cand = [string, string, string, number, string, string, number, string, string];
 const cands: Cand[] = isHub
   ? perfumes
-      .filter((p) => perfumeEditorial(p.slug))
+      .filter((p) => p.year && perfumeEditorial(p.slug))
       .sort((a, b) => (pop[b.slug] ?? 0) - (pop[a.slug] ?? 0))
       .slice(0, 360)
       .map((p) => {
@@ -56,7 +56,7 @@ const cands: Cand[] = isHub
         const sweet = allNotes(p).some((n) => SWEET.test(n));
         const sc = STYLES.map((s) => Math.min(2, (MAIN[s].includes(m) ? 2 : 0) + (p.families.some((f) => ANY[s].includes(f)) ? 1 : 0) + (s === 'gourmand' && sweet ? 1 : 0))).join('');
         const buy = shopsForPerfume('fr', p.slug).find((x) => x.offer);
-        return [p.slug, p.name, p.brand, p.year, p.gender[0], sc, perfumeEditorial(p.slug)!.intensity,
+        return [p.slug, p.name, p.brand, p.year!, p.gender[0], sc, perfumeEditorial(p.slug)!.intensity,
           buy?.offer?.url ?? '', buy ? `${formatPrice(buy.offer!, 'fr')} chez ${buy.shop.name}` : ''] as Cand;
       })
   : [];
@@ -106,7 +106,7 @@ const Q = [
     <article class="prose">
       {about && (
         <p class="noel-about">
-          Le parfum de départ : <a href={url.perfume('fr', about.slug)}>{about.name}</a> ({about.brand}, {about.year}).
+          Le parfum de départ : <a href={url.perfume('fr', about.slug)}>{about.name}</a> ({brandYear(about)}).
           {hasSimilar(about.slug) && <> Pour la liste complète de ses voisins, voyez <a href={url.similar('fr', about.slug)}>les parfums similaires à {about.name}</a>.</>}
         </p>
       )}
@@ -116,7 +116,7 @@ const Q = [
           <h2>{c.kind === 'coffret' ? 'Le parfum d’abord : nos choix' : 'Notre sélection'}</h2>
           {picks.filter((p) => c.why?.[p.slug]).map((p) => (
             <>
-              <h3><a href={url.perfume('fr', p.slug)}>{p.name}</a> ({p.brand}, {p.year})</h3>
+              <h3><a href={url.perfume('fr', p.slug)}>{p.name}</a> ({brandYear(p)})</h3>
               <p>{c.why![p.slug]}</p>
               {hasSimilar(p.slug) && <p class="muted" style="font-size:.88rem;margin-top:-.4rem"><a href={url.similar('fr', p.slug)}>Les parfums proches de {p.name}</a></p>}
               <PriceBox locale="fr" name={p.name} brand={p.brand} slug={p.slug} from="noel" image={p.image} />

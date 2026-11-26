@@ -23,12 +23,12 @@ const PERIODS = [
   { key: '2010', label: fr ? 'Années 2010' : '2010s', test: (y: number) => y >= 2010 && y < 2020 },
   { key: '2020', label: fr ? 'Depuis 2020' : 'Since 2020', test: (y: number) => y >= 2020 },
 ];
-const group = (test: (y: number) => boolean) => perfumes.filter((p) => test(p.year));
+const group = (test: (y: number) => boolean) => perfumes.filter((p) => p.year && test(p.year));
 const pct = (list: Perfume[], pred: (p: Perfume) => boolean) => (list.length ? Math.round((100 * list.filter(pred).length) / list.length) : 0);
 const has = (note: string) => (p: Perfume) => allNotes(p).includes(note);
 const share = (note: string, test: (y: number) => boolean) => pct(group(test), has(note));
 
-const years = perfumes.map((p) => p.year);
+const years = perfumes.map((p) => p.year).filter((y): y is number => !!y);
 const vars: Record<string, number> = {
   n: perfumes.length,
   first: Math.min(...years),

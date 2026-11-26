@@ -22,7 +22,8 @@ const fr = l === 'fr';
 
 const usedNotes = new Set<string>();
 const usedFams = new Set<string>();
-const entities = perfumes.map((p) => {
+// Perfumes without a known year cannot be compared on the decade clue: they stay out of the game.
+const entities = perfumes.filter((p) => p.year).map((p) => {
   for (const n of allNotes(p)) usedNotes.add(n);
   const fam = mainFamily(p);
   usedFams.add(fam);

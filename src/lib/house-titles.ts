@@ -81,6 +81,9 @@ const MAX = 60;
 /** Shorter name people actually type, where the official one eats the whole title. */
 const SHORT: Record<string, string> = { 'Initio Parfums Privés': 'Initio' };
 
+/** "Guerlain Perfumes", but "Al Jazeera Perfumes" stays as is. */
+const withPerfumes = (brand: string) => (/ Perfumes$/.test(brand) ? brand : `${brand} Perfumes`);
+
 export function houseTitle(house: string, list: Perfume[], l: Locale): string {
   const fr = l === 'fr';
   const n = list.length;
@@ -89,13 +92,13 @@ export function houseTitle(house: string, list: Perfume[], l: Locale): string {
   if (n >= 5) {
     const candidates = fr
       ? [`Meilleurs parfums ${brand} : ${a}, ${b} et ${n - 2} autres`, `Meilleurs parfums ${brand} : ${a} et ${n - 1} autres`, `${brand} : ${a} et ${n - 1} autres parfums`, `${brand} : ${a} et ${n - 1} autres`, `Meilleurs parfums ${brand} : les ${n} par année`, `Parfums ${brand} : les ${n} par année`]
-      : [`Best ${brand} Perfumes: ${a}, ${b} and ${n - 2} More`, `Best ${brand} Perfumes: ${a} and ${n - 1} More`, `${brand}: ${a} and ${n - 1} More Perfumes`, `${brand}: ${a} and ${n - 1} More`, `Best ${brand} Perfumes: All ${n} by Year`, `${brand} Perfumes: ${n} by Year`];
+      : [`Best ${withPerfumes(brand)}: ${a}, ${b} and ${n - 2} More`, `Best ${withPerfumes(brand)}: ${a} and ${n - 1} More`, `${brand}: ${a} and ${n - 1} More Perfumes`, `${brand}: ${a} and ${n - 1} More`, `Best ${withPerfumes(brand)}: All ${n} by Year`, `${withPerfumes(brand)}: ${n} by Year`];
     return candidates.find((t) => t.length <= MAX) ?? candidates[candidates.length - 1];
   }
   if (n >= 2) {
     const candidates = fr
       ? [`Parfums ${brand} : ${a} et ${b}, notes et avis`, `Parfums ${brand} : ${a} et ${b}`, `Parfums ${brand} : notes et avis`]
-      : [`${brand} Perfumes: ${a} and ${b}, Notes and Reviews`, `${brand} Perfumes: ${a} and ${b}`, `${brand} Perfumes: Notes and Reviews`];
+      : [`${withPerfumes(brand)}: ${a} and ${b}, Notes and Reviews`, `${withPerfumes(brand)}: ${a} and ${b}`, `${withPerfumes(brand)}: Notes and Reviews`];
     return candidates.find((t) => t.length <= MAX) ?? candidates[candidates.length - 1];
   }
   const candidates = fr ? [`Parfum ${brand} : ${a}, notes et avis`, `Parfum ${brand} : notes et avis`] : [`${brand} Perfume: ${a} Notes and Review`, `${brand} Perfume: Notes and Review`];
@@ -104,7 +107,8 @@ export function houseTitle(house: string, list: Perfume[], l: Locale): string {
 
 export function houseDescription(brand: string, list: Perfume[], l: Locale): string {
   const fr = l === 'fr';
-  const sorted = list.slice().sort((x, y) => x.year - y.year);
+  const dated = list.filter((p) => p.year);
+  const sorted = (dated.length ? dated : list).slice().sort((x, y) => (x.year ?? 0) - (y.year ?? 0));
   const first = sorted[0];
   const last = sorted[sorted.length - 1];
   const n = list.length;
@@ -112,12 +116,17 @@ export function houseDescription(brand: string, list: Perfume[], l: Locale): str
   const forWhom = genders.size > 1 || genders.has('Unisex')
     ? (fr ? 'femme et homme' : 'for women and men')
     : genders.has('Feminine') ? (fr ? 'pour femme' : 'for women') : (fr ? 'pour homme' : 'for men');
-  if (n === 1) {
+  if (!dated.length || n === 1) {
+    if (n > 1) {
+      return fr
+        ? `${n} parfums ${brand} ${forWhom} : notes de tête, de cœur et de fond, avis et lequel choisir.`
+        : `${n} ${withPerfumes(brand).replace(/ Perfumes$/, ' perfumes')} ${forWhom}: top, heart and base notes, reviews and which one to pick.`;
+    }
     return fr
-      ? `${first.name} de ${brand} (${first.year}) : notes de tête, de cœur et de fond, avis et parfums proches.`
-      : `${first.name} by ${brand} (${first.year}): top, heart and base notes, our review and similar perfumes to try.`;
+      ? `${first.name} de ${brand}${first.year ? ` (${first.year})` : ''} : notes de tête, de cœur et de fond, avis et parfums proches.`
+      : `${first.name} by ${brand}${first.year ? ` (${first.year})` : ''}: top, heart and base notes, our review and similar perfumes to try.`;
   }
   return fr
     ? `${n} parfums ${brand} ${forWhom} classés par année, de ${first.name} (${first.year}) à ${last.name} (${last.year}). Notes, avis et lequel choisir.`
-    : `${n} ${brand} perfumes ${forWhom}, listed by year from ${first.name} (${first.year}) to ${last.name} (${last.year}). Notes, reviews and which one to pick.`;
+    : `${n} ${withPerfumes(brand).replace(/ Perfumes$/, ' perfumes')} ${forWhom}, listed by year from ${first.name} (${first.year}) to ${last.name} (${last.year}). Notes, reviews and which one to pick.`;
 }
